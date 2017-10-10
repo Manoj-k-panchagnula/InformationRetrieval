@@ -1,0 +1,519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:og="http://ogp.me/ns#">
+	
+<head profile="http://a9.com/-/spec/opensearch/1.1/">
+        <meta http-equiv="Content-Type" content="text/html;  charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1,requiresActiveX=true" />
+        <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+        <!--[if IE]><![endif]-->
+
+        <title> UNT Digital Library</title>
+
+	<!-- HTML Metadata -->
+	
+	<meta name="description" content="The UNT Digital Library is a centralized repository for the rich collections held by the libraries, colleges, schools, and departments at the University of North Texas. " />
+
+	<meta name="keywords" content="UNT digital library, institutional repository, UNT Libraries', digital collections" />
+
+	<meta name="author" content="UNT Libraries' Digital Projects Unit" />
+
+	<!-- End HTML Metadata -->
+
+	<!-- Stylesheets -->
+  
+	<link rel="stylesheet" href="/media/aubrey_public/css/stylesheets/unt.screen.css?v=02052013" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/media/aubrey_public/css/stylesheets/print.css?v=04132012" type="text/css" media="print" />
+  
+
+	<!--[if lt IE 8]><link rel="stylesheet" href="/media/aubrey_public/css/stylesheets/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+
+  
+  <!-- End Stylesheets -->
+  
+  <meta name="twitter:card" content="summary" />
+
+
+  
+    <!-- Opengraph Data -->
+  <meta property="og:title" content="UNT Digital Library"/>
+  <meta property="og:image" content="http://digital.library.unt.edu/media/aubrey_public/images/brand-digital-library/logo.jpg"/>
+  <meta property="og:site_name" content="Digital Library"/>
+  <meta property="og:description" content="The UNT Digital Library is a centralized repository for the rich collections held by the libraries, colleges, schools, and departments at the University of North Texas. "/>
+  <meta property="og:url" content="http://digital.library.unt.edu/" />
+  <meta property="og:type" content="website" />
+
+	<!-- JavaScript -->
+        <script type="text/javascript" src="/media/aubrey_public/scripts/jquery.min.js?v=1.7.2"></script>
+        <script type="text/javascript" src="/media/aubrey_public/scripts/jquery.tools.min.js?v=1.2.6"></script>
+        <script type="text/javascript" src="/media/aubrey_public/scripts/jquery.localHelperFunctions.min.js?v=01252013"></script>
+        <script type="text/javascript" src="/media/aubrey_public/scripts/jquery.analytics-tracking.min.js?v=04212015"></script>
+
+    
+<script type="text/javascript">
+$(document).ready(function(){
+ 	var config = $("#q");
+	focusSearch.init(config);
+	searchTypeHelper.init();
+	$("#features").cycle({pause:1, speed:1000, timeout:7000, height:'220px', pager:"#featuredNav"});
+});
+</script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66659-4', 'auto');
+
+    
+    ga('require', 'linkid');
+    
+
+    ga('send', 'pageview');
+  </script>        
+	<!-- End JavaScript -->
+
+	<!--[if lt IE 7]>
+	<script src="/media/aubrey_public/scripts/ie7/IE7.js" type="text/javascript"></script>
+	<![endif]-->
+
+    <!-- Share This Icons -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- Extra Elements -->
+	<link rel="shortcut icon" type="image/x-icon" href="/media/aubrey_public/images/brand-digital-library/favicon.ico" />
+	<!-- Disable IE6 image toolbar -->
+	<meta http-equiv="imagetoolbar" content="no" />
+	    
+  <link rel="alternate" type="application/rss+xml" href="/search/feed/" />
+
+        
+        <link rel="search" type="application/opensearchdescription+xml"
+		     href="/search/opensearch/document/"
+		     title="Search UNT Digital Library" />
+  
+	<!-- End Linked Elements -->
+
+</head>
+<body
+	id="home-page"
+    class="digital-library">
+    
+    <ul id="navigation-aids">
+    	<li><a href="#primary-navigation">Primary Navigation</a></li>
+    	<li><a href="#secondary-navigation">Secondary Navigation</a></li>
+	 		<li><a href="#page-section">Content</a></li>
+	 		<li><a href="#footer">Contact Us</a></li>
+
+    </ul>
+    
+
+		<div id="chromeFrame"></div>
+    <div id="page" class="container">
+    <div id="top">
+
+		<div id="header">
+        
+
+        
+          <h1>
+	<a href="/" title="UNT Digital Library">
+    <img src="/media/aubrey_public/images/brand-digital-library/logo.jpg" alt="UNT Digital Library" />
+    </a>
+</h1>
+        
+
+       
+		</div>
+
+    <div id="primary-navigation">
+                    <ul>
+                    
+                        <li id="primaryHomeLink"><a class="current" href="/" title="UNT Digital Library Home">Home</a></li>
+                        <li><a  href="/search/" title="Search for Materials in the UNT Digital Library">Search</a></li>
+                        <li><a  href="/explore/" title="Browse the UNT Digital Library">Explore</a></li>
+                        <li><a  href="/about/digital-library/" title="About the UNT Digital Library">About</a></li>
+                        <li class="last"><a  href="/help/" title="Get help using the UNT Digital Library">Help</a></li>
+                    
+					</ul>
+
+
+			</div>
+
+		<div id="secondary-navigation">
+					
+		</div>
+   </div>
+
+  
+
+
+	<div id="page-section">
+    
+   	    
+	    
+<div id="sidebar-1">
+
+	
+    <div id="tagline">
+        <h3>About the Digital Library</h3>
+        <p>The UNT Digital Library is a centralized repository for the rich collections held by the libraries, colleges, schools, and departments at the University of North Texas. </p>
+                <a class="right" href="/about/digital-library/">Read More...</a>
+        <div class="clear"></div>
+    </div>
+	
+
+	
+    <div id="tagline">
+        <h3>Support the Digital Library</h3>
+        <p>The UNT Digital Library operated by the UNT Libraries provides resources to the UNT Community and users around the world. Please consider supporting the UNT Digital Library today.</p>
+        <a class="right" href="http://support.library.unt.edu/give/digital-libraries">Donate Today...</a>
+    </div>
+
+
+	
+    <div id="stats-home">
+        <h3>Statistics</h3>
+        <p>Currently we have a total of <strong>260,139</strong> unique items, comprising <strong>12.7 million</strong> files.  Over the last <strong>29 days</strong>, we've logged <strong>390,030</strong> uses of these items by people like you.</p>
+				<a class="right" rel="nofollow" href="/stats/">More Info...</a>
+        <div class="clear"></div>
+    </div>
+	
+
+	
+
+	
+    <div id="recent-additions">
+        <h3>Recent Additions</h3>
+        <p>The Digital Library continues to grow as new partners contribute digital versions of their collections.  See some of our latest materials here.</p>
+        <a class="right" href="/search/?q=&amp;t=fulltext&amp;sort=added_d">Recent Additions...</a> <a class="normal" href="/search/feed/"><span class="ss_sprite ss_feed">&nbsp;</span></a>
+        <div class="clear"></div>
+    </div>
+	
+
+	
+
+
+</div>
+
+        
+<div id="content">
+
+
+
+
+
+
+      <div id="content-search" class="clear">
+
+        <form action="/search/" id="search-form">
+        
+        <fieldset>
+
+        <legend><span> 
+    
+    Search within the UNT Digital Library  
+    </span></legend>
+        
+		<div id="searchEnhanced">
+
+
+			<div id="moderately-advanced-search-controls">
+        	<a href="/search/" id="everything" class="current-item">Everything</a>
+           
+ | <a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type%3Atext*" id="dc_type:text" class="all">Text</a> 
+ | <a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type%3Aimage*" id="dc_type:image" class="all">Image</a> 
+ | <a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type%3Asound" id="dc_type:sound">Sound</a> 
+ | <a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type%3Atext_etd" id="dc_type:text_etd">Thesis or Dissertation</a>          
+          
+			</div>
+        
+        			
+            <div id="moreTypes">
+            
+            <ul><li><label>More </label><span class="ss_sprite ss_bullet_arrow_down">&nbsp;</span>
+          	<ul>
+               
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_article" id="dc_type:text_article">Article</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_artwork" id="dc_type:image_artwork">Artwork</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_book" id="dc_type:text_book">Book</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_chapter" id="dc_type:text_chapter">Book Chapter</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_clipping" id="dc_type:text_clipping">Clipping</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:collection" id="dc_type:collection">Collection</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:dataset" id="dc_type:dataset">Dataset</a></li>
+	
+	
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:interactive-resource" id="dc_type:interactive-resource">Interactive Resource</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_journal" id="dc_type:text_journal">Journal/Magazine/Newsletter</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_legal" id="dc_type:text_legal">Legal Document</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_leg" id="dc_type:text_leg">Legislative Document</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_letter" id="dc_type:text_letter">Letter</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_map" id="dc_type:image_map">Map</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_score" id="dc_type:image_score">Musical Score/Notation</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_newspaper" id="dc_type:text_newspaper">Newspaper</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_pamphlet" id="dc_type:text_pamphlet">Pamphlet</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_paper" id="dc_type:text_paper">Paper</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_patent" id="dc_type:text_patent">Patent</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_photo" id="dc_type:image_photo">Photograph</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:physical-object" id="dc_type:physical-object">Physical Object</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_poem" id="dc_type:text_poem">Poem</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_postcard" id="dc_type:image_postcard">Postcard</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_poster" id="dc_type:image_poster">Poster</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_presentation" id="dc_type:image_presentation">Presentation</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_report" id="dc_type:text_report">Report</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_review" id="dc_type:text_review">Review</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_script" id="dc_type:text_script">Script</a></li>
+	
+	
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:specimen" id="dc_type:specimen">Specimen</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:image_drawing" id="dc_type:image_drawing">Technical Drawing</a></li>
+	
+	
+	
+	
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:video" id="dc_type:video">Video</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:website" id="dc_type:website">Website</a></li>
+	
+	
+	
+	<li><a href="/search/?q=&amp;t=fulltext&amp;fq=dc_type:text_yearbook" id="dc_type:text_yearbook">Yearbook</a></li>
+	
+	
+
+          	</ul>
+            </li>
+            </ul>
+            </div>
+            
+        
+        <input type="text" size="30" id="q" name="q" value="" />
+        
+							<select name="t">
+                            <option value="fulltext" >fulltext</option>
+                            
+                            <option value="metadata" >metadata</option>
+                            
+                            <option value="dc_title" >title</option>
+                            
+                            <option value="dc_subject" >subject</option>
+                            
+                            <option value="dc_creator" >creator</option>
+    
+	                        </select>        
+        
+        <input type="submit" class="submit" id="search-form-submit" value="Submit" />
+        
+        </div>
+        
+        <div id="search-field-links">
+        
+        <div><a href="/search/advanced_search/" title="Advanced Search" id="search-form-advanced">Advanced Search</a></div>
+        
+        <div><a href="/help/guide/search-overview/" title="Search Help" id="search-form-help">Search Help</a>        </div> 
+        
+        </div>										
+        
+        </fieldset>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="featured-collection">
+        <h2>Featured Collections</h2>
+        <div id="features">
+        	
+			
+            <div id="featureNumber1" class="feature">
+            <a href="/explore/collections/TNCS/"><img src="/media/collection_icons/collection_TNCS.jpg" alt="" title="Toscanini: The Centennial Series" class="featured-collection" /></a><h3><a href="/explore/collections/TNCS/">Toscanini: The Centennial Series</a></h3>
+            <p>The radio series "Toscanini: The Centennial Series," was a tribute to conductor Arturo Toscanini on the hundredth anniversary of his birth, and was a subset of the radio series "Toscanini: The Man Behind the Legend." Originally aired between January 4, 1967 and December 27, 1967, the broadcasts consist of music performed by the NBC Orchestra as well as interviews with ...</p>
+            </div>
+            
+            <div id="featureNumber2" class="feature">
+            <a href="/explore/collections/UNTGD/"><img src="/media/collection_icons/collection_UNTGD.jpg" alt="" title="University of North Texas Government Documents Department" class="featured-collection" /></a><h3><a href="/explore/collections/UNTGD/">University of North Texas Government Documents Department</a></h3>
+            <p>Serving as both a federal and a state depository library, the UNT Libraries Government Documents Department maintains a collection of over 1 million items in a variety of formats including print, microform, audiovisual, maps, posters, musical scores, LPs, CD-ROMs, and Web documents. The department is a member of the FDLP Content Partnerships Program and an Affiliated Archive of the National ...</p>
+            </div>
+            
+            <div id="featureNumber3" class="feature">
+            <a href="/explore/collections/ANNALS/"><img src="/media/collection_icons/collection_ANNALS.jpg" alt="" title="Annals of Congress" class="featured-collection" /></a><h3><a href="/explore/collections/ANNALS/">Annals of Congress</a></h3>
+            <p>The <em>Annals of Congress</em> is a record of the United States Congress from the First Congress in 1789 through the First Session of the Eighteenth Congress in 1824.  The Annals are a summary rather than a transcription, compiled after 1834 from newspaper accounts.   It is succeeded by the <em>Register of Debates</em>, the <em>Congressional Globe</em>, and the <em>Congressional Record</em>.</p>
+            </div>
+            
+            <div id="featureNumber4" class="feature">
+            <a href="/explore/collections/CALLNO/"><img src="/media/collection_icons/collection_CALLNO.jpg" alt="" title="SLIS Call Number" class="featured-collection" /></a><h3><a href="/explore/collections/CALLNO/">SLIS Call Number</a></h3>
+            <p>The <em>Call Number</em> is a departmental and alumni newsletter published by the School of Library and Information Sciences at the University of North Texas beginning in 1939.  Issues contain news items and announcements concerning the library school and describe the activities of students, faculty, staff, and alumni.</p>
+            </div>
+            
+            <div id="featureNumber5" class="feature">
+            <a href="/explore/collections/RSOURC/"><img src="/media/collection_icons/collection_RSOURC.jpg" alt="" title="ReSource" class="featured-collection" /></a><h3><a href="/explore/collections/RSOURC/">ReSource</a></h3>
+            <p>The ReSource collection contains magazines covering research, scholarship, and the arts at the University of North Texas.  Included are issues of <em>ReSource</em>, published from 1984-2004, and <em>UNT Research</em>, published from 2006--.  Highlights include features, news briefs, alumni spotlight, faculty books and portraits.</p>
+            </div>
+            
+            
+
+        </div>
+        <div class="clear">&nbsp;</div>
+        <div id="featuredNav"></div>
+
+        <p><a class="right" href="/explore/collections/">More Collections...</a></p>
+        <div class="clear"></div>
+    </div>
+
+    <div id="featured-partner">
+        <h2>Featured Partner</h2>
+       
+         <h3><a href="/explore/partners/UNTA/">
+           UNT Libraries Special Collections</a></h3> <p>The Special Collections department collects and preserves rare and unique materials including rare books, oral histories, university archives, historical manuscripts, maps, microfilm, photographs, art and artifacts. Students, faculty and the public are welcome to access collections and view special exhibits in our Fourth floor Reading Room.</p>
+       
+        <p><a class="right" href="/explore/partners/">More Partners...</a></p>
+        <div class="clear"></div>
+    </div>
+
+
+</div>
+
+        
+	
+	</div>
+
+    <div id="page-footer"></div>
+
+    </div>
+	
+        
+          
+	<div id="footer">
+			<div id="footer-contact">
+				<h2>Contact Us</h2>
+				<p>For questions regarding content on this site, contact us: 
+        
+        
+        <a href="/feedback/?cat=General">feedback</a>.
+        
+        </p>
+                <p>Hosted by <a href="http://www.library.unt.edu">The University of North Texas Libraries</a></p>
+                <p>Site last updated on Saturday, May 07, 2016</p>
+			</div>
+			<div id="footer-tech">
+				<h2>Technical problems?</h2>
+				<p>For problems regarding this web site, contact us 
+                
+        <a href="/feedback/?cat=Technical+Issue">feedback</a>.
+        
+        
+        </p>
+                <h2>Rights Information</h2>
+                <p><a href="/terms-of-use">Terms of Use</a></p>
+			</div>
+			<div id="footer-links">
+				<h2>Links</h2>
+				<p><a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility Policy</a> | <a href="http://www.texasonline.com/portal/tol">State of Texas Online</a></p>
+			</div>    
+	</div>
+        
+    
+
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+<html dir=ltr lang=en>
+<head>
+<title>Cookies Required - Enterprise Information System - University of North Texas System</title>
+<meta name="DC.Subject.Keyword" content="myls, university of north texas system, portal, unt portal, academics, business" />
+<meta name="DC.Description" content="myLS is for academic and business services for the University of North Texas System." />
+<meta name="DC.Subject" content="Education, Higher; Universities and Colleges" />
+<meta name="DC.Type" content="Programs and Services; Reference Resources; Web Documents - Undefined" />
+<link rel="shortcut icon" href="/lspd01/favicon.ico" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+<style type="text/css" media="all">
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fff url(/lspd01/images/bodybkgd.gif) repeat-x;
+	color: #333;
+	font: .719em/1.35em verdana, tahoma, arial, sans-serif; /*font default is 11.5 px */
+	padding: 0 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: arial, sans-serif;
+	font-weight: 700;
+}
+a:link, a:visited {
+	border-bottom: 1px dashed #69c;
+	color: #06f;
+	padding-bottom: 0.16em;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	border-bottom: 1px solid #0a3;
+	color: #0a3;
+	text-decoration: none;
+}
+a:active {
+	border-bottom: 1px solid #0a3;
+	color: #0a3;
+	text-decoration: none;
+}
+abbr {
+	border-bottom: 0;
+}
+#wrap {
+	margin: 10px auto 0;
+	width: 800px;
+}
+#left {
+	display: block;
+	float: left;
+	width: 220px;
+}
+#right {
+	display: block;
+	float: right;
+	width: 570px;
+}
+#right h2 {
+	font-size: 1.5em;
+	line-height: 150%;
+}
+#right h3 {
+	border-bottom: 1.5px solid #0c0;
+	color: #000;
+	font: 700 1.2em "Trebuchet MS", arial, sans-serif;
+	margin: 1em 0 .125em;
+	padding-bottom: .125em
+}
+.login {
+	background: #eee;
+	color: #333;
+	font-family: arial, sans-serif;
+	width: 180px;
+}
+.login fieldset {
+	border: 1px solid #ccc;
+	padding: 1em 1em .75em 1em;
+}
+.login fieldset input {
+	line-height: 1.5em;
+	width: 95%;
+}
+.login h2 {
+	color: #006;
+	font-size: 1.55em;
+	font-weight: bold;
+	margin-bottom: .75em;
+}
+.login label {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 0.2em 0;
+}
+.login .required {
+	color: #e00;
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 0.75em;
+}
+.login input {
+	border: 1px solid #ccc;
+	display: block;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	padding: .15em;
+}
+.login p {
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: .9em;
+}
+h3 {
+	color: #073;
+	font-family: arial, sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 1em 0 .35em;
+}
+ul {
+	list-style: square;
+	padding: 4px 0 0 14px;
+}
+li {
+	padding-bottom: 4px
+}
+.doublespace {
+	line-height: 175%;
+}
+.note {
+	background: #dfd;
+	border: 1px solid #ddd;
+	padding: 1em;
+}
+.note h2 {
+	color: #006;
+	font-size: 1.55em;
+}
+.note h3 {
+	line-height: 140%
+}
+.note p {
+	padding-top: .5em
+}
+.policy {
+	border: 1px solid #0c0;
+	font-size: .9em;
+	margin: 1em 2em 0 0;
+	padding: .35em 1.5em 1.25em;
+}
+.policy p {
+	padding-top: 1em
+}
+.clear {
+	clear: both;
+	height: 1em
+}
+#footer {
+	border-top: 1px solid #073;
+	font-size: .8em;
+	line-height: 250%;
+	padding: 8px 0 10px;
+	text-align: center;
+}
+#error_link, #error_img {
+	border-bottom: none
+}
+.pslogintext {
+	font-size: 1.125em
+}
+/* button */
+.fg-button {
+	cursor: pointer;
+	font-size: 1.25em;
+	outline: 0;
+	margin: 0 4px 0 0;
+	padding: .4em 1em .35em;
+	position: relative;
+	text-align: center;
+	text-decoration: none !important;
+}
+a.fg-button {
+	float: left;
+}
+button.fg-button {
+	width: auto;
+	overflow: visible;
+}
+.ui-state-default {
+	border: 1px solid #327E04;
+	background: #327E04 url(/lspd01/images/ui-bg_highlight-soft_25_327E04_1x100.gif) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ffffff;
+	outline: none;
+}
+.ui-state-default a {
+	color: #ffffff;
+	text-decoration: none;
+	outline: none;
+}
+.ui-state-hover, .ui-state-focus {
+	border: 1px solid #327E04;
+	background: #5A9D1A url(/lspd01/images/ui-bg_highlight-soft_25_5A9D1A_1x100.gif) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ffffff;
+	outline: none;
+}
+.ui-state-hover a {
+	color: #ffffff;
+	text-decoration: none;
+	outline: none;
+}
+.ui-state-active {
+	border: 1px solid #c4c5c3;
+	background: #f0efea url(/lspd01/images/ui-bg_diagonals-small_100_f0efea_40x40.gif) 50% 50% repeat;
+	font-weight: bold;
+	color: #403D38;
+	outline: none;
+}
+.ui-state-active a {
+	color: #403D38;
+	outline: none;
+	text-decoration: none;
+}
+.ui-corner-all {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+</style>
+<script type="text/javascript"> 
+$(function(){
+	$(".fg-button:not(.ui-state-disabled)")
+	.hover(
+		function(){ 
+			$(this).addClass("ui-state-hover"); 
+		},
+		function(){ 
+			$(this).removeClass("ui-state-hover"); 
+		}
+	)
+	.mousedown(function(){
+			$(this).parents('.fg-buttonset-single:first').find(".fg-button.ui-state-active").removeClass("ui-state-active");
+			if( $(this).is('.ui-state-active.fg-button-toggleable, .fg-buttonset-multi .ui-state-active') ){ $(this).removeClass("ui-state-active"); }
+			else { $(this).addClass("ui-state-active"); }	
+	})
+	.mouseup(function(){
+		if(! $(this).is('.fg-button-toggleable, .fg-buttonset-single .fg-button, .fg-buttonset-multi .fg-button') ){
+			$(this).removeClass("ui-state-active");
+		}
+	});
+});
+function showMyDiv() {
+  if (window.location.hostname == "lspd.unt.edu") { 
+    document.getElementById("traceflags").style.display="none";}
+  else {if (window.location.hostname == "myls.unt.edu") { 
+    document.getElementById("traceflags").style.display="none";}
+  else {
+    document.getElementById("traceflags").style.display="block";}
+}
+}
+function signin(form)
+    {
+    var docLoc=new String(document.location);
+    var iLast= docLoc.lastIndexOf("?&");
+    if (docLoc.length == (iLast+2))
+        {
+        docLoc = docLoc.substring(0, iLast);
+        }
+    if (docLoc.indexOf("?cmd=")==-1 && docLoc.indexOf("?")!=-1)
+        {
+        if (docLoc.indexOf("&cmd=login")==-1)
+            {
+            var i=docLoc.length - 1;
+            var j= docLoc.lastIndexOf("&");
+            if (j!=-1 && i==j)
+                form.action=docLoc+form.action.substring(form.action.indexOf("?")+1,form.action.length);
+            else
+                form.action=docLoc+"&"+form.action.substring(form.action.indexOf("?")+1,form.action.length);
+            }
+        else
+            form.action=docLoc.substring(0,docLoc.indexOf("&cmd=login"))+"&cmd=login"+docLoc.substring(docLoc.indexOf("&languageCd="),docLoc.length);
+        }
+    var now=new Date();
+    form.timezoneOffset.value=now.getTimezoneOffset();
+    return ;
+    }
+function setFocus()
+    {
+    try
+        {document.login.userid.focus()}
+    catch (e)
+        {};
+    return;
+    }
+function setErrorImg()
+    {
+    var login_error = document.getElementById('login_error').innerHTML;
+    var discovery_error = document.getElementById('discovery_error').innerHTML;
+    var browsercheck_error = document.getElementById('browsercheck_error').innerHTML;
+    login_error = login_error.replace(/^\s+/,"");       // delete leading spaces      
+    discovery_error = discovery_error.replace(/^\s+/,"");
+    browsercheck_error = browsercheck_error.replace(/^\s+/,"");
+    if (login_error.length != 0 || discovery_error.length != 0 || browsercheck_error.length != 0)
+        {
+        document.getElementById('error_img').style.display = 'block';
+        document.getElementById('error_link').focus();
+        }
+    else
+        setFocus();
+    }
+function submitAction(form)
+{
+signin(form);
+form.Submit.disabled=true;
+form.submit();
+}
+</script>
+</head>
+<body onLoad="showMyDiv(); setErrorImg()">
+<div id="wrap">
+  <div id="head"><a href="http://untsystem.unt.edu/" title="University of North Texas System" style="border-width:0"><img src="/lspd01/images/system.gif" alt="University of North Texas System" width="400" height="30" border="0" /></a><br />
+    <img src="/lspd01/images/eismark.gif" alt="Enterprise Information System" width="660" height="80" border="0" title="Enterprise Information System" style="margin:2em 0 1em" /></div>
+  <div id="left">
+    <form class="login" action="?cmd=login&languageCd=ENG" method="post" id="login" name="login" autocomplete="off" onSubmit="signin(document.login)">
+      <input type="hidden" name="timezoneOffset" value="0" />
+      <fieldset>
+        <div style="text-align:center">
+          <h2>System Login</h2>
+        </div>
+        <label for="userid"><abbr title="Enterprise User Identification">EUID</abbr> <span class="required">(required)</span></label>
+        <input name="userid" id="userid" type="text" value="" />
+        <label for="pwd">Password <span class="required">(required)</span></label>
+        <input name="pwd" id="pwd" type="password" value="" />
+        <input name="Submit" type="submit" class="fg-button ui-state-default ui-corner-all" value="Sign In" onClick="submitAction(document.login)" />
+        <h1 id="error_img" style="display:none"><a id ="error_link" href="javascript:setFocus();"><img src="/lspd01/images/PT_LOGIN_ERROR.gif" alt="Error" border="0"/></a></h1>
+        <h2 class="required" id="login_error">  </h2>
+        <h2 class="required" id="discovery_error">  </h2>
+      </fieldset>
+    </form>
+    <h3>Trouble logging in?</h3>
+    <p class="doublespace"><a href="https://ams.unt.edu/activate.php">Activate
+      my account</a><br />
+      <a href="https://ams.unt.edu/whatsmyeuid.php">What&rsquo;s my <abbr title="Enterprise User Identification">EUID</abbr>?</a><br />
+      <a href="https://ams.unt.edu/password.php">Reset my password</a> </p>
+    <h3>Scheduled Maintenance</h3>
+    <p>Service may be interrupted during these regular maintenance times:</p>
+    <ul>
+      <li>Tuesday 7:00 - 9:30 pm</li>
+      <li>Thursday 7:00 - 9:30 pm</li>
+      <li>Saturday 7:00 pm to noon Sunday</li>
+    </ul>
+  </div>
+  <div id="right">
+    <h2>This system requires cookies be enabled on your Web browser.<br />
+      Set your browser to allow cookies before attempting to log in again.</h2>
+    <div class="policy">
+      <p>This system is the property of the University of North Texas System and your use of this resource constitutes an agreement to abide by relevant federal and state laws and institutional policies. Unauthorized use of this system is prohibited. Violations can result in penalties and criminal prosecution. Usage may be subject to security testing and monitoring. Users have no expectation of privacy except as otherwise provided by applicable privacy laws.</p>
+    </div>
+    <h3>Web Browsers &amp; Settings</h3>
+    <p>The Enterprise Information System (<abbr title="Enterprise Information System">EIS</abbr>) supports the following Web browsers and versions:</p>    <ul>
+      <li>Google Chrome 24</li>
+      <li>Firefox 17</li>
+      <li>Internet Explorer 11, 10, 9,  and 8</li>
+      <li>Safari 6</li>
+    </ul>
+    <p><strong>Note:</strong> Internet Explorer&rsquo;s Compatibility Mode is unsupported in <abbr title="Enterprise Information System">EIS</abbr>. Turn off this feature in Internet Explorer under Tools &gt; Compatibility Mode Settings.</p>
+    <p>To use the Enterprise Information System, set your Web browser to allow <abbr title="Java Script">JavaScript</abbr>, accept cookies, and turn off popup blocking.</p>
+    <p>Some documents inside <abbr title="Enterprise Information System">EIS</abbr> are in <abbr title="Portable Document Format">PDF</abbr> format and require the free <a title="Download the free Adobe Reader software" href="http://get.adobe.com/reader/">Adobe Reader</a> software to open.</p>
+  </div>
+  <p class="clear">&nbsp;</p>
+</div>
+<p class="clear">&nbsp;</p>
+<div id="footer"><a href="http://www.texas.gov">State of Texas</a> &nbsp;&bull;&nbsp; <a href="http://www.tsl.state.tx.us/trail/">Statewide Search</a> &nbsp;&bull;&nbsp; <a href="http://www.texashomelandsecurity.com">Texas Homeland Security</a> &nbsp;&bull;&nbsp; <a href="http://sao.fraud.state.tx.us/">Fraud Reporting</a> &nbsp;&bull;&nbsp; <a href="http://policy.unt.edu/policydesc/request-information-made-under-texas-public-information-act-10-6">Public
+  Information Act</a> &nbsp;&bull;&nbsp; <a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">Online Institutional Resumes</a><br />
+  <a href="http://www.unt.edu">University of North Texas</a> &nbsp;&bull;&nbsp; <a href="http://www.hsc.unt.edu/"><abbr title="University of North Texas">UNT</abbr> Health Science Center</a> &nbsp;&bull;&nbsp; <a href="http://www.unt.edu/unt-dallas/">University of North Texas Dallas</a> &nbsp;&bull;&nbsp; <a href="http://lawschool.untsystem.edu/"><abbr title="University of North Texas">UNT</abbr> Dallas College of Law</a><br />
+  &copy;2014 <a href="http://untsystem.unt.edu/">University of North Texas System</a> &nbsp;&bull;&nbsp; Site changes to <a href="mailto:eistarp@unt.edu">System Portal Administration</a> &nbsp;&bull;&nbsp; Last modified 
+  <!-- #BeginDate format:Am1 -->December 3, 2014<!-- #EndDate --> 
+</div>
+</div>
+</body>
+</html>

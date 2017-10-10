@@ -1,0 +1,2851 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Student Health and Wellness Center &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Student Health and Wellness Center" href="/node/695/feed" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-departments-services no-sidebars og-context og-context-695   student-health-and-wellness-center">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/student-health-and-wellness-center"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-8DPGqe22KYikrcgOL6xyEsgDFj9KGuM9nOPPzjk_vFA" value="form-8DPGqe22KYikrcgOL6xyEsgDFj9KGuM9nOPPzjk_vFA"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/student-health-and-wellness-center"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-8DPGqe22KYikrcgOL6xyEsgDFj9KGuM9nOPPzjk_vFA" value="form-8DPGqe22KYikrcgOL6xyEsgDFj9KGuM9nOPPzjk_vFA"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+
+
+
+
+<div class="hero">
+	<div class="container">
+    	<h1 id="hero_title_background" class="title">Student Health and Wellness Center</h1>
+        <div class="breadcrumbs">
+        	<a class="breadcrumb" href="/explore">Explore</a>
+            <a class="breadcrumb child" href="/departments">Departments</a>
+        </div>
+    </div>
+	<div class='slides'><div class='slide' style='background:url("/sites/default/files/center_0.jpg") center center no-repeat;background-size:cover;'>
+					</div></div></div>
+<!-- this is a tempary hack so the we can have custome hero element here -->
+<main class="container well">
+
+<div class="row">
+<div class="meta col-md-12">
+		<div class="location meta-item col-md-2" data-toggle="tooltip" data-placement="top" data-title="View Building & Parking Info">
+		<span>Find us at</span>
+		<a href="chestnut-hall">Chestnut Hall - 2nd Floor</a>
+	</div>
+		
+	<div class="hours meta-item col-md-2">
+		<span>Our Hours</span>
+		<a href="#hours" data-toggle="tab">Open 'til 5:30pm.</a>
+	</div>
+	
+		<div class="phone meta-item col-md-2">
+		<span>Call us</span>
+		(940) 565-2333	</div>
+			<div class="email meta-item col-md-2">
+		<span>Email us</span>
+		<a href="mailto:askSHWC@unt.edu">askSHWC@unt.edu</a>
+	</div>
+		<div class="social meta-item col-md-2">
+		<span>Connect with Us</span>
+		<a href="https://www.facebook.com/untSHWC" target="_blank" class="facebook">Facebook</a>
+		<a href="https://twitter.com/unt_dsa" target="_blank" class="twitter">Twitter</a>
+				                		
+	</div>
+</div>
+</div>
+<div class="row tabbable">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a data-toggle="tab" href="#about">About</a></li>
+                        	<li class=""><a data-toggle="tab" href="#news">News</a></li>
+			            <li><a data-toggle="tab" href="#staff">Staff</a></li>            <!--<li><a data-toggle="tab" href="#hours">Hours</a></li>-->
+            <li><a data-toggle="tab" href="#posts">Posts</a></li>            <li><a data-toggle=tab href="#programs">Programs &amp; Services</a></li>                    </ul>
+        
+                
+    </div>
+    <div class="col-md-10">
+        <div class="tab-content">
+            <div class="tab-pane fadeIn animated active" id="about">
+                <div class="col-md-8">
+                	<div class="infoBox float-right well col-md-4">
+	<div class="inlet">
+		<h2 class="block-title">
+			Emergency &ndash; Call 911</h2>
+
+		<div class="content home-page-block">
+			<p>
+				The Student Health &amp; Wellness Center is&nbsp;<strong>NOT</strong>&nbsp;an Emergency Room.&nbsp; By calling 911, first responders will provide you with the most prompt response to an emergency, whether on or off campus.</p>
+		</div>
+
+		<p class="alert alert-block">
+			<a href="/immunization-requirements" target="_self" title="Immunization Requirements">UNT Vaccination Requirements</a><br />
+			<br />
+			<a href="/sites/default/files/healthcenter/meningitis_faq_updated_10.14.15.pdf" target="_blank" title="Meningitis FAQ">Meningitis FAQ</a><br />
+			<br />
+			<a href="/immunization-requirements#immz-delivery" target="_self" title="Immunization Documentation">Click here to find out where to submit<br />
+			immunization documentation.</a></p>
+	</div>
+</div>
+
+<div class="accordion " id="accordion1">
+	<div class="accordion-group col-md-8 well" style="left: 1px; top: 0px;">
+		<div class="accordion-heading">
+			<h2>
+				The Student Health and Wellness Center will be closed from 10:30 am to 1:30 pm on May 11, 2016.</h2>
+
+			<h2>
+				<a class="accordion-toggle" data-parent="#accordion1" data-toggle="collapse" href="#about">About</a></h2>
+		</div>
+
+		<div class="accordion-body" id="about">
+			<div>
+				<h3>
+					Mission</h3>
+
+				<p>
+					The Student Health and Wellness Center is committed to providing excellent healthcare to our students. Student success, development, and preparation for global citizenship is dependent on the many facets of good health. Mindful of our diverse population we promote responsible personal health choices to enhance each individual&#39;s lifelong health and well being.</p>
+
+				<p>
+					Within our purpose we support the mission of the University to ensure service and quality in teaching performance, public service and outreach.</p>
+
+				<h3>
+					Access</h3>
+
+				<p>
+					Students enrolled in the current semester who have paid the medical service fee are eligible for services at the SHWC.</p>
+
+				<p>
+					Medical visits are by appointment only. To schedule an appointment, call <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2333<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-2333"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-2333" /></a></span> or schedule through the&nbsp;<a href="https://myosh.unt.edu/" target="_blank">MyOsh online service</a>. A student ID card is required at check-in. Students with University-endorsed insurance should bring their insurance card as well. Click to see other pages for more information on&nbsp;<a href="/student-health-and-wellness-center#hours">hours</a>,&nbsp;<a href="/student-health-and-wellness-center#location">location and parking</a>, or&nbsp;<a href="/blog/health-center-pricing">pricing</a>.</p>
+
+				<h3>
+					Staff</h3>
+
+				<p>
+					Our professional staff includes licensed physicians, nurse practitioners, nurses, certified lab technologists, radiology technician, pharmacists, administrative, business, and medical records personnel. Part time staff includes psychiatrists, registered dietitian, and a massage therapist.</p>
+
+				<h3>
+					Medical Services</h3>
+
+				<p>
+					Our licensed medical and support staff provides <a href="http://studentaffairs.unt.edu/medical-services-0">primary health care</a> and additional services, including but not limited to:</p>
+
+				<ul>
+					<li>
+						<a href="/medical-services-0">Acute care for accidental injury/illness</a></li>
+					<li>
+						<a href="/allergy-injections">Allergy injections</a></li>
+					<li>
+						<a href="/radiology">Basic diagnostic x-rays</a></li>
+					<li>
+						Flu vaccinations (when available)</li>
+					<li>
+						<a href="/immunization-requirements">Immunizations </a>(including&nbsp;Meningitis)</li>
+					<li>
+						<a href="/laboratory">Laboratory testing</a></li>
+					<li>
+						<a href="/dietitian">Nutritional consultations</a></li>
+					<li>
+						<a href="/psychiatry">Psychiatric assessments (with referral)</a></li>
+					<li>
+						<a href="/womens-health">Women&#39;s care exams and education</a></li>
+				</ul>
+
+				<p>
+					Additional health services available to UNT students includes:</p>
+
+				<ul>
+					<li>
+						<a href="http://studentaffairs.unt.edu/dental-services">Dental services</a></li>
+					<li>
+						<a href="http://studentaffairs.unt.edu/optometry">Optical services</a></li>
+					<li>
+						<a href="/pharmacy">Pharmacy</a></li>
+				</ul>
+
+				<p>
+					Please be aware when requesting a prescription refill that it may take up to 48 hours to fill that request.</p>
+
+				<h3>
+					Patient Privacy and Confidentiality</h3>
+
+				<p>
+					The Student Health and Wellness Center is compliant with HIPAA, FERPA, and other state and federal law. Our staff takes all possible steps to protect the privacy and confidentiality of patients&#39; Protected Health Information. For more information, visit our&nbsp;<a href="/medical-records">medical records department</a>.</p>
+
+				<h3>
+					<a href="/billing-insurance">Billing and Insurance</a></h3>
+
+				<p>
+					The visit with a general practitioner is free but the SHWC offers competitive pricing on ancillary services such as pharmacy, lab work and x-ray. Payment is expected at the time of service and may be made by cash, check, or by credit card (AMEX, Discover, Mastercard, or Visa).</p>
+
+				<p>
+					As an extension of our customer service, the SHWC files medical insurance claims for the University endorsed student insurance policy underwritten by United Healthcare Student Resources. The pharmacy also accepts some prescription insurance plans.<span class="rangySelectionBoundary" id="selectionBoundary_1439301793151_2538779917159597" style="line-height: 0; display: none;">﻿</span></p>
+
+				<h2>
+					Meadows Center for Health Resources</h2>
+
+				<p>
+					The Meadows Center for Health Resources offers a wide variety of health and wellness opportunities including:</p>
+
+				<ul>
+					<li>
+						Individual Health Counseling</li>
+					<li>
+						Presentations, Seminars, Lectures</li>
+					<li>
+						Free anonymous HIV Test Site</li>
+					<li>
+						Internship</li>
+					<li>
+						Massage Therapy</li>
+					<li>
+						Condom Club for receiving education on sexual health and how to protect yourself</li>
+				</ul>
+
+				<p>
+					For more information about specific programs and events, visit the&nbsp;<a href="/meadows-center-health-resources">Meadows Center for Health Resources</a>.</p>
+
+				<h3>
+					<a href="/blog/health-issues-international-students">International Students</a></h3>
+
+				<p>
+					The SHWC has specialized information for international students. Please visit the international students&nbsp;page or call <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2333<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2333"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAAaNJREFUeNqk009oz3Ecx/HH9/P9/YQRWSi2MGmNrebkpJgSLluKEw5Kk5zUsgMOTrO42MUVxUWRg+LgaPWbUGq7rRk7sExKNPt9vx8H32l921z2vrw+n3fvz/Pz/vP5JDFGy7HKwk1/fz/sR09VNjAZG6fv1buQHcZm3P8vAMfwCKswncoHCn8nbuAratiEUQglwLXiMJz/FhvWYC9OFb4htBV6B9VyBtsKzRJxbDhvbSS5i1kcQo736MNrjJcBeaG3MuFyInagA0fwckHcGzzGiXIJU38bk1U+x3W+x7U/yOvYU4prwG5MlAHPoS4925TMNDeHLxNUh0gGcRC9eFqk34TBMuAhfmL9b5Vz3elIbAmfLq02d4HQhbc4gBYcxUgZMFrcIJecrsgaT6avdl6sPqu1hw9XSWs4U5Q6udgYFfP+he25MEysVWQvutORLcfTYax4gn3z/VoM8A7Xi/WuKNmQCRujpLc1TGkP46hOI1sKADdxG3PzjkzoTNCT1rSFiX+PuLIEoI4rGC+6/xEPMsFKs7YmM8bsAMlyf2OwTPszAMZMeayGCpJVAAAAAElFTkSuQmCC" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2333" /></a></span>&nbsp;for more information.</p>
+
+				<h3>
+					Accommodations</h3>
+
+				<p>
+					If special accommodations are needed to utilize clinical services, please call <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2333<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-2333"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-2333" /></a></span>&nbsp;to arrange accommodation.</p>
+
+				<h3>
+					Emergencies</h3>
+
+				<p>
+					For emergencies call 911 or go directly to a hospital emergency room.</p>
+			</div>
+			<!-- End of Content Wrapper (span15) --></div>
+	</div>
+	<!-- End of Accordion Group -->
+
+	<div class="accordion-group col-md-8 well">
+		<div class="accordion-heading">
+			<h2>
+				<a class="accordion-toggle" data-parent="#accordion1" data-toggle="collapse" href="#hours">Hours<span class="rangySelectionBoundary" id="selectionBoundary_1426280554761_7343773963739033" style="line-height: 0; display: none;">﻿</span><span class="rangySelectionBoundary" id="selectionBoundary_1426280553368_2569762406621968" style="line-height: 0; display: none;">﻿</span></a></h2>
+		</div>
+
+		<div class="accordion-body" id="hours">
+			<div>
+				<h2>
+					Main Clin<span class="rangySelectionBoundary" id="selectionBoundary_1426280558663_5970253837619522" style="line-height: 0; display: none;">﻿</span>ic Business Hours</h2>
+
+				<h3>
+					Fall and Spring<span class="rangySelectionBoundary" id="selectionBoundary_1433858478249_5857691538871275" style="line-height: 0; display: none;">﻿</span></h3>
+
+				<p>
+					Monday-Thursday 8:00AM-5:30PM<br />
+					Friday 9:15AM-5:30PM</p>
+
+				<p>
+					Appointments are available 8:00AM-5:00PM Monday-Thursday, Friday 9:30AM-5:00PM</p>
+
+				<h3>
+					<span class="rangySelectionBoundary" id="selectionBoundary_1425921271191_12502716047065515" style="line-height: 0; display: none;">﻿</span>Summer and <span class="rangySelectionBoundary" id="selectionBoundary_1425921271191_05423105152443025" style="line-height: 0; display: none;">﻿</span>Mini-mester</h3>
+
+				<p>
+					Monday-Thursday 8:00AM-5:00PM<br />
+					Friday 9:15AM-5:00PM</p>
+
+				<p>
+					Appointments are available 8:00AM-4:30PM Monday-Thursday, Friday 9:30AM-4:30PM</p>
+
+				<h2>
+					Allergy Clinic Hours</h2>
+
+				<p>
+					Monday-Thursday 9:00AM-11:15AM and 2:00PM-4:30PM<br />
+					Friday 9:30AM-11:15AM and 2:00PM-4:30PM</p>
+
+				<p>
+					*Students must be checked in by 11:15AM / 4:30PM to be seen.</p>
+
+				<h2>
+					Pharmacy Hours</h2>
+
+				<p>
+					Fall and Spring</p>
+
+				<p>
+					Monday-Thursday 8:00AM-6:00PM<br />
+					Friday 9:30AM-6:00PM</p>
+
+				<h3>
+					Summer</h3>
+
+				<p>
+					Monday-Thursday 8:00AM-5:00PM<br />
+					Friday- 9:30AM-5:00PM</p>
+
+				<h2>
+					Closures for Holidays and Between Semesters</h2>
+
+				<p>
+					The Student Health and Wellness Center clinic and pharmacy is closed between semesters and on University holidays.</p>
+
+				<p>
+					The 2015-2016 academic year has the following closures:</p>
+
+				<ul>
+					<li>
+						Labor Day, September 7, 2015</li>
+					<li>
+						Thanksgiving, November 26-27, 2015</li>
+					<li>
+						Winter Break, December 14, 2015-January 1, 2016
+						<ul>
+							<li>
+								Administrative Areas Open December 14-23, 2015</li>
+						</ul>
+					</li>
+					<li>
+						Staff Training Days, January 8 &amp; 11, 2015</li>
+					<li>
+						Martin Luther King, Jr. Day- January 18, 2016</li>
+					<li>
+						Spring Break- March 14, 2016</li>
+					<li>
+						Memorial Day- May 30, 2016</li>
+					<li>
+						Independence Day- July 4, 2016</li>
+				</ul>
+
+				<h3>
+					Options When the Clinic is Closed</h3>
+
+				<p>
+					You can call the 24-hour nurse call line at 855-984-3803, PIN 1072 to speak with a registered nurse.&nbsp; They can provide phone triage to determine if your issue constitutes an emergency that requires immediate medical attention or if you can wait until the clinic reopens.&nbsp; They can also provide suggestions for treating symptoms until you come in to see us.</p>
+
+				<p>
+					If you find yourself in need of medical treatment when we are closed, you can visit the local hospital or minor emergency clinic of your choice. In Denton, you can choose from:</p>
+
+				<p>
+					Area Hospitals</p>
+
+				<ul>
+					<li>
+						<a href="http://dentonregional.com/" title="Denton Regional Medical Center">Denton Regional Medical Center</a>: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940)384-3500</span></li>
+					<li>
+						<a href="http://www.texashealth.org/denton" title="Texas Health Presbyterian Hospital">Texas Health Presbyterian Denton Hospital</a>: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940)898-7000</span></li>
+				</ul>
+
+				<p>
+					<br />
+					Minor Emergency Clinics - these facilities will NOT treat concussions/head injuries; perform MRI services; perform severe surgeries; or major additional testing.</p>
+
+				<ul>
+					<li>
+						<a href="http://www.carenow.com/Clinic/ClinicById/20" title="Care Now of Denton">Care Now</a>: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940)383-2700</span></li>
+					<li>
+						<a href="http://www.minoremergencyofdenton.com/" title="Minor Emergency of Denton">Minor Emergency of Denton</a>: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940)382-9898</span></li>
+					<li>
+						<a href="http://dentonregionalurgentcare.com/" title="Denton Regional Urgent Care Center">Denton Regional Urgent Care Center</a>:&nbsp; <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 220-5901</span></li>
+				</ul>
+
+				<p>
+					<br />
+					24-hours Pharmacies</p>
+
+				<ul>
+					<li>
+						<a href="http://www.cvs.com/stores/cvs-pharmacy-address/116+University+Drive-Denton-TX-76201/storeid=6856" title="CVS Pharmacy on University Drive">CVS Pharmacy on University Drive</a>: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940)387-9549</span></li>
+					<li>
+						<a href="http://www.walgreens.com/locator/walgreens-101+w+university+dr-denton-tx-76201/id=5161" title="Walgreens Pharmacy on University Drive">Walgreen&rsquo;s Pharmacy on University Drive</a>: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940)384-0240</span></li>
+				</ul>
+			</div>
+			<!-- End of Content Wrapper(Span15) --></div>
+		<!-- End of Accordion Group --></div>
+
+	<div class="accordion-group col-md-8 well">
+		<div class="accordion-heading">
+			<h2>
+				<a class="accordion-toggle" data-parent="#accordion1" data-toggle="collapse" href="#contact">Contact</a></h2>
+		</div>
+
+		<div class="accordion-body" id="contact">
+			<ul>
+				<li>
+					Medical Emergencies - 911</li>
+				<li>
+					Nurse Call Line for after hours - 855-894-3803 PIN 1072</li>
+				<li>
+					Health and Wellness Center - Main Line - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2333</span></li>
+				<li>
+					Administration - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2786</span></li>
+				<li>
+					Appointments - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2333</span></li>
+				<li>
+					Billing - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 369-8543</span></li>
+				<li>
+					Laboratory - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2779</span></li>
+				<li>
+					Meadows Center for Health Resources - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2787</span></li>
+				<li>
+					Medical Records - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-3744</span></li>
+				<li>
+					Pharmacy - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2790</span></li>
+				<li>
+					Radiology - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2783</span></li>
+				<li>
+					Web and Online Support - <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2786</span>&nbsp;or e-mail: <a href="mailto: askSHWC@unt.edu">askSHWC@unt.edu</a></li>
+			</ul>
+
+			<p>
+				<strong>Please DO NOT e-mail specific health information as<br />
+				e-mail is not a secure medium.</strong></p>
+		</div>
+		<!-- End of Content Wrapper (span15) --></div>
+
+	<div class="accordion-group col-md-8 well">
+		<div class="accordion-heading">
+			<h2>
+				<a class="accordion-toggle" data-parent="#accordion1" data-toggle="collapse" href="#location">Location</a></h2>
+		</div>
+
+		<div class="accordion-body" id="location">
+			<div class="content">
+				<p>
+					The UNT Student Health and Wellness Center is located just east of the Pohl Recreation Center on the corner of Ave. D and Chestnut Street at 1800 West Chestnut.</p>
+
+				<p>
+					<a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1800+Chestnut+Street,+Denton,+TX&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=37.273371,84.375&amp;ie=UTF8&amp;hq=&amp;hnear=1800+Chestnut+St,+Denton,+Texas+76201&amp;ll=33.212804,-97.152915&amp;spn=0.006283,0.00912&amp;z=16&amp;iwloc=A">View Larger Map</a></p>
+
+				<h3>
+					Parking</h3>
+
+				<p>
+					A limited number of designated parking spaces are available for students using services at the SHWC. Students who utilize these spaces will need to request a parking validation at the time of check-out.&nbsp; The SHWC will not issue validations for patients who park in metered spaces.&nbsp; Patients must park in the Patient Parking spaces.</p>
+			</div>
+		</div>
+	</div>
+	<!-- End of Accordion Group --></div>
+                </div>
+                
+                <div class="col-md-4">
+                	
+                                             <div class="col-md-12">
+                            <div class="col-md-12">
+	<div class="content home-page-block">
+		<p>
+			<img alt="" src="/sites/default/files/healthcenter/shwc-acronym_and_longform_color_sm.png" style="width: 100%;" /></p>
+		&nbsp;
+
+		<p>
+			<a class="button button-block" href="/health-center-appointments">Request an Appointment</a></p>
+
+		<p>
+			<strong>Additional charges may be incurred during your visit.</strong></p>
+
+		<p>
+			&nbsp;</p>
+
+		<p>
+			<strong>We do not file insurance to outside insurance companies.</strong></p>
+	</div>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		<strong>All UNT students can use the 24-hour nurse call line at </strong><strong>855-894-3803, PIN 1072.</strong></p>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		<a href="/sites/default/files/healthcenter/NPP-10160421.pdf"><strong>Notice of Patient Privacy</strong></a></p>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		<a href="http://studentaffairs.unt.edu/blog/patient-rights-and-responsibilities"><strong>Patient Rights and Responsibilities</strong></a></p>
+</div>
+                        </div>
+                                        
+
+                                            <div class="col-md-12">
+                            <h1>Upcoming Events</h1>
+                            
+
+<div class="view view-Events view-id-Events view-display-id-block_1 view-dom-id-10">
+
+
+    
+  
+  
+      <div class="view-empty">
+      <div class="card-container col-md-12"><div class="well event ghost no-events">There are currently no events scheduled.</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+                        </div>
+                                        
+                    
+                    
+                </div>
+                
+            </div>
+            <div class="tab-pane fadeIn animated" id="staff">
+                
+
+<div class="view view-Staff view-id-Staff view-display-id-block_1 view-dom-id-2">
+
+
+    
+  
+  
+      <div class="view-content">
+      <h2>Executive Director</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/voorhees_herschel.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Herschel L. Voorhees, D.O.</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Executive Director</p>
+        <p>
+	Dr. Voorhees is the Student Health and Wellness Center&#39;s Executive Director as well as a board certified physician who provides general family medicine services.&nbsp; He received his DO from UNT Health Science Center and has been with the Student Health and Wellness Center for over 20 years.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+<h2>Medical Provider</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/hermann_cynthia.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Cynthia D. Hermann, M.D.</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Clinical Services</p>
+        <p>
+	Dr. Hermann is a licensed gynecologist.&nbsp; She provides general women&#39;s health services, as well as specialized procedures, including colposcopies and long-term contraceptive (intrauterine device [IUD] and implant) insertions and removals.&nbsp; She received her MD from Texas Tech School of Medicine and has been with the Student Health and Wellness Center since 2011.</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/shelton_john.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">John S. Shelton, M.D.</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Assistant Director of Clinical Services</p>
+        <p>
+	Dr. Shelton is a board certified physician who provides general family medicine services.&nbsp; He received his MD from the University of Texas Southwestern Medical School and has been with the Student Health and Wellness Center since 2009.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/brady_joel.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Joel Brady, PA-C</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Physician Assistant</p>
+        <p>
+	Mr. Brady is a Physician Assistant who provides general family medicine services and has been with the Student Health and Wellness Center since 2015.&nbsp; He received his license from the University of Nebraska.<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/davis_pat.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Pat Davis, RN, MSN, FnP-C</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Nurse Practitioner</p>
+        <p>
+	Ms. Davis is a certified Nurse Practitioner who provides general family medicine services.&nbsp; She attended the University of Texas at Arlington and has been with the Student Health and Wellness Center since 2008.<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/divecchia_jennifer.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jennifer DiVecchia, RN, MSN, FnP-C</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Nurse Practitioner</p>
+        <p>
+	Ms. DiVecchia is a certified Nurse Practitioner who provides general family medicine services.&nbsp; She attended Vanderbilt University and has been with the Student Health and Wellness Center since 2003.<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Carl Malmberg, PA-C</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Physician Assistant</p>
+        <p>
+	Mr. Malmberg is a Physician Assistant who provides general family medicine services and has been with the Student Health and Wellness Center since 2015.&nbsp; He received his license from UT Southwestern Medical School.<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/schenck_betsy.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Betsy Schenck, D.O.</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Part-Time Staff Physician</p>
+        <p>
+	Dr. Schenck is a board certified ER physician who provides general family medicine services and specialty travel medicine.&nbsp; She does not perform gynecology exams.&nbsp; Dr. Schenck received her DO from UNT Health Science Center Texas College of Osteopathic Medicine and has worked part-time for the Student Health and Wellness Center since 2006. &nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/white_rae.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Rae Dianne White, D.O.</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Physician</p>
+        <p>
+	Dr. White is a board certified physician.&nbsp; She performs general family medicine, gynecology, orthopedic, dermatology, psychotropic medication management, and cardiovascular and pulmondary, as well as seeing new allergy patients.&nbsp; Dr. White received her DO from the College of Osteopathic Medicine Pacific and has been with the Student Health and Wellness Center since 1995. &nbsp;<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Sajid Surve, D.O. (UNT HSC)</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Physician</p>
+        <p>
+	Dr. Surve is a triple board certified specialist in Performing Arts Medicine.&nbsp; He provides a wide range of services such as osteopathic manipulation, acupuncture, injections, bracing, practice recommendations, and general counseling.&nbsp; His services are limited at this time to performing arts students.&nbsp; He received his DO from Rowan University School of Osteopathic Medicine.<br />
+	&nbsp;</p></div>
+</div>
+
+<h2>Nursing</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/brewer_kathy.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kathy Brewer</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Nursing</p>
+        <p>
+	Kathy is a licensed vocational nurse who assists with patient care and supervises the Student Health and Wellness Center&#39;s excellent team of nurses.&nbsp; She has been with the Student Health and Wellness Center for over 20 years.
+<br />
+<br />
+</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/daniels_comedra.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Comedra Daniels</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Assistant Director of Nursing</p>
+        <p>
+	Comedra is a licensed vocational nurse who assists with patient care and assists with the supervision of the Student Health and Wellness Center&#39;s team of nurses.&nbsp; She has been with the Student Health and Wellness Center since 2011.</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/amerson_audrey_0.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Audrey Amerson</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Audrey is a licensed vocational nurse who assists with patient care and has worked at the Student Health and Wellness&nbsp;Center since 2007.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/battle-thomas_arleine.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Arleine Battle-Thomas</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Referral Nurse</p>
+        <p>
+	Arleine is a licensed vocational nurse who assists patients with referrals to outside specialists and providers.&nbsp; She has been with the Student Health and Wellness Center since 2000.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/boyd_amy.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Amy Boyd</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Amy is a licensed vocational nurse who assists with patient care and has been with the Student Health and Wellness Center since 2014.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Rebecca Fridley</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Part-Time Nurse</p>
+        <p>
+	Rebecca is a part-time nurse who has been with the Student Health and Wellness Center since 2015.<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/head_kimberly.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kim Head</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Kim is a licensed vocational nurse who assists with patient care and has been with the Student Health and Wellness Center since 2006.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/hyde_deanne.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Deanne Hyde</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Medical Assistant</p>
+        <p>
+	Deanne is a licensed Medical Assistant who assists with patient care.&nbsp; She has been with the Student Health and Wellness Center since 2006.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/koiner_angela.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Angela Koiner</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Angela is a licensed nurse who has been at the Student Health and Wellness Center since 2016.&nbsp;<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/ledesma_kim.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kim Ledesma</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Kim is a licensed vocational nurse who assists with patient care.&nbsp; She has been with the Student Health and Wellness Center since 2014.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/mcqueen_patty.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Patty McQueen</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Patty is a licensed vocational nurse who assists with patient care.&nbsp; She has been with the Student Health and Wellness Center since 2016.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Megan Morris</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Part-Time Nurse</p>
+        <p>
+	Megan is a licensed vocational nurse who assists with patient care.&nbsp; She has been with the Student Health and Wellness Center part-time since 2016.<br />
+<br />	
+  <br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/raj_jansi.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jansi Raj</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Jansi is a licensed vocational nurse who assists with patient care.&nbsp; She has been with the Student Health and Wellness Center since 2015.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/stapleton_laura.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Laura Stapleton</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Treatments Nurse</p>
+        <p>
+	Laura is a licensed vocational nurse who assists with patient care in the Treatments area of the Clinic.&nbsp; She has been with the Student Health and Wellness Center since 2015.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/taylor_greta.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Greta Taylor</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Greta is a licensed vocational nurse who assists with patient care.&nbsp; She has been with the Student Health and Wellness Center since 2001.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/walters_tamera.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Tamera Walters</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Tamera is a licensed nurse who has been with the Student Health and Wellness Center since 2016.<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/whitaker_nancy.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Nancy Whitaker</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Staff Nurse</p>
+        <p>
+	Nancy is a licensed vocational nurse who assists with patient care.&nbsp; She has been with the Student Health and Wellness Center since 2008.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+<h2>Pharmacy</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/knotts_karen.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Karen Knotts, RPh</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Pharmacy</p>
+        <p>
+	Karen is the Chief Pharmacist in charge of all Pharmacy functions.&nbsp; She received her B.S. from Butler University and has been with the Student Health and Wellness Center since 2011.</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/lively_nancy.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Nancy Lively, RPh</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Part-Time Pharmacist</p>
+        <p>
+	Nancy received her B.S. from the University of Texas and is a licensed Pharmacist who works part-time with the Student Health and Wellness Center.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/martin_christine.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Christine Martin, RPh</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Part-Time Pharmacist</p>
+        <p>
+	Christine received her B.S. from University of Texas and is a part-time pharmacist who has been with the Student Health and Wellness Center since 2015.<br />
+	&nbsp;<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/sprabary_staci.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Staci Sprabary, CPht</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Certified Pharmacy Technician</p>
+        <p>
+	Staci is a Certified Pharmacy Technician who has been with the Student Health and Wellness Center since 2003. <br />
+<br />
+</p></div>
+</div>
+
+<h2>Auxiliary Services</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/andress_jennifer.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jennifer Andress, RT (R)</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Radiologic Technologist</p>
+        <p>
+	Jennifer is a Radiologic Technologist who has been with the Student Health and Wellness Center since 2015.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/frederick_carol.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Carol Frederick, MT, ASCP</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Medical Technologist</p>
+        <p>
+	Carol is a licensed medical technologist in the Student Health and Wellness Center CLIA-certified Laboratory.&nbsp; She has been with the Student Health and Wellness Center since 2010.</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/gemoets_danielle.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Danielle Gemoets, MS, RDN, LD</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Part-Time Dietitian</p>
+        <p>
+	Danielle is a certified dietitian who has been with the Student Health and Wellness Center part-time since 2013.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/warnell_nancy.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Nancy Warnell, MT, AMT</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Medical Technologist</p>
+        <p>
+	Nancy is a licensed medical technologist in the Student Health and Wellness Center CLIA-certified Laboratory.&nbsp; She has been with the Student Health and Wellness Center since 2006.</p></div>
+</div>
+
+<h2>Administrative</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/sachs_dana.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Dana Sachs</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Administration</p>
+        <p>
+	Dana supervises all Administrative functions of the Student Health and Wellness Center, as well as assisting with the supervision of all health center functions in general.&nbsp; She has been with the Student Health and Wellness Center since 2000.</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/chavarria_israel.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Israel Chavarria</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Coordinator of MCHR</p>
+        <p>
+	Israel supervises the Meadows Center for Health Resources, which includes the Student Health and Wellness Center&#39;s wellness resources such as Condom Club and the Mean Green Screen.&nbsp; He has been with the Student Health and Wellness Center since 2014.</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/clisso_linda.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Linda Clisso</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Administrative Assistant</p>
+        <p>
+	Linda provides administrative functions such as payroll, as well as being Safety Officer.&nbsp; She has been with the Student Health and Wellness Center since 2002.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/easley_amelia.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Amelia Easley</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">MCHR Administrative Assistant</p>
+        <p>
+	Amelia assists in the Meadows Center for Health Resources.&nbsp; She has been with the Student Health and Wellness Center since 2016.<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/felton_donna.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Donna Felton</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Assistant Coordinator of HIM</p>
+        <p>
+	Donna assists with the supervision of the Health Information Management Department as well as being a main points of contact for askSHWC and the health center&#39;s social media accounts.&nbsp; She has been with the Student Health and Wellness Center for over 10 years.</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fields-hawkins_stephanie.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Stephanie Fields-Hawkins</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Coordinator of Administration and Assessment</p>
+        <p>
+	Stephanie assists with all health center administrative and assessment functions.&nbsp; She has been with the Student Health and Wellness Center since 2009 and received her MA from UNT shortly after.<br />
+	<br /></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/finley_nathan.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Nathan Finley</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Coordinator of Billing</p>
+        <p>
+	Nathan supervises the Student Health and Wellness Center Billing Department, including managing the University-endorsed student insurance plan.&nbsp; He has been with the Student Health and Wellness Center since 2012.<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/hargrove_darlene.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Darlene Hargove</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Billing Specialist</p>
+        <p>
+	Darlene is a part of the Billing Department team.&nbsp; She has been with the Student Health and Wellness Center since 2011.<br />
+	<br />
+	<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/hons_jonathan.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jonathan Hons</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">IT Specialist</p>
+        <p>
+	Jonathan has been the Student Health and Wellness Center&#39;s IT Specialist since 2009 and is responsible for the health center&#39;s IT functions.<br />
+	<br />
+  	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/raper-combs_tricia.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Tricia Raper-Combs</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Coordinator of HIM/HIPAA Privacy Officer</p>
+        <p>
+	Tricia has worked at the health center for over 20 years and currently serves as the Health Insurance Portability and Accountability Act (HIPAA) Privacy Officer and Coordinator of Health Information Management.&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/rich_heather.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Heather Rich</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Coordinator of Auditing and Compliance</p>
+        <p>
+	Heather is responsible for health center audits, compliance, medical staff credentialing, and medical coding.&nbsp; She has&nbsp; been with the Student Health and Wellness Center since 2016.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/ruhberg_shari.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Shari Ruhberg</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Materials Management Supervisor</p>
+        <p>
+	Shari has worked at the Student Health and Wellness Center since 2009, first in the Billing department and&nbsp;more recently as the Materials Management Supervisor.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/stanhope_kerry.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kerry Stanhope</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Assistant Director of Outreach</p>
+        <p>
+	Kerry attended the University of North Texas where he earned a BA in Journalism and MEd in Higher Education.&nbsp; He has been at the UNT Student Health and Wellness Center since 2005 and currently manages marketing and outreach.&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/thompson_cathy.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Cathy Thompson</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Coordinator of Accounting and Purchasing</p>
+        <p>
+	Cathy supervises all aspects of accounting and purchasing for the Student Health and Wellness Center.&nbsp; She has been with the health center since 1999.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/wilson_stephanie.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Stephanie Wilson</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Insurance Specialist</p>
+        <p>
+	Stephanie is a part of the Billing Department team and assists with the management of the University-endorsed student insurance plan.&nbsp; She has been with the Student Health and Wellness Center since 2012.<br />
+	<br />
+	&nbsp;</p></div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+            </div>
+            
+                        <div class="tab-pane fadeIn animated " id="news">
+                <div class="col-md-8">
+                	<div class="view view-posts view-id-posts view-display-id-block_7 view-dom-id-8">
+    
+  
+  
+    	    	<div class="view-content">
+              
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-175483">
+		<h1><a href="http://studentaffairs.unt.edu/blog/take-precautions-against-zika-virus-when-traveling"><a href="/blog/take-precautions-against-zika-virus-when-traveling">Take precautions against Zika virus when traveling</a></a></h1>
+	
+	<p><p>
+	March 9, 2016</p>
+
+<p>
+	The Centers for Disease Control continues to caution travelers to areas in the Caribbean, Mexico, Central America and South America about the threat of contracting the Zika Virus, which is carried by mosquitoes. While there is no evidence of local transmission of the...</p></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Kerry Stanhope		</div>
+		<a href="http://studentaffairs.unt.edu/blog/take-precautions-against-zika-virus-when-traveling" class="comments">Tue, April 26 - 10:24am</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-175484">
+		<h1><a href="http://studentaffairs.unt.edu/blog/summer-brings-more-mosquitoes-take-necessary-precautions"><a href="/blog/summer-brings-more-mosquitoes-take-necessary-precautions">Summer brings more mosquitoes, take necessary precautions</a></a></h1>
+	
+	<p><p>
+	April 15, 2016</p>
+
+<p>
+	Earlier this week, Denton County confirmed its first case of a person infected with the Zika Virus. Although the case was not a result of a local transmission of the virus, the university community should take precautions in travel and against West Nile Virus which is...</p></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Kerry Stanhope		</div>
+		<a href="http://studentaffairs.unt.edu/blog/summer-brings-more-mosquitoes-take-necessary-precautions" class="comments">Tue, April 26 - 10:26am</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-174711">
+		<h1><a href="http://studentaffairs.unt.edu/blog/zika-virus"><a href="/blog/zika-virus">Zika Virus</a></a></h1>
+	
+	<p><table border="0" cellpadding="0" cellspacing="0" class="x_MsoNormalTable" width="100%">
+	<tbody>
+		<tr>
+			<td style="background:#00853E; padding:0in 0in 0in 0in" valign="top">
+				<div align="center">...</div></td></tr></tbody></table></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Kerry Stanhope		</div>
+		<a href="http://studentaffairs.unt.edu/blog/zika-virus" class="comments">Sun, February 28 - 10:22pm</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-173993">
+		<h1><a href="http://studentaffairs.unt.edu/blog/home-care"><a href="/blog/home-care">Home Care</a></a></h1>
+	
+	<p><p>
+	Many common medical concerns can be resolved with over-the-counter medicines and only require a medical appointment if they do not resolve or worsen after using the over-the-counter medicine.&nbsp; The lists below are common issues and recommended medications for resolving those issues.&nbsp;...</p></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Kerry Stanhope		</div>
+		<a href="http://studentaffairs.unt.edu/blog/home-care" class="comments">Mon, October 26 - 4:12pm</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-173888">
+		<h1><a href="http://studentaffairs.unt.edu/blog/fall-2015-flu-vaccinations"><a href="/blog/fall-2015-flu-vaccinations">Fall 2015 Flu Vaccinations</a></a></h1>
+	
+	<p><p>
+	Sorry. The Student Health and Wellness Center is out of flu vaccine for the season. &nbsp;You can use the widget below from the CDC and <a href="http://www.flu.gov/">Flu.gov</a>&nbsp;to find the nearest flu clinic in your area.</p>
+
+<p>...</p></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Kerry Stanhope		</div>
+		<a href="http://studentaffairs.unt.edu/blog/fall-2015-flu-vaccinations" class="comments">Wed, October 14 - 11:17am</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-8520">
+		<h1><a href="http://studentaffairs.unt.edu/blog/health-issues-international-students"><a href="/blog/health-issues-international-students">Health Issues for International Students</a></a></h1>
+	
+	<p><div class="tabbable">
+	<div class="row">
+		<div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked">
+				<li>
+					<a data-toggle="tab" href="#intro">Introduction</a></li>
+				<li class="active">
+					<a data-toggle="tab" href="#issues">Health Issues</a></li>
+				<li>...</li></ul></div></div></div></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Keith Holliday		</div>
+		<a href="http://studentaffairs.unt.edu/blog/health-issues-international-students" class="comments">Mon, April 14 - 11:32am</a>
+	</div>
+</article>
+</div>
+
+         </div>
+      
+  
+  
+  
+  
+  
+</div>                 </div>
+                
+                <div class="col-md-4">
+                	
+                                             <div class="col-md-12">
+                            <div class="col-md-12">
+	<div class="content home-page-block">
+		<p>
+			<img alt="" src="/sites/default/files/healthcenter/shwc-acronym_and_longform_color_sm.png" style="width: 100%;" /></p>
+		&nbsp;
+
+		<p>
+			<a class="button button-block" href="/health-center-appointments">Request an Appointment</a></p>
+
+		<p>
+			<strong>Additional charges may be incurred during your visit.</strong></p>
+
+		<p>
+			&nbsp;</p>
+
+		<p>
+			<strong>We do not file insurance to outside insurance companies.</strong></p>
+	</div>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		<strong>All UNT students can use the 24-hour nurse call line at </strong><strong>855-894-3803, PIN 1072.</strong></p>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		<a href="/sites/default/files/healthcenter/NPP-10160421.pdf"><strong>Notice of Patient Privacy</strong></a></p>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		<a href="http://studentaffairs.unt.edu/blog/patient-rights-and-responsibilities"><strong>Patient Rights and Responsibilities</strong></a></p>
+</div>
+                        </div>
+                                        
+                    <div class="col-md-12">
+                        <h1>Upcoming Events</h1>
+                        
+
+<div class="view view-Events view-id-Events view-display-id-block_1 view-dom-id-10">
+
+
+    
+  
+  
+      <div class="view-empty">
+      <div class="card-container col-md-12"><div class="well event ghost no-events">There are currently no events scheduled.</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="tab-pane fadeIn animated" id="posts">
+                <div class="view view-posts view-id-posts view-display-id-block_2 view-dom-id-6">
+    
+      <div class="view-filters col-md-3">
+      <form action="/posts-manage"  accept-charset="UTF-8" method="get" id="views-exposed-form-posts-block-2" class="views_exposed_form">
+<div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Search          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-title-wrapper">
+ <input type="text" maxlength="128" name="title" id="edit-title" size="30" value="" class="form-text" />
+</div>
+        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-field_tags_value">
+                  <label for="edit-field-tags-value">
+            Tags          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-field-tags-value-wrapper">
+ <select name="field_tags_value" class="form-select" id="edit-field-tags-value" ><option value="All" selected="selected">&lt;Any&gt;</option></select>
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-posts" value="Apply"  class="form-submit" />
+    </div>
+  </div>
+</div>
+
+</div></form>
+    </div>
+  
+  
+    	        <div class="view-content">
+              
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-74576">
+		<h1><a href="http://studentaffairs.unt.edu/blog/employment-health-center"><a href="/blog/employment-health-center">Employment at the Health Center</a></a></h1>
+	
+	<p>
+	Interested in working with us?
+
+
+	The UNT Student Health and Wellness Center (SHWC) offers various student and non-student employment opportunities throughout the year as positions open.
+
+
+	Student Assistant positions can be found via the Eagle...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/employment-health-center" class="comments">10/20/2014 - 10:21</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-74575">
+		<h1><a href="http://studentaffairs.unt.edu/blog/what-west-nile-virus-and-how-do-i-prevent-it"><a href="/blog/what-west-nile-virus-and-how-do-i-prevent-it">What is West Nile Virus and how do I prevent it?</a></a></h1>
+	
+	<p>
+	In order to inform our students about this virus, we are providing information from the Centers for Disease Control and Prevention website.
+
+
+	What is the West Nile Virus?
+
+
+	West Nile virus (WNV) is potentially serious illness. It is spread by...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/what-west-nile-virus-and-how-do-i-prevent-it" class="comments">10/20/2014 - 10:17</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-74515">
+		<h1><a href="http://studentaffairs.unt.edu/blog/michelles-law"><a href="/blog/michelles-law">Michelle&#039;s Law</a></a></h1>
+	
+	<p>
+	Michelle&#39;s Law prohibits group plans from terminating a college student&#39;s health insurance coverage based on the student taking a medically necessary leave of absence from school or changing to a part-time status. Coverage is extended for...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/michelles-law" class="comments">10/17/2014 - 12:40</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-73885">
+		<h1><a href="http://studentaffairs.unt.edu/blog/what-bring-college"><a href="/blog/what-bring-college">What to bring to College</a></a></h1>
+	
+	<p>
+	Kathy Brewer, Director of Nursing, put together the following list of suggested items to bring with you to UNT.
+
+
+	
+		Batteries
+	
+		Sunscreen
+	
+		Shampoo/Conditioner/toiletries
+	
+		Tweezers
+	
+		Q-Tips
+	
+		First Aid Kit
+	
+		Thermometer...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/what-bring-college" class="comments">10/02/2014 - 19:55</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-73884">
+		<h1><a href="http://studentaffairs.unt.edu/blog/patient-rights-and-responsibilities"><a href="/blog/patient-rights-and-responsibilities">Patient Rights and Responsibilities</a></a></h1>
+	
+	<p>
+	As a patient of the UNT Student Health and Wellness Center, you have choices, rights and responsibilities.
+
+
+	You have the RIGHT:
+
+
+	
+		To be treated with dignity and respect.
+	
+		To know the names and professional status of people serving you...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/patient-rights-and-responsibilities" class="comments">10/02/2014 - 19:54</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-8519">
+		<h1><a href="http://studentaffairs.unt.edu/blog/meningitis"><a href="/blog/meningitis">Meningitis</a></a></h1>
+	
+	<p>
+	
+		Important Information About Meningococcal Meningitis
+
+	
+		Effective October 1, 2013&nbsp;students 22 years of age or older are not required to submit evidence of meningococcal meningitis vaccination. Exemptions from Immunizations for Reasons of...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/meningitis" class="comments">04/14/2014 - 11:25</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-8517">
+		<h1><a href="http://studentaffairs.unt.edu/blog/online-health-resources"><a href="/blog/online-health-resources">Online Health Resources</a></a></h1>
+	
+	<p>
+	
+		We have assembled this list of links to support the education of our patients on healthy topics and additional resources that may be available to them. Please note that online research can be beneficial to help you understand more about your...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/online-health-resources" class="comments">04/14/2014 - 11:21</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-8516">
+		<h1><a href="http://studentaffairs.unt.edu/blog/ready-quit"><a href="/blog/ready-quit">Ready to Quit?</a></a></h1>
+	
+	<p>
+	
+		Tobacco Cessation Resources and Support
+
+	
+		Want to quit smoking? We can help. A healthy lifestyle is the key to continued well-being. Changing your lifestyle for the better takes time and real effort. But you can do it. And it&#39;s worth it...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/ready-quit" class="comments">04/14/2014 - 11:20</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-8515">
+		<h1><a href="http://studentaffairs.unt.edu/blog/smoke-free-unt"><a href="/blog/smoke-free-unt">Smoke-Free UNT</a></a></h1>
+	
+	<p>
+	
+		Starting January 1, 2013, The University of North Texas will be a Smoke-Free Campus.
+
+	
+		In order to provide students, faculty, staff, and visitors with a healthy, welcoming environment, UNT&rsquo;s Smoke-Free Campus Policy prohibits smoking...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/smoke-free-unt" class="comments">04/14/2014 - 11:18</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-8512">
+		<h1><a href="http://studentaffairs.unt.edu/blog/health-center-pricing"><a href="/blog/health-center-pricing">Health Center Pricing</a></a></h1>
+	
+	<p>
+	
+		
+			Pricing
+	
+
+	
+		
+
+	
+		
+			What does it cost to see a provider or nurse?
+
+		
+			Payment of the Medical Services Fee, which is built into the student&#39;s tuition and fees, allows access to the Student Health and Wellness Center. A student...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/health-center-pricing" class="comments">04/14/2014 - 10:40</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-8511">
+		<h1><a href="http://studentaffairs.unt.edu/blog/health-center-forms"><a href="/blog/health-center-forms">Health Center Forms</a></a></h1>
+	
+	<p>
+	
+		Additional Charges
+	
+		Ask a Dietitian
+	
+		Bacterial Meningitis Immunization Medical Exemption Affidavit
+	
+		Bacterial Meningitis Immunization Record
+	
+		Bacterial Meningitis Immunization Extension
+	
+		Bacterial Meningitis Online Class Petition...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/health-center-forms" class="comments">04/14/2014 - 10:38</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-7863">
+		<h1><a href="http://studentaffairs.unt.edu/blog/health-and-wellness-faq"><a href="/blog/health-and-wellness-faq">Health and Wellness FAQ</a></a></h1>
+	
+	<p>
+	
+		&nbsp;
+
+	
+		
+			What health and wellness services are available for students?
+		
+			Are counseling services available for students?
+		
+			Where can I go for disability access services help?
+		
+			What extracurricular activities are available...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Student Health and Wellness Center		</div>
+		<a href="http://studentaffairs.unt.edu/blog/health-and-wellness-faq" class="comments">03/23/2014 - 15:52</a>
+	</div>
+</article>
+</div>
+
+         </div>
+      
+  
+  
+  
+  
+  
+</div>             </div>
+            <div class="tab-pane fadeIn animated" id="hours">
+                
+            </div>
+            
+            <div class="tab-pane fadeIn animated" id="programs">
+				
+
+<div class="view view-programs view-id-programs view-display-id-block_1 view-dom-id-3">
+
+
+        <div class="view-header">
+      <style>
+.bef-select-as-radios .form-item{
+  display:inline-block;
+}
+#edit-field-tags-value-217-wrapper {
+  display:none;
+  visibility:hidden;
+  height:0px;
+}
+</style>
+
+<div class="dropdown filter filter-title" data-filter="views-widget-filter-title" data-filter-type="text">
+	<input type="text" data-filter-id="edit-title" placeholder="Refine by Title" />
+</div>
+
+<div class="dropdown filter filter-channel" data-filter="views-widget-filter-field_program_category_value" data-filter-type="list">
+<a href="#" class="button button-filter button-caret" data-toggle="dropdown">Channels</a>
+<ul class="dropdown-menu">
+</ul>
+</div>
+
+<div class="filter filter-channel-secondary" data-filter="views-widget-filter-field_tags_value" data-filter-type="list">
+<ul class="tags">
+</ul>
+</div>    </div>
+  
+      <div class="view-filters">
+      <form action="/programs-dev"  accept-charset="UTF-8" method="get" id="views-exposed-form-programs-block-1" class="views_exposed_form">
+<div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget views-widget-filter-field_tags_value">
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"></div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-field_program_category_value">
+                  <label for="edit-channel">
+            Channel          </label>
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item" id="edit-channel-29-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-29" value="29"  /> <label class='option' for='edit-channel-29'>Arts &amp; Entertainment</label>
+</div>
+<div class="form-item" id="edit-channel-30-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-30" value="30"  /> <label class='option' for='edit-channel-30'>Career</label>
+</div>
+<div class="form-item" id="edit-channel-39-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-39" value="39"  /> <label class='option' for='edit-channel-39'>Community Service</label>
+</div>
+<div class="form-item" id="edit-channel-32-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-32" value="32"  /> <label class='option' for='edit-channel-32'>Education</label>
+</div>
+<div class="form-item" id="edit-channel-34-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-34" value="34"  /> <label class='option' for='edit-channel-34'>Health &amp; Wellness</label>
+</div>
+<div class="form-item" id="edit-channel-35-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-35" value="35"  /> <label class='option' for='edit-channel-35'>Leadership</label>
+</div>
+<div class="form-item" id="edit-channel-33-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-33" value="33"  /> <label class='option' for='edit-channel-33'>Money Management</label>
+</div>
+<div class="form-item" id="edit-channel-253-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-253" value="253"  /> <label class='option' for='edit-channel-253'>Orientation &amp; Transitioning</label>
+</div>
+<div class="form-item" id="edit-channel-252-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-252" value="252"  /> <label class='option' for='edit-channel-252'>Pride &amp; Traditions</label>
+</div>
+<div class="form-item" id="edit-channel-59-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-59" value="59"  /> <label class='option' for='edit-channel-59'>Residence Life</label>
+</div>
+<div class="form-item" id="edit-channel-36-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-36" value="36"  /> <label class='option' for='edit-channel-36'>Retail &amp; Dining</label>
+</div>
+<div class="form-item" id="edit-channel-41-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-41" value="41"  /> <label class='option' for='edit-channel-41'>Rights &amp; Conduct</label>
+</div>
+<div class="form-item" id="edit-channel-201-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-201" value="201"  /> <label class='option' for='edit-channel-201'>UNT</label>
+</div>
+</div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Title          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-title-wrapper">
+ <input type="text" maxlength="128" name="title" id="edit-title" size="30" value="" class="form-text" />
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-programs" value="Apply"  class="form-submit" />
+<input type="hidden" name="views_exposed_form_focused_field" id="edit-views-exposed-form-focused-field" value=""  />
+    </div>
+  </div>
+</div>
+
+</div></form>
+    </div>
+  
+  
+      <div class="view-content">
+          
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/womens-health">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Womens%20Health_0.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Women&#039;s Health</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Complete Care for Women
+
+	
+		Welcome to Complete Care for Women &ndash; the online resource center for gynecological services...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/add-adhd">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/ADD%20-%20ADHD.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>ADD/ ADHD</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	The Student Health and Wellness Center (SHWC) provides only medication management for students with Attention Deficit Disorder/Attention...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/allergy-injections">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Allergy%20Injections.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Allergy Injections</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	The SHWC can give regular allergy injections to UNT students. The SHWC does&nbsp;not&nbsp;do allergy testing. You must be under the care...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/billing-insurance">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Billing%20%26%20Insurance.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Billing &amp; Insurance</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		
+			(940) 369-8543
+
+		
+			See the Pricing page for questions about pricing and paying your bill at the Student Health and Wellness...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/dental-services">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/office_8_copy.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Dental Services</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		
+			
+				About
+			
+				FAQs
+		
+	
+
+	
+		
+			
+				
+					The University of North Texas Student Health &amp; Wellness Center is proud to...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/departmental-first-aid-supplies">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Departmental%20First%20Aid%20Supplies.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Departmental First Aid Supplies</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	First Aid Supplies
+
+
+	The UNT Student Health and Wellness Center (SHWC) offers first aid supplies for sale to UNT departments, as well as...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/dietitian">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/3.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Dietitian</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Dietitian
+
+	
+		(940) 565-2333
+		&nbsp;
+
+	
+		Whether you want to learn how to improve your eating habits or need help with a nutrition-...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/health-education-programming">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Health%20Education%20Programming.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Health Education Programming</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	The Meadows Center for Health Resources provides more than just one-on-one services. Student groups, classrooms, and student...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/immunization-requirements">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Immunization%20Requirements_0.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Immunization Requirements</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Meningitis
+
+	
+		Effective October 1, 2013, the following changes to the meningitis requirement are:
+
+	
+		
+			Students 22 years of age...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/laboratory">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/dsc_0192-2.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Laboratory</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		(940) 565-2779
+
+	
+		The Student Health and Wellness Center operates a full-service clinical laboratory which provides hematological,...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/massage-therapy-services">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Massage%20Therapy%20Services.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Massage Therapy Services</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	Affordable massage therapy services to faculty, staff and students
+
+
+	School can often be a major form of stress for college students. To...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/meadows-center-health-resources">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/1.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Meadows Center for Health Resources</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		(940) 565-2787
+
+	
+		Located in Suite 301 of Chestnut Hall
+
+	
+		The Meadows Center for Health Resources&nbsp;is the health education...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/mean-green-screen">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Mean%20Green%20Screen%2C%20Free%20HIV%20Test%20Site.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Mean Green Screen</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	The Mean Green Screen began in 1993 when the Student Health &amp; Wellness Center implemented a free, anonymous HIV test site. HIV...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/medical-records">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Medical%20Records.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Medical Records</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		
+			(940) 565-3541
+
+		
+			The Medical Records department collects, distributes, stores, and retrieves medical information from the...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/medical-services-0">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Medical%20Services.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Medical Services</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	(940) 565-2333
+
+
+	Primary Health Care
+
+
+	Our licensed, medical staff provides primary health care and additional services, including but...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/mens-health">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/mens-health.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Men&#039;s Health</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	Statistically men&nbsp;do not seek&nbsp;health services as often as women, although most men&rsquo;s health risks are preventable and...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/optometry">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Optometry.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Optometry</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		
+			Optometry
+
+		
+			(940) 369-7441&nbsp;www.coeunt.com
+
+		
+			About Us
+
+		
+			College Optical Express at UNT is a full service...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/pharmacy">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Pharmacy.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Pharmacy</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		(940) 565-2790
+
+	
+		The Student Health and Wellness Center Pharmacy is a non-profit, state owned and fully licensed pharmacy.&nbsp;...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/psychiatry">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Psychiatry.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Psychiatry</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	(940) 565-2778
+
+
+	We are currently in transition with our psychiatric services and will have limited availability of psychiatric...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/radiology">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Radiology.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Radiology</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		(940) 565-2783
+
+	
+		The Radiology department provides basic radiographic examinations and diagnostic x-rays with a Student Health and...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/conversation-peer-health-educators">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/The%20Conversation%20Peer%20Health%20Educators.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>The Conversation: Peer Health Educators</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	The Meadows Center for Health Resources sponsors the Conversation, a peer health education student organization, to assist with educating...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/transgender-health">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Transgender%20Health.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Transgender Health</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	Here at the UNT Student Health and Wellness Center we believe every student has the right to be treated in a respectful and confidential...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/travel-medicine">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Travel%20Medicine.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Travel Medicine</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	The SHWC provides appointments for students traveling abroad for a UNT trip or personal travel. To schedule an appointment call (940) 565...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/walk-std-testing">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/img_0138.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-healthwellness">Health &amp; Wellness</div> </div>
+			<h1>Walk-In STD Testing</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	940-565-2333
+
+
+	The Student Health and Wellness Center is happy to announce that we are now providing walk-in testing services for...	</div>
+	
+</div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+				<div class="clear"></div>
+				
+
+<div class="view view-DepartmentsServices view-id-DepartmentsServices view-display-id-block_2 view-dom-id-9">
+
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+            </div>
+            
+                        
+        </div>
+    </div>   
+</div><!-- end of row -->
+<style>
+
+</style>
+</main>
+	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/base.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/ajax_view.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/dependent.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/views_hacks/views_filters_autosubmit/views_filters_autosubmit.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/better_exposed_filters/better_exposed_filters.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.form.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ], "roles": { "1": "anonymous user", "2": "anonymous user", "3": "anonymous user", "4": "anonymous user", "5": "anonymous user", "6": "anonymous user", "7": "anonymous user", "8": "anonymous user", "9": "anonymous user", "10": "anonymous user", "11": "anonymous user", "12": "anonymous user", "13": "anonymous user", "14": "anonymous user", "15": "anonymous user", "16": "anonymous user", "17": "anonymous user", "18": "anonymous user", "19": "anonymous user", "20": "anonymous user", "21": "anonymous user" } } }, "CToolsUrlIsAjaxTrusted": { "/student-health-and-wellness-center": [ true, true, true, true, true, true, true, true, true, true ], "/programs-dev": [ true, true ], "/posts-manage": [ true, true ] }, "views": { "ajax_path": [ "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax" ], "ajaxViews": [ { "view_name": "Staff", "view_display_id": "block_1", "view_args": "695", "view_path": "node/695", "view_base_path": "people", "view_dom_id": 2, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_1", "view_args": "695", "view_path": "node/695", "view_base_path": "programs-dev", "view_dom_id": 3, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_3", "view_args": "695", "view_path": "node/695", "view_base_path": "programs-dev", "view_dom_id": 4, "pager_element": 0 }, { "view_name": "Organization", "view_display_id": "block_1", "view_args": "695", "view_path": "node/695", "view_base_path": "explore-orgs-admin", "view_dom_id": 5, "pager_element": 0 }, { "view_name": "posts", "view_display_id": "block_2", "view_args": "695", "view_path": "node/695", "view_base_path": "posts-manage", "view_dom_id": 6, "pager_element": 0 }, { "view_name": "posts", "view_display_id": "block_10", "view_args": "695", "view_path": "node/695", "view_base_path": "posts-manage", "view_dom_id": 7, "pager_element": 0 }, { "view_name": "posts", "view_display_id": "block_7", "view_args": "695", "view_path": "node/695", "view_base_path": "posts-manage", "view_dom_id": 8, "pager_element": 0 }, { "view_name": "Events", "view_display_id": "block_1", "view_args": "695", "view_path": "node/695", "view_base_path": "read/events", "view_dom_id": 10, "pager_element": 0 } ] }, "vfas": { "views-exposed-form-programs-block-1": { "exceptions": "" } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "og": { "group_context": { "nid": "695", "title": "Student Health and Wellness Center", "type": "departments_services" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

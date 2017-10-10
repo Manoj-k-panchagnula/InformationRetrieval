@@ -1,0 +1,585 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Immunization Requirements &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   immunization-requirements">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/immunization-requirements"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-b5hdemLtTtlrm8Oumu9rGkPbdmFvPKpOZLWIV3Y7Y-0" value="form-b5hdemLtTtlrm8Oumu9rGkPbdmFvPKpOZLWIV3Y7Y-0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/immunization-requirements"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-b5hdemLtTtlrm8Oumu9rGkPbdmFvPKpOZLWIV3Y7Y-0" value="form-b5hdemLtTtlrm8Oumu9rGkPbdmFvPKpOZLWIV3Y7Y-0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-healthwellness">Health & Wellness</div> </div> -->
+			<h1 id="dls">Immunization Requirements</h1>
+						<div id="sub" class="subtitle">Provided by <a href="student-health-and-wellness-center">Student Health and Wellness Center</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="student-health-and-wellness-center">Student Health and Wellness Center</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="col-md-12">
+	<h2>
+		Meningitis</h2>
+
+	<p>
+		<strong>Effective October 1, 2013, the following changes to the meningitis requirement are:</strong></p>
+
+	<ul>
+		<li>
+			Students 22 years of age or older are not required to submit evidence of meningococcal meningitis vaccination.</li>
+		<li>
+			Affidavit forms for exceptions to vaccination for reasons of conscience, such as religious or philosophical belief can only be issued by the Texas Department of State Health Services (DSHS).</li>
+		<li>
+			The exception form from DSHS must be signed and notarized no more than 90 days prior to the first day of classes to be valid.</li>
+	</ul>
+
+	<p>
+		All new students, including transfer students, must show evidence of receipt of an initial bacterial meningitis vaccination (meningococcal meningitis vaccine) dose or booster in the last five years and at least ten days prior to the first day of the semester in which the student initially enrolls. This law also applies to any student returning to school after a break in enrollment for a fall or spring semester.</p>
+
+	<p>
+		Students are not required to submit evidence of vaccination if they are twenty-two years of age or older or enrolled for online courses only.&nbsp; Students who plan to enroll for exclusively online courses only should complete the&nbsp;<a href="/sites/default/files/healthcenter/Petition%20to%20Waive%20meningitis%20online_new%20wordmark.pdf" target="_blank" title="Meningitis Online Class Petition">Meningitis Online Class Petition</a>&nbsp;and submit it to the UNT Registrar&#39;s Office. If a student who has previously enrolled for online only courses subsequently enrolls for and attends any class or portion of a class on campus, they must submit evidence of vaccination as above.&nbsp;<a href="http://studentaffairs.unt.edu/blog/meningitis">Click here&nbsp;</a>to read more information about bacterial meningitis.</p>
+
+	<p>
+		Students, parents, and guardians have the right to seek an exemption to this requirement. Exemption will only be permitted based on evidence that the bacterial meningitis vaccine would be injurious to a student&#39;s health and well-being according to the professional opinion of a physician who is duly registered and licensed to practice medicine in the United States, or if the student has refused the vaccination based on a conscientious objection, including religion.&nbsp;Download the <a href="/sites/default/files/healthcenter/Bacterial%20Meningitis%20Immunization%20Medical%20Exemption%20Affidavit.pdf">Bacterial Meningitis Immunization Medical Exemption Affidavit</a> from our Forms page. Exemptions from Immunizations for Reasons of Conscience can only be requested through the&nbsp;<a href="https://corequest.dshs.texas.gov/" target="new">Texas Department of State Health Services</a>.</p>
+
+	<p>
+		Immunizations are available from the UNT Student Health and Wellness Center, personal physician or a local Health Department. The immunization documentation can be attached to the Bacterial Meningitis Immunization form using Option 1 or your health care provider can complete the form using Option 2.</p>
+
+	<p>
+		<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Record_new_wordmark.pdf">Click Here</a>&nbsp;to view and download The Bacterial Meningitis Immunization form.</p>
+
+	<p>
+		The following is acceptable evidence of vaccination or receiving a booster dose:</p>
+
+	<ul>
+		<li>
+			The signature or stamp of a physician or their designee, or public health person on a form which shows the month, day and year the vaccination dose or booster was administered.</li>
+		<li>
+			An official immunization record generated from a state or local health authority</li>
+		<li>
+			An official record received from school officials, including a record from another state</li>
+	</ul>
+
+	<h2>
+		Requirement Deadlines</h2>
+
+	<p>
+		<strong>If you were attending classes at UNT or UNT Dallas during the Spring 2016 semester, proof of immunization against bacterial meningitis is not required for Fall 2016 semester.</strong></p>
+
+	<p>
+		New students, returning students, and continuing students not enrolled for Spring 2016 and who are under 22 years of age as of the first class day for the session or term they wish to enroll, should provide proof of a bacterial meningitis vaccination or exemption no later than 5:00 PM on the last day of regular registration. Students will be allowed to enroll prior to submitting the documents. However, classes will be canceled after 5:00 PM on the last day of regular registration for any student who has not submitted the proper documentation.</p>
+
+	<h3>
+		Summer&nbsp;2016</h3>
+
+	<p>
+		The last day to receive the immunization and enroll in classes without requesting an extension is&nbsp;May 6, 2016 for 3 Week and 8 Week&nbsp;sessions, May 27, 2016 for 5 Week 1 and 10&nbsp;Week&nbsp;sessions, and July 1, 2016 for 5 Week 2. Students who receive a vaccination after these dates must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension</a>&nbsp;with documentation of immunization to be considered for enrollment. The submission deadline for processing of proof of vaccination will be&nbsp;May 13, 2016 for 3 Week and 8 Week sessions, June 3, 2016 for 5 Week 1 and 10 Week sessions, and July 8, 2016 for 5 Week 2 session.</p>
+
+	<p>
+		A student will be allowed to enroll late only if the proper immunization form is filed with the appropriate UNT Department (see Submitting Documentation below).</p>
+
+	<h3>
+		Fall 2016</h3>
+
+	<p>
+		The last day to receive the immunization and enroll in classes without requesting an extension is August 19, 2016 for Fall 2016. Students who receive a vaccination after this date must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension</a>&nbsp;with documentation of immunization to be considered for enrollment. The submission deadline for processing of proof of vaccination will be August 18, 2016 for Fall 2016.</p>
+
+	<p>
+		A student will be allowed to enroll late only if the proper immunization form is filed with the appropriate UNT Department (see Submitting Documentation below).</p>
+
+	<h3>
+		Spring 2016</h3>
+
+	<p>
+		The last day to receive the immunization and enroll in classes without requesting an extension is&nbsp;January 9, 2016 for Spring 2016. Students who receive a vaccination after this date must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension</a>&nbsp;with documentation of immunization to be considered for enrollment. The submission deadline for processing of proof of vaccination will be January 14, 2016 for Spring 2016.</p>
+
+	<p>
+		A student will be allowed to enroll late only if the proper immunization form is filed with the appropriate UNT Department (see Submitting Documentation <span class="rangySelectionBoundary" id="selectionBoundary_1430144951916_5170677446252412" style="line-height: 0; display: none;">﻿</span>below).</p>
+
+	<h3>
+		Submitting Documentation</h3>
+
+	<h4>
+		Immunization documentation may be submitted to UNT electronically, through the U.S. Postal Service, or delivered by hand to the following offices:</h4>
+
+	<table class="table">
+		<tbody>
+			<tr>
+				<th>
+					New Undergrad &amp; Transfer Students</th>
+				<th>
+					International Students</th>
+				<th>
+					New-Former Grad Students</th>
+				<th>
+					Returning Undergraduates</th>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						Office of Admissions</p>
+
+					<p>
+						1155 Union Circle #311277</p>
+
+					<p>
+						Denton, TX 76203</p>
+
+					<p>
+						<a href="mailto:unt.immrec@unt.edu">unt.immrec@unt.edu</a></p>
+
+					<p>
+						Phone: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2681<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2681"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2681" /></a></span></p>
+				</td>
+				<td>
+					<p>
+						Office of Admissions</p>
+
+					<p>
+						1155 Union Circle #311277</p>
+
+					<p>
+						Denton, TX 76203</p>
+
+					<p>
+						<a href="mailto:unt.immrec@unt.edu">unt.immrec@unt.edu</a></p>
+
+					<p>
+						Phone: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2681<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2681"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2681" /></a></span></p>
+
+					<p>
+						&nbsp;</p>
+				</td>
+				<td>
+					<p>
+						Toulouse Graduate School</p>
+
+					<p>
+						Eagle Student Services Center Room 354</p>
+
+					<p>
+						1155 Union Circle #305459</p>
+
+					<p>
+						Denton, TX 76203</p>
+
+					<p>
+						<a href="mailto:graduateschool@unt.edu">graduateschool@unt.edu</a></p>
+
+					<p>
+						Fax: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2141<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2141"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2141" /></a></span></p>
+
+					<p>
+						Phone: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2383<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2383"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAAaNJREFUeNqk009oz3Ecx/HH9/P9/YQRWSi2MGmNrebkpJgSLluKEw5Kk5zUsgMOTrO42MUVxUWRg+LgaPWbUGq7rRk7sExKNPt9vx8H32l921z2vrw+n3fvz/Pz/vP5JDFGy7HKwk1/fz/sR09VNjAZG6fv1buQHcZm3P8vAMfwCKswncoHCn8nbuAratiEUQglwLXiMJz/FhvWYC9OFb4htBV6B9VyBtsKzRJxbDhvbSS5i1kcQo736MNrjJcBeaG3MuFyInagA0fwckHcGzzGiXIJU38bk1U+x3W+x7U/yOvYU4prwG5MlAHPoS4925TMNDeHLxNUh0gGcRC9eFqk34TBMuAhfmL9b5Vz3elIbAmfLq02d4HQhbc4gBYcxUgZMFrcIJecrsgaT6avdl6sPqu1hw9XSWs4U5Q6udgYFfP+he25MEysVWQvutORLcfTYax4gn3z/VoM8A7Xi/WuKNmQCRujpLc1TGkP46hOI1sKADdxG3PzjkzoTNCT1rSFiX+PuLIEoI4rGC+6/xEPMsFKs7YmM8bsAMlyf2OwTPszAMZMeayGCpJVAAAAAElFTkSuQmCC" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2383" /></a></span></p>
+				</td>
+				<td>
+					<p>
+						Registrar&#39;s Office</p>
+
+					<p>
+						1st floor Eagle Student Services Center</p>
+
+					<p>
+						1155 Union Circle #311400</p>
+
+					<p>
+						Denton, TX 76203</p>
+
+					<p>
+						<a href="mailto:registrar@unt.edu">registrar@unt.edu</a></p>
+
+					<p>
+						Fax: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-4463<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-4463"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-4463" /></a></span></p>
+
+					<p>
+						Phone: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2378</span></p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p>
+		&nbsp;</p>
+
+	<h2>
+		Intensive English Language Institute (IELI) Students</h2>
+
+	<p>
+		All new IELI students, including transfer students, must show evidence of receipt of an initial bacterial meningitis vaccination (meningococcal meningitis vaccine) dose or booster in the last five years and at least ten days prior to the first day of the term in which the student initially enrolls. This also applies to any IELI student returning to UNT after a break in enrollment for a fall or spring semester. This requirement does not apply to any student who will be twenty-two years of age or older on or prior to the first day of classes for the term in which they initially enroll.</p>
+
+	<p>
+		<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Record_new_wordmark.pdf" target="_blank">Click Here</a>&nbsp;to view and download The Bacterial Meningitis Immunization Form.</p>
+
+	<h3>
+		Requirement Deadlines for IELI Students</h3>
+
+	<p>
+		<strong>If you were attending IELI classes at UNT during Fall I and/or Fall II 2015 sessions, proof of immunization against bacterial meningitis is not required for Spring I 2016.</strong></p>
+
+	<p>
+		<strong>Spring I 2016:</strong>&nbsp;The last day to receive the immunization and enroll in classes without requesting an extension is January 9, 2016. Students who receive vaccination after January 9, 2016 must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension.</a>&nbsp;The final deadline to submit proof of vaccination will be January 12, 2016.</p>
+
+	<p>
+		<strong>Spring II 2016:</strong>&nbsp;The last day to receive the immunization and enroll in classes without requesting an extension is March 18, 2016. Students who receive vaccination after March 18, 2016 must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension.</a>&nbsp;The final deadline to submit proof of vaccination will be March 21, 2016.</p>
+
+	<p>
+		<strong>Summer 2016:</strong>&nbsp;The last day to receive the immunization and enroll in classes without requesting an extension is May 27, 2016. Students who receive vaccination after May 27, 2016 must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension.</a>&nbsp;The final deadline to submit proof of vaccination will be May 31, 2016.</p>
+
+	<p>
+		<strong>Fall I 2016:</strong> The last day to receive the immunization and enroll in classes without requesting an extension is August 19, 2016. Students who receive vaccination after August 19, 2016 must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension.</a>&nbsp;The final deadline to submit proof of vaccination will be August 23, 2016.</p>
+
+	<p>
+		<strong>Fall II 2016:</strong> The last day to receive the immunization and enroll in classes without requesting an extension is October 14, 2016. Students who receive vaccination after October 14, 2016 must submit a&nbsp;<a href="/sites/default/files/healthcenter/Bacterial_Meningitis_Immunization_Extension_new_wordmark.pdf" target="_blank">request for extension.</a>&nbsp;The final deadline to submit proof of vaccination will be October 18, 2016.</p>
+
+	<p>
+		Immunization documentation for IELI students may be submitted to UNT electronically, through the U.S. Postal Service, or delivered by hand to:</p>
+
+	<p>
+		Office of Admissions</p>
+
+	<p>
+		1155 Union Circle #311277</p>
+
+	<p>
+		Denton, TX 76203</p>
+
+	<p>
+		<a href="mailto:unt.immrec@unt.edu">unt.immrec@unt.edu</a></p>
+
+	<p>
+		Phone: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2681<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2681"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-565-2681" /></a></span></p>
+
+	<p>
+		For any questions regarding the Meningitis Vaccine:&nbsp;<a href="/sites/default/files/healthcenter/meningitis_faq_updated_10.14.15.pdf">Meningitis FAQ</a></p>
+
+	<h2>
+		Recommended Vaccinations</h2>
+
+	<p>
+		Even though the bacterial meningitis vaccination is the only required immunization, the University of North Texas Student Health and Wellness Center (SHWC) recommends that all students have current immunizations for polio, diphtheria, pertussis, tetanus, rubella, mumps, and measles. Consideration should also be given to vaccination against hepatitis A, hepatitis B, and varicella.</p>
+
+	<p>
+		<strong>For questions please email&nbsp;<a href="mailto:shwc-immz@unt.edu">shwc-immz@unt.edu</a>&nbsp;or fax your questions to <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-369-7042<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-369-7042"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important; border-image: none;" title="Call: 940-369-7042" /></a></span>.<br />
+		No phone calls please.</strong></p>
+
+	<h2>
+		Tuberculosis Screening Requirement for High Risk Students</h2>
+
+	<p>
+		The University requires all incoming International and Intensive English Language Institute (IELI) students who are considered to be at high risk for tubercular disease, as defined by the Centers for Disease Control and Prevention, to be screened for tuberculosis (TB). High risk students must be screened and/or tested for TB within the first three (3) weeks, after the 12th class day, of their first term of study on the UNT campus. To begin the process, review the&nbsp;<a href="/sites/default/files/healthcenter/TB%20Screen%20Form%20for%20Website%20with%20new%20lockup.pdf" target="_blank">Tuberculosis Screening Process on our Forms page.</a>&nbsp;Students can&nbsp;<a href="/sites/default/files/healthcenter/Tuberculosis%20Screening%20Record.pdf">download the Tuberculosis Screening Record from Our Forms Page.</a></p>
+
+	<p>
+		Students may provide documentation to Student Health and Wellness Center (SHWC) verifying that they were tested for TB on a previous date and report the results of his or her TB test. <strong>Documentation for the TB test will be accepted only if it is completed in the United States within the six (6) months prior to the first day of the student&#39;s first term of study at the University.</strong> The documentation must be validated with the signature and stamp/seal of a physician or authorized official and provide clear documentation of the date given and date read.</p>
+
+	<p>
+		Any high risk student who fails to meet TB requirements will have a registration block placed on his or her account by UNT International. The student may remain in classes for the first term of study; however, he or she will be unable to register for classes until the TB screening and/or testing process is complete.</p>
+</div>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/Immunization Requirements_0.jpg');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/immunization-requirements": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

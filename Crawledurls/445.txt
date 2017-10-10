@@ -1,0 +1,282 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+<title>ApplyTexas
+
+</title>
+
+
+
+<meta http-equiv="expires" content="Thu, 01 Jan 1970 00:00:00 GMT" />
+<link rel="shortcut icon" href="/adappc/images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/adappc/css/core.css" />
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/adappc/css/toolbar_nav.css" />
+<link rel="stylesheet" type="text/css" href="/adappc/css/impromptu.css" />
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+//setTimeout works on milliseconds, so 1000 * 60 * 110 gives notice after 1 hour 50 minutes;
+//this 'if' will be a pain in 90-some-odd-years
+
+
+// used in all scripts
+function openNewWin(newpage,help,h,w){
+str='location=yes,toolbar=yes,scrollbars=yes,resizable=yes,height='+h+',width='+w;
+window.open (newpage,help,str);
+}                               
+
+
+
+                     
+// nav sidebar link submission
+function goWhere(url) {
+        document.nav_form.action=url;
+        document.nav_form.submit();
+}
+
+// nav in content pg link submission
+function goWherePg(url) {
+        document.navpg_form.action=url;
+        document.navpg_form.submit();
+}
+
+//fill action switch for various school search pages
+  function fillActionSwitch(theForm,actionValue,formNbr){
+     theForm.s_action_sw.value=actionValue;
+     theForm.s_sch_search_n.value=formNbr;
+     theForm.submit();
+     }
+
+/* for views */
+function goDQ(r,s,n) {
+        str='toolbar=yes,scrollbars=yes,dependent=yes,height=400,width=600,screenX=5,screenY=5,left=5,top=5';
+        window.open ('c01_av_dq.WBX','qvue',str);
+        document.qForm.q_rtype.value = r;
+        document.qForm.q_stat.value = s;
+        document.qForm.q_nbr.value = n;
+        document.qForm.submit();
+        }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+// added by MKB 9/2005
+function text(txt) {
+   window.status = txt;
+}
+
+
+
+ //]]>
+</script>
+
+</head>
+
+<body id="app">
+
+
+
+
+
+  <a href="#mainContent" class="skip">Skip navigation</a>
+  <form name="profileapps" id="profileapps" method="post" action="/adappc/gen/profile_apps.WBX">
+
+       <input type="hidden" name="s_user_id" value="" />
+     <input type="hidden" name="s_app_id" value="" />
+    <input type="hidden" name="s_user_last_nm" value="" />
+    <input type="hidden" name="s_type_of_app" value="ADM" />
+    <input type="hidden" name="s_sec_chk1" value="" />
+ 
+  </form>
+
+  <form name="c_start" id="c_start" method="post" action="/adappc/gen/c_start.WBX">
+    <input type="hidden" name="s_user_id" value="" />
+    <input type="hidden" name="s_app_id" value="" />
+  </form>
+
+  <form name="special_instructions" id="special_instructions" method="post" action="&#47;adappc/gen/special_instructions.WBX">
+    <input type="hidden" name="s_user_id" value="" />
+    <input type="hidden" name="s_app_id" value="" />
+    <input type="hidden" name="s_app_type" value="" />
+    <input type="hidden" name="s_dest_abbr" value="" />
+  </form>
+
+  <div id="header">
+    <div class="width">
+      
+        <h1><a href="/adappc/gen/c_start.WBX" id="logo">ApplyTexas</a></h1>
+      
+      <ul>
+      
+        <li><a href="/adappc/gen/c_start.WBX">Home Page/Log in</a></li>
+      
+                   <li><a href="#" onclick="javascript: document.profileapps.submit();">
+              My Account</a></li>
+             <li><a href="&#47;adappc&#47;parms&#47;c&#95;univ&#95;info&#46;WBX&#63;dest_abbr=" target="_blank">
+          Admissions Information</a></li>
+
+        <li>
+   
+              <a href="/adappc/html/adm_help.html" target="_blank">Application Instructions</a>
+  
+        </li>
+      </ul>
+    </div> <!-- / .width --> 
+  </div> <!-- / #header -->
+
+  <div id="toolbar">
+    <div id="width">
+      <div id="app-detail">
+        <h2>Application Details</h2>
+        <p>
+       
+       
+       
+       
+        </p>
+      </div> <!-- app-detail -->
+
+        
+      <div id="app-error">
+     
+      </div> <!-- /#app-error -->
+  
+
+  
+
+      <div id="app-links">
+        <h2 style="margin-bottom: 4px;">
+        <label for="menu" class="inline">Quick Links</label></h2>
+          <form name="appQuickLinks" id="appQuickLinks" action="" method="get">
+
+            <select  name="menu" id="menu">
+           
+                   <option  value="/adappc/html/adm_help.html">
+                     Application Instructions</option>
+             
+               <option  value="/adappc/html/things_to_know.html">
+                Before You Begin</option>
+
+               <option  value="http://www.fafsa.ed.gov">
+                Federal Student Aid</option>
+
+               <option  value="/adappc/gen/c_add_info.WBX">
+                Additional Info</option>
+
+               <option  value="/adappc/gen/countycode.WBX">
+                Texas County Codes</option>
+          
+
+            <option  value="/adappc/html/c_share_faq.html">
+              FAQs</option>
+
+         
+            <option  value="/adappc/html/faq_contact.html">
+              Help</option>
+         
+
+         
+          </select>
+
+          <button type="button" onclick="window.open(document.appQuickLinks.menu.options[document.appQuickLinks.menu.selectedIndex].value);">
+          Go</button>
+          </form>
+      </div> <!-- / #app-links -->
+    </div> <!-- / .width -->
+  </div> <!-- / #toolbar -->
+  <!-- The ids primary and secondary were added 3/30/2011 to create the left
+  paging navbar (secondary) and set up the page content (primary) -->
+   <div id="secondary"> 
+   
+     </div>  <!-- secondary -->
+        <div id="primary">
+        <div id="content">
+          <a name="mainContent"></a> <!-- skipnav -->
+            <h2>
+              
+                 <span>ApplyTexas Informational Pages</span>
+               
+              reuse a submitted application</h2>
+
+             
+<p>If you've already completed an application to at least one Texas college or university, you can use that existing application to apply to another. Follow these steps to copy and submit your new application:</p>
+
+<div id="informational">
+<ol>
+<li>Log in to ApplyTexas using your username and password. Your "My Account"
+page will appear.</li>
+
+<li>Under the "My Applications" tab, click the "Submitted" tab for Admissions
+applications. A list of all the admissions applications that you've submitted
+through ApplyTexas should appear.</li>
+
+<li>If you've completed more than one application, review the list to locate
+the one you want to use to create your new application. (To review the contents
+of an individual application you've submitted, select the "View" link in the
+"Action" column on the right.)</li>
+
+<li>Click the "Copy" link to begin the process of copying the application
+you've selected. The "copy and submit an application to another university"
+page should appear.</li>
+
+<li>If you're applying to a new four-year institution, use the first drop-down
+list to select the new target university and the second to select the type of
+application you want to submit; click the "start a new 4 year university
+application" button. If you're applying to a new two-year college, select the
+two-year institution from the drop-down list; click the "start new 2 year
+college application" button.</li>
+
+<li>Follow the directions on the pages that appear to complete the process. Be
+aware that you will have to review and save each page again, though data will
+be pre-filled for you wherever possible. You will also have to submit the
+application when you are done.</li>
+</ol>
+</div>
+
+
+
+    </div> <!-- #content -->
+
+    <div id="footer">
+      <p>Last updated <strong>September 24 , 2009</strong></p>
+      <ul>
+
+        <li><a href="../html/applytexas_privacy.html" target="_blank">Privacy</a></li>
+
+        <li><a href="../html/c_share_faq.html" target="_blank">
+          FAQ</a></li>
+
+        
+      </ul>
+    </div>
+  </div><!-- / #page -->
+  </body>
+</html>
+

@@ -1,0 +1,186 @@
+
+
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" />
+	<link rel="index" href="https://unt.t2hosted.com//" />
+	
+<meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="../inc/clientResources/styles/t2.layout.css" /><link rel="stylesheet" href="../inc/clientResources/styles/t2.elements.css" /><link rel="stylesheet" href="../inc/clientResources/fonts/eb-fontello/t2ebicon.css" /><link rel="stylesheet" href="../inc/clientResources/fonts/eb-fontello/animation.css" /><link id="ctl00_ctl01_favicon" rel="icon" type="image/ico" href="../inc/clientResources/images/favicon.ico" />
+    <!--[if IE 8]>
+    <link href="../inc/clientResources/styles/ie8.css" type="text/css" rel="stylesheet" />
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link href="../inc/clientResources/styles/ie6ie7.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+	<!--[if IE 9]>
+    <link href="../inc/clientResources/styles/ie9.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+	<title>
+	UNT - Parking Account Main
+</title><style type="text/css">body .c-color, body #t2-container .headerContainer .header { color:#111111; }body .c-border { border-color:#009933; }body a, body .c-link a, body a.c-link { color:#006600; }body .c-bgcolor, body .c-bgcolor a { background-color:#009933; color:#000000; }body .c-width { width:837px; margin:auto; }body {  background-color:#CCCCCC; }div#t2-transaction div {color:#000000;}#t2-transaction .c-link a, #t2-transaction a, #t2-transaction div, #t2-basket span a { color:#0000FF; }div#t2-footer .c-link a { color:#006600; }</style><script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/t2.jquery.min.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/jquery-ui-1.10.3.custom.min.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/urlHandler.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/authTokenHandler.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/pubsub.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/t2.ebusiness.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/jquery.cookie.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/notificationHandler.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/sessionExtender.js'></script>
+<script type='text/javascript' src='https://unt.t2hosted.com/inc/clientResources/scripts/sessionExtenderUI.js'></script>
+<script type='text/javascript'>if (t2eb) t2eb.applicationBaseURL = 'https://unt.t2hosted.com/'</script></head>
+<body>
+
+		<div id="t2-header" class="c-width">
+			<h1 id="custom-logo" title="T2 eBusiness">            
+                <img id="ctl00_ctl01_customLogo_imgLogo" src="../inc/controls/getLogo.ashx?ID=1" alt="Site Logo" border="0" />
+			</h1>
+			<div id="t2-transaction">
+				
+
+<div id="t2-account">
+	<span id="t2-account-welcome">
+		<span id="ctl00_ctl01_t2UserGreeting_t2AccountWelcome">Welcome</span>
+	</span>
+	<span id="t2-account-links" class="c-link">
+		
+		<span id="ctl00_ctl01_t2UserGreeting_t2AccountGuestLinks"><a id="ctl00_ctl01_t2UserGreeting_t2AccountAuthLink" href="auth.aspx">Log in</a><span id="ctl00_ctl01_t2UserGreeting_t2AccountLinkSeparator"> / </span><a id="ctl00_ctl01_t2UserGreeting_t2AccountSignupLink" href="newuser.aspx">Sign up</a></span>
+	</span>
+</div>
+				
+<div id="t2-basket-wrapper" class="ebicon-basket">
+    <div id="t2-basket">
+        <div class="basketTitle">Shopping Basket</div>
+        <div class="basketData"><a id="ctl00_ctl01_t2ShoppingBasketSummary_viewCartLink">(<span id="ctl00_ctl01_t2ShoppingBasketSummary_basketItemCount">0 items</span>, <span id="ctl00_ctl01_t2ShoppingBasketSummary_basketItemTotal">$0.00</span>)</a></div>
+    </div>
+</div>
+			</div>
+		</div>
+		<div id="custom-menu" class="c-bgcolor">
+			<ul class="c-width hmenu">
+				
+        <li><a id="ctl00_ctl01_linksTop_rptrLinks_ctl00_hlLinks" target="_self">University of North Texas Parking Portal</a></li>
+    
+        <li><a id="ctl00_ctl01_linksTop_rptrLinks_ctl01_hlLinks" target="_self">Serving UNT Denton - UNT Dallas - UNT HSC</a></li>
+    
+
+			</ul>
+		</div>
+
+		<div id="t2-wrapper">
+			<div id="t2-container" class="c-width">
+				<div>
+					
+	<aside id="sessionExtenderContainer"></aside>
+	<form name="aspnetForm" method="post" action="./index.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTI1ODAwNDQ0Mw9kFgJmD2QWAmYPZBYQAgMPZBYCZg8PFgIeCEltYWdlVXJsBSB+L2luYy9jb250cm9scy9nZXRMb2dvLmFzaHg/SUQ9MWRkAgcPZBYCAgEPZBYEAgEPDxYCHgRUZXh0BQcwIGl0ZW1zZGQCAw8PFgIfAQUFJDAuMDBkZAIJD2QWAmYPFgIeC18hSXRlbUNvdW50AgIWBGYPZBYCAgEPDxYEHgZUYXJnZXQFBV9zZWxmHgtOYXZpZ2F0ZVVybGVkFgJmDxUBKFVuaXZlcnNpdHkgb2YgTm9ydGggVGV4YXMgUGFya2luZyBQb3J0YWxkAgEPZBYCAgEPDxYEHwMFBV9zZWxmHwRlZBYCZg8VASlTZXJ2aW5nIFVOVCBEZW50b24gLSBVTlQgRGFsbGFzIC0gVU5UIEhTQ2QCCw9kFgICAQ9kFgYCBQ9kFgJmDzwrAAUBAA8WBB4PU2l0ZU1hcFByb3ZpZGVyBQdNYWluTWFwHgdWaXNpYmxlaGRkAgcPZBYCAgEPFgIfAmZkAgkPZBYMAgEPZBYCAgEPDxYCHwEFFFBhcmtpbmcgQWNjb3VudCBNYWluZGQCAw8PFgIfAQWWBDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDhwdDsgbGluZS1oZWlnaHQ6IDExNSU7IGNvbG9yOiAjMDAwMGZmOyI+PHN0cm9uZz5Ob3RpY2U6IE5pZ2h0bHkgTWFpbnRlbmFuY2U8L3N0cm9uZz48L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogOHB0OyBsaW5lLWhlaWdodDogMTE1JTsgY29sb3I6ICM5OTk5OTk7Ij48YnIgLz4NCkV2ZXJ5IE5pZ2h0IGZyb20gPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDhwdDsgbGluZS1oZWlnaHQ6IDExNSU7IGNvbG9yOiAjOTk5OTk5OyBmb250LXdlaWdodDogYm9sZDsiPjExOjQ1IFBNIHRocm91Z2ggMTowMCBBTTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1zaXplOiA4cHQ7IGxpbmUtaGVpZ2h0OiAxMTUlOyBjb2xvcjogIzk5OTk5OTsiPiB0aGUgb25saW5lIHBheW1lbnQgc2l0ZSBpcyBub3QgYXZhaWxhYmxlLjwvc3Bhbj4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPlBsZWFzZSBjaG9vc2UgYW4gb3B0aW9uIGJlbG93LjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxiciAvPg0KPC9wPmRkAgcPFgIeCWlubmVyaHRtbAXJAzx1bCBjbGFzcz0ibmF2aWdhdGlvbiI+DQo8bGk+PGEgY2xhc3M9Im1lbnVsaW5rIiBocmVmPSIuLi9jbW4vYWNjb3VudC5hc3B4Ij5NYW5hZ2UgTXkgUGFya2luZyBBY2NvdW50PC9hPjwvbGk+PC91bD4NCjx1bCBjbGFzcz0ibmF2aWdhdGlvbiI+DQo8bGk+PGEgY2xhc3M9Im1lbnVsaW5rIiBocmVmPSIuLi9jaXQvaW5kZXguYXNweCI+UGF5IENpdGF0aW9uczwvYT48L2xpPiANCjxsaT48YSBjbGFzcz0ibWVudWxpbmsiIGhyZWY9Ii4uL2FwcC9pbmRleC5hc3B4Ij5BcHBlYWwgQ2l0YXRpb25zPC9hPjwvbGk+IDwhLS0gPGxpPjxhIGNsYXNzPSJtZW51bGluayIgaHJlZj0iLi4vcHJ3L2luZGV4LmFzcHgiPkFkZC9FZGl0IFdhaXRsaXN0czwvYT48L2xpPiAtLT4NCjxsaT48YSBjbGFzcz0ibWVudWxpbmsiIGhyZWY9Ii4uL3Blci9pbmRleC5hc3B4Ij5QdXJjaGFzZSBQZXJtaXRzPC9hPjwvbGk+PC91bD5kAgkPFgIfBmhkAgsPPCsACwBkAg0PPCsACwBkAg8PZBYCZg8WAh8CAgYWDGYPZBYCAgEPDxYEHwMFBV9zZWxmHwQFEmh0dHA6Ly93d3cudW50LmVkdWQWAmYPFQEZVW5pdmVyc2l0eSBvZiBOb3J0aCBUZXhhc2QCAQ9kFgICAQ8PFgQfAwUFX3NlbGYfBAUaaHR0cDovL3d3dy51bnQuZWR1L3RyYW5zaXRkFgJmDxUBJVVOVCBQYXJraW5nICYgVHJhbnNwb3J0YXRpb24gU2VydmljZXNkAgIPZBYCAgEPDxYEHwMFBV9zZWxmHwRlZBYCZg8VAQw5NDAuNTY1LjMwMjBkAgMPZBYCAgEPDxYEHwMFBV9zZWxmHwRlZBYCZg8VAQw5NDAuNTY1LjMwMjBkAgQPZBYCAgEPDxYEHwMFBV9zZWxmHwRlZBYCZg8VAQw5NDAuNTY1LjMwMjBkAgUPZBYCAgEPDxYEHwMFBV9zZWxmHwRlZBYCZg8VAQw5NDAuNTY1LjMwMjBkAhEPZBYCZg8WAh8CAgYWDGYPZBYCAgEPDxYEHwMFBV9zZWxmHwQFF2h0dHBzOi8vZGFsbGFzLnVudC5lZHUvZBYCZg8VASBVbml2ZXJzaXR5IG9mIE5vcnRoIFRleGFzIERhbGxhc2QCAQ9kFgICAQ8PFgQfAwUFX3NlbGYfBAUlaHR0cHM6Ly9kYWxsYXMudW50LmVkdS9wYXJraW5nLW9mZmljZWQWAmYPFQEbVU5UIC0gRGFsbGFzIFBhcmtpbmcgT2ZmaWNlZAICD2QWAgIBDw8WBB8DBQVfc2VsZh8EZWQWAmYPFQEMOTcyLjc4MC4zMDA5ZAIDD2QWAgIBDw8WBB8DBQVfc2VsZh8EZWQWAmYPFQEMOTcyLjc4MC4zMDA5ZAIED2QWAgIBDw8WBB8DBQVfc2VsZh8EZWQWAmYPFQEMOTcyLjc4MC4zMDA5ZAIFD2QWAgIBDw8WBB8DBQVfc2VsZh8EZWQWAmYPFQEMOTcyLjc4MC4zMDA5ZAITD2QWAmYPFgIfAgIDFgZmD2QWAgIBDw8WBB8DBQVfc2VsZh8EBRdodHRwOi8vd3d3LmhzYy51bnQuZWR1L2QWAmYPFQEvVW5pdmVyc2l0eSBvZiBOb3J0aCBUZXhhcyBIZWFsdGggU2NpZW5jZSBDZW50ZXJkAgEPZBYCAgEPDxYEHwMFBV9zZWxmHwQFSWh0dHA6Ly93ZWIudW50aHNjLmVkdS9pbmZvLzIwMDc4OC9wYXJraW5nX29mZmljZS8yNTg4L3BhcmtpbmdfcmVndWxhdGlvbnNkFgJmDxUBFlVOVC1IU0MgUGFya2luZyBPZmZpY2VkAgIPZBYCAgEPDxYEHwMFBV9zZWxmHwRlZBYCZg8VAQw4MTcuNzM1LjIyMTFkAhUPFgIfBwW7ATxoMyBpZD0idDItbG9nbyI+VDIgU3lzdGVtcywgSW5jLjwvaDM+PHNwYW4gaWQ9InQyLWNvcHlyaWdodCI+VDIgU3lzdGVtcywgSW5jPGJyIC8+PGEgaHJlZj0iaHR0cDovL3d3dy50MnN5c3RlbXMuY29tIj5odHRwOi8vd3d3LnQyc3lzdGVtcy5jb208L2E+PGJyIC8+JmNvcHk7IDIwMTYgVDIgU3lzdGVtcywgSW5jLjwvc3Bhbj5kZENJXW3WoPayx+VUcPDeHqpB5taKkzPtQGlgjde9FVHM" />
+
+
+<script src="/ScriptResource.axd?d=bl9IKRW-VTJWpm6wSUFQ68hIno2gzpxSnrf3eF9GuEsBqEmK76GUknLKlxBlrKaWvzYIMfqWBdhod3X0kxz2alDy8qjlzeRvpfEkIp4C23zTsL8pVs_gr-C4MKCZ0Jjk0&amp;t=51e37521" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DD5FBEFA" /> 
+		
+		
+		
+		
+
+<div class="t2MessageContainer">
+    
+</div>
+
+		<div>
+			
+	<div class="headerContainer">
+		
+<h2 class="c-color"><span id="ctl00_ctl01_MainContentPlaceHolder_T2Main_lblHeader_pageHeaderText">Parking Account Main</span></h2>
+		<span id="ctl00_ctl01_MainContentPlaceHolder_T2Main_lblHeaderInst" class="headerinst"><span style="font-size: 8pt; line-height: 115%; color: #0000ff;"><strong>Notice: Nightly Maintenance</strong></span><span style="font-size: 8pt; line-height: 115%; color: #999999;"><br />
+Every Night from </span><span style="font-size: 8pt; line-height: 115%; color: #999999; font-weight: bold;">11:45 PM through 1:00 AM</span><span style="font-size: 8pt; line-height: 115%; color: #999999;"> the online payment site is not available.</span>
+<p class="MsoNormal">Please choose an option below.</p>
+<p class="MsoNormal"><br />
+</p></span><br />
+		<span id="ctl00_ctl01_MainContentPlaceHolder_T2Main_lblErrorMsg" class="error"></span><br />
+	</div>
+	<div id="ctl00_ctl01_MainContentPlaceHolder_T2Main_divBody"><ul class="navigation">
+<li><a class="menulink" href="../cmn/account.aspx">Manage My Parking Account</a></li></ul>
+<ul class="navigation">
+<li><a class="menulink" href="../cit/index.aspx">Pay Citations</a></li> 
+<li><a class="menulink" href="../app/index.aspx">Appeal Citations</a></li> <!-- <li><a class="menulink" href="../prw/index.aspx">Add/Edit Waitlists</a></li> -->
+<li><a class="menulink" href="../per/index.aspx">Purchase Permits</a></li></ul></div>
+	
+	<ul class="navigation">
+		
+	</ul>
+    
+    
+    
+
+		</div>
+	</form>
+
+					
+	
+
+				</div>		
+			</div>
+		</div>
+	
+		<div id="t2-footer" class="c-border">
+			<div class="c-width">
+				<div class="footer-column">
+					<ul class="c-link vmenu">
+					    
+        <li><a id="ctl00_ctl01_linksBottomLeft_rptrLinks_ctl00_hlLinks" href="http://www.unt.edu" target="_self">University of North Texas</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomLeft_rptrLinks_ctl01_hlLinks" href="http://www.unt.edu/transit" target="_self">UNT Parking & Transportation Services</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomLeft_rptrLinks_ctl02_hlLinks" target="_self">940.565.3020</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomLeft_rptrLinks_ctl03_hlLinks" target="_self">940.565.3020</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomLeft_rptrLinks_ctl04_hlLinks" target="_self">940.565.3020</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomLeft_rptrLinks_ctl05_hlLinks" target="_self">940.565.3020</a></li>
+    
+
+					</ul>
+				</div>
+				<div class="footer-column">
+					<ul class="c-link vmenu">
+						 
+        <li><a id="ctl00_ctl01_linksBottomMiddle_rptrLinks_ctl00_hlLinks" href="https://dallas.unt.edu/" target="_self">University of North Texas Dallas</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomMiddle_rptrLinks_ctl01_hlLinks" href="https://dallas.unt.edu/parking-office" target="_self">UNT - Dallas Parking Office</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomMiddle_rptrLinks_ctl02_hlLinks" target="_self">972.780.3009</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomMiddle_rptrLinks_ctl03_hlLinks" target="_self">972.780.3009</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomMiddle_rptrLinks_ctl04_hlLinks" target="_self">972.780.3009</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomMiddle_rptrLinks_ctl05_hlLinks" target="_self">972.780.3009</a></li>
+    
+
+					</ul>
+				</div>
+				<div class="footer-column">
+					<ul class="c-link vmenu">
+						
+        <li><a id="ctl00_ctl01_linksBottomRight_rptrLinks_ctl00_hlLinks" href="http://www.hsc.unt.edu/" target="_self">University of North Texas Health Science Center</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomRight_rptrLinks_ctl01_hlLinks" href="http://web.unthsc.edu/info/200788/parking_office/2588/parking_regulations" target="_self">UNT-HSC Parking Office</a></li>
+    
+        <li><a id="ctl00_ctl01_linksBottomRight_rptrLinks_ctl02_hlLinks" target="_self">817.735.2211</a></li>
+    
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="t2-legal">
+			<div id="ctl00_ctl01_contactInfo" class="c-width"><h3 id="t2-logo">T2 Systems, Inc.</h3><span id="t2-copyright">T2 Systems, Inc<br /><a href="http://www.t2systems.com">http://www.t2systems.com</a><br />&copy; 2016 T2 Systems, Inc.</span></div>
+		</div>
+	<div id="ctl00_ctl01_featToggleTMC">
+	
+	    <div id="ctl00_ctl01_testModeControl_T2mode" class="t2mode"><span class="t2modeData"></span></div>
+    
+</div>
+</body>
+</html>

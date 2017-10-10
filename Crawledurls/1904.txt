@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XAIEWVRbGwQCVVNXAQE="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(14),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(15),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7);t("loader").features.stn=!0,t(6);var c=NREUM.o.EV;o.on("fn-start",function(t,e){var n=t[0];n instanceof c&&(this.bstStart=Date.now())}),o.on("fn-end",function(t,e){var n=t[0];n instanceof c&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),s.on("fn-start",function(){this.bstStart=Date.now()}),s.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on("pushState-start",function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on("pushState-end",function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",r,!1),document.addEventListener("keypress",r,!1),document.addEventListener("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(16)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(16)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(16)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(16)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){w.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(16)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(11),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(13),m=window.XMLHttpRequest;s.features.xhr=!0,t(9),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(14),a=t(15);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],14:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],15:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],16:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(15),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},w={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return w}function i(){return new r}var a="nr@context",s=t("gos"),c=t(14),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(14),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="viewport" content="width=device-width" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="p:domain_verify" content="fdfe3f4df1edd2522a9ff9dbed458775"/>
+<title>TexVet | Serving Texas Veterans and Their Families</title>
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_Q7R7Blo9EYqLDI5rIlO_T3uTFBjIXjLpcqMHjTvVdmg.css" media="all" />
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_rOxm1Po7kgTtWSWlgeHmD98epNfrHUYwtnQJug6WKks.css" media="all" />
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_2vLNnT9VhuJHYxjR9QgdJvcw7NdkIXHVGch6bcBu_lY.css" media="screen" />
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_AP3rXEOg-G40DmjqJs5iXGf3Ct4r680v1euFZZnp3s0.css" media="all" />
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_f5AJSRml3ZhA6fnJ8BIomOk0geGAOcVQSBCEjFDElG8.css" media="all" />
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_IfqPk-0O4r6EBiy_iYJ_ociOrwzphCljXRBonDRrhxw.css" media="all" />
+<link rel="stylesheet" href="http://www.texvet.com/sites/default/files/css/css_1GmKwA8uNWbYtwUQ7i31rUtzgKpFCvkHbn5hthWQDEU.css" media="all" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Covered+By+Your+Grace:regular|Yeseva+One:regular&amp;subset=latin,cyrillic" media="all" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+</script>
+<script src="http://www.texvet.com/sites/default/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script>
+window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+</script>
+<script src="http://www.texvet.com/sites/default/files/js/js_4dfAKHURPNZ0dgS-jr742rUfT5xgHIOzCR93CAMHELY.js"></script>
+<script src="http://www.texvet.com/sites/default/files/js/js_O6FwtVff4mQ5g12vROaWxC_9u3CMai7puz53wAshpl8.js"></script>
+<script src="http://www.texvet.com/sites/default/files/js/js_wADqrksbLjpADrEP1u4pHYthtl35__ZprOG3i8_l2SE.js"></script>
+<script src="http://www.texvet.com/sites/all/modules/lightbox2/js/lightbox.js?1462979182"></script>
+<script src="http://www.texvet.com/sites/default/files/js/js_onEPFGc_gE9hzyAj_F8cp4fCIuEX6wZfKWLld6rGV44.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-52472546-1", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");
+</script>
+<script src="http://www.texvet.com/sites/default/files/js/js_iYsPpB3B-cWPXOZpHqdoSUudh3OYEXD053YZrYvXrws.js"></script>
+<script src="http://www.texvet.com/sites/default/files/js/js_clze73dX3eB7LoYulODHf1TUNPEx-CXXFiq3fXeaMGc.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"professional_theme","theme_token":"JF7a88dDQjW1I4vt_hNrfrMQt_I3BOyi9fsPvu74FLM","jquery_version":"1.8","js":{"sites\/all\/modules\/quicktabs_gmap_fix\/quicktabs_gmap_fix.js":1,"sites\/all\/modules\/addthis\/addthis.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.3\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/all\/modules\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/all\/modules\/nice_menus\/js\/superfish.js":1,"sites\/all\/modules\/nice_menus\/js\/nice_menus.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/lightbox2\/js\/auto_image_handling.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/views_accordion\/views-accordion.js":1,"sites\/all\/modules\/views_load_more\/views_load_more.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/professional_theme\/js\/custom.js":1,"sites\/all\/themes\/professional_theme\/js\/jquery.flexslider-min.js":1,"sites\/all\/themes\/professional_theme\/js\/slide.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"sites\/all\/modules\/invite\/modules\/invite_by_email\/css\/invite_by_email.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/user_dashboard\/user_dashboard.css":1,"public:\/\/ctools\/css\/42787b63db146666b82fce42dcda34a1_1.css":1,"sites\/all\/modules\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/nice_menus\/css\/nice_menus_default.css":1,"public:\/\/ctools\/css\/fcc686a47ae33aa2b34f6f50065d98c1.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/twocol\/twocol.css":1,"sites\/all\/modules\/views_accordion\/views-accordion.css":1,"sites\/all\/modules\/civicrm\/css\/crm-i.css":1,"sites\/all\/modules\/civicrm\/css\/civicrm.css":1,"sites\/all\/themes\/professional_theme\/style.css":1,"sites\/all\/themes\/professional_theme\/texvet-custom.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Covered+By+Your+Grace:regular|Yeseva+One:regular\u0026subset=latin,cyrillic":1}},"googleCSE":{"cx":"007980800804231790687:5ybskynpyt0","language":"","resultsWidth":600,"domain":"www.google.com"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":0,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"(\\.thumbnail)","trigger_lightbox_classes":"img.inline,img.thumbnail, img.image-thumbnail","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":1,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":900,"iframe_height":700,"iframe_border":1,"enable_video":0},"nice_menus_options":{"delay":"800","speed":"normal"},"better_exposed_filters":{"views":{"staff_blog":{"displays":{"block_4":{"filters":[]}}},"all_postings":{"displays":{"block":{"filters":{"type":{"required":false}}}}},"calendar":{"displays":{"block_4":{"filters":[]}}},"popular":{"displays":{"block_3":{"filters":[]},"block_4":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/":true},"views_accordion":{"views-accordion-calendar-block_4":{"collapsible":1,"rowstartopen":false,"animated":"slide","autoheight":0,"event":"click","fillspace":0,"navigation":0,"clearstyle":1,"grouping":0,"display":"block_4","viewname":"calendar","usegroupheader":0,"header":".views-accordion-header","newoptions":false}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:c1db7523fcad8cc93e4c314801a2b441":{"view_name":"calendar","view_display_id":"block_4","view_args":"","view_path":"front","view_base_path":"events","view_dom_id":"c1db7523fcad8cc93e4c314801a2b441","pager_element":0}}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackUrlFragments":1}});
+</script>
+<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first">
+    
+<div id="wrapper">
+  <header id="header" role="banner">
+                <div class="clear"></div>
+    <!-- end main-menu -->
+  </header>
+
+  <div id="container">
+              
+
+      <div id="head">
+    <div class="region region-header">
+  <div id="block-panels-mini-top-logo-and-search" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-display panel-2col clearfix" id="mini-panel-top_logo_and_search">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-block pane-block-115"  >
+  
+      
+  
+  <div class="pane-content">
+    <p><a href="http://www.texvet.org/"><img src="/sites/default/files/1_newstart_2014/logos/linear_logo_text_and_transparency.png" alt="TexVet: It's your network. Get connected!" width="350" height="67" /></a></p>
+<!--<p><iframe style="background-color: transparent; border: 0px none transparent; padding: 0px; overflow: hidden;" src="http://www.texvet.org/iframes/texvet_logo/animated_texvet_logo.html" width="355" height="67"></iframe></p>--><!--<p><p><a href="/front"><img src="/sites/default/files/resize/logos/texvet_logo_withtext3_transparency-355x67.png" alt="TexVet Logo" width="355" height="67" /></a></p>
+<p>-->
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-block pane-search-form"  >
+  
+        <h2 class="pane-title">
+      Find What You Need    </h2>
+    
+  
+  <div class="pane-content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-searchfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text form-search" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-DcqlPsPq1gwpZtOBVp3acuOpIztCYv0an4SZCPgeaQE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+  
+</div> <!-- /.block -->
+<div id="block-block-220" class="block block-block">
+
+      
+  <div class="content">
+    <div class="slide-menus">
+<!--<div class="connect-prefix"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connect to the...</p></div>-->
+
+<div class="flexwrapper"><div class="categories-people"
+><div class="slip-menu-menu-item">
+<h4><a href="#" title="County employees and trained volunteers.">Peer Advocates</a></h4>
+<ul>
+<li><a href="http://www.texvet.org/cvso" title="County employees who advocate for you to the VA.">Veteran County Service Officers</a></li>
+<li><a href="http://www.texvet.org/peernetwork" title="Fellow veterans that can help, have seen it, and know it gets better.">Mil Vet Peer Network</a></li>
+<li><a href="http://www.texvet.org/mvpn/groups" title="Veteran Peer Support Groups.">Peer Support Groups</a></li>
+</ul>
+
+</div></div><div class="categories-events"><div class="slip-menu-menu-item"><h4><a href="http://www.texvet.org/events/" title="Click here for Upcoming Events!">Events</a></h4>
+<!--<ul>
+<li></li>
+<li><a href="http://www.texvet.org/events/">This Month</a></li>
+<li></li>
+</ul>-->
+
+</div></div><div class="categories-resources"><div class="slip-menu-menu-item"><h4><a href="http://www.texvet.org/partners-and-resources">Programs for Vets</a></h4>
+<ul>
+<!--<li><a href="http://texvet.org/help">Find Help by Category</a></li>-->
+<li><a href="http://www.texvet.org/locate">Vet Programs Map</a></li>
+<li><a href="http://www.texvet.org/partners-and-resources">All Vet Programs</a></li>
+<li><a href="http://www.texvet.org/postings?type%5B%5D=job_posting">Vet Jobs</a></li>
+<!-- <li><a href="http://www.texvet.org/contact/Army-OneSource%3A-Faith-Based-Organization" target="blank">???</a></li> -->
+</ul>
+</div></div></div>
+<!--<div class="connect-suffix"><p>...you care about. &nbsp; &nbsp; &nbsp;</p></div>
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+   </div>
+   <div class="clear"></div>
+   
+    <div class="content-sidebar-wrap">
+
+    <div id="content">
+            <section id="post-content" role="main">
+                <div id="content_top"><div class="region region-content-top">
+  <div id="block-block-190" class="block block-block">
+
+      
+  <div class="content">
+    <!--<p style="text-align: center;">&nbsp;&nbsp;<a href="http://texvet.org/symposium" target="_blank"><img src="/sites/default/files/1_newstart_2014/events/wtrmrt-2016-symposium-banner.jpg" alt="TexVet 2016 &amp;quot;Where The Research Meets The Road&amp;quot; symposium." width="610" height="85" /></a></p>--><!--<table style="margin-top: 5px;"><tbody><tr><td style="background-color: #deb04d; color: #153162;">&nbsp;</td></tr></tbody>--><p style="font-size: 12pt; margin-left: 5px; margin-right: 5px; margin-top: 5px;">Welcome to TexVet:<br />We are passionate about seeking out effective veteran-focused organizations in Texas and making them easily accessible to you through web, phone, and email.</p>
+<p style="font-size: 12pt; margin-left: 5px; margin-right: 5px; margin-top: 5px;"> </p>
+<p style="text-align: center;"><a href="http://veteranscrisisline.net/" target="_blank"><img src="http://texvet.org/sites/all/themes/genesis/texvet/suicideprevention.gif" alt="Veterans Crisis Line - 800-273-8255" style="width: 150px;" /></a>  <a href="http://www.texvet.org/jcftexas"><img src="/sites/default/files/resize/logos/jcf-t-mini-logo-150x41.png" alt="Joining Community Forces Texas" style="width: 150px;" width="150" height="41" /></a>  <a href="http://texvet.org/donate" target="blank"><img src="/sites/default/files/resize/1_newstart_2014/specific_pages/donate_button-50x50.png" alt="Donate button" width="50" height="50" /></a></p>
+  </div>
+  
+</div> <!-- /.block -->
+<div id="block-views-popular-block-3" class="block block-views">
+
+        <h2 >Popular</h2>
+    
+  <div class="content">
+    <div class="view view-popular view-id-popular view-display-id-block_3 view-dom-id-3e5785d24cb7e99fcf5b52f35ef7d1eb">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1">
+                  <td class="col-1">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/postings/texas-property-tax-exemption-disabled-vets"><a href="/postings/texas-property-tax-exemption-disabled-vets">Texas Property Tax Exemption For Disabled Vets!</a></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-2">
+                  <td class="col-1">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/postings/hazlewood-act"><a href="/postings/hazlewood-act">Hazlewood Act</a></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-3">
+                  <td class="col-1">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/postings/free-hunting-fishing-license"><a href="/postings/free-hunting-fishing-license">FREE Hunting &amp; Fishing License!</a></a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+<div id="block-views-popular-block-4" class="block block-views">
+
+        <h2 >Popular today</h2>
+    
+  <div class="content">
+    <div class="view view-popular view-id-popular view-display-id-block_4 view-dom-id-b97dbb61b6ef3c18bb1229489c28f44d">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/postings/texas-property-tax-exemption-disabled-vets"><a href="/postings/texas-property-tax-exemption-disabled-vets">Texas Property Tax Exemption For Disabled Vets!</a></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-2">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/postings/hazlewood-act"><a href="/postings/hazlewood-act">Hazlewood Act</a></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-3">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/blogs/markburger72901/8-tips-student-veterans-using-post-911-gi-bill"><a href="/blogs/markburger72901/8-tips-student-veterans-using-post-911-gi-bill">8 Tips for Student Veterans Using the Post-9/11 GI Bill</a></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-4">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/events/recruit-military-all-veterans-career-fair-irving"><a href="/events/recruit-military-all-veterans-career-fair-irving">Recruit Military All Veterans Career Fair - Irving</a></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-5 row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-title-1">        <span class="field-content"><a href="/events/are-you-ready-quit-break-chain-16may-lufkin"><a href="/events/are-you-ready-quit-break-chain-16may-lufkin">Are you ready to quit?  Break the Chain! -- 16May in Lufkin</a></a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+</div>                                                        <div class="region region-content">
+  <div id="block-views-calendar-block-4" class="block block-views">
+
+        <h2 >Happening Soon:</h2>
+    
+  <div class="content">
+    <div class="view view-calendar view-id-calendar view-display-id-block_4 view-dom-id-c1db7523fcad8cc93e4c314801a2b441">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/events/free-will-thon-0"><a title="If you qualify for the Will-A-Thon, all applicants must go to the
+Tidwell Park and Community Center 9720 Spaulding.
+Facility graciously provided by the Tidwell Park and Community Center.
+Call the number below beginning
+Monday, February 15, 2016, through...">FREE Will-A-Thon</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T10:00:00-05:00">10:00 am</span> in houston </a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"><div>If you qualify for the Will-A-Thon, all applicants must go to the</div>
+<div>Tidwell Park and Community Center 9720 Spaulding.</div>
+<div>Facility graciously provided by the Tidwell Park and Community Center.</div>
+<div>Call the number below beginning</div>
+<div>Monday, February 15, 2016, through</div>
+<div>Friday, April 8, 2016 from 9 a.m. - 3 p.m.</div>
+<div>Will Preparation Dates are</div>
+<div>April 13 and May 11, 2016.</div>
+<div>For more information call</div>
+<div>713-228-0735</div>
+<div>The Houston Bar Association’s Elder Law Committee is</div>
+<div>sponsoring a FREE Will-A-Thon to low-income seniors</div>
+<div>(age 60+ and spouses), disabled persons, and veterans</div>
+<div>(of any age) who wish to have a simple will prepared.</div>
+<div>
+<iframe src="http://www.texvet.org/sites/default/files/1_newstart_2014/events/2016%20Willathon%20Call%20flyer.pdf" width="867" height="650"></iframe></div>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/free-will-thon-0">read more >></a></span>  </div>  </div>
+  <div class="views-row views-row-2">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/events/recruit-military-all-veterans-career-fair-irving"><a title="The mission of RecruitMilitary is to help organizations excel by attracting, appreciating and retaining America's best talent, its veterans. We've been doing this for 16 years. RecruitMilitary works.
+Dress well, be enthusiastic, energetic, and engaged....">Recruit Military All Veterans Career Fair - Irving</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T11:00:00-05:00">11:00 am</span> in Irving</a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"><p><span>The mission of RecruitMilitary is to help organizations excel by attracting, appreciating and retaining America's best talent, its veterans. We've been doing this for 16 years. RecruitMilitary works.</span></p>
+<p><span>Dress well, be enthusiastic, energetic, and engaged. Stop at as many booths as possible. Even if you believe the booth may not be for you, you truly never know.</span></p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/recruit-military-all-veterans-career-fair-irving">read more >></a></span>  </div>  </div>
+  <div class="views-row views-row-3">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/events/gathering-eagles-houston"><a title="WHAT: A GATHERING OF EAGLES
+Our Mission:
+Promote the US Armed Forces by being role models to our youth.
+Provide a forum for Active Military and Veterans of the U.S. Armed Forces.
+Host key speakers with access to timely, critical and important Veteran...">Gathering of Eagles in Houston</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T12:00:00-05:00">12:00 pm</span> in Houston</a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"><p>WHAT: A GATHERING OF EAGLES</p>
+<p>Our Mission:</p>
+<ul><li><span style="font-size: 12.8000001907349px;">Promote the US Armed Forces by being role models to our youth.</span></li>
+<li><span style="font-size: 12.8000001907349px;">Provide a forum for Active Military and Veterans of the U.S. Armed Forces.</span></li>
+<li><span style="font-size: 12.8000001907349px;">Host key speakers with access to timely, critical and important Veteran information.</span></li>
+<li><span style="font-size: 12.8000001907349px;">Serve as catalysts for necessary action to improve veteran benefits.</span></li>
+<li><span style="font-size: 12.8000001907349px;">Conduct national level Symposiums that provides education to the military community. </span></li>
+</ul><p>WHEN: Wed. Noon (12pm)</p>
+<p>WHERE: IHOP Restaurant, 6888 Gulf Fwy, Exit 41-A, at Woodridge.  Houston  (IHOP Tel. 713-847-9908)<span style="font-size: 12.8000001907349px;"> </span></p>
+<p><strong style="font-size: 12.8000001907349px;">​</strong></p>
+<p align="center"><strong>To join the Gathering of Eagles</strong></p>
+<p align="center"><strong>Frank Villarreal, Chairman, US Army, Vietnam ‘68-‘71</strong></p>
+<p align="center"><strong>(713) 494-9170</strong></p>
+<p style="text-align: center;" align="center"><strong>Frankie Santoro, Secretary, Mother of OIE/OEF Veteran, </strong><strong><a href="mailto:Frankies1950@att.net">Frankies1950@att.net</a>,</strong></p>
+<p class="p1" style="text-align: center;"><span class="s1">281-546-5631</span></p>
+<p align="center"><strong>Martin Loredo, Treasurer, USAF (713) 791-8661</strong></p>
+<p align="center"><strong>Manuel Perez  US Army Vietnam Medic ’68-‘69</strong></p>
+<p align="center"><strong> (281) 794-0308</strong></p>
+<p align="center"><strong>Richard G. Perez, USMC, Vietnam Veteran, (832) 468-9900</strong></p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/gathering-eagles-houston">read more >></a></span>  </div>  </div>
+  <div class="views-row views-row-4">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/events/tai-chi-reduce-stress-gentle-martial-art-austin"><a title="The Samaritan Center provides an integrative medicine program which includes acupuncture, biofeedback, medical massage, Tai Chi and yoga - a combination of traditional and nontraditional therapy to treat stress, chronic pain, depression and PTSD.
+This...">Tai Chi: Reduce Stress with a Gentle Martial Art - Austin</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T18:00:00-05:00">6:00 pm</span> in Austin</a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"><p>The Samaritan Center provides an integrative medicine program which includes acupuncture, biofeedback, medical massage, Tai Chi and yoga - a combination of traditional and nontraditional therapy to treat stress, chronic pain, depression and PTSD.</p>
+<p>This program is ongoing, Wednesdays from 6:00 PM to 7:00 PM. Suggested donation: $10.00</p>
+<hr /><p style="text-align: center;">
+<iframe src="http://www.texvet.org/sites/default/files/event-attachments/Tai-Chi_FinalVersion.pdf" width="760" height="984"></iframe></p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/tai-chi-reduce-stress-gentle-martial-art-austin">read more >></a></span>  </div>  </div>
+  <div class="views-row views-row-5">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/p2p/table-talk-color-me-camo-wednesday-meetings"><a title="Table Talk: Color Me Camo is a learning program specifically designed for women veterans teaching skills such as self-analysis, relationships, self-development, life management and community resources.
+A time to connect with women Veterans in your...">Table Talk: Color Me Camo - Wednesday Meetings</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T18:00:00-05:00">6:00 pm</span> in Houston</a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"><p>Table Talk: Color Me Camo is a learning program specifically designed for women veterans teaching skills such as self-analysis, relationships, self-development, life management and community resources.</p>
+<p><em><strong>A time to connect with women Veterans in your community.</strong></em></p>
+<p>For more information: Monique Rodriguez &amp; Kanetrica Patton–Lyons (Harris County Outreach Coordinators)</p>
+<ul><li><a href="mailto:monique@graceafterfire.org">monique@graceafterfire.org</a> • 281.698.0306</li>
+<li><a href="mailto:kanetrica@graceafterfire.org">kanetrica@graceafterfire.org</a> • 713.409.2081</li>
+<li><a href="http://www.graceafterfire.org">www.graceafterfire.org</a></li>
+<li><a href="http://www.facebook.com/graceafterfire">www.facebook.com/graceafterfire</a></li>
+</ul><p><iframe src="http://www.texvet.org/sites/default/files/1_newstart_2014/events/color_me_camo_houston_table_talk_sessions_2015_08.pdf" width="750" height="950"></iframe></p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/p2p/table-talk-color-me-camo-wednesday-meetings">read more >></a></span>  </div>  </div>
+  <div class="views-row views-row-6">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/p2p/veteransoldier-ptsd-support-group"><a title="
+ 
+All-Female Veteran/Soldier Support group meets every 1st, 3rd &amp; 5th Tuesday evening from 6-7pm.
+Women Veterans or Women Soldiers, please join us! 
+">Veteran/Soldier PTSD Support Group</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T18:00:00-05:00">6:00 pm</span> in El Paso</a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"><p><a href="/sites/default/files/El%20Paso%20Group%20Schedules%202-2014.jpg" rel="lightbox" title="El Paso P2P"><img src="/sites/default/files/resize/El%20Paso%20Group%20Schedules%202-2014-700x525.jpg" alt="El Paso P2P" title="El Paso P2P" width="700" height="525" style="vertical-align: top; display: block; margin-left: auto; margin-right: auto;" /></a></p>
+<p> </p>
+<p>All-Female Veteran/Soldier Support group meets every 1st, 3rd &amp; 5th Tuesday evening from 6-7pm.</p>
+<p>Women Veterans or Women Soldiers, please join us! </p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/p2p/veteransoldier-ptsd-support-group">read more >></a></span>  </div>  </div>
+  <div class="views-row views-row-7">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/events/mvpn-corpus-christi-combat-vet-peer-support"><a title="">MVPN - Corpus Christi - Combat Vet Peer Support</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T18:30:00-05:00">6:30 pm</span> in Corpus Christi</a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/mvpn-corpus-christi-combat-vet-peer-support">read more >></a></span>  </div>  </div>
+  <div class="views-row views-row-8">
+      
+  <div class="views-field views-field-title views-accordion-header">        <span class="field-content"><a href="/events/walburg-songwriter-wednesdays"><a title="Every Wednesday, beginning at 7pm, the Walburg Mercantile Restaurant in Walburg invites 10 guest performers to be on stage weekly.  
+Now's your chance to enjoy some local music and/or strum your stuff!  
+Songwriters should sign in by 6:30pm!  Don't miss...">Walburg Songwriter Wednesdays</a> - <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T19:00:00-05:00">7:00 pm</span> in Walburg</a></span>  </div>  
+  <div class="views-field views-field-body-2">        <div class="field-content"><p><span style="font-family: verdana, geneva; font-size: x-small;">Every Wednesday, beginning at 7pm, the Walburg Mercantile Restaurant in Walburg invites 10 guest performers to be on stage weekly.  </span></p>
+<p><span style="font-family: verdana, geneva; font-size: x-small;">Now's your chance to enjoy some local music and/or strum your stuff!  </span></p>
+<p><span style="font-family: verdana, geneva; font-size: x-small;">Songwriters should sign in by 6:30pm!  Don't miss out on the fun every Wednesday night!</span></p>
+</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/walburg-songwriter-wednesdays">read more >></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/events">
+    view the calendar &gt;  </a>
+</div>
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+<div id="block-block-143" class="block block-block">
+
+      
+  <div class="content">
+    <table border="0"><tbody><tr><td style="width: 50%;" align="center">
+<p><a href="http://www.texvet.org/cvso"></a></p>
+<p><img src="/sites/default/files/1_newstart_2014/specific_pages/tx_cvso_banner_2_mini.png" width="290" height="50" /></p>
+<p><a href="http://www.texvet.org/cvso"></a></p>
+<p><a href="http://www.texvet.org/cvso"></a></p>
+</td>
+<td style="width: 50%;" align="center"><a href="http://www.milvetpeer.net/"><img src="/sites/all/themes/genesis/texvet/images/MVPN_logo_web_m.png" alt="MilVetPeer Network Logo" width="90%" /></a></td>
+</tr><tr><td width="50%">
+<p><strong>What do County Veteran Service Officers do?</strong></p>
+<p>County Veteran Service Officers work with the Department of Veterans Affairs and other nationally chartered veterans organizations to assure that veterans and their dependents receive the entitlements they deserve.</p>
+<p><a href="http://www.texvet.org/cvso">Click here for a sortable, searchable directory of Texas' County Veteran Service Officers</a>.</p>
+</td>
+<td width="50%">
+<p><strong>What is the Military Veteran Peer Network?</strong></p>
+<p><strong></strong>With the peer-to-peer network, veterans go through a training course that teaches them how to facilitate groups of veterans. Once trained, they create local community peer groups. Because members of the group set the rules, no two peer groups are the same.</p>
+<p><a href="/peernetwork">Click here to learn more.</a></p>
+</td>
+</tr></tbody></table>  </div>
+  
+</div> <!-- /.block -->
+<div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="panel-flexible panels-flexible-67 clearfix" id="front">
+<div class="panel-flexible-inside panels-flexible-67-inside">
+<div class="panels-flexible-column panels-flexible-column-67-main panels-flexible-column-first">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-67-main-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-67-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-67-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-67-1 panels-flexible-column-last sidebar">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-67-1-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-region panels-flexible-region-67-sidebar panels-flexible-region-first panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-67-sidebar-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+      </section> <!-- /#main -->
+    </div>
+
+          <aside id="sidebar-first" role="complementary">
+        <div class="region region-sidebar-first">
+  <div id="block-nice-menus-1" class="block block-nice-menus">
+
+        <h2 >Vet Programs by Category</h2>
+    
+  <div class="content">
+    <ul class="nice-menu nice-menu-right nice-menu-menu-quick-searches" id="nice-menu-1"><li class="menu-28225 menu-path-texvetorg-education first odd "><a href="http://www.texvet.org/education" title="">Education</a></li>
+<li class="menu-28218 menu-path-texvetorg-emergency-funds  even "><a href="http://www.texvet.org/emergency-funds" title="">Emergency Funds</a></li>
+<li class="menu-28223 menuparent  menu-path-texvetorg-employment-and-business  odd "><a href="http://www.texvet.org/employment-and-business" title="">Employment / Business</a><ul><li class="menu-29596 menu-path-texvetorg-job-postings first odd last"><a href="http://www.texvet.org/job-postings" title="Browse veteran-focused job offerings, with the most recently-posted ones first.">Job Postings</a></li>
+</ul></li>
+<li class="menu-28219 menu-path-texvetorg-food  even "><a href="http://www.texvet.org/food" title="">Food</a></li>
+<li class="menu-28217 menuparent  menu-path-texvetorg-housing  odd "><a href="http://www.texvet.org/housing" title="">Housing</a><ul><li class="menu-29605 menu-path-texvetorg-homeless first odd "><a href="http://texvet.org/homeless" title="Resources for homeless veterans, including transitioning out of homelessness.">Homeless Assistance</a></li>
+<li class="menu-29606 menu-path-texvetorg-incarceration-transition  even "><a href="http://texvet.org/incarceration-transition" title="Need help making the transition from incarceration?">Incarceration Transition</a></li>
+<li class="menu-29607 menu-path-inpatient-rehab  odd "><a href="/inpatient-rehab">In-Patient Rehabilitation</a></li>
+<li class="menu-29610 menu-path-med-equip-and-prostheses  even "><a href="/med-equip-and-prostheses">Medical Equpiment and Prostheses</a></li>
+<li class="menu-29608 menu-path-retirement-and-assisted-living  odd last"><a href="/retirement-and-assisted-living">Retirement and Assisted Living</a></li>
+</ul></li>
+<li class="menu-29624 menuparent  menu-path-texvetorg-partners-and-resourcestitlebody-valuefield-org-tags-tid5b5d23469distance5bpostal-code5ddistance5bsearch-distance5d50distance5bsearch-units5dmile  even "><a href="http://www.texvet.org/partners-and-resources?title=&amp;body_value=&amp;field_org_tags_tid%5B%5D=23469&amp;distance%5Bpostal_code%5D=&amp;distance%5Bsearch_distance%5D=50&amp;distance%5Bsearch_units%5D=mile" title="">Legal</a><ul><li class="menu-29625 menu-path-texvetorg-partners-and-resourcestitlebody-valuefield-org-tags-tid5b5d23469distance5bpostal-code5ddistance5bsearch-distance5d50distance5bsearch-units5dmile first odd "><a href="http://www.texvet.org/partners-and-resources?title=&amp;body_value=&amp;field_org_tags_tid%5B%5D=23469&amp;distance%5Bpostal_code%5D=&amp;distance%5Bsearch_distance%5D=50&amp;distance%5Bsearch_units%5D=mile" title="">Legal</a></li>
+<li class="menu-29616 menu-path-texvetorg-partners-veteran-court-texas-vha-veterans-justice-outreach  even "><a href="http://www.texvet.org/partners/veteran-court-texas-vha-veterans-justice-outreach" title="VJO Specialists provide services to Veterans in local courts and jails.">Veterans Justice Outreach</a></li>
+<li class="menu-29615 menu-path-texvetorg-vetcourts-txordertitlesortasc  odd last"><a href="http://www.texvet.org/vetcourts-tx?order=title&amp;sort=asc" title="Learn more about and locate Veteran Treatment Courts all across Texas.">Veteran Treatment Courts in Texas</a></li>
+</ul></li>
+<li class="menu-28220 menu-path-texvetorg-mental-health  odd "><a href="http://www.texvet.org/mental-health" title="">Mental Health</a></li>
+<li class="menu-28221 menu-path-texvetorg-physical-health  even "><a href="http://www.texvet.org/physical-health" title="">Physical Health</a></li>
+<li class="menu-28224 menu-path-texvetorg-transportation  odd "><a href="http://www.texvet.org/transportation" title="">Transportation</a></li>
+<li class="menu-28222 menu-path-texvetorg-va-claims-assistance  even "><a href="http://www.texvet.org/va-claims-assistance" title="">VA Claims Assistance</a></li>
+<li class="menu-28227 menu-path-texvetorg-partners-and-resources  odd last"><a href="http://www.texvet.org/partners-and-resources" title="">All Organizations</a></li>
+</ul>
+  </div>
+  
+</div> <!-- /.block -->
+<div id="block-nice-menus-3" class="block block-nice-menus">
+
+      
+  <div class="content">
+    <ul class="nice-menu nice-menu-right nice-menu-main-menu" id="nice-menu-3"><li class="menu-5606 menuparent  menu-path-texvetorg-about first odd "><a href="http://texvet.org/about" title="">ABOUT US</a><ul><li class="menu-27277 menu-path-texvetorg-blogs first odd "><a href="http://texvet.org/blogs" title="">Our Blogs</a></li>
+<li class="menu-27278 menu-path-texvetorg-staff  even last"><a href="http://www.texvet.org/staff" title="">Meet the Staff</a></li>
+</ul></li>
+<li class="menu-8515 menu-path-texvetorg-crisis  even "><a href="http://www.texvet.org/crisis" title="
+If you are in a life-threatening emergency, please dial 9-1-1 immediately.">CRISIS</a></li>
+<li class="menu-27423 menuparent  menu-path-front  odd "><a href="/" title="" class="active">COALITIONS</a><ul><li class="menu-27291 menuparent  menu-path-texvetorg-ctvsc first odd "><a href="http://texvet.org/ctvsc" title="
+What is the CTVSC? Who are the members? When does it meet?
+Click here for all this and more!">Central Texas Veteran Services Coalition (CTVSC)</a><ul><li class="menu-27780 menu-path-sfacebookcom-groups-ctvsc- first odd "><a href="https://www.facebook.com/groups/ctvsc/" title="Click here to post messages to the CTVSC via your Facebook account.">CTVSC Facebook Group</a></li>
+<li class="menu-27313 menu-path-sfacebookcom-ctvsc  even last"><a href="https://www.facebook.com/ctvsc" title="The CTVSC&#039;s official Facebook page.">CTVSC Facebook Page</a></li>
+</ul></li>
+<li class="menu-27424 menu-path-texvetorg-jcftexas  even "><a href="http://www.texvet.org/jcftexas" title="">Joining Community Forces - Texas (JCF-T)</a></li>
+<li class="menu-29623 menu-path-texvetorg-vsn  odd "><a href="http://www.texvet.org/vsn" title="">Veteran Spouse Network</a></li>
+<li class="menu-28185 menuparent  menu-path-texvetorg-vsact  even last"><a href="http://www.texvet.org/vsact" title="">Veterans Service Alliance of Central Texas (VSACT)</a><ul><li class="menu-29678 menu-path-sfacebookcom-groups-247931565544109- first odd last"><a href="https://www.facebook.com/groups/247931565544109/" title="">VSACT Facebook Group</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-27286 menu-path-texvetorg-user  even last"><a href="http://www.texvet.org/user" title="">LOG IN</a></li>
+</ul>
+  </div>
+  
+</div> <!-- /.block -->
+<div id="block-views-staff-blog-block-4" class="block block-views">
+
+        <h2 >Latest Blogs</h2>
+    
+  <div class="content">
+    <div class="view view-staff-blog view-id-staff_blog view-display-id-block_4 table-view view-dom-id-422e9cf6dc7c1daaf66c6594010700a6">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-field-image">        <div class="field-content front-page-blog-image"><img typeof="foaf:Image" src="http://www.texvet.com/sites/default/files/styles/thumbnail/public/IMG00473-20110727-1044-5.jpg?itok=aTQRtyuv" width="100" height="75" alt="" /></div>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content">May 10, 2016</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blogs/sandefur/i-never-talk-about">I Never Talk About This ...</a></span>  </div>  
+  <div class="views-field views-field-field-soldier-s-rank-and-name">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/blogs/sandefur/i-never-talk-about">read more >></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-2">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-field-image">        <div class="field-content front-page-blog-image"><img typeof="foaf:Image" src="http://www.texvet.com/sites/default/files/styles/thumbnail/public/555924_4786323054226_2062958396_n.jpg?itok=h3j9cg2O" width="100" height="100" alt="" /></div>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content">May 6, 2016</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blogs/pjefferies/beside-us">BESIDE US</a></span>  </div>  
+  <div class="views-field views-field-field-soldier-s-rank-and-name">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/blogs/pjefferies/beside-us">read more >></a></span>  </div>          </td>
+              </tr>
+          <tr class="row-3 row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-field-image">        <div class="field-content front-page-blog-image"><img typeof="foaf:Image" src="http://www.texvet.com/sites/default/files/styles/thumbnail/public/337309.jpg?itok=Mx7HR2VS" width="72" height="100" alt="" /></div>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content">May 5, 2016</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blogs/pjefferies/servant-leadership-tvc-quarterly-meeting">Servant leadership at the TVC quarterly meeting</a></span>  </div>  
+  <div class="views-field views-field-field-soldier-s-rank-and-name">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/blogs/pjefferies/servant-leadership-tvc-quarterly-meeting">read more >></a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="http://www.texvet.org/blogs">
+    Want more Blogs? Check out the archives! &gt;  </a>
+</div>
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+<div id="block-panels-mini-postings-sidebar" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-flexible panels-flexible-156 clearfix" id="mini-panel-postings_sidebar">
+<div class="panel-flexible-inside panels-flexible-156-inside">
+<div class="panels-flexible-region panels-flexible-region-156-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-156-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-views pane-all-postings"  >
+  
+        <h2 class="pane-title">
+      Recent Posts    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-all-postings view-id-all_postings view-display-id-block view-dom-id-2fe8bf408eeb2c3386842f5018251989">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-changed">        <span class="field-content">May 11, 2016</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/are-you-ready-quit-break-chain-16may-lufkin">Are you ready to quit?  Break the Chain! -- 16May in Lufkin</a></span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/are-you-ready-quit-break-chain-16may-lufkin">read more</a></span>  </div>          </td>
+              </tr>
+          <tr class="row-2">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-changed">        <span class="field-content">May 10, 2016</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/hiring-event-military-veterans-houston">Hiring Event for Military Veterans - Houston</a></span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/hiring-event-military-veterans-houston">read more</a></span>  </div>          </td>
+              </tr>
+          <tr class="row-3 row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-changed">        <span class="field-content">May 10, 2016</span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/events/resume-writinginterviewing-workshop-houston">Resume Writing/Interviewing Workshop - Houston</a></span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/events/resume-writinginterviewing-workshop-houston">read more</a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-225"  >
+  
+      
+  
+  <div class="pane-content">
+    <p><a href="http://texvet.org/postings">Postings Archive</a></p>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+  
+</div> <!-- /.block -->
+<div id="block-block-156" class="block block-block">
+
+      
+  <div class="content">
+    <p>    </p>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+      </aside>  <!-- /#sidebar-first -->
+    
+    </div>
+
+    
+  <div class="clear"></div>
+
+    </div>
+
+
+
+  <div id="footer">
+          <div id="footer-area" class="clearfix">
+                <div class="column"><div class="region region-footer-first">
+  <div id="block-block-222" class="block block-block">
+
+      
+  <div class="content">
+    <table style="margin-left: auto; margin-right: auto;" border="0"><tbody><tr><td>
+<p style="text-align: center;"><strong>FUNDING &amp; SUPPORT</strong></p>
+<p>TEXVET is an Initiative of the <a href="http://tamhsc.edu/" target="_blank">Texas A&amp;M Health Science Center</a> and The Texas Department of Health and Human Services</p>
+<p style="text-align: center;"><a href="http://www.dshs.state.tx.us/"><img src="/sites/default/files/resize/1_newstart_2014/logos/DSHS_Logo2-150x64.jpg" alt="DSHS Logo" width="150" height="64" /></a></p>
+</td>
+</tr></tbody></table>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+</div>
+                        <div class="column"><div class="region region-footer-second">
+  <div id="block-block-221" class="block block-block">
+
+      
+  <div class="content">
+    <table style="margin-left: auto; margin-right: auto;" border="0"><tbody><tr><td>
+<p style="text-align: center;">TexVet: 512-341-4924<br /><a href="/contact">Email</a><br /> 3950 North A.W. Grimes Blvd<br /> Round Rock, TX 78665</p>
+</td>
+</tr></tbody></table><p> </p>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+</div>
+                        <div class="column"><div class="region region-footer-third">
+  <div id="block-block-223" class="block block-block">
+
+      
+  <div class="content">
+    <!--<table style="margin-left: auto; margin-right: auto; word-wrap: break-word;" border="0"><tbody><tr><td><p style="text-align: center;"><strong>UP TO THE MINUTE</strong><br /> <a href="/media"><span>media center</span></a><br /><span><a href="http://eepurl.com/BScLj" title="July 2013">current e-newsletter</a></span><br /><span><a href="/news">news center<br /></a><a href="http://www.texvet.org/rss" target="_blank" title="RSS Feed" class="rsssmall">RSS</a></span><span>&nbsp;</span></p></td></tr></tbody></table>--><table style="margin-left: auto; margin-right: auto; word-wrap: break-word;" border="0"><tbody><tr><td style="text-align: left;">
+<p style="text-align: center;"><strong>STAY CONNECTED</strong><br /><a href="/contact">Contact Us</a><br /><a href="http://veterans.portal.texas.gov/" target="_blank" title="Texas Veterans portal">Texas Veterans Portal</a><br /><span class="footericons"><span style="color: #444444;"><a href="http://www.facebook.com/TexVet?v=app_201143516562748" target="_blank" title="Find us on Facebook!" class="facebooksmall"><span style="color: #444444;">Facebook</span></a></span> • <a href="http://www.twitter.com/texvet" target="_blank" title="Tweet Us!" class="twittersmall"><span style="color: #000000;">Twitter</span></a> • <a href="http://www.pinterest.com/texvet" target="_blank" title="Pin with us!" class="pinsmall">Pinterest</a> • <a href="http://www.youtube.com/user/texvetusa" target="_blank" title="Subscribe on YouTube" class="utubesmall">YouTube<br /></a><a href="https://plus.google.com/109157520649259208556" target="_blank" title="Google+" class="gplussmall" rel="publisher">Google+</a> • </span><a href="http://www.linkedin.com/company/texvet-initiative" target="_blank">LinkedIn</a> • <a href="drupal.org/node/1680026" target="_blank">Drupal</a><br /><a href="http://www.tamus.edu/marcomm/socialmedia/public/"><span>Media inquiries :Holly Shive • 979-436-0613 • hshive@tamhsc.edu<br /></span>Public Notification for Social Media</a></p>
+</td>
+</tr></tbody></table>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+</div>
+              </div>
+    
+    <div id="copyright">
+    <!--Remove  -->
+                <p class="copyright">Copyright &copy; 2016, </p>
+     	        <!--Remove Theme Credit by Setting -->
+        <div class="clear"></div>
+    </div>
+  </div>
+</div>
+  <script src="http://www.texvet.com/sites/default/files/js/js_ZEuZgoByB1GPKXXHjuDrL-GJ_Od7HAvJtveim6Ac0hw.js"></script>
+<script src="http://www.texvet.com/sites/default/files/js/js_MLVgtzZ1ORq9krYqkeOsRay6ou_T-0QZytivuM9tTT8.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d8c94805b1","applicationID":"7212560","transactionName":"YQZRYxYDVkcFW0VeWlhMclQQC1daS0hQUFBpDlJZBQVdRjtIUFBQaQZLUgcXTFE=","queueTime":0,"applicationTime":1129,"ttGuid":"","agentToken":"","atts":"TUFSFV4ZRUk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

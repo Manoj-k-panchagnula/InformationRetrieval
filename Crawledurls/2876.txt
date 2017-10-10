@@ -1,0 +1,1949 @@
+
+<!doctype html>
+<!--[if lt IE 8]><html class="lt-ie9 lt-ie8 landing" lang="en"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 landing" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+ 
+	<title>University of North Texas Nike Tennis Camp</title>
+	
+        		<meta name="description" content="The North Texas Nike Tennis Camp offers players the opportunity to improve their game, work hard & make new friends. Join the fun this summer & get world-class tennis training!" />
+        <meta name="keywords" content="" />
+    
+
+
+	<meta name="robots" content="index, follow" />
+	<link rel="icon" href="http://www.ussportscamps.com/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.ussportscamps.com/images/favicon.ico" type="image/x-icon">	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2.0,maximum-scale=1.0">
+	<link rel="stylesheet" href="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/css/style.css">
+	
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/css/ie.css">
+	<![endif]-->
+	
+	
+	
+	<script type="text/javascript">
+var dataLayer = [{
+      'event': 'dataLayer-loaded',
+      'country': 'US',
+      'language': 'EN',
+      'cmsVersion': EE 2.9.0
+}];
+</script>
+</head>
+<body id="page-top">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NK5784"
+height="0" width="0" style="display:none;visibility:hidden"
+></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,
+f);
+})(window,document,'script','dataLayer','GTM-NK5784');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<div class="outer-wrapper">
+	<div class="wrapper">
+		<!-- ######### @HEADER ######### -->
+		<div class="header">
+				<header class="main">
+					<!-- ######### MOBILE MENU ######### -->
+					<div class="mobile-only mobile--navigation">
+						<div class="upper--header-items">
+							<div class="mobile--logo">
+								<a href="http://www.ussportscamps.com/">
+									<img src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/gfx/ussc-logo.png" alt="US Sports Camps" />
+								</a>
+							</div>
+							<a class="js-drawer-open  menu-button" href="#">
+								<span class="icon-label playsafe">Select Your Sport</span> <span class="icon-mobilemenu"></span>
+							</a>
+							<a class="js-location-search-open" href="#">
+								<span class="icon-label playsafe">Find Camps</span> <strong class="icon icon-usa-map"></strong>
+							</a>
+						</div><!-- upper-header-items -->
+						<div id="js-location-search">
+							<form class="camp-finder" id="camp-finder-desktop" action="/maps" method="post">
+							<input type="hidden" name="XID" value="cdc82fbb39559266b7f1a3ef8e38e0a021f6fae4" />
+								<div class="map-search-wrap pad--right pad--left">
+									<div class="grid-wrap reset-gutter quarter-pad--top half-pad--bottom quarter-gutter">
+							   			<div class="grid-col col-full quarter-pad--bottom">
+											<input type="text" id="search_address" name="search_address" value="" placeholder="Enter city, state, country or zip code" />
+							   			</div>
+							   			<div class="grid-col col-full quarter-pad--bottom">
+											<div class="styled">
+												<select id="search_maxdistance" name="search_maxdistance">
+												
+								                <option value="100" selected>100 Miles</option>
+								                <option value="250">250 Miles</option>
+								                <option value="500">500 Miles</option>
+												<option value="3000">Any Distance</option>
+								               </select>
+											</div>
+							   			</div>
+							   			<div class="grid-col col-full quarter-pad--bottom">
+											<div class="styled">
+												<select class="search_sport" id="search_sport" name="search_sport">
+													<option value="All">All Sports</option>
+													
+														
+							<option value="baseball">Baseball</option>
+						
+							<option value="basketball">Basketball</option>
+						
+							<option value="crew">Crew</option>
+						
+							<option value="fieldhockey">Field Hockey</option>
+						
+							<option value="football">Football</option>
+						
+							<option value="golf">Golf</option>
+						
+							<option value="gymnastics">Gymnastics</option>
+						
+							<option value="hockey">Hockey</option>
+						
+							<option value="international">International</option>
+						
+							<option value="lacrosse">Lacrosse</option>
+						
+							<option value="multisport">Multisport</option>
+						
+							<option value="rugby">Rugby</option>
+						
+							<option value="running">Running</option>
+						
+							<option value="soccer">Soccer</option>
+						
+							<option value="softball">Softball</option>
+						
+							<option value="swim">Swim</option>
+						
+							<option value="tennis">Tennis</option>
+						
+							<option value="ultimate">Ultimate</option>
+						
+							<option value="volleyball">Volleyball</option>
+						
+							<option value="waterpolo">Waterpolo</option>
+						
+							<option value="yoga">Yoga</option>
+						
+													
+												</select>
+											</div>
+							   			</div>
+							   			<div class="grid-col bp2-col-one-fifth">
+							   				<button id="submit_camp-finder-desktop" type="submit" class="mini-button camp-finder-button">Find Camps &raquo;</button>
+							   			</div>
+							   		</div><!-- grid-wrap -->
+							   	</div><!-- map-search-wrap -->
+							</form>
+						</div><!-- js-location-search -->
+						<div id="js-drawer-contents">
+							<div class="content-wrap sport--boxes-wrapper">
+								<ul class="grid-wrap sport--boxes">
+									
+										
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/baseball/"><span class="icon-baseball"></span><strong>Baseball</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/basketball/"><span class="icon-basketball"></span><strong>Basketball</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/crew/"><span class="icon-crew"></span><strong>Crew</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/fieldhockey/"><span class="icon-fieldhockey"></span><strong>Field Hockey</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/football/"><span class="icon-football"></span><strong>Football</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/golf/"><span class="icon-golf"></span><strong>Golf</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/gymnastics/"><span class="icon-gymnastics"></span><strong>Gymnastics</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/hockey/"><span class="icon-hockey"></span><strong>Hockey</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/international/"><span class="icon-international"></span><strong>International</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/lacrosse/"><span class="icon-lacrosse"></span><strong>Lacrosse</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/multisport/"><span class="icon-multisport"></span><strong>Multisport</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/rugby/"><span class="icon-rugby"></span><strong>Rugby</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/running/"><span class="icon-running"></span><strong>Running</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/soccer/"><span class="icon-soccer"></span><strong>Soccer</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/softball/"><span class="icon-softball"></span><strong>Softball</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/swim/"><span class="icon-swim"></span><strong>Swim</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/tennis/"><span class="icon-tennis"></span><strong>Tennis</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/ultimate/"><span class="icon-ultimate"></span><strong>Ultimate</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/volleyball/"><span class="icon-volleyball"></span><strong>Volleyball</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/waterpolo/"><span class="icon-waterpolo"></span><strong>Waterpolo</strong></a></li>
+						
+							<li class="grid-col col-one-quarter bp2-col-one-fifth"><a href="/yoga/"><span class="icon-yoga"></span><strong>Yoga</strong></a></li>
+						
+									
+								</ul>  
+							 </div><!-- .content-wrap -->
+							 <div class="container lower--header-items">
+							 	<div class="header--sponsor-logo">
+								 	<img src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/gfx/nike-logo.png" alt="NIKE " />
+									<span class="playsafe"><a><strong>Nike</strong> Sports Camps</a></span> 
+									<span><a href="tel:+18006453226">1-800-NIKE-CAMP</a></span>
+							    </div><!-- headline -->
+							    <ul class="subnav">
+							    	<li><a href="http://www.ussportscamps.com/">Home</a></li>
+							    	<li><a href="/about/">About USSC</a></li>
+							    	<li><a href="/mycamps/">My Camps</a></li>
+							    	<li><a href="/maps/">Maps</a></li>
+							    	<li><a href="/contact/">Contact USSC</a></li>
+									<li class="last"><a href="#" onclick="__CartWidget.showWidget();" class="parent">View Cart <span class="icon-cart"></span></a></li>
+							    </ul>
+							 </div><!-- container -->					
+						</div><!-- #js-drawer contents -->
+					</div><!-- mobile-only -->
+					<!-- ######### TABLET + DESKTOP MENU ####### -->
+					<div class="navigation--menu not-mobile">
+						<div id="mgmenu1" class="mgmenu_container mgmenu_fixed">
+					        <ul class="mgmenu constrain-width"><!-- Begin Mega Menu -->
+						        <li class="mgmenu_button"><i>Select Your Sport</i> <span class="icon-mobilemenu"></span><!-- Button (Mobile Devices) -->
+					            <li><a class="parent"><span>Select Your Sport</span> <strong class="icon icon-arrow-down2"></strong></a><!-- Begin Item -->            
+					                <div class="dropdown_fullwidth dark"><!-- Begin Item Container -->
+						            	<div class="map-nav--wrapper">
+											<ul class="map-sport--icons nav css-columns">
+												
+													
+							<li class="tab-baseball"><a href="/baseball/"><span class="icon-baseball"></span><strong>Baseball</strong></a></li>
+						
+							<li class="tab-basketball"><a href="/basketball/"><span class="icon-basketball"></span><strong>Basketball</strong></a></li>
+						
+							<li class="tab-crew"><a href="/crew/"><span class="icon-crew"></span><strong>Crew</strong></a></li>
+						
+							<li class="tab-fieldhockey"><a href="/fieldhockey/"><span class="icon-fieldhockey"></span><strong>Field Hockey</strong></a></li>
+						
+							<li class="tab-football"><a href="/football/"><span class="icon-football"></span><strong>Football</strong></a></li>
+						
+							<li class="tab-golf"><a href="/golf/"><span class="icon-golf"></span><strong>Golf</strong></a></li>
+						
+							<li class="tab-gymnastics"><a href="/gymnastics/"><span class="icon-gymnastics"></span><strong>Gymnastics</strong></a></li>
+						
+							<li class="tab-hockey"><a href="/hockey/"><span class="icon-hockey"></span><strong>Hockey</strong></a></li>
+						
+							<li class="tab-international"><a href="/international/"><span class="icon-international"></span><strong>International</strong></a></li>
+						
+							<li class="tab-lacrosse"><a href="/lacrosse/"><span class="icon-lacrosse"></span><strong>Lacrosse</strong></a></li>
+						
+							<li class="tab-multisport"><a href="/multisport/"><span class="icon-multisport"></span><strong>Multisport</strong></a></li>
+						
+							<li class="tab-rugby"><a href="/rugby/"><span class="icon-rugby"></span><strong>Rugby</strong></a></li>
+						
+							<li class="tab-running"><a href="/running/"><span class="icon-running"></span><strong>Running</strong></a></li>
+						
+							<li class="tab-soccer"><a href="/soccer/"><span class="icon-soccer"></span><strong>Soccer</strong></a></li>
+						
+							<li class="tab-softball"><a href="/softball/"><span class="icon-softball"></span><strong>Softball</strong></a></li>
+						
+							<li class="tab-swim"><a href="/swim/"><span class="icon-swim"></span><strong>Swim</strong></a></li>
+						
+							<li class="tab-tennis"><a href="/tennis/"><span class="icon-tennis"></span><strong>Tennis</strong></a></li>
+						
+							<li class="tab-ultimate"><a href="/ultimate/"><span class="icon-ultimate"></span><strong>Ultimate</strong></a></li>
+						
+							<li class="tab-volleyball"><a href="/volleyball/"><span class="icon-volleyball"></span><strong>Volleyball</strong></a></li>
+						
+							<li class="tab-waterpolo"><a href="/waterpolo/"><span class="icon-waterpolo"></span><strong>Waterpolo</strong></a></li>
+						
+							<li class="tab-yoga"><a href="/yoga/"><span class="icon-yoga"></span><strong>Yoga</strong></a></li>
+						
+												
+											</ul>
+										</div><!-- map-nav -->             
+					                </div><!-- End Item Container -->
+					            </li><!-- End Item -->
+								<li><a class="parent" href="/about/"><span>About USSC</span> <strong class="icon icon-arrow-down2"></strong></a><!-- Begin Item -->
+									<div class="dropdown_2columns dropdown_container"><!-- Begin Item Container -->
+										<ul class="dropdown_flyout subnavmenu">
+					                    	<li class="parent"><a href="/about/">Company Overview</a></li>
+											<li class="parent"><a href="/int/">International Campers</a></li>
+											<li class="parent"><a href="/peace-of-mind-policy/">Peace of Mind Policy</a></li>
+											<li class="parent"><a href="/faq/">Questions &amp; Answers</a></li>
+											<li class="parent"><a href="/news/">Sport Camp News</a></li>
+											<li class="parent"><a href="/partners/">Camp Partnerships</a></li>
+											<li class="parent"><a href="/news/giving/">USSC Gives Back</a></li>
+											<li class="parent"><a href="/social/">USSC Social Streams</a></li>
+											<li class="parent last"><a href="/contact/">Contact USSC</a></li>
+					                    </ul>                       
+									</div><!-- End Item Container -->            
+					            </li><!-- End Item -->
+					            <li><a class="parent" href="/mycamps/"><span>MyCamps</span> <strong class="icon icon-arrow-down2"></strong></a><!-- Begin Item -->            
+					                <div class="dropdown_container dropdown_3columns"><!-- Begin Item Container -->
+					                    <div class="col_11 half-pad--bottom quarter-pad--top">
+					                        <h3 class="half-pad--bottom">Registration Packets, Final Payments and More</h3>
+					                        <a href="/mycamps/" class="mini-button">Go to the MyCamps page <span class="icon-arrow-right"></span></a>
+					                    </div>
+					                </div><!-- End Item Container -->            
+					            </li><!-- End Item -->
+								<li class="right_item">
+									<a href="#" onclick="__CartWidget.showWidget();" class="parent">View Cart <span class="icon-cart"></span></a>
+								</li>
+					            <li class="right_item"><a class="parent" href="#"><span>Find Camps</span> <strong class="icon icon-arrow-down2"></strong> <strong class="icon icon-usa-map icon-map"></strong></a><!-- Begin Item -->            
+					                <div class="dropdown_4columns dropdown_container"><!-- Begin Item Container -->                    
+					                    <form class="camp-finder" id="camp-finder-mobile" action="http://www.ussportscamps.com/maps" method="post">
+										<input type="hidden" name="XID" value="cdc82fbb39559266b7f1a3ef8e38e0a021f6fae4" />
+											<div class="map-search-wrap">
+								   	   			<div class="grid-wrap half-gutter quarter-pad--bottom">
+										   			<div class="grid-col quarter-pad--bottom">
+														<input type="text" id="search_address" name="search_address" value="" placeholder="Enter city, state, country or zip code" />
+										   			</div>
+										   			<div class="grid-col quarter-pad--bottom">
+														<div class="styled">
+															<select id="search_maxdistance" name="search_maxdistance">
+															
+											                <option value="100" selected>100 Miles</option>
+											                <option value="250">250 Miles</option>
+											                <option value="500">500 Miles</option>
+															<option value="3000">Any Distance</option>
+											               </select>
+														</div>
+										   			</div>
+										   			<div class="grid-col quarter-pad--bottom">
+														<div class="styled">
+															<select class="search_sport" id="search_sport" name="search_sport">
+														<option value="All">All Sports</option>
+														
+															
+							<option value="baseball">Baseball</option>
+						
+							<option value="basketball">Basketball</option>
+						
+							<option value="crew">Crew</option>
+						
+							<option value="fieldhockey">Field Hockey</option>
+						
+							<option value="football">Football</option>
+						
+							<option value="golf">Golf</option>
+						
+							<option value="gymnastics">Gymnastics</option>
+						
+							<option value="hockey">Hockey</option>
+						
+							<option value="international">International</option>
+						
+							<option value="lacrosse">Lacrosse</option>
+						
+							<option value="multisport">Multisport</option>
+						
+							<option value="rugby">Rugby</option>
+						
+							<option value="running">Running</option>
+						
+							<option value="soccer">Soccer</option>
+						
+							<option value="softball">Softball</option>
+						
+							<option value="swim">Swim</option>
+						
+							<option value="tennis">Tennis</option>
+						
+							<option value="ultimate">Ultimate</option>
+						
+							<option value="volleyball">Volleyball</option>
+						
+							<option value="waterpolo">Waterpolo</option>
+						
+							<option value="yoga">Yoga</option>
+						
+														
+										                
+										               </select>
+														</div>
+										   			</div>
+										   			<div class="grid-col">
+										   				<button type="submit" id="camp-finder-mobile" class="mini-button camp-finder-button">Search <span class="icon-arrow-right"></span></button>
+										   			</div>
+										   		</div>
+										   	</div>
+								   		</form>
+								   	</div><!-- End Item Container -->            
+					            </li><!-- End Item -->
+					        </ul><!-- End Mega Menu -->
+					    </div><!-- End Mega Menu Container -->
+					</div><!-- navigation-menu -->
+					<!-- ### END TABLET + DESKTOP MENU ### -->
+					<div class="container overlay--header-items not-mobile">
+						<div class="constrain-width">					
+														<div class="grid-wrap">
+								<div class="grid-col col-one-half">
+									<div class="logo  header__logo">
+										<a href="http://www.ussportscamps.com/"><img src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/gfx/ussc-logo.png" alt="USSC" /></a>
+									</div><!-- logo -->
+								</div><!-- grid-col -->
+								<div class="grid-col col-one-half">
+									<div class="header--sponsor-logo right">
+							    		<img src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/gfx/nike-logo.png" alt="NIKE " />
+							    		<span class="playsafe"><a><strong>Nike</strong> Sports Camps</a></span><br/>
+							            <span><a href="tel:+18006453226">1-800-NIKE-CAMP</a></span>
+									</div><!-- headline -->
+								</div><!-- grid-col -->
+							</div><!-- grid-wrap -->
+						</div>
+					</div><!-- container overlay-header-items -->
+					<!-- ######### @SLIDESHOW ######### -->
+					
+					
+    
+    				<div class="slideshow">
+						<div class="flexslider-OFF">
+			    			<ul class="slides">
+			    				<li>
+			    						<div class="captionbox not-mobile">
+			    							<h3>Because Tennis is...</h3>
+			    							<h4>Serious Fun!</h4>
+			    						</div>
+			    						
+			    							<img src="http://media.ussportscamps.com/assets/programs/tennis/headers/Tennis_SportHeader_1280x300.jpg" alt="" />
+			    						
+			    						<div class="constrain-width cta-holder cta-right">
+			    							<a href="#camp-schedule" class="cta register">Dates &amp; Prices <span class="icon-arrow-right"></span></a>
+			    						</div>
+			    				</li>
+			    			</ul><!-- .slides -->
+						</div><!-- .flexslider -->
+					</div><!-- slideshow -->
+	
+	
+			</header>				
+		</div><!-- header -->	
+				
+						
+		
+		<!-- ######### @MAINCONTENT ######### -->			
+			
+					
+			<div class="dark--bar not-mobile"></div>
+			<div class="contentarea light-bg">
+			<div class="container constrain-width">	
+				<div class="grid-wrap">
+									
+					<!-- ########### PRIMARY CONTENT ############ -->
+					
+					<div class="grid-col bp2-col-two-thirds half-pad--top">
+					
+						<div class="breadcrumbs h--bar not-mobile">
+							<a href="http://www.ussportscamps.com/">USSC</a> <span class="separator icon-arrow-right"></span>
+							<a href="http://www.ussportscamps.com/tennis/">Tennis</a> <span class="separator icon-arrow-right"></span>
+							<a href="http://www.ussportscamps.com/tennis/nike/">Nike</a> <span class="separator icon-arrow-right"></span>
+							<a href="http://www.ussportscamps.com/tennis/nike/texas/">Texas</a> <span class="separator icon-arrow-right"></span>
+							Denton
+						</div><!--bcrumbs-->
+					
+					<div id="tab-container" class="tab-container pad--bottom">
+					  
+					  <div class="camp--subheader">
+					  	<div class="grid-wrap">
+					  		<div class="grid-col col-three-quarters">
+					  			<h1>University of North Texas Nike Tennis Camp</h1>
+					  			
+					  			<div id="campReview">
+                                	                                	
+	                                   	<span class="hreview-aggregate">
+		                                   <span class="item">
+		                                   		<span class="fn">University of North Texas Nike Tennis Camp</span>
+		                                   </span>
+		                                   
+		                                   <div class="grid-wrap half-pad--bottom">
+			                                   <div class="star_ratings rating grid-col bp1-col-one-half bp2-col-one-quarter">
+											  
+												 
+			                                   		<ul class="star-rating" style="width: 90px;">
+			                                        	<li class="current-rating" style="width: 90px;"><span class="average">5</span>/<span class="best">5</span>.</li>
+			                                        </ul>
+												
+											  
+			                                         
+			                                   </div>
+			                                   <div class="grid-col bp1-col-one-half">
+		                                       		<a href="#camp-reviews-top" class="cta_reviews"><span class="count">18</span> Reviews <span class="icon-arrow-right"></span></a>
+		                                       		
+			                                   </div>
+		                                   </div> 
+		                                   
+	                                   </span>  
+                                	                              
+                                <!--campReview--></div>	
+					  			
+						  	</div>
+						  	<div class="grid-col col-one-quarter">
+						  		<div class="center-blocks half-pad--bottom">
+						  		
+						  			<img src="http://media.ussportscamps.com/images/made/images/logos/camps/NorthTexas_Tennis_2010_Logo_173_100.jpg" width="173" height="100" parse="inward" />
+						  		
+						  		</div>
+						  	</div>
+					  	</div><!-- grid-wrap -->
+					  </div><!-- subheader -->
+					  					 
+					  <!-- ########### CAMP OVERVIEW ############ -->					  
+					  <div id='camp-overview' class="tab-content--OFF camp-overview pad--bottom">
+									<img src="http://media.ussportscamps.com/images/camps/UnivNorthTX_Tennis_2010_TennisComplex1.jpg" alt="University of North Texas Nike Tennis Camp" class="bp2-left feature--image not-mobile" />
+                            		<p class="introduction">The Nike Tennis Camp at the University of North Texas is a summer camp for young athletes to come and get world-class tennis training, work hard, make new friends and have a lot of fun. Come join the fun this summer and take your tennis instruction to the next level.</p>                                	
+                            		<h2>Nike Tennis Camp in Denton, TX</h2>
+This junior summer tennis camp focuses on tennis training as well as match play, giving each camper a positive learning environment to enhance their skills and enjoy the game. Our goal is to give players the opportunity to hit thousands of balls, improve their technique, and be challenged by some of the best players in their peer group. Our camps combine technical tennis instruction and drilling from a top-notch coaching staff, supervised match play, and a variety of evening social activities.
+                                	<h4 class="clear">Highlights Include</h4>
+											<ul>
+										
+                                			<li>Daily tennis instruction from top teaching pros and players</li>
+										<li>Every camper receives a Nike Tennis Camp T-shirt</li>
+										<li>Experience campus life and create lasting friendships</li>
+										<li>Fun off-court evening activities for overnight campers</li>
+										
+											<li><a href="#campDetails" id="moreDetails">View more details &raquo;</a></li>
+											</ul>                              
+                                	<p><a class="button" href="#camp-schedule">Dates &amp; Prices <span class="icon-arrow-right down"></span></a></p>
+						  </div><!-- camp-overview -->
+											  
+					<!-- ########### CAMP COACHES ############ -->	
+					
+					
+					<h2 class="button-header">Meet Camp Coaches</h2>
+					<div class="arrow-down-dark"></div>
+					  	
+					  	  <div id='camp-coaches' class="pad--bottom">
+				
+				
+					
+					  	  
+						  	<!-- DIRECTOR BLOCK -->
+					    	 <div class="coach-block cfix">
+					    	 	<div class="grid-wrap">
+					    	 		<div class="grid-col col-one-quarter">
+								 		
+										
+										<img src="http://media.ussportscamps.com/images/made/images/coaches/NorthTX_SujayLama_HeadShot_150_150_c1_center_top.jpg" alt="Sujay Lama" class="img-left coach--image" />
+										
+										
+					    	 		</div><!-- grid-col -->
+					    	 		<div class="grid-col col-three-quarters half-pad--bottom">
+								 		<span class="coach-block--title">Camp Director</span>
+								 		<h3 class="coach-block--name">Sujay Lama</h3>
+		                                <div class="teaser">
+										<p>
+										
+											Head women&rsquo;s tennis coach, Sujay Lama, is a seasoned camp&nbsp;director with over twenty years of experience.&nbsp;Lama has established a winning tradition at North Texas as he has led the Mean Green to three conference championships in the last six&nbsp;years, including back-to-back crowns in 2012 and 2013.
+										
+										</p>
+		                                </div>   
+										
+                               		 	<a href="#" class="cta-textlink btn_fullbio">Read Full Bio <span class="icon-arrow-right down"></span><span class="icon-arrow-down up"></span></a>
+                                		<div class="fullbio">
+											<p>During the 2015 season, the Mean Green earned three all-conference honors after reaching the Conference USA semifinal round in&nbsp;consecutive years. Kseniya Bardabush earned First Team All-Conference honors for the fourth time in her career while Anastasiya Shestakova took a spot on the&nbsp;Second Team. Bardabush was joined by Franziska Sprinkmeyer in taking a place on the doubles Second Team.&nbsp;</p>
+
+<p>In 2014, the Mean Green advanced to the semifinal round in its first ever C-USA Tournament, where they assembled an 11-11 record for the season. Lama coached Bardabush, Shestakova and Sprinkmeyer to all-conference honors.</p>
+
+<p>The Mean Green capped off one of the best seasons in school history in 2013 with a second straight Sun Belt Conference Championship and a trip to the NCAA Tournament. For his efforts,Lama was named the 2013 Jim Verdieck College Coach of the Year by the Professional Tennis Registry (PTR). This award is given by the leading tennis-teaching professional organization in the world.</p>
+
+<p>In 2012, the Mean Green won its second conference championship, defeating Florida International, 4-2.The Mean Green went on to play Nebraska in the NCAA tournament, losing 4-0.</p>
+
+<p>The 2012 squad also produced the program&#39;s highest ranking of No. 40, finishing the season at No. 55. This comes just two seasons, after the Mean Green received its first national ranking of No. 66.</p>
+
+<p>The winningest coach in program history, Lama also became the first North Texas coach to receive coach of the year honors multiple times. He was named Sun Belt Conference Coach of the Year in 2010, 2012 and 2013. Lama was named the USPTA Collegiate Coach of the Year for the state of Texas in 2009.</p>
+
+<p>It didn&#39;t take long for Lama to leave his mark on the program. In just four seasons, Lama took the Mean Green from last in the Sun Belt to first.</p>
+
+<p>Working with mainly a group of walk-ons during the 2006-07 school year, Lama went 2-19 in his first season with the Mean Green. The team improved to double-digits wins the next season and then advanced to the conference semifinals in 2008-09.</p>
+
+<p>The 2010 season was a breakout year for Lama and the Mean Green. The team captured the program&#39;s first Sun Belt Conference championship with a win over No. 49 FIU. The conference championship earned the team an automatic bid to the NCAA Tournament appearance, the first ever in school history. After a loss to No. 32 Tulsa, North Texas finished its historic season with a 17-7 record.</p>
+
+<p>Lama was also named a finalist for the prestigious Giant Steps Award during 2009. In the fall of 2008, the Mean Green tallied individual wins over national contenders such as LSU, Ohio State, Texas, Texas A&amp;M, Texas Tech, Baylor, SMU, Rice, and Houston.</p>
+
+<p>Lama led North Texas to a 13-9 record in the spring of 2008, its best record since 1986-87. In 2007, he led the program to its best fall season in history. The Mean Green turned the heads of the nation&#39;s premier programs, notching individual wins over Ohio State, Kentucky, LSU, Oklahoma State, Baylor, Texas Tech and many others.</p>
+
+<p>North Texas success has not been limited to the court, as the Mean Green has picked up ITA All-Academic team honors five times.</p>
+
+<p>Prior to becming North Texas&#39; 10th coach in program history, Lama spent eight years as the women&#39;s tennis head coach at the University of Illinois.</p>
+
+<p>The Fighting Illini saw significant improvement with Lama at the helm. In his first year, Lama transformed the Illini from 8-13, 4-7 in Big Ten play, and ninth in the conference the previous season to a squad that was ranked No. 10 in the region and No. 75 in that nation.</p>
+
+<p>The Illini continued to see significant improvement during Lama&#39;s eight years. In 2003-04 the Illini went 17-6, posting their best winning percentage since Illinois&#39;s first team went 6-0 in 1975. Lama&#39;s 2003-04 squad also earned the highest national ranking in program history, No. 16. In 2003, the Orange and Blue knocked off top-ranked Duke, 4-3, at the UI Atkins Tennis Center.</p>
+
+<p>Lama&#39;s teams reached a number of milestones during his eight years in Champaign-Urbana. The Illini won their first NCAA Tournament match in May 2001. The program also had their first Big Ten Freshman of the Year, the Rookie of the Year in the Midwest Region, ten All-Big Ten players, four Big Ten Medal of Honor players, 13 ITA Scholar-Athletes and two Academic All-Americans. UI&#39;s women&#39;s tennis players earned Academic All-Big Ten recognition 39 times under Lama.</p>
+
+<p>During Lama&#39;s eight years at Illinois, the Illini went 108-84 with a Big Ten record of 60-34. He produced squads that made five NCAA team tournament appearances as well as five NCAA individual tournament appearances.</p>
+
+<p>Before his stint at Illinois, Lama served as the top assistant under then-Florida coach Andy Brandi from 1995-98, helping the Gators win two NCAA titles, three SEC crowns and post three undefeated dual match seasons, including the 1998 campaign. Lama was honored for his contributions as the 1997 ITA National Assistant Coach of the Year in the South Region.</p>
+
+<p>Prior to Florida, Lama was the Senior Staff Professional at the Van Der Meer Tennis Center in Hilton Head, S.C., where he worked with the elite player development program (for touring pros and top junior players) from 1992-95. A noted teacher and clinician, Lama has worked at tennis camps across the United States, Europe and Asia. He has earned the highest certification level with the USPTR and the USPTA, and is a USTA Certified High Performance Coach.</p>
+
+<p>He was a traveling coach on the WTA tour for several players including two top twenty ranked Amanda Coetzer (South Africa) and Naoko Sawamatsu (Japan). Lama has coached at 12 grand slam events including Wimbledon, U.S Open, Australian Open and French Open.</p>
+
+<p>In his playing career, Lama was the top-ranked player in Nepal from 1989-91 and reached No. 50 in the International Tennis Federation (ITF) junior world singles rankings. He represented his country in several international tournaments, including the Asian Games in Beijing, China in 1990.</p>
+
+<p>The Nepal native attended Luther College in Decorah, Iowa, from 1988-92 and was a two-time Volvo Collegiate All-American in singles (1991-92). He also earned Senior Player of the Year honors in the Midwest Region in 1992 and was ranked No. 5 in NCAA Division III singles. Lama dominated the Iowa Intercollegiate Athletic Conference the four years he competed at Luther.</p>
+
+<p>He won the league&#39;s singles and doubles titles and took conference MVP honors all four years of his collegiate career, leading his team to four IIAC titles. Lama put together a career singles record of 104-18 and captured two Rolex Midwest Regionals (1989 and 1991), while advancing to the semifinals of the Rolex National Intercollegiate Indoor Championship in 1991. Lama also made three NCAA Tournament appearances. He was inducted into the school&#39;s athletic hall of fame in the fall of 2002.</p>
+
+<p>He earned his bachelor&#39;s degree in Public Communications/Political Science from Luther College in 1992, earning GTE/CoSIDA Academic All-America honors during his time there. He was the recipient of the U.S./Nepal Educational Foundation Scholarship from 1990-92. Lama has traveled in more than 50 countries and is fluent in English, German, Hindi and Nepalese. He has lived five or more years on three continents (Asia, Europe and North America).</p>
+
+<p>Recently, Lama has lent his time and expertise to a unique venture he calls "Project Nepal". He has helped raise over $12,000 each year to fund the education of 67 orphanage children in his hometown of Nepal (www.supportprojectnepal.com).</p>
+
+<p>Lama and his wife, Lynne, reside in Denton with their 12-year-old daughter, Priya, and seven-year-old son, Siddhartha.</p>
+										</div><!-- fullbio -->
+										
+									</div><!-- grid-col -->
+							 	</div><!-- grid-wrap -->
+					    	 </div><!-- coach-block -->
+				
+					
+				
+				
+				
+				
+					    	 
+					    	<div class="fullbio half-pad--top" id="coach-full-bios">
+							
+							
+							 
+					    	
+					    	 
+					    	 </div><!-- fullbio -->    	
+					    	
+					</div><!-- camp-coaches -->
+					
+					
+					<!-- ########### CAMP DETAILS ############ -->
+				    <h2 class="button-header" id="campDetails">Camp Details</h2>
+					<div class="arrow-down-dark"></div>
+						  						  
+						  <div id='camp-details'>
+					    	 <div class="content pad--bottom">
+					    	 	<div class="teaser">
+					    	 		<h2>2016 North Texas Nike Tennis Camp Information</h2>
+
+<p>The North Texas Nike Tennis Camp is offering four weeks of week long tennis camp and day camp (8:30am-4:00pm) for kids ages 9-18 of all skill levels. In addition to the All Skills Program, UNT will offer two separate sessions of the High School Only program during the final two weeks of camp. Upon arrival, all participants are evaluated by the staff so that their own tennis instruction needs can be addressed throughout the week.</p>
+							 	</div>
+							 	<a class="button btn_fullbio" id="primaryDetailsButton" href="#full-camp-details">More Important Camp Details <span class="icon-arrow-right down"></span><span class="icon-arrow-down up"></span></a>
+					    	 	<div class="fullbio half-pad--top" id="full-camp-details">
+									<h4>Camp Program Offerings</h4>
+
+<h4>Program Offerings</h4>
+
+<h5>All Skills Program</h5>
+
+<p>All sessions are open to players of all abilities. The All Skills program is designed for tennis players of any skill level and background. Campers will learn fundamentals and improve upon their game. Upon arrival, all participants are evaluated by the staff so that their own instructional needs can be addressed throughout the week.</p>
+
+<h5>Tournament Training Program:</h5>
+
+<p>The Tournament Training Program is geared towards tournament level and ranked players looking to improve their tournament results, learn winning strategies, and work on mental toughness. Open to any and all players.</p>
+
+<h5>2016 Programs by Week</h5>
+
+<p><strong>June 12-16:</strong> All Skills<br />
+<strong>June 19-23:</strong> All Skills<br />
+<strong>July 17-21:</strong>&nbsp;High School Only<br />
+<strong>July 24-28:</strong>&nbsp;High School Only</p>
+
+<h5>High School Only Program</h5>
+
+<p>The High School Only program is designed for high school players (ages 13-18) looking to move up the ladder or make their high school team.</p>
+
+<h4>Check-In/Out</h4>
+
+<h5>Check-In</h5>
+
+<ul>
+	<li>Overnight Campers 1:00-3:00pm on Sunday at&nbsp;Victory Hall.</li>
+	<li>Day Campers 1:30-3:00 on Sunday at Warranch Tennis Complex. (Day Campers will depart that afternoon at 5:00pm.)</li>
+</ul>
+
+<h5>Check-Out</h5>
+
+<ul>
+	<li>Graduation for all campers is at 3:30pm at the Tennis Courts. Parents encouraged to attend!</li>
+	<li>Check-out: Immediately following graduation.</li>
+</ul>
+
+<h4>Day Camper Schedule</h4>
+
+<ul>
+	<li>Sunday: 3:30-5:00pm.</li>
+	<li>Monday through Wednesday: 8:30am to 5:00pm.</li>
+	<li>Thursday: 8:30am to 4:00pm.</li>
+</ul>
+
+<h4>Meals</h4>
+
+<p>Lunch is provided for Day campers Mon-Thurs.</p>
+
+<h4>Courts</h4>
+
+<p>Campers will play on 12 courts at the Waranch Tennis Complex.</p>
+
+<h4>Dorms</h4>
+
+<p>2016: Campers will stay in the Victory Residence Hall (June Sessionss) and the Rawlins Residence Hall (July Sessions) dorms on campus, which will have central air conditioning (2015). Campers will stay 2 per room. Campers can request roommates, otherwise they will be placed in rooms based on gender and age.</p>
+
+<h4>Meals</h4>
+
+<p>All meals are provided for overnight campers starting with dinner on check-in day and ending with lunch on check-out day. Lunch is provided for Day campers Mon-Thurs.&nbsp;</p>
+
+<h4>Evening Activities</h4>
+
+<p>For <u>overnight campers</u> we have a night session that includes: personal one on one private lessons for 30 minutes each, game court, free hit. Other evening activities may include pizza and movie nights, talent shows, games and free play at courts,&nbsp;karaoke contest, and a camp dance.</p>
+
+<h4>Weekend Stayovers</h4>
+
+<p>Weekend stayovers are not available at this location.</p>
+
+<h4>Designated Airport</h4>
+
+<p>Dallas/Fort Worth International Airport</p>
+
+<h4>Travel</h4>
+
+<p>Nike Tennis Camp does not provide any transportation to/from camp from airport, train stations or bus depots.&nbsp; If you fly into camp, we recommend that you fly into Dallas Fort Worth Airport and schedule a shuttle from the airport to camp. (For a list of shuttles, please visit http://www.dfwairport.com/transport/)</p>
+
+<p>If you have a camper arriving by air and is deemed an &ldquo;unaccompanied minor&rdquo; by the airlines and must be met by a camp staff or shuttle company employee, there may be a fee that needs to be paid in advance of camp.&nbsp;You will still have to arrange transportation to/from camp. Please call 1-800-645-3226 two weeks prior to camp to provide camper&rsquo;s flight and shuttle information.</p>
+
+<h4>Rain Plan</h4>
+
+<p>We have always planned our camp with "mother nature" in mind, if it were to rain we will always have some sort of activity usually dealing the the mental part of the game. For example, we will have stations where we talk about "College Tennis", "RTP", "Agility", "Mental Toughness" and these are only a few examples of things we have planned.</p>
+
+<h4>Medical Staff</h4>
+
+<p>Trainer on call at all times</p>
+
+<h4>Registration Packet</h4>
+
+<p>A detailed camper registration packet containing check in location, health/release forms, emergency contact info, and a list of things to bring will be emailed to all registered campers in the Spring. Our health and release forms do not require a doctor&#39;s signature and they will be collected on the first day of camp.&nbsp;</p>
+
+<p>Camp Code: TNXRNT</p>
+									
+                                	<h4>Sample Daily Schedule</h4>
+											<ul class="dailyschedule">
+										
+											<li><span class="time">8:30am</span> <span class="activity">Stretching, Camp Meeting at Courts</span></li>
+										<li><span class="time">8:45am</span> <span class="activity">Tennis Instruction</span></li>
+										<li><span class="time">10:00am</span> <span class="activity">Break</span></li>
+										<li><span class="time">10:15am</span> <span class="activity">Tennis Instruction and Drills</span></li>
+										<li><span class="time">11:45am</span> <span class="activity">Lunch, Rest, Optional Tennis</span></li>
+										<li><span class="time">1:15pm</span> <span class="activity">Tennis Program, Match Play</span></li>
+										<li><span class="time">2:45pm</span> <span class="activity">Break</span></li>
+										<li><span class="time">3:00pm</span> <span class="activity">Tennis Program, Doubles and Drills</span></li>
+										<li><span class="time">4:00pm</span> <span class="activity">Conclusion of Daily Tennis Program</span></li>
+										<li><span class="time">4:15pm </span> <span class="activity">Groups or Private Extra Help, Optional Tennis, Swimming</span></li>
+										<li><span class="time">5:00pm</span> <span class="activity">Rest, Shower, Dinner</span></li>
+										<li><span class="time">7:15pm</span> <span class="activity">Evening Activity</span></li>
+										<li><span class="time">9:30pm</span> <span class="activity">Overnight Campers to Rooms</span></li>
+										<li><span class="time">10:15pm</span> <span class="activity">Lights Out</span></li>
+										
+											</ul>
+                    			</div><!-- fullbio -->	
+							</div><!-- .content -->
+						</div><!-- end tab -->
+					
+					<!-- ------ CAMP REVIEWS ------ -->
+						  
+					<h2 class="button-header" id='camp-reviews-top'>Camper Reviews</h2>
+					<div class="arrow-down-dark"></div>
+					
+						  <div id='camp-reviews'>
+						  
+						  	
+					    	 								<div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-1">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-1">Roxann K. - University of North Texas Nike Texas Camp Camper Parent (2015) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5></h5>
+	                                       	<p>My son loved every moment he spent at camp! He woke up extra early to drive in and didn&#39;t want to leave at the end of the day. He came home excited to try all of the new things he learned! Thank you all for this amazing experience! He will definitely be back next year (as many weeks as he can fit in).</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island -->
+					    	 
+					    	 	
+					    	 <a class="secondary-cta btn_fullbio" href="#camp-reviews-full">Read All 18 Reviews <span class="icon-arrow-right down"></span><span class="icon-arrow-down up"></span></a>
+					    	 	
+					    	 	<div class="fullbio half-pad--top">
+					    	 
+					    	 <div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-2">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-2">Tracy S. - University of North Texas Nike Texas Camp Camper Parent (2015) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5></h5>
+	                                       	<p>Impressed - younger staff member grabbed my son and played one on one with him the first morning - saved him from wandering around ackwardly looking for another kid until camp started. Thank you for that kindness.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-3">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-3">Loren B. - University of North Texas Nike Texas Camp Camper (2015) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5></h5>
+	                                       	<p>Coach Markus did a great job, especially for a new coach. His suggestions were helpful. Food was very good. I really enjoyed the on-court activities and drills.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-4">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-4">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Highly Recommend!</h5>
+	                                       	<p>This is my daughter's third year at the UNT Tennis camp. We love Coach Lama and his staff. This program is excellent, we recommend it to everyone and have signed up many friends and family members!</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-5">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-5">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Inspired to play!</h5>
+	                                       	<p>Thank you to the dedicated staff! I see a tremendous improvement in my child's performance. She is now SO interested in tennis and loves playing in her free time! Thanks!</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-6">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-6">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Increased Confidence</h5>
+	                                       	<p>
+	Just wanted to drop a line to say, thank you to you and your team.&nbsp;My daughter&#39;s confidence toward tennis has improved tremendously in a week, so we are very pleased with the program.&nbsp;Thanks!</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-7">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-7">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Nothing Else Compares</h5>
+	                                       	<p>
+	I loved the camp, and I cannot wait to come back next time. I have tried other camps, and I think that I enjoyed this the most!!!!!!!!!! Thanks for the great experience!!!</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-8">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-8">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Inspiring Instructor</h5>
+	                                       	<p>
+	Sujay Lama was an excellent inspiration, not just with tennis but having an overall positive attitude in life. The glass is always half full with him.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-9">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-9">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Improved All Around</h5>
+	                                       	<p>
+	I thought that the camp was a great experience for me. It was fun and I feel like I improved both the physical and mental aspects of my game.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-10">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-10">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Loved Personal Attention</h5>
+	                                       	<p>
+	My son loved the camp and the personal attention from the coaches.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-11">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-11">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>3 year veteran!</h5>
+	                                       	<p>
+	I  have gone to the Nike tennis camp at UNT for the past 3 years and love it! Coach Llama is the best! </p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-12">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-12">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Amazing time!</h5>
+	                                       	<p>
+	Nike tennis camp 2011 was an amazing time and I would definitely recommend it to anyone on any level of tennis. I love the Nike tennis camp experience and all of the energetic and super enthusiastic director and staff. Coach Lama taught me important life lessons while also making my camp experience the best one yet.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-13">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-13">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Thanks!</h5>
+	                                       	<p>
+	This is my sons 3rd year at this camp and I am always very impressed with the director and staff. The small groups is great and they make it so fun for the kids. Thanks!</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-14">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-14">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Great!</h5>
+	                                       	<p>The camp was great! UNT Coach Lama was awesome and provided great instruction. His team of coaches were able to provide great instruction and help me to improve my game!</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-15">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-15">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Thoroughly Enjoyed!</h5>
+	                                       	<p>My son really enjoyed the camp. The staff were super enthusiastic and positive. He said he would really like to attend again next year.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-16">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-16">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Awesome!</h5>
+	                                       	<p>This was a great camp for me. I stayed in the dorm with my friend and it was awesome! I am already looking forward to camp next summer.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-17">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-17">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 90px;">5/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Amazing</h5>
+	                                       	<p>Amazing camp for all ages and great learning and enthusiastic environment.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island --><div class="island review-block">
+					    	 	<div class="grid-wrap commentPost" id="reviews-18">
+	                                <div class="grid-col bp2-col-one-third bp3-col-one-quarter">
+	                                	<h4><span class="camperName"><a href="#reviews-18">University of North Texas Nike Texas Camp Camper Parent (2014) </a></span><span class="authorType"></span><span class="reviewDate"></span></h4>
+	                                </div><!-- grid-col -->
+	                                <div class="grid-col bp2-col-two-thirds bp3-col-three-quarters">
+	                                	<div class="rating">
+	                                        <ul class="star-rating" style="width: 90px;">
+	                                        	<li class="current-rating" style="width: 72px;">4/5.</li>
+	                                        </ul>
+	                                        </div>
+	                                       <div class="review">
+										   	<h5>Enjoyable.</h5>
+	                                       	<p>Thoroughly enjoyed, felt as though I was incredibly important to the staff each and every day, has been a very enjoyable 4 years.</p>
+										   <!--review--></div>
+	                                </div><!-- grid-col -->
+								<!-- grid-wrap --></div>
+					    	 </div><!-- island -->
+					    	 	
+					    	 	
+					    	 	</div><!-- fullbio -->
+					    	 						    	 						    	 	
+						  </div><!-- end tab -->
+					
+			
+					</div><!-- tab-container -->
+					</div><!-- grid-col -->	
+				
+					
+					<!-- ######### SECONDARY TABS ########## -->
+					
+					<div class="grid-col bp2-col-one-third pad--bottom">
+						<div id="" class="sidebar-container half-pad--top">
+						 <div class="pad--bottom">
+						 	<a href="/tennis/nike/social/" class="bp2-right cta-social-stream">
+						 		
+						 		<span class="icon icon-facebook"></span> 
+						 		<span class="icon icon-twitter"></span> 
+						 		<span class="icon icon-instagram"></span> 
+						 		<span class="icon icon-googleplus"></span> 
+						 	</a>
+						 </div>
+						 
+						 <ul class="grid-wrap quarter-gutter cta-blocks clear">
+						 	<li class="grid-col bp3-col-one-half bp1-col-one-half bp2-col-full">
+						 	
+								<a id="camp-video-link" class="view-video cta block-cta"><span class="icon-play"></span> Video</a>
+							
+						 	</li>
+						 	<li class="grid-col bp3-col-one-half bp1-col-one-half bp2-col-full">
+						 		<a id="camp-brochure-link" href="#" class="get-brochure cta block-cta"><span class="icon-arrow-right3"></span> Brochure</a>
+						 	</li>
+						 </ul>
+						 					  						  		
+						  <div id='camp-gallery'>
+						  	<div class="side_tab_content">
+						  		<ul id="galleryThumbs" class=" grid-wrap quarter-gutter galleryThumbs clearfix">
+							
+								
+							<!-- CAMP GALLERY -->
+						  	
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/north-texas/north-texas-2010-camp-photo.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/north-texas/north-texas-2010-camp-photo_125_125_95_c1.jpg" alt="University of North Texas Nike Summer Tennis Camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/north-texas/north-texas-2011-tennis-camp-photo-1.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/north-texas/north-texas-2011-tennis-camp-photo-1_125_125_95_c1.jpg" alt="University of North Texas Nike Summer Tennis Camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/north-texas/north-texas-2011-tennis-camp-photo-2.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/north-texas/north-texas-2011-tennis-camp-photo-2_125_125_95_c1.jpg" alt="University of North Texas Nike Summer Tennis Camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/north-texas/north-texas-2011-tennis-camp-photo-3.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/north-texas/north-texas-2011-tennis-camp-photo-3_125_125_95_c1.jpg" alt="University of North Texas Nike Summer Tennis Camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-gallery-1.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-gallery-1_125_125_95_c1.jpg" alt="Amherst summer tennis camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-gallery-18.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-gallery-18_125_125_95_c1.jpg" alt="nike summer tennis camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-gallery-20.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-gallery-20_125_125_95_c1.jpg" alt="nike summer tennis camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-gallery-11.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-gallery-11_125_125_95_c1.jpg" alt="nike summer tennis camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-gallery-15.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-gallery-15_125_125_95_c1.jpg" alt="nike summer tennis camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-2012-33.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-2012-33_125_125_95_c1.jpg" alt="nike summer tennis camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-gallery-16.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-gallery-16_125_125_95_c1.jpg" alt="nike summer tennis camp" /></a></li>
+								
+							
+						  		
+										<li class="one grid-col col-one-quarter bp2-col-one-third"><a href="http://media.ussportscamps.com/assets/camps/tennis/gallery/nike-tennis-camps-gallery-13.jpg" title=""><img src="http://media.ussportscamps.com/images/made/assets/camps/tennis/gallery/nike-tennis-camps-gallery-13_125_125_95_c1.jpg" alt="nike summer tennis camp" /></a></li>
+								
+							
+							
+						  		</ul>
+						  	</div>
+						  </div><!-- tab-content -->
+						  
+						  			  
+						  <div id='camp-location'>
+						  	<div id="location" class="side_tab_content clearfix">
+                        	<div class="container--sidebar">
+                                <div id="map" class="mapThumb">
+	                                <a href="http://www.ussportscamps.com/tennis/maps/76201/50/"><img src="http://maps.google.com/maps/api/staticmap?center=33.19891,-97.16100&size=375x220&zoom=13&markers=color:red|33.19891,-97.16100&mobile=false&sensor=false&format=png32" /></a>
+                                </div>
+                                <div class="inner-content-wrap"> 
+                                                              
+                                <div class="vcard">
+                                   <h4><abbr class="geo" title="32.23276;-110.94425"><span class="org">University of North Texas Nike Tennis Camp</span></abbr></h4>
+                                   <span class="photo">http://media.ussportscamps.com/images/camps/UnivNorthTX_Tennis_2010_TennisComplex1.jpg</span>
+                                   
+                                   <span class="fn"><strong>Sujay Lama</strong></span>, 
+                                   <span class="title">Camp Director</span>
+                                   
+                                   <span class="adr">
+                                      <span class="street-address">
+                                      	Warranch Tennis Center <br />
+1499 Bonnie Brae /Walt Parker Drive <br />
+<br />
+
+                                      </span>
+									  <br/>
+                                      <span class="locality">Denton</span>, <span class="region">Texas</span>
+                                      <br/>
+                                      <span class="postal-code">76201</span>
+                                      <span class="phone">1-800-645-3226</span>
+                                   </span>
+                                   
+                              <!--.vCARD--></div> 
+		<div class="social-share--tools">
+		<h5>Share this Camp</h5>
+			
+			
+<!-- 
+** SOCIAL PLUGIN BUTTONS **
+-->
+<ul class="inline-list">
+<li class="facebook first"><a rel="nofollow" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.ussportscamps.com%2Ftennis%2Fnike%2Funiversity-of-north-texas-nike-tennis-camp&amp;t=University%20of%20North%20Texas%20Nike%20Tennis%20Camp" title="Facebook" target="_blank"><img src="/images/hj-social-bookmarks/facebook.png" alt="Facebook" /></a></li>
+<li class="googleplus"><a rel="nofollow" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.ussportscamps.com%2Ftennis%2Fnike%2Funiversity-of-north-texas-nike-tennis-camp" title="Google+" target="_blank"><img src="/images/hj-social-bookmarks/googleplus.png" alt="Google+" /></a></li>
+<li class="twitter"><a rel="nofollow" href="http://twitter.com/share?url=http%3A%2F%2Fwww.ussportscamps.com%2Ftennis%2Fnike%2Funiversity-of-north-texas-nike-tennis-camp&amp;text=University%20of%20North%20Texas%20Nike%20Tennis%20Camp:" title="Twitter" target="_blank" onclick="window.open(this.href,'_blank','height=450,width=550');return false;"><img src="/images/hj-social-bookmarks/twitter.png" alt="Twitter" /></a></li>
+<li class="email last"><a rel="nofollow" href="mailto:?subject=University%20of%20North%20Texas%20Nike%20Tennis%20Camp&amp;body=http%3A%2F%2Fwww.ussportscamps.com%2Ftennis%2Fnike%2Funiversity-of-north-texas-nike-tennis-camp" title="E-mail"><img src="/images/hj-social-bookmarks/email.png" alt="E-mail" /></a></li>
+</ul>
+					
+		</div>
+                                
+                            </div><!--inner-content-wrap--></div><!-- container-sidebar -->
+                    <!--LOCATION--></div>
+						  </div><!-- tab-content -->
+						  
+						</div><!-- tab-container -->
+
+						<!-- ####### SIDEBAR EXTRAS ######### -->
+						
+						<div class="sidebar--extras not-mobile">	
+						
+						
+						</div>
+												
+					</div><!-- grid-col -->			
+
+				</div><!-- grid-wrap -->
+			</div><!-- container -->
+			</div><!-- container -->
+			
+			<!-- ############ TERTIARY CONTENT ############## -->
+			
+			<div class="contentarea alternate-light-bg half-pad--top half-pad--bottom push" id="camp-schedule">
+				<div class="container constrain-width">	
+				
+					<h2 class="button-header">Camp Dates &amp; Prices</h2>
+					<div class="arrow-down-dark"></div>
+					
+					<div class="camp--schedule">				
+							
+							
+							
+			
+			
+								<!-- START SESSION TNXRNT-->
+								<div class="session session_rowA">
+								
+									<div class="session--header">
+										
+											<div class="grid-wrap half-gutter">
+										
+												<div class="grid-col bp2-col-three-quarters">
+													
+													<h3><a href="#" onclick="__CartWidget.add(29011)"><span class="label">Nike Tennis University Of North Texas</span> <span class="dates">Jun. 12 - Jun. 16, 2016</span></a></h3>
+												
+												</div><!-- grid-col -->
+												
+												<div class="grid-col bp2-col-one-quarter">
+												
+													<a href="#" onclick="__CartWidget.add(29011)"" class="button cta--register bp2-right" target="">Add to Cart <span class="icon icon-arrow-right"></span></a>
+													
+					
+												</div><!-- grid-col -->
+											
+											</div><!-- grid-wrap -->
+										
+									</div><!-- session-header -->
+									
+									<div class="session--details">
+									
+										<div class="grid-wrap">
+										
+											<div class="grid-col bp2-col-one-half">
+												
+												<div class="session--details-program">
+													<strong>Programs:</strong> Jr Camp - All Skills,
+												</div><!-- session-detail -->
+												
+												<div class="session--details-program grid-wrap">
+													<div class="grid-col bp2-col-one-half">
+														<strong>Age Group:</strong> 8 - 18
+													</div><!-- grid-col -->
+													<div class="grid-col bp2-col-one-half">
+														<strong>Gender:</strong> Co-Ed
+													</div><!-- grid-col -->
+													<div class="grid-col">
+														<span class="note"></span>
+													</div>
+													
+
+												</div><!-- session-detail -->
+																					
+											</div><!-- grid-col -->
+											
+											<div class="grid-col bp2-col-one-half">
+												<div class="session--pricing-option">
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Overnight</strong> $705.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: default => 29011 - -->	
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Day 8:30AM - 4:00PM</strong> $435.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: default => 29011 - 29011-->	
+												</div><!-- session-pricing-option -->
+											</div><!-- grid-col -->
+		
+										</div><!-- grid-wrap -->
+									
+									</div><!-- session-details -->
+									
+									<div class="session--notes">
+										<span class="note">* Please note, times may vary on the first and last day of camp.</span>
+									</div><!-- grid-col -->
+													
+								</div><!-- session ::sessionlist ran out -->
+								<!-- START SESSION TNXRNT-->
+								<div class="session session_rowA">
+								
+									<div class="session--header">
+										
+											<div class="grid-wrap half-gutter">
+										
+												<div class="grid-col bp2-col-three-quarters">
+													
+													<h3><a href="#" onclick="__CartWidget.add(29012)"><span class="label">Nike Tennis University Of North Texas</span> <span class="dates">Jun. 19 - Jun. 23, 2016</span></a></h3>
+												
+												</div><!-- grid-col -->
+												
+												<div class="grid-col bp2-col-one-quarter">
+												
+													<a href="#" onclick="__CartWidget.add(29012)"" class="button cta--register bp2-right" target="">Add to Cart <span class="icon icon-arrow-right"></span></a>
+													
+					
+												</div><!-- grid-col -->
+											
+											</div><!-- grid-wrap -->
+										
+									</div><!-- session-header -->
+									
+									<div class="session--details">
+									
+										<div class="grid-wrap">
+										
+											<div class="grid-col bp2-col-one-half">
+												
+												<div class="session--details-program">
+													<strong>Programs:</strong> Jr Camp - All Skills,
+												</div><!-- session-detail -->
+												
+												<div class="session--details-program grid-wrap">
+													<div class="grid-col bp2-col-one-half">
+														<strong>Age Group:</strong> 8 - 18
+													</div><!-- grid-col -->
+													<div class="grid-col bp2-col-one-half">
+														<strong>Gender:</strong> Co-Ed
+													</div><!-- grid-col -->
+													<div class="grid-col">
+														<span class="note"></span>
+													</div>
+													
+
+												</div><!-- session-detail -->
+																					
+											</div><!-- grid-col -->
+											
+											<div class="grid-col bp2-col-one-half">
+												<div class="session--pricing-option">
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Overnight</strong> $705.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: class check => 29012 - 29011-->
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Day 8:30AM - 4:00PM</strong> $435.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: default => 29012 - 29012-->	
+												</div><!-- session-pricing-option -->
+											</div><!-- grid-col -->
+		
+										</div><!-- grid-wrap -->
+									
+									</div><!-- session-details -->
+									
+									<div class="session--notes">
+										<span class="note">* Please note, times may vary on the first and last day of camp.</span>
+									</div><!-- grid-col -->
+													
+								</div><!-- session ::sessionlist ran out -->
+								<!-- START SESSION TNXRNT-->
+								<div class="session session_rowA">
+								
+									<div class="session--header">
+										
+											<div class="grid-wrap half-gutter">
+										
+												<div class="grid-col bp2-col-three-quarters">
+													
+													<h3><a href="#" onclick="__CartWidget.add(29013)"><span class="label">Nike Tennis University Of North Texas (High School Only)</span> <span class="dates">Jul. 17 - Jul. 21, 2016</span></a></h3>
+												
+												</div><!-- grid-col -->
+												
+												<div class="grid-col bp2-col-one-quarter">
+												
+													<a href="#" onclick="__CartWidget.add(29013)"" class="button cta--register bp2-right" target="">Add to Cart <span class="icon icon-arrow-right"></span></a>
+													
+					
+												</div><!-- grid-col -->
+											
+											</div><!-- grid-wrap -->
+										
+									</div><!-- session-header -->
+									
+									<div class="session--details">
+									
+										<div class="grid-wrap">
+										
+											<div class="grid-col bp2-col-one-half">
+												
+												<div class="session--details-program">
+													<strong>Programs:</strong> High School,
+												</div><!-- session-detail -->
+												
+												<div class="session--details-program grid-wrap">
+													<div class="grid-col bp2-col-one-half">
+														<strong>Age Group:</strong> 13 - 18
+													</div><!-- grid-col -->
+													<div class="grid-col bp2-col-one-half">
+														<strong>Gender:</strong> Co-Ed
+													</div><!-- grid-col -->
+													<div class="grid-col">
+														<span class="note"></span>
+													</div>
+													
+
+												</div><!-- session-detail -->
+																					
+											</div><!-- grid-col -->
+											
+											<div class="grid-col bp2-col-one-half">
+												<div class="session--pricing-option">
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Overnight</strong> $705.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: class check => 29013 - 29012-->
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Day 8:30AM - 4:00PM</strong> $435.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: default => 29013 - 29013-->	
+												</div><!-- session-pricing-option -->
+											</div><!-- grid-col -->
+		
+										</div><!-- grid-wrap -->
+									
+									</div><!-- session-details -->
+									
+									<div class="session--notes">
+										<span class="note">* Please note, times may vary on the first and last day of camp.</span>
+									</div><!-- grid-col -->
+													
+								</div><!-- session ::sessionlist ran out -->
+								<!-- START SESSION TNXRNT-->
+								<div class="session session_rowA">
+								
+									<div class="session--header">
+										
+											<div class="grid-wrap half-gutter">
+										
+												<div class="grid-col bp2-col-three-quarters">
+													
+													<h3><a href="#" onclick="__CartWidget.add(29014)"><span class="label">Nike Tennis University Of North Texas (High School Only)</span> <span class="dates">Jul. 24 - Jul. 28, 2016</span></a></h3>
+												
+												</div><!-- grid-col -->
+												
+												<div class="grid-col bp2-col-one-quarter">
+												
+													<a href="#" onclick="__CartWidget.add(29014)"" class="button cta--register bp2-right" target="">Add to Cart <span class="icon icon-arrow-right"></span></a>
+													
+					
+												</div><!-- grid-col -->
+											
+											</div><!-- grid-wrap -->
+										
+									</div><!-- session-header -->
+									
+									<div class="session--details">
+									
+										<div class="grid-wrap">
+										
+											<div class="grid-col bp2-col-one-half">
+												
+												<div class="session--details-program">
+													<strong>Programs:</strong> High School,
+												</div><!-- session-detail -->
+												
+												<div class="session--details-program grid-wrap">
+													<div class="grid-col bp2-col-one-half">
+														<strong>Age Group:</strong> 13 - 18
+													</div><!-- grid-col -->
+													<div class="grid-col bp2-col-one-half">
+														<strong>Gender:</strong> Co-Ed
+													</div><!-- grid-col -->
+													<div class="grid-col">
+														<span class="note"></span>
+													</div>
+													
+
+												</div><!-- session-detail -->
+																					
+											</div><!-- grid-col -->
+											
+											<div class="grid-col bp2-col-one-half">
+												<div class="session--pricing-option">
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Overnight</strong> $705.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: class check => 29014 - 29013-->
+													<div class="session--details-program grid-wrap">																								
+														<div class="grid-col bp2-col-two-thirds">
+															<strong>Day 8:30AM - 4:00PM</strong> $435.00
+														</div><!-- grid-col -->
+														<div class="grid-col bp2-col-one-third">
+															<strong>Availability:</strong> <a href="" class="availability--open">Open</a>
+														</div><br clear="all"><!-- grid-col -->
+													</div><!-- session-detail :: sess check => 8 - 8-->
+												</div><!-- session-pricing-option -->
+											</div><!-- grid-col -->
+		
+										</div><!-- grid-wrap -->
+									
+									</div><!-- session-details -->
+									
+									<div class="session--notes">
+										<span class="note">* Please note, times may vary on the first and last day of camp.</span>
+									</div><!-- grid-col -->
+													
+								</div><!-- session ::sessionlist ran out --><!-- END SESSION TNXRNT-->
+
+		
+												    											
+						<div class="foot-cta">
+							For additional camp information and dates <strong>call us at <span class="phone">1-800-NIKE-CAMP</span></strong> we would be happy to help you.
+						</div>
+
+					</div><!-- camp-schedule -->
+					
+				</div><!-- container -->
+			</div><!-- contentarea -->
+
+				
+			
+			
+		<!-- ############### FOOTERS ############ -->
+						
+			
+		<!-- ######### @SPORTICONS ######### -->
+				<div class="sport--icons-wrap not-mobile">
+						<ul class="foot--icons sport--icons nav">
+						<li class="tab-baseball"><a href="/baseball/" title="Baseball" class="tooltip"><span class="icon-baseball"></span><strong>Baseball</strong></a></li>
+						
+							<li class="tab-basketball"><a href="/basketball/" title="Basketball" class="tooltip"><span class="icon-basketball"></span><strong>Basketball</strong></a></li>
+						
+							<li class="tab-crew"><a href="/crew/" title="Crew" class="tooltip"><span class="icon-crew"></span><strong>Crew</strong></a></li>
+						
+							<li class="tab-fieldhockey"><a href="/fieldhockey/" title="Field Hockey" class="tooltip"><span class="icon-fieldhockey"></span><strong>Field Hockey</strong></a></li>
+						
+							<li class="tab-football"><a href="/football/" title="Football" class="tooltip"><span class="icon-football"></span><strong>Football</strong></a></li>
+						
+							<li class="tab-golf"><a href="/golf/" title="Golf" class="tooltip"><span class="icon-golf"></span><strong>Golf</strong></a></li>
+						
+							<li class="tab-gymnastics"><a href="/gymnastics/" title="Gymnastics" class="tooltip"><span class="icon-gymnastics"></span><strong>Gymnastics</strong></a></li>
+						
+							<li class="tab-hockey"><a href="/hockey/" title="Hockey" class="tooltip"><span class="icon-hockey"></span><strong>Hockey</strong></a></li>
+						
+							<li class="tab-international"><a href="/international/" title="International" class="tooltip"><span class="icon-international"></span><strong>International</strong></a></li>
+						
+							<li class="tab-lacrosse"><a href="/lacrosse/" title="Lacrosse" class="tooltip"><span class="icon-lacrosse"></span><strong>Lacrosse</strong></a></li>
+						
+							<li class="tab-multisport"><a href="/multisport/" title="Multisport" class="tooltip"><span class="icon-multisport"></span><strong>Multisport</strong></a></li>
+						
+							<li class="tab-rugby"><a href="/rugby/" title="Rugby" class="tooltip"><span class="icon-rugby"></span><strong>Rugby</strong></a></li>
+						
+							<li class="tab-running"><a href="/running/" title="Running" class="tooltip"><span class="icon-running"></span><strong>Running</strong></a></li>
+						
+							<li class="tab-soccer"><a href="/soccer/" title="Soccer" class="tooltip"><span class="icon-soccer"></span><strong>Soccer</strong></a></li>
+						
+							<li class="tab-softball"><a href="/softball/" title="Softball" class="tooltip"><span class="icon-softball"></span><strong>Softball</strong></a></li>
+						
+							<li class="tab-swim"><a href="/swim/" title="Swim" class="tooltip"><span class="icon-swim"></span><strong>Swim</strong></a></li>
+						
+							<li class="tab-tennis"><a href="/tennis/" title="Tennis" class="tooltip active"><span class="icon-tennis"></span><strong>Tennis</strong></a></li>
+						
+							<li class="tab-ultimate"><a href="/ultimate/" title="Ultimate" class="tooltip"><span class="icon-ultimate"></span><strong>Ultimate</strong></a></li>
+						
+							<li class="tab-volleyball"><a href="/volleyball/" title="Volleyball" class="tooltip"><span class="icon-volleyball"></span><strong>Volleyball</strong></a></li>
+						
+							<li class="tab-waterpolo"><a href="/waterpolo/" title="Waterpolo" class="tooltip"><span class="icon-waterpolo"></span><strong>Waterpolo</strong></a></li>
+						
+							<li class="tab-yoga"><a href="/yoga/" title="Yoga" class="tooltip"><span class="icon-yoga"></span><strong>Yoga</strong></a></li>
+						</ul>
+				</div><!-- grid-col -->
+			
+			
+		<!-- ######### @SUBCONTENT ######### -->
+		
+			<!-- ######### @SUBCONTENT-news ######### -->	
+			
+				
+			<!-- ######### @SUBCONTENT-features ######### -->
+			 
+			<!-- ######### END @SUBCONTENT ######### -->
+			
+			<!-- ######### @AFFILIATES ######### -->
+			<div class="contentarea light-bg half-pad--top half-pad--bottom">
+				<div class="container constrain-width">
+					<div class="grid-wrap affiliates">
+						<div class="grid-col bp1-col-one-third affiliate-1"></div>
+						<div class="grid-col bp1-col-one-third affiliate-2"></div>
+						<div class="grid-col bp1-col-one-third affiliate-3"></div>
+					</div>
+				</div>
+			</div>
+				
+		<div class="push"></div>
+	</div><!-- wrapper -->
+</div><!-- outer-wrapper -->	
+		
+		<!-- ######### @FOOTER ######### -->
+		<div class="footer block">
+			<div class="container half-pad--bottom half-pad--top">
+				<div class="grid-wrap">
+					<div class="grid-col bp2-col-one-half">
+						<ul id='footNavMenu' class='footNav globalNav clearfix'>
+						   <li class="first"><a href="/">Homepage</a></li>
+						   <li class=""><a href="/about/">About</a></li>
+						   <li class=""><a href="/news/">News</a></li>
+						   <li class=""><a href="/faq/">FAQ</a></li>
+						   <li class=""><a href="/site/">Sitemap</a></li>
+						   <li class=""><a href="/privacy/">Privacy</a></li>
+						   <li class=""><a href="/terms/">Terms</a></li>
+						   <li class="last"><a href="/contact/">Contact</a></li>
+						</ul>  
+						<form id="search_form" method="post" action="http://www.ussportscamps.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="90" />
+<input type="hidden" name="RP" value="search/results" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+							<div class="grid-wrap quarter-gutter">
+								<div class="grid-col bp1-col-three-quarters quarter-pad--bottom">
+									<div id="cse-search-form"></div>
+									<input type="text" name="keywords" id="keywords" value="" class="text" autocomplete="off" placeholder="Enter keywords" />
+								</div>
+								<div class="grid-col bp1-col-one-quarter half-pad--bottom">
+									<button type="submit" class="mini-button">Search</button>
+								</div>
+							</div>
+						</form>
+					</div><!-- grid-col -->
+					<div class="grid-col bp2-col-one-half">
+						<div class="bp2-right">
+						
+							<ul class="countries footNav"> 
+					        	<li>
+									<a href="/intl/">
+									  <span class="french">French</span> 
+									  <span class="german">German</span> 
+									  <span class="italian">Italian</span> 
+									  <span class="chinese">Chinese</span> 
+									  <span class="tc">Traditional Chinese</span> 
+									  <span class="japanese">Japanese</span> 
+									  <span class="korean">Korean</span> 
+									  <span class="spanish">Spanish</span>
+									  <span class="portugese">Portuguese</span> 
+									</a>
+								</li>
+					        </ul>
+							<div id="VeriSignSeal" class="right">
+									<a href="http://www.ussportscamps.com/mycamps/"><img src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/gfx/verisign-seal.png" alt="Norton Secured by VeriSign" /></a>
+						    </div>
+								
+						</div>
+					</div><!-- grid-col -->
+					<div class="grid-col">
+						<div class="grid-wrap">
+							<div class="grid-col">
+								<p class="footCopy">&copy; 1996 - 2016 Copyright US Sports Camps.</p>
+								<p class="footCopy">All Rights Reserved. Nike and the Swoosh design are registered trademarks of Nike, Inc. and its affiliates, and are used under license.<br/>Nike is the title sponsor of the camps and has no control over the operation of the camps<br/>or the acts or omissions of US Sports Camps.</p>
+							</div>
+						</div><!-- grid-wrap -->
+					</div><!-- grid-col -->
+				</div><!-- grid-wrap -->
+			</div><!-- container -->
+		</div><!-- footer -->
+
+	<!-- ######### @SCRIPTS ######### -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/js/ussc.scripts.combined.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript" src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/js/vendor/g-search.js"></script>
+	<script src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/js/maptool/jquery.total-storage.js"></script><!-- total storage plug for storelocator_preload.js -->
+	<script src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/js/maptool/jquery.storelocator_preload.js"></script><!-- Loads the camp location file silently for later use by the map template -->
+		<script type="text/javascript">
+	        $(document).ready(function() {
+				$(".search_sport").change(function() {
+				var selected = $(this).children(":selected").val();
+				switch (selected) {
+				case "All":
+				$(".camp-finder").attr('action', '/maps');
+				break;
+				default:
+				$(".camp-finder").attr('action', '/'+(selected.replace(/\s/g, "_")).toLowerCase()+'/maps');
+				}
+				});
+	        });
+
+		$(document).ready(function($){
+		    $('#mgmenu1').universalMegaMenu({
+		        menu_effect: 'hover_fade',
+		        menu_speed_show: 300,
+		        menu_speed_hide: 200,
+		        menu_speed_delay: 200,
+		        menu_click_outside: true,
+		        menubar_trigger : false,
+		        menubar_hide : false,
+		        menu_responsive: true
+		    });
+		    // megaMenuContactForm(); 
+		});
+		</script>	
+		
+		<script type="text/javascript">
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster({
+		            maxWidth: 300,
+		            animation: 'fade',
+		            position: 'top',
+		            touchDevices: false,
+					trigger: 'hover'
+	            });	 				
+	        });
+			// Make sure anchor links are not hidden by the navbar
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+			&& location.hostname == this.hostname) {
+
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html,body').animate({
+					  scrollTop: target.offset().top - 65 //offsets for fixed header
+					}, 1000);
+					return false;
+				  }
+				}
+			  });
+			  //Executed on page load with URL containing an anchor tag.
+			  if($(location.href.split("#")[1])) {
+				  var target = $('#'+location.href.split("#")[1]);
+				  if (target.length) {
+					$('html,body').animate({
+					  scrollTop: target.offset().top - 65 //offset height of header here too.
+					}, 1000);
+					return false;
+				  }
+				}
+			});
+		</script>
+		
+			
+		
+			
+		<script type="text/javascript" src="http://media.ussportscamps.com/themes/site_themes/ussc_v2.0/js/vendor/jquery.magnific.popup.0.9.4.min.js"></script>
+		<script type="text/javascript">
+						$(document).ready(function() {
+		  					$('.galleryThumbs').magnificPopup({
+		  						delegate: 'a', // child items selector, by clicking on it popup will open
+		  						type: 'image',
+		  						gallery: {
+						            enabled: true,
+						            navigateByImgClick: true,
+						            preload: [2,2] // Will preload 0 - before current, and 1 after the current image
+						          },
+		  						callbacks: {
+								    buildControls: function() {
+								      // re-appends controls inside the main container
+								      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+								    }
+								},
+		  						image: {
+						            titleSrc: function(item) {
+									     return '<h3>' + item.el.find('img').attr('alt') + '</h3>' + item.el.attr('title');
+									},
+								    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+						        }
+							});
+							
+							$('.view-video').magnificPopup({
+						        disableOn: 700,
+						        type: 'iframe',
+						        mainClass: 'mfp-fade',
+						        removalDelay: 160,
+						        preloader: false,
+						        fixedContentPos: false
+						    });
+							$('.get-brochure').magnificPopup({
+						        disableOn: 700,
+						        type: 'iframe',
+						        mainClass: 'mfp-fade',
+						        removalDelay: 160,
+						        preloader: false,
+						        fixedContentPos: false
+						    });
+							
+						});				
+		</script>		
+		<script type="text/javascript">
+		$(document).ready(function(){
+		// Coach Bios + Details
+			  $(".fullbio").hide();
+			  $(".btn_fullbio").click(function(){$(this).toggleClass("active").next().slideToggle("slow");});
+			  $(".btn_fullbio").click(function () {$(this).removeAttr("href");});
+		// Special Details Button
+			  $('#moreDetails').click(function (e) {
+				  e.preventDefault();
+				  $('#primaryDetailsButton').toggleClass("active").next().slideToggle("slow");
+			  });
+		// Affiliates 
+			$( ".affiliate-1" ).append( "<a href='http://www.ussportscamps.com/parents/' target='_blank' rel='nofollow'><img src='http://media.ussportscamps.com/assets/programs/xpromos/promobox_parents.png' alt=''></a>" );
+			$( ".affiliate-2" ).append( "<a href='http://store.nike.com/us/en_us/pw/kids-tennis/7pxZ8r0?cp=usns_sportscamps_050115_tennis' target='_blank' rel='nofollow'><img src='http://media.ussportscamps.com/assets/programs/tennis/hat.png' alt=''></a>" );
+			$( ".affiliate-3" ).append( "<a href='http://www.ussportscamps.com/tips/' target='_blank' rel='nofollow'><img src='http://media.ussportscamps.com/assets/programs/xpromos/promobox_tips.png' alt=''></a>" );
+		// Camp Video URL
+			$("#camp-video-link" ).attr("href", "https://www.youtube.com/watch?v=kaLEDvk0A9A");
+		// Brochure URL
+			$("#camp-brochure-link" ).attr("href", "http://www.ussportscamps.com/components/brochure/university-of-north-texas-nike-tennis-camp");
+		});
+		</script> 
+		
+		
+    
+		
+		<script id="cartWidgetScript">
+            var __CartParams = {
+                targetSiteGuid  : 'eZsTuCRHDoo2hmMpluZvcy5AhQtsHv9GkWaLh3f03supFywaQHKoOtLIGNyeLico',       // required
+                hostSiteGuid    : 'IkKozURhdt6gapeBlDkzRjtCrjGWE9+L5vml0v63yXblrHUTcGbuxE6sbbLfProE',       // required
+                path            : ['//secure.ussportscamps.com', '/cartwidget', '/loadCart.js'],        // required
+                pxWidth         : '700',                                                                    // optional. default is 300px
+            }; 
+            (function() {
+                var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+                sc.src = __CartParams.path[0] + __CartParams.path[1] + __CartParams.path[2];
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+            })();
+        </script>
+		
+	<!-- 30 queries, 0.3656 seconds -->
+	
+</body>
+</html>
+
+ 
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ 
+
+ 
+    
+
+ 
+    
+    	
+    
+ 
+		
+				
+		
+
+    
+    

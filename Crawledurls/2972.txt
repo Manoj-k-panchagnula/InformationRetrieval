@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://endow.unt.edu/sites/all/themes/untfoundation/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/28" />
+<link rel="canonical" href="/ways-give" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Ways to Give | UNT Foundation</title>
+    <meta name="keywords" content="The University of North Texas Foundation, Inc. supports and enhances the educational mission of the University of North Texas by accepting, investing, and/or managing private gifts, endowed funds, and other assets for the benefit of the University and its students; and by supporting and encouraging philanthropic gifts to the University." />
+    <meta name="Title" content="UNT Foundation" />
+    <meta name="Description" content="UNT Foundation Website" />
+    <meta name="Author" content="University of North Texas Foundation" />
+    <meta name="Language" content="English" /> 
+  <style type="text/css" media="all">
+@import url("http://endow.unt.edu/modules/system/system.base.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/system/system.menus.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/system/system.messages.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/system/system.theme.css?nuj8t3");
+</style>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/modules/comment/comment.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/field/theme/field.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/node/node.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/search/search.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/user/user.css?nuj8t3");
+</style>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/style.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/wireframes.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/layout-fixed.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/page-backgrounds.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/tabs.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/pages.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/blocks.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/navigation.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/views-styles.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/nodes.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/comments.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/forms.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/fields.css?nuj8t3");
+</style>
+<style type="text/css" media="print">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/print.css?nuj8t3");
+</style>
+
+<!--[if lte IE 7]>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/ie7.css?nuj8t3");
+</style>
+<![endif]-->
+
+<!--[if lte IE 6]>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/ie6.css?nuj8t3");
+</style>
+<![endif]-->
+  <style type="text/css">
+	.video { /* Line 812 */ }
+  </style>
+         
+  <script type="text/javascript" src="http://endow.unt.edu/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://endow.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://endow.unt.edu/misc/drupal.js?nuj8t3"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js?nuj8t3"></script>
+<script type="text/javascript" src="http://endow.unt.edu/sites/all/themes/untfoundation/js/initiate.js?nuj8t3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"untfoundation","theme_token":"C-xudxAw1uUhWU_S_hvxRO37I31vp8igTQQMP10-PbU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.6.1\/jquery.min.js":1,"sites\/all\/themes\/untfoundation\/js\/initiate.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/themes\/untfoundation\/css\/style.css":1,"sites\/all\/themes\/untfoundation\/css\/wireframes.css":1,"sites\/all\/themes\/untfoundation\/css\/layout-fixed.css":1,"sites\/all\/themes\/untfoundation\/css\/page-backgrounds.css":1,"sites\/all\/themes\/untfoundation\/css\/tabs.css":1,"sites\/all\/themes\/untfoundation\/css\/pages.css":1,"sites\/all\/themes\/untfoundation\/css\/blocks.css":1,"sites\/all\/themes\/untfoundation\/css\/navigation.css":1,"sites\/all\/themes\/untfoundation\/css\/views-styles.css":1,"sites\/all\/themes\/untfoundation\/css\/nodes.css":1,"sites\/all\/themes\/untfoundation\/css\/comments.css":1,"sites\/all\/themes\/untfoundation\/css\/forms.css":1,"sites\/all\/themes\/untfoundation\/css\/fields.css":1,"sites\/all\/themes\/untfoundation\/css\/print.css":1,"sites\/all\/themes\/untfoundation\/css\/ie7.css":1,"sites\/all\/themes\/untfoundation\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/ways-give":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-28 node-type-page section-ways-give" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+
+<div id="webContainer">
+     <!-- this section contain the top portion of the web -->
+    	<div id="headerContainer">
+        	
+            <div id="header">
+            	
+                                  <div id="logo"><a href="/"><img src="http://endow.unt.edu/sites/all/themes/untfoundation/logo.png" alt="Home" /></a></div>
+                                 
+                
+                <div id="fieldContainer">
+                    <div id="btnHome"><a href="/"><img src="/sites/all/themes/untfoundation/images/btn-home.gif" alt="" /></a></div><!-- btn home -->
+                    <div id="search">
+                         
+    
+    <form action="/ways-give" method="post" id="search-block-form" accept-charset="UTF-8"><div>
+
+ 
+<div class="form-item form-type-textfield form-item-search-block-form">
+   <input title="Enter the terms you wish to search for." onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" alt="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="Search" size="40" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="image" id="edit-submit" name="submit" src="/sites/all/themes/untfoundation/images/btn-go.gif" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form--TOqpX3f-4lAl4rbewu0faUXqXfuwCo5CndFGMKBBCE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div></form> 
+  
+                    </div><!-- search -->
+                    <div id="website">
+                         
+    
+    <ul><li><a href="#">UNT Websites</a>
+<ul><li class="first"><a href="http://untsystem.unt.edu/" target="_blank">UNT System</a></li>
+<li><a href="http://www.unt.edu/" target="_blank">UNT Denton</a></li>
+<li><a href="http://www.unt.edu/unt-dallas/" target="_blank">UNT Dallas</a></li>
+<li><a href="http://www.hsc.unt.edu/" target="_blank">UNT Health Science Center</a></li>
+<li><a href=" http://www.ucddowntown.org/" target="_blank">Universities Center at Dallas</a></li>
+<li><a href="http://www.unt.edu/alumni-friends.htm" target="_blank">UNT Alumni Association</a></li>
+<li><a href="http://www.meangreensports.com/" target="_blank">UNT Athletics</a></li>
+<li class="last"><a href="https://giving.unt.edu/content/giving-unt" target="_blank">UNT Division of Advancement</a></li>
+</ul></li>
+</ul> 
+  
+                    </div><!-- website -->
+                    
+              
+                 
+            </div><!-- fieldContainer -->
+             <div id="headerButtonSet">
+               
+    
+    <ul><li>
+		<a class="contactus" href="contact-us">Contact Us</a></li>
+<li>
+		<a class="donatenow" href="https://giving.unt.edu/content/giving-unt" target="_blank">Donate Now</a></li>
+</ul> 
+  
+             </div><!-- header Button Set -->
+            
+            </div> <!-- /#header -->
+            
+			
+		            <div id="nav">
+    
+             
+    
+    <ul><li class="first expanded"><a href="/about-unt-foundation" title="Mission &amp;amp; Leadership">About UNTF<em>Mission &amp; Leadership</em></a><ul><li class="first leaf"><a href="/history-mission" title="&amp;nbsp;">History &amp; Mission<em>&nbsp;</em></a></li>
+<li class="leaf"><a href="/board-directors">Board of Directors</a></li>
+<li class="leaf"><a href="/executive-staff">Executive Staff</a></li>
+<li class="leaf"><a href="/overview-unt-foundation">An Overview of UNT Foundation</a></li>
+<li class="leaf"><a href="/unt-office-development">UNT Division of Advancement</a></li>
+<li class="last leaf"><a href="/affiliations">Affiliations</a></li>
+</ul></li>
+<li class="expanded"><a href="/resources" title="and Accountability">Structure<em>and Accountability</em></a><ul><li class="first leaf"><a href="/foundation-structure">Foundation Structure</a></li>
+<li class="leaf"><a href="/foundation-accountability">Foundation Accountability</a></li>
+<li class="leaf"><a href="/foundation-policies-procedures">Foundation Policies &amp; Procedures</a></li>
+<li class="last leaf"><a href="/how-establish-endowment">Foundation Endowments</a></li>
+</ul></li>
+<li class="expanded"><a href="/investing" title="Strategy &amp;amp; Performance">Investing<em>Strategy &amp; Performance</em></a><ul><li class="first leaf"><a href="/strategy-performance">Strategy &amp; Performance</a></li>
+<li class="last leaf"><a href="/about-our-fund-managers">About Our Fund Managers</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/70" title="News &amp; Events">Focus<em>News & Events</em></a></li>
+<li class="expanded active-trail"><a href="/giving-options" title="Methods &amp;amp; Designations" class="active-trail">Giving Options<em>Methods &amp; Designations</em></a><ul><li class="first leaf"><a href="/why-give-untf">Why Give to UNTF?</a></li>
+<li class="leaf active-trail"><a href="/ways-give" class="active-trail active">Ways to Give</a></li>
+<li class="last leaf"><a href="/designating-your-gift">Designating Your Gift</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/73" title="Emerald Eagle Honors">EEH<em>Emerald Eagle Honors</em></a></li>
+<li class="last leaf"><a href="https://untranet.unt.edu/foundation/SitePages/Home.aspx" title="Login">Board<em>Login</em></a></li>
+</ul> 
+  
+    
+          </div>
+		  			
+        
+        </div><!-- headerContainer --> 
+        
+        
+        <!-- this section container the mid section of the home page -->
+        <div id="midSectionBackpage">
+              
+              <div id="backpageContent">
+              
+                    
+                                                                         
+    
+    
+   <div id="leftColumn">
+		        <h1>Ways to Give</h1>
+                <em></em>
+        
+		
+    
+    </div><!-- left Column -->
+    
+  <div id="rightColumn">
+        <!-- section -->
+                <div class="imgHolder">
+
+          <img typeof="foaf:Image" src="http://endow.unt.edu/sites/default/files/iStock_000000297448Small.jpg" width="600" height="300" alt="" />    
+
+</div>
+        		
+
+          <h3><span style="font-size: 1.17em;">Annual Fund Gifts</span></h3>
+<p>Annual Giving is the foundation for private support in higher education. Most UNT donors support the University through renewable, annual gifts.</p>
+<p>Private support is critical because a significant gap exists between state funded support and the cost of providing a quality education. UNT alumni and friends help make up the difference through their annual, tax-deductible gifts to scholarships, programs, learning resources, and athletics. These collective acts of generosity help ensure that a UNT education remains affordable and within reach for our students.</p>
+<h3>Endowment Gifts</h3>
+<p>Endowed gifts are major gifts that create a permanent legacy which will impact generations of UNT students. Funded in perpetuity, an endowed gift ensures the long-term success of the University. Contributions can be designated to scholarships, professorships, departmental chairs, and University centers and programs. Donors may choose to contribute to an existing endowment or create a new one.</p>
+<h3>Matching Gifts</h3>
+<p>Many employers sponsor matching gift programs and will match any charitable contributions made by their employees.</p>
+<p>If your company is eligible, request a matching gift form from your employer. Then send it, completed and signed, with your gift. We will do the rest. The impact of your gift to this organization may be doubled or possibly tripled! Some companies will even match gifts made by retirees and/or spouses.</p>
+<h3>Planned/Estate Gifts</h3>
+<p><a href="http://www.plannedgiving.unt.edu/" target="_blank">Planned giving</a>, sometimes referred to as gift planning, may be defined as a method of supporting nonprofits and charities that enables philanthropic individuals or donors to make larger gifts than they could make from their income. While some planned gifts provide a life-long income to the donor, others use estate and tax planning techniques to provide for charity and other heirs in ways that maximize the gift and/or minimize its impact on the donor's estate.</p>
+<p>Thus, by definition, a planned gift is any major gift made in lifetime or at death as part of a donor’s overall financial and/or estate planning.</p>
+<p><a href="https://endow.unt.edu/sites/default/files/Planned%20Giving%20Opportunities.pdf" target="_blank" class="button"><span>Planned Giving Opportunities</span></a></p>
+<h3>Cash Gifts</h3>
+<p>Cash gifts are the most common and popular means of supporting the Foundation. Making a cash gift is quick and easy, and it helps provide needed funds immediately. You can make a gift online through our secure page. Or you can make checks payable to the University of North Texas Foundation. Indicate on the memo line the specific program you wish to support (for example: scholarships, endowed chairs, etc.). If no program is specified, your gift will support the UNT Inspire Fund.</p>
+<div class="extend">
+<p>We provide the convenience of fulfilling a commitment over a period of time through multiple credit card payments or automatic preauthorized withdrawals from your checking account (ACH). Please call the UNT Development Office at 940-565-2900 to arrange multiple credit card payments.</p>
+<p>If you would like to wire your gift to the Foundation, please use (or have your banker use) the following information:</p>
+<p><strong>Wiring Cash Gifts* </strong><br /><strong>To:</strong> Wells Fargo<br /><strong>ABA:</strong> 121000248<br /><strong>DDA Account:</strong> 5690433342<br /><strong>Account Name:</strong> UNT Foundation, Inc.<br /><strong>FBO:</strong> (Insert instructional information such as endowment account name here)</p>
+<p>*To ensure proper handling of cash deposits, please contact Wesley Davis at <a href="mailto:wesley.davis@unt.edu">wesley.davis@unt.edu</a>, or call 940-565-4555 prior to initiating any wire transactions.</p>
+<h3>Gifts of Securities</h3>
+<p>Consider investing in the The University of North Texas Foundation. Your gift of securities, especially appreciated stock, offers two tax-smart advantages—a charitable income tax deduction and the elimination of a capital gains tax. There are three ways to transfer securities to the Foundation: electronic transfer, U.S. Postal Service, or hand delivery.</p>
+<h3>U.S. Postal Service and Hand Delivery of Certificates</h3>
+<p>You (or the registered certificate holder) should complete the back of the certificate(s), assigning the appropriate number of shares to the The University of North Texas Foundation. Place the unendorsed certificate(s) and a cover letter (including your name, address, and purpose of the gift) in one envelope. In a second envelope, place a signed, signature guaranteed, Stock Power Form (you can obtain one from your broker or local bank). The Stock Power Form must be signed, but do not complete the form.</p>
+<p>Send the two envelopes using registered mail or drop them by the Foundation’s office. We’d enjoy meeting you and will provide you with a receipt for the securities.</p>
+<p><strong>The Foundation’s MAILING (different from physical address) is:</strong><br />UNT Foundation<br />1155 Union Circle, #311250<br />Denton, TX 76203-5017</p>
+<p><strong>The Foundation’s PHYSICAL address for delivery is:</strong><br />UNT Foundation<br />801 North Texas Blvd., Suite 149<br />Denton, TX 76203</p>
+<p>For tax purposes, the date of the gift is the date on which the Foundation assumes complete control of the securities. For securities sent through the mail, the gift date is the postmark date on the envelope. For hand-delivered and non-U.S. Postal Service, the credit date is the date received. For securities held in an account, it is the day it was transferred into our account. The donor receives a full credit of the mean value of the stock on the gift date. The Foundation’s policy is to sell the securities as soon as possible and apply the funds to the purpose specified by you.</p>
+<h3>Make a Gift of Stock</h3>
+<p>Donors transfer ownership of their securities to the University of North Texas Foundation, Inc. to create endowments or current project support at the University. By transferring publicly traded stock to the Foundation, donors bypass all capital gains and receive a charitable deduction for the average of the high and low values of the security on the date of transfer.</p>
+<p>If you make a gift of stock, please notify Wesley Davis, UNT Foundation Controller, at <a href="mailto:wesley.davis@unt.edu">wesley.davis@unt.edu</a> and provide the following information:</p>
+<ul><li>Your name and address (for processing and receipting purposes)</li>
+<li>Contact number where you can be reached</li>
+<li>Stock name and number of shares</li>
+<li>Purpose of gift - program designation to be credited for the gift</li>
+</ul><p><strong>How a Donor Makes a Gift of Stock Held in "Street Name" at Their Brokerage</strong></p>
+<ul><li>Donors instruct their broker to electronically transfer ("DTC") whole or fractional shares to the Foundation's account at Deutsche Bank Alex Brown, Dallas, TX: DTC number 443, "FBO UNT Foundation, Inc." using account number 5XJ022403.</li>
+<li>Donors receive confirmation of the transfer from their broker, and an official receipt from the University of North Texas for the value of the gift.</li>
+</ul><p>Contacts:<br />Executive Director<br />UNT Foundation (940) 565-4555</p>
+<p>Doug Wall, Deutsche Bank Alex Brown, Dallas, Texas<br />Broker for the UNT Foundation, Inc.<br />(214) 740-7731, (866) 930-7731</p>
+<p><strong>How a Donor Makes a Gift of Stock over the Internet</strong></p>
+<ul><li>Donors contact the UNT Foundation for its Charles Schwab account number (8991 7527), and the Charles Schwab DTC number (0164) and code (40).</li>
+<li>Donor implements electronic transfer instructions using their brokerage house website.</li>
+<li>Donors receive confirmation of the transfer from their brokerage account, and an official receipt from the University of North Texas for the value of the gift.</li>
+</ul><p><strong>How a Donor Makes a Gift of Stock Certificate(s) That They Are Holding</strong></p>
+<p><em>In Person: </em></p>
+<ul><li>Donors obtain from their broker or the UNT Foundation office a Third Party Release (TPR) and a Stock Power Form for each certificate gifted.</li>
+<li>Donors bring (a) the completed and signed TPR and Stock Power Form, and (b) their unsigned certificate(s) to the UNT Foundation office.</li>
+</ul><p><em>If Mailed: </em></p>
+<ul><li>Donors obtain from their broker or the UNT Foundation office a Third Party Release (TPR) and a Stock Power Form for each certificate gifted.</li>
+<li>Donors send the signed TPR and Stock Power Form to the UNT Foundation office.</li>
+<li><span style="text-decoration: underline;">Under separate cover</span>, donors send their <span style="text-decoration: underline;">unsigned</span> certificate(s) to the UNT Foundation office.</li>
+</ul><p>Donors will receive confirmation of the transfer from the UNT Foundation, and an official receipt from the University of North Texas for the value of the gift.</p>
+<p>The Foundation uses the IRS prescribed method for calculating the value of a stock gift.</p>
+<p>"The value of stocks and bonds is the FMV of a share or bond on the valuation date." (IRS Publication 561)</p>
+<p>"If there is an active market for the contributed stocks or bonds on a stock exchange, in an over-the-counter market, or elsewhere, the FMV of each share or bond is the average price between the highest and lowest quoted selling price on the valuation date.  For example, if the highest selling price for a share was $11, and the lowest $9, the average price is $10.  You get the average price by adding $11 and $9 and dividing the sum by 2." (IRS Publication 561)</p>
+<p>For more information on valuations of Stocks and Bonds, see IRS Publication 561 by <a href="http://www.irs.gov/pub/irs-pdf/p561.pdf">clicking here</a>.</p>
+<h3>Gifts of Capital Assets</h3>
+<p>It may be to your financial advantage to give a gift of capital assets. Capital assets include real estate, art collections, insurance policies, antiques, jewelry, stamp/coin collections, etc. The advantage of a capital assets gift depends on your circumstances. For example, your estate assets may be distributed over your lifetime in order to reduce future estate taxes.</p>
+<h3>Charitable Gift Annuity</h3>
+<p>A charitable gift annuity is a great way to support the University while providing you with a quarterly income, a charitable income tax deduction, and professional investment management. A charitable gift annuity allows you to donate assets to the Foundation in exchange for a guaranteed payment for tax purposes as a combination of non-taxable income, capital gains income, and ordinary income.</p>
+<h3>Charitable Lead Trust</h3>
+<p>A charitable lead trust is a managed trust that enables you to transfer assets to your heirs at reduced gift and estate tax costs, and transfer the full appreciated value of assets to beneficiaries with no further gift and estate tax at the termination of the trust. A charitable lead trust pays an annuity or a fixed percentage of the assets to the The University of North Texas Foundation for a specified number of years. At the end of this period, the assets are passed on to the beneficiaries named by the donor.</p>
+<h3>Life Insurance</h3>
+<p>You may name the Foundation as an irrevocable primary or contingent beneficiary (should the primary not survive you) of a new or fully paid life insurance policy. The policy’s cash value at the time of donation is deductible as a charitable contribution. You may also continue paying the premiums after donating a policy, in which case the premiums are tax deductible as well.</p>
+<h3>Bequests</h3>
+<p>Bequests often establish a named gift fund (scholarship, memorial fund, etc.) honoring the memory of yourself or a loved one while assisting the University with its programs in an area of your choosing. In addition to leaving a legacy at the University, naming the Foundation as a beneficiary (or contingent beneficiary) in your will (or your spouse’s will) can reduce the amount of federal estate tax your heirs are assessed.</p>
+</div>
+<p><a href="#" class="button moreInfo"><span>More Ways to Give</span></a></p>
+    
+
+ 
+  </div><!-- right Column --> 
+  
+                    
+                    
+              </div><!-- Backpage contentArea -->
+        </div><!-- midSectionBackpage -->   
+        
+        
+        
+         <div id="footerWrap">
+	
+          <div id="footer">
+          	            <div id="connect">
+				 
+    
+    <ul><li>
+		<a class="facebook" href="https://www.facebook.com/UniversityOfNorthTexasFoundation" target="_blank">Facebook</a></li>
+<li>
+		<a class="twitter" href="http://twitter.com/#!/untnews">Twitter</a></li>
+<li>
+		<a class="linkedin" href="http://social.unt.edu/">Linkedin</a></li>
+</ul> 
+  
+            </div><!-- connect -->
+                        <div id="contactInfo">
+            	 
+    
+    <ul><li>
+		Office
+<ul><li>
+				Gateway Center</li>
+<li>
+				Room 149</li>
+<li>
+				801 North Texas Blvd.</li>
+</ul></li>
+<li>
+		Mailing Address
+<ul><li>
+				1155 Union Circle #311250</li>
+<li>
+				Denton, Texas 76203-5017</li>
+</ul></li>
+<li>
+		Phone
+<ul><li>
+				Office: (940) 565-4555</li>
+<li>
+				Fax: (940) 369-7111</li>
+</ul></li>
+</ul> 
+  
+            </div><!-- contactInfo -->
+                       <div id="footerButtonSet">
+            	 
+     
+    
+    <ul><li>
+		<a class="contactus" href="contact-us">Contact Us</a></li>
+<li>
+		<a class="donatenow" href="https://giving.unt.edu/content/giving-unt" target="_blank">Donate Now</a></li>
+</ul> 
+  
+  
+                
+                 
+                
+            </div><!-- contactInfo -->
+                        
+            
+          </div> <!-- /#footer -->
+    
+             <div class="extendContent">
+                        <div class="left"></div>
+                        <div id="footerInfo">
+                           							 
+     
+    
+    <ul><li class="first expanded"><a href="/about-unt-foundation" title="Mission &amp;amp; Leadership">About UNTF<em>Mission &amp; Leadership</em></a><ul><li class="first leaf"><a href="/history-mission" title="&amp;nbsp;">History &amp; Mission<em>&nbsp;</em></a></li>
+<li class="leaf"><a href="/board-directors">Board of Directors</a></li>
+<li class="leaf"><a href="/executive-staff">Executive Staff</a></li>
+<li class="leaf"><a href="/overview-unt-foundation">An Overview of UNT Foundation</a></li>
+<li class="leaf"><a href="/unt-office-development">UNT Division of Advancement</a></li>
+<li class="last leaf"><a href="/affiliations">Affiliations</a></li>
+</ul></li>
+<li class="expanded"><a href="/resources" title="and Accountability">Structure<em>and Accountability</em></a><ul><li class="first leaf"><a href="/foundation-structure">Foundation Structure</a></li>
+<li class="leaf"><a href="/foundation-accountability">Foundation Accountability</a></li>
+<li class="leaf"><a href="/foundation-policies-procedures">Foundation Policies &amp; Procedures</a></li>
+<li class="last leaf"><a href="/how-establish-endowment">Foundation Endowments</a></li>
+</ul></li>
+<li class="expanded"><a href="/investing" title="Strategy &amp;amp; Performance">Investing<em>Strategy &amp; Performance</em></a><ul><li class="first leaf"><a href="/strategy-performance">Strategy &amp; Performance</a></li>
+<li class="last leaf"><a href="/about-our-fund-managers">About Our Fund Managers</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/70" title="News &amp; Events">Focus<em>News & Events</em></a></li>
+<li class="expanded active-trail"><a href="/giving-options" title="Methods &amp;amp; Designations" class="active-trail">Giving Options<em>Methods &amp; Designations</em></a><ul><li class="first leaf"><a href="/why-give-untf">Why Give to UNTF?</a></li>
+<li class="leaf active-trail"><a href="/ways-give" class="active-trail active">Ways to Give</a></li>
+<li class="last leaf"><a href="/designating-your-gift">Designating Your Gift</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/73" title="Emerald Eagle Honors">EEH<em>Emerald Eagle Honors</em></a></li>
+<li class="last leaf"><a href="https://untranet.unt.edu/foundation/SitePages/Home.aspx" title="Login">Board<em>Login</em></a></li>
+</ul> 
+  
+  
+                                                  
+                        </div><!-- footer Area -->
+                        <div class="right"></div>
+                    </div><!-- mid Content -->
+                    
+                                    	<div id="policy">
+					 
+    
+    <p>
+	© Copyright 2011 - UNT Foundation - All Rights Reserved, <a href="privacy-statement">Privacy Policy</a></p>
+ 
+  
+                    </div>
+                    
+                  
+         </div><!-- footerWrapSection -->      
+
+        
+        
+        
+</div><!-- webContainer -->        
+
+
+
+  </body>
+</html>

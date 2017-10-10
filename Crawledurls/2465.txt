@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Address Change Form - UNT</title>
+<link href="../givenow/OnlineGiving.css" rel="stylesheet" type="text/css" />
+<link href="update.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="iehacks.css" />
+  <![endif]-->
+
+<script language="JavaScript" type="text/JavaScript" src="../givenow/OnlineGiving.js"></script>
+<script language="JavaScript" type="text/JavaScript" src="showHideDiv.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  
+  if(!d) 
+  	d=document; 
+  if((p=n.indexOf("?"))>0&&parent.frames.length) 
+  {
+    d=parent.frames[n.substring(p+1)].document; 
+    n=n.substring(0,p);
+  }
+  if(!(x=d[n])&&d.all) 
+  	x=d.all[n]; 
+  for (i=0;!x&&i<d.forms.length;i++) 
+  	x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) 
+  	x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) 
+  	x=d.getElementById(n); 
+  return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  { 
+  	test=args[i+2]; 
+	val=MM_findObj(args[i]);
+    	if (val) 
+	{ 
+		nm=val.id; 
+		nm=args[i+1]; 
+		if ((val=val.value)!="") 
+		{
+      			if (test.indexOf('isEmail')!=-1) 
+			{ 
+				p=val.indexOf('@');
+        			if (p<1 || p==(val.length-1)) 
+					errors+='- '+nm+' must contain an e-mail address.\n';
+      				} else if (test!='R') 
+				{ 
+					num = parseFloat(val);
+        				if (isNaN(val)) 
+						errors+='- '+nm+' must contain a number.\n';
+        				if (test.indexOf('inRange') != -1) 
+					{ 
+							p=test.indexOf(':');
+          						min=test.substring(8,p); 
+							max=test.substring(p+1);
+          						if (num<min || max<num) 
+								errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    					} 
+				} 
+			}else if (test.charAt(0) == 'R') 
+				errors += '- '+nm+' is required.\n'; 
+		}
+  	} 
+	if (errors) 
+		alert('The following information is missing or incomplete. Please correct and resubmit the form.\n'+errors);
+  	document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+</head>
+<body>
+	<div id="container">
+	<div id="banner">
+      <h1>Address Change Form</h1>
+      <h2>Stay connected with UNT</h2>
+      <img src="../images/gradient-banner_01.jpg" width="160" height="125" border="0" usemap="#Map" style="margin-left:220px;"/>
+		<map name="Map" id="Map"><area shape="rect" coords="0,30,165,125" href="http://www.unt.edu" alt="UNT home page" />
+		</map>
+	<!--end banner--></div>
+    <div id="nav">
+		<a href="http://www.unt.edu/development">Development Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="http://www.unt.edu">UNT Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	  	<a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a>
+    </div><!--nav-->
+    <div id="instruct">
+    	<div class="column">
+    		<h2>Thank you for updating your information!</h2>
+			<p><span class="bullet">&#8226;</span>&nbsp;&nbsp;Please complete your name, home address, phone and e-mail address. Also provide any other information that we may not have in our records. Click the Submit button to send your update.</p>
+        	<p><span class="bullet">&#8226;</span>&nbsp;&nbsp;To send your changes by mail, please download the <a href="../update.pdf">update form</a>.</p><br />
+    	<!-- end class column --></div>
+		<div class="columnLast">
+    		<h2>Questions?</h2>
+    		<p>Information Systems and Processing<br />
+            Office of Development<br />
+    		University of North Texas<br />
+    		1155 Union Circle #311250<br />
+    		Denton, TX 76203-5017</p>
+    		<p>(940) 369-8200<br />
+    		(800) 868-1153<br />
+    		(940) 565-4519 Fax</p>
+    		<p><a href="mailto:alumnirecords@unt.edu">alumnirecords@unt.edu</a></p>
+    	<!--end class columnLast --></div>
+	<!--instruct--></div>
+
+<form name="biographical update form" method="post" action="../givenow/action_2.php" 
+onsubmit="MM_validateForm('donor_first_name','First Name','R','donor_last_name','Last Name','R','home_add','Home Address line 1','R','home_city','Home City','R','home_state','Home State','R','home_zip','Home Zip','R','home_phone','Home Phone','R','primary_email','E-Mail Address','R','NisEmail');return document.MM_returnValue">
+	
+    <p class="first">Items marked with an asterisk (*) are required fields</p><br />
+	<div class="section">
+		<fieldset>
+			<legend>Name</legend>
+				<label for="donor_first_name">First Name&nbsp;*</label>
+				<input type="text" id="donor_first_name" name="donor_first_name" /><br />
+				<label for="donor_middle_name">Middle Name</label>
+				<input type="text" id="donor_middle_name" name="donor_middle_name" /><br />
+				<label for="donor_last_name" >Last Name&nbsp;*</label>
+				<input type="text" id="donor_last_name" name="donor_last_name" /><br />
+				<label for="donor_maiden_name">Maiden Name</label>
+				<input type="text" id="donor_maiden_name" name="donor_maiden_name" /><br />
+		<p class="small">If you had a different name as a UNT student, tell us your <strong><a href="javascript:sizeDivOne('block')">former name</a></strong>.</p>
+        </fieldset>
+    <!-- end section --></div>
+    <div id="formerName" name="formerName" style="overflow:hidden;display:none;">
+		<fieldset>
+			<legend>Former Name <span class="small2"><a href="javascript:sizeDivOne('none')">Close this section</a></span></legend>
+				<label for="unt_last_name" >Full name if different<br /> as a UNT student:</label>
+				<input type="text" id="unt_last_name" name="unt_last_name" />
+  		</fieldset>
+    <!--end #formerName --></div>
+    <div class="section">
+	 	<fieldset>
+			<legend>Home Address</legend>
+					<label for="home_add">Address Line 1&nbsp;*</label>
+					<input type="text" id="home_add" name="home_add" /><br />
+					<label for="home_apt">Address Line 2</label>
+					<input type="text" id="home_apt" name="home_apt" value="APT, FLR, STE" onclick="clearField(this,'APT, FLR, STE');"/><br />
+					<label for="home_city">City&nbsp;*</label>
+					<input type="text" id="home_city" name="home_city" /><br />
+					<label for="home_state" >State/Province&nbsp;*</label>
+					<input type="text" id="home_state" name="home_state" /><br />
+					<label for="home_zip">Zip/Postal Code&nbsp;*</label>
+					<input type="text" id="home_zip" name="home_zip" /><br />
+					<label for="home_country">Country</label>
+					<input type="text" id="home_country" name="home_country" value="USA" /><br />
+					<label for="home_phone">Phone&nbsp;*</label>
+					<input type="text" id="home_phone" name="home_phone" /><br />
+					<input type="radio" id="mailing_add" name="mailing_add" class="radio" value="2" checked/>
+					<label for="mailing_add" id="mailing_add_label" class="wide">My home address is my preferred mailing address.<span style="font-size:.9em;"> <em>(If your business address is preferred, please mark below)</em></span></label><br />
+                    <p class="small">If this is a new address we may not have in our records, tell us your <strong><a href="javascript:sizeDivTwo('block')">previous address</a></strong>.</p>
+	  </fieldset>
+	 <!--end section--></div>
+     <div id="previousAddr" style="overflow:hidden;display:none">
+	 	<fieldset>
+			<legend>Previous Address <span class="small2"><a href="javascript:sizeDivTwo('none')">Close this section</a></span></legend>
+				<label for="prev_add" class="indent">Address Line 1</label>
+					<input type="text" id="prev_add" name="notify_add" /><br />
+					<label for="prev_apt" class="indent">Address Line 2</label>
+					<input type="text" id="prev_apt" name="notify_apt" value="APT, FLR, STE" onclick="clearField(this,'APT, FLR, STE');" /><br />
+					<label for="prev_city" class="indent">City</label>
+					<input type="text" id="prev_city" name="notify_city" /><br />
+					<label for="prev_state" class="indent">State/Province</label>
+					<input type="text" id="prev_state" name="notify_state" /><br />
+					<label for="prev_zip" class="indent">Zip/Postal Code</label>
+					<input type="text" id="prev_zip" name="notify_zip" /><br />
+					<label for="prev_country" class="indent">Country</label>
+					<input type="text" id="prev_country" name="notify_country" value="USA" /><br />
+				</fieldset>	
+     <!--end #previousAddr --></div>
+     <div class="section">
+	 	<fieldset>
+			<legend>Email</legend>
+				<label for="primary_email">Email Address&nbsp;*</label>
+  		      	<input type="text" id="primary_email" name="primary_email" />
+  		</fieldset>
+	 <!--end section--></div>
+	 <div class="section">
+	 	<fieldset>
+			<legend>Business Address</legend>
+				<label for="bus_name">Company Name</label>
+				<input type="text" id="bus_name" name="bus_name"/><br />
+				<label for="bus_title">Position/Title</label>
+				<input type="text" id="bus_title" name="bus_title"/><br />
+				<label for="bus_add">Address Line 1</label>
+					<input type="text" id="bus_add" name="bus_add" /><br />
+					<label for="bus_suite">Address Line 2</label>
+					<input type="text" id="bus_suite" name="bus_suite" value="APT, FLR, STE" onclick="clearField(this,'APT, FLR, STE');"/><br />
+					<label for="bus_city">City</label>
+					<input type="text" id="bus_city" name="bus_city" />
+					<br />
+					<label for="bus_state">State/Province</label>
+					<input type="text" id="bus_state" name="bus_state" /><br />
+					<label for="bus_zip">Zip/Postal Code</label>
+					<input type="text" id="bus_zip" name="bus_zip" /><br />
+					<label for="bus_country">Country</label>
+					<input type="text" id="bus_country" name="bus_country" value="USA" /><br />
+					<label for="bus_phone">Phone</label>
+					<input type="text" id="bus_phone" name="bus_phone" /><br />
+					<input type="radio" id="mailing_add" name="mailing_add" class="radio" value="1"/>
+					<label for="mailing_add" id="mailing_add_label" class="wide">My business address is my preferred mailing address.			</label>
+		</fieldset>
+	 <!--end section--></div>
+	 <div class="section">
+	 	<fieldset>
+			<legend>Spouse/Partner Information</legend>
+				<label for="marital_status">Marital Status</label>
+				<select name="marital_status" id="marital_status">
+					<option value="select">&#8212;Select&#8212;</option>
+					<option value="single">Single</option>
+					<option value="married">Married</option>
+					<option value="divorced">Divorced</option>
+					<option value="widowed">Widowed</option>
+					<option value="partner">Partner</option>
+				</select><br />
+				<label for="spouse_name" id="spouse_name_label">Spouse/partner's name:</label>
+				<input type="text" id="spouse_name" name="joint_full_name" onclick="clearField(this,'Spouse/Partner full name');"/><br />
+				<input type="checkbox" id="unt_alum" name="unt_alum_spouse" value="checked" class="checkbox"/>
+				<label for="unt_alum" id="unt_alum_label">He/she is a UNT alum.</label>
+				<br />
+				<label for="spouse_unt_name" id="spouse_unt_name_label" class="size2">Spouse's full name while at UNT if different from above:</label>
+				<input type="text" id="spouse_unt_name" name="spouse_unt_name" onclick="clearField(this,'full name');"/>
+		</fieldset>
+	 <!-- end section--></div>
+	<div class="section">
+		<fieldset>
+			<legend>Additional Information</legend>
+				<label for="other_comments">Add any additional information:</label>
+				<textarea id="other_comments" name="other_comments" cols="5" rows="3"/></textarea>
+        <input type="hidden" name="input_type" value="update">
+        <input type="hidden" name="gift_type" value="99">
+        <input type="hidden" name="redirect_url" value="https://development.unt.edu/update/thanks.html">
+		</fieldset>
+	 <!--end section--></div>
+     <div class="sectionLast"> 			<script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LcjW9USAAAAAFdKBiqQgi4GlHv16GlC18kO2fST"></script>
+
+	<noscript>
+  		<iframe src="https://www.google.com/recaptcha/api/noscript?k=6LcjW9USAAAAAFdKBiqQgi4GlHv16GlC18kO2fST" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript>	
+			<input type="submit" id="submit" value="Submit form" class="submit" >
+			<input type="reset" id="submit2" name="reset"  value="Reset form" class="reset" />
+	<!-- end sectionLast --></div>	
+  </form>
+  <div id="footer">
+  <p>Division of Advancement | 1155 Union Circle #311250 | Denton, TX 76203-5017<br />
+940.565.2900 | Toll free 800.868.1153 | <a href="mailto:alumnirecords@unt.edu">alumnirecords@unt.edu</a><br />
+Page updated: July 7, 2011</p>
+  <!--end #footer --></div>
+<!--container--></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1958654-3");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="//commencement.unt.edu/sites/all/themes/greenlight_sub/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="/faqs-spring" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/18" />
+  <title>FAQs | Commencement</title>  
+  <style type="text/css" media="all">
+@import url("//commencement.unt.edu/modules/system/system.base.css?o6nobc");
+@import url("//commencement.unt.edu/modules/system/system.menus.css?o6nobc");
+@import url("//commencement.unt.edu/modules/system/system.messages.css?o6nobc");
+@import url("//commencement.unt.edu/modules/system/system.theme.css?o6nobc");
+</style>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_user/ldap_user.css?o6nobc");
+@import url("//commencement.unt.edu/modules/comment/comment.css?o6nobc");
+@import url("//commencement.unt.edu/modules/field/theme/field.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/modules/fitvids/fitvids.css?o6nobc");
+@import url("//commencement.unt.edu/modules/node/node.css?o6nobc");
+@import url("//commencement.unt.edu/modules/search/search.css?o6nobc");
+@import url("//commencement.unt.edu/modules/user/user.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/views/css/views.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/caption-filter.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ckeditor/css/ckeditor.css?o6nobc");
+</style>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/colorbox/styles/default/colorbox_style.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ctools/css/ctools.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_servers/ldap_servers.admin.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/panels/css/panels.css?o6nobc");
+</style>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-reset.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-mobile.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-alpha.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/formalize.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-text.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-branding.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-menu.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-forms.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-visuals.css?o6nobc");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:regular|Open+Sans:300,700&amp;subset=latin" media="all" />
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/global.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/global-sub.css?o6nobc");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o6nobc");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/fluid/alpha-default-fluid-12.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-narrow.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-narrow.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?o6nobc");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o6nobc");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-wide.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-wide.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?o6nobc");
+</style>
+<!--<![endif]-->
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="//commencement.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="//commencement.unt.edu/misc/drupal.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/sites/all/libraries/fitvids/jquery.fitvids.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/sites/all/modules/fitvids/fitvids.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/js/caption-filter.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/libraries/colorbox/jquery.colorbox-min.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/colorbox/js/colorbox.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/colorbox/styles/default/colorbox_style.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/themes/greenlight/js/wdc-drupal7.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/jquery.formalize.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/omega-mediaqueries.js?o6nobc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight_sub","theme_token":"jDee_dSuh-8DWS3reyCgiKGpC9um2lY5PL8laPLDITY","js":{"profiles\/cws_d7\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"profiles\/cws_d7\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/cws_d7\/themes\/greenlight\/js\/wdc-drupal7.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cws_d7\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/cws_d7\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/cws_d7\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"profiles\/cws_d7\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Montserrat:regular|Open+Sans:300,700\u0026subset=latin":1,"profiles\/cws_d7\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight_sub\/css\/global-sub.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"ie::normal::profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"fluid::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"fluid::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/fluid\/alpha-default-fluid-12.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-narrow.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-narrow.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-wide.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-wide.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"urlIsAjaxTrusted":{"\/faqs-spring":true},"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-18 node-type-page context-faqs-spring">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <span></span>
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">
+			<p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="https://webassets.unt.edu/theme/greenlight-d7/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+						<li id="li-mo-home" class="first"><a href="/"><span>Home</span></a></li>
+						
+						<!--<li id="li-mo-quicklinks" class="menu-toggler"><span>Quicklinks »</span>
+						  <ul class="mo-quicklinks toggler-submenu mo-hide">
+						  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+								<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+								<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+								<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+								<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+								<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+								<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+							</ul>
+						</li>-->
+
+						<li id="li-mo-main-menu" class="menu-toggler active"><span>Main menu &raquo;</span>
+<ul class="mo-main-menu toggler-submenu mo-hide" style="display: block"><li><a href="http://commencement.unt.edu/celebrating-accomplishments-unt-graduates">Home</a></li>
+<li id="" class="menu-toggler li-submenu-toggler"><span>Spring Commencement &raquo;</span>
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://commencement.unt.edu/spring-commencement-overview">Spring Commencement</a></li>
+<li><a href="http://commencement.unt.edu/information-spring-graduates">Information for Graduates</a></li>
+<li><a href="http://commencement.unt.edu/information-guests-spring">Information for Guests</a></li>
+<li><a href="http://commencement.unt.edu/faqs-spring">FAQs</a></li>
+<li><a href="http://commencement.unt.edu/spring-schedule">Schedule</a></li>
+<li><a href="http://commencement.unt.edu/speaker-spring">Commencement Speaker</a></li>
+<li><a href="http://commencement.unt.edu/parking-spring">Parking and Transportation</a></li>
+</ul>
+</li>
+<li id="" class="menu-toggler li-submenu-toggler"><span>Fall Commencement &raquo;</span>
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://commencement.unt.edu/fall-commencement-overview">Fall Commencement</a></li>
+<li><a href="http://commencement.unt.edu/information-fall-grads">Information for Graduates</a></li>
+<li><a href="http://commencement.unt.edu/information-guest-fall">Information for Guests</a></li>
+<li><a href="http://commencement.unt.edu/faqs-fall">FAQs</a></li>
+<li><a href="http://commencement.unt.edu/fall-schedule">Schedule</a></li>
+</ul>
+</li>
+<li><a href="http://commencement.unt.edu/regalia-overview">Regalia</a></li>
+<li id="" class="menu-toggler li-submenu-toggler"><span>Directions &raquo;</span>
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://commencement.unt.edu/directions-unt">Directions</a></li>
+<li><a href="http://commencement.unt.edu/maps">Maps</a></li>
+</ul>
+</li>
+</ul>
+</li>
+				  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+					<form action="/faqs-spring" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Ylsm-eL2L5I2J7GPOPkH-6jvyNsNtO3TRzD2PkHdQI8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>					<!--<form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+						<div><div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search the UNT web site:</label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+							
+							<input type="hidden" name="form_build_id" value="form-ujfG-ZSE5TR-xFGXg80zrwpNYknILBw1CChPMxUbnHI">
+							<input type="hidden" name="form_token" value="DKL_c2lnzzWVVOH3_nQL-VLa_l3dRsfj8UBY06q-AvY">
+							<input type="hidden" name="form_id" value="search_block_form">
+							</div>
+						</div>
+					</form>-->
+
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>
+<div id="mobile-site-info" class="mobile"><div class="inside">
+	<!--div class="mobile-dept-name"></div-->
+	<div class="mobile-site-title"><a href="/">Commencement</a></div>
+</div></div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+	  <ul class="quicklinks">
+	  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+			<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+			<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+			<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+			<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+			<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+			<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+		</ul>
+
+      </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/faqs-spring" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-HnJ_anumc02cny-UpgY7ce58cKzl8PcmZbmDH0bPkCw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+
+  	<div id="unt">
+    	<a href="http://www.unt.edu">
+    		<img src="https://webassets.unt.edu/theme/greenlight-d7/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark" />
+      </a>
+    </div>
+    
+			    <hgroup>
+	    <div class="branding-data clearfix">
+	
+				      
+					<h5 class="department-link department-name"><a href="http://www.unt.edu">University of North Texas</a></h5>
+								
+				<h1 class="site-name stacked"><a href="/" title="Commencement" class="active">Commencement</a></h1>
+	
+	    </div>
+	    </hgroup>
+		
+    
+  </div>
+</div>  </div>
+</div>
+	<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix desktop">
+		<div id="zone-menu" class="zone zone-menu clearfix container-12">
+			<div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+    <section class="block block-system block-menu block-main-menu block-system-main-menu odd" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Main menu</h3>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/celebrating-accomplishments-unt-graduates" title="Homepage">Home</a></li>
+<li class="expanded active-trail"><a href="/spring-commencement-overview" class="active-trail">Spring Commencement</a><ul class="menu"><li class="first leaf"><a href="/information-spring-graduates">Information for Graduates</a></li>
+<li class="leaf"><a href="/information-guests-spring">Information for Guests</a></li>
+<li class="leaf active-trail"><a href="/faqs-spring" class="active-trail active">FAQs</a></li>
+<li class="leaf"><a href="/spring-schedule">Schedule</a></li>
+<li class="leaf"><a href="/speaker-spring">Commencement Speaker</a></li>
+<li class="last leaf"><a href="/parking-spring">Parking and Transportation</a></li>
+</ul></li>
+<li class="expanded"><a href="/fall-commencement-overview">Fall Commencement</a><ul class="menu"><li class="first leaf"><a href="/information-fall-grads">Information for Graduates</a></li>
+<li class="leaf"><a href="/information-guest-fall">Information for Guests</a></li>
+<li class="leaf"><a href="/faqs-fall">FAQs</a></li>
+<li class="last leaf"><a href="/fall-schedule">Schedule</a></li>
+</ul></li>
+<li class="leaf"><a href="/regalia-overview">Regalia</a></li>
+<li class="last expanded"><a href="/directions-unt">Directions</a><ul class="menu"><li class="first last leaf"><a href="/maps">Maps</a></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>		</div>
+	</div>
+</header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-block block-3 block-block-3 odd block-without-title" id="block-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <div class="bap bap-spring-commencement">
+  <div class="boxer-full full">
+    <div class="boxer grid-12">
+        <h2><span style="color:#72b844;">Spring Commencement</span></h2>
+    </div>
+</div>
+  <div class="boxer-full mobile">
+    <div class="boxer grid-12">
+        <h2><span style="color:#72b844;">Spring Commencement</span></h2>
+    </div>
+</div>
+</div>     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h2 class="title" id="page-title">FAQs</h2>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="node node-page node-promoted view-mode-faqs node-not-sticky author-2 odd clearfix clearfix">
+    
+  <div class="container-12">
+  	    <div class="grid-3 content-area sidebar-content sidebar-right top-important"><div class="inside">
+	      <div class="field field-name-related-links-faqs field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"> <div class="color-box bg-unt-green">
+<h4 class="boxed">Related Links</h4>
+
+<ul>
+	<li><a href="http://registrar.unt.edu/graduation-and-diplomas/graduation-with-honors">Graduation with honors</a></li>
+</ul>
+</div>
+ </div></div></div>	    </div></div>
+	    
+  
+  
+	  	    <div class="grid-9 content-area main-content top-important"><div class="inside">
+	      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <ul><li><a href="#participation">Participation</a></li>
+<li><a href="#guests">Guests</a></li>
+<li><a href="#regalia">Regalia and Attire</a></li>
+<li><a href="#parking">Parking and Transportation</a></li>
+<li><a href="#commencement">Commencement Event Information</a></li>
+<li><a href="#diplomas">Diplomas</a></li>
+<li><a href="#weather">Weather</a></li>
+</ul><h3><a name="participation" id="participation"></a>Participation</h3>
+<p><strong>What is the difference between participating in commencement and graduating?</strong><br />
+Commencement and the recognition ceremonies are the congratulatory ceremonies hosted by university officials in which students are publicly and formally recognized. Graduation is the process of being awarded a degree after completion of credit hours and other degree requirements. Actual diplomas are not awarded at commencement ceremonies and participation in the ceremonies is not a guarantee of degree completion. <a href="http://registrar.unt.edu/graduation-and-diplomas/information-for-graduates">To officially graduate from UNT, a student must apply for graduation by the posted deadline</a>. After receipt of final grades, the student's degree audit must show the student satisfied all university, college and departmental requirements for the specific degree. A degree becomes official when it is posted to a student's transcript -- typically two to three weeks after the completion of their final term -- not by their participation in commencement exercises. A student does not have to be present at commencement to receive their degree.</p>
+<h3><strong>What are the requirements for spring commencement participation?</strong></h3>
+<h4>University-wide Commencement</h4>
+<p>The annual University-wide Commencement is held every May for the annual graduating class and features degree conferral and an inspirational speaker. Graduates wear their <a href="../regalia-overview">regalia</a> at this event.</p>
+<p>All UNT graduates from the current academic year may participate in the Spring University-wide Commencement.</p>
+<p><a href="../spring-commencement-overview">Learn more about the ceremonies</a>.</p>
+<h4>Spring Undergraduate College Recognition Ceremony</h4>
+<p>Each college holds Undergraduate College Recognition Ceremonies in May for bachelor's degree candidates that feature traditional commencement elements in a more intimate setting. Because these candidates will have their degrees conferred at the University-wide Commencement, the spring college recognition ceremonies do not include degree conferral.</p>
+<p>Candidates wear their <a href="../regalia-overview">regalia</a> at this event.</p>
+<p>To participate in a Spring Undergraduate College Recognition Ceremony, a candidate for May graduation must apply for graduation by the posted deadline, receive advisor approval on their graduation application, and must RSVP that they plan to attend the ceremony.</p>
+<p>The university no longer holds an August commencement.</p>
+<p>Undergraduate students who are planning to complete degree requirements during summer may receive special permission to participate in their college’s spring recognition ceremony. Interested candidates must complete their application for summer graduation by the posted spring graduation application deadline. These candidates must also must receive advisor approval and must RSVP to attend the ceremony.</p>
+<p>Those who participate in fall commencement ceremonies can participate in the following Spring University-wide Commencement.</p>
+<p><a href="http://registrar.unt.edu/graduation-and-diplomas/information-for-graduates">Learn more about applying for graduation</a><u>.</u></p>
+<p><a href="../spring-commencement-overview">Learn more about the ceremonies</a>.</p>
+<h4>Spring Doctoral and Master’s Convocation</h4>
+<p>The university holds a separate ceremony in May for master's and doctoral candidates and the ceremony features hooding and other traditional commencement elements in a more intimate setting. Because degree conferral happens at the University-wide Commencement, the spring doctoral and master’s convocation does not include degree conferral. Graduates wear their <a href="../regalia-overview">regalia</a> at this event.</p>
+<p>To participate in the spring Doctoral and Master’s Convocation, doctoral and master’s students must apply for graduation, complete their degree requirements and RSVP using the links provided in the mailed graduation packet. Master's candidates must have completed all degree requirements in the spring to participate in the Spring 2016 ceremony. May doctoral students must have defended their dissertation by April 1 to participate in the Spring 2016 ceremony. Doctoral students of future semesters must have defended their dissertation by April 15th to participate in the Spring 2016 ceremony. Contact <a href="mailto:graduation@unt.edu">graduation@unt.edu</a> for more information.</p>
+<p><a href="../spring-commencement-overview">Learn more about the ceremonies</a>.</p>
+<p><strong>Do graduates need to RSVP for commencement?</strong><br />
+Yes. Candidates must RSVP for commencement by following the instructions listed in the information packet mailed to them two weeks prior to the ceremony. RSVPs must be received by the deadline listed in the packet.</p>
+<h3><a name="guests" id="guests"></a>Guests</h3>
+<p><a name="two" id="two"></a><strong>Is there a limit to the number of guests? Are tickets required for guests?</strong><br />
+There is no limit to the number of friends and family that graduates can invite as their guests to attend the University-wide Commencement or the college and doctoral/master’s ceremonies. Graduates and their guests are expected to remain for the duration of the ceremony.</p>
+<p><a name="capacity" id="capacity"></a><strong>What if venues reach capacity?</strong><br />
+If ceremonies reach seating capacity, guests will be directed to nearby venues to watch live broadcasts of the ceremonies on television screens. Due to fire codes and safety issues, there will be no standing room for guests.</p>
+<p><a name="meet" id="meet"></a><strong>When and where can I meet my graduate after the University-wide Ceremony?</strong><br />
+Following the University-wide commencement ceremony, guests should exit <a href="http://maps.unt.edu/?code=APGS">Apogee Stadium</a> through Gate 4 and walk toward the Hill where <a href="../spring-commencement-overview#jazz">Jazz on the Hill</a> festivities were hosted. Graduates will exit the stadium through the south end zone and will walk around to the east side of the stadium to the Hill to meet guests. There will be several photo op locations in the area where graduates and guests can take pictures.</p>
+<h3><a name="regalia" id="regalia"></a>Regalia and attire</h3>
+<p><a name="whygreen" id="whygreen"></a><strong>Why did UNT decide to require that undergraduates and doctoral graduates wear green caps and gowns?</strong><br />
+Regalia for recipients of each level of degree – bachelor’s, master's and doctoral -- prominently features the official UNT green school color. But the regalia is different for each level to clearly distinguish baccalaureate, master's and doctoral graduates from each other. <a href="../regalia-overview#descriptions">Learn more about the different academic regalia</a>.</p>
+<p>The green robes create a visual "sea of green" during the University-wide Commencement to stoke and symbolize Mean Green pride. Since bachelor’s degree recipients make up most of the graduating class, having them wear green gowns has the most visual impact. The doctoral regalia also is green but prominently features black to distinguish it from baccalaureate regalia. The master's regalia is black but prominently features green.</p>
+<p>The master's and baccalaureate regalia also are the most cost-effective options. The doctoral regalia cost is higher, but we've provided a rental option to help mitigate the higher price.</p>
+<p><a name="biodegradable" id="biodegradable"></a><strong>Why aren't biodegradable robes being offered any more?</strong><br />
+Many students and graduates provided feedback that the price of the biodegradable options was too cost prohibitive, so UNT returned to a non-biodegradable gown to make them more affordable for students.</p>
+<p><a name="differenttassels" id="differenttassels"></a><strong>Why are there different colors of tassels and hoods for each college?</strong><br />
+Each master's and doctoral hood color is based on the graduate's degree. The addition of colored tassels for undergraduates started in 2015 and came at the request of the college deans to allow bachelor’s graduates to be visually recognizable based on their college.</p>
+<p><a name="doublemajor" id="doublemajor"></a><strong>What if I'm a double major in two different colleges? Do I wear tassels for both of the colleges?</strong><br />
+Typically, a graduate who is double-majoring in two colleges chooses which color he or she would like to wear.</p>
+<p><a name="rentregalia" id="rentregalia"></a><strong>Can regalia be rented?</strong><br />
+Doctoral graduates have the choice of renting or purchasing their regalia. Master’s and bachelor’s graduates do not have the option to rent their regalia.</p>
+<p><a name="giftregalia" id="giftregalia"></a><strong>If I've been given regalia as a gift, but it's not green, can I still wear it?</strong><br />
+UNT encourages all graduates to wear the official, approved regalia to ensure uniformity. But if you've been given regalia as a gift, we will not prevent you from wearing it in lieu of the official, approved regalia. All graduates must wear regalia to participate in all formal UNT commencement events including University-wide Commencement, Doctoral and Master’s Convocation, and the Undergraduate Recognition Ceremonies. Master’s and doctoral candidates must wear the official UNT hood as part of their regalia.</p>
+<p><a name="otherregalia" id="otherregalia"></a><strong>What if I already bought my regalia from an outlet other than Barnes &amp; Noble and it's not the right color? Can I wear it anyway?</strong><br />
+We recommend that you return the previously purchased regalia and purchase or rent the official, approved regalia from Barnes &amp; Noble at UNT.</p>
+<p><a name="stainyokes" id="stainyokes"></a><a name="three" id="three"></a><strong>Where do graduates purchase their cap and gown?</strong><br />
+Graduates will wear official approved <a href="../regalia-overview">regalia</a> for all formal commencement events. All arrangements for regalia approved by the university should be made with the official provider, <a href="http://unt.bncollege.com/">Barnes &amp; Noble at UNT</a>, 1700 Chestnut Street, Denton, Texas 76201 (940-565-2592). All candidates will receive a tassel as part of their <a href="../regalia-overview">regalia</a> purchase or rental.</p>
+<p><a name="four" id="four"></a><strong>Can I decorate my mortarboard? </strong><br />
+Yes.</p>
+<p><a name="five" id="five"></a><strong>Which side should the tassel be on?</strong><br />
+Typically, undergraduate candidates wear the tassel on the front right side of the cap and graduates wear it on the front left side. As graduates look down, tassels fan out and often interfere with photographs that are taken as they cross the stage. It is advised that graduates adjust their tassels accordingly.</p>
+<p><strong>What should I wear?</strong><br /><a href="http://unt.bncollege.com/">Barnes and Noble at UNT</a> is the official vendor for purchasing <a href="../regalia-overview">UNT regalia</a>. Graduates will wear the approved academic regalia over cool, dark dress clothes and comfortable dress shoes. Casual wear is not appropriate and photos will look best if graduates wear dark colors.</p>
+<p><strong>Can graduates bring an extra pair of comfortable shoes?</strong><br />
+No. Candidates are encouraged to wear comfortable dress shoes for the duration of the ceremony, as they will be standing for extended periods of time and walking up and down stairs. Please do not bring anything except the name card that is mailed to you two weeks prior to commencement. There is no storage available for extra shoes during the ceremony.</p>
+<p><a name="six" id="six"></a><strong>Where do graduates store personal belongings during the ceremony?</strong><br />
+Please do not bring anything besides the name card (needed only for college recognition ceremonies and doctoral/master’s convocation) that was mailed out prior to Commencement. There is no storage available for handbags, umbrellas, or extra shoes, etc. during the ceremony. <strong>You may carry in your cell phone and keys</strong> but during the Undergraduate College Recognition Ceremonies and the Doctoral and Master’s Convocation, there will not be a secure place to leave these items as you cross the stage. If you choose to bring these items into the ceremony, you must leave them at your own risk in your seat while you cross the stage.</p>
+<h3><a name="parking" id="parking"></a><a name="seven" id="seven"></a>Parking and Transportation</h3>
+<p><a name="eight" id="eight"></a><strong>Where should I park for commencement?</strong><br /><a href="../parking-spring">Learn more about parking and transportation for Spring Commencement events</a>.</p>
+<h3><a name="commencement" id="commencement"></a>Commencement Event Information</h3>
+<p><strong>What time should graduates arrive?</strong><br />
+Graduates are expected to arrive at the time included in the information packet mailed to them two weeks prior to graduation, usually one hour before the event starts. Graduates should take into consideration increased traffic, as well as time to walk or ride a shuttle from the parking lot to the <a href="http://maps.unt.edu/?code=COL">UNT Coliseum</a>, <a href="http://maps.unt.edu/?code=PAC">Murchison</a> or <a href="http://maps.unt.edu/?code=APGS">Apogee</a>. Ceremony processionals will begin on time. <a href="../spring-commencement-overview">Learn more about the different commencement events</a>.</p>
+<p><a name="eleven" id="eleven"></a><strong>What should graduates bring with them to commencement events?</strong><br />
+Only what's noted in the information packets. Graduates need to bring the name card (needed only for college recognition ceremonies and doctoral/master’s convocation) from the information packet mailed to them two weeks prior to graduation. The name card will be handed to the announcer before the student walks onto the stage and also will indicate also the graduate's position in the line-up. Graduates should not bring handbags, cell phones or other handheld devices. <strong>You may carry in your cell phone and keys</strong> but during the Undergraduate College Recognition Ceremonies and the Doctoral and Master’s Convocation, there will not be a secure place to leave these items as you cross the stage. If you choose to bring these items into the ceremony, you must leave them at your own risk in your seat while you cross the stage.</p>
+<p><strong>Will graduates walk the stage?</strong><br />
+Yes, at the college ceremonies (undergraduate college recognition ceremonies and doctoral/master’s convocation) graduates will have their name called, walk the stage, shake hands with college administration and have their photo taken. The Doctoral and Master's Convocation will include hooding by faculty mentors for those earning terminal degrees. Because the number of students who participate in the University-wide Commencement is so large, students will not walk across the stage at that event, but the president will formally recognize students as graduates through degree conferral.</p>
+<p><a name="eighteen" id="eighteen"></a><strong>How can I get pictures of the event?</strong><br />
+Graduates will have their photo taken by professional photographers during the Undergraduate College Recognition Ceremonies and the Doctoral and Master's Convocation. A posed photo will be taken with your diploma cover, and a candid shot will be taken as you shake hands with the university official. Proofs of these photos will be emailed from Flash Photography to the the graduate’s UNT email address in the weeks following the ceremony.</p>
+<p><a name="jazz" id="jazz"></a><strong>What is Jazz on the Hill?</strong><br /><a href="../spring-commencement-overview#jazz">Jazz on the Hill</a> is a time for graduates and their guests to celebrate together prior to the University-wide Commencement ceremony. Festivities will at 7 a.m. Friday, May 13, on the Hill next to <a href="http://maps.unt.edu/?code=APGS">Apogee Stadium</a>. Enjoy performances by UNT jazz musicians on the Hill's main stage. Complimentary morning refreshments will be available during the festival. Doors to the stadium will open at 7 a.m., graduates will start lining up at 9:15 a.m. and the graduate processional will begin at 9:45 a.m.</p>
+<p>Following the University-wide commencement ceremony, guests should exit Apogee Stadium through Gate 4 and walk toward the hill where Jazz on the Hill festivities were hosted. Graduates will exit the stadium through the south end zone and will walk around to the east side of the stadium to the hill to meet guests. There will be several photo op locations in the area where graduates and guests can take pictures.</p>
+<h3><a name="diplomas" id="diplomas"></a>Diplomas</h3>
+<p><strong>When will graduates receive their diplomas?</strong><br />
+Diplomas will be printed and mailed to official UNT mailing addresses within eight weeks of commencement following receipt of final grades and after verification that the candidate has met the final requirements for graduation. It is the responsibility of the graduate to ensure UNT has the correct mailing address on file after graduation.</p>
+<p><a name="fifteen" id="fifteen"></a><strong>What address will the diplomas be mailed to?</strong><br />
+Diplomas will be mailed to the official UNT mailing address within eight weeks of commencement. Graduates should verify and/or update their mailing address by logging into <a href="http://my.unt.edu/">my.unt.edu</a> with their EUID and password.</p>
+<h3><a name="weather" id="weather"></a>Weather</h3>
+<p>Apogee Stadium is an open-air stadium, and the University-wide Commencement event will be held as planned, rain or shine.</p>
+<p>In the event of severe weather, UNT will activate its Commencement Inclement Weather Plan and the University-wide ceremony on Friday, May 13, would be moved to the Coliseum. Overflow space would be provided in the Gateway Center Ballroom (Rooms 34 and 35) and Rooms 43 and 47.</p>
+ </div></div></div>	    </div></div>
+	  	
+	
+	  
+  </div>
+  
+</div>
+
+
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+	  <div id="zone-footer" class="zone zone-footer mcconnell clearfix container-12">
+	  
+	    <div class="grid-3 region region-footer-first" id="region-footer-first">
+			  <div class="region-inner region-footer-first-inner">
+			  
+					<div class="footer-logo unt-brand">
+						<a href="http://www.unt.edu"><img src="https://webassets.unt.edu/theme/greenlight-d7/unt-stacked-mcconnell.png" alt="University of North Texas | UNT" /></a>
+					</div>
+					
+			  </div>
+			</div>
+			
+			<div class="grid-3 region region-footer-second" id="region-footer-second">
+			  <div class="region-inner region-footer-second-inner">
+			  
+					<div class="footer-header header-1">
+						<h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3>
+						<div id="collapse-footer-1" class="footer-block-content footer-toggler-content">
+							<p><a href="http://maps.unt.edu/places/1187/view" target="_blank"><strong>Alumni Center</strong></a><br />
+							<br />
+							<a href="http://maps.unt.edu/places/1187/view" target="_blank" title="Map to Alumni Center"><img src="https://webassets.unt.edu/theme/greenlight-d7/map-icon.png" alt="map icon" class="map-icon" /></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 region region-footer-third" id="region-footer-third">
+			  <div class="region-inner region-footer-third-inner">
+			
+					<div class="footer-header header-2">
+						<h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+					</div>
+										<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+						<p><strong>University of North Texas</strong><br />
+						1155 Union Circle #311277<br />
+ Denton, TX 76203</p>
+					</div>
+									</div>
+			</div>
+
+			<div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+			  <div class="region-inner region-footer-fourth-inner">
+			
+					<div class="footer-header header-3">
+						<h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+					</div>
+					<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+													<p class="phone-lg"><a href="tel:+19405652000">940-565-2000</a></p>
+																									<p class="tech-email"><a href="mailto:urcm@unt.edu">Technical issues?</a></p>
+											</div>
+					
+					<div class="footer-social"><div class="inside">
+												  <div class="social-icon facebook"><a href="https://www.facebook.com/northtexas" class="facebook" title="Commencement on Facebook"><i class="fa fa-facebook"></i></a></div>
+												
+												  <div class="social-icon twitter"><a href="https://twitter.com/untnews" class="twitter" title="Commencement on Twitter"><i class="fa fa-twitter"></i></a></div>
+														
+												  <div class="social-icon youtube"><a href="http://www.youtube.com/user/universitynorthtexas" class="youtube" title="Commencement on YouTube"><i class="fa fa-youtube"></i></a></div>
+													
+												
+													
+													
+													
+													
+						<div class="social-icon mobile-icon"><a href="http://m.unt.edu/" class="togo" title="UNT ToGo"><i class="fa fa-mobile"></i></a></div>
+						<div class="social-icon directory-icon"><a href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory"><i class="fa fa-list"></i></a></div>
+					</div></div>
+			
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+	  <div id="zone-state" class="zone zone-state clearfix container-12">
+	  
+	    <div class="grid-12 region region-footer-state desktop" id="region-footer-state">
+			  <div class="region-inner region-footer-state-inner">
+		
+					<p class="updated">Site last updated on <span class="footer-updated">May 04, 2016</span></p>
+					
+					<p class="sate-links">
+					<a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+					<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+					<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+					<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+					<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+					<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+					<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+					<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu">UNT Home</a>
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="grid-12 region region-footer-state mobile" id="region-footer-state-mobile"><div class"region-inner region-footer-state-inner-mobile">
+					<p class="updated">Site last updated on <span class="footer-updated">May 04, 2016</span> | <span class="mobile-state-links"><a href="http://www.unt.edu/important-links.htm">Important Links</a></span></p>
+			</div></div>
+			
+		</div>
+	</div>
+</footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div>
+</body>
+</html>

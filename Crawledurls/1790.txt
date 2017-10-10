@@ -1,0 +1,413 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+
+</title><link id="styleShared" href="template/style.css?v1" rel="Stylesheet" type="text/css" /><link id="styleScreen" media="screen" href="template/screen.css?v1" rel="Stylesheet" type="text/css" /><link id="stylePrint" media="print" href="template/print.css?v1" rel="Stylesheet" type="text/css" /><link id="styleTemplate" href="template/Default/style.css?v1" rel="Stylesheet" type="text/css" /><link id="styleOriginSystem" href="template/Default/PublicSite/style.css?v1" rel="Stylesheet" type="text/css" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /></head>
+<body onload="PageInit();">
+    <a id="stickyJumpToTopTarget"></a>
+    <form method="post" action="PublicSite/Index.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTgzMzA3MTUwNA9kFgJmDw8WBB4RX1BhZ2VUaXRsZURpc3BsYXloHhRfUGFnZVJlc3VibWl0Q291bnRlcgIBZBYEAgIPZBYEAgQPFgIeBGhyZWYFH34vdGVtcGxhdGUvRGVmYXVsdC9zdHlsZS5jc3M/djFkAgUPFgIfAgUqfi90ZW1wbGF0ZS9EZWZhdWx0L1B1YmxpY1NpdGUvc3R5bGUuY3NzP3YxZAIED2QWGAIEDxYCHgRUZXh0BRtUeERQUyBTZXggT2ZmZW5kZXIgUmVnaXN0cnlkAgYPFgIfAwVdVVNFUjogQW5vbnltb3VzICgwLDApIFNFUlZFUjogRFBTV0VCOCBEQVRFOjUvMTEvMjAxNiAxMDowNTozMiBBTSBMQU5HOkVOR0xJU0ggKFVOSVRFRCBTVEFURVMpZAIMDxYCHgdWaXNpYmxlaGQCDg8PFgQeBl9UaXRsZQUbVHhEUFMgU2V4IE9mZmVuZGVyIFJlZ2lzdHJ5HwRoZGQCEA8PFgQfAwUHU2lnbiBpbh4LTmF2aWdhdGVVcmwFLi9EcHNXZWJzaXRlL0xvZ2luLmFzcHg/cmV0dXJuVXJsPS9TZXhPZmZlbmRlci9kZAIRDxYCHwRoZAITDw8WAh8GBR4vRHBzV2Vic2l0ZS9TdXBwb3J0L0luZGV4LmFzcHhkZAIXDw8WBB8DBRtUeERQUyBTZXggT2ZmZW5kZXIgUmVnaXN0cnkfBgUXL1NleE9mZmVuZGVyL0luZGV4LmFzcHhkZAIpDxYCHwRoZAIrD2QWEAIBDw8WAh8GBTt+L1B1YmxpY1NpdGUvQXBwbGljYXRpb24vU2VhcmNoL1NlYXJjaC5hc3B4P1NlYXJjaFR5cGU9TmFtZWRkAgMPDxYCHwYFPn4vUHVibGljU2l0ZS9BcHBsaWNhdGlvbi9TZWFyY2gvU2VhcmNoLmFzcHg/U2VhcmNoVHlwZT1BZGRyZXNzZGQCBQ8PFgIfBgU+fi9QdWJsaWNTaXRlL0FwcGxpY2F0aW9uL1NlYXJjaC9TZWFyY2guYXNweD9TZWFyY2hUeXBlPVppcENvZGVkZAIHDw8WAh8GBT1+L1B1YmxpY1NpdGUvQXBwbGljYXRpb24vU2VhcmNoL1NlYXJjaC5hc3B4P1NlYXJjaFR5cGU9Q291bnR5ZGQCCQ8PFgIfBgU9fi9QdWJsaWNTaXRlL0FwcGxpY2F0aW9uL1NlYXJjaC9TZWFyY2guYXNweD9TZWFyY2hUeXBlPVNjaG9vbGRkAg0PDxYCHwYFMH4vUHVibGljU2l0ZS9BcHBsaWNhdGlvbi9TdWJzY3JpcHRpb24vaW5kZXguYXNweGRkAg8PDxYCHwYFMH4vUHVibGljU2l0ZS9BcHBsaWNhdGlvbi9TdWJzY3JpcHRpb24vaW5kZXguYXNweGRkAhEPZBYCAgMPDxYCHwYFP34vUHVibGljU2l0ZS9BcHBsaWNhdGlvbi9TZWFyY2gvU2VhcmNoLmFzcHg/U2VhcmNoVHlwZT1OYXRpb25hbGRkAi0PZBYGAgEPDxYCHwUFFVNleCBPZmZlbmRlciBSZWdpc3RyeWRkAgIPDxYCHwUFEkFjY291bnQgTWFuYWdlbWVudGRkAgMPDxYCHwUFE0FkZGl0aW9uYWwgU2VydmljZXNkZAIxDxYCHwMFXVVTRVI6IEFub255bW91cyAoMCwwKSBTRVJWRVI6IERQU1dFQjggREFURTo1LzExLzIwMTYgMTA6MDU6MzIgQU0gTEFORzpFTkdMSVNIIChVTklURUQgU1RBVEVTKWRkGLGfxDNEfmg7OsFDmn+oEHx+cs8=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="748E93EC" />
+        <div id="pageContainer">
+            <div id="pageHeading">
+                <div id="PrintBanner" class="PrintOnly" style="width: 100%; text-align: center;">
+                    <center>
+                        <div style="width: 90%;">
+                            <img src="template/Logo.gif" id="logo" class="logoLeft" alt="DPS Logo" /><img src="template/Logo.gif" id="Img1" class="logoRight" alt="DPS Logo" />
+                            <h1>Texas Department of Public Safety</h1>
+                            <h2>
+                                TxDPS Sex Offender Registry</h2>
+                            <p>
+                                USER: Anonymous (0,0) SERVER: DPSWEB8 DATE:5/11/2016 10:05:32 AM LANG:ENGLISH (UNITED STATES)
+                            </p>
+                            <img src="template/hrTx.png" id="hrTx" />
+                        </div>
+                    </center>
+                </div>
+                <div id="ScreenBanner" class="NoPrint">
+                    <img src="template/banner.png" id="banner" alt="TxDPS CRS Headding" />
+                    <div id="localNavigation">
+                        <div id="localNavigationLeft">
+                            
+                            
+                        </div>
+                        <div id="localNavigationRight">
+                            <a id="hlUserName" href="/DpsWebsite/Login.aspx?returnUrl=/SexOffender/">Sign in</a>
+                            &nbsp;|&nbsp;<a id="hlHelp" href="/DpsWebsite/Support/Index.aspx">Support</a>&nbsp;|&nbsp;<a id="hlPrint" href="JavaScript:%20window.print();">Print</a>
+                        </div>
+                    </div>
+                    <div id="topNav">
+                        <a href="/DpsWebsite/Index.aspx">TxDPS CRS</a>&nbsp;|&nbsp;<a id="hlSectionHome" href="/SexOffender/Index.aspx">TxDPS Sex Offender Registry</a>
+                    </div>
+                </div>
+                <a id="stickyTrigger"></a>
+            </div>
+
+            <div id="pageHeader" class="NoPrint">
+                
+                
+                        
+                
+                
+                
+                
+            </div>
+            <div id="pageBody">
+                <div id="Content">
+                    
+                    
+                    
+    <h1>Texas Public Sex Offender Registry</h1>
+    <div class="placeContainer" style="height: 15em;">
+        <div>
+            <div class="placeLeft">
+                <fieldset style="height: 15em;">
+                    <legend>Registry Search</legend>
+                    <p>
+                        The Department of Public Safety has created searches for Texas Public Sex Offender
+                        Registry. These searches allow the public to search the registry for sex offenders
+                        registered in Texas.
+                    </p>
+                    <ul class="flush">
+                        <li>
+                            <a id="ContentBody_hlNameSearch" href="PublicSite/Application/Search/Search.aspx?SearchType=Name">Registrant Name</a></li>
+                        <li>
+                            <a id="ContentBody_hlAddressSearch" href="PublicSite/Application/Search/Search.aspx?SearchType=Address">Address</a>
+                            |
+                            <a id="ContentBody_hlZipSearch" href="PublicSite/Application/Search/Search.aspx?SearchType=ZipCode">ZIP Code</a>
+                            |
+                            <a id="ContentBody_hlCountySearch" href="PublicSite/Application/Search/Search.aspx?SearchType=County">County</a></li>
+                        <li>
+                            <a id="ContentBody_hlSchoolSearch" href="PublicSite/Application/Search/Search.aspx?SearchType=School">Institute of Higher Education</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="placeRight">
+                <fieldset style="height: 15em;">
+                    <legend>Subscription Service</legend>
+                    <p>
+                        The Department of Public Safety has created a notification system that allows the public to subscribe to e-mail notifications regarding database changes relating to registered sex offenders.
+                    </p>
+                    <ul class="flush">
+                        <li>
+                            <a id="ContentBody_hlCreateSubscription" href="PublicSite/Application/Subscription/index.aspx">Create Subscription</a></li>
+                        <li>
+                            <a id="ContentBody_hlManageSubscription" href="PublicSite/Application/Subscription/index.aspx">Manage Subscription</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="ContentBody_Panel1">
+	
+        <ul class="flush">
+            <li>
+                <a id="ContentBody_hlTopTenSexOffenders" href="http://www.txdps.state.tx.us/Texas10MostWanted/sexOffenders.aspx">Texas 10 Most Wanted Sex Offenders</a></li>
+            <li>
+                <a id="ContentBody_hlNationalSearch" href="PublicSite/Application/Search/Search.aspx?SearchType=National">National Sex Offender Search</a></li>
+            <li>
+                <a id="ContentBody_HyperLink1" href="/SexOffender/SORNA_2015December.pdf">Texas Offenses Tiered Under the Federal Adam Walsh Act</a></li>
+        </ul>
+    
+</div>
+    <br />
+    <div id="ContentBody_pnlDownloadDatabase">
+	
+        <p>
+            The Public Sex Offender Registry is available as a download for users wishing to
+            do comparisons against their own systems, combine with other data, run statistics
+            or otherwise perform operations not available thru the TxDPS Crime Records Service
+            Public website.
+        </p>
+        <ul class="flush">
+            <li>
+                <a id="ContentBody_hlHowTo" href="/SexOffender/PublicSite/Application/Export/index.aspx">How to download the Registry</a></li>
+            <li>
+                <a id="ContentBody_hlCustomers" href="/SexOffender/PublicSite/Application/Export/index.aspx">Customers who have downloaded the Registry</a></li>
+            <li>
+                <a id="ContentBody_hlSocialNetworking" href="/SexOffender/PublicSite/Application/Export/index.aspx">Important information for Social Networking Site Operators</a></li>
+        </ul>
+    
+</div>
+    <p>
+        Pursuant to Texas Code of Criminal Procedure Art. 62.005, the Texas Department of Public Safety (DPS) establishes this website as the official internet public access to the DPS sex offender registration computerized central database.
+    </p>
+    <p>
+        All information on individual registrants is based on registration information submitted by Texas Department of Criminal Justice, Texas Youth Commission, or various local criminal justice agencies. DPS cannot guarantee the records obtained through this site relate to the person about whom information is sought. Searches based on names, dates of birth, or other alphanumeric identifiers are not always accurate. The only way to positively link an individual to a specific sex offender record is though fingerprint verification. However, if you feel there is an error on a sex offender registration record, please report this to the local law enforcement agency the sex offender has verified their information with. The verification agency is listed in the sex offender registration information.
+    </p>
+    <p>
+        All information provided through this website is open record. It may be used by anyone for any purpose. However, it is your responsibility to make sure the records you access through this site pertain to the person about whom you are seeking information. Extreme care should be exercised in using any information obtained from this website. Neither DPS nor the State of Texas shall be responsible for any errors or omissions produced by secondary dissemination of this information. The Texas Legislature mandates the following information not be public record: a sex offender’s home telephone number, social security number, driver license number, and any information required by DPS for law enforcement purposes.
+    </p>
+    <p>
+        Pursuant to Texas Code of Criminal Procedure Art. 62.301 and judicial orders, not all offenders are available on the public access sex offender database.
+    </p>
+    <p>
+        Anyone who uses any information on this website to injure, harass, or for any other unlawful purpose may be subject to criminal prosecution or civil liability.
+    </p>
+
+                </div>
+                
+                    <div id="pageMenu">
+                        <span id="NavigationMenu1A"><span class='mTitle'>Sex Offender Registry</span><ul><li><a href="/SexOffender/">Home</a></li><li><a href="/SexOffender/PublicSite/Application/Search/Search.aspx">Search Registry</a></li></ul></span><span id="NavigationMenu2"><span class='mTitle'>Account Management</span><ul><li><a href="/DpsWebsite/Signup/PublicSite/Index.aspx">New User Sign up</a></li><li><a href="/DpsWebsite/Profile">My Account</a></li><li><a href="/DpsWebsite/Messaging">Message Center</a></li><li><a href="/DpsWebsite/Support/index.aspx">Help & Support</a></li></ul></span><span id="NavigationMenu3"><span class='mTitle'>Additional Services</span><ul><li><a href="/DpsWebsite/CriminalHistory/">Criminal History Search</a></li><li><a href="/SexOffender/">Sex Offender Registry</a></li><li><a href="/Metals/">Metals Registration Program</a></li><li><a href="http://occc.texas.gov/industry/cpmd">Precious Metal Dealer</a></li><li><a href="http://www.txdps.state.tx.us/administration/crime_records/pages/index.htm">Other Services & Information</a></li></ul></span>
+                    </div>
+                
+            </div>
+            <div id="pageFooter" class="NoPrint">
+                <img src="template/hrTx.png" id="divider" /><br />
+                <p>
+                    USER: Anonymous (0,0) SERVER: DPSWEB8 DATE:5/11/2016 10:05:32 AM LANG:ENGLISH (UNITED STATES)
+                </p>
+                <span class="NoPrint">| <a href="http://www.txdps.state.tx.us/administration/staff_support/human_resources/ADA.htm">Accessibility</a> | <a href="http://www.txdps.state.tx.us/SitePolicies.htm">Site Policies</a>
+                    | <a href="http://www.tsl.state.tx.us/trail" title="Texas Records And Information Locator"
+                        target="_blank">TRAIL</a> | <a href="http://tsiec.region49.org/" title="Texas State Interoperability Executive Committee"
+                            target="_blank">TSIEC</a> | <a href="https://sao.fraud.state.tx.us/hotline.aspx"
+                                title="Report Fraud, Waste or Abuse" target="_blank">Report Fraud, Waste or Abuse</a>
+                    | <a href="http://www.recovery.gov/Pages/default.aspx" title="American Recovery and Reinvestment ACT"
+                        target="_blank">American Recovery and Reinvestment ACT</a> |
+                    <br />
+                    | <a href="https://webmail.txdps.state.tx.us/exchange" title="Outlook Web Access">Outlook
+                        Web Access</a> | <a href="https://time.cpa.texas.gov/dpstk/login.jsp" title="ETA Time Entry"
+                            target="_blank">ETA Time Entry</a> | <a href="http://www.texashomelandsecurity.com/"
+                                title="Texas Homeland Security" target="_blank">Texas Homeland Security</a>
+                    | <a href="http://www.txdps.state.tx.us/pia.htm" title="Public Information Act">Public
+                        Information Act</a> | <a href="http://www.txdps.state.tx.us/compact/" title="Information about the Agency">Compact with Texans</a> | <a href="http://www.txdps.state.tx.us/index_sp.htm" class="notranslate">Espanol</a> |
+                    <br />
+                    | <a href="http://www.governor.state.tx.us/disabilities/" title="The Governor's Committee on People with Disabilities">The Governor's Committee on People with Disabilities</a> | <a href="http://www.txdps.state.tx.us/OIG/complaint.htm"
+                        title="How to file a complaint against specific DPS personnel">Personnel Complaint
+                            Process</a> <a href="http://www.txdps.state.tx.us/OIG/complaint-esp.htm">(Espanol)</a>
+                    | <a href="http://www.survey.utexas.edu/txdps/" title="Take our Customer Survey"
+                        target="_blank">Customer Survey</a> |<br />
+                    | <a href="http://www.texas.gov" target="_blank">texas.gov</a> |<br />
+                </span>
+                <p>
+                    &copy; 2000-2011 Texas Department of Public Safety.
+                </p>
+            </div>
+        </div>
+
+        <div id="siteId" class="NoPrint">
+        </div>
+
+        
+
+        <div id="stickyNavContainer" style="display: none;">
+            <div class="header"><a href="JavaScript: document.getElementById('stickyNavContainer').style.display = 'none'; return false;">Close</a></div>
+            <div style="padding: 5px;">
+                
+            </div>
+        </div>
+        <div id="stickyJumpToTop">
+            <a href="#stickyJumpToTopTarget" style="border: none;">TOP</a>
+        </div>
+
+    </form>
+
+    <script type="text/javascript">
+
+        var rightMargin = 50;
+        var stickyJumpToTopPosition = 0;
+        var contentEdge = 0;
+
+        function PageInit() {
+
+            // Initially make this visible.
+            if (window.GetStickyNavData) {
+                var c = document.getElementById("stickyNavContainer");
+                c.style.display = "block";
+            }
+
+            AddToolTip();
+
+            // Register Scroll Events
+            // .. and ensure compatability with IE & Chrome
+            if (window.addEventListener) {
+                window.addEventListener("scroll", PageScrollHandler, false)
+                window.addEventListener("resize", PageScrollHandler, false)
+            }
+            else if (window.attachEvent) {
+                window.attachEvent("onscroll", PageScrollHandler)
+                window.attachEvent("onresize", PageScrollHandler)
+            }
+
+            // Ensure we init the page for scroll events
+            PageScrollHandler();
+
+            // Make anchors show further down the page
+            AnchorInit();
+        }
+
+        function AddToolTip() {
+            // This allows the use to hover over long DDL options and see a tool-tip that is the complete text.
+            var ddl = document.getElementsByTagName('option');
+            for (var i = 0; i < ddl.length; i++) {
+                ddl[i].title = ddl[i].text;
+            }
+        }
+        function SetTarget() {
+            document.forms[0].target = "_blank";
+        }
+
+        function AnchorInit() {
+            // Force Anchor tags to display mid-screen
+            var anchor = document.getElementsByTagName('a');
+
+            for (var i = 0; i < anchor.length; i++) {
+
+                // Register only on-page anchor tags
+                if (anchor[i].href && anchor[i].href.substr(document.URL.length, 1) == "#") {
+                    anchor[i].onclick = AnchorClickEvent;
+                }
+            }
+        }
+
+        function AnchorClickEvent() {
+            window.location.href = this.href;
+            window.scrollBy(0, -25);
+            return false;
+        }
+
+        function PageScrollHandler() {
+            stickyJumpToTopPosition = windowDim()[1] - 50;
+
+            var p = document.getElementById("pageContainer");
+            contentEdge = windowOffset(p)[0] + p.clientWidth
+
+            if (window.GetStickyNavData) {
+                StickyNav();
+            }
+
+            StickyHeader();
+        }
+
+        function StickyHeader() {
+            var b = document.getElementById("banner");
+
+            var s = document.getElementById("localNavigation");
+            var j = document.getElementById("stickyJumpToTop");
+
+            var st = document.getElementById("stickyTrigger");
+
+            if (windowOffset(st)[1] < 0) {
+
+                b.style.display = "none";
+
+                s.style.position = "fixed";
+                s.style.top = "0px";
+                s.style.borderBottomColor = "#dddddd";
+                s.style.borderBottomStyle = "solid";
+                s.style.borderBottomWidth = "1px";
+
+                j.style.display = "inline";
+
+
+                var newLeft = (windowDim()[0] - j.clientWidth) - rightMargin;
+
+                if (contentEdge > newLeft) {
+                    j.style.top = stickyJumpToTopPosition + "px";
+                    // JumpToTop is 1/2 the distance that StickyNav is from right-margin.
+                    j.style.left = contentEdge + "px";
+                }
+                else {
+                    j.style.top = stickyJumpToTopPosition + "px";
+                    // JumpToTop is 1/2 the distance that StickyNav is from right-margin.
+                    j.style.left = newLeft + "px";
+                }
+
+            }
+            else {
+                b.style.display = "inline";
+
+                s.style.position = "relative";
+                s.style.top = "0px";
+                s.style.borderBottomColor = "#dddddd";
+                s.style.borderBottomStyle = "none";
+                s.style.borderBottomWidth = "1px";
+
+                j.style.display = "none";
+            }
+        }
+
+        function StickyNav() {
+
+            var c = document.getElementById("stickyNavContainer");
+            var p = document.getElementById("pageContainer");
+
+            // Position the container far-right, but don't over-lap content area.
+            var newLeft = (windowDim()[0] - c.clientWidth) - rightMargin;
+
+            if (contentEdge > newLeft) {
+                c.style.left = contentEdge + "px";
+            }
+            else {
+                c.style.left = newLeft + "px";
+            }
+
+            var r = GetStickyNavData();
+
+            for (var x = 0; x < r.length; x++) {
+
+                // Current Trigger & Indicator
+                var cT = document.getElementById(r[x][0]);
+                var cI = document.getElementById(r[x][1]);
+
+                // NOTE: For some reason, placing focus on anchor with no inner text results in different locations depending on what is next to it.
+                if ((windowOffset(cT)[1] >= -10) && ((windowOffset(cT)[1]) < windowDim()[1])) {
+                    cI.className = "navOn";
+                }
+                else {
+                    cI.className = "navOff";
+                }
+            }
+
+        }
+
+        function windowOffset(hoo) {
+            var T = 0, L = 0;
+            while (hoo) {
+                L += hoo.offsetLeft;
+                T += hoo.offsetTop;
+                hoo = hoo.offsetParent;
+            }
+
+            if (window.pageXOffset !== undefined) {
+                L -= pageXOffset;
+                T -= pageYOffset;
+            }
+            else {
+                var d = document.documentElement, b = document.body;
+                L -= (d.scrollLeft + b.scrollLeft);
+                T -= (d.scrollTop + b.scrollTop);
+            }
+            return [L, T];
+        }
+
+        function windowDim() {
+            // This is because IE7 doesn't support window.innerWidth
+            var winW = 630, winH = 460;
+            if (document.body && document.body.offsetWidth) {
+                winW = document.body.offsetWidth;
+                winH = document.body.offsetHeight;
+            }
+            if (document.compatMode == 'CSS1Compat' &&
+                document.documentElement &&
+                document.documentElement.offsetWidth) {
+                winW = document.documentElement.offsetWidth;
+                winH = document.documentElement.offsetHeight;
+            }
+            if (window.innerWidth && window.innerHeight) {
+                winW = window.innerWidth;
+                winH = window.innerHeight;
+            }
+
+            return [winW, winH]
+        }
+    </script>
+
+    
+
+</body>
+</html>

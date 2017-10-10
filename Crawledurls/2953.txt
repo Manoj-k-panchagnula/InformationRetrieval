@@ -1,0 +1,574 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><!-- InstanceBegin template="/Templates/Transit_Template.dwt" codeOutsideHTMLIsLocked="false" -->
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="3600" />
+<meta name="robots" content="index,follow" />
+<meta name="publisher" content="UNT Police, Parking, & Transportation" />
+<meta name="copyright" content="UNT Police, Parking, & Transportation" />
+<meta name="description" content="University of North Texas Parking, & Transportation" />
+<meta name="keywords" content="University of North Texas, parking, permits, campus parking, campus map, security, towing, citations, UNT Police, UNT Campus Police" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/layout_setup.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/screen.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/layout_text.css" />
+<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+<title>University of North Texas Parking &amp; Transportation Services</title>
+
+<!-- InstanceParam name="SubNav_DeptInfo" type="boolean" value="false" -->
+<!-- InstanceParam name="SubNav_Parking" type="boolean" value="true" -->
+<!-- InstanceParam name="SubNav_Transportation" type="boolean" value="false" -->
+
+<!-- InstanceParam name="SubNav_Contact" type="boolean" value="false" -->
+<!-- InstanceParam name="Alert_SubContnet" type="boolean" value="true" -->
+<!-- InstanceParam name="Sticky Site Information" type="boolean" value="true" -->
+<!-- InstanceParam name="SubContent_Blue" type="boolean" value="true" -->
+<!-- InstanceParam name="SubContent_Green" type="boolean" value="false" -->
+<!-- InstanceParam name="SubContent_Grey" type="boolean" value="false" -->
+
+
+<!--  JAVASCRIPT FOR IMAGE LOAD NO LONGER USED
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+//
+END OF SCRIPT END OF SCRIPT</script>
+
+--> 
+</head>
+
+<!-- Global IE fix to avoid layout crash when single word size wider than column width -->
+<!--[if IE]><style type="text/css"> body {word-wrap: break-word;}</style><![endif]-->
+
+<!-- REMOVED 4/10/2014
+
+<body onload="MM_CheckFlashVersion('7,0,0,0','Content on this page requires a newer version of Adobe Flash Player. Do you want to download it now?');">
+END REMOVE 4/10/2014 -->
+<body>
+
+  <!-- Main Page Container -->
+  <!-- [ HEADER ] -->
+<!--<div id="skip-link"><a href="#top-nav">Jump to Navigation</a></div>-->
+
+<div id="masthead"><div id="masthead-wrapper" class="container">
+  <div id="search">
+
+			<form method="get" action="http://www.google.com/u/unorthtexas" id="sform">        
+				<label for="searchterms">Search the UNT web site:</label>
+				<input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()" />
+				<input name="sa" type="submit" value="Search" id="sbutton"/>
+			</form>
+  </div>
+  
+  <!--div id="skip"><a href="#content">Skip to content</a></div-->
+
+	<div id="globals">
+    <ul>
+      <li><a href="https://my.unt.edu/">MyUNT</a></li>
+      <li><a href="https://eaglemail.unt.edu/">EagleMail</a></li>
+      <li><a href="http://webctvista.unt.edu/">Blackboard</a></li>
+      <li><a href="http://www.unt.edu/find-people-department.htm">People &amp; Departments</a></li>
+      <li><a href="http://maps.unt.edu/">Maps</a></li>
+      <li><a href="http://www.unt.edu/calendars-events.htm">Calendars</a></li>
+      <li><a href="http://giving.unt.edu/">Giving to UNT</a></li>
+    </ul>
+  </div>
+</div></div>
+
+<!-- /#masthead, #masthead-wrapper -->
+
+<div id="header"><div id="header-wrapper" class="container">
+	<div id="unt-brand">
+  	<a href="http://www.unt.edu"><img src="http://www.unt.edu/assets/images/greenlight/unt-lettermark.png" alt="UNT | University of North Texas" /></a>
+  </div>
+
+	<div id="branding">
+  	<h1 id="site-name"><a href="http://www.unt.edu/transit">UNT Parking &amp; Transportation</a></h1>
+  </div>
+</div></div>
+
+<div id="top-nav" class="off"><div id="nav-wrapper">
+</div></div>
+  <!-- [ END HEADER ] -->
+
+
+  <!-- Main Page Container -->
+<div align="center" class="page-container">
+
+
+<div id="s_top-nav" class="off"><div id="s_nav-wrapper">
+</div></div>      <!-- For alternative head          <!-- Navigation item -->
+
+    <!-- For alternative headers END PASTE here -->
+
+    <!-- B. MAIN -->
+    <div align="left" class="main">
+ 
+      <!-- B.1 MAIN NAVIGATION -->
+      <div class="main-navigation">
+
+        <div class="round-border-topright"></div>
+        <h1 class="first">Navigation</h1>
+
+        <!-- Navigation with grid style -->
+        <dl class="nav3-grid">
+        
+        <dt><a href="index.html" title="Home">Home</a></dt>
+
+       
+      <!--   <dt><a href="../dept_info.html" title="Department Information">Department Information</a></dt> -->
+
+			  
+		  <dt><a href="parking_services.html" title="Parking Services">Parking Services</a></dt>
+      
+			  <dd><a href="visitor_info.html">Visitor Information</a></dd>
+          <dd><a href="http://www.unt.edu/transit/UNTParkingCitations.html">Pay Citations</a></dd>
+ 		<dd><a href="permits.html">Parking Permits</a></dd>
+        <dd><a href="student_permits.html" id="bullet">Student Permits</a></dd>
+          <dd><a href="faculty_permits.html" id="bullet">Faculty/Staff Permits</a></dd>
+        <dd>&nbsp;</dd>
+                <dd><a href="parking_regs.html">Parking Regulations</a></dd>
+        <dd><a href="maps.html">Parking Maps</a></dd>
+        	<dd><a href="meters.html">Parking Meters</a></dd>
+                <dd><a href="garage.html">Parking Garage</a></dd>
+		<dd><a href="airport%20parking.html">Airport Parking Information</a></dd>
+        <dd><a href="parking_faq.html">FAQ</a></dd>
+    
+		  
+         	<dt><a href="transportation.html" title="Transportation Services">Transportation Services</a></dt>
+    
+			<dt><a href="employment.html" title="Employment">Employment</a></dt> 
+			
+          <dt><a href="contact.html" title="Contact Us">Contact Us</a></dt> 
+
+	      
+        
+
+
+		</dl>
+		
+        <h1>Announcements: </h1>
+        <h3>You can now purchase parking permits online!</h3>
+        <p><a href="http://www.unt.edu/transit/UNTParkingPermits.html">CLICK HERE FOR MORE INFORMATION</a></p>
+<!--        <p>Permits will no longer be sold at the UNT Bookstore, but instead are available by <a href="https://ppt-pkweb1.ppt-spsc.pdl.ads.unt.edu/untparking/cmn/auth.aspx">CLICKING HERE</a>.</p>  -->
+		
+        <hr /><br />
+		<!-- <a href="../hertz.html"><img src="../img/HOD_Logo_Reg_RentSpon_whiteH.gif" alt="Hertz on Demand" width="175" /></a>
+        <p><strong>Hertz on Demand is available at The Univer</strong></p>
+        <p><strong>sity of North Texas campus!</strong>
+        Environmentally friendly vehicles to rent at a low rate – by the hour or the day.</p>
+        <p><a href="../hertz.html">Click Here for more information.</a></p>
+        -->
+      </div>
+ 
+      <!-- B.2 MAIN CONTENT -->
+      <!-- InstanceBeginEditable name="Main Content" -->
+      <div class="main-content">
+ 
+      
+      
+      
+      
+        <!-- Pagetitle -->
+        <h1 class="pagetitle">UNT Parking Garage</h1>
+        <!-- Content unit - One column -->
+        <div class="column1-unit">
+
+          <table border="1" cellspacing="0" cellpadding="0" width="429">
+            <tr>
+              <td valign="top"><h1> Garage Locations</h1></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Highland Street  Garage</strong><br />
+                Located at Ave A and Highland Street by the new Business Leadership Building. 620 Central Ave, Denton TX, 76201</p>
+                <p><br />
+                  <strong>Union Circle Garage </strong><em><strong>UPDATED</strong></em><br />
+                Located at Welch and Union Circle by the University Union<br />
+                1155 Union Circle, Denton TX, 76203</p>
+                <p>Union Circle Garage is now open as a credit card only garage. <strong>NO CASH accepted</strong>. See rates below.</p>
+                <p><strong>Due to construction, pre-paid Access Cards for the Union Circle Garage    are no longer available. Please purchase a Access Card for   Highland Street Garage. The Union Circle garage is only open to hourly parkers and visitors.</strong></p>
+              <p><a href="maps.html">Click Here for Map</a></p></td>
+            </tr>
+          </table>
+          <p>
+          <table width="429" border="1" cellpadding="0" cellspacing="0">
+            <tr>
+              <td colspan="3" valign="top"><h1>2015-2016 Garage Contract Rates</h1></td>
+            </tr>
+            <tr>
+              <td colspan="3" valign="top"><ul>
+                <li>A garage contract (access card) is only valid at the Highland Street Garage.</li>
+                <li> Garage contracts are not available for Union Circle Garage.</li>
+                <li> Faculty/Staff - Payroll Deduction is available for annual contracts only.</li>
+                <li><a href="pdf/2015-2016 Garge Access Card Form.pdf">Click here</a> for request form- on sale August 17th</li>
+                <li><a href="pdf/2015-2016 Garge Access Card Form - RESIDENT.pdf">Resident Students click here</a> for request form on sale now.<br />
+                </li>
+              </ul></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Full Year</strong></p></td>
+              <td valign="top"><p>Yearly Pass </p></td>
+              <td valign="top"><p align="right">$850.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Semester</strong></p></td>
+              <td valign="top"><p>Semester Pass (Fall or Spring)</p></td>
+              <td valign="top"><p align="right">$350.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Summer</strong></p></td>
+              <td valign="top"><p>Summer Pass</p></td>
+              <td valign="top"><p align="right">$200.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Reserved</strong></p></td>
+              <td valign="top"><p>Annual Reserved first floor parking at the Highland Street Garage</p></td>
+              <td valign="top"><p align="right"><s>$1575.00</s></p>
+              <p align="right">Now $1,200 per year</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Resident Students</strong></p></td>
+              <td valign="top"><p>New for 2015-2016, <a href="pdf/2015-2016 Garge Access Card Form - RESIDENT.pdf">resident students </a>may purchase a garage access card at a reduced rate.</p>
+              <p><em>This is a one-year pilot project program which will be  re-evaluated Summer 2016 as to whether or not it will be continued or  discontinued.</em></p></td>
+              <td valign="top"><p>Limited to 350 spaces on the the 5th through 7th floors only. First come, first served.</p></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <table border="1" cellspacing="0" cellpadding="0" width="429">
+            <tr>
+              <td colspan="3" valign="top"><h1> Highland Street Garage Hourly Rates</h1></td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <td valign="top"><p><strong>0-30</strong></p></td>
+              <td valign="top"><p>minutes</p></td>
+              <td valign="top"><p align="right">FREE </p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>31-60</strong></p></td>
+              <td valign="top"><p>minutes</p></td>
+              <td valign="top"><p align="right">$2.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>61-120</strong></p></td>
+              <td valign="top"><p>minutes</p></td>
+              <td valign="top"><p align="right">$4.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>121-180</strong></p></td>
+              <td valign="top"><p>minutes</p></td>
+              <td valign="top"><p align="right">$5.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>181-240</strong></p></td>
+              <td valign="top"><p>minutes</p></td>
+              <td valign="top"><p align="right">$6.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>241</strong></p></td>
+              <td valign="top"><p>minutes to end of day</p></td>
+              <td valign="top"><p align="right">$10.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Daily Max</strong></p></td>
+              <td valign="top"></td>
+              <td valign="top"><p align="right">$10.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Lost Ticket</strong></p></td>
+              <td valign="top"></td>
+              <td valign="top"><p align="right">$10.00</p></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <table border="1" cellspacing="0" cellpadding="0" width="429">
+            <tr>
+              <td colspan="3" valign="top"><h1> NEW! Union Circle Garage Hourly Rates</h1></td>
+            </tr>
+            <tr>
+              <td colspan="3" valign="top"><p>Union Circle Garage is fully automated<strong> &quot;credit card&quot; </strong>only garage. <strong>No Cash  accepted.</strong></p></td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" valign="top"><p><strong>$1.50</strong> per hour</p></td>
+            </tr>
+            <tr>
+              <td width="163" valign="top"><p><strong>Daily Max</strong> with ticket</p></td>
+              <td width="163" valign="top"></td>
+              <td width="179" valign="top"><p align="right">$27.00</p></td>
+            </tr>
+            <tr>
+              <td valign="top"><p><strong>Lost Ticket</strong></p></td>
+              <td valign="top"></td>
+              <td valign="top"><p align="right">$36.00</p></td>
+            </tr>
+          </table>
+<p>&nbsp;</p>
+<p><strong><em>Important Information: </em></strong></p>
+<p><strong>Parking Garage Use and Availability:</strong> Garage Access Cards (as indicated on card) are valid only on the 2nd through 4th Floors. 1st Floor Reserved Annual Cards are valid on the first floor with an assigned numbered space. The 5th through 7th floors are reserved for Resident Students Access Cards with a garage permit displayed. </p>
+<p>Parking garages at the University of North Texas are closed during University holidays and are repurposed during campus-wide special events. Garages may also be repurposed in the event of emergency or for maintenance. Parking &amp; Transportation Services cannot guarantee that parking garage spaces will be available at all times. Notice will be issued via e-mail before any scheduled holiday or event. Please verify with the Parking &amp; Transportation office that your contact information is up to date.</p>
+<p>  Replacement of Garage Access Cards: There is a $25.00 fee to replace a lost/missing/stolen access card.</p>
+<p>  <strong>Sharing Garage Access Cards: </strong>Sharing of a garage access card (Pass-Back) is prohibited and is considered Theft of Service in the State of Texas. If a Pass-Back action is detected, the system will automatically terminate your access card and your parking privileges will be revoked. No refund will be issued.</p>
+<ul>
+  <li><strong>Visitors that are not able to pay will be issued a citation and charged the maximum daily rate.</strong></li>
+  <li>Hourly  parking is available at the posted rates</li>
+  <li>There  are no in and out privileges without a contract</li>
+  <li>Lost  tickets will be charged the daily maximum</li>
+  <li>Semester  and annual parking is available via access card only. Access cards are  available from the Parking Office. Access card registration is available  through the link on the top right of this page.</li>
+  <li>Department  validations are accepted only with prior approval from the Parking Office</li>
+  <li>No  storage of vehicles is allowed</li>
+  <li>No  repairing of vehicles (including changing oil) is allowed in the garage</li>
+  <li>No open flames are allowed within the parking  structure.</li>
+  <li>No Motorcycles</li>
+  <li>No Checks</li>
+  <li>No Bills over $20</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+          </p>
+        </div>
+        
+        <!-- Content unit - One column -->
+        <div class="column1-unit"> </div>
+        <div class="column1-unit"></div>
+      </div>
+      <!-- InstanceEndEditable -->
+      <!-- B.3 SUBCONTENT -->
+      <div class="main-subcontent">
+ <!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages -->
+
+<!--
+  <div class="subcontent-unit-border-alert-red">
+            <div class="round-border-topleft"></div>
+        <div class="round-border-topright"></div>
+        <h1 class="alert">Monday March 9th Detour on Eagle for City of Denton sewer</h1>
+        <div>
+        
+          <p>Starting  </p>
+<p>&nbsp;</p>
+
+      </div>
+-->
+
+
+  <<div class="subcontent-unit-border-alert-red">
+ 
+            <div class="round-border-topleft"></div>
+        <div class="round-border-topright"></div>
+        <h1 class="alert">SATURDAY FINAL EXAM SHUTTLE SERVICE</h1>
+        <div>
+        
+          <p>UNT Shuttle service will be provided on Saturday May 7th, 2016 for Final Exams. </p>
+          <p>The service  will run on a  Friday schedule.</p>
+          <p>Call Transportation Services for more information at 940-565-3020 or <br />
+          Contact <a href="https://www.dcta.net/">DCTA</a> for any questions on  routes and service.</p>
+
+        </div> 
+
+
+        
+       
+  
+            
+ <div class="round-border-topleft"></div>
+        <div class="round-border-topright"></div>
+        <h1 class="alert">FRISCO Campus	</h1>
+        <div>       
+                
+        <p>Parking is provided at the new Frisco Campus. No UNT Permit is required at this time.</p>
+<p>&nbsp;</p>
+        </div>
+        
+        
+ <!--       
+<div class="round-border-topright"></div>
+        <h1 class="alert">&nbsp;</h1>
+        <p>&nbsp;</p>
+        <div>
+        </div>  -->      
+ </div>             
+              
+
+
+ <!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages -->
+ 
+ 
+
+
+
+ 
+
+    
+
+
+
+
+<!--
+
+
+        <div class="subcontent-unit-border-green">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+        <h1 align="center" class="green">DCTA 2014 Community Survey is now available</h1>
+                    
+         <p>DCTA has released a survey <a href="../Crime_Alert.html" target="_blank"></a>to gather input from customers and community members. The online survey is available until Monday May 5, 2014.</p>
+         <p>Form more information visit <a href="https://www.dcta.net/">DCTA.net </a>or <a href="https://www.surveymonkey.com/s/DCTA2014">click here to go directly to the survey.</a></p>
+      </div> 
+
+-->
+
+    
+      
+<!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages -->
+
+  <!--<div class="subcontent-unit-border-alert-red">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+        <h1 class="alert">Campus Safety Alert! </h1>
+           <p class="alert">CRIME BULLETIN:<br />
+		  <br />
+         <strong>OFFENSE:</strong> <br />
+         Aggravated Robbery<br />
+<br />
+          <p class="alert">DATE OCCURRED:              <br />
+          10-08-2012</p>
+        <p> </p>
+          <p class="alert">TIME OCCURRED:               <br />
+          11:12  p.m.</p>
+          <p> </p>
+          <p class="alert">LOCATION:<br />
+          1520 W. Hickory Street</p>
+          <p></p>
+                    <p class="alert">UDATE:<br />
+                    The Denton  Police Department has apprehended two suspects in this case.</p>
+          <p></p>
+         <p class="alert"><a href="alerts/victim_bulletin10092012.pdf" target="_blank">Click here for more.</a></p>
+      </div> 
+
+     <!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages --> 
+
+ <!-- <div class="subcontent-unit-border-alert-red">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+        <h1 class="alert">Campus Safety Alert! </h1>
+           <p class="alert">CRIME BULLETIN:<br />
+		  <br />
+         <strong>OFFENSE:</strong> <br />
+Aggravated Assault <br />
+<br />
+          <p class="alert">DATE OCCURRED:              <br />
+          8-31-2012</p>
+          <p> </p>
+          <p class="alert">TIME OCCURRED:               <br />
+          9:40 p.m.</p>
+          <p> </p>
+          <p class="alert">LOCATION:<br />
+East side of Kerr Hall</p>
+          <p></p>
+         <p class="alert"><a href="alerts/victim_bulletin09012012.pdf" target="_blank">Click here for more.</a></p>
+      </div> -->
+      
+      
+	  
+        <!-- Sticky Subcontent unit -->
+     <!-- <div class="subcontent-unit-border-alert-green">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+          <h1 class="green">Employment Information</marquee></h1>
+          <p>The UNT Police Department is currently accepting applications. </p>
+          <p><a href="/police/Employment.html">Click here for more information.</a></p>
+      </div>  -->
+      
+      
+        <!-- Subcontent unit -->
+		<!-- InstanceBeginEditable name="EditRegion4" -->
+        <div class="subcontent-unit-border-blue">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+          <h1 class="blue">Access Card Registration</h1>
+          <p><a href="pdf/2015-2016 Garge Access Card Form.pdf"> Click here </a>for  the Garage contract card request form for <a href="pdf/2015-2016 Garge Access Card Form.pdf"> Highland Street Garage Access Card</a>. Access cards go on sale August 17th.</p>
+          <p><strong>New!</strong> <strong>Resident Student Access cards. On sale now. </strong>If you live on campus you may purchase a Resident Student Access (supplies limted - first come/first serve). <a href="pdf/2015-2016 Garge Access Card Form - RESIDENT.pdf">Click here for the Resident Student Garage access request form.</a></p>
+<p><strong>Due to construction, Access cards for Union Circle Garage are no longer available. Please purchase a Access card for Highland Street Garage.</strong></p>
+          <p>Adobe Acrobat is required.</p>
+        </div>
+		<!-- InstanceEndEditable -->
+		<!-- Subcontent unit -->
+        
+        <!-- Subcontent unit -->
+        </div>
+</div>
+      
+
+      
+    <!-- C. FOOTER AREA -->      
+
+    <div class="footer">
+      <p>UNT policies: <a href="http://www.unt.edu/policy/UNT_Policy/volume2/10_6.html">Open Records</a> | <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility Policy</a>| <a href="http://www.unt.edu/emergency">Emergency Preparedness Information</a></p>
+
+      <p>State of Texas information: <a href="http://www.unt.edu/compact_with_texans/compact_with_texans.html">Compact with Texans</a> | <a href="http://www.state.tx.us/">State of Texas Online</a> | <a href="http://www.tsl.state.tx.us/trail/">Statewide search</a> | <a href="http://www.twc.state.tx.us/careers/hotcareers.html">Hot Careers in Texas</a> | <a href="http://www.texashomelandsecurity.com"><br />
+        Texas Homeland Security</a> | <a href="http://www.dir.state.tx.us/standards/link_policy.htm">State link policy</a><br />
+
+        <a href="http://www.thecb.state.tx.us/cfbin/ArchFetch.cfm?DocID=0611&amp;Format=PDF">Texas Higher Education Coordinating Board Public Universities' Academic Data and Performance Reports</a></p>
+    </div>      
+  </div> 
+  
+</body>
+<!-- InstanceEnd --></html>
+
+
+
+<!--Design by: Wolfgang-->

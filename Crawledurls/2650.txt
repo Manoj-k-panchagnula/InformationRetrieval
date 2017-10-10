@@ -1,0 +1,2397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href='//fonts.googleapis.com/css?family=Roboto:300,700,400' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="//itss.untsystem.edu/sites/all/themes/untsystemV2/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Services | UNT SYSTEM</title>
+  <link type="text/css" rel="stylesheet" href="//itss.untsystem.edu/sites/default/files/css/css_xLd45nqaBhdIdkusipTb1uAFYUk_7qpxVgV4UAwdVDY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//itss.untsystem.edu/sites/default/files/css/css_sdw9izGvKEBx2grD_Neyb_XWOALRtgxNvSe4zqlv0-w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//itss.untsystem.edu/sites/default/files/css/css_gnFBwBF2LCoer5cC5EpdjbVgNNX0eGvbn81iRqG1yQ4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//itss.untsystem.edu/sites/default/files/css/css_hwGC7J7uJ6HcujH-Os2DdjaxLlt4GtmXft2fvEEwcpk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//itss.untsystem.edu/sites/default/files/css/css_tVaTaThQOpRc6la5apyGPPo1iIQAy5nPyF427pNVvdQ.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="//itss.untsystem.edu/sites/all/modules/respondjs/lib/respond.min.js?o2lyl3"></script>
+<script src="//itss.untsystem.edu/sites/default/files/js/js_EJfCZ52_7IAOsN4g4Q7frrbi9LcBERvKbsCyzUp2Jss.js"></script>
+<script src="//itss.untsystem.edu/sites/default/files/js/js_9k9l6haqJ3dZ6codRtL8eMyNhiLgYLyVEkAGirRC8ZQ.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="//itss.untsystem.edu/sites/default/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+<script src="//itss.untsystem.edu/sites/default/files/js/js_Ret9r9e99IKvj7_gYI3-_HIQd-mrhouJpeFJE04MItc.js"></script>
+<script>jQuery(document).ready(function($) { 
+    $.expr[':'].regex = function(elem, index, match) {
+            var matchParams = match[3].split(','),
+            validLabels = /^(data|css):/,
+            attr = {
+                method: matchParams[0].match(validLabels) ? 
+                matchParams[0].split(':')[0] : 'attr',
+                property: matchParams.shift().replace(validLabels,'')
+            },
+            regexFlags = 'ig',
+            regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g,''), regexFlags);
+            return regex.test(jQuery(elem)[attr.method](attr.property));
+        }
+    });</script>
+<script src="//itss.untsystem.edu/sites/default/files/js/js_kS96MkIPfO3cyp1U5-xu-T0Crgz_qYND1hpXGRSEXwM.js"></script>
+<script src="//itss.untsystem.edu/sites/all/modules/lightbox2/js/lightbox.js?1462912595"></script>
+<script src="//itss.untsystem.edu/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-54823620-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="//itss.untsystem.edu/sites/default/files/js/js_jLWaRTP_sDjgX6YauQEzqRk2q05_Hmw09eJOGQ50mFY.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"untsystemV2","theme_token":"ifJ3t0HukZ305PZPris5lwDupYfcBvslxOXZB0hJxeg","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/respondjs\/lib\/respond.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"\/\/netdna.bootstrapcdn.com\/bootstrap\/3.0.2\/js\/bootstrap.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/event_calendar\/event_popup\/js\/event_popup.js":1,"sites\/all\/modules\/event_calendar\/event_popup\/js\/event_popup_validate.js":1,"0":1,"sites\/all\/modules\/lightbox2\/js\/lightbox_video.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/untsystemV2\/js\/css3-mediaqueries.js":1,"sites\/all\/themes\/untsystemV2\/js\/menuHoverCtrl.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"sites\/all\/modules\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/youtube\/css\/youtube.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/event_calendar\/event_popup\/css\/event_popup.css":1,"sites\/all\/modules\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"\/\/netdna.bootstrapcdn.com\/bootstrap\/3.0.2\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/overrides.css":1,"sites\/all\/themes\/untsystemV2\/css\/style.css":1,"sites\/all\/themes\/untsystemV2\/css\/media.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"event_popup":{"classes":"","defaults":"width:300;height:auto;position:[center,60]","selector":"content","content_type":"event_calendar","op":false},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":1,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":1,"useragent":"Mozilla\/5.0 (compatible; MJ12bot\/v1.4.5; http:\/\/www.majestic12.co.uk\/bot.php?+)","flvPlayer":"\/","flvFlashvars":"autoplay=1\u0026amp;playerMode=normal"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-services page-services-messaging page-services-messaging-home" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+      <div id="top-stripe">
+    <div class="topbar-links container">
+<a href="http://www.unt.edu/helpdesk/">UNT IT</a> | <a href="http://www.untdallas.edu/itss">UNT Dallas</a> | <a href="https://www.unthsc.edu/academic-affairs/information-technology-services/helpdesk/">UNT HSC</a><!-- | <a href="https://lawschool.untsystem.edu/academics/technical-support">UNT Dallas College of Law</a> -->
+  
+  </div>    </div>
+<div id="header_wrapper">
+<header id="navbar" role="banner" class="navbar container navbar-default">
+      
+	<div id="top" class="container">
+
+        <aside class="col-xs-7 col-sm-7 col-md-8 head-logo">
+	                    <a class="logo pull-left" href="/" title="Home">
+                <img src="//itss.untsystem.edu/sites/all/themes/untsystemV2/logo.png" alt="Home" />
+              </a>
+                    
+          	         </aside>
+      
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content for mobile view less than 798px -->
+		<div class="col-xs-5 col-sm-5 col-md-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <div class="navbar-icon-bars">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+                <div class="navbar-menu-text">
+                    Menu
+                    <span class="sr-only">Toggle navigation</span>
+                </div>
+            </button>
+		</div>
+
+        <aside class="col-xs-12 col-sm-5 col-md-4 text-right head-right" role="complementary">
+        	<div class="clear pull-right" style="padding-left: 10%;"><img src="/sites/all/themes/untsystemV2/images/untsystem-logo.png" alt="UNTSystem Logo" /></div>
+            
+			            <!--<button type="button" class="topbar-toggle pull-left" data-toggle="collapse" data-target=".topbar-collapse">
+                    <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+            </button> -->
+              <div class="pull-right header_right col-xs-12">
+
+              	  <div class="region region-header-right">
+    <div id="block-block-24" class="block block-block">
+
+      
+  <div class="content">
+    <p><a href="/help-support-read-more"><span style="font-size: 13.0080003738403px; line-height: 20.0063037872314px; text-align: right;">G</span>et Help</a><span style="font-size: 13.0080003738403px; line-height: 20.0063037872314px; text-align: right;"> | </span><a href="/contact-us-0" style="font-size: 13.0080003738403px; line-height: 20.0063037872314px; text-align: right;">Contact Us</a></p>
+  </div>
+  
+</div> <!-- /.block -->  </div>
+              </div>
+                        
+			            
+        </aside><!-- /#header-right -->
+      
+
+    </div>
+
+	      <div class="menu-nav-bar">
+          <div id="main-menu" class="container navbar-collapse collapse">
+            <nav role="navigation">
+                              <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/" title="">Home</a></li>
+<li class="leaf active-trail"><a href="/services" title="" class="active-trail active">Services</a></li>
+<li class="leaf"><a href="/our-customers">Our Customers</a></li>
+<li class="expanded dropdown"><a href="/itss_divisions/itss-divisions-0" title="" class="dropdown-toggle">Divisions <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/itss_divisions/associate-vice-chancellor-and-cio" title="">Associate Vice Chancellor and CIO</a></li>
+<li class="leaf"><a href="/itss_divisions/enterprise-technology-services" title="">Enterprise Technology Services</a></li>
+<li class="leaf"><a href="/enterprise_applications/home-enterprise-applications-ea" title="">Enterprise Applications</a></li>
+<li class="leaf"><a href="/itss_divisions/management-and-risk-services">Management and Risk Services</a></li>
+<li class="leaf"><a href="/itss_divisions/strategic-services">Strategic Services</a></li>
+<li class="last leaf"><a href="/itss_divisions/it-business-services">IT Business Services</a></li>
+</ul></li>
+<li class="leaf"><a href="/it-governance/unt-system-it-shared-services-governance">Governance</a></li>
+<li class="expanded dropdown"><a href="/dashboard" title="" class="dropdown-toggle">Dashboard <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/sla-report">Month-to-Date SLA Report</a></li>
+<li class="leaf"><a href="/portfolio-project-management-summary">Portfolio &amp; Project Management Summary</a></li>
+<li class="last leaf"><a href="/real-time-systems-dashboard" title="">Real-Time System Status</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a href="/about-us" class="dropdown-toggle">About Us <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/executive-team">Executive Team</a></li>
+<li class="leaf"><a href="/our-values-and-promises">Our Values and Promises</a></li>
+<li class="leaf"><a href="/strategic-plan">Strategic Plan</a></li>
+<li class="leaf"><a href="/working-itss">Working in ITSS</a></li>
+<li class="leaf"><a href="/about-us/employee-action-group">Employee Action Group</a></li>
+<li class="last leaf"><a href="/history">History</a></li>
+</ul></li>
+</ul>                                        </nav>
+                        	<div class="col-xs-12 col-sm-12 col-md-3 pull-right">
+              		  <div class="region region-navigation">
+    <div id="block-search-form" class="block block-search">
+
+      
+  <div class="content">
+    <form class="form-search content-search" action="/services/messaging/home" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Search form</h2>
+    <div class="input-group"><input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-default"><i class="icon glyphicon glyphicon-search" aria-hidden="true"></i></button></span></div><button class="element-invisible btn btn-primary form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+<input type="hidden" name="form_build_id" value="form-GDEsoL1vJwVy1NeGoRLwHq9GLy4SZjHXE7s5VjRr8Ko" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+  
+</div> <!-- /.block -->  </div>
+                </div>
+                      </div>
+      </div>
+    
+</header>
+</div>
+
+<header role="banner" id="page-header">
+    </header> <!-- /#page-header -->
+
+<div class="main-container">
+
+  <!-- Added a row to hold 3 columns spanning at 4 grid-columns each. /#status-area -->
+  
+
+  <div id="content-area">
+  	<div class="container">
+     
+		<ol class="breadcrumb"><li class="first"><a href="/">Home</a></li>
+<li><a href="/services">Services</a></li>
+<li class="active last">Services</li>
+</ol>    
+            
+        <section class="col-sm-12">
+                    <a id="main-content"></a>
+                                <h1 class="page-header">Services</h1>
+                                                                                              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="view view-services-catalog view-id-services_catalog view-display-id-page view-dom-id-ffe5b4c38b59d6b71f08e8191b6d06ef">
+            <div class="view-header">
+      <div class="clearfix"> <a href="/service-catalog/print" class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print All</a> </div>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div id="views-bootstrap-accordion-1" class="views-bootstrap-accordion-plugin-style panel-group">
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse0">
+            Administrative Application Security Administration          </a>
+        </h4>
+      </div>
+
+      <div id="collapse0" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Maintain Basic security access for EIS (PeopleSoft, FileHub, ITSS file shares, ImageNow) and other related systems</li>
+<li>Assist with design, configuration and integration of third party software with ACES (Access Control Executive System)</li>
+<li>Act as primary problem management resource for application security</li>
+<li>Provide Account management services including account creation and maintenance</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellpadding="0" cellspacing="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe </strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus Wide Outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major Administrative Process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Does not include clinical, research or local UNTHSC systems or support.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTD, UNTHSC, UNTS</div>  </div>  
+  <div>        <span><a href="/service-catalog/administrative-application-security-administration"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse1">
+            Application Administration &amp; Support          </a>
+        </h4>
+      </div>
+
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Hosting and running of applications including, but not limited to, EIS (PeopleSoft), Degree Management System (DARS), Cognos, and BlackBoard Analytics</li>
+<li>Application software architecture assessment and consultation</li>
+<li>Installation, Configuration and Administration of Application Software</li>
+<li>Application of software patches &amp; fixes</li>
+<li>Assessment and execution of major software upgrades</li>
+<li>Standards and practice for migration of software customizations and modifications</li>
+<li>Point of contact with vendor technical support</li>
+<li>Production Job definition and scheduling</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability support is provided 24x7, excluding planned downtime. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe </strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus Wide Outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major Administrative Process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Does not include clinical, research or local UNTHSC systems or support.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/application-administration-support"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse2">
+            Application Development          </a>
+        </h4>
+      </div>
+
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Business case development with customer</li>
+<li>Define detailed requirements</li>
+<li>Design solution</li>
+<li>Develop solution with in-house staff or via third party</li>
+<li>Test, implement and provide ongoing support for the application</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing as needed and as planned</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Does not Include Local Application Development</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/application-development"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse3">
+            Application Performance Monitoring (Zabbix)          </a>
+        </h4>
+      </div>
+
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>System administration and operation of the Zabbix availability and performance monitoring system including user administration and user support.</li>
+<li>Monitoring and reporting of service levels for all systems and applications supported by IT Shared Services.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing as needed</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/application-performance-monitoring-zabbix"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse4">
+            Application Tools Support          </a>
+        </h4>
+      </div>
+
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>EIS (PeopleSoft) based Application Development in support of ITSS governance approved projects</li>
+<li>EIS (PeopleSoft) based web application analysis, design, development, testing, implementation, maintenance, and support services</li>
+<li>User interface design for web-based software applications</li>
+<li>Usability analysis, testing and recommendations including Web Accessibility compliance</li>
+<li>EIS application integration and customizations including security solutions</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>65% of projects completed on-time and on-budget, as planned following requirements approval (without scope changes or customer delays).</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe </strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus Wide Outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major Administrative Process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Application development for non-UNT System units.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/application-tools-support"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse5">
+            Blackbaud Raiser&#039;s Edge          </a>
+        </h4>
+      </div>
+
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Contract and Relationship Management with vendor; Handle contractual payments for services rendered. Review and manage contract service levels. Liaison between Advancement Offices and Blackbaud for contract management services.</p>
+<p>This hosted product provides Advancement Offices of all three campuses services via the following BlackBaud products: Raiser’s Edge, Gift Processing, Event Management, Donor Prospect Portfolio Management, NetCommunity Web Site and online giving, and Business Intelligence data warehouse</p>
+<p>PeopleSoft General Ledger feed (outbound), and Imports of data from ITSS operated Student and Human Resource systems (inbound).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Contracted availability is 99.9%, 24x7, excluding planned downtime, calculated monthly (Planned downtimes are Tuesdays and Thursdays from 11:00pm-3:00am EDT/EST and Sundays from 3:00am-7:00am EDT/EST)</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/blackbaud-raisers-edge"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse6">
+            Building Security System Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Provide network connectivity and troubleshooting for IP devices including cameras, door access systems, fire alarms, etc. ,</li>
+<li>Provide server support for Metasys, DNA Fusion and any other required in-house system</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTD College of Law</div>  </div>  
+  <div>        <span><a href="/service-catalog/building-security-system-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse7">
+            Business Intelligence Infrastructure          </a>
+        </h4>
+      </div>
+
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Operate the business intelligence Extract Transform Load and associated database infrastructure as well as the Cognos reporting infrastructure to support business intelligence activities across the UNT System Components.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, 24x7, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe </strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus Wide Outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major Administrative Process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Delivery of user reporting or online search activities.<br />Does not include Business Intelligence Local to Campuses</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/business-intelligence-infrastructure"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse8">
+            Business Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse8" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Annual budget process including preparation, development, negotiating, monitoring, management and reporting requirements</li>
+<li>Cost allocation</li>
+<li>Maintain rolling capital replacement plan</li>
+<li>Employee administrative support; all HR functions for ITSS</li>
+<li>Purchasing services for hardware, software and services</li>
+<li>Payment services for all ITSS services and contractual obligations</li>
+<li>Executive Support</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/business-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse9">
+            Campus Local Area Network (LAN)          </a>
+        </h4>
+      </div>
+
+      <div id="collapse9" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Design, install, upgrade as needed and maintain campus data distribution network providing 10/100 Mbps and 1/10 Gbps connectivity speeds depending on the application requirements. Support sub-netting, segmentation, redundancy, capacity planning, IP address management, equipment evaluation and selection, vendor evaluations and inventory management. Based on customer written specifications for service and schedule information.</p>
+<p><a href="/services/campus-local-area-network-lan" target="_blank" style="color: #478903;"> </a></p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.5% (excludes unplanned power outages in addition to equipment availability).</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - to activate an existing data port(s)</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident - service outage of 49 or more users in a single building</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident - service outage of 48 or less users in a single building</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">24 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Application support.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/campus-local-area-network-lan"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse10">
+            Campus Technology Support Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse10" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Operating hours are from 8:00 a.m. to 5:00 p.m. Monday-Friday except on scheduled holiday closures. After hours incidents can be logged into our ticket queue for next day resolution.</li>
+<li>Provide Desktop, network printer, peripheral device support and consultation for new software, hardware and technology services. Computer purchase, printer, and peripheral quotes will be provided for replacement and new purchases.</li>
+<li>Repair Dell and Apple PCs while under warranty through vendor.</li>
+<li>File server management and support including monitoring and restoring file backups, and recovery of files stored on supported File Servers.</li>
+<li>Tier one support for network connectivity including network access from the PC to the wall jack.</li>
+<li>Provide user account management, security group access, email distribution group creation, generic email and calendar account creation, desktop computer imaging, software deployment, PC inventory control tracking, remote desktop support, Windows updates and OS support and approved MAC support.</li>
+<li>Application Server support for approved Servers.</li>
+<li>Support for mobile devices and tablets is limited to email configuration and VPN configuration as needed.</li>
+</ul><p> </p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>File Server Availability: 99.5%, 24x7, excluding planned downtime, calculated monthly.</p>
+<p>Incident Response: Target is 85%</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – 20 or more users are unable to use a critical system in order to accomplish University tasks</td>
+<td class="services_column">30 minutes</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident – A problem that affects a user’s ability to use a service</td>
+<td class="services_column">1 business day</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><ul><li>Outsourced application support</li>
+<li>Third party application support at the functional level</li>
+<li>Hardware support for equipment out of warranty or leased equipment</li>
+<li>Software support for unapproved software downloads and purchases</li>
+<li>Tablet and mobile devices are only supported on a limited basis</li>
+<li>Printing from mobile devices is not included</li>
+<li>Files saved to the computer desktop, My Documents folder and C: drive (local computer hard drive) are not backed up.</li>
+</ul><p> </p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNTS, UNTD, UNTD College of Law</div>  </div>  
+  <div>        <span><a href="/service-catalog/campus-technology-support-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse11">
+            Campus Wireless Network          </a>
+        </h4>
+      </div>
+
+      <div id="collapse11" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Design, install, upgrade as needed and maintain the campus wireless networks.</li>
+<li>Support redundancy, capacity planning, IP address management, VPN management, day-to-day operation, equipment evaluation and selection, vendor evaluations and inventory management.</li>
+<li>Based on customer written specifications for service and schedule information.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.5% (excludes unplanned power outages in addition to equipment availability).</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - a request for additional coverage or specific ports access</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident - a wireless outage that affects one or more buildings and 49 or more users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident - a wireless outage that affects a part of a building and 48 or fewer users</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">24 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Application support.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD</div>  </div>  
+  <div>        <span><a href="/service-catalog/campus-wireless-network"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse12">
+            Cellular Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse12" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Conduct requirements/needs analysis for cellular services.</li>
+<li>Negotiate with vendors to provide services, research new vendor offering for mobile integration.</li>
+<li>Review monthly billing statements and process cellular billing.</li>
+<li>UNTHSC<br /> - Process internal requests/approvals<br /> - Order requested equipment<br /> - Process with a $10 fee for each service line (phone number)<br /> - Provide customer with reports regarding their services</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>As contracted with retail service provider</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - order for service or change of an existing service</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident/Request -Customer experiences total loss of service, is going out of town and needs an adjustment to service for the trip or needs billing reports for budget audit</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident/Request - Customer requests replacement for broken accessory or a change in service.</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">8 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/cellular-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse13">
+            Central Web Support          </a>
+        </h4>
+      </div>
+
+      <div id="collapse13" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>General Web and Drupal Site provisioning1st and 2nd Level Support for Academic, Administrative, Faculty etc.</li>
+<li>Module recommendation and installation</li>
+<li>Security and Module updates Consulting Services on Drupal Functionality and site building tasks</li>
+<li>Operation of primary web farm (administration, backup, and disaster recovery)</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.6%, 24x7, excluding planned downtime, calculated monthly.</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident - one or more site is unavailable</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident - isolated to a single site, not affecting service availability.</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">24 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Website development and design.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD</div>  </div>  
+  <div>        <span><a href="/service-catalog/central-web-support"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse14">
+            Classroom Support          </a>
+        </h4>
+      </div>
+
+      <div id="collapse14" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Perform research, design, procurement and installation of instructional equipment based on standard configuration (does not cover the cost of equipment or supplies);</li>
+<li>Monitor room equipment to ensure correct operation;</li>
+<li>Perform room equipment repair; (does not cover cost of equipment if not in warranty);</li>
+<li>Perform PC operating system and application maintenance in support of general operation.</li>
+<li>Provide Instructor assistance via telephone or onsite interactions;</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Incident Response: Target 85%</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – Building or multiple classrooms are out of service and are unable to accomplish University tasks</td>
+<td class="services_column">30 minutes</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident – A classroom or classroom equipment is out of Service</td>
+<td class="services_column">1 business day</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNTS, UNTD, UNTD College of Law</div>  </div>  
+  <div>        <span><a href="/service-catalog/classroom-support"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse15">
+            Compliance Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse15" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Internal and external government reporting</li>
+<li>IT audit response</li>
+<li>Risk Management</li>
+<li>Governmental Relations</li>
+<li>IT policy development and administration, compliance reviews and enforcement</li>
+<li>ITSS physical security, records management, website compliance, compliance status reporting, assessment and monitoring of new regulations</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>As Needed</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD</div>  </div>  
+  <div>        <span><a href="/service-catalog/compliance-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse16">
+            Constituent Relationship Management (CRM) - Maintenance and Operations          </a>
+        </h4>
+      </div>
+
+      <div id="collapse16" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Hardware infrastructure support</li>
+<li>Database administration</li>
+<li>Application infrastructure administration</li>
+<li>Security administration</li>
+<li>Development of customizations and interfaces for the purchased baseline system</li>
+<li>Maintenance support to the functional user departments</li>
+<li>Management and application of major upgrades, patches, and fixes to the purchased application software products</li>
+<li>Development of regular production reports and assistance of users in the development of queries</li>
+<li>Creation of "home grown" solutions for university administration departments</li>
+<li>Business analyst services in support of configuration, testing, business process design, cross application coordination, and security models</li>
+<li>Training development services</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, 24x7, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus-wide outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major administrative process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT</div>  </div>  
+  <div>        <span><a href="/service-catalog/constituent-relationship-management-crm-maintenance-and-operations-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse17">
+            Constituent Relationship Management (CRM) - Updates and Changes          </a>
+        </h4>
+      </div>
+
+      <div id="collapse17" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Modifications to CRM system</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>65% percent of projects completed on-time and within budget as originally planned (without scope changes or customer delays).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT</div>  </div>  
+  <div>        <span><a href="/service-catalog/constituent-relationship-management-crm-updates-and-changes-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse18">
+            Data Center Infrastructure Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse18" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Oversight logging, reporting &amp; scheduling; support for staff who perform production processing, application and data base management; hardware installation of servers, racks, electrical wiring, cooling, and network cabling in the data centers when requested; environmental monitoring; physical security of all data centers; responsible for electrical/mechanical data center installations; inventory tracking, surplus and secure removal of equipment; network cable installation support</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Data Center Availability: 99.671%, 24x7</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">Non-incident request for equipment installations, removals or other changes</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Data Center outage</td>
+<td class="services_column">A data center is unavailable due to power, cooling or other environmental issue</td>
+<td class="services_column">&lt;5 minutes</td>
+<td class="services_column">4 hours</td>
+</tr><tr class="services_row"><td class="services_column">20+ systems out of service</td>
+<td class="services_column">A production service unavailability across multiple devices in a data center due to power, cooling or other environmental issue</td>
+<td class="services_column">30 minutes</td>
+<td class="services_column">6 hours</td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident</td>
+<td class="services_column">An incident impacting one or a few users that has a major impact on production operations</td>
+<td class="services_column">4 hours</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident</td>
+<td class="services_column">An incident impacting non-production service or minimal to no impact on production operations</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">8 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><ul><li>Server hardware, network hardware, OS or application management at HSC except those managed by IT Shared Services</li>
+<li>Any clinical, practice management, high security research or other local systems at UNTHSC.</li>
+</ul><p> </p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/data-center-infrastructure-services-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse19">
+            Data Center Networks          </a>
+        </h4>
+      </div>
+
+      <div id="collapse19" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Design, install, upgrade as needed and maintain the data center network providing for critical computing resources (EIS, etc.). Support firewalls, VPNs, load balancing, redundancy, capacity planning, IP address management, day-to-day operation, equipment evaluation and selection, vendor evaluations and inventory management. Any UNTHSC data center network service is based on advance approval in writing by the UNTHSC CIO.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.5%, 24x7</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - activating an existing port</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident - an outage affecting 24 or more systems (ports)</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">6 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident - an outage affecting 23 or less systems (ports)</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">10 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Application Support; Any clinical or other high security research networks in the data center at UNTHSC.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/data-center-networks-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse20">
+            Data Protection Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse20" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Installation, maintenance and support of the backup infrastructure including D2D, tape and media agent systems; assist with agent installations; assist with area restores; trouble shooting backup/restore issues; storage policy definition and implementation; backup reporting for customer distribution; determination of backup storage and tape requirements; management of offsite storage and media; based on customer written specifications for service and schedule information.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.621%, 24x7</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">Non-incident request for adding clients, configuring new service or other changes</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident</td>
+<td class="services_column">An incident or request that has a major impact on production backups or restoration of production operations</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident</td>
+<td class="services_column">An incident or request impacting non-production service or minimal to no impact on production operations</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">8 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><ul><li>Monitoring of success of individual server backups: that is the responsibility of the manager of the server.</li>
+<li>Backup management services for workstations and laptops.</li>
+<li>Enforcement of retention outside of individually established and agreed upon policies.</li>
+<li>Any clinical, practice management, research or other local UNTHSC system.</li>
+</ul><p> </p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/data-protection-services-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse21">
+            Data Storage Management          </a>
+        </h4>
+      </div>
+
+      <div id="collapse21" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Installation, configuration and maintenance of storage arrays; installation, configuration and maintenance of datacenter storage networks (both fiber and iSCSI).</li>
+<li>Storage capacity planning; configuration and management of data replication based on classification or customer request; based on customer written specifications for service and schedule information.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">Non-incident request for volume addition, deletion, replication, snapshot or other changes</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">2 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Storage System Down</td>
+<td class="services_column">A production storage system is unavailable</td>
+<td class="services_column">30 minutes</td>
+<td class="services_column">4 hours</td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident</td>
+<td class="services_column">An incident impacting one or a few users that has a major impact on production operations</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident</td>
+<td class="services_column">An incident impacting non-production service or minimal to no impact on production operations</td>
+<td class="services_column">1 business hour</td>
+<td class="services_column">8 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><ul><li>Support for servers or storage systems outside of an ITSS-managed data center</li>
+<li>Any clinical, practice management, research or other local systems at UNTHSC.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/data-storage-management-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse22">
+            Database Administration          </a>
+        </h4>
+      </div>
+
+      <div id="collapse22" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Limited to Oracle and MS SQL/Server databases; installation and configuration; maintenance and support; performance management; backup and recovery, based on customer written specifications for service and schedule information.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">Non-incident request for database creation, deletion, backup or other changes</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Production Database Outage</td>
+<td class="services_column">Production database(s) are unavailable</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">4 hours</td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident</td>
+<td class="services_column">An incident impacting one or a few users that has a major impact on production operations</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident</td>
+<td class="services_column">An incident impacting non-production service or minimal to no impact on production operations</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">8 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Any clinical, practice management, research or other local systems at UNTHSC.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/database-administration-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse23">
+            Degree Management Systems          </a>
+        </h4>
+      </div>
+
+      <div id="collapse23" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Operate application system to support UNT degree management.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, 24x7, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus Wide Outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major Administrative Process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTD</div>  </div>  
+  <div>        <span><a href="/service-catalog/degree-management-systems-0"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse24">
+            Digital Media Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse24" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Provide IP, software, hardware support through warranty,</li>
+<li>Provide connectivity troubleshooting, consultation services, research, design of digital signage systems</li>
+<li>Provide access control to the content management system</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Content management for all Digital Signage Systems is the responsibility of the system owner</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNTS, UNTD, UNTD College of Law</div>  </div>  
+  <div>        <span><a href="/service-catalog/digital-media-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse25">
+            Directory Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse25" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Directory Services for authentication. Application infrastructure for most services. Permissions for File/Print services, IE, LDAP, AD, shibboleth and radius</li>
+<li>Workstation management PKI/ Certificate services, Microsoft Active Directory Certificate Service, Federation Service (ADFS), System Center Operations Manager (SCOM), Configuration Manager (SCCM), Volume License Service and Account Management System (AMS) web site.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>99.9%, 24x7</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - account lockout, problem authenticating, or incorrect directory information</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – an outage or issue that affects 50 or more users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident – an outage or issue that affects 49 or less users</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">8 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/directory-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse26">
+            Disaster Recovery and Business Continuity Planning          </a>
+        </h4>
+      </div>
+
+      <div id="collapse26" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>For ITSS enterprise systems, manages the ITSS disaster recovery and business continuity plan (DR/BCP), test the DR/BCP, provides disaster recovery incident response and communication support, maintains the UNT Ready service.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Clinical, research, and other local systems at UNTHSC.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/disaster-recovery-and-business-continuity-planning"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse27">
+            Email hosting for faculty/staff          </a>
+        </h4>
+      </div>
+
+      <div id="collapse27" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Email, Calendaring, Contacts &amp; Resource Reservation</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.9%, 24x7, excluding planned downtime, calculated monthly.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident - an outage or issue that affects 50 or more users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident - an outage or issue that affects 49 or fewer users</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">24 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/email-hosting-facultystaff"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse28">
+            Emergency Notifications          </a>
+        </h4>
+      </div>
+
+      <div id="collapse28" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Provide mass notification of students, faculty and staff at UNT System and each Campus.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>99.9%</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/emergency-notifications"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse29">
+            Financial Information Systems - Maintenance and Operations          </a>
+        </h4>
+      </div>
+
+      <div id="collapse29" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Hardware infrastructure support</li>
+<li>Database administration</li>
+<li>Application infrastructure administration</li>
+<li>Security administration</li>
+<li>Development of customizations and interfaces for the purchased baseline system</li>
+<li>Maintenance support to the functional user departments</li>
+<li>Management and application of major upgrades, patches, and fixes to the purchased application software productst</li>
+<li>Development of regular production reports and assistance in the development of queries</li>
+<li>Creation of “home grown” solutions for university administration departments</li>
+<li>Business analyst services in support of configuration, testing, business process design, cross application coordination, and security models</li>
+<li>Training development services</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus-wide outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major administrative process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/financial-information-systems-maintenance-and-operations"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse30">
+            Financial Information Systems - Updates and Changes          </a>
+        </h4>
+      </div>
+
+      <div id="collapse30" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Modifications to Financial Systems</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>65% of projects completed on-time and within budget as originally planned (without scope changes or customer delays).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/financial-information-systems-updates-and-changes"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse31">
+            Governance and Portfolio and Project Management          </a>
+        </h4>
+      </div>
+
+      <div id="collapse31" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Manages customer relationships and governance processes, maintains management of the ITSS portfolio of services and provides project management services for all ITSS-delivered services. Develops strategic initiatives from customer submitted business needs.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>65% percent of projects completed on-time and within budget as originally planned (without scope changes or customer delays).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/governance-and-portfolio-and-project-management"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse32">
+            Human Capital Management (HR/Payroll) Information Systems - Maintenance and Operations          </a>
+        </h4>
+      </div>
+
+      <div id="collapse32" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Hardware infrastructure support</li>
+<li>Database administration</li>
+<li>Application infrastructure administration</li>
+<li>Security administration</li>
+<li>Development of customizations and interfaces for the purchased baseline system</li>
+<li>Maintenance support to the functional user departments</li>
+<li>Management and application of major upgrades, patches, and fixes to the purchased application software productst</li>
+<li>Development of regular production reports and assistance of users in the development of queries</li>
+<li>Creation of “home grown” solutions for university administration departments</li>
+<li>Business analyst services in support of configuration, testing, business process design, cross application coordination, and security models</li>
+<li>Training development services</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus-wide outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major administrative process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/human-capital-management-hrpayroll-information-systems-maintenance-and-operations"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse33">
+            Human Capital Management (HR/Payroll) Information Systems - Updates and Changes          </a>
+        </h4>
+      </div>
+
+      <div id="collapse33" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Modifications Human Capital Management Systems</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>65% of projects completed on-time and within budget as originally planned (without scope changes or customer delays).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>N/A</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/human-capital-management-hrpayroll-information-systems-updates-and-changes"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse34">
+            Imaging Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse34" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Assist departments on getting Capturenow license.</li>
+<li>Assist with planning drawer and document structure within department.</li>
+<li>Build Learnmodes for linking based on PeopleSoft pages.</li>
+<li>Build workflow for department based on departmental needs.</li>
+<li>Create custom properties and field as needed.</li>
+<li>Build users, groups, doc types and doc type lists.</li>
+<li>Configure server and security settings for each department. Configure scanners to work with ImageNow.</li>
+<li>Test and troubleshoot scanning and ImageNow issues</li>
+<li>Assist users with adding additional features after initial rollout.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>System Availability: 98.9%, 24x7, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p>65% of projects completed on-time and on-budget, as planned following requirements approval (without scope changes or customer delays).</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus-wide outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major administrative process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 hours</td>
+<td class="services_column">12 Hours M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Departmental business process training and management within department.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD</div>  </div>  
+  <div>        <span><a href="/service-catalog/imaging-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse35">
+            Incident Call and Support Request Tracking          </a>
+        </h4>
+      </div>
+
+      <div id="collapse35" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Customer service request generation</li>
+<li>Incident management tracking</li>
+<li>Change management tracking</li>
+<li>Knowledgebase management</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p><strong>Service availability and office hours</strong></p>
+<p>The ITSM tool is operational 24/7/365 and is committed to a 99.5% uptime during each calendar quarter, excluding regularly scheduled maintenance times or Force Majeure events.</p>
+<p>Application administration support is available 8am - 5pm, Monday - Friday. On call support available after hours for emergencies</p>
+<p><strong>Scheduled and Unscheduled Maintenance</strong></p>
+<p>Maintenance time is considered scheduled if it is communicated to user community via system notice 5 days in advance. Maintenance windows will be planned to occur between 10:00pm and 2:00am when possible.</p>
+<p><strong>Backup and Disaster Recovery</strong></p>
+<p>In the event of a disaster, services will be operational in the DRS within six hours.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Inventory lifecycle management</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/incident-call-and-support-request-tracking"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse36">
+            Information Security          </a>
+        </h4>
+      </div>
+
+      <div id="collapse36" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Information Security Officer roles and responsibilities.</li>
+<li>Security incident response (CERT) and forensic analysis</li>
+<li>Risk assessment and vulnerability scanning services</li>
+<li>Intrusion detection and network monitoring, consultation for risk management decision making</li>
+<li>Consultation on security related compliance issues, consultation on security architecture and secure system design, antivirus/Malware, Encryption, and data leak prevention tool support, distribution, and management</li>
+<li>Security training and awareness</li>
+<li>DIR TAC 202 compliance, monthly and quarterly reporting on aspects of the security program, security research services, policy development, audit response for ITSS-responsible areas in collaboration with campuses</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Special management and monitoring required for compliance of high security clinical, practice management, research and other local systems at UNTHSC. Campus IRM responsible for campus IT reports.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/information-security"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse37">
+            IT Governance Administration          </a>
+        </h4>
+      </div>
+
+      <div id="collapse37" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Management of ITSS governance processes, committees and initiative requests. Includes support and operations of all communications, technology and workflow systems required to manage governance processes.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/it-governance-administration"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse38">
+            IT Measurement and Reporting          </a>
+        </h4>
+      </div>
+
+      <div id="collapse38" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Develop and report metrics measuring the quality and performance of and the satisfaction with IT services.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p><strong>Service availability and office hours</strong></p>
+<p>Service is generally available 8am - 5pm Monday - Friday by appointment.</p>
+<p>65% of projects completed on time, within budget, as originally planned (without scope changes or customer delays)</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/it-measurement-and-reporting"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse39">
+            IT Planning Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse39" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Supports IT strategic planning initiatives and assessment measures. Manages ITSS travel reimbursement services, space and asset inventories, offices moves, renovations, key systems and maintenance, card swipe systems, and alarm systems; develops space and floor plans. Acts as Discovery Park building representative and manager of ITSS emergency services and safety coordinator program. Provide reception and guest services.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>As Needed</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/it-planning-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse40">
+            Learning Management System Service and Support          </a>
+        </h4>
+      </div>
+
+      <div id="collapse40" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>System Administration for 5 unique Blackboard environments including : Production, Development, Data Recovery, Failover/Disaster Recovery, and Next Generation Software Development</li>
+<li>Management of archiving and course retention for all Blackboard sections-Development and maintenance for a suite of add-on management tools integrating the Blackboard Course Management System with UNT’s enrollment services.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, excluding planned downtime, calculated monthly. Planned downtime is scheduled every Saturday 11:00pm – Sunday 2:00am. Extended downtimes (for infrastructure maintenance major upgrades, etc.) are planned and scheduled as needed</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus-wide outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major administrative process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 hours</td>
+<td class="services_column">12 Hours M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Faculty and student support of Blackboard LEARN 9.1, and design and development of online courses.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTD</div>  </div>  
+  <div>        <span><a href="/service-catalog/learning-management-system-service-and-support"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse41">
+            Microsoft Premier Support          </a>
+        </h4>
+      </div>
+
+      <div id="collapse41" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Direct support for all Microsoft servers and enterprise applications; risk assessments for all major Microsoft systems; training for application managers; proactive planning and guidance</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/microsoft-premier-support"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse42">
+            Network Firewall &amp; VPN          </a>
+        </h4>
+      </div>
+
+      <div id="collapse42" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Provide operational support for the campus firewall and VPN services for the data network including firewall rule changes and VPN access control. Support the day-to-day operations and growth of various campus firewalls (currently 48 firewalls across the System) and VPN’s (currently 7 VPN systems across the System) for UNT Denton, Discovery Park, UNT Dallas, UCD, Active Directory and Outlook service, primary and backup data center networks, PCI security compliance network (SCN), maintain and optimize all firewall and VPN rules and upgrade firewall hardware as needed.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.95%, 24x7</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - new or modified firewall rule</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident - an outage or issue that affects 50 or more users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident - an outage or issue that affects 49 or less users</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">24 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Does not include UNTHSC special clinical or research systems or support</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/network-firewall-vpn"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse43">
+            Portal - Maintenance and Operations (my.unt.edu, my.hsc.edu, mylaw.untsystem.edu)          </a>
+        </h4>
+      </div>
+
+      <div id="collapse43" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Hardware infrastructure support</li>
+<li>Database administration</li>
+<li>Application infrastructure administration</li>
+<li>Security administration</li>
+<li>Development of customizations and interfaces for the purchased baseline system</li>
+<li>Maintenance support to the functional user departments</li>
+<li>Management and application for major upgrades, patches, and fixes to the purchased application software products</li>
+<li>Development of regular production reports and assistance in the development of queries</li>
+<li>Creation of “home grown” solutions for university administration departments</li>
+<li>Business analyst services in support of configuration, testing, business process design, cross application coordination, and security models</li>
+<li>Training development services</li>
+</ul><p> </p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, 24x7, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus-wide outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major administrative process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 hours</td>
+<td class="services_column">12 Hours M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/portal-maintenance-and-operations-myuntedu-myhscedu-mylawuntsystemedu"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse44">
+            Portal - Updates and Changes          </a>
+        </h4>
+      </div>
+
+      <div id="collapse44" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Modifications to Portals</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>65% of projects completed on-time and within budget as originally planned (without scope changes or customer delays).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/portal-updates-and-changes"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse45">
+            Professional Development and IT Training          </a>
+        </h4>
+      </div>
+
+      <div id="collapse45" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Manages professional development and IT training programs</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>As Needed</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/professional-development-and-it-training"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse46">
+            Research Software          </a>
+        </h4>
+      </div>
+
+      <div id="collapse46" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Maintains licensing and contract management for existing cross-institutional research software products (e.g., SPSS, SAS, etc.)</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/research-software"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse47">
+            Server Provisioning          </a>
+        </h4>
+      </div>
+
+      <div id="collapse47" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Hardware or VM provisioning; determine security level of data hosted by server; determine firewall requirements; OS installation; baseline security scans and resolution of issues; application or service installation and/or role enablement; security scans after applications, service and role enablement’s have been done; arrange for backups of the server; setup appropriate firewall rules; setup appropriate IPsec rules; communicate the security information about the server to the appropriate department contact; provide access to user department</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Virtual Server provisioning in less than 30 minutes for basic, non-managed VM server during business hours.</p>
+<p>Physical or Virtual Server availability 99.172%, 24x7, less planned downtime. Planned downtime for production environments is 12 hours every quarter scheduled to minimize any disruptions.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response Objective</strong></td>
+<td class="services_column"><strong>Resolution Objective***</strong></td>
+</tr><tr class="services_row"><td class="services_column">Production Server Down</td>
+<td class="services_column">A production server is either offline or is causing a production service to be unavailable for the entire system</td>
+<td class="services_column">30 minutes</td>
+<td class="services_column">4 Hours</td>
+</tr><tr class="services_row"><td class="services_column">20+ People out of service</td>
+<td class="services_column">A production service unavailability is impacting more than 20 users</td>
+<td class="services_column">1 Hour</td>
+<td class="services_column">6 Hours</td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident</td>
+<td class="services_column">An incident impacting one or a few users that has a major impact on production operations</td>
+<td class="services_column">4 Hours</td>
+<td class="services_column">8 Hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident</td>
+<td class="services_column">An incident impacting nonproduction service or minimal to no impact on production operations</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">8 business hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">Non-incident request for OS/patch/applicat ion installation,server restart or other changes</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table><p>*Actual resolution depends on nature of the outage and potentially vendor availability.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Purchasing of application software/licenses, and any clinical, practice management, research or other local systems at UNTHSC.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/server-provisioning"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse48">
+            Service Level Management          </a>
+        </h4>
+      </div>
+
+      <div id="collapse48" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Develop and administer the execution of ITIL processes in support of the major operational processes in ITSS.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Service availability and office hours Service is generally available 8am - 5pm Monday - Friday by appointment.</p>
+<p>65% of projects completed on time, within budget, as originally planned (without scope changes or customer delays)</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/service-level-management"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse49">
+            SharePoint - System Administration (UNTranet)          </a>
+        </h4>
+      </div>
+
+      <div id="collapse49" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Operation (administration, backup, and disaster recovery) for UNTranet production system, ReDUNtranet - failover for production system, and UNTranetDEV - development and testing system.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.9%, 24x7, excluding planned downtime, calculated monthly. Planned downtime is the second Saturday of each month from 10:00pm – Sunday 2:00am.</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Service Request</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">2 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident - one or more site(s) are unavailable</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident - isolated to a single site, not affecting service availability</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">24 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/sharepoint-system-administration-untranet"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse50">
+            Software Licensing and Contract Management          </a>
+        </h4>
+      </div>
+
+      <div id="collapse50" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Provide UNT System-wide contracting, procurement and initial software distribution of enterprise computing server and desktop software (e.g., Microsoft licenses, Adobe licenses, etc.)</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Ongoing</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/software-licensing-and-contract-management"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse51">
+            Student Administration Information Systems - Maintenance and Operations          </a>
+        </h4>
+      </div>
+
+      <div id="collapse51" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Hardware infrastructure support</li>
+<li>Database administration</li>
+<li>Application infrastructure administration</li>
+<li>Security administration</li>
+<li>Development of customizations and interfaces for the purchased baseline system</li>
+<li>Maintenance support to the functional user departments</li>
+<li>Management and application of major upgrades, patches, and fixes to the purchased application software products</li>
+<li>Development of regular production reports and assistance of users in the development of queries</li>
+<li>Creation of "home grown" solutions for university administration departments</li>
+<li>Business analyst services in support of configuration, testing, business process design, cross application coordination, and security models</li>
+</ul><p>Training development services</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 98.9%, excluding planned downtime, calculated monthly. Planned downtime can occur during maintenance windows which are identified as every Saturday, 7:00 pm-noon on Sunday and every Tuesday and Thursday from 7:00pm-9:30pm.</p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Target Close / Timeframe</strong></td>
+</tr><tr class="services_row"><td class="services_column">Campus Wide Outage</td>
+<td class="services_column">15 Minutes</td>
+<td class="services_column">4 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Major Administrative Process inoperable or degraded</td>
+<td class="services_column">30 Minutes</td>
+<td class="services_column">6 Hours, 24x7</td>
+</tr><tr class="services_row"><td class="services_column">Application feature error</td>
+<td class="services_column">2 Hours</td>
+<td class="services_column">12 Hours, M-F 8am-5pm</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/student-administration-information-systems-maintenance-and-operations"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse52">
+            Student Administration Information Systems - Updates and Changes - Institution specific benefit          </a>
+        </h4>
+      </div>
+
+      <div id="collapse52" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Modifications to Student Systems</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>65% of projects completed on-time and within budget as originally planned (without scope changes or customer delays).</p>
+</div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/student-administration-information-systems-updates-and-changes-institution-specific"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse53">
+            Telephone Services – UNT, UNTD, UNTS          </a>
+        </h4>
+      </div>
+
+      <div id="collapse53" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Install, maintain, contract management, user training, inside plant (wiring), outside plant (wiring), password management (voicemail/UM) records management (station, user, cable, etc.), monthly billing, operator services, move and change services, investigate new options and services (mobile integration, unified communications, VOIP, etc.) and inventory management</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.9%, 24x7</p>
+<p>All work delivered to project plan specifications</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - move, add or change services</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table><p> </p>
+<p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – an outage or issue that affects 49 or less users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident – an outage or issue that affects 49 or less users</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">16 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD</div>  </div>  
+  <div>        <span><a href="/service-catalog/telephone-services-%E2%80%93-unt-untd-unts"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse54">
+            Telephone Services – UNTHSC          </a>
+        </h4>
+      </div>
+
+      <div id="collapse54" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><ul><li>Install, maintain, contract management, user training, inside plant (wiring), outside plant (wiring), circuit orders, billing and support, password management (voicemail / UM), records management (station, user, cable, etc.), monthly billing, move and change services, investigate new options and services and inventory management.</li>
+<li>Service and support for pager services. Service and support for Contact Center (ACD, call center system). CDR for long distance usage.</li>
+<li>Billing service and support for long distance, non-PBX telephone lines and remote offices/clinics.</li>
+</ul></div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.9%, 24x7</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - move, add or change services</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – an outage or issue that affects 49 or less users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident – an outage or issue that affects 49 or less users</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">16 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Data services set-up and support.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/telephone-services-%E2%80%93-unthsc"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse55">
+            Unified Messaging          </a>
+        </h4>
+      </div>
+
+      <div id="collapse55" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Voicemail into an email based on usage</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.9%, 24x7, excluding planned downtime, calculated monthly.</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request - move, add or change services</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"> <strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – an outage or issue that affects 49 or less users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident – an outage or issue that affects 49 or less users</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">16 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/unified-messaging"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse56">
+            Video Conferencing Network          </a>
+        </h4>
+      </div>
+
+      <div id="collapse56" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Design, install, upgrade as needed and maintain the video conferencing network including the Multipoint Control Unit that allows connections of multiple videoconference sites together. Support day-to-day operation of the network, equipment evaluation and selection and vendor evaluations.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.5%, 24x7 (includes unplanned power outages in addition to equipment availability).</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – a loss of full connectivity (all video conferencing facility at any of the System locations)</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident -a partial loss of connectivity (any video conferencing facility at any of the System locations)</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">24 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Scheduling of videoconference rooms and design of videoconference rooms .</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/video-conferencing-network"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse57">
+            Virtualization Services          </a>
+        </h4>
+      </div>
+
+      <div id="collapse57" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Central design, support and management of virtual server infrastructure, operating systems and associated storage/backup systems.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.621%, 24/7</p>
+<p><strong>Incident Resolution</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Description</strong></td>
+<td class="services_column"><strong>Response Objective</strong></td>
+<td class="services_column"><strong>Resolution Objective***</strong></td>
+</tr><tr class="services_row"><td class="services_column">VM Cluster Down</td>
+<td class="services_column">A production server is either offline or is causing a production service to be unavailable for the entire system</td>
+<td class="services_column">30 minutes</td>
+<td class="services_column">4 hours</td>
+</tr><tr class="services_row"><td class="services_column">20+ People out of service</td>
+<td class="services_column">A production service unavailability is impacting more than 20 users</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">6 hours</td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident</td>
+<td class="services_column">An incident impacting one or a few users that has a major impact on production operations</td>
+<td class="services_column">4 hours</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident</td>
+<td class="services_column">An incident impacting nonproduction service or minimal to no impact on production operations</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">8 business hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Request</td>
+<td class="services_column">Non-incident request for OS/patch/applicat ion installation, server restart or other changes</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">3 business days</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Does not include special and high security local campus virtualized servers</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/virtualization-services"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a class="accordion-toggle"
+             data-toggle="collapse"
+             data-parent="#views-bootstrap-accordion-1"
+             href="#collapse58">
+            Wide Area Network (WAN)          </a>
+        </h4>
+      </div>
+
+      <div id="collapse58" class="panel-collapse collapse">
+        <div class="panel-body">
+            
+  <div class="views-field views-field-field-base-level-services">    <span class="views-label views-label-field-base-level-services">Base Level Services: </span>    <div class="field-content"><p>Design, install, upgrade as needed and maintain the wide area network. Support redundancy, capacity planning, interface to LEARN (Lone Star Education And Research Network) and other service providers, firewall configurations, equipment evaluation and selection, vendor evaluations, inventory management and day-to-day operations.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-service-level">    <span class="views-label views-label-field-service-level">Service Level: </span>    <div class="field-content"><p>Availability: 99.95%, 24x7.</p>
+<p style="padding-left: 30px;"><strong>Service Request Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Service Request</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Design and Assessment</strong></td>
+</tr><tr class="services_row"><td class="services_column">Routine Request – changes to existing firewall rules</td>
+<td class="services_column">8 business hours</td>
+<td class="services_column">5 business days</td>
+</tr></tbody></table><p style="padding-left: 30px;"><strong>Incident Response:</strong></p>
+<table class="services_table" style="width: 80%;" border="1" cellspacing="0" cellpadding="0"><tbody><tr class="services_row"><td class="services_column"><strong>Severity</strong></td>
+<td class="services_column"><strong>Response</strong></td>
+<td class="services_column"><strong>Resolution</strong></td>
+</tr><tr class="services_row"><td class="services_column">Critical Incident – a loss of internet or EIS connectivity at any of the System locations</td>
+<td class="services_column">1 hour</td>
+<td class="services_column">8 hours</td>
+</tr><tr class="services_row"><td class="services_column">Routine Incident – a partial loss of connectivity(specific services, i.e. payroll, etc.)</td>
+<td class="services_column">4 business hours</td>
+<td class="services_column">16 business hours</td>
+</tr></tbody></table></div>  </div>  
+  <div class="views-field views-field-field-services-not-included">    <span class="views-label views-label-field-services-not-included">Services Not Included: </span>    <div class="field-content"><p>Application support.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-customers-served">    <span class="views-label views-label-field-customers-served">Customers Served: </span>    <div class="field-content">UNT, UNTS, UNTD, UNTHSC</div>  </div>  
+  <div>        <span><a href="/service-catalog/wide-area-network-wan"><div class="btn btn-default pull-right"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></div></a></span>  </div>        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->  </div>
+        </section>
+    
+        
+      </div>
+    </div>
+    
+</div>
+
+
+<!-- START FOOTER SECTION -->
+<div id="footer">
+    <footer id="footer-area" class="footer container">
+        <div class="footer-stamp"> </div>
+        
+                  <aside class="col-sm-3" role="complementary">
+              <div class="region region-footer-first">
+    <div id="block-block-9" class="block block-block">
+
+      
+  <div class="content">
+    <div id="block-block-1" class="block block-block">
+<div class="content foooter-block1">
+<h4>Mailing Address</h4>
+<p>1155 Union Circle #305398 <br /> Denton, TX 76203-5017</p>
+<h4><a href="/physical-address" target="_blank" style="color: #9cd54f;">Visiting ITSS</a></h4>
+<p>Discovery Park <br /> 3940 N. Elm, E201 <br /> Denton, TX 76207</p>
+</div>
+</div>
+  </div>
+  
+</div> <!-- /.block -->  </div>
+          </aside><!-- /#footer-first -->
+                
+                  <aside class="col-sm-6" role="complementary">
+              <div class="region region-footer-second">
+    <div id="block-block-10" class="block block-block">
+
+      
+  <div class="content">
+    <h4><a href="https://hr.untsystem.edu/job-applicants/how-apply-job" target="_blank" style="color: #9cd54f;"><span style="font-size: 1.154em; line-height: 1.538em;">Employment</span></a></h4>
+<h4><span style="font-size: 1.154em; line-height: 1.538em;">Site Information</span></h4>
+<p>To submit comments, suggestions, or corrections regarding this website, please use the <a href="/contact-us-0" target="_blank">contact form</a> | UNT System</p>
+<h4>UNT System Web Policy Links</h4>
+<p class="ext"><a href="http://www.unt.edu/ada.htm" target="_blank">AA/EOE/ADA</a> | <a href="https://itss.untsystem.edu/privacy-statement">Privacy Statement</a> | <a href="http://policy.unt.edu/" target="_blank">Web Accessibility Policy</a> | <a href="http://www.texas.gov/en/Pages/default.aspx" target="_blank">State of Texas Information</a> | <a href="https://itss.untsystem.edu/linking-notice">Linking Notice</a></p>
+  </div>
+  
+</div> <!-- /.block -->  </div>
+          </aside><!-- /#footer-second -->
+                
+                  <aside class="col-sm-3" role="complementary">
+              <div class="region region-footer-third">
+    <div id="block-block-11" class="block block-block">
+
+      
+  <div class="content">
+    <h4>State of Texas links</h4>
+<p><a href="http://www.texas.gov/en/Pages/default.aspx?AspxAutoDetectCookieSupport=1" target="_blank">State of Texas Online</a> | <a href="http://www.tsl.state.tx.us/trail/" target="_blank">Statewide Search</a> | <a href="http://governor.state.tx.us/homeland" target="_blank">Texas Homeland Security</a> | <a href="http://publishingext.dir.texas.gov/portal/internal/resources/DocumentLibrary/State%20Website%20Linking%20and%20Privacy%20Policy.pdf" target="_blank">State Link Policy</a> | <a href="http://www.txhighereddata.org" target="_blank">Texas Higher Education</a> | <a href="http://compliance.untsystem.edu/hotline" target="_blank">UNT SYSTEM COMPLIANCE HOTLINE</a></p>
+  </div>
+  
+</div> <!-- /.block -->  </div>
+          </aside><!-- /#footer-third -->
+            
+         <aside class="col-sm-12" role="complementary" style="clear:both">
+                   </aside><!-- /#footer-bottom -->
+    
+    </footer>
+</div><!-- /footer -->
+
+
+
+<a id="back-to-top" href="#top" class="btn btn-primary btn-lg back-to-top" role="button">
+	<span class="glyphicon glyphicon-chevron-up"></span>
+</a> <!-- /top-link-block -->
+  <script src="//itss.untsystem.edu/sites/default/files/js/js_Ib-aAIBk2ma4Grd7TuDektXNbLkROYuEmZTurqWvzH0.js"></script>
+</body>
+</html>

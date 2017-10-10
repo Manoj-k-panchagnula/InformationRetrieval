@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="Description" content="University of North Texas">
+    <title>University of North Texas - Department of Learning Technologies</title>
+	<script type="text/javascript">
+		var BASE = 'http://www.lt.unt.edu';
+		var TOKEN = '1B3BLnxr6FqbZ62JjIGwFSU3q3xdCkG6YPwHEZnR';
+	</script>
+    			<script src="http://www.lt.unt.edu/js/jquery-1.10.2.min.js"></script>
+        <script src="http://www.lt.unt.edu/js/lt.js"></script>
+        <script src="http://www.lt.unt.edu/js/jquery.yaselect.js"></script>
+        <link media="screen" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/jquery.yaselect.css">
+        <link media="screen" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/vbutton.css">
+        <link media="screen" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/screen-3.6.css">
+                	<link media="screen" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/new_footer.css">
+            <link media="print" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/new_footer-print.css">
+                        <link media="print" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/print-3.6.css">
+  
+                	<script src="http://www.lt.unt.edu/js/google_analytics.js"></script>
+          	
+    
+    <script src="http://www.lt.unt.edu/js/index.js"></script>
+    
+    <script src="http://www.lt.unt.edu/js/jquery.carouFredSel-3.2.1-pack.js"></script>
+        	<link media="screen" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/badges.css">
+        <link media="screen" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/index.css">
+    <link media="print" type="text/css" rel="stylesheet" href="http://www.lt.unt.edu/css/index-print.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>            <a id="skip_to_content" href="#content">skip to content</a>
+            <!-- <form id="site_search" action="/search"> -->
+            <form method="POST" action="http://www.lt.unt.edu/search" accept-charset="UTF-8" id="site_search"><input name="_token" type="hidden" value="1B3BLnxr6FqbZ62JjIGwFSU3q3xdCkG6YPwHEZnR">            	<input placeholder="Search Learning Technologies" name="site_search_query" type="text">                <input class="vbutton" type="submit" value="Search">    
+            </form>            
+            <!-- </form> -->
+            <menu id="top_nav">
+                <li><a href="https://my.unt.edu/">MyUNT</a></li>
+                <li><a href="https://eagleconnect.unt.edu/">EagleConnect</a></li>
+                <li><a href="http://learn.unt.edu/">Blackboard</a></li>
+                <li><a href="http://www.unt.edu/find-people-department.htm">People &amp; Departments</a></li>
+                <li><a href="http://maps.unt.edu">Maps</a></li>
+                <li><a href="http://www.unt.edu/calendars-events.htm">Calendars</a></li>
+                <li><a href="https://giving.unt.edu/content/giving-unt">Giving to UNT</a></li>
+            </menu>
+            <a id="unt_logo_link" href="http://www.unt.edu">
+                <img src="/images/unt-logo.png" alt="UNT | University of North Texas" height="54" width="164">
+            </a>
+            <div id="lockup_wrapper">
+                <a id="ci_logo_link" href="http://ci.unt.edu">
+                    <!-- <img src="/images/coi-logo.png" alt="College of Information"> -->
+                    <!-- <img src="/images/coi-lockup.png" alt="College of Information"> -->
+                    <span>College of Information</span>
+                </a>
+                <a id="dept_link" href="http://www.lt.unt.edu"><span>Department of Learning Technologies</span></a>
+            </div>
+        </header>        <div id="main">
+            <menu id="main_menu" class="nav_menu">
+            	<li><span class="quick_links">QUICK LINKS</span></li>
+                <li><a href="http://www.lt.unt.edu/news">News</a></li>
+                <li><a href="http://www.lt.unt.edu/degrees">Degrees &amp; Certifications</a></li>
+                <li><a href="http://www.lt.unt.edu/faculty_staff">Faculty &amp; Staff</a></li>
+                <li><a href="http://www.lt.unt.edu/courses">Courses &amp; Schedules</a></li>
+                <li><a href="http://www.lt.unt.edu/research">Research</a></li>
+                <li><a href="http://www.lt.unt.edu/current_students">Current Students</a></li>
+                <li><a href="http://www.lt.unt.edu/advisory_board">Advisory Board</a></li>
+                <li><a href="http://www.lt.unt.edu/visitors">Visiting Scholars</a></li>
+                <li class="social_media"><a class="facebook" href="https://www.facebook.com/UNTLearningTechnologies"></a></li>
+                <li class="social_media"><a class="linkedin" href="http://www.linkedin.com/groups?guid=3166963"></a></li>
+            </menu>
+            <menu id="quick_links">
+            	<li><a href="http://www.lt.unt.edu/undergraduate">Undergrad</a></li>
+                <li><a href="http://www.lt.unt.edu/masters">Master's</a></li>
+                <li><a href="http://www.lt.unt.edu/doctorate">Doctorate</a></li>
+                <li><a href="http://www.lt.unt.edu/cecs_certification">LT MS Certification</a></li>
+                <li><a href="http://www.lt.unt.edu/cte_certification/cte_health_science_cpe_registration">CTE Cert.</a></li>
+                <!-- <li><a href="">Training Cert.</a></li> -->
+                <li class="line_break"><hr></li>
+                <li><a href="http://www.lt.unt.edu/scholarships">Scholarships</a></li>
+                <li><a href="http://www.lt.unt.edu/advisory_board">Advisory Board</a></li>
+                <li><a href="http://www.lt.unt.edu/visitors">Visitors</a></li>
+                <li class="line_break"><hr></li>
+                <li><a href="http://moodle.lt.unt.edu">Moodle</a></li>
+                <li><a href="http://classes.lt.unt.edu">Classes.LT</a></li>
+                <li><a href="http://courseweb.unt.edu">CourseWeb</a></li>
+                <li><a href="http://forums.lt.unt.edu">Forums.LT</a></li>
+                <li class="line_break"><hr></li>
+                <li><a href="http://cks.unt.edu">CKS</a></li>
+                <li><a href="http://iittl.unt.edu">IITTL</a></li>
+                <li><a href="http://www.tcet.unt.edu">TCET</a></li>
+            </menu>
+            
+			<div id="content">
+                <h3 class="print_info">Printed Wednesday May 11, 2016 10:00am<br> from http://www.lt.unt.edu</h3>
+                                    	
+                	
+		<div id="main_image_window">
+			<div id="main_image_wrapper"><div class="main_image" style="background: url(/images/home1.jpg) top center no-repeat;"><div style="position:absolute; top: 10px; right: 70px; width: 280px; height: 130px; text-align:center; font-weight:bold; color:#FFF"><h1 style="color:#FFF;">Expanding Worlds</h1><p>Online programs aimed at career advancement and change.</p><div class="enroll_now_button"><a href="/get_started">Get Started</a></div></div><div style="position:absolute; top: 150px; left: 120px; width: 200px; height: 100px; font-size: 0.8em; color:#FFF;"><p class="quote">"With my Ph.D. I was able to get into the academic position I was seeking."</p><p class="quoted">&mdash; Robert Hancock, Class of '06</p></div>
+			</div> <!-- .main_image --><div class="main_image" style="background: url(/images/home2.jpg) top center no-repeat;"><div style="position:absolute; top: 25px; left: 30px; width: 400px; height: 130px; text-align:center; font-weight:bold; color:#DDD;"><h1 style="color:#DDD;">Advance Your Career</h1><p>You may be closer than you think to advancing your career with an Undergraduate or Graduate degree.</p><div class="enroll_now_button"><a href="/get_started">Get Started</a></div></div><div style="position:absolute; top: 10px; right: 30px; width: 200px; height: 100px; font-size: 0.8em; color:#DDD;"><p class="quote">"The program is helping me achieve my career goals by equipping me with knowledge and expertise."</p><p class="quoted"></p></div>
+			</div> <!-- .main_image --><div class="main_image" style="background: url(/images/home3.jpg) top center no-repeat;"><div style="position:absolute; top: 30px; left: 80px; width: 700px; height: 130px; font-weight:bold;"><h1>Begin the Road to Success</h1><p style="font-size:14px;">Leverage your Associate's degree into a Bachelor's degree with only 42 credit hours.</p><div class="enroll_now_button" style="float:right;"><a href="/get_started">Get Started</a></div></div>
+			</div> <!-- .main_image --><div class="main_image" style="background: url(/images/home4.jpg) top center no-repeat;"><div style="position:absolute; top: 25px; left: 95px; width: 370px; height: 300px;"><div><p style="font-size:3.2em; line-height:1.1em; font-weight:bold; font-style:italic; font-family:Arial,Helvetica,sans-serif; color:#00853E; margin:40px 0 0 0; padding-bottom:10px; border-bottom:2px solid #00853E;">12 Courses.<br />
+    14 Months.<br />
+    100% Online.</p>
+    <p style="font-family:Arial,Helvetica,sans-serif; font-weight:bold; font-size:1.8em; line-height:1.2em; margin:10px 0;">1 Perfect Choice for Your MS in Learning Technologies Degree!</p><div class="enroll_now_button" style="float:right;"><a href="/get_started">Get Started</a></div>
+</div></div>
+			</div> <!-- .main_image -->
+		</div> <!-- #main_image_wrapper --><div id="main_image_navigation">
+			<button id="main_image_previous" title="Previous"></button>
+			<button id="main_image_next" title="Next"></button>
+			</div> <!-- #main_image_navigation -->
+		</div> <!-- #main_image_window -->    <div>
+    	<div id="news_wrapper">
+			<h3 id="news_header">Technology News...</h3>
+    		
+		
+			            <div id="more_news" class="news_post">
+				<a href="/news">More News Stories</a>
+			</div>
+		</div> <!-- #news_wrapper -->
+        	
+			<div id="carousel_wrapper">
+				<button type="button" id="carousel_previous" title="Previous"></button>
+				<button type="button" id="carousel_next" title="Next"></button>
+				<div id="carousel">
+					
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_undergrad" class="badge_item_picture">
+													<div class="badge_item_text" style="float:right; width:90px;">Bachelor of Applied Arts <br />&amp; Sciences</div>
+													<div class="badge_item_caption"><p>Gain your Bachelor's degree online.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="http://baas.unt.edu">Get Started</a></div>	
+			</div>
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_graduate" class="badge_item_picture">
+													<div class="badge_item_text" style="float:right; width:70px;">Master <br />Degrees</div>
+													<div class="badge_item_caption"><p>You may be closer than you think.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="/masters">Get Started</a></div>
+			</div>
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_doctorate" class="badge_item_picture">
+													<div class="badge_item_text">Doctoral Degrees</div>
+													<div class="badge_item_caption"><p>Learning Technologies offers three Ph.D. programs.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="/doctorate">Get Started</a></div>
+			</div>
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_certificates" class="badge_item_picture">
+													<div class="badge_item_text">Certificates</div>
+													<div class="badge_item_caption"><p>Advance your career with a certificate.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="/certificates">Get Started</a></div>
+			</div>
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_distance_phd" class="badge_item_picture">
+													<div class="badge_item_text">Distance Delivered Ph.D.</div>
+													<div class="badge_item_caption"><p>Earn your Ph.D. at a distance.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="/doctorate/ecmp_getting_started">Get Started</a></div>
+			</div>
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_ist" class="badge_item_picture">
+													<div class="badge_item_text">Instructional Systems Technology</div>
+													<div class="badge_item_caption"><p>Avoid disrupting your life with our completely online degree.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="/masters/grad_cecs_program_details">Get Started</a></div>
+			</div>
+				</div> <!-- #carousel -->					
+			</div> <!-- #carousel_wrapper -->    </div>
+
+          
+            </div><!-- #content -->
+                        
+        	<hr class="trick">
+    	</div> <!-- #main -->
+	</div> <!-- #wrapper -->
+
+    <footer>    	    	 
+       	<div id="top_footer">
+        	<div class="footer_item_wrapper">
+                <ul>
+                    <li id="lockup" class="footer_item">
+                        <a href="http://www.lt.unt.edu"><img src="/images/lt-lockup-white-small.png" alt="Department of Learning Technologies"></a>
+                    </li>
+                    <li class="footer_item">
+                        <h2 id="visit_us">Visit Us</h2>
+                        <p>
+                        <strong>UNT Discovery Park</strong><br>
+                        1st Floor, G Wing, Suite 150</p>
+                        <p>
+                        <a href="http://maps.unt.edu/places/1111/view">[map]</a></p>
+                    </li>
+                    <li class="footer_item">
+                        <h2 id="mail_us">Mail Us</h2>
+                        <address>
+                        <strong>Dept. of Learning Technologies</strong><br>
+                        3940 N. Elm, Suite G150<br>
+                        Denton, Texas 76207
+                        </address>
+                    </li>
+                    <li class="footer_item">
+                        <h2 id="contact_us">Contact Us</h2>
+                        <p>
+                        Phone: 940-565-2057<br>
+                        Fax: 940-565-4194<br>
+                        Email: <a href="mailto:LT-info@lt.unt.edu">LT-info@unt.edu</a></p>
+                        <p><a href="mailto:webmaster@lt.unt.edu">Technical problems?</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="bottom_footer">
+        	<p id="last_updated">Site last updated on <span>	July 3, 2015</span></p>
+            <p id="built_with">Built with <a href="http://laravel.com">Laravel</a> <span class="laravel_version">v4.0.10</span></p>
+                
+        	<div class="footer_item_wrapper">
+            	<ul>
+                	<li><a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a></li>
+                    <li><a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a></li>
+                    <li><a href="http://www.unt.edu/unt_ps.html">Privacy</a></li>
+                    <li><a href="http://policy.unt.edu/policy-by-number/5">Web Accessibility</a></li>
+                    <li><a href="http://www.unt.edu/state-texas.htm">State of Texas Online</a></li>
+                    <li><a href="http://emergency.unt.edu/">Emergency Preparedness</a></li>
+                </ul>
+            </div>
+        </div>
+            </footer></body>
+</html>

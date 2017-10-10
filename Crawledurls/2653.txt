@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CWS WebAdmin</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/sb-admin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="/css/plugins/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <link href="/css/style.css" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+
+</head>
+<body>
+    
+    
+
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="/img/itss-logo.png" /></a>
+                <a class="navbar-brand title" href="#"><h3>WebAdmin Dashboard</h3></a>
+            </div>
+            <!-- Top Menu Items -->
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="">
+                         <a href="https://otrs.cws.untsystem.edu/otrs/customer.pl?Action=CustomerTicketMessage"><i class="fa fa-fw fa-table"></i> Support</a>
+                    </li>
+                    <li class="">
+                        <a href="http://omega.unt.edu/"><i class="fa fa-fw fa-edit"></i> Documentation</a>
+                    </li>
+                    <li class="menu-div"></li>
+                    <li class="">
+                        <a class="collapsed" data-target="#extra-links" data-toggle="collapse">
+                            <i class="fa fa-fw fa-edit"></i> Extra Links
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul id="extra-links" class="collapse">
+                            <li><a href="https://phpmyadmin.web3.unt.edu/">phpMyAdmin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">Welcome to WebAdmin!</div>
+                    <div class="panel-body">
+                    <p>If you are reading this then you probably run one of our many UNT websites! This WebAdmin tool has been created specifically for you. We want this to be a place where you can come and take care of any website maintence/administration work you might have. If you think of any tools you would reall like to have then please send us an email!</p>
+                    <p>To get logged in enter your EUID and password!</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                                                <div class="login-panel panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Please Sign In</h3>
+                            </div>
+                            <div class="panel-body">
+                                <form role="form" action="/login_check" method="post">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="EUID" name="_username" type="text" autofocus>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Password" name="_password" type="password" value="">
+                                        </div>
+                                        <input type="hidden" name="_csrf_token" value="imgatymxuXiK0TaMnRweVfROISw8CCWVgiy2K4Zb2Po" />
+                                        <input class="btn btn-lg btn-success btn-block" type="submit" name="login" value="Login" />
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">Need Help?</div>
+                    <div class="panel-body">
+                        <p>Clicking 'Support' will bring you to the Central Web Services ticketing system. This is the best way to get in contact with our support people.</p>
+                        <p>Need some hands on support? Central Web Services and the Web Development Center have folks on hand to answer your questions every Wednesday between 10:30am and 12:00pm in the <a href="https://www.cob.unt.edu/businessleadershipbuilding/map01.jpg">Business Leadership Building, Conference Room 115.</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer-wrapper" class="container-fluid">
+                <ul class="list-inline">
+                    <li><a href="https://itss.untsystem.edu/cws/central-web-services">About CWS</a></li>
+                    <li><a href="https://itss.untsystem.edu/cws/sensitive-data-policy-guide">Sensitive Data Policy</a></li>
+                    <li><a href="http://www.unt.edu/privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+            
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="/js/plugins/morris/raphael.min.js"></script>
+    <script src="/js/plugins/morris/morris.min.js"></script>
+    <script src="/js/plugins/morris/morris-data.js"></script>
+    
+    <script type="text/javascript">
+        var actionsListUpdateInterval = setInterval(updateActionsList, 2000);
+        updateActionsList();
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            updateActionsList();
+        });
+    </script>
+
+</body>
+</html>

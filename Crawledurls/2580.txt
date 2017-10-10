@@ -1,0 +1,841 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Loans &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars og-context og-context-697   loans">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/loans"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-cyISViYdXkFOeI9ItU7MZhQ94jSEhOxSPs1P2bZFOjk" value="form-cyISViYdXkFOeI9ItU7MZhQ94jSEhOxSPs1P2bZFOjk"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/loans"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-cyISViYdXkFOeI9ItU7MZhQ94jSEhOxSPs1P2bZFOjk" value="form-cyISViYdXkFOeI9ItU7MZhQ94jSEhOxSPs1P2bZFOjk"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-moneymanagement">Money Management</div> </div> -->
+			<h1 id="dls">Loans</h1>
+						<div id="sub" class="subtitle">Provided by <a href="student-money-management-center">Student Money Management Center</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="student-money-management-center">Student Money Management Center</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="tabbable">
+	<div class="col-md-2">
+		<ul class="nav nav-pills nav-stacked">
+			<li>
+				<a data-toggle="tab" href="#about">About</a></li>
+			<li class="active">
+				<a data-toggle="tab" href="#memorial">Memorial Loan</a></li>
+			<li>
+				<a data-toggle="tab" href="#bailey">Bailey Loan</a></li>
+			<li>
+				<a data-toggle="tab" href="#green">Green Loan</a></li>
+			<li>
+				<a data-toggle="tab" href="#b2b">Boots-to-Books (B2B) Loan</a></li>
+			<li>
+				<a data-toggle="tab" href="#sewell">Sewell Loan</a></li>
+		</ul>
+	</div>
+
+	<div class="col-md-10" style="left: 1px; top: 0px;">
+		<div class="alert alert-warning">
+			Only UNT Denton campus students are eligible to apply for Student Money Management Center loans.</div>
+
+		<h2 class="alert alert-warning">
+			THE ONLINE APPLICATION SYSTEM IS CURRENTLY OFFLINE. APPLICATIONS WILL BE ACCEPTED IN PERSON IN THE SMMC OFFICE, CHESTNUT HALL 313.</h2>
+
+		<div class="tab-content">
+			<div class="tab-pane" id="about">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>
+							Memorial Loan Program</h2>
+
+						<p>
+							The&nbsp;<a data-toggle="tab" href="#memorial">Memorial Loan</a>&nbsp;was established as a resource of last resort for students to address unanticipated or emergency expenses&nbsp;<strong>immediately threatening their enrollment</strong>. The loan program is not intended to serve as an alternative loan resource between financial aid disbursement dates. A one-time 1% interest rate is applied to the loan.</p>
+
+						<p>
+							Repayment of a loan and interest fee is the responsibility of the student and is required to be repaid by the student by the repayment date as defined on the promissory note.</p>
+
+						<h2>
+							Bailey Loan Program</h2>
+
+						<p>
+							The <a data-toggle="tab" href="#bailey">Bailey Loan Program</a>&nbsp;was established as a resource of last resort for Denton-campus students to address unanticipated UNT-affiliated expenses&nbsp;<strong>immediately threatening their enrollment</strong>. The loan program is not intended to serve as an alternative loan resource between financial aid disbursement dates. Loans are available up to a maximum of $1,000 and are distributed through the student&#39;s established Higher One refund preference. A flat $45&nbsp;origination fee is applied to the loan. Student may apply for one loan per academic year and are only eligible to apply for Bailey Loans during the fall and spring semesters.</p>
+
+						<p>
+							This is a closed application system requiring interested students to contact the center to discuss eligibility, need, and repayment&nbsp;<strong>prior</strong>&nbsp;to gaining access to the online application system.</p>
+
+						<p>
+							Repayment of a loan and fee is the responsibility of the student and is required to be repaid by the student by the repayment date as defined on the promissory note.</p>
+
+						<h2>
+							Green Loan Program</h2>
+
+						<p>
+							A&nbsp;<a data-toggle="tab" href="#green">Green Loan</a>&nbsp;is a needs-based $50 cash loan to help eligible students address unanticipated expenses. A flat $3.00 origination fee is applied to the loan.</p>
+
+						<p>
+							This is a closed application system requiring interested students to contact the center to discuss eligibility, need, and repayment&nbsp;<strong>prior</strong>&nbsp;to gaining access to the online application system.</p>
+
+						<p>
+							Repayment of a loan and fee is the responsibility of the student and is required to be repaid by the student within 10 business days from the loan disbursement date.&nbsp;Only Denton-campus students are eligible to apply for this loan program.</p>
+					</div>
+
+					<div class="col-md-6">
+						<h2>
+							Boots-to-Books (B2B) Loan Program</h2>
+
+						<p>
+							The&nbsp;<a data-toggle="tab" href="#b2b">B2B Loan</a>&nbsp;Program is a needs-based, principal-only loan in the form of a line of credit with the&nbsp;Barnes &amp; Noble&nbsp;Bookstore located on campus&nbsp;to help eligible student veterans or benefits-eligible dependents&nbsp;purchase needed textbooks and course materials while their aid and benefits are being processed.&nbsp;Neither an&nbsp;interest fee nor origination fee is&nbsp;applied to the loan.</p>
+
+						<p>
+							Repayment of a loan is the responsibility of the student&nbsp;and is required to be repaid by the student by the repayment date as defined on the promissory note.&nbsp;Only Denton-campus student&nbsp;veterans and benefits-eligible dependents&nbsp;are eligible to apply for this loan program.</p>
+
+						<h2>
+							Sewell Loan Program</h2>
+
+						<p>
+							<a data-toggle="tab" href="#sewell">Sewell Loans</a>&nbsp;are short-term loans available to qualified BBA and BS/MS students majoring in accounting. The loans can be used for tuition and course materials at the beginning of fall and spring registration periods. Maximum consideration of a loan award is $1,000.</p>
+
+						<p>
+							This is a closed application system requiring for interested students to first meet with a Department of Accounting representative to determine eligibility and repayment ability before access to the online application system is granted.</p>
+
+						<p>
+							Repayment of a loan and processing fee is the responsibility of the student and is required to be repaid by the student due date specified in the Jane Sewell Loan Promissory Note. Only Denton-campus declared accounting majors are eligible to apply for the loan program.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane active" id="memorial">
+				<p>
+					A Memorial Loan is a short-term, needs based emergency loan that enables students to remain enrolled. Loan amounts vary reflecting the needs-based assistance requested by each applicant. Only Denton campus students are eligible to apply for a loan. The maximum level of consideration for the fall and spring semesters is $500 and $197 for summer semesters. An one-time 1% origination fee is applied to the loan. Repayment of a loan and fee is the responsibility of the student and is required to be repaid as defined by the terms stated in the signed promissory note. Application and loan processing dates vary with each semester. Students are limited to 1 loan per semester (summer semesters are considered one semester).</p>
+
+				<p>
+					Accounts will be considered late one (1) day past the repayment date stated in the signed promissory note and assessed a $25 late penalty. An account will be considered in default status and assessed an additional $25 default penalty fee thirty-one (31) days past the repayment date stated in the signed promissory note.</p>
+
+				<div class="well">
+					<!--a class="button float-right" href="https://studentaffairs.unt.edu/loan-application&amp;loan_type=memorial">Apply Now</a--><strong>The Spring 2016 Memorial Loan Program is&nbsp;open for students who qualify. Review eligibility requirements.</strong>
+
+					<p>
+						In order to be eligible to apply, students must be enrolled in Spring 2016 semester, have no past due or prior term balances, and no financial blocks on their accounts. Loans are set at a maximum of $500.</p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<h2>
+							Eligibility Requirements</h2>
+
+						<ul>
+							<li>
+								Must be a UNT Denton campus student</li>
+							<li>
+								Must be at least 18 years of age</li>
+							<li>
+								Must be enrolled in the current semester</li>
+							<li>
+								Must not have any financial obligations to the university</li>
+							<li>
+								Must show the ability to repay the loan and interest</li>
+							<li>
+								Student account must be clear of all negative service indicators</li>
+							<li>
+								Must have a minimum 2.0 cumulative UNT GPA*</li>
+						</ul>
+						<em class="text-small dim">* Special exception granted to first-semester students.</em>
+
+						<h2>
+							Repayment Deadline</h2>
+
+						<p>
+							Spring 2016 - April 4, 2016</p>
+
+						<p>
+							Summer 2016 - TBA</p>
+					</div>
+
+					<div class="col-md-6">
+						<h2>
+							Terms and Conditions</h2>
+
+						<ul>
+							<li>
+								Students may apply for one (1) loan per semester.</li>
+							<li>
+								$500 is the maximum level of consideration for Fall and Spring semesters.</li>
+							<li>
+								$197 is the maximum level of consideration for the Summer semesters.</li>
+							<li>
+								<b>3 to 5 business days</b>&nbsp;are required to process a loan from application to disbursement.</li>
+							<li>
+								A Memorial Loan cannot be used for current tuition, on-campus housing, prior balances, or study abroad payment.</li>
+							<li>
+								A signed promissory note is required to be on file before disbursement of loan will be authorized.</li>
+							<li>
+								Accounts in late status (one day past the due date) will be assessed a $25 late penalty fee.</li>
+							<li>
+								Should a loan become late the applicant is ineligible to apply for any of the SMMC loan programs for twelve months beginning from date of payment.</li>
+							<li>
+								Accounts in default status (thirty-one days past the due date) will be sent to a collections agency and assessed a $25 default penalty fee; the student&#39;s credit will be negatively impacted by these actions.</li>
+							<li>
+								Origination fee for the loan will not be repaid by federally-funded financial aid.</li>
+							<li>
+								Transcript and registration blocks will be applied to late and default accounts.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="bailey">
+				<p>
+					A Bailey Loan is a short-term, needs based loan that enables students to remain enrolled. Loan amounts vary reflecting the needs-based assistance requested by each applicant. Only Denton campus students are eligible to apply for a loan.</p>
+
+				<p>
+					The maximum level of consideration a student may apply for is $1,000 during the Fall and Spring Semesters and $500 for Summer semesters. A $45 origination fee is applied to the loan. Repayment of a loan and&nbsp;fee is the responsibility of the student and is required by the student to repay as defined by the terms stated in the signed promissory note. Application and loan processing dates vary with each semester. Students can only apply for one Bailey Loan per academic year. Students become ineligible to apply to any other SMMC loan program for the remainder of the academic year with the acceptance of a Bailey Loan.</p>
+
+				<p>
+					Accounts will be considered&nbsp;late&nbsp;one (1) day past the repayment date stated in the signed promissory note and assessed a $25 late penalty charge. An account will be considered in default&nbsp;and assessed an additional $25 default penalty charge thirty-one (31) days past the repayment date as stated in the signed promissory note.</p>
+
+				<div class="row">
+					<div class="col-md-6">
+						<h2>
+							Eligibility Requirements</h2>
+
+						<ul>
+							<li>
+								Must be at least 18 years of age</li>
+							<li>
+								Must be a UNT Denton campus student</li>
+							<li>
+								Must be enrolled in the current semester</li>
+							<li>
+								Must have a 2.5 cumulative GPA*</li>
+							<li>
+								Must show the ability to repay the loan and processing fee by the scheduled repayment date</li>
+						</ul>
+
+						<p>
+							*Special exception granted to first-semester students.</p>
+
+						<h2>
+							Repayment Deadline</h2>
+
+						<ul>
+							<li>
+								Spring 2016 - April 4, 2016</li>
+							<li>
+								Summer 2016 - TBA</li>
+						</ul>
+
+						<p>
+							&nbsp;</p>
+					</div>
+
+					<div class="col-md-6">
+						<h2>
+							Terms and Conditions</h2>
+
+						<ul>
+							<li>
+								Students may apply for one (1) loan per academic year.</li>
+							<li>
+								$1,000 is the maximum level of consideration for a loan in Fall and Spring semesters and $500 in Summer semesters.</li>
+							<li>
+								Once a Bailey Loan is disbursed, student is not eligible to apply to any other Student Money Management Center loans for the remainder of the academic year.</li>
+							<li>
+								A Bailey Loan cannot be used for parking fees, citations, or library fines.</li>
+							<li>
+								Additional categories of expenses that may not be eligible for a Bailey Loan are at the discretion of the loan program staff.</li>
+							<li>
+								A signed promissory note is required to be on file before loan will be disbursed.</li>
+							<li>
+								<strong>3 to 5 business days</strong> are required to process a loan from application to disbursement.</li>
+							<li>
+								Accounts in late status (one day past the due date) will be assessed a $25 late penalty charge.</li>
+							<li>
+								Should a loan become late the applicant is ineligible to apply to any of the SMMC loan programs for twelve months following date of repayment.</li>
+							<li>
+								Accounts in default status (thirty-one days past the due date) will be sent to a collections agency and assessed an additional $25 default penalty charge; the student&#39;s credit will be negatively impacted by these actions.</li>
+							<li>
+								Origination fee for the loan will not be repaid by federally-funded financial aid.</li>
+							<li>
+								Transcript and registration blocks will be applied to default accounts.</li>
+							<li>
+								Student becomes ineligible to apply to any other SMMC loan program for the remainder of the academic year with the acceptance of a Bailey Loan.</li>
+						</ul>
+					</div>
+				</div>
+
+				<p style="text-align: center;">
+					<!--a class="button-action" href="/loan-application&amp;loan_type=bailey">Apply Here</a--></p>
+			</div>
+
+			<div class="tab-pane" id="green">
+				<p>
+					The Green Loan Program was established through a lead gift from Dr. Allan Saxe and the financial support other sponsors to provide students at the University access to a small amount of money lent on the agreement that it will be repaid when the borrower receives their next paycheck or within ten business days.</p>
+
+				<p>
+					The cash loans enable students to pay expenses (such as groceries, gasoline, medication, etc.) not exceeding $50. A one-time $3 origination fee is applied to the loan. Repayment of a loan and fee is the responsibility of the student and is required by the student to repay as defined by the terms stated in the promissory note.</p>
+
+				<p>
+					Accounts will be considered late one (1) day past the repayment date stated in the signed promissory note and assessed a $10 late penalty. An account will be considered default and assessed an additional $10 default penalty fee twenty-one (21) days past the repayment date stated in the signed promissory note.</p>
+
+				<div class="row">
+					<div class="col-md-6">
+						<h2 class="notice">
+							Eligibility Requirements</h2>
+
+						<ul>
+							<li>
+								Must be a UNT Denton campus student</li>
+							<li>
+								Must be at least 18 years of age</li>
+							<li>
+								Must be enrolled in the current semester</li>
+							<li>
+								Must show the ability to repay the loan and fee</li>
+							<li>
+								Student account must be clear of all blocks</li>
+							<li>
+								Must have a minimum 2.0 cumulative UNT GPA*</li>
+						</ul>
+
+						<p>
+							<i>*Special exception granted to first-semester students.</i></p>
+
+						<h2 class="subtitle">
+							To Apply</h2>
+
+						<p>
+							Applications are accepted only in the Student Money Management Center:</p>
+
+						<p>
+							University of North Texas<br />
+							Chestnut Hall, Suite 313<br />
+							Denton Campus<br />
+							<span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940.369.7761</span></p>
+
+						<h2>
+							Repayment Deadline</h2>
+
+						<p>
+							10 business days from the loan&#39;s disbursement date.</p>
+
+						<h2 class="subtitle">
+							FAQs</h2>
+
+						<p>
+							We&#39;ve listed answers to the most commonly asked Green Loan program related questions <a href="/green-faq">here</a>.</p>
+					</div>
+
+					<div class="col-md-6">
+						<h2 class="subtitle">
+							Terms and Conditions</h2>
+
+						<ul>
+							<li>
+								Loans and fees must be repaid in exact cash in the UNT Student Money Management Center located in Chestnut Hall, Suite 313.</li>
+							<li>
+								<b>Applications are accepted only in the UNT Student Money Management Center.</b></li>
+							<li>
+								A $3 origination fee is applied to each loan.</li>
+							<li>
+								Applications will not be accepted if the 10-business day repayment period includes any dates the University is officially closed.</li>
+							<li>
+								A signed promissory note is required to be on file before disbursement of loan occurs.</li>
+							<li>
+								Accounts in late status (one day past the due date) will be assessed an additional $10 penalty fee.</li>
+							<li>
+								Accounts in default status (twenty-one days past the due date) will be sent to a collections agency and assessed an additional $10 penalty fee; the student&#39;s credit will be negatively impacted by these actions.</li>
+							<li>
+								Should a loan become late the applicant is ineligible to apply to any of the SMMC loan programs for twelve months.</li>
+							<li>
+								Transcript and registration blocks will be applied to late and default accounts.</li>
+							<li>
+								Students may apply for two (2) loans per semester.</li>
+						</ul>
+						&nbsp;
+
+						<p style="text-align: center;">
+							<!-- a class="button-action" href="/loan-application&amp;loan_type=green">Apply Here</a--></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="b2b">
+				<div class="alert alert-block">
+					<p>
+						Please Note: The Boots-to-Books loan application&nbsp;process requires interested students to&nbsp;first meet&nbsp;with a SMMC loan program team member before gaining access to the application.</p>
+
+					<p>
+						<strong>The&nbsp;Summer B2B Loan&nbsp;Program&nbsp;will&nbsp;open on 5/11/15 for students who qualify. Review eligibility requirements..</strong></p>
+				</div>
+
+				<p>
+					A Boots-to-Books (B2B) Loan is a short-term, needs-based loan disbursed as a line of credit with the Barnes &amp; Noble Bookstore located on campus&nbsp;that enables student veterans or benefits-eligible dependents to purchase needed textbooks or course materials. Loan amounts vary reflecting the needs-based assistance requested by each applicant. Only Denton campus students are eligible to apply for a loan. The maximum level of support a student may apply for during the fall and spring semesters is $500. There is no interest or&nbsp;origination fee associated with this loan. Repayment of a loan and interest is the responsibility of the student and is required by the student to repay as defined by the terms stated in the promissory note. Application and loan processing dates vary with each semester. Students are limited to 1 loan per semester.</p>
+
+				<p>
+					Accounts will be considered late one (1) day past the repayment date stated in the signed promissory note and assessed an additional $25. An account will be considered default and assessed an additional $25 penalty fee thirty-one (31) days past the repayment date stated in the signed promissory note.</p>
+
+				<div class="row">
+					<div class="col-md-6">
+						<h2>
+							Eligibility Requirements</h2>
+
+						<ul>
+							<li>
+								Must be a UNT Denton campus student</li>
+							<li>
+								Must be at least 18 years of age</li>
+							<li>
+								Must be classified as a student veteran or benefits-eligible&nbsp;dependent</li>
+							<li>
+								Must be enrolled in the current semester</li>
+							<li>
+								Must not have any financial obligations to the university</li>
+							<li>
+								Must show the ability to repay the loan</li>
+							<li>
+								Loan must be for textbooks or course materials only</li>
+							<li>
+								Must have a minimum 2.0 cumulative UNT GPA*</li>
+						</ul>
+
+						<p>
+							<i>*Special exception granted to first-semester students.</i></p>
+
+						<h3>
+							Repayment Deadline</h3>
+
+						<ul>
+							<li>
+								Spring 2015 - April 3, 2014</li>
+							<li>
+								Summer 2015 - TBD</li>
+						</ul>
+
+						<h3>
+							FAQs</h3>
+
+						<p>
+							We&#39;ve listed answers to the most commonly asked Boots-to-Books Loan Program related questions here.</p>
+					</div>
+
+					<div class="col-md-6">
+						<h3>
+							Terms and Conditions</h3>
+
+						<ul>
+							<li>
+								$500 is the maximum level of support for Fall and Spring semesters</li>
+							<li>
+								$197 is the maximum level of support for the Summer semesters</li>
+							<li>
+								Loan applications are processed in real time</li>
+							<li>
+								A Boots-to-Books Loan can only be used to purchase needed textbooks or course materials from the&nbsp;Barnes &amp; Noble&nbsp;Bookstore located on campus</li>
+							<li>
+								A signed promissory note is required to be on file before disbursement of loan occurs</li>
+							<li>
+								Accounts in late status (one day past the due date) will be assessed an additional $25 penalty fee; the student&#39;s credit will be negatively impacted by these actions</li>
+							<li>
+								Accounts in default status (thirty-one days past the due date) will be sent to a collections agency and assessed an additional $25 penalty fee; the student&#39;s credit will be negatively impacted by these actions</li>
+							<li>
+								Transcript and registration blocks will be applied to late and default accounts</li>
+							<li>
+								Registration block will be applied to late default accounts</li>
+							<li>
+								Students may apply for one (1) loan per semester</li>
+						</ul>
+						&nbsp;
+
+						<p style="text-align: center;">
+							<!-- a class="button-action" href="/loan-application&amp;loan_type=b2b">Apply Here</a --></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="sewell">
+				<p>
+					The <strong>Jane Sewell Endowment in Accounting</strong> was established to provide loan and scholarship support for junior or senior year students at the University who are majoring in Accounting or who are pursuing a graduate degree in Accounting at the University.</p>
+
+				<p>
+					Loan amounts are short-term needs based loans that enable students to pay tuition and course materials at the beginning of registration during fall and spring registration periods amounts not exceeding $1,000. A one-time $45 origination fee is applied to the loan. Repayment of a loan and fee is the responsibility of the student and is required by the student to repay as defined by the terms stated in the promissory note.</p>
+
+				<p>
+					Accounts will be considered late one (1) day past the repayment date stated in the signed promissory note and assessed $25. An account will be considered default and assessed an additional $25 penalty fee thirty-one (31) days past the repayment date stated in the signed promissory note.</p>
+
+				<div class="row">
+					<div class="col-md-6">
+						<h2>
+							Eligibility Requirements</h2>
+
+						<ul>
+							<li>
+								Must be a UNT Denton campus declared accounting major student</li>
+							<li>
+								Must be at least 18 years of age</li>
+							<li>
+								Must be enrolled in the current semester</li>
+							<li>
+								Must not have any financial obligations to the university</li>
+							<li>
+								Must show the ability to repay the loan and fee</li>
+							<li>
+								Student account must be clear of all negative service indicators</li>
+							<li>
+								Must have a minimum 3.0 cumulative UNT GPA</li>
+						</ul>
+
+						<h2>
+							Repayment Deadlines</h2>
+
+						<ul>
+							<li>
+								Fall Loans &ndash; October 25, 2014</li>
+							<li>
+								Spring Loans &ndash; March 3, 2015</li>
+							<li>
+								Summer Loans &ndash; Program Closed</li>
+						</ul>
+					</div>
+
+					<div class="col-md-6">
+						<h2>
+							Terms and Conditions</h2>
+
+						<ul>
+							<li>
+								$1,000 is the maximum level of support for fall and spring semesters (no summer loans)</li>
+							<li>
+								A one-time $45 origination fee is applied to the loan</li>
+							<li>
+								5 to 7 business days are required to process a loan application</li>
+							<li>
+								Loan can be used for tuition and course materials only</li>
+							<li>
+								A signed promissory note is required to be on file before disbursement of loan occurs</li>
+							<li>
+								Accounts in late status (one day past the due date) will be assessed an additional $25 penalty fee</li>
+							<li>
+								Should a loan become late the applicant is ineligible to apply for any of the SMMC loan programs for twelve months</li>
+							<li>
+								Accounts in default status (thirty-one days past the due date) will be sent to a collections agency and assessed an additional $25 penalty fee; the student&rsquo;s credit will be negatively impacted by these actions</li>
+							<li>
+								Transcript and registration blocks will be applied to late and default accounts</li>
+							<li>
+								Student may apply for one (1) loan per semester</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/saucs_smmc_banner_copy.jpg');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/loans": true }, "og": { "group_context": { "nid": "697", "title": "Student Money Management Center", "type": "departments_services" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

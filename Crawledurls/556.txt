@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Institute of Petroleum Accounting - College of Business - University of North Texas</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  	<meta name="Author" content="COBA Web Development Team" />
+  	<meta name="Description" content="UNT Center for Logistics Education and Research" />
+  	<meta name="Keywords" content="unt,logistics, education, research" />
+  	<link rel="shortcut icon" type="image/x-icon" href="http://www.coba.unt.edu/favicon.ico" />
+ 	<link rel="stylesheet" type="text/css" href="_style.css"  />
+ 	
+</head>
+<body>
+<div id="wrap">
+    <div id="navbar" class="cf">
+        <a href="http://www.unt.edu/" id="untlogo"><img src="unt_banner.png" alt="University of North Texas" /></a>
+        <div style="float:right; font:Verdana, Arial, Helvetica, sans-serif; font-size:18px; color:white; margin-right: 12px; margin-top: 5px;"><a href="http://www.coba.unt.edu" style="text-decoration:none; color: white; border-bottom:none;">College of Business</a></div>
+    </div>
+
+
+	<!--
+	  This is the COBA logo.  The logo itself is added through CSS though
+	  for printing reasons, I might actually put it inline.  More thought
+	  is required here
+	-->
+	<div id="masthead">
+		<h1>&nbsp;</h1>
+        
+		
+  </div>
+    <div style="clear:both"></div>
+    <div id="menu" style="background:url(back_nav.jpg) repeat-x; ">
+   		 <ul class="departments" id="nav">
+		<!--<li style="width:90px"><a href="index.php">Home</a></li> -->
+        <li style="width:123px"><a href="index.php">About Us</a></li>
+        <li style="width:128px"><a href="contact_us.php">Contact Us</a></li>
+        <li style="width:143px"><a href="http://www.unt.edu/unt_ps.html">Privacy Policy</a></li>
+        <li style="width:128px"><a href="ipa_team.php">IPA Team</a></li>
+        <li style="width:183px"><a href="current_activities.php">Current Activities</a></li>
+        <li style="width:133px"><a href="publications.php">Publications</a></li>
+        <li style="width:122px"><a href="links.php">Links</a></li>
+        
+		</ul>
+    </div>
+    
+<div style="clear:both"></div><style>
+	#content ul li {
+		margin-left: 20px;
+		padding: 4px;
+		list-style-type: square;
+	}
+</style>
+<div id="content">
+	<div style="float: left; width: 49%;">
+		<h2 style="margin-left: 6px;">About IPA</h2>
+		<div style="margin:10px;">
+			<p>The Institute of Petroleum Accounting was created in 1980 to accomplish three principal objectives:</p> 
+			<ol>
+				<li>To research and encourage others to carry out research in accounting, finance, taxation and economic problems of the extractive industries.</li>
+				<li>To disseminate information about research activities of the Institute and about current developments in the extractive industries through the Petroleum Accounting and Financial Management Journal</li>
+				<li>To encourage universities and colleges to become actively involved in educational programs related to the extractive industries.</li>
+			</ol>
+			<p>
+				Through its position within the university community, the Institute has access to research that directly 
+				impinges upon the accounting, finance, tax, and economics issues facing the petroleum industry today. 
+				The Institute's ties to professional accountants, financial managers, and executives within the 
+				extractive industries enable it to stay abreast of the concerns that industry professionals contend with 
+				on a day-to-day basis. From the beginning, the Institute has enjoyed a strong relationship with the oil 
+				and gas industry to the mutual benefit of both. The Institute is the conduit through which academic 
+				research in the oil and gas industry reaches the working professional.
+			</p>
+		</div>
+	</div>	
+	<div style="float:right; width: 50%;border-left: 1px dotted #999; ">
+		<h2 style="margin-left: 6px;">News</h2>
+		<div style="margin: 10px;">
+			<h2>2011 PricewaterhouseCoopers Survey of U.S. Petroleum Accounting Practices</h2>
+			<p><img src="img/pwc.jpg" width="200" height="237" alt="pwc" /></p>
+			<p>
+				Published by the Institute of Petroleum Accounting at the University of North Texas and PricewaterhouseCoopers, 
+				the survey compiles responses from oil and gas exploration and production companies to a wide ranging series of 
+				accounting and disclosure questions. The goal is to analyze industry practices in applying pronouncements of the 
+				FASB and SEC. The Survey also addresses questions regarding the movement toward international financial reporting 
+				standards and the related SEC roadmap. To order the Survey, complete the <a href="ordering.php">Publications 
+				Order Form</a> and mail or fax (940-369-8839) with payment to: Institute of Petroleum Accounting; University of 
+				North Texas; 1155 Union Circle #305460; Denton, Texas 76203-5017.
+			</p>
+			<h2>Income Taxation of Natural Resources 2014</h2>
+			<img src="img/IncomeTaxationOfNaturalResources2014.png" style="float: right; margin: 10px;" />
+			<p>
+				<strong>The Professional Development Institute(PDI)</strong> has released the 2014 Edition of Income Taxation of 
+				Natural Resources, an essential reference for all tax professionals and practitioners in the natural resources industries.
+			</p>
+			<p>
+				The 2014 Edition covers vital tax and reporting practices and procedures; considers various changes and 
+				updates relative to the IRS; and deals with many recent developments affecting tax professionals, including:
+			</p>
+			<ul>
+				<li>Developments regarding conveyances, joint operations, and complex partnership issues</li>
+				<li>Guidance related to exploration and development costs, royalties, depreciation, depletion, 
+					gross income, taxable income and tax credits</li>
+				<li>The latest developments on natural resources issues</li>
+			</ul>
+			<p>The 2014 Edition includes more than 1000 pages, 24 chapters, many germane appendices, enhanced graphics and a comprehensive index.</p>
+		</div>
+	</div>
+</div>
+<div style="clear:both"></div>
+
+    <div id="footer" style="">
+        <div class="rightside">
+        <a href="http://jigsaw.w3.org/css-validator/">CSS2.0</a>/
+        <a href="http://validator.w3.org/check?uri=referer">XHTML1.0</a>/
+        <a href="http://www.coba.unt.edu/ciltc/websupport.php" title="CILTC Web Support"><img src="http://www.coba.unt.edu/common/img/branding1.gif" alt=""/></a>
+        </div>
+    
+        <div class="leftside">
+          <p><strong>INSTITUTE OF PETROLEUM ACCOUNTING</strong><br />
+University of North Texas<br />
+Business Leadership Building<br />
+1307 W. Highland, Ste. 150M<br />
+Denton, Texas  76201</p>
+          <p><em>Telephone:</em> (940) 565-3170</p>
+          <p><em>Fax :</em>  (940) 369-8839</p>
+          <p> <em>E-Mail</em>: <a href="mailto:ipa@unt.edu">ipa@unt.edu</a> </p>
+         
+          <p>&nbsp;</p>
+      </div>
+    </div>
+<div style="clear:both"></div>
+</div>
+
+</body>
+</html>

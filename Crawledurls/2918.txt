@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Four Bold Goals for the Future of One Great University</title>
+
+<link rel="stylesheet" type="text/css" href="../../assets/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../assets/css/layout-second.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../assets/css/nifty.css" media="screen" />
+
+<link rel="shortcut icon" href="../../favicon.ico" />
+
+<!-- awk: unt.js will contain all js needed for basic template views and includes jquery-1.2.6 -->
+<!-- awk: if you need additional functionality, include any extra libraries or files after this call -->
+
+
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="assets/css/ie6.css" media="screen" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="assets/css/ie7.css" media="screen" />
+<![endif]-->
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="notification" class="off">
+	<!--h1>CAMPUS CLOSING:</h1>
+    <p>The University of North Texas' Denton, Dallas and Fort Worth campuses will be closing at noon.<br />
+    Classes will resume at 10am on Thursday, September 4, 2008.</p-->
+</div>
+
+<div id="head">
+<div id="global">
+  <div id="search">
+    <form method="get" action="http://www.google.com/u/unorthtexas" id="sform">
+      <label for="searchterms">Search the UNT web site:</label>
+      <input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()" />
+      <input name="sa" type="submit" value="Search" id="sbutton"/>
+    </form>
+  </div>
+  <div id="skip"> <a href="#content">Skip to content</a> </div>
+  <ul id="globalLinks">
+    <li><a href="http://translate.google.com/translate?u=http%3A//www.unt.edu&amp;langpair=en|es&amp;hl=en&amp;ie=UTF8">En Espa&ntilde;ol</a></li>
+    <li><a href="https://my.unt.edu/">MyUNT</a></li>
+    <li><a href="http://eagleconnect.unt.edu/">EagleConnect</a></li>
+    <li><a href="http://learn.unt.edu/">Blackboard</a></li>
+    <li><a href="../../find-people-department.htm">People &amp; Departments</a></li>
+    <li><a href="http://maps.unt.edu/">Maps</a></li>
+    <li><a href="../../calendars-events.htm">Calendars</a></li>
+    <li><a href="http://giving.unt.edu/">Giving to UNT</a></li>
+  </ul>
+</div>
+<div id="banner">
+        <div id="branding">
+            <a href="http://www.unt.edu/"><img src="../../assets/images/brand.jpg" alt="University of North Texas" /></a>
+            <h1>University of North Texas</h1>
+            <h2>Main Site Redesign v1.0</h2>
+        </div>
+  </div>
+	
+</div>
+
+<div id="bannerNav">
+    <ul id="bannerLinks" class="off">
+        <!--li><a href="#">FUTURE STUDENTS</a></li>
+        <li><a href="#">CURRENT STUDENTS</a></li>
+        <li class="selected">TESTING THE SELECTED STATE</li>
+        <li><a href="#">FACULTY &amp; STAFF</a></li>
+        <li><a href="#">PARENTS &amp; FAMILY</a></li>
+        <li><a href="#">ALUMNI &amp; FRIENDS</a></li-->
+    </ul>
+</div>
+
+<div id="wrapper" class="second">
+    <div id="navigation" class="equal">
+    
+        <h3 class="indexLink"><a href="../../index.htm">UNT Home  &gt;&gt;</a></h3>
+				
+				<h3><a href="../../admissions.htm">Admissions &gt;&gt;</a></h3>
+				<ul class="nav">
+						<li><a href="http://apply.unt.edu/">Freshmen</a></li>
+						<li><a href="http://transfernow.unt.edu/">Transfer</a></li>
+						<li><a href="http://tsgs.unt.edu/overview/">Graduate</a></li>
+					<li><a href="http://international.unt.edu/index.php?option=com_content&view=article&id=171&Itemid=49">International</a></li>
+					<li><a href="../../paying-for-college.htm">Paying for College </a></li>
+					<li><a href="http://www.applytexas.org">Apply Online</a></li>
+					<li class="view"><a href="../../admissions.htm">View more &gt;&gt;</a></li>
+				</ul>
+		 		
+				<h3>Academics &gt;&gt;</h3>
+<ul class="nav">
+					<li><a href="../../majors-catalogs.htm">Majors &amp; Catalogs</a></li>
+					<li><a href="../../colleges-schools.htm">Colleges &amp; Schools</a></li>
+					<li><a href="../../classes-registration.htm">Classes &amp; Registration</a></li>
+					<li><a href="../../aid-tuition.htm">Tuition &amp; Financial Aid</a></li>
+					<li><a href="../../library-technology.htm">Libraries &amp; Technology</a></li>
+					<li><a href="../../distance-learning.htm">Distance Learning</a></li>
+					<li class="view"><a href="../../academics.htm">View more &gt;&gt;</a></li>
+	  </ul>
+		 
+      
+    
+        <h3><a href="../../campus-life.htm">Campus Life &gt;&gt;</a></h3>
+        <ul class="nav">
+           	<li><a href="http://www.meangreensports.com/">Athletics, Mean Green</a></li>
+						<li><a href="../../arts-entertainment.htm">Arts &amp; Entertainment</a></li>
+						<li><a href="../../health-recreation.htm">Health &amp; Recreation</a></li>
+						<li><a href="../../housing-dining.htm">Housing &amp; Dining</a></li>
+						<li><a href="http://studentactivities.unt.edu/orgs">Student Orgs</a></li>
+						<li><a href="http://unt.bncollege.com/">Campus Bookstore</a></li>
+            <li class="view"><a href="../../campus-life.htm">View more &gt;&gt;</a></li>
+        </ul>
+
+        <h3><a href="../../about-unt.htm">About UNT</a></h3>
+        <ul class="nav">
+ 						<li><a href="../../about-unt.htm#admin">Administration </a></li>
+						<li><a href="http://research.unt.edu">Research</a></li>
+						<li><a href="../../about-unt.htm#facts">Facts &amp; Reports</a></li>
+						<li><a href="../../about-unt.htm#globalpartners">Global partnerships</a></li>
+						<li><a href="../../about-unt.htm#diversity">Diversity</a></li>
+						<li><a href="http://hr.unt.edu">Employment &amp; HR</a></li>
+            <li class="view"><a href="../../about-unt.htm">View more &gt;&gt;</a></li>
+        </ul>
+
+        <h3><a href="../../visit-unt.htm">Visit UNT</a></h3>
+        <ul class="nav">
+						<li><a href="http://maps.unt.edu/">Maps &amp; Directions</a></li>
+						<li><a href=" http://www.unt.edu/transit/maps.html">Parking</a></li>
+						<li><a href="../../calendars-events.htm">Events &amp; Calendars</a></li>
+						<li><a href="../../community-services.htm">Community Services</a></li>
+						<li><a href="http://untpreview.unt.edu/">UNT Preview</a></li>
+						<li><a href="http://www.unt.edu/commencement/">Graduation</a></li>
+            <li class="view"><a href="../../visit-unt.htm">View more &gt;&gt;</a></li>
+        </ul>
+        
+        <h3><a href="../../alumni-friends.htm">Alumni</a></h3>
+        <ul class="nav">
+ 						<li><a href="http://www.untalumni.com/">Alumni Association</a></li>
+						<li><a href="http://registrar.unt.edu/transcripts-and-records/order-transcript">Transcripts</a></li>
+						<li><a href="http://careercenter.unt.edu/alumnil">Career Services</a></li>
+						<li><a href="../../alumni-magazine-newsletter.htm">Magazine &amp; Newsletter</a></li>
+						<li><a href="http://giving.unt.edu/">Giving to UNT</a></li>
+	          <li class="view"><a href="../../alumni-friends.htm">View more &gt;&gt;</a></li>
+        </ul>
+            
+    </div>
+
+  <div id="pageHeader">
+	  <h3><strong>Four Bold Goals for the Future of UNT</strong></h3>
+  </div>
+<div id="content" class="equal">
+    <h4><em>University of North Texas Strategic Plan 2012-17</em></h4>
+    
+<h5><br />
+</h5>
+<p>The road ahead is paved with the promise of greatness. At the University of North Texas, we fuel our students through knowledge and opportunity. We power the region and the state through education, making UNT the catalyst for discovery and innovation since 1890. UNT can and will offer our students the best educational experience in Texas as we grow into a major public research university. As we become the superior university we are meant to be, we will help our students, our region, our state and our nation to be the very best.</p>
+<p>The light is green, and greatness is both the journey and the destination.</p>
+<p>The plan includes:</p>
+<ul>
+  <li><a href="#fourboldgoals">UNT's Four Bold Goals</a></li>
+  <li><a href="#untpromise">UNT's Promise</a></li>
+  <li><a href="#untcovenant">UNT's Covenant</a></li>
+  <li><a href="#untscorevalues">UNT’s Core Values</a></li>
+</ul>
+<h5 style="color:#00853E">Mission</h5>
+<p><br />UNT is a major public research university deeply committed to advancing educational excellence and preparing students to become thoughtful, engaged citizens of the world.</p>
+<h5 style="color:#00853E">Vision</h5>
+<p><br />As the most comprehensive public research university providing a top quality education in one of the nation&rsquo;s largest, most dynamic regions, UNT will be celebrated for its academics, arts and athletics. UNT will be a diverse and inclusive institution creating knowledge and innovations that will shape the future, while cultivating excellence in the next generation of scholars and leaders for the global community.</p>
+<h5 style="color:#00853E"><a name="untpromise" id="untpromise"></a>UNT&rsquo;s Promise</h5>
+<p><br />The University of North Texas' ultimate responsibility is to provide students with the best education possible so they may achieve their goals, succeed at the highest levels and improve their communities, the state of Texas, the nation and the world. </p>
+<p>UNT promises to offer students a challenging, rigorous, high-quality education and provide a supportive environment to help them successfully learn and grow. </p>
+<p>UNT promises to contribute to the greater good through scholarship, research, creative endeavors and public service. </p>
+<h5 style="color:#00853E"><a name="untcovenant" id="untcovenant"></a>UNT's Covenant </h5>
+<p><br />As students: </p>
+<ul>
+  <li>We will pursue academic and personal excellence and uphold academic and personal integrity while taking responsibility for our education. </li>
+  <li>We will aspire to do our best and to work hard to fulfill obligations, overcome challenges and meet expectations. </li>
+  <li>We will be committed to the success of UNT just as UNT is committed to our success. </li>
+</ul>
+<p>As faculty and staff members: </p>
+<ul>
+  <li>We will be responsive and accountable to students, to one another and to the communities we serve. </li>
+  <li>We will be committed to helping students succeed and moving the university forward. </li>
+  <li>We will carry out our work at the highest level, always aiming for excellence. </li>
+</ul>
+<p>As a university community: </p>
+<ul>
+  <li>We will conduct ourselves in a respectful, courteous manner and treat people fairly and equitably. </li>
+  <li>We will be engaged in the university culture and stand together with pride in UNT. </li>
+  <li>We will contribute to the greater good of the institution and society. </li>
+</ul>
+<h5 style="color:#00853E"><a name="untscorevalues" id="untscorevalues"></a>UNT's Core Values</h5>
+<p><br /><em>Access</em>: UNT will keep access and opportunity a central focus in fulfilling our mission as a public university. </p>
+<p><em>Accountability</em>: UNT employees will be good stewards of the public's trust and funding. </p>
+<p><em>Collaboration</em>: UNT students, faculty and staff will be driven by collaboration, working in partnership with each other and our communities to create, leverage and disseminate knowledge. </p>
+<p><em>Diversity</em>: UNT will promote a culture of diversity, respect and dignity that values individuals and people's differences. </p>
+<p><em>Engagement</em>: UNT will engage our communities through mutually beneficial partnerships and by supporting their economic and cultural well-being. </p>
+<p><em>Excellence</em>: UNT will be a national leader in public higher education. </p>
+<p><em>Sustainability</em>: UNT will be a leader in environmental sustainability, pledging to follow and promote green standards in our operations and practices. &nbsp; </p>
+<p><em>Service</em>: UNT will promote the economic and cultural development of the North Texas region, the state of Texas and the nation by providing a highly educated, highly skilled workforce of critical thinkers and fostering a wellspring of knowledge, ideas and solutions.</p>
+<h5 style="color:#00853E"><a name="fourboldgoals" id="fourboldgoals"></a>Four Bold Goals, One Great University</h5>
+<p><br />At UNT, our greatest passion is to give a green light to greatness in all we do: in the achievements of our students, in the excellence of our teaching and research, and in the impact our university has on the larger North Texas region. </p>
+<p>Our greatness lies in those we serve. Their greatness comes from the education and experience we provide.  </p>
+<p>To guide, inspire and measure our progress toward even greater achievement for the next five years and beyond, UNT has created the <em>University of North Texas Strategic Plan 2012-2017</em>. </p>
+<p>At the heart of the plan are four cornerstone goals that will transform UNT so that we provide the best education possible and rival the nation&rsquo;s best higher education institutions. The goals are ambitious, but the plan builds on UNT's strengths and momentum. We can reach our destination only by working together to meet the most ambitious goals. </p>
+<p>To make our vision a reality, we will ensure our budgeting practices fund tactical initiatives that fulfill our strategies. Each area of the university will create annual working plans to move the university toward our collective goals. Future funding will be tied to progress made. </p>
+<p>We will hold ourselves accountable to the highest standards of quality, service and engagement and will measure our progress against clear and accepted standards.</p>
+<p>The <em>University of North Texas Strategic Plan</em>, therefore, will become more than a plan. It will be the driving force for our progress. This plan will be a guiding light for our decisions every day. We will tie our budget to it. We'll measure our success against it. And we will hold ourselves accountable to it. </p>
+<p>Why? Because a greater UNT means more opportunities for success for our students, who will go on to make a greater contribution to enterprise and culture, giving the North Texas region, our state and our nation greater prominence and competitive strength on a global level.</p>
+<h5 style="color:#00853E">Goal 1: Provide the best undergraduate educational experience in Texas</h5>
+<p><br />Texas needs great universities – our state has one of the nation&rsquo;s fastest growing student populations but lags in key areas of public and higher education. By providing the strongest education to more people, UNT will help both our students and our state succeed. We will give our students the options, the opportunities and most of all the support they need for the best college experience possible. </p>
+<p>To attract and support high-quality students, UNT will foster an environment of excellence with: </p>
+<ul>
+  <li>Dedicated faculty who are committed to the highest standards of teaching, research and scholarship </li>
+  <li>Rigorous and innovative programs that enhance the relationship between teaching and learning </li>
+  <li>Strong support systems to ensure that more students stay in school, engage in service and campus life, and graduate on time </li>
+</ul>
+<h5 style="color:#00853E">Goal 2: Provide superior graduate education, scholarship and artistic endeavors and achieve status among the nation&rsquo;s tier-one research institutions</h5>
+<p><br />UNT is the preeminent public research university in the North Texas region. Beyond this, we will become a public research institution on par with the best in the nation. We will attract the best minds and industries to our campus, and we will push the boundaries of innovative research, scholarship and creativity to keep Texas strong on a global scale. </p>
+<p>To expand our high-quality faculty body in strategic areas and ingrain research and scholarship into every discipline, UNT will: </p>
+<ul>
+  <li>Recruit and support distinguished faculty who are fully engaged in research and mentorship </li>
+  <li>Strengthen graduate education to build a strong pipeline of scholars </li>
+  <li>Develop world-class facilities to support faculty and student research and creative endeavors </li>
+  <li>Expand productive business partnerships by turning knowledge into inventions </li>
+</ul>
+<h5 style="color:#00853E">Goal 3: Become a national leader among universities in student support, employee relations, operational effectiveness and service to constituencies</h5>
+<p><br />To give our students a green light to their own success, we must provide them with a level of support and service that helps them move forward. And we must run our operations with the efficiency and effectiveness of a great company with a fulfilling workplace culture. </p>
+<p>To ensure that students remain central to the work of the university and our employees, UNT will: </p>
+<ul>
+  <li>Strengthen service standards and improve operational processes </li>
+  <li>Make client and employee satisfaction fundamental to day-to-day practices </li>
+  <li>Continue as a leader in environmentally sustainable practices </li>
+</ul>
+<h5 style="color:#00853E">Goal 4: Establish UNT as a nationally recognized, engaged university and regional leader by building and expanding mutually beneficial partnerships and resources</h5>
+<p><br />We are the University <em>of</em> North Texas, and we also are the university <em>for </em>North Texas. We will leverage our knowledge and prominence to enlighten, inspire and help the communities of the North Texas region. We will partner with businesses and community groups to build and deepen meaningful relationships that make our region stronger. </p>
+<p>To better serve students and communities, UNT will: </p>
+<ul>
+  <li>Expand our efforts to reach out and help </li>
+  <li>Deepen pride in the university because of our efforts to light the way toward greatness </li>
+  <li>Ensure that every UNT degree continues to grow in value</li>
+</ul>
+</div>
+
+<div id="extras" class="equal">
+<!-- AddThis Button BEGIN -->
+<script type="text/javascript">var addthis_pub="moffittk";</script>
+<a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" border="0" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+<!-- AddThis Button END -->
+<p></p>
+<div class="extraBlock">
+  <h3>Learn more about UNT's new plan</h3>
+  <ul>
+    <!--li><a href="http://www.unt.edu/features/four-bold-goals-event.htm">Read about the event where  UNT's new plan and image were unveiled</a></li-->
+    <li><a href="http://identityguide.unt.edu">See samples of our new images</a></li>
+    <!--li><a href="http://www.unt.edu/president/insider/feb12/index.htm">Read President V. Lane Rawlins' letter about the plan</a></li-->
+  </ul>
+</div>
+<!--div class="extraBlock">
+  <h3>YouTube</h3>
+  <p>Watch a video of <strong>Charn Uswachoke</strong>.</p>
+  <p><a href="http://www.youtube.com/watch?v=y047n8ETH6s" onclick="javascript:urchinTracker('/outgoinghome/marshasowellvideo');"><img src="images/sowell-youtube.jpg" alt="View video on YouTube" width="238" height="199" border="0" /></a></p>
+  <p></p>
+</div-->
+</div>
+</div>
+
+<div id="footer">
+  <div id="footerInner">
+    <div id="contact" class="equalFooter">
+      <h5>Contact Information:</h5>
+      <p>University of North Texas<br />
+        1155 Union Circle #311277 <br />
+        Denton, Texas<br />
+        76203-5017<br />
+        Phone: (940) 565-2000<br />
+        <a href="http://www.unt.edu/find-people-department.htm">People &amp; Departments</a></p>
+    </div>
+    <div id="technical" class="equalFooter">
+      <div id="contentProblems">
+        <h5>Email us:</h5>
+        <p>For questions about content in this web site, contact <a href="mailto:urcm@unt.edu">urcm@unt.edu</a>.</p>
+      </div>
+    </div>
+    <div id="feedback" class="equalFooter">
+      <h5>UNT System:</h5>
+      <ul>
+        <li><a href="http://untsystem.edu/">UNT System</a></li>
+        <li><a href="http://dallas.unt.edu/">UNT Dallas</a></li>
+        <li><a href="http://www.hsc.unt.edu/">UNT Health Science Center</a></li>
+      </ul>
+    </div>
+    <div style="clear: both; width: 920px; padding: 20px 0 10px 0; margin: 10px 0 0 0; text-align: center;">
+      <p><strong>Site last updated on
+        <!-- #BeginDate format:Am1 -->August 21, 2014<!-- #EndDate -->
+      </strong></p>
+      <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://policy.unt.edu/policy-by-number/5">Web Accessibility Policy</a> | <a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> | <a href="http://emergency.unt.edu/">Emergency Preparedness</a></div>
+  </div>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+
+
+</body>
+</html>

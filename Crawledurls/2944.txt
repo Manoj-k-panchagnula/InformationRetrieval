@@ -1,0 +1,1992 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Homecoming &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   homecoming">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/homecoming"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-HlyIJSXHgFPpykMA3119VpSs_4HLJc3_fESY2k9-mO4" value="form-HlyIJSXHgFPpykMA3119VpSs_4HLJc3_fESY2k9-mO4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/homecoming"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-HlyIJSXHgFPpykMA3119VpSs_4HLJc3_fESY2k9-mO4" value="form-HlyIJSXHgFPpykMA3119VpSs_4HLJc3_fESY2k9-mO4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-artsentertainment">Arts & Entertainment</div> </div> -->
+			<h1 id="dls">Homecoming</h1>
+						<div id="sub" class="subtitle">Provided by <a href="student-activities-center">Student Activities Center</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="student-activities-center">Student Activities Center</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="row tabbable">
+	<div class="col-md-2">
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active">
+				<a data-toggle="tab" href="#about">About</a></li>
+			<li>
+				<a data-toggle="tab" href="#history">History &amp; Traditions</a></li>
+			<li>
+				<a data-toggle="tab" href="#students">For Students &amp; Orgs</a></li>
+			<li>
+				<a data-toggle="tab" href="#departments">For Departments</a></li>
+			<li>
+				<a data-toggle="tab" href="#alumni">For Alumni</a></li>
+			<li>
+				<a data-toggle="tab" href="#community">For Community</a></li>
+			<li>
+				<a data-toggle="tab" href="#sponsors">For Sponsors</a></li>
+		</ul>
+		<a class="button button-block button-facebook" href="http://facebook.com/unthomecoming" target="_blank">Facebook</a> <a class="button button-twitter button-block" href="http://twitter.com/unthomecoming" target="_blank">Twitter</a></div>
+
+	<div class="col-md-10" style="left: 1px; top: 1px;">
+		<div class="tab-content">
+			<div class="tab-pane active" id="about">
+				<h1>
+					<img align="center" alt="" src="/sites/default/files/unt_homecoming-01.jpg" style="width: 564px; height: 295px; margin-left: 150px; margin-right: 150px;" /></h1>
+
+				<hr />
+				<center>
+					<font size="6"><font color="green"><span style="line-height: 1.1;">2016 Homecoming will be held from October 31 - November 5&nbsp;with the Football game on 11/5 vs. Louisiana Tech!&nbsp;</span></font></font></center>
+
+				<center>
+					&nbsp;</center>
+
+				<center>
+					<font size="5"><strong>Homecoming&nbsp;Theme:</strong><strong> TBA Summer 2016!</strong></font></center>
+
+				<center>
+					&nbsp;</center>
+
+				<center>
+					&nbsp;</center>
+				&nbsp;&nbsp;
+
+				<hr />
+				<center>
+					<font size="6"><font color="green"><u>Thank you to our 2015&nbsp;Homecoming Sponsors</u></font></font></center>
+
+				<center>
+					&nbsp;</center>
+
+				<div class="col-md-12">
+					<p>
+						<a href="http://wellsfargo.com" target="_blank"><img alt="" src="/sites/default/files/images/wellsfargo.jpg" style="width: 150px; height: 150px; margin-left: 45px; margin-right: 45px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="/sites/default/files/Huffines%20Since%201924.png" style="width: 250px; height: 92px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="/sites/default/files/5miles_logo_white_letters.png" style="width: 250px; height: 177px;" /></p>
+
+					<h1>
+						&nbsp;</h1>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="history">
+				<h1>
+					History</h1>
+
+				<p>
+					One of the earliest Homecoming celebrations to involve a football game was on Nov 11, 1929. The Eagles defeated East Texas State Teachers College 34-0 in the Armistice Day Game. Attendants were referred to as &ldquo;home comers&rdquo; in the yearbook. Activities included a parade of bands around the downtown square, a boarding house decoration contest, a pre-game barbeque and a dance after the game sponsored by the Talons.</p>
+
+				<p>
+					During World War II, official Homecoming festivities and football games were suspended. November 1946 marked the first postwar Homecoming celebration and included the election of the first Homecoming Queen, Nikki Hendrix. Hendrix was elected by the football team, and the tradition of the team electing the queen continued until 1952, when the student body elected the Homecoming Queen.</p>
+
+				<p>
+					The coldest UNT Homecoming of the century began Friday night, Nov 12, 1976, with a torchlight parade and Bonfire to keep 200 attendants from freezing. By game time that afternoon, Fouts Field was buried under six inches of snow. Some Florida State players had never seen snow, so the team built a snowman before the games as some 3,800 warmly dresses fans filled the stands. Halftime was also not to be forgotten in this premature blanket of snow. Four brave musicians marched onto the field and entertained the crowds with the university fight song, Jingle Bells and White Christmas.</p>
+			</div>
+
+			<div class="tab-pane" id="events">
+				&nbsp;</div>
+
+			<div class="tab-pane" id="students">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="text-headline">
+							<h1>
+								Homecoming 2015: &quot;Forever Mean Green: A&nbsp;Journey Through Time&quot;</h1>
+
+							<p style="color: rgb(90, 90, 90); font-size: 14px; background-color: rgb(255, 255, 255);">
+								Thank you to all student organizations, volunteers and UNT employees who participated in Homecoming events.&nbsp; We had over 11,000 students, faculty, and staff attend the week of events.&nbsp; Please visit our Facebook page to review each event&rsquo;s picture album.&nbsp; We hope everyone enjoyed the festivities and we look forward to Homecoming 2016! Go Mean Green!</p>
+
+							<p style="color: rgb(90, 90, 90); font-size: 14px; background-color: rgb(255, 255, 255);">
+								Below is a list of the winners from each judged Homecoming event.&nbsp; Thank you to all student organizations that participated in Homecoming 2015!&nbsp;</p>
+
+							<h1 style="font-family: WebGotham, Georgia; background-color: rgb(255, 255, 255);">
+								<u>Homecoming 2015 Royalty Winners</u></h1>
+
+							<h3 style="font-family: WebGotham, Georgia; background-color: rgb(255, 255, 255);">
+								Congrats to Trevon Smith and Whitley Green!&nbsp;</h3>
+
+							<p style="font-size: 20px; line-height: 34px;">
+								<img alt="" src="/sites/default/files/11222623_772666792859221_4979753993950459876_n.jpg" style="width: 600px; height: 450px;" /></p>
+
+							<h1>
+								<u>Homecoming Overall Winners</u></h1>
+
+							<h4>
+								<strong>The President&rsquo;s Trophy &ndash;&nbsp;</strong>Awarded to the Greek team with the most points overall, accumulated through all judged Homecoming events.</h4>
+
+							<h4>
+								<strong>First Place Tie:</strong></h4>
+
+							<ul>
+								<li>
+									<h4>
+										<strong>Team 3 - Chi Omega, Phi Kappa Sigma, FIJI, Sigma Lamda Gamma</strong></h4>
+								</li>
+								<li>
+									<h4>
+										<strong>Team 4 - Delta Gamma, Sigma Phi Epsilon, Alpha Phi Alpha, Delta Phi Omega, Sigma Lambda Beta</strong></h4>
+								</li>
+							</ul>
+
+							<h4>
+								<strong>Eagle Claw Award &ndash;&nbsp;</strong>Awarded to the Residence Hall with the most points overall, accumulated through all judged Homecoming events.</h4>
+
+							<h4>
+								<strong>First Place:</strong></h4>
+
+							<ul>
+								<li>
+									<h4>
+										<strong>Maple Hall</strong></h4>
+								</li>
+							</ul>
+
+							<h4>
+								<strong>Scrappy Award -&nbsp;</strong>Awarded to the Registered Student Organization with the most points overall, accumulated through all judged Homecoming events.&nbsp;</h4>
+
+							<h4>
+								<strong>First Place Tie:</strong></h4>
+
+							<ul>
+								<li>
+									<h4>
+										<strong>African Student Organization </strong></h4>
+								</li>
+								<li>
+									<h4>
+										<strong>Filipino Student Association</strong></h4>
+								</li>
+							</ul>
+
+							<h1>
+								<u>Spirit Banner&nbsp;</u></h1>
+
+							<h4>
+								<u><strong>Registered Student Orgs​</strong></u></h4>
+
+							<h4>
+								<strong>1st - University Program Council</strong></h4>
+
+							<h4>
+								<strong>2nd - Student Government Association</strong></h4>
+
+							<h4>
+								<strong>3rd - Country Western Dance Club</strong></h4>
+
+							<h4>
+								<u><strong style="font-family: WebGotham, Georgia, 'Open Sans', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.1;">​Housing</strong></u></h4>
+
+							<div>
+								<h4>
+									<strong>1st - Maple Hall</strong></h4>
+
+								<h4>
+									<strong>2nd&nbsp;- Legends Hall</strong></h4>
+
+								<h4>
+									<strong>3rd - Crumley Hall</strong></h4>
+							</div>
+
+							<h4>
+								<u><strong>Greek</strong></u></h4>
+
+							<h4>
+								<strong>1st - Greek Team 4 -&nbsp;Delta Gamma, Sigma Phi Epsilon, Alpha Phi Alpha, Delta Phi Omega, Sigma Lambda Beta</strong></h4>
+
+							<h4>
+								<strong>2nd&nbsp;- Greek Team 6 - Kappa Kappa Gamma, Pi Kappa Phi, Zeta Phi Beta, Phi Iota Alpha</strong></h4>
+
+							<h4>
+								<strong>3rd - Greek Team 3 -&nbsp;Chi Omega, Phi Kappa Sigma, FIJI, Sigma&nbsp;Lamda&nbsp;Gamma</strong></h4>
+
+							<h1>
+								<u>Powderpuff Football</u></h1>
+
+							<h4>
+								<u><strong>Registered Student&nbsp;Orgs​</strong></u></h4>
+
+							<h4>
+								<strong>1st - Filipino&nbsp;Student Association</strong></h4>
+
+							<h4>
+								<strong>2nd - Black Student Umbrella</strong></h4>
+
+							<h4>
+								<strong>3rd - Student Government Association</strong></h4>
+
+							<h4>
+								<u><strong>Greek</strong></u></h4>
+
+							<h4>
+								<strong>1st -&nbsp;Greek Team 7 - Pi Beta Phi, Sigma Chi, Omega Psi Phi, Delta Kappa Delta, Omega Delta Phi</strong></h4>
+
+							<h4>
+								<strong>2nd&nbsp;-&nbsp;Greek Team 3 -&nbsp;Chi Omega, Phi Kappa Sigma, FIJI, Sigma Lamda Gamma</strong></h4>
+
+							<h4>
+								<strong>3rd -&nbsp;Greek Team 6 -&nbsp;Kappa&nbsp;Kappa&nbsp;Gamma, Pi Kappa Phi, Zeta Phi Beta, Phi Iota Alpha</strong></h4>
+
+							<h1>
+								<u>Canstruction</u></h1>
+
+							<h4>
+								<u><strong>Registered Student&nbsp;Orgs​</strong></u></h4>
+
+							<h4>
+								<strong>1st - MSA Scholars</strong></h4>
+
+							<h4>
+								<strong>2nd - Rotoract</strong></h4>
+
+							<h4>
+								<strong>3rd - African Student&nbsp;Organization</strong></h4>
+
+							<h4>
+								<u><strong style="line-height: 1.1;">​</strong></u><u><strong>Greek</strong></u></h4>
+
+							<h4>
+								<strong>1st -&nbsp;Greek Team 4&nbsp;-&nbsp;Delta Gamma, Sigma Phi Epsilon, Alpha Phi Alpha, Delta Phi Omega, Sigma Lambda Beta</strong></h4>
+
+							<h4>
+								<strong>2nd&nbsp;-&nbsp;Greek Team 2 - Alpha Phi, Alpha Tau Omega, Phi Kappa Tau, Delta Sigma Theta, Lambda Theta Phi</strong></h4>
+
+							<h4>
+								<strong>3rd -&nbsp;Greek Team 3 -&nbsp;Chi Omega, Phi Kappa Sigma, FIJI, Sigma Lamda Gamma</strong></h4>
+
+							<h1>
+								<u>Yell Like Hell</u></h1>
+
+							<h4>
+								<u><strong>Registered Student&nbsp;Orgs​</strong></u></h4>
+
+							<h4>
+								<strong>1st - African&nbsp;Student&nbsp;Organization</strong></h4>
+
+							<h4>
+								<strong>2nd -&nbsp;Definition Dance Team</strong></h4>
+
+							<h4>
+								<strong>3rd -&nbsp;&nbsp;Filipino&nbsp;Student Association</strong></h4>
+
+							<h4>
+								<u><strong style="line-height: 1.1;">​Housing</strong></u></h4>
+
+							<div style="font-size: 20px; line-height: 34px;">
+								<h4>
+									<strong>1st - Kerr Hall</strong></h4>
+
+								<h4>
+									<strong>2nd&nbsp;- Maple Hall</strong></h4>
+
+								<h4>
+									<strong>3rd -&nbsp;Bruce Hall</strong></h4>
+							</div>
+
+							<h4>
+								<u><strong>Greek</strong></u></h4>
+
+							<h4>
+								<strong>1st -&nbsp;Greek Team 1 - Alpha Delta Pi, Sigma Nu, Alpha Epsilon Pi, Iota Phi Theta, Delta Epsilon Psi</strong></h4>
+
+							<h4>
+								<strong>2nd&nbsp;-&nbsp;Greek Team 7&nbsp;- Pi Beta Phi, Sigma Chi, Omega Psi Phi, Delta Kappa Delta, Omega Delta Phi</strong></h4>
+
+							<h4>
+								<strong>3rd -&nbsp;Greek Team 4&nbsp;-&nbsp;Delta Gamma, Sigma Phi Epsilon, Alpha Phi Alpha, Delta Phi Omega, Sigma Lambda Beta</strong></h4>
+
+							<h1>
+								<u>Parade Float</u></h1>
+
+							<h4>
+								<u><strong>Registered Student&nbsp;Orgs​</strong></u></h4>
+
+							<h4>
+								<strong>1st -</strong>&nbsp;BYX/Sigma Alpha/Sigma Phi Lambda</h4>
+
+							<h4>
+								<u><strong>Greek</strong></u></h4>
+
+							<h4>
+								<strong>1st - Greek Team 2&nbsp;- Alpha Phi, Alpha Tau Omega, Phi Kappa Tau, Delta Sigma Theta, Lambda Theta Phi</strong></h4>
+
+							<h4>
+								<strong>2nd&nbsp;-&nbsp;Greek Team 6 -&nbsp;Kappa&nbsp;Kappa&nbsp;Gamma, Pi Kappa Phi, Zeta Phi Beta, Phi Iota Alpha</strong></h4>
+
+							<h4>
+								<strong>3rd -&nbsp;Greek Team 3 -&nbsp;Chi Omega, Phi Kappa Sigma, FIJI, Sigma Lamda Gamma</strong></h4>
+
+							<h1>
+								<u>Homecoming Royalty</u></h1>
+
+							<p style="color: rgb(90, 90, 90); line-height: 34px; font-size: 14px; background-color: rgb(255, 255, 255);">
+								The Homecoming Court was&nbsp;be selected by a panel of faculty, staff, and students, based on the candidates&#39; applications and interviews. All members of the Court must meet minimum eligibility, including GPA, enrollment, and good standing requirements.&nbsp;</p>
+
+							<h3 style="color: rgb(90, 90, 90); line-height: 34px; font-size: 14px; background-color: rgb(255, 255, 255);">
+								<strong>Role Models</strong></h3>
+
+							<p style="color: rgb(90, 90, 90); line-height: 34px; font-size: 14px; background-color: rgb(255, 255, 255);">
+								The Homecoming Royalty will serve as role models for the entire campus and university. Candidates must exhibit qualities such as leadership, diversity, character, communication skills, and creativity. The two students that are chosen to be Homecoming Royalty are a positive representation of the University of North Texas.</p>
+
+							<h3 style="color: rgb(90, 90, 90); line-height: 34px; font-size: 14px; background-color: rgb(255, 255, 255);">
+								<strong>2015 Royalty Court</strong></h3>
+
+							<h5>
+								<img alt="" src="/sites/default/files/karen_alday.jpg" style="width: 281px; height: 400px;" /></h5>
+
+							<h5>
+								<b>Karen Alday</b></h5>
+
+							<h5>
+								<strong>Sponsoring Org:</strong> Student Government Association</h5>
+
+							<h5>
+								<strong>Major: </strong>History/Political Science</h5>
+
+							<h5>
+								<strong>Classification:</strong> Senior</h5>
+
+							<p class="para">
+								Karen Alday is a senior, and plans on graduating in May of 2016. She is a double major in History and political science with hopes of attending Law School next Fall. She is a proud member of Chi Omega, and serves as the New Member Educator for her chapter. She is the Director of Leadership and Development for the Student Government Association. Also she is the current president of Phi Alpha Delta pre-law fraternity. While holding many leadership positions she is also a member of the prestigious NT40, and danced for the university, on the North Texas Dance Team, her freshman year. &nbsp;Karen is an avid student, and a dedicated fan of the Mean Green!</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/lauren.jpg" style="width: 332px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Lauren Hardgraves</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> Black Student Union</h4>
+
+							<h4>
+								<strong>Major:</strong> Development and Family Studies</h4>
+
+							<h4>
+								<strong>Classification:</strong> Senior</h4>
+
+							<p class="para">
+								Lauren Hardgraves is a Senior major in Development and Family Studies with a concentration in Intervention and Administration and member of the Accelerated Master&#39;s Program in the Department of Educational Psychology. Her Master&#39;s degree will be in Educational Psychology with a focus in Family Studies from the University of North Texas in Denton, Texas. Lauren is heavily involved in serving her campus community. She is a Programming Assistant at the Texas Academy of Math &amp; Science, president of the Black Student Union, ambassador for the Center for Leadership &amp; Service, member of the prestigious North Texas 40 and outgoing Chief Justice of the Supreme Court for the Student Government Association. She dedicates her time volunteering at Serve Denton, a local non-profit, and doing service work with her campus ministry. Lauren&#39;s future plans include obtaining a Juris Doctorate in Family Policy. Lauren hopes to eventually work in communities, formulating ways to holistically revive and restore relational networks that are so key family flourishing. Lauren&#39;s heart for community development will continue to drive her endeavors to strengthen and serve families.</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/madison_runyan_.png" style="width: 256px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Madison Runyan</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> Alpha Phi</h4>
+
+							<h4>
+								<strong>Major:</strong> Elementary Education</h4>
+
+							<h4>
+								<strong>Classification:</strong> Junior</h4>
+
+							<p class="para">
+								Madison Runyan is a junior from Round Rock, Texas. She is studying elementary education at the University of North Texas and hopes to one day become a missionary. Madison has been actively involved on and off campus. She spends her time being a leader in Panhellenic, Alpha Phi, LeaderShape, First Flight, Eagle Camp, and being an orientation leader. She also enjoys assisting local elementary schools as a Community in Schools mentor. Madison looks forward to one day graduating but always calling The University of North Texas her home.</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/victoria_ellis.jpg" style="width: 347px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Victoria Ellis</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> University Program Council</h4>
+
+							<h4>
+								<strong>Major: </strong>Interdisciplinary Studies</h4>
+
+							<h4>
+								<strong>Classification: </strong>Senior</h4>
+
+							<p class="para">
+								Hello! My name is Victoria Ellis and I love UNT. Attending this University has shaped me into a better leader, person, and a member of the community. The diversity, school spirit, and intelligence I am surrounded by makes me extremely proud to say that I go to this school and I would be honored to receive your vote for royalty. But back to me! I am a senior education major that loves music, movies, and dancing. I have been involved in several different organizations throughout my time here at UNT. Last year I served as UPC&#39;s Vice president of membership and I have been an Eagle Camp Leader two years in a row. I love attending football games and watching Netflix all day long. If you see me around campus make sure to say hi!</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/whitley.jpg" style="width: 400px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Whitley Green</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> National Pan-Hellenic Council</h4>
+
+							<h4>
+								<strong>Major:</strong> Dance</h4>
+
+							<h4>
+								<strong>Classification:</strong> Senior</h4>
+
+							<p class="para">
+								Hey Mean Green! I&#39;m Whitley Green, a senior majoring in Dance. I am a member of the North Texas 4, ACCESS Mentoring program, and Delta Sigma Theta Sorority, Incorporated. I&#39;m on the IMPACT Board for the Center of Leadership and Service and serve as the Director of Dancer Relations and Morale for Eaglethon. My favorite thing about UNT is the amount of resources and support available to students and favorite tradition is wearing green on Fridays!</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/chris.jpg" style="width: 600px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Chris Chaillot</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> Pi Kappa Alpha</h4>
+
+							<h4>
+								<strong>Major: </strong>Emergency Administration and Planning</h4>
+
+							<h4>
+								<strong>Classification: </strong>Junior</h4>
+
+							<p class="para">
+								&quot;I was raised in the small East Texas town of Palestine where my mother was a prison warden and my father was the editor of the local newspaper. My mother instilled in me a hard work ethic and determination, which I exhibited by running cross-country and performing in the drumline. My father instilled in me a sense of adventure and the ability to find the enjoyment in all the little things in life, which cultured my love of the outdoors and my desire to try new things. I began my UNT adventure by attending Eagle Camp in 2013. &ldquo;Don&rsquo;t Drop that Eagle Claw&rdquo; became my mantra, and I held my claw high by becoming involved throughout the university. Over the past two years I have run cross-country/track for the university, been initiated into the Pi Kappa Alpha Fraternity, volunteered as an Eagle Camp leader and a First Flight leader, worked as the Eagle Camp Student Coordinator, and I am currently in my 3rd semester as a Resident Assistant at the one and only Kerr Hall. I believe I have made the most out of my time at UNT, and I can&rsquo;t wait to see what future semesters have in store.&quot;</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/gregsgammato1.jpg" style="width: 337px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Greg Sgammato</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> Residence Hall Association</h4>
+
+							<h4>
+								<strong>Major: </strong>Music</h4>
+
+							<h4>
+								<strong>Classification:</strong> Senior</h4>
+
+							<p class="para">
+								&quot;No one knows North Texas like Greg Sgammato. Greg Sgammato currently serves as the Special Assistant for Campus Engagement in the Department of Housing and Residence Life at the University of North Texas, and has been a Mean Green super fan since his first day on campus in August 2010. Throughout his time spent at UNT, Sgammato has taken advantage of every opportunity that came his way, and due to the amount of incredible organizations on campus &ndash; those opportunities were plentiful and came often. Sgammato began work as a Resident Assistant at Santa Fe &ndash; Traditions Hall in the Spring of 2013. Thanks to the position, Sgammato was able to meet many of UNT&rsquo;s former and current student leaders. He also became involved with the Residence Hall Association, National Residence Hall Honorary, and the Residence Life Advisor Council. Prior to getting involved in housing, Sgammato adjusted to campus life through the Green Tones, UNT&rsquo;s premier co-ed acapella ensemble. His time with the Green Tones included tenures as Visual Director, Music Director, and President. Greg would like to thank the Residence Hall Association, UNT Short Film Club, and the Department of Housing and Residence Life as well as his family and friends.&quot;</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/parker1.jpg" style="width: 400px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Parker McNally</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> Student Government Association</h4>
+
+							<h4>
+								<strong>Major: </strong>Communication</h4>
+
+							<h4>
+								<strong>Classification: </strong>Junior</h4>
+
+							<p class="para">
+								Parker was born in Oklahoma City Oklahoma in 1994. I lived in Oklahoma for six ears, and then moved to Sugar Land, TX in 2001. I lived in Sugar Land up until I enrolled in school here at UNT. AT UNT, one of my biggest goals has been to make a difference. I joined SGA&rsquo;s Freshman Intern Program my first year here. The Freshman Intern Program is a program in which the SGA develops student leaders. In spring on 2014, I decided to join a fraternity, Pi Kappa Phi. IN my fraternity I have had so many opportunities to give back: We raised money to help Emily Rose, a student who used a wheelchair, walk across the stage, we&rsquo;ve raised money for The Ability Experience, and I had the opportunity to spend my summer on Build America. Build America is a six week program in which I traveled around the Midwest to different summer camps for people with disabilities. At the camps my team and I did construction work, but I found the most joy in hanging out with the campers. I am also involved in Campus Outreach, and I&rsquo;m an Eagle Ambassador at UNT. Go Mean Green!</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/trerell.jpg" style="width: 400px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Trerell Hearn</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org:</strong> Broadcast Educational Association</h4>
+
+							<h4>
+								<strong>Major:</strong> Broadcast Journalism</h4>
+
+							<h4>
+								<strong>Classification: </strong>Junior</h4>
+
+							<p class="para">
+								Well, My name is Trerell Hearn but most people just call me Tre for short. I am a proud native of Jackson, Mississippi but an even prouder student here at UNT. I am majoring in Broadcast Journalism with a minor in Real Estate. Currently, I am involved in numerous on-campus and community organizations including: UNT Compliments, Mayborn Ambassadors, NT-Daily, North Texas Television, Mose Models, and Broadcast Education Association, just to name a few. I really enjoy photography and Fashion. But Being active in the North Texas community is a passion of mine that can never be replaced. I will forever have MEAN GREEN flowing through my veins.</p>
+
+							<h4>
+								<img alt="" src="/sites/default/files/trevon.jpg" style="width: 600px; height: 400px;" /></h4>
+
+							<h4>
+								<strong>Trevon Smith</strong></h4>
+
+							<h4>
+								<strong>Sponsoring Org: </strong>Progressive Black Student Organization</h4>
+
+							<h4>
+								<strong>Major:</strong> Applied Technology and Performance Improvement</h4>
+
+							<h4>
+								<strong>Classification:</strong> Senior</h4>
+
+							<p class="para">
+								Caw! My name is Trevon Smith, a senior here at the University of North Texas and I am extremely proud to be a green light to greatness in the Mean Green Nation. I am majoring in Applied Technology and Performance Improvement with a minor in Military Science. I was born in Alaska as a military kid, but I call Killeen, Texas home. With this year&rsquo;s Homecoming theme being a Journey Through Time I feel very privileged to have experiences many of the greatest moments in recent UNT history to include the legendary UNT Harlem Shake video, our Heart of Dallas Bowl win, and my personal favorite the J.Cole concert! I count it a joy to bleed green and would be honored to be your 2015 Homecoming Royalty!</p>
+
+							<h1>
+								Forms</h1>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="well">
+									<p>
+										<strong style="background-color: rgb(255, 255, 255);">All forms are now closed</strong></p>
+
+									<ul>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157826">Student Org Tent Reservation&nbsp;Form</a><a href="/sites/default/files/tailgatepackage.hcdetailsstudents.hc2015.pdf">*</a>&nbsp;<strong>(Due 9/30)</strong></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/158040" style="outline: 0px; color: rgb(42, 100, 150); text-decoration: underline;" target="_blank">Volunteer Sign Up</a>&nbsp;<strong style="background-color: rgb(255, 255, 255);">(Due 9/30)</strong></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157961" style="outline: 0px; color: rgb(42, 100, 150); text-decoration: underline;" target="_blank">Parade Entry Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157978" target="_blank">Homecoming Royalty Entry Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157687" target="_blank">Spirit Banner Entry Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157706" target="_blank">Powder Puff Football Entry Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157715" target="_blank">Canstruction Entry Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/158000" target="_blank">Yell Like Hell Entry Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157997" target="_blank">Judging Sign Up</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157955" target="_blank">Funding Request Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157694" target="_blank">Spirit Day Table Sign up Form</a></s></li>
+										<li>
+											<s><a href="https://orgsync.com/8394/forms/157680" target="_blank">Homecoming Picnic Table Reservation Form</a></s></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<h1>
+									Student Organization Information Packet</h1>
+
+								<p>
+									Organizations wishing to participate in Homecoming should review the information in this packet. If you have any questions after reviewing the Homecoming information, please visit Student Activities in Stovall Hall 117 or call <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-3807<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-3807"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-3807" /></a></span>.</p>
+								<a class="button button-block" href="/sites/default/files/packet_2015_-_final.pdf" target="_blank">Download Homecoming Packet (PDF) &rarr;</a></div>
+						</div>
+
+						<h1>
+							Homecoming Crew</h1>
+						
+
+<div class="view view-Staff view-id-Staff view-display-id-block_4 view-dom-id-1">
+
+
+    
+  
+  
+      <div class="view-content">
+          
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/kandice.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kandice Horton</h4>
+    	<p class="title">Homecoming Director</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/johnna.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Johnna Sargent</h4>
+    	<p class="title">Event Coord. Spirit Day</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/shanti_1.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Shanti Johnson</h4>
+    	<p class="title">Event Coord. HC Royalty</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/gabby.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Gabby Prosser</h4>
+    	<p class="title">Event Coord. Banner &amp; Royalty Co-Head</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/devin.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Devin Foster</h4>
+    	<p class="title">Volunteer &amp; Judging Coord.</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/joe1_0.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Joe Bessner</h4>
+    	<p class="title">Video, Design, &amp; Social Media Coordinator</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/brittany.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Brittany Weatherspoon</h4>
+    	<p class="title">Event Coord. Movie &amp; Comedy</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/robin.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Robin Kelly</h4>
+    	<p class="title">Marketing &amp; Recruitment Coord.</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/vicky.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Vicky Wentz</h4>
+    	<p class="title">Event Coord. Powder Puff Football</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/taylor.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Taylor Smith</h4>
+    	<p class="title">Event Coord. Parade</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/staff/jazreal.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jazreal Alexander</h4>
+    	<p class="title">Event Coord. Yell Like Hell</p>
+        </div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+
+					<div class="col-md-4">
+						<h1>
+							Events for Students</h1>
+						<!-- BEGIN EVENTS -->
+
+						<p class="text-small">
+							<em>Please note that not all events are open to everyone. Some are open only to current UNT students, and some may require an RSVP. Please click on an event for more details. Events highlighted by a kelly green tab are &ldquo;official&rdquo; student Homecoming events, coordinated by Student Activities.</em></p>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>2</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="" target="_blank">Homecoming Banners Due</a></div>
+								<time>5pm</time>
+
+								<div class="location">
+									STUB 117</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>5-8</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="" target="_blank">Homecoming Royalty Voting</a></div>
+								<time>5pm on Oct 8th</time>
+
+								<div class="location">
+									OrgSync</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>5</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/powder-puff-football-game" target="_blank">Powder Puff Football</a></div>
+								<time>6:30pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>6</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-picnic-1" target="_blank">Homecoming Picnic</a></div>
+								<time>11am - 1pm</time>
+
+								<div class="location">
+									Library Mall</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>6</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-movie-night" target="_blank">Outdoor Movie</a></div>
+								<time>8pm</time>
+
+								<div class="location">
+									Location TBA</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>7</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-canstruction" target="_blank">Canstruction</a></div>
+								<time>8:30am-1pm</time>
+
+								<div class="location">
+									Library Mall</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>7</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-spirit-day-0" target="_blank">Spirit Day</a></div>
+								<time>11am - 1pm</time>
+
+								<div class="location">
+									Library Mall</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>7</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-comedy-night" target="_blank">Comedy Show</a></div>
+								<time>8pm</time>
+
+								<div class="location">
+									Auditorium Building</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>8</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/yell-hell" target="_blank">Yell Like Hell</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Coliseum</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/spirit-march-2" target="_blank">Spirit March</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Starts at Fraternity Row on Maple Street</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-bonfire-1" target="_blank">Bonfire</a></div>
+								<time>8pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span> 10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-fun-run-3" target="_blank">Homecoming Fun Run</a></div>
+								<time>7am</time>
+
+								<div class="location">
+									Front of Pohl Rec Center</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-parade-3" target="_blank">Parade</a></div>
+								<time>Lineup at 8am, Begins at 10am</time>
+
+								<div class="location">
+									Starts at Welch and Hickory Streets</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/cas-mean-green-homecoming-tailgating" target="_blank">Department Tailgates TBA</a></div>
+								<time>1pm</time>
+
+								<div class="location">
+									Victory Plaza</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-football-game-vs-portland-state" target="_blank">Homecoming Football Game: Mean Green vs. Portland State</a></div>
+								<time>4pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+						<!-- END EVENTS --></div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="departments">
+				<div class="row">
+					<div class="col-md-8">
+						<p class="text-headline" style="color: rgb(90, 90, 90); background-color: rgb(255, 255, 255);">
+							Homecoming is a great time to show your Mean Green spirit as an UNT Department. Go Mean Green!</p>
+
+						<h1>
+							<u>Homecoming&nbsp;Department Decorating&nbsp;Winners:</u></h1>
+
+						<h4>
+							Congrats to our 2015 winners of the office decorating contest! Winners receive an office&nbsp;pizza party courtesy of Student Activities.</h4>
+
+						<ol>
+							<li>
+								<h4>
+									<strong>Communication Studies</strong></h4>
+							</li>
+							<li>
+								<h4>
+									<strong>Trio Programs</strong></h4>
+							</li>
+						</ol>
+
+						<h1>
+							Forms</h1>
+
+						<p>
+							<strong style="background-color: rgb(255, 255, 255);">All forms are now closed</strong></p>
+
+						<ul>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/157961" style="outline: 0px; color: rgb(42, 100, 150); text-decoration: underline;" target="_blank">Parade Entry</a></s></li>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/157680" target="_blank">Homecoming Picnic&nbsp;Table Registration</a></s></li>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/157989" target="_blank">Decorating Contest Registration</a></s></li>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/157715" target="_blank">Canstruction Entry Form</a></s></li>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/157997" target="_blank">Homecoming Judge Sign Up</a></s></li>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/158040" target="_blank">Homecoming Volunteer Sign Up</a>&nbsp;(<strong>Due&nbsp;9/30)</strong></s></li>
+							<li>
+								<s><a href="http://www.meangreensports.com/homecomingtailgate/" target="_blank">Homecoming Tailgate&nbsp;Tent Reservation</a>&nbsp;(<strong>Due&nbsp;9/30)</strong></s>
+								<ul>
+									<li>
+										<p>
+											<em>Departments have three options for homecoming tailgate tent packages.</em></p>
+
+										<ul>
+											<li>
+												<em>A 10-foot by 20-foot tent with three 8-foot banquet tables, 20 chairs, one priority parking pass and 10 game tickets, starting at $500.</em></li>
+											<li>
+												<em>A 20-foot by 20-foot tent with six 8-foot banquet tables, 40 chairs, two priority parking passes and 20 game tickets starting at $750. This package also will be available for each home game starting at $850.</em></li>
+											<li>
+												<em>A 30-foot by 30-foot tent with 10 8-foot banquet tables, 60 chairs, three priority parking passes and 30 game tickets beginning at $1,100.</em></li>
+											<li>
+												<p>
+													<em>To order a tent, call <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2527<a href="#" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2527"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2527" /></a></span>.</em></p>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<h1>
+							Events for Employees</h1>
+						<!-- BEGIN EVENTS -->
+
+						<p class="text-small">
+							<em>Please note that not all events are open to everyone. Some are open only to current UNT students, and some may require an RSVP. Please click on an event for more details. Events highlighted by a kelly green tab are &ldquo;official&rdquo; student Homecoming events, coordinated by Student Activities.</em></p>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>5</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/powder-puff-football-game" target="_blank">Powder Puff Football</a></div>
+								<span style="background-color: rgb(255, 255, 255);">6:</span><span style="background-color: rgb(255, 255, 255);">30</span><span style="background-color: rgb(255, 255, 255);">pm</span>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>6</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="https://studentaffairs.unt.edu/event/2014-homecoming-picnic" target="_blank">Homecoming Picnic</a></div>
+								<time>11am - 1pm</time>
+
+								<div class="location">
+									Library Mall</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>7</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-canstruction" target="_blank">Canstruction</a></div>
+								<time>8:30am-1pm</time>
+
+								<div class="location">
+									Library Mall</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>7</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-spirit-day-0" target="_blank">Spirit Day</a></div>
+								<time>11am - 1pm</time>
+
+								<div class="location">
+									Library Mall</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>8</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/distinguished-alumni-achievement-awards" target="_blank">Distinguished Alumni Achievement Awards</a></div>
+								<time>6pm</time>
+
+								<div class="location">
+									Gateway Center Ballroom</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>8</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/yell-hell" target="_blank">Yell Like Hell</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Coliseum</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/spirit-march-2" target="_blank">Spirit March</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Starts at Fraternity Row on Maple Street</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-bonfire-1" target="_blank">Bonfire</a></div>
+								<time>8pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span> 10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-fun-run-3" target="_blank">Homecoming Fun Run</a></div>
+								<time>7am</time>
+
+								<div class="location">
+									Front of Pohl Rec Center</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-parade-3" target="_blank">Parade</a></div>
+								<time>Lineup at 8am, Begins at 10am</time>
+
+								<div class="location">
+									Starts at Welch and Hickory Streets</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="" target="_blank">Department Tailgates TBA</a></div>
+								<time>1pm</time>
+
+								<div class="location">
+									Victory Plaza</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-football-game-vs-portland-state" target="_blank">Homecoming Football Game: Mean Green vs. Portland State</a></div>
+								<time>4pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+						<!-- END EVENTS --></div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="alumni">
+				<div class="row">
+					<div class="col-md-8">
+						<p class="text-headline">
+							Homecoming is a great time to show your Mean Green spirit as an alumnus. Come&nbsp;back and celebrate. Go Mean Green!</p>
+
+						<h1>
+							Forms</h1>
+
+						<p>
+							<strong style="background-color: rgb(255, 255, 255);">All forms are now closed</strong></p>
+
+						<ul>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/157961" target="_blank">Parade Entry</a>&nbsp;</s></li>
+							<li>
+								<s><a href="http://www.meangreensports.com/homecomingtailgate/" target="_blank">Homecoming Tailgate Tent Reservation</a>&nbsp;(</s>Due 9/30)</li>
+						</ul>
+
+						<h1>
+							Events</h1>
+
+						<p>
+							<strong>Distinguished Alumni Achievement Awards</strong></p>
+
+						<p>
+							Please click <a href="https://www.untalumni.com/alumni/pages/alumni-awards">here</a> for more information on the program.&nbsp; Registration is due on September 30<sup>th</sup>.&nbsp; Contact <a href="mailto:annie.carter@unt.edu">annie.carter@unt.edu</a> for more information or to register.</p>
+
+						<p>
+							<strong>Alumni at the Bonfire</strong></p>
+
+						<p>
+							Please click <a href="http://calendar.unt.edu/alumni-bonfire">here</a> for more information on how to join us at the Pavilion for the best seat in the house!</p>
+
+						<p>
+							<strong>Golden Eagles Class of &#39;65&nbsp;Breakfast</strong></p>
+
+						<p>
+							Please click&nbsp;<a href="https://www.untalumni.com/alumni/pages/alumni-events-golden-eagles-2015">here</a>&nbsp;for more information on the Breakfast and how to register. Registration form is due on Oct. 2nd.&nbsp;Contact <a href="mailto:annie.carter@unt.edu">annie.carter@unt.edu</a>&nbsp;for more info.</p>
+
+						<p>
+							<strong>Homecoming GameDay Grille</strong></p>
+
+						<p>
+							Please click <a href="http://calendar.unt.edu/homecoming-gameday-grille">here</a> for more information on how to join us at the Pavilion two hours prior to kick-off!</p>
+
+						<p>
+							&nbsp;</p>
+					</div>
+
+					<div class="col-md-4">
+						<h1>
+							Alumni Events</h1>
+						<!-- BEGIN EVENTS -->
+
+						<p class="text-small">
+							<em>Please note that not all events are open to everyone. Some are open only to current UNT students, and some may require an RSVP. Please click on an event for more details. Events highlighted by a kelly green tab are &ldquo;official&rdquo; student Homecoming events, coordinated by Student Activities.</em></p>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>5</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/powder-puff-football-game" target="_blank">Powder Puff Football</a></div>
+								<span style="background-color: rgb(255, 255, 255);">6:</span><span style="background-color: rgb(255, 255, 255);">30</span><span style="background-color: rgb(255, 255, 255);">pm</span>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>8</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/distinguished-alumni-achievement-awards" target="_blank">Distinguished Alumni Achievement Awards</a></div>
+								<time>6pm</time>
+
+								<div class="location">
+									Gateway Center Ballroom</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>8</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/yell-hell" target="_blank">Yell Like Hell</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Coliseum</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/spirit-march-2" target="_blank">Spirit March</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Starts at Fraternity Row on Maple Street</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/alumni-bonfire" target="_blank">Alumni Pavillion Opens for Bonfire</a></div>
+								<time>7:30pm</time>
+
+								<div class="location">
+									Alumni Pavillion (Apogee)</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-bonfire-1" target="_blank">Bonfire</a></div>
+								<time>8pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span> 10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-fun-run-3" target="_blank">Homecoming Fun Run</a></div>
+								<time>7am</time>
+
+								<div class="location">
+									Front of Pohl Rec Center</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span> 10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/golden-eagles-reunion-breakfast" target="_blank">Golden Eagles Class of &#39;65 Breakfast/Reunion</a></div>
+								<time>9am</time>
+
+								<div class="location">
+									Gateway Center Ballroom</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-parade-3" target="_blank">Parade</a></div>
+								<time>Lineup at 8am, Begins at 10am</time>
+
+								<div class="location">
+									Starts at Welch and Hickory Streets</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="" target="_blank">Department Tailgates TBA</a></div>
+								<time>1pm</time>
+
+								<div class="location">
+									Victory Plaza</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-gameday-grille" target="_blank">GameDay Grille</a></div>
+								<time>2pm</time>
+
+								<div class="location">
+									Alumni Pavillion</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-football-game-vs-portland-state" target="_blank">Homecoming Football Game: Mean Green vs. Portland State</a></div>
+								<time>4pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+						<!-- END EVENTS --></div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="community">
+				<div class="row">
+					<div class="col-md-8">
+						<p class="text-headline">
+							Homecoming is a great time to show your Mean Green spirit in the Denton community. Come out and celebrate. Go Mean Green!</p>
+
+						<h1>
+							Forms</h1>
+
+						<p>
+							<strong style="background-color: rgb(255, 255, 255);">All forms are now closed</strong></p>
+
+						<ul>
+							<li>
+								<s><a href="https://orgsync.com/8394/forms/157961" target="_blank">Parade Entry</a></s></li>
+							<li>
+								<s><a href="http://www.meangreensports.com/homecomingtailgate/" target="_blank">Homecoming Tailgate Tent Reservation</a></s>&nbsp;(due 9/30)</li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<h1>
+							Community Events</h1>
+						<!-- BEGIN EVENTS -->
+
+						<p class="text-small">
+							<em>Please note that not all events are open to everyone. Some are open only to current UNT students, and some may require an RSVP. Please click on an event for more details. Events highlighted by a kelly green tab are &ldquo;official&rdquo; student Homecoming events, coordinated by Student Activities.</em></p>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>5</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/powder-puff-football-game" target="_blank">Powder Puff Football</a></div>
+								<span style="background-color: rgb(255, 255, 255);">6:</span><span style="background-color: rgb(255, 255, 255);">30</span><span style="background-color: rgb(255, 255, 255);">pm</span>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>8</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/yell-hell" target="_blank">Yell Like Hell</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Coliseum</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/spirit-march-2" target="_blank">Spirit March</a></div>
+								<time>7pm</time>
+
+								<div class="location">
+									Starts at Fraternity Row on Maple Street</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>9</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-bonfire-1" target="_blank">Bonfire</a></div>
+								<time>8pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span> 10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-fun-run-3" target="_blank">Homecoming Fun Run</a></div>
+								<time>7am</time>
+
+								<div class="location">
+									Front of Pohl Rec Center</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event hc-official">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-parade-3" target="_blank">Parade</a></div>
+								<time>Lineup at 8am, Begins at 10am</time>
+
+								<div class="location">
+									Starts at Welch and Hickory Streets</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+
+						<div class="well event">
+							<time class="date"><span>Oct</span>10</time>
+
+							<div class="details">
+								<div class="title">
+									<a href="http://calendar.unt.edu/homecoming-football-game-vs-portland-state" target="_blank">Homecoming Football Game: Mean Green vs. Portland State</a></div>
+								<time>4pm</time>
+
+								<div class="location">
+									Apogee Stadium</div>
+							</div>
+
+							<div class="clear">
+								&nbsp;</div>
+						</div>
+						<!-- END EVENTS --></div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="sponsors">
+				<p>
+					Homecoming week will take place from October 5-10, 2015. The week of events is filled with spirit and pride, including great traditions such as the annual Homecoming Picnic, Bonfire, and Parade. This invaluable opportunity will give you a chance to market your business to thousands of UNT students, faculty, and staff!</p>
+
+				<h1>
+					Forms</h1>
+
+				<p>
+					If you are interested in becoming a sponsor, please contact us at student.activities@unt.edu.&nbsp;</p>
+
+				<ul>
+					<li>
+						<a href="/sites/default/files/homecoming_sponsorship_table.pdf" target="_blank">Sponsorship Table</a>&nbsp;</li>
+					<li>
+						<a href="https://orgsync.com/8394/forms/157312" target="_blank">Sponsorship Registration Form</a>&nbsp;(due 9/30)</li>
+				</ul>
+
+				<p>
+					&nbsp;</p>
+
+				<h1 class="row">
+					Thank you to our 2015&nbsp;Homecoming Sponsors!</h1>
+
+				<p style="line-height: 24px;">
+					<a href="http://wellsfargo.com" target="_blank"><img alt="" src="/sites/default/files/images/wellsfargo.jpg" style="width: 150px; height: 150px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="" src="/sites/default/files/Huffines%20Since%201924.png" style="width: 250px; height: 92px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="" src="/sites/default/files/5miles_logo_white_letters.png" style="width: 250px; height: 177px;" /></p>
+			</div>
+		</div>
+	</div>
+
+	<h4>
+		&nbsp;</h4>
+	
+	<style type="text/css">.para{
+    color: rgb(90, 90, 90); 
+    font-size: 14px; 
+    background-color: rgb(255, 255, 255);
+    line-height: 100%;
+    }
+	</style>
+	<style type="text/css">.view-Staff .col-md-4 {width:50%;} .well.event.hc-official time.date {background:#00853e;color:#72b844;}
+  .button-facebook {background:#3b5998;border:0;}
+  .button-twitter  {background:#55acee;border:0;}
+	</style>
+	</div>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/cwetbackground-01_3.png');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/base.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/ajax_view.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "views": { "ajax_path": "/views/ajax", "ajaxViews": [ { "view_name": "Staff", "view_display_id": "block_4", "view_args": "7643", "view_path": "node/7643", "view_base_path": "people", "view_dom_id": 1, "pager_element": 0 } ] }, "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/homecoming": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

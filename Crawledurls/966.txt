@@ -1,0 +1,358 @@
+
+
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>UNT Student Activities's OrgSync Website</title>
+<meta name="keywords" content=" UNT Student Organizations SAC orgs" />
+<meta name="description" content="" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+			<link href="/stylesheets/extranet_defaults.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/module_defaults.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/jquery.fancybox.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/jquery-ui.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.easing.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/jquery.pngFix.js?1418602681" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.fancybox.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/extranet_defaults.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/module_defaults.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/os_jquery.js?1418602681" type="text/javascript"></script>
+
+	    <script type="text/javascript" charset="utf-8">
+	      var $j = jQuery.noConflict()
+	    </script>
+<link href="http://os_extranet_files_test.s3.amazonaws.com/363_680_stylesheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<!-- start page -->
+<div id="page">
+	<!-- start header -->
+	<div id="header">
+		<div id="logo">
+			<h3><a href="http://www.unt.orgsync.com"><img src=http://os_extranet_images.s3.amazonaws.com/3190_original.png alt="image goes here" width="850" height="152">
+</a></h3>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="http://unt.orgsync.com/home">Home</a></li>
+                                                                <li><a href="http://unt.orgsync.com/search">Search Orgs</a></li>
+				<li><a href="http://unt.orgsync.com/Calendar">Calendar</a></li>
+				<li><a href="http://unt.orgsync.com/Events">Events</a></li>
+				<li><a href="http://unt.orgsync.com/News">News</a></li>
+				<li><a href="http://unt.orgsync.com/Forms">Forms </a></li>
+				<li><a href="https://orgsync.com/login">Login </a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- end header -->
+
+		<!-- start content -->
+		<div id="content">
+<div id="os_content"><p style="text-align: center"><img height="45" src="http://s3.amazonaws.com/os_extranet_images/58105_original.png" width="237" /></p>
+
+<p><div class="module" id="module_calendar"><div id="calendar_controls" class="clearfix">
+  
+  
+
+    <a class="button left" href="#" onclick="jQuery.ajax({beforeSend:function(request){$j('#calendar_switch_loader').show();}, complete:function(request){$j('#calendar_switch_loader').hide()}, data:'', dataType:'script', type:'post', url:'/calendar/prev_month?month_offset=-1'}); return false;">Prev</a>
+		<h4>May 2016</h4>
+		<form action="/calendar/change_category" id="calendar_category" method="post" onsubmit="jQuery.ajax({beforeSend:function(request){$j('#calendar_filter_loader').show(); $j('.submit').hide();}, complete:function(request){$j('#calendar_filter_loader').hide(); $j('.submit').show()}, data:jQuery.param(jQuery(this).serializeArray()), dataType:'script', type:'post', url:'/calendar/change_category'}); return false;">
+		    <label class="select_label" for="calendar_event_category_id" id="calendar_event_category_id_label">Category: </label><select class="input_select" id="calendar_event_category_id" name="calendar[event_category_id]"><option value="">All</option>
+<option value="166151">Academic/Professional Org Events</option>
+<option value="166152">Club Sport Org Events</option>
+<option value="166153">Creative and Performing Arts Org Events</option>
+<option value="166154">Cultural/International Org Events</option>
+<option value="166170">Departmental Events</option>
+<option value="19320">General</option>
+<option value="166167">Greek Social (Fraternity) Org Events</option>
+<option value="166169">Greek Social (other) Org Events</option>
+<option value="166168">Greek Social (Sorority) Org Events</option>
+<option value="166155">Honorary Org Events</option>
+<option value="166156">Religious/Spiritual Org Events</option>
+<option value="166157">Service Org Events</option>
+<option value="166158">Social/Political Awareness Org Events</option>
+<option value="166159">Special Interest Org Events</option>
+<option value="166172">Sports Recreation Org Events</option>
+<option value="166171">Student Activities Campus Wide Programming</option>
+<option value="166166">Student Governance Org Events</option>
+<option value="166464">Student Organization Leaders</option></select>
+		    <input class="submit" name="commit" type="submit" value="Filter" />
+		    <div class="loader" id="calendar_filter_loader" style="display:none"><img alt="Spinner" src="/images/spinner.gif?1418602681" />&nbsp;&nbsp;<span>Filtering Events</span></div>
+		  </form>
+   <a class="button right" href="#" onclick="jQuery.ajax({beforeSend:function(request){$j('#calendar_switch_loader').show();}, complete:function(request){$j('#calendar_switch_loader').hide()}, data:'', dataType:'script', type:'post', url:'/calendar/next_month?month_offset=1'}); return false;">Next</a>
+  <div class="loader" id="calendar_switch_loader" style="display:none"><img alt="Spinner" src="/images/spinner.gif?1418602681" />&nbsp;&nbsp;<span>Changing Months</span></div>
+
+</div>
+
+<div id="the_calendars">
+	<div id="inner_cal">
+  <table id="cal_table" width="100%">
+  	<tr class="cal_days_title">
+  		<th>Sun</th>
+  		<th>Mon</th>
+  		<th>Tues</th>
+  		<th>Weds</th>
+  		<th>Thurs</th>
+  		<th>Fri</th>
+  		<th>Sat</th>
+  	</tr>
+    <tr>
+    
+    
+			
+      <td><span class="cal_weekday"><a href="#" onclick="jQuery.ajax({data:'', dataType:'script', type:'post', url:'/calendar/display_day_popup?date=2016-05-01&amp;events=1455178%2C1473412'}); return false;">1</a></span><div class="cal_event cat_color_2 ">
+                      <a href="#" onclick="jQuery.ajax({data:'', dataType:'script', type:'post', url:'/calendar/display_event_popup/1473412?date=2016-05-01'}); return false;">UNT Metals Club Sale ...</a>
+                      <span class="cal_event_time">11a</span>
+                    </div><div class="cal_event cat_color_2 ">
+                      <a href="#" onclick="jQuery.ajax({data:'', dataType:'script', type:'post', url:'/calendar/display_event_popup/1455178?date=2016-05-01'}); return false;">Short Film Club Sprin...</a>
+                      <span class="cal_event_time">5p</span>
+                    </div></td>
+      
+    
+			
+      <td><span class="cal_weekday"><a href="#" onclick="jQuery.ajax({data:'', dataType:'script', type:'post', url:'/calendar/display_day_popup?date=2016-05-02&amp;events=1327120%2C1365041'}); return false;">2</a></span><div class="cal_event cat_color_7 ">
+                      <a href="#" onclick="jQuery.ajax({data:'', dataType:'script', type:'post', url:'/calendar/display_event_popup/1327120?date=2016-05-02'}); return false;">Big Event Member Meet...</a>
+                      <span class="cal_event_time">4p</span>
+                    </div><div class="cal_event cat_color_4 ">
+                      <a href="#" onclick="jQuery.ajax({data:'', dataType:'script', type:'post', url:'/calendar/display_event_popup/1365041?date=2016-05-02'}); return false;">Mariachi Águilas de ...</a>
+                      <span class="cal_event_time">10:30p</span>
+                    </div></td>
+      
+    
+			
+      <td><span class="cal_weekday">3</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">4</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">5</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">6</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">7</span></td>
+      </tr><tr>
+    
+			
+      <td><span class="cal_weekday">8</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">9</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">10</span></td>
+      
+    
+			
+      <td class='cal_today'><span class="cal_weekday">11</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">12</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">13</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">14</span></td>
+      </tr><tr>
+    
+			
+      <td><span class="cal_weekday">15</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">16</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">17</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">18</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">19</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">20</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">21</span></td>
+      </tr><tr>
+    
+			
+      <td><span class="cal_weekday">22</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">23</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">24</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">25</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">26</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">27</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">28</span></td>
+      </tr><tr>
+    
+			
+      <td><span class="cal_weekday">29</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">30</span></td>
+      
+    
+			
+      <td><span class="cal_weekday">31</span></td>
+      
+    
+			
+      <td class='cal_not_month'><span class="cal_weekday">1</span></td>
+      
+    
+			
+      <td class='cal_not_month'><span class="cal_weekday">2</span></td>
+      
+    
+			
+      <td class='cal_not_month'><span class="cal_weekday">3</span></td>
+      
+    
+			
+      <td class='cal_not_month'><span class="cal_weekday">4</span></td>
+      
+    
+    </tr>
+  </table>
+</div>
+</div>
+
+
+  <ul id="cal_legend">
+    
+      <li class="cat_color_2 ">
+        <span>Creative and Performing Arts Org Events</span>
+      </li>
+    
+      <li class="cat_color_4 ">
+        <span>Cultural/International Org Events</span>
+      </li>
+    
+      <li class="cat_color_7 ">
+        <span>Service Org Events</span>
+      </li>
+    
+  </ul>
+
+
+<div id="share_calendar">
+  <a href="https://orgsync.com/8394/calendar">See Full Calendar</a>
+</div>
+</div></p>
+</div>
+
+<div id="event_popup_box_wrapper" style="display:none;">
+	<div id="event_popup_box" class="profile_box" >
+	</div>
+</div>
+<div id="day_popup_box_wrapper" style="display:none;">
+	<div id="day_popup_box" class="profile_box" >
+	</div>
+</div>
+
+</div>
+		<!-- end content -->
+		<!-- start sidebar -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2><b>Office</b> Hours</h2>
+					<ul>
+						<li>Monday - Thursday</li>
+						<li>8:00 a.m.-6:00 p.m.</li>
+						<li>Friday</li>
+						<li>8:00 a.m.-5:00 p.m.</li>
+					</ul>
+                                                                                <h2><img src ="http://os_extranet_images.s3.amazonaws.com/52787_original.png" width ="90%" height="90%"/></h2>
+				</li>
+			</ul>
+		</div>
+		<!-- end sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+		</div> <!-- End Page -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="wrap">
+			<div class="footer_box">
+				<h2>Student Activities Center</h2>
+				<li>1155 Union Circle, # 305069</li>
+                                                                <li>Denton, TX 76203</li>
+                                                                <li>Phone: (940) 565-3807</li>
+                                                                <li>Fax: (940) 565-4446</li>
+			</div>
+			<div  class="footer_box">
+				<h2>Useful Web Links</h2>
+                                                                <br/><li><a href="http://www.unt.edu/sa">Student Activities</a></li>
+                                                                <li><a href="http://www.unt.edu/gl">Greek Life</a></li>
+                                                                <li><a href="http://www.unt.edu">UNT Homepage</a></li>
+			</div>
+			<div  class="footer_box">
+				<h2><img src ="[[image:SACLogo_Bl]]" width ="95%" height="95%"/></h2>
+                                                </div>
+		</div>
+		<p id="legal">&copy; 2010 Student Activities Center. <a href="http://www.unt.edu">The University of North Texas</a> </p>
+	</div>
+<!-- end footer -->
+ 
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-1975314-11");
+		pageTracker._setDomainName(".orgsync.com");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	 </body>
+</html>
+
+
+
+

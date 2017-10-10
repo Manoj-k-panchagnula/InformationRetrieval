@@ -1,0 +1,921 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>UNT Sustainability &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   sustainable">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/sustainable?category=59"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-hhmckbcvD7KT20SGKJoafAPkvjuoSl9u-IpiudCkokw" value="form-hhmckbcvD7KT20SGKJoafAPkvjuoSl9u-IpiudCkokw"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/sustainable?category=59"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-hhmckbcvD7KT20SGKJoafAPkvjuoSl9u-IpiudCkokw" value="form-hhmckbcvD7KT20SGKJoafAPkvjuoSl9u-IpiudCkokw"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-pridetraditions">Pride & Traditions</div> </div> -->
+			<h1 id="dls">UNT Sustainability</h1>
+						<div id="sub" class="subtitle">Provided by <a href="department/student-affairs-administration">Student Affairs Administration</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				<div class="date meta-item">
+			<span>Date</span>
+			Wednesday, July 29, 2015		</div>
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="department/student-affairs-administration">Student Affairs Administration</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="row">
+	<div class="col-md-7">
+		<div class="body_section">
+			<h1 class="title">
+				Start Something Green</h1>
+
+			<p>
+				The We Mean Green Fund provides the opportunity for members of the UNT community to make our campus even greener! Every student pays a $5 Environmental Service fee during the Spring and Fall semester that is dedicated to reduce UNT&#39;s impact on the environment. Students, faculty, and staff can submit their idea for making UNT more sustainable by <a href="https://studentaffairs.unt.edu/form/we-mean-green-fund-expression-interest-form">filling out the expression of interest</a>.<br />
+				<br />
+				<strong>The WMGF&nbsp;Has 2 Co-Equal Goals</strong></p>
+
+			<ol>
+				<li>
+					<p>
+						Have the greatest possible impact to increase the environmental sustainability of the UNT campus</p>
+				</li>
+				<li>
+					<p>
+						Have the greatest possible impact for students at UNT by providing educational opportunities related to environmental sustainability.</p>
+				</li>
+			</ol>
+		</div>
+
+		<div class="body_section">
+			<h1 class="title">
+				Put your green idea into action</h1>
+
+			<ol>
+				<li>
+					<p>
+						Submit your <a href="https://studentaffairs.unt.edu/form/we-mean-green-fund-expression-interest-form">Expression of Interest</a> outlining your idea.</p>
+				</li>
+				<li>
+					<p>
+						Meet with the Sustainability Coordinator to discuss your green idea and receive&nbsp;your proposal template.</p>
+				</li>
+				<li>
+					<p>
+						Complete your proposal template.</p>
+				</li>
+				<li>
+					<p>
+						Present your green idea to the student-led WMGF Committee.</p>
+				</li>
+			</ol>
+		</div>
+
+		<div class="body_section">
+			<h1 class="title">
+				The We Mean Green Fund Committee</h1>
+
+			<p>
+				The We Mean Green Fund (WMGF) Committee is a student-majority committee comprised of 10 students and 3 faculty or staff members. The Committee has the large responsibility of evaluating proposals for sustainability projects that are received from the UNT community, and recommending funding of approved projects from the We Mean Green Fund.</p>
+
+			<p>
+				The Student Government Association and the Graduate Student Council each appoint 1 representative to the committee, and all other spots are filled through an open recruitment and application. If you would like to be contacted regarding opportunities to serve on the WMGF Committee in the future, please <a href="https://studentaffairs.unt.edu/form/we-mean-green-fund-committee-application">complete this form</a>.</p>
+
+			<p>
+				The WMGF meets on the last Friday of every month. The first hour of WMGF meetings are open to the UNT Community for all updates and presentations, and spectators are welcome. Spectators will be asked to leave for the final 30 minutes of meetings, as the WMGF Committee discusses and votes on funding for projects.</p>
+
+			<div class="body_sub">
+				WMGF Spring Meetings
+				<ul>
+					<li>
+						April 29, 11:30 - 1:00 &ndash; Hurley Administration Building 205</li>
+					<li>
+						May 27, 11:30 - 1:00 &ndash; Business Leadership Building 295</li>
+				</ul>
+			</div>
+
+			<p>
+				&nbsp;</p>
+		</div>
+
+		<div class="body_section">
+			<h1 class="title">
+				Green Scholarship Opportunity</h1>
+
+			<p class="scholar">
+				Jostens Global Citizen Sustainability Scholarship Opportunity</p>
+			<!--<p class="bold">
+			<a class="link_color link_size" href="https://orgsync.com/8394/forms/162831">Jostens Global Citizen Sustainability Scholarship Application</a></p>-->
+
+			<p>
+				<strong>Applications closed October 11, 2015,</strong> and Paul McCormick has been chosen as the Jostens Global Citizen Sustainability Scholarship recipient for the 2015-16 year. The Jostens Global Citizen Sustainability Scholarship will be awarded for the first time this year. We are looking for undergraduates who are preparing for a career in sustainability, and who are engaging in green activities. The winner will receive a scholarship worth $1000 dollars. Questions? Contact Gary at <a class="link_color" href="mailto:gary.cocke@unt.edu">gary.cocke@unt.edu</a>.</p>
+		</div>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+
+	<div class="col-md-3">
+		&nbsp; &nbsp; <!--Second column content Join Committee.-->
+		<div style="min-height: 100px;">
+			<div style="padding-top: 5px; float: right;">
+				<ul class="button-group">
+					<li>
+						<a class="button button-social facebook" href="https://www.facebook.com/UNTWeMeanGreen">Facebook</a></li>
+					<li>
+						<a class="button button-social twitter" href="https://twitter.com/UNTWeMeanGreen">Twitter</a></li>
+				</ul>
+			</div>
+
+			<div style="padding-top: 3px; font-size: 1.75em;">
+				Stay Up To Date With UNT Sustainability</div>
+		</div>
+
+		<div class="contact_color">
+			<h1 class="column_margin white">
+				Ladybird Johnson Wildflower Garden Workday</h1>
+
+			<p class="column white">
+				<strong>May 6, 9 AM - 1 PM</strong></p>
+
+			<p class="column white">
+				Help revitalize the Ladybird Johnson Wildflower Garden.<br />
+				We need over 100 volunteers!</p>
+
+			<p class="column white">
+				<a href="https://studentaffairs.unt.edu/form/ladybird-johnson-wildflower-garden-workday">Volunteer now!</a></p>
+		</div>
+		&nbsp;
+
+		<div class="white_column">
+			<h1>
+				Become an Eco Rep</h1>
+
+			<p>
+				Passionate about sustainable living on campus? You can go here to learn more about becoming a <a href="http://studentaffairs.unt.edu/become-an-eco-rep">UNT Eco Rep</a>.</p>
+		</div>
+		&nbsp;&nbsp;
+
+		<div>
+			<h1>
+				Opportunities with Keep Denton Beautiful</h1>
+			<a href="/sites/default/files/programs/spring_2016_-_keep_denton_beautiful_volunteer_flier.pdf" target="_blank"><img alt="Keep Denton Beautiful" src="/sites/default/files/programs/spring_2016_-_keep_denton_beautiful_volunteer_flier.jpg" style="width: 100%;" /></a></div>
+		&nbsp;&nbsp; <!--div class="white_column">
+			<h1>
+				Join the WMGF Committee.</h1>
+			<img class="photo_margin" src="/sites/default/files/programs/wmg_student_water.png" />
+			<p>
+				Applications closed October 11.</p>
+
+			<p class="bold">
+				<a class="link_color link_size" href="https://orgsync.com/8394/forms/162829">WMGF Committee Application</a></p>
+
+			<p>
+				Leave your mark on campus. Guide sustainability efforts at UNT. Did you know your WMGF Committee is a student majority body that recommends funding for green projects? And these projects are ideas generated from UNT students, faculty, and staff! Be a leader, network with others on campus that are passionate about sustainability. Make a mean green difference. Questions? Contact Gary at <a class="link_color" href="mailto:gary.cocke@unt.edu">gary.cocke@unt.edu</a>.</p>
+		</div-->
+
+		<h1 class="column_h1">
+			Have a green idea?</h1>
+
+		<p class="column">
+			Share with us your green idea, and we will give you all the details you need to propose your project to the committee. And remember, the committee is full of students like you! Interested? Our form is at OrgSync.</p>
+
+		<p class="column bold">
+			<a class="link_color link_size" href="https://studentaffairs.unt.edu/form/we-mean-green-fund-expression-interest-form">WMGF&nbsp;Green Idea Form</a></p>
+
+		<p class="column bold">
+			Questions about sustainability? Contact Gary at <a class="link_color" href="mailto:gary.cocke@unt.edu">gary.cocke@unt.edu</a>.</p>
+		&nbsp;<br />
+		&nbsp; &nbsp;</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+</div>
+<!--List of projects in tiles-->
+
+<div class="row row_color_heading">
+	<div class="col-md-7">
+		<h1 class="projects_heading">
+			Funded Environmental Projects</h1>
+
+		<div class="body_section">
+			<p>
+				Students, faculty, and staff have all made a difference with their Green ideas for campus. Check out a few you may have noticed around campus. Do you have a green idea that you want to make happen? Let us know.</p>
+		</div>
+	</div>
+
+	<div class="col-md-5">
+		&nbsp;</div>
+</div>
+<!--First project.-->
+
+<div class="row row_color_2">
+	<div class="col-md-5">
+		&nbsp;
+		<p class="project_title">
+			The Big Belly Solar Compactors</p>
+
+		<p class="project_description">
+			The Bellies streamline the waste collection on campus by providing real time data on our waste habits!</p>
+	</div>
+
+	<div class="col-md-3">
+		<div class="small_image">
+			<img class="small" src="/sites/default/files/programs/wmg_big_belly.jpg" /></div>
+	</div>
+
+	<div class="col-md-3">
+		&nbsp;
+		<p class="project_blurb">
+			50 Solar trash compactors with recycle units that make it so easy for students to recycle.</p>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+</div>
+<!--Third project.-->
+
+<div class="row row_color_1">
+	<div class="col-md-5">
+		&nbsp;
+		<p class="project_title">
+			TAMS Bike Share</p>
+
+		<p class="project_description">
+			The WMGF Committee has approved the purchase of 10 additional bikes helmets and locks for a bike share program initiated last year by the TAMS Naturally club.</p>
+	</div>
+
+	<div class="col-md-3">
+		<div class="small_image">
+			<img class="small" src="/sites/default/files/programs/wmg_bike_green.png" /></div>
+	</div>
+
+	<div class="col-md-3">
+		&nbsp;
+		<p class="project_blurb">
+			The additional equipment was approved to expand the program&#39;s efforts in promoting eco-friendly transportation.</p>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+</div>
+<!--Fourth project-->
+
+<div class="row row_color_2">
+	<div class="col-md-5">
+		&nbsp;
+		<p class="project_title">
+			UNT Tree Replacement Project</p>
+
+		<p class="project_description">
+			Proposed by UNT staff member Lanse Fullinwider, the project will help re-establish the trees on campus that have been removed due to construction projects, disease, or drought, and the project will promote the beautification and environmental enhancement of the UNT campus.</p>
+	</div>
+
+	<div class="col-md-3">
+		<div class="small_image">
+			<img class="small" src="/sites/default/files/programs/wmg_2_tree.png" /></div>
+	</div>
+
+	<div class="col-md-3">
+		&nbsp;
+		<p class="project_blurb">
+			Increasing the number of trees on campus has a positive effect on air quality, as trees absorb harmful pollutants produced by humans, such as carbon monoxide.</p>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+</div>
+<!--Fifth project-->
+
+<div class="row row_color_1">
+	<div class="col-md-5">
+		&nbsp;
+		<p class="project_title">
+			Five for Five Project</p>
+
+		<p class="project_description">
+			The project targets five buildings on campus with five sustainability focused initiatives. The five buildings are: Willis Library, The Business Leadership Building, Sage Hall, Crumley Halll, Environmental Education, Science and Technology building.</p>
+	</div>
+
+	<div class="col-md-3">
+		<div class="small_image">
+			<img class="small" src="/sites/default/files/programs/wmg_mean_green.png" /></div>
+	</div>
+
+	<div class="col-md-3">
+		&nbsp;
+		<p class="project_blurb">
+			With marketing and outreach, the project promotes Recycling, Water reduction, Energy conservation, Paper reduction, and Re-usable beverage containers.</p>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+</div>
+<!--Row of space-->
+
+<div class="row">
+	<div class="col-md-12">
+		<br />
+		&nbsp;</div>
+</div>
+<!--Heading and Text 1-->
+
+<div class="row">
+	<div class="col-md-7">
+		<div class="body_section">
+			&nbsp;<br />
+			&nbsp;
+			<h1>
+				Committee Membership Eligibility</h1>
+
+			<p>
+				Current students, faculty, and staff may apply to serve on the committee. Staff outside a teaching role must work more than 20 hours a week. All student members of the WMGF Committee must be registered full or part-time UNT students during their terms of office, hold at least a 2.5 GPA, and be in good standing with the university.</p>
+			&nbsp;</div>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+
+	<div class="col-md-3">
+		&nbsp; <!--Second column content Committee-->
+		<div class="white_column">
+			<h1>
+				Committee Member Benefits</h1>
+
+			<div class="column">
+				<ul>
+					<li>
+						You will gain valuable insight and experience at the university level.</li>
+					<li>
+						You will network with sustainability focused people at UNT.</li>
+					<li>
+						You will contribute to UNT&rsquo;s goal of being carbon neutral by 2040.</li>
+					<li>
+						You will learn the process of project selection and evaluation.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+</div>
+<!--Heading and Text 2-->
+
+<div class="row">
+	<div class="col-md-7">
+		<div class="body_section">
+			<h1>
+				Applicants to the WMGF</h1>
+
+			<p>
+				Applicants should be able to make a direct connection between a proposed project and the environmental improvement it will have on the campus. Potential projects can be focused on operations or can be an education and outreach campaign focused on changing behavior towards sustainability. &nbsp;All projects should address a specific aspect of sustainability, should be able to articulate expected outcomes, and should be able to track metrics that will determine the success of the proposal.&nbsp;</p>
+
+			<p>
+				The WMGF cannot be used to fund campus organizations, student groups or activities that are only tangentially related to the above requirements. The WMGF can fund projects that originate from campus organizations or student groups, provided that such proposed projects fall within what is required by the state legislature.</p>
+
+			<p>
+				&nbsp;</p>
+		</div>
+
+		<div class="body_section">
+			<h1 class="column_h1">
+				Latest WMGF Minutes</h1>
+
+			<p>
+				<!--Share with us your green idea, and we will give you all the details you need to propose your project to the committee. And remember, the committee is full of students like you! Interested? Our form is at OrgSync.</p>--></p>
+
+			<ul>
+				<li>
+					<p>
+						<a href="/sites/default/files/programs/10-30-2015_wmgf_committee_meeting_minutes.pdf">October 30, 2015</a></p>
+				</li>
+				<li>
+					<p>
+						<a href="/sites/default/files/programs/11-20-15_wmgf_committee_meeting_minutes.pdf">November 20, 2015</a></p>
+				</li>
+				<li>
+					<p>
+						<a href="/sites/default/files/programs/1-29-16_wmgf_committee_meeting_minutes.pdf">January&nbsp;29, 2016</a></p>
+				</li>
+				<li>
+					<p>
+						<a href="/sites/default/files/programs/2-26-16_wmgf_committee_meeting_minutes.pdf">February&nbsp;26, 2016</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+
+	<div class="col-md-3">
+		&nbsp; <!--Second column content Join Committee.-->
+		<div class="white_column">
+			<h1>
+				Committee Member Terms</h1>
+
+			<div class="column">
+				<ul>
+					<li>
+						Each member of the WMGF Committee will be appointed to serve for one academic year.</li>
+					<li>
+						Faculty, staff and student members may serve successive terms, provided they reapply and are approved.</li>
+					<li>
+						Faculty and staff may serve no more than two consecutive terms.</li>
+					<li>
+						Terms begin on the first day of the fall semester and end on the last day of the summer term the following year.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-1">
+		&nbsp;</div>
+</div>
+<style type="text/css">div.body_sub > ul {
+  margin-left: initial;
+  margin-top: 10px;
+  font-size: 90%;
+  line-height: 150%;
+}
+  .body_sub{
+  font-size: 130%;
+  font-weight: bold;
+  color: white;
+  background: #68CF68;
+  border-radius: 25px;
+  padding: 20px;
+}
+  
+  h1 {
+   font-weight: 600;
+   font-size: 120%;
+}
+
+h1.title {
+font-size: 44px;
+font-weight: 600;
+}
+
+p {
+font-size: 130%;
+line-height: 170%;
+}
+.scholar {
+font-size: 130%;
+font-weight: bold;
+line-height: 170%;
+color: #f9f9f9;
+background-color:#68CF68; 
+padding-left: 5px;
+}
+
+p.suggest {
+font-size: 95%;
+font-weight: 600;
+}
+
+.button {
+background: #66FF33;
+color: #00853E;
+}
+
+.suggest_color {
+background:#E6EBE6;
+}
+  
+.big_image {
+    border-radius: 25px;
+    border: 2px solid #33CC33;
+    padding: 1px; 
+    width: 50%;
+    height: 50%;
+  	margin-left: 10%;
+}
+.small_image {
+  		width: 175px; 
+  		height: 175px;
+  		display: block;
+		border-radius: 25px;
+        border: 2px solid #F9F9F9;
+        overflow: hidden;
+        margin: 3% 5% 5% 3%;
+}
+.small {
+  width: 175px;
+  height: 175px;
+  display: block;
+
+}
+.column {
+font-size: 110%;
+line-height: 120%;
+margin-left: 5px;
+}
+.contact_color {
+background: #68CF68;
+border-radius: 25px;
+padding: 10px;
+}
+.photo_margin {
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.column_margin {
+margin-left: 10px; 
+}
+}
+a.link_color {
+color: #FF7519;
+font-weight: bold;
+}
+.projects_heading {
+background: #3385D6;
+color: #F9F9F9;
+margin-top: 50px;
+margin-left: -2%;
+padding: 2%;
+}
+.row_color_1 {
+background: #3385D6;
+}
+.row_color_2 {
+background: #4D94DB;
+}
+.row_color_3 {
+background: #66A3E0;
+}
+.row_color_4 {
+background: #80B2E6;
+}
+.project_title {
+color: #F9F9F9;
+font-weight: bold;
+font-size: 150%;
+line-height: 130%;
+}
+.project_description {
+color: #F9F9F9;
+font-weight: normal;
+font-size: 110%;
+line-height: 120%;
+} 
+.project_blurb {
+color: #EAF0FA;
+font-weight: normal;
+font-size: 130%;
+line-height: 115%;
+}  
+.white {
+color: #F9F9F9;
+}
+.blue {
+color: #0066CC;
+}
+.bold {
+ font-weight: bold; 
+}
+ul {
+ margin-left: -4%;
+}
+.link_size {
+  font-size: 20px;
+}
+  .column_h1 {}
+  a{
+    font-weight: bold;
+  }
+  .body_section{
+  margin-left: 3%;
+  margin-bottom: 10%;
+  }
+    .white_column {
+      /*padding: 8%;*/
+      padding: 10px;
+     /* margin-top: 10%;
+      margin-right: 3%;*/
+      background: #f9f9f9;
+	  border-radius: 25px;
+    }
+    .white_column p {
+      font-size: 110%; 
+      line-height: 140%;
+      margin-bottom: 10%;
+    }
+</style>
+<style type="text/css">.previous-speaker img {filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\' /></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); }
+
+
+.not-front .hero {background-position:center top !important;}
+.goals > div {height: 75px;}
+.goals h1 {margin: 10px 0;text-align:center;}
+  h4.name, p.title {position:relative;top:25px;}
+</style>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/word_collage_mod_0.jpg');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/sustainable?category=59": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

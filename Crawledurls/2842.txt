@@ -1,0 +1,909 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="//gallery.unt.edu/sites/default/files/UNT-Art-Galleries-Icon_0.jpg" type="image/jpeg" />
+<link rel="canonical" href="/home" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/1" />
+  <title>Home | UNT Galleries</title>  
+  <style type="text/css" media="all">
+@import url("//gallery.unt.edu/modules/system/system.base.css?o604lr");
+@import url("//gallery.unt.edu/modules/system/system.menus.css?o604lr");
+@import url("//gallery.unt.edu/modules/system/system.messages.css?o604lr");
+@import url("//gallery.unt.edu/modules/system/system.theme.css?o604lr");
+</style>
+<style type="text/css" media="screen">
+@import url("//gallery.unt.edu/sites/all/modules/views_slideshow/views_slideshow.css?o604lr");
+</style>
+<style type="text/css" media="all">
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_user/ldap_user.css?o604lr");
+@import url("//gallery.unt.edu/modules/aggregator/aggregator.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/modules/calendar/css/calendar_multiday.css?o604lr");
+@import url("//gallery.unt.edu/modules/comment/comment.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/modules/date/date_api/date.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/modules/date/date_repeat_field/date_repeat_field.css?o604lr");
+@import url("//gallery.unt.edu/modules/field/theme/field.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/modules/fitvids/fitvids.css?o604lr");
+@import url("//gallery.unt.edu/modules/node/node.css?o604lr");
+@import url("//gallery.unt.edu/modules/poll/poll.css?o604lr");
+@import url("//gallery.unt.edu/modules/search/search.css?o604lr");
+@import url("//gallery.unt.edu/modules/user/user.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/wdc_feeds/wdc_feeds.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/views/css/views.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/caption-filter.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/ckeditor/css/ckeditor.css?o604lr");
+</style>
+<style type="text/css" media="all">
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/colorbox/styles/default/colorbox_style.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/ctools/css/ctools.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_servers/ldap_servers.admin.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/panels/css/panels.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/modules/contrib/panels/plugins/layouts/onecol/onecol.css?o604lr");
+</style>
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all" />
+<style type="text/css" media="all">
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-reset.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-mobile.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-alpha.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/formalize.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-text.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-branding.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-menu.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-forms.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-visuals.css?o604lr");
+@import url("//gallery.unt.edu/sites/default/files/fontyourface/font.css?o604lr");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:regular|Open+Sans:300,700&amp;subset=latin" media="all" />
+<style type="text/css" media="all">
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/global.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/global-sub.css?o604lr");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o604lr");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/fluid/alpha-default-fluid-12.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-narrow.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-narrow.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?o604lr");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o604lr");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-wide.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o604lr");
+@import url("//gallery.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-wide.css?o604lr");
+@import url("//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?o604lr");
+</style>
+<!--<![endif]-->
+   
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/libraries/respondjs/respond.min.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/profiles/cws_d7/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="//gallery.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="//gallery.unt.edu/misc/drupal.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/libraries/fitvids/jquery.fitvids.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/modules/views_slideshow/js/views_slideshow.js?v=1.0"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/modules/equalheights/equalheights.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/modules/fitvids/fitvids.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/js/caption-filter.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/libraries/colorbox/jquery.colorbox-min.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/profiles/cws_d7/modules/contrib/colorbox/js/colorbox.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/profiles/cws_d7/modules/contrib/colorbox/styles/default/colorbox_style.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/libraries/json2/json2.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/sites/all/libraries/jquery.cycle/jquery.cycle.all.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/profiles/cws_d7/themes/greenlight/js/wdc-drupal7.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/jquery.formalize.js?o604lr"></script>
+<script type="text/javascript" src="//gallery.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/omega-mediaqueries.js?o604lr"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight_sub","theme_token":"QMfw9MTDholiUCOGNiuu4sFqfGWZYdwMZbcKQ9g8fw0","js":{"sites\/all\/libraries\/respondjs\/respond.min.js":1,"profiles\/cws_d7\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/equalheights\/equalheights.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/json2\/json2.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"profiles\/cws_d7\/themes\/greenlight\/js\/wdc-drupal7.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cws_d7\/modules\/wdc_feeds\/wdc_feeds.css":1,"profiles\/cws_d7\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/cws_d7\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/cws_d7\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"profiles\/cws_d7\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"profiles\/cws_d7\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.2.0\/css\/font-awesome.min.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Montserrat:regular|Open+Sans:300,700\u0026subset=latin":1,"profiles\/cws_d7\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight_sub\/css\/global-sub.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"ie::normal::profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"fluid::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"fluid::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/fluid\/alpha-default-fluid-12.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-narrow.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-narrow.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-wide.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-wide.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"viewsSlideshow":{"slideshow-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"slideshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"slideshow-block_2":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"slideshow-block_1_2":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slideshow-block":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slideshow-block","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":0,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}","advanced_options_choices":0,"advanced_options_entry":""},"#views_slideshow_cycle_main_slideshow-block_1":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slideshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":0,"random":0,"pause":0,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":0,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}","advanced_options_choices":0,"advanced_options_entry":""},"#views_slideshow_cycle_main_slideshow-block_2":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slideshow-block_2","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":0,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}","advanced_options_choices":0,"advanced_options_entry":""},"#views_slideshow_cycle_main_slideshow-block_1_2":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slideshow-block_1_2","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":0,"random":0,"pause":0,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":0,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}","advanced_options_choices":0,"advanced_options_entry":""}},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"urlIsAjaxTrusted":{"\/":true},"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <script src="sites/all/themes/greenlight_sub/js/modernizr.custom.88682.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+
+  <link href="/sites/all/themes/greenlight_sub/css/ie.css" rel="stylesheet">
+  <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+  <![endif]-->
+  <script src="//cse.google.com/cse.js?cx=004156419935118653668:z28sxlga81k"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+</head>
+<body class="html front not-logged-in page-node page-node- page-node-1 node-type-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <span></span>
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">
+			<p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="https://webassets.unt.edu/theme/greenlight-d7/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+						<li id="li-mo-home" class="first"><a href="/"><span>Home</span></a></li>
+						
+						<!--<li id="li-mo-quicklinks" class="menu-toggler"><span>Quicklinks »</span>
+						  <ul class="mo-quicklinks toggler-submenu mo-hide">
+						  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+								<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+								<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+								<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+								<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+								<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+								<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+							</ul>
+						</li>-->
+
+						<li id="li-mo-main-menu" class="menu-toggler active"><span>Main menu &raquo;</span>
+<ul class="mo-main-menu toggler-submenu mo-hide" style="display: block"><li><a href="http://gallery.unt.edu/home">Home</a></li>
+<li><a href="http://gallery.unt.edu/visit">Visit</a></li>
+<li><a href="http://gallery.unt.edu/current-exhibitions">Current Exhibitions</a></li>
+<li><a href="http://gallery.unt.edu/collections">Collections</a></li>
+<li><a href="http://gallery.unt.edu/saturday-series">Saturday Series</a></li>
+<li><a href="http://gallery.unt.edu/research-community">Research & Community</a></li>
+<li><a href="http://gallery.unt.edu/connect">Connect</a></li>
+</ul>
+</li>
+				  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+					<form action="/" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-whOSxdcF24lhfZenvmmKgtL8vrbg5YjsYHK5mAKoe5Y" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>					<!--<form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+						<div><div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search the UNT web site:</label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+							
+							<input type="hidden" name="form_build_id" value="form-ujfG-ZSE5TR-xFGXg80zrwpNYknILBw1CChPMxUbnHI">
+							<input type="hidden" name="form_token" value="DKL_c2lnzzWVVOH3_nQL-VLa_l3dRsfj8UBY06q-AvY">
+							<input type="hidden" name="form_id" value="search_block_form">
+							</div>
+						</div>
+					</form>-->
+
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>
+<div id="mobile-site-info" class="mobile"><div class="inside">
+	<!--div class="mobile-dept-name"></div-->
+	<div class="mobile-site-title"><a href="/">UNT Galleries</a></div>
+</div></div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+	  <ul class="quicklinks">
+	  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+			<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+			<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+			<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+			<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+			<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+			<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+		</ul>
+
+      </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-P9vOP5R4-fOVajSoqG-l_qpPFo0gWIPrHUspVbl0kFY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+
+  	<div id="unt">
+    	<a href="http://www.unt.edu">
+    		<img src="https://webassets.unt.edu/theme/greenlight-d7/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark" />
+      </a>
+    </div>
+    
+			    <hgroup>
+	    <div class="branding-data clearfix">
+	
+				      
+					<h5 class="department-link department-name"><a href="http://gallery.unt.edu">University of North Texas</a></h5>
+								
+				<h1 class="site-name stacked"><a href="/" title="UNT Galleries" class="active">UNT Galleries</a></h1>
+	
+	    </div>
+	    </hgroup>
+		
+    
+  </div>
+</div>  </div>
+</div>
+	<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix desktop">
+		<div id="zone-menu" class="zone zone-menu clearfix container-12">
+			<div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+    <section class="block block-system block-menu block-main-menu block-system-main-menu odd" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Main menu</h3>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf active-trail"><a href="/home" title="Homepage" class="menu-green active-trail active">Home</a></li>
+<li class="leaf"><a href="/visit" class="menu-green">Visit</a></li>
+<li class="leaf"><a href="/current-exhibitions" class="menu-green">Current Exhibitions</a></li>
+<li class="leaf"><a href="/collections" class="menu-green">Collections</a></li>
+<li class="leaf"><a href="/saturday-series" class="menu-green">Saturday Series</a></li>
+<li class="leaf menu-green"><a href="/research-community" class="menu-green">Research &amp; Community</a></li>
+<li class="last leaf"><a href="/connect" class="menu-green">Connect</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>		</div>
+	</div>
+</header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-block block-1 block-block-1 odd block-without-title" id="block-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <div class="slide-block full">
+  <div class="bap"><div class="view view-slideshow view-id-slideshow view-display-id-block view-dom-id-442e059fdc7a8839c8051a27adb977b8">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_slideshow-block" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_slideshow-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_slideshow-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/FRONT-slide_saturday-series.jpg?itok=ziyN2Kih" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/voertman banner_0.jpg?itok=mqrS2l2C" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/FRONT-art-path.jpg?itok=so0ZFNem" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even views-row-last">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/FRONT-lola-campbell.jpg?itok=A0TWIfkv" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  <div class="bap-content"> <div class="view view-slideshow view-id-slideshow view-display-id-block_1 view-dom-id-0ff47d6aefe7e359f6ac184cc8dab169">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_slideshow-block_1" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_slideshow-block_1" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_slideshow-block_1_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>Saturday Series</h2></br>
+
+
+<p>Make the UNT Art Gallery a family destination!</p>
+<p>Offered four times a year, Saturday Series combines performance activities, such as storytelling, improvisation and dance, with visual art.</p>
+
+<div class="exhibit-link"><a href="http://gallery.unt.edu/saturday-series">Be our guest</a></div>
+</div></div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>56th Annual Voertman Competition</h2></br>
+<div class="exhibit-dates">Apr 14-July 23, 2016</div>
+<div class="exhibit-location">UNT Art Gallery</div>
+<p>Juried by Rachael Blackburn Cozad</p>
+<p>Award Ceremony &amp; Reception<br />
+April 14, 5-7 pm<br />
+ </p>
+
+<div class="exhibit-link"><a href="https://gallery-dev.unt.edu/event-detail/56th-annual-voertman-student-art-competition">See the exhibition</a></div>
+</div></div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>Art in Public Places</h2></br>
+
+
+<p><strong>David Iles</strong><br /><em>Native Texas Wildlife Series</em>, 1998<br />
+Elm Fork Education Center</p>
+<p>Learn more about the Art in Public Places Program, including the UNT Art Path and the UNT Artist Registry.</p>
+
+<div class="exhibit-link"><a href="http://gallery.unt.edu/collections/art-in-public-places">Tour Art in Public Places</a></div>
+</div></div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even views-row-last">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>Art+Autism</h2></br>
+<div class="exhibit-dates">Mar 31-July 23, 2016</div>
+<div class="exhibit-location">UNT ArtSpace Dallas</div>
+<p>Curated by Sharon Hartman</p>
+
+<div class="exhibit-link"><a href="http://gallery-dev.unt.edu/event-detail/artautism">See the exhibition</a></div>
+</div></div></span>  </div></div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+</div>
+
+<div class="slide-block mobile">
+  <div class="bap"><div class="view view-slideshow view-id-slideshow view-display-id-block view-dom-id-442e059fdc7a8839c8051a27adb977b8">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_slideshow-block" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_slideshow-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_slideshow-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/FRONT-slide_saturday-series.jpg?itok=ziyN2Kih" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/voertman banner_0.jpg?itok=mqrS2l2C" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/FRONT-art-path.jpg?itok=so0ZFNem" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even views-row-last">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><img typeof="foaf:Image" src="//gallery.unt.edu/sites/default/files/styles/small_slide/public/images/slides/front/content/FRONT-lola-campbell.jpg?itok=A0TWIfkv" width="1636" height="646" alt="" /></span>  </div></div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  <div class="bap-content"> <div class="view view-slideshow view-id-slideshow view-display-id-block_1 view-dom-id-0ff47d6aefe7e359f6ac184cc8dab169">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_slideshow-block_1" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_slideshow-block_1" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_slideshow-block_1_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>Saturday Series</h2></br>
+
+
+<p>Make the UNT Art Gallery a family destination!</p>
+<p>Offered four times a year, Saturday Series combines performance activities, such as storytelling, improvisation and dance, with visual art.</p>
+
+<div class="exhibit-link"><a href="http://gallery.unt.edu/saturday-series">Be our guest</a></div>
+</div></div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>56th Annual Voertman Competition</h2></br>
+<div class="exhibit-dates">Apr 14-July 23, 2016</div>
+<div class="exhibit-location">UNT Art Gallery</div>
+<p>Juried by Rachael Blackburn Cozad</p>
+<p>Award Ceremony &amp; Reception<br />
+April 14, 5-7 pm<br />
+ </p>
+
+<div class="exhibit-link"><a href="https://gallery-dev.unt.edu/event-detail/56th-annual-voertman-student-art-competition">See the exhibition</a></div>
+</div></div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>Art in Public Places</h2></br>
+
+
+<p><strong>David Iles</strong><br /><em>Native Texas Wildlife Series</em>, 1998<br />
+Elm Fork Education Center</p>
+<p>Learn more about the Art in Public Places Program, including the UNT Art Path and the UNT Artist Registry.</p>
+
+<div class="exhibit-link"><a href="http://gallery.unt.edu/collections/art-in-public-places">Tour Art in Public Places</a></div>
+</div></div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slideshow-block_1_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even views-row-last">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-box"><div class="inner">
+<h2>Art+Autism</h2></br>
+<div class="exhibit-dates">Mar 31-July 23, 2016</div>
+<div class="exhibit-location">UNT ArtSpace Dallas</div>
+<p>Curated by Sharon Hartman</p>
+
+<div class="exhibit-link"><a href="http://gallery-dev.unt.edu/event-detail/artautism">See the exhibition</a></div>
+</div></div></span>  </div></div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+</div>     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h2 class="title" id="page-title">Home</h2>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" >
+  <div class="panel-panel panel-col">
+    <div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <div class="boxer grid-12 section-1 clearfix">
+<div class="inside">
+<div class="grid-9">
+<h2>Welcome</h2>
+
+<p>The University of North Texas Art Galleries support the educational mission of the university, enrich the aesthetic environment of the community and serve as a cultural resource for the public at large. Through a focus on curatorial, student, and faculty projects involving vanguard contemporary art, the galleries challenge and promote the current discourse surrounding living artists and their works.</p>
+</div>
+
+<div class="grid-3">
+<div class="cta-offer">
+<ul>
+	<li><a href="galleries/main">UNT Art Gallery</a></li>
+	<li><a href="/galleries/artspace">UNT ArtSpace Dallas</a></li>
+	<li><a href="/galleries/cora-stafford">Cora Stafford Gallery</a></li>
+	<li><a href="/galleries/lightwell">Lightwell Gallery</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="boxer-full section-2 clearfix">
+<div class="inside">
+<div class="boxer grid-12">
+<div class="inside-boxer">
+<h2>Events &amp; Programs</h2>
+
+<div class="grid-12">
+<div class="boxer-inside">
+<div class="grid-4"><div class="view view-gallery-calendar view-id-gallery_calendar view-display-id-block_2 view-dom-id-8fb72a815f1ef77ba0e8241608214550">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="upcoming-event">
+<div class="upcoming-event-date">
+<div class="upcoming-event-month">
+<div class="upcoming-event-date-2">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-03-31T00:00:00-05:00">Mar</span>
+</div>
+<div class="upcoming-event-day">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-03-31T00:00:00-05:00">31</span>
+</div>
+</div>
+</div>
+<div class="upcoming-event-title">
+<a href="/event-detail/artautism">Art+Autism</a>
+<div class="upcoming-event-date-2">
+<div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2016-03-31T00:00:00-05:00">Mar 31, 2016</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2016-07-23T00:00:00-05:00">Jul 23, 2016</span></div>
+</div>
+</div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="upcoming-event">
+<div class="upcoming-event-date">
+<div class="upcoming-event-month">
+<div class="upcoming-event-date-2">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-04-14T00:00:00-05:00">Apr</span>
+</div>
+<div class="upcoming-event-day">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-04-14T00:00:00-05:00">14</span>
+</div>
+</div>
+</div>
+<div class="upcoming-event-title">
+<a href="/event-detail/56th-annual-voertman-student-art-competition">56th Annual Voertman Student...</a>
+<div class="upcoming-event-date-2">
+<div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2016-04-14T00:00:00-05:00">Apr 14, 2016</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2016-07-23T00:00:00-05:00">Jul 23, 2016</span></div>
+</div>
+</div>
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="upcoming-event">
+<div class="upcoming-event-date">
+<div class="upcoming-event-month">
+<div class="upcoming-event-date-2">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T00:00:00-05:00">May</span>
+</div>
+<div class="upcoming-event-day">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T00:00:00-05:00">11</span>
+</div>
+</div>
+</div>
+<div class="upcoming-event-title">
+<a href="/event-detail/communication-design-seniors">Communication Design Seniors</a>
+<div class="upcoming-event-date-2">
+<div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T00:00:00-05:00">May 11, 2016</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2016-05-14T00:00:00-05:00">May 14, 2016</span></div>
+</div>
+</div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+
+<div class="grid-4"><div class="view view-gallery-calendar view-id-gallery_calendar view-display-id-block_8 view-dom-id-30766192fa444fe54803b1073f579438">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="upcoming-event">
+<div class="upcoming-event-date">
+<div class="upcoming-event-month">
+<div class="upcoming-event-date-2">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T00:00:00-05:00">May</span>
+</div>
+<div class="upcoming-event-day">
+<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T00:00:00-05:00">11</span>
+</div>
+</div>
+</div>
+<div class="upcoming-event-title">
+<a href="/event-detail/julie-libersat-mfa-new-media">Julie Libersat MFA New Media</a>
+<div class="upcoming-event-date-2">
+<div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2016-05-11T00:00:00-05:00">May 11, 2016</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2016-05-14T00:00:00-05:00">May 14, 2016</span></div>
+</div>
+</div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+
+<div class="grid-4"><div class="view view-gallery-calendar view-id-gallery_calendar view-display-id-block_9 view-dom-id-83f8850b6d4890787a85a470b85d51fa">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div></div>
+<p align="right"><a href="/calendar-month">See more events...</a></div></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="boxer-full section-3">
+<div class="boxer grid-12 section-3 clearfix">
+<div class="inside">
+<div class="grid-9">
+<h2>Collections</h2>
+
+<p>The CVAD Art Collection supports curriculum through exhibition and research and enriches the campus environment through a popular lending program. Comprised largely of works on paper, the Collection has been developed through gifts made by past faculty, students, private donors, and foundations as well as historical purchase prizes associated with the Voertman Student Juried Exhibition and the Mattil Honors award.</p>
+
+<p>Art in Public Places celebrates the acquisition and display of artworks on the UNT Denton campus as early as 1935. Art in Public Places includes a Percent for Art program, with our newest acquisitions by Norie Sato and Murielle White in the new UNT Student Union.</p>
+</div>
+
+<div class="grid-3">
+<div class="cta-offer">
+<ul>
+	<li>&nbsp;</li>
+	<li>&nbsp;</li>
+	<li><a href="/collections">Permanent</a></li>
+	<li><a href="/collections#lending">Lending</a></li>
+	<li><a href="/collections#art-in-public-places">Art in Public Places</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="boxer-full section-4">
+<div class="boxer grid-12">
+<div class="inner">
+<div class="grid-9">
+<h2>Connections</h2>
+
+<p>The UNT Art Galleries serve not only UNT students, faculty and staff, but also our local and regional communities as well as our national academic and museum colleagues. Our Saturday Series offers weekend family fun led by CVAD student art educators and a local guest artist. The UNT Artist-in-Residence program brings to Denton internationally renowned artists, who share their visions, talents, and experience in public lectures and programs. Our collaborations with CVAD faculty provide insightful experiences with the history and culture of art. We invite you to connect with us!</p>
+</div>
+
+<div class="grid-3">
+<div class="cta-offer">
+<ul>
+        <li><a href="/research-community#nasher">Nasher Lecture Series</a></li>
+        <li><a href="/research-community#saturday">Saturday Series</a></li>
+	<li><a href="/research-community#UNT-artist-in-residence">UNT Artist in Residence</a></li>
+	<li><a href="/research-community#faculty-collaborations">Faculty Collaborations</a></li>
+        <li><a href="/research-community#publications">Publications</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div> </div></div></div></div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+	  <div id="zone-footer" class="zone zone-footer mcconnell clearfix container-12">
+	  
+	    <div class="grid-3 region region-footer-first" id="region-footer-first">
+			  <div class="region-inner region-footer-first-inner">
+			  
+					<div class="footer-logo unt-brand">
+						<a href="http://gallery.unt.edu"><img src="https://webassets.unt.edu/theme/greenlight-d7/unt-stacked-mcconnell.png" alt="University of North Texas | UNT" /></a>
+					</div>
+					
+			  </div>
+			</div>
+			
+			<div class="grid-3 region region-footer-second" id="region-footer-second">
+			  <div class="region-inner region-footer-second-inner">
+			  
+					<div class="footer-header header-1">
+						<h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3>
+						<div id="collapse-footer-1" class="footer-block-content footer-toggler-content">
+							<p><a href="http://maps.unt.edu/places/1044/view" target="_blank"><strong>Art Building</strong></a><br />
+							1201 W. Mulberry St.<br />
+Denton, TX 76201<br />
+							<a href="http://maps.unt.edu/places/1044/view" target="_blank" title="Map to Art Building"><img src="https://webassets.unt.edu/theme/greenlight-d7/map-icon.png" alt="map icon" class="map-icon" /></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 region region-footer-third" id="region-footer-third">
+			  <div class="region-inner region-footer-third-inner">
+			
+					<div class="footer-header header-2">
+						<h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+					</div>
+										<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+						<p><strong>University of North Texas</strong><br />
+						ATTN: UNT Art Gallery<br />
+1155 Union Circle #305100<br />
+Denton, TX 76203-5107</p>
+					</div>
+									</div>
+			</div>
+
+			<div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+			  <div class="region-inner region-footer-fourth-inner">
+			
+					<div class="footer-header header-3">
+						<h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+					</div>
+					<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+													<p class="phone-lg"><a href="tel:+19405654005">940-565-4005</a></p>
+																			<p class="contact-email"><a href="mailto:gallery@unt.edu">gallery@unt.edu</a></p>
+																			<p class="tech-email"><a href="mailto:artsupport@unt.edu">Technical issues?</a></p>
+											</div>
+					
+					<div class="footer-social"><div class="inside">
+												  <div class="social-icon facebook"><a href="https://www.facebook.com/UNTArtGalleries" class="facebook" title="UNT Galleries on Facebook"><i class="fa fa-facebook"></i></a></div>
+												
+												  <div class="social-icon twitter"><a href="https://twitter.com/UNTsocial" class="twitter" title="University of North Texas on Twitter"><i class="fa fa-twitter"></i></a></div>
+														
+												  <div class="social-icon youtube"><a href="https://www.youtube.com/user/universitynorthtexas" class="youtube" title="University of North Texas on YouTube"><i class="fa fa-youtube"></i></a></div>
+													
+												
+													  <div class="social-icon instagram"><a href="https://instagram.com/UNTgalleries" class="instagram" title="UNT Galleries on Instagram"><i class="fa fa-instagram"></i></a></div>
+												
+													
+													
+													
+						<div class="social-icon mobile-icon"><a href="http://m.unt.edu/" class="togo" title="UNT ToGo"><i class="fa fa-mobile"></i></a></div>
+						<div class="social-icon directory-icon"><a href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory"><i class="fa fa-list"></i></a></div>
+					</div></div>
+			
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+	  <div id="zone-state" class="zone zone-state clearfix container-12">
+	  
+	    <div class="grid-12 region region-footer-state desktop" id="region-footer-state">
+			  <div class="region-inner region-footer-state-inner">
+		
+					<p class="updated">Site last updated on <span class="footer-updated">May 09, 2016</span></p>
+					
+					<p class="sate-links">
+					<a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+					<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+					<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+					<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+					<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+					<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+					<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+					<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu">UNT Home</a>
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="grid-12 region region-footer-state mobile" id="region-footer-state-mobile"><div class"region-inner region-footer-state-inner-mobile">
+					<p class="updated">Site last updated on <span class="footer-updated">May 09, 2016</span> | <span class="mobile-state-links"><a href="http://www.unt.edu/important-links.htm">Important Links</a></span></p>
+			</div></div>
+			
+		</div>
+	</div>
+</footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div>
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+</body>
+</html>

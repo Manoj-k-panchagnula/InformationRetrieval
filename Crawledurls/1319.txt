@@ -1,0 +1,671 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Coliseum (&quot;Super Pit&quot;) &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-building no-sidebars  firefox coliseum">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/coliseum"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-AT0-LteTKEVPDeV52qGpQ05Z0oxvQBURjJSwGaNsWSc" value="form-AT0-LteTKEVPDeV52qGpQ05Z0oxvQBURjJSwGaNsWSc"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/coliseum"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-AT0-LteTKEVPDeV52qGpQ05Z0oxvQBURjJSwGaNsWSc" value="form-AT0-LteTKEVPDeV52qGpQ05Z0oxvQBURjJSwGaNsWSc"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+
+<div class="hero">
+	<div class="container">
+    	<h1 class="title">Coliseum (&quot;Super Pit&quot;)</h1>
+        <div class="breadcrumbs">
+        	<a class="breadcrumb" href="/explore">Explore</a>
+            <a class="breadcrumb child" href="/buildings">Buildings &amp; Locations</a>
+        </div>
+    </div>
+	
+</div>
+<!-- this is a tempary hack so the we can have custome hero element here -->
+<main class="container well">
+
+<div class="row">
+<div class="meta">
+	<div class="location meta-item">
+		<span>Visit and Ship to</span>
+		<a href="http://google.com/maps?q=600 Ave. D Denton, TX&output=embed" data-popup="iframe" data-tooltip="true" data-placement="top" data-title="Open in Google Maps" data-trigger="hover">600 Ave. D</a>
+	</div>
+		<div class="phone meta-item">
+		<span>Call Us</span>
+		940-565-2557	</div>
+	</div>	
+</div>	
+
+<div class="row tabbable">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a data-toggle=tab href="#about">About</a></li>
+                                    <li><a data-toggle=tab href="#facilities">Rooms & Facilities</a></li>            <li><a data-toggle=tab href="#reservations">Reservations</a></li>            <li><a data-toggle=tab  href="#parking">Parking & Directions</a></li>        </ul>
+    </div>
+    <div class="col-md-10">
+        <div class="tab-content">
+            <div class="tab-pane active fadeIn animated" id="about">
+                <div class="col-md-8">
+                	<style type="text/css">div.meta {display: none;}
+  h3:after {display: none;}
+</style>
+<p>
+	<a class="button-action" href="/blog/coliseum-commencement-faqs">Commencement FAQs</a> <a class="button-action" href="http://www.unt.edu/transit/pdf/2015-HS-Graduation-SE.pdf">Commencement Parking Map</a></p>
+
+<h2>
+	<a class="button-action" href="https://www.google.com/maps/place/Coliseum/@33.208661,-97.154128,17z/data=!3m1!4b1!4m2!3m1!1s0x864dca41b9ff4749:0xc707f790641eb7e5">Map to the Coliseum</a></h2>
+
+<h2>
+	Mission</h2>
+
+<p>
+	The staff of the Coliseum will provide the highest quality customer service and maximum value in all that&nbsp;they do.</p>
+
+<h2>
+	History</h2>
+
+<p>
+	It has been called one of the finest basketball facilities in college athletics.&nbsp; The University of North Texas Coliseum, or &quot;The Super Pit,&quot; is home to the North Texas Men&#39;s and Women&#39;s basketball teams.&nbsp; Built in 1973, the Coliseum is designed for multipurpose use and has excellent viewing sight lines from any seat in the arena.</p>
+
+<p>
+	The arena, designed for functional flexibility, features aesthetic and technical excellence for both patrons and performers.&nbsp; The physical configuration evolved by combining the requirements of two diverse seating layouts; one for theatrical stage seating, and the other for coliseum-in-the-round seating.</p>
+
+<p>
+	A third major configuration may be constructed by locating a stage at one end of the arena floor.&nbsp; All of these major seating situations have been satisfied.&nbsp; The acoustics, lighting, speaker systems and various riggings are all suitable for the three configurations.</p>
+
+<p>
+	The Coliseum has 9,797 upholstered permanent theater type seats plus forty-eight positions for wheelchairs.&nbsp; With additional meeting space located on the lower level, the Coliseum is large enough to accommodate a wide range of activities.&nbsp; Besides basketball games, commencements and concerts, there have also been luncheons, workshops, dances, camps and competitions.&nbsp; Versatility is a key word in describing the Coliseum.</p>
+
+<h2>
+	Accessibility</h2>
+
+<p>
+	The east entrances to the Coliseum, located on Avenue D, are ground-level and allow easy access to the venue for our guests with special needs. In addition, there are limited handicapped parking spaces as well as a special needs drop-off area on this side of the Coliseum.</p>
+
+<p>
+	&nbsp;</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h2>Upcoming Events</h2>
+                                        
+                                        </div>
+                
+                                	<h3>Connect</h3>
+                     <a class='button-action button-small button-twitter' href='https://twitter.com/UNT_Coliseum' target='_blank'>Twitter</a>				                
+            </div>
+            <div class="tab-pane fadeIn animated" id="programs">
+                
+
+<div class="view view-programs view-id-programs view-display-id-block_1 view-dom-id-4">
+
+
+    
+      <div class="view-filters">
+      <form action="/programs-dev"  accept-charset="UTF-8" method="get" id="views-exposed-form-programs-block-1" class="views_exposed_form">
+<div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget views-widget-filter-field_tags_value">
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"></div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-field_program_category_value">
+                  <label for="edit-channel">
+            Channel          </label>
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item" id="edit-channel-29-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-29" value="29"  /> <label class='option' for='edit-channel-29'>Arts &amp; Entertainment</label>
+</div>
+<div class="form-item" id="edit-channel-30-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-30" value="30"  /> <label class='option' for='edit-channel-30'>Career</label>
+</div>
+<div class="form-item" id="edit-channel-39-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-39" value="39"  /> <label class='option' for='edit-channel-39'>Community Service</label>
+</div>
+<div class="form-item" id="edit-channel-32-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-32" value="32"  /> <label class='option' for='edit-channel-32'>Education</label>
+</div>
+<div class="form-item" id="edit-channel-34-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-34" value="34"  /> <label class='option' for='edit-channel-34'>Health &amp; Wellness</label>
+</div>
+<div class="form-item" id="edit-channel-35-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-35" value="35"  /> <label class='option' for='edit-channel-35'>Leadership</label>
+</div>
+<div class="form-item" id="edit-channel-33-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-33" value="33"  /> <label class='option' for='edit-channel-33'>Money Management</label>
+</div>
+<div class="form-item" id="edit-channel-253-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-253" value="253"  /> <label class='option' for='edit-channel-253'>Orientation &amp; Transitioning</label>
+</div>
+<div class="form-item" id="edit-channel-252-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-252" value="252"  /> <label class='option' for='edit-channel-252'>Pride &amp; Traditions</label>
+</div>
+<div class="form-item" id="edit-channel-59-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-59" value="59"  /> <label class='option' for='edit-channel-59'>Residence Life</label>
+</div>
+<div class="form-item" id="edit-channel-36-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-36" value="36"  /> <label class='option' for='edit-channel-36'>Retail &amp; Dining</label>
+</div>
+<div class="form-item" id="edit-channel-41-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-41" value="41"  /> <label class='option' for='edit-channel-41'>Rights &amp; Conduct</label>
+</div>
+<div class="form-item" id="edit-channel-201-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-201" value="201"  /> <label class='option' for='edit-channel-201'>UNT</label>
+</div>
+</div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Title          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-title-wrapper">
+ <input type="text" maxlength="128" name="title" id="edit-title" size="30" value="" class="form-text" />
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-programs" value="Apply"  class="form-submit" />
+<input type="hidden" name="views_exposed_form_focused_field" id="edit-views-exposed-form-focused-field" value=""  />
+    </div>
+  </div>
+</div>
+
+</div></form>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+            </div>
+            <div class="tab-pane fadeIn animated" id="departments">
+                
+
+<div class="view view-DepartmentsServices view-id-DepartmentsServices view-display-id-block_1 view-dom-id-2">
+
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+            </div>
+            <div class="tab-pane fadeIn animated" id="facilities">
+                <div class="row">
+	<div class="span6">
+		<h2>
+			The Concourse</h2>
+
+		<p>
+			The concourse level consists of 43,685 square feet of&nbsp;versatile space as well as:</p>
+
+		<ul>
+			<li>
+				8 Entrances containing a total of 80 doors to allow for ease of movement and accessibility</li>
+			<li>
+				2 Men&#39;s Restrooms and 2 Women&#39;s Restrooms</li>
+			<li>
+				3 Concession Stands</li>
+		</ul>
+
+		<h2>
+			The Arena</h2>
+
+		<p>
+			Due to the unique design of the building and the absence of structural pillars in the arena, every seat in the house has an unobstructed view of the arena floor. Floor space and seating can vary depending on event configurations.</p>
+
+		<ul>
+			<li>
+				10,300 square feet of expansive space</li>
+			<li>
+				Theatrical lighting and curtains are available depending on configuration</li>
+			<li>
+				9,797 permanent theater-style seats</li>
+			<li>
+				48 wheelchair positions</li>
+			<li>
+				Two 400-amp disconnects are located on the north side, as well as an additional 200-amp disconnect located on the west side</li>
+			<li>
+				The Press Section offers 39 stations equipped with power outlets at each station</li>
+			<li>
+				A center-hung speaker cluster provides audio for any configuration</li>
+			<li>
+				Easy access to the arena floor via the North Tunnel, located on Highland Street</li>
+			<li>
+				Mitsubishi battery powered 5,000-pound capacity forklift available</li>
+		</ul>
+
+		<h3>
+			Seating Map (<a href="/sites/default/files/pdf/coliseum_seating_area.pdf">pdf</a>)</h3>
+
+		<p>
+			<img alt="" src="/sites/default/files/images/coliseum-seating.jpg" /></p>
+	</div>
+
+	<div class="span5">
+		<img class="border" src="/sites/default/files/n_texas_university_08.jpg" style="width: 350px; height: 233px;" /> <img class="border" src="/sites/default/files/september_2010_027.jpg" style="width: 350px; height: 233px;" /> <img class="border" src="/sites/default/files/september_2010_007.jpg" style="width: 350px; height: 233px;" /></div>
+</div>
+
+<div class="row">
+	<div class="span6">
+		<h2>
+			Auxiliary Rooms</h2>
+
+		<h3>
+			Honor Club</h3>
+
+		<ul>
+			<li>
+				1,300 square feet of accommodating space used to host small meetings or hospitality rooms</li>
+		</ul>
+
+		<h3>
+			Press Room</h3>
+
+		<ul>
+			<li>
+				794 square feet of adaptable space used to host small meetings, television and radio interviews, and hospitality rooms</li>
+		</ul>
+
+		<p>
+			&nbsp;</p>
+
+		<p>
+			<img alt="" src="/sites/default/files/press_room_2.jpg" style="width: 350px; height: 233px;" /></p>
+
+		<h3>
+			Gymnastics Room</h3>
+
+		<ul>
+			<li>
+				6,000 square feet of flexible space with 23 foot ceiling clearance, used to host a variety of events</li>
+		</ul>
+
+		<p>
+			&nbsp;</p>
+	</div>
+
+	<div class="span5">
+		&nbsp;&nbsp;&nbsp;&nbsp;</div>
+</div>
+            </div>
+            <div class="tab-pane fadeIn animated" id="reservations">
+                <h2>
+	Arena Rental Rates</h2>
+
+<table class="table">
+	<tbody>
+		<tr>
+			<th>
+				&nbsp;</th>
+			<th>
+				Half Day</th>
+			<th>
+				Full Day</th>
+		</tr>
+		<tr>
+			<td>
+				University Sponsored/Student Organizations</td>
+			<td>
+				$1,450</td>
+			<td>
+				$2,900</td>
+		</tr>
+		<tr>
+			<td>
+				Community Sponsored</td>
+			<td>
+				$1,950</td>
+			<td>
+				$3,900</td>
+		</tr>
+	</tbody>
+</table>
+
+<ul>
+	<li>
+		Labor and equipment costs are additional</li>
+	<li>
+		Rental rates are based on an 8-hour day</li>
+	<li>
+		Arena rental rates do not include use of auxiliary rooms</li>
+</ul>
+            </div>
+            <div class="tab-pane fadeIn animated" id="parking">
+                <h2>
+	Event Parking</h2>
+
+<ul>
+	<li>
+		Parking is available on the west side of the Coliseum off North Texas Boulevard.</li>
+	<li>
+		Handicapped parking spaces are available along Avenue D on the east side of the Coliseum.</li>
+	<li>
+		<a href="http://www.unt.edu/transit/pdf/2015-HS-Graduation-SE.pdf" target="_blank" title="Special Events Map">Commencement Parking Map</a></li>
+</ul>
+                <h2>
+	Directions</h2>
+
+<h3>
+	From Dallas:</h3>
+
+<ul>
+	<li>
+		Go north on I-35 East to Denton.&nbsp; Exit number 466B toward&nbsp;North Texas Boulevard.&nbsp; Turn right onto North Texas Boulevard.&nbsp; Once past Eagle Drive, the Coliseum will be on the right.</li>
+</ul>
+
+<h3>
+	From Fort Worth:</h3>
+
+<ul>
+	<li>
+		Go north on I-35 West to Denton.&nbsp; Follow I-35/Dallas signs.&nbsp; Exit number 466B toward North Texas Boulevard.&nbsp; Turn left onto North Texas Boulevard.&nbsp; Once past Eagle Drive, the Coliseum will be on the right.</li>
+</ul>
+
+<h3>
+	From DFW Airport:</h3>
+
+<ul>
+	<li>
+		Take airport tollway north to&nbsp;TX-121.&nbsp; Exit east on&nbsp;TX-121 and continue to Lewisville to I-35 East.&nbsp; Turn left from TX-121 to I-35E going north.&nbsp;&nbsp;Continue on I-35E into Denton and exit number 466B toward North Texas Boulevard.&nbsp; Turn right onto North Texas Boulevard.&nbsp; Once past Eagle Drive, the Coliseum will be on the right.</li>
+</ul>
+
+<h3>
+	From Gainesville:</h3>
+
+<ul>
+	<li>
+		Go south on I-35 East&nbsp;to Denton.&nbsp; Exit number 466B toward North Texas Boulevard, and then turn left onto North Texas Boulevard.&nbsp; Once past Eagle Drive, the Coliseum is on the right.</li>
+</ul>
+
+<h4>
+	<a class="button-action" href="http://www.unt.edu/pais/map/custommap.htm?bd=32" target="_blank" title="UNT Map">UNT&nbsp;Map</a></h4>
+            </div>
+        </div>
+    </div>
+</div><!-- end of row -->
+
+</main>
+
+<style>
+	.node-type-building .hero {height:375px;margin-bottom:20px;}
+</style>
+
+
+<style>
+	.hero{
+		background-image:url('sites/default/files/picture_009.jpg');
+	}
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/base.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/dependent.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/views_hacks/views_filters_autosubmit/views_filters_autosubmit.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/better_exposed_filters/better_exposed_filters.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/ajax_view.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.form.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "vfas": { "views-exposed-form-programs-block-1": { "exceptions": "" } }, "CToolsUrlIsAjaxTrusted": { "/programs-dev": [ true, true, true, true ], "/coliseum": true }, "views": { "ajax_path": [ "/views/ajax", "/views/ajax" ], "ajaxViews": [ { "view_name": "programs", "view_display_id": "block_1", "view_args": "6903", "view_path": "node/6903", "view_base_path": "programs-dev", "view_dom_id": 3, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_1", "view_args": "6903", "view_path": "node/6903", "view_base_path": "programs-dev", "view_dom_id": 4, "pager_element": 0 } ] }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=10.0" >
+    <title>University of North Texas | m.unt.edu</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/jquery_mobile/css/jquery.mobile-1.3.0.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/m/css/m.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/m/css/map.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/m/css/profile.css?h" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/m/css/icons.css?h" />
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+    <script type="text/javascript" src="/sites/all/themes/jquery_mobile/js/jquery-1.9.1.js?h"></script>
+<script type="text/javascript" src="/sites/all/themes/jquery_mobile/js/jquery.mobile-1.3.0.js?h"></script>
+
+  </head>
+  <body>
+    <div data-role="page" class="front page-node-90450 section-announcement" id="home">
+      <div data-role="header" data-backbtn="false">
+        <h1>m.unt.edu</h1>
+      </div>
+      <div id="announcement" class="general  " >
+    <div class="inner">
+    	
+            <p><a href="http://admissions.unt.edu/?mobile=1">Apply now for Summer 2016 - Learn how to apply for UNT classes this fall</a>.</p>
+
+            </div>
+</div>
+
+      <div data-role="content" >
+        <ul data-role="listview" class="d11">								<li class="people">			<a href="people/">				<p class="title">People</p>													<p class="link-desc">Student, staff and faculty directory</p>							</a>		</li>
+        				<li class="calendar">			<a href="calendar/today">				<p class="title">Calendar</p>													<p class="link-desc">UNT events</p>							</a>		</li>
+        				<li class="myunt">			<a href="https://my.unt.edu/psc/papd01/UNT/ENTP/s/WEBLIB_GBUT_MOB.ISCRIPT1.FieldFormula.IScript_Mobile_Login?&">				<p class="title">MyUNT</p>													<p class="link-desc">Your online resource for MyUNT</p>							</a>		</li>
+        				<li class="admissions">			<a href="node/89893">				<p class="title">Admissions</p>													<p class="link-desc">UNT admissions information</p>							</a>		</li>
+        				<li class="academics">			<a href="node/110761">				<p class="title">Academics</p>													<p class="link-desc">Schools, majors, and courses</p>							</a>		</li>
+        				<li class="places">			<a href="places">				<p class="title">Places</p>													<p class="link-desc">Campus map &amp; directions</p>							</a>		</li>
+        				<li class="news">			<a href="news/news">				<p class="title">News</p>													<p class="link-desc">News about and around UNT</p>							</a>		</li>
+        				<li class="departments">			<a href="departments">				<p class="title">Departments</p>													<p class="link-desc">Search our department directory</p>							</a>		</li>
+        				<li class="mean-green-sports">			<a href="http://m.meangreensports.com">				<p class="title">Mean Green Sports</p>													<p class="link-desc">Sports news, events, &amp; results</p>							</a>		</li>
+        				<li class="emergency-info">			<a href="node/90060">				<p class="title">Emergency Info</p>													<p class="link-desc">Campus wide emergency info</p>							</a>		</li>
+        				<li class="alumni">			<a href="node/90183">				<p class="title">Alumni</p>													<p class="link-desc">Alumni resources</p>							</a>		</li>
+        				<li class="social-media">			<a href="node/58051">				<p class="title">Social Media</p>													<p class="link-desc">Photos, Videos, Facebook and more</p>							</a>		</li>
+        				<li class="good-causes">			<a href="http://m.facebook.com/pages/Center-for-Leadership-and-Service/123659284350657">				<p class="title">Good Causes</p>													<p class="link-desc">Volunteering opportunities</p>							</a>		</li>
+        
+        </ul>
+      </div>
+      <div id="footer" data-role="fieldcontain">
+        <form action="/search/all" method="get" id="search_all">
+          <input type="search" name="search_string" value="places, events, people..." onfocus="this.value = ''"/>
+          <div class="footer-submit">
+            <input type="submit" value="Go" data-role="button" style="border: none;" />
+          </div>
+        </form>
+        <p class="footer-meta"><a href="http://www.unt.edu?m_redirect=false">View full site</a>&nbsp;|&nbsp;<a href="mailto:URCM@unt.edu?subject=Mobile">Report Issues</a>&nbsp;|&nbsp;&nbsp;UNT &copy; 2013</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      (function() {		$(document).on('pageshow', '[data-role=page]', function (event, ui) {
+          try {
+            var shown_page = $(event.currentTarget).attr('data-url');
+            var pageTracker = _gat._getTracker("UA-368058-14");
+            pageTracker._trackPageview( shown_page );
+          } catch(err) { }
+        });
+      })();
+    </script>
+	<script type="text/javascript">
+	  (function(){
+		//		if($.browser.msie){		//		Browser property was removed in the latest JQuery, here's a hack to make it work:		if($.support.tbody==false){
+			document.write('This site is optimized to be viewed on mobile devices. Your browser is not yet supported. Please visit the <a href="http://www.unt.edu">UNT web site</a>.');
+		}
+	  })();
+	</script>
+  </body>
+</html>

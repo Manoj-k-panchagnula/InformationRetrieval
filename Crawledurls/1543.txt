@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Marketing at the Union &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   marketing-union">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/marketing-union"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-Vmp6vvHAr4E1h-6eP9R4byHwPBJ94UenHqX6lhmKfLU" value="form-Vmp6vvHAr4E1h-6eP9R4byHwPBJ94UenHqX6lhmKfLU"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/marketing-union"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-Vmp6vvHAr4E1h-6eP9R4byHwPBJ94UenHqX6lhmKfLU" value="form-Vmp6vvHAr4E1h-6eP9R4byHwPBJ94UenHqX6lhmKfLU"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-artsentertainment">Arts & Entertainment</div> </div> -->
+			<h1 id="dls">Marketing at the Union</h1>
+						<div id="sub" class="subtitle">Provided by <a href="university-union">University Union</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="university-union">University Union</a>		</div>
+				
+				<div class="location meta-item">
+			<span>Located at</span>
+			<a href="the-union">The Union</a>		</div>
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="tabbable">
+	<div class="col-md-2">
+		<ul class="nav nav-pills nav-stacked">
+			<li>
+				<a data-toggle="tab" href="#about">About</a></li>
+			<li>
+				<a data-toggle="tab" href="#market-days">Market Days</a></li>
+			<li>
+				<a data-toggle="tab" href="#media-productions">Union Media Productions</a></li>
+			<li>
+				<a data-toggle="tab" href="#media-network">Interactive Media Network</a></li>
+			<li>
+				<a data-toggle="tab" href="#lawn-signs">Lawn Signs</a></li>
+			<li>
+				<a data-toggle="tab" href="#tables">Vendor/Publicity Tables</a></li>
+			<li class="active">
+				<a data-toggle="tab" href="#forms">Forms</a></li>
+		</ul>
+	</div>
+
+	<div class="col-md-10">
+		<div class="tab-content">
+			<div class="tab-pane" id="about">
+				<p class="text-headline">
+					The University Union is a prime location for promoting your event or service on campus. The Union has more than 16,000 visitors every day and serves a campus population of more than two million each year. In addition, more than 800 free events happen all year long.</p>
+
+				<p>
+					&nbsp;</p>
+			</div>
+
+			<div class="tab-pane" id="market-days">
+				<p>
+					Market Days is designed to showcase vendors who wish to sell products or services to the University of North Texas community. This is a unique opportunity for you as an outside vendor to make contact with approximately 36,000 students and 5,200 faculty and staff members. Market Days will take place the first Tuesday and Wednesday of each month and is an all-day event from 8:30 am &ndash; 4:30 pm. The University Union recognizes Market Days as a great opportunity for partnership between the university and the Dallas/Ft. Worth area vendors.</p>
+
+				<h3>
+					Spring 2016</h3>
+
+				<ul>
+					<li>
+						February 2nd &amp; 3rd</li>
+					<li>
+						March 1st &amp; 2nd</li>
+					<li>
+						April 5th &amp; 6th</li>
+					<li>
+						May 3rd &amp; 4th</li>
+				</ul>
+
+				<p>
+					<span style="line-height: 1.1; font-size: 14px;">Fees</span></p>
+
+				<ul>
+					<li>
+						Table (6x2): $125/day (Outdoors)</li>
+					<li>
+						Table (6x2): $150/day (Indoors - first come first serve)</li>
+					<li>
+						10x10 space ( w/table 6x2):&nbsp; $175/day (Client may bring 10/10 tent)</li>
+					<li>
+						One additional table (6x2):&nbsp; $50/day</li>
+				</ul>
+				<strong>***TAXES WILL BE ADDED TO RENTAL FEES ABOVE***&nbsp;</strong>
+
+				<p>
+					Fee will include parking close to venue, campus-wide marketing and guest Wi-Fi account for web browsing purposes only.<br />
+					If you are interested in participating in Union Market Days, please feel free to fill out a <strong><a href="/sites/default/files/union/pdf/market_days_registration_form_spring_2016.pdf" target="_blank">Registration Form</a> </strong>and submit with payment no later than ten (10) days before the event date and review our <strong><a href="/sites/default/files/union/pdf/union_market_days_policies_revised.pdf" target="_blank">Policies</a></strong>.&nbsp;&nbsp; Feel free to contact the Event Planning and Scheduling office for further assistance at 940-565-3804 or <a href="mailto:unionmarketdays@unt.edu">unionmarketdays@unt.edu</a>.</p>
+			</div>
+
+			<div class="tab-pane" id="media-productions">
+				<p>
+					At Union Media Productions we can help you to affordably transform your concept to a vibrant, eye-catching video piece that supports your program and/or marketing efforts. All of our current rates and packages are listed here. We are happy to meet with you at any time to discuss your project.</p>
+
+				<p>
+					&nbsp;</p>
+				Located in&nbsp;Union 223&nbsp;with Design Works.
+
+				<p>
+					Phone: 940.369.5979</p>
+			</div>
+
+			<div class="tab-pane" id="media-network">
+				<p>
+					<img alt="" src="/sites/default/files/images/4winds.JPG" style="width: 450px; height: 300px; float: right;" />The Network is a full-color, digital event promotions and media system available in the University Union at the University of North Texas Denton campus for on-campus clubs and departments.</p>
+
+				<p>
+					The Network advertisements run on LCD screen monitors strategically located throughout the Union. Each advertisement runs for 20 seconds in a queue, playing once every three to five minutes.</p>
+
+				<p>
+					For more information, email us at union@unt.edu.</p>
+			</div>
+
+			<div class="tab-pane" id="lawn-signs">
+				<p>
+					<img alt="" src="/sites/default/files/images/lawn%20signs.jpg" style="width: 480px; height: 480px; float: right;" />Lawn signs are permitted in any grassy area surrounding the University Union. Lawn signs are prohibited in flower beds, inside of the Union, or in areas that may block or interfere with traffic. The Union is not responsible for lost or stolen lawn signs. Groups and event sponsors are responsible for removing the lawn signs after the event has taken place.</p>
+
+				<p>
+					For information about printing and lawn sign production, please visit <a href="/design-works">Design Works</a>.</p>
+			</div>
+
+			<div class="tab-pane" id="tables">
+				<p>
+					<img alt="" src="/sites/default/files/images/vendor%20table.JPG" style="width: 450px; height: 300px; float: right;" />For more information about vendor tables or publicity tables click&nbsp;<a href="http://studentaffairs.unt.edu/blog/house-guidelines" target="_self">here</a>.<br />
+					<br style="color: rgb(119, 119, 119); font-family: &quot;Open Sans&quot;, Georgia, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);" />
+					Also, to learn more about Market Days at the Union, please click&nbsp;<a href="https://studentaffairs.unt.edu/marketing-union#market-days" target="_self">here</a>.</p>
+			</div>
+
+			<div class="tab-pane active" id="forms">
+				<p>
+					Occasionally we will need to collect some information from you to process a request that you may have. In order to best serve you, please provide the information on the above forms and a member of the union staff will contact you shortly. For immediate assistance, please stop by the union administration offices on the fourth floor of the union, room 420 or email union@unt.edu.</p>
+
+				<ul>
+					<li>
+						<a href="https://studentaffairs.unt.edu/form/indoor-banner-request-form" target="_self">Indoor Banner Request Form</a></li>
+					<li>
+						<a href="https://studentaffairs.unt.edu/form/outdoor-banner-request-form" target="_self">Outdoor Banner Request Form</a></li>
+					<li>
+						<a href="https://studentaffairs.unt.edu/form/digital-signage-network">Digital Signage Network Form</a></li>
+					<li>
+						<a href="https://studentaffairs.unt.edu/form/filmphotography-release" target="_self">Film/Photography Release Form</a></li>
+					<li>
+						<a href="/sites/default/files/union/Info%20Center%20Ticket%20Sales%20Info%20Form%20rev%20Mar%202012.pdf" target="_self">Information Center Ticket Sales Form</a></li>
+					<li>
+						<a href="https://studentaffairs.unt.edu/form/table-tents-request" target="_self">Table Tents Request Form</a></li>
+					<li>
+						<a href="https://studentaffairs.unt.edu/form/donation-bin-request">Donation Bin Request Form</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/Marketing-at-the-Union.png');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/marketing-union": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

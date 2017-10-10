@@ -1,0 +1,77 @@
+		
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	    <head>
+	        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<script src="js/jquery.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					// Language links
+					$("#lang-en").click(function() {
+						$("#langcode").val("en");
+						$("form[@name='langform']").submit();
+					});
+					$("#lang-es").click(function() {
+						$("#langcode").val("es");
+						$("form[@name='langform']").submit();
+					});
+				});
+			</script>
+			<title>AID for COLLEGE in TEXAS</title>
+			<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+			<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/ie-6.css" media="all" /><![endif]-->
+			<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie-7.css" media="all" /><![endif]-->
+			
+		</head>
+		<body>
+			<div id="outside-top">
+				<div class="left">
+					<form name="langform" action="index.php" method="post">
+						<!--<p>
+							<a id="lang-en"class="active" href="#">English</a> <span>|</span> <a id="lang-es"href="#">Español</a>						</p>-->
+						<input type="hidden" id="langcode" name="langcode" value="" />
+					</form>
+				</div>
+			</div>
+			<div id="inside-wrapper">
+				<div id="inside-wrapper2">
+					<h1 id="logo">AID for COLLEGE in TEXAS<span></span></h1>
+					<div id="content-area">
+						<div id="content-area-inside">
+							<div id="content">
+								<form action="index.php" method="post">
+									<div class="disclaimer">
+										<p>Disclaimer - Please read before proceeding.</p>
+					<p>By clicking below, you acknowledge that:
+					<ul><li>This calculator provides only a rough approximation of financial aid
+					(and even then, only if accurate data is entered into the calculator). The estimate is not final or binding on the Federal Secretary 
+					of Education, the institution, or the State of Texas.</li>
+					<li>Not all students will qualify for all of the aid that the calculator indicates may be available.</li>
+					<li>The calculator should not be used as the primary means of selecting a school.</li>
+					<li>The calculator is not designed to replace the Free Application for Federal Student Aid (FAFSA). The FAFSA must be completed 
+					to demonstrate eligibility for federal assistance under Title IV.  A link to the FAFSA is available on the results page of the 
+					calculator via the "Apply for Aid Now" button.</li>					
+					<li>The calculator is not designed to replace a complete financial aid award package provided by a college financial aid office.</li></ul></p>					
+					<p>Families who have high incomes or significant assets will not receive as accurate an estimate of financial aid 
+					eligibility. Please contact a financial aid officer at the institution you plan to attend for more information.</p>
+					<p>The owners and licensees of the calculator and its underlying software disclaim any liability arising from the use of or reliance 
+					upon the calculator by any person.</p>									</div>
+									<div class="disclaimer">
+							            <p>
+							            	<input class="basicbutton" type="submit" name="Continue" id="Continue" value="I Agree" />
+											<input type="hidden" name="step" value="1" />
+											<input type="hidden" id="langcode" name="langcode" value="en" />
+							            </p>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="outside-bottom">
+	 			<div class="left"><p>Copyright &copy; 2015 CFAT. All Rights Reserved</p></div>
+ 			</div>
+	    </body>
+	</html>
+	

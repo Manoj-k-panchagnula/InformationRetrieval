@@ -1,0 +1,413 @@
+<!-- USING NEW TEMPLATE  DOMAIN:m.meangreensports.com INNERDOMAIN:meangreensports SECONDLEVEL:meangreensports.com --><!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+	<title>North Texas Mean Green Official Athletic Site</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+    <script>
+  	  var schoolCode='ntex'; //';
+  	  var sportCode= location.href.match(/sports\/([^\/]*)/)[1]; //'';
+    </script>
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+	<link rel="apple-touch-icon" href="http://grfx.cstv.com/schools/ntex/apple-touch-icon.png">
+    <script src="http://grfx.cstv.com/scripts/common.js"></script>
+    <script src="http://grfx.cstv.com/scripts/oas-omni-controls.js"></script>
+
+    <script src="http://grfx.cstv.com/scripts/jquery/jquery-1.10.2.min.js"></script>
+
+	<link href='http://grfx.cstv.com/scripts/mobile/mobilesite.css' rel='stylesheet' type='text/css'>
+	<link href='http://grfx.cstv.com/schools/ntex/library/css/ntex-mobile.css' rel='stylesheet' type='text/css'>	
+    <script src="http://grfx.cstv.com/scripts/mobile/mobilesite.js"></script> 	
+
+	<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+
+	var adForSports = "/SPORTS." + sportCode.replace(/-/,"").toUpperCase();
+
+	googletag.cmd.push(function() {
+	googletag.defineSlot('/4177/NTEX_WAP', [[120, 20], [168, 28], [216, 36], [300, 50], [320, 50]], 'div-gpt-ad-0').addService(googletag.pubads());
+	googletag.defineSlot('/4177/NTEX_WAP', [[300, 250]], 'div-gpt-ad-1').addService(googletag.pubads());
+	googletag.defineSlot('/4177/NTEX_WAP', [70, 42], 'div-gpt-ad-2').addService(googletag.pubads());
+	googletag.defineSlot('/4177/NTEX_WAP', [320, 50], 'div-footer-ad').addService(googletag.pubads());
+	googletag.pubads().setTargeting("sect",adForSports);
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+	});
+	</script>
+
+</head>
+<body>
+<div id='div-gpt-ad-interstitial-4-oop'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-interstitial-4-oop'); });
+</script>
+</div>
+<div id="viewport">
+
+	<div id="menu">
+		<div id="menu-heading">Navigation</div>
+		<ul id="menu-list">
+		</ul>
+	</div>
+
+	<a id="page-hover">&nbsp;</a>
+
+	<div id="page">
+
+		<div id="header">	
+
+			<img id="header-logo" src="http://grfx.cstv.com/graphics/school-logos/ntex-lg.png" />
+			<div id="header-title">North Texas Mean Green</div>
+			<div id="header-ad">
+				<div id='div-gpt-ad-2'>
+				<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-2'); });
+				</script>
+				</div>
+			</div>
+		</div>
+
+		<div id="page-nav">
+			<ul class="content-tabs">
+				<li id="nav-menu">
+					<a>
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20"><g fill="#fff"><rect x=".958" y="6" width="19.083" height="3"/><rect x=".958" y=".958" width="19.083" height="3"/><rect x=".958" y="11" width="19.083" height="3"/></g><rect class="nav-icon" fill="#666" width="18.938" height="2.938"/><rect class="nav-icon" fill="#666" y="5.042" width="18.938" height="2.938"/><rect class="nav-icon" fill="#666" y="10.042" width="18.938" height="2.938"/></svg>
+						</div>
+					<div></div>
+				</a></li>
+				<li id="nav-news" data-tab="news" data-tabgroup="main-tab">
+					<a href="/sports//ntex--mobile.html" id="nav-news-hreffer">
+	  				<script>document.getElementById("nav-news-hreffer").href = "/sports/" + sportCode + "/ntex-" + sportCode + "-mobile.html";</script>
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+								 width="23px" height="20px" viewBox="-1.5 1 35 30" enable-background="new -1.5 1 35 30" xml:space="preserve">
+							<g>
+								<path class="nav-icon" fill="#666666" d="M28,8V4H0v22c0,1.105,0.895,2,2,2h27c1.657,0,3-1.343,3-3V8H28z M26,26H2V6h24V26z M4,10h20v2H4V10z M16,14
+									h8v2h-8V14z M16,18h8v2h-8V18z M16,22h6v2h-6V22z M4,14h10v10H4V14z"/>
+							</g>
+							</svg>
+						</div>
+						<div>News</div>
+					</a></li>
+				<li id="nav-roster" data-tab="roster" data-tabgroup="main-tab">
+					<a href="/sports//mtt/ntex--mtt.html" id="roster-hreffer">
+	  				<script>document.getElementById("roster-hreffer").href = "/sports/" + sportCode + "/mtt/ntex-" + sportCode + "-mtt-mobile.html";</script>
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg"x="0px" y="0px"
+								 width="23px" height="20px" viewBox="0 0 35 30" enable-background="new 0 0 35 30" xml:space="preserve">
+							<g>
+								<path class="nav-icon" fill="#666666" d="M23.843,26.992H11.16c-2.307,0-3.875-1.407-3.875-3.758c0-3.279,0.769-8.315,5.021-8.315
+									c0.449,0,2.351,2.017,5.194,2.017c2.845,0,4.746-2.017,5.195-2.017c4.252,0,5.021,5.036,5.021,8.315
+									C27.718,25.585,26.15,26.992,23.843,26.992z M17.501,15.848c-3.076,0-5.572-2.496-5.572-5.572s2.496-5.572,5.572-5.572
+									c3.077,0,5.572,2.496,5.572,5.572S20.578,15.848,17.501,15.848z"/>
+							</g>
+							</svg>
+						</div>
+						<div>Roster</div>
+					</a>
+				</li>
+				<li id="nav-photos">
+					<a href="http://www.meangreensports.com/photogallery/gallery_index.html?school=ntex&sport=" target="_blank">
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+								 width="23px" height="20px" viewBox="0 0 35 30" enable-background="new 0 0 35 30" xml:space="preserve">
+							<g>
+								<path fill="#666766" d="M31.431,10.356v13.002c0,2.046-1.669,3.715-3.715,3.715H7.284c-2.046,0-3.715-1.669-3.715-3.715V10.356
+									c0-2.046,1.669-3.715,3.715-3.715h3.251l0.739-1.974c0.363-0.958,1.495-1.741,2.511-1.741h7.43c1.016,0,2.147,0.784,2.511,1.741
+									l0.739,1.974h3.251C29.762,6.642,31.431,8.311,31.431,10.356z M24.001,16.857c0-3.584-2.917-6.501-6.501-6.501
+									s-6.501,2.917-6.501,6.501c0,3.584,2.917,6.501,6.501,6.501S24.001,20.441,24.001,16.857z M21.68,16.857
+									c0,2.307-1.872,4.18-4.18,4.18s-4.18-1.873-4.18-4.18c0-2.307,1.872-4.179,4.18-4.179S21.68,14.55,21.68,16.857z"/>
+							</g>
+							</svg>
+						</div>
+						<div>Photos</div>
+					</a>
+				</li>
+				<li id="nav-allaccess">
+					<a href="http://www.meangreensports.com/allaccess/" target="_blank">
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+								 width="23px" height="20px" viewBox="0 0 35 30" enable-background="new 0 0 35 30" xml:space="preserve">
+							<g>
+								<circle fill="none" stroke="#666766" stroke-width="2" stroke-miterlimit="10" cx="17.5" cy="15" r="13.499"/>
+								<polygon fill="#666766" points="14.713,22.749 14.713,7.251 22.462,14.999 	"/>
+							</g>
+							</svg>
+						</div>
+						<div>All Access</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div id="ad1">
+			<div id='div-gpt-ad-0'>
+			<script type='text/javascript'>
+			googletag.cmd.push(function() { googletag.display('div-gpt-ad-0'); });
+			</script>
+			</div>
+		</div>
+
+		<div id="main-content" class="main-tab">	
+			<div id="main-content-padding">	
+<!--#set var="ntex_description" value="Head coach Andrew Palileo announced volleyball's 2016 schedule on Thursday, a slate that offers contests against nine teams that finished with a top-100 RPI last season.\" />
+<meta property=\"og:type\" content=\"article\" />
+<meta property=\"fb:app_id\" content=\"167025833475657\" />
+<meta property=\"og:title\" content=\"North Texas Volleyball Announces 2016 Schedule\" />
+<meta property=\"og:description\" content=\"Head coach Andrew Palileo announced volleyball's 2016 schedule on Thursday, a slate that offers contests against nine teams that finished with a top-100 RPI last season.\" />
+<meta property=\"og:url\" content=\"/sports/w-volley/spec-rel/050516aab.html"
+-->
+<!--#set var="ntex_page_title" value="North Texas Volleyball Announces 2016 Schedule" -->
+
+
+
+
+<span class="StoryHeadline">North Texas Volleyball Announces 2016 Schedule</span><br />
+<span class="StoryTeaser">Ohio State, Texas A&M, Baylor Highlight Non-Conference Contests</span><br />
+
+<!-- PHOTO TABLE BEGINS HERE -->
+<table class="photo-table"  class="photo-table"border="0" cellpadding="0" cellspacing="0" align="right" width="155">   
+  <tr>
+    <td width="5" rowspan="2">
+      <img src="http://grfx.cstv.com/schools/ntex/graphics/spacer.gif" width="5" height="4" border="0" alt="" />
+    </td>
+    <td width="150" align="center">
+      <!--REPLACE WITH PHOTO--><br />
+      <img src="http://grfx.cstv.com/schools/ntex/graphics/spacer.gif" width="1" height="4" border="0" alt="" /><br />
+      <span class="StoryCaption"><!--REPLACE WITH CAPTION--></span><br />
+      <img src="http://grfx.cstv.com/schools/ntex/graphics/spacer.gif" width="1" height="8" border="0" alt="" />
+    </td>    
+  </tr>
+</table>
+<!-- PHOTO TABLE ENDS HERE -->
+
+<div id="Content">
+<!-- PARSER CONTENT MARKER START -->
+<b>May 5, 2016</b>
+<P><!-- LINKS TO RELATED PAGES BEGIN --> <!-- LINKS TO RELATED PAGES END --></P><P><img src="http://grfx.cstv.com/photos/schools/ntex/sports/w-volley/auto_wide_story_new/11310201.jpeg" alt="" width="640" height="350" /><br />Captain <a href="/sports/w-volley/mtt/amy_henard_850245.html">Amy Henard</a> (center) will be the Mean Green's lone senior in 2016. (<em>Photo by Rick Yeatts</em>)<br /><br />DENTON &mdash; North Texas head coach <a href="/sports/w-volley/mtt/andrew_palileo_850251.html">Andrew Palileo</a> announced Mean Green volleyball&rsquo;s 2016 schedule on Thursday, a slate that offers five home matches to kick off the fall and contests against nine teams that finished with a top-100 RPI last season. <br /><br />&ldquo;I always look at the styles of play we will face in our conference and what teams we can play in our pre-conference schedule to give us experience against what our Conference USA opponents will offer,&rdquo; Palileo said. &ldquo;This schedule gives us an opportunity to see how we are as a team, how far we&rsquo;ve come from the spring and summer without Carnae [Dillard], and how the freshmen will react come gametime.&rdquo; <br /><br />Palileo &amp; Co. will kick off the season with the North Texas Challenge - one of four tournaments that the team will compete in - when the Mean Green will take on a field that includes Ohio State and Texas A&amp;M in back-to-back days. Those teams finished with RPI ratings of 17 and 9 in 2015, respectively. North Texas will also host the annual North Texas Invitational from Sept. 9-10. <br /><br />A Sept. 20 contest with Baylor highlights the squad&rsquo;s non-conference road schedule, and three days later the Mean Green will kick off C-USA action with a home matchup against Southern Miss (Sept. 23). <br /><br />Overall, North Texas will be on the road against each of the three teams that finished ahead of the Mean Green in last season&rsquo;s regular season C-USA standings: UTSA (Sept. 30), Rice (Oct. 28) and Western Kentucky (Nov. 10). The Owls will host next year&rsquo;s C-USA Championship from Nov. 19-21 in Houston. <br /><br />For the first time since 2012, North Texas has scheduled matches to take place following the conference tournament. The Mean Green will travel to California to take on Long Beach State (Nov. 25) and UC Irvine (Nov. 26), something that Palileo says will give an evolving team a chance to experience the feel of postseason play. <br /><br />&ldquo;We&rsquo;re going through a bit of a transition this year and we&rsquo;ll be a much more balanced team compared to last season,&rdquo; Palileo said. &ldquo;I wanted to give our girls a chance to play some tough teams over the Thanksgiving break. That way, we&rsquo;ll know what it&rsquo;s like to play in the postseason against good teams. If we don&rsquo;t go to the NCAA Tournament, we&rsquo;re viewing that California trip as an NCAA Tournament match.&rdquo; <br /><br />The 2016 North Texas volleyball season begins in less than four months with a contest against Nevada at 11 a.m. on Friday, Aug. 26. <br /><br /><span style="text-decoration: underline;"><strong>North Texas Volleyball 2016 Schedule </strong></span><br /><strong><sup>^</sup>Nevada - Aug. 26 - 11 a.m. </strong><br /><strong><sup>^</sup>Ohio State - Aug. 26 - 6:30 p.m. </strong><br /><strong><sup>^</sup>Texas State - Aug. 27 - 11 a.m. </strong><br /><strong><sup>^</sup>Texas A&amp;M - Aug. 27 - 6 p.m. </strong><br /><strong><br />UT Arlington - Aug. 30 - 7 p.m. </strong><br /><sup><br />&amp;</sup>Utah Valley - Sept. 2 - 7 p.m. <br /><sup>&amp;</sup>San Jose State - Sept. 3 - 10 a.m. <br /><sup>&amp;</sup>Southern Utah - Sept. 3 - 4:30 p.m. <br /><strong><sup><br />#</sup>Lousiana-Lafayette - Sept. 9 - 12:30 p.m. </strong><br /><strong><sup>#</sup>Indiana State - Sept. 9 - 7:30 p.m. </strong><br /><strong><sup>#</sup>UNC Wilmington - Sept. 10 - TBA</strong> <br /><sup><br />$</sup>Incarnate Word - Sept. 16 - 11 a.m. <br /><sup>$</sup>SFA - Sept. 16 - 6:30 p.m. <br /><sup>$</sup>Little Rock - Sept. 17 - 10 a.m. <br /><br />Baylor - Sept. 20 - 6 p.m. <br /><strong><br />*Southern Miss - Sept. 23 - 7 p.m. </strong><br /><strong>*Florida International - Sept. 25 - 1 p.m. </strong><br />*UTSA - Sept. 30 - 6 p.m. <br />*Louisiana Tech - Oct. 2 - 1 p.m. <br />*UAB - Oct. 7 - 11:30 a.m. <br /><strong>*UTEP - Oct. 14 - 7 p.m. </strong><br /><strong>*Florida Atlantic - Oct. 16 - 1 p.m. </strong><br /><strong>*Charlotte - Oct. 23 - 1 p.m.</strong> <br />*Rice - Oct. 28 - 6 p.m. <br />*Southern Miss - Oct. 30 - 12 p.m. <br /><strong>*Marshall - Nov. 4 - 7 p.m. </strong><br /><strong>*Lousiana Tech - Nov. 6 - 1 p.m.</strong> <br />*Western Kentucky - Nov. 10 - 7 p.m. <br />*Middle Tennessee - Nov. 12 - 12 p.m. <br /><br />Conference USA Tournament - Nov. 19-21 <br /><br />Long Beach State - Nov. 25 - 12 p.m. <br />UC Irvine - Nov. 26 - 4:30 p.m. <br />-----------------------------------------------<br />^ - North Texas Challenge (Denton, TX) <br />&amp; - Utah Valley Tournament (Orem, UT) <br /># - North Texas Invitational (Denton, TX) <br />$ - Stephen F. Austin Invitational (Nacogdoches, TX) <br /><br /><strong>Home matches in bold </strong><br />* - Conference USA match</P><P> 
+<!-- STORY AD BEGINS HERE -->
+<br clear=left>
+<table border="0" cellpadding="0" cellspacing="0" align="left">
+<tr>
+<td>
+<div class="fivevert">&nbsp;</div>
+<br>
+<div class="fivevert">&nbsp;</div></td>
+<td width=5>
+<img src="http://grfx.cstv.com/graphics/spacer.gif" width=5 height=1border=0 alt=""></td>
+</tr>
+</table><br>
+<!-- STORY AD ENDS HERE -->
+
+<!-- PARSER CONTENT MARKER END -->
+</div><!-- END #Content -->  
+
+<script>checkFontSizeCookie();</script>
+  
+<!-- CONTENT IS DONE --><!-- calling sport-footer-mobile.html -->			</div>
+		</div><!-- /main-content -->
+
+		<div id="portals">
+			<ul id="portal-nav" class="content-tabs">
+				<li id="nav-portal-store" class="active" data-tab="portal-store" data-tabgroup="portal"><a>Online Store</a></li>
+				<li id="nav-portal-action" data-tab="portal-auction" data-tabgroup="portal"><a>Auctions</a></li>
+			</ul>
+
+			<div id="portal-store" class="portal">
+				<div id="storeportalwrap"><div id="storeportalheadline"><em>Shop Now</em> at<br />the Official Store</div><div id="storeportalbox"></div></div>
+			</div>
+			<div id="portal-auction" class="portal">
+				<div id="auctionportalwrap"><div id="auctionportalheadline">Official Auctions</div><div id="auctionportalbox"></div></div>
+			</div>
+
+		</div>
+
+		<div id="story-ad">
+			<div id="ad2">
+				<div id='div-gpt-ad-1'>
+				<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1'); });
+				</script>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer" class="primarybgcolor">
+			<p class="viewtype">View: Mobile | <a href="http://www.meangreensports.com/sports/w-volley/spec-rel/050516aab.html?wappref=std">Desktop</a></p>
+
+			
+	<style>
+	#logo-wrap{
+	float:left;
+	background: url("http://grfx.cstv.com/graphics/new-footer-06-white-logo.png") no-repeat;
+			*background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://grfx.cstv.com/graphics/new-footer-06-white-logo.png");
+	width:50%;
+	display:block;
+	height:50px;
+	display:block
+	}
+	#logo-wrap img{
+    float:left;
+    width:290px;
+    height:50px;
+    position:relative;
+    z-index:10;
+    }
+	#dots{
+	clear:both;
+	background: url("http://grfx.cstv.com/graphics/new-footer-06-white-dots.png") no-repeat;
+			*background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://grfx.cstv.com/graphics/new-footer-06-white-dots.png", sizingMethod='scale');
+	height:6px;
+	display:block;
+			background-position: center;
+	}
+	</style>
+	<link href="http://grfx.cstv.com/schools/ntex/library/ntex-07-footer.css" rel="stylesheet" type="text/css" />
+	<div id="footer-wrap-temp">
+	<div id="logo-wrap"><a href="http://www.cbssports.com/" target="_blank"><img src="http://grfx.cstv.com/graphics/spacer.gif" width="290" height="50" alt="CBS College Sports" border="0"/></a></div>
+	
+	<div id="dots"></div>
+	<div id="footer-links">&copy; 2016 CBS Interactive. All rights reserved. | <a href='http://legalterms.cbsinteractive.com/privacy' target="_blank">Privacy Policy</a> | <a href='http://legalterms.cbsinteractive.com/adchoice' target="_blank">Ad Choice</a> | <a href='http://legalterms.cbsinteractive.com/terms-of-use' target="_blank">Terms of Use</a> | <a href='http://collegenetwork.cbssports.com/'>About Us</a> | <a href='http://www.cbsinteractive.com/advertise/'>Advertise</a> | <a href=http://www.meangreensports.com/feedback/ntex-feedback.html class="csdisclaimerlink">Feedback</a> 
+	
+
+	</div>
+	</div>
+	
+
+		</div>
+
+	</div>
+
+</div>
+<div id="sticky-footer-ad">
+    <div id="footer-ad">
+         <div id='div-footer-ad'>
+              <script type='text/javascript'>
+                        googletag.cmd.push(function() { googletag.display('div-footer-ad'); });
+              </script>
+         </div>
+     </div>
+</div>
+
+ 
+<!--TRACKING_START-->
+<script type="text/javascript" src="//grfx.cstv.com/scripts/guid-1.0.js"></script>
+<script type="text/javascript">
+var utag_data;
+function get_page_title() {
+    if (document.querySelector(".StoryHeadline") !== null && document.querySelector(".StoryHeadline").innerHTML.length > 0) {
+        return document.querySelector(".StoryHeadline").innerHTML;
+    }
+
+    var metas = document.getElementsByTagName('meta');
+    for (i=0; i<metas.length; i++) {
+        if (metas[i].getAttribute("property") == "og:title") {
+            return metas[i].getAttribute("content");
+        }
+    }
+
+    return document.title || '';
+}
+ 
+utag_data = {
+    siteId: '225',
+    c2: '3000082',
+    pageViewGuid: v1(),
+    articleId: '050516aab',
+    articlePubDate: '2016-05-05',
+    articleTitle: get_page_title(),
+    articleType: 'spec-rel',
+    pageType: 'story',
+    schoolId: 'ntex',
+    schoolName: 'North Texas',
+    searchTerm: '',
+    siteHier: 'sports|w-volley|spec-rel',
+    siteRsid: 'cbsicbscnsite-ntex',
+    siteSection: 'sports',
+    siteType: 'mobile web',
+    sportName: 'w-volley',
+};
+(function(a,b,c,d){
+   a='//tags.tiqcdn.com/utag/cbsi/cbscnsite/prod/utag.js';
+   b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+   a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+ 
+</script>
+
+<style type="text/css">
+#inseguitore{position:absolute;left:0;top:0;}
+</style>
+<div id="inseguitore">
+<!-- START Nielsen//NetRatings SiteCensus V5.3 -->
+<!-- COPYRIGHT 2007 Nielsen//NetRatings -->
+<script type="text/javascript">
+var _rsCI="us-cstv";
+var _rsCG="school";
+var _rsDN="//secure-us.imrworldwide.com/";
+var _rsPLfl=0;
+var _rsCL=1;
+</script>
+<script type="text/javascript" src="//secure-us.imrworldwide.com/v53.js"></script>
+<noscript>
+<div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-cstv&amp;cg=school&cc=1" alt=""/></div>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.3 --> 
+</div>
+
+<!-- CNET tag for reporting OAS traffic -->
+<script type="text/javascript" src="http://dw.cbsimg.net/js/cbsi/dw.js"></script>
+<script type="text/javascript">
+  DW.pageParams = {
+    siteId: '225'
+  };
+  DW.tagNielsen = false;
+  DW.clear();
+</script>
+<noscript>
+<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1462979666&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
+</noscript>
+
+<!-- Comscore tag -->
+<noscript>
+    <img src="http://b.scorecardresearch.com/b?c1=2&c2=3000023&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript> 
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-42613524-1']);
+_gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script language="JavaScript" type="text/javascript" src="//js.revsci.net/gateway/gw.js?csid=F09828&auto=t&bpid=cbsinteractive"></script>
+<script type='text/javascript'>var a=document.createElement("script");a.type="text/javascript";a.async=!0;var b=["http://2cd67c33d3c1727d5ff3-bfd746e25cf4c476fc5cefdc84cecc2b.r15.cf2.rackcdn.com","https://1e389cf1fc36fae04c77-bfd746e25cf4c476fc5cefdc84cecc2b.ssl.cf2.rackcdn.com"];a.src=("https:"==document.location.protocol?b[1]:b[0])+"/jgmvc0y9kwxw.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);</script>
+<!--TRACKING_END-->
+
+</body>
+</html>

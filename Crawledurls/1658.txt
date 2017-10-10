@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="//commencement.unt.edu/sites/all/themes/greenlight_sub/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="/directions-unt" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/25" />
+  <title>Directions to UNT | Commencement</title>  
+  <style type="text/css" media="all">
+@import url("//commencement.unt.edu/modules/system/system.base.css?o6nobc");
+@import url("//commencement.unt.edu/modules/system/system.menus.css?o6nobc");
+@import url("//commencement.unt.edu/modules/system/system.messages.css?o6nobc");
+@import url("//commencement.unt.edu/modules/system/system.theme.css?o6nobc");
+</style>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_user/ldap_user.css?o6nobc");
+@import url("//commencement.unt.edu/modules/comment/comment.css?o6nobc");
+@import url("//commencement.unt.edu/modules/field/theme/field.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/modules/fitvids/fitvids.css?o6nobc");
+@import url("//commencement.unt.edu/modules/node/node.css?o6nobc");
+@import url("//commencement.unt.edu/modules/search/search.css?o6nobc");
+@import url("//commencement.unt.edu/modules/user/user.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/views/css/views.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/caption-filter.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ckeditor/css/ckeditor.css?o6nobc");
+</style>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/colorbox/styles/default/colorbox_style.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ctools/css/ctools.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_servers/ldap_servers.admin.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/modules/contrib/panels/css/panels.css?o6nobc");
+</style>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-reset.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-mobile.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-alpha.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/formalize.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-text.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-branding.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-menu.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-forms.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-visuals.css?o6nobc");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:regular|Open+Sans:300,700&amp;subset=latin" media="all" />
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/global.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/global-sub.css?o6nobc");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o6nobc");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/fluid/alpha-default-fluid-12.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-narrow.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-narrow.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?o6nobc");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o6nobc");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-wide.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o6nobc");
+@import url("//commencement.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-wide.css?o6nobc");
+@import url("//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?o6nobc");
+</style>
+<!--<![endif]-->
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="//commencement.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="//commencement.unt.edu/misc/drupal.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/sites/all/libraries/fitvids/jquery.fitvids.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/sites/all/modules/fitvids/fitvids.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/js/caption-filter.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/libraries/colorbox/jquery.colorbox-min.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/colorbox/js/colorbox.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/modules/contrib/colorbox/styles/default/colorbox_style.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/themes/greenlight/js/wdc-drupal7.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/jquery.formalize.js?o6nobc"></script>
+<script type="text/javascript" src="//commencement.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/omega-mediaqueries.js?o6nobc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight_sub","theme_token":"WMhMqRvjR-R-bALb0I0_O0TiiPRR5TFG9jgazgLWY4M","js":{"profiles\/cws_d7\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"profiles\/cws_d7\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/cws_d7\/themes\/greenlight\/js\/wdc-drupal7.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cws_d7\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/cws_d7\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/cws_d7\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"profiles\/cws_d7\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Montserrat:regular|Open+Sans:300,700\u0026subset=latin":1,"profiles\/cws_d7\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight_sub\/css\/global-sub.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"ie::normal::profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"fluid::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"fluid::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/fluid\/alpha-default-fluid-12.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-narrow.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-narrow.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-wide.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-wide.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"urlIsAjaxTrusted":{"\/directions-unt":true},"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-25 node-type-page context-directions-unt">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <span></span>
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">
+			<p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="https://webassets.unt.edu/theme/greenlight-d7/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+						<li id="li-mo-home" class="first"><a href="/"><span>Home</span></a></li>
+						
+						<!--<li id="li-mo-quicklinks" class="menu-toggler"><span>Quicklinks »</span>
+						  <ul class="mo-quicklinks toggler-submenu mo-hide">
+						  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+								<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+								<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+								<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+								<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+								<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+								<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+							</ul>
+						</li>-->
+
+						<li id="li-mo-main-menu" class="menu-toggler active"><span>Main menu &raquo;</span>
+<ul class="mo-main-menu toggler-submenu mo-hide" style="display: block"><li><a href="http://commencement.unt.edu/celebrating-accomplishments-unt-graduates">Home</a></li>
+<li id="" class="menu-toggler li-submenu-toggler"><span>Spring Commencement &raquo;</span>
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://commencement.unt.edu/spring-commencement-overview">Spring Commencement</a></li>
+<li><a href="http://commencement.unt.edu/information-spring-graduates">Information for Graduates</a></li>
+<li><a href="http://commencement.unt.edu/information-guests-spring">Information for Guests</a></li>
+<li><a href="http://commencement.unt.edu/faqs-spring">FAQs</a></li>
+<li><a href="http://commencement.unt.edu/spring-schedule">Schedule</a></li>
+<li><a href="http://commencement.unt.edu/speaker-spring">Commencement Speaker</a></li>
+<li><a href="http://commencement.unt.edu/parking-spring">Parking and Transportation</a></li>
+</ul>
+</li>
+<li id="" class="menu-toggler li-submenu-toggler"><span>Fall Commencement &raquo;</span>
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://commencement.unt.edu/fall-commencement-overview">Fall Commencement</a></li>
+<li><a href="http://commencement.unt.edu/information-fall-grads">Information for Graduates</a></li>
+<li><a href="http://commencement.unt.edu/information-guest-fall">Information for Guests</a></li>
+<li><a href="http://commencement.unt.edu/faqs-fall">FAQs</a></li>
+<li><a href="http://commencement.unt.edu/fall-schedule">Schedule</a></li>
+</ul>
+</li>
+<li><a href="http://commencement.unt.edu/regalia-overview">Regalia</a></li>
+<li id="" class="menu-toggler li-submenu-toggler"><span>Directions &raquo;</span>
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://commencement.unt.edu/directions-unt">Directions</a></li>
+<li><a href="http://commencement.unt.edu/maps">Maps</a></li>
+</ul>
+</li>
+</ul>
+</li>
+				  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+					<form action="/directions-unt" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-_SruTgVqHqTsK63Wlya5cxAKKQ5kfufKFwsiK2SBL20" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>					<!--<form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+						<div><div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search the UNT web site:</label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+							
+							<input type="hidden" name="form_build_id" value="form-ujfG-ZSE5TR-xFGXg80zrwpNYknILBw1CChPMxUbnHI">
+							<input type="hidden" name="form_token" value="DKL_c2lnzzWVVOH3_nQL-VLa_l3dRsfj8UBY06q-AvY">
+							<input type="hidden" name="form_id" value="search_block_form">
+							</div>
+						</div>
+					</form>-->
+
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>
+<div id="mobile-site-info" class="mobile"><div class="inside">
+	<!--div class="mobile-dept-name"></div-->
+	<div class="mobile-site-title"><a href="/">Commencement</a></div>
+</div></div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+	  <ul class="quicklinks">
+	  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+			<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+			<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+			<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+			<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+			<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+			<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+		</ul>
+
+      </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/directions-unt" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-TDtotY-z7ZowhpCgWG77rFavEWGwJR188sF_xz9p6B0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+
+  	<div id="unt">
+    	<a href="http://www.unt.edu">
+    		<img src="https://webassets.unt.edu/theme/greenlight-d7/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark" />
+      </a>
+    </div>
+    
+			    <hgroup>
+	    <div class="branding-data clearfix">
+	
+				      
+					<h5 class="department-link department-name"><a href="http://www.unt.edu">University of North Texas</a></h5>
+								
+				<h1 class="site-name stacked"><a href="/" title="Commencement" class="active">Commencement</a></h1>
+	
+	    </div>
+	    </hgroup>
+		
+    
+  </div>
+</div>  </div>
+</div>
+	<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix desktop">
+		<div id="zone-menu" class="zone zone-menu clearfix container-12">
+			<div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+    <section class="block block-system block-menu block-main-menu block-system-main-menu odd" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Main menu</h3>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/celebrating-accomplishments-unt-graduates" title="Homepage">Home</a></li>
+<li class="expanded"><a href="/spring-commencement-overview">Spring Commencement</a><ul class="menu"><li class="first leaf"><a href="/information-spring-graduates">Information for Graduates</a></li>
+<li class="leaf"><a href="/information-guests-spring">Information for Guests</a></li>
+<li class="leaf"><a href="/faqs-spring">FAQs</a></li>
+<li class="leaf"><a href="/spring-schedule">Schedule</a></li>
+<li class="leaf"><a href="/speaker-spring">Commencement Speaker</a></li>
+<li class="last leaf"><a href="/parking-spring">Parking and Transportation</a></li>
+</ul></li>
+<li class="expanded"><a href="/fall-commencement-overview">Fall Commencement</a><ul class="menu"><li class="first leaf"><a href="/information-fall-grads">Information for Graduates</a></li>
+<li class="leaf"><a href="/information-guest-fall">Information for Guests</a></li>
+<li class="leaf"><a href="/faqs-fall">FAQs</a></li>
+<li class="last leaf"><a href="/fall-schedule">Schedule</a></li>
+</ul></li>
+<li class="leaf"><a href="/regalia-overview">Regalia</a></li>
+<li class="last expanded active-trail"><a href="/directions-unt" class="active-trail active">Directions</a><ul class="menu"><li class="first last leaf"><a href="/maps">Maps</a></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>		</div>
+	</div>
+</header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-block block-12 block-block-12 odd block-without-title" id="block-block-12">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <div class="bap bap-directions">
+  <div class="boxer-full full">
+    <div class="boxer grid-12">
+        <h2><span style="color:#72b844;">Directions</span></h2>
+    </div>
+</div>
+  <div class="boxer-full mobile">
+    <div class="boxer grid-12">
+        <h2><span style="color:#72b844;">Directions</span></h2>
+    </div>
+</div>
+</div>
+     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h2 class="title" id="page-title">Directions to UNT</h2>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="node node-page node-promoted view-mode-directions node-not-sticky author-2 odd clearfix clearfix">
+    
+  <div class="container-12">
+  	    <div class="grid-3 content-area sidebar-content sidebar-right top-important"><div class="inside">
+	      <div class="field field-name-related-links-directions field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><div class="block block-block block-16 block-block-16 odd block-without-title" id="block-block-16">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <div class="color-box bg-unt-green">
+<h4 class="boxed">Related Links</h4>
+
+<ul>
+	<li><a href="http://commencement.unt.edu/maps">UNT Commencement Parking Map</a></li>
+	<!--<li>Traffic and Parking Information</li>-->
+</ul>
+</div>
+     </div>
+  </div>
+</div></div></div></div>	    </div></div>
+	    
+  
+  
+	  	    <div class="grid-9 content-area main-content top-important"><div class="inside">
+	      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Commencement draws many people to the UNT campus to celebrate with graduates. Because so many people will be converging on campus at the same time, there will be more congestion and traffic on campus than usual all day Friday, May 13, and Saturday, May 14.</p>
+<p>Drivers should be prepared that they may encounter delays before they reach Denton due to the Texas Department of Transportation's <a href="http://www.35express.org/">35 Express Project</a>. A portion of North Texas Boulevard leading into campus (between Eagle Drive and Highland Street) will be closed to vehicles during commencement events for pedestrians' safety.</p>
+<p>Please be aware, <strong>expect delays, plan ahead and allow yourself ample time to get to your destination.</strong> Below is information including:</p>
+<ul><li><a href="#directions">Directions to and from campus</a></li>
+<li><a href="#shuttlepark">Where to park for commencement</a>. Guests will park along the eastern edge of campus on Welch Street and will be able to take handicap-accessible shuttles provided by DCTA to and from commencement events all day Friday and Saturday.</li>
+<li><a href="#shuttle">DCTA shuttle service information</a></li>
+<li><a href="#parking">Parking for Undergraduate College Recognition Ceremonies and Doctoral and Master's Convocation</a><br />
+	including instructions for guests, special needs, graduates, and employees</li>
+<li><a href="#universitywide">Parking for University-wide Commencement</a><br />
+	including instructions for guests, special needs, graduates, and employees</li>
+<li><a href="#train">A-Train service to and from Denton</a></li>
+</ul><p><strong>Note:</strong> If you are a guest driving to campus for a commencement event, please allow 30 to 45 minutes to park, ride the shuttle to the event venue, and find a seat inside. If you are a graduate participating in a commencement event, please allow 30 to 45 minutes to park and get to the event venue.</p>
+<p>If you are a guest taking the A-Train to Denton please allow 30-45 minutes to park, ride the A-Train, catch the UNT Shuttle at the Downtown Denton Transit Center, ride the shuttle to the event venue and find a seat inside the commencement venue.</p>
+<p><a href="https://www.unt.edu/commencement/schedule.htm">See the Commencement Schedule of Events</a>. </p>
+<h3><a name="directions" id="directions"></a>Directions to and from UNT</h3>
+<!--p>For navigation systems, enter 620 Central Avenue, Denton, Texas, 76203, as the destination. This will lead you to the Highland Street Parking Garage. However, once at &nbsp;Welch Street, follow the Commencement Parking signs and traffic control officer directions.</p--><h3><a name="dallas" id="dallas"></a>From Dallas:</h3>
+<ol><li>Go north on I-35 East to Denton</li>
+<li>Exit Fort Worth Drive (Highway 377) and go north to Eagle Drive</li>
+<li>Go west on Eagle Drive to Welch Street</li>
+<li>Go north on Welch Street and follow the Commencement Parking signs and traffic control officer's directions</li>
+</ol><h3><a name="fortworth" id="fortworth"></a>From Fort Worth:</h3>
+<ol><li>Go north on I-35 West to Denton</li>
+<li>Take I-35 East exit to Dallas</li>
+<li>Exit Fort Worth Drive (Highway 377) and go north to Eagle Drive</li>
+<li>Go west on Eagle Drive to Welch Street</li>
+<li>Go north on Welch Street and follow the Commencement Parking signs and traffic control officer's directions</li>
+</ol><h3><a name="north" id="north"></a>From north of Denton:</h3>
+<ol><li>Go south on I-35 to Denton</li>
+<li>Exit Fort Worth Drive (Highway 377) and go north to Eagle Drive</li>
+<li>Go west on Eagle Drive to Welch Street</li>
+<li>Go north on Welch Street and follow the Commencement Parking signs and traffic control officer's directions</li>
+</ol><h4><a name="train" id="train"></a>A-Train service</h4>
+<h5>Friday, May 13</h5>
+<p>DCTA will run regular weekday A-train service and special UNT Commencement Shuttle services instead of standard weekday UNT Shuttle service. Commencement shuttle buses will operate frequently from the Downtown Denton Transit Center to the Murchison Center and UNT Coliseum. This shuttle will pass through downtown Denton so passengers can shop and dine throughout the day. <a href="https://www.dcta.net/images/uploads/content_files/news_events/Restaurants_Near_the_Eulene_Brock_Downtown_Denton_Transit_Center.pdf" target="_blank">Click here to view restaurants within walking distance of the DDTC</a>. The shuttle service will run from 7 a.m. to 10:30 p.m.</p>
+<h5>Saturday, May 14</h5>
+<p>DCTA will run regular Saturday A-train service and special UNT Commencement Shuttle services throughout the day. On Friday, commencement shuttle buses will operate frequently from the DDTC to Apogee Stadium, the Murchison Performing Arts Center and UNT Coliseum.  This shuttle will pass through downtown Denton so passengers can shop and dine throughout the day. On Saturday, commencement shuttle buses will operate frequently from the Downtown Denton Transit Center to the Murchison Performing Arts Center and UNT Coliseum. This shuttle will pass through downtown Denton so passengers can shop and dine throughout the day. <a href="http://www.dcta.net/images/uploads/content_files/news_events/Restaurants_Near_the_Eulene_Brock_Downtown_Denton_Transit_Center.pdf" target="_blank">Click here to view restaurants within walking distance of the DDTC.</a></p>
+<p><a href="https://www.dcta.net/routes-schedules/a-train"><strong>View the Friday and Saturday A-train schedule</strong></a><strong>.</strong></p>
+<p>If you are a guest taking the A-train to Denton please allow as much as an-hour-and-a-half to park, ride the A-Train, catch the UNT Shuttle at the Downtown Denton Transit Center, ride the shuttle to the event venue and find a seat inside the commencement venue.</p>
+<h4><a name="shuttle" id="shuttle"></a>DCTA Shuttle service May 13 and May 14</h4>
+<h5>Friday, May 13</h5>
+<p>UNT Shuttle and DCTA Connect bus service for UNT will be limited service for commencement on May 13 so the usual UNT shuttle routes will not be provided.<br />
+Shuttles will begin operating at 7:30 a.m. and run continuously throughout the day until all guests have been returned to their vehicles Friday following the Doctoral and Master's Convocation. Beginning at 7:30 a.m., shuttles will start picking up guests  who park in lots in the  east  portion of campus off of Welch St and taking them to Apogee Stadium for the University-wide Commencement ceremony. After the University-wide Commencement ceremony, shuttles will be available where guests were dropped off to return those guests to their vehicles.</p>
+<h5>All DCTA buses are special needs and handicapped-accessible.</h5>
+<p>Please allow 30 to 45 minutes to park, ride the shuttle to the event venue, and find a seat inside.</p>
+<h5>Shuttle pickup locations for commencement parking on Welch Street:</h5>
+<ul><li><a name="shuttlepark" id="shuttlepark"></a>All UNT commencement guests will be directed to park in the parking lots along Welch Street</li>
+<li>Guests will be directed to park in a specific Welch Street lot in a specific order. As a lot fills, it will be closed and later guests will begin parking in the next lot.</li>
+<li>Shuttles will take guests from the Welch Street lot that is currently being filled to a drop off stop at the venues being used at that time.  Follow the commencement signs and traffic control officer directions to the lot where guests are currently being parked.</li>
+</ul><h5>Shuttle drop off/pickup location for the Coliseum and the Murchison Performing Arts Center:</h5>
+<ul><li>DCTA buses will drop off guests at a stop on North Texas Boulevard between the Coliseum and the Murchison Performing Arts Center so they can attend College Recognition Ceremonies or the Doctoral and Master's Convocation with Doctoral/MFA hooding.</li>
+<li>The pickup location to transport guests back to commencement parking on Welch Street is across the street from the drop off location in the Gateway Center circle drive.</li>
+<li>All shuttles will stop at each Welch Street Lot on the trips to return guests to their vehicles.</li>
+</ul><h5>Shuttle drop off/pickup location University-wide Commencement:</h5>
+<ul><li>UNT Shuttle and DCTA Connect buses will drop off guests at Gate 3 at Apogee for the University-wide Commencement. This also will be the pickup location to transport guests back to University-wide commencement parking lots in the northwest portion of campus.</li>
+</ul><h5>Saturday, May 14</h5>
+<p>UNT Shuttle and DCTA Connect bus service for UNT will be limited service for commencement on May 14. Shuttles will begin operating at 6:30 a.m. and run continuously throughout the day until all guests have been returned to their vehicles Saturday following the final College Recognition Ceremony.</p>
+<p><strong>All DCTA buses are special needs and handicapped-accessible.</strong></p>
+<p>Please allow 30 to 45 minutes to park, ride the shuttle to the event venue, and find a seat inside.</p>
+<h5>Shuttle pickup locations for commencement parking on Welch Street:</h5>
+<ul><li>All UNT commencement guests will be directed to park in the parking lots along Welch Street</li>
+<li>Guests will be directed to park in a specific Welch Street lot in a specific order. As a lot fills, it will be closed and later guests will begin parking in the next lot.</li>
+<li>Shuttles will take guests from the Welch Street lot that is currently being filled to a drop off stop on North Texas Boulevard between the Coliseum and the Murchison Performing Arts Center for College Recognition Ceremonies  Follow the commencement signs and traffic control officer directions to the lot where guests are currently being parked.</li>
+</ul><h5>Shuttle drop off/pickup location for commencement events:</h5>
+<ul><li><strong>For College Recognition Ceremonies:</strong> DCTA buses will drop off guests at a bus stop on North Texas Boulevard between the Coliseum and the Murchison Performing Arts Center. The pickup location to transport guests back to commencement parking on Welch Street is across the street from the drop off location in the Gateway Center circle drive.</li>
+</ul><h3><a name="parking" id="parking"></a>Parking for College Recognition Ceremonies and Doctoral and Master's Convocation</h3>
+<p>The Commencement Parking and Transportation Plan will start Friday morning May 13 at 7 a.m.</p>
+<h4>Instructions for guests</h4>
+<ul><li>All guests should take Fort Worth Drive (Highway 377) north to Eagle Drive, then take Eagle Drive West to Welch Street North to park in the lots along Welch Street. Officers will be directing traffic to the designated parking lots.</li>
+<li>Handicap-accessible shuttles will run continuously to transport guests from these lots to and from the Coliseum and the Murchison Performing Arts Center before and after the College Recognition Ceremonies and Doctoral and Master's Convocation. <a href="#shuttle">See shuttle service info</a>.</li>
+<li>Please allow 30 to 45 minutes to park, take the shuttle to the commencement venue, and find a seat inside.</li>
+<li>Please make note of which lot you parked in for your return.</li>
+<li>Maple Street will be open to allow drivers access to the Coliseum Circle on Avenue D, on the east side of the Coliseum, to drop off and pick up graduates. If guests are dropping off graduates at the Coliseum, after doing so, they should go east on Maple Street to park in the Welch Street lots.  <strong>This area will be very congested so expect delays.</strong></li>
+</ul><h4>Instructions for handicapped and special needs parking</h4>
+<p>Special needs and handicapped drop off and parking will be available at the Coliseum and Murchison Performing Arts Center until the parking lots have filled.</p>
+<h4>For the Coliseum:</h4>
+<ul><li>Special needs and handicapped drop off at the Coliseum Circle is on Avenue D on the east side of the Coliseum.</li>
+<li>Handicapped parking for the Coliseum is along Avenue D and in Lot 27, which is east of the Coliseum between Highland Street and Maple Street.</li>
+</ul><h4>For the Murchison Performing Arts Center:</h4>
+<ul><li>Special needs and handicapped drop off at the Murchison Performing Arts Center is on the northwest side of the center in the circle drive.</li>
+<li>Handicapped parking for the Murchison Performing Arts Center is on the south side of Lot 20 (Fouts Field parking). Handicapped parking is very limited.</li>
+</ul><p><strong>Note:</strong> At times there will be major congestion in these handicapped parking areas. <strong>To avoid congestion, guests with special needs also can choose to park in the Welch Street lots and ride the shuttles to these venues.</strong> All DCTA buses are handicapped and special needs accessible.</p>
+<h4>Instructions for graduates</h4>
+<ul><li>North Texas Boulevard will be closed between Eagle Drive and Highland Street all day Friday, May 13 and Saturday, May 14.</li>
+<li>Fouts Field parking lots will only be accessible from:
+<ul><li>the I-35 access road past the Murchison Performing Arts Center</li>
+<li>Allen Saxe Drive next to Traditions Hall</li>
+</ul></li>
+<li>Graduates may park in the Fouts Field parking lots for College Recognition Ceremonies but space is limited and the surrounding streets will be congested with event traffic. Expect delays. </li>
+<li>If Fouts Field parking lots are full, graduates can park in any lots north of Fouts Field and walk to the Coliseum or Murchison Performing Arts Center.</li>
+</ul><h4>Instructions for UNT employees</h4>
+<ul><li>North Texas Boulevard will be closed between Eagle Drive and Highland Street all day Friday, May 13and Saturday, May 14.</li>
+<li>Fouts Field parking lots will only be accessible from:
+<ul><li>the I-35 access road past the Murchison Performing Arts Center</li>
+<li>Allen Saxe Drive next to Traditions Hall</li>
+</ul></li>
+<li>Eagle Drive will be closed for westbound traffic at Avenue C.</li>
+<li>When the Fouts Field parking lots are full, all traffic will be directed to the Welch Street parking lots.</li>
+<li>The North Texas Boulevard bridge over I-35 may be closed at times to traffic crossing I-35.</li>
+<li><strong>Be aware that there will be major congestion at North Texas Boulevard and Bonnie Brae Street near the Coliseum and Murchison Performing Arts Center throughout the day Friday and Saturday.</strong></li>
+<li>Faculty and staff participating in the College Recognition Ceremonies should park in Lot 26, north of Highland Street. You may park in the Fouts Field parking lots but space is limited and the surrounding streets will be congested with event traffic. Expect delays. </li>
+</ul><h3><a name="universitywide" id="universitywide"></a>Parking for University-wide Commencement</h3>
+<h4>Instructions for guests</h4>
+<ul><li>All guests should take Fort Worth Drive (Highway 377) north to Eagle Drive, then take Eagle Drive West to Welch Street North to park in the lots along Welch Street. Officers will be directing traffic to the designated parking lots.</li>
+<li>Handicapped-accessible UNT Shuttle and DCTA Connect will run continuously to transport guests from these lots to and from Apogee Stadium before and after the University-wide Commencement. <a href="#shuttle">See shuttle service info</a>.</li>
+<li>Please allow 30 to 45 minutes to park, take the shuttle and arrive at Apogee Stadium.</li>
+<li>Please make note of which lot you parked in for your return.</li>
+</ul><h4>Instructions for special needs parking</h4>
+<ul><li>Special needs and handicapped pick up and drop off at Apogee Stadium is at Gate No. 3.</li>
+<li>Handicapped parking is in the lot north of the stadium.
+<ul><li><strong>From I-35E, to access this location</strong>
+<ol><li>take the Bonnie Brae Street exit from I-35E</li>
+<li>go south under I-35E</li>
+<li>turn left under I-35 on the access road,</li>
+<li>turn right into the lot just before you go under the pedestrian bridge</li>
+</ol></li>
+<li><strong>From I-35W, to access this location</strong>
+<ol><li>take the Bonnie Brae Street exit from I-35W</li>
+<li>continue straight through the light and travel up the access road</li>
+<li>turn right into the lot just before you go under the pedestrian bridge</li>
+</ol></li>
+</ul></li>
+<li>From north of Denton on I-35, to access this location</li>
+</ul><ul><li>
+<ol><li>take the Oak Street exit</li>
+<li>at Oak Street, go east under I-35</li>
+<li>at the Bonnie Brae light, Turn right to travel south on Bonnie Brae Street</li>
+<li>turn left onto the I-35 access road</li>
+<li>turn right into the lot just before you go under the pedestrian bridge</li>
+</ol></li>
+</ul><p><strong>Note:</strong> At times there will be major congestion in these handicapped parking areas. <strong>To avoid congestion, guests with special needs also can choose to park in the Welch Street lots and ride the shuttles to these venues.</strong> All DCTA buses are handicapped and special needs accessible.</p>
+<h4><a name="gradparking" id="gradparking"></a>Instructions for graduates and faculty and staff members participating in University-wide Commencement</h4>
+<p>Graduates and faculty and staff members participating in commencement may park in the Victory Hall lots southeast of Apogee Stadium. Spaces are limited so carpooling is strongly encouraged. Entrance to those lots will be via North Texas Boulevard.</p>
+<h5>Directions to access the Victory Hall lots for drivers coming from campus or I-35E:</h5>
+<ol><li>Take the Bonnie Brae Street exit I-35E</li>
+<li>Go left/south to go under I-35 E</li>
+<li>Go left/east on the access road</li>
+<li>Go right/south on North Texas Boulevard</li>
+<li>Immediately turn right again onto the road leading to the Victory Hall parking lots</li>
+</ol><h5>Directions to access the Victory Hall lots for drivers coming from I-35W or I-35 North of Denton:</h5>
+<ol><li>Take the North Texas Boulevard exit</li>
+<li>Go right/south on North Texas Boulevard</li>
+<li>Immediately turn right again onto the road leading to the Victory Hall parking lots</li>
+</ol></div></div></div>	    </div></div>
+	  	
+	
+	  
+  </div>
+  
+</div>
+
+
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+	  <div id="zone-footer" class="zone zone-footer mcconnell clearfix container-12">
+	  
+	    <div class="grid-3 region region-footer-first" id="region-footer-first">
+			  <div class="region-inner region-footer-first-inner">
+			  
+					<div class="footer-logo unt-brand">
+						<a href="http://www.unt.edu"><img src="https://webassets.unt.edu/theme/greenlight-d7/unt-stacked-mcconnell.png" alt="University of North Texas | UNT" /></a>
+					</div>
+					
+			  </div>
+			</div>
+			
+			<div class="grid-3 region region-footer-second" id="region-footer-second">
+			  <div class="region-inner region-footer-second-inner">
+			  
+					<div class="footer-header header-1">
+						<h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3>
+						<div id="collapse-footer-1" class="footer-block-content footer-toggler-content">
+							<p><a href="http://maps.unt.edu/places/1187/view" target="_blank"><strong>Alumni Center</strong></a><br />
+							<br />
+							<a href="http://maps.unt.edu/places/1187/view" target="_blank" title="Map to Alumni Center"><img src="https://webassets.unt.edu/theme/greenlight-d7/map-icon.png" alt="map icon" class="map-icon" /></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 region region-footer-third" id="region-footer-third">
+			  <div class="region-inner region-footer-third-inner">
+			
+					<div class="footer-header header-2">
+						<h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+					</div>
+										<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+						<p><strong>University of North Texas</strong><br />
+						1155 Union Circle #311277<br />
+ Denton, TX 76203</p>
+					</div>
+									</div>
+			</div>
+
+			<div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+			  <div class="region-inner region-footer-fourth-inner">
+			
+					<div class="footer-header header-3">
+						<h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+					</div>
+					<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+													<p class="phone-lg"><a href="tel:+19405652000">940-565-2000</a></p>
+																									<p class="tech-email"><a href="mailto:urcm@unt.edu">Technical issues?</a></p>
+											</div>
+					
+					<div class="footer-social"><div class="inside">
+												  <div class="social-icon facebook"><a href="https://www.facebook.com/northtexas" class="facebook" title="Commencement on Facebook"><i class="fa fa-facebook"></i></a></div>
+												
+												  <div class="social-icon twitter"><a href="https://twitter.com/untnews" class="twitter" title="Commencement on Twitter"><i class="fa fa-twitter"></i></a></div>
+														
+												  <div class="social-icon youtube"><a href="http://www.youtube.com/user/universitynorthtexas" class="youtube" title="Commencement on YouTube"><i class="fa fa-youtube"></i></a></div>
+													
+												
+													
+													
+													
+													
+						<div class="social-icon mobile-icon"><a href="http://m.unt.edu/" class="togo" title="UNT ToGo"><i class="fa fa-mobile"></i></a></div>
+						<div class="social-icon directory-icon"><a href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory"><i class="fa fa-list"></i></a></div>
+					</div></div>
+			
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+	  <div id="zone-state" class="zone zone-state clearfix container-12">
+	  
+	    <div class="grid-12 region region-footer-state desktop" id="region-footer-state">
+			  <div class="region-inner region-footer-state-inner">
+		
+					<p class="updated">Site last updated on <span class="footer-updated">May 04, 2016</span></p>
+					
+					<p class="sate-links">
+					<a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+					<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+					<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+					<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+					<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+					<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+					<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+					<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu">UNT Home</a>
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="grid-12 region region-footer-state mobile" id="region-footer-state-mobile"><div class"region-inner region-footer-state-inner-mobile">
+					<p class="updated">Site last updated on <span class="footer-updated">May 04, 2016</span> | <span class="mobile-state-links"><a href="http://www.unt.edu/important-links.htm">Important Links</a></span></p>
+			</div></div>
+			
+		</div>
+	</div>
+</footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div>
+</body>
+</html>

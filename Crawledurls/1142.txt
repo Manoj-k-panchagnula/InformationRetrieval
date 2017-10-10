@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Designer   : Lena Lackey
+Title      : Astronomy Site Template
+Released   : 20090601
+Description: A two-column, fixed-width and lightweight template ideal for 1024x768 resolutions. Suitable for blogs and small websites.
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>UNT Astronomy</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="ruac.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image" href="favicon.ico">
+</head>
+<body>
+<div id="wrapper">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>&nbsp;</h1>
+</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.htm">Home</a></li>
+			<li><a href="labs.htm">Courses &amp; Labs</a></li>
+			<li><a href="http://www.skytheater.unt.edu">Sky Theater</a></li>
+			<li class="active"><a href="obsv.html">Observatories</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+</div>
+
+<!-- start page -->
+<div id="page">
+<div class="bgtop">
+	<!-- start content -->
+		<div id="content">
+		<div class="post">
+		  <h1>Rafes Urban Astronomy Center		</h1>
+		</div>
+		<div class="post">
+<h2>A Brief History</h2>
+			<div class="entry">
+			  <div class="box1"> 
+			    <table width="500" border="0">
+			      <tr>
+			        <td width="259" align="left" valign="top"><p><a href="obsv/Obs1.jpg"><img src="obsv/Obs1.jpg" alt="Old Observatory" width="254" height="188" align="middle" /></a></p>
+		            <div class="box1">(Click on image for full size.)</div></td>
+			        <td width="231" align="left" valign="top"><p>For several decades, the University of North Texas operated an observatory site, just north of Denton, at the site of a decommissioned Nike missile base. This facility served the university quite well, for its small astronomy laboratory classes, as well as the monthly open houses for the public. However, the astronomy program continued to grow and Denton's growth began to extend north, causing due concern with increased traffic and light pollution. It became evident by 2005 that the UNT Observatory needed to find a new home.</p>
+		            <p>&nbsp;</p></td>
+		          </tr>
+			      <tr>
+			        <td height="218" align="left" valign="top"><p><a href="obsv/ruacflyover.JPG"><img src="obsv/ruacflyover_small.jpg" width="254" height="193" alt="Construction" /></a></p>
+		              <div class="box1">(Click on image for full size.)</div></td>
+			        <td align="left" valign="top"><p>After a careful search, the perfect site was located west of Denton, near the Denton Municipal Airport and construction began in Spring 2006. Dedicated in 2007, the Rafes Urban Astronomy Center (RUAC) is named after Richard Rafes, former vice president of administrative affairs at UNT, and his wife, Tommye, who donated the land for the center. In addition to the generous land donation for the observatory, Richard and Tommye Rafes also donated an adjacent plot of land, which will someday become a public parking area. </p>
+		            <p>&nbsp;</p></td>
+		          </tr>
+			      <tr>
+			        <td height="212" align="left" valign="top"><p><a href="obsv/IMG_1885.JPG"><img src="obsv/IMG_1885_small.JPG" width="254" height="188" alt="Construction" /></a></p>
+		              <div class="box1">(Click on image for full size.)</div></td>
+			        <td align="left" valign="top">Today the site is home to four telescope huts, each housing four Celestron C8 telescopes, and 2 classrooms which are used for astronomy student laboratories. Two large domes were assembled on site in September 2006 for community outreach programs and house Celestron C14's, equipped with the latest in goto positioning systems, and CCD cameras.</td>
+		          </tr>
+			      <tr>
+			        <td height="210" align="left" valign="top"><p><a href="obsv/HudsonAmp.jpg"><img src="obsv/HudsonAmp.jpg" width="254" height="188" alt="Construction" /></a></p>
+                    <div class="box1">(Click on image for full size.)</div></td>
+			        <td align="left" valign="top">In the Fall of 2008, The Hudson Amphitheater made its debut at the RUAC, nestled between the 2 large domes. Constructed using recycled materials, this outdoor amphitheater was funded in part through a donation from the M.R. and Evelyn Hudson Foundation of Keller. It features sturdy, movable benches which can accommodate up to 60 people. This serves as the primary congregation spot for talks about the night sky during public outreach events, such as <a href="starparties.html">Star Parties</a>, held on the first Saturday of every month.</td>
+		          </tr>
+			      <tr>
+			        <td colspan="2" align="left" valign="top"><p>One of the first of its kind in a major metropolitan area in the United States, this site continues to flourish. With roughly 3,000 astronomy students and more than 1,000 visitors using this facility, annually, the Rafes Urban Astronomy Center has become one of the brightest spots in the Mean Green Universe.</p>
+		            <p></p></td>
+		          </tr>
+		        </table>
+			    <p><br />
+		      </p>
+			  </div>
+			</div>
+</div>
+		<div class="post">
+			<h2>Public Events</h2>
+          <table width="498" border="0">
+			  <tr>
+			     <td align="left"><a href="starparties.html"><img src="obsv/unitron_at_ruac.jpg" width="254" height="188" alt="MRO" /></a></td>
+			    <td align="left" valign="top"><p>Are you interested in stargazing and learning more about constellations and deep sky objects? The Rafes Urban Astronomy Center is open every   				first Saturday of the month, for<em> </em>public Star Parties</a>. Perfect for family outings! </p>
+			      <p>&nbsp;</p>
+			      <p>For more information <a href="starparties.html">click here!</a></p></td>
+		      </tr>
+		  </table>
+						
+						<p>&nbsp;</p>
+                        <h2>RUAC in the News</h2>
+            <p>Coming Soon!</p>
+</div>
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div id="sidebar">
+		<ul>
+			<li id="search">
+            
+			  <h2><a href="obsv.html">Observatories</a></h2>
+              <ul>
+                <li><a href="ruac.html">Rafes Urban Astronomy Center</a></li>
+                <li><a href="obsv/monroe/monroe.html">Monroe Robotic Observatory</a></li>
+              </ul>
+              <ul>
+			    <li></li>
+			    <li></li>
+		      </ul>
+              <h2><a href="starparties.html">Star Parties</a></h2>
+              <ul>
+                <li></li>
+                <li></li>
+              </ul>
+             <!--  <h2><a href="gallery.html">Picture Gallery</a></h2>
+              <ul>
+			    <li></li>
+			    <li></li>
+		      </ul>-->
+			  <h3>Links</h3>
+			    <ul>
+			      <li><a href="http://www.physics.unt.edu">Department of Physics</a></li>
+			      <li><a href="http://www.cas.unt.edu"> College of Arts &amp; Sciences</a></li>
+			      <li><a href="http://www.unt.edu">UNT Home </a></li>
+	          </ul>
+           <ul>
+			    <li></li>
+			    <li></li>
+		      </ul>
+          <h2><a href="mailto:astrolab@unt.edu">Contact Us</a></h2></ br>
+             <ul>
+			    <li></li>
+			    <li></li>
+		      </ul>
+          </li>
+		</ul>
+	</div>
+	<!-- end sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+</div>
+
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+	<p id="legal">(c) 2009 UNT Astronomy. All Rights Reserved.</p>
+</div>
+<!-- end footer -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10811100-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

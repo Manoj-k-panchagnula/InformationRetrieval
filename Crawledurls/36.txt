@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>North Texas Fan Guide | The Guide To Mean Green Athletics</title>
+<meta name="description" content="North Texas Fan Guide - The Guide To Mean Green Athletics">
+<meta name="keywords" content="North Texas Fan Guide, Mean Green Fan Guide, North Texas, University of North Texas, UNT, NT, Mean Green, Mean Green Athletics, Mean Green Sports, Apogee Stadium, Go Mean Green">
+<link rel=stylesheet type="text/css" href="2014index.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript">
+
+	if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1)) {
+		document.location = "http://www.northtexasfanguide.com/altindex.html";
+	}
+	if ( (navigator.userAgent.indexOf('Android') != -1)) {
+		document.location = "http://www.northtexasfanguide.com/altindex.html";
+	}
+	if ((navigator.userAgent.indexOf('BlackBerry') != -1)  ) {
+		document.location = "http://www.northtexasfanguide.com/altindex.html";
+	}
+
+</script>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein');}, 
+      3500);
+});
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_effectGrowShrink(targetElement, duration, from, to, toggle, referHeight, growFromCenter)
+{
+	Spry.Effect.DoGrow(targetElement, {duration: duration, from: from, to: to, toggle: toggle, referHeight: referHeight, growCenter: growFromCenter});
+}
+</script>
+
+</head>
+<body>
+
+<div id="container">
+
+<div id="bannerforcefield"><img src="cover.png" width="200" height="106" border="0"></div>
+<div id="banner"><img src="2014bannerbg.png" width="200" height="106" border="0"></div>
+
+<div id="title">
+<h1>North Texas Fan Guide</h1></div>
+
+<div class="fadein">
+  <img src="2014slideshow1.jpg" width="1001" height="400" border="0">
+  <img src="2014slideshow2.jpg" width="1001" height="400" border="0">
+  <img src="2014slideshow3.jpg" width="1001" height="400" border="0">
+  <img src="2014slideshow4.jpg" width="1001" height="400" border="0">
+  <img src="2014slideshow5.jpg" width="1001" height="400" border="0">
+  <img src="2014slideshow6.jpg" width="1001" height="400" border="0">
+  <img src="2014slideshow7.jpg" width="1001" height="400" border="0">
+  <img src="2014slideshow8.jpg" width="1001" height="400" border="0">
+</div>
+
+<div id="ticket1">
+<a href="http://www.northtexasfanguide.com/football.html"><img src="ticketbutton-football.jpg" width="87" height="243" border="0" alt="mean green football fan guide"></a>
+</div>
+<div id="ticket2">
+<a href="http://www.northtexasfanguide.com/soccer.html"><img src="ticketbutton-soccer.jpg" width="87" height="243" border="0" alt="mean green soccer fan guide"></a>
+</div>
+<div id="ticket3">
+<a href="http://www.northtexasfanguide.com/volleyball.html"><img src="ticketbutton-volleyball.jpg" width="87" height="243" border="0" alt="mean green volleyball fan guide"></a>
+</div>
+<div id="ticket4">
+<a href="http://www.northtexasfanguide.com/mbasketball.html"><img src="ticketbutton-mbasketball.jpg" width="87" height="243" border="0" alt="mean green men's basketball fan guide"></a>
+</div>
+<div id="ticket5">
+<a href="http://www.northtexasfanguide.com/wbasketball.html"><img src="ticketbutton-wbasketball.jpg" width="87" height="243" border="0" alt="mean green women's basketball fan guide"></a>
+</div>
+<div id="ticket6">
+<a href="http://www.northtexasfanguide.com/tennis.html"><img src="ticketbutton-tennis.jpg" width="87" height="243" border="0" alt="mean green tennis fan guide"></a>
+</div>
+<div id="ticket7">
+<a href="http://www.northtexasfanguide.com/softball.html"><img src="ticketbutton-softball.jpg" width="87" height="243" border="0" alt="mean green softball fan guide"></a>
+</div>
+<div id="ticket8">
+<a href="http://www.northtexasfanguide.com/swimming.html"><img src="ticketbutton-swimming.jpg" width="87" height="243" border="0" alt="mean green swimming and diving fan guide"></a>
+</div>
+<div id="ticket9">
+<a href="http://www.northtexasfanguide.com/golf.html"><img src="ticketbutton-golf.jpg" width="87" height="243" border="0" alt="mean green golf fan guide"></a>
+</div>
+<div id="ticket10">
+<a href="http://www.northtexasfanguide.com/track.html"><img src="ticketbutton-track.jpg" width="87" height="243" border="0" alt="mean green track and field and cross country fan guide"></a>
+</div>
+<div id="ticket11">
+<a href="http://www.northtexasfanguide.com/students.html"><img src="ticketbutton-students.jpg" width="87" height="243" border="0" alt="mean green students' fan guide"></a>
+</div>
+
+<div id="championships">
+<h2>65 conference championships.<br>
+4 national championships.</h2>
+<br>
+<br>
+<h4><a class="bottomlink" href="http://www.northtexasfanguide.com/students.html">students' fan guide</a><br>
+<a class="bottomlink" href="http://www.northtexasfanguide.com/football.html">football</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/soccer.html">soccer</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/volleyball.html">volleyball</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/mbasketball.html">men's basketball</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/wbasketball.html">women's basketball</a><br>
+<a class="bottomlink" href="http://www.northtexasfanguide.com/tennis.html">tennis</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/softball.html">softball</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/swimming.html">swimming and diving</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/track.html">track &amp; field and cross country</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<a class="bottomlink" href="http://www.northtexasfanguide.com/golf.html">golf</a><br>
+<a href="http://www.meangreensports.com" target="_blank"><img src="images/siteby.gif" width="306" height="48" border="0" alt="site by MeanGreenSports.com"></a></h4>
+</div>
+
+
+</div>
+
+</body></html>

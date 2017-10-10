@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Academics - University of North Texas - Acalog ACMS™</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/unt/img/favicon/favicon.ico" />
+<link href="//acalog-clients.s3.amazonaws.com/production/unt/css/gateway/user-styles.css" rel="stylesheet" type="text/css">
+<link href="css/public_custom.php" rel="stylesheet" type="text/css">
+<link href="global_styles.css" rel="stylesheet" type="text/css">
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+
+<script src="/js/prototype.js"></script>
+<script src="/js/scriptaculous.js" type="text/javascript"></script>
+<script src="/js/Tooltip.js"></script>
+<script src="/js/highlight.js" type="text/javascript"></script>
+<script src="javascripts.js" type="text/javascript" language="Javascript"></script>
+
+<script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = false; var gatewayFeatureBackToTopText = false;</script>
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/unt/css/gateway/gateway-styles.css" />
+<script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script>
+<!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]-->
+</head>
+<body>
+	<noscript><p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p></noscript>	<a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a><a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a><a name="accesskeys"></a><div class="accesskeys">
+	<p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p>
+	<dl>
+		<dt>Alt and the accesskey, for Internet Explorer on Windows</dt>
+		<dt>Shift and Alt and the accesskey, for Firefox on Windows</dt>
+		<dt>Shift and Esc and the accesskey, for Windows or Mac</dt>
+		<dt>Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.</dt>
+	</dl>
+	<p>We use the following access keys on our gateway</p>
+	<dl>
+		<dt>n Skip to Navigation</dt>
+		<dt>k Accesskeys description</dt>
+		<dt>h Help</dt>
+	</dl>
+</div><table cellspacing="0" class="toplevel">
+  <tr>
+	<td colspan="2" class="block_n2_and_content" id="acalog-header"><div id="acalog-client-javascript" class="acalog-custom">
+<script type="text/javascript">
+jQuery(document).ready( function($) { if ($('#gateway-page').length) {
+
+    }});
+</script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/jquery.equalheights.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/jquery.imagefit.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/scripts.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/menu.js"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/urchin.js" type="text/javascript"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/script-block-01.js"></script> 
+<!--[if IE 8]>
+<script type='text/javascript' src='http://www.unt.edu/js/respond.min.js'></script>
+<![endif]-->
+</div>
+<!-- End Client Javascript -->
+
+<!-- Start Client Header -->
+<div id="acalog-client-header" class="acalog-custom">
+    <div id="mobile-header" class="mobile">
+        <div class="inside-greenlight">
+            <div class="inside">
+                <p id="mobile-search" class="toggler-search" title="Toggle Search">
+                    &#160;
+                </p>
+                <div id="mobile-branding">
+                    <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90"></a>
+                </div>
+                <div id="mobile-nav-block" class="mo-hide">
+                    <div class="inside"></div>
+                </div>
+<!-- /MOBILE MENU -->
+                <div id="mobile-search-block" class="mo-hide">
+                    <div class="inside">
+                        <form method="get" action="http://www.google.com/u/unorthtexas" id="mobile-sform" name="mobile-sform">
+                            <label for="searchterms">Search the UNT web site:</label> <input id="mobile-searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()"><input name="sa" type="submit" value="Search" id="mobile-sbutton">
+                        </form>
+                    </div>
+                </div>
+<!-- /MOBILE SEARCH -->
+            </div>
+        </div>
+    </div>
+<!-- /MOBILE HEADER -->
+    <div id="header">
+        <div id="user">
+            <div id="user-wrapper">
+                <div class="grid-12">
+                    <button class="search-button">Search the UNT web site</button>
+                    <form method="get" action="http://www.google.com/u/unorthtexas" id="sform" name="sform">
+                        <label for="searchterms">Search the UNT web site:</label> <input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()"> <input name="sa" type="submit" value="Search" id="sbutton">
+                    </form>
+                    <ul id="quicklinks" class="mo-hide">
+                        <li>
+                            <a target="_blank" href="http://translate.google.com/translate?u=http%3A//www.unt.edu&amp;langpair=en|es&amp;hl=en&amp;ie=UTF8" onclick="javascript:urchinTracker('/outgoinghome/inspanish');">En Español</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://my.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/myunt');">MyUNT</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://eagleconnect.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/eagleconnect');">EagleConnect</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://webctvista.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/blackboard');">Blackboard</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.unt.edu/find-people-department.htm">People</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.unt.edu/calendars-events.htm">Calendars</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.applytexas.org/adappc/gen/c_start.WBX">Apply Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="branding">
+            <div id="branding-wrapper">
+                <div id="branding-std" class="mo-hide">
+                    <div class="grid-6" id="site-logo">
+                        <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-side-by-side.png" alt="UNT | University of North Texas"></a>
+                    </div>
+                    <div class="grid-6" id="tagline">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/greenlight-tagline.png" alt="A Green Light ot Greatness">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navigation">
+            <div id="nav-wrapper"></div>
+        </div>
+    </div>
+</div>
+<!-- End Client Header -->
+
+<!-- Start Client Footer -->
+<div id="acalog-client-footer" class="acalog-custom">
+    <div id="footer" itemscope="" itemtype="http://schema.org/Organization">
+        <div id="footer-wrapper">
+            <div class="grid-3" id="footer-logo">
+                <div class="content clearfix" itemprop="logo">
+                    <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" class="footer-logo" height="150px" width="245px"></a>
+                </div>
+            </div>
+            <div id="mobile-footer-branding">
+                <div id="mobile-footer-logo">
+                    <div class="inside">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" height="150px" width="245px">
+                    </div>
+                </div>
+                <div id="mobile-footer-tagline">
+                    <div class="inside">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/greenlight-tagline.png" alt="A Green Light ot Greatness" height="30px" width="268px">
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-visit">
+                <div class="content">
+                    <h3 id="footer-1" class="footer-toggler footer-title">
+                        Visit Us
+                    </h3>
+                    <div id="collapse-footer-1" class="footer-toggler-content footer-hide">
+                        <p class="footer-block-content">
+                            <span itemprop="name"><strong>University of North Texas</strong></span><br>
+                            <span itemprop="PostalAddress">1155 Union Circle #311277<br>
+                            Denton, Texas 76203-5017</span><br>
+                            <span class="map-link"><a target="_blank" href="https://goo.gl/maps/iIYM4">[map]</a> | <a target="_blank" href="http://www.unt.edu/visit-unt.htm">Tour Information</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-mail">
+                <div class="content">
+                    <h3 id="footer-2" class="footer-toggler footer-title">
+                        Email Us
+                    </h3>
+                    <div id="collapse-footer-2" class="footer-toggler-content footer-hide">
+                        <ul class="footer-block-content footer-emails">
+                            <li>
+                                <a href="mailto:unt.freshmen@unt.edu" itemprop="email">Freshmen admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:unt.transfer@unt.edu" itemprop="email">Transfer admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:graduateschool@unt.edu" itemprop="email">Graduate admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:international@unt.edu" itemprop="email">International admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:housinginfo@unt.edu" itemprop="email">Housing information</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-contact">
+                <div class="content">
+                    <h3 id="footer-3" class="footer-toggler footer-title">
+                        Contact Us
+                    </h3>
+                    <div id="collapse-footer-3" class="footer-block-content footer-toggler-content footer-hide">
+                        <p style="margin-bottom: 24px;" itemprop="telephone">
+                            <a href="tel:+19405652000"><span class="phone-lg">940-565-2000</span></a><br>
+                            <a target="_blank" href="http://www.unt.edu/find-people-department.htm">University Directory</a>
+                        </p>
+                        <p style="padding-top: 0 !important;">
+                            <a href="mailto:catalog@unt.edu">For questions about content in this web site, contact catalog@unt.edu.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="state-links">
+        <div id="state-wrapper">
+            <div class="grid-12 state-links">
+                <div class="content">
+                    <p class="sate-links-list mo-hide">
+                        <a target="_blank" href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a>&#160; | &#160; <a target="_blank" href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a>&#160; | &#160;<a target="_blank" href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a>&#160; | &#160;<a target="_blank" href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br>
+                        <a target="_blank" href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a>&#160; | &#160;<a target="_blank" href="http://compliance.untsystem.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a>&#160; | &#160;<a target="_blank" href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a>&#160; | &#160;<a target="_blank" href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu">UNT Home</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="social-icons" class="mo-hide">
+        <div class="social-icon">
+            <a target="_blank" href="https://www.facebook.com/northtexas" class="facebook" title="facebook" onclick="javascript:urchinTracker('/outgoinghome/facebook');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-facebook.png" alt="facebook"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="https://twitter.com/untnews" class="twitter" title="twitter" onclick="javascript:urchinTracker('/outgoinghome/twitter');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-twitter.png" alt="twitter"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://www.youtube.com/user/universitynorthtexas" class="youtube" title="YouTube" onclick="javascript:urchinTracker('/outgoinghome/youtube');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-youtube.png" alt="YouTube"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://m.unt.edu/" class="togo" title="UNT ToGo" onclick="javascript:urchinTracker('/outgoinghome/unttogo');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-mobile.png" alt="UNT ToGo"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory" onclick="javascript:urchinTracker('/outgoinghome/socialmediadirectory');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-directory.png" alt="UNT Social Media Directory"></a>
+        </div>
+    </div>
+</div>
+<!-- End Client Footer --></td>
+  </tr>
+  <tr class="acalog-block-n1">
+    <td class="block_n1_left">&#160;&#160;&#160;</td>
+	<td class="block_n1_right"><span class="n1_header">	University of North Texas</span>
+	</td>
+  </tr>
+  <tr>
+	<td class="block_border_left">&#160;&#160;&#160;</td>
+	<td class="block_n2_and_content">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content">
+			  <tr>
+				<!-- Begin N3 -->
+						<td class="block_date_outer_left" width="10">&#160;</td>
+		  <td class="block_date_inner" width="150">
+			<div align="center"><span class="date">&#160;
+May 11, 2016		</span></div>
+		  </td>
+		  <td class="block_date_outer_right" width="10">&#160;</td>
+		  <td valign="top" class="block_n2_and_content">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+
+				<td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Undergraduate Catalog</span>&#160;</span></td>
+				  <td class="block_n3_off block_n3_right" align="right">
+				<form name="select_catalog" method="post" action="/index.php" style="margin: 0px">
+					<table border="0" cellspacing="0" cellpadding="0">
+					  <tr valign="top">
+						<td>						  <select tabIndex="201" name="catalog" title="Select a Catalog">										<option value="13" selected>2015-2016 Undergraduate Catalog</option>
+																				<option value="14" >2015-2016 Graduate Catalog</option>
+																				<option value="11" >2014-2015 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="12" >2014-2015 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="9" >2013-2014 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="10" >2013-2014 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="5" >2012-2013 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="7" >2012-2013 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="3" >2011-2012 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="4" >2011-2012 Graduate Catalog [ARCHIVED CATALOG]</option>
+																  </select>
+						  </td>
+						  <td>&#160;&#160;
+				<input type="submit" title="Select a Catalog" name="sel_cat_submit" value="GO" tabIndex="202">
+				&#160;
+						  				</td>
+					  </tr>
+					</table>
+				</form>
+				  </td>
+			  </tr>
+			</table>
+		  </td>
+			<!-- End N3. -->
+			  </tr>
+				<tr>
+			<!-- N2 goes here. -->
+		  	<td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav">
+	<a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content">
+	<tr>
+		<td class="block_n2_search" >
+	  <form name="n2_search" method="get" action="/search_advanced.php" onSubmit="return validateSearchOptions()">
+		  <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="13">
+		  <input type="hidden" title="Search Database" name="search_database" value="Search">
+		  <input type="hidden" title="Search" name="search_db" value="Search">
+		  <input type="hidden" title="cpage" name="cpage" value="1">
+		  <input type="hidden" title="ecpage" name="ecpage" value="1">
+		  <input type="hidden" title="ppage" name="ppage" value="1">
+		  <input type="hidden" title="spage" name="spage" value="1">
+		  <input type="hidden" title="tpage" name="tpage" value="1">
+		  <span class="n2_search_header">Catalog Search</span>			<br>
+			<span style="display: auto;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location">
+					<option value="-1">Select an option</option>
+				<option value="3" selected>Courses</option>
+				<option value="1" selected>Programs</option>
+				<option value="28" selected>Academic Units</option>
+				<option value="30" selected>Other Content</option>
+				<option value="33" selected>Entire Catalog</option>
+			</select><br></span>
+			<span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onFocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabIndex="101">
+			<input type="submit" title="GO" value="GO" tabindex="103"><br></span>
+			<span style="display: none;"><br /><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1"  id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br /></span>
+		  <span class="n2_search"><a href="/search_advanced.php?catoid=13" class="navbar" tabIndex="104">Advanced Search</a></span><br>
+	  </form>
+		</td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td nowrap>
+		<table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links">
+		  <tr>
+			<td id="acalog-navigation">
+			  <div class="n2_links">&#160;&#160;<a href="/index.php?catoid=13" class="navbar" tabindex="105">Catalog Home</a></div>
+<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=989" class="navbar" tabIndex="106">Majors, minors, certificates</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=960" class="navbar" tabIndex="107">Course descriptions</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=973" class="navbar" tabIndex="108">The&#160;university</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=974" class="navbar" tabIndex="109">2015-2016 Academic calendar</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=975" class="navbar" tabIndex="110">Admission</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=972" class="navbar" tabIndex="111">Academics</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1002" class="navbar" tabIndex="112">University Core Curriculum</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=976" class="navbar" tabIndex="113">Enrollment</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=977" class="navbar" tabIndex="114">Financial information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=978" class="navbar" tabIndex="115">Campus resources</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=979" class="navbar" tabIndex="116">Policies</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=980" class="navbar" tabIndex="117">Contacts at UNT</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=990" class="navbar" tabIndex="118">Degree programs listed by academic unit</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=961" class="navbar" tabIndex="119">Honors College</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=962" class="navbar" tabIndex="120">College of Arts and Sciences</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=963" class="navbar" tabIndex="121">College of Business</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=964" class="navbar" tabIndex="122">College of Education</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=965" class="navbar" tabIndex="123">College of Engineering</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=966" class="navbar" tabIndex="124">College of Information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=967" class="navbar" tabIndex="125">Frank W. and Sue Mayborn School of Journalism</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1004" class="navbar" tabIndex="126">College of Merchandising, Hospitality and Tourism</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=968" class="navbar" tabIndex="127">College of Music</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=969" class="navbar" tabIndex="128">College of Public Affairs and Community Service</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=970" class="navbar" tabIndex="129">College of Visual Arts and Design</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=971" class="navbar" tabIndex="130">Toulouse Graduate School</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=982" class="navbar" tabIndex="131">Administration, faculty and librarians</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=981" class="navbar" tabIndex="132">Accrediting institutions</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=993" class="navbar" tabIndex="133">Campus maps</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=983" class="navbar" tabIndex="134">Request information or schedule a tour</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1003" class="navbar" tabIndex="135">Archived catalogs 1995-96 to 2010-11</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/mime/media/view/13/1009/2015-16_UNT_undergraduate_catalog.pdf" onclick="acalogPopup('/mime/media/view/13/1009/2015-16_UNT_undergraduate_catalog.pdf', 'media_file', 770, 530, 'yes');return false;" target="false" class="navbar" tabIndex="136">Catalog .pdf</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/mime/media/view/13/1007/2015-16_TCCNS.pdf" onclick="acalogPopup('/mime/media/view/13/1007/2015-16_TCCNS.pdf', 'media_file', 770, 530, 'yes');return false;" target="false" class="navbar" tabIndex="137">TCCNS chart</a>			</div>
+						</td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="block_n2_tools">
+		  <div class="n2_links"> &#160;&#160;<a href="/portfolio_nopop.php?catoid=13" class="navbar"><span class="acalog_term_backpack">My Catalog</span></a></div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+  </table>
+		</td>
+<!-- End of N2 -->
+				  <td valign="top" class="block_content_outer">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td class="block_content" colspan="2">
+						  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							<td>
+								<div class="help_block" style="float: right"><a href="help.php?catoid=13" onclick="javascript:acalogPopup('help.php?catoid=13', 'help', 770, 530, 'yes');return false;" class="help" tabIndex="203" accesskey="h" target="_blank"><b>HELP</b></a></div>
+								<span class="acalog_catalog_name">2015-2016 Undergraduate Catalog</span>							<h1 id="acalog-content">
+							  Academics							  </h1>
+								<div style="float: right"><a rel="nofollow" href="/content.php?catoid=13&navoid=972&print" onclick="acalogPopup('/content.php?catoid=13&navoid=972&print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a></div><div class="acalog-social-media-links" style="float: right;"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D972&t=I am looking at the Academics page at University of North Texas" border="0" target="_blank"><img src="acalogicons/facebook_16.png" border="0" alt="Facebook this Page"></a> <a href="http://twitter.com/intent/tweet?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D972&t=Check out this page at University of North Texas" border="0" target="_blank"><img src="/acalogicons/twitter_16.png" border="0" alt="Tweet this Page"></a></div><div align="left"><a href="portfolio_nopop.php?catoid=13&add=1&navoid=972#nav_links" onClick="acalogPopup('portfolio.php?catoid=13&add=1&navoid=972#nav_links', 'portfolio', 770, 530, 'yes');return false;" target="_blank" class="portfolio_link acalog-highlight-ignore" tabIndex="199">Add to <span class="acalog_term_backpack">My Catalog</span></a></div>							  </td>
+							</tr>
+							<tr>
+							  <td>
+								<hr>
+				  							  </td>
+							</tr>
+							<tr>
+							  <td>
+                                                              <table border="0" cellpadding="0" cellspacing="0" class="acalog-export-remove" style="width:100%">
+	<tbody>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:50%">
+			<ul>
+				<li><a href="#Definition_of_Terms">Definition of terms</a></li>
+				<li><a href="#Degrees_Offered">Degrees offered</a></li>
+				<li><a href="#Colleges_and_Schools">Colleges and schools</a></li>
+				<li><a href="#General_Degree_Requirements">General degree requirements</a></li>
+				<li><a href="#Requirements_of_This_Catalog">Requirements of this catalog</a></li>
+				<li><a href="#Application_for_Graduation">Application for graduation</a></li>
+				<li><a href="#Requirements_for_a_Second_Bachelor_s_Degree">Requirements for a second bachelor's degree</a></li>
+			</ul>
+			</td>
+			<td style="text-align:left; vertical-align:top; width:50%">
+			<ul>
+				<li><a href="#Degree_Plan_Audit">Degree plan/audit</a></li>
+				<li><a href="#Grading_System">Grading system</a></li>
+				<li><a href="#Grade_Point_Average">Grade point average</a></li>
+				<li><a href="#Academic_Standards">Academic standards</a></li>
+				<li><a href="#Records_Policies">Records policies</a></li>
+				<li><a href="#UNT_Internships_and_Cooperative_Education">UNT internships and cooperative education</a></li>
+				<li><a href="#Center_for_Achievement_and_Lifelong_Learning">Center for Achievement and Lifelong Learning</a></li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr />
+<h2><a name="Definition_of_Terms"></a>Definition of terms</h2>
+
+<h3><a name="academic_status"></a>Academic status</h3>
+
+<p>This term is used as an indication of a student's academic standing with the university.</p>
+
+<h4>Minimum CGPA requirement</h4>
+
+<p>This term refers to the minimum cumulative grade point average a student must achieve to remain in good academic standing. At the end of the first term of enrollment at UNT, the minimum CGPA requirement is 1.8. In each subsequent term of enrollment, the minimum CGPA requirement is 2.0.</p>
+
+<h4>Good academic standing</h4>
+
+<p>This term refers to the academic status students maintain when achieving the minimum CGPA requirement after each term of enrollment at UNT.</p>
+
+<h4>Academic alert</h4>
+
+<p>A freshman is placed on academic alert if the CGPA achieved for a term falls below the minimum CGPA requirement. To be removed from academic alert, the student must raise the CGPA to a minimum of 2.0 during the next period of enrollment. A student on academic alert who does not raise the CGPA to at least a minimum of 2.0 at the end of the next term/semester of enrollment is placed on academic probation.</p>
+
+<h4>Academic probation</h4>
+
+<p>A student who is not classified as a freshman, or a student who is a freshman and has been on academic alert, is placed on academic probation at the end of any enrollment period in which the CGPA drops below the minimum CGPA requirement.</p>
+
+<h4>Academic suspension</h4>
+
+<p>A student who, during a probationary fall or spring term/semester, fails to raise the CGPA to a 2.0, or who fails to make at least a 2.25 for the term/semester, is automatically suspended from UNT for one or more long terms/semesters.</p>
+
+<h3><a name="classification_of_students"></a>Classification of students</h3>
+
+<p>Students are classified on the basis of term/semester hours passed. Semester hours passed are computed by adding transfer hours accepted, pass/no pass hours passed, graded hours passed and non-traditional credit accepted at UNT.</p>
+
+<p>Undergraduate classifications are: freshmen, those who have completed less than 30 semester hours of college credit; sophomores, 30 to 59 hours completed; juniors, 60 to 89 hours completed; seniors, 90 or more hours completed but who have not received a bachelor's degree. Graduate students are those who have graduated with a baccalaureate degree from an accredited college or university.</p>
+
+<h3>Continuing students</h3>
+
+<p>Continuing students are those who have been officially enrolled at UNT at least once during the 12 consecutive months <strong>prior</strong> to the term/semester of planned enrollment and/or have not received a degree during the same period. Students who receive a degree and reapply to the university are considered new graduate students.</p>
+
+<h3>Core complete</h3>
+
+<p>A student who transfers to UNT as core complete has successfully completed the common core curriculum at another state-assisted institution of higher education in Texas and will have satisfied the core curriculum at UNT.</p>
+
+<h3><a name="inactive_continuing_students"></a>Inactive continuing students (undergraduate students only)</h3>
+
+<p>Inactive students are undergraduates who have not been officially enrolled at UNT in the last 12 consecutive months and who have not received a degree during the same period. Inactive students are required to complete the following requirements to re-enroll:</p>
+
+<ol start="1">
+	<li>complete the ApplyTexas Application for returning students;</li>
+	<li>submit transcripts from all colleges attended, if any, since leaving UNT; and</li>
+	<li>if previous UNT enrollment was as a transient, dual credit, summer visiting student or special student, all academic credentials from all institutions attended are required prior to re-enrollment; international students should contact the Office of International Admissions.</li>
+</ol>
+
+<p>Readmission applicants who have attended any other institution of higher education since last enrollment at UNT must submit official transcripts prior to readmission. If transcripts are not received by this time, then an academic hold may be placed on the student's account preventing registration and receipt of an official UNT transcript.</p>
+
+<p>The returning student application priority deadline for each semester is Monday prior to each registration period for a given term, and applications received by this date will receive priority during registration.</p>
+
+<h3>Course numbering system</h3>
+
+<p style="margin-left:40px">Freshman courses, 1000-1999.<br />
+Sophomore courses, 2000-2999.<br />
+Junior courses, 3000-3999.<br />
+Senior courses, 4000-4999.<br />
+Graduate courses, 5000 and above.</p>
+
+<p>The graduate student enrolled in a 5000-level course that meets with a senior-level undergraduate course will be expected to complete additional requirements beyond those expected of undergraduates in the same course.</p>
+
+<p>Courses 2900, 2910, 4900 and 4910, <strong>Special Problems</strong>, are used upon approval of the department chair or dean for individual instruction in any department to cover course content in special circumstances. Courses 5900, 5910, 5920 and 5930 are used in any department that offers graduate work; courses 6900 and 6910 are used in any department that offers doctoral work.</p>
+
+<p><strong>Experimental Courses</strong> (1980, 2980 and 4980) are new courses offered on a trial basis for 1–4 hours credit each. Registration is permitted only upon approval of the department chair.</p>
+
+<p><strong>Honors College Capstone Thesis</strong>, 4951, allows a student in the Honors College to complete an honors thesis as a course within the student's major. The Honors College Capstone Thesis is a major research project prepared by the student with the mentorship of a faculty member in the student's major department. An oral defense is required for successful completion of the thesis.</p>
+
+<p><strong>Advanced Courses </strong>(or upper-level or upper-division courses), numbered 3000 to 4999, are open to students who have 12 semester hours of credit in a given subject or who have the indicated prerequisites, and to those without the prerequisites who have the consent of the department. In some instances, college/school/departmental requirements may vary. Students should consult individual areas prior to enrolling in advanced courses.</p>
+
+<h3>Cumulative grade point average</h3>
+
+<p>The cumulative grade point average (CGPA) upon which academic standards are based is calculated by dividing the total number of grade points earned in residence at UNT by the total number of semester credit hours (SCH) attempted in residence at UNT.</p>
+
+<p>Not included in the definition of student classification for academic standards are hours granted by this university for extension courses, service experience, advanced placement, credit by examination, CLEP or transfer hours attempted but not passed.</p>
+
+<p>Excluded from the calculation of the CGPA are all courses in which the student received grades of I, NP, NPR, P, PR, W or Z.</p>
+
+<p>The cumulative grade point average as defined here is used only for determining a student's academic status and is not necessarily related to the grade point average that governs eligibility for graduation or graduating with honors.</p>
+
+<h3>Degree plan</h3>
+
+<p>The degree plan is an official document prepared in the office of the student's academic dean. It lists all courses completed, courses not completed, proficiency examinations and all other requirements for a particular degree sought. A student should have a degree plan prepared no later than the beginning of the junior year. See also the entries for "<a href="#Major">Major</a>," "<a href="#Double_Major">Double Major</a>" and "<a href="#Minor">Minor</a>," all in this section.<span>&#160;</span></p>
+
+<h3>Dual/joint degree programs</h3>
+
+<p>Dual degree programs are separate degree programs that have been approved to work together to allow students to pursue two degrees simultaneously. This may be done by using courses for the major from each degree toward the minor on the other degree or by other approved means.</p>
+
+<p>Joint degree programs are separate degree programs at different institutions that have been approved to work together to offer one degree. This is made possible by sharing faculty and academic resources.</p>
+
+<h3>Former students (graduated students only)</h3>
+
+<p>Former students are those graduated students who have not been enrolled at least once during the 12 consecutive months <strong>prior</strong> to planned enrollment and/or those who have received a degree.</p>
+
+<h3>Grade point average</h3>
+
+<p>The overall grade point average is used to determine student class loads, eligibility for admission to the university and certain programs, and eligibility for graduation. All GPA calculations are subject to post-audit and correction by the Registrar's Office.</p>
+
+<p>The GPA is calculated by dividing the total number of grade points by the total number of semester hours attempted. The number of semester hours attempted includes all courses with grades of A, B, C, D, F and WF unless replaced by a later grade. Courses with grades of I, NP, NPR, P, PR, W or Z are not counted as courses attempted.</p>
+
+<h3>Graduate academic certificates<a name="Graduate_Academic_Certificates"></a></h3>
+
+<p>The University of North Texas offers certificate programs for graduate credit at the post-baccalaureate and post-master's levels in areas of study designed to enhance existing bachelor's or master's degrees. Graduate academic certificates normally require 9–18 hours of graduate-level course work (5000- and 6000-level courses). See the <em>Graduate Catalog</em> for additional information, including admission requirements. Disclosures: <a href="http://gradschool.unt.edu/certificatedisclosure" target="_blank">gradschool.unt.edu/certificatedisclosure</a>.</p>
+
+<h3>Major<a name="Major"></a></h3>
+
+<p>At least 24 semester hours in a given subject are required for a major, including 12 hours of advanced work. The number of hours required depends on the department selected.</p>
+
+<p>The term "professional field" is used in the College of Business to designate the major for the Bachelor of Business Administration (BBA) and the Master of Business Administration (MBA) degrees.</p>
+
+<h3>Double major<a name="Double_Major"></a></h3>
+
+<p>A student seeking a double major must consult with an advisor from the second department. If approved, the requirements for the second major are incorporated into the student's degree audit.</p>
+
+<h3>Minor<a name="Minor"></a></h3>
+
+<p>A minor requires at least 18 semester hours in a given subject, including 6 hours of advanced work. Specific course sequences for a minor are determined by the department offering the minor. Not all degrees require a minor.</p>
+
+<h3>Prerequisite</h3>
+
+<p>A prerequisite is a course or other preparation that must be completed before enrollment in another course. All prerequisites are included in catalog course descriptions.</p>
+
+<h3>Schedule change (add/drop, withdrawal)<a name="Schedule_Change__Add_Drop__Withdrawal_"></a></h3>
+
+<p>Students may make adjustments to their schedule by adding and/or dropping classes or by withdrawing from the university. Specific procedures must be followed in making these changes. Dropping all courses during a term/semester constitutes withdrawing from the university for that term/semester. Students must notify the Dean of Students Office of their intent to withdraw from the university. Procedures and deadlines for dropping or withdrawing are available in the Dean of Students Office or online at <a href="http://deanofstudents.unt.edu/withdrawals" target="_blank">deanofstudents.unt.edu/withdrawals</a>.</p>
+
+<h3>Semester hour</h3>
+
+<p>A semester hour is the unit of credit at UNT; the credit allows for 1 lecture hour a week for 15 weeks or the equivalent. In course listings, figures in parentheses following the course credit hours indicate the number of clock hours per week devoted to lecture and laboratory. When it appears, the third and final number in these parentheses indicates the number of recitation hours per week.</p>
+
+<h3>Summer visiting student</h3>
+
+<p>A summer visiting student is an undergraduate student (U.S. citizen or permanent resident alien) who has been enrolled at another college or university and who enrolls at UNT for any summer session/term with the intent of returning to the home institution upon completion of summer studies. Summer visiting students must reapply each summer that enrollment is sought.</p>
+
+<h3>Term/semester/session</h3>
+
+<p>The academic year includes three terms/semesters: fall, spring and summer. During the summer term, a number of sessions are scheduled. Presently the options include 3W1 (three week one), 5W1 and 5W2 (five week one and two), 8W1 (eight week one), 10W (ten week) and SUM (full summer term).</p>
+
+<h3>Track</h3>
+
+<p>A track is a group of courses designed for students seeking specialized training toward specific career objectives or a group of courses designed to meet a specific need within a degree program.</p>
+
+<p>At the UNT Health Science Center, concentrations under the major are referred to as tracks.</p>
+
+<h3>Transient student</h3>
+
+<p>A transient student is an undergraduate student who has been enrolled at another college or university and who plans to attend UNT for one long term/semester only and then to return to the college or university where previously enrolled.</p>
+
+<h3>Undergraduate academic certificates</h3>
+
+<p>The University of North Texas offers upper-division undergraduate academic certificates to meet workforce needs or to provide students with life/career skills and knowledge and to allow for specialization in academic disciplines. Undergraduate academic certificates require 12–20 hours, the majority of which must be advanced. See "<a href="#Undergraduate_Academic_Certificate_Programs">Undergraduate Academic Certificate Programs</a>" for additional details.&#160;</p>
+
+<h2><a name="Degrees_Offered"></a>Degrees offered</h2>
+
+<p>Bachelor of Applied Arts and Sciences <strong>(BAAS)</strong><br />
+Bachelor of Arts <strong>(BA)</strong><br />
+Bachelor of Business Administration <strong>(BBA)</strong><br />
+Bachelor of Fine Arts <strong>(BFA)</strong><br />
+Bachelor of Music <strong>(BM)</strong><br />
+Bachelor of Science <strong>(BS)</strong><br />
+Bachelor of Science in Biochemistry <strong>(BSBC)</strong><br />
+Bachelor of Science in Biology <strong>(BSBIO)</strong><br />
+Bachelor of Science in Chemistry <strong>(BSCHM)</strong><br />
+Bachelor of Science in Economics <strong>(BSECO)</strong><br />
+Bachelor of Science in Engineering Technology <strong>(BSET)</strong><br />
+Bachelor of Science in Mathematics <strong>(BSMTH)</strong><br />
+Bachelor of Science in Medical Laboratory Sciences <strong>(BSMLS)</strong><br />
+Bachelor of Science in Physics <strong>(BSPHY)</strong><br />
+Bachelor of Social Work <strong>(BSW)</strong><br />
+Master of Arts <strong>(MA)</strong><br />
+Master of Business Administration <strong>(MBA)</strong><br />
+Master of Education <strong>(MEd)</strong><br />
+Master of Fine Arts <strong>(MFA)</strong><br />
+Master of Journalism <strong>(MJ)</strong><br />
+Master of Music <strong>(MM)</strong><br />
+Master of Music Education <strong>(MMEd)</strong><br />
+Master of Public Administration <strong>(MPA)</strong><br />
+Master of Science <strong>(MS)</strong><br />
+Doctor of Audiology <strong>(AuD)</strong><br />
+Doctor of Education <strong>(EdD)</strong><br />
+Doctor of Musical Arts <strong>(DMA)</strong><br />
+Doctor of Philosophy <strong>(PhD)</strong></p>
+
+<h2><a name="Colleges_and_Schools"></a>Colleges and schools</h2>
+
+<p>The University of North Texas is organized into the following colleges and schools.</p>
+
+<p><a href="preview_entity.php?catoid=13&ent_oid=886">Honors College</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=888">The College of Arts and Sciences</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=912">The College of Business</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=918">The College of Education</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=923">The College of Engineering</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=929">The College of Information</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=932">The Frank W. and Sue Mayborn School of Journalism</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=949" target="_blank">The College of Merchandising, Hospitality and Tourism</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=934">The College of Music</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=935">The College of Public Affairs and Community Service</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=943">The College of Visual Arts and Design</a><span style="display: none !important">&#160;</span><br />
+<a href="preview_entity.php?catoid=13&ent_oid=947" onclick="acalogPopup('preview_entity.php?catoid=13&ent_oid=947'+((location.search.match(/&print/i)) ? '&print' : '')+'', '20', 770, 530, 'yes');return false;" target="_blank">The Toulouse Graduate School</a><span style="display: none !important">&#160;</span>&#160;</p>
+
+<p>These schools and colleges offer the degrees, majors, concentrations under majors, minors, certifications, and preprofessional programs listed under <a href="preview_content.php?catoid=13&nav_oid=989" onclick="acalogPopup('content.php?catoid=13&navoid=989'+((location.search.match(/&print/i)) ? '&print' : '')+'', '14', 770, 530, 'yes');return false;" target="_blank">Programs</a><span style="display: none !important">&#160;</span>.<span class="highlight_1">&#160; </span>See individual areas in this catalog for information about undergraduate offerings. Information about advanced offerings may be found in the<strong> </strong><em>Graduate Catalog</em>.</p>
+
+<h2><a name="General_Degree_Requirements"></a>General degree requirements</h2>
+
+<h3>Writing proficiency</h3>
+
+<p>UNT is committed to the discovery, acquisition, development, preservation and dissemination of knowledge and the enhancement of the intellectual, cultural and proficiency levels of all who enter its programs. Fulfilling this commitment will contribute to both a better society and a more rewarding pattern of individual life. As students endeavor to complete their academic studies, they are expected to exhibit good written English skills in all university course work as a consideration in grading.</p>
+
+<h3>Graduation under a particular catalog<a name="Graduation_Under_a_Particular_Catalog"></a></h3>
+
+<p>A student may meet the graduation requirements noted in the catalog in effect at the time of admission to UNT or the requirements in any later catalog published before the student's graduation.</p>
+
+<p>Any student transferring directly from a Texas public community college to UNT shall have the same choice of catalog designating degree requirements as the student would have had if the dates of attendance at the university had been the same as the dates of attendance at the community college. Transfer students from senior institutions or out-of-state community colleges will use the catalog in effect at their date of enrollment at UNT.</p>
+
+<p>All requirements of the chosen catalog must be met within eight years of that catalog's publication. This catalog will expire at the close of the 2023 summer semester/term.</p>
+
+<p>Changes in either major or non-major requirements made necessary by altered or discontinued courses or by requirements imposed by external accrediting or certification agencies become effective for degree audit purposes at the beginning of the academic year immediately following the academic year in which the changes are published in the university catalog. The changes may include additions, deletions and other changes in prerequisite requirements for existing courses. Whenever possible, new requirements are implemented with a beginning class or upon the expiration of the appropriate time limit.</p>
+
+<h3>Texas Success Initiative<a name="Texas_Success_Initiative"></a></h3>
+
+<p>The Texas Success Initiative (TSI) is a state statute requiring all undergraduate students who enter a Texas public institution of higher education to either demonstrate readiness for college-level reading, writing and mathematics before enrolling in college-level academic course work by achieving the statutory threshold(s) on the state-approved readiness assessments <strong>or</strong> meet one of the conditions for exemption from the testing requirement. Students must satisfy all TSI requirements before receiving a baccalaureate degree.</p>
+
+<p><strong>Exemptions:</strong></p>
+
+<p>Students are exempt from readiness testing if any of the following exemption categories applies.</p>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+	<tbody>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:26%">
+			<ol start="1">
+				<li>Reading:</li>
+			</ol>
+			</td>
+			<td style="text-align:left; vertical-align:top; width:70%">ACT: Composite 23 and English 19<br />
+			SAT: Composite 1070* and Critical Reading/Verbal 500<br />
+			STAAR: Level 2 in English III<br />
+			TAKS: ELA 2200 with a writing score of 3</td>
+		</tr>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:26%">
+			<ol start="2">
+				<li>Math:</li>
+			</ol>
+			</td>
+			<td style="text-align:left; vertical-align:top; width:70%">ACT: Composite 23 and Math 19<br />
+			SAT: Composite 1070* and Math 500<br />
+			STAAR: Level 2 in Algebra II<br />
+			TAKS: Math 2200</td>
+		</tr>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:26%">
+			<ol start="3">
+				<li>Writing:</li>
+			</ol>
+			</td>
+			<td style="text-align:left; vertical-align:top; width:70%">
+			<p>ACT: Composite 23 and English 19<br />
+			SAT: Composite 1070* and Critical Reading/Verbal 500<br />
+			STAAR: Level 2 in English III<br />
+			TAKS: ELA 2200 with a writing score of 3</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:26%">&#160;</td>
+			<td style="text-align:left; vertical-align:top; width:70%"><em>*SAT Composite = Critical Reading plus Math scores.</em><br />
+			ACT and SAT scores are valid for five years from the date taken.<br />
+			TAKS scores are valid for three years from the date taken.</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align:left; vertical-align:top; width:26%">
+			<ol start="4">
+				<li>A student who has graduated with an associate or baccalaureate degree from an institution of higher education.</li>
+				<li>A student who transfers from a private or out-of-state institution of higher education and who has satisfactorily completed college-level course work as determined by UNT.</li>
+				<li>A student who has previously attended another Texas public institution of higher education and has been determined to have met readiness standards by that institution.</li>
+				<li>A student who is serving on active duty as a member of the armed forces of the United States, the Texas National Guard, or as a member of a reserve component of the armed forces of the United States and has been serving for at least three years preceding enrollment.</li>
+				<li>A student who on or after August 1, 1990, was honorably discharged, retired or released from active duty as a member of the armed forces of the United States, the Texas National Guard, or as a member of a reserve component of the armed forces of the United States.</li>
+			</ol>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Exemption documentation should be submitted to the Learning Center, Sage Hall, Room 315, or mailed to 1155 Union Circle #305217, Denton, TX 76203-5017.</p>
+
+<h4>Readiness assessment and course placement</h4>
+
+<p>UNT accepts scores on the TSI test for assessment purposes. This state-approved test measures college-level readiness in reading, mathematics and writing. Minimum score thresholds required to demonstrate college readiness in each subject area as follows:</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:100%">
+	<tbody>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:15%">&#160;</td>
+			<td style="text-align:left; vertical-align:top; width:10%">Reading</td>
+			<td style="text-align:left; vertical-align:top; width:10%">Math</td>
+			<td style="text-align:left; vertical-align:top; width:50%">Writing</td>
+		</tr>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:15%">TSI Assessment</td>
+			<td style="text-align:left; vertical-align:top; width:10%">351</td>
+			<td style="text-align:left; vertical-align:top; width:10%">350</td>
+			<td style="text-align:left; vertical-align:top; width:50%">363 objective with 4 essay or 5 essay only</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Students participate in a developmental program for each semester of enrollment for those subjects where readiness has not been demonstrated. Students may demonstrate readiness by either passing the highest level of indicated developmental course work (C or better) or by scoring above statutory thresholds on the TSI assessment.</p>
+
+<p>Students are individually advised into the appropriate developmental program according to their developmental need. UNT offers course-based and non–course-based developmental programs. Developmental courses offered at UNT include:</p>
+
+<p><strong>Reading</strong></p>
+
+<ul>
+	<li><div style="display: inline"><a href="preview_course_nopop.php?catoid=13&coid=44372" onclick="showCatalogData('13', '3', '44372', 'TECM%201200%20-%20Developmental%20Writing', this, ''); return false;" target="_blank">TECM 1200 - Developmental Writing</a></div><span style="display: none !important">&#160;</span>&#160;</li>
+</ul>
+
+<p><strong>Writing</strong></p>
+
+<ul>
+	<li><div style="display: inline"><a href="preview_course_nopop.php?catoid=13&coid=44372" onclick="showCatalogData('13', '3', '44372', 'TECM%201200%20-%20Developmental%20Writing', this, ''); return false;" target="_blank">TECM 1200 - Developmental Writing</a></div><span style="display: none !important">&#160;</span>&#160;(3 credit hours)</li>
+</ul>
+
+<p><strong>Math</strong></p>
+
+<ul>
+	<li><a href="preview_course_nopop.php?catoid=13&coid=43164" onclick="acalogPopup('preview_course.php?catoid=13&coid=43164&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=43164&display_options[location]=tooltip&show" id="tt9381" target="_blank"> MATH 1580 - Survey of Mathematics with Applications</a><span style="display: none !important">&#160;</span>&#160;+ UGMT 1300</li>
+	<li>NCTM 331 - Pre-Algebra (3 credit hours)*</li>
+	<li>NCTM 351 - Beginning Algebra (3 credit hours)*</li>
+</ul>
+
+<p>*NCTM courses are held at UNT and taught by North Central Texas College staff. Advisors use the following guidelines for developmental math course placement:</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:100%">
+	<tbody>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:15%">&#160;</td>
+			<td style="text-align:left; vertical-align:top; width:10%">MATH 1580 + UGMT 1300<br />
+			&#160;</td>
+			<td style="text-align:left; vertical-align:top; width:10%">NCTM 351</td>
+			<td style="text-align:left; vertical-align:top; width:50%">NCTM 331</td>
+		</tr>
+		<tr>
+			<td style="text-align:left; vertical-align:top; width:15%">TSI</td>
+			<td style="text-align:left; vertical-align:top; width:10%">345–349</td>
+			<td style="text-align:left; vertical-align:top; width:10%">336–344</td>
+			<td style="text-align:left; vertical-align:top; width:50%">310–335</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>All students below reading and/or writing thresholds are placed in&#160;<a href="preview_course_nopop.php?catoid=13&coid=44372" onclick="acalogPopup('preview_course.php?catoid=13&coid=44372&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=44372&display_options[location]=tooltip&show" id="tt683" target="_blank">TECM 1200</a><span style="display: none !important">&#160;</span>. In addition to courses offered at UNT, students may meet their developmental program course needs through concurrent enrollment in equivalent course work at another institution of higher education. International students may meet their initial remedial needs through Intensive English Language Institute course work before enrolling at UNT full-time.</p>
+
+<p>Non–course-based programs include workshops, tutorials and self-paced instruction. Advisors monitor student progress in their non–course-based programs through the semester</p>
+
+<h4>Demonstrating college readiness</h4>
+
+<p>Students may demonstrate college readiness or otherwise satisfy TSI requirements by any of the following:</p>
+
+<ol start="1">
+	<li>Successfully completing the highest level of the appropriate developmental course with a C or better.</li>
+	<li>Achieving a score above the statutory threshold on an approved readiness assessment.</li>
+	<li>Placing into college-level reading, math or writing according to UNT academic placement guidelines.</li>
+</ol>
+
+<h2><a name="Requirements_of_This_Catalog"></a>Requirements of this catalog; University Core Curriculum</h2>
+
+<ol start="1">
+	<li>A minimum of 120 semester hours.</li>
+	<li>Completion of all requirements in the university core curriculum (42-hour minimum) (<a href="preview_program.php?catoid=13&poid=3559" target="_blank">See "University Core Curriculum"</a><span style="display: none !important">&#160;</span>).</li>
+	<li>A major of at least 24 semester hours. At least 12 hours of advanced work (3000/4000 level) in the major must be earned at UNT (except for the BAAS degree). See "<a href="#Major">Major</a>" in the Academics section of this catalog.</li>
+	<li>A minor, if required for a particular undergraduate degree, of a minimum of 18 semester hours, including at least 6 hours of advanced work (3000/4000 level). For details, see the individual requirements under specific degree programs in this catalog.</li>
+	<li>A minimum of 36 semester hours of advanced work, 24 of which must be completed at UNT. A lower level course that, when transferred, is determined to be equivalent to a UNT upper-level course does not satisfy the requirement of advanced hours.</li>
+	<li>An official degree plan prepared by the academic dean. It is recommended that the degree plan be made no later than the beginning of the junior year.</li>
+	<li>A minimum grade point average of 2.000 (C) on all work attempted, including all transfer, correspondence, extension and residence work. It should be noted that the GPA that appears on grade reports and is used to determine the student's academic status, does not include correspondence, extension and transfer work. Thus, a 2.000 GPA on the grade report does not necessarily imply eligibility for graduation.</li>
+	<li>A minimum GPA of 2.000 (C) on all work at UNT. Transferred work may not be used to raise the GPA of work done at UNT.</li>
+	<li>At least twenty-five percent of the total number of hours for the degree (e.g., 30 hours for a 120-hour degree) must be earned in residence.</li>
+	<li>A proficiency in English composition. Students must show competence in written expression by receiving credit for or earning a grade of C or better in two general education English courses that have a strong writing component (Group 1:&#160;<a href="preview_course_nopop.php?catoid=13&coid=42537" onclick="acalogPopup('preview_course.php?catoid=13&coid=42537&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=42537&display_options[location]=tooltip&show" id="tt2741" target="_blank">ENGL 1310</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=42538" onclick="acalogPopup('preview_course.php?catoid=13&coid=42538&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=42538&display_options[location]=tooltip&show" id="tt2333" target="_blank">ENGL 1311</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=42540" onclick="acalogPopup('preview_course.php?catoid=13&coid=42540&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=42540&display_options[location]=tooltip&show" id="tt1478" target="_blank">ENGL 1315</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=44373" onclick="acalogPopup('preview_course.php?catoid=13&coid=44373&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=44373&display_options[location]=tooltip&show" id="tt7343" target="_blank">TECM 1312</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=44374" onclick="acalogPopup('preview_course.php?catoid=13&coid=44374&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=44374&display_options[location]=tooltip&show" id="tt2037" target="_blank">TECM 1322</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=44376" onclick="acalogPopup('preview_course.php?catoid=13&coid=44376&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=44376&display_options[location]=tooltip&show" id="tt9179" target="_blank">TECM 1700</a><span style="display: none !important">&#160;</span>; Group 2:&#160;<a href="preview_course_nopop.php?catoid=13&coid=42541" onclick="acalogPopup('preview_course.php?catoid=13&coid=42541&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=42541&display_options[location]=tooltip&show" id="tt7109" target="_blank">ENGL 1320</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=42542" onclick="acalogPopup('preview_course.php?catoid=13&coid=42542&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=42542&display_options[location]=tooltip&show" id="tt5772" target="_blank">ENGL 1321</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=42544" onclick="acalogPopup('preview_course.php?catoid=13&coid=42544&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=42544&display_options[location]=tooltip&show" id="tt1951" target="_blank">ENGL 1325</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=44374" onclick="acalogPopup('preview_course.php?catoid=13&coid=44374&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=44374&display_options[location]=tooltip&show" id="tt1875" target="_blank">TECM 1322</a><span style="display: none !important">&#160;</span>, <a href="preview_course_nopop.php?catoid=13&coid=44377" onclick="acalogPopup('preview_course.php?catoid=13&coid=44377&print', '3', 770, 530, 'yes');return false;" rel="remote /ajax/preview_course.php?catoid=13&coid=44377&display_options[location]=tooltip&show" id="tt547" target="_blank">TECM 2700</a><span style="display: none !important">&#160;</span>). Students who have earned a D in one or more of these two required courses must repeat the course and raise the grade to a C or better.<br />
+	Students who are transferring to UNT with more than 90 hours and who have earned a D in any of the basic English writing courses must retake the course during their first term/semester in residence.</li>
+</ol>
+
+<h3><strong><a href="preview_program.php?catoid=13&poid=3559" target="_blank">University Core Curriculum</a><span style="display: none !important">&#160;</span>&#160;</strong></h3>
+
+<h3>Transfer of the core curriculum</h3>
+
+<p>A student who successfully completes the common core curriculum at a state-assisted institution of higher education in Texas may transfer as "core complete" to UNT. The student will receive academic credit for each of the courses transferred. The student will need to work with an academic advisor in the appropriate college or school academic advising office to determine if additional requirements will be necessary to satisfy the 42-hour UNT core. See also the UNT transfer articulation web page at&#160; <a href="http://registrar.unt.edu/transfer-guides" target="_blank">registrar.unt.edu/transfer-guides</a>, where you can find information on the online transfer course equivalence tool Transferology.</p>
+
+<h3>College or school requirements</h3>
+
+<p>Students must satisfactorily complete all degree requirements specified by the school or college in which the degree is offered. In many instances, the college/school/department academic program requirements may exceed the university core requirements.</p>
+
+<p>Individual academic programs may require courses contained in part of the University Core Curriculum to satisfy specific degree requirements. Students may be required to take additional courses if they fail to select these courses.</p>
+
+<h3>Undergraduate academic certificate programs<a name="Undergraduate_Academic_Certificate_Programs"></a></h3>
+
+<p>The University of North Texas offers upper-division undergraduate academic certificate programs to meet workforce needs or to provide students with life/career skills and knowledge and to allow for specialization in academic disciplines.</p>
+
+<h4 style="margin-left:40px">Admission</h4>
+
+<p style="margin-left:40px">All students pursuing an undergraduate academic certificate must meet regular UNT admission requirements. Candidates for admission to the undergraduate academic certificate program must meet the minimum academic standards for the academic discipline. Post-baccalaureate students are eligible to pursue an undergraduate academic certificate.</p>
+
+<h4 style="margin-left:40px">Requirements</h4>
+
+<p style="margin-left:40px">Undergraduate academic certificates require 12–20 semester credit hours, the majority of which must be advanced.</p>
+
+<p style="margin-left:40px">Students are responsible for all prerequisites specified in course requirements.</p>
+
+<p style="margin-left:40px">Students are expected to complete all hours for the undergraduate academic certificate requirements at UNT.</p>
+
+<p style="margin-left:40px">Upon completion of the requirement for an undergraduate academic certificate program, a student should apply to the academic dean of his or her college or school. Application forms are sent to the Registrar's Office at the end of each term.</p>
+
+<p style="margin-left:40px">The Registrar's Office posts undergraduate academic certificates to students' transcripts at the end of the semester earned and prints the certificates, which are mailed by the school or college awarding them.</p>
+
+<p style="margin-left:40px"><strong>Note:</strong> Hours used for attaining an undergraduate academic certificate could potentially exclude a student from consideration for the $1,000 Tuition Rebate since all hours earned for the undergraduate academic certificate are counted in the total hours earned toward a degree.</p>
+
+<h3>Degree requirement modifications based on a disability</h3>
+
+<p>In accordance with university policies, and state and federal regulations [especially Section 504 of the Rehabilitation Act and the Americans with Disabilities Act as Amended], the University of North Texas endeavors to make reasonable academic adjustments for qualified students with disabilities who require accommodation in order to fulfill the requirements for a degree. Modification of degree requirements may be considered in instances where:</p>
+
+<ul>
+	<li>a student has provided documentation of a disability to the Office of Disability Accommodation, and</li>
+	<li>the student has demonstrated a good-faith effort to pass these courses.</li>
+</ul>
+
+<p><em>All requests for modification must be finalized in the office of the dean of the college or school in which the student is enrolled and must be filed early in the student's degree program. </em>The dean has sole authority to make decisions for modifying college degree requirements, but no modification that compromises the integrity of the degree will be granted. Modifications of certification requirements cannot be considered by UNT and should be directed to the applicable agency. A student must come to the ODA to document a disability and then, if appropriate, the student will receive a letter supporting a substitution to take to the dean of his or her college.</p>
+
+<p>A student who encounters access problems in a campus instructional facility or who wishes to request accommodation in a course because of a disability (i.e., sign language interpreters, material in alternate format, modified testing) should follow the procedures listed below:</p>
+
+<ol start="1">
+	<li>Students must be registered with the ODA and receive an Accommodation Request form to present to their instructors. This form will contain information relative to the reasonable accommodations of the student and will assure the instructor that proof of disability is on file with the ODA. Students who do not present such a form can be referred to the ODA for assistance in completing the Accommodation Request. The ODA collects proof of disability and recommended compensation techniques from the licensed or certified professional making the diagnosis of disability.</li>
+	<li>Preferably within the first week of class, qualified students must notify the instructor of the need for academic adjustments and present the letter containing suggested accommodations from the ODA.</li>
+	<li>The qualified student should confer with the instructor to reach mutual agreement on how accommodation is to be achieved and to discuss the challenges of the course, teaching methods, learning techniques, testing methodologies, special equipment needs, access challenges and other pertinent topics.</li>
+	<li>If a student does not feel the accommodations being offered are effective, or if they are not provided, the student should first meet with the professor; if the problem persists the primary counselor at the ODA should be contacted to help facilitate a solution. If the student is not satisfied with the resolution, a formal appeal may be filed in accordance with the procedures described here: <a href="http://disability.unt.edu/services/grievance" target="_blank">disability.unt.edu/services/grievance</a>.</li>
+</ol>
+
+<h2><a name="Application_for_Graduation"></a>Application for graduation</h2>
+
+<p>Students who may be eligible to graduate must submit their application through the <a href="https://my.unt.edu" target="_blank">MyUNT</a> student portal. (Visit <a href="http://registrar.unt.edu" target="_blank">registrar.unt.edu</a> for additional information and degree application deadlines.)</p>
+
+<p>Degree applications are accepted only from undergraduate students who have a minimum overall C average. See "<a href="#Grade_Point_Average">Grade point average</a>" for grade point calculation details. Before applying, the student also must remove grades of I in required courses necessary for graduation if these courses increase the term/semester load beyond the maximum permitted.</p>
+
+<p>Students otherwise eligible for graduation who complete their final course or courses elsewhere will not graduate at the end of the term/semester or summer session/term in which the work is completed because of the time required for obtaining transcripts; such students will have their degrees conferred at the close of a subsequent UNT term/semester.</p>
+
+<p>August graduates may file for graduation before the end of the spring term/semester.</p>
+
+<h2><a name="Requirements_for_a_Second_Bachelor_s_Degree"></a>Requirements for a second bachelor's degree</h2>
+
+<p>To be eligible for a second bachelor's degree, a student must meet all current catalog requirements for the second degree, including 12 hours of advanced courses in a field different from the major for the first bachelor's degree.</p>
+
+<h2><a name="Degree_Plan_Audit"></a>Degree plan/audit</h2>
+
+<p>The degree audit is an official document prepared in the office of the student's academic dean that lists courses completed, courses to be completed, proficiency examinations and all other requirements for a particular degree program. A student should have a degree audit prepared no later than the beginning of the junior year.</p>
+
+<h2><a name="Grading_System"></a>Grading system</h2>
+
+<p>UNT's grading system uses the letters A, B, C, D, F, P, NP, NPR, I, PR, W and WF. The letter Z is used to indicate that a grade was not properly received and/or recorded for a course.</p>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+	<tbody>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">A</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">excellent work, four grade points for each semester hour</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">B</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">good work, three grade points for each semester hour.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">C</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">fair work, two grade points for each semester hour.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">D</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">passing work, one grade point for each semester hour.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">F</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">failure; given when a student (1) has failed the course while still officially enrolled at the end of the term/semester; (2) is failing a course and misses the final examination without satisfactory explanation; or (3) stops attending class without processing an official drop or withdrawal.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">P</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">passed; a credit grade (1) on pass/no pass option, (2) on student teaching, and (3) in selected undergraduate and graduate individual problems, research, thesis and dissertation courses.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">NP</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">not passed; a failing grade on the pass/no pass option; non-punitive.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">I</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">I is a non-punitive grade given only during the last one-fourth of a term/semester and only if a student (1) is passing the course and (2) has justifiable and documented reason, beyond the control of the student (such as serious illness or military service), for not completing the work on schedule. The student must arrange with the instructor to finish the course at a later date by completing specific requirements. These requirements must be listed on a Request for Grade of Incomplete form signed by the instructor, student and department chair and must be entered on the grade roster by the instructor. Grades of I assigned to an undergraduate course at the end of the Fall 2007 semester and later will default to F unless the instructor has designated a different automatic grade. See also "<a href="#Removal_of_I">Removal of I</a>" policy in the Academics section of this catalog.<span>&#160;</span></td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">PR</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">used to show that work is in process on thesis or dissertation in courses numbered 5950 and 6950.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">NPR</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">used to indicate no progress on thesis or dissertation courses numbered 5950 and 6950, 6951, 6952, 6953 or 6954 in a given term.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">W</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">drop or withdrawal without penalty. Given when a student drops a course or withdraws from the university prior to the end of the sixth week of classes of long terms/semesters or corresponding dates for summer sessions (specific dates are published in the online academic calendar at <a href="http://www.unt.edu/catalog/calendar.htm" target="_blank">www.unt.edu/catalog/calendar.htm</a>). See <a href="#Schedule_Change__Add_Drop__Withdrawal_">regulations for dropping and withdrawing</a>.<span class="highlight_1"> </span>After that time the student must have a passing grade for the instructor to assign a grade of W for a dropped course; otherwise, the grade of WF is recorded.</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; vertical-align:top; width:2%">WF</td>
+			<td style="text-align:center; vertical-align:top; width:3%">—</td>
+			<td style="text-align:left; vertical-align:top; width:92%">drop or withdrawal with a failing grade. Instructor may drop a student with a grade of WF from courses for nonattendance. May be assigned from the 7th through the 13th week of classes of long terms/semesters or corresponding dates for summer sessions (specific dates are published in the online academic calendar). See <a href="#Schedule_Change__Add_Drop__Withdrawal_">regulations for dropping and withdrawing</a>.&#160;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Note:</strong> No grade points are allowed for grades F, I, NP, NPR, P, PR, W, WF or Z.</p>
+
+<p>A complete record of all previously used grades and grading systems is detailed on the official transcript.</p>
+
+<h2><a name="Grade_Point_Average"></a>Grade point average</h2>
+
+<p>The overall grade point average is used to determine student class loads, eligibility for admission to the university and certain programs, and eligibility for graduation. It is calculated by dividing the total number of grade points by the total number of semester hours attempted. All GPA calculations are subject to post-audit and correction by the Registrar's Office.</p>
+
+<p>The number of semester hours attempted includes all courses with grades of A, B, C, D, F and WF unless replaced by a later grade. Courses with grades of I, NP, NPR, P, PR, W or Z are not counted as courses attempted.</p>
+
+<h2><a name="Academic_Standards"></a>Academic standards</h2>
+
+<p>Students must achieve a minimum cumulative grade point average, referred to as the minimum CGPA requirement, to remain in good academic standing. At the end of the first term of enrollment at UNT, the minimum CGPA requirement is 1.8. In each subsequent term of enrollment, the minimum CGPA requirement is 2.0.</p>
+
+<p>The CGPA upon which academic standards are based is calculated by dividing the total number of grade points earned in residence at UNT by the total number of semester credit hours (SCH) attempted in residence at UNT. Excluded in this calculation are all courses in which the student received grades of NP, NPR, P, PR, W, Z or I. The cumulative grade point average as defined here is used only for determining a student's academic status and is not necessarily related to the grade point average that governs eligibility for graduation.</p>
+
+<p>In calculating grade points, grades count as follows: A = 4 points per semester credit hour, B = 3 points, C = 2 points, D = 1 point, F and WF = 0 points.</p>
+
+<p><em>Classification for the purpose of establishing the academic standing of the student is determined by the sum of all hours attempted in residence in regularly graded courses at UNT, hours passed in pass/no pass graded courses at UNT, and hours transferred from other institutions.</em> Not included in the definition of student classification for academic standards are hours granted by the university for extension, service experience, advanced placement, credit by examination, CLEP or transfer hours attempted but not passed or accepted by the university for academic credit.</p>
+
+<p>A student is placed on academic alert or academic probation at the end of any enrollment period in which the CGPA on work attempted in residence at this university does not equal or exceed the minimum CGPA requirement.</p>
+
+<h3>Regulations governing students on academic alert</h3>
+
+<p>A freshman is placed on academic alert the first term/semester the CGPA drops below the minimum CGPA requirement. To be removed from academic alert, the student must raise the CGPA to a minimum of 2.0 during the next period of enrollment.</p>
+
+<p>A student on academic alert who does not raise the CGPA to at least a minimum of 2.0 at the end of the next term/semester of enrollment is placed on academic probation.</p>
+
+<h3>Regulations governing students on academic probation</h3>
+
+<p>A student who is not classified as a freshman, or a student who is a freshman and has been on academic alert, is placed on academic probation at the end of any enrollment period in which the CGPA drops below the minimum CGPA requirement.</p>
+
+<p>A student remains on academic probation at the end of any enrollment period in which the student earns at least a 2.25 GPA but does not achieve a 2.0 CGPA.</p>
+
+<p>A student remains on academic probation during any summer enrollment in which the student fails to raise the CGPA to a 2.0.</p>
+
+<p>A student who, during a probationary fall or spring term/semester, fails to raise the CGPA to a 2.0, or who fails to make at least a 2.25 GPA for the term/semester, is automatically suspended from UNT for one or more long terms/semesters. (See "<a href="#Regulations_Governing_Students_Under_Academic_Suspension">Regulations Governing Students Under Academic Suspension</a>.")</p>
+
+<p>The electronic grade report, available online at <a href="http://my.unt.edu" target="_blank">my.unt.edu</a> at the end of each term/semester, includes a statement of academic status and a CGPA summary on which the status is based. Each student is responsible for knowing whether the minimum CGPA has been achieved and whether they are eligible to re-enroll or remain enrolled in the university. Any student enrolled when ineligible will be withdrawn by the Registrar, and no special consideration will be given to such student on a plea of ignorance of academic status. If the cumulative record is believed incorrect, the student should contact the Registrar's Office.</p>
+
+<h3><a name="regulations_governing_students_under_academic_suspension"></a>Regulations governing students under academic suspension<a name="Regulations_Governing_Students_Under_Academic_Suspension"></a></h3>
+
+<p>A student who is suspended from the university for failure to meet the standards prescribed in the "Regulations Governing Students on Academic Probation" is prohibited from re-enrolling for the following long term(s)/semester(s) as outlined below:</p>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+	<tbody>
+		<tr>
+			<td style="width:3%">&#160;</td>
+			<td style="text-align:left; vertical-align:top; width:50%">First suspension:</td>
+			<td style="text-align:left; vertical-align:top; width:45%">One long term/semester</td>
+		</tr>
+		<tr>
+			<td style="width:3%">&#160;</td>
+			<td style="text-align:left; vertical-align:top; width:50%">Second suspension:</td>
+			<td style="text-align:left; vertical-align:top; width:45%">Two long terms/semesters</td>
+		</tr>
+		<tr>
+			<td style="width:3%">&#160;</td>
+			<td style="text-align:left; vertical-align:top; width:50%">Third suspension:</td>
+			<td style="text-align:left; vertical-align:top; width:45%">Indefinite</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>A student who has been suspended for an indefinite period may request, at the end of two calendar years from the time of the suspension, a review of the case by the appropriate academic dean.</p>
+
+<p>Each student is responsible for knowing the minimum CGPA requirements and the standards for academic standing. Any ineligible student who enrolls during a long term/semester will be withdrawn by the Registrar, regardless of whether the student has registered or pre-registered and paid fees. The student should be aware that course work taken at another institution while the student is suspended from the University of North Texas may not apply to a degree.</p>
+
+<p>A student who has been suspended from the University of North Texas re-enters on academic probation. A student under academic suspension may attend the UNT summer enrollment periods with the approval of their college or school. Students should contact the academic advising office to request approval for summer enrollment. If, at the end of the summer enrollment period, a student raises the CGPA to a minimum of 2.0, the student will be reinstated in good academic standing.</p>
+
+<h3>Course duplications</h3>
+
+<p>A student may take a course a second or subsequent time. The Registrar's Office will post duplications at the request of the student, at the request of an academic advisor or upon review of the student's record. Until a duplication is posted the Registrar's Office includes a repeated course in the student's cumulative record of hours attempted and grade points earned. The Registrar includes without exception any course repeated <em>more than once</em> in the student's cumulative record of hours attempted and grade points earned. Departments may count the highest grade for departmental GPA requirements; however, the academic dean uses only the last grade recorded in certifying the student's eligibility for graduation.</p>
+
+<p>Undergraduate students who enroll in the same course more than twice may be charged additional tuition amounts.</p>
+
+<h3>Status changes due to course duplications</h3>
+
+<p>A student request for the recording of a course duplication made before or on the last class day of any term or session will be reflected in the hours attempted and grade points earned at the beginning of the term/semester or session.</p>
+
+<p>If a student who is on academic alert or academic probation requests the recording of course duplications, and the resulting adjusted CGPA equals or exceeds the minimum CGPA requirement, the academic alert or probation status will be removed if the student notifies the Registrar's Office on or before the last class day for that term/semester or session. Otherwise, the student will remain on academic alert or probation for that enrollment period and be subject to attendant penalties.</p>
+
+<p>If a student is suspended at the end of a term/semester during which the student has repeated a course and the posting of that duplication will result in a CGPA that would have been sufficient to be continued on probation at the end of that term/semester (or to be cleared), the student will be reinstated if the student requests the duplication and applies for reinstatement at the Registrar's Office. The delayed posting of course duplications completed during prior enrollment periods cannot be used as a basis for altering suspension history or reinstating lost registration schedules.</p>
+
+<p>Courses duplicated Fall 2005 and later will result in a re-evaluation of a student's suspension history beginning with the term that the duplication was completed. The delayed processing of course duplications and updating of suspension history cannot be used as justification for reinstating lost registration schedules.</p>
+
+<h3>Academic standards for transfer students</h3>
+
+<p>New UNT students who have fewer than 30 hours of transfer credit, excluding non-traditional credit, who are admitted via individual review and have less than the minimum CGPA requirement will be placed on academic alert. Other transfer students with 30 or more hours of transfer credit who are admitted via individual review are placed automatically on academic probation if their transfer cumulative grade point average falls below the minimum CGPA requirement. See "<a href="content.php?catoid=13&navoid=975#Transfer_Students">Transfer Students</a><span style="display: none !important">&#160;</span>" in the Admission section of this catalog for a statement of current minimum entrance requirements for transfer students. To avoid academic suspension, transfer students admitted on academic probation must make a grade point average equal to or exceeding the minimum CGPA requirement.</p>
+
+<p>Transfer students admitted to UNT in good standing are subject to minimum academic requirements. Thus, if at the end of the first enrollment period a transfer student's grade point average on all work attempted at UNT does not meet the minimum CGPA requirement, the student will be placed on academic alert or academic probation for the next period of enrollment and the Regulations Governing Students on Academic Alert or Academic Probation will apply.</p>
+
+<p>Transfer students who have more than 30 credit hours and are admitted to UNT on academic probation are evaluated at the end of their first long term/semester in attendance, at which time they are either cleared from probation or suspended. To avoid academic suspension, the student must have earned a CGPA on all work attempted at UNT equal to or greater than the minimum CGPA requirement.</p>
+
+<p>Additional information concerning academic status is available from the offices of the academic deans or the Registrar's Office.</p>
+
+<h3>Transfer hours from another institution</h3>
+
+<p>Students who complete work at another institution, to be applied toward a bachelor's degree at the University of North Texas, should make sure that the appropriate officer of the other institution furnishes to the Office of Admissions or the Registrar's Office at the University of North Texas a complete official transcript of such work.</p>
+
+<p>The Office of Admissions or the Registrar's Office determines acceptable transfer credit from other institutions based on evaluation of course content as described in the catalogs of those institutions and in consultation with appropriate academic units at UNT as necessary for clarification. Transfer credit may only be received for course work completed at an accredited institution of higher education. Transfer credit from other institutions will be converted to semester hours and a 4.0 grading system for evaluation purposes as appropriate. The student's academic dean determines applicability of the credit to a degree program. Students seeking a Bachelor of Applied Arts and Sciences (BAAS) degree should refer to the special provisions of the respective degree programs.</p>
+
+<p>Students who have begun residence work at UNT and who have attained junior standing may, only with the <em>prior written consent</em> of their academic dean, enroll in and transfer hours from approved two-year colleges.</p>
+
+<p>Grade points earned at other institutions are excluded in the computations of the CGPA, but transfer hours accepted are included in determining the classification and minimum required level of performance.</p>
+
+<p>Additional information concerning academic status is available from the advising offices of the academic deans or the Registrar's Office.</p>
+
+<p>Because of the time required for receipt of transcripts, students otherwise eligible for graduation who complete their last course or courses elsewhere do not graduate at the end of the term/semester or summer session in which the work is completed, but receive their degrees at the close of a subsequent UNT term/semester or summer session.</p>
+
+<p>Transfer hours from another institution are included in the overall GPA when determining honors for graduation.</p>
+
+<h3>Transfer of the core curriculum</h3>
+
+<p>A student who successfully completes the common core curriculum at a state-assisted institution of higher education in Texas may transfer as "core complete" to UNT. The student will receive academic credit for each of the courses transferred. The student will need to work with an academic advisor in the appropriate college or school academic advising office to determine if additional requirements will be necessary to satisfy the 42-hour UNT core. See also the UNT transfer articulation web page at&#160; <a href="http://registrar.unt.edu/transfer-guides" target="_blank">registrar.unt.edu/transfer-guides</a>, where you can find information on the online transfer course equivalence tool Transferology.</p>
+
+<h3>Advanced-hour credit</h3>
+
+<p>A lower-level course that is substituted for a UNT upper-level course may not be used to satisfy advanced-hour requirements.</p>
+
+<h3>Effects of withdrawal on academic status</h3>
+
+<p>Any student who withdraws from UNT prior to the end of the sixth week of classes (or the equivalent dates for summer sessions) is given grades of W and is not penalized with a reduced CGPA. Any student who withdraws after this period, but at least two weeks before the first day of final exams (summer session, six class meetings prior to finals; three week session, three class meetings prior to finals), is given grades of W or WF depending upon the student's grade average at the time of withdrawal. Grades of WF are included as hours attempted in calculating a student's minimum UNT cumulative grade point average required to remain in good standing. A student who does not officially withdraw from the university is held responsible for grades of F and is placed on probation or suspended from the university if the grades of F bring the CGPA below the minimum required. For official dates and deadlines for withdrawal, visit <a href="http://www.unt.edu/catalog/calendar.htm" target="_blank">www.unt.edu/catalog</a>.</p>
+
+<h3>Students called to active duty</h3>
+
+<p>Texas Education Code 54.006 (f) indicates, "Beginning with the summer semester of 1990, if a student withdraws from an institution of higher education because the student is called to active military service, the institution, at the student's option, shall: (1) refund the tuition and fees paid by the student for the semester in which the student withdraws; (2) grant a student, who is eligible under the institution's guidelines, an incomplete grade in all courses by designating 'withdrawn-military' on the student's transcript; or (3) as determined by the instructor, assign an appropriate final grade or credit to a student who has satisfactorily completed a substantial amount of course work and who has demonstrated sufficient mastery of the course material."</p>
+
+<p>In order to be eligible for options under this law, a UNT student must produce a copy of his or her orders. Withdrawal may or may not require that the student talk with each instructor&#160; depending on timing in the semester; however, the latter two options do require that the student talk with his or her instructors and come to a decision as to which solution is best for each class given timing and circumstances. A student called to active duty may consider the following options:</p>
+
+<ol start="1">
+	<li>withdrawal with a full refund of appropriate tuition/fees;</li>
+	<li>incomplete grades with the one-year I (Incomplete) removal time limit starting with the end of active duty; or</li>
+	<li>a final grade if the course is essentially over and the course material has been sufficiently mastered (determined by the instructor).</li>
+</ol>
+
+<h3>Grade reports</h3>
+
+<p>The electronic grade report and academic standing are available online at my.unt.edu at the close of each term/semester. If the grade report or the academic standing is believed to be in error, the student should contact the Registrar's Office within 30 days following the first class day of the succeeding term/semester.</p>
+
+<p>At mid-term/semester in the long session, instructors may provide individual written warnings to students who are doing unsatisfactory class work. These warnings are mailed from the Registrar's Office upon request by the instructor.</p>
+
+<h3>Transcripts</h3>
+
+<p>Transcript request information can also be found on the Registrar web page: (<a href="http://registrar.unt.edu/transcripts-and-records/order-transcript">http://registrar.unt.edu/transcripts-and-records/order-transcript</a>).</p>
+
+<p>Before an official transcript can be released, all financial or administrative obligations to the university must be resolved. To check for blocks, please refer to the student center at&#160;<a href="http://my.unt.edu/" target="_blank">my.unt.edu</a>. UNT transcripts may be ordered in person at the Registrar's Office, requested <a href="http://registrar.unt.edu/transcripts-and-records/UNT-order-transcript-online">online</a>, or requested by submitting a <a href="http://registrar.unt.edu/transcripts-and-records/UNT-order-transcript-by-form">transcript request form</a> to the Registrar's Office via e-mail, mail or fax:</p>
+
+<ul>
+	<li><strong>E-mail</strong>: <a href="mailto:registrar@unt.edu">registrar@unt.edu</a></li>
+	<li><strong>Fax</strong>: 940-565-3878 (Attn: Transcripts)</li>
+	<li><strong>Mailing address</strong>: University of North Texas Registrar's Office | Attn: Transcripts | 1155 Union Circle #311400 | Denton, TX 76203-1400</li>
+</ul>
+
+<p>If you have any questions concerning transcripts, please contact the Registrar's Office in person or call the Registrar's Office at 940-565-2111.</p>
+
+<h3>Grade books</h3>
+
+<p>University policy requires that grade books be retained by the departmental chair for five years.</p>
+
+<h3>Tests</h3>
+
+<p>University policy requires that departments retain tests for one year after the term/semester has been completed or return tests to students. If the tests are returned, students are responsible for producing the tests should a grade appeal be necessary.</p>
+
+<h3>Grade appeals procedure</h3>
+
+<p><em>The procedure is currently under review.</em></p>
+
+<ol start="1">
+	<li>Any student who believes a grade has been inequitably awarded should first contact the instructor who awarded the grade to discuss the issue and attempt to resolve the differences. Any instructor no longer associated with UNT at the time of the appeal will be represented in these proceedings by the chair of the department in question. A student not in residence the term/semester following the awarding of the grade or a resident student who is unable to resolve the differences with the instructor has 30 days following the first class day of the succeeding term/semester to file a written appeal with the chair of the instructor's department, or the equivalent administrative unit.</li>
+	<li>The chair may follow any of the four procedures below, or a combination of them:
+	<ol start="1" style="list-style-type:lower-alpha">
+		<li>The chair may confer with the instructor; or</li>
+		<li>The chair may request that the instructor submit a written reply to the student's complaint; or</li>
+		<li>The chair may conduct a meeting of the two parties; or</li>
+		<li>&#160;The chair may refer the case directly to the appropriate departmental committee, as outlined below.<br />
+		<br />
+		In following one of the first three procedures above (a, b or c), the chair should make a judgment on the merits of the case and recommend a specific action in regard to the disputed grade. Either the student or the instructor may appeal the recommendations of the chair.</li>
+	</ol>
+	</li>
+	<li>The appropriate departmental committee to hear cases sent directly to it by the chair or appealed to it by either the student or the instructor shall be constituted as follows and shall perform the following duties.
+	<ol start="1" style="list-style-type:lower-alpha">
+		<li>It shall be an ad hoc committee consisting of two faculty members from the department in which the grade is being questioned, one of those members to be chosen by the student and one to be chosen by the instructor. If either party to the dispute declines to choose a member of the committee, the department chair will select that member. The third faculty member of the committee, who shall serve as chair, will be chosen either from within or without the department by agreement of the student and the instructor. If they cannot agree upon this third member, the member is chosen by the chair of the department, with the proviso that the student and the instructor may agree to stipulate that the third member of the committee be chosen from a related department rather than the department in question.</li>
+		<li>This ad hoc committee should require written statements from each participant in the dispute. Judgments may be rendered upon the basis of these statements, upon other evidence submitted in support of the statements and upon the basis of an oral hearing, if such a hearing seems necessary.</li>
+		<li>The committee must make a recommendation for disposition of the case within 30 days of its appointment.</li>
+		<li>All records in the case will be filed with the chair of the department in which the grade was originally awarded.</li>
+	</ol>
+	</li>
+	<li>Either party to the dispute has 15 days following the rendering of the <em>ad hoc</em> committee recommendation to appeal that recommendation to the dean of the respective college, if the appeal is based solely upon alleged violations of established procedures. Substantive matters, up to and including the refusal of the instructor to act in accordance with the ad hoc committee's recommendation or the student's refusal to accept the verdict, may not be appealed to the dean.</li>
+	<li>The dean of the college in question, after a review of the submitted written materials (and oral hearings if desired), shall make within 15 days a ruling about procedural questions. Said ruling may be appealed by either the student or the instructor to an <em>ad hoc</em> committee composed of three faculty members appointed by the dean and representing departments other than the one in which the disputed grade was awarded and three students appointed by the Committee on Committees of the Student Government Association.
+	<ol start="1" style="list-style-type:lower-alpha">
+		<li>This ad hoc committee will have 30 days from the date of its appointment to complete its work.</li>
+		<li>This committee shall operate within the guidelines set out for departmental ad hoc committees in 3b above.</li>
+		<li>All rulings made by this committee regarding procedural questions shall be final.</li>
+		<li>All documents related to the case shall be returned to the chair of the originating department for department files.</li>
+	</ol>
+	</li>
+</ol>
+
+<h3>Grade changes</h3>
+
+<p>No grade except I may be removed from a student's record once properly recorded. Changes are not permitted after grades have been filed except to correct clerical errors.</p>
+
+<p>Requests for error correction must be initiated immediately after the close of the term/semester for which the grade was recorded.</p>
+
+<p>A faculty member who believes an error has been made in calculating or recording a grade may submit <em>in person</em> a request for a grade change to the department chair and the appropriate dean. The Registrar accepts requests for grade changes only from the academic deans.</p>
+
+<h3>Removal of I<a name="Removal_of_I"></a></h3>
+
+<p>A student may remove a grade of I within one year by completing the stipulated work. After the student completes the stipulated work, the instructor records the final grade on a UNT Grade Change Form and obtains the department chair's signature. The instructor's academic dean completes processing with the Registrar's Office, where the grade point average is adjusted accordingly. For undergraduate courses taken Fall 2007 or later, if a student does not complete the stipulated work within the time specified, the grade of I will default to F unless the instructor has designated a different automatic grade. The GPA is adjusted accordingly, and the student will be subject to academic penalty should any exist.</p>
+
+<h3>Pass/no pass option</h3>
+
+<h4 style="margin-left:40px">Undergraduate Students</h4>
+
+<p style="margin-left:40px">An incoming freshman or any undergraduate in good standing with a C average or better on all work attempted in residence at UNT may schedule one course a term/semester on the pass/no pass option. Seniors may elect more than one pass/no pass course during their final term/semester.</p>
+
+<p style="margin-left:40px">A maximum of 18 semester hours of credit under the pass/no pass option may be applied toward the bachelor's degree. Only courses counted as electives on the student's degree plan may be scheduled under the pass/no pass option. These hours are not used in calculating the grade point average, but count as full credit.<br />
+<br />
+A grade of D or better will be shown as a P. If the course is not passed, the record will show NP and the hours attempted will not be used in calculating the grade point average.</p>
+
+<p style="margin-left:40px">The pass/no pass option for a particular course is elected at the time of registration. Requests are processed after the term/semester begins. Students may change to the regular grading system in the office of their academic dean any time before the end of the sixth week of classes, or the corresponding point of a summer session, provided the eligibility requirements above are met.</p>
+
+<p style="margin-left:40px">Courses taken under the regular grading system may not be repeated as pass/no pass courses unless a grade of W was previously received.</p>
+
+<p style="margin-left:40px">A student who changes majors is not automatically denied credit for a pass/no pass course that becomes a degree audit requirement for the new major. The decision is made by the academic dean of the new department. <strong>However, under no circumstances is a grade of P changed to a letter grade.</strong></p>
+
+<p style="margin-left:40px">Transfer students have the same pass/no pass privileges and restrictions, but they must pass 30 semester hours of regularly graded courses at UNT to be eligible for graduation.</p>
+
+<h4 style="margin-left:40px">Graduate students</h4>
+
+<p style="margin-left:40px">Graduate students may enroll under the pass/no pass option only for undergraduate courses that are not required as a deficiency makeup or as a graduate degree requirement.</p>
+
+<h4 style="margin-left:40px">Courses automatically graded pass/no pass</h4>
+
+<p style="margin-left:40px">Certain graduate-level individual instruction courses will be graded pass/no pass when classes are taught on campus in those departments whose faculty have voted for the use of this grading system for individual instruction.</p>
+
+<h3>Dean's list and president's list</h3>
+
+<p>Students completing at least 12 hours of class work in regularly graded courses taken in residence during the long session with a grade point average of 4.0 are eligible for recognition on the president's list. Students with a grade point average of 3.5 or above are eligible for recognition on the dean's list. Students are notified of this recognition by the president or the appropriate academic dean.</p>
+
+<h3>Graduation with honors</h3>
+
+<p>Candidates for graduation whose overall grade point average, based on grades earned in University of North Texas resident credit courses and transferred resident credit courses, is at least 3.500 but less than 3.700 are eligible to graduate <em>cum laude</em>; those whose GPA, as defined above, is at least 3.700 but less than 3.900 are eligible to graduate <em>magna cum laude</em>; and those whose GPA, as defined above, is 3.900 to 4.000 are eligible to graduate <em>summa cum laude</em>.</p>
+
+<p>Hours earned through correspondence and extension courses, or pass/no pass courses, may not be counted in calculating the GPA for determination of eligibility for graduation with honors. Candidates for a second bachelor's degree are not eligible for graduation with honors.</p>
+
+<h2><a name="Records_Policies"></a>Records policies</h2>
+
+<h3>State privacy policy</h3>
+
+<p>State law, with few exceptions, gives individuals the right to be informed about the information UNT collects about the individual. It also gives individuals the right to receive and review collected information and the opportunity to have UNT change any incorrect information. UNT's privacy policy (no. 1.7.9) is available at <a href="http://www.unt.edu/policy" target="_blank">www.unt.edu/policy</a>.</p>
+
+<h3>Student education records</h3>
+
+<p>Pursuant to the Family Educational Rights and Privacy Act (FERPA), the university has established policies relating to the accessibility of student information in the custody of the University of North Texas. The UNT FERPA policy statement appears in its entirety in the UNT Policy Manual, policy number 18.1.9. Information not covered by FERPA will be released only in accordance with the policy on public information found in policy number 10.6 of the UNT Policy Manual. Requests for public information not subject to FERPA must be submitted to the university Public Information Officer in writing. The UNT Policy manual with the complete FERPA policy (18.1.9) can be found at <a href="http://www.unt.edu/policy" target="_blank">www.unt.edu/policy</a>.</p>
+
+<p>FERPA affords students certain rights with respect to their education records. Students have the right to:</p>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+	<tbody>
+		<tr>
+			<td colspan="2">
+			<ol start="1">
+				<li>Inspect and review the student's education records within 45 days of the day the university receives a written request for access.</li>
+			</ol>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:6%">&#160;</td>
+			<td>
+			<p>Students should submit written requests that identify the record(s) they wish to inspect to the registrar, dean, head of the academic department or other appropriate official. The university official will make arrangements for access and notify the student of the time and place where the records may be inspected. If the records are not maintained by the university official to whom the request was submitted, that official shall advise the student of the correct official to whom the request should be addressed.<br />
+			&#160;</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<ol start="2">
+				<li>Request the amendment of personal education records the student believes are inaccurate, misleading or a violation of privacy.</li>
+			</ol>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:6%">&#160;</td>
+			<td>
+			<p>A student may ask the university to amend a record that he or she believes is inaccurate, misleading or a violation of privacy. The student should write to the UNT System Office of General Counsel, clearly identify the part of the record he or she wants changed, and specify why it is inaccurate or misleading. Students may request a hearing to review a denial of a request to amend educational records. Additional information regarding the hearing procedures will be provided to the student when notified of the decision to deny a request to amend.<br />
+			&#160;</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<ol start="3">
+				<li>Generally, FERPA requires written consent before personally identifiable information contained in a student's education records may be disclosed to a third party. However, FERPA authorizes disclosure of personally identifiable information without the student's consent under certain circumstances. One such exception is directory information.</li>
+			</ol>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:6%">&#160;</td>
+			<td>
+			<p>Directory information consists of a student's name; address; university assigned e-mail address; university assigned enterprise-wide user identification number (EUID); month, day and place of birth; major field of study; participation in officially recognized activities and sports; weight and height of members of athletic teams; dates of attendance; enrollment status (e.g., undergraduate or graduate; full-time or part-time); classification; degrees, awards and honors received (including selection criteria); expected graduation date; dissertation and thesis titles; most recent previous school attended; and photograph.<br />
+			<br />
+			Directory information will be provided without a student's consent upon request unless the student files a request in the Registrar's Office asking that their directory information not be disclosed without specific authorization. The request should be submitted prior to the 12th class day in the fall and spring terms, the 2nd class day of a three week session, or the 4th class day of a five week summer session. A request to withhold information may be submitted after the stated deadline for a term or session, but information may be released between the deadline and receipt of the request. The university will comply with a student's request to have their information excluded from available directory information until the request is amended in writing.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>The University of North Texas will disclose information from a student's education records without the written consent of the student to the following individuals or under the following conditions:</p>
+
+<ol start="1">
+	<li>School officials who have a legitimate educational interest.</li>
+	<li>Parents when:
+	<ol start="1" style="list-style-type:lower-alpha">
+		<li>the student is a dependent of the parent for tax purposes as evidenced by appropriate documentation, including the parent's most recent tax return or a student financial aid application;</li>
+		<li>a health or safety emergency necessitates disclosure to protect the health or safety of the student or another individual; or</li>
+		<li>the student is under 21 years of age at the time of the disclosure and the student has violated a federal, state or local law or any rule or UNT&#160;policy governing the use or possession of alcohol or a controlled substance and UNT&#160;has found the student in violation of the Code of Student's Rights, Responsibilities and Conduct.</li>
+	</ol>
+	</li>
+	<li>Officials of another school to which a student seeks or intends to enroll or has already enrolled, upon written request, if the disclosure is for purposes related to the student's enrollment or transfer.</li>
+	<li>Certain officials of the U.S. Department of Education, the Comptroller General, the Attorney General of the United States, the U.S. Department of Veteran Affairs, and state and local educational authorities in connection with an audit or evaluation of federal or state supported education programs, or for the enforcement of or compliance with federal legal requirements that relate to those programs.</li>
+	<li>Financial aid personnel in conjunction with an application for or receipt of financial assistance, provided the disclosure is needed:&#160;(i) to determine the eligibility of the student for financial aid, (ii) to determine the amount of financial aid, (iii) to determine the conditions that will be imposed, or (iv) to enforce the terms or conditions of the financial aid.</li>
+	<li>Individuals delivering a judicial order or lawfully issued subpoena. The university will make reasonable efforts to notify the student in advance of compliance. The university will not disclose any information about a grand jury subpoena issued for law enforcement purposes when so ordered and when required by law or government regulation.</li>
+	<li>Organizations conducting studies for or on behalf of UNT&#160;pursuant to a written agreement to develop, validate or administer predictive tests or student aid programs, or to improve instruction. Information from education records may only be used to meet the purposes of the study stated in the written agreement between the university and the organization(s) and must contain the current restrictions on re disclosure and destruction of information requirements applicable to information disclosed under this exception.</li>
+	<li>Accrediting organizations to carry out their accrediting functions.</li>
+	<li>To appropriate parties in a health or safety emergency. Appropriate parties include, but are not limited to, school officials, law enforcement officials, parents and emergency/medical personnel.</li>
+	<li>To victims of an alleged perpetrator of a crime of violence or a non-forcible sex offense, limited only to the final results of a UNT disciplinary proceeding regardless of whether UNT determines through its own investigation that a violation was committed.</li>
+	<li>To any member of the public in matters relating to sex offenders and information provided to UNT&#160;under relevant federal law.</li>
+	<li>To a court in which the university is defending itself against legal action initiated by a parent or eligible student.</li>
+	<li>To the originating party identified as the party that provided or created the record. This allows for returning documents, such as official transcripts, that appear to have been falsified back to the institution or school official identified as the creator or sender of the record for confirmation of its status as an authentic record.</li>
+	<li>Individuals requesting records for students who are deceased.</li>
+</ol>
+
+<p>Individuals may file a complaint with the U.S. Department of Education if they believe the University of North Texas has failed to comply with the requirements of FERPA. The complaint should be sent to:<br />
+<br />
+Family Policy Compliance Office<br />
+U.S. Department of Education<br />
+400 Maryland Avenue, SW<br />
+Washington, DC 20202</p>
+
+<p>For information regarding the university's policy on access to student education records contact the university Registrar. For information regarding access to public information contact the UNT System Office of General Counsel.</p>
+
+<h2><a name="UNT_Internships_and_Cooperative_Education"></a>UNT internships</h2>
+
+<p>Many employers prefer to hire graduates with hands-on experience in their majors. Students can gain practical experience and enhance their classroom learning through an internship opportunity.</p>
+
+<p>In addition to providing insight into future careers, working as an intern provides a competitive advantage in the job market because of the skills developed while in the position.</p>
+
+<p>The Career Center helps students obtain high-quality internships prior to graduation by working closely with potential and existing employers to promote internships within their organizations.</p>
+
+<p>The Career Center hosts a number of career-related workshops open to all enrolled students on the Eagle Network.</p>
+
+<h3>Internships</h3>
+
+<p>Internships are work experiences (typically one semester) related to a student's field of study and may provide a competitive advantage in the job market by:</p>
+
+<ul>
+	<li>providing transferable skills through work in a professional environment,</li>
+	<li>creating professional contacts within industry or occupational area, and</li>
+	<li>teaching more about major and career path.</li>
+</ul>
+
+<p>The Experiential Education team at the Career Center works with more than 4,000 employers who offer internship programs such as Ericsson, McKesson, Southwest Airlines, Texas Instruments and many others.</p>
+
+<p>Internships can be part time or full time and are available throughout the year. The summer is the most popular season for obtaining them. Depending on a student's major, academic credit may be received for completing an internship. Completing an internship is mandatory in some degree programs.</p>
+
+<p>The Career Center strongly promotes paid internships; however, in some cases, depending on the organization, industry and specific job, internships may be unpaid.</p>
+
+<p>Some degree programs require students to fulfill an internship as part of their course work and in some cases a paid internship is mandatory to meet curriculum requirements.</p>
+
+<h3>Earning academic credit</h3>
+
+<p>Depending on the chosen major, students may be eligible to receive academic credit for an internship. Department policies vary based on these opportunities but often they are evaluated based on how the work relates to the student's field of study, the length of the internship, what learning opportunities are available and whether supervision or mentoring is provided by a professional in the field.</p>
+
+<p>Career Center staff work closely with faculty members to coordinate the student's academic credit.</p>
+
+<p>For further information, contact the Career Center in Chestnut Hall, Suite 103; by phone, 940-565-2105; or visit the web site at <a href="http://careercenter.unt.edu" target="_blank">careercenter.unt.edu</a>.</p>
+
+<h2><a name="Center_for_Achievement_and_Lifelong_Learning"></a>Center for Achievement and Lifelong Learning</h2>
+
+<p>The Center for Achievement and Lifelong Learning provides the administrative structure for continuing education programs to meet professional education and career development requirements of adult groups.</p>
+
+<p>Continuing education programs (conferences, seminars, workshops, etc.) for all of the schools and colleges of the university can be coordinated by the center. This assistance includes financial planning in accordance with official university procedures; arrangements for housing, food service, meeting space, transportation and audiovisual equipment; and assistance with preregistration and on-site registration.</p>
+
+<p>Continuing education credit is awarded by the center, and these records&#160;are kept on permanent file.</p>
+
+<p>Lifelong learning programs for adults include the Emeritus College and Travel Learn. Emeritus College offers non-credit classes for adults 50 and older. Travel Learn offers unique educational opportunities, combining domestic and international travel with the expertise of UNT faculty and local guides.</p>
+
+<p>The center is responsible for arranging and scheduling the use of university classroom facilities for off-campus groups and for university departments for purposes other than credit classes.</p>
+
+<p>The Center for Achievement and Lifelong Learning is located in Woodhill Square, 1100 Dallas Drive, Suite 112. For additional information, call 940-565-2656, visit the web site at <a href="http://call.unt.edu" target="_blank">call.unt.edu</a> or write to the director, 1155 Union Circle #310560, Denton, TX 76203-5017.</p>
+<div style="display: none; z-index: 1000;" class="tooltip for_tt9381"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt683"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt2741"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt2333"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt1478"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt7343"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt2037"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt9179"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt7109"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt5772"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt1951"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt1875"></div><div style="display: none; z-index: 1000;" class="tooltip for_tt547"></div>							  </td>
+							</tr>
+						  </table>
+                                                  <br /><hr /><div style="float: right">&#160;<a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | <a rel="nofollow" href="/content.php?catoid=13&navoid=972&print" onclick="acalogPopup('/content.php?catoid=13&navoid=972&print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a></div><div class="acalog-social-media-links" style="float: right;"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D972&t=I am looking at the Academics page at University of North Texas" border="0" target="_blank"><img src="acalogicons/facebook_16.png" border="0" alt="Facebook this Page"></a> <a href="http://twitter.com/intent/tweet?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D972&t=Check out this page at University of North Texas" border="0" target="_blank"><img src="/acalogicons/twitter_16.png" border="0" alt="Tweet this Page"></a></div><div align="left"><a href="portfolio_nopop.php?catoid=13&add=1&navoid=972#nav_links" onClick="acalogPopup('portfolio.php?catoid=13&add=1&navoid=972#nav_links', 'portfolio', 770, 530, 'yes');return false;" target="_blank" class="portfolio_link acalog-highlight-ignore" tabIndex="199">Add to <span class="acalog_term_backpack">My Catalog</span></a></div>
+					  </td>
+				</tr>
+			  </table>
+			</td>
+		  </tr>
+		</table>
+	</td>
+  </tr>
+	<tr>
+	<td class="block_footer_lb">&#160;&#160;&#160;</td>
+	<td class="block_footer_rb">
+<nobr>All <a href="/misc/catalog_list.php?catoid=13" class="footer"  tabIndex="300">catalogs</a> &#169; 2016 University of North Texas.</nobr> <nobr>Powered by the <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.</nobr>
+<br />
+	<script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script>
+	<nobr><a href="http://m.catalog.unt.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.</nobr><script type='text/javascript'>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-368058-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td>
+	</tr>
+</table>
+<script src="js/smlinks.js" type="text/javascript"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f1e87b20cf","applicationID":"5857333","transactionName":"bldWNUYCXEJVBkJRVlcdYRNdTFFeWhFTVk0XQlwR","queueTime":0,"applicationTime":235,"atts":"QhBVQw4YT0w=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

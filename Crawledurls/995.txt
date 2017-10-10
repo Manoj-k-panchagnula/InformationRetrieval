@@ -1,0 +1,1917 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Student Government Association (SGA) &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Student Government Association (SGA)" href="/node/79629/feed" />
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/webform/css/webform.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-organization no-sidebars og-context og-context-79629   org">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/org/sga"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-Gu6lMCngKMBhviYsR_l8OLQt_YTcUMlF5ur_v8O3js4" value="form-Gu6lMCngKMBhviYsR_l8OLQt_YTcUMlF5ur_v8O3js4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/org/sga"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-Gu6lMCngKMBhviYsR_l8OLQt_YTcUMlF5ur_v8O3js4" value="form-Gu6lMCngKMBhviYsR_l8OLQt_YTcUMlF5ur_v8O3js4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"><div class="label channel channel-reset">Organization</div></div>
+			<h1>Student Government Association (SGA)</h1>
+			<div class="subtitle">
+								Find us in <a href="/the-union">The Union - Room 344</a>.			</div>
+			<div class="social-buttons">
+				<ul class="button-group">
+					<li><a href="https://www.facebook.com/pages/UNT-Student-Government-Association/234617306577498" class="button button-social facebook">Facebook</a></li>					<li><a href="http://twitter.com/UNTSGA" class="button button-social twitter">Twitter</a></li>					<li><a href="http://instagram.com/UNTSGA" class="button button-social instagram">Instagram</a></li>					<li><a href="https://www.youtube.com/channel/UCk_Rzn7fOs1i977AoxqqyjQ" class="button button-social youtube">YouTube</a></li>				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="tabbable">
+<nav class="secondary">
+	<div class="container">
+	<ul class="nav">
+		<li class="active"><a data-toggle=tab href="#home">The SGA</a></li>
+		<li><a data-toggle=tab href="#about">Branches</a></li>
+            <li><a href="#elections" data-toggle="tab">Elections</a></li>    <li><a href="#minutes" data-toggle="tab">Minutes</a></li>    <li><a href="#legislation" data-toggle="tab">Legislation</a></li>		<li><a data-toggle="tab" href="#programs">Services</a></li>
+		<li><a data-toggle=tab href="#contact">Contact</a></li>
+	</ul>
+	
+	
+	</div>
+</nav>
+
+<div class="tab-content">
+<div class="tab-pane active" id="home">
+	
+
+<div class="view view-Features view-id-Features view-display-id-block_1 container view-dom-id-8">
+
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+	<div class="well full feature-wide">
+	<div class="container">
+		<div class="col-md-6">
+			<h2>
+				Who We Are</h2>
+
+			<p>
+				The Student Government Association is the official voice of the undergraduate student body at the University of North Texas. As an organization, we are committed to making each student&rsquo;s opinions and concerns heard in the administration. The Student Government Association is comprised of an Executive Branch, Student Senate, Supreme Court, and the Freshman Interns. Together, these factions work with students across the University and administration to make our campus better for everyone.</p>
+		</div>
+
+		<div class="col-md-6">
+			<h2>
+				What We Do</h2>
+
+			<p>
+				The Student Government Association is a multi-purpose organization that can grant funding to students for conferences or programming, promote other student organization&rsquo;s programs, as well as host University wide events. Please take a moment to explore our website to learn more information about our executive board, senators, and the different ways that SGA can benefit you, the student. Please feel free to contact us with any questions or concerns, or come by our office in Union 344 to meet with us in person.</p>
+			<a class="button button-constitution" href="/sites/default/files/updated_constiution.pdf">Student Constitution</a> <a class="button button-bylaws" href="/sites/default/files/bylaws_2-24-20162.pdf">By-Laws</a><a class="button button-budget" href="/sites/default/files/new_budget.pdf">Budget</a></div>
+		<a class="button button-budget" href="/sites/default/files/alattry_lee_administration_state_of_student_government_association_fall_2015_002.pdf">State of the Student Body</a></div>
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div id="block-views-posts-block_7" class="block block-views">
+
+
+  <h1>News &amp; Updates</h1>
+<div class="view view-posts view-id-posts view-display-id-block_7 view-dom-id-1">
+    
+  
+  
+    	    	<div class="view-content">
+              
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post   with-photo" id="post-175381">
+		<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/imagecache/cards/posts/sga_logo_recreated_final.jpg');">
+		<div class="channels"><div class="label channel channel-leadership">Leadership</div></div>
+	</header>
+		<h1><a href="http://studentaffairs.unt.edu/blog/2016-2017-sga-leadership-applications"><a href="/blog/2016-2017-sga-leadership-applications">2016-2017 SGA Leadership Applications</a></a></h1>
+	
+	<p><h3>
+	Thank you for your interest in the UNT SGA Executive Branch! Completing this application is your first step in a three phase selection process. The Job Descriptions for each respective position can be found below and at sga.unt.edu.</h3>
+
+<h1>
+	Chief of Staff</h1>
+
+<h5>
+	The Chief of Staff is...</h5></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Connor Gray		</div>
+		<a href="http://studentaffairs.unt.edu/blog/2016-2017-sga-leadership-applications" class="comments">Sun, March 27 - 7:09pm</a>
+	</div>
+</article>
+</div>
+
+         </div>
+      
+  
+  
+  
+  
+  
+</div> </div>
+			</div>
+			<div class="col-md-4">
+				<div id="block-block-37" class="block block-block">
+
+	
+  <h1>Tweets</h1>
+<p>
+	<a class="twitter-timeline" data-widget-id="375698435157942272" href="https://twitter.com/NorthTexasSGA">Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tab-pane" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>About</h1>
+				<div class="well">
+					<div class="row">
+	<div class="col-md-4">
+		<div id="box">
+			<div id="innerContent">
+				Executive</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div id="box">
+			<div id="innerContent">
+				Legislative</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div id="box">
+			<div id="innerContent">
+				Judicial</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-3">
+		&nbsp;</div>
+
+	<div class="col-md-6">
+		<div id="box_link">
+			<a href="https://studentaffairs.unt.edu/freshman-intern-program">Freshman Interns</a></div>
+	</div>
+
+	<div class="col-md-3">
+		&nbsp;</div>
+</div>
+
+<div class="row">
+	<p>
+		&nbsp;</p>
+</div>
+
+<div class="row">
+	<div class="col-md-2">
+		&nbsp;</div>
+
+	<div class="col-md-8">
+		<p>
+			The University of North Texas Student Government Association, much like our country&#39;s branches of government,&nbsp;is composed of three main branches: the Executive Branch, the Legislative Branch, and the Judicial Branch. Together these three branches work to represent the student body here at the University of North Texas.</p>
+
+		<p>
+			<strong>The Executive Branch</strong> is comprised of eight (8) executive board&nbsp;members: Student Body President, Student Body Vice President, Chief of Staff, Director of Student Affairs, Director of Leadership and Development, Director of Campus Outreach, Director of Public Relations and Projects Manager. The executive powers of the Association are vested in this branch.&nbsp;</p>
+
+		<p>
+			<a href="https://studentaffairs.unt.edu/freshman-intern-program" id="text_link"><strong>The Freshman Intern Program </strong></a> is&nbsp;the Ultimate Leadership Experience. A selective group of about 30 first year freshman students work together to learn communication skills, get access to limited networking opportunities with university administrators and staff. These students will be trained in essential skills about leadership that will build and prepare them to be the principal influences on campus.<strong> </strong></p>
+
+		<p>
+			<a href="http://sga.unt.edu/student-senate" id="text_link"><strong>The Student Senate</strong></a> is a body of forty five (45) made up of representatives from each of the colleges. The seats are proportional to the student population of that particular college. The Student Senate is the legislative body of the Association.</p>
+
+		<p>
+			<a class="button button-constitution" href="/sites/default/files/untsgacodeofconduct_1.pdf">Senate Code of Conduct</a></p>
+
+		<p>
+			<strong>To speak to one of your representatives come into the SGA office during one of the senator&#39;s office hours listed on their staff profile.</strong></p>
+
+		<p>
+			<strong>The Judicial Branch</strong> is made up of our Supreme Court, and the Advocate General. This branch deals with hearing regarding the UNT SGA Governing Documents. Additionally,&nbsp;branch handles code of conduct referrals made by members of UNT SGA against members of the House and Senate.&nbsp;</p>
+
+		<p>
+			These branches work hard to represent the diverse student population through important legislation, referendums, and forums. We strive to get students involved and informed in UNT events and organizations.</p>
+	</div>
+
+	<div class="col-md-2">
+		&nbsp;</div>
+</div>
+<style type="text/css">p { font-size: 16px; font-weight: normal; line-height: 150%; padding-top: 20px; } #box { width: 100%; height: 150px; padding-bottom: 25%; background: -webkit-linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); background: -moz-linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); background: -ms-linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); background: linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); color: #F9F9F9; position: relative; line-height: 140px; text-align: center; border-style: groove; border-color: #339D65; border-width: 5px; margin-top: 5%; } #innerContent { 	font-family: 'Montserrat', sans-serif; 	font-size: 32px; 	font-weight: bold; text-shadow: 2px 2px #001B0C; 	background: transparent; 	display: inline-block; 	vertical-align: middle; 	line-height: normal; } #box_link a:link, a:visited { display: block; width: 100%; height: 150px; padding-bottom: 25%; background: -webkit-linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); background: -moz-linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); background: -ms-linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); background: linear-gradient(135deg, #005025 0%, #00853E 51%, #339D65 100%); font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: bold; text-shadow: 2px 2px #001B0C; color: #F9F9F9; position: relative; line-height: 140px; text-align: center; border-style: groove; border-color: #339D65; border-width: 5px; margin-top: 5%; text-decoration: none; } #box_link a:hover, a:active { border-style: groove; border-color: #F9F9F9;} #text_link { color: #339D65 } #text_link a:visited { color: #339D65 }
+</style>
+				</div>
+				<h1>Staff</h1>
+				
+
+<div class="view view-Staff view-id-Staff view-display-id-block_1 view-dom-id-9">
+
+
+    
+  
+  
+      <div class="view-content">
+      <h2>Exec.</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/adam_1.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Adam Alattry</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Student Body President</p>
+        <p>
+	Email: <a href="mailto:adam.alattry@unt.edu">adam.alattry@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/chris.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Christopher Lee</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Vice President</p>
+        <p>
+	Email: <a href="mailto:christopher.lee3@unt.edu">christopher.lee3@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/untitled-1.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Grant Hale</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Chief of Staff</p>
+        <p>
+	Email: <a href="mailto:grant.hale@unt.edu">grant.hale@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/dawaelyne_0.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Dawaelyne Jones</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Student Affairs</p>
+        <p>
+	Email: <a href="mailto:dawaelyne.jones@unt.edu">dawaelyne.jones@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/mikayla.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Mikayla Barnes</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Campus Outreach</p>
+        <p>
+	Email: <a href="mailto:mikayla.barnes@unt.edu">mikayla.barnes@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Tosan Amaku</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Leadership and Development</p>
+        <p>
+	Email: <a href="mailto:patricia.amaku@unt.edu">patricia.amaku@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/connor.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Connor Gray</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Director of Public Relations</p>
+        <p>
+	Email: <a href="mailto:connor.gray@unt.edu">connor.gray@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/hannah.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Hannah Frosch</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Project Manager</p>
+        <p>
+	Email: <a href="mailto:hannah.frosch@unt.edu">hannah.frosch@unt.edu</a></p></div>
+</div>
+
+<h2>Senate</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/alden_bird.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Alden Bird</h4>
+    	<p class="title">College of Arts and Sciences</p>
+        <p>
+	&nbsp;</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:aldenbird@my.unt.edu?subject=SGA%20Senator%20Outreach">aldenbird@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/angela_burr.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Angela Burr</h4>
+    	<p class="title">College of Arts and Sciences</p>
+        <p>
+	Monday: 1:00 PM-2:00 PM</p>
+
+<p>
+	Email: <a href="mailto:angelaburr@my.unt.edu">angelaburr@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/sam_deleon.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Sam DeLeon</h4>
+    	<p class="title">College of Arts and Sciences</p>
+        <p>
+	Thursday: 4:00 PM-5:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:sameuldeleon2@my.unt.edu?subject=SGA%20Senator%20Outreach">sameuldeleon2@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/new_girl.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Tiffany Miller</h4>
+    	<p class="title">College of Arts and Sciences</p>
+        <p>
+	Friday: 1:00 PM-2:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:tiffanymiller3@my.unt.edu?subject=SGA%20Senator%20Outreach">tiffanymiller3@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/mia_muric.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Mia Muric</h4>
+    	<p class="title">CAS, Secretary</p>
+        <p>
+	Tuesday: 11:00 AM- 12:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:miamuric@my.unt.edu?subject=SGA%20Senator%20Outreach">miamuric@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/valerie_ndubike.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Valerie Ndubuike</h4>
+    	<p class="title">College of Arts and Sciences</p>
+        <p>
+	&nbsp;</p>
+
+<p>
+	Email: <a href="mailto:valeriendubuike@my.unt.edu">valeriendubuike@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/rebecca_romo.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Rebecca Romo</h4>
+    	<p class="title">College of Arts and Sciences</p>
+        <p>
+	Wednesday: 12:00 PM-1:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:rebeccaromo@my.unt.edu?subject=SGA%20Senator%20Outreach">rebeccaromo@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/owen_saenz.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Owen Saenz</h4>
+    	<p class="title">College of Arts and Sciences</p>
+        <p>
+	Monday: 3:00 PM-4:00 PM</p>
+
+<p>
+	Email:&nbsp;</p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Barrett Cole</h4>
+    	<p class="title">College of Business</p>
+        <p>
+	Thursday: 1:00 PM-2:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:barrettcole@my.unt.edu?subject=SGA%20Senator%20Outreach">barrettcole@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/iesha_daboya.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Iesha Daboya</h4>
+    	<p class="title">College of Business</p>
+        <p>
+	Thursday: 3:00 PM-4:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:ieshadaboya@my.unt.edu?subject=SGA%20Senator%20Outreach">ieshadaboya@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/ernesto_flores.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Ernesto Flores</h4>
+    	<p class="title">College of Business</p>
+        <p>
+	Monday: 3:00 PM-4:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:ernestoflores@my.unt.edu?subject=SGA%20Senator%20Outreach">ernestoflores@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/caorline_roberson.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Caroline Roberson</h4>
+    	<p class="title">College of Business</p>
+        <p>
+	Wednesday: 10:00&nbsp;AM-11:00&nbsp;AM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:carolineroberson@my.unt.edu?subject=SGA%20Senator%20Outreach">carolineroberson@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/dylan_smith.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Dylan Smith</h4>
+    	<p class="title">College of Business</p>
+        <p>
+	Wednesday: 1:00 PM-2:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:dylansmith4@my.unt.edu?subject=SGA%20Senator%20Outreach">dylansmith4@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/myles_alexander.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Myles Alexander</h4>
+    	<p class="title">College of Education</p>
+        <p>
+	&nbsp;</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:myles.alexander@unt.edu?subject=SGA%20Senator%20Outreach">myles.alexander@unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/megan_leonard.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Megan Leonard</h4>
+    	<p class="title">College of Education</p>
+        <p>
+	Wednesday: 1:00 PM-2:00 PM</p>
+
+<p>
+	Email: <a href="mailto:MeganLeonard@my.unt.edu?subject=SGA%20Senator%20Outreach">meganleonard@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Alana Tosca</h4>
+    	<p class="title">College of Education</p>
+        <p>
+	Monday: 4:00 PM-5:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:alanatosca@my.unt.edu?subject=SGA%20Senator%20Outreach">alanatosca@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/mercedes_mercado.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Mercedes Mercado</h4>
+    	<p class="title">College of Education</p>
+        <p>
+	Friday: 12:00 PM-1:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:mercedesmercado@my.unt.edu?subject=SGA%20Senator%20Outreach">mercedesmercado@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Chelcie Parry</h4>
+    	<p class="title">College of Music</p>
+        <p>
+	Thursday: 2:00 PM-3:00 PM</p>
+
+<p>
+	Email: <a href="mailto:chelcieparry@my.unt.edu?subject=SGA%20Senator%20Outreach">chelcieparry@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/nicole_wan.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Nicole Wan</h4>
+    	<p class="title">College of Music</p>
+        <p>
+	Tuesday: 4:00 PM-5:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:nicolewan@my.unt.edu?subject=SGA%20Senator%20Outreach">nicolewan@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/eugenia_castaneda.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Eugenia Castañeda</h4>
+    	<p class="title">College of Public Affairs and Community Service</p>
+        <p>
+	Tuesday: 1:00 PM-2:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:eugeniacastaneda@my.unt.edu">eugeniacastaneda@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/easton_lachlann.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Easton Lachlann</h4>
+    	<p class="title">College of Public Affairs and Community Service</p>
+        <p>
+	Monday: 5:00 PM-6:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:eastonlachlann@my.unt.edu">eastonlachlann@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/macarena_astorga.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Macarena Astorga</h4>
+    	<p class="title">CVAD</p>
+        <p>
+	&nbsp;</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:macarenaastorga@my.unt.edu?subject=SGA%20Senator%20Outreach">macarenaastorga@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/kylie_fischer.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kylie Fischer</h4>
+    	<p class="title">CVAD</p>
+        <p>
+	&nbsp;</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:kyliefischer@my.unt.edu?subject=SGA%20Senator%20Outreach">kyliefischer@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/isaac_warriner.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Isaac Warriner</h4>
+    	<p class="title">Honors College</p>
+        <p>
+	Thursday: 11:00 AM-12:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:isaacwarriner@my.unt.edu?subject=SGA%20Senator%20Outreach">isaacwarriner@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Shomari Cotton</h4>
+    	<p class="title">College of Engineering</p>
+        <p>
+	Thursday: 4:00 PM- 5:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:ShomariCotton@my.unt.edu?subject=SGA%20Senator%20Outreach">ShomariCotton@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Anissa Kappayil</h4>
+    	<p class="title">College of Engineering</p>
+        <p>
+	Wednesday: 2:00 PM-3:00 PM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:anissakappayil@my.unt.edu?subject=SGA%20Senator%20Outreach">anissakappayil@my.unt.edu</a></p></div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Adam Miller</h4>
+    	<p class="title">College of Engineering</p>
+        <p>
+	Tuesday: 10:00 AM-11:00 AM</p>
+
+<p>
+	Email:&nbsp;<a href="mailto:adammiller5@my.unt.edu?subject=SGA%20Senator%20Outreach">adammiller5@my.unt.edu</a></p></div>
+</div>
+
+<h2>Interns</h2>
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/hans_alhers.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Hans Alhers</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/jo.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jo Beckman</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/natalie.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Natalie Belokin</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/madison.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Madison Carrier</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/isaac_davis.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Isaac Davis</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/evan.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Evan Dunn</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/mimg.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Joseph El-Ashkar</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/austin_french.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Austin French</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/eva.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Eva Garza</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jordan Gill</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg2.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Krystina Hickey</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/isabella.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Isabella Hutto</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg9.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Caroline Jaimes</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/sierra_0.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Sierra Johnson</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg6.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Abigail King</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg8.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Lexi Knight</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg3.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Anna Krzewinski</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg10.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Mary Maddox</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/kenya.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kenya Mavhera</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/mimg3.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Ian McFarland</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/omar.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Omar Naguib</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/kelly.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Kelly Phommachanh</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/mimg2.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Michael Ramirez</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/matthew_reyes.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Matthew Reyes</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/diamond.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Diamond Romar</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg4.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Paige Sennet</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/tanner_smithson.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Tanner Smithson</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/emma_sobocinski.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Emma Sobocinski</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/joshua_wilbanks.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Joshua Wilbanks</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/imagecache/cards/staff/fimg7.jpg" alt="Photo of " />
+	</div>
+    	<h4 class="name">Jenna Williamson</h4>
+    	<p class="title"></p>
+        </div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tab-pane" id="programs">
+	<div class="container">
+		
+
+<div class="view view-programs view-id-programs view-display-id-block_1 view-dom-id-6">
+
+
+        <div class="view-header">
+      <style>
+.bef-select-as-radios .form-item{
+  display:inline-block;
+}
+#edit-field-tags-value-217-wrapper {
+  display:none;
+  visibility:hidden;
+  height:0px;
+}
+</style>
+
+<div class="dropdown filter filter-title" data-filter="views-widget-filter-title" data-filter-type="text">
+	<input type="text" data-filter-id="edit-title" placeholder="Refine by Title" />
+</div>
+
+<div class="dropdown filter filter-channel" data-filter="views-widget-filter-field_program_category_value" data-filter-type="list">
+<a href="#" class="button button-filter button-caret" data-toggle="dropdown">Channels</a>
+<ul class="dropdown-menu">
+</ul>
+</div>
+
+<div class="filter filter-channel-secondary" data-filter="views-widget-filter-field_tags_value" data-filter-type="list">
+<ul class="tags">
+</ul>
+</div>    </div>
+  
+      <div class="view-filters">
+      <form action="/programs-dev"  accept-charset="UTF-8" method="get" id="views-exposed-form-programs-block-1" class="views_exposed_form">
+<div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget views-widget-filter-field_tags_value">
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"></div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-field_program_category_value">
+                  <label for="edit-channel">
+            Channel          </label>
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item" id="edit-channel-29-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-29" value="29"  /> <label class='option' for='edit-channel-29'>Arts &amp; Entertainment</label>
+</div>
+<div class="form-item" id="edit-channel-30-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-30" value="30"  /> <label class='option' for='edit-channel-30'>Career</label>
+</div>
+<div class="form-item" id="edit-channel-39-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-39" value="39"  /> <label class='option' for='edit-channel-39'>Community Service</label>
+</div>
+<div class="form-item" id="edit-channel-32-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-32" value="32"  /> <label class='option' for='edit-channel-32'>Education</label>
+</div>
+<div class="form-item" id="edit-channel-34-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-34" value="34"  /> <label class='option' for='edit-channel-34'>Health &amp; Wellness</label>
+</div>
+<div class="form-item" id="edit-channel-35-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-35" value="35"  /> <label class='option' for='edit-channel-35'>Leadership</label>
+</div>
+<div class="form-item" id="edit-channel-33-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-33" value="33"  /> <label class='option' for='edit-channel-33'>Money Management</label>
+</div>
+<div class="form-item" id="edit-channel-253-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-253" value="253"  /> <label class='option' for='edit-channel-253'>Orientation &amp; Transitioning</label>
+</div>
+<div class="form-item" id="edit-channel-252-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-252" value="252"  /> <label class='option' for='edit-channel-252'>Pride &amp; Traditions</label>
+</div>
+<div class="form-item" id="edit-channel-59-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-59" value="59"  /> <label class='option' for='edit-channel-59'>Residence Life</label>
+</div>
+<div class="form-item" id="edit-channel-36-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-36" value="36"  /> <label class='option' for='edit-channel-36'>Retail &amp; Dining</label>
+</div>
+<div class="form-item" id="edit-channel-41-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-41" value="41"  /> <label class='option' for='edit-channel-41'>Rights &amp; Conduct</label>
+</div>
+<div class="form-item" id="edit-channel-201-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-201" value="201"  /> <label class='option' for='edit-channel-201'>UNT</label>
+</div>
+</div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Title          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-title-wrapper">
+ <input type="text" maxlength="128" name="title" id="edit-title" size="30" value="" class="form-text" />
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-programs" value="Apply"  class="form-submit" />
+<input type="hidden" name="views_exposed_form_focused_field" id="edit-views-exposed-form-focused-field" value=""  />
+    </div>
+  </div>
+</div>
+
+</div></form>
+    </div>
+  
+  
+      <div class="view-content">
+          
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/eagles-nest-funding">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/eagle_nest_header_3.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-moneymanagement">Money Management</div> </div>
+			<h1>Eagle&#039;s Nest Funding</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		&nbsp;
+
+	
+		
+			Eagle&#39;s Nest is now open&nbsp;for the spring semester!
+
+		
+			Does your registered organization put on events,...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/freshman-intern-program">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/group.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-leadership">Leadership</div> </div>
+			<h1>Freshman Intern Program</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	The Freshman Intern Program is the Ultimate Leadership Experience. A selective group of about 30 first year freshman students work...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/raupe-travel-grant">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/travel1_0.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-moneymanagement">Money Management</div> </div>
+			<h1>Raupe Travel Grant</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	&nbsp;
+
+
+	
+		
+			Raupe Travel Grant is a scholarship for UNT students who are attending a conference that will not only benefit&nbsp;the...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/review">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/stack-of-newspapers.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-unt">UNT</div> </div>
+			<h1>The Review</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	&nbsp; &nbsp; &nbsp;The Review is SGA&#39;s biweekly newsletter publication. In The Review, SGA highlights:
+
+
+	
+		SGA administration...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/thecb-application">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/sgalogosite_0.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-leadership">Leadership</div> </div>
+			<h1>THECB Application</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	Texas Higher Education Coordinating Board (THECB) Financial Aid Advisory Committee
+
+
+	&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...	</div>
+	
+</div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+	</div>
+</div>
+
+    <div class="tab-pane tab-" id="elections">
+	<div class="container">
+				<div class="well">
+			<h3>
+	2016 Official Runoff Election Results</h3>
+
+<h5>
+	<span style="font-size: 14px; line-height: 1.1;">Click</span><span style="font-size: 14px; line-height: 1.1;"> the button&nbsp;below to view the 2016 SGA General Election Results:</span></h5>
+<p--> <p-->
+<p>
+	<a class="button button-budget" href="/sites/default/files/skm_c654e16042220480.pdf">Runoff Election Results</a></p>
+
+<h2>
+	Election Code Rulings:</h2>
+
+<p>
+	<a href="/sites/default/files/deleon_-_saenz_hearing_1.pdf">Hearing 1</a></p>
+
+<p>
+	<a href="/sites/default/files/hale_-_cole_hearing_2.pdf">Hearing 2</a></p>
+
+<p>
+	<a href="/sites/default/files/hale_-_cole_hearing_3.pdf">Hearing 3</a></p>
+<p--><p--> </p--></p--></p--></p-->		</div>
+	</div>
+</div>    <div class="tab-pane tab-" id="minutes">
+	<div class="container">
+				<div class="well">
+			<h1>
+	Minutes:</h1>
+
+<h2>
+	Spring 2016:</h2>
+
+<h4>
+	<a a="" href="/sites/default/files/sga_1_20.pdf" style="text-decoration:none; color:#008000;">January 20</a></h4>
+
+<h4>
+	<a href="/sites/default/files/programs/sga_1_27.pdf" style="text-decoration:none; color:#008000;">January 27</a></h4>
+
+<h4>
+	<a href="/sites/default/files/minutesofsgameetingfebruary3rd.pdf" style="text-decoration:none; color:#008000;">February 3</a></h4>
+
+<h4>
+	<a href="/sites/default/files/minutesofsenatemeetingfebruary10th.pdf" style="text-decoration:none; color:#008000;">February 10</a></h4>
+
+<h4>
+	<a href="/sites/default/files/minutesoffeb_172016.pdf" style="text-decoration:none; color:#008000;">February 17</a></h4>
+
+<h4>
+	<a href="/sites/default/files/minutesoffeb_242016.pdf" style="text-decoration:none; color:#008000;">February 24</a></h4>
+
+<h4>
+	<a href="/sites/default/files/mar.22016.pdf" style="text-decoration:none; color:#008000;">March 2</a></h4>
+
+<h4>
+	<a href="/sites/default/files/minutesofsenatemar_92016.pdf" style="text-decoration:none; color:#008000;">March 9</a></h4>
+
+<h4>
+	<a href="/sites/default/files/minutesofmar_232016.pdf" style="text-decoration:none; color:#008000;">March 23</a></h4>
+
+<h4>
+	<a href="/sites/default/files/mar.302016.pdf">March 30</a></h4>
+
+<h4>
+	<a href="/sites/default/files/copyofapril132016.pdf">April 13</a></h4>
+
+<h4>
+	<a href="/sites/default/files/copyofapril202016.pdf">April 20</a></h4>		</div>
+	</div>
+</div>    <div class="tab-pane tab-" id="legislation">
+	<div class="container">
+				<div class="well">
+			<h2>
+	Supreme Court Cases</h2>
+
+<h4>
+	<a href="/sites/default/files/skm_c654e16042910552.pdf">Ruling on Case #1</a></h4>
+
+<h4>
+	<a href="/sites/default/files/skm_c654e16042910551.pdf">Ruling on Case #2</a></h4>
+
+<h4>
+	<a href="/sites/default/files/skm_c654e16042910540.pdf">Ruling on Case #3</a></h4>
+
+<h2>
+	Fall 2015</h2>
+
+<div>
+	<strong><a a="" href="/sites/default/files/pdf/fall_2015_referendum_certification_signed.pdf" style="text-decoration:none; color:#008000;">2015&nbsp;Fall Referendum- 1</a></strong></div>
+
+<h2>
+	Spring 2016</h2>
+
+<h4>
+	<a href="/sites/default/files/resolution_1-spring_2016.pdf" style="text-decoration:none; color:#008000;">2016 Spring Resolution- 1</a></h4>
+
+<h4>
+	<a href="/sites/default/files/spring_016_b1-_final_scan.pdf" style="text-decoration:none; color:#008000; ">2016 Spring Bill- 1</a></h4>
+
+<h4>
+	<a href="/sites/default/files/spring_2016_r2_final_scan.pdf" style="text-decoration:none; color:#008000; ">2016 Spring Resolution- 2</a></h4>
+
+<h4>
+	<a href="/sites/default/files/b3-s2016.pdf" style="text-decoration:none; color:#008000; ">2016 Spring Bill- 3</a></h4>
+
+<h4>
+	<a href="/sites/default/files/b4-s2016.pdf" style="text-decoration:none; color:#008000; ">2016 Spring Bill- 4</a></h4>
+
+<h4>
+	<a href="/sites/default/files/b5-s2016_scanned.pdf">2016 Spring Bill- 5</a></h4>
+
+<h4>
+	<a href="/sites/default/files/r3-s2016.pdf" style="color: rgb(0, 128, 0);">2016 Spring Resolution-</a>&nbsp;3</h4>
+
+<h4>
+	<a href="/sites/default/files/r4-s2016.pdf" style="color: rgb(0, 128, 0);">2016 Spring Resolution-</a>&nbsp;4</h4>
+
+<h4>
+	<a href="/sites/default/files/r5-s2016.pdf" style="color: rgb(0, 128, 0);">2016 Spring Resolution-</a>&nbsp;5</h4>
+
+<h4>
+	<a href="/sites/default/files/b8-s2016.pdf" style="color: rgb(0, 128, 0);">2016 Spring Bill-</a>&nbsp;8</h4>
+
+<h4>
+	<a href="/sites/default/files/b9-s2016.pdf" style="color: rgb(0, 128, 0);">2016 Spring Bill-</a>&nbsp;9</h4>
+
+<h4>
+	<a href="/sites/default/files/b10-s2016.pdf" style="color: rgb(0, 128, 0);">2016 Spring Bill-</a>&nbsp;10</h4>		</div>
+	</div>
+</div>
+<div class="tab-pane" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Send Us a Message</h1>
+				<div class="well">
+					<form action="https://studentaffairs.unt.edu/form/contact-student-government-association"  accept-charset="UTF-8" method="post" id="webform-client-form-82057" class="webform_client_form_82057">
+<div><div class="webform-component webform-component-textfield" id="webform-component-name"><div class="form-item" id="edit-submitted-name-wrapper">
+ <label for="edit-submitted-name">Name: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="submitted[name]" id="edit-submitted-name" size="60" value="" class="form-text required" />
+</div>
+</div><div class="webform-component webform-component-email" id="webform-component-email"><div class="form-item" id="edit-submitted-email-wrapper">
+ <label for="edit-submitted-email">Email: <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-text form-email required email" type="email" id="edit-submitted-email" name="submitted[email]" size="60" />
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-subject"><div class="form-item" id="edit-submitted-subject-wrapper">
+ <label for="edit-submitted-subject">Subject: </label>
+ <input type="text" maxlength="128" name="submitted[subject]" id="edit-submitted-subject" size="60" value="" class="form-text" />
+</div>
+</div><div class="webform-component webform-component-textarea" id="webform-component-message"><div class="form-item" id="edit-submitted-message-wrapper">
+ <label for="edit-submitted-message">Message: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="submitted[message]" id="edit-submitted-message"  class="form-textarea resizable required ckeditor-mod filterxss2"></textarea>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-message','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-message">Switch to plain text editor</a><input type="hidden" name="details[sid]" id="edit-details-sid" value=""  />
+<input type="hidden" name="details[page_num]" id="edit-details-page-num" value="1"  />
+<input type="hidden" name="details[page_count]" id="edit-details-page-count" value="1"  />
+<input type="hidden" name="details[finished]" id="edit-details-finished" value="0"  />
+<input type="hidden" name="form_build_id" id="form-DKBGTo7BxizttFRMSbCI__yO12F2sIxXC1QAFf-9nz4" value="form-DKBGTo7BxizttFRMSbCI__yO12F2sIxXC1QAFf-9nz4"  />
+<input type="hidden" name="form_id" id="edit-webform-client-form-82057" value="webform_client_form_82057"  />
+<div id="edit-actions" class="form-actions form-wrapper"><input type="submit" name="op" id="edit-submit" value="Submit"  class="form-submit" />
+</div>
+</div></form>
+				</div>
+			</div>
+			<div class="col-md-4">
+								<h1>Call or Fax</h1>
+				<div class="well">
+					<div class="row">
+												<div class="col-md-6">
+							<h4>Phone</h4>
+							(940)565-3850						</div>
+												<div class="col-md-6">
+													</div>
+					</div>
+										<a href="tel:(940)565-3850" class="button button-block">Call Now</a>
+									</div>
+								
+				<h1>Visit & Ship to Us</h1>
+				
+
+<div class="view view-Buildings view-id-Buildings view-display-id-block_1 view-dom-id-11">
+
+
+        <div class="view-header">
+      <style>
+.view-Buildings .well.with-photo .photo {
+border-radius: 4px 4px 0 0;
+width: calc(100% + 1px);
+height: 150px;
+top: 0;
+left: 0;
+background-size: cover;
+background-color: #3a4740;
+background-position: center;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.5);
+
+}
+
+.view-Buildings .well.with-photo .photo a{
+     color:#fff;
+}
+</style>    </div>
+  
+  
+  
+      <div class="view-content">
+          	
+<div class="card-container col-md-12 col-sm-12 col-xs-12">
+<div class="well location with-map">
+	<a href="/the-union">
+	<header style="background: url('sites/default/files/union.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til midnight.</span>						<h1>The Union</h1>
+					</div>
+	</header>
+	</a>
+	
+	<a href="#" class="map" style="background: url('//maps.googleapis.com/maps/api/staticmap?center=33.211099,-97.147089&markers=color:red%7C33.211099,-97.147089&zoom=16&size=500x150&key=AIzaSyBTUhAduMuaKpXksLTychjoY91Jl8FkMtY') no-repeat center;">Map to The Union</a>	
+	<div class="description">
+		1155 Union Cir	</div>
+	
+</div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+					
+				<h1>Mail to Us</h1>
+				<div class="well">
+					University of North Texas<br />
+					Student Government Association (SGA)<br />
+					1155 Union Circle ##305069<br />
+					Denton TX, 76201
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+</div><!-- end .tabbable -->
+
+
+<style>
+	.hero{
+		background-image:url('/sites/default/files/senator.jpg');
+	}
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/base.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/ajax_view.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/dependent.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/views_hacks/views_filters_autosubmit/views_filters_autosubmit.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/better_exposed_filters/better_exposed_filters.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ckeditor/ckeditor/ckeditor.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/webform/js/webform.js?s"></script>
+<script type="text/javascript" src="/misc/textarea.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.form.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ], "roles": { "1": "anonymous user", "2": "anonymous user", "3": "anonymous user", "4": "anonymous user", "5": "anonymous user", "6": "anonymous user", "7": "anonymous user", "8": "anonymous user", "9": "anonymous user", "10": "anonymous user", "11": "anonymous user", "12": "anonymous user", "13": "anonymous user", "14": "anonymous user", "15": "anonymous user", "16": "anonymous user", "17": "anonymous user", "18": "anonymous user", "19": "anonymous user", "20": "anonymous user", "21": "anonymous user" } } }, "views": { "ajax_path": [ "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax" ], "ajaxViews": [ { "view_name": "posts", "view_display_id": "block_7", "view_args": "79629", "view_path": "node/79629", "view_base_path": "posts-manage", "view_dom_id": 1, "pager_element": 0 }, { "view_name": "Staff", "view_display_id": "block_1", "view_args": "79629", "view_path": "node/79629", "view_base_path": "people", "view_dom_id": 3, "pager_element": 0 }, { "view_name": "Staff", "view_display_id": "block_1", "view_args": "79629", "view_path": "node/79629", "view_base_path": "people", "view_dom_id": 4, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_1", "view_args": "79629", "view_path": "node/79629", "view_base_path": "programs-dev", "view_dom_id": 5, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_1", "view_args": "79629", "view_path": "node/79629", "view_base_path": "programs-dev", "view_dom_id": 6, "pager_element": 0 }, { "view_name": "Staff", "view_display_id": "block_1", "view_args": "79629", "view_path": "node/79629", "view_base_path": "people", "view_dom_id": 9, "pager_element": 0 } ] }, "vfas": { "views-exposed-form-programs-block-1": { "exceptions": "" } }, "CToolsUrlIsAjaxTrusted": { "/programs-dev": [ true, true, true, true ], "https://studentaffairs.unt.edu/form/contact-student-government-association": true, "/org/sga": true }, "ckeditor": { "module_path": "/sites/all/modules/ckeditor", "editor_path": "/sites/all/modules/ckeditor/ckeditor", "ajaxToken": "703e69e173a43926b6ff3ae504a5ac96", "xss_url": "/ckeditor/xss", "query": "node/79629", "default_input_format": "3", "theme": "Apollo3", "settings": { "edit-submitted-message": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] } }, "autostart": { "edit-submitted-message": true } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "og": { "group_context": { "nid": "79629", "title": "Student Government Association (SGA)", "type": "organization" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+<script type="text/javascript" src="/sites/all/modules/ckeditor/includes/ckeditor.utils.js?s"></script>
+
+</div>
+</body>
+</html>

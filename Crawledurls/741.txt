@@ -1,0 +1,500 @@
+<!doctype html>
+
+	<html lang="en" class="no-js ">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+	<meta http-equiv="Content-Language" content="en" />
+	<title>Showtime Official Site</title><meta name="description" content="Showtime official site, featuring Homeland, Masters of Sex, Dexter, Ray Donovan, and other popular TV series. Schedule, episode guides, videos and more." /><meta name="spring-layout" content="layouts.default" /><meta name="spring-protected-page" content="false" />
+	<meta name="spring-environment-server" content="LIVE" />
+	
+	<meta name="spring-device-platform" content="desktop" />
+	<meta name="page-tracking" content="home" /><meta property="og:site_name" content="SHO.com" />
+	<meta property="og:type" content="tv_show" />
+	<meta property="og:title" content="Showtime Official Site" /><meta property="og:description" content="Showtime official site, featuring Homeland, Masters of Sex, Dexter, Ray Donovan, and other popular TV series. Schedule, episode guides, videos and more." /><meta property="og:image" content="http://www.sho.com/site/image-bin/images/0_0_0/0_0_0_prm-ogsho_246x246.jpg" /><meta property="fb:app_id" content="132432090187" /> 
+	<meta property="fb:admins" content="1466768414"/>
+	
+	<meta name="twitter:site" content="@Showtime" />
+	
+	<meta name="google" content="notranslate" />
+	
+	<link rel="canonical" href="http://www.sho.com/sho/home" />
+		<meta name="twitter:card" content="summary_large_image" /><script src="//cdn.optimizely.com/js/3403230669.js"></script>
+    <link rel="stylesheet" type="text/css" href="/ROOT/lib/css/vendor.min.css?v=6.41.12" /><link rel="stylesheet" type="text/css" href="/ROOT/lib/css/timber.min.css?v=6.41.12" /><link rel="stylesheet" type="text/css" href="/ROOT/lib/css/sho.min.css?v=6.41.12" /><script type="text/javascript">
+        var omniture_rsid = 'cbsshocom,cbsshoglobal';
+    </script>
+	
+	<script type="text/javascript" src="/ROOT/lib/js/vendor.min.js?v=6.41.12"></script><script type="text/javascript" src="/ROOT/lib/js/sho.min.js?v=6.41.12"></script><script type="text/javascript">
+		sho.provide('sho.ui.popups'); 
+		
+		// uncomment these properties to override the defaults in sho.ui.popups.Manager
+		sho.ui.popups.modal_config = {
+			'title':  '',
+			'width':  500,
+			'height': 180,
+		    'url': 	 '/sho/notices/1-modal',
+			
+			// return true if it is safe to show the popup
+			'beforeOpenPopUp' : (function(){
+				var p = window.location.pathname;
+				return (!/\/sho\/(notices|housing|lodging|holiday-card)/.test(p) && 
+						!/^\/tmc\//.test(p) && 
+						sho.env.isDesktop()
+				);
+			})
+		};
+		
+		// set this flag to false to disable
+		sho.ui.popups.enabled = false;
+	</script>
+<script type="text/javascript">
+		sho.provide('sho.ui.notifications'); 
+        
+		sho.ui.notifications.config = {
+			'title' :  'Our Terms of Use and Privacy Policy Have Changed',
+            'content' : 'Our Privacy Policy and Terms of Use have changed effective as of July 7, 2015. <a class="notification-cookie" href="http://www.sho.com/privacyupdates">Click here</a> for more information about the updates. <span class="hidden-xs">Please review the updated Privacy Policy and Terms of Use before using this website. By using this website, you consent to the updated Privacy Policy and Terms of Use.</span>',
+			
+			// return true if it is safe to show the popup
+			'beforeNotification' : (function(){
+                // only show notification if page is sho.com home page
+				var isShoHome = document.getElementsByTagName("body")[0].className.match(/sho-home/);
+                return !!isShoHome;
+			})
+		};
+		// set this flag to false to disable
+		sho.ui.notifications.enabled = false;
+	</script>
+<script type="text/javascript" src="/ROOT/home/js/index.js"></script><script type="text/javascript" src="//use.typekit.net/try3fbz.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script><link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+
+		<script src="//assets.adobedtm.com/eca55fd08170af505e740f16d8cd90e78a06126b/satelliteLib-13a2374f510724dbaaae05d6b73711be54a02e7c.js"></script>
+		</head>
+
+	<body id="" class="has-min-width has-nav-primary has-nav-footer tk-ff-din-web home sho-home">
+
+	<div class="container" data-component="sho.ui.nav.Navigator">
+
+		<!-- set variable to true to render top right global navigation item across desktop site -->
+    <style>
+    .notices .nav #nav-header-showdown a {
+      color: #ff0000;
+    }
+    </style>
+    
+	<div class="nav docked clearfix nav-header" data-event-context="global navigation">
+		<div id="my-sho" class="my-sho" data-component="sho.ui.menu.AccountsMenu">
+			<p>
+                <a data-behavior="track-navigation" data-event-label="log in" id="login" href="/sho/accounts/login">Log In</a>
+            </p>
+		</div>
+		<ul class="inline">
+			<li id="nav-header-watch-sho-online"><a data-behavior="track-navigation" data-event-label="watch showtime online" href="http://www.showtime.com/?i_cid=int-default-1010">Watch Showtime Online</a></li>
+			<li id="nav-header-shop"><a data-behavior="track-navigation" data-event-label="shop" href="http://store.sho.com/?ecid=PRF-SHO-S02166&pa=PRF-SHO-S02166">Shop</a></li>
+			<li id="nav-header-order"><a href="/sho/order/home" data-behavior="track-navigation" data-event-label="order">Order</a></li>
+			<li id="nav-header-schedules"><a data-behavior="track-navigation" data-event-label="schedules" href="/sho/schedules/index">Schedules</a></li>
+		</ul>
+	</div>
+	<div id="nav-primary" class="nav docked nav-primary" data-event-context="global navigation">
+
+	<div class="nav-search">
+		<form class="nav-search-form" name="searchform" action="/sho/search" method="GET" data-component="sho.ui.SearchBox">
+			<input class="nav-search-query" type="text" name="q" placeholder="Search" />
+			<input class="nav-search-go" type="submit" src="/assets/images/lib/c.png" />
+			<input type="submit" value="go" style="visibility:hidden;" />
+		</form>
+	</div>
+	
+	<!-- using no-drawer class name to shut down drop downs -->
+	<ul class="inline" style="height:0">
+		<li id="sho-logo"><a data-behavior="track-navigation" data-event-label="showtime logo" href="/sho/home">Showtime Home</a></li>
+		<li id="series" class="no-drawer nav-item franchise"><a data-behavior="track-navigation" data-event-label="series" href="/sho/series">Series</a></li>
+		<li id="movies" class="no-drawer nav-item franchise"><a data-behavior="track-navigation" data-event-label="movies" href="/sho/movies/home">Movies</a></li>
+		<li id="sports" class="no-drawer nav-item franchise"><a data-behavior="track-navigation" data-event-label="sports" href="/sho/sports/home">Sports</a></li>
+		<li id="comedy" class="no-drawer nav-item franchise"><a data-behavior="track-navigation" data-event-label="comedy" href="/sho/comedy/home">Comedy</a></li>
+		<li id="reality-docs" class="no-drawer nav-item franchise"><a data-behavior="track-navigation" data-event-label="reality/docs" href="/sho/reality-docs/home">Documentaries</a></li>
+		<li id="pipebar"></li>		
+		<li id="promo-item"><a data-behavior="track-navigation" data-event-label="seasonal:new way to get showtime" href="/sho/order/5/ott">NEW WAY TO GET SHOWTIME</a></li>
+	</ul>
+				
+</div><!-- END primary -->
+<div class="content ">
+			<!-- content: `/home/views/index.jsp` -->
+			<div class="tracking-pixel">
+		<!-- Google Code for Page Retargeting Remarketing List -->
+		<script type="text/javascript">
+		<!--
+		var google_conversion_id = 1022204214;
+		var google_conversion_language = "en";
+		var google_conversion_format = "3";
+		var google_conversion_color = "666666";
+		var google_conversion_label = "kd28CLSK2gIQtrK25wM";
+		var google_conversion_value = 0;
+		//-->
+		</script>
+		<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+		</script>
+		<noscript>
+		<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1022204214/?label=kd28CLSK2gIQtrK25wM>&amp;guid=ON&amp;script=0"/>
+		</div>
+		</noscript>
+	</div>
+<script type="application/ld+json">
+	{
+   "@context": "http://schema.org",
+   "@type": "WebSite",
+   "url": "http://www.sho.com",
+   "potentialAction": {
+     "@type": "SearchAction",
+     "target": "http://www.sho.com/sho/search?q={search_term_string}",
+     "query-input": "required name=search_term_string"
+   }
+		}
+	</script><div class="carousel">
+		<div class="carousel-content">
+			<div class="flash-panel"></div>
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="/sho/order/5/ott/?i_cid=int-default-2170" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:1:order:a new way to get showtime:order"
+					
+				data-panel-index="0" 
+				data-panel-duration="6" 
+				data-promotion-id="1213203">
+				<img src="http://www.sho.com/site/image-bin/images/0_0_0/0_0_0_prm-ottvidv2_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein"><span class="accent"></span></span>
+					<span class="title">A New Way to Get SHOWTIME</span>
+				
+				<span class="sub-title">Get SHOWTIME over the internet &amp; stream hit series, movies, sports, and more instantly.</span>
+				<span class="options more-info">
+						<a href="/sho/order/5/ott/?i_cid=int-default-2170" class="more" data-behavior="track-click" data-click-id="carousel:1:order:a new way to get showtime:1:link_order:start your free trial">Start Your FREE Trial</a>
+							<a href="/sho/video/titles/36960/a-new-way-to-get-showtime-r" class="video" data-behavior="play-video" data-video-id="36960" data-click-id="carousel:1:order:a new way to get showtime:2:video_other:watch promo">Watch Promo</a>
+							</span>
+				</div>
+			</div>
+			
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="/sho/penny-dreadful/home" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:2:series site:penny dreadful:episode guide"
+					
+				data-panel-index="1" 
+				data-panel-duration="8" 
+				data-promotion-id="1320087">
+				<img src="http://www.sho.com/site/image-bin/images//1003223_3_3423912/1003223_3_3423912_prm-nxton302_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein">Available Now<span class="accent"></span></span>
+					<span class="title">Penny Dreadful</span>
+				
+				<span class="sub-title">On Season 3, Episode 2: Ethan gets help from Hecate, and evil forces track Vanessa&#039;s every move.</span>
+				<span class="options more-info">
+						<a href="http://www.showtime.com/#/episode/3423912/?i_cid=int-default-1263" class="more" data-behavior="track-click" data-click-id="carousel:2:series site:penny dreadful:1:link_streaming_service:watch the latest episode now">Watch the Latest Episode Now</a>
+							<a href="/sho/order/5/ott/?i_cid=int-penny-2094" class="more" data-behavior="track-click" data-click-id="carousel:2:series site:penny dreadful:2:link_order:start your showtime free trial now">Start Your Showtime Free Trial Now</a>
+							</span>
+				</div>
+			</div>
+			
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="http://www.showtime.com/#/series/1032723/?i_cid=int-dice-2489" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:3:series site:watch all six episodes of dice:sss"
+					
+				data-panel-index="2" 
+				data-panel-duration="8" 
+				data-promotion-id="1291384">
+				<img src="http://www.sho.com/site/image-bin/images/1032723_1_0/1032723_1_0_prm-keyart1_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein"><span class="accent"></span></span>
+					<span class="title">Watch All Six Episodes of Dice</span>
+				
+				<span class="sub-title">All episodes of DICE are now available On Demand, on Showtime Anytime and on the SHOWTIME app.</span>
+				<span class="options more-info">
+						<a href="http://www.showtime.com/#/series/1032723/?i_cid=int-dice-2489" class="more" data-behavior="track-click" data-click-id="carousel:3:series site:watch all six episodes of dice:1:link_streaming_service:watch dice now on showtime">Watch Dice Now on Showtime</a>
+							<a href="/sho/order/5/ott/?i_cid=int-dice-2489" class="more" data-behavior="track-click" data-click-id="carousel:3:series site:watch all six episodes of dice:2:link_order:start your showtime free trial now">Start Your Showtime Free Trial Now</a>
+							</span>
+				</div>
+			</div>
+			
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="/sho/house-of-lies/home" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:4:series site:house of lies:other link"
+					
+				data-panel-index="3" 
+				data-panel-duration="8" 
+				data-promotion-id="1320129">
+				<img src="http://www.sho.com/site/image-bin/images//805_5_3422963//805_5_3422963_prm-nxton505_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein">Available Now<span class="accent"></span></span>
+					<span class="title">House of Lies</span>
+				
+				<span class="sub-title">On Season 5, Episode 5: Marty begrudgingly reunites with a pair of his most obnoxious past clients.</span>
+				<span class="options more-info">
+						<a href="http://www.showtime.com/#/episode/3422963/?i_cid=int-hol-3487" class="more" data-behavior="track-click" data-click-id="carousel:4:series site:house of lies:1:link_streaming_service:watch the latest episode now">Watch the Latest Episode Now</a>
+							<a href="/sho/order/5/ott/?i_cid=int-hol-2196" class="more" data-behavior="track-click" data-click-id="carousel:4:series site:house of lies:2:link_order:start your showtime free trial now">Start Your Showtime Free Trial Now</a>
+							</span>
+				</div>
+			</div>
+			
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="/sho/all-access-quest-for-the-stanley-cup/home" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:5:other link:all access: quest for the stanley cup:series site"
+					
+				data-panel-index="4" 
+				data-panel-duration="8" 
+				data-promotion-id="1324131">
+				<img src="http://www.sho.com/site/image-bin/images//1004409_1_0//1004409_1_0_prm-keyart_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein">Premieres Friday May 20 at 9 PM <em class="etpt">ET/PT</em><span class="accent"></span></span>
+					<span class="title">ALL ACCESS: Quest For The Stanley Cup</span>
+				
+				<span class="sub-title">This real-time documentary series takes you onto the ice, into the locker room, and inside the minds of the players and coaches as they chase what is called by many the hardest trophy to win in all of sports.</span>
+				<span class="options more-info">
+						<a href="/sho/video/titles/49159/all-access-quest-for-the-stanley-cup---launch" class="video" data-behavior="play-video" data-video-id="49159" data-click-id="carousel:5:other link:all access: quest for the stanley cup:1:video_trailer:watch preview">Watch Preview</a>
+							</span>
+				</div>
+			</div>
+			
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="/sho/video/titles/49162/ray-donovan-season-4-trailer" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:6:none:ray donovan:other link"
+					
+				data-panel-index="5" 
+				data-panel-duration="8" 
+				data-promotion-id="1293746">
+				<img src="http://www.sho.com/site/image-bin/images//1002742_4_0//1002742_4_0_prm-keyarts4_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein">New Season Premiere: Sunday, June 26 at 9 PM <em class="etpt">ET/PT</em><span class="accent"></span></span>
+					<span class="title">Ray Donovan</span>
+				
+				<span class="sub-title">No secret stays buried forever.</span>
+				<span class="options more-info">
+						<a href="/sho/video/titles/49162/ray-donovan-season-4-trailer" class="video" data-behavior="play-video" data-video-id="49162" data-click-id="carousel:6:none:ray donovan:1:video_trailer:watch trailer">Watch Trailer</a>
+							<a href="http://www.showtime.com/#/series/1002742/?i_cid=int-default-1139" class="more" data-behavior="track-click" data-click-id="carousel:6:none:ray donovan:2:link_other:catch up on ray donovan now">Catch Up on Ray Donovan Now</a>
+							<a href="/sho/order/5/ott/?i_cid=int-ray-2090" class="more" data-behavior="track-click" data-click-id="carousel:6:none:ray donovan:3:link_order:start your showtime free trial now">Start Your Showtime Free Trial Now</a>
+							</span>
+				</div>
+			</div>
+			
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="/sho/video/titles/45759/roadies-trailer" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:7:series site:roadies:other link"
+					
+				data-panel-index="6" 
+				data-panel-duration="8" 
+				data-promotion-id="1257258">
+				<img src="http://www.sho.com/site/image-bin/images/1032265_1_0/1032265_1_0_prm-keyart1_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein">Series Premiere: Sunday, June 26 at 10 PM <em class="etpt">ET/PT</em><span class="accent"></span></span>
+					<span class="title">Roadies</span>
+				
+				<span class="sub-title">Created by Oscar® winner Cameron Crowe, ROADIES is an insider&#039;s look at the reckless, romantic, funny, and often poignant lives of a committed group of &#034;roadies,&#034; who live for music and the de facto family they&#039;ve formed along the way.</span>
+				<span class="options more-info">
+						<a href="/sho/video/titles/45759/roadies-trailer" class="video" data-behavior="play-video" data-video-id="45759" data-click-id="carousel:7:series site:roadies:1:video_trailer:watch trailer">Watch Trailer</a>
+							</span>
+				</div>
+			</div>
+			
+			<div 
+				class="panel defaultCta" 
+				data-default-cta-url="/sho/movies/titles/3420843/the-stanford-prison-experiment#/index" 
+				data-default-cta-type="link" 
+			data-behavior="track-click"
+				 data-click-id="carousel:8:product page:the stanford prison experiment:product page"
+					
+				data-panel-index="7" 
+				data-panel-duration="8" 
+				data-promotion-id="1323979">
+				<img src="http://www.sho.com/site/image-bin/images//0_0_3420843/0_0_3420843_prm-stanprison_1024x640.jpg" />
+				<div class="text-block align-vert">
+					<span class="options tunein">Saturday at 8 PM <em class="etpt">ET/PT</em> on SHOWTIME<span class="accent"></span></span>
+					<span class="title">The Stanford Prison Experiment</span>
+				
+				<span class="sub-title">In this tense, psychological thriller based on the notorious true story, Billy Crudup stars as a Stanford University professor who, in 1971, cast 24 student volunteers as prisoners and guards in a simulated jail.</span>
+				<span class="options more-info">
+						<a href="/sho/video/titles/48966/the-stanford-prison-experiment-trailer" class="video" data-behavior="play-video" data-video-id="48966" data-click-id="carousel:8:product page:the stanford prison experiment:1:video_trailer:watch trailer">Watch Trailer</a>
+							<a href="/sho/order/5/ott/?i_cid=int-default-2120" class="more" data-behavior="track-click" data-click-id="carousel:8:product page:the stanford prison experiment:2:link_order:start your showtime free trial now">Start Your Showtime Free Trial Now</a>
+							</span>
+				</div>
+			</div>
+			
+			<div class="docked carousel-filmstrip-bounds"></div> 
+			<div class="docked carousel-filmstrip"></div>			
+
+		</div><!-- END carousel-content -->
+	</div><!-- END carousel -->
+	<script type="text/javascript">
+	sho.ui.Carousel.registerVideos([
+	{
+		"path" : '/mp4:15002/carousel/sss_carousel_evergreen.mp4', 
+		"position" : 1
+	},
+	]);
+	</script>
+    
+    
+    <script type="text/javascript"> // for optimizely video panel test on /sho/homeland/home
+    if ((optimizely.variationMap[3680893401] == 1 || optimizely.variationMap[3734681265] == 1) && window.location.href.indexOf("/sho/homeland/home") > -1) {
+        sho.ui.Carousel.registerVideos([{
+            		"path" : '/mp4:15002/carousel/sss_carousel.mp4', 
+            		"position" : 1
+            	}
+        ]);
+    }
+    </script><script>(function(){
+	  window._fbds = window._fbds || {};
+	  _fbds.pixelId = 737143182976693;
+	  var fbds = document.createElement('script');
+	  fbds.async = true;
+	  fbds.src = '//connect.facebook.net/en_US/fbds.js';
+	  var s = document.getElementsByTagName('script')[0];
+	  s.parentNode.insertBefore(fbds, s);
+	})();
+	window._fbq = window._fbq || [];
+	window._fbq.push(["track", "PixelInitialized", {}]);
+	</script>
+	<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=737143182976693&amp;ev=NoScript" /></noscript><script>(function(){
+	  window._fbds = window._fbds || {};
+	  _fbds.pixelId = 1481884938701307;
+	  var fbds = document.createElement('script');
+	  fbds.async = true;
+	  fbds.src = '//connect.facebook.net/en_US/fbds.js';
+	  var s = document.getElementsByTagName('script')[0];
+	  s.parentNode.insertBefore(fbds, s);
+	})();
+	window._fbq = window._fbq || [];
+	window._fbq.push(["track", "PixelInitialized", {}]);
+	</script>
+	<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1481884938701307&amp;ev=NoScript" /></noscript></div><!-- END content -->
+		<div class="on-tonight" data-component="sho.ui.schedules.ontonight.Ticker">
+		<div class="on-tonight-inner">
+			<b class="on-tonight-title">Tonight on Showtime</b>
+		<dl>
+				<dt>8 PM&nbsp;<em class="etpt">ET/PT</em></dt>
+				<dd><a href="/sho/reality-docs/titles/3433522/the-drew">The Drew</a></dd>
+				<dt>9:30 PM&nbsp;<em class="etpt">ET/PT</em></dt>
+				<dd><a href="/sho/movies/titles/130886/tyler-perrys-daddys-little-girls">Tyler Perry&#039;s Daddy&#039;s Little Girls</a></dd>
+				<dt>11:15 PM&nbsp;<em class="etpt">ET/PT</em></dt>
+				<dd><a href="/sho/movies/titles/3360806/need-for-speed">Need For Speed</a></dd>
+				</dl>
+		</div>
+		<a data-behavior="track-click" data-click-id="navigation:schedule" href="/sho/schedules/index" class="schedule-link">Schedules</a>
+	</div>
+<div class="nav nav-footer">
+		<div class="footer">
+			<ul class="inline" data-event-context="global footer">
+                <li id="nav-footer-anytime"><a data-behavior="track-navigation" data-event-label="showtime anytime" href="/sho/showtime-anytime">Showtime Anytime</a></li>
+				<li id="apps"><a data-behavior="track-navigation" data-event-label="apps" href="/sho/apps">Apps</a></li>
+                <li id="nav-footer-video"><a data-behavior="track-navigation" data-event-label="free full episodes" href="/sho/video/full-episodes">Free Full Episodes</a></li>
+                <li id="nav-footer-order"><a href="/sho/order/home" data-behavior="track-navigation" data-event-label="order">Order</a></li>
+				<li id="about"><a data-behavior="track-navigation" data-event-label="about" href="/sho/about">About</a></li>
+				<li id="contact"><a data-behavior="track-navigation" data-event-label="contact us" href="http://www.sho.com/contact">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="legal ft-legal" data-event-context="global footer">
+        <p>By viewing our video content you are accepting the terms of our <a data-behavior="track-navigation" data-event-label="video services policy" href="/sho/about/video-services">Video Services Policy.</a></p>
+		<p>This website is intended for viewing solely in the United States and its territories and possessions. <span style="color:#ffffff;">This website may contain adult content.</span></p>
+        <p><a data-behavior="track-navigation" data-event-label="privacy policy" href="/sho/about/privacy" title="privacy policy">Privacy Policy</a> | <a data-behavior="track-navigation" data-event-label="terms of use" href="/sho/about/terms" title="terms of use">Terms of Use</a> | <a data-behavior="track-navigation" data-event-label="closed captioning" href="/sho/about/closed-captioning">Closed Captioning</a> | <a data-behavior="track-navigation" data-event-label="mobile user agreement" href="/sho/about/mobile-eula">Mobile User Agreement</a></p>
+        <p>&copy; 2016 Showtime Networks Inc. and Showtime Digital Inc. All rights reserved.</p>
+	</div></div></div><!-- END container -->
+
+	<div id="fb-root"></div>
+	<script type="text/javascript">
+	    // FB
+		window.fbAsyncInit = function() {
+			FB.init({
+				'appId':  132432090187, 
+				'status': true, 
+				'cookie': true, 
+				'xfbml':  true,
+				'version' : 'v2.0'
+			});
+			
+			// set up public proxies for important facebook events
+			FB.Event.subscribe('edge.create', function(url){
+				sho.dom.trigger('facebook:like', url);
+			});
+		};
+		
+		
+		 (function(d, s, id){
+	         var js, fjs = d.getElementsByTagName(s)[0];
+	         if (d.getElementById(id)) {return;}
+	         js = d.createElement(s); js.id = id;
+	         js.src = "//connect.facebook.net/en_US/sdk.js";
+	         fjs.parentNode.insertBefore(js, fjs);
+	       }(document, 'script', 'facebook-jssdk'));
+		
+		// TWITTER
+		window.twttr = (function (d,s,id) {
+			var t, js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+			js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+			return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));
+		
+		// set up public proxies for important twitter events
+		twttr.ready(function(t){
+			t.events.bind('follow', _.bind(sho.dom.trigger, window, 'twitter:follow'));
+			t.events.bind('tweet',  _.bind(sho.dom.trigger, window, 'twitter:tweet'));
+		});
+	
+		// GOOGLE
+		(function() {			
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);			    	
+		})();
+		
+	</script>
+
+	<!-- END assets.social.footer --><div class="omniture-site-catalyst-wrap">
+
+	<script type="text/javascript" src="/ROOT/lib/js/vendor/omniture/s_code.js"></script>
+	<script type="text/javascript">
+		sho.dom.ready(function(){
+			sho.analytics.getTracker({
+				'platform' : sho.env.platform().key,  
+				'debug':true
+			}).trackPageView();
+		});
+	</script>	
+
+	</div>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-5035974-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+	<!-- END analytics/_page_tracker.jsp -->
+	<script type="text/javascript">_satellite.pageBottom();</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"88b0643fde","agent":"","beacon":"bam.nr-data.net","applicationTime":11,"applicationID":"13389009","transactionName":"ZQRUbEsAWkQABhILDlxOZUhLCFpQIgoIFhNdDVpdS05cWAwARkomdzUf","queueTime":0}</script></body>
+	</html>

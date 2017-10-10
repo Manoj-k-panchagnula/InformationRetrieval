@@ -1,0 +1,1025 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Parent Association &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/uc_out_of_stock/uc_out_of_stock.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   parent-association">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/parent-association"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-VOBSldXWYLDHbgC1hfstn41G-4phY0-RayE1vl6ZNcM" value="form-VOBSldXWYLDHbgC1hfstn41G-4phY0-RayE1vl6ZNcM"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/parent-association"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-VOBSldXWYLDHbgC1hfstn41G-4phY0-RayE1vl6ZNcM" value="form-VOBSldXWYLDHbgC1hfstn41G-4phY0-RayE1vl6ZNcM"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-education">Education</div> </div> -->
+			<h1 id="dls">Parent Association</h1>
+						<div id="sub" class="subtitle">Provided by <a href="orientation-and-transition-programs">Orientation and Transition Programs</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				<div class="date meta-item">
+			<span>Date</span>
+			Tuesday, May 6, 2014		</div>
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="orientation-and-transition-programs">Orientation and Transition Programs</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="row tabbable">
+	<div class="col-md-2">
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active">
+				<a data-toggle="tab" href="#about">About</a></li>
+			<li>
+				<a data-toggle="tab" href="#exec">Executive Board</a></li>
+			<li>
+				<a data-toggle="tab" href="#meetings">Meetings &amp; ByLaws</a></li>
+			<li>
+				<a data-toggle="tab" href="#merchandise">Merchandise</a></li>
+			<li>
+				<a data-toggle="tab" href="#newsletters">Newsletters</a></li>
+			<li>
+				<a data-toggle="tab" href="#scholarships">Scholarships</a></li>
+		</ul>
+	</div>
+
+	<div class="col-md-10" style="left: 1px; top: 1px; width: 64.34%; height: 64.34%;">
+		<div class="tab-content">
+			<div class="tab-pane active" id="about">
+				<h2>
+					Parent Association Membership</h2>
+
+				<h3>
+					Why should you join the UNT Parent Association?</h3>
+
+				<p>
+					There are many benefits to joining the Parent Association, including</p>
+
+				<ul>
+					<li>
+						10% discount on all school supplies, clothing, and gifts at the UNT Bookstore (excludes textbooks and computer hardware and accessories.)</li>
+					<li>
+						Discount on Family Weekend</li>
+					<li>
+						Parent Calendar outlining important dates throughout the year</li>
+					<li>
+						Monthly electronic newsletters with important Parent Association news as well as university updates</li>
+				</ul>
+
+				<p>
+					Benefits for students include:</p>
+
+				<ul>
+					<li>
+						Scholarships awarded each spring to students of Parent Association members.</li>
+					<li>
+						Roadside Assistance Program - Students of Parent Association members receive a booklet listing the names and phone numbers of Association members willing to be contacted if the student encounters problems while on the road. Participants in this program span the state of Texas as well other states.</li>
+					<li>
+						Finals goodie boxes which are distributed to students of Parent Association members at the end of the fall and spring semesters.</li>
+				</ul>
+
+				<p>
+					Become a member today and complete the membership registration online form below OR download the paper form, fill it out and mail&nbsp;it back to us with payment.</p>
+
+				<p>
+					Annual memberships are good through August 31st and cost $70.00. Two-year memberships are available for $125. Lifetime memberships are available for $300 and, like the name says, lasts a lifetime. A portion of all memberships go towards scholarships.</p>
+
+				<p>
+					<a class="button" href="https://studentaffairs.unt.edu/form/parent-association-sign" target="_blank">Parent Association Membership Registration - online form</a></p>
+
+				<p>
+					<a class="button" href="http://studentaffairs.unt.edu/sites/default/files/otp/documents/PA%20Membership%20Form%202013.pdf" target="_blank">Parent Association Membership Registration - paper form</a></p>
+
+				<h3>
+					Parent Association Newsletters</h3>
+
+				<p>
+					For the current and past issues of the Parent Association Newsletter, see the&nbsp;<a href="http://studentaffairs.unt.edu/parent-association#newsletters" target="_blank">Newsletter Archive</a>.</p>
+
+				<p>
+					As a Parent Association member you are automatically signed up to receive detailed parent newsletters, university information, and other information specific only to Parent Association members.</p>
+
+				<p>
+					If you are not a Parent Association member and would like to subscribe to our newsletter, simply send an e-mail to&nbsp;<a href="mailto:parents@unt.edu">parents@unt.edu</a>. If you ever wish to be removed from our distribution list, simply send another e-mail to&nbsp;<a href="mailto:parents@unt.edu">parents@unt.edu</a>&nbsp;with the subject line, &quot;Unsubscribe.&quot;</p>
+
+				<h3>
+					Join the UNT Parent Association on Facebook!</h3>
+
+				<p>
+					Are you a parent or family member of a current or prospective UNT student? Join the conversation on the <a href="https://www.facebook.com/groups/31723060803/" target="_blank">Mean Green Family facebook page</a>.</p>
+
+				<p>
+					Parent Association members are encouraged to join the <a href="https://www.facebook.com/groups/1504421759874500/" target="_blank">closed facebook group for members only</a>.</p>
+			</div>
+
+			<div class="tab-pane" id="exec">
+				<h2>
+					Executive Board</h2>
+
+				<div id="node-90">
+					<h3>
+						Parent Association Executive Board Members</h3>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									<img src="/sites/default/files/otp/images/pa_cravey_web.jpg" style="border-width: 0px; border-style: solid; width: 175px; height: 175px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:cindy@craveyrealestate.com?subject=UNT%20Parent%20Association">Cindy Cravey</a></h4>
+
+									<h4>
+										President</h4>
+
+									<p>
+										The President shall preside at all meetings, appoint any necessary chairpersons, and perform all duties pertaining to the office as prescribed by Robert Rules of Orders, Newly Revised.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="/sites/default/files/otp/images/pa_haskell_web.jpg" style="border-width: 0px; border-style: solid; width: 175px; height: 175px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:lesa_haskell@hotmail.com?subject=UNT%20Parent%20Association">Lesa Haskell</a></h4>
+
+									<h4>
+										President-Elect</h4>
+
+									<p>
+										The President-Elect shall assist the President as required and in the absence of the President, shall perform all duties pertaining to that office. The President Elect will coordinate with the Division of Student Affairs Representative to secure volunteers for the finals goodie box stuffing, Sunday fun day, family weekend, and summer send off parties.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="/sites/default/files/otp/images/pa_wainscott_web.jpg" style="width: 175px; height: 175px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:s.wainscott@verizon.net?subject=UNT%20Parent%20Association">Sharon Wainscott</a></h4>
+
+									<h4>
+										Vice President</h4>
+
+									<p>
+										The Vice President shall be the chairperson of membership.&nbsp; The Vice President will be supported by the UNT Division of Student Affairs Staff Representative who will be responsible for processing and maintaining all membership records.&nbsp; In addition, the Vice President will solicit and coordinate the volunteers for parent orientation.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="/sites/default/files/otp/images/pa_bailey_web.jpg" style="width: 175px; height: 175px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:marciabailey@sbcglobal.net?subject=UNT%20Parent%20Association">Marcia Bailey</a></h4>
+
+									<h4>
+										Secretary</h4>
+
+									<p>
+										The Secretary shall keep a record of all actions taken at meetings of the Association and shall conduct and keep all correspondence of the UNT Parent Association, Executive Committee, and the Board of Directors as necessary. Minutes of all general meetings shall be posted on the Parent Association Web page.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="/sites/default/files/otp/images/pa_white_web.jpg" style="width: 175px; height: 175px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:jazzydlw@icloud.com?subject=UNT%20Parent%20Association">Darcy White</a></h4>
+
+									<h4>
+										Treasurer</h4>
+
+									<p>
+										The Treasurer shall work with the UNT Division of Student Affairs Representative to review the financial records of all transactions by the UNT Parent Association. The treasurer shall report their findings of the financial standing of the Association to the Executive Committee and membership at regular intervals.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="/sites/default/files/otp/images/pa_smith_web.jpg" style="width: 175px; height: 175px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:cindy.smith09@live.com?subject=UNT%20Parent%20Association">Cindy Smith</a></h4>
+
+									<h4>
+										Parliamentarian</h4>
+
+									<p>
+										The Parliamentarian shall insure that correct parliamentary procedure is used at all meetings. As Chairman of the Constitution/By-Laws committee, the Parliamentarian shall enforce and supervise revision of the Constitution and by-laws.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="/sites/default/files/otp/images/pa_hubbard_web.jpg" style="width: 175px; height: 175px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:thubbard8030@comcast.net?subject=UNT%20Parent%20Association">Tekesha Hubbard</a></h4>
+
+									<h4>
+										Historian</h4>
+
+									<p>
+										The Historian shall keep a history of the UNT Parent Association web-based site.&nbsp; The Historian shall be responsible for coordinating with the UNT Parents Association the web-based site.&nbsp; The Historian will verify and review all membership requests, publish pictures of UNT Parents Association events on the Facebook site, assist in monitoring appropriateness of all postings and bring attention to the UNT Parents Association if such postings are not appropriate.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img alt="" src="/sites/default/files/otp/images/pa_tony_hill_2015_web.jpg" style="width: 175px; height: 173px;" /></td>
+								<td>
+									<h4>
+										<a href="mailto:tony@3hills.us?subject=UNT%20Parent%20Association">Tony Hill</a></h4>
+
+									<h4>
+										Past-President</h4>
+
+									<p>
+										The Past-President shall serve in an advisor capacity to the executive board.</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div id="klein">
+						&nbsp;</div>
+
+					<div id="birdseye">
+						<p>
+							&nbsp;</p>
+					</div>
+
+					<h2>
+						About the Parent Association</h2>
+
+					<p>
+						The Parent Association is advised by the UNT Parent Programs staff:</p>
+
+					<ul>
+						<li>
+							<a href="mailto:Justin.Barker@unt.edu?subject=UNT%20Parent%20Association">Justin Barker</a>, Coordinator for Parent Programs</li>
+						<li>
+							<a href="mailto:stephanie.brown2@unt.edu?subject=UNT%20Parent%20Association">Stephanie Brown</a>, Assistant Director for Orientation and Transition Programs</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="meetings">
+				<h2>
+					Meetings &amp; ByLaws</h2>
+
+				<div id="node-91">
+					<h3>
+						Meetings Minutes</h3>
+
+					<p>
+						As stated in the by-laws of the Parent Association, &quot;The general meetings of the UNT Parent Association shall be held in conjunction with Family Weekend in the fall and one meeting in the spring, as determined by the Executive Committee. Additional meetings may be called by the President as needed. All meetings will be held on the UNT campus unless otherwise directed by the Executive Committee.&quot;</p>
+
+					<p>
+						Below are minutes from previous&nbsp;meetings.</p>
+
+					<ul>
+						<li>
+							<a href="/sites/default/files/otp/pdf/pa_9-19-15_meeting_minutes.pdf" target="_blank">September 2015</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/pa_minutes_2_may_2015.pdf" target="_blank">May 2015</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/pa_minutes_20sept14.pdf" target="_blank">September 2014</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/pa_minutes_26_april_2014-final.pdf" target="_blank">April 2014</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/pa_10.12.13_minutes.pdf" target="_blank">October&nbsp;2013</a></li>
+						<li>
+							<a href="/sites/default/files/otp/documents/4.27.13PA_meeting_minutes.docx" target="_blank">April 2013</a></li>
+						<li>
+							<a href="/sites/default/files/otp/documents/PA_09%2022%2012%20General%20Meeting%20Minutes%20Draft%20-%20CS%20SKK.docx" target="_blank">September 2012</a></li>
+						<li>
+							<a href="/sites/default/files/otp/documents/PA_04.28.12%20General%20Meeting%20minutes.docx" target="_blank">April 2012</a></li>
+						<li>
+							<a href="/sites/default/files/otp/documents/PA_9.24.11Minutes.docx" target="_blank">September 2011</a></li>
+						<li>
+							<a href="/sites/default/files/otp/documents/PA_04.30.11%20General%20Meeting%20minutes%20final.docx" target="_blank">April 2011</a></li>
+						<li>
+							<a href="/sites/default/files/otp/documents/PA_02%2026%2011%20Special%20Meeting%20Agenda.Minutes.%20JB.docx" target="_blank">February 2011</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/April%20Bi-Annual%20Meeting%20Minutes.docx" target="_blank">April 2010 </a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/April%202010%20executive%20meeting.doc" target="_blank" title="April 2010 Executive Meeting">April 2010 Executive Meeting</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/0909minutes.pdf" target="_blank">September 2009</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/0408minutes.pdf" target="_blank">April 2008</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/0407minutes.pdf" target="_blank">April 2007</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/0406minutes.pdf" target="_blank">April 2006</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/0405minutes.pdf" target="_blank">April 2005</a></li>
+					</ul>
+
+					<h3>
+						ByLaws &amp; Standard Operating Procedures</h3>
+
+					<p>
+						<a href="/sites/default/files/otp/pdf/pa_unt_parent_association_bylaws_finalized_042614.pdf" target="_blank">Parent Association ByLaws</a> (updated 4/26/14)</p>
+
+					<p>
+						<a href="/sites/default/files/otp/pdf/pa_unt_parent_association_standard_operating_procedures_finalized_092014.pdf" target="_blank">Parent Association Standard Operating Procedures</a> (updated 9/20/14)</p>
+
+					<p>
+						&nbsp;</p>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="merchandise">
+				
+
+<div class="view view-Products view-id-Products view-display-id-block_2 view-dom-id-1">
+
+
+    
+  
+  
+      <div class="view-content">
+          <div class="col-md-4">
+<div class="product well">
+	<img src="http://studentaffairs.unt.edu/sites/default/files/staff/Green%20Hoodie.jpg" width="200px" />
+	<h4 class="title">
+    	Green UNT Proud Parent Hoodie    </h4>
+    <div class="sell-price"></div>
+    <div class="body"><div>
+	<div>
+		<div>
+			Parent Association</div>
+	</div>
+</div>
+
+<div>
+	<p>
+		Full Zip Hooded Sweatshirt, 7.8 oz</p>
+
+	<p>
+		50/50 cotton/poly fleece, Front pouch pocket</p>
+
+	<p>
+		Kelly Green w/White embroidery</p>
+
+	<p>
+		<img alt="" src="/sites/default/files/images/Green%20Hoodie%20Embroidery%20Close%20Up.jpg" style="width: 244px; height: 200px;" /></p>
+</div></div>
+    <div class="add-to-cart"><div class="add-to-cart"><form action="/parent-association"  accept-charset="UTF-8" method="post" id="uc-product-add-to-cart-form-76020" class="uc_product_add_to_cart_form_76020">
+<div><div class="attributes"><div class="attribute attribute-1 odd"><div class="form-item" id="edit-attributes-1-wrapper">
+ <label for="edit-attributes-1">Size: <span class="form-required" title="This field is required.">*</span></label>
+ <select name="attributes[1]" class="form-select required" id="edit-attributes-1" ><option value="" selected="selected">Please select</option><option value="1">S</option><option value="2">M</option><option value="3">L</option><option value="4">XL</option><option value="5">XXL</option></select>
+</div>
+</div></div><input type="hidden" name="qty" id="edit-qty" value="1"  />
+<input type="submit" name="op" id="edit-submit-76020" value="Add to cart"  class="form-submit node-add-to-cart" />
+<input type="hidden" name="form_build_id" id="form-ScqgGa9C2nemRRusyPcc6ozo9fKFSCVGy0o3g6yAQlA" value="form-ScqgGa9C2nemRRusyPcc6ozo9fKFSCVGy0o3g6yAQlA"  />
+<input type="hidden" name="form_id" id="edit-uc-product-add-to-cart-form-76020" value="uc_product_add_to_cart_form_76020"  />
+
+</div></form>
+</div></div>
+</div>
+</div>    <div class="col-md-4">
+<div class="product well">
+	<img src="http://studentaffairs.unt.edu/sites/default/files/staff/unt_proud_parent_hat.jpg" width="200px" />
+	<h4 class="title">
+    	UNT Baseball Cap    </h4>
+    <div class="sell-price"></div>
+    <div class="body"><p style="font-family: Georgia, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+	Khaki; Adjustable Fabric Closure with Buckle and Grommet</p>
+
+<p style="font-family: Georgia, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+	<span style="font-size: 11pt; font-family: Calibri, sans-serif;">100% cotton</span></p></div>
+    <div class="add-to-cart"><div class="add-to-cart"><form action="/parent-association"  accept-charset="UTF-8" method="post" id="uc-product-add-to-cart-form-9725" class="uc_product_add_to_cart_form_9725">
+<div><input type="hidden" name="qty" id="edit-qty-1" value="1"  />
+<input type="submit" name="op" id="edit-submit-9725" value="Add to cart"  class="form-submit node-add-to-cart" />
+<input type="hidden" name="form_build_id" id="form-CDGq9n0MaG0GttepTA_-jbtE_4__Fm0HCiJTPu5SaNE" value="form-CDGq9n0MaG0GttepTA_-jbtE_4__Fm0HCiJTPu5SaNE"  />
+<input type="hidden" name="form_id" id="edit-uc-product-add-to-cart-form-9725" value="uc_product_add_to_cart_form_9725"  />
+
+</div></form>
+</div></div>
+</div>
+</div>    <div class="col-md-4">
+<div class="product well">
+	<img src="http://studentaffairs.unt.edu/sites/default/files/staff/green_unt_gray_dad.jpg" width="200px" />
+	<h4 class="title">
+    	UNT Dad T-Shirt    </h4>
+    <div class="sell-price"></div>
+    <div class="body"><p>
+	<span style="font-family: Calibri, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);">100% pre-shrunk cotton</span></p></div>
+    <div class="add-to-cart"><div class="add-to-cart"><form action="/parent-association"  accept-charset="UTF-8" method="post" id="uc-product-add-to-cart-form-9722" class="uc_product_add_to_cart_form_9722">
+<div><div class="attributes"><div class="attribute attribute-1 odd"><div class="form-item" id="edit-attributes-1-1-wrapper">
+ <label for="edit-attributes-1-1">Size: <span class="form-required" title="This field is required.">*</span></label>
+ <select name="attributes[1]" class="form-select required" id="edit-attributes-1-1" ><option value="" selected="selected">Please select</option><option value="1">S</option><option value="2">M</option><option value="3">L</option><option value="4">XL</option><option value="5">XXL</option></select>
+</div>
+</div></div><input type="hidden" name="qty" id="edit-qty-2" value="1"  />
+<input type="submit" name="op" id="edit-submit-9722" value="Add to cart"  class="form-submit node-add-to-cart" />
+<input type="hidden" name="form_build_id" id="form-sMrL4XFPlyEFEzYrmzTz7Owjtqak9Tq-k7HjJA3Dgdk" value="form-sMrL4XFPlyEFEzYrmzTz7Owjtqak9Tq-k7HjJA3Dgdk"  />
+<input type="hidden" name="form_id" id="edit-uc-product-add-to-cart-form-9722" value="uc_product_add_to_cart_form_9722"  />
+
+</div></form>
+</div></div>
+</div>
+</div>    <div class="col-md-4">
+<div class="product well">
+	<img src="http://studentaffairs.unt.edu/sites/default/files/staff/mean_green_family_fleece_blanket.jpg" width="200px" />
+	<h4 class="title">
+    	UNT Fleece Blanket    </h4>
+    <div class="sell-price"></div>
+    <div class="body"><p>
+	<span style="font-family: Calibri, sans-serif; font-size: 15px; background-color: rgb(255, 255, 255);">100% polyester</span></p>
+
+<p>
+	<font face="Calibri, sans-serif"><span style="font-size: 15px; background-color: rgb(255, 255, 255);">Currently available in black only.</span></font></p></div>
+    <div class="add-to-cart"><div class="add-to-cart"><form action="/parent-association"  accept-charset="UTF-8" method="post" id="uc-product-add-to-cart-form-9709" class="uc_product_add_to_cart_form_9709">
+<div><input type="hidden" name="qty" id="edit-qty-3" value="1"  />
+<input type="submit" name="op" id="edit-submit-9709" value="Add to cart"  class="form-submit node-add-to-cart" />
+<input type="hidden" name="form_build_id" id="form-_6fY74XcBQRphvgZUOHoYR8EeABVO-VysiZwxLk1yCg" value="form-_6fY74XcBQRphvgZUOHoYR8EeABVO-VysiZwxLk1yCg"  />
+<input type="hidden" name="form_id" id="edit-uc-product-add-to-cart-form-9709" value="uc_product_add_to_cart_form_9709"  />
+
+</div></form>
+</div></div>
+</div>
+</div>    <div class="col-md-4">
+<div class="product well">
+	<img src="http://studentaffairs.unt.edu/sites/default/files/staff/unt_gray_grandparent.jpg" width="200px" />
+	<h4 class="title">
+    	UNT Grandparent T-Shirt    </h4>
+    <div class="sell-price"></div>
+    <div class="body"><p style="font-family: Georgia, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+	Charcoal</p>
+
+<p style="font-family: Georgia, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+	<span style="font-size: 11pt; font-family: Calibri, sans-serif;">100% pre-shrunk cotton</span></p></div>
+    <div class="add-to-cart"><div class="add-to-cart"><form action="/parent-association"  accept-charset="UTF-8" method="post" id="uc-product-add-to-cart-form-9723" class="uc_product_add_to_cart_form_9723">
+<div><div class="attributes"><div class="attribute attribute-1 odd"><div class="form-item" id="edit-attributes-1-2-wrapper">
+ <label for="edit-attributes-1-2">Size: <span class="form-required" title="This field is required.">*</span></label>
+ <select name="attributes[1]" class="form-select required" id="edit-attributes-1-2" ><option value="" selected="selected">Please select</option><option value="1">S</option><option value="2">M</option><option value="3">L</option><option value="4">XL</option><option value="5">XXL</option></select>
+</div>
+</div></div><input type="hidden" name="qty" id="edit-qty-4" value="1"  />
+<input type="submit" name="op" id="edit-submit-9723" value="Add to cart"  class="form-submit node-add-to-cart" />
+<input type="hidden" name="form_build_id" id="form-b61GzyMWFJfa-WNOyWl-9tw6tgO54nshfJg16pjvvjo" value="form-b61GzyMWFJfa-WNOyWl-9tw6tgO54nshfJg16pjvvjo"  />
+<input type="hidden" name="form_id" id="edit-uc-product-add-to-cart-form-9723" value="uc_product_add_to_cart_form_9723"  />
+
+</div></form>
+</div></div>
+</div>
+</div>    <div class="col-md-4">
+<div class="product well">
+	<img src="http://studentaffairs.unt.edu/sites/default/files/staff/proud_parent_polo.jpg" width="200px" />
+	<h4 class="title">
+    	UNT Parent Polo    </h4>
+    <div class="sell-price"></div>
+    <div class="body"><p style="font-family: Georgia, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+	Black</p>
+
+<p style="font-family: Georgia, Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+	<span style="font-size: 11pt; font-family: Calibri, sans-serif;">50% pre-shrunk cotton, 50% polyester</span></p></div>
+    <div class="add-to-cart"><div class="add-to-cart"><form action="/parent-association"  accept-charset="UTF-8" method="post" id="uc-product-add-to-cart-form-9719" class="uc_product_add_to_cart_form_9719">
+<div><div class="attributes"><div class="attribute attribute-1 odd"><div class="form-item" id="edit-attributes-1-3-wrapper">
+ <label for="edit-attributes-1-3">Size: <span class="form-required" title="This field is required.">*</span></label>
+ <select name="attributes[1]" class="form-select required" id="edit-attributes-1-3" ><option value="" selected="selected">Please select</option><option value="1">S</option><option value="2">M</option><option value="3">L</option><option value="4">XL</option><option value="5">XXL</option></select>
+</div>
+</div></div><input type="hidden" name="qty" id="edit-qty-5" value="1"  />
+<input type="submit" name="op" id="edit-submit-9719" value="Add to cart"  class="form-submit node-add-to-cart" />
+<input type="hidden" name="form_build_id" id="form-wV0t2S-1XV6qYBOoAQO6sEmCOmHvnjSVcQ0YNwTrJns" value="form-wV0t2S-1XV6qYBOoAQO6sEmCOmHvnjSVcQ0YNwTrJns"  />
+<input type="hidden" name="form_id" id="edit-uc-product-add-to-cart-form-9719" value="uc_product_add_to_cart_form_9719"  />
+
+</div></form>
+</div></div>
+</div>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+
+			<div class="tab-pane" id="newsletters">
+				<h2>
+					Parent Association Newsletters</h2>
+
+				<p>
+					As a Parent Association member you are automatically signed up to receive detailed parent newsletters, university information, and other information specific only to Parent Association members.&nbsp;If you are not a Parent Association member and would like to subscribe to our newsletter, simply send an e-mail to&nbsp;<a href="mailto:parents@unt.edu">parents@unt.edu</a></p>
+
+				<h3>
+					2014-2015</h3>
+
+				<ul>
+					<li>
+						<a href="http://conta.cc/1tHRPU4" target="_blank">November 2014</a></li>
+					<li>
+						<a href="http://conta.cc/1sExNdM" target="_blank">October 2014</a></li>
+					<li>
+						<a href="http://conta.cc/1uVZUL4" target="_blank">September 2014</a></li>
+				</ul>
+
+				<h3>
+					2013-2014</h3>
+
+				<ul>
+					<li>
+						<a href="http://conta.cc/1riTxvS" target="_blank">May 2014</a></li>
+					<li>
+						<a href="http://conta.cc/1sIeHEN" target="_blank">April 2014</a></li>
+					<li>
+						<a href="http://conta.cc/1ynUGES" target="_blank">March 2014</a></li>
+					<li>
+						<a href="http://conta.cc/1A8doTJ" target="_blank">February 2014</a></li>
+					<li>
+						<a href="http://conta.cc/1fbWVoq" target="_blank">January 2014</a></li>
+					<li>
+						<a href="http://conta.cc/1g99mnW" target="_blank">December 2013</a></li>
+					<li>
+						<a href="http://conta.cc/1aPDpfX" target="_blank">November 2013</a></li>
+					<li>
+						<a href="http://conta.cc/1d03dbh" target="_blank">October 2013</a></li>
+					<li>
+						<a href="http://conta.cc/1aYU0is" target="_blank">September 2013</a></li>
+				</ul>
+			</div>
+
+			<div class="tab-pane" id="scholarships">
+				<div>
+					<div id="node-94">
+						<h1>
+							Parent Association Scholarships</h1>
+
+						<p>
+							The UNT Parent Association awards scholarships in the spring semester each academic year. Two different types of scholarships are awarded&mdash;the Scholastic Scholarship and the Draw, or External Scholarship. The number of scholarships given in each category depends on the availability of funds with a minimum of five $500 scholarships awarded in the Draw category. For each recipient, the amount awarded is split evenly between the following fall and spring semesters. The scholarships are given to an undergraduate or graduate student who has attended one full semester at UNT. Summer sessions are not considered full semesters. Students may re-apply for the scholarships annually and students can receive a Parent Association scholarship multiple times during their collegiate experience at UNT. The only restriction being that students are not eligible to receive both the draw scholarship and the scholastic scholarship during the same academic year. The student may submit an application for both or just one as long as the requirements listed below are met.</p>
+
+						<h2>
+							Scholarship Requirements</h2>
+
+						<h4>
+							&quot;Draw&quot;/External Scholarship</h4>
+
+						<ol>
+							<li>
+								The student&#39;s parent or legal guardian must be&nbsp;an active&nbsp;member of the UNT Parent Association.</li>
+							<li>
+								The student must be enrolled the following fall and spring semester at UNT.</li>
+							<li>
+								The student must have completed at least one full semester at UNT.</li>
+							<li>
+								Deadline - April 1, 2016</li>
+						</ol>
+
+						<p>
+							<a class="button" href="/sites/default/files/otp/pdf/2016_external_draw_scholarship_app.pdf" target="_blank">2016 Draw/External Scholarship Application</a></p>
+
+						<p>
+							&nbsp;</p>
+
+						<h4>
+							Scholastic Scholarship</h4>
+
+						<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+							<tbody>
+								<tr>
+									<td>
+										<h4>
+											Awarding Department</h4>
+									</td>
+									<td>
+										UNT Parent Association</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Department Contact</h4>
+									</td>
+									<td>
+										<a href="mailto:parents@unt.edu">parents@unt.edu</a></td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Career</h4>
+									</td>
+									<td>
+										Undergrad/ Graduate</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Classification</h4>
+									</td>
+									<td>
+										Any/ student&#39;s parent or legal guardian must be a current member of the UNT Parent Association</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Major</h4>
+									</td>
+									<td>
+										Any</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Minimum Cumulative GPA</h4>
+									</td>
+									<td>
+										2.5 (with at least one full-time semester)</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											High School Rank</h4>
+									</td>
+									<td>
+										n/a</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Test Scores</h4>
+									</td>
+									<td>
+										n/a</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Minimum Total Credit Hours Earned</h4>
+									</td>
+									<td>
+										n/a</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Minimum Total Credit Hours Earned at UNT</h4>
+									</td>
+									<td>
+										student must have completed at least one full semester at UNT</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											FAFSA</h4>
+									</td>
+									<td>
+										encouraged, but not required</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Other</h4>
+									</td>
+									<td>
+										<p>
+											The student must meet the minimum entrance and academic performance standards of the SFAS. These standards can be found&nbsp;<a href="http://essc.unt.edu/finaid/scholarships_univ.htm" target="_blank"><u><font color="#0066cc">here</font></u></a>&nbsp;or call <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2302<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2302"><img src="data:image/png;base64,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" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2302" /></a></span>.</p>
+
+										<p>
+											Deadline - March 1</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							<a class="button" href="http://financialaid.unt.edu/scholarships/apply-scholarships" target="_blank">UNT Parent Association Scholastic Scholarship Application</a></p>
+
+						<p>
+							&nbsp;</p>
+
+						<h3>
+							Scholarship Submission Information</h3>
+
+						<h4>
+							Scholastic Scholarship</h4>
+
+						<p>
+							The Scholastic Scholarship application should be submitted via the Student Financial Aid and Scholarships office. The recipients of this scholarship are selected by the university scholarship committee and notification of this scholarship usually occurs near the end of April and the first of May.</p>
+
+						<h4>
+							&nbsp;</h4>
+
+						<h4>
+							External/ Draw Scholarship</h4>
+
+						<p>
+							The Draw Scholarship application should be submitted to&nbsp;Parent Programs, in the Office of Orientation and Transition Programs,&nbsp;located in the University Union, Suite 377. Draw Scholarship winners will be drawn by the Parent Association Executive Board and/or General Board and notified at approximately the same time as the Scholastic Scholarship recipients. The deadline for both the scholarships are noted on the application forms and above.</p>
+
+						<p>
+							For other scholarship resources, please look at the&nbsp;<a href="http://essc.unt.edu/finaid/index.htm" target="_blank">UNT Student Financial Aid and Scholarships web site</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/pa_exec_board_15-16_web.jpg');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/uc_out_of_stock/uc_out_of_stock.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/base.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/ajax_view.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "uc_out_of_stock": { "path": "/uc_out_of_stock/query", "throbber": true, "instock": true, "msg": "\x3cspan style=\"color: red;\"\x3eOut of stock\x3c/span\x3e" }, "CToolsUrlIsAjaxTrusted": { "/parent-association": [ true, true, true, true, true, true, true ] }, "views": { "ajax_path": "/views/ajax", "ajaxViews": [ { "view_name": "Products", "view_display_id": "block_2", "view_args": "", "view_path": "node/8854", "view_base_path": "products/export", "view_dom_id": 1, "pager_element": 0 } ] }, "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,1883 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>House Guidelines &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-blog no-sidebars og-context og-context-8135   blog">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/blog/house-guidelines"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-B9VayVFwlMt_VcBTusVtLjXfzZGi-LMNaf52kuKNvY0" value="form-B9VayVFwlMt_VcBTusVtLjXfzZGi-LMNaf52kuKNvY0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/blog/house-guidelines"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-B9VayVFwlMt_VcBTusVtLjXfzZGi-LMNaf52kuKNvY0" value="form-B9VayVFwlMt_VcBTusVtLjXfzZGi-LMNaf52kuKNvY0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+<style type="text/css">
+.social-buttons {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.blog {
+	margin-top: 3%;
+	font-size: 130%;
+	line-height: 170%;
+}
+a.post-share {
+	display: block;
+	height: 46px;
+	margin: 10px 0px 0px 0px;
+	text-decoration:none;
+	text-align:center;
+	font: 15px/46px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #ffffff;
+}
+a.post-share:hover {
+	opacity: 0.8;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.post-share span {
+	width: 20px;
+	height: 16px;
+	padding: 15px;
+	display: block;
+	float:right;
+	background-color: #4665af;
+	color: #ffffff;
+	vertical-align: middle;
+	font: 16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+	text-indent: 0;
+}
+
+a.post-share.facebook {
+	background: #3e599a;
+}
+a.post-share.facebook span {
+	background-color: #4665af;
+}
+a.post-share.twitter {
+	background: #4b8cbe;
+}
+a.post-share.twitter span {
+	background-color: #529fda;
+}
+a.post-share.gplus {
+	background: #b8382e;
+}
+a.post-share.gplus span {
+	background-color: #d24238;
+}
+a.post-share.stumble {
+	background: #e15131;
+}
+a.post-share.stumble span {
+	background-color: #fd5d3b;
+}
+</style>
+<div class="hero ">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"><div class="label channel channel-reset">Blog</div> <div class="label channel channel-education">Education</div></div>
+			<h1>House Guidelines</h1>
+			<div class="subtitle">
+				Written for <a href="/university-union">University Union</a>			</div>
+		</div>
+	</div>
+</div>
+
+<main class="container well">
+<div class="row blog" id=8850>
+
+	<div class="col-md-8 col-md-offset-1">
+    	
+		<div class="outlet" style="background: rgb(238, 238, 238); margin: 0px 0px 20px 20px; padding: 20px; float: right;">
+	<p>
+		<img src="/sites/default/files/union/images/house_guidelines.jpg" style="width: 350px; height: 250px;" /></p>
+</div>
+
+<h1>
+	<a id="Top" name="Top"></a>Union House Guidelines</h1>
+
+<h5>
+	Updated: October 2015</h5>
+
+<ul>
+	<li>
+		<strong><a href="#Section 1">Section 1&nbsp;- Overview</a></strong></li>
+	<li>
+		<strong><a href="#Section 2">Section 2 - Reservations &amp; Reservable Spaces</a></strong></li>
+	<li>
+		<strong><a href="#Section 3">Section 3 - Catering &amp; Food Policy</a></strong></li>
+	<li>
+		<strong><a href="#Section 4">Section 4 - Student Organizations</a></strong></li>
+	<li>
+		<strong><a href="#Section 5">Section 5 - Dock Policy</a></strong></li>
+	<li>
+		<strong><a href="#Section 6">Section 6 - Ticket Sales</a></strong></li>
+	<li>
+		<strong><a href="#Section 7">Section 7 - Marketing &amp; Solicitation</a></strong></li>
+	<li>
+		<strong><a href="#Section 8">Section 8 - Tenant Policies</a></strong></li>
+	<li>
+		<strong><a href="#Section 9">Section 9 - Special Policies</a></strong></li>
+	<li>
+		<strong><a href="#Section 10">Section 10 - Appeals Process</a></strong></li>
+</ul>
+
+<h2>
+	<a id="Section 1" name="Section 1"></a>Section 1 -&nbsp;Overview</h2>
+
+<p>
+	The University Union is a 315,000 square foot, multi-level facility located in the heart of campus. &nbsp;Our mission is to provide a comprehensive program that enriches the educational process and meets the needs of the North Texas community, which includes students, staff, faculty, alumni, and guests. University Union services include entertainment programs, meeting rooms, outdoor spaces, catering, conference planning, audio/visual, graphics design, computer store, game room, postal center, book store, information center, copy center, banking center, theater, catering, restaurants, recharging stations, bicycle repair stations, and an art gallery.&nbsp;<br />
+	&nbsp;<br />
+	The University Union is committed to providing services and programs that are educational, cultural, social, and recreational. &nbsp;The Union Board of Directors, an appointed body consisting of students, faculty, and staff representatives, works closely with the Director of the University Union Director and other staff to oversee the facility. &nbsp;The Director of the University Union reports to the Associate Vice President for Auxiliary Services within the Division of Student Affairs.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.1 &mdash; Mission Statement</h3>
+
+<p>
+	The University Union enhances the educational process and builds community by providing an inclusive environment where individuals are valued through quality programs and support services.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.2&nbsp;&mdash; Values</h3>
+
+<p>
+	The University Union values:</p>
+
+<ul>
+	<li>
+		<em>Being Student-Centered</em>: We value student involvement, employment, and leadership opportunities that promote learning and personal growth beyond the classroom;</li>
+	<li>
+		<em>Being Service-Oriented</em>: We value great customer service, overall quality, and adaptability;</li>
+	<li>
+		<em>Being Technology-Driven</em>: We value technology and advancements that increase our efficiency in delivering programs and services;</li>
+	<li>
+		<em>Being Environmentally-Conscious</em>: We value environmentally responsible practices and sustainable initiatives;</li>
+	<li>
+		<em>Being Diverse</em>: We value individual uniqueness represented through race, ethnicity, gender, sexual orientation, socioeconomic background, age, ability, national origin, religion, and thought; and</li>
+	<li>
+		<em>Being Ethical</em>: We value integrity as demonstrated through honesty, civility, and fairness.&nbsp;</li>
+</ul>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.3 &mdash; Location &amp; Contact Information</h3>
+
+<p>
+	The University Union is located at:&nbsp;</p>
+
+<p>
+	1155 Union Circle&nbsp;<br />
+	Denton, Texas 76201 &nbsp;</p>
+
+<p>
+	The mailing address for the University Union is:&nbsp;</p>
+
+<p>
+	1155 Union Circle<br />
+	#310710<br />
+	Denton, Texas &nbsp;76203-5017</p>
+
+<p>
+	The main phone number for the University Union is:&nbsp;(940) 565-3805</p>
+
+<p>
+	The main e-mail address for the University Union is:&nbsp;<strong><a href="mailto:union@unt.edu?subject=General%20Question">union@unt.edu</a></strong></p>
+
+<p>
+	The main website for the University Union is:&nbsp;<strong><a href="http://union.unt.edu" target="_blank">union.unt.edu</a></strong></p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.4 &mdash; Hours of Operation</h3>
+
+<p>
+	The normal hours of operation for the University Union are:&nbsp;</p>
+
+<p>
+	Monday through Saturday from 7:00 a.m. to 12:00 a.m. (midnight) &nbsp;<br />
+	Sunday from 12:00 p.m. (noon) until 12:00 a.m. (midnight) &nbsp;</p>
+
+<p>
+	The University Union will have reduced hours during the summer and during the winter break. &nbsp;The University Union will be closed if the University of North Texas is officially closed. &nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.5 &mdash; Social Media</h3>
+
+<p>
+	The University Union uses the following social media avenues:</p>
+
+<ul>
+	<li>
+		Website:&nbsp; <strong><a href="http://union.unt.edu" target="_blank">union.unt.edu</a></strong>&nbsp; &nbsp; <a href="http://union.unt.edu/">&nbsp;&nbsp;</a></li>
+	<li>
+		Facebook:&nbsp; <strong><a href="http://facebook.com/UNTUnion" target="_blank">facebook.com/UNTUnion</a></strong></li>
+	<li>
+		Twitter:&nbsp; @UNT_Union</li>
+	<li>
+		Youtube:&nbsp; <strong><a href="http://Youtube.com/UNTUnion" target="_blank">Youtube.com/UNTUnion</a></strong></li>
+	<li>
+		Instagram:&nbsp; @UNTUnion</li>
+</ul>
+
+<p>
+	​<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.6 &mdash; Maps</h3>
+
+<p>
+	Click to enlarge</p>
+
+<p>
+	<a href="/sites/default/files/union/pdf/final_room_reservation_map_part1.pdf" target="_blank"><img alt="" src="/sites/default/files/union/images/final_room_reservation_map_page_1.jpg" style="width: 250px; height: 386px;" /></a>&nbsp;<a href="/sites/default/files/union/pdf/final_room_reservation_map_part2.pdf" target="_blank"><img alt="" src="/sites/default/files/union/images/final_room_reservation_map_page_2.jpg" style="width: 250px; height: 386px;" /></a>&nbsp;<a href="/sites/default/files/union/pdf/final_room_reservation_map_part3.pdf" target="_blank"><img alt="" src="/sites/default/files/union/images/final_room_reservation_map_page_3.jpg" style="width: 250px; height: 386px;" /></a>&nbsp;<a href="/sites/default/files/union/pdf/room_reservation_map_4th_floor.pdf" target="_blank"><img alt="" src="/sites/default/files/union/images/room_reservation_map_4th_floor.jpg" style="width: 250px; height: 386px;" /></a></p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.7 &mdash; Parking</h3>
+
+<p>
+	​For the convenience of persons attending events in the University Union, parking is available at the Union Circle Parking Garage, located at 1155 Union Circle, or at the Highland Street Parking Garage, located at 620 Central Avenue.&nbsp; Please refer to the following <strong><a href="www.unt.edu/transit/garage.html" target="_blank">website</a></strong> for pricing and maps.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.8 &mdash; Union Board of Directors</h3>
+
+<p>
+	The Union Board of Directors shall be responsible for the approval of policies and procedures for the University Union business and operations, capital plan purchases, art selection, space usage, building expansion, and subject, through normal administrative process, to the rules and regulations established by the Board of Regents.</p>
+
+<p>
+	The Union Board of Directors shall endeavor to promote ideals relevant to the goals of the University Union.</p>
+
+<p>
+	The Union Board of Directors is composed of seventeen voting members, of which 11 are students and 6 are faculty/staff.</p>
+
+<p>
+	Decisions of the Union Board of Directors shall be in accordance with the policies and procedures of the University of North Texas and guidelines of the University Union.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.9 - Non-Discrimination and ADA Policy</h3>
+
+<p>
+	The University Union follows the University of North Texas policy regarding non-discrimination.&nbsp; See policy 6.8.1.2, located <strong><a href="http://policy.unt.edu/sites/default/files/untpolicy/6.8.1.2_Americans%20With%20Disabilities%20Act.pdf" target="_blank">here</a></strong>.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section&nbsp;1.10 - Smoke-Free Campus Policy</h3>
+
+<p>
+	The University Union follows the University of North Texas policy regarding smoking.&nbsp; The University of North Texas is a smoke-free campus.&nbsp; See policy 10.17, located <strong><a href="http://policy.unt.edu/sites/default/files/untpolicy/10.17_Smoke%20Free%20Campus%20Policy.pdf" target="_blank">here</a></strong>.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 1.11 &mdash; Denial of Service</h3>
+
+<p>
+	The University Union reserves the right to deny use of the facility for programs, meetings, events, or any other activity deemed a health or safety issue to the University of North Texas campus community.&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 2" name="Section 2"></a>Section 2 - Reservations and Reservable Spaces</h2>
+
+<p>
+	All reservations for University Union facilities, including the outside areas, must be arranged through Event Planning &amp; Scheduling Services, located in the University Union, room 418. Office hours are 8:00 a.m. to 7:00 p.m., Monday-Thursday, 8:00 a.m. to 5:00 p.m. on Friday, and 10:00 a.m. to 2:00 p.m. on Saturday. After hour appointments are available upon request.</p>
+
+<p>
+	Clients must confirm or release tentative reservations within ten (10) business days of the original request. Clients may schedule no more than two (2) tentative dates for the same event.</p>
+
+<p>
+	Reservations remain tentative pending receipt of deposit. A deposit in the amount of the full room rental is required to confirm a reservation. Clients may confirm reservations using cash, check, credit card, or a University of North Texas account number.</p>
+
+<p>
+	Event Planning &amp; Scheduling Services will hold a tentative piece of business three (3) business days without details. If the client does not get back with the event coordinator, the space will be released.</p>
+
+<p>
+	Deposits will be required on rooms not associated with regularly scheduled student organizational meetings and University Union tenants weekly departmental meetings.</p>
+
+<p>
+	Estimated total balance for an event is required by noon, three (3) business days prior to the day of the event. Failure to comply with the payment schedule may result in the cancellation of the event. Final billing is sent within ten (10) business days of the event. &nbsp;</p>
+
+<p>
+	Delivery of services may be reserved to include, but not limited to, mobile stages, portable lighting packages, sound systems, multimedia camera systems, as well as event staff to transport, setup and manage all systems for the event. &nbsp;All deliveries may be reserved through Event Planning &amp; Scheduling Services. Various fees are applicable.</p>
+
+<p>
+	Clients are responsible for applicable fees on any additional technical equipment requested not provided as part of the room infrastructure.&nbsp;</p>
+
+<p>
+	In order to accommodate as many users as possible, the University Union reserves the right to adjust space assignments according to the number of guests expected and the type of event.&nbsp;</p>
+
+<p>
+	Clients must remove all personal and supplier effects at the end of the event. Liability for damages or conditions requiring additional cleaning of the reserved space is charged to the individual or group named as the responsible party.</p>
+
+<p>
+	Doors to meeting rooms allow egress to hallways. The International Fire Code states in section 1008.1.8, &ldquo;Egress doors shall be readily openable from the egress side without the use of a key or special knowledge or effort;&rdquo; &nbsp;therefore, clients may never lock meeting room doors within the University Union for any reason while a meeting/event is in progress.</p>
+
+<p>
+	In compliance with fire code, program attendance cannot exceed room capacity.</p>
+
+<p>
+	Event Planning &amp; Scheduling Services must be in receipt of all special room set-up requests at least ten (10) business days in advance of the event. &nbsp;Service fees may apply when meetings require changes to existing room set-ups.</p>
+
+<p>
+	Reoccurring violations of Union House Guidelines can result in the suspension of reservation privileges or room/service charges. Reoccurring violations include, but are not limited to, the locking of doors, repeated no-show for reserved spaces, use of candles in meeting rooms, etc.</p>
+
+<p>
+	Verde Catering has the first right of refusal for all food and beverage served in the University Union. Please refer to the Verde Catering Guide for payment of canceled events at the following <strong><a href="http://www.dining.unt.edu" target="_blank">website</a></strong>.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.1 &mdash; Academic Class Usage</h3>
+
+<p>
+	Spaces, with the exception of the Lyceum, in the University Union are not intended for academic use unless special permission is granted by the Union Board of Directors.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.2 &mdash; Block/Series Reservations (Student Organizations &amp; Departmental Meetings)</h3>
+
+<p>
+	Registered student organizations may inquire with Event Planning &amp; Scheduling Services to reserve the same meeting room at the same time on the same day each week for the entire semester.&nbsp; Requests for rooms may begin once the organization has been approved through the Student Activities Center OrgSync system for the semester.&nbsp; Please refer to Student Activities as the following <strong><a href="http://studentaffairs.unt.edu/student-organizations" target="_blank">website</a></strong>.</p>
+
+<p>
+	Series reservations may commence the week before classes begin in both the fall and spring semesters.&nbsp;</p>
+
+<p>
+	The series reservation is limited to a two&nbsp;(2) hour meeting per week.</p>
+
+<p>
+	The equipment provided in the room includes: a data projector, retractable screen or flat panel display and a PC; however, if a registered student organization needs helps setting up a laptop, they can call the building manager on duty at (940) 565-3841.</p>
+
+<p>
+	If registered student organizations are entering their room late or leaving early, it is advised to let a building manager know so the group will not be considered a &ldquo;no show.&rdquo;</p>
+
+<p>
+	Failure to arrive within thirty (30) minutes of the scheduled time may result in the room being cancelled and possible fees being assessed.</p>
+
+<p>
+	Rooms must be left orderly, clean, and free of any excess trash (i.e. pizza boxes, items on the floor, etc.).</p>
+
+<p>
+	If more than one room is required for meetings in the same week, registered student organizations may request a second free room three (3) days in advance of the required date. The University Union honors requests on a space available basis.</p>
+
+<p>
+	Meetings are to adjourn by midnight unless group made prior arrangements for a late closing.</p>
+
+<p>
+	Registered student organizations may bring pre-packaged food or food provided by a licensed vendor for meetings scheduled after 5:00 p.m., Monday through Friday and weekends, in any room used for block/series meetings, except for special event rooms (i.e. Large Ballroom, Small Ballroom, Lyceum, Syndicate, Green Roof Patio, Main Auditorium, Library Mall, Portico, or South Lawn).</p>
+
+<p>
+	If a registered student organization is co-sponsored by a department and the department is paying for the event, all planning must be coordinated through the department and not the student organization.&nbsp; All changes for the event are billed to the sponsoring department&rsquo;s account number at department rates.&nbsp; If a registered student organization is co-sponsored by an off campus group, all planning must be coordinated through that off campus group and not the student organization.&nbsp; All charges for the event are billed to the off campus group at the off-campus rates.&nbsp; A cooperative sponsorship does not guarantee an exemption from charges for labor, equipment or room rentals.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.3 &mdash; Special Event Spaces</h3>
+
+<p>
+	Special event rooms in the Union are designated as the large ballroom, small ballroom, Green Roof Patio, Main Auditorium, Library Mall, Portico, Senate Room and the South Lawn.<br />
+	&nbsp;&nbsp;<br />
+	Special events are limited to four (4) hours for registered student organizations. &nbsp;Events longer than 4 hours are subject to applicable fees. &nbsp;Registered student organizations may tentatively book a special event space one semester in advance. &nbsp;The reservation will not be confirmed until the organization is registered for the semester in which the event is held. &nbsp;Should the organization not register within five (5) business days, the event will be canceled. Please refer to Student Activities at the following <strong><a href="http://studentaffairs.unt.edu/student-organizations" target="_blank">website</a></strong>.</p>
+
+<p>
+	Registered student organizations may book a second special event space once the first event is over. &nbsp;There is no limit on how many times registered student organizations may book a special event room during the semester, but groups can only have one reservation on the book at a time. &nbsp;</p>
+
+<p>
+	Reservations must be canceled thirty (30) days in advance or the reserving organization is subject to a $300 fee.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.4 &mdash; Syndicate</h3>
+
+<p>
+	The Syndicate is a non-exclusive reservable space.&nbsp; If a registered student organization or university department wishes to hold an event in the Syndicate, the event must be open to the public.&nbsp;&nbsp;</p>
+
+<p>
+	A University Union technician is required for all events held in the Syndicate requiring stage lighting and/or sound support.&nbsp; Technicians&rsquo; fees apply at the current hourly rate.</p>
+
+<p>
+	No mixing of University Union technical equipment or Syndicate house equipment with non-Union equipment, without advance approval of Event Planning &amp; Scheduling Services.</p>
+
+<p>
+	Any catered events held in the Syndicate are at the discretion of the Director of Dining Services.&nbsp;</p>
+
+<p>
+	Any damage to, or loss of equipment in the Syndicate must be reported to the building manager on duty.</p>
+
+<p>
+	Persons wishing to check out equipment may do so in the Syndicate office.&nbsp; A UNT ID is required to check out equipment.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.5&nbsp;&mdash; Lyceum</h3>
+
+<p>
+	Event Planning &amp; Scheduling Services is responsible for reserving the Lyceum.&nbsp;</p>
+
+<p>
+	University classes are scheduled in the Lyceum from 8:00 a.m. to 2:00 p.m., Monday-Friday.&nbsp; Clients may reserve the Lyceum for events scheduled after 3:00 p.m. Monday through Friday and all day Saturday and Sunday subject to availability and coordination with Event Planning &amp; Scheduling Services.&nbsp;</p>
+
+<p>
+	Events requiring rehearsals may hold one free rehearsal to include the technician in advance of program, not to exceed two (2) hours.&nbsp; Additional rehearsal time will incur a rental charge and technician charge applied at current rates.</p>
+
+<p>
+	A University Union technician is required for all events and rehearsals held in the Lyceum.&nbsp; Room rental includes one technician.&nbsp; Additional technicians will be assessed at the current hour rate.</p>
+
+<p>
+	No mixing of University Union technical equipment or Lyceum house equipment with non-Union equipment, without advance approval of Event Planning &amp; Scheduling Services.</p>
+
+<p>
+	Client&rsquo;s technical equipment may not be stored in the projection booth.</p>
+
+<p>
+	State Fire Regulations prohibit standing, sitting, or adding chairs in the aisles of the Lyceum.</p>
+
+<p>
+	Any damage to or loss of equipment in the Lyceum must be reported to the building manager on duty.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.6&nbsp;&mdash; Union Art Gallery</h3>
+
+<p>
+	The Union Art Gallery hosts exhibits chosen by the Union Gallery Selection Committee. &nbsp;The Selection Committee is comprised of faculty/staff from the College of Visual Arts and Design, Union staff and students.&nbsp;</p>
+
+<p>
+	The Union Art Gallery is not a general reservable space. &nbsp;You may obtain applications to display work in the Gallery in through the Union&rsquo;s <strong><a href="http://Union.unt.edu/Uniongallery" target="_blank">website</a></strong>. &nbsp;Requests to reserve this space for special events is at the discretion of the Director of the University Union and will be determined on a case-by-case request.</p>
+
+<p>
+	The University Union is not responsible for any damage or theft during installation, exhibition, or removal of a show. &nbsp;All exhibition installations must reserve time through Event Planning &amp; Scheduling Services to avoid conflict with other activities in the building.</p>
+
+<p>
+	The University Union will not act as intermediary or representative for any sales from the Art Gallery.</p>
+
+<p>
+	Any audio/visual materials used within the Art Gallery must not interfere with other activities within the University Union.</p>
+
+<p>
+	Verde Catering must provide all food and beverage for opening receptions.</p>
+
+<h6>
+	PHYSICAL NATURE OF ARTWORK</h6>
+
+<p>
+	Working electronic components are limited to low wattage devices that require a standard 110 volt circuit.</p>
+
+<p>
+	Maximum height of work allowed is 9.5 feet.</p>
+
+<p>
+	Work may be displayed from walls, placed on sculpture stands, or positioned on the floor. &nbsp;Pieces may not be suspended from the ceiling.<br />
+	Adequate floor space must meet <strong><a href="http://www.ada.gov/" target="_blank">Americans with Disabilities Guidelines</a></strong>. &nbsp;</p>
+
+<p>
+	All work must be confined within the Art Gallery space.</p>
+
+<p>
+	Artists are responsible for all costs associated with damages/repairs to furnishings/space that are a direct result of the exhibit.</p>
+
+<h6>
+	CONTENT OF ARTWORK</h6>
+
+<p>
+	Work containing food, bacteria, live organic substances, dormant animals, insects, etc. is prohibited.</p>
+
+<p>
+	All work containing liquids must be enclosed or secured.</p>
+
+<p>
+	Work different in style, media, or content from application slides requires prior approval to gallery opening by the Director of the University Union.</p>
+
+<p>
+	Due to the multipurpose nature of the facility, some artwork may not be appropriate for the Union Art Gallery. &nbsp;If pieces are deemed too controversial or inappropriate the University Union will work with the artist to find a place to display work that is not in a public corridor.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.7 - Departmental Reservations</h3>
+
+<p>
+	Departments that reside within the University Union may schedule a weekly meeting room for departmental meetings at no cost to the attendees.</p>
+
+<p>
+	Reservations for weekly meeting rooms begin after the first two weeks of each semester and may be made up to four (4) weeks in advance.</p>
+
+<p>
+	Departments are not exempt from rentals or other fees associated with reservations when they are reserved in Special Event rooms.&nbsp; Special Event rooms in the University Union are designated as the large ballroom, small ballroom, Lyceum, Syndicate, Green Roof Patio, Main Auditorium, Library Mall, Portico, Senate Room and the South Lawn.</p>
+
+<p>
+	Once all residing departments have scheduled their weekly staff meeting, the designated rooms may be booked by the areas for additional meetings.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.8 &mdash; Meditation Room</h3>
+
+<p>
+	The Meditation Room is not general reservable space.&nbsp; Requests to reserve this space are at the discretion of the Director of the University Union and will be determined on a case-by-case request.</p>
+
+<p>
+	The Meditation Room is an open room and can be used by anyone at any time.&nbsp; If a person or individual is being disruptive or noisy, they can be asked to leave the Meditation Room by a building manager.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.9&nbsp;&mdash; Late Night Parties, Student Dances &amp; Socials</h3>
+
+<p>
+	Reservations for dances may be made no less than thirty (30) business days in advance.&nbsp; Only registered student organizations or university departments can schedule a late night party or dance.&nbsp; Late night parties or dances are events that go past normal operating hours.</p>
+
+<p>
+	Each organization is limited to two (2) dances per semester, pending availability of facilities.</p>
+
+<p>
+	Dances are limited to four (4) hours total with event end time no later than 2:00 a.m.</p>
+
+<p>
+	Event Planning &amp; Scheduling Services must be in receipt of a completed <em>Student Event Application</em> to schedule reservation and confirm date.&nbsp; The applications are available online through the Student Activities website.</p>
+
+<p>
+	A non-refundable deposit is required at time of confirming reservation for groups other than registered student organizations.</p>
+
+<p>
+	Estimated event charges are due in full three (3) business days prior to the day of the event.&nbsp; Failure to comply with the payment schedule may result in the cancellation of the event.</p>
+
+<p>
+	The maximum number of tickets sold for any event is limited to the maximum room capacity based on room set up requirements, with no exceptions.</p>
+
+<p>
+	Ticket prices must remain the same from beginning to end of event.&nbsp;</p>
+
+<p>
+	Disbursement of proceeds from ticket sales will not occur the night of the dance.</p>
+
+<p>
+	Ticket sales will end no later than one and one-half hours before the end of the event or 12:30 a.m., whichever is sooner.&nbsp; There are no exceptions.</p>
+
+<p>
+	Everyone entering the dance must have a wristband.&nbsp; The student organization must purchase wristbands and swap out with the University Union for a different color.</p>
+
+<p>
+	GUEST POLICY: a UNT student must sponsor non-UNT guests.&nbsp; Two guests per UNT ID and guests must accompany UNT student.</p>
+
+<p>
+	Student organizations must provide one event Advisor per event to assist Union staff during the event.&nbsp;</p>
+
+<p>
+	The organization must provide to the building manager the name of event advisor no later than twenty-four (24) hours prior to the event.&nbsp; All advisors must wear agreed upon visible I.D. and meet with the building manager and UNT Police one (1) hour before the event starts.</p>
+
+<p>
+	All entrances to the University Union will close promptly at midnight and only designated entrance(s) will be available to guests after that time.&nbsp; No one may leave and re-enter the facility after the purchase of a wristband with the exception of the agreed upon monitors.</p>
+
+<p>
+	DJ&#39;s must provide all of their own sound equipment.&nbsp; Live bands may provide their own sound equipment or rent a house sound system upon approval of Event Planning &amp; Scheduling services</p>
+
+<p>
+	A University Union technician must operate Union equipment.&nbsp; Under no circumstances can University Union sound equipment supplement non-Union equipment.</p>
+
+<p>
+	Clients must remove sound equipment, decorations, and other equipment within one hour following the event.&nbsp; The sponsoring organization will be assessed a fee for each hour, or any part of an hour, in excess of the specified one-hour load-out allotment.</p>
+
+<p>
+	Security is required at all dances at the expense of the responsible student organization.&nbsp; The UNT Police Department will determine the number of officers needed.</p>
+
+<p>
+	The sponsoring student organization will be assessed additional charges associated with damage, repairs and/or additional clean up.</p>
+
+<p>
+	Arrangements for outdoor events may be made up to one semester in advance. Individuals or groups requesting the use of outdoor space need to contact Event Planning &amp; Scheduling Services; allow at least 15 business days for approval. Large events require forward and progressive planning and should be submitted early.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+<p>
+	Furniture and/or equipment will not be moved outside during inclement weather.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.10 &mdash; Outdoor Events</h3>
+
+<p>
+	Arrangements for outdoor events may be made up to one (1) semester in advance.&nbsp; Individuals or groups requesting the use of outdoor space need to contact Event Planning &amp; Scheduling Services; allow at least 15 days for approval.&nbsp; Large events require forward and progressive planning and should be submitted early.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.11 - Rain Sites</h3>
+
+<p>
+	Should&nbsp;a client request rain back-up space, the space will be put on a tentative hold.&nbsp; If another group is interested in the space, prior to the event, Event Planning &amp; Scheduling will contact the client immediately.&nbsp; At that point, the client can either confirm the space with a departmental ID, thus paying for the space, or release the space to the requesting group for their use.</p>
+
+<p>
+	Clients reserving rain back-up space must pay for the reservation three (3) business days in advance of the event, thus making a rain call.&nbsp;&nbsp; On the day of event, the client must make a determination two (2) hours prior to set-up of an event whether they will be inside or outside. Events with large technical, staging, and/or food requirements require a maximum time limit of four (4) hours before the event.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.12 - Political Activities</h3>
+
+<p>
+	Registered student organizations, university departments and the general public may reserve space for political activities by contacting Event Planning &amp; Scheduling Services.&nbsp; Political activities are defined as those activities which have as their purpose the endorsement, support, or advancement of a politically affiliated cause, organization, party, or candidate.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.13 - Technical Support</h3>
+
+<p>
+	In an effort to ensure quality service, audio visual support will be provided for events in the University Union and Main Auditorium, where needed.&nbsp; Mobile audio visual support in other locations will be provided as requested, subject to a site evaluation to determine the suitability of the venue.&nbsp; Requests for audio visual services and equipment inside the University Union and Main Auditorium must be submitted to Event Planning and Scheduling Services no later than ten (10) business days in advance of the scheduled event.&nbsp; Request for mobile audio visual services in other venues must be submitted no later than ten (10) business days in advance of the scheduled event.&nbsp; Requests submitted after the reservation deadline will be subject to review by Event Planning &amp; Scheduling Services, and availability of equipment and staff are not guaranteed.&nbsp;&nbsp;&nbsp;</p>
+
+<p>
+	Clients are responsible for applicable fees on any additional technical equipment requested.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.14 - Decorations</h3>
+
+<p>
+	All decorating arrangements must be preapproved by Event Planning &amp; Scheduling Services. Clients may not use the following items when decorating rooms: &nbsp;confetti, glitter, streamer tape, adhesive tape of any kind, silly string, sand, hay, etc. &nbsp;Under no circumstances is anything to be attached to facility walls. &nbsp;Clients are responsible and charged rental for early facility access. &nbsp;</p>
+
+<p>
+	Clients must remove all d&eacute;cor and personal items at the end of event. &nbsp;</p>
+
+<p>
+	The University Union is not responsible for any injuries that might occur while an individual/group is decorating for an event.</p>
+
+<p>
+	Liability for damages or conditions requiring additional cleaning to the reserved spaces is the responsibility of the group named as the responsible party</p>
+
+<p>
+	The University Union assumes no responsibility for the damage or loss of articles, equipment, or other items left on the University of North Texas campus premises prior to, during, or following an event.&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.15 - Candles &amp; Incense</h3>
+
+<p>
+	For safety reasons, candles, incense, and open flames are not permitted in the University Union unless approved by Event Planning &amp; Scheduling Services.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.16 - Alcohol</h3>
+
+<p>
+	The University Union abides by University Policy 10.14 Use of Alcohol Beverages. &nbsp;All events requiring alcohol beverage service are arranged through Event Planning &amp; Scheduling Services. &nbsp;Please refer to the following link for UNT&rsquo;s alcohol use <strong><a href="https://policy.unt.edu/sites/default/files/untpolicy/10.14_Use%20of%20Alcoholic%20Beverages.pdf" target="_blank">policy</a></strong>.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 2.17 - Cancellation Policy</h3>
+
+<p>
+	Events canceled fewer than three (3) business days prior to the event will be charged 50% of the anticipated price of the event.<br />
+	Room rental for the Union Special Event Rooms is non-refundable. &nbsp;Special event rooms in the Union are designated as the large ballroom, small ballroom, Green Roof Patio, Main Auditorium, Library Mall, Portico, Senate Room and the South Lawn.</p>
+
+<p>
+	Room rental for the Union Meeting Rooms will be refunded if reservation is cancelled in writing more than forty business days prior to date of event.<br />
+	Room Rental for the Main Auditorium is non-refundable.<br />
+	Dept. ID numbers will be assessed full room rental for cancellation of the Special Event banquet room reservations</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 3" name="Section 3"></a>Section 3 - Catering &amp; Food Policy</h2>
+
+<p>
+	Verde Catering is the official University Union caterer. &nbsp;They are allowed the first right of refusal to cater all events in the facility. &nbsp;If they are unable to provide service, the outside catering company must get appropriate documentation from UNT Risk Management. &nbsp;Please refer to <strong><a href="https://riskmanagement.unt.edu/" target="_blank">Risk Management</a></strong>.&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 3.1 - Food After 5:00 p.m.</h3>
+
+<p>
+	Only registered student organizations may bring in pre-packaged food or order from local restaurants for meetings scheduled after 5:00 P.M. Monday through Friday and weekends excluding the Lyceum, Syndicate, the President&rsquo;s Suite and the two ballrooms. &nbsp;The intentions of this policy are to ensure only safe and properly prepared food products are served to members of the university community, their guests and visitors to campus.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 3.2 - Vending Machines</h3>
+
+<p>
+	For the convenience of guests, vending machines are located throughout the University Union. &nbsp;Refunds for cash lost in a vending machine (food or drink), are available during normal business hours (8am-5pm), Monday through Friday, in the Union Business Office, located on the 4th floor.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 3.3 - Grilling</h3>
+
+<p>
+	Open flame cooking devices such as grills, roasting pits, and camp fires are not permitted on University Union property unless approved by Risk Management.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 4" name="Section 4"></a>Section 4 - Student Organizations</h2>
+
+<h3>
+	Section 4.1 - Shared Space</h3>
+
+<p>
+	The shared space within the student organization area is intended for registered student organizations to meet with small groups and collaborate with other organizations. &nbsp;Space within this area is not reservable and used on a first-come, first-serve basis. Individuals and student organizations cannot &ldquo;stake claim&rdquo; to certain areas or hold space/furniture for their group.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 4.2 - Storage</h3>
+
+<h6>
+	SELECTION</h6>
+
+<p>
+	The Student Activities Center will coordinate the application, selection, and assignment process each summer (after the fall registration process beings) for the upcoming school year.</p>
+
+<p>
+	A waiting list will be implemented in the event no storage closets are available.</p>
+
+<p>
+	If there are openings during the school year, space will be assigned from those registered student organizations on the waiting list. &nbsp;If there is not a waiting list, applications may be reopened.</p>
+
+<p>
+	Registered student organizations must reapply each school year.</p>
+
+<p>
+	Registered student organizations that send representatives to non-mandatory Student Activities Center workshops in the prior school year will receive priority.</p>
+
+<p>
+	Student organizational recipients of Eagle Awards, as well as Student Organization of the Month recipients from the previous school year, will automatically receive a storage closet for the following school year.</p>
+
+<h6>
+	REGULATIONS</h6>
+
+<p>
+	Storage closets are only accessible during University Union building hours.</p>
+
+<p>
+	The occupancy term is for one school year; the first day of fall student organization registration through the last day of the spring final exams.</p>
+
+<p>
+	Student organizations must be registered at the time of application and must stay registered and in good standing with the Student Activities Center and/or UNT throughout the occupancy term.</p>
+
+<p>
+	After assignment, registered student organizations must check in with the Student Activities Center and sign an agreement by a set deadline, or otherwise will forfeit their closet.</p>
+
+<p>
+	Registered student organizations will only be allocated one closet, unless approved by the Student Activities Center.</p>
+
+<p>
+	Storage closets are only for the intended use of the student organization (i.e. the organization cannot &ldquo;sublet&rdquo;.)</p>
+
+<p>
+	All registered student organization items must be in stored within the assigned storage closet.</p>
+
+<p>
+	Nothing may be taped, painted, pasted, nailed, or otherwise affixed to the exterior or interior of the storage closet; stickers are prohibited.</p>
+
+<p>
+	Certain items are not allowed in the storage closet. &nbsp;These include, but are not limited to:</p>
+
+<ul>
+	<li>
+		Liquids, flammable chemicals or contents under pressure;</li>
+	<li>
+		Hazardous materials;</li>
+	<li>
+		Illegal substances or items that violate university policy;</li>
+	<li>
+		Animals; and/or</li>
+	<li>
+		Food. &nbsp;(Food may be stored ONLY if it is unopened, pre-packaged, and non-perishable.)</li>
+</ul>
+
+<p>
+	The registered student organization is responsible for the upkeep of the closet; organizations will be charged for cleaning or damage.</p>
+
+<p>
+	Registered student organizations should notify the Student Activities Center if the storage closet is in need of repair.</p>
+
+<p>
+	At the end of the occupancy term, registered student organizations must complete a checkout process with the Student Activities Center. &nbsp;If the checkout process is not completed and items are left, they will be immediately disposed of or donated. &nbsp;Failure to complete the checkout process will also result in a loss of access to a storage closet for the next school year.</p>
+
+<p>
+	Registered student organizations may vacate their closet at any time by giving notification to Student Activities Center.</p>
+
+<p>
+	If a registered student organization vacates or loses it assigned closet, it has 24 business hours to complete the checkout process.</p>
+
+<p>
+	The University Union and Student Activities Center are not responsible for any lost, stolen, or damaged items.</p>
+
+<p>
+	The University Union and Student Activities Center reserve the right to inspect storage closets at any time without prior notification.</p>
+
+<p>
+	Failure to follow regulations could result in a loss of assigned storage closet.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 4.3 - Fireplace</h3>
+
+<p>
+	A gas fireplace is located on Level 3, Circulating Area 337-B in the Student Groups and Organizations area. &nbsp;The Union Maintenance Department is responsible for maintaining the fireplace and an operational schedule. &nbsp;For further assistance, contact a Union building manager at 940-565-3841.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 5" name="Section 5"></a>Section 5 - Dock Policy</h2>
+
+<p>
+	The loading dock is the primarily location for movement of product coming in to and moving out of the University Union.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 5.1 - Loading &amp; Unloading Equipment</h3>
+
+<p>
+	The dock is a loading and delivery area only. &nbsp;To arrange a delivery or load in/out please contact the dock manager.</p>
+
+<p>
+	Predefined parking spaces have been identified to accommodate golf carts, pick-up trucks, vans, and box trucks and are restricted to departments housed within the University Union.</p>
+
+<p>
+	There will be no short or long term parking available at the dock. &nbsp;There will be &ldquo;Service Vehicle Parking&rdquo; for those vendors that service the University Union.</p>
+
+<p>
+	The Union Circle and Highland Street parking garages are available for patrons needing short term or long-term parking.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 5.2 - Temporary Cages</h3>
+
+<p>
+	Items may be stored in secure storage cages in the absence of an authorized signee. Storage is only temporary. Items may NOT be stored for lengthy periods of time.&nbsp;</p>
+
+<p>
+	Departmental or general deliveries not picked up at the time of delivery will be placed in a University Union temporary cage. University Union staff will call or email appropriate staff or department advising them of the delivery. Staff or departments will have until 12:00 a.m.&nbsp;on the day of the delivery to pick up the items.&nbsp;</p>
+
+<p>
+	For more information on temporary storage cages and or fee assessment, please contact Event Planning &amp; Scheduling Services at 940-565-3804.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 5.3 - Paint Room</h3>
+
+<p>
+	The Paint Room is a reservable space and may be booked through Event Planning &amp; Scheduling Services. &nbsp;Registered student organizations may book the Paint Room during normal hours of operation. &nbsp;The Paint Room is located off the loading dock, room 121 and managed by the University Union loading dock manager. &nbsp;<br />
+	&nbsp;<br />
+	The University Union Maintenance Department will conduct a safety review upon arrival. Only Green Guard Certified paint and solutions will be allowed.</p>
+
+<p>
+	Paints and all materials must be removed at the end of your reservation. &nbsp;Damages to the room and or equipment will be the financial responsibility of the organization or client. An assessment will be conducted by the University Union Maintenance Department with billing to follow through the Event Planning &amp; Scheduling Office.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 6" name="Section 6"></a>Section 6 - Ticket Sales</h2>
+
+<p>
+	The University Union Business Office provides on-line event ticket sales for campus departments, registered organizations, and off campus groups. &nbsp;</p>
+
+<p>
+	Ticket sales requests must be received by the University Union Business Office no later than three (3) business days in advance of sale.</p>
+
+<p>
+	For a copy of the ticket sales request sales policies and procedures, please click <strong><a href="http://studentaffairs.unt.edu/ticket-sales" target="_blank">here</a></strong>.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 7" name="Section 7"></a>Section 7 - Marketing &amp; Solicitation</h2>
+
+<h3>
+	Section 7.1 - Interactive Media Network</h3>
+
+<p>
+	The UNT University Union digital signage project is a service offered to registered student organizations and UNT departments. &nbsp;This promotional tool is cost effective, sustainable, and a visually engaging method of communicating events, programs, and services to the UNT community. &nbsp;A variety of interactive and non-interactive displays are strategically located throughout the new UNT Union, which serves over 17,000 people a day. &nbsp;To utilize this service, there is a small fee for departments and no cost to registered student organizations. &nbsp;</p>
+
+<h6>
+	Fees:</h6>
+
+<ul>
+	<li>
+		Week - $40</li>
+	<li>
+		Month - $140</li>
+	<li>
+		Special &ndash; 50% off if your artwork is created by the Union&rsquo;s design team in Design Works! Contact them <strong><a href="http://studentaffairs.unt.edu/design-works" target="_blank">here</a></strong> to schedule a consultation.</li>
+</ul>
+
+<h6>
+	Design Specifications:</h6>
+
+<ul>
+	<li>
+		Pixel dimensions &ndash; Vertical 864x1296&nbsp;/ Horizontal 1296x864 or 756x540 pixels</li>
+	<li>
+		Save your artwork as a .png at 96 dpi</li>
+	<li>
+		It is highly recommended to optimize your image for web when working in Illustrator, Photoshop, or InDesign.</li>
+</ul>
+
+<p>
+	All advertisements are subject to the rules outlined by the University Union House Guidelines, below.</p>
+
+<ul>
+	<li>
+		Payment: An IDO made out to Union Design Works, 163140-120-810002-700, and must be submitted at the same time as the artwork.&nbsp;</li>
+	<li>
+		The Union reserves the right to take down any digital advertisement that it considers inappropriate (unsuitable use of language and graphics) and any advertisement that does not follow the policy guidelines or branding guidelines set forth by the University.&nbsp;</li>
+	<li>
+		Only campus departments and registered student organizations may display digital advertisements. &nbsp;</li>
+	<li>
+		All events advertised on these banners must be open to anyone with a UNT ID.</li>
+	<li>
+		Groups that restrict membership on the basis of gender or GPA, such as Greeks (social and academic fraternities/sororities), may not individually request banner space for rush or membership drives. &nbsp;However, they may advertise these activities as a group through their governing bodies. &nbsp;Any rush related banners should be council-wide, as a whole.&nbsp;</li>
+	<li>
+		Advertising weekly meetings are not allowed. &nbsp;Groups wishing to advertise guest speakers at weekly meetings must state speaker name and topic, meeting location, date and time.</li>
+	<li>
+		Registered Student Organizations are limited to one ad at a time and have the fees waived.&nbsp;</li>
+	<li>
+		Departmental advertisements cannot run longer than one month.&nbsp;</li>
+	<li>
+		Any written material that is not in English must have an English translation adjacent that UNTi has approved. &nbsp;Please contact them <strong><a href="http://international.unt.edu/" target="_blank">here</a></strong>.</li>
+	<li>
+		Any submission not meeting these size guidelines outlined below will be rejected, as they will not display properly on the screens.</li>
+	<li>
+		Advertisement requests must be submitted at least one week in advance.</li>
+	<li>
+		Ads will run from 8am Monday to 10:00&nbsp;p.m. Sunday. &nbsp;&nbsp;</li>
+	<li>
+		Please click here to fill out a form to request digital advertising.</li>
+</ul>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 7.2 - Digital Bulletin Boards</h3>
+
+<p>
+	Digital bulletin boards are available instead of paper bulletin boards. &nbsp;Posters or decorations are strictly prohibited on facility surfaces including walls, posts, windows, doors, walks, fountains, or planters. &nbsp;Poster usage will be limited to the digital format only.</p>
+
+<p>
+	Advertisements are allowed to run for a maximum of two weeks (14 days) at a time. &nbsp;If more time is needed, one must submit a new request form for approval. &nbsp; &nbsp;</p>
+
+<p>
+	Requests must be received at least one (1) week prior to advertisement start date.</p>
+
+<p>
+	Categories available for advertisements include: Roommates, For Sale, Religious/Spiritual, Around Denton/DFW, Greek, &amp; Student Orgs. &nbsp;&nbsp;</p>
+
+<p>
+	Any written material that is not in English must have an English translation adjacent that UNTi has approved. &nbsp;Please contact them <strong><a href="http://international.unt.edu/" target="_blank">here</a></strong>.</p>
+
+<p>
+	The University Union reserves the right to remove any material it considers inappropriate (unsuitable use of language and graphics) or does not follow these guidelines.</p>
+
+<p>
+	Please click here to fill out a request form.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 7.3 - Wayfinding</h3>
+
+<p>
+	Individuals visiting the University Union can interact with a number of electronic wayfinding devices throughout the facility. &nbsp;These kiosks are available at entrances and will outline specific routes to meeting rooms, office suites, retail components, and other areas of interests within the University Union. &nbsp;They utilize touch screen interaction and are also equipped with ADA-enabled interactive buttons.</p>
+
+<p>
+	Additionally, individuals can interact with University Union staff at the Information Desk, located on the second floor of the University Union for wayfinding information. &nbsp;The direct phone number to the University Union Information Desk is 940-565-3805.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 7.4 - Banners</h3>
+
+<p>
+	At this time, the only banners permitted in the Union are Pop-Up Banners. &nbsp;The guidelines are as follows:</p>
+
+<h6>
+	Pop-UP Banner Policies</h6>
+
+<ul>
+	<li>
+		Fees:
+		<ul>
+			<li>
+				Student Organizations &ndash; waived, but only allowed one at a time.</li>
+			<li>
+				Deparments: $40 per week (Maximum of two weeks).</li>
+		</ul>
+	</li>
+	<li>
+		The University Union reserves the right to take down any pop-up banner that it considers inappropriate (unsuitable use of language and graphics) and any banner that does not follow the banner policy guidelines.&nbsp;</li>
+	<li>
+		Only campus departments and registered student organizations may display pop-up banners.&nbsp;</li>
+	<li>
+		All banners must be printed professionally. &nbsp;No handmade banners will be permitted in the building. &nbsp;If you need assistance with printing requirements, please contact University Union Marketing <a href="http://studentaffairs.unt.edu/marketing-union"><strong>here</strong></a>.</li>
+	<li>
+		All reservations must be made at least one (1) week in advance of time period requested.</li>
+	<li>
+		Pop-Up Banners may be displayed for a maximum of two weeks (14 days) days. &nbsp;</li>
+	<li>
+		A maximum of three pop-up banners may be displayed at one time and are limited to the entrance vestibules.</li>
+	<li>
+		Reservations are on a first come, first-serve basis.</li>
+	<li>
+		Pop-up banners can only advertise special departmental and/or organizational events and programs. Weekly meetings are not allowed.</li>
+	<li>
+		All events advertised on these banners must be open to anyone with a UNT ID.</li>
+	<li>
+		Groups that restrict membership on the basis of gender or GPA, such as Greeks (social and academic fraternities/sororities), may not individually requests banner space for rush or membership drives; however, they may advertise these activities as a group through their governing bodies. &nbsp;Any rush related banners should be council-wide, as a whole.&nbsp;</li>
+	<li>
+		Weekly meetings are not allowed. &nbsp;Groups wishing to advertise guest speakers at weekly meetings must state speaker name and topic, meeting location, date and time.</li>
+	<li>
+		Any written material that is not in English must have an English translation adjacent that UNTi has approved. &nbsp;Please contact them here.</li>
+	<li>
+		After 14 days, removed banners will be available for pick up at the Information Desk for three (3) working days. &nbsp;After three (3) days, all unclaimed banners will be recycled.</li>
+	<li>
+		If a student organization or department is denied a banner space or if the reason for removal of a banner is unclear, the group should first contact the University Union Marketing Office and/or the Director of the University Union for more information. &nbsp;If the issue is not resolved to the satisfaction of the organization or department, Section 10 outlines the Union&rsquo;s grievance procedures.</li>
+	<li>
+		Click here to sign up for pop-up banner space. &nbsp;</li>
+</ul>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 7.8 - Information/Vendor Tables</h3>
+
+<p>
+	All sales and/or solicitations must comply with the <strong><a href="http://policy.unt.edu/sites/default/files/untpolicy/10.13_Solicitation%20Policy.pdf" target="_blank">university solicitation policy</a>.</strong></p>
+
+<p>
+	Free dispensing or sale of food or beverages (prepared or prepackaged) is prohibited by the University Union unless prior approval is received by the Director of the University Union.&nbsp;</p>
+
+<p>
+	Fees for table space, when applicable, are due at the time of reservation.</p>
+
+<p>
+	&nbsp;The University Union recognizes two types of table uses in the facility:</p>
+
+<ul>
+	<li>
+		Information Tables: Literature available for passers-by to pick up from table (only student organizations).</li>
+	<li>
+		Vendor Tables: Sales by outside groups that are sponsored by a University organization or department for fund-raising purposes.</li>
+</ul>
+
+<p>
+	University departments and student organizations are responsible for any activity at their sponsored table(s) including vendor sales and/or conduct. Failure to adhere to policy may result in department/student organization or outside vendor being blocked from future scheduling of vendor/information tables.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 7.9 - Donation Bins</h3>
+
+<p>
+	Donation bins are reservable spaces.&nbsp; The donation bins are located in the circulation area near 218A.&nbsp; The bins are managed and reserved by University Union Marketing.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 7.10 - Office Suite Displays</h3>
+
+<p>
+	Each department housed within the University Union may use electronic signage.&nbsp; The location and placement of this signage must be approved by the University Union prior to placement.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 8" name="Section 8"></a>Section 8 - Tenant Policies</h2>
+
+<h3>
+	Section 8.1 - Damage Reporting &amp; Maintenance</h3>
+
+<p>
+	It is the University Union&rsquo;s desire to keep the facility in the best shape possible.&nbsp; If you have something or notice something that requires maintenance or repair, please call the University Union Administration office at 940-565-3811.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.2 - Cleaning</h3>
+
+<p>
+	If you have a special request for cleaning or an accident, please contact University Union Administration at 940-565-3811 and they will dispatch someone to your area.&nbsp; It is important to attend to these items as soon as possible, so they do not harm the building, carpets, and furniture.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.3 - Easels &amp; Freestanding Signage</h3>
+
+<p>
+	The use of easels and other freestanding informational signage must be reserved through Event Planning &amp; Scheduling Services.&nbsp; Tenants of the facility may use one easel or one freestanding informational signage display outside their own space upon prior approval of the Director of the University Union.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.4 - Window Covering</h3>
+
+<p>
+	Posting, taping, or covering windows, doors, and walls of the facility is not allowed.&nbsp; Items found in these locations will be removed immediately.&nbsp; All special marketing requests must be made to the Director of the University Union, for approval.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.5 - Picture/Sign Hanging</h3>
+
+<p>
+	If tenants wish to hang pictures or signage, please contact University Union Administration and they will place a work order to have someone hang the pictures and signage.&nbsp; Tenants are not allowed to hang items themselves.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.6 - Paint</h3>
+
+<p>
+	All requests for painting areas must be made and approved by University Union Maintenance. A color swatch book is available to review approved colors.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.7 - Furniture Palette</h3>
+
+<p>
+	Tenants of the University Union may not add, remove, or move furniture without prior consent of University Union Administration.</p>
+
+<p>
+	The University Union has a specific furniture palette for the facility.&nbsp; If you need additional furniture for your space, please contact University Union Administration for information on ordering additional furniture that will match the current stock.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.8 - Break Rooms/Work Rooms</h3>
+
+<p>
+	Personal refrigerators, microwaves, and other food storage devices are prohibited in the University Union.&nbsp; Tenants are encouraged to use the break rooms to store food and drink.</p>
+
+<p>
+	Break Rooms and Work Rooms are shared by multiple offices within the University Union.&nbsp; Please make every effort to keep your break rooms and work rooms safe and clean.&nbsp; If a problem arises or cleaning is requested, please contact University Union Administration.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.9 - Space Heaters/Seasonal Decorations</h3>
+
+<p>
+	The University Union follows the policy set forth by Risk Management as it applies to space heaters and seasonal decorations. &nbsp;Please reference the following <strong><a href="http://facilities.unt.edu/sites/default/files/RMS%20Handouts.pdf" target="_blank">for guidelines</a></strong>.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.10 - Security</h3>
+
+<p>
+	Successful meetings and events begin with careful planning and preparation for all reasonably anticipated risks.&nbsp; Event Planning &amp; Scheduling Services will advise individuals or groups of the need for security and any applicable fees.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 8.11 - Computer Use</h3>
+
+<p>
+	The University Union follows university policy 3.6, 3.9, 3.10, and 3.11 in regards to information technology in the facility. If a public use computer needs attention, please contact University Union Administration 940-565-3811 and a staff member will report the problem. The university&rsquo;s policy on information technology can be found below:</p>
+
+<ul>
+	<li>
+		<strong><a href="http://policy.unt.edu/sites/default/files/untpolicy/3.6_InformationSecurity_July15.pdf" target="_blank">Information Security Policy 3.6</a>&nbsp;</strong></li>
+	<li>
+		<a href="http://policy.unt.edu/policy/3-9" target="_blank"><strong>Web Publishing Policy 3.9</strong></a></li>
+	<li>
+		<a href="http://policy.unt.edu/sites/default/files/untpolicy/3.10_ComputerUsePolicy_Nov05_0.pdf" target="_blank"><strong>Computer Use Policy 3.10&nbsp;</strong></a></li>
+	<li>
+		<a href="http://policy.unt.edu/policy/3-11" target="_blank"><strong>Network Connections Policy 3.11</strong></a></li>
+</ul>
+
+<p>
+	For additional information on the university&rsquo;s information technology policies, view the links below:&nbsp;</p>
+
+<ul>
+	<li>
+		<strong><a href="http://itss.untsystem.edu/it-policies/it-policies" target="_blank">IT Policies</a></strong></li>
+	<li>
+		<strong><a href="http://itss.untsystem.edu/it-policies/it-standards" target="_blank">IT Standards</a></strong></li>
+	<li>
+		<strong><a href="http://itss.untsystem.edu/sites/default/files/unt_system_information_security_handbook.pdf" target="_blank">Security Handbook</a></strong></li>
+</ul>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 9" name="Section 9"></a>Section 9 - Special Policies</h2>
+
+<h3>
+	Section 9.1 - Available Use</h3>
+
+<p>
+	University Union facilities are available for use by the university community including UNT students, faculty, staff, and members of the university administration, alumni, and guests and outside community.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.2 - Minors</h3>
+
+<p>
+	Under aged guests must be accompanied by a parent, guardian, or an adult.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.3 - Mobility Devices</h3>
+
+<p>
+	In order to ensure safe passage and to protect the building, the use of bicycles, rollerblades, skateboards, Segway&rsquo;s, scooters, hover boards and any other vehicles or devices for quicker travel are not permitted in University Union.&nbsp; Personal mobility devices (i.e. wheelchairs, knee scooters, etc.) may be used in order to accommodate or assist with a disability or injury.</p>
+
+<p>
+	The use of heavy equipment throughout the facility must have prior approval.&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.4 - Service Animal Policy</h3>
+
+<p>
+	The University Union follows the University of North Texas policy regarding service animals. For information about service animals and their access to public places please refer to the University of North Texas office of Disability and Accommodation website below.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.5 - Lactation Station</h3>
+
+<p>
+	The lactation station is located on the 4<sup>th</sup> floor of the University Union and is open to the public during regular operating hours.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.6 - Campus Carry</h3>
+
+<p>
+	At the present time no weapons are allowed on campus.&nbsp; The law goes into effect in the August 1, 2016.&nbsp; Once the law goes into effect, the University Union will follow university policy regarding concealed handgun licenses.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.7 - Damage or Loss Policy</h3>
+
+<p>
+	The University Union assumes no responsibility for the damage or loss of articles, equipment, or other items left in the facility.&nbsp;&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.8 - Free Speech &amp; Demonstration Policy</h3>
+
+<p>
+	The Union adheres to the University Free Speech and Public Assembly policy in Section 18.4.8 of the policy manual. &nbsp;Please click <a href="http://policy.unt.edu/disposition/free-speech-and-public-assembly-campus-grounds" target="_blank"><strong>here </strong></a>for policy.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.9 - Security System</h3>
+
+<p>
+	The University Union has surveillance cameras placed strategically inside and outside of the facility to help with security. &nbsp;The cameras can only be accessed by the University Union Administration and UNT Police Department. &nbsp;Please click <a href="http://studentaffairs.unt.edu/sites/default/files/union_emergency_procedures.pdf" target="_blank"><strong>here </strong></a>for policy.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.10 - Fundraising, Raffling, Gambling &amp; Illegal Activity Policy</h3>
+
+<p>
+	The University Union prohibits any type of illegal activity in the building.&nbsp; Registered student organizations may use raffles and gambling (e.g. bingo, poker night, casino night) to raise funds in support of university related activities.&nbsp; All events must be scheduled through Event Planning &amp; Scheduling Services and have proper university approvals.&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.11 - Furnishings &amp; Equipment</h3>
+
+<p>
+	Individuals may not remove University Union equipment and/or furnishings from or around the premises.&nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.12 - Filming Within the University Union</h3>
+
+<p>
+	All campus departments, registered student organizations, and individuals must adhere to the following guidelines for filming within the University Union.&nbsp;</p>
+
+<ul>
+	<li>
+		Filming in common areas is permitted when filming does not interfere with any programming or facilities work.</li>
+	<li>
+		Filming in or around the retail areas, including the food services within the Union, is at the sole discretion of each retailer. &nbsp;Permission must be obtained from them beforehand.</li>
+	<li>
+		Footage may not be used for commercial use without prior approval from Union Administration.&nbsp;</li>
+	<li>
+		It is the film crew&rsquo;s responsibility to obtain and provide release forms for individuals that are being filmed. &nbsp;If needed, please click&nbsp;<strong><a href="/sites/default/files/union/pdf/university_union_photo_video_release_form.pdf" target="_blank">here&nbsp;</a></strong>for a film release form.</li>
+	<li>
+		Departments, organizations, and individuals must provide their own equipment.</li>
+	<li>
+		Rooms and event spaces within the University Union must be reserved in advance through Event Planning &amp; Scheduling Services for intended film use. &nbsp;If needed, please contact them here.</li>
+	<li>
+		University Union Administration reserves the right to refuse or stop filming at any time.</li>
+</ul>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.13 - Severe Weather Shelter Location</h3>
+
+<p>
+	For the safety of guests, the University Union has predetermined locations for shelters in the event of severe weather.&nbsp; Members of the University Union staff will assist and guide visitors of the facility to these safe locations in the event of severe weather. The locations include:</p>
+
+<p>
+	TBD</p>
+
+<p>
+	For more information about preparing for severe weather on campus, please click <strong><a href="http://emergency.unt.edu/get-prepared/Severe-Weather" target="_blank">here</a></strong>.&nbsp; &nbsp; &nbsp;</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.14 - Amplified Sound &amp; Pianos</h3>
+
+<p>
+	Use of amplified sound is not allowed inside the University Union in open spaces, halls, or lounges.&nbsp;&nbsp;</p>
+
+<p>
+	The maximum level of amplified sound for outdoors events is 92 decibels.&nbsp; Sound levels will be regulated by the building manager through the use of a hand-held sound level meter.</p>
+
+<p>
+	The University Union reserves the right to restrict access to the piano; ensuring use does not conflict with the daily business of the University Union.&nbsp; Pianists are expected to be courteous of others by monitoring their noise level and by responding promptly and politely when asked to cease playing.&nbsp; The piano cannot be relocated from its original location.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h3>
+	Section 9.15 - Day Use Lockers</h3>
+
+<p>
+	Lockers are only accessible during University Union operational hours. &nbsp;The University Union provides both day locker and semester lockers, for a small fee. &nbsp;Students may check out a locker from the University Union Information Desk during operational hours.</p>
+
+<p>
+	To check out a locker, students must provide a current UNT ID and phone number.&nbsp;Items must be removed by 11pm on the day of check out. Items not removed by this time will be removed by University Union staff and submitted to the lost and found. Items not retrieved after one (1) week will be discarded or donated to charity. &nbsp;Nothing may be written, taped, painted, pasted, nailed, or otherwise affixed to the exterior or interior of the locker; stickers are prohibited.</p>
+
+<p>
+	Certain items are not allowed in the lockers. These include, but are not limited to:</p>
+
+<ul>
+	<li>
+		Liquids, flammable chemicals or contents under pressure;</li>
+	<li>
+		Hazardous materials;</li>
+	<li>
+		Weapons;&nbsp;</li>
+	<li>
+		Illegal substances or items that violate university policy;&nbsp;</li>
+	<li>
+		Animals and other living creatures; and</li>
+	<li>
+		Food. Food may be stored ONLY if it is unopened, pre-packaged, and non-perishable.</li>
+</ul>
+
+<p>
+	If deemed necessary, the student will be charged for cleaning or damage. &nbsp;The University Union reserves the right to inspect lockers at any time without prior notification. &nbsp;Failure to follow regulations could result in a loss of the ability to check out a day locker.</p>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<h2>
+	<a id="Section 10" name="Section 10"></a>Section 10 - Appeals Process</h2>
+
+<p>
+	The Union Board of Directors shall hear appeals of any decision made by the University Union staff. &nbsp;The following process outlines the hearing process:</p>
+
+<ul>
+	<li>
+		Written request for appeal must be made to the Chair of the Union Board of Directors.</li>
+	<li>
+		All relevant parties are to be present to ensure an adequate and fair hearing.</li>
+	<li>
+		The Union Board of Directors shall hear the appeal at the next regularly scheduled meeting.</li>
+	<li>
+		The Union Board of Directors shall render a decision by the following business day. &nbsp;The decision of the Union Board of Directors is final.</li>
+	<li>
+		Decisions of the Union Board of Directors shall be in accordance with university and University Union guidelines</li>
+</ul>
+
+<p>
+	<strong><a href="#Top">Back to top</a></strong></p>
+
+<p>
+	&nbsp;</p>
+	
+        <!-- Social Buttons -->
+        <div class="social-buttons col-md-12">
+        	<a class='post-share facebook col-md-4' href=http://www.facebook.com/plugins/like.php?href=http://studentaffairs.unt.edu/blog/house-guidelines&width&layout=standard&action=like&show_faces=true&share=true&height=80&appId172344346146873 onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">Share on Facebook</a><a class='post-share twitter col-md-4' href=https://twitter.com/share?url=http://studentaffairs.unt.edu/blog/house-guidelines onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">Share on Twitter</a><a class='post-share gplus col-md-4' href=https://plus.google.com/share?url=http://studentaffairs.unt.edu/blog/house-guidelines onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">Share on Google Plus</a>        </div>
+
+	</div>
+
+    <div class="col-md-3">
+    
+    </div>
+	
+</div>
+
+
+</main>
+
+<style type="text/css">.up-vote, .down-vote{
+    width:100px;
+    height:40px;
+      border-radius:5px;
+    float:left;
+  }
+  
+  .up-vote.inactive, .down-vote.inactive{
+  	background-color:#ccc; 
+    border-color:#bbb; 
+    color:#bbb;
+  }
+  
+  .up-vote img, .down-vote img{
+  	height: 30px;
+    margin-left: -12px;
+    margin-top: -27px;
+  }
+
+  
+  .up-vote:hover, .down-vote:hover{
+    cursor:pointer;
+
+  }
+  .up-vote.active, .down-vote.active{
+    background-color:#72b844;
+  }
+</style>
+<script>
+
+var Voter = function() {
+ 	this.upButton;
+    this.downButton;
+    this.nid;
+    this.inactiveClass = "inactive";
+}
+
+Voter.prototype.init = function() {
+	this.upButton = document.querySelector(".up-vote");
+    this.upButton.addEventListener("click", this.clickHandler.bind(this), false);
+    this.downButton = document.querySelector(".down-vote");
+    this.downButton.addEventListener("click", this.clickHandler.bind(this), false);
+    //Get the node value
+    this.nid = document.querySelector(".row.blog").getAttribute("id");//.split("-")[1];
+}
+
+Voter.prototype.clickHandler = function(e){
+	var url = "/preska2/relationship/add";
+    var data = "";
+    var element = e.target || e.srcElement;
+    //Get Node id
+    data += "&nid=" + this.nid;
+	//if upButton was pressed, prepare up vote string
+    if (element === this.upButton) {
+    	this.upButton.classList.remove(this.inactiveClass);
+        this.downButton.classList.add(this.inactiveClass);
+    	data += "&action=up_vote";
+    } else if (element === this.downButton) {
+    	this.downButton.classList.remove(this.inactiveClass);
+        this.upButton.classList.add(this.inactiveClass);
+    	//if downButton was pressed, prepare down vote string
+        data += "&action=down_vote";
+    }
+    
+    //Send the Ajax request
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+      {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+      }
+    else
+      {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    xmlhttp.onreadystatechange=function()
+      {
+      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+        document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+        }
+      }
+    xmlhttp.open("POST", url, true);
+    xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xmlhttp.send(data);
+	console.log(data);
+}
+
+function startVoter () {
+	
+    var v = new Voter();
+    v.init();
+
+}
+
+window.addEventListener("load", startVoter, false);
+
+</script>
+		
+<style>
+	.hero{
+		background-image:url('/');
+	}
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/blog/house-guidelines": true }, "og": { "group_context": { "nid": "8135", "title": "University Union", "type": "departments_services" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

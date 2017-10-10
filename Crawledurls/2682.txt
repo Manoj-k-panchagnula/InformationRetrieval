@@ -1,0 +1,927 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1"><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" /><title>
+	
+    City of Denton, TX : Police Department
+
+</title>
+    <script type="text/javascript">
+        //script for making "view full site" button work on mobile devices 
+        function getCookie(c_name) {
+            var i, x, y, ARRcookies = document.cookie.split(";");
+            for (i = 0; i < ARRcookies.length; i++) {
+                x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+                y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+                x = x.replace(/^\s+|\s+$/g, "");
+                if (x == c_name) {
+                    return unescape(y);
+                }
+            }
+        }
+
+        function setCookie(c_name, value, exdays) {
+            var exdate = new Date();
+            exdate.setDate(exdate.getDate() + exdays);
+            var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+            c_value = (window.location.protocol == 'https:') ? c_value + "; secure" : c_value;
+            document.cookie = c_name + "=" + c_value;
+        }
+
+        var isResponsive = getCookie('ISRESPONSIVE');
+        if (isResponsive != "no" && isResponsive != "yes") {
+            setCookie('ISRESPONSIVE', 'yes', 7);
+            document.write('<meta name="viewport" content="width=device-width" />');
+            isResponsive = 'yes';
+        } else {
+            if (isResponsive == "no") {
+                document.write('<meta name="viewport" content="width=980" />');
+            }
+            else {
+                document.write('<meta name="viewport" content="width=device-width" />');
+            }
+        }
+    </script>
+
+    <link href="/DefaultContent/Default/StyleBundleDesignTheme.cssbnd?v=eqAmMibniB913NUfC1WrInPeXpiTaNo5GvfNvj-P9To1" rel="stylesheet"/>
+<link href="/Project/Contents/PoliceDepartment/StyleBundleDesignTheme.cssbnd?v=6aschoYZAaxnjfJ9aKzdntNla0cQrX6U9_8htDKFc3I1" rel="stylesheet"/>
+<link href="/Areas/Admin/Content/StyleBundleFrontendExtra.cssbnd?v=-cG6bfciEzyG0pVpDdXAbInOUnqKuoiK61z7_e6NMxo1" rel="stylesheet"/>
+<link href="/DefaultContent/Default/Print.cssbnd?v=LagRFhur4RMxiqMN2QR0jEYqBcqJfKB2ZqfNph75L3A1" rel="stylesheet" media="print" />
+<link href="/Project/Contents/PoliceDepartment/Print.cssbnd?v=" rel="stylesheet" media="print" />
+<script src="/Scripts/ScriptBundleFAllInOne.jsbnd?v=OvrmMjHr_lbiiqw6YGr9M1m9zbyO6ah33uOxlmANLTg1"></script>
+<script>window.visionOptions = {virtualApplicationPath:'/',logOnPath:'Admin/LogOn',logOffPath:'Admin/LogOff',enableSessionTimeout:false,sessionTimeoutInMinutes:20,timeToAlertBeforeSessionTimeoutInMinutes:15,extendSessionTimeoutPath:'Admin/Account/ExtendSessionTimeout',mainFolderPath:'/Project/Contents/Main/',centerLocation:'Santa Monica, CA', siteID:1, navigationID:461, isHomePage:false, emergencyNoticeChanged:false, loggedIn:false, showTopTips:true, currentDesignFolderPath:'/Project/Contents/PoliceDepartment/', useDesignThemFontSizeCss:false , clientResponsiveTableEnabled:true };</script>
+
+    <script type="text/javascript">
+        //script for view full site button, placed here to keep firefox for mobile devices happy
+        $(function () {
+            var viewFullElement = document.getElementById("view-full");
+            if (viewFullElement) {
+                if (isResponsive == "yes") {
+                    viewFullElement.className = 'mobile_only fullsite';
+                }
+                else {
+                    viewFullElement.innerHTML = 'View Mobile Optimized';
+                    viewFullElement.className = '';
+                }
+            }
+        });
+    </script>
+    
+
+    <!--[if lt IE 9]>
+        <script src="/Scripts/ScriptBundleOthers.jsbnd?v=ZmLK_igjpTIMfgASAKqaKONULYPGN4ZuJvbaiQM257I1"></script>
+
+	<![endif]-->
+
+    
+    
+   
+    
+    <link id="active_font" rel="stylesheet" type="text/css" href="/Project/Contents/Main/x-small.css">
+    
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+
+    
+    
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5789891-1']);
+    _gaq.push(['_setCustomVar', 1, 'Page', 'Police Department, ID:461', 3]);
+    _gaq.push(['_setCustomVar', 2, 'Year', '2016', 3]);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<!-- End Google Analytics -->
+      
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="police department, police recruit, recruiting, testing, K-9 unit, SWAT, tactical, squad, " />
+    
+<meta name="google-site-verification" content="e-bmjQieSCYfqLJClqTr7I1xLd5yo77z70i31Jmzmk0" /></head>
+
+<body class="front_end_body site_standardsitetemplate">
+    
+    <!--stopindex-->
+    <noscript>
+        <div class="noscript_alert"><span>Please enable JavaScript in your browser for a better user experience.</span></div>
+    </noscript>
+    <!--startindex-->
+    <div class="vi-temp-message-container" style="display:none;"></div>
+    
+    
+
+<div class="sitewrapper site_template mainSpan_wrapper">
+    <div class="mainSpan" id="mainSpan_wrapper_Screen">
+        <!--stopindex-->
+        <div id="skipnav">
+            <a href="#pagebody">
+                <img alt="Skip to page body" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="Home" href="/home">
+                <img alt="Home" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="About the City" href="/about-the-city">
+                <img alt="About the City" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="Government" href="/government">
+                <img alt="Government" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="Departments & Services" href="/departments-services">
+                <img alt="Departments & Services" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="Residents" href="/residents">
+                <img alt="Residents" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="Visitors" href="/visitors">
+                <img alt="Visitors" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="Businesses" href="/businesses">
+                <img alt="Businesses" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+            <a title="How Do I…" href="/how-do-i-">
+                <img alt="How Do I…" src="/DefaultContent/Default/_gfx/spacer.gif"></a>
+            
+        </div>
+        <!--startindex-->
+
+        <header id="siteheader" class="">
+            <!--stopindex-->
+            <a id="home_link" href="/home">Home</a>
+            <a id="sitemap_link" href="" class="mobile_only">Sitemap</a>
+            <a id="contact_link" href="" class="mobile_only">Contact</a>
+            <!--startindex-->
+            
+<div id="headercolumn" class="site_template_column  header_column   "  >
+
+                <!--stopindex-->
+                
+		<div class="header_nav">
+			&nbsp;<a href="/home" target="_self">Home</a> | <a href="/about-the-city/calendar" target="_self">Calendar</a> |&nbsp;<a href="/departments-services/departments-a-f/emergency-management/codered-system" target="_self">CodeRed</a> | <a href="/departments-services/departments-g-p/human-resources/position-openings" target="_self">Employment</a> |&nbsp;<a href="/about-the-city/sign-up-for-enews" target="_self">eNews</a>| <a href="/about-the-city/denton-online">Denton Online</a> |<a href="http://facebook.com/cityofdenton" target="_blank"><img style="margin: 3px; width: 16px; height: 16px; vertical-align: middle;" alt="Facebook" src="/Home/ShowImage?id=2356&t=634933442831230000" align="absMiddle"></a>|<a href="http://twitter.com/cityofdentontx" target="_blank"><img style="margin: 3px; width: 16px; height: 16px; vertical-align: middle;" alt="Twitter" src="/Home/ShowImage?id=2378&t=634933442831230000" align="absMiddle"></a>| <a href="http://www.youtube.com/user/CityofDenton" target="_blank"><img style="margin: 3px; width: 17px; height: 18px; vertical-align: middle;" alt="YouTube" src="/Home/ShowImage?id=2816&t=634934346400570000" align="absMiddle"></a>|<img alt="Google plus" src="/Home/ShowImage?id=3225&t=634933442831230000" align="absMiddle" style="margin: 3px; width: 20px; height: 20px; vertical-align: middle;">| <a href="/about-the-city/advanced-components/member-login?ReturnUrl=/departments-services/departments-g-p/police-department">Login</a>
+		</div>
+
+                <!--startindex-->
+            
+    
+                <!--stopindex-->
+                <div id="searchbox" class="clearfix">
+	<label style="display: none;" for="search_text">Search</label>
+	<input type="text" title="Search..."  id="search_text" placeholder="Search..."/>		
+	<a title="Click to search" href="javascript:void(0);">
+		<img src="/Project/Contents/Main/_gfx/cmn/goBtn.gif" alt="Search">
+	</a>
+</div>
+<script type="text/javascript">
+    $(function () {
+    	$("#searchbox input").keydown(function(e){
+			if(e.keyCode == 13){
+				 $("#searchbox a").click();
+			}
+		});
+		$("#searchbox a").click(function () {
+			var keyWord = $("#searchbox input#search_text").val();
+			if(keyWord.length<=0){return false;}
+			keyWord = encodeURIComponent(keyWord);
+			var link = '/about-the-city/advanced-components/search';
+			if(link.indexOf('?') >= 0)
+				link = link + '&q=' + keyWord;
+			else
+				link = link + '?q=' + keyWord;
+				window.location.href = link;
+		});
+    });
+</script>
+                <!--startindex-->
+            
+    
+                <!--stopindex-->
+                
+<!--stopindex-->
+
+<script type="text/javascript">
+    function redirectToUrl(url, target, id) {
+        var objWin = window;
+        if (target == "_blank") {
+            objWin = window.open(url, id);
+            return;
+        }
+        else if (target == "_parent") {
+            if (window.parent != null) {
+                objWin = window.parent;
+            }
+        }
+        else if (target == "_top") {
+            if (window.top != null) {
+                objWin = window.top;
+            }
+        }
+        if (objWin != null) {
+            objWin.location = url;
+            objWin.focus();
+        }
+    }
+    function GoQuicklinks(obj) {
+        var selectedObj = obj.options[obj.selectedIndex];
+        if (selectedObj.value != "") {
+            redirectToUrl(selectedObj.value, selectedObj.getAttribute("data-target"), selectedObj.id);
+        }
+    }
+</script>
+<label for="quicklinks" style="display: none">
+   Quick Links</label>
+<select class="quicklink" name="quicklinks" id="quicklinks" onchange="GoQuicklinks(this);">
+    <option data-target="_self" value="/#">Quick Links</option><option data-target="_self" value="/government/city-council/city-council-agendas-minutes-videos">Agendas / Minutes / Videos</option><option data-target="_self" value="/departments-services/departments-a-f/airport">Airport</option><option data-target="_self" value="/departments-services/departments-a-f/animal-services">Animal Services</option><option data-target="_self" value="/government/awards">Awards</option><option data-target="_self" value="http://library.municode.com/index.aspx?clientId=10644">City Charter & Ordinances</option><option data-target="_self" value="/departments-services/departments-a-f/code-enforcement">Code Enforcement</option><option data-target="_self" value="/departments-services/departments-a-f/emergency-management/codered-system">CodeRed System</option><option data-target="_self" value="/departments-services/utilities-customer-service">Customer Service Online</option><option data-target="_self" value="/?navid=981">Development Code</option><option data-target="_self" value="/departments-services/downtown-implementation-plan-dtip-">Downtown Implementation Plan</option><option data-target="_self" value="http://denton-tx.granicus.com/MediaPlayer.php?publish_id=4">DTV Live Stream</option><option data-target="_self" value="/departments-services/departments-g-p/human-resources/position-openings">Employment</option><option data-target="_self" value="http://www.engagedenton.com/">Engage Denton</option><option data-target="_self" value="/departments-services/departments-a-f/fire-department">Fire Department</option><option data-target="_self" value="/departments-services/departments-g-p/gas-well-inspections">Gas Well Inspections</option><option data-target="_self" value="/departments-services/departments-g-p/planning/historic-preservation/historic-preservation-plan-update">Historic Preservation Plan Update</option><option data-target="_self" value="/departments-services/departments-g-p/materials-management-purchasing-distribution-center-/how-to-do-business">How to do Business</option><option data-target="_self" value="http://maps.cityofdenton.com/">Interactive Maps</option><option data-target="_self" value="/departments-services/departments-q-z/water-utilities/conservation/lawn-and-landscape-irrigation-and-water-waste-ordinance">Lawn & Landscape Ordinance</option><option data-target="_self" value="/departments-services/departments-g-p/library">Library</option><option data-target="_self" value="http://library.municode.com/index.aspx?clientId=10644">Municipal Code</option><option data-target="_self" value="/departments-services/departments-g-p/municipal-court">Municipal Court Fines/Payment</option><option data-target="_self" value="/government/city-manager-s-office/city-secretary-s-office/municipal-elections">Municipal Elections</option><option data-target="_blank" value="/departments-services/departments-q-z/technology-services/application-development/open-data">Open Data</option><option data-target="_self" value="/departments-services/departments-a-f/finance/open-government">Open Government</option><option data-target="_self" value="/departments-services/departments-g-p/parks-recreation">Parks & Recreation</option><option data-target="_self" value="/departments-services/departments-g-p/planning">Planning</option><option data-target="_self" value="/departments-services/departments-g-p/police-department">Police Department</option><option data-target="_self" value="/about-the-city/news">Press Releases</option><option data-target="_self" value="/departments-services/public-art">Public Art</option><option data-target="_self" value="/departments-services/departments-g-p/public-transportation">Public Transportation</option><option data-target="_self" value="/departments-services/departments-g-p/materials-management-purchasing-distribution-center-">Purchasing</option><option data-target="_self" value="/government/city-council-redistricting-plan">Redistricting Information</option><option data-target="_self" value="/departments-services/departments-a-f/consumer-health/restaurant-scores">Restaurant Scores</option><option data-target="_self" value="/how-do-i-/plan-a-special-event">Special Events Information</option><option data-target="_self" value="http://www.cityofdenton.com/home/showdocument?id=17268">Strategic Plan</option><option data-target="_self" value="/departments-services/utility-and-cip-engineering/streets-roads">Street Construction Report</option><option data-target="_self" value="/departments-services/departments-q-z/solid-waste-recycling/residential-services/curbside-collection-map">Trash Collection Schedule</option><option data-target="_self" value="https://www1.cityofdenton.com/eCare/login.asp">Utilities Account Login</option><option data-target="_self" value="/departments-services/departments-q-z/water-utilities/water/water-quality/water-quality-report">Water Quality Report</option>
+</select>
+
+<!--startindex-->
+                <!--startindex-->
+            
+    <div class="translatebox desktop_only">
+    <div id="google_translate_element"></div>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+		//includedLanguages: 'ar,zh-CN,zh-TW,tl,hi,ja,ko,fa,pt,ru,es,vi',
+                pageLanguage: 'en'
+                
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+            
+    
+</div>
+
+        </header>
+
+        
+<div class="standardthreecolumnlayout clearfix" id="sitebody">
+    
+<div id="ColumnUserControl1" class="column   top_col clearfix  "  >
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="63"WidgetStart!!-->
+
+                <!--stopindex-->
+                <div class=" main_menu_widget"><link href="/DefaultContent/Default/StyleBundleMegaMenuDropDown.cssbnd?v=CD_eN-fYJU8KKPigt6x-Ey-z8_WTsoZ7bqx2pLTZtXU1" rel="stylesheet"/>
+<link href="/Project/Contents/PoliceDepartment/StyleBundleMegaMenuDropDown.cssbnd?v=ee82zRBRQ9vTLfbEuqWoJSuP2zax-AvGQfwrez3bQlE1" rel="stylesheet"/>
+<nav class="advancedmegamenu mainnav" id="menuContainer_63_0_833"><ul class="dropdownmenu clearfix"><li class="megamenu_first" id="dropdownrootitem1"><a class="dropdownrootitem1" href="/home" title="Home" data-navid="1" >Home</a></li><li class="megamenu_first" id="dropdownrootitem2"><a class="dropdownrootitem2" href="/about-the-city" title="About the City" data-navid="2" >About the City</a><div class="megamenu_container widthcontainer4col "><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/annual-citizen-update" title="Annual Citizen Update" data-navid="1252" >Annual Citizen Update</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/contact-us" title="Contact Us" data-navid="520" >Contact Us</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/news" title="News" data-navid="35" >News</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/calendar" title="Calendar" data-navid="33" >Calendar</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/sign-up-for-enews" title="Sign up for eNews" data-navid="18" >Sign up for eNews</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/denton-online" title="Denton Online" data-navid="1125" >Denton Online</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/about-the-city/denton-online/terms-and-conditions-of-use" title="Terms and Conditions of Use" data-navid="1611" >Terms and Conditions of Use</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/document-central" title="Document Central" data-navid="17" >Document Central</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/linking-policy" title="Linking Policy" data-navid="519" >Linking Policy</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/hotel-occupancy-tax-hot-program-" title="Hotel Occupancy Tax (HOT) Program " data-navid="4036" >Hotel Occupancy Tax (HOT) Program </a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/population" title="Population" data-navid="774" target="_self">Population</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/tax-rate" title="Tax Rate" data-navid="775" target="_self">Tax Rate</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/labor-market" title="Labor Market" data-navid="776" target="_self">Labor Market</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/forms" title="Forms" data-navid="215" >Forms</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/sitemap" title="Sitemap" data-navid="216" >Sitemap</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/privacy-policy" title="Privacy Policy" data-navid="882" >Privacy Policy</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/about-the-city/welcome-to-denton" title="Welcome to Denton" data-navid="3896" >Welcome to Denton</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div id='widget_1' class='content_area normal_content_area clearfix '></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem3"><a class="dropdownrootitem3" href="/government" title="Government" data-navid="3" >Government</a><div class="megamenu_container widthcontainer4col "><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/government/awards" title="Awards" data-navid="701" >Awards</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/government/city-council" title="City Council" data-navid="54" >City Council</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/city-council-agendas-minutes-videos" title="City Council Agendas / Minutes / Videos" data-navid="945" >City Council Agendas / Minutes / Videos</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/boards-commissions-information-center" title="Boards &amp; Commissions Information Center" data-navid="55" >Boards &amp; Commissions Information Center</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/city-council-members" title="City Council Members" data-navid="58" >City Council Members</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/city-council-district-map" title="City Council District Map" data-navid="67" >City Council District Map</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/city-manager-s-office" title="City Manager&#39;s Office" data-navid="68" >City Manager&#39;s Office</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/contact-your-councilmember" title="Contact Your Councilmember" data-navid="69" >Contact Your Councilmember</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/dtv-broadcasting-schedule" title="DTV Broadcasting Schedule" data-navid="71" target="_self">DTV Broadcasting Schedule</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/city-council-meeting-schedule" title="City Council Meeting Schedule" data-navid="73" >City Council Meeting Schedule</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-council/request-a-proclamation" title="Proclamations" data-navid="74" >Proclamations</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/government/city-manager-s-office" title="City Manager&#39;s Office" data-navid="75" >City Manager&#39;s Office</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/george-c-campbell" title="George C. Campbell" data-navid="76" >George C. Campbell</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/city-council-agendas-minutes" title="City Council Agendas &amp; Minutes" data-navid="78" >City Council Agendas &amp; Minutes</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/other-public-meetings" title="Other Public Meetings" data-navid="4189" >Other Public Meetings</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/city-organizational-chart" title="City Organizational Chart" data-navid="79" >City Organizational Chart</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/citizen-survey" title="Citizen Survey" data-navid="80" >Citizen Survey</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/city-secretary-s-office" title="City Secretary&#39;s Office" data-navid="81" >City Secretary&#39;s Office</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/contact-the-city-manager" title="Contact the City Manager" data-navid="100" target="_self">Contact the City Manager</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/city-communications" title="City Communications" data-navid="2865" >City Communications</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/assistant-city-managers" title="Assistant City Managers" data-navid="2869" >Assistant City Managers</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/directors" title="Directors" data-navid="3979" >Directors</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-manager-s-office/strategic-and-management-services" title="Strategic and Management Services" data-navid="4190" >Strategic and Management Services</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/government/city-charter-ordinances" title="City Charter &amp; Ordinances" data-navid="103" >City Charter &amp; Ordinances</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-charter-ordinances/city-charter" title="City Charter" data-navid="104" >City Charter</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-charter-ordinances/city-code-of-ordinances" title="City Code of Ordinances" data-navid="105" >City Code of Ordinances</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-charter-ordinances/noise-exceptions" title="Noise Exceptions" data-navid="106" >Noise Exceptions</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/government/city-charter-ordinances/street-closures" title="Street Closures" data-navid="107" >Street Closures</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/government/city-council-redistricting-plan" title="City Council Redistricting Plan" data-navid="1528" >City Council Redistricting Plan</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/government/ethics-policy" title="Ethics Policy" data-navid="2743" >Ethics Policy</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/government/municipal-elections" title="Municipal Elections" data-navid="2747" target="_self">Municipal Elections</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/government/open-government" title="Open Government" data-navid="1626" >Open Government</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div id='widget_2' class='content_area normal_content_area clearfix '></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem4"><a class="dropdownrootitem4" href="/departments-services" title="Departments &amp; Services" data-navid="4" >Departments &amp; Services</a><div class="megamenu_container widthcontainer4col "><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/departments-a-f" title="Departments A - F" data-navid="771" >Departments A - F</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/airport" title="Airport" data-navid="451" >Airport</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/animal-services" title="Animal Services" data-navid="452" >Animal Services</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/building-inspections" title="Building Inspections" data-navid="453" >Building Inspections</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/code-enforcement" title="Community Improvement Services" data-navid="996" >Community Improvement Services</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/community-development" title="Community Development" data-navid="446" >Community Development</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/consumer-health" title="Consumer Health" data-navid="521" >Consumer Health</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/denton-municipal-electric" title="Denton Municipal Electric" data-navid="455" >Denton Municipal Electric</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/economic-development/downtown-denton" title="Downtown Denton" data-navid="4243" >Downtown Denton</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/dtv-denton-television" title="DTV - Denton Television" data-navid="2731" >DTV - Denton Television</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/economic-development" title="Economic Development" data-navid="465" >Economic Development</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/emergency-management" title="Emergency Management" data-navid="516" >Emergency Management</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/facilities-management" title="Facilities Management" data-navid="533" >Facilities Management</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/finance" title="Finance" data-navid="749" >Finance</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/fire-department" title="Fire Department" data-navid="460" >Fire Department</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/fleet-services" title="Fleet Services" data-navid="763" >Fleet Services</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/departments-g-p" title="Departments G - P" data-navid="772" >Departments G - P</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/gas-well-inspections" title="Gas Well Inspections" data-navid="1507" >Gas Well Inspections</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/health-department" title="Health Department" data-navid="1227" >Health Department</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/health-inspection" title="Health Inspection " data-navid="1250" >Health Inspection </a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/human-resources" title="Human Resources" data-navid="278" >Human Resources</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/legal" title="Legal" data-navid="940" >Legal</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/library" title="Library " data-navid="284" >Library </a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/materials-management-purchasing-distribution-center-" title="Materials Management (Purchasing / Distribution Center)" data-navid="270" >Materials Management (Purchasing / Distribution Center)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/municipal-court" title="Municipal Court" data-navid="752" >Municipal Court</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/open-data" title="Open Data" data-navid="4118" target="_blank">Open Data</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/parks-recreation" title="Parks &amp; Recreation" data-navid="277" >Parks &amp; Recreation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/planning" title="Planning" data-navid="459" >Planning</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/police-department" title="Police Department" data-navid="461" >Police Department</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-g-p/public-transportation" title="Public Transportation" data-navid="543" >Public Transportation</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/departments-q-z" title="Departments Q - Z" data-navid="773" >Departments Q - Z</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-q-z/solid-waste-recycling" title="Solid Waste &amp; Recycling" data-navid="299" >Solid Waste &amp; Recycling</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-q-z/streets" title="Streets " data-navid="1029" >Streets </a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-q-z/technology-services" title="Technology Services" data-navid="525" >Technology Services</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-q-z/traffic-control" title="Traffic Operations" data-navid="4226" >Traffic Operations</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-q-z/transportation" title="Transportation" data-navid="4291" >Transportation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-q-z/water-utilities" title="Water Utilities" data-navid="322" >Water Utilities</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/2014-bond-program" title="Bond Program Update" data-navid="3923" >Bond Program Update</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/2014-city-of-denton-bond-program/overview-of-major-program-areas-4315" title="Overview of Major Program Areas" data-navid="4315" >Overview of Major Program Areas</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/2014-city-of-denton-bond-program/2014-bond-program-booklet" title="2014 Bond Program Booklet" data-navid="4069" target="_blank">2014 Bond Program Booklet</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/2014-city-of-denton-bond-program/quarterly-financial-report-bond-program" title="Quarterly Financial Report - Bond Program" data-navid="4316" target="_self">Quarterly Financial Report - Bond Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/2014-city-of-denton-bond-program/citizens-bond-advisory-committee-members" title="Citizens Bond Advisory Committee " data-navid="3994" >Citizens Bond Advisory Committee </a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/active-transportation" title="Active Transportation" data-navid="4122" >Active Transportation</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/bicycle-safety" title="Projects and Maps" data-navid="4123" >Projects and Maps</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/bicycle-safety/bicycle-and-pedestrian-plan" title="Bike Facilities" data-navid="4124" >Bike Facilities</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/bike-counts" title="Bike Counts" data-navid="4224" >Bike Counts</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/bike-safety-and-rules-of-the-road" title="Bike Safety and Rules of the Road" data-navid="4125" >Bike Safety and Rules of the Road</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/where-to-ride" title="Where to Ride" data-navid="4183" >Where to Ride</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/pedestrian-safety" title="Pedestrian Safety" data-navid="4237" >Pedestrian Safety</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/bike-month" title="Bike Month" data-navid="4185" >Bike Month</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/route-maps" title="FAQs" data-navid="4126" >FAQs</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/active-transportation/resources" title="Resources" data-navid="4186" >Resources</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/denton-together-coalition" title="Denton Together Coalition" data-navid="4278" >Denton Together Coalition</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/downtown-implementation-plan-dtip-" title="Downtown Implementation Plan (DTIP)" data-navid="1337" >Downtown Implementation Plan (DTIP)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/sustainable-denton/environmental-services-sustainability" title="Environmental Services &amp; Sustainability" data-navid="1484" >Environmental Services &amp; Sustainability</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/historic-preservation-plan-update" title="Historic Preservation Plan Update" data-navid="4166" target="_self">Historic Preservation Plan Update</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/mayors-summer-youth-jobs-program" title="Mayors Summer Youth Jobs Program" data-navid="4305" >Mayors Summer Youth Jobs Program</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/mayors-summer-youth-jobs-program/community-business-partner-program" title="Community Business Partner Program" data-navid="4306" >Community Business Partner Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/mayors-summer-youth-jobs-program/faqs-msyjp" title="FAQs - MSYJP" data-navid="4307" >FAQs - MSYJP</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/regional-municipal-setting-designation" title="Regional Municipal Setting Designation" data-navid="4096" >Regional Municipal Setting Designation</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/regional-municipal-setting-designation/msd-frequently-asked-questions" title="MSD Frequently Asked Questions" data-navid="4097" >MSD Frequently Asked Questions</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/regional-municipal-setting-designation/msd-project-map" title="MSD Project Map" data-navid="4100" target="_blank">MSD Project Map</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/regional-municipal-setting-designation/msd-certification" title="MSD Certification" data-navid="4244" target="_blank">MSD Certification</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/sustainable-denton" title="Sustainable Denton" data-navid="108" >Sustainable Denton</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/water" title="Water" data-navid="146" >Water</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/air" title="Air Quality and GHG Management" data-navid="109" >Air Quality and GHG Management</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/sustainability-energy-conservation" title="Energy Efficiency and Conservation" data-navid="118" >Energy Efficiency and Conservation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/land" title="Land Use and Open/Natural Space" data-navid="120" >Land Use and Open/Natural Space</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/transportation" title="Transportation" data-navid="3926" >Transportation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/material-resources-management" title="Material Resources Management" data-navid="3946" >Material Resources Management</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/local-food-production" title="Local Food Production" data-navid="3925" >Local Food Production</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/events" title="Education, Communication, and Community Involvement" data-navid="291" >Education, Communication, and Community Involvement</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/customer-program" title="Customer Programs" data-navid="4080" >Customer Programs</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/clear-creek-natural-heritage-center" title="Clear Creek Natural Heritage Center" data-navid="3945" >Clear Creek Natural Heritage Center</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/sustainable-schools-program" title="Sustainable Schools " data-navid="3898" >Sustainable Schools </a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/sustainable-denton/current-topics" title="Awards and Recognition" data-navid="287" >Awards and Recognition</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/the-denton-plan" title="Denton Plan 2030" data-navid="1503" target="_blank">Denton Plan 2030</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/utility-and-cip-engineering" title="Engineering Services" data-navid="454" >Engineering Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/current-projects" title="Current Projects" data-navid="757" >Current Projects</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/engineering-services/codes-criteria-manuals" title="Development Code &amp; Criteria Manuals" data-navid="4214" >Development Code &amp; Criteria Manuals</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/forms-policies-and-procedures" title="Forms, Policies, and Procedures" data-navid="761" >Forms, Policies, and Procedures</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/maps-interactive-mapping-system" title="Maps - Interactive Mapping System" data-navid="766" target="_self">Maps - Interactive Mapping System</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/printable-maps" title="Printable Maps" data-navid="767" >Printable Maps</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/streets-roads" title="Streets &amp; Roads" data-navid="782" >Streets &amp; Roads</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/subdivision-plats" title="Subdivision Plats" data-navid="783" >Subdivision Plats</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/helpful-map-links" title="Helpful Map Links" data-navid="784" >Helpful Map Links</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utility-and-cip-engineering/municipal-code" title="Municipal Code" data-navid="797" >Municipal Code</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/utilities-customer-service" title="Utilities Customer Service" data-navid="319" >Utilities Customer Service</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/online-self-service" title="Online Self Service" data-navid="422" >Online Self Service</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/payment-options" title="Payment Options" data-navid="430" >Payment Options</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/location-hours" title="Location &amp; Hours" data-navid="428" >Location &amp; Hours</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/payment-locations" title="Payment Locations" data-navid="1094" >Payment Locations</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/contact-us" title="Contact Us" data-navid="427" >Contact Us</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/customer-programs" title="Customer Programs" data-navid="438" >Customer Programs</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/general-information" title="General Information" data-navid="1444" >General Information</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/utilities-customer-service/utilidades" title="Utilidades" data-navid="3982" >Utilidades</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments-services/public-art" title="Public Art" data-navid="1675" >Public Art</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/public-art/public-art-committee" title="Public Art Committee" data-navid="1676" >Public Art Committee</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/public-art/public-art-database" title="Public Art Database" data-navid="1681" >Public Art Database</a></li></ul></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div id='widget_3' class='content_area normal_content_area clearfix '></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem5"><a class="dropdownrootitem5" href="/residents" title="Residents" data-navid="5" >Residents</a><div class="megamenu_container widthcontainer4col "><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/building-inspection" title="Building Inspection" data-navid="1113" >Building Inspection</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/city-council" title="City Council" data-navid="1056" >City Council</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/code-enforcement" title="Code Enforcement" data-navid="1057" >Code Enforcement</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/community-development" title="Community Development" data-navid="1058" >Community Development</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/consumer-health" title="Consumer Health" data-navid="1112" >Consumer Health</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/contact-information" title="Contact Information" data-navid="1059" >Contact Information</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/customer-service-online" title="Customer Service Online" data-navid="1060" >Customer Service Online</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/denton-together-coalition" title="Denton Together Coalition" data-navid="4290" target="_self">Denton Together Coalition</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/dtv-broadcast-schedule" title="DTV Broadcast Schedule" data-navid="1061" target="_self">DTV Broadcast Schedule</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/dyno-dirt" title="Dyno Dirt" data-navid="1124" target="_self">Dyno Dirt</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/employment" title="Employment" data-navid="1062" >Employment</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/environmental-quality" title="Environmental Quality" data-navid="1063" >Environmental Quality</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/health-inspections" title="Health Inspections" data-navid="1251" >Health Inspections</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/home-buyers-assistance" title="Home Buyers Assistance" data-navid="1132" >Home Buyers Assistance</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/home-repairs" title="Home Repairs" data-navid="1133" >Home Repairs</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/household-hazardous-waste" title="Household Hazardous Waste" data-navid="1212" >Household Hazardous Waste</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/library" title="Library" data-navid="1068" >Library</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/municipal-court" title="Municipal Court" data-navid="1065" >Municipal Court</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/municipal-elections-2751" title="Municipal Elections" data-navid="2751" target="_self">Municipal Elections</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/parks-recreation" title="Parks &amp; Recreation" data-navid="1069" >Parks &amp; Recreation</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/planning" title="Planning" data-navid="1123" >Planning</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/police-department" title="Police Department" data-navid="1066" target="_self">Police Department</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/restaurant-scores" title="Restaurant Scores" data-navid="1443" >Restaurant Scores</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/s-h-o-p-denton-" title="S.H.O.P. Denton!" data-navid="1428" >S.H.O.P. Denton!</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/residents/s-h-o-p-denton-/save-our-local-economy" title="Save Our Local Economy" data-navid="1429" >Save Our Local Economy</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/departments-services/departments-a-f/economic-development/s-h-o-p-denton/shop-small-saturday" title="Shop Small Saturday " data-navid="4265" >Shop Small Saturday </a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/trash-recycling" title="Trash &amp; Recycling" data-navid="1070" >Trash &amp; Recycling</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/utilities-customer-service" title="Utilities Customer Service" data-navid="1071" >Utilities Customer Service</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/residents/water-quality-report" title="Water Quality Report" data-navid="1067" >Water Quality Report</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div id='widget_4' class='content_area normal_content_area clearfix '></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem6"><a class="dropdownrootitem6" href="/visitors" title="Visitors" data-navid="6" >Visitors</a><div class="megamenu_container widthcontainer4col "><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/denton-history" title="Denton History" data-navid="546" >Denton History</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/visitors/denton-history/courthouse-on-the-square" title="Courthouse on the Square" data-navid="547" >Courthouse on the Square</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/visitors/denton-history/genealogy-local-history" title="Genealogy &amp; Local History" data-navid="1107" >Genealogy &amp; Local History</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/denton-isd-athletics" title="Denton ISD Athletics" data-navid="583" target="_self">Denton ISD Athletics</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/dcta-transit-schedule" title="DCTA Transit Schedule" data-navid="1530" >DCTA Transit Schedule</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/dining" title="Dining" data-navid="586" >Dining</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/festivals-events" title="Festivals &amp; Events" data-navid="588" >Festivals &amp; Events</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/hotels-motels" title="Hotels &amp; Motels" data-navid="1087" target="_self">Hotels &amp; Motels</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/public-art" title="Public Art" data-navid="1682" >Public Art</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/twu-athletics" title="TWU Athletics" data-navid="1085" >TWU Athletics</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/visitors/unt-athletics" title="UNT Athletics" data-navid="1086" >UNT Athletics</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div id='widget_5' class='content_area normal_content_area clearfix '></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem7"><a class="dropdownrootitem7" href="/businesses" title="Businesses" data-navid="7" >Businesses</a><div class="megamenu_container widthcontainer4col "><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/bid-opportunities" title="Bid Opportunities" data-navid="1081" >Bid Opportunities</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/building-inspections" title="Building Inspections" data-navid="1072" >Building Inspections</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/chamber-of-commerce" title="Chamber of Commerce" data-navid="1073" >Chamber of Commerce</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/city-charter-code-of-ordinances" title="City Charter &amp; Code of Ordinances" data-navid="1074" >City Charter &amp; Code of Ordinances</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/city-council" title="City Council" data-navid="1075" >City Council</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/consumer-health" title="Consumer Health" data-navid="1114" >Consumer Health</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/customer-service-online" title="Customer Service Online" data-navid="1076" >Customer Service Online</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/economic-development" title="Economic Development" data-navid="1077" >Economic Development</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/engineering" title="Engineering" data-navid="1078" >Engineering</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/fire-department-issued-permits" title="Fire Department Issued Permits" data-navid="1079" >Fire Department Issued Permits</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/hotel-occupancy-tax" title="Hotel Occupancy Tax" data-navid="1219" >Hotel Occupancy Tax</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/trash-recycling" title="Trash &amp; Recycling" data-navid="1080" >Trash &amp; Recycling</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/planning" title="Planning" data-navid="1082" >Planning</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/purchasing" title="Purchasing" data-navid="1083" >Purchasing</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/businesses/utilities" title="Utilities" data-navid="1084" >Utilities</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div id='widget_6' class='content_area normal_content_area clearfix '></div>
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem8"><a class="dropdownrootitem8" href="/how-do-i-" title="How Do I…" data-navid="8" >How Do I…</a><div class="megamenu_container widthcontainer4col "><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/apply-for" title="Alarm Permit" data-navid="501" target="_self">Alarm Permit</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/building-inspections-e-permit" title="Building Inspections e-Permit" data-navid="4127" target="_self">Building Inspections e-Permit</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/development-project-review" title="Development Project Review" data-navid="4128" target="_self">Development Project Review</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/employment" title="Employment" data-navid="4129" target="_self">Employment</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/energy-efficiency-rebate" title="Energy Efficiency Rebate" data-navid="4130" target="_self">Energy Efficiency Rebate</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/film-in-denton" title="Film Permit" data-navid="504" >Film Permit</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/library-card" title="Library Card" data-navid="4131" target="_self">Library Card</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/neighborhood-grant" title="Neighborhood Grant" data-navid="4132" target="_self">Neighborhood Grant</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/pet-registration" title="Pet Registration" data-navid="4133" target="_self">Pet Registration</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/plan-a-special-event" title="Special Event Permits (Plan A Special Event)" data-navid="503" >Special Event Permits (Plan A Special Event)</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/how-do-i-/plan-a-special-event/noise-exceptions" title="Noise Exceptions" data-navid="101" >Noise Exceptions</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/how-do-i-/plan-a-special-event/street-closures" title="Street Closures" data-navid="102" >Street Closures</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/utility-services" title="Utility Services" data-navid="4135" target="_self">Utility Services</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/bulk-trash" title="Bulk Trash" data-navid="4136" target="_self">Bulk Trash</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/paint-or-unusual-chemicals" title="Paint or Unusual Chemicals" data-navid="4137" target="_self">Paint or Unusual Chemicals</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/recycling" title="Recycling" data-navid="4138" target="_self">Recycling</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/building-codes" title="Building Codes" data-navid="4139" target="_self">Building Codes</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/denton-development-code" title="Denton Development Code" data-navid="4140" target="_self">Denton Development Code</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/design-criteria-manuals" title="Design Criteria Manuals" data-navid="4141" target="_self">Design Criteria Manuals</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/gas-well-drilling-production-regulations" title="Gas Well Drilling &amp; Production Regulations" data-navid="4142" target="_self">Gas Well Drilling &amp; Production Regulations</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/property-maintenance-code" title="Property Maintenance Code" data-navid="4144" target="_self">Property Maintenance Code</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/restaurant-scores" title="Restaurant Scores" data-navid="4143" target="_self">Restaurant Scores</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/water-quality" title="Water Quality" data-navid="4145" target="_self">Water Quality</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/water-conservation" title="Water Conservation" data-navid="4146" target="_self">Water Conservation</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/boards-commissions" title="Boards/Commissions" data-navid="4149" target="_self">Boards/Commissions</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/city-council-meeting-agendas" title="City Council Meeting Agendas" data-navid="4147" target="_self">City Council Meeting Agendas</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/codered-emergency-notifications" title="CodeRed Emergency Notifications" data-navid="4148" target="_self">CodeRed Emergency Notifications</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/neighborhood-planning-program" title="Neighborhood Planning Program" data-navid="4150" target="_self">Neighborhood Planning Program</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/watch-denton-television" title="Watch Denton Television" data-navid="4151" target="_self">Watch Denton Television</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/pay-a-citation" title="Pay a Citation " data-navid="1201" target="_self">Pay a Citation </a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/pay-my-utility-bill-online" title="Pay My Utility Bill Online" data-navid="505" >Pay My Utility Bill Online</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/energy-audit" title="Energy Audit " data-navid="4152" target="_self">Energy Audit </a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/library-programs" title="Library Programs" data-navid="4153" target="_self">Library Programs</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/notices-for-bid-opportunities" title="Notices for Bid Opportunities" data-navid="4154" target="_self">Notices for Bid Opportunities</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/parks-recreation-programs" title="Parks &amp; Recreation Programs" data-navid="4155" target="_self">Parks &amp; Recreation Programs</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/code-violation" title="Code Violation" data-navid="4156" target="_self">Code Violation</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/report-a-crime" title="Report A Crime" data-navid="4157" target="_self">Report A Crime</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i/streetlight-outage" title="Streetlight Outage" data-navid="4158" target="_self">Streetlight Outage</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/rent-city-facilities" title="Rent City Facilities" data-navid="502" >Rent City Facilities</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/special-event-forms" title="Special Event Forms" data-navid="1273" >Special Event Forms</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/volunteer-for" title="Volunteer for" data-navid="507" >Volunteer for</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/how-do-i-/volunteer-for/boards-commissions" title="Boards &amp; Commissions" data-navid="508" >Boards &amp; Commissions</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/how-do-i-/department-phone-directory" title="Department Phone Directory" data-navid="4055" target="_self">Department Phone Directory</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div id='widget_7' class='content_area normal_content_area clearfix '></div>
+</li></ul>
+</div></div></li></ul>
+
+<script>
+    $(function () {
+        /**load the Advance Mega Menu which is set to async load**/
+        $(".async_widget_container.custominvoke").loadAsyncContainer();
+    });
+</script>
+<script>
+$(function () {
+ var menuContainer = $('#menuContainer_63_0_833')
+ $(".dropdownmenu a[data-navid='4']", menuContainer).closest('li').addClass('active');
+});
+</script></nav></div>
+
+
+<script>
+    /**********************************************************
+    Dropdown Menu delay disappearance on mouse out
+    *********************************************************/
+    /*javascript to delay the disappearance of the menu when the user mouses out.  Uses jquery library.*/
+    $(function () {
+        
+
+        var timer = null;
+        var delay = 800; //change this number for shorter or longer delay
+
+        
+        //using megamenu
+        var dropdowncontainer = '>.megamenu_container';
+        var activePage = $(".mainnav .dropdownmenu > li.active");
+        $(".mainnav > .dropdownmenu > li").hoverIntent(
+
+            //what happens on hover over
+             function () {
+                 //end timer and stop hiding if they are mousing back in.
+                 if (timer != null) {
+                     clearTimeout(timer);
+                     timer = null;
+                 }
+                 // Find the hovered menu's sub-menu
+                 var $menu = $(this);
+                 var $submenu = $(this).find(dropdowncontainer);
+
+                 // hide any other submenus that are open
+                 $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                 $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+
+                 // show current menu
+                 $submenu.css('display', 'block');
+                 $menu.addClass('active');
+             },
+
+            //what happens on mouse out
+            function () {
+                var $submenu = $(this).find(dropdowncontainer);
+                var $menu = $(this);
+                // delay disappearance
+                var mouseDelay = $(this).data("mouseDelay") || delay;
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    $submenu.css('display', 'none'); $menu.not(activePage).removeClass('active');
+                    clearTimeout(timer); timer = null;
+                }, mouseDelay);
+            }
+        );
+        
+    });
+</script>
+
+<script>
+    //$(function () 
+    {
+        var menuContainerID = "menuContainer_63_0_833";
+        var menuContainer = $("#" + menuContainerID);
+        
+        function isIE(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE ") > -1 || userAgent.indexOf("Trident/") > -1;
+        }
+
+        function isIE9(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE 9") > -1;
+        }
+
+        function isTouchScreenEvent(event) {
+            var _isTouchScreen = false;
+            if ("ontouchstart" in window) {
+                _isTouchScreen = true;
+            } else if ("onpointerdown" in window) {
+                _isTouchScreen = event.originalEvent.pointerType == "touch";
+            } else if (window.MSPointerEvent) {
+                _isTouchScreen = event.originalEvent.pointerType == event.originalEvent.MSPOINTER_TYPE_TOUCH; // 2 ; http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx
+            } else {
+            }
+            return _isTouchScreen;
+        }
+
+        var _isIE = isIE();
+        var _isIE9 = isIE9();
+        var isMegaMenu = $('.megamenu_first', menuContainer).length > 0;
+        var currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+
+        $(function () {
+            if (currentMenu.length == 0)
+                currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+        });
+
+        if (("ontouchstart" in window   // Chrome & Safari (IOS) && Firefox
+         || "onpointerdown" in window   // IE 11 
+         || window.MSPointerEvent       // IE 10
+         ) && ($(window).width() > 648)) {
+            var eventName = "ontouchstart" in window ? "touchstart"
+                          : "onpointerdown" in window ? "pointerdown"
+                          : window.MSPointerEvent ? "MSPointerDown"
+                          : "";
+            if (eventName.length > 0) {                
+                $('> ul.dropdownmenu  li>a[data-navid]', menuContainer).bind(eventName, function (event) {
+                    
+                    if (isTouchScreenEvent(event) == false) {
+                        return true;
+                    }
+    
+                    var currentLevelAnchor = $(this);
+                    var currentLeveLi = currentLevelAnchor.closest("li");
+                    var firstLevelLi = currentLevelAnchor.closest("li[id^='dropdownrootitem']");
+                    var firstLevelAnchor = firstLevelLi.find(">a[data-navid]");
+                    var inFirstLevel = currentLevelAnchor[0] == firstLevelAnchor[0];
+
+                    var hasSubMenu = currentLevelAnchor.next("ul,div").length > 0;
+                    if (hasSubMenu) {
+                        $(this).closest("li").data("mouseDelay", 1);
+
+                        // Menu is not selected
+                        if (!firstLevelLi.hasClass('touch-active')) {                
+                            if ($(this).attr("href")) {
+                                $(this).attr("data-href", $(this).attr("href"));
+                                $(this).attr("href", "javascript:void(0);");
+                            }
+                            $(menuContainer).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');                           
+                            
+                            firstLevelLi.addClass('touch-active active');
+                            currentLevelAnchor.addClass('touch-active active');
+                            currentMenu.addClass("active");
+
+                            $(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');    
+                            $(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                            $('> ul.dropdownmenu > li:not(.touch-active) > a[data-navid]', menuContainer).next().css('display', 'none');
+                            $('> ul.dropdownmenu > li.touch-active > a[data-navid]', menuContainer).next().css('display', 'block');
+
+                            event.preventDefault();
+                        }
+                            // Menu is selected
+                        else {
+                            if (inFirstLevel) {
+                                // non clickable
+                                if (currentLevelAnchor.attr('href') == undefined) {
+                                    //has class touch-active and no link
+                                    removeClassAndHideMenu();
+                                    event.preventDefault();
+                                } else if ($(this).attr("data-href")) { //clickable, but href have been moved to data.
+                                    $(this).attr("href", $(this).attr("data-href"));
+                                }
+                            }
+                            else {
+                                if (isMegaMenu)
+                                    return true;
+
+                                if (!currentLeveLi.hasClass('touch-active')) {
+                                    if ($(this).attr("href")) {
+                                        $(this).attr("data-href", $(this).attr("href"));
+                                        $(this).attr("href", "javascript:void(0);");
+                                    }
+                                    $(firstLevelLi).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+                                    currentLeveLi.parent().children("li._current").removeClass("_current");
+                                    currentLeveLi.addClass('touch-active active _current');
+
+                                    currentLevelAnchor.addClass('touch-active active');
+
+                                    //$(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');    
+                                    //$(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                                    $(' li:not(.touch-active) > a[data-navid]', currentLeveLi.parent()).next().css('display', 'none');
+                                    $('> li.touch-active > a[data-navid]', currentLeveLi.parent()).next().css('display', 'block');
+
+                                    event.preventDefault();
+                                } else {
+                                    if (currentLevelAnchor.attr('href') == undefined) {
+                                        //has class touch-active and no link
+                                        removeClassAndHideMenu();
+                                        event.preventDefault();
+                                    } else if ($(this).attr("data-href")) {
+                                        $(this).attr("href", $(this).attr("data-href"));
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                });
+            }
+        }
+
+        
+
+        function removeClassAndHideMenu() {
+            $(menuContainer).find('a.touch-active, li.touch-active').removeClass('touch-active active');
+            $('> ul.dropdownmenu > li > a[data-navid]', menuContainer).next().css('display', 'none');
+            // If we don't change the menu item, we should keep the old one.
+            if ($('> ul.dropdownmenu > li.active', menuContainer).length == 0) {
+                currentMenu.addClass("active");
+            }
+        }
+
+        $('body').bind(eventName, function (event) {
+            if (isTouchScreenEvent(event) == false) {
+                return true;
+            }
+            if (!$(event.target).closest('li.touch-active').length) {
+                removeClassAndHideMenu();
+            }
+        });
+    }
+    //);
+</script>
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    
+</div>
+
+    
+<div id="ColumnUserControl2" class="column   left_col  "  >
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="64"WidgetStart!!-->
+
+                <!--stopindex-->
+                
+
+<nav id='leftNav_64_0_833' class='nocontent sidenav mobile_list  '>
+    <h2 class="mobile_only mobile_header">Jump to subpage...</h2>
+    <ul><li class="sidenav_current sidenav_expanded sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department' >Police Department</a><ul><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/citizen-programs' >Citizen Programs</a></li><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/community-oriented-policing' >Community Oriented Policing</a></li><li><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/crime-map' >Crime Map</a></li><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/crime-prevention-tips' >Crime Prevention Tips</a></li><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/publications-and-forms' >Publications and Forms</a></li><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/recruiting' >Recruiting</a></li><li><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/red-light-cameras' >Red Light Cameras</a></li><li><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/registered-sex-offenders' >Registered Sex Offenders</a></li><li><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/release-of-denton-pd-impounds' >Release of Denton PD Impounds</a></li><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/report-a-crime' >Report a Crime</a></li><li><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/denton-police-reserve-unit' >Denton Police Reserve Unit</a></li><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/texting-ban' >Texting Ban</a></li><li><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/training' target='_self'>Training For Law Enforcement</a></li><li class="sidenav_haschildren"><a href='http://www.cityofdenton.com/departments-services/departments-g-p/police-department/family-services-unit' >Family Services Unit</a></li><li><a href='http://www.cityofdenton.com/departments-services/departments-g-p/non-consent-towing' >Non-Consent Towing</a></li></ul></li></ul>
+</nav>
+
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    
+</div>
+
+    <div class="column right_col">
+        
+<div id="ColumnUserControl3" class="column   banner_col clearfix  "  >
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="66"WidgetStart!!-->
+ 
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="65"WidgetStart!!-->
+
+<a id="pagebody"></a>
+<header id="widget_65_0_833" class="title_widget clearfix  " >
+    
+    <!--stopindex-->
+    <p class="breadcrumb">
+        <a href="/departments-services">Departments & Services</a> » <a href="/departments-services/departments-g-p">Departments G - P</a> 
+    </p>
+    <!--startindex-->
+    
+            <h1><span>Police Department</span></h1>
+    
+    <!--stopindex-->
+    <div class="title_right">
+        
+        <a class="printer_friendly" href="javascript:window.print();" title="Click to print this page">Print</a>
+        
+        <a class="thickbox feedback_link" title="Click to submit an email to feedback" href="javascript:void(0);">Feedback</a>
+        
+        <script type="text/javascript">
+            function shareLink(shareType) {
+                var shareUrl = "";
+                var shareTitle = document.itemTitle ? encodeURIComponent(document.itemTitle.trim()).replace(/[!'()*]/g, escape) : "Police+Department";
+                switch (shareType) {
+                case "facebook":
+                    shareUrl = "http://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&t=" + shareTitle;
+                    break;
+                case "gplus":
+                    shareUrl = "https://plus.google.com/share?url=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department";
+                    if (shareUrl.length > 0) window.open(shareUrl, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+                    return;
+                    break;
+                case "linkedin":
+                    shareUrl = "http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&title=" + shareTitle;
+                    break;
+                case "twitter":
+                    //Below link works in iOS and other OS
+                    shareUrl = "https://twitter.com/intent/tweet?url=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&text=Police+Department+%7c+";
+                    break;
+                case "delicious":
+                    shareUrl = "https://secure.delicious.com/login?noui=yes&v=4&jump=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department%26title%3D" + shareTitle + "%26notes%3D%26tags%3D%26v%3D4%26noui%3D%26share%3Dyes%26jump%3Dclose%26time%3D1239993443";
+                    break;
+                case "myspace":
+                    shareUrl = "http://www.myspace.com/Modules/PostTo/Pages/?u=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&t=" + shareTitle + "&c=";
+                    break;
+                case "googlebookmark":
+                    shareUrl = "http://www.google.com/bookmarks/mark?op=add&bkmk=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&title=" + shareTitle;
+                    break;
+                case "stumbleupon":
+                    shareUrl = "http://www.stumbleupon.com/submit?url=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&title=" + shareTitle;
+                    break;
+                case "digg":
+                    shareUrl = "http://digg.com/submit/?url=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department";
+                    break;
+                case "tumblr":
+                    shareUrl = "https://www.tumblr.com/share/link?url=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&name=" + shareTitle;
+                    break;
+                case "reddit":
+                    shareUrl = "http://www.reddit.com/submit?url=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department&title=" + shareTitle;
+                    break;
+                }
+                if (shareUrl.length > 0) window.open(shareUrl, "_blank");
+            }
+        </script>
+        <div id="share">
+            <a class="sharelink" href="javascript:void(0);" title="Click to expand Share & Bookmark options">Share & Bookmark</a>
+            <ul class="no_external_url_indication">
+                <li>
+                    
+                    <a title="Click to submit an email online" href="javascript:void(0);" class="shareemail send_share_email">Email</a>
+                    
+                </li>
+                <li><a title="Click to share with Facebook" href="javascript:shareLink('facebook')" class="sharefacebook">Facebook</a></li>
+                <li><a title="Click to share with Google+" href="javascript:shareLink('gplus')" class="sharegoogleplus">Google+</a></li>
+                <li><a title="Click to share with LinkedIn" href="javascript:shareLink('linkedin')" class="sharelinkedin">LinkedIn</a></li>
+                <li><a title="Click to share with Twitter" href="javascript:shareLink('twitter')" class="sharetwitter">Twitter</a></li>
+                <li><a title="Click to share with Delicious" href="javascript:shareLink('delicious')" class="sharedel">Delicious</a></li>
+                <li><a title="Click to share with MySpace" href="javascript:shareLink('myspace')" class="sharemyspace">MySpace</a></li>
+                <li><a title="Click to add in Google Bookmarks" href="javascript:shareLink('googlebookmark')" class="sharegoogle">Google</a></li>
+                <li><a title="Click to share with Stumble Upon" href="javascript:shareLink('stumbleupon')" class="sharestumble">Stumble Upon</a></li>
+                <li><a title="Click to share with Digg" href="javascript:shareLink('digg')" class="sharedigg">Digg</a></li>
+                <li><a title="Click to share with Tumblr" href="javascript:shareLink('tumblr')" class="sharetumblr">Tumblr</a></li>
+                <li><a title="Click to share with Reddit" href="javascript:shareLink('reddit')" class="sharereddit">Reddit</a></li>
+            </ul>
+        </div>
+        
+        <div class="font_size">
+            <a href="javascript:void(0);" title="default font size" class="text_size">Font Size:</a>
+            <a href="javascript:void(0);" title="larger font size" class="font_larger">+</a>
+            <a href="javascript:void(0);" title="smaller font size" class="font_smaller">-</a>
+        </div>
+        
+    </div>
+    <!--startindex-->
+
+    
+</header>
+<script type="text/javascript">
+    $(function () {
+        var widgetContext = "widget_65_0_833";
+        
+        $("#" + widgetContext + " #share").click(function () {
+            if (!$("#" + widgetContext + " div#share").hasClass("click-active"))
+                $("#" + widgetContext + " div#share").find("ul").show();
+            else
+                $("#" + widgetContext + " div#share").find("ul").hide();
+        });
+
+        $("div").click(function () {
+            if ($("#" + widgetContext + " div#share").hasClass("click-active")) {
+                $("#" + widgetContext + " div#share").find("ul").hide();
+            }
+        });
+
+        $(document).click(function (e) {
+            if (!$(e.target).closest("#share").length > 0) {
+                $("#" + widgetContext + " div#share").removeClass("click-active");
+                $("#" + widgetContext + " div#share").find("ul").hide();
+            }
+        });
+
+        var shareContainerTimeout = null;
+        $("#" + widgetContext + " #share").bind('mouseover focusin', function () {
+            //If not relate to click event
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$("#" + widgetContext + " div#share").hasClass("click-active"))                     
+                    $("#" + widgetContext + " div#share").find("ul").show();                
+            }, 100);
+        });
+
+        $("#" + widgetContext + " #share").bind('mouseleave focusout', function () {
+            //If not relate to click event     
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$("#" + widgetContext + " div#share").hasClass("click-active"))                 
+                    $("#" + widgetContext + " div#share").find("ul").hide();                
+            }, 200);
+        });
+
+        $("header#" + widgetContext + " a.feedback_link").click(function () {
+            var windowHeight = 430;
+            if (window.innerWidth <= 648) {
+                windowHeight = 510;
+            }            
+            var opts = {
+                title: "Feedback",
+                url: "/Template/GetFeedbackPartial?feedbackUrl=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department",
+                useFrame: true,
+                height: windowHeight,
+                onClosed: function (result) {
+                    if (result != undefined && result.IsOk == true) {
+                        $.refreshTempMessage(result.Message);
+                    }
+                },
+                skin: 'viClientDialog feedback_lightbox',
+                fixed: false
+            };
+            $.viClientDialog(opts).open();
+        });
+
+        //Safari iOS: No click event
+        $("header#" + widgetContext + " a.send_share_email").bind("click touchstart", function() {
+            var shareEmailTitle = document.itemTitle ? encodeURIComponent(document.itemTitle.trim()).replace(/[!'()*]/g, escape) : "Police+Department";
+            var opts = {
+                title: "Click to submit an email online",
+                url: "/Template/GetShareEmailPartial?shareUrl=http%3a%2f%2fwww.cityofdenton.com%2fdepartments-services%2fdepartments-g-p%2fpolice-department" + "&shareTitle=" + shareEmailTitle,
+                useFrame: true,
+                height: 420,
+                onClosed: function (result) {
+                    if (result != undefined && result.IsOk == true) {
+                        $.refreshTempMessage(result.Message);
+                    }
+                },
+                skin: 'viClientDialog send_share_email_lightbox',
+                fixed: false
+            };
+            $.viClientDialog(opts).open();
+        });
+
+    });
+</script>
+
+            <!--!!WidgetEnd-->
+
+    
+</div>
+    
+        
+<div id="ColumnUserControl4" class="column   has_small_col  "  >
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="67"WidgetStart!!-->
+<div id='widget_67_1691_833' class='content_area normal_content_area clearfix '><p style="text-align: center;"><span style="font-weight: bold;">
+</span><map name="m_CommunityInvolvement20copy" id="m_CommunityInvolvement20copy">
+<img width="130" height="130" alt="" src="/Home/ShowImage?id=3935&t=634992172702770000"></map></p>
+<map name="m_CommunityInvolvement20copy">
+<h3 style="text-align: center;">The mission of the Denton Police Department is to enhance the quality of life in the community through excellent public service, protection of life and property, and impartial enforcement of the law.</h3>
+<p style="text-align: center;">&nbsp;</p>
+<table align="center">
+    <tbody>
+        <tr>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/chief-of-police" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3926&t=634992164445000000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/about-denton-pd" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3927&t=634992164446870000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/citizen-programs" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3925&t=634992164443370000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/crime-prevention-tips" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3924&t=634992164441230000"></a></td>
+        </tr>
+        <tr>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/department-phone-numbers" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3939&t=634992189219400000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/publications-and-forms" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3941&t=634992189243900000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/recruiting" target="_self"><img alt="Career" src="/Home/ShowImage?id=3937&t=634992189201470000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/report-a-crime" target="_self"><img alt="Report-A-Crime" src="/Home/ShowImage?id=3943&t=634992189268670000"></a></td>
+        </tr>
+        <tr>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/commendations-complaints" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3947&t=634992198074130000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-a-f/animal-services" target="_self"><img width="100" height="100" alt="" src="/Home/ShowImage?id=3945&t=634992198061600000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://dpdjailview.cityofdenton.com/" target="_self"><img alt="Jail" src="/Home/ShowImage?id=3949&t=634992198096700000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/registered-sex-offenders" target="_self"><img alt="SO" src="/Home/ShowImage?id=3951&t=634992198117770000"></a></td>
+        </tr>
+        <tr>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">
+            <a href="/departments-services/departments-g-p/police-department/red-light-cameras"><img alt="RedLight" src="/Home/ShowImage?id=4977&t=635318719232130000"></a>
+            </td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="http://www.cityofdenton.com/departments-services/departments-g-p/police-department/family-services-unit" target="_self"><img alt="Family-Services" src="/Home/ShowImage?id=3957&t=635017219393200000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;<a href="/departments-services/departments-g-p/police-department/denton-police-reserve-unit"><img alt="" src="/Home/ShowImage?id=4979&t=635318719567330000"></a></td>
+            <td style="width: 105px; height: 105px; text-align: center; vertical-align: middle;">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<h2 style="text-align: center;">
+Get Involved</h2>
+<table align="center" style="height: 60px;" cellspacing="10" cellpadding="10">
+    <tbody>
+        <tr>
+            <td style="height: 60px; text-align: center; vertical-align: middle;"><a href="http://www.facebook.com/pages/City-of-Denton-Police-Department/113414962265" target="_blank"><img width="57" height="57" alt="" src="/Home/ShowImage?id=3959&t=634992812619470000"></a></td>
+            <td> <a href="https://twitter.com/#!/dentonpd" target="_blank"><img alt="t_logo57" src="/Home/ShowImage?id=3963&t=634992812679370000"></a></td>
+            <td><a href="http://www.nixle.com" target="_blank"><img width="135" height="57" alt="" src="/Home/ShowImage?id=3961&t=634992812647100000"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+            <td><a href="http://www.tip411.com" target="_blank"><img width="216" height="82" alt="" src="/Home/ShowImage?id=4293&t=635017099838370000"></a>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</map>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;"><strong>Denton Police Department</strong><br>
+City Hall East<br>
+601 E. Hickory St.<br>
+Denton, TX &nbsp;76205<br>
+Phone: &nbsp;(940) 349-8181 (Non Emergency)&nbsp;<br>
+&nbsp;<br>
+<div></div>
+</p></div>
+            <!--!!WidgetEnd-->
+
+    
+</div>
+
+        
+<aside id="ColumnUserControl5" class="column   small_col  "  >
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="68"WidgetStart!!-->
+  <section class="small_box news_box mobile_list">
+	<h3 class="box_title mobile_header">News</h3>
+<div class="box_content clearfix">
+            <strong>There are no News Items.</strong>
+</div>
+</section>
+
+
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="69"WidgetStart!!-->
+  <section class="small_box events_box mobile_list">
+    <h3 class="box_title mobile_header">Events</h3>
+        <div class="box_content clearfix">
+
+            <strong>There are no Events.</strong>
+        </div>
+</section>
+
+            <!--!!WidgetEnd-->
+
+    
+</aside>
+
+    </div>
+</div>
+
+
+        <!--stopindex-->
+        <div id="mobile_nav" class="mobile_only">
+            <h2 class="mobile_header">Navigation</h2>
+            <ul>
+                
+                <li><a title="Home" href="/home">Home</a></li>
+                
+                <li><a title="About the City" href="/about-the-city">About the City</a></li>
+                
+                <li><a title="Government" href="/government">Government</a></li>
+                
+                <li><a title="Departments & Services" href="/departments-services">Departments & Services</a></li>
+                
+                <li><a title="Residents" href="/residents">Residents</a></li>
+                
+                <li><a title="Visitors" href="/visitors">Visitors</a></li>
+                
+                <li><a title="Businesses" href="/businesses">Businesses</a></li>
+                
+                <li><a title="How Do I…" href="/how-do-i-">How Do I…</a></li>
+                
+                <li><a title="Sitemap" href="">Sitemap</a></li>
+                <li><a title="Contact" href="">Contact</a></li>
+            </ul>
+        </div>
+        <!--startindex-->
+
+        <footer id="page_footer" class="">
+            <!--stopindex-->
+            
+<div id="footercolumn" class="site_template_column  footer_column   "  >
+
+                <!--stopindex-->
+                <div class="footer_nav"><a href="/home">Home</a> &nbsp;|&nbsp; <a href="/about-the-city">About the City</a> &nbsp;|&nbsp; <a href="/government">Government</a> &nbsp;|&nbsp; <a href="/departments-services">Departments &amp; Services</a> &nbsp;|&nbsp; <a href="/residents">Residents</a> &nbsp;|&nbsp; <a href="/visitors">Visitors</a> &nbsp;|&nbsp; <a href="/businesses">Businesses</a> &nbsp;|&nbsp; <a href="/how-do-i-">How Do I...</a> </div>
+City of Denton&nbsp; 215 E. McKinney Street, Denton, TX 76201 &nbsp;|&nbsp; (940) 349-8200 &nbsp;|&nbsp;<a href="/about-the-city/sitemap">Sitemap</a>&nbsp;|&nbsp;<a href="/about-the-city/privacy-policy">Privacy Policy and Disclaimer</a>&nbsp;|&nbsp;<a href="/about-the-city/contact-us">Contact Us</a> | <a href="mailto:&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#99;&#105;&#116;&#121;&#111;&#102;&#100;&#101;&#110;&#116;&#111;&#110;&#46;&#99;&#111;&#109;">Contact Webmaster</a>
+                <!--startindex-->
+            
+    
+                <!--stopindex-->
+                
+                <!--startindex-->
+            
+    
+</div>
+
+			&copy; 2016 City of Denton. Website Created and Hosted by <a target="_blank" href="http://www.visioninternet.com/sitecredit/">Vision Internet</a>            
+            <!--startindex-->
+        </footer>
+        <div id="view-options"><a href="javascript:void(0);" id="view-full" onclick="viewfullsite()" class="mobile_only">View Full Site</a></div>
+    </div>
+</div>
+
+    
+
+    
+    <script>
+        $(function () {
+            $(".reComment[comment]").removeClass("reComment")
+                                    .removeAttr("comment")
+                                    .removeAttr("author")
+                                    .removeAttr("title")
+                                    .removeAttr("timestamp");
+        })
+    </script>
+    
+
+    
+
+    <script src="/Scripts/ScriptBundleVisionFrontend.jsbnd?v=TRSK0_SYVZ764FU1p1PJ0T4TrhUyKgn0tBi315w8qqU1"></script>
+
+    
+    
+    
+    <script>
+        try { manualRenderMobile(); } catch (err) {}
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="flyingworm.ico">
+<title>North Texas Mean Green Interactive Athletics Map</title>
+<meta name="description" content="Interactive map of the University of North Texas Mean  Green Athletics facilities">
+<meta name="keywords" content="North Texas, University of North Texas, UNT, NT, Mean Green, Mean Green Athletics, Mean Green Sports, Mean Green athletic facilities, Mean Green Village, Mean Green stadiums, North Texas football, North Texas basketball, Mean Green football, Mean Green basketball, Mean Green soccer, Mean Green volleyball, Mean Green softball, Mean Green swimming, Mean Green diving, Mean Green track, Mean Green golf, Mean Green tennis, Apogee Stadium, Super Pit, UNT Coliseum, Lovelace Stadium, Mean Green Soccer Stadium, Waranch Tennis Complex, Athletic Academic Center, Victory Hall, Champs Dining Hall, Pohl Recreation Center and PEB Natatorium, Fouts Field, Bahnsen Gym, Old Men's Gym, Snake Pit, Denton, Go Mean Greeen">
+<meta http-equiv="charset" content="ISO-8859-1">
+<meta http-equiv="content-language" content="English">
+<meta http-equiv="vw96.object type" content="Document">
+<meta name="rating" content="general">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="4 weeks">
+
+<link rel=stylesheet href="index-t.css" type="text/css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein');}, 
+      3500);
+});
+
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+
+
+</head>
+<body onload="MM_preloadImages('sportsmed-over.png','alumni-over.png','apogee-over.png','athletics-over.png','champs-over.png','victory-over.png','hill-over.png','practice-over.png','lovelace-over.png','soccer-over.png','volleyball-over.png','academic-over.png','the-e-over.png','waranch-over.png','wind-turbines.gif','soccer-swap.jpg','hill-swap.jpg','apogee-swap.jpg','teamstore-swap.jpg','ticketoffice-swap.jpg','hall-swap.jpg','athletics-swap.jpg','the-e-swap.jpg','victory-swap.jpg','champs-swap.jpg','sportsmedicine-swap.jpg','volleyball-swap.jpg','practice-swap.jpg','strength-swap.jpg','waranch-swap.jpg','track-swap.jpg','lovelace-swap.jpg','academic-swap.jpg','turbine-swap.jpg','images/index/superpit-arrow.png')">
+
+<div id="pagetop">&nbsp;</div>
+
+<div id="container">
+
+<div id="downindexbg">&nbsp;</div>
+
+<div id="title"><a href="http://www.meangreenmap.com/home.html"><img src="title.png" width="430" height="107" alt="Mean Green Interactive Athletics Map" border="0"/></a></div>
+<div id="unt"><img src="unt.png" width="600" height="85" /></div>
+
+<div id="instructions">
+<h1>Welcome To The<br />
+Mean Green Village</h1>
+<p class="instructions">In 2003, the North Texas athletic department began developing 199.5 acres south of 35E, named the Mean Green Village. In eight years, UNT built a dozen facilities, marking a dedication to men's and women's athletics never before seen at North Texas.</p>
+<p class="instructions">This website offers an online tour of all Mean Green athletic facilities. Roll your cursor over the athletic facilities (in dark green) to see a photo and description. Use the index at the bottom of the screen to visit each facility's page.</p>
+</div>
+
+<div id="pagetoplinks">
+<h5><a href="http://www.meangreenmap.com/home.html#anchor" class="bannerlinks">Mean Green Village</a>
+ | <a href="http://www.meangreenmap.com/home.html" class="bannerlinks">Facilities North of 35E</a>
+ | <a href="http://www.meangreenmap.com/apogeeparking.html" class="bannerlinks">Apogee Stadium Parking</a>
+ | <a href="http://www.meangreenmap.com/superpitparking.html" class="bannerlinks">Super Pit Parking</a>
+ | <a href="http://www.unt.edu/transit/pdf/2011-2012%20ParkingMap.pdf" target="_new" class="bannerlinks">UNT Campus</a></h5>
+ </div>
+
+<div id="pitarrow">
+  <a href="http://www.meangreenmap.com/home.html"><img src="images/index/superpit-arrow-over.png" alt="To The Super Pit" name="Super Pit Arrow" width="140" height="72" border="0" id="Super Pit Arrow"/></a></div>
+
+<div id=main><img src="images/index/indexmapt.jpg" width="960" height="1150" border="0" /></div>
+    
+<div id="index">
+<table width="960" border="0">
+  <tr>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/alumnipavilion.html">Alumni Pavilion</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/fouts.html">Fouts Field</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/sportsmedicine.html">Sports Medicine and Rehab</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/superpit.html">UNT Coliseum, The Super Pit</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/apogeestadium.html">Apogee Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/lovelacestadium.html">Lovelace Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/strength.html">Strength and Conditioning</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/trackfield.html">Track and Field offices</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/athleticcenter.html">Athletic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/soccer.html">Mean Green Soccer Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/academiccenter.html">Student-Athlete Academic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/victoryhall.html">Victory Hall student-athlete residences</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/snakepit.html">Bahnsen Gym (The Snake Pit)</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Mean Green Team Store</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/the-e.html">The E Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/volleyball.html">Volleyball Center and Office Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/champs.html">Champs Cafeteria</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/hallfame.html">North Texas Athletic Hall of Fame</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tailgating.html">The Hill tailgating area</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/waranch.html">Waranch Tennis Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/practice.html">Darrell Dickey Football Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/pohl.html">Pohl Recreation Center and PEB Natatorium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Ticket Office</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/turbines.html">Wind Turbines</a></h3></td>
+  </tr>
+</table>
+  </div>
+
+  <div id="windturbines"><img src="images/index/wind-turbines.gif" alt="Wind Turbines" width="75" height="227" border="0" onmouseout="MM_showHideLayers('turbines-show','','hide','turbines-text','','hide')" onmouseover="MM_showHideLayers('turbines-show','','show','turbines-text','','show')" /></div>
+
+  <div id="alumni"><img src="alumni-up.png" alt="Apogee Stadium Alumni Pavilion" name="Alumni Pavilion" width="50" height="38" border="0" id="Alumni Pavilion" onmouseout="MM_showHideLayers('alumni-show','','hide','alumni-text','','hide')" onmouseover="MM_showHideLayers('alumni-show','','show','alumni-text','','show')" /></div>
+
+  <div id="apogee"><img src="apogee-up.png" alt="Apogee Stadium" name="Apogee Stadium" width="213" height="196" border="0" id="Apogee Stadium" onmouseout="MM_showHideLayers('apogee-show','','hide','apogee-text','','hide')" onmouseover="MM_showHideLayers('apogee-show','','show','apogee-text','','show')" /></div>
+
+  <div id="athletic"><img src="athletics-up.png" alt="UNT Athletic Center" name="Athletic Center" width="78" height="56" border="0" id="Athletic Center" onmouseout="MM_showHideLayers('athletic-show','','hide','athletic-text','','hide')" onmouseover="MM_showHideLayers('athletic-show','','show','athletic-text','','show')" /></div>
+
+  <div id="champs"><img src="champs-up.png" alt="Champs Dining Hall" name="Champs Dining Hall" width="46" height="45" border="0" id="Champs Dining Hall" onmouseout="MM_showHideLayers('champs-show','','hide','champs-text','','hide')" onmouseover="MM_showHideLayers('champs-show','','show','champs-text','','show')" /></div>
+
+  <div id="victory"><img src="victory-up.png" alt="Victory Hall student-athlete residences" name="Victory Hall" width="89" height="118" border="0" id="Victory Hall" onmouseout="MM_showHideLayers('victory-show','','hide','victory-text','','hide')" onmouseover="MM_showHideLayers('victory-show','','show','victory-text','','show')" /></div>
+
+  <div id="hill"><img src="hill-up.png" alt="The Hill pre-game tailgating area" name="The Hill" width="162" height="134" border="0" id="The Hill" onmouseout="MM_showHideLayers('hill-show','','hide','hill-text','','hide')" onmouseover="MM_showHideLayers('hill-show','','show','hill-text','','show')" /></div>
+
+  <div id="practice"><img src="practice-up.png" alt="Darrell Dickey Practice Fields" name="Dickey Practice Fields" width="126" height="110" border="0" id="Dickey Practice Fields" onmouseout="MM_showHideLayers('practice-show','','hide','practice-text','','hide')" onmouseover="MM_showHideLayers('practice-show','','show','practice-text','','show')" /></div>
+  
+  <div id="lovelace"><img src="lovelace-up.png" alt="Lovelace Stadium" name="Lovelace Stadium" width="89" height="81" border="0" id="Lovelace Stadium" onmouseout="MM_showHideLayers('lovelace-show','','hide','lovelace-text','','hide')" onmouseover="MM_showHideLayers('lovelace-show','','show','lovelace-text','','show')" /></div>
+
+  <div id="soccer"><img src="soccer-up.png" alt="Mean Green Soccer Stadium" name="soccer" width="102" height="55" border="0" id="soccer2" onmouseout="MM_showHideLayers('soccer-show','','hide','soccer-text','','hide')" onmouseover="MM_showHideLayers('soccer-show','','show','soccer-text','','show')" /></div>
+
+  <div id="volleyball"><img src="volleyball-up.png" alt="UNT Volleyball Center" name="volleyball" width="65" height="62" border="0" id="volleyball2" onmouseout="MM_showHideLayers('volleyball-show','','hide','volleyball-text','','hide')" onmouseover="MM_showHideLayers('volleyball-show','','show','volleyball-text','','show')" /></div>
+
+  <div id="academic"><img src="academic-up.png" alt="UNT Student-Athlete Academic Center" name="Academic" width="70" height="44" border="0" id="Academic" onmouseout="MM_showHideLayers('academic-show','','hide','academic-text','','hide')" onmouseover="MM_showHideLayers('academic-show','','show','academic-text','','show')" /></div>
+
+  <div id="the-e"><img src="the-e-up.png" alt="The E - Basketball, Softball and Golf Practice Facility" name="the-e" width="56" height="56" border="0" id="the-e2" onmouseout="MM_showHideLayers('the-e-show','','hide','the-e-text','','hide')" onmouseover="MM_showHideLayers('the-e-show','','show','the-e-text','','show')" /></div>
+
+  <div id="waranch"><img src="waranch-up.png" alt="Waranch Tennis Complex" name="waranch" width="124" height="82" border="0" id="waranch2" onmouseout="MM_showHideLayers('waranch-show','','hide','waranch-text','','hide')" onmouseover="MM_showHideLayers('waranch-show','','show','waranch-text','','show')" /></div>
+
+<div id="turbines-show"><img src="turbine-swap.jpg" width="527" height="270" /></div>
+<div id="alumni-show"><img src="alumni-swap.jpg" width="527" height="270" /></div>
+<div id="apogee-show"><img src="apogee-swap.jpg" width="527" height="270" /></div>
+<div id="athletic-show"><img src="athletics-swap.jpg" width="527" height="270" /></div>
+<div id="champs-show"><img src="champs-swap.jpg" width="527" height="270" /></div>
+<div id="victory-show"><img src="victory-swap.jpg" width="527" height="270" /></div>
+<div id="hill-show"><img src="hill-swap.jpg" width="527" height="270" /></div>
+<div id="practice-show"><img src="practice-swap.jpg" width="527" height="270" /></div>
+<div id="lovelace-show"><img src="lovelace-swap.jpg" width="527" height="270" /></div>
+<div id="soccer-show"><img src="soccer-swap.jpg" width="527" height="270" /></div>
+<div id="volleyball-show"><img src="volleyball-swap.jpg" width="527" height="270" /></div>
+<div id="academic-show"><img src="academic-swap.jpg" width="527" height="270" /></div>
+<div id="the-e-show"><img src="the-e-swap.jpg" width="527" height="270" /></div>
+<div id="waranch-show"><img src="waranch-swap.jpg" width="527" height="270" /></div>
+<div id="fouts-show"><img src="fouts-swap.jpg" width="527" height="270" /></div>
+<div id="snakepit-show"><img src="snakepit-swap.jpg" width="527" height="270" /></div>
+<div id="track-show"><img src="track-swap.jpg" width="527" height="270" /></div>
+<div id="superpit-show"><img src="superpit-swap.jpg" width="527" height="270" /></div>
+<div id="pohl-show"><img src="pohl-swap.jpg" width="527" height="270" /></div>
+<div id="sportsmed-show"><img src="sportsmedicine-swap.jpg" width="527" height="270" /></div>
+<div id="tickets-show"><img src="ticket-swap.jpg" width="527" height="270" /></div>
+<div id="store-show"><img src="teamstore-swap.jpg" width="527" height="270" /></div>
+<div id="strength-show"><img src="strength-swap.jpg" width="527" height="270" /></div>
+<div id="hall-show"><img src="hall-swap.jpg" width="527" height="270" /></div>
+
+<div id="turbines-text">
+<h2>Apogee Stadium Wind Turbines</h2>
+<p>A major component of Apogee Stadium’s energy-efficient design are three wind turbines installed just outside the stadium.</p>
+<p>The turbines are expected to prevent the emission of nearly 323 metric tons of carbon dioxide annually and generate a third of Apogee’s power.</p>
+</div>
+<div id="alumni-text">
+<h2>Alumni Pavilion</h2>
+<p>Overlooking Apogee Stadium and situated at the northeast entrance near the<br />wing-shaped end zone section, the Pavilion is a pre-game destination for Mean Green fans.</p>
+<p>It’s equipped with big-screen TVs and surrounded by a 3,200-square-foot outdoor patio.</p>
+</div>
+<div id="apogee-text">
+<h2>Apogee Stadium</h2>
+<p>The home of Mean Green Football opened in 2011 and was designed by the architects who created the Dallas Cowboys Stadium. Apogee seats 30,500, has luxury suites, club level and a signature wing-shaped end zone section. It also houses the Athletic Ticket Office and Mean Green Team Store.</p>
+</div>
+<div id="athletic-text">
+<h2>Athletic Center</h2>
+<p>The focal point of the Mean Green Village is a 45,000-square-foot facility that opened in 2005 and houses:<br />
+<ul><li>Sports Medicine</li>
+<li>Strength and Conditioning Center</li>
+<li>Football locker room</li>
+<li>Coaches' offices</li>
+<li>Athletic administration offices</li>
+<li>T.D. Parks Hall of Fame</li></ul></p>
+</div>
+<div id="champs-text">
+<h2>Champs Cafeteria</h2>
+<p>Located adjacent to Victory Hall, Champs serves breakfast, lunch and dinner seven days a week.</p>
+<p>Champs offers a salad bar, entrees, vegetables, pasta and pizza, a grill, bakery goods and desserts. The weekly menu and nutritional information are published online.</p>
+</div>
+<div id="victory-text">
+<h2>Victory Hall</h2>
+<p>The student-athlete dorm has private and double rooms with ensuite bathrooms, and has easy access to Champs Cafeteria and the Athletic Center.</p>
+<p>A large, well-lit parking lot is served by shuttles to and from campus. It also has a cyber café, courtyards, a computer lab and a kitchenette.</p>
+</div>
+<div id="hill-text">
+<h2>The Hill</h2>
+<p>Pre-game partying was a UNT tradition long before Apogee Stadium was built, so tailgating was made a part of the landscape.</p>
+<p>The site of the former Radisson Hotel, next to Apogee Stadium, has been set aside for students, alumni and fans to gather, eat and drink before each Mean Green home football game.</p>
+</div>
+<div id="practice-text">
+<h2>Darrell R. Dickey Football Practice Facility</h2>
+<p>The football team’s practice facility is next to Victory Hall and the Athletic Center, where the locker rooms and Sports Medicine are located.</p>
+<p>The fields are named for former coach Darrell Dickey, who led NT to four straight conference titles.</p>
+</div>
+<div id="lovelace-text">
+<h2>Lovelace Stadium</h2>
+<p>Home to Mean Green Softball. Opened 2007.</p>
+<p>The outfield wall is 200 feet down the lines and 220 to center, and the grandstand is topped by a climate-controlled press box and flanked by covered dugouts.</p>
+<p>Lovelace was the site of an Underarmour commerical featuring Cat Osterman.</p>
+</div>
+<div id="soccer-text">
+<h2>Mean Green Soccer Stadium</h2>
+<p>Home to Mean Green Soccer.</p>
+<p>Opened in 2006 as part of Phase 2 of development of the Mean Green Village, it was built on the site of the former Liberty Christian School. It has seating for 1,000, a pressbox and a 115x72-yards grass pitch.</p>
+</div>
+<div id="volleyball-text">
+<h2>Volleyball Center And Mean Green Office Complex</h2>
+<p>Opened in 2006, the Volleyball Center seats 600 fans and has a Robbins SportWood parquet floor, locker rooms and training facilities.</p>
+<p>The Office Complex houses coaches for golf, soccer, softball, swimming and diving, and volleyball.</p>
+</div>
+<div id="academic-text">
+<h2>Student-Athlete Academic Center</h2>
+<p>One of the first facilities to open in the Mean Green Village was the 7,000-square-foot Academic Center, which puts an array of educational resources, tutors and technology a short walk from the Victory Hall residences.</p>
+<p>The Center is also home to the athletic compliance staff.</p>
+</div>
+<div id="the-e-text">
+<h2>The "E"<br />
+Practice Facility</h2>
+<p>Located across Bonnie Brae Street from the Waranch Tennis Complex and next to the Volleyball Center, this climate-controlled facility has a full-length basketball court with scoreboard and lockerrooms, two net-enclosed golf driving ranges, a putting green, and two batting cages.</p>
+</div>
+<div id="waranch-text">
+<h2>Waranch Tennis Complex</h2>
+<p>Home of Mean Green Tennis.</p>
+<p>The complex opened in 2006 and is named for alumnus Ronald Waranch.</p>
+<p>It has 12 courts and a clubhouse with locker rooms, a players’ lounge and coaches’ offices.</p>
+</div>
+<div id="fouts-text">
+<h2>Fouts Field</h2>
+<p>Home of Mean Green Track & Field.</p>
+<p>Former home of Mean Green football from 1952 to 2010.</p>
+<p>Named for Theron J. Fouts, former football coach, athletic director and founder of UNT's track and field program.</p>
+<p>Opened in 1952.</p>
+</div>
+<div id="snakepit-text">
+<h2>Bahnsen Gym, The Snake Pit</h2>
+<p>Former home of Mean Green Basketball.</p>
+<p>Built in 1950, this 5,000-seat venue was so hostile that one visiting coach (after an OT loss) described it as "...the worst damn place in the world to play basketball! This place is a snake pit!"</p>
+<p>It is now used for PE classes.</p>
+</div>
+<div id="track-text">
+<h2>Track And Field Offices</h2>
+<p>The Mean Green track and field and cross country teams are headquartered in the former athletic department offices on North Texas Blvd. adjacent to Fouts Field, offering easy access to the stadium, which is the team's practice and competition venue.</p>
+</div>
+<div id="superpit-text">
+<h2>UNT Coliseum, The Super Pit</h2>
+<p>Home of Mean Green Men’s and Women’s Basketball.</p>
+<p>This 10,500-seat arena opened in 1973, and derives its name from its predecessor, which was nicknamed “The Snake Pit.”</p>
+<p>The Pit’s concourse is also home to the NT Athletic Hall of Fame.</p>
+</div>
+<div id="pohl-text">
+<h2>Pohl Recreation Center And PEB Natatorium</h2>
+<p>Home of Mean Green Swimming & Diving.</p>
+<p>Opened in 2003, it has an eight-lane competition pool and one- and three-meter springboards. The Center is also a 138,000-square-foot fitness facility for students, faculty, staff and alumni.</p>
+</div>
+<div id="sportsmed-text">
+<h2>Sports Medicine And Rehab</h2>
+<p>Sports Medicine is strategically located in the Athletic Center, close to game and practice venues and to Victory Hall.</p>
+<p>Treatment and rehab rooms, outfitted by Texas Health Presbyterian, are operated by trainers and team doctors from a range of specializations.</p>
+</div>
+<div id="tickets-text">
+<h2>Athletic Ticket Office</h2>
+<p>The office is on the west side of Apogee Stadium and sells tickets for football, basketball, volleyball, softball, soccer and track and field.</p>
+<p>Tickets on game day are sold at the event venue. Other sports are free, excluding championships.</p>
+<p>Call (800) 686-2386.</p>
+</div>
+<div id="store-text">
+<h2>Mean Green Team Store</h2>
+<p>The Mean Green Team Store is located on the west side of Apogee Stadium.</p>
+<p>The store offers a large selection of Mean Green apparel, gifts and souvenirs, and is open 8 to 5 Monday to Friday and during Mean Green football games.</p>
+</div>
+<div id="strength-text">
+<h2>Strength And Conditioning</h2>
+<p>The 7,000-square-foot weightroom opened in 2005 on the first floor of the Athletic Center.</p>
+<p>It’s equipped with over 16,000 pounds of weights, including 12 Power Lift Multi-Purpose Racks, six Power Lift Olympic Platforms and more than 30 Hammer Strength machines.</p>
+</div>
+<div id="hall-text">
+<h2>Athletic Hall Of Fame</h2>
+<p>Located in the concourse of the Super Pit, the Hall features plaques of all members.</p>
+<p>A new hall has been added in the Athletic Center, the T.D. Parks Hall of Fame, which displays memorabilia and trophies.</p>
+</div>
+
+  
+
+</div>
+</body>
+</html>

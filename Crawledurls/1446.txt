@@ -1,0 +1,122 @@
+
+<html>
+<head>
+<title>eHousing Student Account</title>
+<link rel="stylesheet" href="Styles.css" type="text/css">
+<link rel="stylesheet" href="StylesPrint.css" type="text/css" media="print">
+<script language="JavaScript" src="JavaScripts.js" type="text/javascript"></script>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#DDDDDD" onLoad="document.LoginForm.EUID.focus()">
+
+<table border="0" cellpadding="0" cellspacing="0" width="815" height="100%" bgcolor="#FFFFFF">
+  <tr valign="top">
+    <td class="SideNavigation" align=center><br>
+<img alt='' src='images/UNT1_ilyamix.gif' width='126' height='69' class='LogoScreen' border='0'><img alt='' src='images/UNT1a.gif' width='0' height='0' class='LogoPrint' border='0'><br/><br/>      <table border="0" cellpadding="5" cellspacing="0" width="100%" class="SideNavigation">
+        <tr>
+          <td>
+<br/><br/><br/><br/><br/>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'>
+<tr valign='bottom' height='30'><td>&nbsp;<div class='NavSection'>Account Mgmt System</div></td></tr>
+<tr height='3'><td><img alt='' src='images/SpacerGreen.gif' width='1' height='3' class='Spacer' border='0'></td></tr>
+<tr valign='middle' height='20'><td>&nbsp; &nbsp; <a href='http://ams.unt.edu/whatsmyeuid.php' class='NavLink' title='What's my EUID?' target='_blank'>What's my EUID?</a></td></tr>
+<tr valign='middle' height='20'><td>&nbsp; &nbsp; <a href='http://ams.unt.edu/resetpw.php' class='NavLink' title='Password Help' target='_blank'>Password Help</a></td></tr>
+<tr valign='middle' height='20'><td>&nbsp; &nbsp; <a href='http://ams.unt.edu/acctreq.php' class='NavLink' title='New Students' target='_blank'>New Students</a></td></tr>
+<tr valign='top' height='16'><td style='color: white;'>&nbsp; &nbsp; &nbsp; - <a href='http://ams.unt.edu/acctreq.php' class='NavLink' title='Activate My EUID' target='_blank'>Activate My EUID</a></td></tr>
+<tr valign='bottom' height='30'><td>&nbsp;<div class='NavSection'>Contact Information</div></td></tr>
+<tr height='3'><td><img alt='' src='images/SpacerGreen.gif' width='1' height='3' class='Spacer' border='0'></td></tr>
+<tr><td style='color: #FFFFFF;'>  UNT Housing<br/>  PO Box 311310<br/>  Denton, TX 76203-1310<br/>  Main: (940) 565-2610<br/>  Fax: (940) 369-8764<br/>  TTD: (800) 735-2989<br/>  housinginfo@unt.edu</td></tr></table>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+    <td width="1" bgcolor="#000000"></td>
+    <td align="center" width="625" valign="top">
+
+      <table border="0" cellpadding="5" cellspacing="0" width="100%" height="100%">
+        <tr height="130" valign="bottom" align="center">
+          <td>
+<img alt='' src='images/UNT2.gif' width='324' height='90' class='' border='0'>   <br/><br/>
+            </td>
+        </tr>
+        <tr valign='middle' height='20' align='center'>
+            <td class='PageTitle'>eHousing Student Account          </td>
+        </tr>
+        <tr valign="top" align="center">
+          <td><br>
+<br/><br/>            <form name="LoginForm" method="post">
+		<input type="hidden" name="FormAction" value="Submit">
+
+<br><br>
+
+            <table border="1" cellpadding="20" cellspacing="0" style="background-color:#EAE8CB;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFEAE8CB',EndColorStr='#FFCAC79A');">
+              <tr>
+                <td>
+                  <table border="0" cellpadding="2" cellspacing="" style="font-family: Verdana, Helvetica, Arial, sans-serif;font-size:11px;font-weight:bold">
+                    <tr>
+                      <td colspan="2">EUID:</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><input type="text" name="EUID" size="23" maxlength="20" class="Text"></td>
+                    </tr>
+                    <tr height="25" valign="bottom">
+                      <td colspan="2">Password:</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><input type="password" name="Password" size="23" maxlength="30" class="Text" autocomplete="off"></td>
+                    </tr>
+                    <tr height="38" valign="bottom">
+                      <td align="left"><input type="submit" value="Login" class="Button" style="width:75px"></td>
+                      <td align="right"><input type="button" value="Help" class="HelpButton" onClick="OpenHelp('Help/LoginHelp.php','375','275');"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table><br><br>
+
+            <table border="0" cellpadding="0" cellspacing="0" width="550">
+              <tr>
+                <td>
+			<span>
+			Please Note: Your browser must be set to allow cookies and javascript.<br><br>
+			</span>
+
+			In order to use UNT eHousing, you must have a University EUID and  password.
+			Newly admitted students can activate their EUID by going to the <a href="https://ams.unt.edu/acctreq.php" target="_blank">UNT Account Management System</a>.<br><br>
+
+			You must log in to purchase residential parking permits.  For more information about parking permits and parking maps, visit the <a href="http://www.unt.edu/parking" target="_blank">UNT Parking Services</a>.<br><br>
+			
+			eHousing is the UNT's interactive web-based student system that allows real-time access to
+			apply, update and check the status of housing applications, view roommates and room assignments, 
+			and make payments to your Housing account.
+                </td>
+              </tr>
+            </table>
+
+            </form>
+
+<br/><br/>        <table border="0" cellpadding="2" cellspacing="0" width="100%">
+		<tr>
+            <td align="center" class="FooterNav">
+                <a href="http://www.unt.edu/" title="UNT Home Page" class="FooterNav" target="_top">UNT Home Page</a>&nbsp;|&nbsp;
+                <a href="http://www.unt.edu/housing/" title="UNT Housing" class="FooterNav" target="_top">UNT Housing</a>&nbsp;|&nbsp;
+                <a href="http://web2.unt.edu/news/" title="UNT News" class="FooterNav" target="_top">UNT News</a>&nbsp;|&nbsp;
+                <a href="http://web2.unt.edu/calendar/" title="UNT Events" class="FooterNav" target="_top">UNT Events</a><br/>
+                <a href="http://www.unt.edu/disclaimer.htm" title="Disclaimer" class="FooterNav" target="_top">Disclaimer</a>&nbsp;|&nbsp;
+                <a href="http://www.unt.edu/ada.htm" title="AA/EOE/ADA" class="FooterNav" target="_top">AA/EOE/ADA</a>&nbsp;|&nbsp;
+                <a href="http://housing.unt.edu/ehousing/Privacy.php" title="Privacy Statement" class="FooterNav" target="_top">Privacy Statement</a>&nbsp;|&nbsp;
+                <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html" title="Web Accessibility Policy" class="FooterNav" target="_top">Web Accessibility Policy</a>
+            </td>
+        </tr>
+        </table>
+        
+          </td>
+        </tr>
+      </table>
+
+    </td>
+    <td width="1" bgcolor="#000000"></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2011                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta http-equiv="X-UA-Compatible" content="IE=8" /><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaDescription" name="DESCRIPTION" content="Fort Worth’s Transportation Authority, The T, offers bus services in and around the Dallas/Fort Worth metroplex. Additional services include the TRE, commuter programs, and MITS." /><meta id="MetaKeywords" name="KEYWORDS" content="The T, Bus schedule, Public transportation, Bus, Buses, Busses, Train, Tre, Fort worth tx, Fort worth texas, Fort worth, Dfw, Bus route, Carpool, Vanpool, Transportation fort worth, Arlington, Dallas fort worth, Transportation, Bus fare, Bus fares, Commuter rail, Bus map, Bus schedule,DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2008 by The T" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="The T | Fort Worth Transportation Authority | Fort Worth,TX" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/Portals/_default/default.css?cdv=362" type="text/css" rel="stylesheet"/><link href="/Portals/0/Skins/TheT_Index/skin.css?cdv=362" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=362" type="text/css" rel="stylesheet"/><link href="/admin/ControlPanel/module.css?cdv=362" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/ComboBox.Default.css?cdv=362" type="text/css" rel="stylesheet"/><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?cdv=362" type="text/javascript"></script><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js?cdv=362" type="text/javascript"></script><!--[if LT IE 7]><link id="IE6Minus" rel="stylesheet" type="text/css" href="/Portals/0/Skins/TheT_Index/ie6skin.css" /><![endif]--><meta name="google-translate-customization" content="12a04e02235a537a-010b14fa621b3b2e-gd980ce1ee4158922-d"></meta>
+
+     
+        
+			    <script type="text/javascript">
+                  
+                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                  ga('create', 'UA-31530175-1', 'auto');
+                  ga('send', 'pageview');
+			    
+                </script>
+        
+		  <title>
+	The T | Fort Worth Transportation Authority | Fort Worth, TX - Home.
+</title></head>
+<body id="Body">
+    
+    <form method="post" action="/" id="Form" enctype="multipart/form-data">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzMDAzNDg3ODEPZBYGZg8WAh4EVGV4dAV5PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPmQCAQ9kFg4CBQ8WAh4HVmlzaWJsZWhkAgYPFgIeB2NvbnRlbnQFtAFGb3J0IFdvcnRo4oCZcyBUcmFuc3BvcnRhdGlvbiBBdXRob3JpdHksIFRoZSBULCBvZmZlcnMgYnVzIHNlcnZpY2VzIGluIGFuZCBhcm91bmQgdGhlIERhbGxhcy9Gb3J0IFdvcnRoIG1ldHJvcGxleC4gQWRkaXRpb25hbCBzZXJ2aWNlcyBpbmNsdWRlIHRoZSBUUkUsIGNvbW11dGVyIHByb2dyYW1zLCBhbmQgTUlUUy5kAgcPFgIfAgWsAlRoZSBULCBCdXMgc2NoZWR1bGUsIFB1YmxpYyB0cmFuc3BvcnRhdGlvbiwgQnVzLCBCdXNlcywgQnVzc2VzLCBUcmFpbiwgVHJlLCBGb3J0IHdvcnRoIHR4LCBGb3J0IHdvcnRoIHRleGFzLCBGb3J0IHdvcnRoLCBEZncsIEJ1cyByb3V0ZSwgQ2FycG9vbCwgVmFucG9vbCwgVHJhbnNwb3J0YXRpb24gZm9ydCB3b3J0aCwgQXJsaW5ndG9uLCBEYWxsYXMgZm9ydCB3b3J0aCwgVHJhbnNwb3J0YXRpb24sIEJ1cyBmYXJlLCBCdXMgZmFyZXMsIENvbW11dGVyIHJhaWwsIEJ1cyBtYXAsIEJ1cyBzY2hlZHVsZSxEb3ROZXROdWtlLEROTmQCCA8WAh8CBRdDb3B5cmlnaHQgMjAwOCBieSBUaGUgVGQCCQ8WAh8CBQtEb3ROZXROdWtlIGQCCg8WAh8CBTtUaGUgVCB8IEZvcnQgV29ydGggVHJhbnNwb3J0YXRpb24gQXV0aG9yaXR5IHwgRm9ydCBXb3J0aCxUWGQCDQ8WAh8CBQ1JTkRFWCwgRk9MTE9XZAICD2QWAgIBD2QWAgIHD2QWAmYPZBYYAgEPZBYCZg9kFgJmDw8WAh8BaGQWBgICDxBkZBYBZmQCAw8PFgIfAWhkZAIFD2QWBgIBD2QWAgIBD2QWAmYPZBYCZg9kFg4CCw9kFgICAw8QZGQWAGQCDQ9kFgICAw8QZGQWAGQCEQ9kFgJmDxQrAAJkZBYEZg8PFgQeCENzc0NsYXNzBQlyY2JIZWFkZXIeBF8hU0ICAmRkAgEPDxYEHwMFCXJjYkZvb3Rlch8EAgJkZAIXDxBkZBYAZAIdDxBkZBYAZAIhDxBkZBYAZAIlDxBkZBYAZAIDD2QWBAIXD2QWBgIHDxBkZBYAZAILDxBkZBYAZAINDxBkZBYAZAIbD2QWBgIHDxBkZBYAZAIJDxBkZBYAZAINDxQrAAJkZBYEZg8PFgQfAwUJcmNiSGVhZGVyHwQCAmRkAgEPDxYEHwMFCXJjYkZvb3Rlch8EAgJkZAIFDw8WAh8BaGQWBAINDw8WAh8BaGRkAhEPZBYCZg8QZGQWAGQCAw9kFgICAw9kFgRmD2QWBgIBDxAPFgQfAwUQU2VydmVyU2tpbldpZGdldB8EAgJkZGRkAgMPEA8WBB8DBRBTZXJ2ZXJTa2luV2lkZ2V0HwQCAmRkZGQCBw8PFgYfAwUQU2VydmVyU2tpbldpZGdldB8ABVE8aW1nIHNyYz0iL1BvcnRhbHMvMC9Ta2lucy9UaGVUX0luZGV4L2ltYWdlcy9zZWFyY2guZ2lmIiBib3JkZXI9IjAiIGFsdD0iU2VhcmNoIj4fBAICZGQCAg9kFgICAg8PFgYfAwUQU2VydmVyU2tpbldpZGdldB8ABVE8aW1nIHNyYz0iL1BvcnRhbHMvMC9Ta2lucy9UaGVUX0luZGV4L2ltYWdlcy9zZWFyY2guZ2lmIiBib3JkZXI9IjAiIGFsdD0iU2VhcmNoIj4fBAICZGQCBQ8WAh8BZxYCZg8WAh4FY2xhc3MFKkRubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0hUTUwgRG5uTW9kdWxlLTM2NxYCAgEPZBYCZg8WAh8FBQxETk5BbGlnbmxlZnQWAgIBDw9kFgIfBQUcRE5OTW9kdWxlQ29udGVudCBNb2RETk5IVE1MQ2QCBw8WAh8BZxYCZg8WAh8FBS1Ebm5Nb2R1bGUgRG5uTW9kdWxlLUROTl9JRnJhbWUgRG5uTW9kdWxlLTIxMTcWAgIBD2QWAmYPZBYCAgEPD2QWAh8FBR5ETk5Nb2R1bGVDb250ZW50IE1vZEROTklGcmFtZUMWAgIBD2QWAmYPFhAeA3NyYwU1aHR0cDovL3d3dy50aGUtdC5jb20vUG9ydGFscy8wL3RyYW5zaXRmb3JtYXJraXg3Lmh0bWweCWlubmVyaHRtbAUrWW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgaW5saW5lIGZyYW1lcx4Jc2Nyb2xsaW5nBQJubx4Fd2lkdGgFBTUxNHB4HgtmcmFtZWJvcmRlcgUBMB4GaGVpZ2h0BQUxMjdweB4PaGlkZWFkbWluYm9yZGVyBQVGYWxzZR4RYWxsb3d0cmFuc3BhcmVuY3kFBHRydWVkAgkPFgIfAWcWAmYPFgIfBQU6RG5uTW9kdWxlIERubk1vZHVsZS1Ebm5Gb3JnZS1MYXRlc3RBcnRpY2xlcyBEbm5Nb2R1bGUtMTA3MhYCAgEPZBYCZg8WAh8FBQxETk5BbGlnbmxlZnQWAgIBDw9kFgIfBQUrRE5OTW9kdWxlQ29udGVudCBNb2REbm5Gb3JnZUxhdGVzdEFydGljbGVzQ2QCCw8WAh8BZxYCAgEPFgIfBQUqRG5uTW9kdWxlIERubk1vZHVsZS1ETk5fSFRNTCBEbm5Nb2R1bGUtMzcyFgICAQ9kFgJmDxYCHwUFDEROTkFsaWdubGVmdBYCAgEPD2QWAh8FBRxETk5Nb2R1bGVDb250ZW50IE1vZEROTkhUTUxDZAINDxYCHwFnFgICAQ8WAh8FBSpEbm5Nb2R1bGUgRG5uTW9kdWxlLUROTl9IVE1MIERubk1vZHVsZS0zNzEWAgIBD2QWAmYPFgIfBQUMRE5OQWxpZ25sZWZ0FgICAQ8PZBYCHwUFHEROTk1vZHVsZUNvbnRlbnQgTW9kRE5OSFRNTENkAg8PFgIfAWcWAgIBDxYCHwUFK0Rubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0hUTUwgRG5uTW9kdWxlLTE5NDUWAgIBD2QWAmYPZBYCAgEPD2QWAh8FBRxETk5Nb2R1bGVDb250ZW50IE1vZEROTkhUTUxDZAIRD2QWAgIBDxYCHwUFK0Rubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0hUTUwgRG5uTW9kdWxlLTE5NTAWAgIBD2QWAmYPZBYCAgEPD2QWAh8FBRxETk5Nb2R1bGVDb250ZW50IE1vZEROTkhUTUxDZAITD2QWBAIBDxYCHwUFK0Rubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0hUTUwgRG5uTW9kdWxlLTE5NTEWAgIBD2QWAmYPZBYCAgEPD2QWAh8FBRxETk5Nb2R1bGVDb250ZW50IE1vZEROTkhUTUxDZAICDxYCHwUFLURubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0lGcmFtZSBEbm5Nb2R1bGUtMTk1MhYCAgEPZBYCZg9kFgICAQ8PZBYCHwUFHkROTk1vZHVsZUNvbnRlbnQgTW9kRE5OSUZyYW1lQxYCAgEPZBYCZg8WEB8GBRxodHRwOi8vd3d3LnRoZS10LmNvbS9ucy5odG1sHwcFK1lvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IGlubGluZSBmcmFtZXMfCAUCbm8fCQUDMzAwHwoFATAfCwUDMTAwHwwFBUZhbHNlHgZvbmxvYWQFbGlmICh3aW5kb3cucGFyZW50ICYmIHdpbmRvdy5wYXJlbnQuYXV0b0lmcmFtZSkge3dpbmRvdy5wYXJlbnQuYXV0b0lmcmFtZSgnZG5uX2N0cjE5NTJfSUZyYW1lX2h0bUlGcmFtZScsMCk7fWQCFQ8WAh8FBRhDb250ZW50UGFuZSBETk5FbXB0eVBhbmVkAhcPFgIfAWcWBAIBDxYCHwUFKkRubk1vZHVsZSBEbm5Nb2R1bGUtRE5OX0hUTUwgRG5uTW9kdWxlLTM4MRYCAgEPZBYCZg8WAh8FBQxETk5BbGlnbmxlZnQWAgIBDw9kFgIfBQUcRE5OTW9kdWxlQ29udGVudCBNb2RETk5IVE1MQxYCAgEPZBYCAgIPFgIfAWhkAgIPFgIfBQU4RG5uTW9kdWxlIERubk1vZHVsZS1FYXN5RE5OTW9iaWxlUmVkaXJlY3QgRG5uTW9kdWxlLTIwOTcWAgIBD2QWAmYPZBYCAgEPD2QWAh8FBSpETk5Nb2R1bGVDb250ZW50IE1vZEVhc3lETk5Nb2JpbGVSZWRpcmVjdEMWAgIBD2QWAmYPFgIfAWgWBGYPDxYEHwAFC1Nob3cgbW9iaWxlHgtOYXZpZ2F0ZVVybAUULz9tb2JpbGV2ZXJzaW9uPXRydWVkZAIBDw8WBB8ABRFTaG93IGZ1bGwgdmVyc2lvbh8PBQEvZGQYAgUeZG5uJFJpYmJvbkJhciRFZGl0UGFnZSRTa2luTHN0DxQrAAJlZWQFGmRubiRSaWJib25CYXIkQWRkTW9kJGN0bDAyDxQrAAJlZWSMbALzLz9HnnnP1xazOEMkwOsGVQ==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+function autoIframe(frameId, moreSpace){try{frame = document.getElementById(frameId);innerDoc = (frame.contentDocument) ? frame.contentDocument : frame.contentWindow.document;objToResize = (frame.style) ? frame.style : frame;objToResize.height =  innerDoc.body.scrollHeight +moreSpace;}catch(err){ window.status = err.message;}}//]]>
+</script>
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3a93a6b8ed-f453-4cc5-9080-8017894b33b0%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAN2EIL7KXo6BUqGx+za5Rs3V8nzZwti40eBrdWaPdC9rCCVhOCbIPrX4LkK0Gy5W0DzV5FiYeWVTfrnuPXXw61CkX48CQ==" /><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=362" type="text/javascript"></script><script src="/js/dnn.jquery.js?cdv=362" type="text/javascript"></script><script src="/Resources/ControlPanel/ControlPanel.debug.js?cdv=362" type="text/javascript"></script><script src="/js/dnncore.js?cdv=362" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=362" type="text/javascript"></script>
+        
+        
+
+<link rel="stylesheet" href="/Portals/0/styles/sIFR-screen.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/Portals/0/styles/sIFR-print.css" type="text/css" media="print" />
+<script src="/Portals/0/js/sifr.js" type="text/javascript"></script>
+<script src="/Portals/0/js/sifr-addons.js" type="text/javascript"></script>
+<div style="display: none;">
+<img src="/Portals/0/images/index_btn_visitmaps_ovr.gif">
+<img src="/Portals/0/images/index_btn_viewroutes_ovr.gif">
+<img src="/Portals/0/images/index_btn_buytickets_ovr.gif">
+<img src="/Portals/0/images/index_btn_learnmore_ovr.gif">
+<img src="/Portals/0/images/index_btn_blue_dest_ovr.gif">
+</div>
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//--><!]]></script>
+
+<div>
+    <div class="template_style">
+        <div id="dnn_ControlPanel"></div>
+        <div class="center_bg">
+           <table width="852" border="0" cellspacing="0" cellpadding="0" style="margin-left: auto; margin-right: auto;">
+              <tr>
+                 
+              </tr>
+              <tr>
+                 <td valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-top: 20px;">
+                       <tr>
+                          <td id="dnn_LeftTopPane" valign="top" class="LeftTopPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-367"><a name="367"></a><div id="dnn_ctr367_ContentPane" class="DNNAlignleft"><!-- Start_Module_367 --><div id="dnn_ctr367_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr367_HtmlModule_lblContent" class="Normal">
+	<a href="//www.the-t.com">
+<h1 title="The T Takes You Places" id="logo">The T | Fort Worth Transportation Authority</h1>
+</a><a href="http://translate.google.com/translate" title="View this website in Google Translate" target="_new">Ver este sitio en espa&ntilde;ol</a>
+</div>
+
+</div><div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,vi', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, autoDisplay: false}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script><!-- End_Module_367 --></div>
+</div></td>
+
+                         
+ <td valign="center"><div id="google-transit-widget">
+    
+
+    <div class="main">
+<div id="dnn_RightTopPaneForm" class="RightTopPaneForm"><div class="DnnModule DnnModule-DNN_IFrame DnnModule-2117"><a name="2117"></a><div id="dnn_ctr2117_ContentPane"><!-- Start_Module_2117 --><div id="dnn_ctr2117_ModuleContent" class="DNNModuleContent ModDNNIFrameC">
+	<iframe id="dnn_ctr2117_IFrame_htmIFrame" src="http://www.the-t.com/Portals/0/transitformarkix7.html" scrolling="no" width="514px" frameborder="0" height="127px" hideadminborder="False" allowtransparency="true">Your browser does not support inline frames</iframe>
+
+</div><!-- End_Module_2117 --></div>
+</div></div>
+        
+        	<div id="dnn_RightTopPane" class="RightTopPane"><div class="DnnModule DnnModule-DnnForge-LatestArticles DnnModule-1072"><a name="1072"></a><div id="dnn_ctr1072_ContentPane" class="DNNAlignleft"><!-- Start_Module_1072 --><div id="dnn_ctr1072_ModuleContent" class="DNNModuleContent ModDnnForgeLatestArticlesC">
+	
+
+<span id="dnn_ctr1072_LatestArticles_2161-NoArticles" class="Normal"></span>
+
+
+
+</div><!-- End_Module_1072 --></div>
+</div></div>
+    
+    </div>
+</div></td>
+                       </tr>
+                    </table>
+                 </td>
+              </tr>
+           </table>
+           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                 <td id="dnn_NavPane" valign="top" class="NavPane">
+                 <div class="DnnModule DnnModule-DNN_HTML DnnModule-372"><a name="372"></a><div id="dnn_ctr372_ContentPane" class="DNNAlignleft"><!-- Start_Module_372 --><div id="dnn_ctr372_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr372_HtmlModule_lblContent" class="Normal">
+	<div id="nav_bg">
+<div id="nav_frame">
+<ul id="nav">
+    <li><a href="/MapsSchedules/SystemMap/tabid/204/Default.aspx" title="Maps and Schedules" class="nav_maps">Maps &amp; Schedules</a>
+    <ul style="width: 243px;">
+        <li><a href="/MapsSchedules/SystemMap/tabid/204/Default.aspx" title="Bus System Map" class="first">Bus System Map</a> </li>
+        <li><a href="/MapsSchedules/BusRoutesSchedules/tabid/63/Default.aspx" title="Bus Routes &amp; Schedules" class="even">Bus Routes &amp; Schedules </a></li>
+        <li><a href="http://www.trinityrailwayexpress.org/newweekeb.html" title="Trinity Railway Express Schedules" class="odd" target="_blank">Trinity Railway Express</a> </li>
+        <li><a href="/MapsSchedules/IceRoutes.aspx" title="Ice Routes" class="even">Severe Weather Plans</a> </li>
+        <li><a href="/MapsSchedules/ServiceChanges.aspx" title="Service Changes" class="odd">Service Changes</a> </li>
+        <li><a href="/MapsSchedules/Holidays/tabid/64/Default.aspx" title="Holidays" class="last">Holidays</a> </li>
+    </ul>
+    </li>
+    <li><a href="/Fares/Information.aspx" title="Fares/Passes" class="nav_fares">Fares</a>
+    <ul style="width: 243px;">
+        <li><a href="/Fares/Information.aspx" title="Information" class="first">Information</a> </li>
+        <li><a href="/Fares/EPass/tabid/70/Default.aspx" title="EasyRide E-Pass" class="even">EasyRide E-Pass</a> </li>
+        <li><a href="/Fares/WheretoBuy/tabid/69/Default.aspx" title="Sales Locations" class="odd">Sales Locations</a> </li>
+        <li><a href="http://www.gopass.biz/" title="Paperless Ticketing" class="even" target="_blank">Go Pass</a> </li>
+        <li><a href="https://the-tstore.com/" title="Buy Online" class="odd" target="_blank">Buy Online</a> </li>
+        <li><a href="/Fares/ReducedFare/tabid/71/Default.aspx" title="Reduced Fare" class="last">Reduced Fare</a> </li>
+    </ul>
+    </li>
+    <li><a href="/RidingTheT/HowtoRide/tabid/75/Default.aspx" title="Riding The T" class="nav_riding">Bus Service</a>
+    <ul style="width: 243px;">
+        <li><a href="/BusService/HowtoRide/tabid/75/Default.aspx" title="How to Ride" class="first">How to Ride</a> </li>
+        <li><a href="/BusService/BikesonBusses/tabid/76/Default.aspx" title="Bikes on Buses" class="even">Bikes and Buses</a> </li>
+        <li><a href="/BusService/PopularDestinations/tabid/77/Default.aspx" title="Popular Destinations" class="odd">Popular Destinations</a> </li>
+        <li><a href="/BusService/Airporter/tabid/78/Default.aspx" title="DFW Airport" class="even">DFW Airport</a> </li>
+        <li><a href="/BusService/AdoptAStop.aspx" title="Adopt A Bus Stop" class="odd">Adopt A Bus Stop</a> </li>
+        <li><a href="/BusService/SafetySecurity/tabid/79/Default.aspx" title="Safety &amp; Security" class="even">Safety &amp; Security</a> </li>
+        <li><a href="/BusService/FAQs/tabid/80/Default.aspx" title="FAQ's" class="odd">FAQ's</a> </li>
+        <li><a href="/BusService/SpecialPrograms/tabid/247/Default.aspx" title="Special Programs" class="even">Road Scholar</a> <!-- <li><a href="/BusService/SpecialPrograms/tabid/247/Default.aspx#tcu" title="Special Programs" class="last">TCU Football</a>&nbsp; </li> --></li>
+    </ul>
+    </li>
+    <li><a href="/CommuterRails/TRE/tabid/208/Default.aspx" title="Commuter Rail" class="nav_commuter">Commuter Rails</a>
+    <ul style="width: 243px;">
+        <li><a href="/CommuterRails/TRE/tabid/208/Default.aspx" title="Trinity Railway Express (TRE)" class="first">Trinity Railway Express (TRE)</a> </li>
+        <li><a href="/CommuterRails/SWToNERail/tabid/211/Default.aspx" title="TEX Rail" class="last">TEX Rail</a> </li>
+    </ul>
+    </li>
+    <li><a href="/MITS/tabid/89/Default.aspx" title="Paratransit" class="nav_mits">MITS</a>
+    <ul style="width: 243px;">
+        <li><a href="/MITS/tabid/89/Default.aspx" title="MITS Information" class="first">MITS Information</a> </li>
+        <li><a href="http://blank/" title="MITS Trip Planner" class="even" target="_blank">Trip Planner Unavailable</a> </li>
+        <li><a href="/MITS/Eligibility/tabid/90/Default.aspx" title="Eligibility Application" class="even">Applying For MITS</a> </li>
+        <li><a href="/MITS/FaresSchedule/tabid/91/Default.aspx" title="MITS Fare Information" class="odd">Fares</a> </li>
+        <li><a href="/MITS/ReserveYourTrip/tabid/92/Default.aspx" title="Reserve Your Trip" class="even">Reserve Your Trip</a> </li>
+        <li><a href="/MITS/MITS1Card/tabid/93/Default.aspx" title="MITS + 1 Card" class="odd">MITS + 1 Card</a> </li>
+        <li><a href="/MITS/Policies/tabid/94/Default.aspx" title="Policies" class="last">Policies</a> </li>
+    </ul>
+    </li>
+    <li><a href="/About/NewsNotices/tabid/98/Default.aspx" title="About" class="nav_about">About</a>
+    <ul style="width: 243px;">
+        <li><a href="/About/NewsNotices/tabid/98/Default.aspx" title="Newsroom" class="first">Newsroom</a> </li>
+        <li><a href="/About/BoardofDirectors/tabid/100/Default.aspx" title="Board of Directors" class="even">Board of Directors</a> </li>
+        <li><a href="/About/SeniorStaff.aspx" title="Senior Staff" class="odd">Senior Administration Staff</a> </li>
+        <li><a href="/About/Meetings/tabid/99/Default.aspx" title="Meetings" class="even">Scheduled Meetings</a> </li>
+        <li><a href="/About/HelpfulLinks/tabid/101/Default.aspx" title="Helpful Links" class="odd">Helpful Links</a> </li>
+        <li><a href="/About/Employment/TJobLine/tabid/104/Default.aspx" title="Employment" class="even">Employment</a> </li>
+        <li><a href="/About/Procurement/tabid/105/Default.aspx" title="Procurement" class="odd">Procurement</a> </li>
+        <li><a href="/DBEPolicies/tabid/108/Default.aspx" title="DBE Policies" class="even">DBE Policies</a> </li>
+        <li><a href="/ContactUs/tabid/109/Default.aspx#title6" title="Title VI/Privacy/Regulatory Documentation/ADA Compliance" class="odd">Title VI, Privacy &amp; Regulatory Info., ADA Compliance</a> </li>
+        <li><a href="/ContactUs/tabid/109/Default.aspx" title="Contact Us" class="even">Contact Us / Comment</a> </li>
+        <li><a href="/ContactUs/tabid/109/Default.aspx#financials" title="Financial/Fiscal Info." class="odd">Financial/Fiscal Info.</a> </li>
+        <li><a href="/ReserveTheTP.aspx" title="Facility Rentals" class="last">Rent the T&amp;P / ITC Facilities</a>&nbsp; </li>
+    </ul>
+    </li>
+</ul>
+</div>
+</div>
+<div id="clear"><!-- clear --></div>
+</div>
+
+</div><!-- End_Module_372 --></div>
+</div></td>
+
+              </tr>
+           </table>
+           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                 <td valign="top" id="FlashPane" class="FlashPane" visible="false"><script type="text/javascript">
+
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=");
+  if (c_start!=-1)
+    { 
+    c_start=c_start + c_name.length+1; 
+    c_end=document.cookie.indexOf(";",c_start);
+    if (c_end==-1) c_end=document.cookie.length;
+    return unescape(document.cookie.substring(c_start,c_end));
+    } 
+  }
+return "";
+}
+
+function setCookie(){ document.cookie="return=1"; }
+
+function checkCookie(){ 
+username=getCookie('return');
+if (username!=null && username!="")
+{
+return 1;
+}
+return 0;
+
+}
+
+
+</script>      <script type="text/javascript" src="/Portals/0/fla/swfobject.js"></script> 		<script type="text/javascript">
+			var returned = checkCookie();
+			var flashvars = { returnVisit : returned};
+			var params = {};
+			params.menu = "false";
+			params.wmode = "transparent";
+			var attributes = {};
+			attributes.id = "intro";
+			swfobject.embedSWF("/Portals/0/fla/loaderTest850.swf", "AlternativeContent", "850", "205", "7.0.0", "/Portals/0/fla/expressInstall.swf", flashvars, params, attributes);
+		</script>
+<div title="Flash Animation" id="flash">
+<div id="AlternativeContent"><a href="http://www.adobe.com/go/getflashplayer"> 				<img src="/Portals/0/fla/noFlash.gif" alt="Get Adobe Flash player" style="border: 0px none ;" /> 			</a></div>
+</div>
+<script type="text/javascript">setCookie(); </script>
+
+                 </td>
+              </tr>
+           </table>
+           <div id="table_content">
+               <table width="852" border="0" cellspacing="0" cellpadding="0" style="margin-left: auto; margin-right: auto;">
+                  <tr>
+                     <td id="dnn_ContentTopPane" valign="top" class="ContentTopPane">
+                     <div class="DnnModule DnnModule-DNN_HTML DnnModule-371"><a name="371"></a><div id="dnn_ctr371_ContentPane" class="DNNAlignleft"><!-- Start_Module_371 --><div id="dnn_ctr371_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr371_HtmlModule_lblContent" class="Normal">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td align="left" class="header" valign="top" style="width: 207px;">
+            <h3>Maps</h3>
+            </td>
+            <td>&nbsp;</td>
+            <td align="left" class="header" valign="top" style="width: 206px;">
+            <h3>Routes and Schedules</h3>
+            </td>
+            <td>&nbsp;</td>
+            <td align="left" class="header" valign="top" style="width: 206px;">
+            <h3>Fares &amp; Passes</h3>
+            </td>
+            <td>&nbsp;</td>
+            <td align="left" class="header" valign="top" style="width: 205px;">
+            <h3>Carpool/Vanpool</h3>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" id="small_space" valign="top" style="width: 207px;">&nbsp;</td>
+            <td id="small_space">&nbsp;</td>
+            <td align="left" id="small_space" valign="top" style="width: 206px;">&nbsp;</td>
+            <td id="small_space">&nbsp;</td>
+            <td align="left" id="small_space" valign="top" style="width: 206px;">&nbsp;</td>
+            <td id="small_space">&nbsp;</td>
+            <td align="left" id="small_space" valign="top" style="width: 205px;">&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="width: 207px;">
+            <div id="bug_gray"><img width="153" height="77" title="Maps" style="margin: 20px auto 13px;border: 0px solid;" alt="Maps" src="/portals/0/images/index_icn_map.jpg" />
+            <ul>
+                <li><a href="/MapsSchedules/BusRoutesSchedules/tabid/63/Default.aspx" title="Bus Maps">Bus Maps</a> </li>
+                <li><a href="http://www.trinityrailwayexpress.org/map.html" title="TRE Map" target="_blank">TRE Map</a> </li>
+                <li><a href="/MapsSchedules/SystemMap/tabid/204/Default.aspx" title="System Map">System Map</a> </li>
+            </ul>
+            <div id="button"><a href="/MapsSchedules/BusRoutesSchedules/tabid/63/Default.aspx" title="Click here to visit maps" class="gray_visit_maps">Click here to visit maps</a></div>
+            </div>
+            </td>
+            <td>&nbsp;</td>
+            <td align="left" valign="top" style="width: 206px;">
+            <div id="bug_gray"><img width="174" height="44" title="Routes" style="margin: 40px auto 25px;border: 0px solid;" alt="Routes" src="/portals/0/images/index_icn_routes.jpg" />
+            <ul>
+                <li><a href="/MapsSchedules/BusRoutesSchedules/tabid/63/Default.aspx" title="Bus Routes &amp; Schedules">Bus Routes &amp; Schedules</a> </li>
+                <li><a href="http://www.trinityrailwayexpress.org/newweekeb.html" title="TRE Routes and Schedules" target="_blank">TRE Routes and Schedules</a> </li>
+                <li><a href="/CommuterPrograms/ParkRide/tabid/82/Default.aspx" title="Park &amp; Ride Locations">Park &amp; Ride Locations</a> </li>
+            </ul>
+            <div id="button"><a href="/MapsSchedules/BusRoutesSchedules/tabid/63/Default.aspx" title="Click here to view routes" class="gray_view_routes">Click here to view routes</a></div>
+            </div>
+            </td>
+            <td>&nbsp;</td>
+            <td align="left" valign="top" style="width: 206px;">
+            <div id="bug_gray"><img width="102" height="68" title="Fares &amp; Passes" style="margin: 33px auto 8px;border: 0px solid;" alt="Fares &amp; Passes" src="/portals/0/images/index_icn_fares.jpg" />
+            <ul>
+                <li><a href="http://www.the-tstore.com/" title="Buy Passes Online" target="_blank">Buy Passes Online</a> </li>
+                <li><a href="/Fares/WheretoBuy/tabid/69/Default.aspx" title="Pass Locations">Pass Locations</a> </li>
+                <li><a href="/Fares/ReducedFare/tabid/71/Default.aspx" title="Reduced Fare">Reduced Fare</a> </li>
+                <li><a href="/Fares/EPass.aspx" title="Employer sponsored passes">EasyRide Pass</a>&nbsp; </li>
+            </ul>
+            <div id="button"><a href="http://www.the-tstore.com/" title="Click here to buy tickets" class="gray_buy_tickets" target="_blank">Click here to buy passes</a></div>
+            </div>
+            </td>
+            <td>&nbsp;</td>
+            <td align="left" valign="top" style="width: 205px;">
+            <div id="bug_gray"><img width="131" height="70" title="Carpool &amp; Vanpool" style="margin: 36px auto 6px;border: 0px solid;" alt="Carpool &amp; Vanpool" src="/portals/0/images/index_icn_carpool.jpg" />
+            <ul>
+                <li><a href="/CommuterRails/ParkRide/tabid/82/Default.aspx" title="Park &amp; Ride">Park &amp; Ride </a></li>
+                <li><a href="/CommuterRails/VanpoolFAQ/tabid/83/Default.aspx" title="Vanpool">Vanpool</a> </li>
+                <li><a href="/CommuterRails/CarpoolFAQ/tabid/206/Default.aspx" title="Carpool">Carpool</a> </li>
+            </ul>
+            <div id="button"><a href="/CommuterRails/ParkRide/tabid/82/Default.aspx" title="Click here to learn more" class="gray_learn_more">Click here to learn more</a></div>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="text-align: center;">&nbsp;<strong>Check out&nbsp;The T's&nbsp;New TEXRail Introductory Video</strong> - telling you what you need to know for 2018! <a href="https://www.youtube.com/watch?v=we7N5QcXACw&amp;feature=player_embedded" title="TexRail Video" target="_blank">CLICK HERE!</a></p>
+</div>
+
+</div><!-- End_Module_371 --></div>
+</div></td>
+
+                  </tr>
+               </table>
+               <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                     <td id="dnn_ContentBottomPane" valign="top" class="ContentBottomPane">
+                     <div class="DnnModule DnnModule-DNN_HTML DnnModule-1945"><a name="1945"></a><div id="dnn_ctr1945_ContentPane"><!-- Start_Module_1945 --><div id="dnn_ctr1945_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr1945_HtmlModule_lblContent" class="Normal">
+	<a href="http://www.trinityrailwayexpress.org/trestaycation2015.html?utm_source=kvil&amp;utm_medium=web&amp;utm_campaign=TREStaycation2015" title="Staycation on TRE" target="_blank"></a>&nbsp;
+<table align="center" style="height: 200px; width: 855px; background-color: #d8d8d8;" border="0" cellspacing="1" cellpadding="2">
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="height: 6px; vertical-align: top; text-align: center; background-color: #ff0000;" colspan="5"><span style="font-size: 8px;">&nbsp;</span></td>
+        </tr>
+        <tr>
+            <td valign="top" style="width: 25%; vertical-align: top; text-align: center;">
+            <p style="text-align: left;"><span style="font-size: 11px;">The T Master Plan is the culmination of the year-long effort to determine the actions that The T must take to develop a great transit system that truly meets the needs of Fort Worth, Tarrant County and beyond. The final report presents recommendations for how The T should improve transit and how it can achieve a Transit Vision where our community is served by a robust network of transit services.<br />
+            </span></p>
+            </td>
+            <td style="width: 25%; vertical-align: top; text-align: center; background-color: #ffffff;" colspan="2">&nbsp;<a href="http://tmasterplan.org/" title="Transit Master Plan -participate now!" target="_blank"><img alt="" width="100" height="102" src="/portals/0/images/masterplansm.png" /></a><br />
+            <span style="font-size: 12px;">THE T&rsquo;S 2015 TRANSIT MASTER PLAN<br />
+            <a href="http://www.tmasterplan.org/recommendations/" title="View the Report in a new window." target="_blank">View the final Recommendations Report</a></span></td>
+            <td valign="top" style="width: 25%; vertical-align: top; text-align: center;" colspan="2">
+            <p style="text-align: left;"><span style="font-size: 11px;">The plan is ambitious and will require a much greater commitment to transit throughout our region. The Master Plan provides a blueprint for what is possible in the region, and will serve as a tool to build support for excellent transit in Tarrant County.<br />
+            <strong>Visit the Master Plan website to review the plan and get more information about the recommendations &ndash; <a href="http://www.tmasterplan.org/" title="Opens site in a new window." target="_blank">SEE HERE</a></strong></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 4px; vertical-align: top; text-align: center; background-color: #ff0000;" colspan="5"><span style="font-size: 13px; color: #ffffff;"><strong>FORT WORTH TRANSPORTATION AUTHORITY SERVES YOU</strong></span></td>
+        </tr>
+        <tr>
+            <td valign="top" style="width: 25%; vertical-align: top; text-align: center;">
+            <table align="center" style="width: 185px; padding-top: 20px;" border="0" cellspacing="1" cellpadding="1">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: top; text-align: left;"><a href="/SafariShuttleFortWorthZoo.aspx" title="Express to the Fort Worth Zoo"></a><a href="/MollytheTrolley.aspx" title="Learn More"><img alt="Learn More" src="http://www.the-t.com/portals/0/images/thet_icon_molly.gif" /></a><a href="/MainStreet.aspx" title="T shuttles Fri. &amp; Sat."></a></td>
+                        <td style="vertical-align: top; text-align: left;"><span style="font-size: 11px;"><strong><strong>Molly the Trolley</strong><br />
+                        </strong>FREE, fun way to get around downtown!</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+            <td valign="top" style="width: 25%; vertical-align: top; text-align: center;">
+            <table align="center" style="width: 185px; padding-top: 20px;" border="0" cellspacing="1" cellpadding="1">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: top; text-align: center;" colspan="2"><a href="/About/Employment/TJobLine/tabid/104/Default.aspx" title="Career Building Opportunities"><img alt="" width="100" height="95" src="http://www.the-t.com/portals/0/images/fbuckley01.png" /></a></td>
+                        <td style="vertical-align: top; text-align: center;">
+                        <p style="text-align: center;"><span style="font-size: 11px;"><strong><span style="font-size: 11px;">Opportunity &amp; Careers<br />
+                        </span></strong>Check out employment opportunities<br />
+                        with The T!</span></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+            <td style="width: 25%; vertical-align: top; text-align: center;"><span style="font-size: 11px;"><strong></strong></span>
+            <table align="center" style="width: 185px; padding-top: 20px;" border="0" cellspacing="1" cellpadding="1">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: top; text-align: center;" colspan="3">
+                        <p><span style="font-size: 11px;"><strong><strong>Get Real-Time Schedule Info.</strong><br />
+                        </strong>Learn how to use!<br />
+                        See the bus&nbsp;location!</span></p>
+                        </td>
+                        <td style="vertical-align: top; text-align: left;">
+                        <p style="text-align: center;"><span style="color: #000000;"><a href="/LinkClick.aspx?link=http%3a%2f%2fwww.nextbus.com%2f%23!%2fft-worth%2f4559%2f4559_0_var1%2f2785&amp;tabid=36&amp;mid=1945" title="NEXTBus application" target="_blank"><img alt="" width="71" height="29" src="http://www.the-t.com/Portals/0/images/nextbus.jpg" /></a></span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 4px; vertical-align: top; text-align: center; background-color: #8db3e2;" colspan="4">
+                        <p style="text-align: left;"><span style="font-size: 11px;"></span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; text-align: center;" colspan="3">
+                        <p style="text-align: center;"><a href="http://www.gopass.biz/gopass/index.html" title="Get the app. More info."><img alt="" width="120" height="95" src="http://www.the-t.com/Portals/0/images/gopass-groupcl.png" /></a></p>
+                        </td>
+                        <td style="vertical-align: top; text-align: left;">
+                        <p style="text-align: center;"><span style="font-size: 11px;"><strong>Mobile Ticketing<br />
+                        </strong>Download Your Transit Pass to your device!</span><a href="http://www.gopass.biz/gopass/index.html" title="Get the app. More info."></a></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+            <td valign="top" style="width: 25%; vertical-align: top; text-align: center;" colspan="2">
+            <table align="center" style="padding-top: 20px;" border="0" cellspacing="1" cellpadding="1">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: top; text-align: left;">
+                        <p style="text-align: left;"><span style="font-size: 11px;"><strong><strong>Arlington to CentrePort Station</strong>!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                        </strong>Express service.</span></p>
+                        </td>
+                        <td style="width: 102px; vertical-align: top; text-align: center; background-color: #000000;">
+                        <h2 style="text-align: center;"><a href="http://www.ridethemax.com/" title="MAX web site" target="_blank"><img style="vertical-align: middle;" alt="MAX web site" src="http://www.the-t.com/portals/0/images/maxlogosm.png" /></a><a href="/SafariShuttleFortWorthZoo.aspx" title="Learn More"></a></h2>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="text-align: left;"><span style="font-size: 11px;"></span>&nbsp;</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<area href="/Ozone.aspx" shape="RECT" coords="0,0,96,29" alt="Be Airesponsible" />
+<area href="/MollytheTrolley.aspx" shape="RECT" coords="0,0,96,28" alt="Molly the Trolly" /><map name="rade_img_map_1360706279164" id="rade_img_map_1360706279164"><br />
+<area href="http://" shape="RECT" coords="0,0,101,123" /></map>
+</div>
+
+</div><!-- End_Module_1945 --></div>
+</div></td>
+
+                   </tr>
+               
+                   <tr>  
+                     <td>
+                     
+                     <!-- -->
+            <div style="">         
+                     
+                     
+	<div style="height: 20px">&nbsp;</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100" width="858">
+    <tbody>
+        <tr id="blue3" class="Normal">
+            <td class="shadow_blue2_lft" valign="top" width="2">&nbsp;</td>
+            <td class="twentyfive" align="center" valign="top" width="66%">
+            <div id="dnn_ContentBottomLeft">
+                
+            <div class="DnnModule DnnModule-DNN_HTML DnnModule-1950"><a name="1950"></a><div id="dnn_ctr1950_ContentPane"><!-- Start_Module_1950 --><div id="dnn_ctr1950_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr1950_HtmlModule_lblContent" class="Normal">
+	<div class="commuter_service pnf_fix" style="text-align: left;">
+<h2>The T Community Service/Special Events</h2>
+<p><a href="/LinkClick.aspx?link=215&amp;tabid=36" title="Rent meeting rooms."><strong><span style="font-size: 16px;">Meeting/Event Rental&nbsp;- Historic T&amp;P &amp;&nbsp;ITC</span></strong></a><a href="/BusService/AdoptAStop.aspx" title="Adopt A Bus Stop"><br />
+<br />
+Adopt A Bus Stop - Volunteers Wanted</a><a href="/BusService/AdoptAStop.aspx" title="Adopt A Bus Stop"></a><br />
+<br />
+<a href="http://www.mackayadvertising.com" title="Advertise on buses." target="_blank">Advertise on Buses Interior/Exterior/Benches</a></p>
+<!-- clear --></div>
+<p>&nbsp;</p>
+</div>
+
+</div><!-- End_Module_1950 --></div>
+</div></div>    
+            </td>
+            <td class="destination" valign="top" width="34%">
+            <div id="dnn_ContentBottomRight">
+                
+            <div class="DnnModule DnnModule-DNN_HTML DnnModule-1951"><a name="1951"></a><div id="dnn_ctr1951_ContentPane"><!-- Start_Module_1951 --><div id="dnn_ctr1951_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr1951_HtmlModule_lblContent" class="Normal">
+	<table cellspacing="1" cellpadding="1" border="0" align="center" style="width: 198px; margin-left: 30px;">
+    <tbody>
+        <tr>
+            <td valign="top">
+            <p>&nbsp;</p>
+            <h6><span style="font-size: 12px; color: #ffffff;" class="#clear">E-newsletter &amp; Rider Alerts</span></h6>
+            <p>&nbsp;</p>
+            <p><span class="#clear" style="color: #ffffff;">Sign up here to receive rider alerts, <em>The T Rider Insider Newsletter</em> and other notifications via email.</span></p>
+            </td>
+            <td valign="middle" align="center">
+            <h2>
+            <div style="text-align: center;"><span style="font-family: verdana; font-size: 16px; color: #000000;"><img width="35" height="53" alt="E Newsletter" src="/portals/0/images/sign_up.gif" /></span></div>
+            </h2>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</div><!-- End_Module_1951 --></div>
+</div><div class="DnnModule DnnModule-DNN_IFrame DnnModule-1952"><a name="1952"></a><div id="dnn_ctr1952_ContentPane"><!-- Start_Module_1952 --><div id="dnn_ctr1952_ModuleContent" class="DNNModuleContent ModDNNIFrameC">
+	<iframe id="dnn_ctr1952_IFrame_htmIFrame" src="http://www.the-t.com/ns.html" scrolling="no" width="300" frameborder="0" height="100" hideadminborder="False" onload="if (window.parent &amp;&amp; window.parent.autoIframe) {window.parent.autoIframe(&#39;dnn_ctr1952_IFrame_htmIFrame&#39;,0);}">Your browser does not support inline frames</iframe>
+
+</div><!-- End_Module_1952 --></div>
+</div></div>
+            </td>
+            <td class="shadow_blue2_rht" valign="top" width="6">
+            </td>
+        </tr>
+        <tr>
+            <td class="shadow_blue_top" colspan="5" align="center">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<div style="height: 40px">&nbsp;</div>
+<p>&nbsp;</p>
+
+                     
+                     
+                  </div>   
+                     <!-- -->
+                     
+                     </td>
+                  </tr>
+               </table>
+               <table width="852" border="0" cellspacing="0" cellpadding="0" style="margin-left: auto; margin-right: auto; display: none;">
+                  <tr>
+                     <td><p style="display: block; text-align: right; padding-right: 0px; margin-bottom: 50px;"><img src="/Portals/0/images/int_socialicons.gif" usemap="#YouTubeMap" border="0" /></p>
+			<map name="YouTubeMap" id="YouTubeMap"><area shape="rect" coords="70,3,109,41" href="http://www.facebook.com/pages/Fort-Worth-TX/The-T/97200201454?ref=ts" target="_blank" />
+<area shape="rect" coords="119,3,184,51" href="http://www.youtube.com/user/TheTFortWorth2009" target="_blank" />
+</map>
+                     </td>
+                  </tr>
+               </table>
+               <table width="852" border="0" cellspacing="0" cellpadding="0" style="margin-left: auto; margin-right: auto;">
+                  <tr>
+                     
+                  </tr>
+               </table>
+            </div>
+           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                 <td id="dnn_BottomPane" valign="top" class="BottomPane">
+                 <div class="DnnModule DnnModule-DNN_HTML DnnModule-381"><a name="381"></a><div id="dnn_ctr381_ContentPane" class="DNNAlignleft"><!-- Start_Module_381 --><div id="dnn_ctr381_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr381_HtmlModule_lblContent" class="Normal">
+		<div id="footer_frame" style="width: 100%; height: 232px;">
+<div id="footer_content" style="width: 822px; height: 195px;">
+<h2 class="footer_logo" title="The T Takes You Places">Footer Logo</h2>
+<ul id="footer_links">
+    <li><a title="The T Employee Site" target="_blank" href="https://fwta.com/owa">T Employee Site</a></li>
+    <li><a title="Contact Us" href="/ContactUs/tabid/109/Default.aspx">Contact Us</a></li>
+    <li><a title="Site Map" href="/Sitemap/tabid/132/Default.aspx">Site Map</a></li>
+    <li><a title="About" href="/About/NewsNotices/tabid/98/Default.aspx">About</a></li>
+    <li><a href="/About/PrivacyPolicy.aspx" title="Privacy Policty">PRIVACY POLICY</a></li>
+    <li><a title="MITS" href="/MITS/tabid/89/Default.aspx">MITS</a></li>
+    <li><a title="Commuter Programs" href="/CommuterRails/TRE/tabid/208/Default.aspx">Commuter Rail</a></li>
+    <li><a title="Riding The T" href="/RidingTheT/HowtoRide/tabid/75/Default.aspx">Riding The T</a></li>
+    <li><a title="Fares" href="/Fares/Information/tabid/67/Default.aspx">Fares</a></li>
+    <li><a title="Maps &amp; Schedules" href="/MapsSchedules/SystemMap/tabid/204/Default.aspx">Maps &amp; Schedules</a></li>
+</ul>
+<div id="clear"><!-- clear --></div>
+<div style="text-align: right;">&nbsp;<span style="font-size: x-small;"><br />
+</span><a target="_blank" href="http://pavlovagency.com/"><img width="60" height="18" title="Site Designed by Concussion Interactive" alt="Site Designed by Concussion Interactive" src="/portals/0/images/concussion_interactive_logo.gif" style="border: 0px solid;" /></a></div>
+</div>
+</div>
+	</div>
+
+</div><!-- End_Module_381 --></div>
+</div><div class="DnnModule DnnModule-EasyDNNMobileRedirect DnnModule-2097"><a name="2097"></a><div id="dnn_ctr2097_ContentPane"><!-- Start_Module_2097 --><div id="dnn_ctr2097_ModuleContent" class="DNNModuleContent ModEasyDNNMobileRedirectC">
+	
+
+</div><!-- End_Module_2097 --></div>
+</div></td>
+
+              </tr>
+           </table>
+           
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+    /* Replacement calls. Please see documentation for more information. */
+
+    if (typeof sIFR == "function") {
+
+
+        // This is the older, ordered syntax
+        //sIFR.replaceElement("h2", "/Portals/0/sifr/helvetica.swf", "#595959", "Transparent", null, null, 0, 0, 0, 0);
+        sIFR.replaceElement(named({ sSelector: "h4", sFlashSrc: "/Portals/0/sifr/index_blue.swf", sColor: "#ffffff", sWmode: "transparent", sBgColor: "#ffffff" }));
+        sIFR.replaceElement(named({ sSelector: "h3", sFlashSrc: "/Portals/0/sifr/index_blue.swf", sColor: "#ffffff", sWmode: "transparent", sBgColor: "#ffffff", sFlashVars: "textalign=center" }));
+
+    };
+
+    //]]>
+</script>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+    
+    
+    <script type="text/javascript">
+        //<![CDATA[
+        
+        //This code is to force a refresh of browser cache
+        //in case an old version of dnn.js is loaded
+        //It should be removed as soon as .js versioning is added
+        jQuery(document).ready(function () {
+            if (navigator.userAgent.indexOf(" Chrome/") == -1) {
+                if ((typeof dnnJscriptVersion === 'undefined' || dnnJscriptVersion !== "6.0.0") && typeof dnn !== 'undefined') {
+                    window.location.reload(true);
+                }
+            }
+        });
+         //]]>
+    </script>
+</body>
+</html>

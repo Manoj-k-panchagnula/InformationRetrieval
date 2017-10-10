@@ -1,0 +1,1093 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>University Program Council &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="University Program Council" href="/node/9628/feed" />
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/webform/css/webform.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-organization no-sidebars og-context og-context-9628   org">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/org/university-program-council"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-c4z36O2feLzfIWsXshIFFWvkqjhayxrk4XxBi70oh9Y" value="form-c4z36O2feLzfIWsXshIFFWvkqjhayxrk4XxBi70oh9Y"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/org/university-program-council"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-c4z36O2feLzfIWsXshIFFWvkqjhayxrk4XxBi70oh9Y" value="form-c4z36O2feLzfIWsXshIFFWvkqjhayxrk4XxBi70oh9Y"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"><div class="label channel channel-reset">Organization</div></div>
+			<h1>University Program Council</h1>
+			<div class="subtitle">
+				Sponsored by <a href="/university-union" target="" data-toggle="tooltip" data-placement="top" title="" data-original-title="View Sponsor Page" >University Union</a>.				Find us in <a href="/the-union">The Union - Room 345</a>.			</div>
+			<div class="social-buttons">
+				<ul class="button-group">
+					<li><a href="http://facebook.com/UNTUniversityProgramCouncil" class="button button-social facebook">Facebook</a></li>					<li><a href="http://twitter.com/unt_upc" class="button button-social twitter">Twitter</a></li>					<li><a href="http://instagram.com/unt_upc" class="button button-social instagram">Instagram</a></li>									</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="tabbable">
+<nav class="secondary">
+	<div class="container">
+	<ul class="nav">
+		<li class="active"><a data-toggle=tab href="#home">Home</a></li>
+		<li><a data-toggle=tab href="#about">About</a></li>
+		<li><a data-toggle="tab" href="#programs">Programs &amp; Activities</a></li>		    <li><a href="#co-sponsorship" data-toggle="tab">Co-Sponsorship</a></li>    <li><a href="#join-upc" data-toggle="tab">Join UPC</a></li>		<li><a data-toggle=tab href="#contact">Contact</a></li>
+	</ul>
+	
+	
+	</div>
+</nav>
+
+<div class="tab-content">
+<div class="tab-pane active" id="home">
+	
+
+<div class="view view-Features view-id-Features view-display-id-block_1 container view-dom-id-9">
+
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+	<div class="well full feature-wide">
+	<div class="container">
+		<div class="col-md-12">
+			<p class="text-headline">
+				The University Program Council (UPC) is UNT&#39;s student-run programming board that is devoted to planning and implementing events for students that are educational, social, cultural and entertaining.</p>
+
+			<p class="text-headline">
+				&nbsp;</p>
+		</div>
+	</div>
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div id="block-views-posts-block_7" class="block block-views">
+
+
+  <h1>News &amp; Updates</h1>
+<div class="view view-posts view-id-posts view-display-id-block_7 view-dom-id-1">
+    
+  
+  
+    	    	<div class="view-content">
+              
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-175379">
+		<h1><a href="http://studentaffairs.unt.edu/blog/9-things-expect-lip-sync-battle"><a href="/blog/9-things-expect-lip-sync-battle">9 Things to Expect from a Lip Sync Battle</a></a></h1>
+	
+	<p><p style="margin-bottom: 2px; font-size: 14px; line-height: normal; font-family: Helvetica; color: rgb(69, 69, 69);">
+	&nbsp;</p>
+
+<ol>
+	<li style="margin: 0px; font-size: 12px; line-height: normal; font-family: Helvetica; color: rgb(69, 69, 69);">
+		<p>
+			Costumes? Possibly.<br />...</p></li></ol></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Madeline Migis		</div>
+		<a href="http://studentaffairs.unt.edu/blog/9-things-expect-lip-sync-battle" class="comments">Fri, March 25 - 11:09am</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-175362">
+		<h1><a href="http://studentaffairs.unt.edu/blog/mini-guide-legends-holi-day"><a href="/blog/mini-guide-legends-holi-day">MINI Guide: Legends of Holi Day</a></a></h1>
+	
+	<p><p>
+	<a href="http://studentaffairs.unt.edu/sites/default/files/legends-of-holi-day_2.jpeg"><img alt="" src="http://studentaffairs.unt.edu/sites/default/files/legends-of-holi-day_2.jpeg" style="width: 800px; height: 3154px;" /></a></p></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Madeline Migis		</div>
+		<a href="http://studentaffairs.unt.edu/blog/mini-guide-legends-holi-day" class="comments">Mon, March 21 - 5:17pm</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-175323">
+		<h1><a href="http://studentaffairs.unt.edu/blog/time-management-what-can-you-do-click-here"><a href="/blog/time-management-what-can-you-do-click-here">Time Management: What can you do? Click Here!</a></a></h1>
+	
+	<p><p>
+	<img alt="" src="/sites/default/files/what-can-you-do-with-your-week.jpeg" style="width: 800px; height: 1442px;" /></p></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Madeline Migis		</div>
+		<a href="http://studentaffairs.unt.edu/blog/time-management-what-can-you-do-click-here" class="comments">Wed, March 9 - 10:29am</a>
+	</div>
+</article>
+</div>
+
+     
+
+<div class="card-container col-lg-12 col-md-12 col-sm-12">
+<article class="well post  " id="post-174442">
+		<h1><a href="http://studentaffairs.unt.edu/blog/why-join-upc"><a href="/blog/why-join-upc">Why Join UPC?</a></a></h1>
+	
+	<p><h1>
+	Want to be a member of UPC? Here are some things you should know!</h1>
+
+<p>
+	When you join the University Program Council, you become more than a member. UPC takes pride in its students and supports them whenever possible. Our organization is run by students and promotes from within. UPC can...</p></p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Steven Meehin		</div>
+		<a href="http://studentaffairs.unt.edu/blog/why-join-upc" class="comments">Thu, January 28 - 12:11pm</a>
+	</div>
+</article>
+</div>
+
+         </div>
+      
+  
+  
+  
+  
+  
+</div> </div>
+			</div>
+			<div class="col-md-4">
+				<div id="block-views-Events-block_1" class="block block-views">
+
+
+  <h1>Upcoming Events</h1>
+
+
+<div class="view view-Events view-id-Events view-display-id-block_1 view-dom-id-2">
+
+
+    
+  
+  
+      <div class="view-empty">
+      <div class="card-container col-md-12"><div class="well event ghost no-events">There are currently no events scheduled.</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+<div id="block-block-36" class="block block-block">
+
+	
+  <h1>Tweets</h1>
+<p>
+	<a class="twitter-timeline" data-widget-id="426018978675191808" href="https://twitter.com/UNT_UPC">Tweets by @UNT_UPC</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tab-pane" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>About</h1>
+				<div class="well">
+					<div class="col-md-8">
+	<p id="about_text">
+		The University Program Council (UPC) is UNT&#39;s student-run programming board that is devoted to planning and implementing events for students that are educational, social, cultural and entertaining. UPC events range from movie screenings to the latest hot topics and even trips to off campus venues. UPC is unique in that it is a department and a student organization. With an executive board of student programmers, UPC strives to plan events that meet the needs of UNT students.</p>
+
+	<p>
+		&nbsp;</p>
+</div>
+
+<div class="col-md-8">
+	<h1 id="staff_heading">
+		The 2016 UPC Staff</h1>
+
+	<p>
+		<img alt="upc_staff_photo" id="staff_photo" src="/sites/default/files/union/upc_exec_group_photo.jpg" /></p>
+
+	<div class="table-responsive">
+		<table border="1" cellpadding="1" cellspacing="1" class="table" id="staff_table" style="width: 500px;">
+			<tbody>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">President</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Jose Rodriguez</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Vice President of Membership</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Blake Pollard</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Vice President of Marketing</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Brady Burns</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Marketing Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Anna Frosch</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Social Media Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Joshua Lawson</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">National Music Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Montreh Nariman</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Local Music Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Rachel Morales</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Special Program Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Taylor Smith</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Films Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Marlaina Wrights</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Spirit Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Brittany Weatherspoon</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Arts Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Miriam Garcia</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Celebrations Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Myles Alexander</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Live Entertainment Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Chelsea Bucchan</font></span></td>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Education Coordinator</font></span></td>
+					<td>
+						<span style="font-family: &quot;Calibri&quot;,sans-serif; font-size: 11pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font color="#000000">Madison Meehan</font></span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<p>
+	&nbsp;</p>
+<style type="text/css">#staff_heading{
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 3%;
+}
+  #about_text{
+    font-size: 18px;
+    line-height: 150%;
+  }
+  #staff_photo {
+    width: 95%;
+    height: 95%;
+    border-radius: 15%;
+    border: solid 3px #00853E;
+    margin-bottom: 5%;
+    margin-left: 3%;
+  }
+  #staff_table{
+    margin-left: 5%;
+  }
+</style>
+				</div>
+                
+                <!--
+                  Steven Meehin requested entire staff profile be replaced by a group photo.
+                  RBY 01/19/16.
+				<h1>Staff</h1>
+                -->
+				                                
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tab-pane" id="programs">
+	<div class="container">
+		
+
+<div class="view view-programs view-id-programs view-display-id-block_1 view-dom-id-7">
+
+
+        <div class="view-header">
+      <style>
+.bef-select-as-radios .form-item{
+  display:inline-block;
+}
+#edit-field-tags-value-217-wrapper {
+  display:none;
+  visibility:hidden;
+  height:0px;
+}
+</style>
+
+<div class="dropdown filter filter-title" data-filter="views-widget-filter-title" data-filter-type="text">
+	<input type="text" data-filter-id="edit-title" placeholder="Refine by Title" />
+</div>
+
+<div class="dropdown filter filter-channel" data-filter="views-widget-filter-field_program_category_value" data-filter-type="list">
+<a href="#" class="button button-filter button-caret" data-toggle="dropdown">Channels</a>
+<ul class="dropdown-menu">
+</ul>
+</div>
+
+<div class="filter filter-channel-secondary" data-filter="views-widget-filter-field_tags_value" data-filter-type="list">
+<ul class="tags">
+</ul>
+</div>    </div>
+  
+      <div class="view-filters">
+      <form action="/programs-dev"  accept-charset="UTF-8" method="get" id="views-exposed-form-programs-block-1" class="views_exposed_form">
+<div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget views-widget-filter-field_tags_value">
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item" id="edit-tags-345-wrapper">
+ <input type="checkbox" name="tags[]" id="edit-tags-345" value="345"  /> <label class='option' for='edit-tags-345'>undergraduate</label>
+</div>
+<div class="form-item" id="edit-tags-353-wrapper">
+ <input type="checkbox" name="tags[]" id="edit-tags-353" value="353"  /> <label class='option' for='edit-tags-353'>union</label>
+</div>
+</div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-field_program_category_value">
+                  <label for="edit-channel">
+            Channel          </label>
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item" id="edit-channel-29-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-29" value="29"  /> <label class='option' for='edit-channel-29'>Arts &amp; Entertainment</label>
+</div>
+<div class="form-item" id="edit-channel-30-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-30" value="30"  /> <label class='option' for='edit-channel-30'>Career</label>
+</div>
+<div class="form-item" id="edit-channel-39-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-39" value="39"  /> <label class='option' for='edit-channel-39'>Community Service</label>
+</div>
+<div class="form-item" id="edit-channel-32-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-32" value="32"  /> <label class='option' for='edit-channel-32'>Education</label>
+</div>
+<div class="form-item" id="edit-channel-34-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-34" value="34"  /> <label class='option' for='edit-channel-34'>Health &amp; Wellness</label>
+</div>
+<div class="form-item" id="edit-channel-35-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-35" value="35"  /> <label class='option' for='edit-channel-35'>Leadership</label>
+</div>
+<div class="form-item" id="edit-channel-33-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-33" value="33"  /> <label class='option' for='edit-channel-33'>Money Management</label>
+</div>
+<div class="form-item" id="edit-channel-253-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-253" value="253"  /> <label class='option' for='edit-channel-253'>Orientation &amp; Transitioning</label>
+</div>
+<div class="form-item" id="edit-channel-252-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-252" value="252"  /> <label class='option' for='edit-channel-252'>Pride &amp; Traditions</label>
+</div>
+<div class="form-item" id="edit-channel-59-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-59" value="59"  /> <label class='option' for='edit-channel-59'>Residence Life</label>
+</div>
+<div class="form-item" id="edit-channel-36-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-36" value="36"  /> <label class='option' for='edit-channel-36'>Retail &amp; Dining</label>
+</div>
+<div class="form-item" id="edit-channel-41-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-41" value="41"  /> <label class='option' for='edit-channel-41'>Rights &amp; Conduct</label>
+</div>
+<div class="form-item" id="edit-channel-201-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-201" value="201"  /> <label class='option' for='edit-channel-201'>UNT</label>
+</div>
+</div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Title          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-title-wrapper">
+ <input type="text" maxlength="128" name="title" id="edit-title" size="30" value="" class="form-text" />
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-programs" value="Apply"  class="form-submit" />
+<input type="hidden" name="views_exposed_form_focused_field" id="edit-views-exposed-form-focused-field" value=""  />
+    </div>
+  </div>
+</div>
+
+</div></form>
+    </div>
+  
+  
+      <div class="view-content">
+          
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/jazz-bands">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/jazz.png') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-artsentertainment">Arts &amp; Entertainment</div> </div>
+			<h1>Jazz Bands</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	Nighttime Shows
+
+
+	Tuesday Night: Jazz Ensembles, 9pm - midnight
+
+
+	
+		
+			
+				2/2/16
+			
+				Week 3
+			
+				
+					Jazz Combo Night...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/live-music-series">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/upc_website_section_photos_music.png') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-artsentertainment">Arts &amp; Entertainment</div> </div>
+			<h1>Live Music Series</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	Live Music Series
+
+
+	
+		
+			
+				Valleyhill
+			
+				January 26
+			
+				7:00pm - 8:30pm
+			
+				Union Syndicate
+		
+		
+			
+				LAKIN...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/upc-film-series">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/upc_website_section_photos_films.png') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-artsentertainment">Arts &amp; Entertainment</div> </div>
+			<h1>UPC Film Series</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		
+			
+				Straight Outta Compton
+			
+				1/19
+			
+				Union Lycem
+			
+				4pm &amp; 8pm
+		
+		
+			
+				Hotel Transylvania 2
+			
+				2/3...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/upc-art">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/upc_website_section_photos_art.png') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-artsentertainment">Arts &amp; Entertainment</div> </div>
+			<h1>UPC: Art</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		
+			
+				Crafty Cups
+			
+				1/28
+			
+				Union 314B
+			
+				11am-1pm
+		
+		
+			
+				Art Workshop: Childhood Crafts
+			
+				2/3...	</div>
+	
+</div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+	</div>
+</div>
+
+    <div class="tab-pane tab-" id="co-sponsorship">
+	<div class="container">
+				<div class="well">
+			<p>
+	Thank you for interest in co-sponsoring an event with the University Program Council (UPC). We value opportunities to program diverse events to benefit the University of North Texas community and collaborating with other organizations helps us accomplish this goal.</p>
+
+<p>
+	Because UPC plans events a semester in advance, we highly recommend that you submit your Co-Sponsorship proposal as early as possible. For example if you&rsquo;re interested in a date that is during the spring semester, it is best to have your form turn in by late October of the previous semester.</p>
+
+<p>
+	If you are looking strictly for funding for your event, and you are a student organization, please consider requesting funds from Eagle Nest sponsored by SGA Funding Request Committee. More information can be found here:&nbsp;<strong><a href="http://sga.unt.edu/eagles-nest" target="_blank">http://sga.unt.edu/eagles-nest</a></strong></p>
+
+<p>
+	Ways in which UPC can assist your organization/department:</p>
+
+<ul>
+	<li>
+		Volunteers for the day of event</li>
+	<li>
+		If there are any bookings to be done for artists we will arrange them or help your group arrange them</li>
+	<li>
+		Provide guidance on the programming process as a whole</li>
+	<li>
+		Advertising assistance for events</li>
+	<li>
+		Assistance in obtaining facilities</li>
+	<li>
+		Possible, but in no cases exclusive, funding for the event</li>
+</ul>
+
+<p>
+	For more information about Co-Sponsorships and to apply, please fill out the form and submit to the UPC Office, Union 345.</p>
+
+<p>
+	<a class="button button-block" href="http://studentaffairs.unt.edu/sites/default/files/pdf/Organizational%20Co-Sponsorship%20Proposal%202014-2015.pdf" target="_blank" title="Co-Sponsorship Request Form">Co-Sponsorship Request Form</a></p>		</div>
+	</div>
+</div>    <div class="tab-pane tab-" id="join-upc">
+	<div class="container">
+				<div class="well">
+			<h1>
+	Want to be a member of UPC? Here are some things you should know!</h1>
+
+<p>
+	When you join the University Program Council, you become more than a member. UPC takes pride in its students and supports them whenever possible. Our organization is run by students and promotes from within. UPC can connect you with fellow students and other leaders on campus.</p>
+
+<blockquote>
+	&quot;UPC has allowed me to meet people I would not have come in contact with otherwise. The friends I have made through this organization are friends I know I will have for life&quot; -Joshua Lawson, Social Media Coordinator
+	<p>
+		&nbsp;</p>
+</blockquote>
+
+<p>
+	The University Program Council functions more as a large family than organization. Our members love to socialize outside of school.&nbsp;We also offer regularly planned socials.&nbsp;</p>
+
+<blockquote>
+	&quot;I know one day when I look back at my time in college some of my favorite memories will be because I joined this organization.&quot; -Natalya Yanis, member
+	<p>
+		&nbsp;</p>
+</blockquote>
+
+<p>
+	UPC coordinators strive to implement members&#39; ideas and program new and relevant events. UPC provides several leadership opportunities and various workshops to its members.&nbsp;</p>
+
+<blockquote>
+	&ldquo;I have met amazing people while being involved in so many fun campus activities! I met my best-friend through UPC and really feel involved with the UNT community. I&#39;m happy to be involved with such a diverse and active group.&rdquo; -Edith Flores, member</blockquote>
+
+<p>
+	So, if you love helping others, working events, and want to see your ideas implemented on campus; the University Program Council is for you. If you are interested please click&nbsp;<strong><a href="/sites/default/files/union/pdf/member_application_spring_16.pdf" target="_blank">here</a></strong>, fill out the application, and bring it to the UPC Office in the Union (Room 345) no later than 5pm January 29.</p>
+
+<p>
+	&nbsp;</p>
+
+<h4>
+	&nbsp;</h4>
+
+<p>
+	&nbsp;</p>		</div>
+	</div>
+</div>
+<div class="tab-pane" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Send Us a Message</h1>
+				<div class="well">
+					<form action="https://studentaffairs.unt.edu/form/contact-upc"  accept-charset="UTF-8" method="post" id="webform-client-form-71071" class="webform_client_form_71071">
+<div><div class="webform-component webform-component-textfield" id="webform-component-name"><div class="form-item" id="edit-submitted-name-wrapper">
+ <label for="edit-submitted-name">Name: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="submitted[name]" id="edit-submitted-name" size="60" value="" class="form-text required" />
+</div>
+</div><div class="webform-component webform-component-email" id="webform-component-email"><div class="form-item" id="edit-submitted-email-wrapper">
+ <label for="edit-submitted-email">Email: <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-text form-email required email" type="email" id="edit-submitted-email" name="submitted[email]" size="60" />
+</div>
+</div><div class="webform-component webform-component-select" id="webform-component-subject"><div class="form-item" id="edit-submitted-subject-wrapper">
+ <label for="edit-submitted-subject">Subject: <span class="form-required" title="This field is required.">*</span></label>
+ <select name="submitted[subject]" class="form-select required" id="edit-submitted-subject" ><option value="nathan.ryckman@unt.edu" selected="selected">General</option><option value="suggestions">Suggestions</option><option value="victoria.ellis@unt.edu">Joining UPC</option></select>
+</div>
+</div><div class="webform-component webform-component-textarea" id="webform-component-message"><div class="form-item" id="edit-submitted-message-wrapper">
+ <label for="edit-submitted-message">Message: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="submitted[message]" id="edit-submitted-message"  class="form-textarea resizable required ckeditor-mod filterxss2"></textarea>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-message','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-message">Switch to plain text editor</a><input type="hidden" name="details[sid]" id="edit-details-sid" value=""  />
+<input type="hidden" name="details[page_num]" id="edit-details-page-num" value="1"  />
+<input type="hidden" name="details[page_count]" id="edit-details-page-count" value="1"  />
+<input type="hidden" name="details[finished]" id="edit-details-finished" value="0"  />
+<input type="hidden" name="form_build_id" id="form-OjYOeGpoztBIQAsFPD1apdPkELha9qQd2cynGKYuhdE" value="form-OjYOeGpoztBIQAsFPD1apdPkELha9qQd2cynGKYuhdE"  />
+<input type="hidden" name="form_id" id="edit-webform-client-form-71071" value="webform_client_form_71071"  />
+<div id="edit-actions" class="form-actions form-wrapper"><input type="submit" name="op" id="edit-submit" value="Submit"  class="form-submit" />
+</div>
+</div></form>
+				</div>
+			</div>
+			<div class="col-md-4">
+								<h1>Call or Fax</h1>
+				<div class="well">
+					<div class="row">
+												<div class="col-md-6">
+							<h4>Phone</h4>
+							(940) 565-3825						</div>
+												<div class="col-md-6">
+														<h4>Fax</h4>
+							(940) 565-3773													</div>
+					</div>
+										<a href="tel:(940) 565-3825" class="button button-block">Call Now</a>
+									</div>
+								
+				<h1>Visit & Ship to Us</h1>
+				
+
+<div class="view view-Buildings view-id-Buildings view-display-id-block_1 view-dom-id-11">
+
+
+        <div class="view-header">
+      <style>
+.view-Buildings .well.with-photo .photo {
+border-radius: 4px 4px 0 0;
+width: calc(100% + 1px);
+height: 150px;
+top: 0;
+left: 0;
+background-size: cover;
+background-color: #3a4740;
+background-position: center;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.5);
+
+}
+
+.view-Buildings .well.with-photo .photo a{
+     color:#fff;
+}
+</style>    </div>
+  
+  
+  
+      <div class="view-content">
+          	
+<div class="card-container col-md-12 col-sm-12 col-xs-12">
+<div class="well location with-map">
+	<a href="/the-union">
+	<header style="background: url('sites/default/files/union.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til midnight.</span>						<h1>The Union</h1>
+					</div>
+	</header>
+	</a>
+	
+	<a href="#" class="map" style="background: url('//maps.googleapis.com/maps/api/staticmap?center=33.211099,-97.147089&markers=color:red%7C33.211099,-97.147089&zoom=16&size=500x150&key=AIzaSyBTUhAduMuaKpXksLTychjoY91Jl8FkMtY') no-repeat center;">Map to The Union</a>	
+	<div class="description">
+		1155 Union Cir	</div>
+	
+</div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+					
+				<h1>Mail to Us</h1>
+				<div class="well">
+					University of North Texas<br />
+					University Program Council<br />
+					1155 Union Circle #310710<br />
+					Denton TX, 76201
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+</div><!-- end .tabbable -->
+
+
+<style>
+	.hero{
+		background-image:url('/sites/default/files/upc_website_cover_photo.png');
+	}
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/base.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/ajax_view.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/dependent.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/views_hacks/views_filters_autosubmit/views_filters_autosubmit.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/better_exposed_filters/better_exposed_filters.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ckeditor/ckeditor/ckeditor.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/webform/js/webform.js?s"></script>
+<script type="text/javascript" src="/misc/textarea.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.form.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ], "roles": { "1": "anonymous user", "2": "anonymous user", "3": "anonymous user", "4": "anonymous user", "5": "anonymous user", "6": "anonymous user", "7": "anonymous user", "8": "anonymous user", "9": "anonymous user", "10": "anonymous user", "11": "anonymous user", "12": "anonymous user", "13": "anonymous user", "14": "anonymous user", "15": "anonymous user", "16": "anonymous user", "17": "anonymous user", "18": "anonymous user", "19": "anonymous user", "20": "anonymous user", "21": "anonymous user" } } }, "views": { "ajax_path": [ "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax" ], "ajaxViews": [ { "view_name": "posts", "view_display_id": "block_7", "view_args": "9628", "view_path": "node/9628", "view_base_path": "posts-manage", "view_dom_id": 1, "pager_element": 0 }, { "view_name": "Events", "view_display_id": "block_1", "view_args": "9628", "view_path": "node/9628", "view_base_path": "read/events", "view_dom_id": 2, "pager_element": 0 }, { "view_name": "Staff", "view_display_id": "block_1", "view_args": "9628", "view_path": "node/9628", "view_base_path": "people", "view_dom_id": 4, "pager_element": 0 }, { "view_name": "Staff", "view_display_id": "block_1", "view_args": "9628", "view_path": "node/9628", "view_base_path": "people", "view_dom_id": 5, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_1", "view_args": "9628", "view_path": "node/9628", "view_base_path": "programs-dev", "view_dom_id": 6, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_1", "view_args": "9628", "view_path": "node/9628", "view_base_path": "programs-dev", "view_dom_id": 7, "pager_element": 0 } ] }, "vfas": { "views-exposed-form-programs-block-1": { "exceptions": "" } }, "CToolsUrlIsAjaxTrusted": { "/programs-dev": [ true, true, true, true ], "https://studentaffairs.unt.edu/form/contact-upc": true, "/org/university-program-council": true }, "ckeditor": { "module_path": "/sites/all/modules/ckeditor", "editor_path": "/sites/all/modules/ckeditor/ckeditor", "ajaxToken": "de86269b71ceff8d816859650938b01f", "xss_url": "/ckeditor/xss", "query": "node/9628", "default_input_format": "3", "theme": "Apollo3", "settings": { "edit-submitted-message": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] } }, "autostart": { "edit-submitted-message": true } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "og": { "group_context": { "nid": "9628", "title": "University Program Council", "type": "organization" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+<script type="text/javascript" src="/sites/all/modules/ckeditor/includes/ckeditor.utils.js?s"></script>
+
+</div>
+</body>
+</html>

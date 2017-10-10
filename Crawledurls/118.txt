@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><!-- InstanceBegin template="/Templates/Transit_Template.dwt" codeOutsideHTMLIsLocked="false" -->
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="3600" />
+<meta name="robots" content="index,follow" />
+<meta name="publisher" content="UNT Police, Parking, & Transportation" />
+<meta name="copyright" content="UNT Police, Parking, & Transportation" />
+<meta name="description" content="University of North Texas Parking, & Transportation" />
+<meta name="keywords" content="University of North Texas, parking, permits, campus parking, campus map, security, towing, citations, UNT Police, UNT Campus Police" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/layout_setup.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/screen.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/layout_text.css" />
+<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+<title>University of North Texas Parking &amp; Transportation Services</title>
+
+<!-- InstanceParam name="SubNav_DeptInfo" type="boolean" value="false" -->
+<!-- InstanceParam name="SubNav_Parking" type="boolean" value="true" -->
+<!-- InstanceParam name="SubNav_Transportation" type="boolean" value="false" -->
+
+<!-- InstanceParam name="SubNav_Contact" type="boolean" value="false" -->
+<!-- InstanceParam name="Alert_SubContnet" type="boolean" value="true" -->
+<!-- InstanceParam name="Sticky Site Information" type="boolean" value="true" -->
+<!-- InstanceParam name="SubContent_Blue" type="boolean" value="false" -->
+<!-- InstanceParam name="SubContent_Green" type="boolean" value="false" -->
+<!-- InstanceParam name="SubContent_Grey" type="boolean" value="false" -->
+
+
+<!--  JAVASCRIPT FOR IMAGE LOAD NO LONGER USED
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+//
+END OF SCRIPT END OF SCRIPT</script>
+
+--> 
+</head>
+
+<!-- Global IE fix to avoid layout crash when single word size wider than column width -->
+<!--[if IE]><style type="text/css"> body {word-wrap: break-word;}</style><![endif]-->
+
+<!-- REMOVED 4/10/2014
+
+<body onload="MM_CheckFlashVersion('7,0,0,0','Content on this page requires a newer version of Adobe Flash Player. Do you want to download it now?');">
+END REMOVE 4/10/2014 -->
+<body>
+
+  <!-- Main Page Container -->
+  <!-- [ HEADER ] -->
+<!--<div id="skip-link"><a href="#top-nav">Jump to Navigation</a></div>-->
+
+<div id="masthead"><div id="masthead-wrapper" class="container">
+  <div id="search">
+
+			<form method="get" action="http://www.google.com/u/unorthtexas" id="sform">        
+				<label for="searchterms">Search the UNT web site:</label>
+				<input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()" />
+				<input name="sa" type="submit" value="Search" id="sbutton"/>
+			</form>
+  </div>
+  
+  <!--div id="skip"><a href="#content">Skip to content</a></div-->
+
+	<div id="globals">
+    <ul>
+      <li><a href="https://my.unt.edu/">MyUNT</a></li>
+      <li><a href="https://eaglemail.unt.edu/">EagleMail</a></li>
+      <li><a href="http://webctvista.unt.edu/">Blackboard</a></li>
+      <li><a href="http://www.unt.edu/find-people-department.htm">People &amp; Departments</a></li>
+      <li><a href="http://maps.unt.edu/">Maps</a></li>
+      <li><a href="http://www.unt.edu/calendars-events.htm">Calendars</a></li>
+      <li><a href="http://giving.unt.edu/">Giving to UNT</a></li>
+    </ul>
+  </div>
+</div></div>
+
+<!-- /#masthead, #masthead-wrapper -->
+
+<div id="header"><div id="header-wrapper" class="container">
+	<div id="unt-brand">
+  	<a href="http://www.unt.edu"><img src="http://www.unt.edu/assets/images/greenlight/unt-lettermark.png" alt="UNT | University of North Texas" /></a>
+  </div>
+
+	<div id="branding">
+  	<h1 id="site-name"><a href="http://www.unt.edu/transit">UNT Parking &amp; Transportation</a></h1>
+  </div>
+</div></div>
+
+<div id="top-nav" class="off"><div id="nav-wrapper">
+</div></div>
+  <!-- [ END HEADER ] -->
+
+
+  <!-- Main Page Container -->
+<div align="center" class="page-container">
+
+
+<div id="s_top-nav" class="off"><div id="s_nav-wrapper">
+</div></div>      <!-- For alternative head          <!-- Navigation item -->
+
+    <!-- For alternative headers END PASTE here -->
+
+    <!-- B. MAIN -->
+    <div align="left" class="main">
+ 
+      <!-- B.1 MAIN NAVIGATION -->
+      <div class="main-navigation">
+
+        <div class="round-border-topright"></div>
+        <h1 class="first">Navigation</h1>
+
+        <!-- Navigation with grid style -->
+        <dl class="nav3-grid">
+        
+        <dt><a href="index.html" title="Home">Home</a></dt>
+
+       
+      <!--   <dt><a href="../dept_info.html" title="Department Information">Department Information</a></dt> -->
+
+			  
+		  <dt><a href="parking_services.html" title="Parking Services">Parking Services</a></dt>
+      
+			  <dd><a href="visitor_info.html">Visitor Information</a></dd>
+          <dd><a href="http://www.unt.edu/transit/UNTParkingCitations.html">Pay Citations</a></dd>
+ 		<dd><a href="permits.html">Parking Permits</a></dd>
+        <dd><a href="student_permits.html" id="bullet">Student Permits</a></dd>
+          <dd><a href="faculty_permits.html" id="bullet">Faculty/Staff Permits</a></dd>
+        <dd>&nbsp;</dd>
+                <dd><a href="parking_regs.html">Parking Regulations</a></dd>
+        <dd><a href="maps.html">Parking Maps</a></dd>
+        	<dd><a href="meters.html">Parking Meters</a></dd>
+                <dd><a href="garage.html">Parking Garage</a></dd>
+		<dd><a href="airport%20parking.html">Airport Parking Information</a></dd>
+        <dd><a href="parking_faq.html">FAQ</a></dd>
+    
+		  
+         	<dt><a href="transportation.html" title="Transportation Services">Transportation Services</a></dt>
+    
+			<dt><a href="employment.html" title="Employment">Employment</a></dt> 
+			
+          <dt><a href="contact.html" title="Contact Us">Contact Us</a></dt> 
+
+	      
+        
+
+
+		</dl>
+		
+        <h1>Announcements: </h1>
+        <h3>You can now purchase parking permits online!</h3>
+        <p><a href="http://www.unt.edu/transit/UNTParkingPermits.html">CLICK HERE FOR MORE INFORMATION</a></p>
+<!--        <p>Permits will no longer be sold at the UNT Bookstore, but instead are available by <a href="https://ppt-pkweb1.ppt-spsc.pdl.ads.unt.edu/untparking/cmn/auth.aspx">CLICKING HERE</a>.</p>  -->
+		
+        <hr /><br />
+		<!-- <a href="../hertz.html"><img src="../img/HOD_Logo_Reg_RentSpon_whiteH.gif" alt="Hertz on Demand" width="175" /></a>
+        <p><strong>Hertz on Demand is available at The Univer</strong></p>
+        <p><strong>sity of North Texas campus!</strong>
+        Environmentally friendly vehicles to rent at a low rate – by the hour or the day.</p>
+        <p><a href="../hertz.html">Click Here for more information.</a></p>
+        -->
+      </div>
+ 
+      <!-- B.2 MAIN CONTENT -->
+      <!-- InstanceBeginEditable name="Main Content" -->
+      <div class="main-content">
+        <!-- Pagetitle -->
+        <h1 class="pagetitle">Parking Map</h1>
+        <!-- Content unit - One column -->
+        <div class="column1-unit">
+
+          <h3><a href="pdf/UNTCampusMapPARKINGSpring.pdf">Click here to open a printable version.</a> Adobe Acrobat is required.</h3>
+          <h2>Notice: New G Lots added for Fall 2015<br />
+            <a href="pdf/gparking.pdf">Click here to view the locations of lot 34,43 and 85 </a>
+          <!--         <a href="http://maps.unt.edu/sites/default/files/UNTCampusMap.pdf" target="_blank"> --></h2>
+        </div>
+        <hr class="clear-contentunit" />
+        <br />
+        
+<h1 class="pagetitle">UNT Spring 2016 Commencement Parking</h1>
+<!-- Content unit - One column -->
+<div class="column1-unit">
+  <h3> For the latest information and maps for UNT Commencement visit <a href="http://www.unt.edu/commencement/">http://www.unt.edu/commencement/</a></h3>
+</div>
+
+
+<h1 class="pagetitle"><br />
+        High School Graduation &amp; Special Events Parking</h1>
+        <!-- Content unit - One column -->
+        <div class="column1-unit">
+
+          <h3>High School Graduation map will be posted  soon.</h3>
+         <p>&nbsp;</p>
+          <!-- <h3>This map is for High School Graduations &amp; special events happening at Fouts Field and the Coliseum (ie.Sporting events, high school graduation, etc.).</h3>
+          <h3><a href="pdf/2015-HS-Graduation-SE.pdf">Click Here to open a printable version.</a> Adobe Acrobat is required.</h3> -->
+        </div>
+        <hr class="clear-contentunit" />
+        
+        <!-- Content unit - One column -->
+        <div class="column1-unit"> </div>
+        <div class="column1-unit"></div>
+      </div>
+      <!-- InstanceEndEditable -->
+      <!-- B.3 SUBCONTENT -->
+      <div class="main-subcontent">
+ <!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages -->
+
+<!--
+  <div class="subcontent-unit-border-alert-red">
+            <div class="round-border-topleft"></div>
+        <div class="round-border-topright"></div>
+        <h1 class="alert">Monday March 9th Detour on Eagle for City of Denton sewer</h1>
+        <div>
+        
+          <p>Starting  </p>
+<p>&nbsp;</p>
+
+      </div>
+-->
+
+
+  <<div class="subcontent-unit-border-alert-red">
+ 
+            <div class="round-border-topleft"></div>
+        <div class="round-border-topright"></div>
+        <h1 class="alert">SATURDAY FINAL EXAM SHUTTLE SERVICE</h1>
+        <div>
+        
+          <p>UNT Shuttle service will be provided on Saturday May 7th, 2016 for Final Exams. </p>
+          <p>The service  will run on a  Friday schedule.</p>
+          <p>Call Transportation Services for more information at 940-565-3020 or <br />
+          Contact <a href="https://www.dcta.net/">DCTA</a> for any questions on  routes and service.</p>
+
+        </div> 
+
+
+        
+       
+  
+            
+ <div class="round-border-topleft"></div>
+        <div class="round-border-topright"></div>
+        <h1 class="alert">FRISCO Campus	</h1>
+        <div>       
+                
+        <p>Parking is provided at the new Frisco Campus. No UNT Permit is required at this time.</p>
+<p>&nbsp;</p>
+        </div>
+        
+        
+ <!--       
+<div class="round-border-topright"></div>
+        <h1 class="alert">&nbsp;</h1>
+        <p>&nbsp;</p>
+        <div>
+        </div>  -->      
+ </div>             
+              
+
+
+ <!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages -->
+ 
+ 
+
+
+
+ 
+
+    
+
+
+
+
+<!--
+
+
+        <div class="subcontent-unit-border-green">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+        <h1 align="center" class="green">DCTA 2014 Community Survey is now available</h1>
+                    
+         <p>DCTA has released a survey <a href="../Crime_Alert.html" target="_blank"></a>to gather input from customers and community members. The online survey is available until Monday May 5, 2014.</p>
+         <p>Form more information visit <a href="https://www.dcta.net/">DCTA.net </a>or <a href="https://www.surveymonkey.com/s/DCTA2014">click here to go directly to the survey.</a></p>
+      </div> 
+
+-->
+
+    
+      
+<!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages -->
+
+  <!--<div class="subcontent-unit-border-alert-red">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+        <h1 class="alert">Campus Safety Alert! </h1>
+           <p class="alert">CRIME BULLETIN:<br />
+		  <br />
+         <strong>OFFENSE:</strong> <br />
+         Aggravated Robbery<br />
+<br />
+          <p class="alert">DATE OCCURRED:              <br />
+          10-08-2012</p>
+        <p> </p>
+          <p class="alert">TIME OCCURRED:               <br />
+          11:12  p.m.</p>
+          <p> </p>
+          <p class="alert">LOCATION:<br />
+          1520 W. Hickory Street</p>
+          <p></p>
+                    <p class="alert">UDATE:<br />
+                    The Denton  Police Department has apprehended two suspects in this case.</p>
+          <p></p>
+         <p class="alert"><a href="alerts/victim_bulletin10092012.pdf" target="_blank">Click here for more.</a></p>
+      </div> 
+
+     <!-- Eagle Alert Subcontent unit - Uncomment this section to push this to all referencing pages --> 
+
+ <!-- <div class="subcontent-unit-border-alert-red">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+        <h1 class="alert">Campus Safety Alert! </h1>
+           <p class="alert">CRIME BULLETIN:<br />
+		  <br />
+         <strong>OFFENSE:</strong> <br />
+Aggravated Assault <br />
+<br />
+          <p class="alert">DATE OCCURRED:              <br />
+          8-31-2012</p>
+          <p> </p>
+          <p class="alert">TIME OCCURRED:               <br />
+          9:40 p.m.</p>
+          <p> </p>
+          <p class="alert">LOCATION:<br />
+East side of Kerr Hall</p>
+          <p></p>
+         <p class="alert"><a href="alerts/victim_bulletin09012012.pdf" target="_blank">Click here for more.</a></p>
+      </div> -->
+      
+      
+	  
+        <!-- Sticky Subcontent unit -->
+     <!-- <div class="subcontent-unit-border-alert-green">
+          <div class="round-border-topleft"></div>
+          <div class="round-border-topright"></div>
+          <h1 class="green">Employment Information</marquee></h1>
+          <p>The UNT Police Department is currently accepting applications. </p>
+          <p><a href="/police/Employment.html">Click here for more information.</a></p>
+      </div>  -->
+      
+      
+        <!-- Subcontent unit -->
+		
+		<!-- Subcontent unit -->
+        
+        <!-- Subcontent unit -->
+        </div>
+</div>
+      
+
+      
+    <!-- C. FOOTER AREA -->      
+
+    <div class="footer">
+      <p>UNT policies: <a href="http://www.unt.edu/policy/UNT_Policy/volume2/10_6.html">Open Records</a> | <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility Policy</a>| <a href="http://www.unt.edu/emergency">Emergency Preparedness Information</a></p>
+
+      <p>State of Texas information: <a href="http://www.unt.edu/compact_with_texans/compact_with_texans.html">Compact with Texans</a> | <a href="http://www.state.tx.us/">State of Texas Online</a> | <a href="http://www.tsl.state.tx.us/trail/">Statewide search</a> | <a href="http://www.twc.state.tx.us/careers/hotcareers.html">Hot Careers in Texas</a> | <a href="http://www.texashomelandsecurity.com"><br />
+        Texas Homeland Security</a> | <a href="http://www.dir.state.tx.us/standards/link_policy.htm">State link policy</a><br />
+
+        <a href="http://www.thecb.state.tx.us/cfbin/ArchFetch.cfm?DocID=0611&amp;Format=PDF">Texas Higher Education Coordinating Board Public Universities' Academic Data and Performance Reports</a></p>
+    </div>      
+  </div> 
+  
+</body>
+<!-- InstanceEnd --></html>
+
+
+
+<!--Design by: Wolfgang-->

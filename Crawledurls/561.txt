@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="//netcentric.unt.edu/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="canonical" href="/content/welcome" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/1" />
+<title>Welcome | NSF Net-Centric &amp; Cloud Software &amp; Systems (NCSS) Industry &amp; University Cooperative Research Center (I/UCRC)</title>
+<link type="text/css" rel="stylesheet" href="//netcentric.unt.edu/sites/default/files/css/css_YKA02tZxsokygs4xYogv6ScHWaIVJLkiwNgN65IG9aQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//netcentric.unt.edu/sites/default/files/css/css_c05zisM5xOe1-gyL0H99ArHkWIgwEo-dGHnsG-nbzDk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//netcentric.unt.edu/sites/default/files/css/css_h29UXzKzC4f3GUXHZoP8dkIFE3TAk-cXh5ciMpfJWbc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//netcentric.unt.edu/sites/default/files/css/css_uhNvblviiQjuH9S72fWmZ09SyEq8sKXLH6RMfoPM0e0.css" media="all" />
+<script type="text/javascript" src="//netcentric.unt.edu/profiles/cws_d7/libraries/respondjs/respond.min.js?o4tfdr"></script>
+<script type="text/javascript" src="//netcentric.unt.edu/sites/default/files/js/js_MpKfe1sTh5JIVGCZ17DsAuT1rqAC38MLLlkjqjQ1X_k.js"></script>
+<script type="text/javascript" src="//netcentric.unt.edu/sites/default/files/js/js_TGt4Bz2WQNO2l8-kQRpmF_J7K3WB-qqhpTEDuzSnHec.js"></script>
+<script type="text/javascript" src="//netcentric.unt.edu/sites/default/files/js/js_xW_V6FpEZiaveP2EqGWr-SqxMCdXxxMz4JA7lwyapX8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-61125466-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="//netcentric.unt.edu/sites/default/files/js/js_38dYfT5tBcNRDpGLvmZst3EvwIKHRrNMAUPl_CmZHoU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"Rcktn7Ly75zv2U1MW_eg8GLpLUqfB4__8Wcq_J2F-Hg","js":{"profiles\/cws_d7\/libraries\/respondjs\/respond.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/themes\/nexus\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/nexus\/js\/slide.js":1,"profiles\/cws_d7\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/js\/responsive_menus_simple.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/nexus\/js\/bootstrap.min.js":1,"sites\/all\/themes\/nexus\/js\/superfish.js":1,"sites\/all\/themes\/nexus\/js\/mobilemenu.js":1,"sites\/all\/themes\/nexus\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cws_d7\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/cws_d7\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/cws_d7\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"profiles\/cws_d7\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/css\/responsive_menus_simple.css":1,"sites\/all\/themes\/nexus\/css\/bootstrap.min.css":1,"sites\/all\/themes\/nexus\/css\/flexslider.css":1,"sites\/all\/themes\/nexus\/style.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"responsive_menus":[{"toggler_text":"\u2630 Menu","selectors":["#main-menu"],"media_size":768,"absolute":true,"remove_attributes":true,"responsive_menus_style":"responsive_menus_simple"}],"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+<!--[if lt IE 9]><script src="/sites/all/themes/nexus/js/html5.js"></script><![endif]-->
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1 node-type-page">
+  <span></span>  <div id="page">
+  <header id="masthead" class="site-header container" role="banner">
+    <div class="row">
+      <div id="logo" class="site-branding col-sm-6">
+        <div id="site-logo"><a href="/" title="Home">
+          <img src="//netcentric.unt.edu/sites/default/files/netcentric_logo_0.png" alt="Home" />
+        </a></div>        <h1 id="site-title">
+          <a href="/" title="Home">NSF Net-Centric &amp; Cloud Software &amp; Systems (NCSS) Industry &amp; University Cooperative Research Center (I/UCRC)</a>
+        </h1>
+      </div>
+      <div class="col-sm-6 mainmenu">
+                <nav id="navigation" role="navigation">
+          <div id="main-menu">
+            <ul class="menu"><li class="first leaf"><a href="/content/net-centric-and-cloud-software-and-systems">Net-Centric Software</a></li>
+<li class="leaf"><a href="/news" title="">News</a></li>
+<li class="leaf"><a href="/content/current-members">Current Members</a></li>
+<li class="leaf"><a href="/content/personnel">Personnel</a></li>
+<li class="collapsed"><a href="/projects" title="">Projects</a></li>
+<li class="leaf"><a href="/content/papers" title="">Papers</a></li>
+<li class="leaf"><a href="/event-gallery" title="">Event Gallery</a></li>
+<li class="leaf"><a href="/content/documents">Documents</a></li>
+<li class="leaf"><a href="/content/recent-graduates">Recent Graduates</a></li>
+<li class="last leaf"><a href="/user" title="">Log In</a></li>
+</ul>          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+        <div id="slidebox" class="flexslider">
+    <ul class="slides">
+      <li>
+        <img src="/sites/all/themes/nexus/images/slide-image-1.jpg"/>
+                  <div class="flex-caption">
+            <h2>Net-Centric and Cloud Software</h2><p>Software developed for network and cloud-based usage</p>
+            <a class="frmore" href="/content/net-centric-and-cloud-software-and-systems"> READ MORE </a>
+          </div>
+              </li>
+      <li>
+        <img src="/sites/all/themes/nexus/images/slide-image-2.jpg"/>
+                  <div class="flex-caption">
+            <h2>Published Papers</h2><p>See our ideas</p>
+            <a class="frmore" href="/content/papers"> READ MORE </a>
+          </div>
+              </li>
+      <li>
+        <img src="/sites/all/themes/nexus/images/slide-image-3.jpg"/>
+                  <div class="flex-caption">
+            <h2>Personnel</h2><p>See the talent working with us</p>
+            <a class="frmore" href="/personnel"> READ MORE </a>
+          </div>
+              </li>
+    </ul><!-- /slides -->
+    <div class="doverlay"></div>
+  </div>
+    
+          <div id="preface-area">
+      <div class="container">
+        <div class="row">
+          <div class="preface-block col-sm-4">
+            <div class="region region-preface-first">
+  <div id="block-block-4" class="block block-block">
+
+        <h2 >Opportunity</h2>
+    
+  <div class="content">
+    <p>Net-Centric and cloud-based operations offer a computing model for the future. In this paradigm, we no longer view applications as having a fixed set of capabilities: we see them as a set of highly reliable services that are dynamically created from acquired services, then verified and validated in the field in real-time.</p>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+          </div>          <div class="preface-block col-sm-4">
+            <div class="region region-preface-middle">
+  <div id="block-block-2" class="block block-block">
+
+        <h2 >Collaboration</h2>
+    
+  <div class="content">
+    <p>The Net-Centric and Cloud Center focuses on a collaborative approach of research and development in net-centric and cloud systems. This allows us to draw on the expertise of both industry and academia.</p>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+          </div>          <div class="preface-block col-sm-4">
+            <div class="region region-preface-last">
+  <div id="block-block-5" class="block block-block">
+
+        <h2 >Implementation</h2>
+    
+  <div class="content">
+    <p>Cloud computing offers many advantages. The Net-Centric and Cloud Center conducts research on leveraging these advantages in software development, resource management, SLA compilance, workload modeling, and evalution of emerging technologies for cloud and net-centric environments.</p>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+          </div>        </div>
+      </div>
+    </div>
+  
+  
+    <div id="main-content">
+    <div class="container"> 
+      <div class="row">
+                <div id="primary" class="content-area col-sm-8">
+          <section id="content" role="main" class="clearfix">
+                                                <div id="content-wrap">
+                            <h1 class="page-title">Welcome</h1>                                                                      <div class="region region-content">
+  <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div  about="/content/welcome" typeof="sioc:Item foaf:Document" class="ds-1col node node-page node-full view-mode-full clearfix">
+
+  
+  <div class="">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="NSF Logo" src="/sites/default/files/nsf%20logo.jpg" style="float:left; height:262px; width:261px" /></p>
+<p>Welcome to the NSF Net-Centric and Cloud Software &amp; Systems Industry/University Cooperative Research Center.</p>
+<p class="rtejustify">NSF Industry/University Cooperative Research Centers (I/UCRC) develop long-term partnerships among industry, academe, and government. The centers are catalyzed by a small investment from the National Science Foundation (NSF) and are primarily supported by industry center members, with NSF taking a supporting role in the development and evolution of the center.</p>
+<p class="rtejustify">The NSF Industry/University Cooperative Research Center on Net-Centric and Cloud Software and Systems (Net-Centric IUCRC) has been in existence since 2009. Originally the center included the University of North Texas, the University of Texas at Dallas and Southern Methodist University. Arizona State University joined the center in 2010, and Missouri University of Science and Technology (formerly Missouri-Rolla) joined the center in 2012.</p>
+<p>For an overview of IUCRC program and Net-centric IUCRC, click <a href="/sites/default/files/overview.pdf">here</a>.</p>
+<h1><strong>Why Join Us?</strong></h1>
+<ul><li>Proven model optimized for collaboration between industry, government and academia</li>
+<li>Access to pre-competitive and basic research</li>
+<li>Leveraged "force multiplier" to accelerate generation of new ideas for product innovation</li>
+<li>Opportunities to network and partner with technology leaders and innovators</li>
+<li>A single point source for company and staff education on emerging technologies</li>
+<li>An expert source for company staff education and training in emerging technologies</li>
+<li>A targeted, low-risk, and cost-effective complement to selected in-house R&amp;D</li>
+<li>Both royalty free non-exclusive and royalty bearing exclusive licensing available</li>
+<li>Access to trained workforce</li>
+<li>Opportunity to direct University research</li>
+<li>Opportunity to establish high-quality, long-term relationships with researchers</li>
+</ul><p><strong>How to Join</strong></p>
+<p class="rtejustify">A business can join the Center as an Industrial Member and sign a membership agreement with any of the Academic Institutions. Each Industrial Member is entitled to a representative on the Industrial Advisory Board that decides which projects will be funded from the pooled annual dues. Industrial Members have non-exclusive royalty-free access to research conducted by the center. Other licensing agreements are also available. For further information about the Center or memberships, please contact Dr. Krishna Kavi, director of the Net-Centric and Cloud Software &amp; Systems Center at <a href="mailto:kavi@cse.unt.edu">kavi@cse.unt.edu</a> or (940) 369-7216. For a sample membership agreement, click <a href="/sites/default/files/documents/Sample-membership.pdf">here</a></p>
+</div></div></div>  </div>
+
+</div>
+
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+            </div>
+          </section>
+        </div>
+                  <aside id="sidebar" class="col-sm-4" role="complementary">
+           <div class="region region-sidebar-first">
+  <div id="block-search-form" class="block block-search">
+
+      
+  <div class="content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-znAE_GSyuoYohMdtxpFYN1AI_7dXw3jtNgubHEdMb5c" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+  
+</div> <!-- /.block -->
+<div id="block-views-news-block" class="block block-views">
+
+        <h2 >News</h2>
+    
+  <div class="content">
+    <div class="view view-news view-id-news view-display-id-block view-dom-id-fec82903021570a62705fdeaa1bd09eb">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      <article id="node-282" class="node node-news-item node-promoted node-teaser clearfix" about="/content/next-iab-meeting" typeof="sioc:Item foaf:Document">
+        <header>
+                    <h2 class="title" ><a href="/content/next-iab-meeting">Next IAB Meeting </a></h2>
+            <span property="dc:title" content="Next IAB Meeting " class="rdf-meta element-hidden"></span>  
+              <ul class="meta clearfix">
+              
+        </ul>
+      
+          </header>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><img alt="" src="//netcentric.unt.edu/sites/default/files/University-of-North-Texas-official-Logo.jpg" style="height:289px; width:514px" />    </p></div></div></div>  </div>
+
+      <footer>
+      <ul class="links inline"><li class="node-readmore first last"><a href="/content/next-iab-meeting" rel="tag" title="Next IAB Meeting ">Read more<span class="element-invisible"> about Next IAB Meeting </span></a></li>
+</ul>    </footer>
+  
+    </article> <!-- /.node -->
+  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      <article id="node-276" class="node node-news-item node-promoted node-teaser clearfix" about="/content/successful-march-iab-meeting" typeof="sioc:Item foaf:Document">
+        <header>
+                    <h2 class="title" ><a href="/content/successful-march-iab-meeting">Successful March IAB Meeting!</a></h2>
+            <span property="dc:title" content="Successful March IAB Meeting!" class="rdf-meta element-hidden"></span>  
+              <ul class="meta clearfix">
+              
+        </ul>
+      
+          </header>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p> </p>
+<p><img alt="" src="//netcentric.unt.edu/sites/default/files/Old%20Main.png" style="height:306px; width:500px" /></p></div></div></div>  </div>
+
+      <footer>
+      <ul class="links inline"><li class="node-readmore first last"><a href="/content/successful-march-iab-meeting" rel="tag" title="Successful March IAB Meeting!">Read more<span class="element-invisible"> about Successful March IAB Meeting!</span></a></li>
+</ul>    </footer>
+  
+    </article> <!-- /.node -->
+  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/news">
+    View More  </a>
+</div>
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+          </aside> 
+              </div>
+    </div>
+  </div>
+
+  
+  
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="fcred col-sm-12">
+          Copyright &copy; 2016, <a href="/">NSF Net-Centric &amp; Cloud Software &amp; Systems (NCSS) Industry &amp; University Cooperative Research Center (I/UCRC)</a>.
+      </div>
+    </div>
+  </div>
+</div>  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>University of North Texas :: College of Music :: Calendar</title>
+<link href="/favicon.ico" rel="SHORTCUT ICON" />
+<link href="styles/admin_screen.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/admin_print.css" rel="stylesheet" type="text/css" media="print" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="styles/IE6.css" media="screen" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="styles/IE7.css" media="screen" />
+<![endif]-->
+
+</head>
+<body>
+<div id="header">
+  <div id="in_header">
+    <h1>University of North Texas</h1>
+    <h2>College of Music</h2>
+	<div id="printlogo"><img src="../images/comlogo.gif" alt="the college of music logo used for printing" /></div>
+    <div id="date">5.11.2016</div>
+  </div>
+</div><div id="container">
+<div id="body">
+<div id="navigation">
+<link rel="stylesheet" type="text/css" href="styles/jquery.autocomplete2.css">
+<script language="javascript" type="text/javascript" src="scripts/validate_smallsearch.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.2.1.pack.js"></script> 
+<script type="text/javascript" src="scripts/jquery.autocomplete.js"></script>
+<script type="text/javascript">
+
+$().ready(function() {
+
+	function findValue(row) {
+		
+		// if( row == null ) return alert("No match!");
+		
+		if( !!row.extra ){
+			//var sValue = row.extra[1]; 
+			var fName = row.extra[0];
+		}
+		
+		// otherwise, let's just display the value in the text box
+		else var fName = row.selectValue;
+		
+		$("#searchbox").attr("value",fName);
+		
+	}	
+	
+	function selectItem(row) {
+		findValue(row);
+	}
+	
+	function formatItem(row) {
+		return row[0] + " <br style='border-bottom:1px solid green' />";
+	}
+	
+	function formatResult(row) {
+		return row[0];
+	}
+	
+	$("#searchbox").autocomplete("library/findEnsembles.php", {
+		delay: 			100,
+		width: 			200,
+		lineSeparator: 	';',
+		cellSeparator: 	'|',
+		formatItem: 	formatItem,
+		formatResult: 	formatResult,
+		onItemSelect:	selectItem,
+		onFindValue:	findValue,
+		selectFirst: 	false,
+		minChars: 		1
+		
+	});
+});
+
+</script>
+
+<div class="smallsearchbox">
+<form action="index.php" method="get" name="cal_search" id="cal_search" title="Calendar Search" class="sidesearch">
+    <fieldset>
+    <legend>Search the calendar</legend><label for="searchbox">For Example: Jazz</label>
+    <input type="text" name="searchbox" id="searchbox" class="sidenav" value="" /> 
+    <input type="submit" value="go" id="go" name="go" class="button" /><br />
+    <br /><label>Options:</label>
+    <select name="venue" id="venue">
+	<option class="select" value="ALL">Venues ...</option><option style="color:maroon" value="60">Winspear Performance Hall</option><option style="color:maroon" value="99">MPAC 021</option><option style="color:maroon" value="64">Lyric Theater</option><option value="16">Voertman Hall</option><option value="30">Recital Hall</option><option value="15">Organ Rctl. Hall</option><option value="35">MU324</option><option value="89">MU297</option><option value="43">MU145</option><option value="42">MU144</option><option value="6">MU142</option><option value="36">Merrill Ellis Intermedia Theatre</option><option value="20">Kenton Hall</option>    </select>
+	<br/ ><br />
+    	<label for="cv">Calendar</label>
+		<input type="radio" name="dopt" id="cv" value="cv" checked="checked" />
+		<label for="lv">List</label>
+		<input type="radio" name="dopt" id="lv" value="lv" />
+    </fieldset>
+    
+</form>
+</div>
+  <ul>
+  
+    <li><a href="http://web3.unt.edu/music-calendar/index.php" class="onpage" title="The College of Music Calendar">calendar</a></li><li><a href="http://web3.unt.edu/music-calendar/request.php">request</a></li>	<li><a href="http://web3.unt.edu/music-calendar/xml/comcal.xml" title="Subscribe to the College of Music RSS Feed">RSS Calendar</a></li>
+	<li><a href="http://www.thempac.com" title="Murchison Performing Arts Center" style="font-size:84%">www.theMPAC.com</a></li>
+    
+	<li><a href="https://apps.vendini.com/ticket-software.html?t=tix&w=8284336ab888eff8be906f8e6ff21a9a&vqitq=e38c00b3-e980-4fe8-b5f9-9727f632249" style="font-size:84%" title="Buy event tickets">Buy Tickets</a></li>
+    
+    	<li><a href="http://music.unt.edu/downloads/documents/calendar-pdf.pdf" style="font-size:84%" title="Print Calendar PDF">Print Calendar PDF</a></li>
+    
+	<li><a href="http://music.unt.edu/mailing-list" style="font-size:84%" title="Join the College of Music Mailing List">Mailing List Sign Up</a></li>
+	<li><a href="http://music.unt.edu" title="College of Music Web Site" style="font-size:84%">College of Music</a></li>
+	<li><a href="http://www.unt.edu" title="The University of North Texas Home Page" style="font-size:84%">University of North Texas</a></li>
+    
+    <li><a href="http://web3.unt.edu/music-calendar/pdf/Roomview-Instructions.pdf" title="COM Reservations" style="font-size:84%">Reservation Instructions</a></li>
+    
+  </ul>
+</div>
+	<div id="content">
+		<div id="subnav">
+			<ul>
+			<li class="ontab"><a href="index.php" class="on" title="College of Music Calendar">calendar</a></li><li><a href="roomview.php" title="&laquo; use the searchbox">roomview</a></li>			</ul>
+		</div>
+		<div id="subsubnav">
+			<ul>
+			<li><a href="index.php" class="on">monthly</a></li><li><a href="calendar_day.php">daily</a></li>			</ul>
+		</div>
+		<div class="clear"></div>
+	
+		
+<div id="info">
+	<a href="fullscreen.php" title="reset" name="reset">Full Screen Mode</a> | <a href="#" id="printit">Print</a> (choose "landscape" for best results)	
+	<script language="javascript" type="text/javascript" src="scripts/print_me.js"></script>		
+</div>
+		
+<script type="text/javascript" src="scripts/jquery-1.2.1.pack.js"></script> 
+<script type="text/javascript" src="scripts/thickbox.js"></script>
+<script type="text/javascript" src="scripts/jquery.autocomplete.js"></script>
+<link rel="stylesheet" href="styles/thickbox.css" type="text/css" media="screen" />
+
+<div id="phpcalendar"><table><thead><tr><th class="topcal"><a href="?month=4&amp;year=2016&amp;day=11&amp;searchbox=&amp;ensemble=ALL&amp;venue=ALL"><img src="images/calbutL2.gif" border="0" alt="move one month backwards" /></a></th><th class="topcal" colspan="5"><div id="jump_menu"><form action="/music-calendar/index.php" method="get"><select name="month" id="month"><option value="1">January</option><option value="2">February</option><option value="3">March</option><option value="4">April</option><option value="5" selected="selected">May</option><option value="6">June</option><option value="7">July</option><option value="8">August</option><option value="9">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option></select><select name="year" id="year"><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016" selected="selected">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option></select><input type="hidden" name="day" value="11"><input type="submit" name="submit" value="go" class="button" /><input type="hidden" name="venue" value="ALL"/><input type="hidden" name="ensemble" value="ALL"/><input type="hidden" name="searchbox" value=""/><input type="hidden" name="dopt" value="cv"/></form></div></th><th class="topcal"><a href="?month=6&amp;year=2016&amp;day=11&amp;searchbox=&amp;ensemble=ALL&amp;venue=ALL"><img src="images/calbutR2.gif" border="0" alt="move one month forward" /></a></th></tr><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead><tbody><tr></tr><tr><td><div class="datum"><a class='thickbox' title='5-1-2016' href='library/caldetail.php?height=480&width=400&month=5&amp;year=2016&amp;day=1'>1</a></div><div class="datum_container"><a class="thickbox" title="5-1-2016" href='library/caldetail.php?height=375&width=400&lechifre=73153&detail=197007'>MM Recital: Benjamin Shirey, Composition<br />Merrill Ellis Intermedia Theatre 6:30 PM</a></div></td><td><div class="datum_today">2</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum"><a class='thickbox' title='5-3-2016' href='library/caldetail.php?height=480&width=400&month=5&amp;year=2016&amp;day=3'>3</a></div><div class="datum_container"><a class="thickbox" title="5-3-2016" href='library/caldetail.php?height=375&width=400&lechifre=73275&detail=197153'>DMA Recital: Wonil Noh, -<br />Choir Room 1:00 PM</a></div><div class="datum_container"><a class="thickbox" title="5-3-2016" href='library/caldetail.php?height=375&width=400&lechifre=72831&detail=196616'>MM Recital: Klaudia Cop, Violin<br />Recital Hall 6:30 PM</a></div></td><td><div class="datum_today">4</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">5</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">6</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">7</div><div class="datum_container"><p>&nbsp;</p></div></td></tr><tr><td><div class="datum_today">8</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">9</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">10</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_on"><a class='thickbox' title='5-11-2016' href='library/caldetail.php?height=480&width=400&month=5&amp;year=2016&amp;day=11'>11</a></div><div class="datum_container"><a class="thickbox" title="5-11-2016" href='library/caldetail.php?height=375&width=400&lechifre=72387&detail=196100'>Senior Recital: Derek Pyle, Jazz Trombone<br />Kenton Hall 5:00 PM</a></div></td><td><div class="datum"><a class='thickbox' title='5-12-2016' href='library/caldetail.php?height=480&width=400&month=5&amp;year=2016&amp;day=12'>12</a></div><div class="datum_container"><a class="thickbox" title="5-12-2016" href='library/caldetail.php?height=375&width=400&lechifre=70301&detail=192318'>Senior Recital: Jea Jun Han, Jazz Small Group<br />Kenton Hall 5:00 PM</a></div></td><td><div class="datum_today">13</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">14</div><div class="datum_container"><p>&nbsp;</p></div></td></tr><tr><td><div class="datum_today">15</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum"><a class='thickbox' title='5-16-2016' href='library/caldetail.php?height=480&width=400&month=5&amp;year=2016&amp;day=16'>16</a></div><div class="datum_container"><a class="thickbox" title="5-16-2016" href='library/caldetail.php?height=375&width=400&lechifre=72396&detail=196109'>Junior Recital: Brendan Marcum Carter, Cello<br />Recital Hall 2:00 PM</a></div><div class="datum_container"><a class="thickbox" title="5-16-2016" href='library/caldetail.php?height=375&width=400&lechifre=72406&detail=196120'>Non-Degree Recital: Su Eun Park, Cello<br />Recital Hall 3:30 PM</a></div></td><td><div class="datum"><a class='thickbox' title='5-17-2016' href='library/caldetail.php?height=480&width=400&month=5&amp;year=2016&amp;day=17'>17</a></div><div class="datum_container"><a class="thickbox" title="5-17-2016" href='library/caldetail.php?height=375&width=400&lechifre=72868&detail=196655'>MM Recital: Suehyun Ko, Voice<br />Voertman Hall 2:00 PM</a></div><div class="datum_container"><a class="thickbox" title="5-17-2016" href='library/caldetail.php?height=375&width=400&lechifre=72819&detail=196602'>DMA Recital: Hanjun Lee, Violin<br />Recital Hall 3:30 PM</a></div><div class="datum_container"><a class="thickbox" title="5-17-2016" href='library/caldetail.php?height=375&width=400&lechifre=72398&detail=196111'>Non-Degree Recital: Sally Murphy, Cello<br />Recital Hall 5:00 PM</a></div></td><td><div class="datum_today">18</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">19</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">20</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">21</div><div class="datum_container"><p>&nbsp;</p></div></td></tr><tr><td><div class="datum_today">22</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">23</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum"><a class='thickbox' title='5-24-2016' href='library/caldetail.php?height=480&width=400&month=5&amp;year=2016&amp;day=24'>24</a></div><div class="datum_container"><a class="thickbox" title="5-24-2016" href='library/caldetail.php?height=375&width=400&lechifre=72637&detail=196393'>DMA Lecture: Jihyun Lee -<br />Recital Hall 2:00 PM</a></div></td><td><div class="datum_today">25</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">26</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">27</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">28</div><div class="datum_container"><p>&nbsp;</p></div></td></tr><tr><td><div class="datum_today">29</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">30</div><div class="datum_container"><p>&nbsp;</p></div></td><td><div class="datum_today">31</div><div class="datum_container"><p>&nbsp;</p></div></td><td style="background-color:#f6f6f6;">&nbsp;</td><td style="background-color:#f6f6f6;">&nbsp;</td><td style="background-color:#f6f6f6;">&nbsp;</td><td style="background-color:#f6f6f6;">&nbsp;</td></tr></tbody></table></div></div>	
+	</div>
+	
+	<div class="clear"></div></div></div><div id="footer"><div id="insidefoot"><p>questions about scheduling: <a href="mailto:Laura.Ford@unt.edu?subject=Scheduling%20Question" title="Laura Ford">Laura Ford</a> | last updated: May 11, 2012 by <a href="mailto:reiner@unt.edu?subject=College%20of%20Music%20Events%20Calendar%20Administration%20Problems" title="Reiner Kramer">reiner@unt.edu</a></p></div></div></body></html>

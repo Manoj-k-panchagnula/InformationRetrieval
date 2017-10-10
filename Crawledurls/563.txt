@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://cks.unt.edu/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="Home" about="/home" property="dc:title" />
+<link rel="shortlink" href="/node/1" />
+<link rel="canonical" href="/home" />
+  <title>Home | Center for Knowledge Solutions</title>
+
+  
+  <link rel="shortcut icon" href="http://cks.unt.edu/favicon.ico" />
+
+  <link type="text/css" rel="stylesheet" href="http://cks.unt.edu/sites/default/files/css/css_CKoWqiBj9gVXhPuDSnNphuEB0b0J2To76x0pX0EGqn4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cks.unt.edu/sites/default/files/css/css_tCC21mbvBPQKJ--vp_mOFF1LNADrMDlAwDgNGovaAvk.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://cks.unt.edu/sites/default/files/css/css_e0xlHjEFSZP5CJ4OhsPXt9ZvkuF_1w-swaYwboBGGfg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cks.unt.edu/sites/default/files/css/css_cnu3ttty5B8gIVRU81Z5MQU6d-QvEecfegr12OGcwm8.css" media="all" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cks.unt.edu/sites/default/files/js/js_4rPwjcsA1hzlHx2nz9_sLU0PwvjYpTcC3zy11uUsKH4.js"></script>
+<script type="text/javascript" src="http://cks.unt.edu/sites/default/files/js/js_HSXQknPKeNM2ykLt9WTJKY2whmAKG_qIHeBIoqRHVuQ.js"></script>
+<script type="text/javascript" src="http://cks.unt.edu/sites/default/files/js/js_TrNdxoPMH3_sW4fBD6FGMxRSMPGmJWVPUJO3iH7DdYE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(function(){
+jQuery('#superfish-1').supersubs({minWidth: 6, maxWidth: 27, extraWidth: 1}).superfish({
+delay: 200,
+animation: {opacity:'show',height:'show'},
+speed: 100,
+autoArrows: true,
+dropShadows: true,
+disableHI: true}).supposition().find('ul').bgIframe({opacity:false});
+});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cks.unt.edu/sites/default/files/js/js_IjCYrFFRuBtaPoCXYm_wCkqFLj1kxQVcFziki9Tw350.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+          Shadowbox.path = "/sites/all/libraries/shadowbox/";
+	      Shadowbox.init(Drupal.settings.shadowbox);
+	    
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"blacksea","theme_token":"w8brO1BMV3TXFc-OUL1QxU97WWUr_GXSTeTOon2VoAs","js":{"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/shadowbox\/shadowbox.js":1,"sites\/all\/modules\/fancy_login\/scripts\/fancy_login.js":1,"sites\/all\/modules\/shadowbox\/shadowbox_auto.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/jquery.bgiframe.min.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"http:\/\/cks.unt.edu\/ADD\/js\/jquery-color\/jquery.color.js":1,"http:\/\/cks.unt.edu\/ADD\/js\/jquery.document.ready.js":1,"1":1,"sites\/all\/themes\/blacksea\/js\/scripts.js":1,"sites\/all\/themes\/blacksea\/js\/superfish.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/shadowbox\/shadowbox.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/fancy_login\/css\/fancy_login.css":1,"sites\/all\/modules\/ldap\/ldap_help\/ldap_help.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-vertical.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/style\/space.css":1,"sites\/all\/themes\/blacksea\/css\/default.css":1,"sites\/all\/themes\/blacksea\/css\/style1.css":1,"sites\/all\/themes\/blacksea\/css\/custom.css":1}},"fancyLogin":{"screenFadeColor":"white","screenFadeZIndex":"10","loginBoxHeight":"auto","loginBoxWidth":"175px","loginBoxBackgroundColor":"white","loginBoxTextColor":"black","loginBoxBorderColor":"black","loginBoxBorderWidth":"3px","loginBoxBorderStyle":"solid","loginPath":"user\/login","dimFadeSpeed":500,"boxFadeSpeed":1000,"hideObjects":0,"requestDestination":"?destination=node\/1"},"shadowbox":{"animate":1,"animateFade":1,"animSequence":"sync","auto_enable_all_images":1,"auto_gallery":0,"autoplayMovies":true,"continuous":0,"counterLimit":"10","counterType":"default","displayCounter":1,"displayNav":1,"enableKeys":1,"fadeDuration":"0.30","handleOversize":"resize","handleUnsupported":"link","initialHeight":160,"initialWidth":320,"language":"en","modal":false,"overlayColor":"#222","overlayOpacity":"0.75","resizeDuration":"0.30","showMovieControls":1,"slideshowDelay":"0","viewportPadding":20,"useSizzle":1}});
+//--><!]]>
+</script>
+      <style type="text/css">
+  body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.9em; }
+</style>
+
+  <link href='http://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css' />
+
+  
+<style type="text/css">
+
+      .width-wrapper { width: 960px; }
+		#slideshow  .views-field-title { max-width: 960px; }
+		#slideshow  .views-field-body { max-width: 960px; }
+
+  
+/*-- No Sidebars --*/
+
+  body.no-sidebars #main-content {
+    width: 960px;
+  }
+
+/*-- Two Sidebars --*/
+
+  body.two-sidebars #main-content {
+    width: 560px;
+	  margin: 0 -760px 0 200px;
+  }
+
+  body.two-sidebars #main-content-inner {
+    padding-left: 0px;
+  }
+
+  body.two-sidebars .sidebar-first {
+    margin-left: 0;
+    margin-right: -200px;
+    width: 200px;
+  }
+
+  body.two-sidebars .sidebar-second {
+    margin-left: 760px;
+    margin-right: -960px;
+    width: 200px;
+  }
+
+/*-- Left Sidebar --*/
+
+  body.sidebar-first #main-content {
+    width: 760px;
+    margin-left: 200px;
+    margin-right: -960px;
+  }
+
+  body.sidebar-first .sidebar-first {
+    margin-left: 0;
+    margin-right: -200px;
+    width: 200px;
+  }
+
+/*-- Right Sidebar --*/
+
+  body.sidebar-second #main-content {
+    width: 760px;
+	margin-left: 0;
+    margin-right: -760px;
+  }
+
+  body.sidebar-second .sidebar-second {
+    margin-left: 760px;
+    margin-right: -960px;
+    width: 200px;
+  }
+
+</style>
+
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page" >
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+            
+  
+ 	<div style="float:left;width:0;height:0;">
+		<!-- Preload Images -->
+		<!--<img src="http://cks.unt.edu/sites/default/files/kcfinder/images/backgrounds/nav_hover_bg.png" alt="" title="" style="display:none;" />-->
+		<img src="http://cks.unt.edu/images/nav_hover_bg_green.png" alt="" title="" style="display:none;" />
+		<img src="http://cks.unt.edu/images/nav_hover_bg_green_darker.png" alt="" title="" style="display:none;" />
+		<img src="http://cks.unt.edu/sites/all/modules/fancy_login/images/ajax-loader.gif" alt="" title="" style="display:none;" />
+		<!--<img src="http://cks.unt.edu/sites/default/files/kcfinder/images/logos/cks_light_bulb.png" alt="" title="" style="display:none;" />-->
+		<img src="http://cks.unt.edu/images/cks_light_bulb_on.png" alt="" title="" style="display:none;" />
+		<img src="http://cks.unt.edu/sites/default/files/kcfinder/images/backgrounds/trans_white_60.png" alt="" title="" style="display:none;" />
+		<!-- -->
+	</div>
+
+<div id="page-wrapper"><div id="page-wrapper-inner">
+
+	  <!-- Top Menu, Search, Social, Navigation Menu -->
+	  <div id="header-section">
+		<div id="user-menu">
+					</div>
+		<div id="header-logo">
+			<a id="cks-logo-link" href="http://cks.unt.edu"></a>
+			<div id="cks-light-bulb" url="http://cks.unt.edu"></div>
+			<!--<div id="header-slideshow-1"></div>
+			<div id="header-slideshow-2"></div>
+			<div id="header-slideshow-3"></div>-->
+		</div>
+        <div id="header-navigation-menu">
+					<div id="navigation-menu">
+			  <div class="region region-navigation-menu">
+    <div id="block-superfish-1" class="block block-superfish"><div class="block-inner clearfix">
+
+      
+  <div class="content"><div class="content-inner">
+    <ul id="superfish-1" class="sf-menu main-menu sf-horizontal sf-style-space sf-total-items-6 sf-parent-items-1 sf-single-items-5"><li id="menu-218-1" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" title="" class="sf-depth-1  active">Home</a></li><li id="menu-811-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/about" title="Learn more about the center" class="sf-depth-1  menuparent">About</a><ul><li id="menu-2114-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/about" title="Learn more about the center (Mission, Vivid Description, Purpose, Goals)" class="sf-depth-2 ">Mission Statement</a></li><li id="menu-2112-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/funding" class="sf-depth-2 ">Funding</a></li><li id="menu-1872-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/financial-support" title="Expenditures" class="sf-depth-2 ">Financial Support</a></li><li id="menu-2111-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/accomplishments" title="Accomplishments of the Center" class="sf-depth-2 ">Accomplishments</a></li><li id="menu-2113-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/organizationalchart" class="sf-depth-2 ">Organizational Chart</a></li></ul></li><li id="menu-1871-1" class="middle odd sf-item-3 sf-depth-1 sf-no-children"><a href="/contact-us" class="sf-depth-1 ">Contact Us</a></li><li id="menu-813-1" class="middle even sf-item-4 sf-depth-1 sf-no-children"><a href="/people" title="View the Director, Co-directors and Assistant Director" class="sf-depth-1 ">People</a></li><li id="menu-1870-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="/publications" class="sf-depth-1 ">Publications</a></li><li id="menu-815-1" class="last even sf-item-6 sf-depth-1 sf-no-children"><a href="/links" class="sf-depth-1 ">Links</a></li></ul>  </div></div>
+
+</div></div> <!-- /block-inner, /block -->  </div>
+			</div>
+				  <div id="search-box">
+			  <div class="region region-search-box">
+    <div id="block-search-form" class="block block-search"><div class="block-inner clearfix">
+
+      
+  <div class="content"><div class="content-inner">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-wQ9OxtOoePpFpPjbcM4oOz8QrWO3yrfXtzZTX6G3tLI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div></div>
+
+</div></div> <!-- /block-inner, /block -->  </div>
+          </div>
+          <div id="social">
+            <ul class="social-links">
+              <li><a class="rss" href="/rss.xml"></a></li>
+              <!--<li><a class="twitter" href=""></a></li>-->
+              <li><a class="facebook" href="http://www.facebook.com/pages/Center-for-Knowledge-Solutions/178064708945437"></a></li>
+            </ul>
+          </div>
+        </div> <!-- END: header-navigation-menu -->
+	  </div> <!-- END: header-section -->
+
+<div id="header-slideshow-wrapper">
+
+<!-- Header -->
+    <div id="header-wrapper"><div class="width-wrapper"><div class="header-wrapper-inner clearfix">
+
+      
+      
+      
+<!-- Logo/Primary-Links/Search -->
+			
+    </div></div></div><!-- /header-wrapper -->
+
+<!-- Slideshow Region -->
+		
+</div>
+
+<!-- Top User Regions -->
+		
+<!-- Middle Wrapper -->
+    <div id="middle-wrapper"><div class="width-wrapper clearfix">
+
+      
+      
+      <div id="main-content" class="clearfix"><div id="main-content-inner">
+                        	                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system"><div class="block-inner clearfix">
+
+      
+  <div class="content"><div class="content-inner">
+    <div class="node-1 node clearfix thing"><div class="node-inner">
+
+  
+  
+    <div class="full-node clearfix">
+
+              <h1 property="dc:title" datatype="" class="title">
+          Home        </h1>
+      
+      
+      
+      <div class="content">
+         <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The Center for Knowledge Solutions empowers scholars and scholar-practitioners to make evidence-based decisions that optimize learning and performance systems to improve organizational knowledge. <em>The uniqueness of the center is learning and performance across disciplines and professions</em>.&nbsp;</p>
+<p>Our mission is to generate, integrate, and disseminate knowledge solutions through learning and performance innovation for business and education. The center enables constituents and funding agencies to implement knowledge solutions for improving their organizational systems. Affiliate members include: <em>Texas State Technical College, Purdue University, Texas A&amp;M, Penn State University, Auburn University, Denton ISD Advanced Technology Center, University of California at Long Beach, Raytheon, Brinker International, 7-Eleven, Children’s Hospital, and Lockhead Martin.</em></p>
+<h2 style="margin-top:1em;text-shadow:1px 1px 2px #999;">In the Spotlight:</h2>
+<table align="left" border="0" cellpadding="0" cellspacing="0" dir="ltr" style="width: 100%;">
+	<tbody><!--
+<tr>
+			<td style="text-align: center; vertical-align: middle; width: 40%; "><a href="http://tara.unt.edu/sites/default/files/FTW%20Conference%20Invitation%20Final.pdf" target="_blank"><img alt="Career Pathways for Young People with Autism" src="http://cks.unt.edu/images/autism-pathways-logo.jpg" style="max-height: 150px; " title="Click to Learn More"></a></td>
+			<td style="text-align: left; vertical-align: middle; width: 60%; ">
+				<p><a href="http://tara.unt.edu/sites/default/files/FTW%20Conference%20Invitation%20Final.pdf" target="_blank">Finding Their Way: Career Pathways for Young People with Autism Spectrum Disorders (ASD)</a></p>
+				<p><em>A one-day E-Conference is planned for Saturday, October 25, 2014 to share information and connect families with resources. Click the title for more information. <a href="http://www.shop.321econference.net/Early-Bird-eConference-Registration-before-October-5-AUT01.htm" target="_blank">Click Here to Register</a>.</em></p>
+			</td>
+		</tr>
+-->
+		<tr>
+			<td style="text-align: center; vertical-align: middle; width: 30%; "><a href="http://www.sageperformance.com/ojs/index.php/LPQ" target="_blank"><img alt="Learning and Performance Quarterly" src="http://cks.unt.edu/content/images/logos/lpq_logo_enhanced.png" style="width: 223px; height: 82px; " title="Learning and Performance Quarterly"></a></td>
+			<td style="text-align: left; vertical-align: middle; width: 70%; ">
+				<p><a href="http://www.sageperformance.com/ojs/index.php/LPQ" target="_blank">Learning and Performance Quarterly (LPQ)</a></p>
+				<p><em>"... a student-led, blind peer-review journal. &nbsp; LPQ is an open-access publication designed to make research available to the public and to support a greater exchange of global knowledge."</em></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!--<h2>This site is being updated. If you have an inquiry, please see contact information below.</h2>-->
+<p>&nbsp;</p>
+</div></div></div>      </div>
+
+              <div class="taxonomy">
+	              </div>
+	  
+              <div class="links">
+                  </div>
+      
+    </div>
+
+      
+  
+</div></div> <!-- /node-inner, /node -->
+  </div></div>
+
+</div></div> <!-- /block-inner, /block -->  </div>
+                      </div></div>
+
+    </div></div><!-- /middle-wrapper -->
+
+<!-- Bottom User Regions -->
+    
+<!-- The All Knowing All Seeing Footer Block -->
+	  <div id="footer"><div class="width-wrapper clearfix">
+        <div class="region region-footer">
+    <div id="block-block-2" class="block block-block"><div class="block-inner clearfix">
+
+      
+  <div class="content"><div class="content-inner">
+    <div style="float:left;position:relative;top:-9px;">
+	<table align="left" border="0" cellpadding="0" cellspacing="0" dir="ltr" style="position: relative; left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; width: 720px; "><thead style="padding:0px;"><tr><th scope="col" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; white-space: nowrap; text-align: left; vertical-align: middle; width: 190px; "><img alt="Contact CKS by Mail, Phone or Fax" src="http://cks.unt.edu/sites/default/files/kcfinder/images/icons/email_contact.png" style="vertical-align: baseline; float: left; width: 34px; height: 30px; " />  Contact Information</th>
+				<th scope="col" style="white-space: nowrap; text-align: left; vertical-align: middle; width: 190px; "><img alt="Contact CKS by Email" src="http://cks.unt.edu/sites/default/files/kcfinder/images/icons/email_us.png" style="vertical-align: baseline; float: left; width: 30px; height: 30px; " />  Email Site</th>
+				<th scope="col" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; white-space: nowrap; text-align: left; vertical-align: middle; width: 190px; "><img alt="UNT System" src="http://cks.unt.edu/sites/default/files/kcfinder/images/icons/system_graduation_cap.png" style="vertical-align: baseline; float: left; width: 42px; height: 30px; " />  UNT System</th>
+			</tr></thead><tbody style="padding:0px;margin:0px;"><tr class="odd" style="padding:0px;margin:0px;text-shadow:none;"><td style="padding-left:2px;text-align: left; vertical-align: middle; width: 190px; padding:0px;margin:0px;">Department of Learning Technologies<br />
+					3940 N. Elm, Suite G150/G172<br />
+					Denton, TX 76207<br />
+					P - (940) 565-2057<br />
+					F - (940) 565-4194</td>
+				<td style="padding-left:2px;text-align: left; vertical-align: middle; width: 190px;padding:0px;margin:0px; ">For questions about content on this site or technical issues contact:
+					<p><a href="mailto:lt-cte@unt.edu?subject=Message%20from%20CKS%3A%20(your%20name)&amp;body=Sent%20from%20cks.unt.edu%3A%0A%0A(your%20message)">lt-cte@unt.edu</a></p>
+					Or use the <a href="http://cks.unt.edu/contact/">Contact Form</a></td>
+				<td style="padding-left:2px;text-align: left; vertical-align: middle; width: 190px;padding:0px;margin:0px; "><a href="http://untsystem.edu/" target="_blank" title="UNT System">UNT System</a><br /><a href="http://dallas.unt.edu/" target="_blank" title="dallas.unt.edu">UNT Dallas Campus</a><br /><a href="http://www.hsc.unt.edu/" target="_blank" title="UNT Health Science Center">UNT Health Science Center</a> <a href="http://www.ucddowntown.org/" target="_blank" title="UCD">Universities Center at Dallas</a></td>
+			</tr></tbody></table></div>
+<div style="float: right; position: relative; top: 7px; "><a href="http://www.unt.edu/" target="_blank" title="University of North Texas"><img alt="University of North Texas" src="http://cks.unt.edu/sites/default/files/kcfinder/images/logos/unt_eagle_white_logo_wordmark.png" style="position: relative; top: 26px; float: right; width: 220px; height: 125px; " title="University of North Texas" /></a></div>
+  </div></div>
+
+</div></div> <!-- /block-inner, /block --><div id="block-block-4" class="block block-block"><div class="block-inner clearfix">
+
+      
+  <div class="content"><div class="content-inner">
+    
+<div id="footer-bottom-links" style="clear:both;position:relative;top:-16px;width:auto;margin:0 auto;padding:5px 0;">
+
+
+<div style="display:inline-block;position:relative;top:-8px;">
+  <!--&#169;-->&copy; 2011-2016 Center for Knowledge Solutions,&nbsp;
+</div>
+
+<div style="display:inline-block;position:relative;top:0;">
+
+<div id="block-views-tracker-block_1" class="block block-views"><div class="block-inner clearfix">
+
+      
+  <div class="content"><div class="content-inner">
+    <div class="view view-tracker view-id-tracker view-display-id-block_1 view-dom-id-6f2a828e869901aefaaa8cbd9955f7b3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <span class="views-field views-field-timestamp">    <span class="views-label views-label-timestamp">Last Updated: </span>    <em class="field-content">Thu, 3/3/2016 - 11:57 PM</em>  </span>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div></div>
+
+</div></div> <!-- /block-inner, /block -->
+</div>
+  <div style="clear:both;">
+
+    <!--<a href="#">Site Map</a> &nbsp; &nbsp;-->
+    <a href="http://www.unt.edu/disclaimer.htm" target="_blank" title="Disclaimer for printed materials">Disclaimer</a> &nbsp; &nbsp;
+    <a href="http://www.unt.edu/ada.htm" target="_blank" title="AA EOE ADA">AA/EOE/ADA</a> &nbsp; &nbsp;
+    <a href="http://www.unt.edu/unt_ps.html" target="_blank" title="Privacy Statement">Privacy Statement</a> &nbsp; &nbsp;
+    <a href="http://policy.unt.edu/policy/5-1" target="_blank" title="WEB ACCESSIBILITY POLICY (5.1)">Web Accesibility Policy</a> &nbsp; &nbsp;
+    <a href="http://www.unt.edu/state-texas.htm" target="_blank" title="State of Texas Required Resources">State of Texas Online</a> &nbsp; &nbsp;
+    <a href="http://cks.unt.edu/user/login">Site Account</a>
+
+  </div>
+</div>  </div></div>
+
+</div></div> <!-- /block-inner, /block -->  </div>
+	  </div></div><!-- /footer -->
+
+  </div></div><!-- page-wrapper -->  <div id="fancy_login_dim_screen"></div><div id="fancy_login_login_box"><div id="fancy_login_form_contents"><a href="#" id="fancy_login_close_button">X</a><form action="/" method="post" id="user-login" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">UNT Username (EUID) or UNT e-mail address <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="60" maxlength="60" class="form-text required" />
+<div class="description">You may login with either your assigned UNT username or your UNT e-mail address.</div>
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">UNT Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required" />
+<div class="description">The password field is case sensitive.</div>
+</div>
+<input type="hidden" name="form_build_id" value="form-LWI_RRtOvsZFfp-0HocEBqxS34x7fY_RLRvU_8Jp1Ao" />
+<input type="hidden" name="form_id" value="user_login" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Log in" class="form-submit" /></div></div></form><div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div></div><div id="fancy_login_ajax_loader"><img src="http://cks.unt.edu/sites/all/modules/fancy_login/images/ajax-loader.gif" alt="Loading" /></div></div>
+</body>
+</html>

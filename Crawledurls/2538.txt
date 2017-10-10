@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="Description" content="University of North Texas">
+    <title>University of North Texas - Department of Learning Technologies</title>
+	<script type="text/javascript">
+		var BASE = 'http://lt.unt.edu';
+		var TOKEN = '1KyzvBhjevoCpdfKZbUoTDihIoAyw0gjgmvR9b5L';
+	</script>
+    			<script src="http://lt.unt.edu/js/jquery-1.10.2.min.js"></script>
+        <script src="http://lt.unt.edu/js/lt.js"></script>
+        <script src="http://lt.unt.edu/js/jquery.yaselect.js"></script>
+        <link media="screen" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/jquery.yaselect.css">
+        <link media="screen" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/vbutton.css">
+        <link media="screen" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/screen-3.6.css">
+                	<link media="screen" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/new_footer.css">
+            <link media="print" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/new_footer-print.css">
+                        <link media="print" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/print-3.6.css">
+  
+                	<script src="http://lt.unt.edu/js/google_analytics.js"></script>
+          	
+    
+        	<link media="screen" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/badges.css">
+        <link media="screen" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/faculty_staff.css">
+    <link media="print" type="text/css" rel="stylesheet" href="http://lt.unt.edu/css/faculty_staff-print.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>            <a id="skip_to_content" href="#content">skip to content</a>
+            <!-- <form id="site_search" action="/search"> -->
+            <form method="POST" action="http://lt.unt.edu/search" accept-charset="UTF-8" id="site_search"><input name="_token" type="hidden" value="1KyzvBhjevoCpdfKZbUoTDihIoAyw0gjgmvR9b5L">            	<input placeholder="Search Learning Technologies" name="site_search_query" type="text">                <input class="vbutton" type="submit" value="Search">    
+            </form>            
+            <!-- </form> -->
+            <menu id="top_nav">
+                <li><a href="https://my.unt.edu/">MyUNT</a></li>
+                <li><a href="https://eagleconnect.unt.edu/">EagleConnect</a></li>
+                <li><a href="http://learn.unt.edu/">Blackboard</a></li>
+                <li><a href="http://www.unt.edu/find-people-department.htm">People &amp; Departments</a></li>
+                <li><a href="http://maps.unt.edu">Maps</a></li>
+                <li><a href="http://www.unt.edu/calendars-events.htm">Calendars</a></li>
+                <li><a href="https://giving.unt.edu/content/giving-unt">Giving to UNT</a></li>
+            </menu>
+            <a id="unt_logo_link" href="http://www.unt.edu">
+                <img src="/images/unt-logo.png" alt="UNT | University of North Texas" height="54" width="164">
+            </a>
+            <div id="lockup_wrapper">
+                <a id="ci_logo_link" href="http://ci.unt.edu">
+                    <!-- <img src="/images/coi-logo.png" alt="College of Information"> -->
+                    <!-- <img src="/images/coi-lockup.png" alt="College of Information"> -->
+                    <span>College of Information</span>
+                </a>
+                <a id="dept_link" href="http://lt.unt.edu"><span>Department of Learning Technologies</span></a>
+            </div>
+        </header>        <div id="main">
+            <menu id="main_menu" class="nav_menu">
+            	<li><span class="quick_links">QUICK LINKS</span></li>
+                <li><a href="http://lt.unt.edu/news">News</a></li>
+                <li><a href="http://lt.unt.edu/degrees">Degrees &amp; Certifications</a></li>
+                <li class="current_page"><a href="http://lt.unt.edu/faculty_staff">Faculty &amp; Staff</a></li>
+                <li><a href="http://lt.unt.edu/courses">Courses &amp; Schedules</a></li>
+                <li><a href="http://lt.unt.edu/research">Research</a></li>
+                <li><a href="http://lt.unt.edu/current_students">Current Students</a></li>
+                <li><a href="http://lt.unt.edu/advisory_board">Advisory Board</a></li>
+                <li><a href="http://lt.unt.edu/visitors">Visiting Scholars</a></li>
+                <li class="social_media"><a class="facebook" href="https://www.facebook.com/UNTLearningTechnologies"></a></li>
+                <li class="social_media"><a class="linkedin" href="http://www.linkedin.com/groups?guid=3166963"></a></li>
+            </menu>
+            <menu id="quick_links">
+            	<li><a href="http://lt.unt.edu/undergraduate">Undergrad</a></li>
+                <li><a href="http://lt.unt.edu/masters">Master's</a></li>
+                <li><a href="http://lt.unt.edu/doctorate">Doctorate</a></li>
+                <li><a href="http://lt.unt.edu/cecs_certification">LT MS Certification</a></li>
+                <li><a href="http://lt.unt.edu/cte_certification/cte_health_science_cpe_registration">CTE Cert.</a></li>
+                <!-- <li><a href="">Training Cert.</a></li> -->
+                <li class="line_break"><hr></li>
+                <li><a href="http://lt.unt.edu/scholarships">Scholarships</a></li>
+                <li><a href="http://lt.unt.edu/advisory_board">Advisory Board</a></li>
+                <li><a href="http://lt.unt.edu/visitors">Visitors</a></li>
+                <li class="line_break"><hr></li>
+                <li><a href="http://moodle.lt.unt.edu">Moodle</a></li>
+                <li><a href="http://classes.lt.unt.edu">Classes.LT</a></li>
+                <li><a href="http://courseweb.unt.edu">CourseWeb</a></li>
+                <li><a href="http://forums.lt.unt.edu">Forums.LT</a></li>
+                <li class="line_break"><hr></li>
+                <li><a href="http://cks.unt.edu">CKS</a></li>
+                <li><a href="http://iittl.unt.edu">IITTL</a></li>
+                <li><a href="http://www.tcet.unt.edu">TCET</a></li>
+            </menu>
+            
+			<div id="content">
+                <h3 class="print_info">Printed Wednesday May 11, 2016 10:15am<br> from http://lt.unt.edu/faculty_staff</h3>
+                                    	
+                	<h2 class="page_header">Faculty &amp; Staff</h2>
+    <h2>Faculty</h2>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Jeff M. Allen</strong>
+				<img src="/images/faculty/jeffm._allenjpg" alt="Jeff M. Allen">
+			</div>
+			<div class="info">
+				<span class="role">Regents Professor</span>
+				<span class="title">Director, Center for Knowledge Solutions</span>
+				<span class="credentials">Ph.D., Pennsylvania State University</span>
+				<span class="label">Office:</span> <span class="office">G172A</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-4918</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:jeff.allen@unt.edu">jeff.allen@unt.edu</a>
+				
+				
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Rose Baker</strong>
+				<img src="/images/faculty/rose_bakerjpg" alt="Rose Baker">
+			</div>
+			<div class="info">
+				<span class="role">Assistant Professor</span>
+				
+				<span class="credentials">Ph.D., Pennsylvania State University (2006)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G181</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 369-7684</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:rose.baker@unt.edu">rose.baker@unt.edu</a>
+				
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Baker&rsquo;s research interests include financial forecasting of workplace learning investments, impact of career and technology education, management techniques and statistical applications for operations and performance improvement, economic analysis, occupational forecasting, benchmarking, survey and evaluation design, evaluation of training outcomes, training needs assessment, and job task analysis.</p>
+<p>ORCID: <a href="http://orcid.org/0000-0003-2191-0436" target="_blank">0000-0003-2191-0436</a></p>
+<p>ResearcherID: <a href="http://www.researcherid.com/rid/D-2994-2016" target="_blank">D-2994-2016</a></p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Demetria Ennis-Cole</strong>
+				<img src="/images/faculty/demetria_ennis-colejpg" alt="Demetria Ennis-Cole">
+			</div>
+			<div class="info">
+				<span class="role">Professor</span>
+				
+				<span class="credentials">Ph.D., Kansas State University</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G183</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-3536</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:demetria.ennis-cole@unt.edu">demetria.ennis-cole@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="http://www.courses.unt.edu/Ennis-Cole/">http://www.courses.unt.edu/Ennis-Cole/</a><br><a href="http://tara.unt.edu">http://tara.unt.edu</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Ennis-Cole's areas of interest include Computer Education Instruction and Administration, Systems Development, Neural Networks, Internet, and Human Development. In addition, Dr. Ennis-Cole is the Undergraduate Program Coordinator.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Karen Johnson</strong>
+				<img src="/images/faculty/karen_johnsonjpg" alt="Karen Johnson">
+			</div>
+			<div class="info">
+				<span class="role">Assistant Professor</span>
+				
+				<span class="credentials">Ph.D., University of Minnesota (2011)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G180</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-3174</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:karen.johnson@unt.edu">karen.johnson@unt.edu</a>
+				
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Johnson's research interests include factors that influence workplace learning processes and outcomes, such as, service leadership, customer service training, and employee engagement. She examines the intersection of HRD and tourism and hospitality. Her scholarship&nbsp;also focuses on international HRD with an emphasis on workforce education policy issues.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Greg Jones</strong>
+				<img src="/images/faculty/greg_jonespng" alt="Greg Jones">
+			</div>
+			<div class="info">
+				<span class="role">Professor</span>
+				<span class="title">Associate Dean, College of Information</span>
+				<span class="credentials">Ph.D., The University of Texas at Austin (2001)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G157</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-2571</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:gjones@unt.edu">gjones@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="http://courseweb.unt.edu/gjones">http://courseweb.unt.edu/gjones</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Greg Jones' interest is in expanding the way technology can be used to further the creation and distribution of knowledge and learning. His research focuses on the areas of emerging technologies for learning, which include visualization systems for education, learning analytics, distributed learning, and virtual environments. These technologies support learning by understanding the need and then the distribution of interaction and feedback across both time and space via interactive forms of multimedia.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Gerald A. Knezek</strong>
+				<img src="/images/faculty/gerald_knezek.jpg" alt="Gerald A. Knezek">
+			</div>
+			<div class="info">
+				<span class="role">Regents Professor</span>
+				<span class="title">Director, Institute for the Integration of Technology into Teaching and Learning</span>
+				<span class="credentials">Ph.D., University of Hawaii (1978)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G193D</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-4195</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:gknezek@gmail.com">gknezek@gmail.com</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="http://courseweb.unt.edu/gknezek">http://courseweb.unt.edu/gknezek</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Knezek's research interests include measuring attitudes and dispositions toward information technology, developing and testing formal models of technology integration, developing practical research designs, and refining scaling methods and techniques.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Lin Lin</strong>
+				<img src="/images/faculty/lin_linjpg" alt="Lin Lin">
+			</div>
+			<div class="info">
+				<span class="role">Associate Professor</span>
+				
+				<span class="credentials">Ed.D., Columbia University</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G189</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 369-7572</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:lin.lin@unt.edu">lin.lin@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="http://courseweb.unt.edu/llin/">http://courseweb.unt.edu/llin/</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Lin&rsquo;s research lies in the intersections of cognition, technology, and learning. She has conducted research on media multitasking, online learning, game-based learning, and multimedia design. Dr. Lin has worked at different school settings, and has published at dozens of journals, including the <em>Proceedings of the National Academy of Sciences</em>.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Cathleen Norris</strong>
+				<img src="/images/faculty/cnorris.jpg" alt="Cathleen Norris">
+			</div>
+			<div class="info">
+				<span class="role">Regents Professor</span>
+				<span class="title">Interim Department Chair</span>
+				<span class="credentials">Ph.D., University of North Texas</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G191</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-4189</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:cathie.norris@unt.edu">cathie.norris@unt.edu</a>
+				
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Norris's areas of interest include Computer-based Education, Human Factors, and Teacher Productivity.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. James L. Poirot</strong>
+				<img src="/images/faculty/jpoirot.jpg" alt="James L. Poirot">
+			</div>
+			<div class="info">
+				<span class="role">Regents Professor</span>
+				<span class="title">Executive Director, Texas Center for Educational Technology</span>
+				<span class="credentials">Ph.D., Texas Tech University</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G195A</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-2824</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:jim.poirot@unt.edu">jim.poirot@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="http://www.tcet.unt.edu/">http://www.tcet.unt.edu/</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Poirot's areas of interest include Computer-based Education, Artificial Intelligence, and Computer Assisted Instruction.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Michael Spector</strong>
+				<img src="/images/faculty/mspector.jpg" alt="Michael Spector">
+			</div>
+			<div class="info">
+				<span class="role">Professor</span>
+				
+				<span class="credentials">Ph.D., The University of Texas at Austin (1978)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G182</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 369-5070</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:mike.spector@unt.edu">mike.spector@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="https://sites.google.com/site/jmspector007/">https://sites.google.com/site/jmspector007/</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>J. Michael Spector's recent research is in the areas of intelligent support for instructional design, system dynamics based learning environments, assessing learning in complex domains, distance learning, and technology integration in education. Dr. Spector served on the International Board of Standards for Training, Performance and Instruction (<span style="font-style: italic;">IBSTPI</span>) as Executive Vice President; he is on the Executive Committee of the IEEE Learning Technology Technical Committee and is Past-President of the Association for Educational and Communications Technology (AECT). He is the editor (now in his 12th year) of the Development Section of <span style="font-style: italic;">Educational Technology Research &amp; Development</span>, and he serves on numerous other editorial boards. He co-edited the third and fourth editions of the <span style="font-style: italic;">Handbook of Research on Educational Communications and Technology</span>, is lead editor of the <em>Encyclopedia of Educational Technology</em>, and has more than 125 journal articles, book chapters and books to his credit.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. John Turner</strong>
+				<img src="/images/faculty/john_turnerjpg" alt="John Turner">
+			</div>
+			<div class="info">
+				<span class="role">Assistant Professor</span>
+				
+				<span class="credentials">Ph.D., University of North Texas (2015)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G184</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 369-5369</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:john.turner@unt.edu">john.turner@unt.edu</a>
+				
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Turner's&nbsp;research interests include teams, team cognition, knowledge management, performance improvement, leadership, theory building, multilevel models, multilevel analysis,&nbsp;and meta-analysis techniques. He has published articles in <em>Advances in Developing Human Resources</em>, <em>Performance Improvement Quarterly</em>, <em>Performance Improvement</em>, <em>Journal of Knowledge Management</em>, and <em>International Journal of Technology, Knowledge, &amp; Society</em>.</p>
+<p>ORCID: <a href="http://orcid.org/0000-0003-0252-1531" target="_blank">0000-0003-0252-1531</a></p>
+<p>ResearcherID: <a href="http://www.researcherid.com/rid/D-1633-2016" target="_blank">D-1633-2016</a></p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Tandra Tyler-Wood</strong>
+				<img src="/images/faculty/tandra_tyler-woodjpg" alt="Tandra Tyler-Wood">
+			</div>
+			<div class="info">
+				<span class="role">Professor</span>
+				
+				<span class="credentials">Ph.D., University of North Carolina at Chapel Hill</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G155</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-2959</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:tandra.wood@unt.edu">tandra.wood@unt.edu</a>
+				
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Tyler-Wood's research interests include assessing and determining appropriate curriculum for special needs populations.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Scott Warren</strong>
+				<img src="/images/faculty/scott_warren.jpg" alt="Scott Warren">
+			</div>
+			<div class="info">
+				<span class="role">Associate Professor</span>
+				
+				<span class="credentials">Ph.D., Indiana University (2006)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G187</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 369-7489</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:scott.warren@unt.edu">scott.warren@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="http://www.scottjwarren.com">http://www.scottjwarren.com</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Warren's interests include the use of existing and emerging technologies to improve student literacy, motivation to learn, achievement, and positive experiences with school, especially in K-16 settings. Research interests include studying the use of technologies such as digital learning environments, off-the-shelf and designed games and simulations, and instances where these intersect with more traditional, non-digital curricular materials such as text books, literature, and oral storytelling, and teacher preparation for the use of each.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Jerry L. Wircenski</strong>
+				<img src="/images/faculty/jerry_wircenski.jpg" alt="Jerry L. Wircenski">
+			</div>
+			<div class="info">
+				<span class="role">Professor</span>
+				<span class="title">ATPI Program Coordinator</span>
+				<span class="credentials">Ph.D., Ohio State University (1972)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G178D</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-2714</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:akadrj@unt.edu">akadrj@unt.edu</a>
+				
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Wircenski's areas of interest include courseware design, evaluation, Career and Technical Education and learners with special needs.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Michelle Wircenski</strong>
+				<img src="/images/faculty/mickey_wircenski.jpg" alt="Michelle Wircenski">
+			</div>
+			<div class="info">
+				<span class="role">Professor</span>
+				
+				<span class="credentials">Ed.D., University of Buffalo (1978)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G178C</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-3567</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:mickey.wircenski@unt.edu">mickey.wircenski@unt.edu</a>
+				
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Wircenski's research interests include special populations, curriculum accommodations, learning styles, and authentic assessment.</p></div>
+			</div>
+		</div><h2>Lecturers</h2>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Laura Pasquini</strong>
+				<img src="/images/faculty/laura_pasquini.jpg" alt="Laura Pasquini">
+			</div>
+			<div class="info">
+				
+				<span class="title">Lecturer</span>
+				<span class="credentials">Ph.D., University of North Texas (2014)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G180</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 268-5920</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:Laura.Pasquini@unt.edu">Laura.Pasquini@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="https://about.me/laurapasquini">https://about.me/laurapasquini</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Pasquini&rsquo;s&nbsp;teaching and research scholarship lies in the areas of open education, communities of practice, networked scholarship, and collaborative learning environments for workplace learning &amp; performance. She consults with various education, non-profit and corporate associations on optimizing social media for learning, organizational culture and design, and strategic planning. As a self-declared geek and a self-taught techie who digitally engages both her peers and learners, you can often find Dr. Pasquini tweeting (<a class="ext" title="https://twitter.com/laurapasquini" href="https://twitter.com/laurapasquini" target="_blank">https://twitter.com/laurapasquini</a>) and blogging (<a class="ext" title="http://techknowtools.wordpress.com/" href="http://techknowtools.wordpress.com/" target="_blank">http://techknowtools.wordpress.com/</a>) about learning, performance, and technology.</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Peggy Rouh</strong>
+				<img src="/images/faculty/peggy_rouh.jpg" alt="Peggy Rouh">
+			</div>
+			<div class="info">
+				
+				<span class="title">Lecturer</span>
+				<span class="credentials">Ph.D., University of North Texas (2001)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G180</span>
+				<span class="label">Phone:</span> <span class="phone">(817) 691-1489</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:peggy.rouh@unt.edu">peggy.rouh@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="www.drrouh.com">www.drrouh.com</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Rouh's areas of interest are curriculum design in the on-line environment, needs analysis, and Career and Technical Education.</p>
+<p>&nbsp;</p></div>
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Dr. Robert Wright</strong>
+				<img src="/images/faculty/robert_wright.jpg" alt="Robert Wright">
+			</div>
+			<div class="info">
+				
+				<span class="title">Lecturer</span>
+				<span class="credentials">Ph.D., University of North Texas (2012)</span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G180</span>
+				<span class="label">Phone:</span> <span class="phone">(817) 975-8046</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:robert.wright@unt.edu">robert.wright@unt.edu</a>
+				<span class="label">Websites:</span> <div class="websites"><a href="https://unt.academia.edu/RobertWright">https://unt.academia.edu/RobertWright</a></div>
+				<span class="label">Information:</span> <div class="user_info"><p>Dr. Wright's teaching and research interests &nbsp;focus on multimedia production for technology applications, the design and implementation of technology-based learning environments, improving student-instructor rapport in distributed learning systems, and foundational learning and design theory.</p></div>
+			</div>
+		</div><h2>Staff</h2>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Luke Garrison</strong>
+				<img src="/images/faculty/luke_garrisonjpg" alt="Luke Garrison">
+			</div>
+			<div class="info">
+				<span class="role">Student Worker</span>
+				<span class="title">Student Academic Assistant</span>
+				<span class="credentials"></span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G150</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-2057</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:Luke.Garrison@unt.edu">Luke.Garrison@unt.edu</a>
+				
+				
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Rebecca How</strong>
+				<img src="/images/faculty/rebecca_how.jpg" alt="Rebecca How">
+			</div>
+			<div class="info">
+				<span class="role">Staff</span>
+				<span class="title">Project/Program Specialist</span>
+				<span class="credentials"></span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G173</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-2957</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:rebecca.how@unt.edu">rebecca.how@unt.edu</a>
+				
+				
+			</div>
+		</div>
+		<div class="listing">
+			<div class="listing_left">
+				<strong>Anh Huynh</strong>
+				<img src="/images/faculty/anh_huynh.jpg" alt="Anh Huynh">
+			</div>
+			<div class="info">
+				<span class="role">Student Worker</span>
+				<span class="title">Student Academic Assistant</span>
+				<span class="credentials"></span>
+				<span class="label">Office:</span> <span class="office">Discovery Park, G150</span>
+				<span class="label">Phone:</span> <span class="phone">(940) 565-2057</span>
+				<span class="label">Email:</span> <a class="email" href="mailto:anh.huynh@unt.edu">anh.huynh@unt.edu</a>
+				
+				
+			</div>
+		</div>          
+            </div><!-- #content -->
+            	<div id="sub_menu_wrapper">                
+        
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_undergrad" class="badge_item_picture">
+													<div class="badge_item_text" style="float:right; width:90px;">Bachelor of Applied Arts <br />&amp; Sciences</div>
+													<div class="badge_item_caption"><p>Gain your Bachelor's degree online.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="http://baas.unt.edu">Get Started</a></div>	
+			</div>
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_graduate" class="badge_item_picture">
+													<div class="badge_item_text" style="float:right; width:70px;">Master <br />Degrees</div>
+													<div class="badge_item_caption"><p>You may be closer than you think.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="/masters">Get Started</a></div>
+			</div>
+			<div class="badge_item_wrapper">
+				
+											<div class="badge_item_overlay">
+												<div id="badge_doctorate" class="badge_item_picture">
+													<div class="badge_item_text">Doctoral Degrees</div>
+													<div class="badge_item_caption"><p>Learning Technologies offers three Ph.D. programs.</p></div>
+												</div>
+											</div>
+											<div class="badge_enroll_tab"><a href="/doctorate">Get Started</a></div>
+			</div>    </div>
+            
+        	<hr class="trick">
+    	</div> <!-- #main -->
+	</div> <!-- #wrapper -->
+
+    <footer>    	    	 
+       	<div id="top_footer">
+        	<div class="footer_item_wrapper">
+                <ul>
+                    <li id="lockup" class="footer_item">
+                        <a href="http://lt.unt.edu"><img src="/images/lt-lockup-white-small.png" alt="Department of Learning Technologies"></a>
+                    </li>
+                    <li class="footer_item">
+                        <h2 id="visit_us">Visit Us</h2>
+                        <p>
+                        <strong>UNT Discovery Park</strong><br>
+                        1st Floor, G Wing, Suite 150</p>
+                        <p>
+                        <a href="http://maps.unt.edu/places/1111/view">[map]</a></p>
+                    </li>
+                    <li class="footer_item">
+                        <h2 id="mail_us">Mail Us</h2>
+                        <address>
+                        <strong>Dept. of Learning Technologies</strong><br>
+                        3940 N. Elm, Suite G150<br>
+                        Denton, Texas 76207
+                        </address>
+                    </li>
+                    <li class="footer_item">
+                        <h2 id="contact_us">Contact Us</h2>
+                        <p>
+                        Phone: 940-565-2057<br>
+                        Fax: 940-565-4194<br>
+                        Email: <a href="mailto:LT-info@lt.unt.edu">LT-info@unt.edu</a></p>
+                        <p><a href="mailto:webmaster@lt.unt.edu">Technical problems?</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="bottom_footer">
+        	<p id="last_updated">Site last updated on <span>	June 8, 2014</span></p>
+            <p id="built_with">Built with <a href="http://laravel.com">Laravel</a> <span class="laravel_version">v4.0.10</span></p>
+                
+        	<div class="footer_item_wrapper">
+            	<ul>
+                	<li><a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a></li>
+                    <li><a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a></li>
+                    <li><a href="http://www.unt.edu/unt_ps.html">Privacy</a></li>
+                    <li><a href="http://policy.unt.edu/policy-by-number/5">Web Accessibility</a></li>
+                    <li><a href="http://www.unt.edu/state-texas.htm">State of Texas Online</a></li>
+                    <li><a href="http://emergency.unt.edu/">Emergency Preparedness</a></li>
+                </ul>
+            </div>
+        </div>
+            </footer></body>
+</html>

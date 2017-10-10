@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta property="dcterms.language" content="en" />
+<meta property="dcterms.identifier" content="doi:10.12794/tef.2013.261" />
+<meta property="dcterms.date" content="2013" />
+<meta property="dcterms.rights" content="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US" />
+<meta property="dcterms.type" content="Text" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="dcterms.format" content="text/html" />
+<meta property="dcterms.publisher" content="The Honors College, University of North Texas" />
+<meta property="dcterms.title" content="Developing a Central Intake for Collaborating Nonprofits" />
+<meta property="dcterms.creator" content="Heather Quinn" />
+<meta property="dcterms.description" content="The purpose of this project is to study the feasibility of a centralized intake process for Serve Denton, a nonprofit organization that seeks to co-locate several nonprofit service providers in Denton, Texas. The purpose of central intake is to provide a single point for soliciting client information required by multiple nonprofit agency partners. This project employed open-ended surveys administered to non-profit organizations in two phases to determine what agencies view as potential benefits and obstacles associated with implementing a central intake system." />
+<link rel="publisher" href="http://eaglefeather.honors.unt.edu" />
+<meta about="/2013/article/261" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<meta content="Developing a Central Intake for Collaborating Nonprofits" about="/2013/article/261" property="dc:title" />
+<meta name="citation_journal_title" content="The Eagle Feather Undergraduate Research Journal" />
+<meta name="abstract" content="The purpose of this project is to study the feasibility of a centralized intake process for Serve Denton, a nonprofit organization that seeks to co-locate several nonprofit service providers in Denton, Texas. The purpose of central intake is to provide a single point for soliciting client information required by multiple nonprofit agency partners. This project employed open-ended surveys administered to non-profit organizations in two phases to determine what agencies view as potential benefits and obstacles associated with implementing a central intake system." />
+<meta name="description" content="The purpose of this project is to study the feasibility of a centralized intake process for Serve Denton, a nonprofit organization that seeks to co-locate several nonprofit service providers in Denton, Texas. The purpose of central intake is to provide a single point for soliciting client information required by multiple nonprofit agency partners. This project employed open-ended surveys administered to non-profit organizations in two phases to determine what agencies view as potential benefits and obstacles associated with implementing a central intake system." />
+<meta name="keywords" content="The Eagle Feather Undergraduate Research Journal" />
+<link rel="canonical" href="http://eaglefeather.honors.unt.edu/2013/article/261" />
+<link rel="shortlink" href="http://eaglefeather.honors.unt.edu/2013/article/261" />
+<meta name="robots" content="index, nofollow" />
+<meta name="copyright" content="CC BY-NC 3.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Developing a Central Intake for Collaborating Nonprofits | The Eagle Feather, A Publication for Undergraduate Scholars</title>
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_NdVgz6YKifxQUEsW5xls_zI7Pn2F7E5U5Wb29zcu3vo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_ImU4_ZM6ex21Lw-cQzMX5_f_Q94H1v8fe4p29VpB1BE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_WkIQlS2V8h4Vh16HARhGTGX8u2nA_FzvuTZ5-DXLwaQ.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_Vj9RYY0OMFZsZYjgkVE4j1cJFKmfFXZAthDlS5nIGNc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_5_EBsvYf_U3gqgv1Idal1sImw7zcXB1kaIR6NOugp8o.css" media="print" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_7ntML1-81LlnzjYRKoHTropJuTkO1SLFyQR3uVQdbWw.css" media="only screen" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_ffuIIOPfPft5Wso5kCpe6PEw3-xRDrNnekjxKX3Z64A.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_8FHeqCdr_F6cuCWDXbQz5yakWsSOfk8TWH77Oo6wdr8.css" media="only screen" />
+
+<!--[if (lt IE 9)&(!IEMobile 7)]>
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_o71ZcIMH-GIPvwLTgfWLI-angvn-eYLnaRPB68wXxho.css" media="screen" />
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/css/css_eSsgqSFG6FPch1GPElhYAHv1OrZ2yHhEp0L9P8G-Szk.css" media="screen" />
+<![endif]-->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/js/js_IkgOrrVZK1UTp2HktvFi5vo1g7b25Muyr5GoySikuic.js"></script>
+<script src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/js/js_DkJFoQ-Rr0j9ezOkx96-6gzKWz3t9Tn9q2oXmDM1UZM.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-45645158-2");ga("send", "pageview");</script>
+<script src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/js/js_s3PXMHCqo5jDzIqNtaHz6tyyFhYLHo9jgX7JqanEmWE.js"></script>
+<script src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/js/js_zoIR6wxkKoF46wcDgqzuONs_b9HoqrZKgR3ptlHozWg.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"corolla","theme_token":"vU86zZepbeOgfPjfoOG93J06Hks4Y9j3stvGHzR3ToI","js":{"http:\/\/code.jquery.com\/jquery-1.7.1.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/scripts\/jquery.tableofcontents.min.js":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/scripts\/jquery.easing.1.3.js":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/scripts\/jquery.cycle.all.js":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/scripts\/myscript.js":1,"sites\/eaglefeather.honors.unt.edu\/themes\/adaptivetheme\/at_core\/scripts\/scalefix.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example5\/colorbox.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/adaptivetheme\/at_core\/css\/at.settings.style.headings.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/adaptivetheme\/at_core\/css\/at.settings.style.image.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/html-elements.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/forms.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/tables.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/page.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/articles.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/comments.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/fields.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/blocks.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/navigation.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/fonts.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/corolla.settings.style.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/color\/colors.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/tef.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/print.css":1,"public:\/\/adaptivetheme\/corolla_files\/corolla.responsive.layout.css":1,"public:\/\/adaptivetheme\/corolla_files\/corolla.fonts.css":1,"public:\/\/adaptivetheme\/corolla_files\/corolla.responsive.styles.css":1,"public:\/\/adaptivetheme\/corolla_files\/corolla.lt-ie9.layout.css":1,"sites\/eaglefeather.honors.unt.edu\/themes\/corolla\/css\/ie-lte-7.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+<!--[if lt IE 9]>
+<script src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/themes/adaptivetheme/at_core/scripts/html5.js?npp3fd"></script>
+<![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-305 node-type-article site-name-hidden color-scheme-custom corolla bs-n bb-n mb-n rc-0 rct-0">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper">
+  <div id="page" class="page ssc-n ssw-n ssa-l sss-n btc-n btw-b bta-l bts-n ntc-n ntw-b nta-l nts-n ctc-n ctw-b cta-l cts-n ptc-n ptw-b pta-l pts-n">
+
+          <div id="menu-bar-wrapper">
+        <div class="container clearfix">
+          <div id="menu-bar" class="nav clearfix"><nav id="block-system-main-menu" class="block block-system block-menu menu-wrapper menu-bar-wrapper clearfix"  role="navigation">  
+      <h2 class="element-invisible block-title element-invisible">Main menu</h2>
+  
+  <ul class="menu clearfix"><li class="first leaf menu-depth-1 menu-item-224"><a href="/" title="">Menu</a></li><li class="leaf menu-depth-1 menu-item-570"><a href="/2015" title="">Current Issue</a></li><li class="leaf menu-depth-1 menu-item-546"><a href="/archive">Issue Archive</a></li><li class="leaf menu-depth-1 menu-item-462"><a href="/about">About</a></li><li class="leaf menu-depth-1 menu-item-641"><a href="/editorial-board-2015">Editorial Board</a></li><li class="leaf menu-depth-1 menu-item-573"><a href="/submissions">Submissions</a></li><li class="last leaf menu-depth-1 menu-item-668"><a href="/search">Search</a></li></ul>
+  </nav><nav id="block-block-2" class="block block-block no-title menu-wrapper menu-bar-wrapper clearfix" >  
+  
+  <a href="http://honors.unt.edu" target="_blank"><img src="/sites/eaglefeather.honors.unt.edu/files/images/site/honors-logo.png"></a>
+  </nav></div>        </div>
+      </div>
+    
+    <div id="header-wrapper">
+      <div class="container clearfix">
+
+        <header class="clearfix with-logo" role="banner">
+
+                      <div id="branding" class="branding-elements clearfix">
+
+                              <div id="logo">
+                  <a href="/" title="Home page"><img class="site-logo image-style-none" typeof="foaf:Image" src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/teflogo_small_vertical.png" alt="The Eagle Feather" /></a>                </div>
+              
+                              <hgroup class="element-invisible" id="name-and-slogan">
+
+                                      <h1 class="element-invisible" id="site-name"><a href="/" title="Home page">The Eagle Feather</a></h1>
+                  
+                  
+                </hgroup>
+              
+            </div>
+          
+          <div id="unt-brand"><a href="http://www.unt.edu"><img src="/sites/eaglefeather.honors.unt.edu/files/images/site/unt-lettermark.png" alt="University of North Texas"></a></div>
+
+        </header>
+
+      </div>
+    </div>
+
+    
+
+    
+    
+    <div id="content-wrapper">
+      <div class="container">
+
+        <div id="columns">
+          <div class="columns-inner clearfix">
+
+            <div id="content-column">
+              <div class="content-inner">
+
+                
+                <section id="main-content" role="main">
+
+                  
+                  <div class="content-margin">
+                  
+                                    
+               			  
+                    <div class="content-style">
+
+                      
+                      
+                      
+                                              <header class="clearfix">
+                          <h1 id="page-title">
+                            Developing a Central Intake for Collaborating Nonprofits                          </h1>
+                        </header>
+                      
+                      
+                      
+                      <div id="content">
+                        <div id="block-block-4" class="block block-block no-title" >  
+  
+  <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style" id="sharing-block">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51defd64647fadf9"></script>
+<!-- AddThis Button END -->
+  </div><div id="block-system-main" class="block block-system no-title" >  
+  
+  <article id="node-305" class="node node-article article ia-r clearfix" about="/2013/article/261" typeof="sioc:Item foaf:Document" role="article">
+  <div class="node-inner">
+
+    
+              <header class="node-header">
+
+        
+        
+      </header>
+        
+    <div class="node-content">
+        <section class="field field-name-field-article-abstract field-type-text-long field-label-above view-mode-full"><h2 class="field-label">Abstract:&nbsp;</h2><div class="field-items"><div class="field-item even"><p>The purpose of this project is to study the feasibility of a centralized intake process for Serve Denton, a nonprofit organization that seeks to co-locate several nonprofit service providers in Denton, Texas. The purpose of central intake is to provide a single point for soliciting client information required by multiple nonprofit agency partners. This project employed open-ended surveys administered to non-profit organizations in two phases to determine what agencies view as potential benefits and obstacles associated with implementing a central intake system.</p>
+</div></div></section><section class="field field-name-field-article-toc field-type-text-long field-label-above view-mode-full"><h2 class="field-label">Table of Contents:&nbsp;</h2><div class="field-items"><div class="field-item even"><ul id="toc"></ul></div></div></section><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even" property="content:encoded"><h2>Introduction</h2>
+<p>At a time of increasingly constrained human service budgets in the United States, low-income citizens are finding it more difficult to gain access to the resources they need to survive. The traditional silo approach to service delivery used by most government agencies and nonprofit organizations further complicates access. Clients are left with not only the problem of trying to find services as they become scarcer, but also the issue of the time and expense associated with transportation between various service providers and filling out paperwork for each individual service. One research institute noted, “Until recently, social welfare policy has primarily focused on ‘people-based investments’ rather than ‘place-based investments’” (Rural Policy Research Institute, 2010, p.4). Place-based investments not only put services where they are needed most, but they condense services to make them more accessible, increasing the efficiency and effectiveness of the organization. In the early 1990s, a few government agencies began to experiment with place-based investment policy through service integration (Michalczych, Lentz, &amp; Martin, 2004; Ragan, 2002c).</p>
+<h2>Literature Review</h2>
+<h4>Service Integration</h4>
+<p>Service integration has been defined as the provision of “seamless comprehensive services from multiple programs without repeated registration procedures, waiting periods, or other administrative barriers” (Centers for Disease Control and Prevention, 2009). At one highly recognized model of service integration, the Neighborhood Place system in Jefferson County, Kentucky, clients can enroll in an array of government services from financial assistance to emergency housing in a single location, usually on public school campuses in low-income areas (Michaelczych, Lentz, &amp; Martin, 2004). Service integration in the Neighborhood Place system resulted in a 109% increase in homeless families served from 2002 to 2003 (Michalczych, Lentz, &amp; Martin, 2004). This approach was so successful it was replicated in Louisiana in 2008 (Louisiana Department of Children and Family Services). In another model, PeninsulaWorks in San Mateo County, California, a variety of human services are delivered under one roof at convenient locations across the region (Ragan, 2002a). Service integration has been used by nongovernment organizations as well. At Haven for Hope in San Antonio, Texas, 15 buildings on 37 acres house 47 partner agencies that serve the city’s homeless population (Haven for Hope). The entire operation seeks to sustainably end homelessness with services like job training and placement for the elderly, veterans, and single mothers while providing housing. As many as 1600 homeless people have taken shelter on their campus in one night (Haven for Hope). By co-locating services and focusing attention on a place, human service providers can not only make access to services more convenient, but can also make a community more sustainable. In all of these cases, service integration has increased access to services.</p>
+<h4>Central Intake</h4>
+<p>A shared feature among these service integration models is central intake, or a process of registering clients that shares client information across several organizations. Central intake gives a client access to a wide range of services by simply going through one intake interview instead of several. Information sharing can be difficult for some organizations. For example, the Human Services System in Fairfax County, Virginia, set out to create a central intake as part of their integration and co-location of services in the mid-1990s. Due to budgetary constraints, they scaled back to a call center environment to refer callers to the appropriate services (Ragan, 2002b, p. 10). There are many difficult issues to handle when creating a central intake, such as what information can cross over organizations and which information can legally be shared. There is also the issue of whether or not to have a central office for intake or send clients directly to the organizations themselves. However, a central intake can produce many dividends like reducing costs by standardizing a method of data collection as well as creating opportunities for coordinated grant applications (Orszag, Barnes, Carrion, &amp; Summers, 2009). One source of data is also important to measuring the performance of amalgamated services to compare with past results and improve future practices.</p>
+<h2>Serve Denton</h2>
+<p>In Denton, Texas, an organization called Serve Denton seeks to use service integration and central intake to improve the effectiveness of 20 community agencies that have expressed interest in participating in central intake. Refer to the list in <a href="#table_1">Table 1</a>. This mission is particularly pertinent to Denton since it is adjacent to rural areas with a lack of access to resources and 20.3% of people in Denton are below poverty level (US Census Bureau, 2010). Their primary concern, as they are still in the developmental stage, is how to implement a central intake that benefits all of these organizations and their clients.</p>
+<h2>Research Methodology</h2>
+<h4>Overview</h4>
+<p>Twelve nonprofit agencies were surveyed in two separate phases. In the first phase, three established nonprofit organizations that have co-located other nonprofit agencies and that use central intake were surveyed about their experience with this system. In the second phase, nine local nonprofit agencies interested in co-location through Serve Denton were surveyed about their perspectives on a central intake system.</p>
+<h4>Data Collection</h4>
+<p><strong>Established Co-Location Organization Surveys</strong>. In summer 2012, a survey consisting of ten open-ended questions was sent to three established co-location organizations to gather information about the history of their implementation of central intake. Questions covered each organization’s philosophy regarding central intake, the benefits and setbacks they have incurred from its implementation, how they protect client confidentiality, and structure of intake itself. Refer to <a href="#appendix_a">Appendix A</a>. These three organizations were chosen from the established model organizations mentioned in the literature review. One of these organizations chose not to participate, so another organization with a similar structure that served a comparable number of clients was chosen. Information gathered from these surveys helped shape the development of the subsequent partner agency surveys.</p>
+<p><strong>Partner Agency Surveys</strong>. In September 2012, a survey consisting of six open-ended questions was sent to the twenty nonprofit agencies interested in becoming colocation partners through Serve Denton. This survey requested information about the partner agencies’ needs and concerns specific to Serve Denton and included questions regarding their interests and concerns with a central intake system. Refer to <a href="#appendix_b">Appendix B</a>. Nine agencies participated for a 45% response rate. All twenty agencies received a follow-up email and a subsequent phone call reminding them to complete the survey.</p>
+<h4>Data Analysis</h4>
+<p>Data obtained from both surveys was qualitatively analyzed to identify the major themes. Analysis of the surveys received from established co-location organizations provided a framework to identify possible strengths and issues with the use of centralized intake. Analysis of the partner agency surveys provided common themes of what the partner agencies hope to gain or achieve by adopting a central intake system.</p>
+<h4>Ethical Considerations</h4>
+<p>I sought approval for this research project from the University of North Texas Institutional Review Board (IRB). However, since the research subjects were nonprofit agencies, they did not fall under the definition of “human subjects” and no IRB approval was required. There were no foreseeable risks to any research subjects since the survey questions addressed agency perceptions and did not involve individuals’ personal information. All survey respondents were informed that the identity of the organization they represent would not be connected with their individual responses after initial analysis.</p>
+<h2>Results</h2>
+<h4>Established Co-Location Organization Surveys</h4>
+<p>Responses from three organizations that have successfully implemented a central intake process showed a pattern of client-driven philosophies but partner agency-driven benefits and intake structure. All of the organizations reported a belief that central intake makes the intake experience easier for clients and reduces administrative barriers. However, most of the discussion surrounding the successes and obstacles associated with central intake did not involve clients but rather partner agencies. For example, all three organizations reported that the primary benefits of central intake were time and cost savings for their partner agencies. Another commonly cited success was better inter-agency relationships that promoted efficiency in the organization and enhanced partnerships.</p>
+<p>A major obstacle or concern with central intake involved the lack of a consistent vision and strategy among partner agencies. For example, two organizations reported problems with agencies’ different service approaches and that the methods of care of their partner agencies did not coalesce. One agency reported issues from lack of a common mission and values among all their partner agencies at the beginning of their endeavor to implement central intake. Responses regarding intake structure also reflected the importance of partner agency participation in central intake. Two out of the three organizations reported relying on partner agency staff to conduct intake.</p>
+<p>Responses regarding the protection of client confidentiality indicated more focus on the client and less on the agency. For example, respondents tended to center on release forms to secure client permission rather than agency-based measures to protect client data. One organization did report a limit on users of their intake database and another organization described privacy rules and guidelines agreed upon by their partner agencies.</p>
+<h4>Partner Agency Surveys</h4>
+<p>Unlike the organizations surveyed in the first phase, the partner agencies responses reflected a range of institutional sophistication and competence. In spite of this difference, responses from the partner agency surveys were similar in key respects to those of the established co-location organizations. The partner agencies, like the established organizations, tended to focus more on how they perceived that central intake would either benefit or introduce concerns for their agency—not their clients. Major themes from the partner surveys included interest in coordinating with other agencies, a desire to market their own services, and concerns about reducing their operational efficiencies.</p>
+<p>Four out of nine agencies reported that one of their interests in participating in central intake was to coordinate with other local agencies. These agencies indicated a desire to collaborate with other service providers in order to provide a more holistic service approach to meet clients' needs. When asked about the benefits they hope to receive from central intake, two-thirds of the agencies indicated that this system would result in more informed referrals whether that means referring someone who really needs the services or only referring to agencies that have the capacity to take on new clients.</p>
+<p>The use of central intake to market services to other agencies and the community is another perceived benefit of nearly half of the partner agencies. For the most part, these agencies saw an increase in their number of clients as a potential benefit of participating in central intake. However, a third of the partner agencies reported concern for meeting potentially increased client demand.</p>
+<p>An important finding from the partner agency surveys was a lack of understanding of the benefits of central intake versus co-location. Many agencies perceived that intra-agency marketing is positive byproduct of central intake. It was not clear that agencies understood that central intake is primarily associated with shared data. Rather, it appears that many agencies confuse central intake and co-location.</p>
+<p>Unlike the established organizations, nearly half of the partner agencies expressed concern that a central intake system might decrease efficiency in their individual organization. This included anxiety over the possibility of having lengthy interviews to cover all the partners' data requirements, conducting an additional interview upon arrival at the agency to obtain all information not covered by central intake, or having to re-enter data into the agency's own system if a merge or transfer of data is not possible. This last concern is especially pertinent since 66% of responding agencies reported using their own tracking system, which almost all of them are required to use. Also, four of the agencies require data that they want excluded from the database because there are regulations protecting it.</p>
+<h2>Discussion</h2>
+<h4>Recommendations</h4>
+<p>A major issue that Serve Denton must address before implementing a central intake system is alleviating the conceptual confusion between central intake and co-location. The benefits of marketing and increased client base are benefits derived from co-location, not central intake. However, many agencies perceived that these are benefits associated with a central intake system. Meeting with these agencies to explain central intake systems and differentiate between the two methods of service integration is important to the eventual success of Serve Denton. Educating agencies will facilitate implementation by setting appropriate expectations and will give these agencies an opportunity to express any concerns they have about the process. It is still important to note that intra-agency marketing is a primary interest of the partner organizations. Serve Denton could facilitate meetings that would give agencies an opportunity to present their services to other agencies. Serve Denton, as the parent organization, could also offer classes on public relations or marketing to the agencies that would like help in this area.</p>
+<p>The trepidations many of these agencies report about receiving an influx of new clients should be addressed prior to implementing a central intake system. Agencies should be able to communicate their level of resources to intake staffers to avoid overflow, but lack of strategic planning could be the core issue. Serve Denton might offer training on strategic planning for its nonprofit agency partners.</p>
+<p>Since the purpose of central intake is to increase the efficiency of these organizations, the concerns about reducing efficiency should especially be addressed. As so many agencies have proprietary systems that they are required to use, a central intake system will have to be designed with this in mind. The ability to merge or automatically load data into agencies' existing systems would be the ideal solution.</p>
+<h4>Limitations</h4>
+<p>The findings from the two surveys—established co-location organizations and partner agencies—are an important first step in the implementation of the Serve Denton project. They expose both agency expectations and misconceptions about central intake and co-location. However, this research also has some limitations. The first is the 45% response rate from the partner agency surveys. While the themes derived from the data from these surveys were fairly strong, they are merely suggestive. The second is the more subjective nature of qualitative analysis. In the future, a more comprehensive quantitative survey of the partner agencies should be used to bolster this research on their perceptions about central intake.</p>
+<h2>References</h2>
+<ul>
+<li>Centers for Disease Control and Prevention. (2009). <em>Program collaboration and service integration: enhancing the prevention and control of HIV/AIDS, viral hepatitis, sexually transmitted diseases, and tuberculosis in the United States. </em>Atlanta, GA: U.S. Department of Health and Human Services.</li>
+<li>Haven for Hope. (n.d.). <em>Facts about Haven for Hope and homelessness</em>. Retrieved from http://www.havenforhope.org/new/about_factscampus.aspx</li>
+<li>Louisiana Department of Children and Family Services. (n.d.). <em>Neighborhood Place</em>. Retrieved from http://www.dss.state.la.us/index.cfm?md=pagebuilder&amp;tmp=home&amp;pid=171</li>
+<li>Michalczyk, L., Lentz, T., &amp; Martin, L. (2005). <em>Louisville’s neighborhood place system: A model approach to measure collaboration. </em>Retrieved from http://www.louisvilleky.gov/NR/rdonlyres/913F03A9-2390-4C04-A6B0-5E453037DF36/0/NParticleMay2005.pdf</li>
+<li>Orszag, P., Barnes, M., Carrion, A., &amp; Summers, L. (2009). <em>Developing effective place-based policies for the fy 2011 budget</em> (White House Publication No. M-09-28). Washington, D.C.: U.S. Government Printing Office.</li>
+<li>Ragan, M. (2002). <em>Service integration in San Mateo County, California: Multiple strategies with a single goal.</em> Retrieved from http://www.rockinst.org/pdf/workforce_welfare_and_social_services/2002-11-service_integration_in_san_mateo_county_california_multiple_strategies_with_a_single_goal.pdf</li>
+<li>Ragan, M. (2002). <em>Steps on the path to service integration in Fairfax County, Virginia.</em> Retrieved from http://www.rockinst.org/pdf/workforce_welfare_and_social_services/2002-08-12-steps_on_the_path_to_service_integration_in_fairfax_county_virginia.pdf</li>
+<li>Ragan, M. (2002). <em>The neighborhood place system- service integration in Jefferson County, Kentucky.</em> Retrieved from http://www.rockinst.org/pdf/workforce_welfare_and_social_services/2002-11-05-the_neighborhood_place_system_service_integration_in_jefferson_county_kentucky.pdf</li>
+<li>Rural Policy Research Institute Rural Human Services Panel. (2010). <em>Rethinking rural human service delivery in challenging times: The case for service integration. </em>Washington, D.C.</li>
+<li>U.S. Census Bureau. (2010). <em>State and county Quickfacts: Denton (city), T.X. </em>Retrieved February 17, 2012, from http://quickfacts.census.gov/qfd/states/48/4819972.html</li>
+</ul>
+<h2><a name="appendix_a"></a>Appendix A: Established Co-Location Organization Survey</h2>
+<ol>
+<li>What is your philosophy behind central intake?</li>
+<li>What are some of the greatest successes central intake has brought to your organization?</li>
+<li>What are the obstacles and difficulties your organization faced when implementing central intake?</li>
+<li>How do you ensure confidentiality and protection for your clients that use central intake?</li>
+<li>Do representatives from each agency/organization work at intake or does your organization have a separate intake team?</li>
+<li>How does your organization measure the outcomes of central intake to address quality improvement, effectiveness, future needs, grant requirements, or other issues?</li>
+<li>How are clients referred to services from central intake?</li>
+<li>Does your organizations’ central intake process address client fraud or duplication of services? If so, how?</li>
+<li>Do the organizations/agencies that use your central intake have specific geographical service areas? If so, how does your organization ensure that clients from outside the service area do not pass through intake?</li>
+<li>What benefits do the organizations/agencies that use your organization’s central intake receive from using the central intake?</li>
+</ol>
+<h2><a name="appendix_b"></a>Appendix B: Partner Agency Survey</h2>
+<ol>
+<li>Why is your organization interested in participating in central intake through Serve Denton?</li>
+<li>What benefits does your organization hope to receive from participating in central intake?</li>
+<li>What are your organization’s concerns about participating in central intake?</li>
+<li>Is there any client information that your organization would not want to include in the central intake database?</li>
+<li>Does your organization currently use your own client tracking software? If so, is your organization satisfied with its current system?</li>
+<li>Are there any other concerns your organization has expressed about accessing the central intake resource that will be provided by Serve Denton?</li>
+</ol>
+<h2><a name="table_1"></a>Table 1: Prospective Partner Agencies and Services</h2>
+<table border="1" cellpadding="0" cellspacing="0" style="width:590px;" width="590">
+<tbody>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p><strong>Agency Name</strong></p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p><strong>Services Provided</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Big Brothers/Big Sisters</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Community and school-based mentoring</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Boys and Girls Clubs</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>After school programs and mentoring</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Catholic Charities</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Children and adoption services, elderly services, immigration and legal services</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Communities in Schools North Texas</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Mentoring, tutoring, dropout prevention</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Community Services Inc.</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Energy assistance and weatherization</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Denton Community Food Center</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Emergency food assistance</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Denton County MHMR</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Mental health care</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Fred Moore School</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>After school care</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Friends of the Family</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Counseling for relationship violence and sexual assault</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Girl Scouts of Northeast Texas</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Character building and leadership experience for girls</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Health Services North Texas</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Medical care</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>HOPE, Inc.</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Emergency and transitional housing</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: left; vertical-align: top; width: 295px;">
+<p>Hope for North Texas</p>
+</td>
+<td style="text-align: left; vertical-align: top; width: 295px;">
+<p>Volunteer resources</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Interfaith Ministries</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Emergency financial assistance, eyeglasses, personal care and hygiene</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>NewDay Services</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Support for families found through the Family &amp; Juvenile Courts System and Child Welfare Systems</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>North Texas Food Bank</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Hunger relief</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Our Daily Bread</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Food assistance and distribution to partner organizations</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Special Abilities North Texas</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Care for adults with special needs</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>United Way of Denton County</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Nonprofit organization support</p>
+</td>
+</tr>
+<tr>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Woman to Woman Pregnancy Resource Center</p>
+</td>
+<td style="width: 295px; text-align: left; vertical-align: top;">
+<p>Childbirth classes, pregnancy testing, pregnancy and reproductive health information</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div></div></div>    </div>
+
+    
+    
+  </div>
+</article>
+
+  </div>                      </div>
+
+                      
+                    </div><!--end of content-style-->
+                    
+                   <!--end of front page condition -->
+                  </div>
+
+                </section>
+
+                
+              </div>
+            </div>
+
+                        <div class="region region-sidebar-second sidebar"><div class="region-inner clearfix"><div id="block-views-article-tool-blocks-block-1" class="block block-views no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="view view-article-tool-blocks view-id-article_tool_blocks view-display-id-block_1 article-tool author-info view-dom-id-ba93869af1f7b2d5bf7b5dc3b00c22a3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nid-1">        <span class="field-content"><div class="article-bio">
+<div class="author-image"><a href="/?inline=true#colorbox-inline-1" class="colorbox-inline" rel=""><img typeof="foaf:Image" class="image-style-thumbnail" src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/styles/thumbnail/public/images/2013/author//Quinn_Heather_headshot.jpg?itok=WdB9SCRB" width="75" height="100" alt="Heather Quinn" title="Heather Quinn" /></a><div style="display: none;"><div id="colorbox-inline-1"><img typeof="foaf:Image" class="image-style-large" src="http://eaglefeather.honors.unt.edu/sites/eaglefeather.honors.unt.edu/files/styles/large/public/images/2013/author//Quinn_Heather_headshot.jpg?itok=NEV0Is_M" width="360" height="480" alt="Heather Quinn" title="Heather Quinn" />
+<br />
+Heather Quinn </div></div></div><p><strong>Author: </strong>Heather Quinn</p>
+<p><strong>Faculty Mentor: </strong>Brenda McCoy, Ph.D., Department of Community &amp; Professional Programs, College of Public Affairs and Community Service</p>
+<p><a class="goto-unt-icon" href="http://facultyinfo.unt.edu/faculty-profile?query=Brenda+McCoy&amp;type=name&amp;profile=bgm0003" target="_blank">Faculty Profile at UNT</a></p>
+<p><strong>College and Department Affiliation: </strong>Department of Community &amp; Professional Programs, College of Public Affairs and Community Service; Honors College</p>
+<p><strong>Bio: </strong>Heather Quinn graduated from the University of North Texas with a bachelor’s degree in Applied Arts and Sciences with concentrations in Nonprofit Management, Public Administration, and Sociology and a minor in English. She held many honors and awards at UNT including a National Merit Scholarship, the Dr. Joe and Judy Stewart Scholarship, Gail Rola Memorial Service Learning Scholarship, PEO STAR Scholarship, membership in Golden Key International Honor Society, Global Learning and Experience Study Abroad Travel Grant to study at the University of London. Her passion for service stemmed from experiences as a lifetime member of Girl Scouts. For two years she was a mentor for G-Force, an effort created by the Texas Higher Education Coordinating Board to create a college-going culture in Texas high schools. Through UNT Service Learning in the College of Public Affairs and Community Service, Heather was introduced to the creators of Serve Denton, a future multi-tenant nonprofit center located in Denton, Texas. As a member of the Honors College, Heather embarked on a research project to help design the central intake system of the organization. Heather is currently the Collaboration Director for Serve Denton.&nbsp;</p>
+
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></div><div id="block-views-article-tool-blocks-block-3" class="block block-views no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="view view-article-tool-blocks view-id-article_tool_blocks view-display-id-block_3 article-tool back-to view-dom-id-d2c29e085079eb77e278561464d2d56f">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-article-issue">        <div class="field-content"><a href="/2013">Back to 2013 Issue</a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></div><div id="block-views-article-tool-blocks-block" class="block block-views no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="view view-article-tool-blocks view-id-article_tool_blocks view-display-id-block article-tool citation view-dom-id-60dde99a84c07da78732e6bc96e9b5db">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div>        <div class="citation-link"><a href="/?width=600px&amp;height=400px&amp;inline=true#colorbox-inline-2" class="colorbox-inline" rel="gallery-article_tool_blocks">Cite this article</a><div style="display: none;"><div id="colorbox-inline-2"><h1>Developing a Central Intake for Collaborating Nonprofits</h1>
+<h2>Citation</h2>
+<hr />
+<div class="citation-block">
+Quinn, Heather. "Developing a Central Intake for Collaborating Nonprofits." <em>The Eagle Feather</em> 10 (2013): n. pag. Web. 11 May 2016. <a href="http://dx.doi.org/10.12794/tef.2013.261">doi:10.12794/tef.2013.261</a>.
+</div>
+<hr />
+<p>
+<strong>Important:</strong> <br />Before using this citation in formal writing, please consult an <a href="https://owl.english.purdue.edu/owl/resource/747/01/" target="_blank">MLA Reference</a>.</p></div></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></div><div id="block-views-article-tool-blocks-block-4" class="block block-views no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="view view-article-tool-blocks view-id-article_tool_blocks view-display-id-block_4 article-tool author-info view-dom-id-32b34de88c55175a116a5a7dc54c694d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content">DOI: <a href="http://dx.doi.org/10.12794/tef.2013.261">http://dx.doi.org/10.12794/tef.2013.261</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></div></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    
+
+        
+    
+          <div id="footer-panels-wrapper">
+        <div class="container clearfix">
+          <!-- Four column Gpanel -->
+          <div class="at-panel gpanel panel-display four-4x25 clearfix">
+            <div class="panel-row row-1 clearfix">
+              <div class="region region-four-first"><div class="region-inner clearfix"><div id="block-block-6" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><a href="http://www.honors.unt.edu" target="_blank"><img src="/sites/eaglefeather.honors.unt.edu/files/images/site/honors_college_wht.png"></a>
+</div>
+  </div></div></div></div>              <div class="region region-four-second"><div class="region-inner clearfix"><div id="block-block-7" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><!--<img src="/sites/eaglefeather.honors.unt.edu/files/images/site/icon-content.jpg" alt="contact us" />--><h2>Contact</h2>
+<p>James Duban, Ph.D., Editor-in-Chief</p>
+<p>
+<strong>Phone:</strong> (940) 565-2820<br />
+<strong>Fax:</strong> (940) 369-7370<br /><br />
+
+<strong>E-mail</strong>:<br />
+eaglefeather@unt.edu<br />
+James.Duban@unt.edu
+</p>
+</div>
+  </div></div></div></div>            </div>
+            <div class="panel-row row-2 clearfix">
+              <div class="region region-four-third"><div class="region-inner clearfix"><div id="block-block-9" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><!--<img src="/sites/eaglefeather.honors.unt.edu/files/images/site/icon-tech.jpg" alt="contact us" />--><h2>Address</h2>
+<p>
+<strong>Visit:</strong><br />
+Sage Hall 257<br />
+University of North Texas <a href="https://maps.google.com/maps?q=Sage+Hall+257+Denton,+TX+76203&hl=en&sll=33.23759,-97.145151&sspn=0.389384,0.537643&hnear=Sage+Hall,+Denton,+Texas+76201&t=m&z=16" target="_blank">[Google Map]</a><br />
+<p>
+<p>
+<strong>USPS:</strong><br />
+University of North Texas<br />
+Honors College<br/>
+1155 Union Circle #310529<br />
+Denton, TX 76203-5017<br /><br />
+<strong>UPS & Fedex:</strong><br />
+University of North Texas<br />
+Honors College<br/>
+1167 Union Circle<br />
+Sage Hall, Suite 257<br />
+Denton, TX 76201
+</p></div>
+  </div></div></div></div>              <div class="region region-four-fourth"><div class="region-inner clearfix"><div id="block-block-8" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><!--<img alt="UNT Links" src="/sites/eaglefeather.honors.unt.edu/files/images/site/icon-system.jpg">--><h2>UNT Links</h2>
+            <p><a href="http://www.unt.edu/" title="University of North Texas">UNT</a> | <a href="http://www.unt.edu/search/">UNT Search</a> <br />
+<a href="http://www.unt.edu/newsandevents.htm">UNT News and Events</a> | <a href="http://www.texasonline.com/portal/tol">State of Texas</a> <br /> <a href="http://www.tsl.state.tx.us/trail/">State-wide Search</a></p>
+            <p><a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">UNT Web Accessibility Policy</a><br /><a href="http://www.unt.edu/aaeoeada.html">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a><br /> <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a></p>
+<p>This website is hosted and maintained by the <a href="http://www.library.unt.edu" target="_blank">UNT Libraries</a>. To report a technical issue, please contact the <a href="http://www.library.unt.edu/user-interfaces-unit" target="_blank">User Interfaces Unit</a>.</p></div>
+  </div></div></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+  </div>
+</div>
+  </body>
+</html>

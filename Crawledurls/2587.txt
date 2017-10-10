@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Veteran&#039;s FAQs &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-blog no-sidebars og-context og-context-699   blog">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/blog/veterans-faqs"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-GQEA3isu-NeYMk7PqaBBPmxU8lyjJg4lj3Bw_DpHFOs" value="form-GQEA3isu-NeYMk7PqaBBPmxU8lyjJg4lj3Bw_DpHFOs"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/blog/veterans-faqs"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-GQEA3isu-NeYMk7PqaBBPmxU8lyjJg4lj3Bw_DpHFOs" value="form-GQEA3isu-NeYMk7PqaBBPmxU8lyjJg4lj3Bw_DpHFOs"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+<style type="text/css">
+.social-buttons {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.blog {
+	margin-top: 3%;
+	font-size: 130%;
+	line-height: 170%;
+}
+a.post-share {
+	display: block;
+	height: 46px;
+	margin: 10px 0px 0px 0px;
+	text-decoration:none;
+	text-align:center;
+	font: 15px/46px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #ffffff;
+}
+a.post-share:hover {
+	opacity: 0.8;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.post-share span {
+	width: 20px;
+	height: 16px;
+	padding: 15px;
+	display: block;
+	float:right;
+	background-color: #4665af;
+	color: #ffffff;
+	vertical-align: middle;
+	font: 16px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+	text-indent: 0;
+}
+
+a.post-share.facebook {
+	background: #3e599a;
+}
+a.post-share.facebook span {
+	background-color: #4665af;
+}
+a.post-share.twitter {
+	background: #4b8cbe;
+}
+a.post-share.twitter span {
+	background-color: #529fda;
+}
+a.post-share.gplus {
+	background: #b8382e;
+}
+a.post-share.gplus span {
+	background-color: #d24238;
+}
+a.post-share.stumble {
+	background: #e15131;
+}
+a.post-share.stumble span {
+	background-color: #fd5d3b;
+}
+</style>
+<div class="hero ">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"><div class="label channel channel-reset">Blog</div> <div class="label channel channel-orientationtransitioning">Orientation & Transitioning</div></div>
+			<h1>Veteran&#039;s FAQs</h1>
+			<div class="subtitle">
+				Written for <a href="/student-veterans-services">Student Veteran Services</a>			</div>
+		</div>
+	</div>
+</div>
+
+<main class="container well">
+<div class="row blog" id=8279>
+
+	<div class="col-md-8 col-md-offset-1">
+    	
+		<div class="span15">
+	<ul>
+		<li>
+			<a href="#a">How can I determine my veteran status?</a></li>
+		<li>
+			<a href="#b">I am enrolled in school. When will I receive my benefits from VA?</a></li>
+		<li>
+			<a href="#c">What if I am receiving Education benefits, am called up, and drop out of school without receiving credit?</a></li>
+		<li>
+			<a href="#d">Are my education benefits taxable?</a></li>
+		<li>
+			<a href="#e">Can I receive credit for military training?</a></li>
+		<li>
+			<a href="#f">What&#39;s the earliest date I can use chapter 1607?</a></li>
+		<li>
+			<a href="#g">How do I apply for Chapter 1607?</a></li>
+		<li>
+			<a href="#h">What does the Veterans Center do?</a></li>
+		<li>
+			<a href="#i">Will the VA pay for me to have a tutor</a></li>
+		<li>
+			<a href="#j">I went to school here a few years ago and then quit school, how do I return to UNT?</a></li>
+	</ul>
+
+	<h2 id="a">
+		How can I determine my veteran status?</h2>
+
+	<h4>
+		Veterans and active duty military personnel are considered automatically independent for federal need analysis purposes. However, the Veterans Administration and the US Department of Education use a different definition of veteran, leading to some confusion.</h4>
+
+	<p>
+		<a href="http://www.finaid.org/military/veteranstatus.phtml" target="_blank">http://www.finaid.org/military/veteranstatus.phtml</a></p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="b">
+		I am enrolled in school. When will I receive my benefits from VA?</h2>
+
+	<p>
+		Once your school submits your enrollment information, it must be entered into the system by VA. Because VA is generally overwhelmed with enrollments at the start of each semester, it could take up to 6 weeks to process an enrollment during those times. Your patience is appreciated - we will process all of the enrollments in order by the date received.</p>
+
+	<p>
+		If you are receiving benefits under MGIB-AD (Chapter 30) or MGIB-SR (Chapter 1606), you must also verify your enrollment at the end of each month in order to receive payment for that month. Benefits are paid after each month of school is completed. For instructions on how to verify your enrollment,</p>
+
+	<p>
+		You will generally receive payment within two weeks of verifying your enrollment at the end of the month(or within one week if using Direct Deposit). If you don&#39;t receive payment in this timeframe, please contact VA using the Ask a Question tab, or by calling 1-888-GIBILL-1 (1-888-442-4551).</p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="c">
+		What if I am receiving Education benefits, am called up, and drop out of school without receiving credit?</h2>
+
+	<ul>
+		<li>
+			You are entitled to receive MGIB, MGIB-SR, VEAP, or DEA benefits through the date you dropped out of school.</li>
+		<li>
+			If you were called up under title 10 (federal authority), we will restore the entitlement you were charged for the period that you received benefits when you send us a copy of your orders or DD-214 verifying service under title 10.</li>
+	</ul>
+
+	<p>
+		For example, if you were in school one month and had to drop out, you keep the money for that period and we will add back a month to your entitlement for you to use at a later time. If you were called up under title 32 (state authority), you don&#39;t receive the entitlement restoration benefit.</p>
+
+	<ul>
+		<li>
+			If you have been overpaid education benefits, we will postpone collection action if you are deployed to a combat area. However, once you return from a combat area, you may be responsible for any overpayment of benefits.</li>
+	</ul>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="d">
+		Can I receive credit for military training?</h2>
+
+	<p>
+		As a veteran, active-duty, or reserve status member of the US Army, Navy, or Marine Corps, depending on your basic active-duty service date/basic pay entry dates (BASD/BPED), you may be eligible to receive and Army/American Council on Education Registry Transcript System (AARTS) or Sailor/Marine/American Council on Education Registry Transcript (SMART), available to you at no charge. AARTS and SMART transcripts are fully automated documents, endorsed by the American Council on Education (ACE) and generated by the services, that provide an official list of military courses, occupations, and college-level exam scores completed during active duty that have been evaluated by ACE for college credit.</p>
+
+	<p>
+		It is important for you to take advantage of these valuable tools that may add college credit to your program of study, at no cost to you! For more information see the following:</p>
+
+	<p>
+		&nbsp;</p>
+
+	<p style="padding-left: 60px;">
+		For <strong>ARMY </strong>Personnel:</p>
+
+	<p style="padding-left: 60px;">
+		AARTS Operations Center<br />
+		415 McPherson Avenue<br />
+		Ft. Leavenworth, KS 66027-1373<br />
+		<br />
+		Phone: 866-297-4427<br />
+		Commercial: (913)684-3269<br />
+		DSN: 552-3269<br />
+		Commercial FAX: (913)684-2011 or DSN FAX 552-2011<br />
+		Web Site: <a href="http://aarts.army.mil" target="_blank">http://aarts.army.mil</a></p>
+
+	<p style="padding-left: 60px;">
+		For&nbsp;<strong>NAVY </strong>and <strong>MARINE&nbsp;</strong>Personnel:</p>
+
+	<p style="padding-left: 60px;">
+		SMART Operations Center<br />
+		NETPDTC,N2<br />
+		6490 Saufley Field Road<br />
+		Pensacola, FL 32509<br />
+		<br />
+		Phone: 877-253-7122<br />
+		E-mail: <a href="mailto:ncc@cnet.navy.mil">ncc@cnet.nav.mil</a><br />
+		Web Site: <a href="https://smart.cnet.navy.mil" target="_blank">https://smart.cnet.navy.mil</a></p>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="e">
+		What&#39;s the earliest date I can use chapter 1607?</h2>
+
+	<p>
+		Chapter 1607 benefits may be paid before the date of enactment the law, which was October 28, 2004. Chapter 1607 benefits are potentially payable from December 9, 2001 (90 days after September 11, 2001) for persons who were serving on a contingency operation on September 11, 2001 and who were in school on December 9, 2001</p>
+
+	<p>
+		Note: &quot;Contingency operations&quot; as defined in title 10 U.S. Code means &quot;military operations that are designated by the Secretary of Defense as an operation in which members of the armed forces are or may become involved in military actions, operations or hostilities against an enemy of the United States or against opposing military force; or results in the call or order to, or retention on active duty of members of the uniformed services under section 688, 12301(a), 12302, 12304, 12305, or 12406 of 10 U.S.C., chapter 15 of 10 U.S.C., or any other provision of law during a war or during a national emergency declared by the President or Congress.&quot;</p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="f">
+		How do I apply for Chapter 1607?</h2>
+
+	<p>
+		VA Regional Processing Offices in Atlanta, St. Louis, Buffalo, and Muskogee are accepting applications and supporting documents for Chapter 1607 claims.</p>
+
+	<p>
+		If you have never submitted an Education Claim to VA: Submit an Application for &quot;Application for VA Education Benefits&quot; (VA Form 22-1990) and submit any available documents such as your Discharge from Military Service (DD Form 214), copies of orders to active duty and anything else available as evidence of qualifying service. Annotate &quot;Chapter 1607&quot; prominently on all correspondence and documents. If you think you have eligibility under both MGIB-Selected Reserve and REAP, please state which benefit you want. Yes, I know it should be obvious but we are required by law to ask. The statement is as simple as &quot;I request payment of REAP benefits.&quot;</p>
+
+	<p>
+		If you have previously filed a claim for Education benefits: A new application form is not required. However, you should submit any available documents such as your Discharge from Military Service (DD Form 214), copies of orders to active duty and anything else available as evidence of qualifying service to help establish eligibility for this program. You should also submit a &quot;Request For Change of Program or Place of Training&quot; (VA form 22-1995) which should be annotated &quot;1607.&quot; Annotate &quot;Chapter 1607&quot; prominently on all correspondence and documents. If you think you have eligibility under both MGIB-Selected Reserve and REAP, please state which benefit you want. Yes, I know it should be obvious but we are required by law to ask.</p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="g">
+		What does Student Veteran Services do?</h2>
+
+	<p>
+		The purpose of&nbsp;Student Veteran Services&nbsp;is to serve Veterans by easing the transition from military to college life. This is accomplished in a peer to peer format.</p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="h">
+		I&rsquo;m already using my benefits at another school. How do I transfer them to UNT?</h2>
+
+	<p>
+		To change from one school or training program to another, individuals receiving benefits under MGIB-AD (Chapter 30), MGIB-SR (Chapter 1606), VEAP (Chapter 32) and REAP (Chapter 1607) will need to submit a VA Form 22-1995 &quot;Request For Change of Program or Place of Training&quot; to the Regional Processing Office serving your state.</p>
+
+	<p>
+		Individuals receiving benefits under the Dependents Educational Assistance Program will need to submit VA Form 22-5495 instead of Form 22-1995.</p>
+
+	<p>
+		Both forms can be submitted online using the <a href="http://gibill.va.gov/apply-for-benefits/application/" target="_blank">VONAPP application</a></p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="i">
+		Will the VA pay for me to have a tutor?</h2>
+
+	<p>
+		Yes, tutorial assistance is available if you&rsquo;re receiving VA educational assistance at the half-time or higher rate and have a deficiency in a subject that makes tutoring necessary. You can be reimbursed up to $100 per month up to a maximum of $1200.</p>
+
+	<p>
+		To apply for tutorial assistance you must complete VA Form 22-1990t, which can be found here. Your school certifying official and tutor must sign the form.</p>
+
+	<p>
+		When the form is complete, please mail it to the VA Regional Processing Office that serves the state in which your school is located. Contact information can be found here</p>
+
+	<p>
+		For additional help, please use the &quot;Ask a Question&quot; tab at the top of this page, or call 1-888-GIBILL-1 (1-888-442-4551).</p>
+
+	<p>
+		<a href="#">back to top</a></p>
+
+	<h2 id="j">
+		I went to school here a few years ago and then quit school, how do I return to UNT?</h2>
+
+	<p>
+		Go to AppyTexas.org, choose returning student, fill out Application for Returning Students. Using this application, you will not have to pay the application fee.</p>
+
+	<p>
+		<a href="#">back to top</a></p>
+</div>
+	
+        <!-- Social Buttons -->
+        <div class="social-buttons col-md-12">
+        	<a class='post-share facebook col-md-4' href=http://www.facebook.com/plugins/like.php?href=http://studentaffairs.unt.edu/blog/veterans-faqs&width&layout=standard&action=like&show_faces=true&share=true&height=80&appId172344346146873 onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">Share on Facebook</a><a class='post-share twitter col-md-4' href=https://twitter.com/share?url=http://studentaffairs.unt.edu/blog/veterans-faqs onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">Share on Twitter</a><a class='post-share gplus col-md-4' href=https://plus.google.com/share?url=http://studentaffairs.unt.edu/blog/veterans-faqs onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">Share on Google Plus</a>        </div>
+
+	</div>
+
+    <div class="col-md-3">
+    
+    </div>
+	
+</div>
+
+
+</main>
+
+<style type="text/css">.up-vote, .down-vote{
+    width:100px;
+    height:40px;
+      border-radius:5px;
+    float:left;
+  }
+  
+  .up-vote.inactive, .down-vote.inactive{
+  	background-color:#ccc; 
+    border-color:#bbb; 
+    color:#bbb;
+  }
+  
+  .up-vote img, .down-vote img{
+  	height: 30px;
+    margin-left: -12px;
+    margin-top: -27px;
+  }
+
+  
+  .up-vote:hover, .down-vote:hover{
+    cursor:pointer;
+
+  }
+  .up-vote.active, .down-vote.active{
+    background-color:#72b844;
+  }
+</style>
+<script>
+
+var Voter = function() {
+ 	this.upButton;
+    this.downButton;
+    this.nid;
+    this.inactiveClass = "inactive";
+}
+
+Voter.prototype.init = function() {
+	this.upButton = document.querySelector(".up-vote");
+    this.upButton.addEventListener("click", this.clickHandler.bind(this), false);
+    this.downButton = document.querySelector(".down-vote");
+    this.downButton.addEventListener("click", this.clickHandler.bind(this), false);
+    //Get the node value
+    this.nid = document.querySelector(".row.blog").getAttribute("id");//.split("-")[1];
+}
+
+Voter.prototype.clickHandler = function(e){
+	var url = "/preska2/relationship/add";
+    var data = "";
+    var element = e.target || e.srcElement;
+    //Get Node id
+    data += "&nid=" + this.nid;
+	//if upButton was pressed, prepare up vote string
+    if (element === this.upButton) {
+    	this.upButton.classList.remove(this.inactiveClass);
+        this.downButton.classList.add(this.inactiveClass);
+    	data += "&action=up_vote";
+    } else if (element === this.downButton) {
+    	this.downButton.classList.remove(this.inactiveClass);
+        this.upButton.classList.add(this.inactiveClass);
+    	//if downButton was pressed, prepare down vote string
+        data += "&action=down_vote";
+    }
+    
+    //Send the Ajax request
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+      {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+      }
+    else
+      {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    xmlhttp.onreadystatechange=function()
+      {
+      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+        document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+        }
+      }
+    xmlhttp.open("POST", url, true);
+    xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xmlhttp.send(data);
+	console.log(data);
+}
+
+function startVoter () {
+	
+    var v = new Voter();
+    v.init();
+
+}
+
+window.addEventListener("load", startVoter, false);
+
+</script>
+		
+<style>
+	.hero{
+		background-image:url('/');
+	}
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/blog/veterans-faqs": true }, "og": { "group_context": { "nid": "699", "title": "Student Veteran Services", "type": "departments_services" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

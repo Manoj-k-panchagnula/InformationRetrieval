@@ -1,0 +1,1919 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	TEXAS VETERANS COMMISSION - Home
+</title>
+<meta name="description" content="TEXAS VETERANS COMMISSION" />
+<meta name="keywords" content="""texas veterans commission"", texas veterans, veterans, texas, military, claims, benefits, veteran* educat*" />
+<meta name="generator" content="TVC" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><link rel="icon" href="Templates/TVC/favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="Templates/TVC/favicon.ico" type="image/x-icon" /><link href="Templates/TVC/Styles/base-style.css" rel="stylesheet" type="text/css" /><link href="Templates/TVC/Styles/TVC-content.css" rel="stylesheet" type="text/css" />
+<!--Script for Image Carousel Start-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+<!--Script for Image Carousel End-->
+<!--[if IE 6]>
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+    <link href="Templates/TVC/Styles/ie6style.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+    <link href="Templates/TVC/Styles/ie7style.css" rel="stylesheet" type="text/css" />
+<![endif]--> 
+<style type="text/css">
+    
+/* ADMIN BAR */
+.adminbar {
+	
+	color: #666666;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-family:Arial;
+	font-size:11.4px;
+	width:100%;
+	background:#f2f2f2;
+	height:40px;	
+}
+#adminnav {
+	padding: 4px 4px 4px 1px;
+	width: 100%;
+	text-align: left;
+	margin: 0px auto;
+	
+	
+}
+#adminnav a 
+{
+    color: #666666;
+}
+#adminnav ul {
+	padding: 0px;
+	margin: 0px;
+}
+#adminnav ul li {
+	display: inline;
+	margin-right: 4px;
+	list-style-type: none;
+	line-height:2em;
+	
+}
+#adminnav ul li a {
+	padding:2px 5px 2px 5px;
+	text-decoration: none;
+	border: 1px solid gray;
+	color:#ffffff;
+	background-color:#8f2a2e;
+	font-size:11.4px;
+}
+#adminnav ul li a:hover {
+	border: 1px solid Gray;
+	background-color:#CCCCCC;
+	color:Black;	
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <form name="aspnetForm" method="post" action="Home.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIxMzI2MjQ5NjBkZHaU6kzqQGdtQR1egY+lwcGtKVVw" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALFkqysDAKJp6b3AQLQqczECQKv0rz9BXh9QyHZQ8ScKpziTnanebBs/+TS" />
+    
+    <div id="wrapper">
+
+<!-- Admin Login Start-->
+
+    <div id="top-bar">
+	    
+	</div>
+
+<!-- Admin Login End-->
+
+
+	<div id="header">
+	
+		<div>
+		
+			<img id="ctl00_HeaderImage" src="Templates/TVC/Styles/images/banner.jpg" alt="Texas Veterans Commission" border="0" />
+			
+		</div>
+	
+	</div>
+	
+<!-- Drop Down Menu Start -->
+	
+	<div id="menu-holder">		
+             
+        <ul id="nav" class="dropdown">
+            <li style="display: none;"><a href='/donate.aspx'>
+                donate</a>
+                
+                        <ul>
+                    
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style="display: none;"><a href='/shirts.aspx'>
+                shirts</a>
+                
+                        <ul>
+                    
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style="display: none;"><a href='/eVets.aspx'>
+                eVets</a>
+                
+                        <ul>
+                    
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Home.aspx'>
+                Home</a>
+                
+                        <ul>
+                    
+                        <li style="display: none;"><a href='/TXSVETS-Confirmation.aspx'>
+                            TXSVETS-Confirmation</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Fall-Conference-2015.aspx'>
+                            Fall Conference 2015</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/TXSVETS.aspx'>
+                            TXSVETS</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Texas-Justice-Involved-Veterans-Conference.aspx'>
+                            Texas Justice-Involved Veterans Conference</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Veterans-Court-Workshop.aspx'>
+                            Veterans Court Workshop</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/OfficeLocationSearch-.aspx'>
+                            OfficeLocationSearch</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Hazlewood-Act1.aspx'>
+                            Hazlewood Act1</a>
+                            
+                            
+                            </li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style="display: none;"><a href='/Footer.aspx'>
+                Footer</a>
+                
+                        <ul>
+                    
+                        <li style=""><a href='/Search-Archives.aspx'>
+                            Search Archives</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Texas-Transparency.aspx'>
+                            Texas Transparency</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Texas-gov-.aspx'>
+                            Texas.gov </a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Compact-with-Texas.aspx'>
+                            Compact with Texas</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Energy-Conservation-Plan.aspx'>
+                            Energy Conservation Plan</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Report-Fraud.aspx'>
+                            Report Fraud</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Espa-ol.aspx'>
+                            Español</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Statewide-Search.aspx'>
+                            Statewide Search</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/TX-Homeland-Security.aspx'>
+                            TX Homeland Security</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Site-Policies.aspx'>
+                            Site Policies</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/SiteMap.aspx'>
+                                        SiteMap</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Claims.aspx'>
+                Claims</a>
+                
+                        <ul>
+                    
+                        <li style=""><a href='/Health-Care-Advocacy-Program.aspx'>
+                            Health Care Advocacy Program</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/Services-Provided.aspx'>
+                                        Services Provided</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Team-Access.aspx'>
+                                        Team Access</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Bio-and-Pics-HCAP.aspx'>
+                                        Bio and Pics HCAP</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Events.aspx'>
+                                        Events</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/SFT-media-.aspx'>
+                                        SFT media </a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style="display: none;"><a href='/Claims-Fall-Conference-2015.aspx'>
+                            Claims Fall Conference 2015</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/HCAP.aspx'>
+                            HCAP</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Beating-the-VA-Backlog.aspx'>
+                            Beating the VA Backlog</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Claims-Landing-Page.aspx'>
+                            Claims Landing Page</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Service-Connected-Compensation.aspx'>
+                            Service Connected Compensation</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Non-Service-Connected-Pension.aspx'>
+                            Non Service Connected Pension</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Appeals.aspx'>
+                            Appeals</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/How-to-Track-Your-Claim-Claim-Status.aspx'>
+                            How to Track Your Claim/Claim Status</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Expedited-Claims.aspx'>
+                            Expedited Claims</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Toll-Free-Numbers---Web-Links.aspx'>
+                            Toll Free Numbers & Web Links</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Other-Military-Issues.aspx'>
+                            Other Military Issues</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Training-Materials.aspx'>
+                            Training Materials</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Claims-Representation-and-Counseling-Manual.aspx'>
+                            Claims Representation and Counseling Manual</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Directory.aspx'>
+                            Directory</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Claims-Offices.aspx'>
+                            Claims Offices</a>
+                            
+                            
+                            </li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Employment-Services.aspx'>
+                Employment Services</a>
+                
+                        <ul>
+                    
+                        <li style="display: none;"><a href='/VETS-Hiring-Primer.aspx'>
+                            VETS Hiring Primer</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/TVC-Job-Openings.aspx'>
+                            TVC Job Openings</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Job-Fairs.aspx'>
+                            Job Fairs</a>
+                            <ul>
+                            
+                                    <li style="display: none;"><a href='/State-Agencies-Registered.aspx'>
+                                        State Agencies Registered</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/VETS-News-Release.aspx'>
+                                        VETS News Release</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/VETS-State-Agencies-Attending.aspx'>
+                                        VETS State Agencies Attending</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style="display: none;"><a href='/Pass-in-Review.aspx'>
+                            Pass in Review</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Assistance-for-Veterans.aspx'>
+                            Assistance for Veterans</a>
+                            <ul>
+                            
+                                    <li style="display: none;"><a href='/Hiring-Red--White---You-Job-Fair.aspx'>
+                                        Hiring Red, White & You Job Fair</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Additional-Resources.aspx'>
+                                        Additional Resources</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/Veterans-in-Government.aspx'>
+                            Veterans in Government</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Information-for-Employers.aspx'>
+                            Information for Employers</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Employer-Awards.aspx'>
+                            Employer Awards</a>
+                            <ul>
+                            
+                                    <li style="display: none;"><a href='/2013-Employer-Award-Winners.aspx'>
+                                        2013 Employer Award Winners</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/Helpful-Documents.aspx'>
+                            Helpful Documents</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Veterans-Preference.aspx'>
+                            Veterans Preference</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Priority-of-Service.aspx'>
+                            Priority of Service</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Employment-Offices.aspx'>
+                            Employment Offices</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Re-employment-Rights--USERRA-.aspx'>
+                            Re-employment Rights (USERRA)</a>
+                            
+                            
+                            </li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Education.aspx'>
+                Education</a>
+                
+                        <ul>
+                    
+                        <li style="display: none;"><a href='/Hazlewood-Draft.aspx'>
+                            Hazlewood Draft</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Information-for-institutions-.aspx'>
+                            Information for institutions </a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/additional-documents-.aspx'>
+                            additional documents </a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Hazlewood.aspx'>
+                            Hazlewood</a>
+                            <ul>
+                            
+                                    <li style="display: none;"><a href='/Hazlewood-Act.aspx'>
+                                        Hazlewood Act</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Hazlewood-FAQ.aspx'>
+                                        Hazlewood FAQ</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/Montgomery-GI-Bill.aspx'>
+                            Montgomery GI Bill</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Post-9-11.aspx'>
+                            Post-9/11</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Fry-Scholarship-.aspx'>
+                            Fry Scholarship </a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/On-the-Job-Training.aspx'>
+                            On the Job Training</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/GI-Bill-Approved-Programs.aspx'>
+                            GI Bill Approved Programs</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Apply-to-Train-Veterans.aspx'>
+                            Apply to Train Veterans</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Office-Hours.aspx'>
+                            Office Hours</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Education-Contacts.aspx'>
+                            Education Contacts</a>
+                            
+                            
+                            </li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Fund-for-Veterans-Assistance.aspx'>
+                Fund for Veterans Assistance</a>
+                
+                        <ul>
+                    
+                        <li style="display: none;"><a href='/External-Logo.aspx'>
+                            External Logo</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Support-Texas-Veterans.aspx'>
+                            Support Texas Veterans</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/Driver-License-Donations.aspx'>
+                                        Driver License Donations</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Vehicle-Registration-Donations.aspx'>
+                                        Vehicle Registration Donations</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Texas-Lottery.aspx'>
+                                        Texas Lottery</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Amplify-Austin.aspx'>
+                                        Amplify Austin</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/About-Us.aspx'>
+                            About Us</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Community-Partnership-Award.aspx'>
+                            Community Partnership Award</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Apply-For-A-Grant.aspx'>
+                            Apply For A Grant</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/General-Assistance-Grants.aspx'>
+                                        General Assistance Grants</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Housing4TexasHeroes.aspx'>
+                                        Housing4TexasHeroes</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Veterans-Treatment-Court-Grants.aspx'>
+                                        Veterans Treatment Court Grants</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Veterans-Mental-Health-Grants.aspx'>
+                                        Veterans Mental Health Grants</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/Upcoming-Trainings-and-Events.aspx'>
+                            Upcoming Trainings and Events</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Grants-Awarded.aspx'>
+                            Grants Awarded</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Grantee-Forms-and-Trainings.aspx'>
+                            Grantee Forms and Trainings</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Grant-Resources.aspx'>
+                            Grant Resources</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Contact-Us-.aspx'>
+                            Contact Us</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Frequently-Asked-Questions.aspx'>
+                            Frequently Asked Questions</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Federal-Transportation-Grants.aspx'>
+                            Federal Transportation Grants</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Where-the-Funds-Go.aspx'>
+                            Where the Funds Go</a>
+                            
+                            
+                            </li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Other-Services.aspx'>
+                Other Services</a>
+                
+                        <ul>
+                    
+                        <li style="display: none;"><a href='/Claims-Training-.aspx'>
+                            Claims-Training-</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/VES-Training-.aspx'>
+                            VES Training </a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/COTU.aspx'>
+                            COTU</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Delivering-Priority-of-Service-.aspx'>
+                            Delivering Priority of Service </a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/VEP-Test.aspx'>
+                            VEP_Test</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Military-Veteran-Peer-Network.aspx'>
+                            Military Veteran Peer Network</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Outreach.aspx'>
+                            Outreach</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Women-Veterans.aspx'>
+                            Women Veterans</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/Women-Coordinator-Bio-s.aspx'>
+                                        Women Coordinator Bio's</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Rock-Your-Camo-5K.aspx'>
+                                        Rock Your Camo 5K</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Job-Club-.aspx'>
+                                        Job Club </a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Virtual-Coffee.aspx'>
+                                        Virtual Coffee</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Women-Veteran-Events-.aspx'>
+                                        Women Veteran Events </a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Women-Veterans-Professional-Network.aspx'>
+                                        Women Veterans Professional Network</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Mission.aspx'>
+                                        Mission</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Testimonials.aspx'>
+                                        Testimonials</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/Entrepreneur-Program.aspx'>
+                            Entrepreneur Program</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/Veteran-Entrepreneur-Academy.aspx'>
+                                        Veteran Entrepreneur Academy</a>
+                                        <ul>
+                                        
+                                                <li style=""><a href='/San-Antonio-Academy-2016.aspx'>
+                                                    San Antonio Academy 2016</a> </li>
+                                            
+                                                <li style=""><a href='/Dallas-Academy-2016.aspx'>
+                                                    Dallas Academy 2016</a> </li>
+                                            
+                                                <li style=""><a href='/Houston-Academy-2016.aspx'>
+                                                    Houston Academy 2016</a> </li>
+                                            
+                                        </ul></li>
+                                    <li style=""><a href='/Seminar-Series.aspx'>
+                                        Seminar Series</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Resource-Information.aspx'>
+                                        Resource Information</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Senate-Bill-1049.aspx'>
+                                        Senate Bill 1049</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style="display: none;"><a href='/Veterans-Employment-Liaison-Program.aspx'>
+                            Veterans Employment Liaison Program</a>
+                            
+                            
+                            </li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Calendar.aspx'>
+                Calendar</a>
+                
+                        <ul>
+                    
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/News---Media.aspx'>
+                News & Media</a>
+                
+                        <ul>
+                    
+                        <li style=""><a href='/News.aspx'>
+                            News</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/Legislative-Update.aspx'>
+                                        Legislative Update</a>
+                                        <ul>
+                                        
+                                                <li style=""><a href='/84th-Legislature.aspx'>
+                                                    84th Legislature</a> </li>
+                                            
+                                                <li style=""><a href='/83rd-legislature.aspx'>
+                                                    83rd legislature</a> </li>
+                                            
+                                        </ul></li>
+                                    <li style=""><a href='/Videos.aspx'>
+                                        Videos</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/Governors-Proclamations.aspx'>
+                                        Governors Proclamations</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/Press.aspx'>
+                            Press</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/Media-Awards.aspx'>
+                                        Media Awards</a>
+                                        <ul>
+                                        
+                                                <li style=""><a href='/2015-Media-Awards-Winners.aspx'>
+                                                    2015 Media Awards Winners</a> </li>
+                                            
+                                                <li style=""><a href='/2014-Media-Award-Winners.aspx'>
+                                                    2014 Media Award Winners</a> </li>
+                                            
+                                                <li style=""><a href='/2013-Media-Award-Winners.aspx'>
+                                                    2013 Media Award Winners</a> </li>
+                                            
+                                        </ul></li>
+                                    <li style=""><a href='/Press-Releases.aspx'>
+                                        Press Releases</a>
+                                        <ul>
+                                        
+                                                <li style=""><a href='/2016-Press-Releases.aspx'>
+                                                    2016 Press Releases</a> </li>
+                                            
+                                                <li style=""><a href='/2014-Press-Releases.aspx'>
+                                                    2014 Press Releases</a> </li>
+                                            
+                                                <li style=""><a href='/2013-Press-Releases.aspx'>
+                                                    2013 Press Releases</a> </li>
+                                            
+                                                <li style=""><a href='/2012-Press-Releases.aspx'>
+                                                    2012 Press Releases</a> </li>
+                                            
+                                                <li style=""><a href='/2011-Press-Releases.aspx'>
+                                                    2011 Press Releases</a> </li>
+                                            
+                                                <li style=""><a href='/2010-Press-Releases.aspx'>
+                                                    2010 Press Releases</a> </li>
+                                            
+                                                <li style=""><a href='/2009-Press-Releases.aspx'>
+                                                    2009 Press Releases</a> </li>
+                                            
+                                        </ul></li>
+                            </ul></li>
+                        <li style=""><a href='/Publications.aspx'>
+                            Publications</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/Journal.aspx'>
+                                        Journal</a>
+                                        
+                                        
+                                        </li>
+                                    <li style=""><a href='/E-Vets.aspx'>
+                                        E-Vets</a>
+                                        <ul>
+                                        
+                                                <li style=""><a href='/Thanks-for-signing-up-.aspx'>
+                                                    Thanks for signing up!</a> </li>
+                                            
+                                        </ul></li>
+                                    <li style=""><a href='/Brochures.aspx'>
+                                        Brochures</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        </ul>
+            </li>
+        </ul>
+    
+        <ul id="nav" class="dropdown">
+            <li style=""><a href='/Information.aspx'>
+                Information</a>
+                
+                        <ul>
+                    
+                        <li style="display: none;"><a href='/Summit.aspx'>
+                            Summit</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Organizational-Chart.aspx'>
+                            Organizational Chart</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/TCCVS.aspx'>
+                            TCCVS</a>
+                            <ul>
+                            
+                                    <li style="display: none;"><a href='/Women-Veterans-Workgroup.aspx'>
+                                        Women Veterans Workgroup</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Employment.aspx'>
+                                        Employment</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Criminal-Justice.aspx'>
+                                        Criminal Justice</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Mental-Health.aspx'>
+                                        Mental Health</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Communication-and-Outreach.aspx'>
+                                        Communication and Outreach</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Transportation.aspx'>
+                                        Transportation</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Health.aspx'>
+                                        Health</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Housing.aspx'>
+                                        Housing</a>
+                                        
+                                        
+                                        </li>
+                                    <li style="display: none;"><a href='/Higher-Education-Workgroup.aspx'>
+                                        Higher Education Workgroup</a>
+                                        
+                                        
+                                        </li>
+                            </ul></li>
+                        <li style=""><a href='/TVC-Career-Opportunities.aspx'>
+                            TVC Career Opportunities</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Find-Your-Local-Office.aspx'>
+                            Find Your Local Office</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/registration.aspx'>
+                            registration</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Military-Retiree-Corner.aspx'>
+                            Military Retiree Corner</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/Test-Page.aspx'>
+                            Test Page</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Mission--Vision--Values.aspx'>
+                            Mission, Vision, Values</a>
+                            
+                            
+                            </li>
+                        <li style="display: none;"><a href='/EEO.aspx'>
+                            EEO</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Community-Resources.aspx'>
+                            Community Resources</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Executive-Director-s-Corner.aspx'>
+                            Executive Director's Corner</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Commissioners.aspx'>
+                            Commissioners</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Commission-Meetings.aspx'>
+                            Commission Meetings</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Executive-Director-s-Biography.aspx'>
+                            Executive Director's Biography</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Staff-Directory.aspx'>
+                            Staff Directory</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Advisory-Committees.aspx'>
+                            Advisory Committees</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Public-Information-Policy.aspx'>
+                            Public Information Policy</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Agency-Rules.aspx'>
+                            Agency Rules</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Agency-Reports.aspx'>
+                            Agency Reports</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Texas-Veterans-Commission-Forms-and-Procedures.aspx'>
+                            Texas Veterans Commission Forms and Procedures</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Search-the-GI-Network.aspx'>
+                            Search the GI Network</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/TAPS-for-Tuition-Program.aspx'>
+                            TAPS for Tuition Program</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Inclement-Weather.aspx'>
+                            Inclement Weather</a>
+                            
+                            
+                            </li>
+                        <li style=""><a href='/Contact-Us.aspx'>
+                            Contact Us</a>
+                            
+                            
+                            </li>
+                        </ul>
+            </li>
+        </ul>
+    
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+        if ($("ul.dropdown").length) {
+            $("ul.dropdown li").dropdown();
+        }
+
+    });
+
+    $.fn.dropdown = function() {
+
+        return this.each(function() {
+
+            $(this).hover(function() {
+                $(this).addClass("hover");
+                $('> .dir', this).addClass("open");
+                $('ul:first', this).css('visibility', 'visible');
+            }, function() {
+                $(this).removeClass("hover");
+                $('.open', this).removeClass("open");
+                $('ul:first', this).css('visibility', 'hidden');
+            });
+
+        });
+
+    }
+
+
+
+    $(document).ready(function() {
+
+        if ($("ul.dropup").length) {
+            $("ul.dropup li").dropup();
+        }
+
+    });
+
+    $.fn.dropup = function() {
+
+        return this.each(function() {
+
+            $(this).hover(function() {
+                $(this).addClass("hover");
+                $('> .dir', this).addClass("open");
+                $('ul:first', this).css('visibility', 'visible');
+            }, function() {
+                $(this).removeClass("hover");
+                $('.open', this).removeClass("open");
+                $('ul:first', this).css('visibility', 'hidden');
+            });
+
+        });
+
+    }
+
+
+
+
+</script>
+
+
+
+
+		    
+	
+	</div>
+	
+	<div class="clear-fix"></div>
+	
+<!-- Drop Down Menu Start -->
+	
+<!--Main Body Start-->
+	
+	<div id="main-content">
+	
+		<div id="left-content">
+		
+			
+			<div id="left-container">
+				
+				<div id="leftNav">					
+					   
+					    
+
+<ul class="leftNav">
+
+    <li class="header-txt" style="">
+
+        <a href='/Home.aspx' >Home</a>
+    
+    </li>
+<ul id="leftNav-Sub">
+    <li style="display: none;">
+    <a href='/TXSVETS-Confirmation.aspx'>TXSVETS-Confirmation</a>
+    
+     
+    
+    </li>
+    <li style="display: none;">
+    <a href='/Fall-Conference-2015.aspx'>Fall Conference 2015</a>
+    
+     
+    
+    </li>
+    <li style="display: none;">
+    <a href='/TXSVETS.aspx'>TXSVETS</a>
+    
+     
+    
+    </li>
+    <li style="display: none;">
+    <a href='/Texas-Justice-Involved-Veterans-Conference.aspx'>Texas Justice-Involved Veterans Conference</a>
+    
+     
+    
+    </li>
+    <li style="display: none;">
+    <a href='/Veterans-Court-Workshop.aspx'>Veterans Court Workshop</a>
+    
+     
+    
+    </li>
+    <li style="display: none;">
+    <a href='/OfficeLocationSearch-.aspx'>OfficeLocationSearch</a>
+    
+     
+    
+    </li>
+    <li style="display: none;">
+    <a href='/Hazlewood-Act1.aspx'>Hazlewood Act1</a>
+    
+     
+    
+    </li></ul></ul>
+
+					    
+								
+				
+				</div>
+				
+				<div id="ctl00_leftNavStatic" class="leftNavStatic">
+				    
+				    <div class="dynamic-head">QUICK LINKS</div>			
+					
+<ul>    
+    <li><a href='http://tvc.texas.gov/Military-Veteran-Peer-Network.aspx' >Military Veteran Peer Network</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://www.tvc.texas.gov/Women-Veterans.aspx' >Women Veterans Program</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://tvc.texas.gov/Entrepreneur-Program.aspx' >Veteran Entrepreneur Program</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://www.tvc.texas.gov/Health-Care-Advocacy-Program.aspx' >Health Care Advocacy Program</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://www.tvc.texas.gov/Hazlewood-Act.aspx' >Hazlewood Act</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://www.tvc.texas.gov/Military-Retiree-Corner.aspx' >Retiree Corner</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://www.tvc.texas.gov/TCCVS.aspx' >TCCVS - Texas Coordinating Council for Veterans Services</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://www.tvc.texas.gov/Public-Information-Policy.aspx' >Public Information Policy</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://tvc.texas.gov/Community-Resources.aspx' >Community Resources</a></li>
+</ul>
+
+<ul>    
+    <li><a href='https://www.google.com/maps/d/edit?mid=z53ly_rcMwB8.kNsuc3xQfMWM' >Find Your Local Office</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://www.tvc.texas.gov/documents/tvc_directory.pdf' >TVC Directory</a></li>
+</ul>
+
+<ul>    
+    <li><a href='http://tvc.texas.gov/eVets.aspx' >Subscribe to E-Vets</a></li>
+</ul>
+
+
+					
+				
+				</div>
+				
+				
+				
+				
+				<div id="ctl00_ColsCorner" class="ColsCorner">
+				
+						
+						
+
+<h5>Executive Director's Corner</h5>
+					
+					<div id="avatar-icon"><img id="ctl00_ColonelCorner_ColonelCornerRep_ctl00_AvatarIcon" src="/ColonelCornerImages/TVC%20Logo%20pixels%20(web).jpg" alt="Executive Director" border="0" /></div>	
+					
+					<p>
+						A Veteran is a fellow citizen, a man or woman who at one significant point in his or her life, made out a blank check payable to the United States of America for any amount up to and including life itself.
+ 
+I want to personally thank all Veterans for their service to our country and remind Texans that our Veterans deserve nothing less than to be honored on this day and all year.
+						<div class="readmore-btn">
+						    <a href="/Executive-Director-s-Corner.aspx" class="readmore">Read more..</a>
+						</div>
+					    
+					</p>	
+	
+					
+				
+				</div>
+				
+				
+				<div id="Translate">
+				
+                    
+				
+				</div>
+				
+				
+				<div id="get-connected">				
+				
+					<ul>
+						
+						<li id="nav-youtube"><a href="http://www.youtube.com/user/txveteranscommission" target="_blank"></a></li>							
+						<li id="nav-facebook" style="margin-left:18px;"><a href="http://www.facebook.com/texasveteranscommission" target="_blank"></a></li>											
+						<li id="nav-twitter" style="margin-left:10px;"><a href="http://twitter.com/texasveterans" target="_blank"></a></li>
+						<li id="nav-linkedin" style="margin-left:10px;"><a href="http://www.linkedin.com/company/2301786" target="_blank"></a></li>			
+						
+					</ul>		
+					
+				
+				</div>
+				
+				
+							
+			
+			</div>		
+			
+		
+		</div>
+		
+		<div id="right-content">		
+			
+			<div id="right-container">
+			
+				 
+<script src="Templates/TVC/js/jquery.cycle.all.min.js"  type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#home_ajax").cycle({
+            fx: 'fade',
+            timeout: 6000,
+            pager: "#home_ajax_nav"
+        });
+
+    });
+</script>
+
+<div id="home_banner">
+		<div id="home_ajax">
+							
+					
+							<div class="ajax_item">
+								<div class="home_banner_graphic">
+									<div class="home_banner_graphic_image">
+										<a href="#"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl00_SlideImage1" src="/SlideShowImages/Triple_The_Money_Carousel.jpg" alt="Buy Triple The Money Scratch-off Ticket!" border="0" /></a></div>
+									<div class="home_banner_graphic_text">
+										<div class="home_banner_graphic_text_image"></div>
+										<p></p>
+									</div>
+								</div>
+								<div class="home_banner_message">
+									
+									<h2>Buy Triple The Money Scratch-off Ticket!</h2>
+									<p>You can support Veterans by purchasing Triple The Money Lottery Scratch-off, the lottery game that directly benefits Texas Veterans programs.<br></p>
+
+									<p><a href="http://www.tvc.texas.gov/Texas-Lottery.aspx"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl00_ImageMore4" alt="more" src="Templates/TVC/Styles/images/btn_more.png" border="0" /></a></p>
+									
+								</div>
+								<br class="clear" />
+							</div>
+
+					
+							<div class="ajax_item">
+								<div class="home_banner_graphic">
+									<div class="home_banner_graphic_image">
+										<a href="#"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl01_SlideImage1" src="/SlideShowImages/Award_2016-2017_Carousel.jpg" alt="See Who Was Awarded!" border="0" /></a></div>
+									<div class="home_banner_graphic_text">
+										<div class="home_banner_graphic_text_image"></div>
+										<p></p>
+									</div>
+								</div>
+								<div class="home_banner_message">
+									
+									<h2>See Who Was Awarded!</h2>
+									<p>The Texas Veterans Commission recently awarded 73 organizations over $14 million in General Assistance, Housing For Texas Heroes, Veterans Mental Health, and Veterans Treatment Court grants.<br></p>
+
+									<p><a href="http://www.tvc.texas.gov/Grants-Awarded.aspx"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl01_ImageMore4" alt="more" src="Templates/TVC/Styles/images/btn_more.png" border="0" /></a></p>
+									
+								</div>
+								<br class="clear" />
+							</div>
+
+					
+							<div class="ajax_item">
+								<div class="home_banner_graphic">
+									<div class="home_banner_graphic_image">
+										<a href="#"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl02_SlideImage1" src="/SlideShowImages/ViGAustin.jpg" alt="Veterans in Government" border="0" /></a></div>
+									<div class="home_banner_graphic_text">
+										<div class="home_banner_graphic_text_image"></div>
+										<p></p>
+									</div>
+								</div>
+								<div class="home_banner_message">
+									
+									<h2>Veterans in Government</h2>
+									<p>Veterans in Government Open House - Austin will be held at the Palmer Event Center on April 21, 2016.
+Register now!<br></p>
+
+									<p><a href="http://www.tvc.texas.gov/Veterans-in-Government.aspx"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl02_ImageMore4" alt="more" src="Templates/TVC/Styles/images/btn_more.png" border="0" /></a></p>
+									
+								</div>
+								<br class="clear" />
+							</div>
+
+					
+							<div class="ajax_item">
+								<div class="home_banner_graphic">
+									<div class="home_banner_graphic_image">
+										<a href="#"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl03_SlideImage1" src="/SlideShowImages/entrepreneur_carousel.jpg" alt="Veteran Entrepreneur Seminar" border="0" /></a></div>
+									<div class="home_banner_graphic_text">
+										<div class="home_banner_graphic_text_image"></div>
+										<p></p>
+									</div>
+								</div>
+								<div class="home_banner_message">
+									
+									<h2>Veteran Entrepreneur Seminar</h2>
+									<p>TVC's Veteran Entrepreneur Program seminars are comprised of representatives from a broad variety of resources that introduce Veteran Entrepreneurs and prospective entrepreneurs to a wealth of information. 
+ 
+Register Now!<br></p>
+
+									<p><a href="http://tvc.texas.gov/Seminar-Series.aspx"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl03_ImageMore4" alt="more" src="Templates/TVC/Styles/images/btn_more.png" border="0" /></a></p>
+									
+								</div>
+								<br class="clear" />
+							</div>
+
+					
+							<div class="ajax_item">
+								<div class="home_banner_graphic">
+									<div class="home_banner_graphic_image">
+										<a href="#"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl04_SlideImage1" src="/SlideShowImages/DPS_DL_Carousel.jpg" alt="Did you know?" border="0" /></a></div>
+									<div class="home_banner_graphic_text">
+										<div class="home_banner_graphic_text_image"></div>
+										<p></p>
+									</div>
+								</div>
+								<div class="home_banner_message">
+									
+									<h2>Did you know?</h2>
+									<p>You can now donate to support local Veterans when you renew or apply for a driver license. It’s simple, just check YES.<br></p>
+
+									<p><a href="http://www.tvc.texas.gov/Driver-License-Donations.aspx"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl04_ImageMore4" alt="more" src="Templates/TVC/Styles/images/btn_more.png" border="0" /></a></p>
+									
+								</div>
+								<br class="clear" />
+							</div>
+
+					
+							<div class="ajax_item">
+								<div class="home_banner_graphic">
+									<div class="home_banner_graphic_image">
+										<a href="#"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl05_SlideImage1" src="/SlideShowImages/VeteransCrisisLine.gif" alt="Veterans Crisis Line" border="0" /></a></div>
+									<div class="home_banner_graphic_text">
+										<div class="home_banner_graphic_text_image"></div>
+										<p></p>
+									</div>
+								</div>
+								<div class="home_banner_message">
+									
+									<h2>Veterans Crisis Line</h2>
+									<p>The Veterans Crisis Line is a toll-free, confidential resource that connects Veterans in crisis and their families and friends with qualified, caring Department of Veterans Affairs (VA) responders.<br></p>
+
+									<p><a href="http://veteranscrisisline.net/go/"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl05_ImageMore4" alt="more" src="Templates/TVC/Styles/images/btn_more.png" border="0" /></a></p>
+									
+								</div>
+								<br class="clear" />
+							</div>
+
+					
+							<div class="ajax_item">
+								<div class="home_banner_graphic">
+									<div class="home_banner_graphic_image">
+										<a href="#"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl06_SlideImage1" src="/SlideShowImages/RC%20Lubbock%20Car%20Banner.jpg" alt="Roll Call Lubbock" border="0" /></a></div>
+									<div class="home_banner_graphic_text">
+										<div class="home_banner_graphic_text_image"></div>
+										<p></p>
+									</div>
+								</div>
+								<div class="home_banner_message">
+									
+									<h2>Roll Call Lubbock</h2>
+									<p>The Texas Veterans Commission Women Veterans Program is hosting a three day Women Veterans Extravaganza at the Museum of Texas Tech University, Lubbock, TX on June 2-4!<br></p>
+
+									<p><a href="http://www.tvc.texas.gov/Women-Veterans.aspx"><img id="ctl00_SlideshowContent_SlideShowGallery_SlideShow_ctl06_ImageMore4" alt="more" src="Templates/TVC/Styles/images/btn_more.png" border="0" /></a></p>
+									
+								</div>
+								<br class="clear" />
+							</div>
+
+
+         </div>
+						<div id="home_ajax_nav"></div>
+</div>
+
+
+
+
+		
+
+					
+			<div class="bgimage-class-top"></div>
+						
+			<div class="bgimage-class-content">
+						   
+				
+<p>
+<script type="text/javascript"><!--
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29089445-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// --></script>
+</p>
+<p>
+<script type="text/javascript"><!--
+window.Meebo||function(c){function p(){return["<",i,' onload="var d=',g,";d.getElementsByTagName('head')[0].",
+j,"(d.",h,"('script')).",k,"='//cim.meebo.com/cim?iv=",a.v,"&",q,"=",c[q],c[l]?
+"&"+l+"="+c[l]:"",c[e]?"&"+e+"="+c[e]:"","'\"></",i,">"].join("")}var f=window,
+a=f.Meebo=f.Meebo||function(){(a._=a._||[]).push(arguments)},d=document,i="body",
+m=d[i],r;if(!m){r=arguments.callee;return setTimeout(function(){r(c)},100)}a.$=
+{0:+new Date};a.T=function(u){a.$[u]=new Date-a.$[0]};a.v=5;var j="appendChild",
+h="createElement",k="src",l="lang",q="network",e="domain",n=d[h]("div"),v=n[j](d[h]("m")),
+b=d[h]("iframe"),g="document",o,s=function(){a.T("load");a("load")};f.addEventListener?
+f.addEventListener("load",s,false):f.attachEvent("onload",s);n.style.display="none";
+m.insertBefore(n,m.firstChild).id="meebo";b.frameBorder="0";b.name=b.id="meebo-iframe";
+b.allowTransparency="true";v[j](b);try{b.contentWindow[g].open()}catch(w){c[e]=
+d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{var t=
+b.contentWindow[g];t.write(p());t.close()}catch(x){b[k]=o+'d.write("'+p().replace(/"/g,
+'\\"')+'");d.close();'}a.T(1)}({network:"tvc_qi56do"});
+// --></script>
+</p>
+<h1><!--[if gte mso 9]><xml> Normal   0               false   false   false      EN-US   X-NONE   X-NONE                                                     MicrosoftInternetExplorer4 </xml><![endif][if gte mso 9]><xml> </xml><![endif][if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]--> Welcome to the Texas Veterans Commission</h1>
+<p>&nbsp;</p>
+<p style="text-align: left;">The Texas Veterans Commission was created in 1927 as the State Service Office to assist veterans of the Indian wars, Spanish-American War and World War I. Our purpose has always been to act as the state appointed advocate of Texas veterans as they attempt to secure the benefits rightfully earned in exchange for their service in our nation's armed forces.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>We are able to do this through our four program areas:</p>
+<p>&nbsp;</p>
+<ul>
+<li>Claims Representation and Counseling&nbsp;serves veterans, their dependents and survivors, in all matters pertaining to veterans' disability benefits and rights. It is the designated agency of the state of Texas to represent the State and its veterans before the U.S. Department of Veterans Affairs (VA).</li>
+<li>Veterans Employment Services&nbsp;offers employment services to Texas veterans and helps employers find qualified veteran job applicants. The goal of these services is to match veteran job seekers with the best employment opportunities available.</li>
+<li>Veterans Education Program&nbsp;(link)approves all programs for Chapter 30, 33, 35, 1606, and 1607 federal educational benefits. Through an approval process, the Texas Veterans Commission ensures that institutions and employers are in compliance with federal guidelines and are qualified to provide the type of training offered.</li>
+<li>Texas Veterans Commission Fund for Veterans&rsquo; Assistance&nbsp;is a program that makes grants available to eligible charitable organizations, local government agencies, and Veterans Service Organizations that provide direct services to Texas veterans and their families.</li>
+</ul>
+<p>&nbsp;</p>
+<table border="0" style="height: 118px;" width="827">
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;"><a href="http://www.texas.gov/veterans"><img height="82" src="Files/Texas_Veterans_Portal.png" width="213" /></a></p>
+</td>
+<td><a href="http://www.glo.texas.gov/vlb/index.html" title="TVC's Partner Agency">
+<p style="text-align: center;"><img alt="Discover various programs offered by the General Land Office through the VLB" dir="ltr" height="76" src="Files/VLBicon.JPG" style="margin: 0px 20px 20px 0px;" title="TVC's Partner Agency" width="236" /></p>
+</a></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;</p>
+<div style="text-align: start;"><span style="font-size: small;"> 
+<table align="center" border="0" style="height: 118px;" width="400">
+<tbody>
+<tr>
+<td>
+<p style="text-align: center;"><a href="http://www.milvetpeer.net/"><img src="Files/MVPN_logo.png" style="margin: 0px 0px 0px 0px;" /></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br /></span></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;
+<script type="text/javascript"><!--
+  Meebo("domReady");
+// --></script>
+</p>
+<input type="hidden" name="ctl00$Content$hidContent" id="ctl00_Content_hidContent" value="&lt;p>
+&lt;script type=&quot;text/javascript&quot;>&lt;!--
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29089445-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// -->&lt;/script>
+&lt;/p>
+&lt;p>
+&lt;script type=&quot;text/javascript&quot;>&lt;!--
+window.Meebo||function(c){function p(){return[&quot;&lt;&quot;,i,' onload=&quot;var d=',g,&quot;;d.getElementsByTagName('head')[0].&quot;,
+j,&quot;(d.&quot;,h,&quot;('script')).&quot;,k,&quot;='//cim.meebo.com/cim?iv=&quot;,a.v,&quot;&amp;&quot;,q,&quot;=&quot;,c[q],c[l]?
+&quot;&amp;&quot;+l+&quot;=&quot;+c[l]:&quot;&quot;,c[e]?&quot;&amp;&quot;+e+&quot;=&quot;+c[e]:&quot;&quot;,&quot;'\&quot;>&lt;/&quot;,i,&quot;>&quot;].join(&quot;&quot;)}var f=window,
+a=f.Meebo=f.Meebo||function(){(a._=a._||[]).push(arguments)},d=document,i=&quot;body&quot;,
+m=d[i],r;if(!m){r=arguments.callee;return setTimeout(function(){r(c)},100)}a.$=
+{0:+new Date};a.T=function(u){a.$[u]=new Date-a.$[0]};a.v=5;var j=&quot;appendChild&quot;,
+h=&quot;createElement&quot;,k=&quot;src&quot;,l=&quot;lang&quot;,q=&quot;network&quot;,e=&quot;domain&quot;,n=d[h](&quot;div&quot;),v=n[j](d[h](&quot;m&quot;)),
+b=d[h](&quot;iframe&quot;),g=&quot;document&quot;,o,s=function(){a.T(&quot;load&quot;);a(&quot;load&quot;)};f.addEventListener?
+f.addEventListener(&quot;load&quot;,s,false):f.attachEvent(&quot;onload&quot;,s);n.style.display=&quot;none&quot;;
+m.insertBefore(n,m.firstChild).id=&quot;meebo&quot;;b.frameBorder=&quot;0&quot;;b.name=b.id=&quot;meebo-iframe&quot;;
+b.allowTransparency=&quot;true&quot;;v[j](b);try{b.contentWindow[g].open()}catch(w){c[e]=
+d[e];o=&quot;javascript:var d=&quot;+g+&quot;.open();d.domain='&quot;+d.domain+&quot;';&quot;;b[k]=o+&quot;void(0);&quot;}try{var t=
+b.contentWindow[g];t.write(p());t.close()}catch(x){b[k]=o+'d.write(&quot;'+p().replace(/&quot;/g,
+'\\&quot;')+'&quot;);d.close();'}a.T(1)}({network:&quot;tvc_qi56do&quot;});
+// -->&lt;/script>
+&lt;/p>
+&lt;h1>&lt;!--[if gte mso 9]>&lt;xml> Normal   0               false   false   false      EN-US   X-NONE   X-NONE                                                     MicrosoftInternetExplorer4 &lt;/xml>&lt;![endif][if gte mso 9]>&lt;xml> &lt;/xml>&lt;![endif][if gte mso 10]>
+&lt;style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:&quot;Table Normal&quot;;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:&quot;&quot;;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:&quot;Times New Roman&quot;;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+&lt;/style>
+&lt;![endif]--> Welcome to the Texas Veterans Commission&lt;/h1>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p style=&quot;text-align: left;&quot;>The Texas Veterans Commission was created in 1927 as the State Service Office to assist veterans of the Indian wars, Spanish-American War and World War I. Our purpose has always been to act as the state appointed advocate of Texas veterans as they attempt to secure the benefits rightfully earned in exchange for their service in our nation's armed forces.&lt;/p>
+&lt;p style=&quot;text-align: left;&quot;>&amp;nbsp;&lt;/p>
+&lt;p style=&quot;text-align: left;&quot;>&amp;nbsp;&lt;/p>
+&lt;p>We are able to do this through our four program areas:&lt;/p>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;ul>
+&lt;li>Claims Representation and Counseling&amp;nbsp;serves veterans, their dependents and survivors, in all matters pertaining to veterans' disability benefits and rights. It is the designated agency of the state of Texas to represent the State and its veterans before the U.S. Department of Veterans Affairs (VA).&lt;/li>
+&lt;li>Veterans Employment Services&amp;nbsp;offers employment services to Texas veterans and helps employers find qualified veteran job applicants. The goal of these services is to match veteran job seekers with the best employment opportunities available.&lt;/li>
+&lt;li>Veterans Education Program&amp;nbsp;(link)approves all programs for Chapter 30, 33, 35, 1606, and 1607 federal educational benefits. Through an approval process, the Texas Veterans Commission ensures that institutions and employers are in compliance with federal guidelines and are qualified to provide the type of training offered.&lt;/li>
+&lt;li>Texas Veterans Commission Fund for Veterans&amp;rsquo; Assistance&amp;nbsp;is a program that makes grants available to eligible charitable organizations, local government agencies, and Veterans Service Organizations that provide direct services to Texas veterans and their families.&lt;/li>
+&lt;/ul>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;table border=&quot;0&quot; style=&quot;height: 118px;&quot; width=&quot;827&quot;>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;p style=&quot;text-align: center;&quot;>&lt;a href=&quot;http://www.texas.gov/veterans&quot;>&lt;img height=&quot;82&quot; src=&quot;Files/Texas_Veterans_Portal.png&quot; width=&quot;213&quot; />&lt;/a>&lt;/p>
+&lt;/td>
+&lt;td>&lt;a href=&quot;http://www.glo.texas.gov/vlb/index.html&quot; title=&quot;TVC's Partner Agency&quot;>
+&lt;p style=&quot;text-align: center;&quot;>&lt;img alt=&quot;Discover various programs offered by the General Land Office through the VLB&quot; dir=&quot;ltr&quot; height=&quot;76&quot; src=&quot;Files/VLBicon.JPG&quot; style=&quot;margin: 0px 20px 20px 0px;&quot; title=&quot;TVC's Partner Agency&quot; width=&quot;236&quot; />&lt;/p>
+&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/p>
+&lt;div style=&quot;text-align: start;&quot;>&lt;span style=&quot;font-size: small;&quot;> 
+&lt;table align=&quot;center&quot; border=&quot;0&quot; style=&quot;height: 118px;&quot; width=&quot;400&quot;>
+&lt;tbody>
+&lt;tr>
+&lt;td>
+&lt;p style=&quot;text-align: center;&quot;>&lt;a href=&quot;http://www.milvetpeer.net/&quot;>&lt;img src=&quot;Files/MVPN_logo.png&quot; style=&quot;margin: 0px 0px 0px 0px;&quot; />&lt;/a>&lt;/p>
+&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;br />&lt;/span>&lt;/div>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p>&amp;nbsp;&lt;/p>
+&lt;p style=&quot;text-align: center;&quot;>&amp;nbsp;&lt;/p>
+&lt;p style=&quot;text-align: center;&quot;>&amp;nbsp;
+&lt;script type=&quot;text/javascript&quot;>&lt;!--
+  Meebo(&quot;domReady&quot;);
+// -->&lt;/script>
+&lt;/p>" />
+
+				
+							
+			</div>
+			
+			<div class="bgimage-class-bottom"></div>
+			
+			
+		</div>
+		
+		
+    </div>		
+	
+	
+	</div>
+	
+<!--Main Body End-->	
+	
+	<div class="clear-fix"></div>
+	
+<!--Footer Start-->	
+
+    <div id="footer-menu-container">	
+	
+	    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+                        <ul id="footer-menu" class="dropup">
+                    
+                        <li style=""><a href='/Search-Archives.aspx'>
+                            Search Archives</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Texas-Transparency.aspx'>
+                            Texas Transparency</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Texas-gov-.aspx'>
+                            Texas.gov </a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Compact-with-Texas.aspx'>
+                            Compact with Texas</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Energy-Conservation-Plan.aspx'>
+                            Energy Conservation Plan</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Report-Fraud.aspx'>
+                            Report Fraud</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Espa-ol.aspx'>
+                            Español</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Statewide-Search.aspx'>
+                            Statewide Search</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/TX-Homeland-Security.aspx'>
+                            TX Homeland Security</a>
+                            
+                            
+                            </li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        <li style=""><a href='/Site-Policies.aspx'>
+                            Site Policies</a>
+                            <ul>
+                            
+                                    <li style=""><a href='/SiteMap.aspx'>
+                                        SiteMap</a>
+                                        </li>
+                            </ul></li>
+                            <li style=";color:Gray;" >|</li>
+                            
+                        </ul>
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+        
+                
+          
+    
+
+	
+	
+	</div>
+	
+	<div class="clear-fix"></div>
+	
+	<div class="copyright">
+		&copy;&nbsp;Copyright 2016 TEXAS VETERANS COMMISSION. All rights reserved.
+		
+	</div>	
+	
+	
+
+<!--Footer End-->	
+
+</div>
+
+  
+    <input type="hidden" name="ctl00$hidurl" id="ctl00_hidurl" />
+    <input type="hidden" name="ctl00$hidimageurl" id="ctl00_hidimageurl" />
+
+
+</form>
+    
+
+</body>
+</html>

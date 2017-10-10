@@ -1,0 +1,556 @@
+<!-- USING NEW TEMPLATE  DOMAIN:m.meangreensports.com INNERDOMAIN:meangreensports SECONDLEVEL:meangreensports.com --><!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+	<title>North Texas Mean Green Official Athletic Site</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+    <script>
+  	  var schoolCode='ntex'; //';
+  	  var sportCode= location.href.match(/sports\/([^\/]*)/)[1]; //'';
+    </script>
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+	<link rel="apple-touch-icon" href="http://grfx.cstv.com/schools/ntex/apple-touch-icon.png">
+    <script src="http://grfx.cstv.com/scripts/common.js"></script>
+    <script src="http://grfx.cstv.com/scripts/oas-omni-controls.js"></script>
+
+    <script src="http://grfx.cstv.com/scripts/jquery/jquery-1.10.2.min.js"></script>
+
+	<link href='http://grfx.cstv.com/scripts/mobile/mobilesite.css' rel='stylesheet' type='text/css'>
+	<link href='http://grfx.cstv.com/schools/ntex/library/css/ntex-mobile.css' rel='stylesheet' type='text/css'>	
+    <script src="http://grfx.cstv.com/scripts/mobile/mobilesite.js"></script> 	
+
+	<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') + 
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+
+	var adForSports = "/SPORTS." + sportCode.replace(/-/,"").toUpperCase();
+
+	googletag.cmd.push(function() {
+	googletag.defineSlot('/4177/NTEX_WAP', [[120, 20], [168, 28], [216, 36], [300, 50], [320, 50]], 'div-gpt-ad-0').addService(googletag.pubads());
+	googletag.defineSlot('/4177/NTEX_WAP', [[300, 250]], 'div-gpt-ad-1').addService(googletag.pubads());
+	googletag.defineSlot('/4177/NTEX_WAP', [70, 42], 'div-gpt-ad-2').addService(googletag.pubads());
+	googletag.defineSlot('/4177/NTEX_WAP', [320, 50], 'div-footer-ad').addService(googletag.pubads());
+	googletag.pubads().setTargeting("sect",adForSports);
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+	});
+	</script>
+
+</head>
+<body>
+<div id='div-gpt-ad-interstitial-4-oop'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-interstitial-4-oop'); });
+</script>
+</div>
+<div id="viewport">
+
+	<div id="menu">
+		<div id="menu-heading">Navigation</div>
+		<ul id="menu-list">
+		</ul>
+	</div>
+
+	<a id="page-hover">&nbsp;</a>
+
+	<div id="page">
+
+		<div id="header">	
+
+			<img id="header-logo" src="http://grfx.cstv.com/graphics/school-logos/ntex-lg.png" />
+			<div id="header-title">North Texas Mean Green</div>
+			<div id="header-ad">
+				<div id='div-gpt-ad-2'>
+				<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-2'); });
+				</script>
+				</div>
+			</div>
+		</div>
+
+		<div id="page-nav">
+			<ul class="content-tabs">
+				<li id="nav-menu">
+					<a>
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20"><g fill="#fff"><rect x=".958" y="6" width="19.083" height="3"/><rect x=".958" y=".958" width="19.083" height="3"/><rect x=".958" y="11" width="19.083" height="3"/></g><rect class="nav-icon" fill="#666" width="18.938" height="2.938"/><rect class="nav-icon" fill="#666" y="5.042" width="18.938" height="2.938"/><rect class="nav-icon" fill="#666" y="10.042" width="18.938" height="2.938"/></svg>
+						</div>
+					<div></div>
+				</a></li>
+				<li id="nav-news" data-tab="news" data-tabgroup="main-tab">
+					<a href="/sports//ntex--mobile.html" id="nav-news-hreffer">
+	  				<script>document.getElementById("nav-news-hreffer").href = "/sports/" + sportCode + "/ntex-" + sportCode + "-mobile.html";</script>
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+								 width="23px" height="20px" viewBox="-1.5 1 35 30" enable-background="new -1.5 1 35 30" xml:space="preserve">
+							<g>
+								<path class="nav-icon" fill="#666666" d="M28,8V4H0v22c0,1.105,0.895,2,2,2h27c1.657,0,3-1.343,3-3V8H28z M26,26H2V6h24V26z M4,10h20v2H4V10z M16,14
+									h8v2h-8V14z M16,18h8v2h-8V18z M16,22h6v2h-6V22z M4,14h10v10H4V14z"/>
+							</g>
+							</svg>
+						</div>
+						<div>News</div>
+					</a></li>
+				<li id="nav-roster" data-tab="roster" data-tabgroup="main-tab">
+					<a href="/sports//mtt/ntex--mtt.html" id="roster-hreffer">
+	  				<script>document.getElementById("roster-hreffer").href = "/sports/" + sportCode + "/mtt/ntex-" + sportCode + "-mtt-mobile.html";</script>
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg"x="0px" y="0px"
+								 width="23px" height="20px" viewBox="0 0 35 30" enable-background="new 0 0 35 30" xml:space="preserve">
+							<g>
+								<path class="nav-icon" fill="#666666" d="M23.843,26.992H11.16c-2.307,0-3.875-1.407-3.875-3.758c0-3.279,0.769-8.315,5.021-8.315
+									c0.449,0,2.351,2.017,5.194,2.017c2.845,0,4.746-2.017,5.195-2.017c4.252,0,5.021,5.036,5.021,8.315
+									C27.718,25.585,26.15,26.992,23.843,26.992z M17.501,15.848c-3.076,0-5.572-2.496-5.572-5.572s2.496-5.572,5.572-5.572
+									c3.077,0,5.572,2.496,5.572,5.572S20.578,15.848,17.501,15.848z"/>
+							</g>
+							</svg>
+						</div>
+						<div>Roster</div>
+					</a>
+				</li>
+				<li id="nav-photos">
+					<a href="http://www.meangreensports.com/photogallery/gallery_index.html?school=ntex&sport=" target="_blank">
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+								 width="23px" height="20px" viewBox="0 0 35 30" enable-background="new 0 0 35 30" xml:space="preserve">
+							<g>
+								<path fill="#666766" d="M31.431,10.356v13.002c0,2.046-1.669,3.715-3.715,3.715H7.284c-2.046,0-3.715-1.669-3.715-3.715V10.356
+									c0-2.046,1.669-3.715,3.715-3.715h3.251l0.739-1.974c0.363-0.958,1.495-1.741,2.511-1.741h7.43c1.016,0,2.147,0.784,2.511,1.741
+									l0.739,1.974h3.251C29.762,6.642,31.431,8.311,31.431,10.356z M24.001,16.857c0-3.584-2.917-6.501-6.501-6.501
+									s-6.501,2.917-6.501,6.501c0,3.584,2.917,6.501,6.501,6.501S24.001,20.441,24.001,16.857z M21.68,16.857
+									c0,2.307-1.872,4.18-4.18,4.18s-4.18-1.873-4.18-4.18c0-2.307,1.872-4.179,4.18-4.179S21.68,14.55,21.68,16.857z"/>
+							</g>
+							</svg>
+						</div>
+						<div>Photos</div>
+					</a>
+				</li>
+				<li id="nav-allaccess">
+					<a href="http://www.meangreensports.com/allaccess/" target="_blank">
+						<div class="svg">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+								 width="23px" height="20px" viewBox="0 0 35 30" enable-background="new 0 0 35 30" xml:space="preserve">
+							<g>
+								<circle fill="none" stroke="#666766" stroke-width="2" stroke-miterlimit="10" cx="17.5" cy="15" r="13.499"/>
+								<polygon fill="#666766" points="14.713,22.749 14.713,7.251 22.462,14.999 	"/>
+							</g>
+							</svg>
+						</div>
+						<div>All Access</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div id="ad1">
+			<div id='div-gpt-ad-0'>
+			<script type='text/javascript'>
+			googletag.cmd.push(function() { googletag.display('div-gpt-ad-0'); });
+			</script>
+			</div>
+		</div>
+
+		<div id="main-content" class="main-tab">	
+			<div id="main-content-padding">	
+<!--#set var="ntex_description" value="The North Texas men's golf team received an at-large bid into the 2016 NCAA Regional for the second time in school history under head coach Brad Stracke and will be participating in the Tucson regional May 16-18 held at the Gallery Golf Club, announced by the NCAA on Thursday morning live on the Golf Channel.\" />
+<meta property=\"og:type\" content=\"article\" />
+<meta property=\"fb:app_id\" content=\"167025833475657\" />
+<meta property=\"og:title\" content=\"Men's Golf Earns At-Large Bid To NCAA Tucson Regional\" />
+<meta property=\"og:description\" content=\"The North Texas men's golf team received an at-large bid into the 2016 NCAA Regional for the second time in school history under head coach Brad Stracke and will be participating in the Tucson regional May 16-18 held at the Gallery Golf Club, announced by the NCAA on Thursday morning live on the Golf Channel.\" />
+<meta property=\"og:url\" content=\"/sports/m-golf/spec-rel/050516aaa.html"
+-->
+<!--#set var="ntex_page_title" value="Men's Golf Earns At-Large Bid To NCAA Tucson Regional" -->
+
+
+
+
+<span class="StoryHeadline">Men's Golf Earns At-Large Bid To NCAA Tucson Regional</span><br />
+<span class="StoryTeaser">North Texas Will Be Making 35th Appearance In NCAA Tournament</span><br />
+
+<!-- PHOTO TABLE BEGINS HERE -->
+<table class="photo-table"  class="photo-table"border="0" cellpadding="0" cellspacing="0" align="right" width="155">   
+  <tr>
+    <td width="5" rowspan="2">
+      <img src="http://grfx.cstv.com/schools/ntex/graphics/spacer.gif" width="5" height="4" border="0" alt="" />
+    </td>
+    <td width="150" align="center">
+      <!--REPLACE WITH PHOTO--><br />
+      <img src="http://grfx.cstv.com/schools/ntex/graphics/spacer.gif" width="1" height="4" border="0" alt="" /><br />
+      <span class="StoryCaption"><!--REPLACE WITH CAPTION--></span><br />
+      <img src="http://grfx.cstv.com/schools/ntex/graphics/spacer.gif" width="1" height="8" border="0" alt="" />
+    </td>    
+  </tr>
+</table>
+<!-- PHOTO TABLE ENDS HERE -->
+
+<div id="Content">
+<!-- PARSER CONTENT MARKER START -->
+<b>May 5, 2016</b>
+<P><!-- LINKS TO RELATED PAGES BEGIN --> <!-- LINKS TO RELATED PAGES END --></P><P><img src="http://grfx.cstv.com/photos/schools/ntex/sports/m-golf/auto_wide_story_new/11918413.jpeg?1462466424" alt="" width="640" height="350" /><br /><em>The North Texas men's golf team earned an at-large bid into the NCAA Tucson Regional - May 16-18 at the Gallery Golf Club.</em> &nbsp;<br /><br /><a href="http://www.ncaa.com/news/golf-men/article/2016-05-05/teams-and-individuals-selected-2016-ncaa-division-i-mens-golf">NCAA release</a><br /><br />DENTON --&nbsp;The North Texas men&rsquo;s golf team received an at-large bid into the 2016 NCAA Regional for the second time in school history under head coach <a href="/sports/m-golf/mtt/brad_stracke_850741.html">Brad Stracke</a> and will be participating in the Tucson regional May 16-18 held at the Gallery Golf Club, announced by the NCAA on Thursday morning live on the Golf Channel. <br /><br />&ldquo;I am very excited and proud of my team for making the West Regional in Tucson, Arizona,&rdquo; head coach <a href="/sports/m-golf/mtt/brad_stracke_850741.html">Brad Stracke</a> said. &ldquo;We have a very talented bunch of players and I believe they will perform at a very high level this post season.&rdquo; <br /><br />It marks the fifth NCAA regional appearance under Stracke and the 35th all-time in the history of the program. The Mean Green were ranked No. 62 in the nation according to Golfstat.com rankings and were able to receive one of 41 at-large bids. <br /><br />The three-day event will take place at Gallery Golf Club which has hosted the 2008 WGC-Accenture Match Play Championship won by Tiger Woods. <br /><br />North Texas is coming off a third-place finish at the Conference USA Championship before falling in the semifinals of match play to eventual champion LA Tech. <br /><br />Fourteen teams, including nine in the top-50, will be competing for the right to advance to the NCAA Championship hosted by Oregon on May 27- June 1 at Eugene Country Club. The top five teams at each regional will advance to the next round.<br /><br /></P><P>
+<table width="640" style="width: 480.0pt; background: #EFEDEE; border-collapse: collapse; border: none;">
+<thead>
+<tr>
+<td colspan="2" style="border: none; background: #01375D; padding: 3.0pt 2.25pt 3.0pt 2.25pt;">
+<p style="margin-bottom: .0001pt; text-align: center; line-height: normal;"><strong><span style="font-size: 7.5pt; font-family: 'Helvetica',sans-serif; color: white; text-transform: uppercase; letter-spacing: .75pt;">GALLERY GOLF CLUB &ndash; MARANA, ARIZONA HOSTED BY UNIVERSITY OF ARIZONA</span></strong></P><P></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Seeds</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Teams</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">1.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#1 Stanford University [Pac-12 Conference] </span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">2.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#12 Wake Forest University- at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">3.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#13 University of California, Berkeley &ndash; at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">4.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#24 University of Oregon &ndash; at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">5.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#25 University of North Carolina, Chapel Hill &ndash; at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">6.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#36 University of North Florida &ndash; at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">7.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#37 University of Alabama at Birmingham &ndash; at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">8.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#48 Georgia Institute of Technology &ndash; at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">9.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">#50 St. Mary&rsquo;s College of California [West Coast Conference]</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">10.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;"># 61 Georgia State University- at large</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">11.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><strong><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;"># 62 University of North Texas- at large</span></strong></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">12.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Louisiana Tech University [Conference USA]</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">13.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">University of California, Riverside [Big West Conference]</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">14.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Siena College [Metro Atlantic Athletic Conference]</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">&nbsp;</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">&nbsp;</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">&nbsp;</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Individuals</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">1.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Sean Walsh, Gonzaga University</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">2.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Brandon Bauman, University of California, Santa Barbara</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">3.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Alex Chiarella, University of San Diego</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">4.</span></P><P></td>
+<td style="border: none; background: white; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Daniel Chian, Long Beach State University</span></P><P></td>
+</tr>
+<tr>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">5.</span></P><P></td>
+<td style="border: none; background: #EDEDED; padding: 3.0pt 6.0pt 3.0pt 6.0pt;">
+<p style="margin-bottom: .0001pt; line-height: 10.5pt;"><span style="font-size: 8.5pt; font-family: 'inherit',serif; color: #444444;">Aaron Beverly, California State University, Sacramento</span></P><P></td>
+</tr>
+</tbody>
+</table>
+<P>&nbsp;</P><P> 
+<!-- STORY AD BEGINS HERE -->
+<br clear=left>
+<table border="0" cellpadding="0" cellspacing="0" align="left">
+<tr>
+<td>
+<div class="fivevert">&nbsp;</div>
+<br>
+<div class="fivevert">&nbsp;</div></td>
+<td width=5>
+<img src="http://grfx.cstv.com/graphics/spacer.gif" width=5 height=1border=0 alt=""></td>
+</tr>
+</table><br>
+<!-- STORY AD ENDS HERE -->
+
+<!-- PARSER CONTENT MARKER END -->
+</div><!-- END #Content -->  
+
+<script>checkFontSizeCookie();</script>
+  
+<!-- CONTENT IS DONE --><!-- calling sport-footer-mobile.html -->			</div>
+		</div><!-- /main-content -->
+
+		<div id="portals">
+			<ul id="portal-nav" class="content-tabs">
+				<li id="nav-portal-store" class="active" data-tab="portal-store" data-tabgroup="portal"><a>Online Store</a></li>
+				<li id="nav-portal-action" data-tab="portal-auction" data-tabgroup="portal"><a>Auctions</a></li>
+			</ul>
+
+			<div id="portal-store" class="portal">
+				<div id="storeportalwrap"><div id="storeportalheadline"><em>Shop Now</em> at<br />the Official Store</div><div id="storeportalbox"></div></div>
+			</div>
+			<div id="portal-auction" class="portal">
+				<div id="auctionportalwrap"><div id="auctionportalheadline">Official Auctions</div><div id="auctionportalbox"></div></div>
+			</div>
+
+		</div>
+
+		<div id="story-ad">
+			<div id="ad2">
+				<div id='div-gpt-ad-1'>
+				<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1'); });
+				</script>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer" class="primarybgcolor">
+			<p class="viewtype">View: Mobile | <a href="http://www.meangreensports.com/sports/m-golf/spec-rel/050516aaa.html?wappref=std">Desktop</a></p>
+
+			
+	<style>
+	#logo-wrap{
+	float:left;
+	background: url("http://grfx.cstv.com/graphics/new-footer-06-white-logo.png") no-repeat;
+			*background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://grfx.cstv.com/graphics/new-footer-06-white-logo.png");
+	width:50%;
+	display:block;
+	height:50px;
+	display:block
+	}
+	#logo-wrap img{
+    float:left;
+    width:290px;
+    height:50px;
+    position:relative;
+    z-index:10;
+    }
+	#dots{
+	clear:both;
+	background: url("http://grfx.cstv.com/graphics/new-footer-06-white-dots.png") no-repeat;
+			*background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://grfx.cstv.com/graphics/new-footer-06-white-dots.png", sizingMethod='scale');
+	height:6px;
+	display:block;
+			background-position: center;
+	}
+	</style>
+	<link href="http://grfx.cstv.com/schools/ntex/library/ntex-07-footer.css" rel="stylesheet" type="text/css" />
+	<div id="footer-wrap-temp">
+	<div id="logo-wrap"><a href="http://www.cbssports.com/" target="_blank"><img src="http://grfx.cstv.com/graphics/spacer.gif" width="290" height="50" alt="CBS College Sports" border="0"/></a></div>
+	
+	<div id="dots"></div>
+	<div id="footer-links">&copy; 2016 CBS Interactive. All rights reserved. | <a href='http://legalterms.cbsinteractive.com/privacy' target="_blank">Privacy Policy</a> | <a href='http://legalterms.cbsinteractive.com/adchoice' target="_blank">Ad Choice</a> | <a href='http://legalterms.cbsinteractive.com/terms-of-use' target="_blank">Terms of Use</a> | <a href='http://collegenetwork.cbssports.com/'>About Us</a> | <a href='http://www.cbsinteractive.com/advertise/'>Advertise</a> | <a href=http://www.meangreensports.com/feedback/ntex-feedback.html class="csdisclaimerlink">Feedback</a> 
+	
+
+	</div>
+	</div>
+	
+
+		</div>
+
+	</div>
+
+</div>
+<div id="sticky-footer-ad">
+    <div id="footer-ad">
+         <div id='div-footer-ad'>
+              <script type='text/javascript'>
+                        googletag.cmd.push(function() { googletag.display('div-footer-ad'); });
+              </script>
+         </div>
+     </div>
+</div>
+
+ 
+<!--TRACKING_START-->
+<script type="text/javascript" src="//grfx.cstv.com/scripts/guid-1.0.js"></script>
+<script type="text/javascript">
+var utag_data;
+function get_page_title() {
+    if (document.querySelector(".StoryHeadline") !== null && document.querySelector(".StoryHeadline").innerHTML.length > 0) {
+        return document.querySelector(".StoryHeadline").innerHTML;
+    }
+
+    var metas = document.getElementsByTagName('meta');
+    for (i=0; i<metas.length; i++) {
+        if (metas[i].getAttribute("property") == "og:title") {
+            return metas[i].getAttribute("content");
+        }
+    }
+
+    return document.title || '';
+}
+ 
+utag_data = {
+    siteId: '225',
+    c2: '3000082',
+    pageViewGuid: v1(),
+    articleId: '050516aaa',
+    articlePubDate: '2016-05-05',
+    articleTitle: get_page_title(),
+    articleType: 'spec-rel',
+    pageType: 'story',
+    schoolId: 'ntex',
+    schoolName: 'North Texas',
+    searchTerm: '',
+    siteHier: 'sports|m-golf|spec-rel',
+    siteRsid: 'cbsicbscnsite-ntex',
+    siteSection: 'sports',
+    siteType: 'mobile web',
+    sportName: 'm-golf',
+};
+(function(a,b,c,d){
+   a='//tags.tiqcdn.com/utag/cbsi/cbscnsite/prod/utag.js';
+   b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+   a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+ 
+</script>
+
+<style type="text/css">
+#inseguitore{position:absolute;left:0;top:0;}
+</style>
+<div id="inseguitore">
+<!-- START Nielsen//NetRatings SiteCensus V5.3 -->
+<!-- COPYRIGHT 2007 Nielsen//NetRatings -->
+<script type="text/javascript">
+var _rsCI="us-cstv";
+var _rsCG="school";
+var _rsDN="//secure-us.imrworldwide.com/";
+var _rsPLfl=0;
+var _rsCL=1;
+</script>
+<script type="text/javascript" src="//secure-us.imrworldwide.com/v53.js"></script>
+<noscript>
+<div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-cstv&amp;cg=school&cc=1" alt=""/></div>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.3 --> 
+</div>
+
+<!-- CNET tag for reporting OAS traffic -->
+<script type="text/javascript" src="http://dw.cbsimg.net/js/cbsi/dw.js"></script>
+<script type="text/javascript">
+  DW.pageParams = {
+    siteId: '225'
+  };
+  DW.tagNielsen = false;
+  DW.clear();
+</script>
+<noscript>
+<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1462979663&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
+</noscript>
+
+<!-- Comscore tag -->
+<noscript>
+    <img src="http://b.scorecardresearch.com/b?c1=2&c2=3000023&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript> 
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-42613524-1']);
+_gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<script language="JavaScript" type="text/javascript" src="//js.revsci.net/gateway/gw.js?csid=F09828&auto=t&bpid=cbsinteractive"></script>
+<script type='text/javascript'>var a=document.createElement("script");a.type="text/javascript";a.async=!0;var b=["http://2cd67c33d3c1727d5ff3-bfd746e25cf4c476fc5cefdc84cecc2b.r15.cf2.rackcdn.com","https://1e389cf1fc36fae04c77-bfd746e25cf4c476fc5cefdc84cecc2b.ssl.cf2.rackcdn.com"];a.src=("https:"==document.location.protocol?b[1]:b[0])+"/jgmvc0y9kwxw.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);</script>
+<!--TRACKING_END-->
+
+</body>
+</html>

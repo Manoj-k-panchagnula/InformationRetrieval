@@ -1,0 +1,311 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="og:title" content="Vote Texas"/>
+    <meta property="og:type" content="government"/>
+    <meta property="og:image" content="http://votetexas.gov/wp-content/themes/votetexas-full/images/logo_votetexas.png"/>
+    
+    <title>Welcome to VoteTexas.gov </title>
+
+<link rel="stylesheet" href="http://www.votetexas.gov/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.3.5" type="text/css" media="all" />
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="http://www.votetexas.gov/wp-content/themes/votetexas-full/css/style.css">
+
+ <link rel="stylesheet" type="text/css" href="http://www.votetexas.gov/wp-content/themes/votetexas-full/css/print.css" media="print" />
+
+    <!--script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/libs/modernizr-2.5.3.min.js"></script-->
+    		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.votetexas.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='events-manager-css'  href='http://www.votetexas.gov/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.62' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/www.votetexas.gov\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/www.votetexas.gov\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"6","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/www.votetexas.gov\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"http:\/\/www.votetexas.gov\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.62'></script>
+<link rel='https://api.w.org/' href='http://www.votetexas.gov/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.votetexas.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.votetexas.gov/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WPML ver:3.3.5 stt:1,2;" />
+<link rel="alternate" hreflang="en-US" href="http://www.votetexas.gov/" />
+<link rel="alternate" hreflang="es-ES" href="http://www.votetexas.gov/es/" />
+</head>
+<body class="im-not-sure-if-im-registered-how-can-i-confirm-my-voter-registration-status en" id="home">
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div id="skip">
+        <a href="#content">Skip to Main Content</a>
+    </div>
+    <div id="canvas">
+        <div id="header">
+            <div id="newsticker" class="ticker">
+                <!--span class="hidden">Newsticker</span-->
+	<ul class='xoxo blogroll'>
+<li><a href="https://teamrv-mvp.sos.texas.gov/MVP/mvp.do" title="Am I registered to vote?">Am I registered to vote?</a></li>
+<li><a href="http://www.votetexas.gov/faq/early-voting/">Early voting for the May 24, 2016 Primary Runoff Election runs Monday, May 16 – Friday, May 20</a></li>
+<li><a href="https://enrpages.sos.state.tx.us/">Election Night Returns</a></li>
+<li><a href="http://www.sos.state.tx.us/elections/voter/reqabbm.shtml">Last day to apply for ballot by mail (received, not postmarked) is Friday, May 13, 2016</a></li>
+<li><a href="/register-to-vote/need-id" title="Photo ID is now required to vote in person.">Photo ID is now required to vote in person</a></li>
+<li><a href="/voting/what">What&#039;s on the ballot?</a></li>
+
+	</ul>
+
+            </div>
+            <ul class="header_links">
+                <li><a class="white" href="http://www.votetexas.gov/contact/">Contact</a> &nbsp; | &nbsp;&nbsp; </li>
+                <!--li><a class="red" href="#">EN ESPANOL</a></li-->
+                <a href="http://www.votetexas.gov/es/" class="translate">En Español</a>            </ul>
+        </div><!--#header-->
+        <div id="nav" class="clearfix">
+            <a class="home_link" href="/"><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/logo_votetexas.png" alt="VOTETEXAS.GOV - MAKE YOUR MARK ON TEXAS - POWERED BY THE TEXAS SECRETARY OF STATE"/></a>
+            <ul class="top_nav">
+                <li><a href="http://www.votetexas.gov/register-to-vote/">Register to Vote</a></li>
+                <li><a href="http://www.votetexas.gov/voting/">Who, What, Where, When, How</a></li>
+                <li><a href="http://www.votetexas.gov/military-overseas-voters/">Military & Overseas Voters</a></li>
+                <li><a href="http://www.votetexas.gov/voters-with-special-needs/">Voters With Special Needs</a></li>
+                <li><a href="http://www.votetexas.gov/your-rights/">Your Rights</a></li>
+                <li><a href="http://www.votetexas.gov/faq/">FAQ</a></li>
+                <li><a href="http://www.votetexas.gov/resources/">Resources</a></li>
+            </ul>
+		<!--	<span style="color:#F00; font-size:12px; font-weight: bold;">Qualified voters without an approved photo ID may obtain a free Election Identification Card from DPS.</span><span style="color:#F00; font-size:12px;"> Find out more at <a style="text-decoration: underline;" href="http://www.txdps.state.tx.us/DriverLicense/electionID.htm">dps.texas.gov</a>.</span>-->
+
+
+<span style="color:#F00; font-size:12px; font-weight: bold;"> Don&acute;t have a photo identification for voting? <a style="text-decoration: underline;"href="http://www.dps.texas.gov/DriverLicense/electionID.htm">Election Identification Certificates</a> are available from  your local <a style="text-decoration: underline;"href="http://www.txdps.state.tx.us/administration/driver_licensing_control/rolodex/search.asp">DPS office</a>.</span>
+
+
+            <div class="bottom_nav">                
+                <form role="search" method="get" id="searchform" action="http://www.votetexas.gov/">
+    <div>
+        <label for="s">Search</label>
+        <input type="text" value="" name="s" id="s" placeholder="Search..." maxlength="50"/>
+        <input type="submit" id="searchsubmit" value="Search" />
+    </div>
+<input type='hidden' name='lang' value='en' /></form> 
+                <ul class="share">
+                    <li class="twitter"><a href="https://twitter.com/votetexas"><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/icon_twitter.png" alt="Follow us on Twitter" title="Follow us on Twitter" /></a></li>
+                    <li class="fb"><a href="https://www.facebook.com/txsecretary" ><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/icon_fb.png" alt="Follow us on Facebook" title="Follow us on Facebook" /></a></li>
+<li class="instagram"><a href="http://www.instagram.com/votetexas"><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/icon-instagram.png" alt="Follow us on Instagram" title="Follow us on Instagram" /></a></li>
+                    <li class="youtube"><a href="http://www.youtube.com/user/TexasSOSOffice"><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/icon_youtube.png" alt="Follow us on YouTube" title="Follow us on YouTube" /></a></li>
+                    <li class="sms"><a href="/remind"><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/icon_sms.png" alt="Remind a Friend" title="Remind a Friend" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <a name="content"></a>
+<div id="main" role="main">
+    <div class="stars"></div>
+    <div class="col_l">
+        <div class="faq_select">
+            <h2>What do you want to know about voting</h2>
+            <p>Thank you for visiting VoteTexas.gov, the one-stop resource for voter information.</p>
+            <img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/cascos-signature.png" alt="Texas Secretary of State Carlos Cascos' portrait and signature" />
+            <!--<a href=""><img class="Hope Andrade" src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/signature_home.png" alt="Signature" title="Hope Andrade" /></a> -->
+            <form class="faq_select_form">
+                <label for="faq_selector">Most Frequently Asked Questions</label>
+                <select class="faq_selector" name="faq_selector" id="faq_selector">
+                    <option value="">SELECT A QUESTION...</option>
+                    <option value="http://www.votetexas.gov/faq/registration#2788">I am registered to vote, but I moved this past year. Is there anything I need to do to make sure that I won't have a problem voting in May?</option><option value="http://www.votetexas.gov/faq/registration#2071">What kind of identification will be required to qualify to vote in person under the new program?</option><option value="http://www.votetexas.gov/faq/where-to-vote#2771">Where do I go to vote?</option><option value="http://www.votetexas.gov/faq/registration#2067">My ID is expired. Will it still work?</option><option value="http://www.votetexas.gov/faq/registration#2042">Does the address on my photo identification have to match my address on the official list of registered voters at the time of voting?</option><option value="http://www.votetexas.gov/faq/where-to-vote#2763">It's election day, May 24, 2016, and I'm registered and ready to vote and have my identification. Where do I go? What are the hours for voting on election day?</option><option value="http://www.votetexas.gov/faq/registration#2786">I don't remember seeing my certificate lately. Is that a problem? Don't I just stay registered?</option><option value="http://www.votetexas.gov/faq/registration#2054">My name on my approved photo ID does not exactly match my name on my voter registration card. Can I still vote?</option><option value="http://www.votetexas.gov/faq/faq-home#2781">What will I need in order to vote in person on election day or during early voting?</option><option value="http://www.votetexas.gov/faq/registration#2034">What happens if I refuse to show proof of identity?</option>                </select>
+                <input class="btn_faq_go" type="Submit" value="Go!"/>
+            </form>
+        </div>
+        <div class="twitterfeed">
+            <h3>Latest Tweets</h3>
+<a class="twitter-timeline"  href="https://twitter.com/VoteTexas" data-widget-id="345292092345573377" data-chrome="transparent">Tweets by @VoteTexas</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+    </div>
+    <div class="col_r">
+        <div class="keydates tab_box">
+    <div class="top">Key registration and voting dates</div>
+    <div class="body clearfix">
+                <div id="counter"></div>
+        <div class="desc">
+            <div><noscript>13<br/></noscript>Days</div>
+            <div><noscript>05<br/></noscript>Hours</div>
+            <div><noscript>56<br/></noscript>Minutes</div>
+            <div class="last"><noscript>56<br/></noscript>Seconds</div>
+        </div>
+
+                
+
+        <!--<div class="keydate large clearfix">
+            <div class="date"><span class="day">21</span> April</div>
+            <div class="desc">
+                <h3>April 21, 2015 Special Runoff Election for House District 124</h3>                <p>The Special Runoff Election for House District 124 will take place on Tuesday, April 21, 2015. Photo ID is currently required for voting in person. To learn more about photo ID, check out the <strong><a href="http://votetexas.gov/register-to-vote/need-id/#faqs">FAQs</a></strong>.</p>
+            </div>
+        </div>-->
+
+
+        <div class="keydate large clearfix">
+            <div class="date"><span class="day">24</span> May</div>
+            <div class="desc">
+                <h3>May 24, 2016 Primary Runoff Election</h3>
+                                <p><p>The Primary Runoff Election will take place on Tuesday, May 24, 2016. Early Voting takes place from May 16 – May 20. Photo ID is currently required for voting in person. To learn more about photo ID, check out the <strong><a href="http://votetexas.gov/register-to-vote/need-id/#faqs">FAQs</a></strong>.</p></p>
+                <a href="/voting/what/" class="btn_orange">What's on the Ballot?</a>
+            </div>
+        </div>
+                <div class="keydate small clearfix">
+            <div class="date"><span class="day">16</span> May</div>
+            <h3><a href="/events/early-voting-begins-11">Early Voting Begins</a></h3>
+            <p class="days_left"><span class="days">5</span> day(s) left</p>
+        </div>
+
+                <div class="keydate small clearfix">
+            <div class="date"><span class="day">20</span> May</div>
+            <h3><a href="/events/last-day-to-register-10">Early Voting Ends</a></h3>
+            <p class="days_left"><span class="days">9</span> day(s) left</p>
+        </div>
+
+                <div class="keydate small clearfix">
+            <div class="date"><span class="day">24</span> May</div>
+            <h3><a href="/events/primary-runoff-election-2">Primary Runoff Election</a></h3>
+            <p class="days_left"><span class="days">13</span> day(s) left</p>
+        </div>
+
+                <!-- <div class="digital_flag">
+            <h3><a href="">Be a part of the digital Texas flag!</a></h3>
+            <a href=""><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/digital_flag.png" alt="Digital Texas flag" /></a>
+        </div> -->
+
+      <!-- <center><a class="enrresults" href="/"><a href="https://enrpages.sos.state.tx.us/"><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/enr-2.png" alt="Election Night Returns"/></a></a></center> -->
+
+    </div>
+    <div class="bottom"></div>
+
+<!--<center><a class="enrresults" href="/"><a href="https://enrpages.sos.state.tx.us/"><img src="http://www.votetexas.gov/wp-content/themes/votetexas-full/images/enr-2.png" alt="Election Night Returns"/></a></a></center>-->
+
+<!--<span style="color:#F00; font-size:12px;"> Don&acute;t have a photo ID for voting? <a style="text-decoration: underline;" href="http://www.dps.texas.gov/DriverLicense/electionID.htm">Election Identification Certificates</a> are available from <a style="text-decoration: underline;" href="http://www.txdps.state.tx.us/administration/driver_licensing_control/rolodex/search.asp">DPS driver license offices</a> during regular business hours, on Saturdays at <a style="text-decoration: underline;" href="http://www.txdps.state.tx.us/director_staff/media_and_communications/pr091313.htm">select locations</a>, and at EIC mobile stations traveling throughout the state. <a style="text-decoration: underline;" href="/election-identification-certificate-mobile-stations">Find mobile station locations</a> here.</span>-->
+
+</div>
+    </div>
+</div><!--/#main-->
+<div id="footer">
+            <div class="buttons">
+                <div class="callout register">
+                    <div class="txt">
+                        <h3>Not Registered? </h3>
+                        <p>To vote in Texas, you must be registered. Simply pick up a <a href="http://www.sos.state.tx.us/elections/voter/reqvr.shtml" target=_blank>voter registration application</a>, fill it out, and mail it at least 30 days before the election date.                            <br/><a href="http://www.votetexas.gov/register-to-vote/" class="more">MORE ABOUT REGISTRATION > </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="callout remind">
+                    <div class="txt">
+                        <h3>Remind your friends to vote</h3>
+                        <p>Spread the word,  share important election information with your friends and family!                            <br/><a href="http://www.votetexas.gov/remind/" class="more">MORE ABOUT REMINDING > </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="callout contact last">
+                    <div class="txt">
+                        <!--<h3>Contact us</h3> -->
+                        <h3>Voting is easy, so is getting the facts</h3>
+                        <p>Texans must show an approved photo ID when voting in person.<br />
+                        <a href="http://www.votetexas.gov/register-to-vote/need-id/" class="more">MORE ABOUT PHOTO ID ></a></p>
+                        <!-- <p>There are a variety of IDs Texans can use to vote. <a href="/register-to-vote/need-id">Find out which of your IDs</a> to bring with you to vote.</p> -->
+                        <!-- <p>We're looking forward to hearing from you.                            <br/> E-mail: <a href="mailto: elections@sos.state.tx.us" target=_blank>elections@sos.state.tx.us</a>                            <br/> Toll free: 800.252.VOTE(8683)                        <br/><a href="http://www.votetexas.gov/contact/" class="more">MORE ABOUT CONTACTING US > </a></p>-->
+
+                        <!--form id="signup">
+                            <input type="text" placeholder="your email address" />
+                            <input class="btn_orange right" type="submit" value="Submit" />
+                        </form-->
+                    </div>
+                </div>
+            </div>
+            <div class="footer_links">
+                <ul>
+                    <li><a href="/">Home</a> | </li>
+                    <li><a href="http://www.votetexas.gov/register-to-vote/">Register to Vote</a> | </li>
+                    <li><a href="http://www.votetexas.gov/voting/">Who, What, Where, When, How</a> | </li>
+                    <li><a href="http://www.votetexas.gov/military-overseas-voters/">Military & Overseas Voters</a> | </li>
+                    <li><a href="http://www.votetexas.gov/voters-with-special-needs/">Voters With Special Needs</a> | </li>
+                    <li><a href="http://www.votetexas.gov/your-rights/">Your Rights</a> | </li>
+                    <li><a href="http://www.votetexas.gov/faq/">FAQ</a> | </li>
+                    <li><a href="http://www.votetexas.gov/resources/">Resources</a></li>
+                </ul>
+                <div class="copyright">
+                    <p> <strong>(800) 252-VOTE</strong> &nbsp;&nbsp;<a href="http://www.sos.state.tx.us">Texas Secretary of State</a></p>
+                    <p>&copy; 2012 Office of the Texas Secretary of State.  All Rights Reserved.</p>
+                    <p>runner-G</p>
+                </div>
+            </div>
+        </div><!--#footer-->
+    </div> <!--/#canvas-->
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+    <script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/libs/jquery-ui/js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/libs/jquery.countdown.js"></script>
+    <script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/libs/customSelect.jquery.js"></script>
+    <script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/libs/jquery.webticker.js"></script>
+    <script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/plugins.js"></script>
+    <script src="http://www.votetexas.gov/wp-content/themes/votetexas-full/js/script.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            //Countdown timer
+            $(function(){
+
+                $('#counter').countdown({
+                  image: '/wp-content/themes/votetexas-full/images/digits.png',
+                  startTime: '13:05:56:56',
+                  format: 'dd:hh:mm:ss'
+                });
+
+            });
+        });
+
+    </script>
+    
+    <script>
+    var _gaq=[['_setAccount','UA-31369804-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://www.votetexas.gov/?wpmp_switcher=mobile'>Switch to our mobile site</a></p><script type='text/javascript' src='http://www.votetexas.gov/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/www.votetexas.gov\/","ajax_url":"http:\/\/www.votetexas.gov\/wp-admin\/admin-ajax.php","url_type":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.votetexas.gov/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js?ver=4.4.1'></script>
+
+</body>
+</html>

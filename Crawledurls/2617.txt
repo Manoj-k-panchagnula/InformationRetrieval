@@ -1,0 +1,204 @@
+
+
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>UNT Student Activities's OrgSync Website</title>
+<meta name="keywords" content=" UNT Student Organizations SAC orgs" />
+<meta name="description" content="" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+			<link href="/stylesheets/extranet_defaults.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/module_defaults.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/jquery.fancybox.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/jquery-ui.css?1418602681" media="screen" rel="stylesheet" type="text/css" />
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.easing.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/jquery.pngFix.js?1418602681" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.fancybox.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/extranet_defaults.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/module_defaults.js?1418602681" type="text/javascript"></script>
+<script src="/javascripts/os_jquery.js?1418602681" type="text/javascript"></script>
+
+	    <script type="text/javascript" charset="utf-8">
+	      var $j = jQuery.noConflict()
+	    </script>
+<link href="http://os_extranet_files_test.s3.amazonaws.com/363_680_stylesheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<!-- start page -->
+<div id="page">
+	<!-- start header -->
+	<div id="header">
+		<div id="logo">
+			<h3><a href="http://www.unt.orgsync.com"><img src=http://os_extranet_images.s3.amazonaws.com/3190_original.png alt="image goes here" width="850" height="152">
+</a></h3>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="http://unt.orgsync.com/home">Home</a></li>
+                                                                <li><a href="http://unt.orgsync.com/search">Search Orgs</a></li>
+				<li><a href="http://unt.orgsync.com/Calendar">Calendar</a></li>
+				<li><a href="http://unt.orgsync.com/Events">Events</a></li>
+				<li><a href="http://unt.orgsync.com/News">News</a></li>
+				<li><a href="http://unt.orgsync.com/Forms">Forms </a></li>
+				<li><a href="https://orgsync.com/login">Login </a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- end header -->
+
+		<!-- start content -->
+		<div id="content">
+<div id="os_content"><h1>Search&nbsp;Spring 2016 Registered Student Orgs</h1>
+
+<p>If an organization is not listed, it is not currently registered with Student Activities. Feel free to contact Student Activities to determine if an organization is in the process of registering.&nbsp;Please check back frequently for new info, as organizations are updated daily as they register for the Spring.</p>
+
+<h3><span style="font-size: 14px;"><span style="font-size: 12px;"><div class="module" id="module_search_organizations">
+<a href="#" id="show_search_link" onclick="show_search(); return false;" style="display:none">Show Search Section</a>
+<div id="search_container">
+  <h3 id="search_title">Search for Organizations</h3>
+  <label for="query" style="display:none;">Search for Organizations</label>
+  <form action="/search/get_query" method="post" onsubmit="jQuery.ajax({beforeSend:function(request){$j('#search_loader').show();}, complete:function(request){$j('#search_loader').hide(); $j('#search_submit').show();}, data:jQuery.param(jQuery(this).serializeArray()), dataType:'script', type:'get', url:'/search/get_query'}); return false;">
+    <input class="clear_val" id="query" name="query" size="45" type="text" value="Name, Description, Keywords" />
+    <div id="search_submit_container">
+      <input id="search_submit" name="commit" onclick="$j('#search_submit').hide();" type="submit" value="Go" />
+      <div class="loader" id="search_loader" style="display:none"><img alt="Spinner" src="/images/spinner.gif?1418602681" />&nbsp;&nbsp;<span>Searching</span></div>
+    </div>
+    <br />
+  </form>
+  <div id="search_results">
+
+  </div>
+</div>
+<a href="#" id="show_browse_link" onclick="show_browse(); return false;" style="display:none">Show Browse Section</a>
+<div id="browse_container">
+  <h3>Browse For Organizations</h3>
+
+  <div id="browse_by_letter" class="browse_section">
+    <h4>Browse By Letter <span class="loader" id="browse_letter_loader" style="display:none"><img alt="Spinner" src="/images/spinner.gif?1418602681" />&nbsp;&nbsp;<span>Fetching Organizations</span></span></h4>
+    <ul id="letter_container"><li class="browse_by_letter_link " id="browse_by_letter_link_a"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/A'}); return false;">A</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_b"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/B'}); return false;">B</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_c"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/C'}); return false;">C</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_d"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/D'}); return false;">D</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_e"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/E'}); return false;">E</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_f"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/F'}); return false;">F</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_g"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/G'}); return false;">G</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_h"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/H'}); return false;">H</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_i"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/I'}); return false;">I</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_j"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/J'}); return false;">J</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_k"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/K'}); return false;">K</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_l"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/L'}); return false;">L</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_m"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/M'}); return false;">M</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_n"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/N'}); return false;">N</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_o"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/O'}); return false;">O</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_p"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/P'}); return false;">P</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_q"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/Q'}); return false;">Q</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_r"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/R'}); return false;">R</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_s"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/S'}); return false;">S</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_t"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/T'}); return false;">T</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_u"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/U'}); return false;">U</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_v"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/V'}); return false;">V</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_w"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/W'}); return false;">W</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_x"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/X'}); return false;">X</a></li><li class="browse_by_letter_link " id="browse_by_letter_link_y"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/Y'}); return false;">Y</a></li><li class="browse_by_letter_link last" id="browse_by_letter_link_z"><a href="#" onclick="$j('#browse_letter_loader').show(); jQuery.ajax({complete:function(request){$j('#browse_letter_loader').hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_letter/Z'}); return false;">Z</a></li></ul>
+     <br />
+    <div class="browse_results" id="browse_results_letter">
+
+    </div>
+
+  </div>
+
+  <div id="browse_by_category" class="browse_section">
+    <h4>Browse By Category <span class="loader" id="browse_category_loader" style="display:none"><img alt="Spinner" src="/images/spinner.gif?1418602681" />&nbsp;&nbsp;<span>Fetching Organizations</span></span></h4>
+    <a href="#" id="show_categories_link" onclick="$j('#the_categories').slideDown(500); return false;" style="display:none">Show Categories</a>
+    <div id="the_categories">
+      <ul class="category_container"><li class="browse_by_category_link " id="browse_by_category_23619"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23619'}); return false;">Academic & Professional (119)</a></li><li class="browse_by_category_link " id="browse_by_category_23633"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23633'}); return false;">Club Sport (31)</a></li><li class="browse_by_category_link " id="browse_by_category_23692"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23692'}); return false;">Creative & Performing Arts (31)</a></li><li class="browse_by_category_link " id="browse_by_category_23644"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23644'}); return false;">Cultural & International (33)</a></li><li class="browse_by_category_link " id="browse_by_category_23650"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23650'}); return false;">Event Programming (1)</a></li><li class="browse_by_category_link " id="browse_by_category_74737"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/74737'}); return false;">Graduate Student (15)</a></li></ul><ul class="category_container"><li class="browse_by_category_link " id="browse_by_category_23665"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23665'}); return false;">Greek Social-Fraternities (20)</a></li><li class="browse_by_category_link " id="browse_by_category_23664"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23664'}); return false;">Greek Social-Other (5)</a></li><li class="browse_by_category_link " id="browse_by_category_23667"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23667'}); return false;">Greek Social-Sororities (18)</a></li><li class="browse_by_category_link " id="browse_by_category_23671"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23671'}); return false;">Honorary (24)</a></li><li class="browse_by_category_link " id="browse_by_category_23702"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23702'}); return false;">Religious/Spiritual (41)</a></li><li class="browse_by_category_link " id="browse_by_category_23703"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23703'}); return false;">Residence Halls (2)</a></li></ul><ul class="category_container"><li class="browse_by_category_link " id="browse_by_category_23711"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23711'}); return false;">Service (22)</a></li><li class="browse_by_category_link " id="browse_by_category_23694"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23694'}); return false;">Social/Political Awareness (15)</a></li><li class="browse_by_category_link " id="browse_by_category_23714"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23714'}); return false;">Special Interest (43)</a></li><li class="browse_by_category_link " id="browse_by_category_23718"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23718'}); return false;">Sports Recreation (9)</a></li><li class="browse_by_category_link last" id="browse_by_category_23719"><a href="#" onclick="$j(&quot;#browse_category_loader&quot;).show(); jQuery.ajax({complete:function(request){$j(&quot;#browse_category_loader&quot;).hide()}, data:'', dataType:'script', type:'post', url:'/search/get_orgs_by_category/23719'}); return false;">Student Governance (1)</a></li></ul>
+      <br />
+    </div>
+
+    <div class="browse_results" id="browse_results_category"></div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  show_search = function() {
+    $j('#search_container').slideDown(500);
+    $j('#browse_container').slideUp(100);
+    $j("#show_browse_link").show();
+    $j("#show_search_link").hide()
+  }
+  show_browse = function() {
+    $j('#search_container').slideUp(500);
+    $j('#browse_container').slideDown(100);
+    $j("#show_browse_link").hide();
+    $j("#show_search_link").show();
+  }
+	$j('.clear_val').each(function() {
+	    var default_value = this.value;
+	    $j(this).focus(function() {
+	        if(this.value == default_value) {
+	            this.value = '';
+	        }
+	    });
+	    $j(this).blur(function() {
+	        if(this.value == '') {
+	            this.value = default_value;
+	        }
+	    });
+	});
+</script>
+
+</div></span></span></h3>
+</div>
+
+<div id="event_popup_box_wrapper" style="display:none;">
+	<div id="event_popup_box" class="profile_box" >
+	</div>
+</div>
+<div id="day_popup_box_wrapper" style="display:none;">
+	<div id="day_popup_box" class="profile_box" >
+	</div>
+</div>
+
+</div>
+		<!-- end content -->
+		<!-- start sidebar -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2><b>Office</b> Hours</h2>
+					<ul>
+						<li>Monday - Thursday</li>
+						<li>8:00 a.m.-6:00 p.m.</li>
+						<li>Friday</li>
+						<li>8:00 a.m.-5:00 p.m.</li>
+					</ul>
+                                                                                <h2><img src ="http://os_extranet_images.s3.amazonaws.com/52787_original.png" width ="90%" height="90%"/></h2>
+				</li>
+			</ul>
+		</div>
+		<!-- end sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+		</div> <!-- End Page -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="wrap">
+			<div class="footer_box">
+				<h2>Student Activities Center</h2>
+				<li>1155 Union Circle, # 305069</li>
+                                                                <li>Denton, TX 76203</li>
+                                                                <li>Phone: (940) 565-3807</li>
+                                                                <li>Fax: (940) 565-4446</li>
+			</div>
+			<div  class="footer_box">
+				<h2>Useful Web Links</h2>
+                                                                <br/><li><a href="http://www.unt.edu/sa">Student Activities</a></li>
+                                                                <li><a href="http://www.unt.edu/gl">Greek Life</a></li>
+                                                                <li><a href="http://www.unt.edu">UNT Homepage</a></li>
+			</div>
+			<div  class="footer_box">
+				<h2><img src ="[[image:SACLogo_Bl]]" width ="95%" height="95%"/></h2>
+                                                </div>
+		</div>
+		<p id="legal">&copy; 2010 Student Activities Center. <a href="http://www.unt.edu">The University of North Texas</a> </p>
+	</div>
+<!-- end footer -->
+ 
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-1975314-11");
+		pageTracker._setDomainName(".orgsync.com");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	 </body>
+</html>
+
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Designer   : Lena Lackey
+Title      : Astronomy Site Template
+Released   : 20090601
+Description: A two-column, fixed-width and lightweight template ideal for 1024x768 resolutions. Suitable for blogs and small websites.
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>UNT Astronomy</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="pltm.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" type="image" href="favicon.ico">
+</head>
+<body>
+<div id="wrapper">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1>&nbsp;</h1>
+</div>
+	<div id="menu">
+		<ul>
+			<li><a href="http://www.astronomy.unt.edu">Home</a></li>
+			<li><a href="http://www.astronomy.unt.edu/labs.htm">Courses &amp; Labs</a></li>
+			<li class="active"><a href="index.htm">Sky Theater</a></li>
+			<li><a href="http://www.astronomy.unt.edu/obsv.html">Observatories</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+</div>
+
+<!-- start page -->
+<div id="page">
+<div class="bgtop">
+	<!-- start content -->
+	<div id="content">
+	  <div class="post">
+    <h1 class="title">Welcome to the Sky Theater!</h1>
+		<div class="entry">
+            		    <p class="active">   <img src="pltm/images/PIC00095_edited.JPG" alt="" width="488" height="276" class="bgtop" /></p>
+   		      <p class="active">&nbsp;</p>
+            		    <p class="active">The Sky Theater @ UNT is located in the Environmental Sciences Building on   				the <strong> <a href="http://www.unt.edu/pais/map/campusmap.htm"> University of North Texas </a></strong> campus in Denton, TX. This unique 100 seat, 40-foot domed   				theater features the Digistar V projection system that can   				reproduce tonight's sky with digital precision. </p>
+            		    <p class="active">&nbsp;</p>
+            		    <p class="active">Spend some quality time with your   						family, or feed your thirst for knowledge by coming to a   						show and experiencing our full-color, HD projection   						system.  It can make you   				feel like you are traveling to nearby stars, taking a   				celestial roller coaster, or winding through a field of   				electrons within an atom. </p>
+            		    <p class="active">&nbsp;</p>
+   		      <p class="active">The planetarium presents a   				variety of entertaining and educational programs for schools,   				the university and the general public. For more information browse through our links in the sidebar.</p>
+	      <p class="active">&nbsp;</p>
+<p class="active"><em>For questions about the UNT Sky Theater please call (940)369-8213 or <a href="mailto:skytheater@unt.edu">email us</a>.</em></p>
+<p class="active">&nbsp;</p>
+<p class="active">&nbsp;</p>
+<p class="active">
+  <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FSky-Theater%2F164101960291908&amp;layout=button_count&amp;show_faces=false&amp;width=175&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowtransparency="true"></iframe>
+  <a href="http://www.twitter.com/UNT_Astronomy"><img src="http://twitter-badges.s3.amazonaws.com/twitter-b.png" alt="Follow SkyTheater on Twitter"/></a></p>
+<p class="active">&nbsp;</p>
+        </div>
+	  </div>
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div id="sidebar">
+	  <ul>
+	    <li>
+   	    <h2><a href="http://www.skytheater.unt.edu/nowshowing.htm">Now Showing</a></h2>
+<br />
+          <h2><a href="pltm_directions.html">Directions</a></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <h2><a href="reservations.html">Private Reservations</a></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <h2><a href="showlibrary.html">Show Library</a></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <h2><a href="mailto:skytheater@unt.edu">Contact Us</a></h2>
+    </ul>
+</div>
+	<div style="clear: both;"></div>
+</div>
+</div>
+
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+	<p id="legal">(c) 2009 UNT Astronomy. All Rights Reserved.</p>
+</div>
+<!-- end footer -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10811100-50");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

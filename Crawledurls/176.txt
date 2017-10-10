@@ -1,0 +1,246 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>UNT Map | University of North Texas</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/themes/unt/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/typogrify/typogrify.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/node_import/node_import.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/unt_footer/css/block-footer.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/unt/css/unt.css?Q" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/unt/css/jquery.colorbox.css?Q" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/unt/css/jquery.autocomplete.css?Q" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/unt/css/print.css?Q" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/unt/css/ie.css?Q" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/unt/css/ie6.css?Q" />
+<![endif]-->
+    <link rel="shortcut icon" href="http://www.unt.edu/favicon.ico" />
+    <script src="//maps.google.com/maps/api/js?&amp;sensor=true" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="/sites/all/themes/unt/js/jquery-1.5.2.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/jquery.placeholder.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/api.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/jquery.map.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/jquery.colorbox.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/gallery.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/maps.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/alphabetical.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/places.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/parking.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/map_controller.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/share.js?Q"></script>
+</head>
+
+<body class="page not-front not-logged-in no-sidebars page-places-tags-26 section-places page-places places-tags-26 col-1 ">
+
+<div id="page-wrapper"><div id="page">
+
+	    <div id="masthead"><div class="mast-wrapper">
+        <div id="skip"><a href="#">skip</a></div>
+        <div id="unt-search"></div>
+        <div id="quick-links"><div class="region region-quick-links">
+    <ul class="menu"><li class="leaf first"><a href="https://my.unt.edu/" title="">MyUNT</a></li>
+<li class="leaf"><a href="http://eagleconnect.unt.edu/" title="">Eagle Connect</a></li>
+<li class="leaf"><a href="http://webctvista.unt.edu/" title="">Blackboard</a></li>
+<li class="leaf"><a href="http://www.unt.edu/find-people-department.htm" title="">People &amp; Departments</a></li>
+<li class="leaf"><a href="http://www.unt.edu/pais/map/" title="">Maps</a></li>
+<li class="leaf"><a href="http://www.unt.edu/calendars-events.htm" title="">Calendars</a></li>
+<li class="leaf last"><a href="http://www.unt.edu/giving-unt.htm" title="">Giving to UNT</a></li>
+</ul></div> <!-- /.region -->
+</div>
+    </div></div>
+	
+	<div id="header"><div class="section clearfix header-wrapper">
+
+     <div id="dept-logo">
+        	            <a href="/" title="Home" rel="home" id="logo"><img src="http://maps.unt.edu/sites/default/files/unt_logo.png" alt="Home" /></a>
+            			
+        </div>
+
+        <div id="unt-logo">
+            <a href="http://www.unt.edu/"><img src="/sites/all/themes/unt/images/unt-logo.png" alt="UNT | University of North Texas" /></a>
+        </div>
+        
+        
+    </div></div> <!-- /.section, /#header -->
+    
+        
+    <div id="top-nav">
+        <div class="nav-wrapper">
+        <ul id="nav"><li class="menu-10323 first"><a href="/places/tags/34?code=0312" title="">Visiting UNT?</a></li>
+<li class="menu-10324"><a href="/places/tags/31" title="">Student Life</a></li>
+<li class="menu-10325 active-trail active"><a href="/places/tags/26" title="" class="active">Athletics</a></li>
+<li class="menu-9962 last"><a href="http://maps.unt.edu/sites/default/files/UNTCampusMap.pdf" title="">Download PDF Map</a></li>
+</ul>        </div>
+    </div>    
+    
+    <div id="main-wrapper"><div id="main" class="clearfix with-navigation"><div id="theme-wrapper">
+        
+        <div id="content" class="column"><div class="section">
+
+			            
+                        
+            <div class="breadcrumb"><a href="/">Home</a> › </div>            
+                        
+                        
+                        
+                        
+            <div id="content-area">
+                
+            	<h2 class="title"></h2>
+				<div class="maps listing">
+  <div class="map">
+    <img src="http://maps.google.com/maps/api/staticmap?markers=color:0x039055|label:X|0,0&size=630x600&type=roadmap&sensor=true&visible=33.19634,-97.162818|33.215658,-97.139375"/>
+  </div>
+      
+  <div id="search">
+      <form action="/places/search" method="get" id="places_listing_search">
+        <input class="text" type="text" name="search_string" value=""></input>
+        <input class="submit" type="submit" value="Search" name="search"></input>
+      </form>
+    </div>
+<div class="places taxonomy">
+  <h2>Athletics</h2>
+    <p>Mean Green stadium is a new sports and entertainment complex with capacity for 30,000 fans. UNT comes together as the Mean Green Nation while supporting its NCAA Division I teams. Since joining the Sun Belt Conference in 2001, Mean Green teams have won 17 conference championships in nine different sports. </p>
+    <ul class="taxonomy places">
+    
+<li role="option" class="place c tag-26">
+    <a href="http://maps.unt.edu/places/1045/view" title="Coliseum (COL)" id="COL">Coliseum <span class="caps">(COL)</span></a></li>
+
+
+<li role="option" class="place e tag-26 tag-24">
+    <a href="http://maps.unt.edu/places/1141/view" title="Ernie Kuehne Basketball Practice Facility (MGVG)" id="MGVG">Ernie Kuehne Basketball Practice Facility <span class="caps">(MGVG)</span></a></li>
+
+
+<li role="option" class="place f tag-26">
+    <a href="http://maps.unt.edu/places/1085/view" title="Fouts Field (STAD)" id="STAD">Fouts Field <span class="caps">(STAD)</span></a></li>
+
+
+<li role="option" class="place l tag-26">
+    <a href="http://maps.unt.edu/places/1030/view" title="Lovelace Stadium (WSOF)" id="WSOF">Lovelace Stadium <span class="caps">(WSOF)</span></a></li>
+
+
+<li role="option" class="place m tag-26 tag-24">
+    <a href="http://maps.unt.edu/places/1053/view" title="Mean Green Soccer Stadium (WSOC)" id="WSOC">Mean Green Soccer Stadium <span class="caps">(WSOC)</span></a></li>
+
+
+<li role="option" class="place p tag-26">
+    <a href="http://maps.unt.edu/places/1020/view" title="Physical Education Building (PEB)" id="PEB">Physical Education Building <span class="caps">(PEB)</span></a></li>
+
+
+<li role="option" class="place p tag-26 tag-28 tag-31">
+    <a href="http://maps.unt.edu/places/1021/view" title="Pohl Recreation Center (RECS)" id="RECS">Pohl Recreation Center <span class="caps">(RECS)</span></a></li>
+
+
+<li role="option" class="place w tag-26 tag-24">
+    <a href="http://maps.unt.edu/places/1132/view" title="Waranch Tennis Complex (TENN)" id="TENN">Waranch Tennis Complex <span class="caps">(TENN)</span></a></li>
+  </ul>
+  <hr/>
+  <p><a href="/">View all buildings on map</a></p>
+</div>
+<script type="text/javascript" charset="utf-8">
+(function($) {
+  $(document).ready( function(){
+    options = {
+      invisible: [{"nid":"1141","title":"Ernie Kuehne Basketball Practice Facility","latitude":"33.199","longitude":"-97.1624","type":"place","code":"MGVG","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1141\/view\">Ernie Kuehne Basketball Practice Facility<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=MGVG\" class=\"active\">Athletics<\/a>, <a href=\"\/places\/tags\/24?code=MGVG\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1532 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1532%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1132","title":"Waranch Tennis Complex","latitude":"33.1991","longitude":"-97.1604","type":"place","code":"TENN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1132\/view\">Waranch Tennis Complex<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=TENN\" class=\"active\">Athletics<\/a>, <a href=\"\/places\/tags\/24?code=TENN\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1499 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1499%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1085","title":"Fouts Field Stadium","latitude":"33.2083","longitude":"-97.1578","type":"place","code":"STAD","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1085\/view\">Fouts Field Stadium<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=STAD\" class=\"active\">Athletics<\/a><\/p>\n  \n    <address>\n    2300 N. I-35E<br\/>\n    Denton, TX 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2300%20N.%20I-35E%20Denton%20TX%2076205\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1053","title":"Mean Green Soccer Stadium","latitude":"33.2003","longitude":"-97.1626","type":"place","code":"WSOC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1053\/view\">Mean Green Soccer Stadium<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=WSOC\" class=\"active\">Athletics<\/a>, <a href=\"\/places\/tags\/24?code=WSOC\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1500 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1500%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1045","title":"Coliseum","latitude":"33.2086","longitude":"-97.1542","type":"place","code":"COL","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1045\/view\">Coliseum<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=COL\" class=\"active\">Athletics<\/a><\/p>\n  \n    <address>\n    600 Avenue D<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=600%20Avenue%20D%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1030","title":"Lovelace Stadium","latitude":"33.201","longitude":"-97.1628","type":"place","code":"WSOF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1030\/view\">Lovelace Stadium<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=WSOF\" class=\"active\">Athletics<\/a><\/p>\n  \n    <address>\n    1500 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1500%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1020","title":"Physical Education Building","latitude":"33.2109","longitude":"-97.1529","type":"place","code":"PEB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1020\/view\">Physical Education Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=PEB\" class=\"active\">Athletics<\/a><\/p>\n  \n    <address>\n    1921 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1921%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1021","title":"Pohl Recreation Center","latitude":"33.212","longitude":"-97.1542","type":"place","code":"RECS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1021\/view\">Pohl Recreation Center<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=RECS\" class=\"active\">Athletics<\/a>, <a href=\"\/places\/tags\/28?code=RECS\">Food<\/a>, <a href=\"\/places\/tags\/31?code=RECS\">Student Life<\/a><\/p>\n  \n    <address>\n    1900 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1900%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"}],
+      places: 'div.places'
+    };
+    $('body.page-places').map_controller(options);
+  });
+})(jQuery);
+</script>
+</div>
+            </div>
+            
+                        
+            
+        </div></div> <!-- /.section, /#content -->
+        
+        
+    </div></div></div> <!-- /#main, /#main-wrapper, /#slashes -->
+
+	        <div id="footer"><div class="section wrapper">
+
+            <div class="region region-footer">
+    <!-- unt_footer module version 1.3 -->
+	<div id="footerInner">
+	  
+		<div id="contact" class="equalFooter">
+			<h5>Contact Us:</h5>
+			<div class="vcard">
+	<span class="fn org">
+	University Relations, Communications &amp; Marketing</span> <br/><span class="tel"><span class="type">Voice</span>: 940-565-2000</span><br/>
+<br/>
+<h5>Visit Us:</h5> 
+<span><a href="/places/723?code=MGVP,HURL,USB,CHIL">On Campus</a></span>
+	<a href="http://maps.unt.edu/" class="url">http://maps.unt.edu/</a> 
+</div>		</div>
+		
+		<div id="technical" class="equalFooter">
+			<div id="contentProblems">
+	<h5>Email us:</h5>
+	<p>Have questions on content or technical issues?
+	  Please contact us.
+		<a href="mailto:michelle.hale@unt.edu">
+      michelle.hale@unt.edu 
+		</a>
+	</p>
+</div>
+		</div>
+
+		<div id="feedback" class="equalFooter">
+			<h5>UNT System:</h5>
+<ul>
+	<li><a href="http://www.unt.edu/">UNT Home</a></li>
+	<li><a href="http://untsystem.unt.edu/">UNT System</a></li>
+	<li><a href="http://www.unt.edu/unt-dallas/">UNT Dallas</a></li>
+	<li><a href="http://www.hsc.unt.edu/">UNT Health Science Center</a></li>
+</ul>
+		</div>
+		
+		<div style="clear: both; width: 920px; padding: 20px 0 10px 0; margin: 10px 0 0 0; text-align: center;">
+			<p>
+  <strong>
+    Site last updated on  June 14, 2011	</strong>
+</p>
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility Policy</a> | <a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> | <a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a>
+		</div>
+	</div>
+</div> <!-- /.region -->
+
+        </div></div> <!-- /.section, /#footer -->
+    
+</div></div> <!-- /#page, /#page-wrapper -->
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-368058-1"]);_gaq.push(["_setDomainName", ".maps.unt.edu"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+</body>
+</html>

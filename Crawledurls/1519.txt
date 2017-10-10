@@ -1,0 +1,1527 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>University Union Master Plan &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   university-union-master-plan">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/university-union-master-plan"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-PgHz_CT7S344r-5lEFIwCQBuRxYgTwVnLs10J44ZW_w" value="form-PgHz_CT7S344r-5lEFIwCQBuRxYgTwVnLs10J44ZW_w"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/university-union-master-plan"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-PgHz_CT7S344r-5lEFIwCQBuRxYgTwVnLs10J44ZW_w" value="form-PgHz_CT7S344r-5lEFIwCQBuRxYgTwVnLs10J44ZW_w"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-artsentertainment">Arts & Entertainment</div> </div> -->
+			<h1 id="dls">University Union Master Plan</h1>
+						<div id="sub" class="subtitle">Provided by <a href="university-union">University Union</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="university-union">University Union</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="tabbable">
+	<div class="col-md-2">
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active">
+				<a data-toggle="tab" href="#about">About</a></li>
+			<li>
+				<a data-toggle="tab" href="#history">History</a></li>
+			<li>
+				<a data-toggle="tab" href="#timeline">New Union Features</a></li>
+			<li>
+				<a data-toggle="tab" href="#relocation">Relocation</a></li>
+			<li>
+				<a data-toggle="tab" href="#gallery">Construction Gallery</a></li>
+			<li>
+				<a data-toggle="tab" href="#news">News Archive</a></li>
+			<li>
+				<a data-toggle="tab" href="#faq">FAQ</a></li>
+		</ul>
+	</div>
+
+	<div class="col-md-10">
+		<div class="tab-content">
+			<div class="tab-pane active" id="about">
+				<!--<h1>
+					Live Construction Feed</h1>
+				<!--[if IE]> --><!--<div id="PlayerDiv">
+					<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="https://www.apple.com/qtactivex/qtplugin.cab" height="450" id="qtpPlayer" width="800"><param name="src" value="/dummy.mov" /><param name="QTSRC" value="rtsp://B009fa7.nuvicoconnect.com:7000/?ch=1&amp;st=1" /><param name="TYPE" value="application/x-rtsp" /><param name="AutoPlay" value="true" /><param name="SCALE" value="ToFit" /><param name="KIOSKMODE" value="True" /><param name="CONTROLLER" value="True" /><param name="QTSRCCHOKESPEED" value="movierate" /><param name="HREF" value="&lt;' + rtsp://B009fa7.nuvicoconnect.com:7000/?ch=1&amp;st=1" /></object></div>--><!-- <![endif]--><!--[if !IE]> --><!--<div id="stream">
+					&nbsp;</div>
+				<!--<![endif]--><!--<p>
+					<a href="http://www.apple.com/quicktime/" target="_blank">Quicktime Player</a>&nbsp;is required to view the feed.</p>-->
+				<h1>
+					About the Master Plan</h1>
+
+				<p>
+					Imagine a 21st century student union building fueled by the energy of a post-email generation that grew up on Facebook, have always used Google as a verb, tweet more than they talk, and have an app for everything. Imagine a union that embraces and communicates UNT&#39;s rich sense of history and culture. This revitalized University Union will embody the culture, legacy, and aspirations of UNT, and simultaneously serve as a living symbol of UNT&#39;s promise of greatness.</p>
+
+				<p>
+					As UNT grows into a major public research university, the rejuvenated Union will elevate to play a key role in providing UNT&#39;s students the best holistic education in Texas. Symbolizing all that is the &quot;Green Light to Greatness,&quot; the Union will dramatically enhance its ability to service the university community, the City of Denton, and the State of Texas.</p>
+
+				<p>
+					The transformation of the University Union will embrace and enhance the architectural character of Central Campus, be sustainable and efficient in operations, symbolize the UNT Brand, and feature bright, daylight filled spaces throughout its open and airy interior. The Union&#39;s carefully designed exterior features large windows, covered terraces, and beautiful views to and from the Library Mall, Highland Street, and Union Circle. Powerful new entries will welcome the campus community by providing recognizable beacons that anchor a clear, simple and understandable circulation system and allow people to effortlessly navigate to - and through - the rejuvenated building.</p>
+
+				<p>
+					As the bustling hub of campus activity and the place to see and be seen at UNT, the revitalized University Union will serve as an anchor for the educational journey and destined greatness of UNT students for generations to come.</p>
+			</div>
+
+			<div class="tab-pane" id="history">
+				<h1>
+					Union History</h1>
+
+				<p>
+					The idea of unions was born in Cambridge, England, in the early 1800s when debating societies needed a place to debate, then gather and have refreshments after their debates. This began the long-standing tradition of the union as the living room or hearthstone of the campus. The first union in the United States was at Harvard University. The first building to house union services and activities was at University of Pennsylvania in 1896; it was called Houston Hall. In 1996, Houston Hall celebrated its 100th birthday. The union has a long tradition on the University of North Texas campus as well. In March 1999, we celebrated 50 years of unions at the university.</p>
+
+				<p>
+					As early as 1931, O&rsquo;Neil Ford, a distinguished alum and architect, designed a union that would incorporate a memorial tower and bell, something that had been envisioned and desired for quite a long time. A campaign was launched to raise $100,000 needed for the project, but the times were not right for fund-raising. The country was in the midst of the devastating Depression, yet college administrators did not give up, and in 1933, President Robert L. Marquis submitted a proposal for a union and dining hall to be financed under President Franklin D. Roosevelt&rsquo;s National Recovery Act at a cost of $150,000. By raising the student activity fee from $11 to $15, construction seemed closer to a reality, yet nothing happened, and the students continued without a union for another 16 years.<br />
+					<br />
+					By the beginning of the fall 1947 semester, enabling registration and revenue bonds were secured for the first union, which was a remodeled army surplus center. The students did not mind since, at long last, they had a place to gather for fun, food, and fellowship.&nbsp; However, other obstacles arose as the federal government twice denied the application for materials to be used in construction and plans that had been drawn up for the first wing of the union were delayed because of prices exceeding the construction budget.<br />
+					<br />
+					Finally, in the summer of 1948, contracts totaling $513,429 were awarded to construction companies to build a new union, a gymnasium, and a journalism building.&nbsp; Construction plans for the union included the incorporation of a bookstore and post office.&nbsp; Another obstacle was thrown in the way of construction in October of 1948, when a group of Denton merchants argued that that the union stores would jeopardize their business.&nbsp; The delay was short-lived and construction continued to progress.&nbsp;<br />
+					<br />
+					The Memorial Student Union was finished on March 31, 1949, dedicated to the alumni who gave their lives in World War I and World War II.&nbsp; A bronze plaque with names of 147 former students who died in military service was erected in the main foyer.&nbsp; The union was dedicated on the same day of the 50th anniversary of the signing of the legislative act, which established the university as a state institution. Dr. James Rogers, a former University of North Texas faculty member stated in his 1965 book, The Story of North Texas, &ldquo;In spring of 1949, the long awaited dream house&hellip;a new ultra-modern center&hellip;the elegant structure&hellip;made this year [1949], a great year!&rdquo;&nbsp;<br />
+					<br />
+					The Howdy Room was the students&rsquo; new &ldquo;living room&rdquo; on campus, and for many years, was the center of social activity. The Snack Bar, the Trophy Room, the Trading Post, and the Slab were early union facilities well remembered by students of that generation. Impromptu dancing in the Howdy Room, Wednesday night dances on the Slab, and weekly concerts by the Aces of Collegeland (the forerunner of today&rsquo;s Lab Bands) were all a part of that first union.&nbsp; &ldquo;The Trading Post had a western look to it,&rdquo; Rogers said.&nbsp; &ldquo;And the Howdy Room was a great big space with a balcony above&mdash;it was very rustic in appearance.&rdquo;<br />
+					<br />
+					By the early 1960s, the University&rsquo;s growth forced another change. The student body was rapidly outgrowing the original Memorial Student Union, and plans were approved for a new facility to be constructed in two stages. The first wing began in early summer 1963, just south of the existing facility. When the first wing opened, the old building was demolished and the main wing was constructed on the original union site with the addition of conference rooms, a newer bookstore, and a cafeteria.&nbsp; &ldquo;The basement still had the Trading Post,&rdquo; Rogers said.&nbsp; &ldquo;The second floor had a snack bar and the third floor was the main lounge.&nbsp; It had a piano and a television in it.&rdquo;<br />
+					<br />
+					Though not yet 10 years old, the second Union facility soon became inadequate, and, in May 1973, the Board of Regents approved a $7 million expansion program for the facility. The present expanded University Union encompasses the old building, more than doubling the space for student activities and organizations. There were two L-shaped additions put around the existing building.&nbsp; &ldquo;When the Lyceum was built, students had to move to a temporary space called the &ldquo;TUB,&rdquo; Rogers said. Crumley Hall took its [union] place, but the post office stayed open during the entire construction.&rdquo;&nbsp; Dedication ceremonies for this facility were held on March 7, 1976.&nbsp; The enrollment at the time of the opening was 17,016 students.<br />
+					<br />
+					In 1987, Chancellor Alfred Hurley formed an expansion committee to perform a needs assessment for union expansion. The committee determined, after extensive research, that expansion was needed. They spent the next year determining what the goals and objectives of the expansion project would be.<br />
+					<br />
+					To accommodate for overcrowding, a $14 million expansion/remodeling of the Union was recommended by the Union Expansion Committee, students, faculty, and staff members. The recommendation was supported by the Union Board of Directors but had to be approved also by the student body through majority vote.<br />
+					<br />
+					Former union director, Dr. Mary Yates, stated, &ldquo;The union is bursting at the seams and we need to accommodate an increasing enrollment.&nbsp; Basically the idea of expansion came about because the efforts to accomplish certain objectives were being challenged when enrollment increased.&nbsp; The number of students coming into the building each day is approximately 12,000 to 20,000 individuals. This results in a lot of overcrowding conditions, such as traffic jams and unsafe conditions with students sitting on stairwells and blocking stairwell usage.&rdquo;<br />
+					<br />
+					The cost of the Union expansions/remodeling project was to be funded through 20-year revenue bonds issued at approximately 7%. A tuition increase was not part of the plan, but the Student Use fee was to be increased in 1991. The student use fee $6.00 per semester hour but would be increased by $2.25 to pay off the bonded indebtedness.&nbsp;&nbsp; If approved by the student body the increase would have gone into effect September 1, 1991 and the construction would not be complete until 1993. Once completed the union would have been better equipped to accommodate the growing student body and make the Union an even more comfortable place hang out.<br />
+					<br />
+					The expansion was to combine the Rock Bottom Lounge and the Syndicate into one large entertainment center. It would provide expansion to the bookstore text book sales area, two new public elevators would be added, the number of food items offered for sale would be increased and seating for the food service areas would be doubled. Some office areas in the union would also be expanded. The Aerie Yearbook and University Program Council could be moved to higher traffic areas within the union. There would be seven new meeting rooms and the size of the Silver Eagle Suite would be doubled. It would also permit the redesigning of heating and cooling systems to operate more efficiently. Security would be increased, thus permitting departments in the union to stay open later and also expand the hours in which services were offered in the facility.<br />
+					<br />
+					In the spring of 1991, a referendum was put forth to increase the union fee in order to gain appropriate funds for an expansion, but was narrowly defeated by student vote.<br />
+					<br />
+					The year 1997 brought with it a new era for the union when one of its many services was privatized. The new Campus Chat Food Court has become a new focal point and hub of activities, and along with the many changes in programs, came the first full-service bank on campus.<br />
+					<br />
+					It would be 17 years from the failed referendum before action would progress on a new union.&nbsp; Finally, in October of 2008, the University of North Texas System selected the team of Komatsu Architecture to conduct a programming and feasibility study of the existing facility.&nbsp; In August of 2009, the study began with intent of accomplishing four major tasks:</p>
+
+				<ul>
+					<li>
+						Determine students&rsquo; overall programmatic needs for a new and/or improved union building;</li>
+					<li>
+						Assess the current building condition and its potential for renovation and expansion;</li>
+					<li>
+						Understand student preferences and thoughts concerning support for an improved union; and</li>
+					<li>
+						Outline the potential economic parameters of the project (both capital and payback strategy).</li>
+				</ul>
+
+				<p>
+					Throughout the next couple of years, tours would be conducted of other campuses to gain a better understanding of trends and designs for union facilities.&nbsp; Students expressed a desire to have a centrally-located, welcoming, transparent, comfortable, and technologically-advance building with clear way-finding and a strong identification of university identity, spirit, and culture.&nbsp; Through the Komatsu report, the current union was deemed to have numerous safety and accessibility issues, significant civil and utilities issues, mechanical/engineering/plumbing problems, and a structural design not conducive to large open areas.&nbsp; It would cost students $34 million to correct all of these problems without any increase in space or programmatic function.<br />
+					<br />
+					In spring of 2010, led by former union director, Mr. Tom Rufer, and vice president of student affairs, Dr. Elizabeth With, the Student Government Association and various other student leaders rallied once again to create a referendum for potential union expansion/renovation.&nbsp; It would take nearly two years, but in April of 2012, the student body voted and approved a referendum for an increase of no more than $115 to the current Union fee of $51.&nbsp; This increased fee would go into effect in the fall of 2014.&nbsp; Students would see dramatic improvements to the Union after the expansion/renovation, which would include the following items:</p>
+
+				<ul>
+					<li>
+						125% More Student Affairs &amp; Student Organization Space</li>
+					<li>
+						75% More Food Service &amp; Entertainment</li>
+					<li>
+						75% More Auditorium &amp; Meeting Space</li>
+					<li>
+						100% More Lounge &amp; Gallery Space</li>
+					<li>
+						Sustainable Design &ndash; Target LEED Platinum</li>
+					<li>
+						New Corner Store</li>
+					<li>
+						Natural Light, Openness, Clear Entries</li>
+					<li>
+						All New Interior Spaces</li>
+					<li>
+						Exciting New Exteriors</li>
+					<li>
+						All New Bookstore Configuration</li>
+					<li>
+						Clear Way-Finding</li>
+					<li>
+						Technologically-Advanced Design &amp; Services</li>
+				</ul>
+
+				<p>
+					After having initially had their request denied by the Texas Higher Education Board in the fall of 2012 because of high renovation costs and the perception of low student voter turnout, Chancellor Lee Jackson and President V. Lane Rawlins appealed that following spring of 2013 and were granted approval to continue with the project.&nbsp;<br />
+					<br />
+					Throughout the entire design process, architects and designers from Perkins+Will had interacted with students through focus groups and student forums.&nbsp; The feedback and information gathered directly from the students has been a priority in planning the design to ensure the new union represents the vibrant culture at the University of North Texas. Students have had a say in everything from art pieces to signage, technological innovations to furniture, and everything in between.&nbsp; The new University Union is expected to open in the fall of 2015.&nbsp; During the construction process, many of the services and programs located within the union will be relocated to various parts of the campus to ensure that students continue to receive the support they have grown accustomed to at the University of North Texas.<br />
+					<br />
+					The future holds many additional challenges to meet the ever-changing needs of the campus community. From the period between 1948 and 2012, the University Union progressed from a renovated army surplus center to one of the country&rsquo;s most progressive unions.<br />
+					<br />
+					Today the University Union plays a significant role in co-curricular activities that foster a total learning environment. The University Union staff is committed to providing an atmosphere that is educational, cultural, social, and recreational and that enhances the experiences of the entire campus community.<br />
+					<br />
+					The University Union provides many programs and services essential to making a student&rsquo;s life on campus more pleasant. Grab a bite to eat, check your mail, see a movie, or play a game of billiards; the union is never a dull place. It is possible, even in this vibrant atmosphere, to find a quiet place to study or relax, wander through the Union Gallery to feed the soul, or slip into a soft chair for a bit of last minute study time.<br />
+					<br />
+					The University Union continues to diversify and broaden its base to provide services to the community and open its doors to other universities and businesses for the purposes of hosting conferences and banquets.&nbsp; Every year the union is host to thousands of events and programs put on by university departments as well as the community. In the 2011-2012 academic year, the University Union program records for annual attendance (2,700,000 visitors) and scheduled events (10,250 events).&nbsp; In addition to all that activity, the University Program Council, a student organization that is part of the University Union, puts on a variety of events each year.<br />
+					<br />
+					As the hub of activities, students find it easy to fit into campus life at the union. The union houses student organizations, the Student Government Association, and Graduate Student Council (there are more than 400 student organizations on campus) as well as student services such as Dean of Students, Veterans Center, Student Activities, Transfer Center, Orientation &amp; Transition Programs, Student Legal Services, Center for Leadership &amp; Service, Student Affairs Administration, Multicultural Center, and Greek Life.<br />
+					<br />
+					A diverse population, a variety of programs and services, and a staff of dedicated people create a climate of comfort and community at the union. We are here to help you. Come home to the University Union.<br />
+					<br />
+					Your Union. Your Voice.&nbsp;&nbsp;&nbsp;</p>
+			</div>
+
+			<div class="tab-pane" id="timeline">
+				<!--[if lte IE 9]>
+			<style>
+			ol li {opacity:1!important;}
+			</style>
+			<![endif]-->
+				<style type="text/css">ol li{
+							opacity: 0;
+							-webkit-animation-play-state: paused;
+							-moz-animation-play-state: paused;
+							-o-animation-play-state: paused;
+							animation-play-state: paused;
+						}
+						
+						ol li.right {
+							-webkit-animation: slideLeft 600ms ease both;
+							-moz-animation: slideLeft 600ms ease both;
+							-o-animation: slideLeft 600ms ease both;
+							animation: slideLeft 600ms ease both;
+						}
+						
+						ol li.left, ol li.right{
+							-webkit-animation: slideRight 600ms ease both;
+							-moz-animation: slideRight 600ms ease both;
+							-o-animation: slideRight 600ms ease both;
+							animation: slideRight 600ms ease both;
+						}
+						
+						ol.play li {
+							-webkit-animation-play-state: running;
+							-moz-animation-play-state: running;
+							-o-animation-play-state: running;
+							animation-play-state: running;
+						}
+						
+						@-webkit-keyframes slideRight {
+							0% { opacity: 0; left: 30px; }
+							100% { opacity: 1; left: 0; }
+						}
+						
+						@-moz-keyframes slideRight {
+							0% { opacity: 0; left: 30px; }
+							100% { opacity: 1; left: 0; }
+						}
+						
+						@-o-keyframes slideRight {
+							0% { opacity: 0; left: 30px; }
+							100% { opacity: 1; left: 0; }
+						}
+						
+						@keyframes slideRight {
+							0% { opacity: 0; left: 30px; }
+							100% { opacity: 1; left: 0; }
+						
+						@-webkit-keyframes slideLeft {
+							0% { opacity: 0; left: -30px; }
+							100% { opacity: 1; left: 0; }
+						}
+						
+						@-moz-keyframes slideLeft {
+							0% { opacity: 0; left: -30px; }
+							100% { opacity: 1; left: 0; }
+						}
+						
+						@-o-keyframes slideLeft {
+							0% { opacity: 0; left: -30px; }
+							100% { opacity: 1; left: 0; }
+						}
+						
+						@keyframes slideLeft {
+							0% { opacity: 0; left: -30px; }
+							100% { opacity: 1; left: 0; }
+						}
+				</style>
+				<script>
+			$(document).ready(function () {
+				$("ol li").each(function (i) {
+					$(this).attr("style", "-webkit-animation-delay:" + i * 300 + "ms;"
+							+ "-moz-animation-delay:" + i * 300 + "ms;"
+							+ "-o-animation-delay:" + i * 300 + "ms;"
+							+ "animation-delay:" + i * 300 + "ms;");
+					if (i == $("ol li").size() -1) {
+						$("ol").addClass("play")
+					}
+				});
+			});
+			</script>
+				<h1>
+					New Union Features</h1>
+
+				<p>
+					Your new University Union is undergoing a major renovation to make way for exciting new features and resources to make sure this campus is the best it can be. Some of the features the new Union will include are:</p>
+
+				<p>
+					&nbsp;</p>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="width: 30%;">
+								A Sustainable Design</td>
+							<td>
+								More Food Options</td>
+						</tr>
+						<tr>
+							<td>
+								New Retail Vendors</td>
+							<td>
+								New Spaces</td>
+						</tr>
+						<tr>
+							<td>
+								More Space</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>
+					&nbsp;</p>
+
+				<p>
+					<strong>Sustainable Design</strong><br />
+					UNT is all about going green, and the Union is no different. The new Union building is going for the highest LEED certification level, Platinum. LEED Certification is a measurement of how environmentally friendly a building is. Some of the sustainable design features of the new Union are:</p>
+
+				<ul>
+					<li>
+						Drought tolerant and indigenous landscaping</li>
+					<li>
+						92% of construction waste was diverted from landfills&nbsp;</li>
+					<li>
+						Censored faucets, dual flush toilets and low flow urinals&nbsp;</li>
+					<li>
+						Use of low-emitting and low-hazard materials indoors such as paints, adhesives and carpets.</li>
+					<li>
+						28% energy reduction is enough to power 246 homes.&nbsp;</li>
+				</ul>
+
+				<p>
+					&nbsp;</p>
+
+				<p>
+					<strong>New Retail Vendors</strong></p>
+
+				<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+					<li dir="ltr" style="font-family: Arial; font-size: 15px; vertical-align: baseline; list-style-type: disc;">
+						<p dir="ltr" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;">
+							<span id="docs-internal-guid-b13ab207-89f6-7652-512d-f74419a3654d"><span style="font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">Barnes and Noble at UNT </span></span></p>
+					</li>
+					<li dir="ltr" style="font-family: Arial; font-size: 15px; vertical-align: baseline; list-style-type: disc;">
+						<p dir="ltr" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;">
+							<span id="docs-internal-guid-b13ab207-89f6-7652-512d-f74419a3654d"><span style="font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">Design Works</span></span></p>
+					</li>
+					<li dir="ltr" style="font-family: Arial; font-size: 15px; vertical-align: baseline; list-style-type: disc;">
+						<p dir="ltr" style="line-height: 1.15; margin-top: 0pt; margin-bottom: 0pt;">
+							<span id="docs-internal-guid-b13ab207-89f6-7652-512d-f74419a3654d"><span style="font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">Eagle Images</span></span></p>
+					</li>
+					<li dir="ltr" style="font-family: Arial; font-size: 15px; vertical-align: baseline; list-style-type: disc;">
+						<span id="docs-internal-guid-b13ab207-89f6-7652-512d-f74419a3654d"><span style="font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">Wells Fargo </span></span><br />
+						&nbsp;</li>
+				</ul>
+
+				<p>
+					<b>New Spaces</b><br />
+					<em>Rooftop Garden</em><br />
+					<span style="line-height: 24px; font-size: 13px;">The Union will have a rooftop garden on top of the Syndicate. Whether you are studying, relaxing or just hanging out with friends, it&rsquo;s going to be a getaway spot for students. It will have a sustainable design to collect rainwater and the vegetation will be native Texas trees and bushes.</span></p>
+
+				<p>
+					<span style="line-height: 24px; font-size: 13px;"><em>Meditation Room</em></span><br />
+					Need a quiet place to destress and relax? The meditation room will be the perfect space. With serene artwork this will be a calming place away from class and projects and tests.</p>
+
+				<p>
+					<em><span style="line-height: 24px; font-size: 13px;">Lactation Room</span></em><br />
+					It&rsquo;s very important for women to have a place in which they feel comfortable to breast feed or pump. Keys will be available to check out to use the room.</p>
+
+				<p>
+					<em>Dance Room</em><br />
+					Are you a professional ballet dancer? Or do you and your friends just like to groove to some catchy tunes? Either way, the new Union has a place for you. There will be a dance room available to reserve that will have wood floors and mirrors to fill your dancing needs.</p>
+
+				<p>
+					&nbsp;</p>
+
+				<p>
+					<strong>More Space</strong><br />
+					The new Union will feature 100,000 additional square feet. The additional space will allow for more student organization space, more meeting space, more study space and all around more openness.<strong>&nbsp;</strong></p>
+			</div>
+
+			<div class="tab-pane" id="relocation">
+				<p>
+					<iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/JNmVCOfmiRw?list=UU_WY4MpXP-lAhh8xwI-8Ulg" width="560"></iframe></p>
+
+				<p>
+					The long but rewarding process of building a new Union is well underway. Right now the transition phase between the current building and the new one is being finalized. Even though the campus will not have an official Union building, the Union will be very much alive providing events and services to students just like it always has.</p>
+
+				<p>
+					With the transition, the offices and resources housed in the Union will be relocated to various spots around campus. But rest assured all programs and resources will have a place.</p>
+
+				<p>
+					By the end of the summer of 2013 the Union will be emptied and construction will begin. At this time all Union departments will be in their new spot around campus.</p>
+
+				<p>
+					&nbsp;</p>
+
+				<p>
+					<strong>Parking and Construction Fence Update- August 20, 2013</strong></p>
+
+				<p>
+					<img alt="" src="/sites/default/files/images/parking%20and%20construction%208-20.jpg" style="width: 305px; height: 400px; float: right;" /></p>
+
+				<p class="p1">
+					Construction fences are currently being set up around the entire <b>University Union</b> construction site, which may affect walking patterns on campus. Also, vehicle traffic patterns are changing on<b> Union Circle</b> to accommodate construction traffic and equipment.</p>
+
+				<p class="p1">
+					The map shown below illustrates the construction fence perimeter and indicates alternative safe walking areas to move around the construction site.</p>
+
+				<p class="p1">
+					The fences are expected to be fully installed by the end of August. Access gates, shown on the map below, indicate safe entrances to the University Union through October, when all Union services and offices will have relocated to other areas of campus.</p>
+
+				<p class="p1">
+					For more information on relocations, visit <a href="https://union.unt.edu/masterplan/relocation"><span class="s2">https://union.unt.edu/masterplan/relocation</span></a>.</p>
+
+				<p class="p1">
+					<b>Union Circle</b> south of the <a href="http://www.unt.edu/transit/garage.html"><span class="s1"><b>Union Circle Parking Garage</b></span></a> will change from a one-way street to a two-way street by Aug. 23 (Friday).</p>
+
+				<p class="p1">
+					Street parking along Union Circle will no longer be available. Parking will continue to be available in the Union Circle Parking Garage.</p>
+
+				<p class="p1">
+					The west side of Union Circle, the section closest to the <b>University Union </b>building, and a portion of the north side, will close until 2015 to accommodate construction vehicle traffic via a gated construction site entrance.</p>
+
+				<p class="p1">
+					Drivers who enter <b>Union Circle</b> will be able to turn around before the gated construction site entrance and exit by turning right on Welch Street. No left turns from south Union Circle onto Welch will be permitted. Drivers entering Union Circle also can turn right into the Union Circle Parking Garage parking lot and exit through the gates along the north side of Union Circle.&nbsp;</p>
+
+				<p class="p1">
+					Traffic on the north side of Union Circle will remain one way eastbound.&nbsp;</p>
+
+				<p class="p1">
+					For more information on University Union construction, service relocations and more, visit <a href="https://union.unt.edu"><span class="s2">https://union.unt.edu</span></a>.&nbsp;</p>
+
+				<p class="p1">
+					&nbsp;</p>
+
+				<p>
+					<strong>Summer Update- August 5, 2013&nbsp;</strong></p>
+
+				<p class="p1">
+					If you&#39;ve been on campus recently you will have noticed a few new construction areas popping up. There are also some updates to go along with Union construction.</p>
+
+				<ul class="ul1">
+					<li class="li2">
+						Eagle Express, operated by Pitney Bowes, will close Aug. 17 (Saturday) and reopen in rooms 176A (customer mail boxes) and 176B (mail sorting) in Stovall Hall on Aug. 19 (Monday).&nbsp;All mailing addresses will stay the same.</li>
+					<li class="li2">
+						<span class="s1"><a href="https://www.wellsfargo.com/locator/bank/1155__UNION__CIR__3RD__FLR_DENTON_TX_76203/">Wells Fargo</a></span>, currently located on the third floor of the University Union, will close at 1 p.m. Aug. 16 (Friday) and reopen in Room 177 of Stovall Hall on Aug. 19 (Monday). Wells Fargo&nbsp;will keep the same hours, and customers will not see any changes to account information or services.</li>
+					<li class="li2">
+						<span class="s2">Green Mountain Coffee</span> and the <span class="s2">Corner Store</span>, both located on the second floor of the University Union, will close Aug. 9 (Friday).</li>
+					<li class="li2">
+						The <span class="s2"><b>modular food pavilion</b></span>, located on the Campus Green between Sage and Sycamore halls, is expected to open before fall 2013 classes start on Aug. 28 (Wednesday).</li>
+					<li class="li2">
+						<span class="s2">Bruce Hall Cafeteria</span> and other Dining Services locations remain open for meals. More information on open locations and hours during the summer can be found on the Dining Services <a href="http://www.dining.unt.edu/dininghalls"><span class="s3">website</span></a>.</li>
+					<li class="li2">
+						To accommodate customer traffic to the temporary <a href="http://www.unt.bncollege.com/"><span class="s1">Barnes &amp; Noble College Bookstore</span></a> located at Avenue C and Chestnut Street, most parking spaces in <span class="s2">Parking Lot 5</span> will become metered parking. Chestnut Hall clinic parking spaces will <span class="s2">not</span> become metered parking spaces.</li>
+					<li class="li2">
+						Parking meters will be enforced beginning Aug. 12 (Monday) ahead of the Aug. 14 (Wednesday) opening of the bookstore.</li>
+				</ul>
+
+				<h3>
+					&nbsp;</h3>
+
+				<h3>
+					<strong>Parking Updates</strong></h3>
+
+				<p>
+					Three <a href="http://www.unt.edu/transit/maps.html" target="_blank" title="Parking Updates">UNT parking lots</a> will be fenced off in preparation for modular buildings that will house various departments and programs while the University Union construction is under way.<br />
+					&nbsp;<br />
+					Parking lot 47, which surrounds the Church of Christ on Welch Street, will close April 24 in preparation for construction of the building that will house the Texas Fashion Collection, a portion of the Department of Counseling and Higher Education, and a portion of the College of Visual Arts and Design.<br />
+					&nbsp;<br />
+					Parking lots 53 and 56, located at the corner of Bernard and Sycamore streets, will close April 29. The lots will close to make room for construction of a facility that will house the Department of Dance and Theatre.</p>
+
+				<h3>
+					&nbsp;<img height="1" src="/sites/default/files/images/rule.png" width="900" /></h3>
+
+				<h3>
+					Relocation Station #1</h3>
+
+				<p>
+					<img img="" src="/sites/default/files/images/Relocation1.png" style="margin: 0px 0px 20px 20px; width: 400px; float: right;" />The first relocation outline concerns the College of Visual Arts and Design, Texas Fashion Collection and Counseling and Higher Education. These departments are being moved from Stovall Hall to new buildings at the old Church of Christ site.</p>
+
+				<p>
+					The new CVAD space will include:</p>
+
+				<ul>
+					<li>
+						17,800 gsf</li>
+					<li>
+						&nbsp;Classrooms</li>
+					<li>
+						&nbsp;Studio lab teaching spaces</li>
+					<li>
+						Equipment-dense work rooms, faculty and staff offices</li>
+					<li>
+						Storage for the Fashion Design and Fibers Program</li>
+					<li>
+						This will be a temporary location until the new CVAD building in complete.</li>
+				</ul>
+
+				<p>
+					The new Texas Fashion Collection space will include:</p>
+
+				<ul>
+					<li>
+						&nbsp;7,600 gsf, two-story</li>
+					<li>
+						&nbsp;Climate controlled vault space for 20,000 pieces</li>
+					<li>
+						&nbsp;Storage and processing space</li>
+					<li>
+						&nbsp;Offices</li>
+					<li>
+						&nbsp;A conference room</li>
+					<li>
+						A classroom</li>
+					<li>
+						Laundry room</li>
+					<li>
+						The space will require museum preservation and conservation considerations</li>
+				</ul>
+
+				<p>
+					The new Counseling and Higher Education space will include:</p>
+
+				<ul>
+					<li>
+						14,000 gsf</li>
+					<li>
+						Academic space</li>
+					<li>
+						Administrative space</li>
+					<li>
+						Clinical space for CHDC</li>
+				</ul>
+
+				<p>
+					&nbsp;<img height="1" src="/sites/default/files/images/rule.png" width="900" /></p>
+
+				<h3>
+					Relocation Station #2</h3>
+
+				<p>
+					<img img="" src="/sites/default/files/images/Relocation2%20.png" style="margin: 0px 0px 20px 20px; width: 400px; float: right;" />This week&rsquo;s relocation outline concerns the Dance and Theatre Arts department.<br />
+					This department currently has space in Stovall Hall. But in order to make room for Union offices and resources in Stovall, this department being relocated to a new building adjacent to the Speech and Hearing Clinic on Bernard and Sycamore Street.<br />
+					The new Dance and Theatre Arts building will feature:</p>
+
+				<ul>
+					<li>
+						19,000 gsf</li>
+					<li>
+						A reception area</li>
+					<li>
+						A conference room</li>
+					<li>
+						A storage space for instruments</li>
+					<li>
+						Offices for faculty and staff</li>
+					<li>
+						Four large dance rooms</li>
+					<li>
+						Dance computer lab</li>
+					<li>
+						Specialty flooring and increased ceiling heights will be provided</li>
+				</ul>
+
+				<p>
+					<img height="1" src="/sites/default/files/images/rule.png" width="900" /></p>
+
+				<h3>
+					Relocation Station #3</h3>
+
+				<p>
+					<img img="" src="/sites/default/files/images/bookstore.png" style="margin: 0px 0px 20px 20px; width: 371px; height: 371px; float: right;" />The University Bookstore is an important part everyday life for UNT students. From UNT gear to school supplies to books, the University Bookstore provides daily needs for students. Like all other resources in the current Union, the bookstore is being relocated on campus to make sure students have access to its benefits.</p>
+
+				<p>
+					The temporary bookstore will be located at the Northwest corner of Avenue C and Chestnut near McConnell Hall and Bruce.</p>
+
+				<p>
+					The temporary building will be a 20,000 square foot pressurized tent structure. It will house everything that is in the current bookstore in the Union until the new Union is finished.</p>
+
+				<h3>
+					<strong><img height="1" src="/sites/default/files/images/rule.png" width="900" /></strong></h3>
+
+				<h3>
+					Relocation Station #4</h3>
+
+				<p>
+					<img img="" src="/sites/default/files/images/chat.png" style="margin: 0px 0px 20px 20px; width: 230px; height: 337px; float: right;" />The Campus Chat is the most popular venue for students to grab some lunch or a quick snack during the day. Rest assured that when the Union is under construction the beloved food court will not disappear. In fact, the Chat will be relocated just a few feet from the Union construction site.</p>
+
+				<p>
+					The temporary Chat will be located in the North Commons in between the International Students Building and Sage Hall. It will be a 6,000 square foot modular space with all of the food options students have in the current Union. Catering will be absorbed into existing food services functions elsewhere on campus.</p>
+
+				<p>
+					&nbsp;</p>
+
+				<p>
+					<img height="1" src="/sites/default/files/images/rule.png" width="900" /></p>
+
+				<h3>
+					Relocation Station #5</h3>
+
+				<p>
+					<img alt="Stovall Hall" img="" src="/sites/default/files/images/Stovall.png" style="margin: 0px 0px 20px 20px; width: 400px; float: right;" />The current Union houses many offices and resources for student organizations and administration. The organization and administration offices will be relocated to Stovall Hall off of Highland Street. Stovall Temporary Union Building (STUB) is a 26,000 square foot space that will house:</p>
+
+				<ul>
+					<li>
+						Student Activities</li>
+					<li>
+						Center for Leadership and Services</li>
+					<li>
+						Student Affairs</li>
+					<li>
+						Dean of Students</li>
+					<li>
+						Multicultural Center</li>
+					<li>
+						Information Technology</li>
+					<li>
+						Student Legal Services</li>
+					<li>
+						Union Administration</li>
+					<li>
+						University Program Council</li>
+					<li>
+						Orientation &amp; Transition Programs</li>
+					<li>
+						Student Government Association</li>
+					<li>
+						Graduate Student Council</li>
+					<li>
+						Design Works</li>
+					<li>
+						Eagle Images</li>
+					<li>
+						Wells Fargo</li>
+					<li>
+						Mail Services</li>
+				</ul>
+
+				<p>
+					The Greek Life Office will be housed in Stovall until they permanently relocate to the new Greek Life Center in Spring 2014, located off of Welch Street.</p>
+
+				<p>
+					With the completion of the new Union, Stovall Hall will be demolished to make room for a lawn. Texas State Historical Society and University Press can remain in Stovall until May of 2015. A permanent home will be identified for TSHS and University Press.</p>
+
+				<p>
+					&nbsp;</p>
+			</div>
+
+			<div class="tab-pane" id="gallery">
+				<div id="photos">
+					<h1>
+						Construction Photos</h1>
+					<a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_1.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_1.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_2.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_2.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_3.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_3.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_4.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_4.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_5.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_5.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_6.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_6.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_7.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_7.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_8.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_8.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_9.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_9.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_10.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_10.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_11.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_11.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_12.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_12.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_13.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_13.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_14.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_14.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_15.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_15.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_16.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_16.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_17.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_17.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_18.JPG" title="Construction 4"><img alt="Construction" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_18.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_19.JPG" title="Construction Aerial"><img alt="Construction Aerial" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_19.JPG" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_20.jpg" title="Construction Aerial"><img alt="Construction Aerial" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_20.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_21.jpg" title="Construction Aerial"><img alt="Construction Aerial" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_21.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_22.png" title="Construction Aerial"><img alt="Construction Aerial" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_22.png" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/construction_23.png" title="Construction Aerial"><img alt="Construction Aerial" class="border" height="150" src="/sites/default/files/images/union-gallery/t/construction_23.png" title="" width="135" /></a>
+
+					<h1>
+						Artist Renderings</h1>
+					<a class="gallery-modal" href="/sites/default/files/images/union-gallery/New Union exterior 1.jpg" title="New Union Exterior 1"><img alt="Exterior 1" class="border" src="/sites/default/files/images/union-gallery/t/New%2520Union%2520exterior%25201.jpg" title="" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/c02.jpg" title="New Union Exterior 2"><img alt="Exterior 2" class="border" height="150" src="/sites/default/files/images/union-gallery/t/c02.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/c09.jpg" title="New Union Exterior 3"><img alt="Exterior 3" class="border" height="150" src="/sites/default/files/images/union-gallery/t/c09.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/exterior_1.jpg" title="New Union Exterior 4"><img alt="Exterior 4" class="border" height="150" src="/sites/default/files/images/union-gallery/t/exterior_1.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/exterior_2.jpg" title="New Union Exterior 4"><img alt="Exterior 5" class="border" height="150" src="/sites/default/files/images/union-gallery/t/exterior_2.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/exterior_3.jpg" title="New Union Exterior 4"><img alt="Exterior 6" class="border" height="150" src="/sites/default/files/images/union-gallery/t/exterior_3.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/exterior_4.jpg" title="New Union Exterior 4"><img alt="Exterior 7" class="border" src="/sites/default/files/images/union-gallery/t/exterior_4.jpg" style="width: 135px; height: 150px;" title="" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/exterior_5.jpg" title="New Union Exterior 4"><img alt="Exterior 8" class="border" height="150" src="/sites/default/files/images/union-gallery/t/exterior_5.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/newsyndicate.jpg" title="The New Syndicate"><img alt="New Syndicate" class="border" height="150" src="/sites/default/files/images/union-gallery/t/newsyndicate.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/newhallway.jpg" title="New Union Hallway"><img alt="New Hallway" class="border" src="/sites/default/files/images/union-gallery/t/newhallway.jpg" style="width: 135px; height: 150px;" title="" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/interior_1.jpg" title="New Union Interior"><img alt="Interior" class="border" height="150" src="/sites/default/files/images/union-gallery/t/interior_1.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/interior_2.jpg" title="New Union Interior"><img alt="Interior" class="border" height="150" src="/sites/default/files/images/union-gallery/t/interior_2.jpg" title="" width="135" /></a> <a class="gallery-modal" href="/sites/default/files/images/union-gallery/interior_3.jpg" title="New Union Interior"><img alt="Interior" class="border" height="150" src="/sites/default/files/images/union-gallery/t/interior_3.jpg" title="" width="135" /></a></div>
+			</div>
+
+			<div class="tab-pane" id="news">
+				<h1 class="p1">
+					Your Union in the News</h1>
+
+				<p class="p1">
+					<a href="http://www.dentonrc.com/local-news/local-news-headlines/20151106-at-long-last-unt-debuts-union.ece">At long last, UNT debuts Union</a><br />
+					November 6, 2015</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/alcohol-could-come-to-university-union/" target="_blank">Alcohol could come to University Union</a><br />
+					October 15, 2015<br />
+					<br />
+					<a href="http://ntdaily.com/university-union-to-begin-some-operations-in-november/" target="_blank">University Union to begin some operations in November</a><br />
+					October 8th, 2015<br />
+					<br />
+					<a href="http://ntdaily.com/temporary-union-buildings-to-be-taken-down-once-university-union-opens/" target="_blank">Temporary union buildings to be taken down once University Union opens</a><br />
+					September 17, 2015<br />
+					<br />
+					<a href="http://ntdaily.com/annual-festival-celebrates-incomplete-student-union/" target="_blank">Annual festival celebrates incomplete student union</a><br />
+					March 12, 2015<br />
+					<br />
+					<a href="http://ntdaily.com/syndicate-may-feature-lounge-with-bar/" target="_blank">Union Syndicate may feature lounge with bar</a><br />
+					August 27, 2015<br />
+					<br />
+					<a href="http://ntdaily.com/amenities-bring-hope-for-union-completion/">Amenities Bring Hope for Union Completion</a><br />
+					October 14, 2014</p>
+
+				<p class="p1">
+					<a href="http://www.dentonrc.com/local-news/local-news-headlines/20140904-making-their-mark.ece">Making their mark</a><br />
+					September 4, 2014</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/university-union-hosts-ceremony-for-construction-milestone/">University Union hosts ceremony for construction milestone</a><br />
+					September 3, 2014</p>
+
+				<p class="p1">
+					<a href="http://starlocalmedia.com/lewisvilleleader/news/unt-university-union-topping-off-ceremony-set-for-sept/article_d9f5917e-2ef7-11e4-943b-001a4bcf887a.html">UNT University Union topping off ceremony set for Sept. 4</a><br />
+					September 1, 2014</p>
+
+				<p class="p1">
+					<a href="http://www.bizjournals.com/dallas/news/2014/08/28/130m-unt-university-union-ready-for-topping-out.html">$130M UNT University Union ready for &#39;topping out&#39; ceremony</a><br />
+					August 28, 2014</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/beyond-the-construction-the-university-union/">Beyond the construction: The University Union</a><br />
+					August 28, 2014</p>
+
+				<p class="p1">
+					<a href="http://www.bizjournals.com/dallas/gallery/36331?r=http://www.bizjournals.com/dallas/print-edition/2014/05/23/digging-dallas-fort-worth-how-top10-major.html">Digging DFW: Top 10 construction projects</a><br />
+					May 22, 2014</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/please-new-union-dont-kill-my-vibe/">Opinion: Please, new Union, don&#39;t kill my vibe</a><br />
+					April 17, 2014</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/students-to-provide-a-look-behind-the-fence-of-union-construction/">Students to provide a look &#39;behind the fence&#39; of union construction</a><br />
+					April 7, 2014</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/updates-on-unt-construction-projects/">Updates on UNT construction Projects</a><br />
+					January 16, 2014</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/union-offices-and-businesses-relocating-across-campus/">Union Offices and Business relocating across campus</a><br />
+					September 4, 2013</p>
+
+				<p class="p1">
+					<a href="http://ntdaily.com/unt-hosting-barbecue-event-to-celebrate-new-university-union/">UNT hosting barbecue event to celebrate new University Union</a><br />
+					August 30, 2013</p>
+
+				<p class="p1">
+					<a href="http://inhouse.unt.edu/construction-fences-go-traffic-changes-union-construction-begins">Construction fences go up, traffic changes as Union construction begins</a><br />
+					August 20, 2013</p>
+
+				<p class="p1">
+					<a href="https://news.unt.edu/news-releases/new-university-union-groundbreaking-set-aug-30?homepage=1" target="_blank">New University Union groundbreaking set for Aug. 30</a><br />
+					August&nbsp;15, 2013</p>
+
+				<p>
+					<a href="http://www.dentonrc.com/local-news/local-news-headlines/20130804-going-modular.ece" target="_blank">Company installs temporary buildings at UNT as part of the University Union project</a><br />
+					August 4, 2013</p>
+
+				<p>
+					<a href="http://inhouse.unt.edu/stovall-hall-renovations-make-way-union-changes" target="_blank">Stovall Hall renovations to make way for Union changes</a><br />
+					July 5, 2013</p>
+
+				<p>
+					<a href="http://inhouse.unt.edu/unt-bookstore-close-june-21-30">UNT Bookstore to close June 21 - 30</a><br />
+					June 20, 2013</p>
+
+				<p>
+					<a href="http://northtexan.unt.edu/content/new-university-union-open-fall-2015" target="_blank">New University Union to open Fall 2015</a><br />
+					June 4, 2013</p>
+
+				<p>
+					<a href="http://inhouse.unt.edu/unt-chooses-barnes-noble-college-bookstore-operations" target="_blank">UNT chooses Barnes &amp; Noble College for bookstore operations</a><br />
+					May 17, 2013</p>
+
+				<p>
+					<a href="http://inhouse.unt.edu/construction-begins-relocated-bookstore-food-pavilion" target="_blank">Construction begins for relocated bookstore, food pavilion</a><br />
+					May 2, 2013</p>
+
+				<p>
+					<a href="http://inhouse.unt.edu/union-construction-activity-close-3-parking-lots" target="_blank">Union construction activity to close 3 parking lots</a><br />
+					April 23, 2013</p>
+
+				<p>
+					<a href="http://inthenews.unt.edu/unt-union-expansion-renovations-approved" target="_blank">UNT Union expansion, renovations approved</a><br />
+					January 25, 2013</p>
+				<!--<p>
+					<a href="http://inhouse.unt.edu/texas-higher-education-coordinating-board-approves-union-plans" target="_blank">Texas Higher Education Coordinating Board approves union plans</a><br />
+					January 24, 2013</p>
+
+				<p>
+					<a href="http://untalumni.olhblogspot.com/2012/08/07/students-approve-fee-to-build-new-union/">Students Approve Fee to Build New Union</a><br />
+					August 7, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=66952" target="_blank">New Union to include green initiatives</a><br />
+					<span class="time">July 6, 2012</span></p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=65215" target="_blank">Union vote, election results announced</a><br />
+					April 10, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=65024" target="_blank">Relocation Study maps out CVAD future home</a><br />
+					April 4, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=64806" target="_blank">Polls open for SGA elections, student vote on new Union</a><br />
+					April 3, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=64132" target="_blank">New Union plan, prizes and food included at annual Union Fest</a><br />
+					March 14, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=63580" target="_blank">Union fee proposal goes to student vote</a><br />
+					March 8, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=63573" target="_blank">Firm discusses Union design</a><br />
+					March 8, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=63226" target="_blank">SGA views proposed Union layout</a><br />
+					March 1, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=61363" target="_blank">New kiosks on hold pending Master Plan vote</a><br />
+					January 25, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=61229" target="_blank">Students meet with architect firm over Union plans</a><br />
+					January 20, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=61097" target="_blank">A letter from SGA to the UNT student body</a><br />
+					January 17, 2012</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=60572" target="_blank">Meeting sets dates for student forums to discuss Union</a><br />
+					November 23, 2011<br />
+					<br />
+					<a href="http://www.ntdaily.com/?p=60205" target="_blank">UNT announces Union architect</a><br />
+					November 16, 2011</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=59810" target="_blank">UNT chooses architect for Union renovation</a><br />
+					November 9, 2011</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=59099" target="_blank">Nods and shakes</a><br />
+					October 25, 2011</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=56395" target="_blank">UNT seeks architect for Union expansion</a><br />
+					September 1, 2011</p>
+
+				<p>
+					<a href="http://www.ntdaily.com/?p=55892" target="_blank">Faculty and students meet to discuss Union plans</a><br />
+					August 4, 2011</p>--></div>
+
+			<div class="tab-pane" id="faq">
+				<h3>
+					<span style="line-height: 1.1; font-size: 14px;">The Higher Education Coordinating Board voted Jan. 24 to approve construction on a new union at UNT. &nbsp;&nbsp;</span></h3>
+
+				<p>
+					<strong>Key Messages:</strong></p>
+
+				<ul>
+					<li>
+						The university has outgrown the current union; remodeling is not feasible.&nbsp;&nbsp;</li>
+					<li>
+						Today&rsquo;s students need and deserve new and more space for activities.&nbsp;&nbsp;</li>
+					<li>
+						Today&rsquo;s students need and deserve the latest technology.&nbsp;&nbsp;</li>
+					<li>
+						A new union supports the university&rsquo;s goal of attracting quality students.&nbsp;&nbsp;</li>
+					<li>
+						A new union will provide faculty and staff with facilities and technology to host conferences, professional seminars and events enhancing the academic reputation of UNT.</li>
+					<li>
+						A new union will be a legacy, a source of Green Pride for UNT Alumni.&nbsp;&nbsp; Students voted April 2 &ndash; 6, 2012, to approve a student fee increase up to $115 that will go into effect Fall 2014 for the construction of a renovated and expanded University Union.&nbsp;&nbsp;&nbsp;</li>
+				</ul>
+
+				<h2>
+					Frequently Asked Questions:</h2>
+
+				<p>
+					<b>What is included in the University Union Building Master Plan?</b></p>
+
+				<p>
+					The Project of the University Union will provide:</p>
+
+				<ul>
+					<li>
+						New, state-of-the-art sustainable building practices throughout each element of the building infrastructure. This will eliminate the many environmental concerns that are currently facing the standing Union building.</li>
+					<li>
+						New and upgraded technology throughout the building, including reliable substructures (heating and air, water and sewer, etc), better wi-fi access, audio-visual equipment, etc.</li>
+					<li>
+						Expanded dining options uniquely-tailored to the needs of the campus community and designed with student voiced choices. This will provide for enhanced service, options, and seating space for our expanding campus population.</li>
+					<li>
+						Larger, more secure lounge and study spaces that will allow students to better focus or relax between classes. This will decrease the noise distractions as well as provide more options for students while they concentrate on classroom materials or take a break.</li>
+					<li>
+						Increased space for student organizations and study group meeting rooms, as well as expanded storage areas and office space for student activities.</li>
+					<li>
+						A better, more visible representation of Eagle spirit and tradition and the pride of the UNT campus.</li>
+				</ul>
+
+				<p>
+					<strong>The HECB said no before. What&rsquo;s different now?</strong>&nbsp;&nbsp;</p>
+
+				<p>
+					UNT collaborated with the HECB to answer questions and we are pleased at the result of the Jan. 24 vote. The new union will be good for students and the community. If you would like information on the board&rsquo;s voting decisions, you will need to contact them. The HECB&rsquo;s external relations office can be reached at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">512-427-6111<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 512-427-6111"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAAaNJREFUeNqk009oz3Ecx/HH9/P9/YQRWSi2MGmNrebkpJgSLluKEw5Kk5zUsgMOTrO42MUVxUWRg+LgaPWbUGq7rRk7sExKNPt9vx8H32l921z2vrw+n3fvz/Pz/vP5JDFGy7HKwk1/fz/sR09VNjAZG6fv1buQHcZm3P8vAMfwCKswncoHCn8nbuAratiEUQglwLXiMJz/FhvWYC9OFb4htBV6B9VyBtsKzRJxbDhvbSS5i1kcQo736MNrjJcBeaG3MuFyInagA0fwckHcGzzGiXIJU38bk1U+x3W+x7U/yOvYU4prwG5MlAHPoS4925TMNDeHLxNUh0gGcRC9eFqk34TBMuAhfmL9b5Vz3elIbAmfLq02d4HQhbc4gBYcxUgZMFrcIJecrsgaT6avdl6sPqu1hw9XSWs4U5Q6udgYFfP+he25MEysVWQvutORLcfTYax4gn3z/VoM8A7Xi/WuKNmQCRujpLc1TGkP46hOI1sKADdxG3PzjkzoTNCT1rSFiX+PuLIEoI4rGC+6/xEPMsFKs7YmM8bsAMlyf2OwTPszAMZMeayGCpJVAAAAAElFTkSuQmCC" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 512-427-6111" /></a></span>.</p>
+
+				<p>
+					<strong>How many students voted to approve the new union fee?</strong></p>
+
+				<p>
+					In total 2,253 students voted on the Union fee referendum and 54 percent (1,220) voted in favor of the fee. In total, 3,376 students &ndash; or 10 percent of the student body &ndash;participated in voting for various items on the ballot, which included Student Government Association elections.&nbsp;&nbsp;</p>
+
+				<p>
+					<strong>UNT raised tuition and room and board costs last year. Why doesn&rsquo;t that pay for a new union?</strong></p>
+
+				<p>
+					Tuition at UNT covers costs for hiring and retaining top tier faculty and staff, classroom support and technology, research projects and university operations. It does not cover costs for new buildings. The fee increase students approved will cover costs related to building construction, facility maintenance, student programs, student events and UNT Union support and technology.&nbsp;&nbsp;</p>
+
+				<p>
+					<strong>What is wrong with the current union?</strong></p>
+
+				<p>
+					The current union was built in the 1960s and was designed for a campus population of 17,000 students. UNT has about 36,000 students today, and the current union is at capacity. Over the years cosmetic changes and updates have been made to certain areas of the union, but the building has not undergone major renovations.&nbsp;&nbsp; Other problems include:&nbsp;&nbsp;</p>
+
+				<ul>
+					<li>
+						The current building&rsquo;s mechanical system needs replacement.&nbsp;&nbsp;</li>
+					<li>
+						The current building lacks adequate space for a campus moving toward 40,000 students.&nbsp;&nbsp;</li>
+					<li>
+						As construction costs and inflation continue to rise, the cost of major repairs to the current facility will exceed the cost of building a new facility.&nbsp;&nbsp;</li>
+					<li>
+						The current union&rsquo;s dining area is roughly 35,000 square feet short of what&rsquo;s needed by national standards. The Union dining area is too small to serve the campus community, and limits the ability to better serve students.&nbsp;&nbsp;</li>
+					<li>
+						Student organization space, student lounge space, and student meeting space also fail to meet national standards by thousands of square feet.&nbsp;</li>
+				</ul>
+
+				<p>
+					<strong>Will the new UNT Union be eco-friendly?&nbsp;&nbsp;</strong></p>
+
+				<p>
+					Yes. The new UNT Union will be LEED (Leadership in Energy and Environmental Design) Certified by the U.S. Green Building Council. The new UNT Union facility will be built on a sustainable site, will have water efficiency measures in place, will make use of natural light and energy, and will use renewable materials and resources.&nbsp;&nbsp;</p>
+
+				<p>
+					<strong>When will the building be completed?&nbsp;</strong>&nbsp;</p>
+
+				<p>
+					We expect the building to be open in 2015.&nbsp;&nbsp;<br />
+					<br />
+					<strong>Where will students, faculty and staff in the current Union, Stovall Hall and Scoular Hall go while construction is ongoing?</strong>&nbsp;&nbsp;</p>
+
+				<p>
+					Relocation information can be found online. Faculty, staff, students and administrators have been involved in discussions about the UNT Union Master Plan, and have dedicated time to serving on the Union Master Plan Committee. The committee has worked to ensure minimal disruption to academic programs throughout construction to the UNT Union. Students needs and program advancements are a priority in the planning process for long-term relocation.&nbsp;&nbsp;</p>
+
+				<p>
+					<strong>How long will construction take?</strong></p>
+
+				<p>
+					A conservative estimate is 24 months. During this time, all programs and services that were housed in the UNT Union, including food, entertainment, student affairs offices, and retailers, will continue to operate in nearby locations convenient to students. No student jobs will be lost during this time. The current plan schedules construction to begin in June 2013 with an opening date of June 2015.&nbsp;&nbsp;</p>
+
+				<p>
+					<strong>How does the fee increase work?</strong></p>
+
+				<p>
+					Students approved a fee increase that will be up to $115 that will begin in Fall 2014. This will bring the fee total to $165 per semester. By beginning the fee in 2014, one year prior to the opening of the renovated and expanded facility, students will be saving millions of dollars in interest. The fee covers a number of items, including programming and entertainment, operations, student services, meeting spaces, and maintenance to the facility.&nbsp;&nbsp;</p>
+
+				<p>
+					<strong>When did students vote? Was information publicized about voting opportunities?</strong></p>
+
+				<p>
+					Students voted between April 2 &ndash; 6 (Monday &ndash; Friday), 2012. The Union Master Plan Committee hosted numerous events on campus to speak one-on-one with students about plans for the new UNT Union and to provide information on when voting took place. More than 9,000 students attended the events. The University provided voting information via social media channels to an audience of more than 50,000. Advertising appeared in student media with voting information and details on the Union Master Plan, and information was placed in numerous areas around the UNT Union for a year prior to the student vote.</p>
+
+				<p>
+					<b>We have a major parking problem on our campus and some of the classrooms on campus appear to be in worse condition. Shouldn&#39;t we focus on addressing those issues first?</b></p>
+
+				<p style="text-align: left;">
+					Money to repair or build academic buildings on campus comes from a completely different fund. University budget dollars are not able to be spent on a Union master plan; however, student fees are currently responsible for covering and maintaining the costs of operating the Union facility. The University Master Plan does address the parking problem on campus, and in conjunction with a new rail system through the City of Denton we are confident that these issues will be appropriately addressed. These crucial upgrades will be funded by parking and transportation fees.</p>
+
+				<p>
+					<b>I hardly ever use the University Union. Why should&nbsp;I be responsible for paying for it?</b></p>
+
+				<p>
+					The Union is widely known as the center of the campus community. As the Union does support numerous divisions on campus, we have always played a vital role in each student&#39;s educational experience. Because we see more than 17,000 people per day, &frac14; of which are visitors, the Union is directly related to enrollment recruitment and retention. A new Union would not only improve the quality of your academic career, add to UNT&#39;s reputation and prestige, but will also add immeasurable value to your degree.</p>
+
+				<p>
+					<b>Will the Master Plan be compliant with ADA (American Disabilities Act) standards?</b></p>
+
+				<p>
+					Yes.</p>
+
+				<p>
+					<b>How have students been involved in the development of the University Union Building Master Plan project?</b></p>
+
+				<p>
+					From the very beginning, the Union development team has understood the importance of giving students an opportunity to have a voice in every part of the decision process. Students held prominent positions on committees, participated on focus groups and open forums, and interacted at information sessions throughout the year.</p>
+
+				<p>
+					<b>Why can&#39;t my tuition pay for the Union Master Plan?</b></p>
+
+				<p>
+					Tuition dollars are only allotted to pay for certain budget items for the University which does not include facilities like the University Union. The Union is paid for with a separate fee that is locked at an increase of $1 per year, hardly enough to cover the rise in inflation. A phased-in fee increase would be set aside specifically for the Master Plan project.</p>
+
+				<p>
+					<b>What will the fee increase be used for?</b></p>
+
+				<p>
+					The fee will be used for all of the expenses of the project and then to pay the debt services on the bonds that will need to be purchased prior to the construction process commencing. The master planning team has done extensive benchmarking to target a fee range that would most benefit the students and the project while being fiscally responsible to the needs of the campus community.</p>
+
+				<p>
+					<b>Should we expect more fee increases in the future to cover the cost of the Master Plan?</b></p>
+
+				<p>
+					No.</p>
+
+				<p>
+					<b>Why should I support this Master Plan project if I will be gone before it is complete?</b></p>
+
+				<p>
+					Just like in 2003, students voted to begin funding the construction of the new Pohl Recreation Center when few would actually be on campus and able to use the facility. These students invested into the future of UNT, so students like yourself would be able to enjoy a nice new facility that is able to accommodate and serve the student population well. Their contribution to the campus is seen by nearly 40% of the campus population every day. The Union facility serves almost 50% of the student population on a daily basis. This is your opportunity to give back to the future students at UNT. Today UNT students can take pleasure in knowing that a new union would mean for them:</p>
+
+				<ul>
+					<li>
+						ADMIRATION : Bringing recognition and admiration to your degree from UNT by attracting the very best and brightest in students and faculty.</li>
+					<li>
+						<p>
+							SUPPORT : Opportunities to provide vital support systems that the Union has been unable to delivery because of lack of space.</p>
+					</li>
+					<li>
+						EXPANSION : More space to connect, eat, study, relax, reflect, and be a part of the campus at UNT.</li>
+					<li>
+						PRIDE : Centralized home for UNT spirit and tradition, a home for the vibrant history and diverse community at UNT.</li>
+					<li>
+						<p>
+							LEGACY : Leaving your mark on history at UNT. Make a change for the future.</p>
+					</li>
+				</ul>
+
+				<p>
+					<img height="1" src="/sites/default/files/images/rule.png" width="900" /></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+          
+      //SET THE RTSP STREAM ADDRESS HERE
+      var address = "rtsp://B009fa7.nuvicoconnect.com:7000/?ch=1&st=1";
+      
+      var output = '<object width="640" height="500" id="qt" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">';
+          output += '<param name="src" value="'+address+'">';
+          output += '<param name="autoplay" value="true">';
+          output += '<param name="controller" value="false">';
+          output += '<embed id="plejer" name="plejer" src="/poster.mov" bgcolor="000000" width="640" height="480" scale="ASPECT" qtsrc="'+address+'"  kioskmode="true" showlogo=false" autoplay="true" controller="false" pluginspage="http://www.apple.com/quicktime/download/">';
+          output += '</embed></object>';
+      
+          //SET THE DIV'S ID HERE
+          var stream = document.getElementById("stream");
+          var browser=get_browser();
+var browser_version=get_browser_version();
+
+          if(stream !== null && browser !== "Netscape"){
+          
+              stream.innerHTML = output;
+              document.querySelector("#PlayerDiv").style.height = "0px";
+             }
+         
+      function get_browser(){
+    var N=navigator.appName, ua=navigator.userAgent, tem;
+    var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
+    if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];
+    M=M? [M[1], M[2]]: [N, navigator.appVersion, '-?'];
+    return M[0];
+    }
+function get_browser_version(){
+    var N=navigator.appName, ua=navigator.userAgent, tem;
+    var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);
+    if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];
+    M=M? [M[1], M[2]]: [N, navigator.appVersion, '-?'];
+    return M[1];
+    }
+      </script><script>
+var GalleryViewer = function(gallery) {
+    this.gallery = gallery;
+    this.index = 0;
+    this.images = [];
+    this.cachedImages = [];
+    this.image;
+    this.shade;
+    this.container;
+    this.hidden = 1;
+}
+
+GalleryViewer.prototype.init = function() {
+    //Cache all the images (make copies so we don't have to run any html requests later)
+    this.images = document.querySelectorAll(this.gallery + " a");
+    //Add click event listener to images
+    var len = this.images.length;
+    for( var i = 0; i < len; i+=1 ) {
+        var tmpImage = document.createElement("img");
+        tmpImage.setAttribute("src", this.images[i].getAttribute("href"));
+        this.cachedImages[i] = tmpImage;
+        this.images[i].addEventListener("click", this.show.bind(this), false);
+        this.images[i].setAttribute("data-index", i);
+    }
+    
+    //Creat the main container
+    this.mainContainer = document.createElement("div");
+    this.mainContainer.style.display = "none";
+    //Create the image
+    this.image = document.createElement("img");
+    this.image.setAttribute("class", "gallery-img");
+    //Create shade
+    this.shade = document.createElement("div");
+    this.shade.setAttribute("class", "gallery-shade");
+    this.shade.addEventListener("click", this.hide.bind(this), false);
+    //Create container
+    this.container = document.createElement("div");
+    this.container.setAttribute("class", "gallery-container");
+    //Create Left Arrow
+    this.leftArrow = document.createElement("div");
+    this.leftArrow.setAttribute("class", "gallery-leftArrow");
+    //Set direction so users can set their own custom arrows
+    this.leftArrow.setAttribute("data-direction", "prev");
+    this.leftArrow.addEventListener("click", this.iterate.bind(this), false);
+    //Create Right Arrow
+    this.rightArrow = document.createElement("div");
+    this.rightArrow.setAttribute("class", "gallery-rightArrow");
+    this.rightArrow.addEventListener("click", this.iterate.bind(this), false);
+    //Set direction so users can set their own custom arrows
+    this.rightArrow.setAttribute("data-direction", "next");
+    
+    this.container.appendChild(this.image);
+    this.mainContainer.appendChild(this.leftArrow);
+    this.mainContainer.appendChild(this.rightArrow);
+    this.mainContainer.appendChild(this.container);
+    this.mainContainer.appendChild(this.shade);
+    document.body.appendChild(this.mainContainer);
+}
+
+GalleryViewer.prototype.iterate = function(e) {
+    var element = e.target || e.srcElement;
+    var direction = element.getAttribute("data-direction");
+    if ( direction == "next" ) {
+        if (this.index < this.images.length) {
+            this.index += 1;
+        } else {
+            this.index = 0;
+        }
+    } else if ( direction == "prev" ) {
+        if (this.index < this.images.length) {
+            this.index -= 1;
+        } else {
+            this.index = this.images.length;
+        }
+    }
+    
+    this.show(null, this.index);
+}
+
+GalleryViewer.prototype.show = function(e, index) {
+    var element;
+    if(e !== null){
+        e.preventDefault();
+        element = e.target || e.srcElement;
+        element = element.parentNode;
+    }
+    //Remove the old image
+    var oldImage = this.container.querySelector("img");
+    if (oldImage){
+        this.container.removeChild(oldImage);//Should we store the old image somehwere?
+    }
+    //Get index from the object
+    if (element) {
+        this.index = parseInt(element.getAttribute("data-index"));
+    } else {
+        this.index = index;
+    }
+
+    //Show the image at the index
+    this.container.appendChild(this.cachedImages[this.index]);
+    
+    if (this.hidden == 1) {
+        this.mainContainer.style.display = "block";
+        this.hidden = 0;
+    }
+}
+
+GalleryViewer.prototype.hide = function(e, index) {
+   if (this.hidden == 0) {
+        this.mainContainer.style.display = "none";
+        this.hidden = 1;
+    } 
+}
+
+window.addEventListener("load", function() {
+
+    var gallery = new GalleryViewer("#photos");
+    gallery.init();
+    
+    }, false);
+</script>
+<style type="text/css">.gallery-shade{
+    top: 0;
+    z-index: 200000;
+    width: 100%;
+    background: #000;
+    height: 100%;
+    opacity: 0.4;
+    position: fixed;
+}
+
+.gallery-container {
+    margin: 0 auto;
+    min-height: 300px;
+    left: 26%;
+    position: fixed;
+    opacity: 1;
+    background: #fff;
+    /* width: 200px; */
+    max-width: 600px;
+    top: 20%;
+    z-index: 200001;
+}
+
+.gallery-container img{
+    width:100%;
+}
+
+.gallery-leftArrow{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background: #000;
+    top: 40%;
+    z-index: 200001;
+   width: 28px;
+height: 50px;
+background: url(/sites/all/themes/apollo3/assets/images/icon-slide-arrows.png);
+background-size: 56px 50px;
+    background-position: right center;
+}
+
+.gallery-rightArrow{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background: #000;
+    top: 40%;
+    right:0px;
+    z-index: 200001;
+    background: url(/sites/all/themes/apollo3/assets/images/icon-slide-arrows.png);
+background-size: 56px 50px;
+width: 28px;
+height: 50px;
+}
+</style>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/banner_3-02.jpg');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/university-union-master-plan": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

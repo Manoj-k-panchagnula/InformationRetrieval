@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#"><head><link rel="dns-prefetch" href="//zdnet1.cbsistatic.com"><link rel="dns-prefetch" href="//zdnet2.cbsistatic.com"><link rel="dns-prefetch" href="//zdnet3.cbsistatic.com"><link rel="dns-prefetch" href="//zdnet4.cbsistatic.com"><link rel="dns-prefetch" href="//urs.zdnet.com"><link rel="dns-prefetch" href="//b2b.cbsimg.net"><link rel="dns-prefetch" href="//c.go-mpulse.net"><link rel="dns-prefetch" href="//platform.linkedin.com"><link rel="dns-prefetch" href="//ps.ns-cdn.com"><link rel="dns-prefetch" href="//secure.quantserve.com"><meta content="text/html; charset=utf-8" http-equiv="Content-Type"><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"><meta content="en" http-equiv="Content-Language"><title>Technology News, Analysis, Comments and Product Reviews for IT Professionals | ZDNet</title><meta name="description" content="ZDNet's breaking news, analysis, and research keeps business technology professionals in touch with the latest IT trends, issues and events."><link rel="canonical" href="http://www.zdnet.com/"><meta property="og:site_name" content="ZDNet"><meta property="og:type" content="website"><meta property="og:url" content="http://www.zdnet.com/"><meta property="og:title" content="Technology News, Analysis, Comments and Product Reviews for IT Professionals | ZDNet"><meta property="og:description" content="ZDNet's breaking news, analysis, and research keeps business technology professionals in touch with the latest IT trends, issues and events."><meta property="og:image" content="http://zdnet3.cbsistatic.com/fly/bundles/zdnetcore/images/logos/zdnet-logo-large.png"><meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1, minimum-scale=1"><meta name="theme-color" content="#080e14"><link rel="icon" sizes="192x192" href="http://zdnet1.cbsistatic.com/fly/bundles/zdnetcss/images/logos/logo-192x192.png"><link rel="publisher" href="https://plus.google.com/105074359186426139750/"><link rel="stylesheet" href="http://zdnet1.cbsistatic.com/fly/css/core/main-3f862d8ba1-rev.css"><!--[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" href="http://zdnet1.cbsistatic.com/fly/css/core/ie8-4804788dac-rev.css" media="screen">
+        <![endif]--><link rel="stylesheet" href="http://zdnet2.cbsistatic.com/fly/css/feature/default/default-d4b3eac920-rev.css"><script src="http://zdnet4.cbsistatic.com/fly/bundles/zdnetcore/js/boomr.js"></script><script type="text/javascript">
+    window.ZdnetPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"device":"desktop","ptype":"front_door","cid":"homepage","env":"prod"},"adConfig":{"network":{"local":7336,"dev":7336,"qa":8264,"demo":8264,"stage":8264,"prod":8264,"stageDebug":8264,"prodDebug":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","ie","za","bh","kw","om","qa","sa","ae","iq","eg","ye","fr"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","th","id","ph","hk","vn","tw","in"]}],"adUnits":{"intromercial":{"outOfPage":true,"eventCallbacks":{"slotRenderEnded":"intromercialCallback"}},"skin":{"sizes":[[1600,1000]],"position":"top"},"marquee":{"sizes":[300,60]},"hotspot":{"sizes":[165,421]},"multiplexer":{"sizes":[460,170],"position":"top"},"ticker":{"sizes":[980,45],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"replay":{"sizes":[460,160],"position":"top"},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600],[300,1050]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuCallback"}},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[300,250],"position":"bottom","eventCallbacks":{"slotRenderEnded":"mpuCallback"}},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"mpuMiddle":{"sizes":[300,250],"position":"middle","eventCallbacks":{"slotRenderEnded":"mpuCallback"}},"mpuMiddle2":{"sizes":[[300,250]],"position":"middle2"},"leaderPlusMiddle":{"sizes":[[728,90],[970,66],[970,250]],"position":"middle","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"leaderPlusBottom":{"sizes":[[728,90],[970,66],[970,250]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"inpageVideoTop":{"sizes":[641,321],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"dynamicShowcaseTop":{"sizes":[[371,771]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"vendorTextLink":{"sizes":[300,450],"position":"top"},"featureSponsor":{"sizes":[88,31],"position":"top"},"sponsorLogo":{"sizes":[120,60]},"sponsoredTextLink":{"sizes":[401,11],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"resourceCenter":{"sizes":[300,261]},"sharethroughTop":{"sizes":[11,11],"position":"top","eventCallbacks":{"slotRenderEnded":"sharethroughTopCallback"}},"sharethroughBottom":{"sizes":[11,11],"position":"bottom","eventCallbacks":{"slotRenderEnded":"sharethroughBottomCallback"}},"specialFeatureRiver":{"sizes":[620,134],"position":"top"}},"mobile":{"adUnits":{"hpto":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"increment"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[[300,250]],"position":"increment"},"mobileBannerPlus":{"sizes":[[300,250],[320,50]],"position":"increment"},"mobileBanner":{"sizes":[[320,50]],"position":"increment"},"sharethroughTop":{"sizes":[11,11],"position":"top","eventCallbacks":{"slotRenderEnded":"sharethroughTopCallback"}},"sharethroughBottom":{"sizes":[11,11],"position":"bottom","eventCallbacks":{"slotRenderEnded":"sharethroughBottomCallback"}},"specialFeatureRiver":{"sizes":[620,134],"position":"top"},"featureSponsor":{"sizes":[88,31],"position":"top"}}},"tablet":{"adUnits":{"intromercial":{"outOfPage":true,"eventCallbacks":{"slotRenderEnded":"intromercialCallback"}},"multiplexer":{"sizes":[460,170]},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600]],"position":"top","eventCallbacks":{"slotRenderEnded":"mpuCallback"}},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[300,250],"position":"bottom","eventCallbacks":{"slotRenderEnded":"mpuCallback"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"leaderPlusTop":{"sizes":[728,90],"position":"top","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"mpuMiddle":{"sizes":[300,250],"position":"middle","eventCallbacks":{"slotRenderEnded":"mpuCallback"}},"leaderPlusMiddle":{"sizes":[728,90],"position":"middle","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"leaderPlusBottom":{"sizes":[728,90],"position":"bottom","eventCallbacks":{"slotRenderEnded":"leaderCallback"}},"sharethroughTop":{"sizes":[11,11],"position":"top","eventCallbacks":{"slotRenderEnded":"sharethroughTopCallback"}},"sharethroughBottom":{"sizes":[11,11],"position":"bottom","eventCallbacks":{"slotRenderEnded":"sharethroughBottomCallback"}},"specialFeatureRiver":{"sizes":[620,134],"position":"top"},"featureSponsor":{"sizes":[88,31],"position":"top"}}},"siteName":"zdnet","collapseEmptyDiv":false,"setRefreshUnfilledSlots":true,"setClearUnfilledSlots":false,"disableInitialLoad":false,"disableInitialLoadCompanions":false,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","skin","ticker","sponsored_text_link","leader_plus_top","leader_top","marquee","vendor_text_link","mpu_plus_top","hotspot","resource_center","multiplexer","sharethrough_top","sharethrough_bottom","mpu_middle","mpu_middle2","mpu_bottom","leader_plus_bottom","inpage_video_top","special_feature_river","feature_sponsor"],"disableInitialLoadRefresh":true},"containerId":"573343fc56cbf","slotVars":{"network":"8264","siteName":"zdnet","collapseEmptyDiv":"","topics":"home","platform":"desktop"},"adType":"gpt","adDivIds":["leader-plus-top-573343fc56cbf","multiplexer-573343fc56cbf","replay-573343fc56cbf","mpu-plus-top-573343fc56cbf","mpu-middle-573343fc56cbf","mpu-bottom-573343fc56cbf","sponsored-text-link-573343fc56cbf","ticker-573343fc56cbf","intromercial-573343fc56cbf","skin-573343fc56cbf","leader-plus-bottom-573343fc56cbf"]},"cookieName":"zdnet_ad","cookieServicePath":"\/ad\/ad-cookie\/","session":8,"subSession":6,"useFirstPageTargeting":true}
+        },
+        assetsVersion: {
+            version: '587-fly'
+        },
+        edition: {
+            code: 'us'
+        },
+        environment: 'prod',
+        tracking: {
+            enabled: true,
+            data: {"isEnabled":true,"articleId":"9ca77949-b94e-4ce9-929a-83f2d175b954","articlePubDate":"2015-03-19 16:05:43","articleType":"content_feature","deviceType":"desktop","isDev":"0","pageType":"front_door","siteHier":["misc"],"siteSection":"home","siteType":"responsive web","topicId":["8bb86cbe-38b9-4681-a46a-d2fa74a994cd"],"topicName":["misc"],"siteId":2,"bkSiteId":3330,"limit":4,"rsid":"cnetzdnetglobalsite","siteName":"zdnet","tealium":{"profile":"zdnet","env":"prod"}}
+        },
+        pageType: 'front_door',
+        user: {
+            baseUrl: 'https://secure.zdnet.com'
+        },
+        build: true
+    };
+
+    
+    
+    var soastaTracking = {"soastaBucket":"us_desktop","soastaPageType":"front_door"};
+</script><!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--></head><body class="">
+
+    <div id="cookie-policy" class="alert optBeta" data-component="cookiePolicy">
+	<p><a class="close" data-close="cookie-policy"><i class="fa fa-times"></i></a> This web site uses cookies to improve your experience. By viewing our content, you are accepting the use of cookies. To find out more and change your cookie settings, please <a href="http://legalterms.cbsinteractive.com/cookies" target="_blank">view our cookie policy</a>.</p>
+</div>
+            
+
+<header id="mainHeader" class="page-header"><div id="secondary">
+            <div class="editions">
+                <ul><li class="editionsDrop">
+                        <a aria-haspopup="true" class="arrow">
+                            Edition: <span data-label="edition"></span>
+                        </a>
+                        
+<ul data-component="editionToggler" class="menu-editions"><li>
+        <a class="editionSwitch" data-edition="as" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            Asia
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="au" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            Australia
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="eu" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            Europe
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="in" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            India
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="uk" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            United Kingdom
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="us" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            United States
+        </a>
+    </li>
+
+    <li class="subDiv"><span class="label">ZDNet around the globe:</span></li>
+                    <li class="subDiv">
+        <a href="http://www.zdnet.be/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Belgium
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.com.cn/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet China
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.fr/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet France
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.de/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Germany
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.co.kr/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Korea
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://japan.zdnet.com/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Japan
+        </a>
+    </li>
+
+</ul></li>
+                </ul></div>
+            <div class="headerTextAd">
+                
+
+                        <div class="sponsored-text-link">
+        <div id="sponsored-text-link-573343fc56cbf" class="ad-sponsored-text-link" data-ad="sponsored-text-link">
+    <script>
+        window.console && console.log && console.log("ADS: queuing sponsored-text-link-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("sponsored-text-link-573343fc56cbf");
+    </script></div>
+
+    </div>
+                </div>
+        </div>
+
+        <div class="fixation" data-component="fixate" data-fixate-options='{"offset":{"top":0,"bottom":0},"guideTop":"#secondary"}'>
+                <div id="ticker-573343fc56cbf" class="ad-ticker" data-ad="ticker">
+    <script>
+        window.console && console.log && console.log("ADS: queuing ticker-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("ticker-573343fc56cbf");
+    </script></div>
+
+
+    <div id="primary">
+        <a id="zdLogoLarge" href="/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Logo"}'>
+            ZDNet
+        </a>
+        <div class="searchLarge">
+            
+<form class="headerSearch active" method="get" action="/search/">
+    <div class="box">
+        <input type="text" title="Search" placeholder="Search" tabindex="1" name="q" value="" class="search-expand"><input type="submit" value="Search" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Search"}'></div>
+</form>
+        </div>
+        
+<nav class="primaryNav" data-component="headerNav"><ul class="navList"><li class="alpha">
+            <a href="/topic/cloud/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Cloud
+            </a>
+        </li>
+    
+                                                                                                                    <li class="beta">
+            <a href="/topic/cxo/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                CXO
+            </a>
+        </li>
+    
+                                                                                                                    <li class="gamma">
+            <a href="/topic/hardware/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Hardware
+            </a>
+        </li>
+    
+                                                                                                                    <li class="delta">
+            <a href="/topic/windows-10/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Windows 10
+            </a>
+        </li>
+    
+                                                                                                                    <li class="epsilon">
+            <a href="/topic/internet-of-things/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                IoT
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/innovation-how-to-become-a-world-changer/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Innovation
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/mobility/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Mobility
+            </a>
+        </li>
+    
+                                                                                                            <li class="hasDrop"><a class="arrow moreText">more</a>
+            <ul class="menu-topics"><li class="alphaDrop">
+            <a href="/topic/security/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Security
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/enterprise-software/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Enterprise Software
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/data-centers/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Data Centers
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/apple/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Apple
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/the-industry-cloud-why-its-next/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                The Industry Cloud
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/ai-automation-and-tech-jobs/" ai automation and tech jobs data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                AI, Automation, and Tech Jobs
+            </a>
+        </li>
+    
+    
+                    <li class="seeAll">
+            <a href="/topic/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                See All Topics 
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="http://www.techrepublic.com/resource-library/whitepapers/" target="'_blank'" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                White Papers
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="//downloads.zdnet.com/" data-download-link="'true'" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                Downloads
+            </a>
+        </li>
+    
+                                <li class="subDiv">
+            <a href="/reviews/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}' data-vanity-rewritten="true">
+                Reviews
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="/pictures/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                Galleries
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="/video/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                Videos
+            </a>
+        </li>
+    
+
+    </ul></li>
+
+
+
+
+        <li><a href="/newsletters/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Newsletter"}' class="linkAlt" data-vanity-rewritten="true">Newsletters</a></li>
+        <li><a href="/blog/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-AllWriters"}' class="linkAlt">All Writers</a></li>
+
+                <li class="hasDrop">
+            <a class="linkAlt zd-user"><i class="fa fa-lg fa-user"></i></a>
+            
+<span class="loggedOut">
+    <ul class="menu-user"><li><a href="https://secure.zdnet.com/user/login/?appId=1101" rel="nofollow" data-user-show='{"action":"login","params":{"appId":1101,"position":"Header"}}'>Log In to ZDNET</a>
+        </li>
+        <li><a href="https://secure.zdnet.com/user/registration/?appId=1101" rel="nofollow" data-user-show='{"action":"register","params":{"appId":1101,"position":"Header"}}'>Join ZDNet</a></li>
+        <li><a href="/about/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "header-about"}' data-vanity-rewritten="true">About ZDNet</a></li>
+    </ul></span>
+
+<span class="loggedIn">
+    <ul class="menu-user"><li><a href="https://secure.zdnet.com/members/edit-profile/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "header-personicon-manage"}' rel="nofollow">Manage Profile</a></li>
+        <li><a href="https://secure.zdnet.com/members/newsletters/" rel="nofollow">Newsletters</a></li>
+        <li><a href="https://secure.zdnet.com/members/alerts/" rel="nofollow">Author Alerts</a></li>
+        <li><a href="https://secure.zdnet.com/members/alert-preferences/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "header-personicon-alerts"}' rel="nofollow">Discussion Alerts</a></li>
+        <li><a href="https://secure.zdnet.com/members/activity/" rel="nofollow">Recent Activity</a></li>
+        <li><a href="http://www.zdnet.com/user/logout/" data-omniture-track="trackLogout" data-omniture-track-data='{"moduleInfo": "header-personicon"}' rel="nofollow" data-user-action="logout">Log Out</a></li>
+    </ul></span>
+        </li>
+    </ul><ul class="navListMobile"><li class="backgroundLogo">
+        <a id="zdLogoSmall" href="/">ZDNet</a>
+    </li>
+    <li data-component="dropdown">
+        <a data-item="trigger"><i class="fa fa-search"></i></a>
+                <ul class="dropDown"><li>
+                <div class="searchSmall">
+                    
+<form class="headerSearch active" method="get" action="/search/">
+    <div class="box">
+        <input type="text" title="Search" placeholder="Search" tabindex="1" name="q" value="" class="search-expand"><input type="submit" value="Search" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Search"}'></div>
+</form>
+                </div>
+            </li>
+        </ul></li>
+    <li data-component="dropdown">
+        <a data-item="trigger">Menu</a>
+                <ul class="dropDown mobileLinks"><li class="alpha">
+            <a href="/topic/cloud/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Cloud
+            </a>
+        </li>
+    
+                                                                                                                    <li class="beta">
+            <a href="/topic/cxo/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                CXO
+            </a>
+        </li>
+    
+                                                                                                                    <li class="gamma">
+            <a href="/topic/hardware/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Hardware
+            </a>
+        </li>
+    
+                                                                                                                    <li class="delta">
+            <a href="/topic/windows-10/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Windows 10
+            </a>
+        </li>
+    
+                                                                                                                    <li class="epsilon">
+            <a href="/topic/internet-of-things/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                IoT
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/innovation-how-to-become-a-world-changer/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Innovation
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/mobility/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Mobility
+            </a>
+        </li>
+    
+                                                                                                    
+                                            <li class="alphaDrop">
+            <a href="/topic/security/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Security
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/enterprise-software/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Enterprise Software
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/data-centers/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Data Centers
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/apple/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                Apple
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/the-industry-cloud-why-its-next/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                The Industry Cloud
+            </a>
+        </li>
+    
+                                                                                                <li class="">
+            <a href="/topic/ai-automation-and-tech-jobs/" ai automation and tech jobs data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-TopicNav"}'>
+                AI, Automation, and Tech Jobs
+            </a>
+        </li>
+    
+    
+                    <li class="seeAll">
+            <a href="/topic/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                See All Topics 
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="http://www.techrepublic.com/resource-library/whitepapers/" target="'_blank'" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                White Papers
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="//downloads.zdnet.com/" data-download-link="'true'" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                Downloads
+            </a>
+        </li>
+    
+                                <li class="subDiv">
+            <a href="/reviews/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}' data-vanity-rewritten="true">
+                Reviews
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="/pictures/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                Galleries
+            </a>
+        </li>
+    
+                    <li class="subDiv">
+            <a href="/video/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-MoreMenu"}'>
+                Videos
+            </a>
+        </li>
+    
+
+
+
+
+        </ul></li>
+    <li data-component="dropdown">
+        <a class="zd-user" data-item="trigger"><i class="fa fa-user"></i></a>
+                <ul class="dropDown"><li>
+                
+<span class="loggedOut">
+    <ul class="menu-user"><li><a href="https://secure.zdnet.com/user/login/?appId=1101" rel="nofollow" data-user-show='{"action":"login","params":{"appId":1101,"position":"Header"}}'>Log In to ZDNET</a>
+        </li>
+        <li><a href="https://secure.zdnet.com/user/registration/?appId=1101" rel="nofollow" data-user-show='{"action":"register","params":{"appId":1101,"position":"Header"}}'>Join ZDNet</a></li>
+        <li><a href="/about/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "header-about"}' data-vanity-rewritten="true">About ZDNet</a></li>
+    </ul></span>
+
+<span class="loggedIn">
+    <ul class="menu-user"><li><a href="https://secure.zdnet.com/members/edit-profile/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "header-personicon-manage"}' rel="nofollow">Manage Profile</a></li>
+        <li><a href="https://secure.zdnet.com/members/newsletters/" rel="nofollow">Newsletters</a></li>
+        <li><a href="https://secure.zdnet.com/members/alerts/" rel="nofollow">Author Alerts</a></li>
+        <li><a href="https://secure.zdnet.com/members/alert-preferences/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "header-personicon-alerts"}' rel="nofollow">Discussion Alerts</a></li>
+        <li><a href="https://secure.zdnet.com/members/activity/" rel="nofollow">Recent Activity</a></li>
+        <li><a href="http://www.zdnet.com/user/logout/" data-omniture-track="trackLogout" data-omniture-track-data='{"moduleInfo": "header-personicon"}' rel="nofollow" data-user-action="logout">Log Out</a></li>
+    </ul></span>
+            </li>
+        </ul></li>
+    <li data-component="dropdown">
+                        <a data-item="trigger">us</a>
+                <ul class="dropDown"><li>
+                
+<ul data-component="editionToggler" class="menu-editions"><li>
+        <a class="editionSwitch" data-edition="as" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            Asia
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="au" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            Australia
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="eu" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            Europe
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="in" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            India
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="uk" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            United Kingdom
+        </a>
+    </li>
+
+                    <li>
+        <a class="editionSwitch" data-edition="us" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            United States
+        </a>
+    </li>
+
+    <li class="subDiv"><span class="label">ZDNet around the globe:</span></li>
+                    <li class="subDiv">
+        <a href="http://www.zdnet.be/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Belgium
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.com.cn/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet China
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.fr/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet France
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.de/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Germany
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://www.zdnet.co.kr/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Korea
+        </a>
+    </li>
+
+                    <li class="subDiv">
+        <a href="http://japan.zdnet.com/" target="_blank" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Header-Editions"}'>
+            ZDNet Japan
+        </a>
+    </li>
+
+</ul></li>
+        </ul></li>
+</ul></nav></div>
+
+        </div>
+</header><div class="intromercial">
+        <div id="intromercial-573343fc56cbf" class="ad-intromercial" data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-573343fc56cbf");
+    </script></div>
+
+    </div>
+
+            <div id="mantle_skin">
+            <span id="adSkinLeft"></span>
+            <span id="adSkinRight"></span>
+                <div id="skin-573343fc56cbf" class="ad-skin" data-ad="skin">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-573343fc56cbf");
+    </script></div>
+
+    
+        <div class="topContent container">
+        <div class="row">
+                <div class="row">
+        <div class="col-12">
+                                                    
+                                                        
+                                            
+    
+        
+        
+    <div class="hero-carousel" data-component="frontDoorCarousel" data-front-door-carousel-options='{"autoAdvanceSpeed":6000,"desktopHeroAutoAdvanceSpeed":10000}'>
+        <div class="page page-one">
+            
+                
+
+
+<article class="item item-size-large active"><div class="bg-image">
+                    <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/09/fc86bdf9-331c-414f-bef7-9daedc958397/thumbnail/600x400/2f3d06187b743bdb0759b2daf04576ec/fordautonomous.jpg" class="" alt="Ford: Self-driving cars are five years away from changing the world" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">interview</div>
+                        <h3 class="title"><a href="/article/ford-self-driving-cars-are-five-years-away-from-changing-the-world/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>Ford: Self-driving cars are five years away from changing the world</a></h3>
+
+            
+                <ul class="related-links"><li class="related-links-heading">Plus</li>
+                                                                                                                                                                <li><a href="/article/ford-invests-182m-in-cloud-software/">Ford invests $182m in cloud software to transform from auto to mobile</a></li>
+                                                                                                                                                                                        <li><a href="/article/why-volvo-believes-china-is-the-route-to-making-driverless-cars-a-success/">Why Volvo believes China is the route to making driverless cars a success</a></li>
+                                                                                                                                                                                        <li><a href="/article/the-linux-in-your-car-movement-gains-momentum/">Linux will be the major operating system of 21st century cars</a></li>
+                                                                                                                                                                                        <li><a href="/article/why-the-internet-of-things-is-the-next-target-for-ransomware/">Why the Internet of Things is the next target for ransomware</a></li>
+                                                            </ul></div>
+    </div>
+
+</article><article class="item item-size-medium "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2016/05/11/7691eca8-b63a-486e-8c47-bfdffda621f4/thumbnail/600x400/38f63a02989ca7a608b49a20e81e6f92/us-homeland-sec.jpg" class="" alt="Homeland Security warns hackers are exploiting SAP security flaw" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">cert alert</div>
+                        <h3 class="title"><a href="/article/homeland-security-warns-of-hackers-exploiting-sap-security-flaw/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>Homeland Security warns hackers are exploiting SAP security flaw</a></h3>
+
+            
+        </div>
+    </div>
+
+</article><article class="item item-size-small "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2015/12/22/32a9b883-3307-4d50-9d0b-ed911bf0ee32/thumbnail/600x400/095466bce1d9540f9cba8e1d2d73e109/windows-10-hero-gif.jpg" class="" alt="Real-time notifications, Edge extensions, Skype dark theme" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">Microsoft's new Windows 10 preview:</div>
+                        <h3 class="title"><a href="/article/microsofts-new-windows-10-preview-real-time-notifications-extensions-for-edge-skype-dark-theme/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>Real-time notifications, Edge extensions, Skype dark theme</a></h3>
+
+            
+                <ul class="related-links"><li class="related-links-heading">Plus</li>
+                                                                                                                                                                <li><a href="/article/cheapskate-android-switchers-are-hurting-apple/">Cheapskate 'Android switchers' are hurting Apple</a></li>
+                                                                                                                                                                                        <li><a href="/article/mobile-app-market-to-slow-but-on-pace-for-210-billion-apps-by-2020-says-idc/">​Mobile app market to slow, but on pace for 210 billion apps by 2020, says IDC</a></li>
+                                                                                                                                                                                        <li><a href="/article/no-one-wants-yearly-android-releases/">No one wants yearly Android releases</a></li>
+                                                            </ul></div>
+    </div>
+
+</article><article class="item item-size-small "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2016/04/04/7854f185-ab17-4953-84c3-2ba747ec9b05/thumbnail/600x400/379796815fd01c182504acd0d4884eb0/data-big-data-2-photo-by-joe-mckendrick.jpg" class="" alt="How smart storage will rescue big data" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">Information Bottleneck</div>
+                        <h3 class="title"><a href="/article/how-smart-storage-will-rescue-big-data/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>How smart storage will rescue big data</a></h3>
+
+            
+        </div>
+    </div>
+
+</article></div>
+
+        <div class="page page-two hidden">
+            
+                
+
+
+<article class="item item-size-medium "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/11/ccc2b4c1-0104-43a0-b1a6-d917e3681c91/thumbnail/600x400/59638266710ee93e8ce565aae2d46931/apple-mail-faille-770x577.jpg" class="" alt="The best iOS email apps to boost your productivity" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">top six</div>
+                        <h3 class="title"><a href="/article/six-of-the-best-ios-email-apps-to-boost-your-productivity/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>The best iOS email apps to boost your productivity</a></h3>
+
+            
+        </div>
+    </div>
+
+</article><article class="item item-size-medium "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/05/09/120f6896-98d7-43f1-af71-561956a840cd/thumbnail/600x400/4a432b446f2b28b982ba0ee074e50355/veronaboatdrone770x476.jpg" class="" alt="Why boat drones are taking to the water" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">From Lake Garda to the Thames</div>
+                        <h3 class="title"><a href="/article/from-lake-garda-to-the-thames-why-boat-drones-are-taking-to-the-water/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>Why boat drones are taking to the water</a></h3>
+
+            
+                <ul class="related-links"><li class="related-links-heading">Plus</li>
+                                                                                                                                                                <li><a href="/article/after-mystery-hack-millions-of-logins-for-sale-on-dark-web/">One of the biggest hacks happened last year, but nobody noticed</a></li>
+                                                                                                                                                                                        <li><a href="/article/this-unusual-botnet-targets-scientists-engineers-and-academics/">This unusual botnet targets scientists, engineers, and academics</a></li>
+                                                                                                                                                                                        <li><a href="/article/fbi-wants-cops-to-recreate-evidence-because-stingray-cell-trackers-are-too-secret/">FBI wants cops to recreate evidence because cell tracking tech is too secret</a></li>
+                                                                                                                                                                                        <li><a href="/article/security-researcher-arrested-for-reporting-us-election-website-vulnerabilities/">Security researcher arrested for disclosing US election website vulnerabilities</a></li>
+                                                            </ul></div>
+    </div>
+
+</article><article class="item item-size-small "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2016/03/01/f311fdf2-9065-4969-83b0-6680fb07e0a4/thumbnail/600x400/7596eecf25efc9784877c11040d5925c/ipad-pro.png" class="" alt="iPad Pro, Surface Pro only bright spots in grim PC market" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">more turmoil to come</div>
+                        <h3 class="title"><a href="/article/ipad-pro-surface-pro-only-bright-spots-in-grim-pc-market/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>iPad Pro, Surface Pro only bright spots in grim PC market</a></h3>
+
+            
+                <ul class="related-links"><li class="related-links-heading">Plus</li>
+                                                                                                                                                                <li><a href="/article/how-dell-plans-to-grow-its-pc-business-in-a-declining-market/">How Dell plans to grow its PC business in a declining market</a></li>
+                                                                                                                                                                                        <li><a href="/article/the-pc-industry-needs-to-evolve-or-get-ready-for-extinction/">The PC industry needs to evolve or get ready for extinction</a></li>
+                                                                                                                                                                                        <li><a href="/article/windows-10-and-two-in-one-devices-arent-saving-the-pc-market/">Windows 10 and two-in-one devices aren't saving the PC market</a></li>
+                                                                                                                                                                                        <li><a href="/article/five-cheap-or-free-ways-to-make-a-pc-faster/">Five cheap or free ways to make a PC faster</a></li>
+                                                            </ul></div>
+    </div>
+
+</article><article class="item item-size-small "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2015/10/21/746a3188-b1ab-4ec4-af7a-339331f53718/thumbnail/600x400/80be569e4e8f1ece7525d424b8030dd2/email-problems-concerned-woman-corbis.jpg" class="" alt="Why Yahoo Mail is now blacklisted by Congress" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">security</div>
+                        <h3 class="title"><a href="/article/why-yahoo-mail-is-now-blacklisted-by-congress/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>Why Yahoo Mail is now blacklisted by Congress</a></h3>
+
+            
+        </div>
+    </div>
+
+</article><article class="item item-size-small "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/05/10/24441f47-db2a-42fb-b19e-9744a99029ce/thumbnail/600x400/13128e2c52565d6ff2f9c69f7969924a/ffd92e21-2374-4f58-b0f6-690da5d0b155.jpg" class="" alt="Step inside the CNET Smart Home with a 360-degree tour" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">internet of things</div>
+                        <h3 class="title"><a href="http://www.cnet.com/smart-home/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>Step inside the CNET Smart Home with a 360-degree tour</a></h3>
+
+            
+                <ul class="related-links"><li class="related-links-heading">Plus</li>
+                                                                                                                                                                <li><a href="/article/google-is-seen-as-the-bad-boy-of-europe-heres-one-way-its-fighting-back/">Google is seen as the bad boy of Europe. Here's one way it's fighting back</a></li>
+                                                                                                                                                                                        <li><a href="/article/remix-mini-loses-google-play-access/">Remix Mini loses Google Play access</a></li>
+                                                                                                                                                                                        <li><a href="/article/google-honeywell-resolve-nest-labs-patent-dispute/">Google, Honeywell resolve Nest Labs patent dispute</a></li>
+                                                            </ul></div>
+    </div>
+
+</article><article class="item item-size-small "><div class="bg-image">
+                    <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/04/11/ee1e2e86-0b1e-4391-b5d2-733baa59bc99/thumbnail/600x400/cea5f94c113b29f13d142494b71f64f3/htc-10-hw-11.jpg" class="" alt="A contender for the best smartphone of 2016" height="400" width="600"></span>
+    
+    </div>
+
+    <div class="content-overlay">
+        <div class="overlay-bg"></div>
+        <div class="content">
+
+                            <div class="topic">One month with the HTC 10</div>
+                        <h3 class="title"><a href="/article/one-month-with-the-htc-10-a-contender-for-the-best-smartphone-of-2016/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel"}'>A contender for the best smartphone of 2016</a></h3>
+
+            
+        </div>
+    </div>
+
+</article></div>
+
+        <a class="next-button switch-page hide-until-ready" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel-next"}'><i class="fa fa-chevron-right"></i></a>
+        <a class="next-button switch-item hide-until-ready" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-carousel-next"}'><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    <section class="hero-carousel-spacer"></section><section class="leader leader-top"><div id="leader-plus-top-573343fc56cbf" class="ad-leader-plus-top" data-ad="leader-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-top-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-top-573343fc56cbf");
+    </script></div>
+
+    </section></div>
+            </div>
+    </div>
+
+    </div>
+
+    
+            <div class="hpto">
+	
+</div>
+                    
+    <div class="contentWrapper ">
+                <div class="container ">
+                
+    <div class="row">
+                <div class="row">
+        <div class="col-12">
+                                            <div class="row">
+                                        <div class="row">
+        <div class="col-12">
+                                            <div class="row">
+                                    <div class="col-8">
+                                                    
+                                                        
+                                            
+
+
+
+							
+
+				
+
+
+
+				
+	
+	
+
+				
+	
+	
+
+	
+				
+	
+
+				
+	
+	
+
+				
+	
+	
+
+	
+				
+	
+
+				
+	
+	
+
+				
+	
+	
+
+	
+				
+	
+
+				
+	
+	
+
+				
+	
+	
+
+				
+	
+	
+
+				
+	
+	
+
+	
+				
+	
+
+	
+				
+	
+
+	
+				
+	
+
+	
+				
+	
+
+	
+				
+	
+
+	
+	
+				
+
+	
+	
+				
+
+	
+	
+				
+
+<div class="front-door-river">
+
+			<h2 class="heading">
+			<span class="int">Just In</span>
+		</h2>
+		
+
+	<section class="just-in" data-component="riverTimeAgo"><ul><li class="odd">
+						<a href="/article/interview-vivaldi-browser-developer-aims-to-cater-for-even-more-demanding-users/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/11/7e76ba2d-5a08-4951-aed2-f816d9fd52c7/thumbnail/170x128/f96d1b0f0be4f7066734e7d5ac729a7b/img0124-jvt-vivaldi-cropjpg.jpg" class="" alt="Interview - Vivaldi browser developer aims to cater for even more demanding users" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/interview-vivaldi-browser-developer-aims-to-cater-for-even-more-demanding-users/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								Interview - Vivaldi browser developer aims to cater for even more demanding users
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 14:38:32">0 minutes ago</span>
+															</div>
+						</div>
+					</li>
+																																											
+					<li class="even">
+						<a href="/article/homeland-security-warns-of-hackers-exploiting-sap-security-flaw/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/11/7691eca8-b63a-486e-8c47-bfdffda621f4/thumbnail/170x128/0a75b7499524d704b8c9a8f8463676a7/us-homeland-sec.jpg" class="" alt="Homeland Security warns of hackers exploiting SAP security flaw" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/homeland-security-warns-of-hackers-exploiting-sap-security-flaw/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								Homeland Security warns of hackers exploiting SAP security flaw
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 14:02:00">37 minutes ago</span>
+															</div>
+						</div>
+					</li>
+																																											
+					<li class="odd">
+						<a href="/article/information-technology-bulk-of-innovation-as-collabovation-takes-root/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/11/1312caaa-02af-4a4a-bb55-9052b838cde1/thumbnail/170x128/e39630a4fc3f7f0e38db4e6c588f256b/innovation-overall-view-2016.jpg" class="" alt="Information technology bulk of innovation as 'collabovation' takes root" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/information-technology-bulk-of-innovation-as-collabovation-takes-root/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								Information technology bulk of innovation as 'collabovation' takes root
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 13:46:05">53 minutes ago</span>
+															</div>
+						</div>
+					</li>
+																																											
+					<li class="even">
+						<a href="/article/sao-paulo-mayor-seeks-uber-approval/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/05/11/5d6a4070-d24f-4675-a097-5ecbb01f49c9/thumbnail/170x128/6a9b8bb1c8283ee257d9d00202f7df18/uber.jpg" class="" alt="São Paulo mayor seeks Uber approval" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/sao-paulo-mayor-seeks-uber-approval/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								São Paulo mayor seeks Uber approval
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 13:18:42">1 hour ago</span>
+															</div>
+						</div>
+					</li>
+																																											
+					<li class="odd">
+						<a href="/article/microsoft-to-remove-windows-10-wi-fi-network-sharing-feature/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/11/4d657cb8-e60f-49ab-b99d-f8d4f66f0082/thumbnail/170x128/c18353b88e70d50cc38ced6e406f6756/2016-05-1113-59-48.jpg" class="" alt="Microsoft to remove Windows 10 Wi-Fi network sharing feature" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/microsoft-to-remove-windows-10-wi-fi-network-sharing-feature/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								Microsoft to remove Windows 10 Wi-Fi network sharing feature
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 13:06:00">2 hours ago</span>
+															</div>
+						</div>
+					</li>
+																																											
+					<li class="even">
+						<a href="/article/republic-wireless-adds-a-us-gsm-carrier-and-leading-android-smartphones-to-its-offerings/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2014/08/26/e560bd08-2cf1-11e4-9e6a-00505685119a/thumbnail/170x128/5700426ed624331073a0ebbd083f396e/republic-wireless-and-motorola-defy-xt-are-a-solid-combo-for-just-19month-review.png" class="" alt="Republic Wireless adds a US GSM carrier and leading Android smartphones to its offerings" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/republic-wireless-adds-a-us-gsm-carrier-and-leading-android-smartphones-to-its-offerings/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								Republic Wireless adds a US GSM carrier and leading Android smartphones to its offerings
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 13:01:04">2 hours ago</span>
+															</div>
+						</div>
+					</li>
+																																											
+					<li class="odd">
+						<a href="/article/elon-musks-hyperloop-hurtles-closer-public-demo-plus-80m-injection/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/11/fc978b8f-5451-4b92-b655-b1943416378c/thumbnail/170x128/224d193d55d798dc275e098326ad8a82/hyperloop2016may770x578.jpg" class="" alt="Elon Musk's Hyperloop hurtles closer: Public demo plus $80m injection" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/elon-musks-hyperloop-hurtles-closer-public-demo-plus-80m-injection/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								Elon Musk's Hyperloop hurtles closer: Public demo plus $80m injection
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 13:01:00">2 hours ago</span>
+															</div>
+						</div>
+					</li>
+																																											
+					<li class="even">
+						<a href="/article/docker-gains-enterprise-devops-traction/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+							            <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/10/41062920-3d23-49b6-b7dc-ffd7dc580071/thumbnail/170x128/0d4123339a40d87a4360978100c1e7f8/rightscale-containers-1.jpg" class="" alt="Docker gains enterprise DevOps traction" height="128" width="170"></span>
+    
+						</a>
+						<div class="content">
+							<a href="/article/docker-gains-enterprise-devops-traction/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-justin"}'>
+								Docker gains enterprise DevOps traction
+							</a>
+							<div class="meta">
+																	<span data-date="2016-05-11 13:00:04">2 hours ago</span>
+															</div>
+						</div>
+					</li>
+									</ul></section><h2 class="heading">
+		<span class="int">Today on ZDNet</span>
+	</h2>
+	
+
+<section class="featured-carousel" data-front-door-carousel-options='{"autoAdvanceSpeed":6000}' data-component='["frontDoorCarousel","lazyloadImages"]'><article class="item active"><div class="bg-image">
+				            <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/02/9abf0ddd-0d50-4a30-acf6-bee0f548cc0a/resize/770x300/81976a42caba380f410ce1973156be04/ent-ux-background-3.jpg" class="" alt="How UX is Transforming Enterprise Software" height="300" width="770"></span>
+    
+			</div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/how-ux-is-transforming-enterprise-software/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">How UX is Transforming Enterprise Software</a></h3>
+				</div>
+
+				<a href="/topic/how-ux-is-transforming-enterprise-software/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Integrating the Hybrid Cloud" height="300" width="770" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/24/69166a29-abec-4221-9877-a4f15cd38580/resize/770x300/25d829b80c23150941201e23ba4d47bb/integrating-hybrid-cloud.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/24/69166a29-abec-4221-9877-a4f15cd38580/resize/770x300/25d829b80c23150941201e23ba4d47bb/integrating-hybrid-cloud.jpg" class="" alt="Integrating the Hybrid Cloud" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/integrating-the-hybrid-cloud/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">Integrating the Hybrid Cloud</a></h3>
+				</div>
+
+				<a href="/topic/integrating-the-hybrid-cloud/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Internet of Things: The Security Challenge" height="300" width="770" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/02/23/8464193d-94f4-4d44-ae15-fa686c0507d5/resize/770x300/8f745cd25c3c2a406b9230eeb3190290/iot-security-thumb.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/02/23/8464193d-94f4-4d44-ae15-fa686c0507d5/resize/770x300/8f745cd25c3c2a406b9230eeb3190290/iot-security-thumb.jpg" class="" alt="Internet of Things: The Security Challenge" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/internet-of-things-the-security-challenge/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">Internet of Things: The Security Challenge</a></h3>
+				</div>
+
+				<a href="/topic/internet-of-things-the-security-challenge/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="VR and AR: The Business Reality" height="300" width="770" data-original="http://zdnet2.cbsistatic.com/hub/i/r/2016/01/25/6a5e99d1-6f3a-4138-880b-158a27e9dea2/resize/770x300/f3743c0f933d76c5d101fdb5dd6d1c8b/vr-ar-feb-2016-thumb.jpg"></span><noscript><span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2016/01/25/6a5e99d1-6f3a-4138-880b-158a27e9dea2/resize/770x300/f3743c0f933d76c5d101fdb5dd6d1c8b/vr-ar-feb-2016-thumb.jpg" class="" alt="VR and AR: The Business Reality" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/vr-and-ar-the-business-reality/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">VR and AR: The Business Reality</a></h3>
+				</div>
+
+				<a href="/topic/vr-and-ar-the-business-reality/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Enterprise Apps: The Next Generation" height="300" width="770" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2015/12/01/e1130c73-62ed-445d-a38e-17578497b098/resize/770x300/15f478012b84b4f722e7b7ebded5a93d/entappshero.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2015/12/01/e1130c73-62ed-445d-a38e-17578497b098/resize/770x300/15f478012b84b4f722e7b7ebded5a93d/entappshero.jpg" class="" alt="Enterprise Apps: The Next Generation" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/enterprise-apps-the-next-generation/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">Enterprise Apps: The Next Generation</a></h3>
+				</div>
+
+				<a href="/topic/enterprise-apps-the-next-generation/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="How To Make IT More Agile" height="300" width="770" data-original="http://zdnet1.cbsistatic.com/hub/i/r/2015/10/26/d780da3e-f089-487a-a917-f7e11cc761d9/resize/770x300/c0f408d8298f3b4adedff8a96132fec3/agile-it-nov-2015-main.jpg"></span><noscript><span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2015/10/26/d780da3e-f089-487a-a917-f7e11cc761d9/resize/770x300/c0f408d8298f3b4adedff8a96132fec3/agile-it-nov-2015-main.jpg" class="" alt="How To Make IT More Agile" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/how-to-make-it-more-agile/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">How To Make IT More Agile</a></h3>
+				</div>
+
+				<a href="/topic/how-to-make-it-more-agile/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="AI and the Future of Business" height="300" width="770" data-original="http://zdnet2.cbsistatic.com/hub/i/r/2015/08/24/2eb3b741-0f49-4e17-890e-55abbcfe57dc/resize/770x300/783b0ba44652c1490060ffda12432427/ai-sep-2015-collection-thumb.jpg"></span><noscript><span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2015/08/24/2eb3b741-0f49-4e17-890e-55abbcfe57dc/resize/770x300/783b0ba44652c1490060ffda12432427/ai-sep-2015-collection-thumb.jpg" class="" alt="AI and the Future of Business" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/ai-and-the-future-of-business/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">AI and the Future of Business</a></h3>
+				</div>
+
+				<a href="/topic/ai-and-the-future-of-business/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="The Evolution of Enterprise Storage" height="300" width="770" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2014/11/28/25b8b194-76b3-11e4-b569-d4ae52e95e57/resize/770x300/3721c25d9428966d9a692325b95dc458/primary-data-disrupts-enterprise-storage-non-disruptively.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2014/11/28/25b8b194-76b3-11e4-b569-d4ae52e95e57/resize/770x300/3721c25d9428966d9a692325b95dc458/primary-data-disrupts-enterprise-storage-non-disruptively.jpg" class="" alt="The Evolution of Enterprise Storage" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type"><span class="zdnet-logo"></span> Special Feature</div>
+					<h3 class="title"><a href="/topic/the-evolution-of-enterprise-storage/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">The Evolution of Enterprise Storage</a></h3>
+				</div>
+
+				<a href="/topic/the-evolution-of-enterprise-storage/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-specialfeature-carousel"}' data-vanity-rewritten="true">
+					<div class="btn-circle-text">
+						Read<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><ul class="carousel-pagination hide-until-ready"><li class="previous"><i class="fa fa-chevron-left"></i></li>
+							<li class="pag current" data-index="0">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="1">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="2">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="3">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="4">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="5">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="6">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="7">
+					<i class="fa fa-circle"></i>
+				</li>
+						<li class="next"><i class="fa fa-chevron-right"></i></li>
+		</ul></section><section data-component="riverTimeAgo" class="module"><div class="river">
+			<div><article class="item"><div class=""><div class="thumbWrap"><a class="thumb" href="/article/how-smart-storage-will-rescue-big-data/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2016/05/11/4a4a6bdf-c634-4e8f-897e-db8fe4e31200/thumbnail/170x128/c4213f340d6c1c4cb7ecd437f6f2910a/grand-canyon.jpg" class="" alt="How smart storage will rescue big data" height="128" width="170"></span></a></div><div class="content"><h3><a href="/article/how-smart-storage-will-rescue-big-data/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>How smart storage will rescue big data</a></h3><p class="summary">IBM researchers are demoing an intelligent storage system that works something like your brain: It's easier to remember something important, like a beautiful sunset over the Grand Canyon, than the last time you waited for a traffic light. Here's how it works.</p><p class="meta"><span data-date="2016-05-11 12:43:00">2 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/us/robin-harris/" data-vanity-rewritten="true">Robin Harris</a></p></div></div></article><article class="item"><div class=""><div class="thumbWrap"><a class="thumb" href="/article/ibm-watson-powered-app-aims-to-make-hospital-visits-less-daunting-for-young-patients/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/11/013d98fa-c035-421a-8c69-210bdf0acd2a/thumbnail/170x128/ba785991478a45cf56cc452e94da4f8b/alder-hey-childrens-hospital-volunteer-gathers-feedback-from-a-family-about-their-experiences-at-the-hospital.png" class="" alt="IBM Watson-powered app aims to make hospital visits less daunting for young patients" height="128" width="170"></span></a></div><div class="content"><h3><a href="/article/ibm-watson-powered-app-aims-to-make-hospital-visits-less-daunting-for-young-patients/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>IBM Watson-powered app aims to make hospital visits less daunting for young patients</a></h3><p class="summary">Cognitive computing will be used for an app which is the first part of a broader project at Alder Hey Hospital.</p><p class="meta"><span data-date="2016-05-11 12:37:00">2 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/uk/dannypalmerzdnet/">Danny Palmer</a></p></div></div></article><section class="multiplexer"><div id="multiplexer-573343fc56cbf" class="ad-multiplexer" data-ad="multiplexer"><script>
+        window.console && console.log && console.log("ADS: queuing multiplexer-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("multiplexer-573343fc56cbf");
+    </script></div></section><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/android-sales-surge-at-the-expense-of-windows-phone-and-ios/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="Android sales surge - at the expense of Windows Phone and iOS" height="128" width="170" data-original="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/04/5f60821a-61b6-4ab4-a11f-500df102e1dc/thumbnail/170x128/92398240b5c823e6da49250bed2c1407/google-android-marshmallow-5.jpg"></span><noscript><span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/04/5f60821a-61b6-4ab4-a11f-500df102e1dc/thumbnail/170x128/92398240b5c823e6da49250bed2c1407/google-android-marshmallow-5.jpg" class="" alt="Android sales surge - at the expense of Windows Phone and iOS" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/android-sales-surge-at-the-expense-of-windows-phone-and-ios/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>Android sales surge - at the expense of Windows Phone and iOS</a></h3><p class="summary">But can the iPhone SE help turn the tide for Apple?</p><p class="meta"><span data-date="2016-05-11 12:25:00">2 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/uk/steve-ranger/" data-vanity-rewritten="true">Steve Ranger</a></p></div></div></article><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/windows-10-tip-look-up-your-ip-address/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="Windows 10 tip: Look up your IP address quickly" height="128" width="170" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/23/6f17beb1-df42-451f-a000-6c12f5b8034b/thumbnail/170x128/0b011118553066cb48d7edf0e1c22d34/hello-windows-10-small.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/23/6f17beb1-df42-451f-a000-6c12f5b8034b/thumbnail/170x128/0b011118553066cb48d7edf0e1c22d34/hello-windows-10-small.jpg" class="" alt="Windows 10 tip: Look up your IP address quickly" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/windows-10-tip-look-up-your-ip-address/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>Windows 10 tip: Look up your IP address quickly</a></h3><p class="summary">You don't need to dig deep into Control Panel or use a command line to find your IP address. That information (IPv4 and IPv6) is in Task Manager, if you know where to look.</p><p class="meta"><span data-date="2016-05-11 12:20:00">2 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/us/ed-bott/" data-vanity-rewritten="true">Ed Bott</a></p></div></div></article><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/movpak-the-backpack-that-can-get-you-to-work-on-time/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="Movpak: A rolling backpack with an electric skateboard inside" height="128" width="170" data-original="http://zdnet2.cbsistatic.com/hub/i/r/2016/05/11/4a0eab57-3e5f-466d-8515-0fdc75c63f44/thumbnail/170x128/00532d5883e222e524dd71384051fc4f/movpak-rolling.jpg"></span><noscript><span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2016/05/11/4a0eab57-3e5f-466d-8515-0fdc75c63f44/thumbnail/170x128/00532d5883e222e524dd71384051fc4f/movpak-rolling.jpg" class="" alt="Movpak: A rolling backpack with an electric skateboard inside" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/movpak-the-backpack-that-can-get-you-to-work-on-time/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>Movpak: A rolling backpack with an electric skateboard inside</a></h3><p class="summary">This colorful backpack is a traditional rolling bag that adds a skateboard that can do 20 mph.</p><p class="meta"><span data-date="2016-05-11 12:17:45">2 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/us/james-kendrick/" data-vanity-rewritten="true">James Kendrick</a></p></div></div></article></div>		</div>
+	</section><section class="featured-carousel" data-front-door-carousel-options='{"autoAdvanceSpeed":6000}' data-component='["frontDoorCarousel","lazyloadImages"]'><article class="item active"><div class="bg-image">
+				            <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/04/21/3ee163b9-d1ae-48ba-b6a1-d29561f623ce/resize/770x300/a971a7b2bd944ce0a7db4cc9603eb478/shark-tank-nuts-n-more.jpg" class="" alt="The 18 best Shark Tank success stories" height="300" width="770"></span>
+    
+			</div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/the-18-best-shark-tank-success-stories/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">The 18 best Shark Tank success stories</a></h3>
+				</div>
+
+				<a href="/pictures/the-18-best-shark-tank-success-stories/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Free, must-have Google Chrome extensions" height="300" width="770" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2016/05/01/4680e905-bff0-4c2e-aa2b-4c96914775cc/resize/770x300/38e3477cda851adbb4daec1d11509cad/021.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/05/01/4680e905-bff0-4c2e-aa2b-4c96914775cc/resize/770x300/38e3477cda851adbb4daec1d11509cad/021.jpg" class="" alt="Free, must-have Google Chrome extensions" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/free-must-have-google-chrome-extensions/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">Free, must-have Google Chrome extensions</a></h3>
+				</div>
+
+				<a href="/pictures/free-must-have-google-chrome-extensions/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="For privacy and security, change these Android settings right now" height="300" width="770" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/21/afb6ec34-0add-4017-8d9d-4a524e69b569/resize/770x300/7b90ef0639a67b2f8f2413d2cd81f43f/a-1.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/21/afb6ec34-0add-4017-8d9d-4a524e69b569/resize/770x300/7b90ef0639a67b2f8f2413d2cd81f43f/a-1.jpg" class="" alt="For privacy and security, change these Android settings right now" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/android-phone-tablet-privacy-security-settings/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">For privacy and security, change these Android settings right now</a></h3>
+				</div>
+
+				<a href="/pictures/android-phone-tablet-privacy-security-settings/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="The coolest desk toys for tech people" height="300" width="770" data-original="http://zdnet2.cbsistatic.com/hub/i/r/2016/04/06/53a50ca6-3a2b-4fcf-b338-00ca8dc53499/resize/770x300/7ffa964971d19aaef24c4e75dfd80ae4/ee85portal2sentryturretusbdeskdefenderdesk.jpg"></span><noscript><span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2016/04/06/53a50ca6-3a2b-4fcf-b338-00ca8dc53499/resize/770x300/7ffa964971d19aaef24c4e75dfd80ae4/ee85portal2sentryturretusbdeskdefenderdesk.jpg" class="" alt="The coolest desk toys for tech people" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/the-coolest-desk-toys-for-tech-people/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">The coolest desk toys for tech people</a></h3>
+				</div>
+
+				<a href="/pictures/the-coolest-desk-toys-for-tech-people/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="19 caffeine-laced foods to replace coffee" height="300" width="770" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/03/29/4f8be1dd-2e0d-415c-abea-19abc9e23e1a/resize/770x300/8f2b0b206019c2ede2588642e9786875/00intro.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/03/29/4f8be1dd-2e0d-415c-abea-19abc9e23e1a/resize/770x300/8f2b0b206019c2ede2588642e9786875/00intro.jpg" class="" alt="19 caffeine-laced foods to replace coffee" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/25-caffeine-laced-foods-to-replace-coffee/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">19 caffeine-laced foods to replace coffee</a></h3>
+				</div>
+
+				<a href="/pictures/25-caffeine-laced-foods-to-replace-coffee/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="The best high-end tablets for business users" height="300" width="770" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/03/22/5b795727-f93f-43c9-a804-087edd27be15/resize/770x300/5365ecb46969c4607f789a5054e54982/screen-shot-2016-03-22-at-12-11-14.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/03/22/5b795727-f93f-43c9-a804-087edd27be15/resize/770x300/5365ecb46969c4607f789a5054e54982/screen-shot-2016-03-22-at-12-11-14.jpg" class="" alt="The best high-end tablets for business users" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/2016-the-best-high-end-tablets-for-business-users/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">The best high-end tablets for business users</a></h3>
+				</div>
+
+				<a href="/pictures/2016-the-best-high-end-tablets-for-business-users/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="17 ways the Internet of Things can go horribly wrong" height="300" width="770" data-original="http://zdnet1.cbsistatic.com/hub/i/r/2016/02/24/2ece1c6f-a3ad-4ab7-96d7-8f4f0bc898e7/resize/770x300/3a86a71c12260ce11f896cf926cc6459/techrepublic-iot-security-holes-tracking-point-rifle.jpg"></span><noscript><span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/02/24/2ece1c6f-a3ad-4ab7-96d7-8f4f0bc898e7/resize/770x300/3a86a71c12260ce11f896cf926cc6459/techrepublic-iot-security-holes-tracking-point-rifle.jpg" class="" alt="17 ways the Internet of Things can go horribly wrong" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/17-ways-the-internet-of-things-can-go-horribly-wrong/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">17 ways the Internet of Things can go horribly wrong</a></h3>
+				</div>
+
+				<a href="/pictures/17-ways-the-internet-of-things-can-go-horribly-wrong/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="25 mind-blowing mobile devices that were ahead of their time" height="300" width="770" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/02/17/8dc31996-87ae-4afd-a0ba-fecd016a385b/resize/770x300/b60eac8ccc1a12fd16bd40da98825295/corbis-ax034330.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/02/17/8dc31996-87ae-4afd-a0ba-fecd016a385b/resize/770x300/b60eac8ccc1a12fd16bd40da98825295/corbis-ax034330.jpg" class="" alt="25 mind-blowing mobile devices that were ahead of their time" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/25-mind-blowing-mobile-devices-that-were-ahead-of-their-time/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">25 mind-blowing mobile devices that were ahead of their time</a></h3>
+				</div>
+
+				<a href="/pictures/25-mind-blowing-mobile-devices-that-were-ahead-of-their-time/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Five iPhone battery-saving tips that really work (and five that are useless)" height="300" width="770" data-original="http://zdnet1.cbsistatic.com/hub/i/r/2016/02/20/0cffca8c-4d7b-4655-9ca7-5516a71aa571/resize/770x300/5b37594b1380f4edff94a47be76ef754/001.jpg"></span><noscript><span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/02/20/0cffca8c-4d7b-4655-9ca7-5516a71aa571/resize/770x300/5b37594b1380f4edff94a47be76ef754/001.jpg" class="" alt="Five iPhone battery-saving tips that really work (and five that are useless)" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/five-iphone-battery-saving-tips-that-really-work-and-five-that-are-useless/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">Five iPhone battery-saving tips that really work (and five that are useless)</a></h3>
+				</div>
+
+				<a href="/pictures/five-iphone-battery-saving-tips-that-really-work-and-five-that-are-useless/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="How to secure your computer and online accounts in 10 simple steps" height="300" width="770" data-original="http://zdnet1.cbsistatic.com/hub/i/r/2015/04/14/870dacd0-a88f-45b7-91a6-5f84895dddca/resize/770x300/2d74b5d1bc8ca881918514d07a10b30b/picture1.png"></span><noscript><span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2015/04/14/870dacd0-a88f-45b7-91a6-5f84895dddca/resize/770x300/2d74b5d1bc8ca881918514d07a10b30b/picture1.png" class="" alt="How to secure your computer and online accounts in 10 simple steps" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Gallery</div>
+					<h3 class="title"><a href="/pictures/simple-steps-to-lock-down-secure-pc-online-accounts/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">How to secure your computer and online accounts in 10 simple steps</a></h3>
+				</div>
+
+				<a href="/pictures/simple-steps-to-lock-down-secure-pc-online-accounts/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-gallery-carousel"}' data-component="imageGalleryModal">
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><ul class="carousel-pagination hide-until-ready"><li class="previous"><i class="fa fa-chevron-left"></i></li>
+							<li class="pag current" data-index="0">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="1">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="2">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="3">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="4">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="5">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="6">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="7">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="8">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="9">
+					<i class="fa fa-circle"></i>
+				</li>
+						<li class="next"><i class="fa fa-chevron-right"></i></li>
+		</ul></section><section data-component="riverTimeAgo" class="module"><div class="river">
+			<div><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/microsofts-new-windows-10-preview-real-time-notifications-extensions-for-edge-skype-dark-theme/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="Microsoft's new Windows 10 preview: Real-time notifications, extensions for Edge, Skype dark theme" height="128" width="170" data-original="http://zdnet1.cbsistatic.com/hub/i/r/2015/12/22/32a9b883-3307-4d50-9d0b-ed911bf0ee32/thumbnail/170x128/eef93b797172e24741fd1bdc43ff9400/windows-10-hero-gif.jpg"></span><noscript><span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2015/12/22/32a9b883-3307-4d50-9d0b-ed911bf0ee32/thumbnail/170x128/eef93b797172e24741fd1bdc43ff9400/windows-10-hero-gif.jpg" class="" alt="Microsoft's new Windows 10 preview: Real-time notifications, extensions for Edge, Skype dark theme" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/microsofts-new-windows-10-preview-real-time-notifications-extensions-for-edge-skype-dark-theme/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>Microsoft's new Windows 10 preview: Real-time notifications, extensions for Edge, Skype dark theme</a></h3><p class="summary">Microsoft's latest Windows 10 preview brings dark themes to Skype, and a host of new extensions, including popular ad blockers.</p><p class="meta"><span data-date="2016-05-11 11:36:00">3 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/eu/liam-tung/" data-vanity-rewritten="true">Liam Tung</a></p></div></div></article><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/hands-on-new-2016-waterfield-designs-cargo-bag-improves-upon-a-best-selling-classic/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="Hands-on: New 2016 WaterField Designs Cargo bag improves upon a best-selling classic" height="128" width="170" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/11/c5febe1d-8137-4dba-bcec-91f25d13be9b/thumbnail/170x128/4a2315f53f78c851d01a2419e18452d8/waterfield-cargo-11.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/11/c5febe1d-8137-4dba-bcec-91f25d13be9b/thumbnail/170x128/4a2315f53f78c851d01a2419e18452d8/waterfield-cargo-11.jpg" class="" alt="Hands-on: New 2016 WaterField Designs Cargo bag improves upon a best-selling classic" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/hands-on-new-2016-waterfield-designs-cargo-bag-improves-upon-a-best-selling-classic/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>Hands-on: New 2016 WaterField Designs Cargo bag improves upon a best-selling classic</a></h3><p class="summary">I picked up my first WaterField Designs Cargo bag 10 years ago. This new model offers improvements that make it a compelling choice for the commuter and business traveler.</p><p class="meta"><span data-date="2016-05-11 11:21:03">3 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/us/palmsolo+%28aka+matthew+miller%29/">Matthew Miller</a></p></div></div></article><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/ford-self-driving-cars-are-five-years-away-from-changing-the-world/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="Ford: Self-driving cars are five years away from changing the world" height="128" width="170" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/09/fc86bdf9-331c-414f-bef7-9daedc958397/thumbnail/170x128/036f15cffbf5598a30501b5d4e70d3c3/fordautonomous.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/09/fc86bdf9-331c-414f-bef7-9daedc958397/thumbnail/170x128/036f15cffbf5598a30501b5d4e70d3c3/fordautonomous.jpg" class="" alt="Ford: Self-driving cars are five years away from changing the world" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/ford-self-driving-cars-are-five-years-away-from-changing-the-world/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>Ford: Self-driving cars are five years away from changing the world</a></h3><p class="summary">The technical leader of Ford's autonomous car project speaks about what it's like to be driven by a driver-less car, and how big a deal self-driving vehicles will really be.</p><p class="meta"><span data-date="2016-05-11 11:00:06">4 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/uk/steve-ranger/" data-vanity-rewritten="true">Steve Ranger</a></p></div></div></article><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/from-lake-garda-to-the-thames-why-boat-drones-are-taking-to-the-water/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="From Lake Garda to the Thames: Why boat drones are taking to the water" height="128" width="170" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/09/120f6896-98d7-43f1-af71-561956a840cd/thumbnail/170x128/f248342c175188a79cc70e452d95c78e/veronaboatdrone770x476.jpg"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/09/120f6896-98d7-43f1-af71-561956a840cd/thumbnail/170x128/f248342c175188a79cc70e452d95c78e/veronaboatdrone770x476.jpg" class="" alt="From Lake Garda to the Thames: Why boat drones are taking to the water" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/from-lake-garda-to-the-thames-why-boat-drones-are-taking-to-the-water/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>From Lake Garda to the Thames: Why boat drones are taking to the water</a></h3><p class="summary">A combination of AI, robot boats, and millions in EU funding is helping researchers check conditions of some of Europe's most vital water sources.</p><p class="meta"><span data-date="2016-05-11 11:00:04">4 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/eu/federico-guerrini/" data-vanity-rewritten="true">Federico Guerrini</a></p></div></div></article><section class="replay"><div id="replay-573343fc56cbf" class="ad-replay" data-ad="replay"><script>
+        window.console && console.log && console.log("ADS: queuing replay-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("replay-573343fc56cbf");
+    </script></div></section><article class="item"><div class=""><div class="thumbWrap" data-component="lazyloadImages"><a class="thumb" href="/article/five-fingered-robot-hand-has-a-mind-of-its-own/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}' data-item="riverThumb"><figure class=" img"><span class="img "><img src="" class="lazy" alt="Five-fingered robot hand has a mind of its own" height="128" width="170" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2016/05/09/89770d48-e115-43ef-9a90-d42bca18700b/thumbnail/170x128/66897b98ca737979b754f2c7fbe08f95/dexterous-robot-hand-with-cylinder.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/05/09/89770d48-e115-43ef-9a90-d42bca18700b/thumbnail/170x128/66897b98ca737979b754f2c7fbe08f95/dexterous-robot-hand-with-cylinder.jpg" class="" alt="Five-fingered robot hand has a mind of its own" height="128" width="170"></span></noscript></figure></a></div><div class="content"><h3><a href="/article/five-fingered-robot-hand-has-a-mind-of-its-own/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-river"}'>Five-fingered robot hand has a mind of its own</a></h3><p class="summary">Delicate manipulation is the next frontier for robots, and this learning hand is pointing the way.</p><p class="meta"><span data-date="2016-05-11 10:40:03">4 hours ago</span>
+                        
+                                                                                                            by
+                            <a rel="author" href="/meet-the-team/us/me51/">Greg Nichols</a></p></div></div></article></div>		</div>
+	</section><section class="featured-carousel" data-front-door-carousel-options='{"autoAdvanceSpeed":6000}' data-component='["frontDoorCarousel","lazyloadImages"]'><article class="item active"><div class="bg-image">
+				            <span class="img "><img src="http://zdnet2.cbsistatic.com/hub/i/r/2015/03/25/43f0f60b-f731-4ab3-8da9-d879ae0998b6/resize/770x300/9f5a943b7b7fdbf1de38190baef29f6d/screen-shot-2015-03-24-at-3-13-12-pm.png" class="" alt="CXOs sound off on the critical challenges facing IoT, big data, and the cloud" height="300" width="770"></span>
+    
+			</div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Video</div>
+					<h3 class="title"><a href="/article/video-cxos-sound-off-on-the-critical-challenges-facing-iot-big-data-and-the-cloud/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-video-carousel"}'>CXOs sound off on the critical challenges facing IoT, big data, and the cloud</a></h3>
+				</div>
+
+				<a href="/article/video-cxos-sound-off-on-the-critical-challenges-facing-iot-big-data-and-the-cloud/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-video-carousel"}'>
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Doing Small Business Better: Working smarter" height="300" width="770" data-original="http://zdnet1.cbsistatic.com/hub/i/r/2014/10/20/da20184a-5828-11e4-b6a0-d4ae52e95e57/resize/770x300/c17b8bccfe6f746702f41f4db67c14f1/doing-small-business-better-working-smarter.png"></span><noscript><span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2014/10/20/da20184a-5828-11e4-b6a0-d4ae52e95e57/resize/770x300/c17b8bccfe6f746702f41f4db67c14f1/doing-small-business-better-working-smarter.png" class="" alt="Doing Small Business Better: Working smarter" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Video</div>
+					<h3 class="title"><a href="/article/doing-small-business-better-working-smarter/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-video-carousel"}'>Doing Small Business Better: Working smarter</a></h3>
+				</div>
+
+				<a href="/article/doing-small-business-better-working-smarter/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-video-carousel"}'>
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><article class="item "><div class="bg-image">
+				                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Ending life of BYOD products" height="300" width="770" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2014/10/05/945ec2c2-4cd1-11e4-b6a0-d4ae52e95e57/resize/770x300/ea81b5fc3ed8553cb8e5818ef88030d4/byod-gear.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2014/10/05/945ec2c2-4cd1-11e4-b6a0-d4ae52e95e57/resize/770x300/ea81b5fc3ed8553cb8e5818ef88030d4/byod-gear.jpg" class="" alt="Ending life of BYOD products" height="300" width="770"></span></noscript></figure></div>
+
+			<div class="content-overlay">
+				<div class="overlay-bg"></div>
+				<div class="content">
+					<div class="type">Video</div>
+					<h3 class="title"><a href="/article/ending-life-of-byod-products/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-video-carousel"}'>Ending life of BYOD products</a></h3>
+				</div>
+
+				<a href="/article/ending-life-of-byod-products/" class="btn-circle" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "fd-video-carousel"}'>
+					<div class="btn-circle-text">
+						View<br>Now
+					</div>
+				</a>
+
+			</div>
+
+		</article><ul class="carousel-pagination hide-until-ready"><li class="previous"><i class="fa fa-chevron-left"></i></li>
+							<li class="pag current" data-index="0">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="1">
+					<i class="fa fa-circle"></i>
+				</li>
+							<li class="pag " data-index="2">
+					<i class="fa fa-circle"></i>
+				</li>
+						<li class="next"><i class="fa fa-chevron-right"></i></li>
+		</ul></section><section id="fd-river"><section data-component="riverTimeAgo" class="module" id="624e2cf3-dfd5-4c9d-b542-eebbd21a7e5e-river"><div class="river" data-component="loadMore" data-load-more-options='{"url":"\/components\/load-more\/xhr\/","data":{"endpoint":"\/api\/component\/listing\/e1168690-2d79-4d45-933a-1011de7bfa6a\/content\/624e2cf3-dfd5-4c9d-b542-eebbd21a7e5e","params":[],"view":"river","familyName":"listing","typeName":"multi_filtered_listing","offset":18,"initialLimit":18,"limit":18,"lastAssetId":"57989e38-5fed-420c-a486-5f63db2ebb25"},"loader":{"classes":{"base":"btn btn-primary btn-block load-more"},"text":{"idle":"Load More"}},"pushState":{"route":"\/{page}\/","enabled":true,"currentPage":1}}'>
+			</div>
+
+			    <div data-no-js data-load="624e2cf3-dfd5-4c9d-b542-eebbd21a7e5e-river">
+        <a class="btn btn-primary btn-block load-more" href="/2/"><span class="text">Load More</span></a>
+    </div>
+		</section></section></div>
+                                                                                
+                                                        
+                                            
+
+
+		<div id="taboola-below-home-thumbnails-homepage" data-component="taboola" data-taboola-options='{"mode":"thumbnails-a","container":"taboola-below-home-thumbnails-homepage","placement":"ZDNETfront_doorDesktop\/Tablet-Bottom Page Thumbnails","isXhr":false}' om-event="ZDNETfront_doorDesktop/Tablet-Bottom Page Thumbnails"></div>
+                                                                    </div>
+            <div class="col-4">
+                                                    
+                                                        
+                                            
+
+                    <div class="ad-wrap">
+    <section class="mpu"><div id="mpu-plus-top-573343fc56cbf" class="ad-mpu-plus-top" data-ad="mpu-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-573343fc56cbf");
+    </script></div>
+
+    </section></div>
+                                                                                    
+                                                        
+                                            
+
+<div id="newsletter-widget-4440" data-component="newsletterWidget">
+    <section class="keepUp"><h2 class="heading"><span class="int">Newsletters</span></h2>
+        <div class="box">
+            <div class="newsletterWidgetSuccessMessage hide">You have been successfully signed up. To sign up for more newsletters or to manage your account, visit the <a href="https://secure.zdnet.com/members/newsletters/">Newsletter Subscription Center</a>.</div>
+            <div class="newsletterWidgetErrorMessage hide">Subscription failed.</div>
+            <div class="newsletters">
+                <div id="widget-1182" data-component="loadNewsletterAsync" data-load-newsletter-async-options='{"loggedUrl":"\/newsletter\/xhr\/widget\/","loginUrl":"\/newsletter\/xhr\/widget-login\/","data":{"topic":""}}'>
+                </div>
+            </div>
+                        <span class="loggedOut">
+                <a href="/newsletters/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "newsletter-seeall"}' class="btn-circle" data-vanity-rewritten="true">
+                  <div class="btn-circle-text">
+                    <span>See</span>
+                    All
+                  </div>
+                </a>
+            </span>
+
+            <span class="loggedIn">
+                <a href="https://secure.zdnet.com/members/newsletters/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "newsletter-seeall"}' class="btn-circle">
+                  <div class="btn-circle-text">
+                    <span>See</span>
+                    All
+                  </div>
+                </a>
+            </span>
+        </div>
+    </section></div>
+                                                                                
+                                                        
+                                            
+
+
+
+	
+
+	<section class="single-topic-module" data-component="lazyloadImages"><div class="bg-image">
+			                <figure class=" img"><span class="img "><img src="" class="lazy" alt="Six Windows 10 annoyances: How to make them go away for good" height="428" width="370" data-original="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/23/de9a7c4c-bbf5-4127-af67-90d2154a4b5a/thumbnail/370x428/9663ca6948c0ec5b02a02cf7b829fe5d/frsutrated-man-laptop.jpg"></span><noscript><span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/23/de9a7c4c-bbf5-4127-af67-90d2154a4b5a/thumbnail/370x428/9663ca6948c0ec5b02a02cf7b829fe5d/frsutrated-man-laptop.jpg" class="" alt="Six Windows 10 annoyances: How to make them go away for good" height="428" width="370"></span></noscript></figure></div>
+
+		<div class="content-overlay">
+			<div class="overlay-bg"></div>
+
+			<div class="content">
+				<div class="type">Article</div>
+				<h3 class="title"><a href="/article/six-windows-10-annoyances-how-to-make-them-go-away-for-good/">Six Windows 10 annoyances: How to make them go away for good</a></h3>
+
+							</div>
+		</div>
+
+	</section><h2 class="heading">
+		<span class="int">Security</span>
+	</h2>
+
+<section class="multi-topic-module"><ul><li>
+                <a href="/article/homeland-security-warns-of-hackers-exploiting-sap-security-flaw/">
+                                <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/11/7691eca8-b63a-486e-8c47-bfdffda621f4/thumbnail/170x128/0a75b7499524d704b8c9a8f8463676a7/us-homeland-sec.jpg" class="" alt="us-homeland-sec.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/homeland-security-warns-of-hackers-exploiting-sap-security-flaw/">
+                        Homeland Security warns of hackers exploiting SAP security flaw
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/why-yahoo-mail-is-now-blacklisted-by-congress/">
+                                <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/11/04a45fe2-4314-4583-9314-6b27b3c3920a/thumbnail/170x128/c1d19469be971ed622b82e134cc6fca9/new-locker-crypto-repents-imagecredsymantec.jpg" class="" alt="new-locker-crypto-repents-imagecredsymantec.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/why-yahoo-mail-is-now-blacklisted-by-congress/">
+                        Why Yahoo Mail is now blacklisted by Congress
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/adobe-readies-patch-for-flash-player-exploit-being-exploited-in-the-wild/">
+                                <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/11/d1b8cb3b-0081-41db-bf5b-e2bc9931e2d6/thumbnail/170x128/01fa57c09a8efc274c2d9dda97a4c6ee/zero-day-new010credsymantec.jpg" class="" alt="zero-day-new010credsymantec.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/adobe-readies-patch-for-flash-player-exploit-being-exploited-in-the-wild/">
+                        Adobe readies patch for Flash Player zero-day exploit found in attacker toolkits
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/south-korea-victim-of-internet-explorer-zero-day-vulnerability/">
+                                <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2015/08/14/bff4ede1-298c-4b95-bb45-1b7b011806be/thumbnail/170x128/ad9127530bfe95d418ae05fc4698a6b9/cloud-security.jpg" class="" alt="Zero Day Weekly" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/south-korea-victim-of-internet-explorer-zero-day-vulnerability/">
+                        ​South Korea victim of Internet Explorer zero-day vulnerability
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/bureau-of-meteorology-attack-was-economically-targeted-frost-sullivan/">
+                                <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2015/04/05/e7362973-4d69-43c0-8287-eb1199d7b2c4/thumbnail/170x128/445ecf94b1082c26354bdc8e8274b969/security-information-superhighway.jpg" class="" alt="security-information-superhighway.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/bureau-of-meteorology-attack-was-economically-targeted-frost-sullivan/">
+                        ​Bureau of Meteorology attack was economically targeted: Frost &amp; Sullivan
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/xonet-wireless-gateway-blocks-ads-for-any-connecting-user/">
+                                <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/05/10/06aeee91-d008-4ba4-912e-086a766457cd/thumbnail/170x128/70ec94bb3302a608f1bff66bf2b533da/image01.jpg" class="" alt="image01.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/xonet-wireless-gateway-blocks-ads-for-any-connecting-user/">
+                        This $70 wireless gateway now blocks ads for anyone who connects to it
+                    </a>
+                </div>
+            </li>
+            </ul><div class="topic-link">
+        <a href="/topic/security/">
+            More from Security
+        </a>
+    </div>
+
+</section><section class="mpu"><div id="mpu-middle-573343fc56cbf" class="ad-mpu-middle" data-ad="mpu-middle">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-middle-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-middle-573343fc56cbf");
+    </script></div>
+
+    </section><section class="single-topic-module" data-component="lazyloadImages"><div class="bg-image">
+			                <figure class=" img"><span class="img "><img src="" class="lazy" alt="How to really erase any drive -- even SSDs -- in 2016" height="428" width="370" data-original="http://zdnet3.cbsistatic.com/hub/i/r/2016/01/21/87c285c3-6653-44e1-93af-f3da8d06b4c4/thumbnail/370x428/d64192c5dd0ad9eb6c9b9dc2facbe542/erase-a-hard-drive.gif"></span><noscript><span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/01/21/87c285c3-6653-44e1-93af-f3da8d06b4c4/thumbnail/370x428/d64192c5dd0ad9eb6c9b9dc2facbe542/erase-a-hard-drive.gif" class="" alt="How to really erase any drive -- even SSDs -- in 2016" height="428" width="370"></span></noscript></figure></div>
+
+		<div class="content-overlay">
+			<div class="overlay-bg"></div>
+
+			<div class="content">
+				<div class="type">Article</div>
+				<h3 class="title"><a href="/article/how-to-really-erase-any-drive-even-ssds-in-2016/">How to really erase any drive -- even SSDs -- in 2016</a></h3>
+
+							</div>
+		</div>
+
+	</section><h2 class="heading">
+		<span class="int">Enterprise Software</span>
+	</h2>
+
+<section class="multi-topic-module"><ul><li>
+                <a href="/article/docker-gains-enterprise-devops-traction/">
+                                <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/10/41062920-3d23-49b6-b7dc-ffd7dc580071/thumbnail/170x128/0d4123339a40d87a4360978100c1e7f8/rightscale-containers-1.jpg" class="" alt="rightscale-containers-1.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/docker-gains-enterprise-devops-traction/">
+                        Docker gains enterprise DevOps traction
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/windows-10-tip-look-up-your-ip-address/">
+                                <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2016/03/23/6f17beb1-df42-451f-a000-6c12f5b8034b/thumbnail/170x128/0b011118553066cb48d7edf0e1c22d34/hello-windows-10-small.jpg" class="" alt="hello-windows-10-small.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/windows-10-tip-look-up-your-ip-address/">
+                        Windows 10 tip: Look up your IP address quickly
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/optus-launches-mobile-pos-retail-system/">
+                                <span class="img "><img src="http://zdnet1.cbsistatic.com/hub/i/r/2016/02/08/a88e7c81-ae97-44d1-9113-982ce9f034d1/thumbnail/170x128/0097ec2aa8be8312accf81dc694c67a9/optus.jpg" class="" alt="optus.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/optus-launches-mobile-pos-retail-system/">
+                        Optus launches mobile POS retail system
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/fedora-24-beta-is-out-and-ready-to-take-you-to-linuxs-future/">
+                                <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/10/0f7c1eec-7260-4ba9-b1c8-644a06ff6fba/thumbnail/170x128/4cc47942f2de1f6d11405b8e1760e3b2/fedora-downloads.jpg" class="" alt="Fedora Downloads" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/fedora-24-beta-is-out-and-ready-to-take-you-to-linuxs-future/">
+                        Fedora 24 Beta is out and ready to take you to Linux's future
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/nuance-posts-flat-revenues-year-over-year-in-second-quarter-of-fiscal-2016/">
+                                <span class="img "><img src="http://zdnet4.cbsistatic.com/hub/i/r/2014/10/05/e588ab69-4c8a-11e4-b6a0-d4ae52e95e57/thumbnail/170x128/d92f6671271e34d483be00bfd2df13b6/nuance-logo-325px.jpg" class="" alt="nuance-logo-325px.jpg" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/nuance-posts-flat-revenues-year-over-year-in-second-quarter-of-fiscal-2016/">
+                        Nuance posts flat revenues, year over year, in second quarter of fiscal 2016
+                    </a>
+                </div>
+            </li>
+        
+                                        
+            
+            <li>
+                <a href="/article/slack-intros-sign-in-with-slack-to-streamline-app-logins/">
+                                <span class="img "><img src="http://zdnet3.cbsistatic.com/hub/i/r/2016/05/10/6f9e9730-1f90-4ab2-a6f9-95a43b0558fa/thumbnail/170x128/dc6d98bc509a231bd5fee3bd9f7df42d/sign-in-with-slack.png" class="" alt="sign-in-with-slack.png" height="128" width="170"></span>
+    
+                </a>
+                <div class="content">
+                    <a href="/article/slack-intros-sign-in-with-slack-to-streamline-app-logins/">
+                        Slack intros 'Sign in with Slack' to streamline app logins
+                    </a>
+                </div>
+            </li>
+            </ul><div class="topic-link">
+        <a href="/topic/enterprise-software/">
+            More from Enterprise Software
+        </a>
+    </div>
+
+</section><section class="mpu scrolling-mpu"><div id="mpu-bottom-573343fc56cbf" class="ad-mpu-bottom" data-ad="mpu-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-573343fc56cbf");
+    </script></div>
+
+    </section></div>
+                                </div>
+                        </div>
+            </div>
+                <div class="row">
+        <div class="col-12">
+                                                    
+                                                        
+                                            			
+    <div id="uid-1262441302" data-component="medusaAsync" data-medusa-async-options='{"url":"\/medusa\/xhr\/horizontal\/","data":{"promo":2149,"count":4},"template":"horizontal"}'>
+    </div>
+
+	                                                                    </div>
+            </div>
+                                </div>
+                        </div>
+            </div>
+    </div>
+
+
+                                                <section class="leader leader-bottom"><div id="leader-plus-bottom-573343fc56cbf" class="ad-leader-plus-bottom" data-ad="leader-plus-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-bottom-573343fc56cbf for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-bottom-573343fc56cbf");
+    </script></div>
+
+    </section></div>
+            </div>
+
+    
+    </div>
+
+            
+<footer role="contentinfo" class="footer-main"><div class="container">
+        <div class="row">
+            <div class="col-6 siteHighlights">
+                <a id="zd-logo" href="/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-Logo"}'>ZDNet</a>
+                <div class="connect">
+                    <div class="connectSocial">Connect with us</div>
+                    <div class="networkWrapper">
+                        <a target="_blank" href="https://www.facebook.com/pages/ZDNet/5953112932" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-ConnectWithZDNet"}'>
+                            <span class="circle facebook">
+                                <i class="fa fa-lg fa-facebook">Facebook</i>
+                            </span>
+                        </a>
+
+                        <a target="_blank" href="http://twitter.com/zdnet" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-ConnectWithZDNet"}'>
+                            <span class="circle twitter">
+                                <i class="fa fa-lg fa-twitter">Twitter</i>
+                            </span>
+                        </a>
+
+                        <a target="_blank" href="https://www.linkedin.com/company/zdnet-com" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-ConnectWithZDNet"}'>
+                            <span class="circle">
+                                <i class="fa fa-lg fa-linkedin">LinkedIn</i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyright">© 2016 CBS Interactive. All rights reserved. <a href="http://legalterms.cbsinteractive.com/privacy" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-CopyrightLinks"}' rel="nofollow" target="_blank">Privacy Policy</a> | <a href="http://legalterms.cbsinteractive.com/cookies" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-CopyrightLinks"}' rel="nofollow" target="_blank">Cookies</a> | <a href="http://legalterms.cbsinteractive.com/adchoice" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-CopyrightLinks"}' rel="nofollow" target="_blank">Ad Choice</a> |  <a href="/advertise/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-CopyrightLinks"}' rel="nofollow" target="_blank" data-vanity-rewritten="true">Advertise</a> | <a href="http://legalterms.cbsinteractive.com/terms-of-use" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-CopyrightLinks"}' rel="nofollow" target="_blank">Terms of Use</a> | <a href="http://legalterms.cbsinteractive.com/eula" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-CopyrightLinks"}' rel="nofollow" target="_blank">Mobile User Agreement</a></p>
+
+                <div class="networkSites">
+                    <form data-component="footerSites">
+                        <label for="siteTarget">Visit other CBS Interactive sites:</label>
+                        <select id="siteTarget" name="target"><option selected value="">Select Site</option><option value="http://www.cbs.com/cbs_cares/">CBS Cares</option><option value="http://www.cbsfilms.com">CBS Films</option><option value="http://www.cbsradio.com">CBS Radio</option><option value="http://www.cbs.com">CBS.com</option><option value="http://www.cbsinteractive.com">CBSInteractive</option><option value="http://www.cbsnews.com">CBSNews.com</option><option value="http://www.cbssports.com">CBSSports.com</option><option value="http://www.chowhound.com">Chowhound</option><option value="http://www.cnet.com">CNET</option><option value="http://www.cbsiam.com/">College Networks</option><option value="http://www.gamespot.com">GameSpot</option><option value="http://www.last.fm">Last.fm</option><option value="http://www.maxpreps.com">MaxPreps</option><option value="http://www.metacritic.com">Metacritic.com</option><option value="http://www.cbsnews.com/moneywatch/">Moneywatch</option><option value="http://www.mysimon.com">mySimon</option><option value="http://www.radio.com">Radio.com</option><option value="http://www.search.com">Search.com</option><option value="http://www.shopper.com">Shopper.com</option><option value="http://www.sho.com">Showtime</option><option value="http://www.smartplanet.com">SmartPlanet</option><option value="http://www.techrepublic.com">TechRepublic</option><option value="http://theinsider.etonline.com/">The Insider</option><option value="http://www.tv.com">TV.com</option><option value="http://www.urbanbaby.com">UrbanBaby.com</option><option value="http://www.zdnet.com">ZDNet</option></select></form>
+                </div>
+            </div>
+
+                        <div class="col-2 alpha">
+                <ul><li><a href="/topic/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}'>Topics</a></li>
+                    <li><a href="/blog/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}'>All Authors</a></li>
+                    <li><a href="/pictures/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}'>Galleries</a></li>
+                    <li><a href="/video/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}'>Videos</a></li>
+                </ul></div>
+
+                        <div class="col-2 beta">
+                <ul><li><a href="/about/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}' data-vanity-rewritten="true">About ZDNet</a></li>
+                    <li><a href="/meet-the-team/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}' data-vanity-rewritten="true">Meet The Team</a></li>
+                    <li><a href="/sitemap/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}' data-vanity-rewritten="true">Site Map</a></li>
+                    <li><a href="/rssfeeds/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}' data-vanity-rewritten="true">RSS Feeds</a></li>
+                    <li><a href="/reprints/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "footer-links"}' data-vanity-rewritten="true">Reprint Policy</a></li>
+                </ul></div>
+
+                        <div class="col-2 gamma">
+                <ul><li class="loggedIn"><a href="https://secure.zdnet.com/members/edit-profile/" rel="nofollow">Manage</a> | <a href="http://www.zdnet.com/user/logout/" rel="nofollow" data-member="submitLogOut" data-user-action="logout" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "trackLogout"}'>Log Out</a></li>
+
+                    <li class="loggedOut">
+                        <a href="https://secure.zdnet.com/user/login/?appId=1101" rel="nofollow" data-user-show='{"action":"login","params":{"appId":1101,"position":"Footer"}}'>Log In to ZDNET</a>
+                        |
+                        <a href="https://secure.zdnet.com/user/registration/?appId=1101" rel="nofollow" data-user-show='{"action":"register","params":{"appId":1101,"position":"Footer"}}'>Join ZDNet</a>
+                    </li>
+
+                    <li><a href="https://secure.zdnet.com/members/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-Services"}' rel="nofollow">Membership</a></li>
+                    <li><a href="/newsletters/" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-Services"}' data-vanity-rewritten="true">Newsletters</a></li>
+                    <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome?referer=zdnet.com" data-omniture-track="moduleClick" data-omniture-track-data='{"moduleInfo": "Footer-Services"}'>Site Assistance</a></li>
+                </ul></div>
+        </div>
+    </div>
+</footer><script>
+	// Source: https://gist.github.com/jcxplorer/823878/
+	// Licence: Public Domain
+	function UUIDv4 (){var b="",a,c;for(a=0;32>a;a++){c=16*Math.random()|0;if(8==a||12==a||16==a||20==a)b+="-";b+=(12==a?4:16==a?c&3|8:c).toString(16)}return b};
+
+	var __tealium_data_guid = UUIDv4(),
+		utag_data = {"isEnabled":true,"articleId":"9ca77949-b94e-4ce9-929a-83f2d175b954","articlePubDate":"2015-03-19 16:05:43","articleType":"content_feature","deviceType":"desktop","isDev":"0","pageType":"front_door","siteHier":["misc"],"siteSection":"home","siteType":"responsive web","topicId":["8bb86cbe-38b9-4681-a46a-d2fa74a994cd"],"topicName":["misc"],"siteId":2,"bkSiteId":3330,"limit":4,"rsid":"cnetzdnetglobalsite","siteName":"zdnet","tealium":{"profile":"zdnet","env":"prod"}};
+    	utag_data.pageViewGuid = __tealium_data_guid;
+</script><script data-main="http://zdnet3.cbsistatic.com/fly/587-fly/js/main.default.js" src="http://zdnet2.cbsistatic.com/fly/js/libs/require-2.1.2.js"></script><script src="//cdn.optimizely.com/js/328981956.js"></script><script type="application/ld+json">
+{
+   "@context": "http://schema.org",
+   "@type": "WebSite",
+   "url": "http://www.zdnet.com/",
+   "potentialAction": {
+     "@type": "SearchAction",
+     "target": "http://www.zdnet.com/search?q={search_term_string}",
+     "query-input": "required name=search_term_string"
+   }
+}
+</script></body></html>

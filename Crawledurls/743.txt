@@ -1,0 +1,2069 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#">
+    <head >
+        <!-- Fly Version: 467-fly -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="en" http-equiv="Content-Language">
+
+
+
+                    
+    <title>News, Tips, and Advice for Technology Professionals - TechRepublic</title>
+
+        <meta name="description" content="Providing IT professionals with a unique blend of original content, peer-to-peer advice from the largest community of IT leaders on the Web.">
+
+
+
+
+    <link rel="canonical" href="http://www.techrepublic.com/">
+
+
+
+
+
+
+<meta property="og:site_name" content="TechRepublic">
+<meta property="og:type" content="website">
+
+    <meta property="og:url" content="http://www.techrepublic.com/">
+
+    <meta property="og:title" content="News, Tips, and Advice for Technology Professionals - TechRepublic">
+
+    <meta property="og:description" content="Providing IT professionals with a unique blend of original content, peer-to-peer advice from the largest community of IT leaders on the Web.">
+
+    <meta property="og:image" content="http://tr2.cbsistatic.com/fly/bundles/techrepubliccore/images/tr-logo-large.png">
+
+
+<meta name="twitter:site" content="@TechRepublic" >
+<meta name="twitter:creator" content="@TechRepublic" >
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:url" content="http://www.techrepublic.com/">
+
+    <meta name="twitter:title" content="News, Tips, and Advice for Technology Professionals - TechRepublic" >
+
+    <meta name="twitter:description" content="Providing IT professionals with a unique blend of original content, peer-to-peer advice from the largest community of IT leaders on the Web.">
+
+    <meta name="twitter:image" content="http://tr2.cbsistatic.com/fly/bundles/techrepubliccore/images/tr-logo-large.png">
+
+<meta name="p:domain_verify" content="a2d193b8d798bc4ea775867263726496"/>
+<meta name="msapplication-config" content="/bundles/techrepubliccore/browserconfig.xml">
+<meta name="apple-itunes-app" content="app-id=426493569">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        
+                    <link rel="shortcut icon" type="image/x-icon" href="http://tr3.cbsistatic.com/fly/bundles/techrepubliccore/favicon.ico">
+            <link rel="icon" sizes="192x192" href="http://tr1.cbsistatic.com/fly/bundles/techrepubliccore/logo-192x192.png">
+            <meta name="theme-color" content="#3289C8">
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://tr2.cbsistatic.com/fly/bundles/techrepubliccore/apple-touch-icon-144x144-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://tr2.cbsistatic.com/fly/bundles/techrepubliccore/apple-touch-icon-114x114-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://tr2.cbsistatic.com/fly/bundles/techrepubliccore/apple-touch-icon-72x72-precomposed.png">
+            <link rel="apple-touch-icon-precomposed" href="http://tr1.cbsistatic.com/fly/bundles/techrepubliccore/apple-touch-icon-precomposed.png">
+        
+                    <link rel="stylesheet" href="http://tr2.cbsistatic.com/fly/css/main-0bc1c8ea2a-rev.css">
+            <link rel="stylesheet" href="http://tr3.cbsistatic.com/fly/css/main.misc-e1012c6689-rev.css">
+
+
+            <!--[if (lt IE 9)&(!IEMobile)]>
+            <link rel="stylesheet" href="http://tr4.cbsistatic.com/fly/css/main.tablet-a5c1445e99-rev.css" media="screen">
+            <link rel="stylesheet" href="http://tr3.cbsistatic.com/fly/css/main.desktop-dda1a325a3-rev.css" media="screen">
+            <![endif]-->
+
+                            <link rel="stylesheet" href="http://tr4.cbsistatic.com/fly/css/main.tablet.regrid-d538561f3b-rev.css" media="screen and (min-width:980px)" />
+                <link rel="stylesheet" href="http://tr2.cbsistatic.com/fly/css/main.desktop.regrid-962b6c262f-rev.css" media="screen and (min-width:1230px)" />
+            
+            <link rel="stylesheet" href="http://tr1.cbsistatic.com/fly/css/print-25ce043052-rev.css" media="print">
+
+            <!--[if lte IE 9]>
+            <link rel="stylesheet" href="http://tr4.cbsistatic.com/fly/css/ie9-below-ae55da1485-rev.css" media="screen">
+            <![endif]-->
+        
+                                
+<script src="http://tr2.cbsistatic.com/fly/bundles/flyjs/js/libs/guid-1.0.js"></script>
+<script type="text/javascript">
+    var __tealium_data_guid = null;
+    if (typeof window.uuid.v1 === 'function'){
+        __tealium_data_guid=window.uuid.v1();
+    }
+
+    var _utag_obj={"isEnabled":true,"articlePubDate":"2016-03-03 14:20:57","deviceType":"desktop","isDev":"0","pageType":"front_door","siteEdition":"us","siteHier":["no-map-do-not-use"],"siteSection":"home","siteType":"responsive web","topicId":["501efef2-9107-11e2-b06b-024c619f5c3d"],"topicName":["no-map-do-not-use"],"siteId":11,"bkSiteId":3330,"limit":4,"soastaPageType":"front_door","rsid":"cbsitechrepublicsite","siteName":"techrepublic","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"techrepublic","env":"prod"}};    
+    _utag_obj.pageViewGuid=__tealium_data_guid;
+    var utag_data=_utag_obj;
+</script>
+            
+<script type="text/javascript">
+    window.trPageVars = {
+        ads: {
+            enabled: true,
+            data: {"gpt":{"targeting":{"device":"desktop","ptype":"front_door","cid":"front-door","env":"prod"},"adConfig":{"network":{"dev":7336,"qa":8264,"ci":8264,"test":8264,"staging":8264,"prod":8264},"method":"async-inline","regions":[{"region":"uk","countries":["gb","ie","za","bh","kw","om","qa","sa","ae","iq","eg","it","de","fr","nl","be"]},{"region":"au","countries":["au","nz"]},{"region":"asia","countries":["sg","my","th","id","ph","hk","vn","in","tw"]}],"adUnits":{"intromercial":{"outOfPage":true},"skin":{"sizes":[[1600,1000]],"position":"top"},"multiplexer":{"sizes":[460,170],"collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"ticker":{"sizes":[980,45],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,250],[300,600],[300,1050]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"marqueeTop":{"sizes":[300,60],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderPlusTop":{"sizes":[[728,90],[970,66],[970,250],[970,150]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true,"eventCallbacks":{"slotRenderEnded":"leaderboardTopCallback"}},"leaderTop":{"sizes":[[728,90],[970,66]],"position":"bottom","eventCallbacks":{"slotRenderEnded":"leaderboardTopCallback"}},"buttonTop":{"sizes":[[88,31]],"position":"top"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"vendorTextLink":{"sizes":[300,450],"position":"top"},"inpageVideoTop":{"sizes":[641,321],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sharethroughTop":{"sizes":[11,11],"position":"top"},"dynamicShowcaseTop":{"sizes":[[371,771]],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"sponsorLogo":{"sizes":[150,50],"position":"top","collapseEmptyDiv":true,"collapseEmptyDivOnPageload":true},"incontentAd":{"sizes":[[321,31]],"position":"top"}},"mobile":{"adUnits":{"hpto":{"outOfPage":true},"mobileBannerTop":{"sizes":[[320,50]],"position":"increment"},"mobileBannerMpuHptoOverlay":{"outOfPage":true},"mobileMpuBottom":{"sizes":[300,250]},"mobileBanner":{"sizes":[[320,50]],"position":"increment"},"mobileBannerPlus":{"sizes":[[300,250],[320,50]],"position":"increment"},"sharethroughTop":{"sizes":[11,11],"position":"top"},"incontentAd":{"sizes":[[321,31]],"position":"top"}}},"tablet":{"adUnits":{"intromercial":{"outOfPage":true},"multiplexer":{"sizes":[460,170]},"resourceCenterTop":{"sizes":[[300,300]],"position":"top"},"resourceCenterBottom":{"sizes":[[632,160]],"position":"bottom"},"mpuPlusTop":{"sizes":[[300,600],[300,250],[300,1050]],"position":"top"},"marqueeTop":{"sizes":[[234,60]],"position":"top"},"mpuTop":{"sizes":[[300,250],[300,600]],"position":"top"},"mpuBottom":{"sizes":[[300,250]],"position":"bottom"},"leaderTop":{"sizes":[728,90],"position":"bottom"},"leaderPlusTop":{"sizes":[728,90],"position":"top"},"mpuMiddle":{"sizes":[[300,250]],"position":"middle"},"sharethroughTop":{"sizes":[11,11],"position":"top"},"incontentAd":{"sizes":[[321,31]],"position":"top"}}},"siteName":"techrepublic","collapseEmptyDiv":false,"setRefreshUnfilledSlots":true,"setClearUnfilledSlots":false,"disableInitialLoad":false,"disableInitialLoadCompanions":false,"enableSingleRequest":true,"enableAsyncRendering":true,"defaultRegion":"aw","adOrder":["intromercial","skin","ticker","leader_plus_top","marquee_top","vendor_text_link","mpu_plus_top","mpu_middle","mpu_bottom","leader_top","incontent_ad"]},"containerId":"5733479172518","slotVars":{"network":"8264","siteName":"techrepublic","collapseEmptyDiv":"","topics":"home","platform":"desktop"},"adType":"gpt","adDivIds":["multiplexer-5733479172518","mpu-plus-top-5733479172518","mpu-middle-5733479172518","mpu-bottom-5733479172518","ticker-5733479172518","intromercial-5733479172518","skin-5733479172518","leader-plus-top-5733479172518","leader-top-5733479172518"]},"cookieName":"techrepublic_ad","cookieServicePath":"\/ad\/ad-cookie\/","session":8,"subSession":6,"useFirstPageTargeting":true}
+        },
+        tracking: {
+            enabled: true,
+            data: {"isEnabled":true,"articlePubDate":"2016-03-03 14:20:57","deviceType":"desktop","isDev":"0","pageType":"front_door","siteEdition":"us","siteHier":["no-map-do-not-use"],"siteSection":"home","siteType":"responsive web","topicId":["501efef2-9107-11e2-b06b-024c619f5c3d"],"topicName":["no-map-do-not-use"],"siteId":11,"bkSiteId":3330,"limit":4,"soastaPageType":"front_door","rsid":"cbsitechrepublicsite","siteName":"techrepublic","demographicKeys":["jobFunction","jobCategory","industry","computerProficiency","companySize","gender","ageGroup","country"],"tealium":{"profile":"techrepublic","env":"prod"}}
+        },
+        user: {
+            baseUrl: 'https://secure.techrepublic.com',
+            siloId: 3
+        },
+        'imgRes': {"breakpoint":620,"cookieName":"fly_img","breakpointOptions":null,"pixelRatio":1,"pixelRatioOptions":[1]},
+        'socialAuth': {'appId': '27006', 'environment': 'DEV'},
+        'isIframe': false,
+        'environment': 'prod',
+        'build': true
+    };
+</script>            
+<!-- Start of Soasta mPulse Script -->
+<script>
+(function(){
+  if(window.BOOMR && window.BOOMR.version){return;}
+  var dom,doc,where,iframe = document.createElement('iframe');
+  iframe.src = "javascript:false";
+  iframe.title = ""; iframe.role="presentation";
+  (iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display:none;";
+  where = document.getElementsByTagName('script')[0];
+  where.parentNode.insertBefore(iframe, where);
+ 
+  try {
+    doc = iframe.contentWindow.document;
+  } catch(e) {
+    dom = document.domain;
+    iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";
+    doc = iframe.contentWindow.document;
+  }
+  doc.open()._l = function() {
+    var js = this.createElement("script");
+    if(dom) this.domain = dom;
+    js.id = "boomr-if-as";
+    js.src = '//c.go-mpulse.net/boomerang/' +
+    '5VS23-BHL36-JUED4-78U6Z-ZT97H';
+    BOOMR_lstart=new Date().getTime();
+    this.body.appendChild(js);
+  };
+  doc.write('<body onload="document._l();">');
+  doc.close();
+})();
+</script>
+<!-- End of Soasta mPulse Script -->            <!--[if lt IE 9]>
+            <script src="http://tr3.cbsistatic.com/fly/bundles/techrepubliccore/js/libs/html5shiv.js"></script>
+            <![endif]-->
+            
+                  <script type="text/javascript">
+                    var w=window;
+                    if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"224636",ustr:"cs",originlat:0,clientrtt:52,ghostip:"104.91.166.79",
+                    ipv6:false,pct:10,clientip:"47.32.227.78",requestid:"4b69306b",protocol:"",blver:6,akM:"b",akN:"",akTT:"O",akTX:"1",akTI:"4b69306b",ai:"137476",re:"false"};(function(a){var b=d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-
+                    1];a.parentNode.insertBefore(b,a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                  </script>
+                  </head>
+
+    <body
+                            >
+        
+                                    
+<header class="page-header">
+    <div  class="fixation" data-component='stickyElement'  >
+        	<div class="omnibar-social-links">
+		Connect with us:
+		<a href="https://www.facebook.com/TechRepublic" target="_blank" rel="noopener noreferrer">
+			<i class="fa fa-lg fa-facebook"></i>
+		</a>
+		<a href="https://twitter.com/techrepublic" target="_blank" rel="noopener noreferrer">
+			<i class="fa fa-lg fa-twitter"></i>
+		</a>
+		<a href="https://www.linkedin.com/company/3212040" target="_blank" rel="noopener noreferrer">
+			<i class="fa fa-lg fa-linkedin"></i>
+		</a>
+	</div>
+    <div id="ticker-5733479172518" class="ad-ticker" data-ad="ticker">
+    <script>
+        window.console && console.log && console.log("ADS: queuing ticker-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("ticker-5733479172518");
+    </script>
+</div>
+
+        <div class="masthead">
+            <div class="container">
+                <div class="logo-large">
+                    <div class="site-logo">
+                        <a href="/" class="nav-logo"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-logo"}'
+    ><span class="header-logo">TechRepublic</span></a>
+                    </div>
+                </div>
+
+                <div class="search-large">
+                    <form class="site-search" name="site-search" action="/search/" data-component='headerSearch' >
+                        <fieldset>
+                            <legend>Search</legend>
+                            <input name="q" placeholder="Search TechRepublic" type="text" title="Search TechRepublic" value="" class="search-expand">
+                            <button class="header-search" type="submit"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-search"}'
+    >Search</button>
+                        </fieldset>
+                    </form>
+                </div>
+
+                
+
+<nav class="primaryNav" data-component='headerNav' >
+    <ul class="navList">
+                
+                    
+                                    
+                                    
+                
+                                    <li class="alpha">
+            <a href="/topic/cxo/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                CXO
+            </a>
+        </li>
+    
+                    
+                                    
+                                    
+                
+                                    <li class="beta">
+            <a href="/topic/innovation/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Innovation
+            </a>
+        </li>
+    
+                    
+                                    
+                                    
+                
+                                    <li class="gamma">
+            <a href="/topic/cloud/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Cloud
+            </a>
+        </li>
+    
+                    
+                                    
+                                    
+                
+                                    <li class="delta">
+            <a href="/topic/security/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Security
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/big-data/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Big Data
+            </a>
+        </li>
+    
+                    
+                                    
+                                    
+                                            <li class='hasDrop'><a class='arrow moreText'>More</a>
+            <ul class='menu-topics'>
+    
+        
+                                    <li class="alphaDrop">
+            <a href="/topic/start-ups/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Startups
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/data-centers/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Data Centers
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/networking/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Networking
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/software/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Software
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/tech-and-work/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Tech &amp; Work
+            </a>
+        </li>
+    
+    
+                    <li class="arrow seeAll">
+            <a href="/topic/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                All Topics
+            </a>
+        </li>
+    
+
+<li class="sectionList">Sections:</li>
+                                <li class="">
+            <a href="/pictures/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Photos
+            </a>
+        </li>
+    
+                                <li class="">
+            <a href="/videos/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Videos
+            </a>
+        </li>
+    
+                                <li class="">
+            <a href="/blog/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                All Writers
+            </a>
+        </li>
+    
+    
+<li class="sectionLinksMore">
+    <ul>
+        <li><a href="/newsletters/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-newsletters"}'
+    >Newsletters</a></li>
+        <li><a href="/forums/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-forums"}'
+    >Forums</a></li>
+        <li><a href="/resource-library/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-resource-library"}'
+    >Resource Library</a></li>
+        <li class="tprHeaderLink"><a href="http://www.techproresearch.com/?ftag=tipdbb505e"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-techpro"}'
+    >Tech Pro Free Trial</a></li>
+    </ul>
+</li>
+
+<li class="editionList">Editions: <span>US</span>
+    <ul data-component='editions' >
+        <li><a data-edition-set="au"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >Australia</a></li>
+        <li><a data-edition-set="uk"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >United Kingdom</a></li>
+        <li><a data-edition-set="us"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >United States</a></li>
+        <li><a href="https://japan.techrepublic.com/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >Japan</a></li>
+    </ul>
+</li>
+
+    </ul></li>
+
+
+
+
+                <li class="sectionLinks">
+            <ul>
+                <li><a href="/newsletters/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-newsletters"}'
+    >Newsletters</a></li>
+                <li><a href="/forums/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-forums"}'
+    >Forums</a></li>
+                <li><a href="/resource-library/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-resource-library"}'
+    >Resource Library</a></li>
+                <li class="tprHeaderLink"><a href="http://www.techproresearch.com/?ftag=tipdbb505e"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-techpro"}'
+    >Tech Pro Free Trial</a></li>
+            </ul>
+        </li>
+
+                <li class="headerLogin">
+            <div id="site-member" data-component="dropdown" class="dropdown">
+                <div data-user-view="loggedOut">
+                    <a href="https://secure.techrepublic.com/user/login/?appId=309&amp;redirectUrl=http%3A%2F%2Fwww.techrepublic.com%2F" data-user-show-params='{"appId":309,"regSource":"header-login"}' class="nav-button"><span class="header-member">Membership</span></a>
+                </div>
+
+                <div data-user-view="loggedIn">
+                    <a class="nav-button" data-item="trigger">
+                        <span class="header-member-logged-in">Membership</span>
+                    </a>
+                    <div class="dropdown-content dropdown-menu logged-in">
+                        <div class="member-profile">
+                            <a href="/members/profile/" class="avatar">
+                                <img data-user-var="gravatarUrl" alt="Gravatar" data-user-var-attr="src" src="http://tr3.cbsistatic.com/fly/bundles/techrepubliccore/images/icons/standard/icon-user-default.png" width="60" height="60" />
+                            </a>
+                            <p class="member-name" data-user-var="userName"></p>
+                            <a href="/members/profile/">My Profile</a>
+                        </div>
+                        <nav class="member-nav">
+                            <ul>
+                                <li><a href="/members/contacts/">People</a></li>
+                                <li><a href="/newsletters/">Subscriptions</a></li>
+                                <li><a href="/members/discussions/">My stuff</a></li>
+                                <li><a href="/members/preferences/">Preferences</a></li>
+                                <li><a href="/members/message/">Send a message</a></li>
+                                <li><a href="/user/logout/" data-omniture-track="trackLogout">Log Out</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+        
+<ul class="navListMobile">
+    <li class="logo-small">
+        <div class="site-logo"><a href="/" class="nav-logo"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-logo"}'
+    ><span class="header-logo">TechRepublic</span></a></div>
+    </li>
+    <li data-component="dropdown" class="mobile-dropdown">
+        <a data-item="trigger" class="icon search-icon"></a>
+                <ul class="dropDown">
+            <li>
+                <div class="search-small">
+                    <form class="site-search" name="site-search" action="/search/" data-component='headerSearch' >
+                        <fieldset>
+                            <legend>Search</legend>
+                            <input name="q" title="Search TechRepublic" placeholder="Search TechRepublic" type="text" value="" class="search-expand">
+                            <button class="header-search" type="submit"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-search"}'
+    >Search</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <li data-component="dropdown" class="mobile-dropdown">
+        <a data-item="trigger" class="icon menu-icon"></a>
+                <ul class="dropDown mobileLinks">
+            
+    <ul class="mobileTopicLinks">
+        <li class="topicList">Topics:</li>
+                    
+                                    
+                                    
+                
+                                    <li class="alpha">
+            <a href="/topic/cxo/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                CXO
+            </a>
+        </li>
+    
+                    
+                                    
+                                    
+                
+                                    <li class="beta">
+            <a href="/topic/innovation/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Innovation
+            </a>
+        </li>
+    
+                    
+                                    
+                                    
+                
+                                    <li class="gamma">
+            <a href="/topic/cloud/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Cloud
+            </a>
+        </li>
+    
+                    
+                                    
+                                    
+                
+                                    <li class="delta">
+            <a href="/topic/security/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Security
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/big-data/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-topicnav"}'
+     >
+                Big Data
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                                    
+        
+                                    <li class="">
+            <a href="/topic/start-ups/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Startups
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/data-centers/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Data Centers
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/networking/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Networking
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/software/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Software
+            </a>
+        </li>
+    
+                    
+                
+                                    
+                
+                                    <li class="">
+            <a href="/topic/tech-and-work/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Tech &amp; Work
+            </a>
+        </li>
+    
+    
+                    <li class="arrow seeAll">
+            <a href="/topic/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                All Topics
+            </a>
+        </li>
+    
+    </ul>
+
+<li class="sectionList">Sections:</li>
+                                <li class="">
+            <a href="/pictures/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Photos
+            </a>
+        </li>
+    
+                                <li class="">
+            <a href="/videos/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                Videos
+            </a>
+        </li>
+    
+                                <li class="">
+            <a href="/blog/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-moremenu"}'
+     >
+                All Writers
+            </a>
+        </li>
+    
+    
+<li class="sectionLinksMore">
+    <ul>
+        <li><a href="/newsletters/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-newsletters"}'
+    >Newsletters</a></li>
+        <li><a href="/forums/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-forums"}'
+    >Forums</a></li>
+        <li><a href="/resource-library/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-resource-library"}'
+    >Resource Library</a></li>
+        <li class="tprHeaderLink"><a href="http://www.techproresearch.com/?ftag=tipdbb505e"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-techpro"}'
+    >Tech Pro Free Trial</a></li>
+    </ul>
+</li>
+
+<li class="editionList">Editions: <span>US</span>
+    <ul data-component='editions' >
+        <li><a data-edition-set="au"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >Australia</a></li>
+        <li><a data-edition-set="uk"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >United Kingdom</a></li>
+        <li><a data-edition-set="us"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >United States</a></li>
+        <li><a href="https://japan.techrepublic.com/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "header-edition"}'
+    >Japan</a></li>
+    </ul>
+</li>
+
+
+
+
+        </ul>
+    </li>
+    <li data-component="dropdown" class="mobile-dropdown">
+        <a href="https://secure.techrepublic.com/user/login/?appId=309&amp;redirectUrl=http%3A%2F%2Fwww.techrepublic.com%2F" data-user-show-params='{"appId":309,"regSource":"header-login"}' data-user-view="loggedOut" class="icon user-icon"><span>Membership</span></a>
+
+        <a data-item="trigger" class="icon logged-in-user-icon" style="display: none" data-user-view="loggedIn"><span>Membership</span></a>
+                <ul class="dropDown user-login-drop">
+            <li>
+                <div class="dropdown-content dropdown-menu logged-in">
+                    <div class="member-profile">
+                        <a href="/members/profile/" class="avatar">
+                            <img data-user-var="gravatarUrl" alt="Gravatar" data-user-var-attr="src" src="http://tr3.cbsistatic.com/fly/bundles/techrepubliccore/images/icons/standard/icon-user-default.png" width="60" height="60" />
+                        </a>
+                        <p class="member-name" data-user-var="userName"></p>
+                        <a href="/members/profile/">My Profile</a>
+                    </div>
+                    <nav class="member-nav">
+                        <ul>
+                            <li><a href="/members/contacts/">People</a></li>
+                            <li><a href="/newsletters/">Subscriptions</a></li>
+                            <li><a href="/members/discussions/">My stuff</a></li>
+                            <li><a href="/members/preferences/">Preferences</a></li>
+                            <li><a href="/members/message/">Send a message</a></li>
+                            <li><a href="/user/logout/" data-omniture-track="trackLogout">Log Out</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </li>
+        </ul>
+    </li>
+</ul>
+</nav>
+            </div>
+        </div>
+    </div>
+</header>
+                                            
+                        <div class="top-content top-content-front-door">
+            <div class="container">
+    <div class="row">
+                    <div class="row">
+        <div class="col-12">
+                                                    
+                                                        
+                                            
+<div class="hero-carousel-wrapper">
+	<div class="hero-carousel" data-component='frontDoorCarousel' data-front-door-carousel-options='{"autoAdvanceSpeed":6000,"pageAutoAdvanceSpeed":10000}'>
+
+		
+			
+			
+							<div class="page active">
+			
+											
+					
+
+	
+	
+<div class="slate large active">
+
+	
+
+	<div class="bg-image">
+		    <span class="img "><img src="http://tr1.cbsistatic.com/hub/i/r/2016/05/10/d36eeb7b-067b-4b24-8a02-95ed1f536349/thumbnail/700x400/fdd9d4993ad54a01d7c13a4df9a58cd6/istock000071207733small.jpg" class="" alt=""
+                                                    width = "700"
+                                        height = "400"
+                     /></span>
+	</div>
+
+	<div class="item-content single">
+		<div class="label">Top Story</div>
+		<h3 class="title">
+			<a href="/article/cs-teachers-ramping-up-cybersecurity-education/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-one"}'
+    >Computer science teachers need cybersecurity education says CSTA industry group</a>
+		</h3>
+		<div class="meta">
+			by
+			<a href="/search/?q=Evan Koblentz"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-one"}'
+    >Evan Koblentz</a>
+		</div>
+	</div>
+</div>
+				
+			
+			
+			
+			
+											
+					
+
+	
+	
+<div class="slate ">
+
+	
+
+	<div class="bg-image">
+		    <span class="img "><img src="http://tr2.cbsistatic.com/hub/i/r/2016/05/10/b5b63b02-892b-48a4-a237-99ffdc92cd01/thumbnail/500x400/a7114c8f34d48553a5186ff82dedd5f9/data.jpg" class="" alt=""
+                                                    width = "500"
+                                        height = "400"
+                     /></span>
+	</div>
+
+	<div class="item-content single">
+		<div class="label">Big Data</div>
+		<h3 class="title">
+			<a href="/article/how-chatham-financial-optimized-its-big-data-for-better-insights/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-one"}'
+    >How Chatham Financial optimized its big data for better insights</a>
+		</h3>
+		<div class="meta">
+			by
+			<a href="/search/?q=Mary Shacklett"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-one"}'
+    >Mary Shacklett</a>
+		</div>
+	</div>
+</div>
+				
+			
+			
+			
+			
+											
+					
+
+	
+	
+<div class="slate ">
+
+	
+
+	<div class="bg-image">
+		    <span class="img "><img src="http://tr2.cbsistatic.com/hub/i/r/2016/05/09/6ec81c2b-8fee-4453-bedc-8f6019bf3098/thumbnail/500x400/ada8f56fd3a599b37dafecfbc535f7af/dockerth.jpg" class="" alt=""
+                                                    width = "500"
+                                        height = "400"
+                     /></span>
+	</div>
+
+	<div class="item-content single">
+		<div class="label">Data Centers</div>
+		<h3 class="title">
+			<a href="/article/docker-launches-security-scanning-to-test-containers-for-known-vulnerabilities/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-one"}'
+    >Docker launches Security Scanning to test containers for known vulnerabilities</a>
+		</h3>
+		<div class="meta">
+			by
+			<a href="/search/?q=Conner Forrest"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-one"}'
+    >Conner Forrest</a>
+		</div>
+	</div>
+</div>
+				
+			
+			
+			
+							</div>
+				<div class="page">
+			
+											
+					
+
+	
+	
+<div class="slate large">
+
+	
+
+	<div class="bg-image">
+		    <span class="img "><img src="http://tr3.cbsistatic.com/hub/i/r/2016/05/10/1213e18b-9314-49e4-bea5-441fb4b8672e/thumbnail/700x400/5fcc0b817ea7ef69651ec73437040e9c/scadafence-photo.jpg" class="" alt=""
+                                                    width = "700"
+                                        height = "400"
+                     /></span>
+	</div>
+
+	<div class="item-content single">
+		<div class="label">Security</div>
+		<h3 class="title">
+			<a href="/article/businesses-beware-the-industrial-internet-of-things-is-a-prime-target-for-cyberattacks/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-two"}'
+    >Businesses beware: the &#039;industrial internet of things&#039; is a prime target for cyberattacks</a>
+		</h3>
+		<div class="meta">
+			by
+			<a href="/search/?q=Hope Reese"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-two"}'
+    >Hope Reese</a>
+		</div>
+	</div>
+</div>
+				
+			
+			
+			
+			
+											
+					
+
+	
+	
+<div class="slate ">
+
+	
+
+	<div class="bg-image">
+		    <span class="img "><img src="http://tr3.cbsistatic.com/hub/i/r/2016/05/10/b67eb6c7-aef2-486a-bc63-a84c712d594a/thumbnail/500x400/07a8e31695042b8a27455709ee9381a9/00samuelbrownng.jpg" class="" alt=""
+                                                    width = "500"
+                                        height = "400"
+                     /></span>
+	</div>
+
+	<div class="item-content single">
+		<div class="label">Featured Gallery</div>
+		<h3 class="title">
+			<a href="/pictures/screenshots-get-ready-for-your-next-exam-with-one-of-these-five-prep-tools/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-two"}'
+    >Get ready for your next exam with one of these five prep tools</a>
+		</h3>
+		<div class="meta">
+			by
+			<a href="/search/?q=Brien Posey"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-two"}'
+    >Brien Posey</a>
+		</div>
+	</div>
+</div>
+				
+			
+			
+			
+			
+											
+					
+
+	
+	
+<div class="slate ">
+
+	
+
+	<div class="bg-image">
+		    <span class="img "><img src="http://tr4.cbsistatic.com/hub/i/r/2015/06/04/549f0dc4-f4fc-4559-a0c4-96d9f9a455e5/thumbnail/500x400/8d13a3f6f87e63ddedf8106d0c84ad42/cardboardthmb2.jpg" class="" alt=""
+                                                    width = "500"
+                                        height = "400"
+                     /></span>
+	</div>
+
+	<div class="item-content single">
+		<div class="label">Innovation</div>
+		<h3 class="title">
+			<a href="/article/google-cardboard-the-smart-persons-guide/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-two"}'
+    >Google Cardboard: The smart person&#039;s guide</a>
+		</h3>
+		<div class="meta">
+			by
+			<a href="/search/?q=Erin Carson"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-page-two"}'
+    >Erin Carson</a>
+		</div>
+	</div>
+</div>
+				
+			
+		</div>
+
+		<a class="switch-page next-btn hide-until-ready"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-next-page"}'
+    ><i class="fa fa-chevron-right"></i></a>
+		<a class="switch-item next-btn hide-until-ready"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "fd-carousel-next-item"}'
+    ><i class="fa fa-chevron-right"></i></a>
+	</div>
+</div>
+                                                                    </div>
+            </div>
+        </div>
+</div>
+
+
+        </div>
+         
+                            <div id="mantle_skin">
+                    <span id="adSkinLeft"></span>
+                    <span id="adSkinRight"></span>
+
+                                                <div class="intromercial">
+        <div id="intromercial-5733479172518" class="ad-intromercial" data-ad="intromercial">
+    <script>
+        window.console && console.log && console.log("ADS: queuing intromercial-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("intromercial-5733479172518");
+    </script>
+</div>
+
+    </div>
+                    
+                                                <div class="skin">
+        <div id="skin-5733479172518" class="ad-skin" data-ad="skin">
+    <script>
+        window.console && console.log && console.log("ADS: queuing skin-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("skin-5733479172518");
+    </script>
+</div>
+
+    </div>
+                                            
+                                            
+			<section class="leader leader-top ad-active">
+        	<div class="container">
+            	<div id="leader-plus-top-5733479172518" class="ad-leader-plus-top" data-ad="leader-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-plus-top-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-plus-top-5733479172518");
+    </script>
+</div>
+
+        	</div>
+    	</section>
+	                        
+                    
+                        <div id="content">
+        <span class="sticky-mpu"></span>
+
+        	        <div class="container">
+    <div class="row">
+                    <div class="row">
+        <div class="col-12">
+                                                    
+                                                        
+                                                        
+                                    
+                    
+             <div class="col-6 featured-topics">
+            <div class="section-heading">
+            <h2><span class="heading">Cloud</span></h2>
+        </div>
+    
+                
+    
+<ul class="col-3">
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/article/tabcloud-makes-saving-and-restoring-chrome-sessions-simple/">TabCloud makes saving and restoring Chrome sessions simple</a></li>
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/article/how-to-create-app-menu-folders-in-chrome-os/">How to create App Menu folders in Chrome OS</a></li>
+	</ul>    
+<ul class="col-3">
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/article/how-to-sync-your-google-cloud-on-linux-with-grive2/">How to sync your Google Cloud on Linux with Grive2</a></li>
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/article/quick-and-easy-cloud-accounting-with-zipbooks/">ZipBooks offers feature-rich cloud-based accounting software for free</a></li>
+	</ul></div>
+                    
+                                    
+                    
+             <div class="col-6 featured-topics">
+            <div class="section-heading">
+            <h2><span class="heading">Software</span></h2>
+        </div>
+    
+                
+    
+<ul class="col-3">
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/article/tabcloud-makes-saving-and-restoring-chrome-sessions-simple/">TabCloud makes saving and restoring Chrome sessions simple</a></li>
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/blog/five-apps/five-apps-to-help-you-prep-for-an-exam/">Five apps to help you prep for an exam</a></li>
+	</ul>    
+<ul class="col-3">
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/article/how-to-permanently-change-simple-formatting-defaults-in-word/">How to permanently change simple formatting defaults in Word</a></li>
+			<li><a             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "featured-topics"}'
+     href="/article/joel-spolsky-the-three-skills-every-software-developer-should-learn/">Stack Overflow founder Spolsky: The three skills every software developer should learn</a></li>
+	</ul></div>
+                                                                                </div>
+            </div>
+                <div class="row">
+        <div class="col-12">
+                                            <div class="row">
+                                    <div class="col-8">
+                                                    
+                                                        
+                                                        
+                                    
+                    
+            
+<div class="module module-listing" data-component='lazyloadImages' >
+            <div class="section-heading">
+            <h2><span class="heading">Latest from TechRepublic</span></h2>
+        </div>
+    
+    <section id="article-river" class="river">
+    <div class="content-list listing-standard">
+        <ul class="media-list items"
+                        data-component='loadMore' data-load-more-options='{"url":"\/component\/load-more\/xhr","data":{"endpoint":"\/api\/component\/listing\/2381f244-fa08-4e65-a03a-f6835b1ee229\/content\/b7041b76-453f-4f3b-83f0-024e129f0d3d","params":[],"view":"standard","familyName":"listing","typeName":"filtered_listing","offset":16,"initialLimit":16,"colspan":8}}'
+        >
+            
+
+
+
+
+
+
+
+                        
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/how-to-connect-apps-to-slack-for-use-in-the-classroom/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <span class="img "><img src="http://tr1.cbsistatic.com/hub/i/r/2016/05/11/39449536-fe15-4aa7-9b81-697e26549281/thumbnail/170x128/3deb1d40a55dfe850a09acb5399d8230/hero-slack-to-apps.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/how-to-connect-apps-to-slack-for-use-in-the-classroom/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >How to connect apps to Slack for use in the classroom</a></h3>
+
+            <p class="dek">Users can centralize notifications and links when they integrate apps with Slack. Here&#039;s how.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Andy Wolber"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Andy Wolber</a>
+            <span class="separator">&middot;</span> 	
+	    	May 11, 2016, 6:48 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/google-cardboard-the-smart-persons-guide/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <span class="img "><img src="http://tr3.cbsistatic.com/hub/i/r/2015/06/04/549f0dc4-f4fc-4559-a0c4-96d9f9a455e5/thumbnail/170x128/5e26853cc1be96365df2bbbf430e49d8/cardboardthmb2.png" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/google-cardboard-the-smart-persons-guide/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Google Cardboard: The smart person&#039;s guide</a></h3>
+
+            <p class="dek">This comprehensive guide covers the history of Google Cardboard, its uses in business, and where it fits in the overall virtual reality market.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Erin Carson"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Erin Carson</a>
+            <span class="separator">&middot;</span> 	
+	    	May 11, 2016, 6:36 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+                    <section class="multiplexer">
+    <div id="multiplexer-5733479172518" class="ad-multiplexer" data-ad="multiplexer">
+    <script>
+        window.console && console.log && console.log("ADS: queuing multiplexer-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("multiplexer-5733479172518");
+    </script>
+</div>
+
+</section>
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/ai-pioneer-ai-will-definitely-kill-jobs-but-thats-ok/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <span class="img "><img src="http://tr2.cbsistatic.com/hub/i/r/2016/05/11/d8bb7288-218e-4e3d-aea2-039fe9104f39/thumbnail/170x128/817153f55acfb2a11f946599304ae278/aiworld.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/ai-pioneer-ai-will-definitely-kill-jobs-but-thats-ok/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >AI pioneer: AI will definitely kill jobs, but that&#039;s OK</a></h3>
+
+            <p class="dek">Louis Monier is on a mission to eliminate &quot;boring jobs&quot; and give them to machines. Is this a good thing?</p>
+
+            <p class="meta">
+            <a href="/search/?a=Matt Asay"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Matt Asay</a>
+            <span class="separator">&middot;</span> 	
+	    	May 11, 2016, 6:04 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/businesses-beware-the-industrial-internet-of-things-is-a-prime-target-for-cyberattacks/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <span class="img "><img src="http://tr3.cbsistatic.com/hub/i/r/2016/05/10/1213e18b-9314-49e4-bea5-441fb4b8672e/thumbnail/170x128/59a075f427332b04577e8f0ecf646990/scadafence-photo.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/businesses-beware-the-industrial-internet-of-things-is-a-prime-target-for-cyberattacks/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Businesses beware: the &#039;industrial internet of things&#039; is a prime target for cyberattacks</a></h3>
+
+            <p class="dek">Think your Amazon Echo or Samsung Smart TV are IoT security threats? Businesses using the &#039;industrial internet of things&#039; are even bigger targets for cyberattacks.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Hope Reese"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Hope Reese</a>
+            <span class="separator">&middot;</span> 	
+	    	May 11, 2016, 4:00 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/tabcloud-makes-saving-and-restoring-chrome-sessions-simple/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr4.cbsistatic.com/hub/i/r/2016/05/09/3709601f-69c8-46f5-9b7f-dbc731f6c421/thumbnail/170x128/1b834ce60841291ad66d5aa766c8ee29/tabcloudhero.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr4.cbsistatic.com/hub/i/r/2016/05/09/3709601f-69c8-46f5-9b7f-dbc731f6c421/thumbnail/170x128/1b834ce60841291ad66d5aa766c8ee29/tabcloudhero.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/tabcloud-makes-saving-and-restoring-chrome-sessions-simple/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >TabCloud makes saving and restoring Chrome sessions simple</a></h3>
+
+            <p class="dek">TabCloud is one of those Chrome extensions you&#039;ll find yourself unable to work without. Jack Wallen shows you to install and use this amazingly handy Chrome tab tool.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Jack Wallen"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Jack Wallen</a>
+            <span class="separator">&middot;</span> 	
+	    	May 11, 2016, 4:00 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                                                                                
+
+
+    <li>
+        <a href="http://www.techproresearch.com/article/seven-ways-to-build-brand-awareness-into-your-digital-strategy/?ftag=tip185eb84" class="thumbnail"  target="_blank">
+                                                                                        <span class="img "><img src="http://tpr2.cbsistatic.com/hub/i/r/2016/05/05/1ec1a796-bcdc-443e-9b52-87c8d69b44d8/thumbnail/220x165/0b73332716ceba7b68b792be6bf3c95e/jacob-ammentorp-lundistock000084274239small.jpg" class="" alt="Seven ways to build brand awareness into your digital strategy"
+                                                    width = "170"
+                                        height = "128"
+                     /></span>
+        </a>
+        <div class="item-content">
+            <h3 class="title"><a href="http://www.techproresearch.com/article/seven-ways-to-build-brand-awareness-into-your-digital-strategy/?ftag=tip185eb84"  target="_blank">Seven ways to build brand awareness into your digital strategy</a></h3>
+
+                        <p class="dek">Your digital strategy should create trust in your brand, faith in your products and services, and a great customer experience. Here&#039;s a tactical look at how to get there.</p>
+
+            <p class="meta">from <a href="http://www.techproresearch.com/article/seven-ways-to-build-brand-awareness-into-your-digital-strategy/?ftag=tip185eb84" target="_blank">Tech Pro Research</a></p>
+        </div>
+    </li>
+                                    
+        
+        
+        
+                            
+                            
+                            <section id="keep-up-3500" data-component='keepUp' data-keep-up-options='{"isLoggedIn":false,"url":"\/newsletters\/xhr\/subscription\/","route":"front_door","path":"http:\/\/www.techrepublic.com\/"}' class="dont-miss-wrap"></section>
+        
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/how-to-create-app-menu-folders-in-chrome-os/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr2.cbsistatic.com/hub/i/r/2016/03/15/d1bdf37b-32de-447f-83f5-32a1f674d6cb/thumbnail/170x128/d426f797c610e85aec07826052e193e6/appfoldershero.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr2.cbsistatic.com/hub/i/r/2016/03/15/d1bdf37b-32de-447f-83f5-32a1f674d6cb/thumbnail/170x128/d426f797c610e85aec07826052e193e6/appfoldershero.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/how-to-create-app-menu-folders-in-chrome-os/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >How to create App Menu folders in Chrome OS</a></h3>
+
+            <p class="dek">If your Chrome OS App Menu is getting cluttered, you need to take advantage of App Menu Folders. Jack Wallen shows you how.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Jack Wallen"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Jack Wallen</a>
+            <span class="separator">&middot;</span> 	
+	    	May 11, 2016, 1:00 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/how-chatham-financial-optimized-its-big-data-for-better-insights/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr1.cbsistatic.com/hub/i/r/2016/05/10/b5b63b02-892b-48a4-a237-99ffdc92cd01/thumbnail/170x128/9d4733e77a331e56046bc47b11d52093/data.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr1.cbsistatic.com/hub/i/r/2016/05/10/b5b63b02-892b-48a4-a237-99ffdc92cd01/thumbnail/170x128/9d4733e77a331e56046bc47b11d52093/data.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/how-chatham-financial-optimized-its-big-data-for-better-insights/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >How Chatham Financial optimized its big data for better insights</a></h3>
+
+            <p class="dek">For SMBs, data can be a challenge. Here&#039;s how one company dealt with the obstacles of being an SMB, and put its data to work.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Mary Shacklett"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Mary Shacklett</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 12:20 PM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/cs-teachers-ramping-up-cybersecurity-education/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr3.cbsistatic.com/hub/i/r/2016/05/10/d36eeb7b-067b-4b24-8a02-95ed1f536349/thumbnail/170x128/20ef0d9017ddfed9aad06490378f4a1a/istock000071207733small.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr3.cbsistatic.com/hub/i/r/2016/05/10/d36eeb7b-067b-4b24-8a02-95ed1f536349/thumbnail/170x128/20ef0d9017ddfed9aad06490378f4a1a/istock000071207733small.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/cs-teachers-ramping-up-cybersecurity-education/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Computer science teachers need cybersecurity education says CSTA industry group</a></h3>
+
+            <p class="dek">The Computer Science Teachers Association (CTSA) is working on a cybersecurity certification program for computer science educators, so they can better teach students about computer security.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Evan Koblentz"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Evan Koblentz</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 11:29 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+
+		
+            	
+	<li class="special-item">
+					<div class="bg-image">
+				<figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr3.cbsistatic.com/hub/i/r/2016/05/10/b67eb6c7-aef2-486a-bc63-a84c712d594a/thumbnail/700x200/b90a7834538cb1fa4482c0775e82c19c/00samuelbrownng.jpg"
+                                        width = "700"
+                                        height = "200"
+                     /></span><noscript><span class="img "><img src="http://tr3.cbsistatic.com/hub/i/r/2016/05/10/b67eb6c7-aef2-486a-bc63-a84c712d594a/thumbnail/700x200/b90a7834538cb1fa4482c0775e82c19c/00samuelbrownng.jpg" class="" alt=""
+                                                    width = "700"
+                                        height = "200"
+                     /></span></noscript></figure>
+			</div>
+                <div class="item-content">
+        	<div class="icon-cover-story-tr-flag"></div>
+        	<div class="item-type">
+				Gallery
+        	</div>
+			<h3 class="title">
+				<a href="/pictures/screenshots-get-ready-for-your-next-exam-with-one-of-these-five-prep-tools/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "river-special-gallery"}'
+    >Screenshots: Get ready for your next exam with one of these five prep tools</a>		
+			</h3>
+        </div>
+					<a href="/pictures/screenshots-get-ready-for-your-next-exam-with-one-of-these-five-prep-tools/" class="slide-count"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "river-special-gallery"}'
+    >11</a>
+        	</li>
+			<li class="all-content-link">
+			<a href="/pictures/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "river-special-gallery-all"}'
+    >See All Galleries</a>
+		</li>
+    	
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/blog/five-apps/five-apps-to-help-you-prep-for-an-exam/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr2.cbsistatic.com/hub/i/r/2016/05/10/474e36ad-2452-429e-9f28-cf93d0df2e60/thumbnail/170x128/0e4a3907ad4266c2324fde05bc7dbb63/articleartfoliophotoistock000091477719small.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr2.cbsistatic.com/hub/i/r/2016/05/10/474e36ad-2452-429e-9f28-cf93d0df2e60/thumbnail/170x128/0e4a3907ad4266c2324fde05bc7dbb63/articleartfoliophotoistock000091477719small.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/blog/five-apps/five-apps-to-help-you-prep-for-an-exam/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Five apps to help you prep for an exam</a></h3>
+
+            <p class="dek">A number of tools are available that can help you drill for upcoming tests-from science exams to IT certs.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Brien Posey"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Brien Posey</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 8:33 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/how-to-permanently-change-simple-formatting-defaults-in-word/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr4.cbsistatic.com/hub/i/r/2016/05/10/e5af2c42-16bf-4bd5-8f51-24a1ebd2aba2/thumbnail/170x128/68ff6d909bf5831278fdb59b749a8fd5/katarzynabialasiewiczistock000086872273small.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr4.cbsistatic.com/hub/i/r/2016/05/10/e5af2c42-16bf-4bd5-8f51-24a1ebd2aba2/thumbnail/170x128/68ff6d909bf5831278fdb59b749a8fd5/katarzynabialasiewiczistock000086872273small.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/how-to-permanently-change-simple-formatting-defaults-in-word/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >How to permanently change simple formatting defaults in Word</a></h3>
+
+            <p class="dek">If you&#039;re changing the same format attributes every time you open a new Word document, you&#039;re working harder than necessary. Modify the template once and work smarter.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Susan Harkins"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Susan Harkins</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 6:10 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/why-ily-could-be-the-landline-experience-for-the-smartphone-generation/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr4.cbsistatic.com/hub/i/r/2016/05/09/ed2aa07c-a741-4b9e-8169-6baede9de9ad/thumbnail/170x128/2d5401afd394c46e094c9cbe7d70c382/ilyflat01.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr4.cbsistatic.com/hub/i/r/2016/05/09/ed2aa07c-a741-4b9e-8169-6baede9de9ad/thumbnail/170x128/2d5401afd394c46e094c9cbe7d70c382/ilyflat01.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/why-ily-could-be-the-landline-experience-for-the-smartphone-generation/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Why ILY could be the landline experience for the smartphone generation</a></h3>
+
+            <p class="dek">A Kickstarter campaign launched on Tuesday offers a tool that gives family members of every age the chance to connect.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Hope Reese"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Hope Reese</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 6:04 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                                                                                
+
+
+    <li>
+        <a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/?ftag=tip185eb84" class="thumbnail"  target="_blank">
+                                                    <span class="img "><img src="http://tr1.cbsistatic.com/hub/i/r/2015/04/22/5934bd3f-31ea-4046-ae43-1a2bd79204c4/thumbnail/140x105/ac6480ffdc81a7817c485a43c09dbf2e/resource-whitepapers.jpg" class="" alt="Quick glossary: Big data"
+                                                    width = "170"
+                                        height = "128"
+                     /></span>
+        </a>
+        <div class="item-content">
+            <h3 class="title"><a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/?ftag=tip185eb84"  target="_blank">Quick glossary: Big data</a></h3>
+
+                        <p class="dek">Every tech trend brings its own specialized wordlist,  and big data is no exception. This glossary offers concise definitions of basic terminology, like “clickstream analytics,” “ETL,” and “Map/reduce...</p>
+
+            <p class="meta">from <a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/?ftag=tip185eb84" target="_blank">Tech Pro Research</a></p>
+        </div>
+    </li>
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/docker-launches-security-scanning-to-test-containers-for-known-vulnerabilities/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr4.cbsistatic.com/hub/i/r/2016/05/09/6ec81c2b-8fee-4453-bedc-8f6019bf3098/thumbnail/170x128/bba19ca52a848f47dba5af504375ba9e/dockerth.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr4.cbsistatic.com/hub/i/r/2016/05/09/6ec81c2b-8fee-4453-bedc-8f6019bf3098/thumbnail/170x128/bba19ca52a848f47dba5af504375ba9e/dockerth.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/docker-launches-security-scanning-to-test-containers-for-known-vulnerabilities/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Docker launches Security Scanning to test containers for known vulnerabilities</a></h3>
+
+            <p class="dek">Container company Docker recently upped the ante on security with Docker Security Scanning, a tool that scans container images for vulnerable components and notifies users so they can issue a patch.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Conner Forrest"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Conner Forrest</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 6:00 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/joel-spolsky-the-three-skills-every-software-developer-should-learn/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr2.cbsistatic.com/hub/i/r/2016/05/09/1217abf8-2394-4c61-8c69-66e7e80967ac/thumbnail/170x128/b4376581fdeecc0e6f66df613a33d26a/joel-spolsky.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr2.cbsistatic.com/hub/i/r/2016/05/09/1217abf8-2394-4c61-8c69-66e7e80967ac/thumbnail/170x128/b4376581fdeecc0e6f66df613a33d26a/joel-spolsky.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/joel-spolsky-the-three-skills-every-software-developer-should-learn/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Stack Overflow founder Spolsky: The three skills every software developer should learn</a></h3>
+
+            <p class="dek">The co-founder of the online programming hub Stack Overflow shares his thoughts on to forge a career as a successful software engineer.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Nick Heath"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Nick Heath</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 4:36 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/how-to-sync-your-google-cloud-on-linux-with-grive2/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr2.cbsistatic.com/hub/i/r/2016/03/22/284e17a7-f9f0-4534-acc1-a4822274827d/thumbnail/170x128/657368eb78f3a034fd13e87a4b716013/linuxcloudshero.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr2.cbsistatic.com/hub/i/r/2016/03/22/284e17a7-f9f0-4534-acc1-a4822274827d/thumbnail/170x128/657368eb78f3a034fd13e87a4b716013/linuxcloudshero.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/how-to-sync-your-google-cloud-on-linux-with-grive2/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >How to sync your Google Cloud on Linux with Grive2</a></h3>
+
+            <p class="dek">If Linux is your operating system of choice, and Google Drive is your cloud storage solution, you&#039;ll be happy to know there&#039;s an easy way to keep them in sync from the command line. Jack Wallen shows ...</p>
+
+            <p class="meta">
+            <a href="/search/?a=Jack Wallen"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Jack Wallen</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 2:00 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+                            
+                            
+                
+        
+
+	    
+                
+    
+                                            
+                
+    <li>
+                    <a href="/article/how-to-schedule-retweets-with-tweetdeck-and-buffer/" class="thumbnail"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >
+                <figure class=" img"><span class="img "><img src="" class="lazy" alt=""
+                                        data-original="http://tr3.cbsistatic.com/hub/i/r/2016/03/24/d94bf1f5-5b54-47a0-98f4-9d829ef6020b/thumbnail/170x128/2448f297a2a0aa8868b8135b0fa39872/bufferhero.jpg"
+                                        width = "170"
+                                        height = "128"
+                     /></span><noscript><span class="img "><img src="http://tr3.cbsistatic.com/hub/i/r/2016/03/24/d94bf1f5-5b54-47a0-98f4-9d829ef6020b/thumbnail/170x128/2448f297a2a0aa8868b8135b0fa39872/bufferhero.jpg" class="" alt=""
+                                                    width = "170"
+                                        height = "128"
+                     /></span></noscript></figure>
+            </a>
+                <div class="item-content">
+            <h3 class="title"><a href="/article/how-to-schedule-retweets-with-tweetdeck-and-buffer/"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >How to schedule retweets with Tweetdeck and Buffer</a></h3>
+
+            <p class="dek">If you&#039;re looking to super-charge your brand&#039;s use of Twitter, you&#039;ll want to learn how to take advantage of scheduling retweets. Jack Wallen shows you how.</p>
+
+            <p class="meta">
+            <a href="/search/?a=Jack Wallen"  data-omniture-track-data='{"moduleInfo": "river"}' data-omniture-track='moduleClick' >Jack Wallen</a>
+            <span class="separator">&middot;</span> 	
+	    	May 10, 2016, 1:00 AM PST
+	
+            </p>
+
+                    </div>
+    </li>
+
+                                    
+        
+        
+        
+            
+                </ul>
+
+            </div>
+</section>
+</div>                                                                                            
+                                                        
+                                            
+
+		  	  <div id="taboola-below-main-column-thumbnails-front-door" data-component='taboola' data-taboola-options='{"mode":"thumbnails-a","container":"taboola-below-main-column-thumbnails-front-door","placement":"TECHREPUBLICfront_doorDesktop\/Tablet-Below Main Column Thumbnails","isXhr":false}' om-event="TECHREPUBLICfront_doorDesktop/Tablet-Below Main Column Thumbnails"></div>
+	                                                                    </div>
+            <div class="col-4">
+                                                    
+                                                        
+                                            
+
+                    
+			<div class="ad-wrap">
+			<section class="mpu ad-active">
+			    <div id="mpu-plus-top-5733479172518" class="ad-mpu-plus-top" data-ad="mpu-plus-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-plus-top-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-plus-top-5733479172518");
+    </script>
+</div>
+
+			</section>
+		</div>
+	                                                                                    
+                                                        
+                                            
+
+						
+    <div id="uid-324783114"
+        data-component='medusaAsync' data-medusa-async-options='{"url":"\/medusa\/ajax\/right-rail","data":{"promo":2145,"count":5,"ftag_cd":null,"vendor_name":"THIS VENDOR","topic_name":"THIS TOPIC","env":"www"}}'
+    >
+    </div>
+
+			                                                                                
+                                                        
+                                            
+
+                    
+			<section class="mpu ad-active">
+			<div id="mpu-middle-5733479172518" class="ad-mpu-middle" data-ad="mpu-middle">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-middle-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-middle-5733479172518");
+    </script>
+</div>
+
+		</section>
+	                                                                                    
+                                                        
+                                            
+
+    <!--[if lt IE 9]> <noscript> <div id="promoUnit" class="sectionTag"> </noscript> <![endif]-->
+        <section id="promoUnit">
+                            <div class="section-heading">
+                        <h2>
+                
+                <span class="heading">Tech Pro Research</span>
+            </h2>
+                
+        
+    </div>
+
+                                    <a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/" target="_blank">
+                                                    <span class="img "><img src="http://tr1.cbsistatic.com/hub/i/r/2016/05/09/d03626e8-38dc-4a6c-8e96-58b235d71817/thumbnail/370x278/90665dc9fdc96fe3dec364a1c418cced/ismagilovistock000066684631small.jpg" class="" alt=""
+                                                    width = "370"
+                                        height = "278"
+                     /></span>
+                                            </a>
+                
+                <div class="content">
+
+                    
+                                            <h4>
+                            <a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/" target="_blank"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "promo-unit"}'
+    >
+                                Quick glossary: Big data
+                            </a>
+                        </h4>
+                    
+                                            <a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "promo-unit"}'
+     class="btn-circle" target="_blank">
+                            <div class="btn-circle-text">
+                                                                View<br>
+                                Now
+                            </div>
+                        </a>
+                                    </div>
+                    </section>
+    <!--[if lt IE 9]> <noscript></div></noscript> <![endif]-->
+                                                                                
+                                                        
+                                            
+
+    <!--[if lt IE 9]> <noscript> <div id="promoUnit" class="sectionTag"> </noscript> <![endif]-->
+        <section id="promoUnit">
+                            <div class="section-heading">
+                        <h2>
+                
+                <span class="heading">Special Feature</span>
+            </h2>
+                
+        
+    </div>
+
+                                    <a href="http://www.zdnet.com/topic/how-ux-is-transforming-enterprise-software/" target="_blank">
+                                                    <span class="img "><img src="http://tr1.cbsistatic.com/hub/i/r/2016/05/03/276ae4ce-64c5-46f4-b311-0c675477a39f/thumbnail/370x278/9b59e3e8f6f433f357809c3632b6b62c/userexperienceistock000067982073zoranzeremski.jpg" class="" alt=""
+                                                    width = "370"
+                                        height = "278"
+                     /></span>
+                                            </a>
+                
+                <div class="content">
+
+                    
+                                            <h4>
+                            <a href="http://www.zdnet.com/topic/how-ux-is-transforming-enterprise-software/" target="_blank"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "promo-unit"}'
+    >
+                                How UX is Transforming Enterprise Software
+                            </a>
+                        </h4>
+                    
+                                            <a href="http://www.zdnet.com/topic/how-ux-is-transforming-enterprise-software/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "promo-unit"}'
+     class="btn-circle" target="_blank">
+                            <div class="btn-circle-text">
+                                                                Read<br>
+                                Now
+                            </div>
+                        </a>
+                                    </div>
+                    </section>
+    <!--[if lt IE 9]> <noscript></div></noscript> <![endif]-->
+                                                                                
+                                                        
+                                            	<section class="taboola-right-rail">
+	  
+
+		  	  <div id="taboola-right-rail-thumbnails-front-door" data-component='taboola' data-taboola-options='{"mode":"thumbnails-rr","container":"taboola-right-rail-thumbnails-front-door","placement":"TECHREPUBLICfront_doorDesktop\/Tablet-Right Rail Thumbnails","isXhr":false}' om-event="TECHREPUBLICfront_doorDesktop/Tablet-Right Rail Thumbnails"></div>
+		</section>
+                                                                                
+                                                        
+                                            
+
+                    
+			<section class="mpu ad-active">
+			<div id="mpu-bottom-5733479172518" class="ad-mpu-bottom" data-ad="mpu-bottom">
+    <script>
+        window.console && console.log && console.log("ADS: queuing mpu-bottom-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("mpu-bottom-5733479172518");
+    </script>
+</div>
+
+		</section>
+	                                                                        </div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+</div>
+
+
+            </div>
+
+                        
+			<section class="leader leader-bottom ad-active">
+	        <div class="container">
+	            <div id="leader-top-5733479172518" class="ad-leader-top" data-ad="leader-top">
+    <script>
+        window.console && console.log && console.log("ADS: queuing leader-top-5733479172518 for display");
+        var cbsiGptDivIds = cbsiGptDivIds || [];
+        cbsiGptDivIds.push("leader-top-5733479172518");
+    </script>
+</div>
+
+	        </div>
+	    </section>
+	    
+                </div>
+            
+                            
+<footer class="page-footer">
+    <div class="footer-nav">
+        <div class="container">
+            <div class="row">
+                                    <div class="col-4 col-featured-articles">
+                        <div class="section-heading">
+                            <h2><span class="heading">Latest From Tech Pro Research</span></h2>
+                        </div>
+
+                                                                                                            <article>
+                                    <a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/?ftag=tip5a3d6c8" class="thumbnail"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >
+                                        <i class="fa fa-download"></i>
+                                    </a>
+                                <p class="title">
+                                    <a href="http://www.techproresearch.com/downloads/quick-glossary-big-data/?ftag=tip5a3d6c8"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >Quick glossary: Big data</a>
+                                </p>
+                            </article>
+                                                                                                            <article>
+                                    <a href="http://www.techproresearch.com/downloads/research-the-evolution-of-enterprise-software-ux/?ftag=tip5a3d6c8" class="thumbnail"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >
+                                        <i class="fa fa-area-chart"></i>
+                                    </a>
+                                <p class="title">
+                                    <a href="http://www.techproresearch.com/downloads/research-the-evolution-of-enterprise-software-ux/?ftag=tip5a3d6c8"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >Research: The evolution of enterprise software UX</a>
+                                </p>
+                            </article>
+                                                                                                            <article>
+                                    <a href="http://www.techproresearch.com/downloads/interview-questions-platform-developer/?ftag=tip5a3d6c8" class="thumbnail"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >
+                                        <i class="fa fa-download"></i>
+                                    </a>
+                                <p class="title">
+                                    <a href="http://www.techproresearch.com/downloads/interview-questions-platform-developer/?ftag=tip5a3d6c8"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >Interview questions: Platform developer</a>
+                                </p>
+                            </article>
+                                                                                                            <article>
+                                    <a href="http://www.techproresearch.com/downloads/job-description-platform-developer/?ftag=tip5a3d6c8" class="thumbnail"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >
+                                        <i class="fa fa-download"></i>
+                                    </a>
+                                <p class="title">
+                                    <a href="http://www.techproresearch.com/downloads/job-description-platform-developer/?ftag=tip5a3d6c8"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-latest"}'
+    >Job description: Platform developer</a>
+                                </p>
+                            </article>
+                                            </div>
+                
+                <div class="services col-4">
+                    <div class="section-heading">
+                        <h2><span class="heading">Services</span></h2>
+                    </div>
+                    <ul class="section-left">
+                        <li><a href="/about/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >About Us</a></li>
+                        <li><a href="https://secure.techrepublic.com/user/registration/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >Membership</a></li>
+                        <li><a href="/newsletters/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >Newsletters</a></li>
+                        <li><a href="/rssfeeds/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >RSS Feeds</a></li>
+                        <li><a href="/site-map/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >Site Map</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome?referer=techrepublic.com "             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >Site Help &amp; Feedback</a></li>
+                        <li><a href="/faq/general/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >FAQ</a></li>
+                        <li><a href="/advertise/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >Advertise</a></li>
+                        <li><a href="/reprints/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-services"}'
+    >Reprint Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="explore col-4">
+                    <div class="section-heading">
+                        <h2><span class="heading">Explore</span></h2>
+                    </div>
+                    <ul class="section-left">
+                        <li><a href="/blog/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Blogs</a></li>
+                        <li><a href="/resource-library/content-type/downloads/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Downloads</a></li>
+                        <li><a href="/forums/questions/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Q&amp;A</a></li>
+                        <li><a href="/forums/discussions/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Discussions</a></li>
+                        <li><a href="/meet-the-team/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Meet the Team</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="http://www.techproresearch.com/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Tech Pro Research</a></li>
+                        <li><a href="/resource-library/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Resource Library</a></li>
+                        <li><a href="/pictures/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Photos</a></li>
+                        <li><a href="/videos/"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-explore"}'
+    >Videos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="footer-connect-links">
+                <a href="/"><div class="tr-flag-icon"></div></a>
+                <a href="https://twitter.com/techrepublic" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/TechRepublic" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/techrepublic" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+                <a href="https://plus.google.com/+techrepublic/posts" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </div>
+            <div class="legal">&copy; 2016 CBS Interactive. All rights reserved.  <span class="legal-links"><a href="http://legalterms.cbsinteractive.com/privacy"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-copyright-links"}'
+     rel="nofollow" target="_blank">Privacy Policy</a> | <a href="http://legalterms.cbsinteractive.com/cookies"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-copyright-links"}'
+     rel="nofollow" target="_blank">Cookies</a> | <a href="http://legalterms.cbsinteractive.com/adchoice"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-copyright-links"}'
+     rel="nofollow" target="_blank">Ad Choice</a> | <a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-copyright-links"}'
+     target="_blank">Terms of Use</a> | <a href="http://legalterms.cbsinteractive.com/eula"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-copyright-links"}'
+     rel="nofollow" target="_blank">Mobile User Agreement</a></span></div>
+
+            <div class="sites"><a href="http://www.zdnet.com"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-copyright-links"}'
+    >A ZDNet site</a> |
+                <form name="">
+                    <label for="footer-cbsi-site-links">Visit other CBS Interactive sites:</label>
+                    <select id="footer-cbsi-site-links" name="target" onchange="if (this.value.indexOf('http') != -1) { window.location.href=this.value; }" title="Visit other CBS Interactive sites"             data-omniture-track='moduleClick' data-omniture-track-data='{"moduleInfo": "footer-copyright-links"}'
+    >
+                        <option selected="selected" value="">Select Site</option>
+                        <option value="http://www.cbscares.com">CBS Cares</option>
+                        <option value="http://www.cbsfilms.com">CBS Films</option>
+                        <option value="http://www.cbsradio.com/streaming/index.html">CBS Radio</option>
+                        <option value="http://www.cbs.com">CBS.com</option>
+                        <option value="http://www.cbsinteractive.com">CBS Interactive</option>
+                        <option value="http://www.cbsnews.com">CBSNews.com</option>
+                        <option value="http://www.cbssports.com">CBSSports.com</option>
+                        <option value="http://www.chowhound.com">Chowhound</option>
+                        <option value="http://www.clicker.com">Clicker</option>
+                        <option value="http://www.cnet.com">CNET</option>
+                        <option value="http://collegenetwork.cbssports.com">College Network</option>
+                        <option value="http://www.gamespot.com">GameSpot</option>
+                        <option value="http://www.last.fm">Last.fm</option>
+                        <option value="http://www.maxpreps.com">MaxPreps</option>
+                        <option value="http://www.metacritic.com">Metacritic.com</option>
+                        <option value="http://www.cbsnews.com/moneywatch/">Moneywatch</option>
+                        <option value="http://www.mysimon.com">mySimon</option>
+                        <option value="http://www.radio.com">Radio.com</option>
+                        <option value="http://www.search.com">Search.com</option>
+                        <option value="http://www.shopper.com">Shopper.com</option>
+                        <option value="http://www.sho.com">Showtime</option>
+                        <option value="http://www.smartplanet.com">SmartPlanet</option>
+                        <option value="http://www.techproresearch.com">Tech Pro Research</option>
+                        <option value="http://www.techrepublic.com">TechRepublic</option>
+                        <option value="http://www.theinsider.com">The Insider</option>
+                        <option value="http://www.tv.com">TV.com</option>
+                        <option value="http://www.urbanbaby.com">UrbanBaby.com</option>
+                        <option value="http://www.zdnet.com">ZDNet</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+                                
+                                                                                        <script data-main=http://tr2.cbsistatic.com/fly/467-fly/js/main.init.js src="http://tr2.cbsistatic.com/fly/js/libs/require-2.1.2.js"></script>
+                        </body>
+</html>

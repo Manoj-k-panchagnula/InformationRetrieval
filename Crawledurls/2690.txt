@@ -1,0 +1,162 @@
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>UNT Talons - New Website Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://os_extranet_files_test.s3.amazonaws.com/232_65567_bootstrap.css" rel="stylesheet">
+    <link href="http://os_extranet_files_test.s3.amazonaws.com/232_65566_font_awesome.css" rel="stylesheet">
+    <link href="http://os_extranet_files_test.s3.amazonaws.com/232_65565_style.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.png"><!--favicon image-->
+</head>
+
+<body>
+  <div class="social-list center clearfix">
+      <ul class="social-icon">
+          <li><a href="https://www.facebook.com/unt.talons"><i class="icon-facebook"></i></a></li>
+          <li><a href="https://twitter.com/talons23"><i class="icon-twitter"></i></a></li>
+      </ul><!--/.social-icon-->
+  </div><!--/.social-list-->
+  <div class="menu clearfix">
+        <div class="menu-inner clearfix">
+                        <div class="clearfix logo">
+                        	<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                        </div><!--/.logo-->
+                        <div class="clearfix right-menu">
+                            <ul class="clearfix navi">
+                                <li><a  class="current" href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul><!--/.navi-->
+                        </div><!--/.right-menu-->
+        </div><!--/.menu-inner--> 
+  </div><!--/.menu-->
+    
+  <div class="loader clearfix container"></div>
+  <section  class="clearfix page">
+            <div class="mask homecolor"></div>
+            <div class="container inner-content motto center">
+    
+                <div class="big"><h2 class="title-one">We are currently</h2><h2 class="title-two inline-block">improving</h2> <h2 class="title-three inline-block">our site</h2>.</div>
+             
+                <p>The purpose of Talons is to ensure a continuing atmosphere of spirit, service and traditions to the University of North Texas.</p>
+                
+            </div><!--/.motto-->
+            
+            <div class="container bottom-content">
+<br>
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+<br>
+            
+                <div id="clock" class="inner-content clearfix">
+                      <ul class="center">
+                          <li><i class="icon-adjust"></i><span id="weeks"></span>      Weeks <p>Trial<br>and<br>error</p></li>
+                          <li><i class="icon-time"></i><span id="daysLeft"></span>   Days <p>Time<br>of<br>life</p></li>
+                          <li><i class="icon-upload"></i><span id="hours"></span>      Hours <p>Up<br>and<br>away</p></li>
+                          <li><i class="icon-question-sign"></i><span id="minutes"></span>    Minutes <p>Lot<br>of<br>Patience</p></li>
+                          <li><i class="icon-globe"></i><span id="seconds"></span>    Seconds <p>Over<br>the<br>World</p></li>
+                      </ul>
+                </div><!--/.inner-content-->
+                
+                <div class="copyright center">
+                    <p>copyright 2014 <a href="#">UNT Talons</a></p>
+                </div><!--/.copyright-->  
+                    
+            </div><!--/.bottom-content-->
+   
+  </section><!---/.page-->   
+  
+
+
+ 
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/modernizr.custom.26589.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/subscribe.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.shuffleLetters.js"></script>
+    <script type="text/javascript" src="twitter/jquery.tweet.js"></script>
+    <script src="js/ticker.js" type="text/javascript"></script> 
+    <script src="js/tweet.js"></script>
+    <script src="js/shuffle.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/jquery-ui-1.8.22.custom.min.js"></script>
+    <script src="js/jquery.imagesloaded.min.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/bigvideo.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+
+
+
+ 
+
+
+  	
+
+</body>
+</html>
+<div id="os_content"><p>&nbsp;</p>
+</div>
+
+<div id="event_popup_box_wrapper" style="display:none;">
+	<div id="event_popup_box" class="profile_box" >
+	</div>
+</div>
+<div id="day_popup_box_wrapper" style="display:none;">
+	<div id="day_popup_box" class="profile_box" >
+	</div>
+</div>
+
+</html>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-1975314-11");
+		pageTracker._setDomainName(".orgsync.com");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	 </body>
+
+
+
+

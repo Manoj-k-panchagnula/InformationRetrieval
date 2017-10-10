@@ -1,0 +1,1392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="//art.unt.edu/sites/all/themes/greenlight/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Homepage | Visual Arts &amp; Design</title>  
+  <style type="text/css" media="all">
+@import url("//art.unt.edu/modules/system/system.base.css?o5y9on");
+@import url("//art.unt.edu/modules/system/system.menus.css?o5y9on");
+@import url("//art.unt.edu/modules/system/system.messages.css?o5y9on");
+@import url("//art.unt.edu/modules/system/system.theme.css?o5y9on");
+</style>
+<style type="text/css" media="screen">
+@import url("//art.unt.edu/sites/all/modules/views_slideshow/views_slideshow.css?o5y9on");
+</style>
+<style type="text/css" media="all">
+@import url("//art.unt.edu/sites/all/modules/ldap/ldap_user/ldap_user.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/calendar/css/calendar_multiday.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/colorbox_node/colorbox_node.css?o5y9on");
+@import url("//art.unt.edu/modules/comment/comment.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/date/date_api/date.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?o5y9on");
+@import url("//art.unt.edu/modules/field/theme/field.css?o5y9on");
+@import url("//art.unt.edu/modules/node/node.css?o5y9on");
+@import url("//art.unt.edu/modules/search/search.css?o5y9on");
+@import url("//art.unt.edu/modules/user/user.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/wdc_feeds/wdc_feeds.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/views/css/views.css?o5y9on");
+</style>
+<style type="text/css" media="all">
+@import url("//art.unt.edu/sites/all/modules/colorbox/styles/default/colorbox_style.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/ctools/css/ctools.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/ldap/ldap_servers/ldap_servers.admin.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/panels/css/panels.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/greenlight/ds_layouts/ds_12col_homepage/ds_12col_homepage.css?o5y9on");
+</style>
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="all" />
+<style type="text/css" media="all">
+@import url("//art.unt.edu/sites/all/modules/tb_megamenu/css/bootstrap.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/tb_megamenu/css/base.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/tb_megamenu/css/default.css?o5y9on");
+@import url("//art.unt.edu/sites/all/modules/tb_megamenu/css/compatibility.css?o5y9on");
+</style>
+
+<!--[if IE]>
+<style type="text/css" media="all">
+@import url("//art.unt.edu/sites/default/files/ctools/css/aa3fe1ecc9b70cea8b2ae2c2665e2ca4.css?o5y9on");
+</style>
+<![endif]-->
+<style type="text/css" media="all">
+@import url("//art.unt.edu/sites/all/themes/omega/alpha/css/alpha-reset.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/alpha/css/alpha-mobile.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/alpha/css/alpha-alpha.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/omega/css/formalize.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/omega/css/omega-text.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/omega/css/omega-branding.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/omega/css/omega-menu.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/omega/css/omega-forms.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/omega/css/omega-visuals.css?o5y9on");
+@import url("//art.unt.edu/sites/default/files/fontyourface/font.css?o5y9on");
+</style>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:regular&amp;subset=latin" media="all" />
+<style type="text/css" media="all">
+@import url("//art.unt.edu/sites/all/themes/greenlight/css/global.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/greenlight/css/title-1line-lockup.css?o5y9on");
+</style>
+<style type="text/css" media="all">
+@import url("//art.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default-normal.css?o5y9on");
+@import url("//art.unt.edu/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o5y9on");
+</style>
+  
+  <script type="text/javascript" src="//art.unt.edu/sites/all/libraries/respondjs/respond.min.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script type="text/javascript" src="//art.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="//art.unt.edu/misc/drupal.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/views_slideshow/js/views_slideshow.js?v=1.0"></script>
+<script type="text/javascript" src="//art.unt.edu/misc/ajax.js?v=7.43"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/wdc_scripts/wdc-drupal7.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/libraries/colorbox/jquery.colorbox-min.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/colorbox/js/colorbox.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/colorbox/styles/default/colorbox_style.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/colorbox/js/colorbox_load.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/libraries/jquery.cycle/jquery.cycle.all.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/tb_megamenu/js/tb-megamenu-frontend.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/tb_megamenu/js/tb-megamenu-touch.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/colorbox/js/colorbox_inline.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/misc/progress.js?v=7.43"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/modules/colorbox_node/colorbox_node.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/themes/omega/omega/js/jquery.formalize.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/themes/omega/omega/js/omega-mediaqueries.js?o5y9on"></script>
+<script type="text/javascript" src="//art.unt.edu/sites/all/themes/omega/omega/js/omega-equalheights.js?o5y9on"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight","theme_token":"C0NZ-_0hZsCUQQCGHUJyn4PHKJkWc6IuQ02aCup0f2Q","jquery_version":"1.7","js":{"sites\/all\/libraries\/respondjs\/respond.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/wdc_scripts\/wdc-drupal7.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"misc\/progress.js":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-equalheights.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/wdc_feeds\/wdc_feeds.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/themes\/greenlight\/ds_layouts\/ds_12col_homepage\/ds_12col_homepage.css":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.4.0\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"public:\/\/ctools\/css\/aa3fe1ecc9b70cea8b2ae2c2665e2ca4.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"https:\/\/fonts.googleapis.com\/css?family=Montserrat:regular\u0026subset=latin":1,"sites\/all\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight\/css\/title-1line-lockup.css":1,"normal::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"viewsSlideshow":{"on_view_at_the_galleries_slideshow-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowPager":{"on_view_at_the_galleries_slideshow-block":{"bottom":{"type":"viewsSlideshowPagerFields"}}},"viewsSlideshowPagerFields":{"on_view_at_the_galleries_slideshow-block":{"bottom":{"activatePauseOnHover":0}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_on_view_at_the_galleries_slideshow-block":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"on_view_at_the_galleries_slideshow-block","effect":"fade","transition_advanced":1,"timeout":8000,"speed":700,"delay":0,"sync":1,"random":0,"pause":0,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"urlIsAjaxTrusted":{"\/":true},"colorbox_node":{"width":"600px","height":"600px"},"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html front not-logged-in page-home">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">
+			<p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="http://www.unt.edu/images/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+						<li id="li-mo-home" class="first"><a href="/">Home</a></li>
+						<li id="li-mo-menu-quick-links" class="menu-toggler">Quick Links &raquo;
+<ul class="mo-menu-quick-links toggler-submenu mo-hide">
+<li><a href="https://my.unt.edu/">MyUNT</a></li>
+<li><a href="http://eagleconnect.unt.edu/">EagleConnect</a></li>
+<li><a href="http://webctvista.unt.edu/">Blackboard</a></li>
+<li><a href="http://www.unt.edu/find-people-department.htm">People</a></li>
+<li><a href="http://maps.unt.edu/">Maps</a></li>
+<li><a href="http://www.unt.edu/calendars-events.htm">Calendars</a></li>
+<li><a href="http://www.unt.edu/admissions.htm">Apply Now</a></li>
+</ul>
+</li>
+				  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+					<form method="get" action="http://www.google.com/u/unorthtexas" id="mobile-sform">
+						<label for="searchterms">Search the UNT web site:</label>
+						<input id="mobile-searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()" />
+						<input name="sa" type="submit" value="Search" id="mobile-sbutton"/>
+					</form>
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <section class="block block-menu block-menu-quick-links block-menu-menu-quick-links odd" id="block-menu-menu-quick-links">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Quick Links</h3>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+<li class="leaf"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+<li class="leaf"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+<li class="leaf"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+<li class="leaf"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+<li class="leaf"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+<li class="last leaf"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-dy2CqbK7hAmkk9EYR79TENC6-DJUlaQVHvlpSEixokc" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+  	<div id="unt">
+    	<a href="http://www.unt.edu">
+    		<img src="/sites/all/themes/greenlight/images/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark" />
+      </a>
+    </div>
+        <div class="branding-data clearfix">
+                        
+      <hgroup class="site-name-slogan">
+              
+        
+                	      
+          <h5 class="department-link"><a href="http://art.unt.edu">College of </a></h5>
+          
+          				
+                                
+        <h1 class="site-name"><a href="/" title="Home" class="active">Visual Arts &amp; Design</a></h1>
+                      </hgroup>
+      
+          </div>
+          </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+    <div class="block block-tb-megamenu block-main-menu block-tb-megamenu-main-menu odd block-without-title" id="block-tb-megamenu-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div  class="tb-megamenu tb-megamenu-main-menu" class="tb-megamenu tb-megamenu-main-menu">
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button">
+      <i class="fa fa-reorder"></i>
+    </button>
+    <div class="nav-collapse  always-show">
+    <ul  class="tb-megamenu-nav nav level-0 items-12" class="tb-megamenu-nav nav level-0 items-12">
+  <li  data-id="218" data-level="1" data-type="menu_item" data-class="first top" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega first top active active-trail" class="tb-megamenu-item level-1 mega first top active active-trail">
+  <a href="/" >
+        
+    Home          </a>
+  </li>
+
+<li  data-id="1237" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/departments"  class="dropdown-toggle">
+        
+    Departments          </a>
+  <div  data-class="" data-width="940" style="width: 940px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid" class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-1" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1" class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="1239" data-level="2" data-type="menu_item" data-class="department-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega department-title" class="tb-megamenu-item level-2 mega department-title">
+  <a href="/studio-art"  class="department-title" title="Studio Art">
+        
+    Studio Art          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-2" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1" class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="1240" data-level="2" data-type="menu_item" data-class="department-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega department-title" class="tb-megamenu-item level-2 mega department-title">
+  <a href="/design" >
+        
+    Design          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-3" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1" class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="1241" data-level="2" data-type="menu_item" data-class="department-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega department-title" class="tb-megamenu-item level-2 mega department-title">
+  <a href="/art-history-art-education" >
+        
+    Art Education & Art History          </a>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+
+<div  class="tb-megamenu-row row-fluid" class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-4" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="menu_block--9" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-menu-block block-9 block-menu-block-9 odd block-without-title" id="block-menu-block-9">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-9 menu-name-menu-studio-art parent-mlid-962 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-965"><a href="/studio-art/graduate-studies">Graduate Studies</a></li>
+<li class="leaf menu-mlid-966"><a href="/studio-art/ceramics">Ceramics</a></li>
+<li class="leaf menu-mlid-1289"><a href="/studio-art/core-drawing">Core Drawing</a></li>
+<li class="leaf menu-mlid-967"><a href="/studio-art/drawing-painting">Drawing &amp; Painting</a></li>
+<li class="leaf menu-mlid-968"><a href="/studio-art/fibers">Fibers</a></li>
+<li class="leaf menu-mlid-969"><a href="/studio-art/metalsmithing-jewelry">Metalsmithing &amp; Jewelry</a></li>
+<li class="leaf menu-mlid-970"><a href="/studio-art/new-media-art">New Media Art</a></li>
+<li class="leaf menu-mlid-971"><a href="/studio-art/photography">Photography</a></li>
+<li class="leaf menu-mlid-972"><a href="/studio-art/printmaking">Printmaking</a></li>
+<li class="leaf menu-mlid-973"><a href="/studio-art/sculpture">Sculpture</a></li>
+<li class="leaf active menu-mlid-1198"><a href="/" class="hide-link active">Hide this link</a></li>
+<li class="leaf menu-mlid-963"><a href="/studio-art/pre-major" class="not-program">Pre-major</a></li>
+<li class="leaf menu-mlid-964"><a href="/studio-art/undergraduate-application-process" class="not-program">Undergrad Application Process</a></li>
+<li class="leaf menu-mlid-984"><a href="/studio-art/scholarships" class="not-program">Scholarships</a></li>
+<li class="last leaf menu-mlid-1248"><a href="/people/studio-art" class="not-program">Faculty &amp; Staff</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="0" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-5" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="menu_block--10" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-menu-block block-10 block-menu-block-10 even block-without-title" id="block-menu-block-10">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-10 menu-name-menu-design parent-mlid-957 menu-level-1">
+  <ul class="menu"><li class="first leaf has-children menu-mlid-958"><a href="/design/communication-design">Communication Design</a></li>
+<li class="leaf has-children menu-mlid-959"><a href="/design/core-design">Core Design</a></li>
+<li class="leaf has-children menu-mlid-1001"><a href="/design/fashion-design">Fashion Design</a></li>
+<li class="leaf menu-mlid-1367"><a href="/art-history-art-education/interdisciplinary-art-design-studies">Interdisciplinary Art &amp; Design Studies</a></li>
+<li class="last leaf has-children menu-mlid-1017"><a href="/design/interior-design">Interior Design</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="0" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-6" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="menu_block--8" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-menu-block block-8 block-menu-block-8 odd block-without-title" id="block-menu-block-8">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-8 menu-name-menu-art-history-and-art-educati parent-mlid-944 menu-level-1">
+  <ul class="menu"><li class="first leaf has-children menu-mlid-946"><a href="/art-history-art-education/art-education-visual-art-studies">Art Education: Visual Art Studies</a></li>
+<li class="leaf has-children menu-mlid-945"><a href="/art-history-art-education/art-history">Art History</a></li>
+<li class="leaf menu-mlid-975"><a href="/art-history-art-education/art-museum-education">Art Museum Education</a></li>
+<li class="last leaf has-children menu-mlid-974"><a href="/art-history-art-education/interdisciplinary-art-design-studies">Interdisciplinary Art &amp; Design Studies</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="686" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/future-students"  class="dropdown-toggle">
+        
+    Future Students          </a>
+  <div  data-class="" data-width="940" style="width: 940px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid" class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-7" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-9" class="tb-megamenu-subnav mega-nav level-1 items-9">
+  <li  data-id="1229" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/future-students/inspiring-opportunities" >
+        
+    Inspiring Opportunities          </a>
+  </li>
+
+<li  data-id="1230" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/future-students/framework-success" >
+        
+    The Framework for Success          </a>
+  </li>
+
+<li  data-id="1231" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/future-students/bachelors-degree-programs" >
+        
+    Bachelor’s Degree Programs          </a>
+  </li>
+
+<li  data-id="1236" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/future-students/graduate-degree-programs" >
+        
+    Graduate Degree Programs          </a>
+  </li>
+
+<li  data-id="1233" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/future-students/paying-your-education" >
+        
+    Paying for Your Education          </a>
+  </li>
+
+<li  data-id="1234" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/future-students/finding-success-art-world" >
+        
+    Finding Success in the Art World          </a>
+  </li>
+
+<li  data-id="1235" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/future-students/take-next-steps-your-success" >
+        
+    Take the Next Steps for Your Success          </a>
+  </li>
+
+<li  data-id="1319" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/undergraduate-financial-aid" >
+        
+    Undergraduate Financial Aid          </a>
+  </li>
+
+<li  data-id="1373" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="https://art.unt.edu/about-cvad/tours" >
+        
+    CVAD Tours          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-8" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--19" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-19 block-block-19 even block-without-title" id="block-block-19">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Advising</h3>
+<p>Meet with our advisors to find out everything you'll need to know about being a UNT student.</p>
+</div>
+<div class="brown"><a href="/admissions/prospective-student-advising-orientation">Speak with an<br />advisor</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-9" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--26" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-26 block-block-26 odd block-without-title" id="block-block-26">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Announcements</h3>
+<p>For the latest accomplishments, events, and news in the CVAD community, see our announcements.</p>
+</div>
+<div class="brown"><a href="/articles/announcements/">See our latest<br />announcements</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="1232" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/admissions"  class="dropdown-toggle">
+        
+    Admissions          </a>
+  <div  data-class="" data-width="940" style="width: 940px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid" class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-10" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-5" class="tb-megamenu-subnav mega-nav level-1 items-5">
+  <li  data-id="1542" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/admissions/summerfall-registration-dates" >
+        
+    Spring Registration Dates          </a>
+  </li>
+
+<li  data-id="1187" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/admissions/prospective-student-advising-orientation" >
+        
+    Prospective Student Advising & Orientation          </a>
+  </li>
+
+<li  data-id="1185" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/admissions/general-admissions-pre-major-requirements" >
+        
+    General Admissions & Pre-major Requirements          </a>
+  </li>
+
+<li  data-id="1186" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/admissions/graduate-admissions-requirements" >
+        
+    Graduate Admissions Requirements          </a>
+  </li>
+
+<li  data-id="1184" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/admissions/contact-admissions" >
+        
+    Contact Admissions          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-11" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--19" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-19 block-block-19--2 even block-without-title" id="block-block-19--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Advising</h3>
+<p>Meet with our advisors to find out everything you'll need to know about being a UNT student.</p>
+</div>
+<div class="brown"><a href="/admissions/prospective-student-advising-orientation">Speak with an<br />advisor</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-12" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--11" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-11 block-block-11 odd block-without-title" id="block-block-11">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Financial Aid</h3>
+<p>Scholarships awarded by CVAD, the University of North Texas and the Honors College.</p>
+</div>
+<div class="brown"><a href="/current-students/undergraduate-financial-aid">Scholarships and <br />financial aid</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="688" data-level="1" data-type="menu_item" data-class="top" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega top mega-align-justify dropdown" class="tb-megamenu-item level-1 mega top mega-align-justify dropdown">
+  <a href="/current-students"  class="dropdown-toggle">
+        
+    Current Students          </a>
+  <div  data-class="" data-width="940" style="width: 940px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid" class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-13" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-7" class="tb-megamenu-subnav mega-nav level-1 items-7">
+  <li  data-id="1176" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/forms" >
+        
+    Forms          </a>
+  </li>
+
+<li  data-id="1177" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/academic-advising" >
+        
+    Academic Advising          </a>
+  </li>
+
+<li  data-id="1178" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/undergraduate-financial-aid" >
+        
+    Undergraduate Financial Aid          </a>
+  </li>
+
+<li  data-id="1179" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/graduate-financial-aid" >
+        
+    Graduate Financial Aid          </a>
+  </li>
+
+<li  data-id="1180" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/funding-awards-projects" >
+        
+    Funding & Awards for Student Projects & Activities          </a>
+  </li>
+
+<li  data-id="1181" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/student-organizations" >
+        
+    Student Organizations          </a>
+  </li>
+
+<li  data-id="1182" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/it-computer-labs" >
+        
+    IT & Computer Labs          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-14" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--11" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-11 block-block-11--2 even block-without-title" id="block-block-11--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Financial Aid</h3>
+<p>Scholarships awarded by CVAD, the University of North Texas and the Honors College.</p>
+</div>
+<div class="brown"><a href="/current-students/undergraduate-financial-aid">Scholarships and <br />financial aid</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-15" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--12" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-12 block-block-12 odd block-without-title" id="block-block-12">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Opportunities</h3>
+<p>Learn about scholarships, grants, gallery shows, calls for papers, and other opportunities to get engaged.</p>
+</div>
+<div class="brown"><a href="/articles/opportunities/">Opportunities for <br />students</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="1540" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/people/deans-office"  class="dropdown-toggle">
+        
+    People          </a>
+  <div  data-class="" data-width="940" style="width: 940px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid" class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-16" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-7" class="tb-megamenu-subnav mega-nav level-1 items-7">
+  <li  data-id="1293" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/people/deans-office" >
+        
+    Dean's Office          </a>
+  </li>
+
+<li  data-id="1220" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/people/art-history-art-education" >
+        
+    Art Education & Art History          </a>
+  </li>
+
+<li  data-id="1219" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/people/design" >
+        
+    Design          </a>
+  </li>
+
+<li  data-id="1218" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/people/studio-art" >
+        
+    Studio Art          </a>
+  </li>
+
+<li  data-id="1221" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/people/student-services" >
+        
+    Student Services          </a>
+  </li>
+
+<li  data-id="1223" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/people/computer-support" >
+        
+    IT Services          </a>
+  </li>
+
+<li  data-id="1222" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/people/galleries-institutes" >
+        
+    Galleries and Institutes          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-17" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--15" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-15 block-block-15 even block-without-title" id="block-block-15">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Newsletter</h3>
+<p>For the latest on CVAD students, faculty, and more, subscribe to our newsletter, <em>Stories from the Avant-Garde</em>.</p>
+</div>
+<div class="brown"><a href="/newsletter">Read our <br />newsletter</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-18" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--25" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-25 block-block-25 odd block-without-title" id="block-block-25">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Alumni</h3>
+<p>With over 14,000 alumni worldwide, the College of Visual Arts and Design has a strong network of former students.</p>
+</div>
+<div class="brown"><a href="/about-cvad/alumni">CVAD <br />Alumni</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="1183" data-level="1" data-type="menu_item" data-class="top" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega top" class="tb-megamenu-item level-1 mega top">
+  <a href="/galleries-institutes" >
+        
+    Galleries & Institutes          </a>
+  </li>
+
+<li  data-id="943" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/about-cvad"  class="dropdown-toggle">
+        
+    About CVAD          </a>
+  <div  data-class="" data-width="940" style="width: 940px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid" class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="4" data-hidewcol="0" id="tb-megamenu-column-19" class="tb-megamenu-column span4  mega-col-nav" class="tb-megamenu-column span4  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-10" class="tb-megamenu-subnav mega-nav level-1 items-10">
+  <li  data-id="1167" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/about-cvad/contact-cvad" >
+        
+    Contact CVAD          </a>
+  </li>
+
+<li  data-id="1168" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/about-cvad/mission" >
+        
+    Mission          </a>
+  </li>
+
+<li  data-id="1169" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/about-cvad/history-college" >
+        
+    History of the College          </a>
+  </li>
+
+<li  data-id="1170" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/about-cvad/deans-message" >
+        
+    Dean's Message          </a>
+  </li>
+
+<li  data-id="1172" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/about-cvad/alumni" >
+        
+    Alumni          </a>
+  </li>
+
+<li  data-id="1173" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/about-cvad/tours" >
+        
+    Tours          </a>
+  </li>
+
+<li  data-id="1275" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/social-media" >
+        
+    Social Media          </a>
+  </li>
+
+<li  data-id="1175" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/about-cvad/job-openings" >
+        
+    Job Openings          </a>
+  </li>
+
+<li  data-id="1447" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="/CVAD-shirts" >
+        
+    CVAD T-Shirts          </a>
+  </li>
+
+<li  data-id="1543" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega" class="tb-megamenu-item level-2 mega">
+  <a href="http://photos.art.unt.edu"  target="_blank" title="Photos">
+        
+    Photos          </a>
+  </li>
+</ul>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-20" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--14" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-14 block-block-14 even block-without-title" id="block-block-14">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Support CVAD</h3>
+<p>Supporting CVAD through endowments or the Annual Fund helps secure the arts for future generations.</p>
+</div>
+<div class="brown"><a href="/about-cvad/support-cvad">Support <br />CVAD</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="cta" data-width="4" data-hidewcol="" id="tb-megamenu-column-21" class="tb-megamenu-column span4  mega-col-nav cta" class="tb-megamenu-column span4  mega-col-nav cta">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--26" class="tb-megamenu-block tb-block tb-megamenu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div class="block block-block block-26 block-block-26--2 odd block-without-title" id="block-block-26--2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dropdown-feature">
+<h3>Announcements</h3>
+<p>For the latest accomplishments, events, and news in the CVAD community, see our announcements.</p>
+</div>
+<div class="brown"><a href="/articles/announcements/">See our latest<br />announcements</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
+  <div id="zone-preface" class="zone zone-preface clearfix container-12">
+    <div class="grid-12 region region-preface-first" id="region-preface-first">
+  <div class="region-inner region-preface-first-inner">
+    <div class="block block-views block-did-you-know-block block-views-did-you-know-block odd block-without-title" id="block-views-did-you-know-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-did-you-know view-id-did_you_know view-display-id-block view-dom-id-c6b78455290dfde8395810708912424f">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-fact-image">        <div class="field-content"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/did_you_know/public/11_582_stone_mirror_00004-copy.jpg?itok=BTXW6pJL" width="940" height="280" alt="" /></div>  </div>  
+  <div class="views-field views-field-body">    <span class="views-label views-label-body">Did You Know...</span>    <div class="field-content">Every major art museum in the DFW metroplex has an AEAH graduate on their staff.
+<br /></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-feature" id="region-feature">
+  <div class="region-inner region-feature-inner">
+    <div class="block block-block block-41 block-block-41 odd block-without-title" id="block-block-41">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="cta grid-12"> </div>
+<div class="cta grid-12"><a href="/article/announcements/2015/unt-ranks-high-among-top-graphic-design-schools">UNT Ranks High Among Top Graphic Design Schools...</a></div>
+<div class="cta grid-12"> </div>
+<div class="cta grid-12"><a href="article/announcements/2016/unt-commencement-schedule-spring-2016">UNT Commencement Schedule: Spring 2016...</a></div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <!--<h2 class="title" id="page-title"></h2>-->
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-homepage view-id-homepage view-display-id-page view-dom-id-5e3b4a1a87188f338dee9072847a3297 view-mode-default clearfix">
+  <!-- BEGIN Header -->
+<div class="ds-12col">
+      <div class="ds-header">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><p>The College of Visual Arts and Design (CVAD) at the University of North Texas (UNT) assumes a critical role in building our region into a world-renowned center for culture and education. CVAD fosters creative futures for its diverse student population and the area through rigorous arts-based education, arts- and client-based studio practice, scholarship and research.</p>
+ </div>  </div>  </div>
+    </div>
+  </div>
+<!-- END Header -->
+
+<!-- BEGIN Departments -->
+<div class="ds-3col-stacked-equal context-departments">
+      <div class="group-left departments-listing">
+      <div class="menu-block-wrapper menu-block-4 menu-name-menu-studio-art parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first last expanded menu-mlid-962"><a href="/studio-art">Studio Art</a><ul class="menu"><li class="first leaf menu-mlid-965"><a href="/studio-art/graduate-studies">Graduate Studies</a></li>
+<li class="leaf menu-mlid-966"><a href="/studio-art/ceramics">Ceramics</a></li>
+<li class="leaf menu-mlid-1289"><a href="/studio-art/core-drawing">Core Drawing</a></li>
+<li class="leaf menu-mlid-967"><a href="/studio-art/drawing-painting">Drawing &amp; Painting</a></li>
+<li class="leaf menu-mlid-968"><a href="/studio-art/fibers">Fibers</a></li>
+<li class="leaf menu-mlid-969"><a href="/studio-art/metalsmithing-jewelry">Metalsmithing &amp; Jewelry</a></li>
+<li class="leaf menu-mlid-970"><a href="/studio-art/new-media-art">New Media Art</a></li>
+<li class="leaf menu-mlid-971"><a href="/studio-art/photography">Photography</a></li>
+<li class="leaf menu-mlid-972"><a href="/studio-art/printmaking">Printmaking</a></li>
+<li class="leaf menu-mlid-973"><a href="/studio-art/sculpture">Sculpture</a></li>
+<li class="leaf active menu-mlid-1198"><a href="/" class="hide-link active">Hide this link</a></li>
+<li class="leaf menu-mlid-963"><a href="/studio-art/pre-major" class="not-program">Pre-major</a></li>
+<li class="leaf menu-mlid-964"><a href="/studio-art/undergraduate-application-process" class="not-program">Undergrad Application Process</a></li>
+<li class="leaf menu-mlid-984"><a href="/studio-art/scholarships" class="not-program">Scholarships</a></li>
+<li class="last leaf menu-mlid-1248"><a href="/people/studio-art" class="not-program">Faculty &amp; Staff</a></li>
+</ul></li>
+</ul></div>
+    </div>
+    
+      <div class="group-middle departments-listing">
+      <div class="menu-block-wrapper menu-block-3 menu-name-menu-design parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first last expanded menu-mlid-957"><a href="/design">Design</a><ul class="menu"><li class="first leaf has-children menu-mlid-958"><a href="/design/communication-design">Communication Design</a></li>
+<li class="leaf has-children menu-mlid-959"><a href="/design/core-design">Core Design</a></li>
+<li class="leaf has-children menu-mlid-1001"><a href="/design/fashion-design">Fashion Design</a></li>
+<li class="leaf menu-mlid-1367"><a href="/art-history-art-education/interdisciplinary-art-design-studies">Interdisciplinary Art &amp; Design Studies</a></li>
+<li class="last leaf has-children menu-mlid-1017"><a href="/design/interior-design">Interior Design</a></li>
+</ul></li>
+</ul></div>
+    </div>
+    
+      <div class="group-right departments-listing">
+      <div class="menu-block-wrapper menu-block-2 menu-name-menu-art-history-and-art-educati parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first last expanded menu-mlid-944"><a href="/art-history-art-education">Art Education &amp; Art History</a><ul class="menu"><li class="first leaf has-children menu-mlid-946"><a href="/art-history-art-education/art-education-visual-art-studies">Art Education: Visual Art Studies</a></li>
+<li class="leaf has-children menu-mlid-945"><a href="/art-history-art-education/art-history">Art History</a></li>
+<li class="leaf menu-mlid-975"><a href="/art-history-art-education/art-museum-education">Art Museum Education</a></li>
+<li class="last leaf has-children menu-mlid-974"><a href="/art-history-art-education/interdisciplinary-art-design-studies">Interdisciplinary Art &amp; Design Studies</a></li>
+</ul></li>
+</ul></div>
+    </div>
+  </div>
+<!-- END Departments -->
+
+<!-- BEGIN CTAs -->
+<div class="ds-12col">
+      <div class="ds-callstoaction">
+      <div class="cta-wrapper">
+<div class="cta"><a href="/admissions">Apply to <br /> CVAD</a></div>
+<div class="cta"><a href="/node/133">Take a tour of our <br />campus</a></div>
+<div class="cta"><a href="/social-media">CVAD on <br />social media</a></div>
+<div class="cta last"><a href="/about-cvad/support-cvad">Support<br /> CVAD</a></div>
+</div>
+    </div>
+  </div>
+<!-- END CTAs -->
+
+<!-- BEGIN Events -->
+<div class="ds-6col-stacked-equal">
+      <div class="group-left">
+      <h2 class="block-title">On view in the CVAD Galleries</h2><div class="view view-on-view-at-the-galleries-slideshow view-id-on_view_at_the_galleries_slideshow view-display-id-block view-dom-id-798f564ef1ec249f181aa67554cb692d">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_on_view_at_the_galleries_slideshow-block" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_on_view_at_the_galleries_slideshow-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_on_view_at_the_galleries_slideshow-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-field-onview-thumbnail">        <div class="field-content"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/on_view_at_the_galleries__300x240__/public/visit-gallery_cora.jpg?itok=jiZSF3DM" width="290" height="250" alt="" /></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="onview-caption">Weekly rotating exhibitions
+</div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_on_view_at_the_galleries_slideshow-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+    
+  <div class="views-field views-field-field-onview-thumbnail">        <div class="field-content"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/on_view_at_the_galleries__300x240__/public/SculptureSeniorsSpr2014b.jpg?itok=RpIX7ufu" width="290" height="250" alt="" /></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="onview-caption">Weekly rotating exhibitions
+</div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_on_view_at_the_galleries_slideshow-block_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd">
+    
+  <div class="views-field views-field-field-onview-thumbnail">        <div class="field-content"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/on_view_at_the_galleries__300x240__/public/lolacampbell_poster.jpeg?itok=EPbP8H5W" width="290" height="250" alt="" /></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="onview-caption">Art+Autism, through Jul 23
+</div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_on_view_at_the_galleries_slideshow-block_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-3 views-row-even views-row-last">
+    
+  <div class="views-field views-field-field-onview-thumbnail">        <div class="field-content"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/on_view_at_the_galleries__300x240__/public/Voertman2016.jpeg?itok=MeYUoUW-" width="290" height="250" alt="" /></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="onview-caption">56th Annual Voertman Student Art Competition
+</div></span>  </div></div>
+</div>
+</div>
+</div>
+          <div class="views-slideshow-controls-bottom clearfix">
+        <div id="widget_pager_bottom_on_view_at_the_galleries_slideshow-block" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_bottom_on_view_at_the_galleries_slideshow-block_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-first">
+  <div class="views-field-title">
+    <div class="views-content-title">
+    Cora Stafford Gallery  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_on_view_at_the_galleries_slideshow-block_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  <div class="views-field-title">
+    <div class="views-content-title">
+    Lightwell Gallery  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_on_view_at_the_galleries_slideshow-block_2" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  <div class="views-field-title">
+    <div class="views-content-title">
+    UNT ArtSpace Dallas  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_on_view_at_the_galleries_slideshow-block_3" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even views-row-last">
+  <div class="views-field-title">
+    <div class="views-content-title">
+    UNT Art Gallery  </div>
+</div>
+</div>
+</div>
+      </div>
+      </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a href="/galleries-institutes" class="read-more">CVAD Galleries &amp; Institutes »</a></p>    </div>
+  
+  
+</div>    </div>
+    
+      <div class="group-right">
+      <h2 class="block-title">Upcoming Events</h2><div class="view view-calendar view-id-calendar view-display-id-block_2 view-dom-id-6bab6bfd798a4a8343d4515a02811b18">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="events-date">
+ <div class="day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-31T00:00:00-05:00">31</span></div>
+ <div class="month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-31T00:00:00-05:00">May</span></div>
+</div></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/calendar/2016/due-toulouse-graduate-school-travel-grant-applications">Due: Toulouse Graduate School Travel Grant Applications</a></span>  </div>  
+  <div class="views-field views-field-calendar-event-item-date-2">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-05-31T00:00:00-05:00">12:00 am</span></div>  </div>  
+  <div class="views-field views-field-calendar-event-location">        <div class="field-content"><br clear="all" /></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="events-date">
+ <div class="day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-10-22T09:00:00-05:00">22</span></div>
+ <div class="month"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-10-22T09:00:00-05:00">Oct</span></div>
+</div></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/calendar/2016/2016-cvad-preview-day">2016 CVAD Preview Day</a></span>  </div>  
+  <div class="views-field views-field-calendar-event-item-date-2">        <div class="field-content"><span class="date-display-single"><div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2016-10-22T09:00:00-05:00">9:00 am</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2016-10-22T14:00:00-05:00">2:00 pm</span></div></span></div>  </div>  
+  <div class="views-field views-field-calendar-event-location">        <div class="field-content">ART Building, 1201 W. Hickory, Denton, TX</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/calendar" class="read-more">View our events calendar &raquo;</a>    </div>
+  
+  
+</div>    </div>
+  </div>
+<!-- END Events -->
+
+<!-- BEGIN Latest -->
+<div class="ds-3col-stacked-equal">
+      <div class="group-left">
+      <h2 class="block-title">Opportunities</h2><div class="view view-opportunities-and-announcements view-id-opportunities_and_announcements view-display-id-block view-dom-id-2ba46b4aedc21629f2555597fb58b1f8">
+            <div class="view-header">
+      <p>Learn about scholarships, grants, gallery shows, calls for papers, and other opportunities to get engaged.</p>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/opportunities/2016/spots-still-available-metals-1-during-summer-session-1">Spots still available in Metals 1 during Summer Session 1</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">May 10, 2016</span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/opportunities/2016/job-opportunity-museum-registrar-art-museum-south-texas">Job opportunity: Museum Registrar, Art Museum of South Texas</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Apr 27, 2016</span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/opportunities/2016/mellow-mushroom-mural-contest">Mellow Mushroom Mural Contest</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Apr 22, 2016</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/articles/opportunities/" class="read-more">Find more opportunities »</a>    </div>
+  
+  
+</div>    </div>
+    
+      <div class="group-middle">
+      <h2 class="block-title">Announcements</h2><div class="view view-opportunities-and-announcements view-id-opportunities_and_announcements view-display-id-block_1 view-dom-id-b8125a9857506a309130fa27b99c4ab3">
+            <div class="view-header">
+      <p>For the latest accomplishments, events, and news in the CVAD community, see our announcements.</p>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/announcements/2016/unt-artwear-behind-scenes">UNT ArtWear Behind the Scenes</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">May 10, 2016</span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/announcements/2016/elm-fork-exhibition-reception">Elm Fork Exhibition Reception</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Apr 27, 2016</span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/article/announcements/2016/carlson-awarded-2015-16-design-faculty-research-grants-aiga-design">Carlson Awarded 2015-16 Design Faculty Research Grants by AIGA Design Educators Community</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Apr 25, 2016</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/articles/announcements/" class="read-more">See all announcements »</a>    </div>
+  
+  
+</div>    </div>
+    
+      <div class="group-right">
+      <h2 class="block-title">Newsletter</h2><p>For in depth information on CVAD students, alumni, faculty &amp; activities, see to <em>Stories from the Avant-Garde</em>.</p>
+<div class="view-opportunities-and-announcements item-list">
+<ul><li class="views-row"><a title="Stories from the Avant-Garde Dec 2014" href="/sites/default/files/u45/AvantGarde12_18_14_Final.pdf">Stories from the Avant-Garde</a><br />December 2014</li>
+<li class="views-row"><a title="Stories from the Avant-Garde June 2014" href="/sites/default/files/u31/SFTAG_2014-06.pdf">Stories from the Avant-Garde</a><br />June 2014</li>
+<li class="views-row"><a title="Stories from the Avant-Garde Dec 2013" href="/sites/default/files/u31/SFTAG_December2013.pdf">Stories from the Avant-Garde</a><br />December 2013</li>
+</ul><p><a class="read-more" href="/newsletter">Read past issues »</a></p>
+</div>
+    </div>
+  </div>
+<!-- END Departments -->
+
+</div>
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-12 region region-postscript-wide" id="region-postscript-wide">
+  <div class="region-inner region-postscript-wide-inner">
+    <section class="block block-views block-accomplishments-block block-views-accomplishments-block odd" id="block-views-accomplishments-block">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Student accomplishments</h3>
+            
+    <div class="content clearfix">
+      <div class="view view-accomplishments view-id-accomplishments view-display-id-block view-dom-id-3d3a5f86b6f221ba73f604242f903d98">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomplishments-block-item-description">
+<h4 class="accomplishment-block-item-title">Interior Design 2</h4>
+Mixed-Use/Residential - Montgomery Plaza, Ft Worth, TX
+
+</div></span>  </div>  
+  <div class="views-field views-field-colorbox">        <span class="field-content"><a href="/accomplishment/interior-design-2?width=600px&amp;height=800px&amp;inline=true#colorbox-inline-1533524841" class="colorbox-inline" rel="gallery-accomplishments"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/accomplishment_thumbnail/public/InteriorDesign_StudentAccomplishment2.jpg?itok=mjeqZWrh" width="130" height="130" alt="" /></a><div style="display: none;"><div id="colorbox-inline-1533524841"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/accomplishment_full/public/InteriorDesign_StudentAccomplishment2.jpg?itok=4nMm_0rc" width="417" height="600" alt="" />
+<p>Design<br />
+Interior Design<br />
+<p>Mixed-Use/Residential - Montgomery Plaza, Ft Worth, TX</p>
+
+</p></div></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/accomplishments/students" class="read-more">All student accomplishments &raquo;</a>    </div>
+  
+  
+</div>    </div>
+  </div>
+</section><section class="block block-views block-accomplishments-block-4 block-views-accomplishments-block-4 even" id="block-views-accomplishments-block-4">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Alumni accomplishments</h3>
+            
+    <div class="content clearfix">
+      <div class="view view-accomplishments view-id-accomplishments view-display-id-block_4 view-dom-id-9dbcee3d441d6fc01a6501ac5da7db40">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div>        <span><div class="accomplishments-block-item-description">
+<h4 class="accomplishment-block-item-title">Allison Rogers</h4>
+Allison Rogers is the Community Engagement Coordinator at the Kimbell Art Museum. Her mission at the Kimbell is to develop inclusive educational programming that welcomes and honors the contributions of people of all abilities. She considers it a joy and a challenge every day to help people feel valued and find value in the Kimbell.
+
+</div></span>  </div>  
+  <div class="views-field views-field-colorbox">        <span class="field-content"><a href="/accomplishment/allison-rogers?width=600px&amp;height=800px&amp;inline=true#colorbox-inline-273922950" class="colorbox-inline" rel="gallery-accomplishments"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/accomplishment_thumbnail/public/Alli-Rogers.jpg?itok=LEpk-SOt" width="130" height="130" alt="" /></a><div style="display: none;"><div id="colorbox-inline-273922950"><img typeof="foaf:Image" src="//art.unt.edu/sites/default/files/styles/accomplishment_full/public/Alli-Rogers.jpg?itok=4kSLZQ5u" width="600" height="401" alt="" />
+<p>Art Education and Art History<br />
+Art Education<br />
+<p>Allison Rogers is the Community Engagement Coordinator at the Kimbell Art Museum. Her mission at the Kimbell is to develop inclusive educational programming that welcomes and honors the contributions of people of all abilities. She considers it a joy and a challenge every day to help people feel valued and find value in the Kimbell.</p>
+
+</p></div></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/accomplishments/alumni" class="read-more">All alumni accomplishments &raquo;</a>    </div>
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-3 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block block-2 block-block-2 odd block-without-title" id="block-block-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="footer-logo">
+<p>&nbsp;</p><p><a href="http://www.unt.edu"><img src="/sites/all/themes/greenlight/images/footer-logo-cvad.png" alt="College of Visual Arts & Design | University of North Texas"  /></a></p>
+</div>
+
+<div class="footer-tagline mobile"><div class="inside">
+<img src="/sites/all/themes/greenlight/images/greenlight-tagline-footer.png" alt="A Green Light to Greatness" />
+</div></div>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <div class="block block-block block-3 block-block-3 odd block-without-title" id="block-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3><div id="collapse-footer-1" class="footer-block-content footer-toggler-content"><p><strong>College of Visual Arts &amp; Design</strong><br /> 1201 W. Mulberry<br /> Denton, TX, 76201<br /> <a target="_blank" href="http://maps.unt.edu/places/1044/view">[map]</a></p></div>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-footer-third" id="region-footer-third">
+  <div class="region-inner region-footer-third-inner">
+    <div class="block block-block block-4 block-block-4 odd block-without-title" id="block-block-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+<p><strong>College of Visual Arts & Design</strong><br />
+University of North Texas<br />
+1155 Union Circle #305100<br />
+Denton, TX, 76203-5017</p>
+</div>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+  <div class="region-inner region-footer-fourth-inner">
+    <div class="block block-block block-5 block-block-5 odd block-without-title" id="block-block-5">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+<p><strong><a href="tel:+19405652855">(940) 565-2855</a></strong><br />
+General info: <strong><a href="mailto:cvad@unt.edu">cvad@unt.edu</a></strong><br />
+Website issues: <strong><a href="mailto:artsupport@unt.edu">artsupport@unt.edu</a></strong><br />
+</div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+  <div id="zone-state" class="zone zone-state clearfix container-12">
+    <div class="grid-12 region region-state-links" id="region-state-links">
+  <div class="region-inner region-state-links-inner">
+    <div class="block block-block block-6 block-block-6 odd block-without-title" id="block-block-6">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p class="updated">Site last updated on <span><?php echo date("F j, Y"); ?></span></p>
+
+<p class="sate-links">
+<a href="/disclaimer">Disclaimer</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu">UNT Home</a>
+</p>    </div>
+  </div>
+</div><div class="block block-block block-7 block-block-7 even block-without-title" id="block-block-7">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id="social-icons">
+<div class="social-icon"><a class="facebook" title="UNTCVAD on Facebook" href="https://www.facebook.com/UNTCVAD" target="_blank"><img src="/sites/all/themes/greenlight/images/social-media/icon-facebook.png" alt="UNTCVAD on Facebook" /></a></div>
+<div class="social-icon"><a class="twitter" title="UNTCVAD on Twitter" href="https://www.twitter.com/UNTCVAD" target="_blank"><img src="/sites/all/themes/greenlight/images/social-media/icon-twitter.png" alt="UNTCVAD on Twitter" /></a></div>
+<div class="social-icon"><a class="youtube" title="UNTCVAD on YouTube" href="https://www.youtube.com/channel/UCnfnY1ejMAMbKvlmWawDcHw" target="_blank"><img src="/sites/all/themes/greenlight/images/social-media/icon-youtube.png" alt="UNTCVAD on YouTube" /></a></div>
+<div class="social-icon"><a class="pinterest" title="UNTCVAD on Pinterest" href="https://www.pinterest.com/UNTCVAD/" target="_blank"><img src="/sites/default/files/u30/icon-pinterest.png" alt="UNTCVAD on Pinterest" width="50" height="50" /></a></div>
+<div class="social-icon"><a class="instagram" title="UNTCVAD on Instagram" href="https://www.instagram.com/UNTCVAD/" target="_blank"><img src="/sites/default/files/u30/instagram.png" alt="UNTCVAD on Instagram" width="50" height="50" /></a></div>
+<div class="social-icon"><a class="social-directory" title="UNT Social Media Directory" href="/social-media"><img src="/sites/all/themes/greenlight/images/social-media/icon-directory.png" alt="UNT Social Media Directory" /></a></div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+</body>
+</html>

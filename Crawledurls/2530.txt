@@ -1,0 +1,593 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Academic Divisions | College of Arts & Sciences</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/cas.unt.edu/themes/unt_cas/favicon.ico" type="image/x-icon" />
+	<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/libraries/jquery.ui/themes/base/jquery-ui.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/video/css/video.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/extlink/extlink.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_cycle/views_cycle.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_cycle/views_cycle_default.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/cas.unt.edu/themes/unt_cas/html-elements.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/tabs.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/messages.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/block-editing.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/wireframes.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/cas.unt.edu/themes/unt_cas/unt-cas.css?Z" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/cas.unt.edu/themes/unt_cas/print.css?Z" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/ie.css?Z" />
+<![endif]-->
+	<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?Z"></script>
+<script type="text/javascript" src="/misc/drupal.js?Z"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?Z"></script>
+<script type="text/javascript" src="/sites/all/modules/swftools/shared/lutman/jquery.flash.js?Z"></script>
+<script type="text/javascript" src="/sites/all/modules/video/js/video.js?Z"></script>
+<script type="text/javascript" src="/sites/all/modules/extlink/extlink.js?Z"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?Z"></script>
+<script type="text/javascript" src="/sites/cas.unt.edu/themes/unt_cas/webform_mods.js?Z"></script>
+<script type="text/javascript" src="/sites/cas.unt.edu/themes/unt_cas/css_mods.js?Z"></script>
+<script type="text/javascript" src="/sites/cas.unt.edu/themes/unt_cas/edit_mods.js?Z"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "extlink": { "extTarget": 0, "extClass": 0, "extSubdomains": 0, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+    $(document).ready(function(){
+      $('.lutman').flash(null, {version:7}, function(htmlOptions) {
+        htmlOptions = Drupal.parseJson($(this).attr('swftools'));
+        $(this).parent().prepend($.fn.flash.transform(htmlOptions));
+        $(this).remove();
+      });
+    });
+    
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10811100-1", "auto");ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+    <!--[if IE 6]>
+		<style>
+    		body {
+    			padding-bottom:245px;
+    		}
+            
+           #disclaimers {
+            padding:35px 35px 0 35px;
+            }
+        </style>
+	<![endif]-->
+    
+    <!-- is js enabled? -->
+		<noscript>
+   		 	<style type="text/css">
+   	    		.js-dependent { display:none; }
+    		</style>
+		</noscript>
+	<!-- / is js enabled? --> 
+    
+    <meta http-equiv="author" content="College of Arts and Sciences at the University of North Texas">
+	<META NAME="Description" CONTENT="The College of Arts and Sciences at the University of North Texas promotes excellence, diversity, and unity in instruction and research.">
+	<META NAME="Keywords" CONTENT="University of North Texas, College of Arts and Sciences, education, research, life, UNT, CAS, arts, sciences, liberal, liberal arts, studies, education, university, north, Texas, aerospace, afrotc, rotc, biology, biological, chemistry, communication, studies, department, jobs, careers, center, computer, technology, humanities, dance, theater, theatre, thespian, economics, engineering, English, foreign, language, literature, geography, history, journalism, materials, math, mathematics, philosophy, religion, physics, experiments, citizenship, politics, political, psychology, behavior, behavior, radio, television, film, production, produce, tv, broadcast, speech, hearing, audiology, women, computing, support, development, deans, student, students, administrative, affairs, curriculum, tenure, promotion, advising, scholarly, letters, scholar, excellence, unity, diversity">
+    
+</head>
+
+<body class="not-front not-logged-in no-sidebars page-departments section-departments">
+
+<div class="wrapper">
+
+	<div id="global-container">
+    
+        <!-- ###### BEGIN basic header code ###### -->
+    
+        <div id="top-navigation-container">
+            <div id="top-navigation">
+            	<div id="top-navigation-links">
+                <ul>
+                    <li><a href="http://my.unt.edu" title="MyUNT" >MyUNT</a></li>
+                    <li><a href="http://outlook.com/owa/untsystem.edu" title="UNT Webmail">Webmail</a></li>
+                    <li><a href="http://webctvista.unt.edu/" title="Blackboard" >Blackboard</a></li>
+                    <li><a href="http://eagleconnect.unt.edu/" title="EagleConnect" >EagleConnect</a></li>
+                    <li><a href="http://untranet.unt.edu" title="UNTranet" >UNTranet</a></li>
+                    <li><a href="http://www.unt.edu/pais/map/" title="Maps" >Maps</a></li>
+                    <li><a href="http://www.unt.edu/giving-unt.htm" title="Giving to UNT" >Giving to UNT</a></li>
+                                       
+                </ul>                  
+                </div>
+              
+                <div id="search">
+                	<span id="skip-nav-link"><a href="#skip-to-content" tabindex="1">Skip to content</a></span>
+               		<div class="search-form">
+                    	<form method="get" action="http://www.google.com/search">
+                    	<input type="text" class="search-bar" name="q"
+ maxlength="255" value="Search all UNT sites..." onfocus="if
+(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" />
+						<input type="image" src="/sites/cas.unt.edu/themes/unt_cas/images/searchbutton.png" name="sitesearch" value="unt.edu" />
+                        <input type="hidden" name="domains" value="unt.edu" />
+						<input style="display:none;" type="radio" name="sitesearch" value="unt.edu" checked="checked" />
+
+						</form>
+                    </div>
+				</div>
+          
+            </div> <!-- /#top-navigation -->
+        </div> <!-- /#top-navigation-container -->
+    
+        <div id="header-title-container">
+            <div id="header-title">
+                <div id="title-image">
+                    <a href="/" title="College of Arts &amp; Sciences" ><span id="title-link"></span></a>
+                </div> <!-- /#title-image -->
+                <a href="http://www.unt.edu" title="University of North Texas">
+                <img src="/sites/cas.unt.edu/themes/unt_cas/images/unt-mark.png" style="margin-right:20px; margin-top:20px; float:right; border:0;" alt="University of North Texas lettermark." /></a>
+            </div> <!-- /#header-title -->
+        </div> <!-- /#header-title-container -->
+    
+        <div class="clear"></div>
+    
+        <div id="main-navigation-container">
+            <div id="main-navigation">
+                                    <ul class="links primary-links"><li class="menu-251 first"><a href="/" title="College of Arts &amp; Sciences home page">Home</a></li>
+<li class="menu-1587 active-trail active"><a href="/departments" title="Departments" class="active">Academic Divisions</a></li>
+<li class="menu-8628"><a href="/centers-institutes" title="">Centers &amp; Institutes</a></li>
+<li class="menu-8629"><a href="/services" title="Support the College of Arts and Sciences ">Services</a></li>
+<li class="menu-3486"><a href="/people" title="Meet the Dean&#039;s Office">People</a></li>
+<li class="menu-254"><a href="/advising" title="Advising ">Advising</a></li>
+<li class="menu-507"><a href="/events" title="Calendar of events">Events</a></li>
+<li class="menu-415"><a href="/alumni" title="Alumni">Alumni</a></li>
+<li class="menu-8197"><a href="http://itservices.cas.unt.edu" title="">IT</a></li>
+<li class="menu-8657 last"><a href="/donate" title="Support the College of Arts and Sciences">Donate</a></li>
+</ul>                            </div> <!-- /#main-navigation -->
+        </div> <!-- /#main-navigation-container -->
+    
+        <div id="color-bar-container"></div>
+    
+        <!-- ###### END basic header code ###### -->
+    
+    
+        <!-- ###### BEGIN body code ###### -->
+    
+        <div id="body-container">
+            
+        <!-- ###### BEGIN sub page code ###### -->
+    
+            <div id="sub-body">
+            
+                                
+                                        
+                    
+                    
+                         
+                            <div id="sub-left-2column">
+                                
+
+<div id="block-menu_block-1" class="clear-block block block-menu_block">
+
+  <h2 class="block-title"><a href="/departments" title="Departments" class="active-trail active">Academic Divisions</a></h2>
+
+  <div class="content"><div class="menu-block-1 menu-name-primary-links parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="leaf first menu-mlid-1473"><a href="/departments/alphabetical" title="List All Departments">List All Departments</a></li>
+<li class="leaf menu-mlid-8577"><a href="/departments/academic-departments/communication-performance" title="">Communication, Media, and Performance</a></li>
+<li class="leaf menu-mlid-8578"><a href="/departments/academic-departments/humanities" title="">Humanities</a></li>
+<li class="leaf menu-mlid-8561"><a href="/departments/academic-departments/math-science" title="">Math and Science</a></li>
+<li class="leaf menu-mlid-8579"><a href="/departments/academic-departments/social" title="">Social Sciences</a></li>
+<li class="leaf menu-mlid-8642"><a href="/departments/rotc" title="">ROTC</a></li>
+<li class="leaf last menu-mlid-1474"><a href="/departments/interdisciplinary-programs" title="Interdisciplinary Programs">Interdisciplinary Programs</a></li>
+</ul></div>
+  
+</div>
+</div> <!-- /block-inner, /block -->
+                            </div> <!-- /#sub-left-2column -->
+                        
+                            <div id="sub-middle-2column">
+                                <div id="breadcrumbs">
+                                    <div class="breadcrumb"><a href="http://www.unt.edu">UNT</a> &raquo; <a href="http://www.unt.edu/colleges-schools.htm">Colleges &amp; Schools</a> &raquo; <a href="/" >CAS</a> &raquo; </div>                                </div> <!-- /#breadcrumbs -->
+                                
+                                                                    <div id="content-header">
+                                                                                                                            <h1 class="title">Academic Divisions</h1>
+                                                                                                                                                            </div> <!-- /#content-header -->
+                                                                
+                                <a name="skip-to-content"></a><div class="view view-departments view-id-departments view-display-id-page_2 department-grid view-dom-id-7">
+        <div class="view-header">
+      <p>View all departments in CAS <a href="/departments/alphabetical/">sorted by name</a>.</p>
+    </div>
+  
+  
+      <div class="attachment attachment-before">
+      <div class="view view-departments view-id-departments view-display-id-attachment_7 department-grid view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+      <h3>Communication, Media, and Performance
+<br><span class="coordination">Division coordinated by <a href="http://mediaarts.unt.edu/content/melinda-levin">Melinda Levin</a></span></h3>
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#communication-studies" class="button">View contact info</a> <a href="http://communication.unt.edu" class="button call">Visit website</a><strong>Communication Studies</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#dance-theatre" class="button">View contact info</a> <a href="http://danceandtheatre.unt.edu" class="button call">Visit website</a><strong>Dance &amp; Theatre</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#media-arts" class="button">View contact info</a> <a href="http://rtvf.unt.edu" class="button call">Visit website</a><strong>Media Arts</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even views-row-last">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#linguistics" class="button">View contact info</a> <a href="http://tc.unt.edu" class="button call">Visit website</a><strong>Technical Communication</strong> </span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> <div class="view view-departments view-id-departments view-display-id-attachment_8 department-grid view-dom-id-4">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+      <h3>Humanities
+<br><span class="coordination">Division coordinated by <a href="http://history.unt.edu/faculty/harold-tanner">Harold Tanner</a></span></h3>
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#english" class="button">View contact info</a> <a href="http://english.unt.edu" class="button call">Visit website</a><strong>English</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#history" class="button">View contact info</a> <a href="http://history.unt.edu" class="button call">Visit website</a><strong>History</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#philosophy-religion" class="button">View contact info</a> <a href="http://philosophy.unt.edu" class="button call">Visit website</a><strong>Philosophy and Religion</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#spanish" class="button">View contact info</a> <a href="http://worldlanguages.unt.edu/" class="button call">Visit website</a><strong>Spanish</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#world-languages" class="button">View contact info</a> <a href="http://worldlanguages.unt.edu" class="button call">Visit website</a><strong>World Languages, Literatures, and Cultures</strong> </span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> <div class="view view-departments view-id-departments view-display-id-attachment_9 department-grid view-dom-id-5">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+      <h3>Math and Science
+<br><span class="coordination">Division coordinated by <a href="http://biology.unt.edu/people/art-goven">Art Goven</a></span></h3>
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#biological-sciences" class="button">View contact info</a> <a href="http://biology.unt.edu" class="button call">Visit website</a><strong>Biological Sciences</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#chemistry" class="button">View contact info</a> <a href="http://chem.unt.edu" class="button call">Visit website</a><strong>Chemistry</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#mathematics" class="button">View contact info</a> <a href="http://math.unt.edu" class="button call">Visit website</a><strong>Mathematics</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even views-row-last">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#physics" class="button">View contact info</a> <a href="http://physics.unt.edu" class="button call">Visit website</a><strong>Physics</strong> </span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> <div class="view view-departments view-id-departments view-display-id-attachment_10 department-grid view-dom-id-6">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+      <h3>Social Sciences
+<br><span class="coordination">Division coordinated by <a href="http://politicalscience.unt.edu/faculty/107">Jim Meernik</a></span></h3>
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#anthropology" class="button">View contact info</a> <a href="http://anthropology.unt.edu/" class="button call">Visit website</a><strong>Anthropology</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#economics" class="button">View contact info</a> <a href="http://economics.unt.edu" class="button call">Visit website</a><strong>Economics</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#geography" class="button">View contact info</a> <a href="http://geography.unt.edu" class="button call">Visit website</a><strong>Geography and the Environment</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#political-science" class="button">View contact info</a> <a href="http://psci.unt.edu" class="button call">Visit website</a><strong>Political Science</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#psychology" class="button">View contact info</a> <a href="http://psychology.unt.edu" class="button call">Visit website</a><strong>Psychology</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even views-row-last">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#sociology" class="button">View contact info</a> <a href="http://sociology.unt.edu/" class="button call">Visit website</a><strong>Sociology</strong> </span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-departments view-id-departments view-display-id-attachment_5 department-grid view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+      <h3><div class="field-item">ROTC</div></h3>
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#aerospace-studies" class="button">View contact info</a> <a href="http://afrotc.unt.edu" class="button call">Visit website</a><strong>Aerospace Studies</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#military-science" class="button">View contact info</a> <a href="http://armyrotc.unt.edu" class="button call">Visit website</a><strong>Military Science</strong> </span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div> <div class="view view-departments view-id-departments view-display-id-attachment_6 department-grid view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+      <h3><div class="field-item">Interdisciplinary Programs</div></h3>
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#international-studies" class="button">View contact info</a> <a href="http://inst.unt.edu" class="button call">Visit website</a><strong>International Studies</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#jewish-studies" class="button">View contact info</a> <a href="http://jewishstudies.unt.edu" class="button call">Visit website</a><strong>Jewish and Israel Studies</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#oral-history" class="button">View contact info</a> <a href="http://oralhistory.unt.edu" class="button call">Visit website</a><strong>Oral History</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#tnt" class="button">View contact info</a> <a href="http://teachnorthtexas.unt.edu" class="button call">Visit website</a><strong>Teach North Texas</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#unt-chile" class="button">View contact info</a> <a href="http://chile.unt.edu" class="button call">Visit website</a><strong>UNT-Chile Sub-Antarctic Biocultural Conservation</strong> </span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even views-row-last">  
+  <div class="views-field-nothing">
+                <span class="field-content"><a href="departments/all-departments/#womens-studies" class="button">View contact info</a> <a href="http://wmst.unt.edu" class="button call">Visit website</a><strong>Women&#039;s and Gender Studies</strong> </span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+  
+  
+  
+</div>                                 
+                            </div> <!-- /#sub-middle-2column --> 
+                                            
+                    
+                    
+                                            
+                    
+                    
+                                                
+                        
+                    
+                                        
+                
+                
+                         
+                                
+    
+                
+                                
+                
+                
+                <div class="clear"></div>
+            
+                                
+            </div>  <!-- /#sub-body -->
+        
+        <!-- ###### END sub page code ###### -->
+        
+          
+        </div> <!-- /#body-container -->
+        
+        <!-- ###### END body code ###### -->
+        
+        
+    	<div id="push"></div>
+
+	</div> <!-- /#global-container -->
+    
+</div> <!-- /wrapper -->
+    
+    
+    
+<!-- ###### BEGIN footer code ###### -->
+   
+<div id="footer-container">
+	<div id="full-footer">
+    
+    
+		<div id="footer-left">
+			<div id="contact-info">
+            	<h1>Contact Information</h1>
+				        			
+
+<div id="block-block-1" class="clear-block block block-block">
+
+
+  <div class="content"><p><strong>U.S. Postal Address</strong> <em>University of North Texas</em> <em>College of Arts and Sciences</em> 1155 Union Circle #305189 Denton, TX 76203-5017</p>
+<p><strong>College of Arts &amp; Sciences Dean&#39;s Office</strong> General Academic Bldg 210 Phone: (940) 565-2497</p>
+<p><strong>CAS Office of Student Advising</strong> General Academic Bldg 220 Phone: (940) 565-2051 Fax: (940) 565-4529</p>
+<p><strong>CAS Information Technology Services</strong> General Academic Bldg 313 Phone: (940) 565-4498</p>
+  
+</div>
+</div> <!-- /block-inner, /block -->
+        					</div> <!-- /#contact-info -->
+        </div> <!-- /#footer-left -->
+        
+        
+        <div id="footer-middle">
+        	<div id="contact-us">
+            	<h1>Contact Us</h1>
+				For questions about the content on this website, <a href="mailto:casdean@unt.edu">contact us</a>.
+			</div> <!-- /#contact-us -->
+            
+			<div id="technical-problems">
+            	<h1>Technical Problems</h1>
+				For technical problems with this website, contact our <a href="mailto:webmaster@mail.cas.unt.edu">web designer</a>.
+			</div> <!-- /#technical-problems -->
+		</div> <!-- /#footer-middle -->
+        
+        
+		<div id="footer-right">
+			<div id="unt-system">
+            	<h1>University of North Texas System</h1>
+				<a href="http://www.unt.edu">UNT Home</a>
+				<br /><a href="http://untsystem.unt.edu/">UNT System</a>
+				<br /><a href="http://www.unt.edu/unt-dallas/">UNT Dallas Campus</a>
+				<br /><a href="http://www.hsc.unt.edu/">UNT Health Science Center</a>
+			</div> <!-- /#unt-system -->
+            
+			<div id="cas-system">
+            	<h1>College of Arts &amp; Sciences at UNT</h1>
+				<a href="/">CAS Home</a>
+				<br /><a href="/departments/">CAS Departments &amp; Programs</a>
+				<br /><a href="/advising/">CAS Student Advising</a>
+			</div> <!-- /#cas-system -->
+		</div> <!-- /#footer-right -->
+
+
+		<div class="clear"></div>
+    
+		<div id="disclaimers">
+			            
+							Site last updated on May 11, 2016.
+			            
+			<br />
+			<br /><a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> |
+            <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> |
+            <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> |
+            <a href="http://policy.unt.edu/policy/5-1">Web Accessibility Policy</a> |
+            <a href="http://www.unt.edu/state-texas.htm">State of Texas Online</a> |
+            <a href="http://emergency.unt.edu/">Emergency Preparedness</a>
+		</div> <!-- /#disclaimers -->
+    
+		<script type="text/javascript" src="/sites/all/libraries/jquery.cycle/jquery.cycle.all.min.js?Z"></script>
+<script type="text/javascript" src="/sites/all/modules/views_cycle/views_cycle.js?Z"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "views_cycle": { "views-cycle-department_facts-block_1": { "params": { "fx": "fade", "timeout": 9000, "speed": 800, "height": 0 }, "verticalPadding": 0 } } });
+//--><!]]>
+</script>
+        
+	</div> <!-- /#full-footer -->
+ 
+</div> <!-- /#footer-container -->
+      
+</body>
+</html>

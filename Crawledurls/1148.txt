@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- index.php -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>UNT Robotics, Game, and App Programming Summer Camps</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+<style>
+
+.GreyGradientFade {
+  background-image: url(images/grey_bg_gradient.jpg);
+  background-repeat: repeat-x;
+  background-position: top left
+}
+.miniTableBorders {
+	border-style: solid;
+	border-width: 1px;
+}
+.FancyLinks {
+	text-decoration: none;
+	color: #000000;
+}
+a img {
+    border: none;
+}
+</style>
+<style>
+div.paddeded 
+{
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin:0 auto;
+} 
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<!-- TOP BANNER. DONT TOUCH -->
+<table bgcolor="#C0C0C0" cellpadding="0" cellspacing="0" border-width="0" width="100%" height="10">
+	<tr>
+		<td><!-- top grey spacer --></td>
+	</tr>
+</table>
+<table background="images/green_fade.jpg" cellpadding="0" cellspacing="0" width="100%" height="120px">
+	<tr>
+		<td rowspan="3" style="width: 20px"><!-- left of eagle spacer -->&nbsp;</td>
+		<td rowspan="3" style="width: 225px"><a href="index.php">
+		<img height="81" src="images/cse_eagle.gif" width="192" alt="UNT eagle with CSE abbreviation" title="UNT eagle with CSE abbreviation"/></a></td>
+		<td height="40"><!-- top of cse logo spacer -->&nbsp;</td>
+		<td rowspan="3"><!-- far right side spacer -->&nbsp;</td>
+	</tr>
+	<tr>
+		<td style="width: 655px" height="48" nowrap><font color="#FFFFFF" face="Verdana" size="5"><b>UNT CSE 2016 Summer Camps</b></font></td>
+	</tr>
+	<tr>
+		<td background="images/top_empty_bar.jpg"><!-- bottom of cse logo spacer -->&nbsp;</td>
+	</tr>
+</table>
+<!-- END OF TOP BANNER. NOW YOU CAN KIND OF TOUCH -->
+
+
+<table cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+<!-- NAV MENU START -->
+		<td width="245" class="GreyGradientFade" style="background-color:#ECECEC" valign="top">
+		<div class="paddeded">
+		<h2><font face="Verdana" size="3">Navigation</font></h2>
+		<ul><font face="Verdana" size="2">
+		<li><font color="#007700">Main Menu</font></li>
+			<ul>
+			<li><a href="index.php" class="FancyLinks">Home</a></li>
+			</ul><br>
+		<li><font color="#007700">Current Camp</font></li>
+			<ul>
+			<li><a href="2016.html" class="FancyLinks">2016 Summer Camps</a></li>
+			</ul><br>
+		<li><font color="#007700">Registration Forms</font></li>
+			<ul>
+			<li><a href="https://www.eventbrite.com/e/unt-cse-summer-camps-2016-tickets-24755412104" class="FancyLinks">UNT CSE Summer Camp Registration</a></li>
+			</ul><br>
+		<li><font color="#007700">Past Camps</font></li>
+			<ul>
+			<li><a href="Past_Camps/2015.html" class="FancyLinks">2015 RoboCamp</a></li>
+			<li><a href="Past_Camps/2014.html" class="FancyLinks">2014 RoboCamp</a></li>
+			<li><a href="Past_Camps/2013.html" class="FancyLinks">2013 RoboCamp</a></li>
+			<li><a href="Past_Camps/2012.html" class="FancyLinks">2012 RoboCamp</a></li>
+			<li><a href="Past_Camps/2011.html" class="FancyLinks">2011 RoboCamp</a></li>
+			<li><a href="Past_Camps/2010.html" class="FancyLinks">2010 RoboCamp</a></li>
+			<li><a href="Past_Camps/2009.html" class="FancyLinks">2009 RoboCamp</a></li>
+			<li><a href="Past_Camps/2008.html" class="FancyLinks">2008 RoboCamp</a></li>
+			<li><a href="Past_Camps/2007.html" class="FancyLinks">2007 EChallenge Camp</a></li>
+			<li><a href="Past_Camps/2006.html" class="FancyLinks">2006 RoboCamp</a></li>
+			<li><a href="Past_Camps/2005.html" class="FancyLinks">2005 RoboCamp</a></li>
+			</ul><br>
+		<li><font color="#007700">Articles</font></li>
+			<ul>
+			<li><a href="http://www.cse.unt.edu/~dkeathly/robocamp/Education%20Week_%20Science%20Camp_%20Just%20for%20the%20Girls.pdf" class="FancyLinks" target="_blank">2007 Education Week Article</a></li>
+			</ul><br>
+		<li><font color="#007700">Resources</font></li>
+			<ul>
+			<li><a href="aboutus.html" class="FancyLinks">About Us</a></li>
+			<li><a href="resources.html" class="FancyLinks">Links</a></li>
+			</ul><br>
+		<li><font color="#007700">Admin</font></li>
+			<ul>
+			<li><a href="Admin/login.php" class="FancyLinks">Log In</a></li>
+		</font></ul></div>		
+		</td>
+<!-- NAV MENU STOP -->
+		<td width="655" bgcolor="#FFFFFF" valign="top"><div class="paddeded">
+
+<!-- MAIN CONTENT GOESE HERE!!! -->
+<font face="Verdana" size="2">
+<h2><font color="#007700">Welcome to UNT's 2016 Summer Camps</font></h2>
+
+
+
+<p>Learn About Robotics, Programming, and Game Development while having a great time!</p><br>
+
+<p>Registration period for all camps opens <b>April 18th </b>at 5:00 PM CDT.</p>
+Current system time: 05-11-2016 10:03:55
+
+<p>registration for <b>2016 UNT Summer Camps</b> is currently: <font color="green"><b>OPEN</b></font></p>
+The UNT Computer Science and Engineering Department is hosting a number of summer programs to introduce young women and young men ages 12 and up to game and mobile apps development. All camps run from 9AM - 4PM Monday through Friday. You may drop off as early as 8:30 and pick up as late as 4:30. 
+<p>
+There will be six camps this summer. Click <a href="2016.html" class="FancyLinks">2016 Summer Camps</a> for a complete listing of dates, locations, and ages. <b>You may only register for one camp per student.</b>
+<p> 
+Registration opened <b>April 18, 2016</b> at 5:00 PM CDT and will continue until all camps are full. Seats are available on a first come, first served basis. 
+<p>
+For all camps, unless otherwise listed, your student must have either been born in 2001 or earlier, orif they were born in 2002, their 14th birthday must occur <b>BEFORE</b> the FIRST DAY of the camp for which you are registering. The granting agencies require us to verify date of birth with a passport or copy of a birth certificate. Thank you for your cooperation. 
+</font>
+
+<!-- MAIN CONTENT ENDS HERE !!! -->
+</div></td>
+
+<!-- RIGHT HAND SIDE START -->
+		<td align="center" class="GreyGradientFade" style="background-color:#ECECEC" valign="top"><font face="Verdana" size="2"><br><img src="images/qr_code.png" alt="QR code" title="QR code"><p>Scan our QR code!</p></font><br>
+<p><img src="images/robo_logo.jpg" alt="RoboCamp logo" title="RoboCamp logo"></p></td>
+	</tr>
+<!-- RIGHT HAND SIDE END -->
+</table>
+
+<!-- copyright stuff -->
+<hr>
+<center>
+<font face="Verdana" size="1">
+<p>
+Copyright &copy; 2015 CSE UNT. All rights reserved.
+<br>
+<a target="_blank" href="http://www.unt.edu">University of North Texas</a> &nbsp; <a target="_blank" href="http://engineering.unt.edu/">UNT College of Engineering</a>
+</p>
+</font>
+</center>
+<!-- end copyright stuff -->
+</body>
+</html>

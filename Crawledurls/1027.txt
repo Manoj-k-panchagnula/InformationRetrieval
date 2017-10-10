@@ -1,0 +1,761 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortlink" href="/node/11" />
+<link rel="canonical" href="/meet-the-ambassadors" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+
+  <title>Meet the Ambassadors | Tours</title>  
+
+  <style type="text/css" media="all">@import url("//tours.unt.edu/modules/system/system.base.css?nvuxqj");
+@import url("//tours.unt.edu/modules/system/system.menus.css?nvuxqj");
+@import url("//tours.unt.edu/modules/system/system.messages.css?nvuxqj");
+@import url("//tours.unt.edu/modules/system/system.theme.css?nvuxqj");</style>
+<style type="text/css" media="all">@import url("//tours.unt.edu/sites/all/modules/ldap/ldap_user/ldap_user.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/calendar/css/calendar_multiday.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/date/date_api/date.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nvuxqj");
+@import url("//tours.unt.edu/modules/field/theme/field.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/fitvids/fitvids.css?nvuxqj");
+@import url("//tours.unt.edu/modules/node/node.css?nvuxqj");
+@import url("//tours.unt.edu/modules/search/search.css?nvuxqj");
+@import url("//tours.unt.edu/modules/user/user.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/views/css/views.css?nvuxqj");</style>
+<style type="text/css" media="all">@import url("//tours.unt.edu/sites/all/modules/colorbox/styles/default/colorbox_style.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/ctools/css/ctools.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/ldap/ldap_servers/ldap_servers.admin.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/modules/panels/css/panels.css?nvuxqj");</style>
+
+<!--[if IE]>
+<style type="text/css" media="all">@import url("//tours.unt.edu/sites/default/files/ctools/css/d41d8cd98f00b204e9800998ecf8427e.css?nvuxqj");</style>
+<![endif]-->
+<style type="text/css" media="print">@import url("//tours.unt.edu/sites/all/themes/greenlight/css/print.css?nvuxqj");</style>
+<style type="text/css" media="all">@import url("//tours.unt.edu/sites/all/themes/omega/alpha/css/alpha-reset.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/alpha/css/alpha-mobile.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/alpha/css/alpha-alpha.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/omega/css/formalize.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/omega/css/omega-text.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/omega/css/omega-branding.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/omega/css/omega-menu.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/omega/css/omega-forms.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/omega/css/omega-visuals.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight/css/global.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight_tours/css/global-tours.css?nvuxqj");</style>
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">@import url("//tours.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default-narrow.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight_tours/css/greenlight-tours-alpha-default.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight_tours/css/greenlight-tours-alpha-default-narrow.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?nvuxqj");</style>
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">@import url("//tours.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default-normal.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight_tours/css/greenlight-tours-alpha-default.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight_tours/css/greenlight-tours-alpha-default-normal.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?nvuxqj");</style>
+<style type="text/css" media="all and (min-width: 1220px)">@import url("//tours.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight/css/greenlight-alpha-default-wide.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight_tours/css/greenlight-tours-alpha-default.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/greenlight_tours/css/greenlight-tours-alpha-default-wide.css?nvuxqj");
+@import url("//tours.unt.edu/sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?nvuxqj");</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+
+  <script type="text/javascript" src="//tours.unt.edu/sites/all/libraries/respondjs/respond.min.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1"></script>
+<script type="text/javascript" src="//tours.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="//tours.unt.edu/misc/drupal.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/modules/equalheights/jquery.equalheights.js?v=1.0"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/libraries/fitvids/jquery.fitvids.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/modules/equalheights/equalheights.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/modules/fitvids/fitvids.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/libraries/colorbox/jquery.colorbox-min.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/modules/colorbox/js/colorbox.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/modules/colorbox/styles/default/colorbox_style.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/libraries/imagesloaded/jquery.imagesloaded.min.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/modules/google_analytics/googleanalytics.js?nvuxqj"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-368058-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/themes/greenlight/js/wdc-drupal7.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/themes/omega/omega/js/jquery.formalize.js?nvuxqj"></script>
+<script type="text/javascript" src="//tours.unt.edu/sites/all/themes/omega/omega/js/omega-mediaqueries.js?nvuxqj"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight_tours","theme_token":"F8T0yeGLXoNQORUOGBbfL7KxZXDDK3j2SimzmSBokQk","js":{"sites\/all\/libraries\/respondjs\/respond.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/equalheights\/jquery.equalheights.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/equalheights\/equalheights.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/libraries\/imagesloaded\/jquery.imagesloaded.min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/greenlight\/js\/wdc-drupal7.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/d41d8cd98f00b204e9800998ecf8427e.css":1,"sites\/all\/themes\/greenlight\/css\/print.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/all\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight_tours\/css\/global-tours.css":1,"narrow::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default-narrow.css":1,"narrow::sites\/all\/themes\/greenlight_tours\/css\/greenlight-tours-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight_tours\/css\/greenlight-tours-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"normal::sites\/all\/themes\/greenlight_tours\/css\/greenlight-tours-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight_tours\/css\/greenlight-tours-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default-wide.css":1,"wide::sites\/all\/themes\/greenlight_tours\/css\/greenlight-tours-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight_tours\/css\/greenlight-tours-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"equalHeightsModule":{"classes":[{"selector":".ambassador-teaser","mediaquery":"","minheight":"","maxheight":"","overflow":"hidden"}],"imagesloaded_ie8":1},"fitvids":{"custom_domains":[],"selectors":["body\r","fitvid\r",""],"simplifymarkup":1},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+
+<body class="html not-front not-logged-in page-node page-node- page-node-11 node-type-page context-meet-the-ambassadors">
+
+  <div id="skip-link">
+
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+
+  </div>
+
+  <span></span>
+
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">			
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="/sites/all/themes/greenlight/images/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+										  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+					<form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+						<div><div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search the UNT web site:</label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+							
+							<input type="hidden" name="form_build_id" value="form-ujfG-ZSE5TR-xFGXg80zrwpNYknILBw1CChPMxUbnHI">
+							<input type="hidden" name="form_token" value="DKL_c2lnzzWVVOH3_nQL-VLa_l3dRsfj8UBY06q-AvY">
+							<input type="hidden" name="form_id" value="search_block_form">
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>
+<div id="mobile-site-info" class="mobile"><div class="inside">
+	<!--div class="mobile-dept-name"></div-->
+	<div class="mobile-site-title"><a href="/">Tours</a></div>
+</div></div>
+  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+	  <ul class="quicklinks">
+	  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+			<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+			<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+			<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+			<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+			<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+			<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+		</ul>
+
+      </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-block block-20 block-block-20 odd block-without-title" id="block-block-20">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form method="get" action="/search-results" id="sform">
+<input id="searchBox" type="text" name="search" value="">
+<input name="sa" type="submit" value="Search" id="sbutton">
+<input name="cx" type="hidden" value="006162551747196560811:ueuk_ajzpuw"><input name="cof" type="hidden" value="FORID:11">
+</form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+
+  	<div id="unt">
+    	<a href="http://www.unt.edu">
+    		<img src="/sites/all/themes/greenlight/images/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark" />
+      </a>
+    </div>
+    
+			    <hgroup 
+		    	    <div class="branding-data clearfix">
+	
+				      
+					<h5 class="department-link department-name"><a href="http://www.unt.edu">University of North Texas</a></h5>
+								
+				<h1 class="site-name stacked"><a href="/" title="Tours" class="active">Tours</a></h1>
+	
+	    </div>
+	    </hgroup>
+		
+    
+  </div>
+</div>  </div>
+</div>
+	<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix desktop">
+		<div id="zone-menu" class="zone zone-menu clearfix container-12">
+			<div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+      </div>
+</div>		</div>
+	</div>
+</header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h2 class="title" id="page-title">Meet the Ambassadors</h2>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div  about="/meet-the-ambassadors" typeof="foaf:Document" id="node-page-11" class="ds-1col node node-page view-mode-meet_the_ambassadors node-not-promoted node-not-sticky author-bkk0001 odd clearfix clearfix">
+
+  
+  <p>The UNT Eagle Ambassadors are a group of students with various majors and backgrounds who are interested in promoting our school. We are here to give you a student's perspective about the university and help you find out what you need to know about UNT. You can email us at <a href="mailto:ambassador@unt.edu">ambassador@unt.edu</a>. If you want to email a question to a specific ambassador, just include his or her name in the email.</p>
+<section class="block block-views block-ambassadors-ambassadors-block block-views-ambassadors-ambassadors-block odd" id="block-views-ambassadors-ambassadors-block">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Ambassadors</h3>
+            
+    <div class="content clearfix">
+      <div class="view view-ambassadors view-id-ambassadors view-display-id-ambassadors_block view-dom-id-c882ad6659c7e2d82cbb916bd9bb5284">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/34"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/2014 Julissa.jpg?itok=8VjElTwH" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/34">Julissa </a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Ecology for Environmental Science</p>
+<p class="hometown"><span>Hometown:</span><br />Fort Worth, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/50"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/EA Pic 2.jpg?itok=b40O-xkT" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/50">Chiazo Akagha</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Vocal Music Education</p>
+<p class="hometown"><span>Hometown:</span><br />Plano, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/38"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/IMG_5250.JPG?itok=9cXHRJqk" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/38">Boluw Akinbayo</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Finance</p>
+<p class="hometown"><span>Hometown:</span><br />Houston, Texas</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/42"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/15_223_EA_Headshots_0037.jpg?itok=WXR7Mfmf" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/42">Jesse Anyalebechi</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Economics, Political Science</p>
+<p class="hometown"><span>Hometown:</span><br />Houston, Texas</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/40"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/cassie mae.jpg?itok=xSX2hXxi" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/40">Cassie Mae Benefield</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />English/Kinesiology</p>
+<p class="hometown"><span>Hometown:</span><br />Mason, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/43"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/15_223_EA_Headshots_0070.jpg?itok=HQT3uMFh" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/43">Joseph Benstowe</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Economics/Marketing</p>
+<p class="hometown"><span>Hometown:</span><br />Euless Tx</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/45"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/11990482_10153194441858553_8567071815934119022_n.jpg?itok=3_WctIoc" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/45">Lindsey Bynum</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Film/Sociology</p>
+<p class="hometown"><span>Hometown:</span><br />Katy, Tx</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/18"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/EAprofilejamie.JPG?itok=tnZsXclu" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/18">Jamie Carson</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Mechanical and Energy Engineering/Business Management</p>
+<p class="hometown"><span>Hometown:</span><br />Stephenville, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/48"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/12140898_10156204629425154_8957782194264569786_o.jpg?itok=bZhAw6CE" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/48">Bryant Collins</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Integrative Studies (Music, Dance, Theatre)/Photography</p>
+<p class="hometown"><span>Hometown:</span><br />Dallas, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/13"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/Delletia.jpg?itok=opX58AEJ" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/13">Delletia DeFlora</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Advertising Major, Marketing Minor</p>
+<p class="hometown"><span>Hometown:</span><br />Houston, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/28"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/Amanda 2.PNG?itok=6DC1wRik" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/28">Amanda Ekery</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Jazz Studies/ Music Theory</p>
+<p class="hometown"><span>Hometown:</span><br />El Paso, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/35"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/11143085_10206530834102781_1119636422249174126_n.jpg?itok=P0T4bpVa" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/35">Travis Green</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Marketing</p>
+<p class="hometown"><span>Hometown:</span><br />Willow Park, Texas</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/9"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/1979326_10151772853373039_4874406268311727057_o.jpg?itok=g7XwEc6y" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/9">Yong Hong Yun</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Double major in B.A. in Music, Aviation Logistics</p>
+<p class="hometown"><span>Hometown:</span><br />Malaysia</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/49"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/15_223_EA_Headshots_0116.jpg?itok=JldIpQ0r" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/49">Sarah Ibrahim</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Biology/Chemistry</p>
+<p class="hometown"><span>Hometown:</span><br />Flower Mound, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/27"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/10408505_10205721728576304_6397579644239975942_n.jpg?itok=ncZfU2Nf" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/27">Melissa Jefferson</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Broadcast Journalism/Communication Studies</p>
+<p class="hometown"><span>Hometown:</span><br />Dallas</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/46"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/Capture.PNG?itok=wAqYKQkv" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/46">Frazier Johnson</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />English Literature / Theater</p>
+<p class="hometown"><span>Hometown:</span><br />Olathe, KS</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/39"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/Devan Freaking Jones.PNG?itok=GBjKOt7A" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/39">Devan Jones</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Ecology for Environmental Science</p>
+<p class="hometown"><span>Hometown:</span><br />New Boston, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/37"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/Career Photo.jpg?itok=qKQG_2z5" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/37">Sabih Khan</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Finance/ Accounting</p>
+<p class="hometown"><span>Hometown:</span><br />Richardson, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/24"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/14_197_Cameron647.jpg?itok=NeLJ7ipr" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/24">Cameron Marti</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Geography/ Spanish</p>
+<p class="hometown"><span>Hometown:</span><br />Cinco Ranch</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/29"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/14_197_Parker657.jpg?itok=Vv91MrpW" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/29">Parker McNally</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Communication Studies/ History</p>
+<p class="hometown"><span>Hometown:</span><br />Sugar Land, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/41"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/15_223_EA_Headshots_0021.jpg?itok=gE_Std1Z" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/41">Shauna Pali</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Speech Pathology</p>
+<p class="hometown"><span>Hometown:</span><br />Dunedin, New Zealand</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/36"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/12509874_10207750992440197_8477746535179227287_n_0.jpg?itok=jyEIH0J9" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/36">Chelcie Parry</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Vocal Music Education/Theatre</p>
+<p class="hometown"><span>Hometown:</span><br />Stephenville, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/26"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/2014 Ryan.JPG?itok=fbiswJgj" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/26">Ryan Spradley</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Choral Music Education</p>
+<p class="hometown"><span>Hometown:</span><br />Tomball, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/22"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/Capture_0.PNG?itok=qfKOYNfy" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/22">Frank Telesca</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Aviation Logistics</p>
+<p class="hometown"><span>Hometown:</span><br />Spring, TX</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/25"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/2014 shelby.jpg?itok=70vzEHmg" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/25">Shelby Varley</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Interdisciplinary Studies (Early Childhood-6th Grade Education/K-12 Special Education)</p>
+<p class="hometown"><span>Hometown:</span><br />Clarksville, Texas</p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/47"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/11200875_123188248015583_8842241431750756716_n.jpg?itok=IBRVLavj" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/47">Shelby Watson</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Double Major in Fashion Merchandising and Digital Retailing, Marketing Minor </p>
+<p class="hometown"><span>Hometown:</span><br />Round Rock, Texas </p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+  <div>
+      
+  <div>        <span><div class="grid-4 ambassador-teaser"><div class="inside">
+
+<div class="ambassador-img ambassador-block"><div class="inside imagefit"><a href="/ambassador/ambassador/44"><img typeof="foaf:Image" src="//tours.unt.edu/sites/default/files/styles/ambassadors_grid/public/1010039_647272218634691_55586337_n_0.jpg?itok=F97I-Cmq" width="117" height="147" alt="" /></a></div></div>
+
+<div class="ambassador-details ambassador-block"><div class="inside">
+<h6 class="title"><a href="/ambassador/ambassador/44">Alondra Zuniga</a></h6>
+<p class="major-minor"><span>Major/minor:</span><br />Psychology/ Development and Family Studies</p>
+<p class="hometown"><span>Hometown:</span><br />Mesquite </p>
+</div></div>
+
+</div></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section></div>
+
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+	  <div id="zone-footer" class="zone zone-footer mcconnell clearfix container-12">
+	  
+	    <div class="grid-3 region region-footer-first" id="region-footer-first">
+			  <div class="region-inner region-footer-first-inner">
+			  
+					<div class="footer-logo unt-brand">
+						<p><a href="http://www.unt.edu"><img src="/sites/all/themes/greenlight/images/unt-stacked-mcconnell.png" alt="University of North Texas | UNT" /></a></p>
+					</div>
+					
+			  </div>
+			</div>
+			
+			<div class="grid-3 region region-footer-second" id="region-footer-second">
+			  <div class="region-inner region-footer-second-inner">
+			  
+					<h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3>
+					<div id="collapse-footer-1" class="footer-block-content footer-toggler-content">
+						<p><a href="http://maps.unt.edu/places/1017/view" target="_blank"><strong>Eagle Student Services Center</strong></a><br />
+						1147 Union Circle   <br />
+Denton, Texas 76203</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="grid-3 region region-footer-third" id="region-footer-third">
+			  <div class="region-inner region-footer-third-inner">
+			
+					<h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+										<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+						<p><strong>University of North Texas</strong><br />
+						1115 Union Circle #311277<br />
+Denton, TX 76203-5017</p>
+					</div>
+									</div>
+			</div>
+
+			<div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+			  <div class="region-inner region-footer-fourth-inner">
+			
+					<h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+					<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+						<p class="phone-lg"><a href="tel:+19405654104">940-565-4104</a></p>
+						<p><a href="mailto:ambassador@unt.edu">ambassador@unt.edu</a></p>
+					</div>
+					
+					<div class="footer-social"><div class="inside">
+													<div class="social-icon"><a href="https://www.facebook.com/northtexas" class="facebook" title="University of North Texas on facebook"><img src="/sites/all/themes/greenlight/images/icon-facebook.png" height="40px" width="40px" alt="facebook" /></a></div>
+												
+												  <div class="social-icon"><a href="https://twitter.com/UNTsocial" class="twitter" title="University of North Texas on twitter"><img src="/sites/all/themes/greenlight/images/icon-twitter.png" height="40px" width="40px" alt="twitter" /></a></div>
+														
+												  <div class="social-icon"><a href="https://www.youtube.com/user/universitynorthtexas" class="youtube" title="University of North Texas on YouTube"><img src="/sites/all/themes/greenlight/images/icon-youtube.png" height="40px" width="40px" alt="YouTube" /></a></div>
+													
+												
+													
+													
+													
+													
+						<div class="social-icon"><a href="http://m.unt.edu/" class="togo" title="UNT ToGo"><img src="/sites/all/themes/greenlight/images/icon-mobile.png" height="40px" width="40px" alt="UNT ToGo" /></a></div>
+						<div class="social-icon"><a href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory"><img src="/sites/all/themes/greenlight/images/icon-directory.png" height="40px" width="40px" alt="UNT Social Media Directory" /></a></div>
+					</div></div>
+			
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+	  <div id="zone-state" class="zone zone-state clearfix container-12">
+	  
+	    <div class="grid-12 region region-footer-state desktop" id="region-footer-state">
+			  <div class="region-inner region-footer-state-inner">
+		
+					<p class="updated">Site last updated on <span class="footer-updated">November 03, 2015</span></p>
+					
+					<p class="sate-links">
+					<a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+					<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+					<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+					<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+					<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+					<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+					<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+					<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu">UNT Home</a>
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="grid-12 region region-footer-state mobile" id="region-footer-state-mobile"><div class"region-inner region-footer-state-inner-mobile">
+					<p class="updated">Site last updated on <span class="footer-updated">November 03, 2015</span> | <span class="mobile-state-links"><a href="/state-links-resources">Important Links</a></span></p>
+			</div></div>
+			
+		</div>
+	</div>
+</footer>  </div>
+  
+
+
+
+
+<script src="https://secure.adnxs.com/px?id=300118&t=1" type="text/javascript"></script>
+<script src="https://secure.adnxs.com/seg?add=2019036&t=1" type="text/javascript"></script>
+
+<script type="text/javascript">
+adroll_adv_id = "D4K6J4QRGJDXNP2IAL2VGL";
+adroll_pix_id = "NN4RAOLOP5ALTKTD6PPI2M";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+
+<!-- Hotjar Tracking Code for tours.unt.edu -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:48162,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</body>
+</html>

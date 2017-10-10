@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="flyingworm.ico">
+<title>Lovelace Stadium - Home of North Texas Mean Green Softball</title>
+<meta name="description" content="Lovelace Stadium is the home of the University of North Texas Mean Green softball team.">
+<meta name="keywords" content="Lovelace Stadium, Mean Green softball, North Texas, University of North Texas, UNT, NT, Mean Green, Mean Green Athletics, Mean Green Sports, Mean Green softball, Denton, Go Mean Greeen">
+<meta http-equiv="charset" content="ISO-8859-1">
+<meta http-equiv="content-language" content="English">
+<meta http-equiv="vw96.object type" content="Document">
+<meta name="rating" content="general">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="4 weeks">
+
+<link rel=stylesheet href="insidepages.css" type="text/css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){
+      $('.fadein :first-child').fadeOut()
+         .next('img').fadeIn()
+         .end().appendTo('.fadein');}, 
+      3000);
+});
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+
+
+</head>
+<body>
+
+<div id="pagetop">&nbsp;</div>
+
+<div id="container">
+
+<div id="title"><a href="http://www.meangreenmap.com/home.html"><img src="title.png" width="430" height="107" alt="Mean Green Interactive Athletics Map" border="0"/></a></div>
+<div id="unt"><img src="unt.png" width="600" height="85" /></div>
+
+<div id="pagetoplinks">
+<h5><a href="http://www.meangreenmap.com/home.html#anchor" class="bannerlinks">Mean Green Village</a>
+ | <a href="http://www.meangreenmap.com/home.html" class="bannerlinks">Facilities North of 35E</a>
+ | <a href="http://www.meangreenmap.com/apogeeparking.html" class="bannerlinks">Apogee Stadium Parking</a>
+ | <a href="http://www.meangreenmap.com/superpitparking.html" class="bannerlinks">Super Pit Parking</a>
+ | <a href="http://www.unt.edu/transit/pdf/2011-2012%20ParkingMap.pdf" target="_new" class="bannerlinks">UNT Campus</a></h5>
+ </div>
+
+<div class="fadein">
+  <img src="images/lovelace/lovelace1.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace2.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace3.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace4.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace5.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace6.jpg" width="960" height="400" alt="North Texas Softball Lockerroom" />
+  <img src="images/lovelace/lovelace7.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace8.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace9.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  <img src="images/lovelace/lovelace10.jpg" width="960" height="400" alt="Lovelace Stadium" />
+  </div>
+<div id="photo1"><img src="images/lovelace/lovelace1.jpg" width="960" height="400" /></div>
+<div id="photo2"><img src="images/lovelace/lovelace2.jpg" width="960" height="400" /></div>
+<div id="photo3"><img src="images/lovelace/lovelace3.jpg" width="960" height="400" /></div>
+<div id="photo4"><img src="images/lovelace/lovelace4.jpg" width="960" height="400" /></div>
+<div id="photo5"><img src="images/lovelace/lovelace5.jpg" width="960" height="400" /></div>
+<div id="photo6"><img src="images/lovelace/lovelace6.jpg" width="960" height="400" /></div>
+<div id="photo7"><img src="images/lovelace/lovelace7.jpg" width="960" height="400" /></div>
+<div id="photo8"><img src="images/lovelace/lovelace8.jpg" width="960" height="400" /></div>
+<div id="photo9"><img src="images/lovelace/lovelace9.jpg" width="960" height="400" /></div>
+<div id="photo10"><img src="images/lovelace/lovelace10.jpg" width="960" height="400" /></div>
+<div id="thumbs">
+<a href="#"><img src="images/lovelace/thumb1.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo1','','show');MM_showHideLayers('photo2','','hide','photo3','','hide','photo4','','hide','photo5','','hide','photo6','','hide','photo7','','hide','photo8','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb2.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo2','','show');MM_showHideLayers('photo1','','hide','photo3','','hide','photo4','','hide','photo5','','hide','photo6','','hide','photo7','','hide','photo8','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb3.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo3','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo4','','hide','photo5','','hide','photo6','','hide','photo7','','hide','photo8','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb4.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo4','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo3','','hide','photo5','','hide','photo6','','hide','photo7','','hide','photo8','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb5.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo5','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo3','','hide','photo4','','hide','photo6','','hide','photo7','','hide','photo8','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb6.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo6','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo3','','hide','photo4','','hide','photo5','','hide','photo7','','hide','photo8','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb7.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo7','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo3','','hide','photo4','','hide','photo5','','hide','photo6','','hide','photo8','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb8.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo8','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo3','','hide','photo4','','hide','photo5','','hide','photo6','','hide','photo7','','hide','photo9','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb9.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo9','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo3','','hide','photo4','','hide','photo5','','hide','photo6','','hide','photo7','','hide','photo8','','hide','photo10','','hide')" /></a> 
+<a href="#"><img src="images/lovelace/thumb10.jpg" width="90" height="50" border="0" onclick="MM_showHideLayers('photo10','','show');MM_showHideLayers('photo1','','hide','photo2','','hide','photo3','','hide','photo4','','hide','photo5','','hide','photo6','','hide','photo7','','hide','photo8','','hide','photo9','','hide')" /></a>
+</div>
+
+<div id="main">
+<h1 class="softball">Lovelace Stadium</h1>
+<div class="sidebar">
+<p class="sideimage"><img src="sidebar-lovelace.jpg" width="350" height="250" alt="Lovelace Stadium" /></p>
+<h2>Lovelace Stadium</h2>
+<ul><li>Venue for: Softball</li>
+<li>Opened: 2007</li>
+<li>Seating capacity: 371</li>
+<li><a class="toplinks" href="http://www.northtexasfanguide.com/softball.html" target="_new">North Texas Softball Fan Guide</a></li>
+<li><a class="toplinks" href="http://www.meangreenmap.com/tickets-store.html" title="Mean Green Ticket Office" target="_new">Ticket Office</a></li>
+<li><a class="toplinks" href="http://www.unt.edu/transit/pdf/2011-2012%20ParkingMap.pdf" target="_new">Campus Map</a></li></ul>
+</div>
+
+<p>Lovelace Stadium, the Mean Green softball team’s home field, is one of the best facilities in the southwest – just ask Under Armour. Lovelace so impressed Under Armour that the sportswear company shot a commercial there in 2007 featuring three-time national player of the year Cat Osterman.</p>
+<div class="osterman">
+  <img src="catosterman.jpg" width="150" height="150" alt="Cat Osterman at Lovelace Stadium" />
+  <h6 class="caption">Cat Osterman at Lovelace Stadium for the Under Armour commercial shoot.</h6></div>
+<p>“We looked at a lot of softball fields in the Dallas area for this commercial,” said Rip Lambert of Producers Video Corporation, who directed the production. “This field stood out for me and our marketing people. It’s a top-notch facility. The field is pristine and had a real Texas feeling to it. The place is suited for the spot we are doing.”</p>
+<p>“It’s a nice field,” Osterman described Lovelace Stadium. “It gives a nice professional touch to what we are doing.”</p>
+<p>Lovelace Stadium, named for Don Lovelace, Denton businessman and president of Lily of the Desert Organic Aloeceuticals, was constructed as part of the Mean Green’s overhaul of its athletic facilities beginning in 2005 with the creation of the Mean Green Village. The first game was played at Lovelace Stadium in 2007, and the Sun Belt Conference Tournament was hosted there in 2009.</p>
+<p>Lovelace’s field combines natural elements with synthetic enhancements. The infield is clay-based dirt and the warning track is Hilltopper Infield Mix, which is soil stabilized with a polymer that allows to it to shrug off weather, keeping it from being too dusty or muddy, and creates a more consistent playing surface. The outfield is natural grass.</p>
+<p>The outfield wall is 200 feet from home plate down the left- and right-field lines and 220 feet to centerfield.</p>
+<p>Lovelace has a grandstand behind home plate topped by an enclosed, climate-controlled press box and flanked on the first- and third-base lines by covered dugouts.</p>
+<p>Like the neighboring Mean Green Soccer Complex, Lovelace uses a lighting system by Musco, the award-winning company which provided lighting for Yankee Stadium, the rededication of the Statue of Liberty, multiple Super Bowls and Olympic Games, the Winter X Games, Texas Motor Speedway and numerous feature films.</p>
+<p>The softball team also benefits from batting cages at the The "E" Practice Facility.</p>
+<br />
+ 
+<div id="index">
+<table width="960" border="0">
+  <tr>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/alumnipavilion.html">Alumni Pavilion</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/fouts.html">Fouts Field</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/sportsmedicine.html">Sports Medicine and Rehab</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/superpit.html">UNT Coliseum a/k/a The Super Pit</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/apogeestadium.html">Apogee Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/lovelacestadium.html">Lovelace Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/strength.html">Strength and Conditioning</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/trackfield.html">Track and Field offices</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/athleticcenter.html">Athletic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/soccer.html">Mean Green Soccer Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/academiccenter.html">Student-Athlete Academic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/victoryhall.html">Victory Hall student-athlete residences</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/snakepit.html">Bahnsen Gym (The Snake Pit)</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Mean Green Team Store</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/the-e.html">The "E" Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/volleyball.html">Volleyball Center and Office Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/champs.html">Champs Cafeteria</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/hallfame.html">North Texas Athletic Hall of Fame</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tailgating.html">The Hill tailgating area</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/waranch.html">Waranch Tennis Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/practice.html">Darrell Dickey Football Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/pohl.html">Pohl Recreation Center and PEB Natatorium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Ticket Office</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/turbines.html">Wind Turbines</a></h3></td>
+  </tr>
+</table>
+<br />
+<div id="siteby"><a href="http://www.meangreensports.com" target="_new"><img src="siteby.gif" width="318" height="59" border="0" alt="Site Designed By MeanGreenSports.com" /></a>
+<h4><a class="credits" href="http://www.meangreenmap.com/credits.html">credits</a></h4></div>
+</div>
+
+</div>
+</body>
+</html>

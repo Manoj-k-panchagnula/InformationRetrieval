@@ -1,0 +1,2323 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Orientation &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars og-context og-context-691   orientation">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/orientation"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-p6aaTh6eJ25RICwRhY540ddhATC-OhzhgUt2xmfBvQ4" value="form-p6aaTh6eJ25RICwRhY540ddhATC-OhzhgUt2xmfBvQ4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/orientation"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-p6aaTh6eJ25RICwRhY540ddhATC-OhzhgUt2xmfBvQ4" value="form-p6aaTh6eJ25RICwRhY540ddhATC-OhzhgUt2xmfBvQ4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-orientationtransitioning">Orientation & Transitioning</div> </div> -->
+			<h1 id="dls">Orientation</h1>
+						<div id="sub" class="subtitle">Provided by <a href="orientation-and-transition-programs">Orientation and Transition Programs</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="orientation-and-transition-programs">Orientation and Transition Programs</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="row tabbable">
+	<div class="col-md-2" style="left: -10px; top: 0px;">
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active">
+				<a data-toggle="tab" href="#about">About</a></li>
+			<li>
+				<a data-toggle="tab" href="#pre">Pre-Orientation</a></li>
+			<li>
+				<a data-toggle="tab" href="#freshmen">Freshman Orientation</a></li>
+			<li>
+				<a data-toggle="tab" href="#transfer">Transfer Orientation</a></li>
+			<li>
+				<a data-toggle="tab" href="#graduate">Graduate Orientation</a></li>
+			<li>
+				<a data-toggle="tab" href="#spring">Spring Orientation</a></li>
+			<li>
+				<a data-toggle="tab" href="#parent">Parent &amp; Family (Guests)</a></li>
+			<li>
+				<a data-toggle="tab" href="#espanol">Espa&ntilde;ol</a></li>
+			<li>
+				<a data-toggle="tab" href="#faq">FAQs</a></li>
+			<li>
+				<a data-toggle="tab" href="#leaders">Orientation Team Members</a></li>
+		</ul>
+	</div>
+
+	<div class="col-md-10" style="left: 3px; top: 1px; width: 69.89%; height: 19320.17%;">
+		<div class="tab-content">
+			<div class="tab-pane active" id="about">
+				<p class="text-headline">
+					Orientation is your first step in successfully transitioning to UNT. All new undergraduate students are required to attend an orientation session. For freshmen, orientation is a 3-day experience designed to help students and families become acclimated to the&nbsp;university. For transfer students, orientation is a 1-day experience with the same goal.</p>
+
+				<h1>
+					About Orientation</h1>
+
+				<p>
+					During orientation, you will have the chance to meet with faculty and staff from your respective college or school, new classmates, and current students. Orientation is a time for you to&nbsp;learn about campus resources, receive academic advising in preparation for registering for classes, and learn about UNT&#39;s traditions!&nbsp;You will leave orientation with a class schedule for the upcoming semester.</p>
+
+				<p>
+					New graduate students can learn more about your orientation options by <a href="http://www.tsgs.unt.edu/academics" target="_blank">clicking here</a>.</p>
+
+				<h2>
+					How to Register for Orientation</h2>
+
+				<p class="notice">
+					To register for an orientation session, log in at <a href="http://my.unt.edu " target="_blank">http://my.unt.edu </a>with your EUID and password. Once logged in, click <b>Student Center</b>, then <b>Register for Orientation</b>. Register early as sessions fill up quickly.&nbsp;If you have questions, please visit our <a href="http://transition.unt.edu/orientation/faqs" target="_self" title="Orientation FAQ">Frequently Asked Questions</a> page.</p>
+
+				<h2>
+					Additional Resources</h2>
+
+				<ul>
+					<li>
+						<a href="/sites/default/files/pdf/Orientation_2012%20permission%20to%20treat.pdf" target="_blank">Permission to Treat form</a> (pdf)</li>
+					<li>
+						<a href="http://healthcenter.unt.edu/immunization-requirements" target="_blank">Immunization&nbsp;requirements</a></li>
+					<li>
+						<a href="http://financialaid.unt.edu/orientation" target="_blank">Student Financial Aid and Scholarships</a></li>
+					<li>
+						<a href="http://essc.unt.edu/saucs/orientation.html" target="_blank">Student Accounting and Cashiering Services</a></li>
+					<li>
+						<a href="https://summer.unt.edu/" target="_blank">Summer School at UNT</a></li>
+					<li>
+						<a href="/sites/default/files/otp/pdf/international_students_regular_fall_2016_orientation_steps-_undergrads.pdf" target="_blank">Information for International Students</a> (pdf)</li>
+				</ul>
+			</div>
+
+			<div class="tab-pane" id="pre">
+				<div class="node" id="node-26">
+					<table border="0">
+						<tbody>
+							<tr>
+								<td>
+									<table border="0">
+										<tbody>
+											<tr>
+												<td>
+													<h1>
+														Pre-Orientation</h1>
+
+													<h2>
+														Freshman Pre-Orientation Homework</h2>
+
+													<p>
+														Prior to attending orientation, all new freshman are asked to complete pre-orientation homework to explore personal traits, interests and skills, and select a major. Although we realize some of you have already selected a major, this process can also help confirm your choice.</p>
+
+													<p>
+														<strong>Pre-Orientation Homework will be available to new freshman students beginning May&nbsp;1.</strong>&nbsp;</p>
+
+													<p>
+														Log on to <a href="https://learn.unt.edu" target="_blank">Blackboard Learn at learn.unt.edu</a> with your EUID (example: abc1234) and password. On the top menu bar, select &quot;organizations&quot; and then your pre-orientation homework should be visible. Your homework is due before your orientation session.</p>
+
+													<p>
+														Students are uploaded to the Pre-Orientation Homework site on a weekly basis beginning Friday, May 1.</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0">
+										<tbody>
+											<tr>
+												<td>
+													<h4>
+														ENGAGE</h4>
+
+													<p>
+														ENGAGE is an assessment that measures personal and academic skills necessary for success in college. All freshman students need to complete this survey PRIOR to checking in for orientation. This survey is a simple way for us to understand how you are feeling about starting college at UNT this fall. As you respond to the survey, be honest; there are no right or wrong responses. To complete ENGAGE,&nbsp;<a href="https://engage.act.org:443/ereg/pr/83/1/register/NYR-607-302" target="_blank">click here</a>.</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0">
+										<tbody>
+											<tr>
+												<td>
+													<h2>
+														Texas Success Initiative &mdash; State Requirements</h2>
+
+													<p>
+														The Texas Success Initiative (TSI) is a state statute requiring all undergraduate students - new students, transfer students, and international students - who enter a Texas public institution of higher education to either: (A) Demonstrate readiness for college level reading, writing, and mathematics before enrolling in college level academic coursework by achieving the statutory threshold(s) on the state approved readiness assessment or (B) Meet one of the conditions for exemption from the testing requirement. Students must satisfy all TSI requirements before receiving a baccalaureate degree. Students who do not meet TSI requirements must complete developmental coursework to attain TSI compliance.</p>
+
+													<p>
+														All first-year and transfer students coming into the University of North Texas must have completed TSI testing or have a documented exemption before registering for classes. Your registration will be delayed if TSI status cannot be determined before your orientation session.</p>
+
+													<p>
+														Exemptions:&nbsp;Students are exempt from readiness testing if&nbsp;<a href="http://learningcenter.unt.edu/froshexemption" target="_blank">any of these exemption categories</a>&nbsp;apply. If you are TSI Exempt, please send appropriate documentation to the Learning Center.</p>
+
+													<p>
+														If Not Exempt:&nbsp;UNT only accepts scores from the TSI Assessment for assessment purposes. The state-approved TSI Assessment measures college-level readiness in reading, mathematics, and writing. Minimum score thresholds required to demonstrate college readiness in each subject area.</p>
+
+													<p>
+														<strong>Learning Center</strong><br />
+														University of North Texas<br />
+														1155 Union Circle #305038<br />
+														Denton, TX 76203-5217<br />
+														Phone: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940.369.7006<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940.369.7006"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940.369.7006" /></a></span>&nbsp;<br />
+														Fax: <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940.369.8394<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940.369.8394"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940.369.8394" /></a></span><br />
+														E-mail:&nbsp;<a href="mailto:academic.readiness@unt.edu">academic.readiness@unt.edu</a></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0">
+										<tbody>
+											<tr>
+												<td>
+													<h2>
+														Placement Testing</h2>
+
+													<h3>
+														Math Placement</h3>
+
+													<p>
+														The Department of Mathematics will not place students into courses at or above the level of Calculus I (Math 1710) without prerequisite credit. Some examples of prerequisite credit include: scores of 3 or better on the Calculus AB or BC Advanced Placement Exam, a score of 5 or better on the higher-level IB mathematics exam, and dual credit in mathematics courses with Texas Common Course Numbers: Math 2312 or 2412.&nbsp; <strong>If you would like to take Calculus I as your initial course and do not have prior prerequisite credit, you will be required to take the placement assessment. If your major requires Calculus I, then you are strongly encouraged to take the placement assessment.</strong></p>
+
+													<p>
+														1. You are expected to take the online Pearson MyMathTest (MMT) prior to coming to your orientation session. Doing this is important for students majoring in Math, Engineering, Science, Economics (BS) and who need to start with Calculus I (Math 1710) or a Business major who needs Business Calculus (Math 1190).</p>
+
+													<p>
+														2. You will find how to access the test and other important information about the placement assessment on the Math Department&#39;s website. Go to: <a data-mce-href="http://www.math.unt.edu/" href="http://www.math.unt.edu/"><u><font color="#0066cc">www.math.unt.edu</font></u></a>, under &#39;Academics&#39; select &#39;Math Placement&#39;.</p>
+
+													<p>
+														<em><strong>More information can be found on your Pre-Orientation Homework at learn.unt.edu </strong></em></p>
+
+													<p>
+														<a href="http://math.unt.edu/academics/mathematics-placement" target="_blank">Visit the Math Department website for more information about Math Placement.</a></p>
+
+													<p>
+														<a href="/sites/default/files/otp/pdf/fo15_mathcoursesbymajor_summer_2015_5-7-15.pdf" target="_blank">Math Courses by Major</a> (pdf)</p>
+
+													<h4>
+														&nbsp;</h4>
+
+													<h3>
+														Foreign Language Placement and Exam for Credit</h3>
+
+													<p>
+														Students taking the Foreign Language Placement Exam may earn up to 12 hours of foreign language credit. The exam may be taken only once per language. Many degrees at UNT require some level of proficiency in a foreign language. Review your degree requirements at <a href="http://catalog.unt.edu/">catalog.unt.edu</a> to see if a foreign language is required.&nbsp;</p>
+
+													<p>
+														Exams for placement and/or credit are offered in&nbsp;Arabic, Chinese, French, German, Italian, Japanese, Latin, Russian, and Spanish.</p>
+
+													<p>
+														The foreign language placement/credit exam will be available each orientation session. For more information, contact the Department of World Languages and Literatures at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-2404<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2404"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-2404" /></a></span>.</p>
+
+													<h3>
+														Music Meeting During Orientation</h3>
+
+													<p>
+														All students who are not music majors but are interested in being involved with the College of Music during their time at UNT should plan to attend the music session during orientation to find out more about music minors, music classes for non music majors, auditioning for any of the performance groups, and the possibility of taking private lessons for the fall semester. We will also have information on applying and auditioning to be a music major available at this meeting. This session will be the morning of day 3.&nbsp;Students who have successfully auditioned for the College of Music do not attend this session.</p>
+
+													<p>
+														Anyone considering auditioning for a band, choir, or orchestra should also attend this session at this time. The information session will be available each orientation session. You will receive a schedule with specific times and locations at check in.</p>
+
+													<p>
+														AP Music Theory credit is not accepted at UNT; however, there are opportunities just prior to the beginning of the fall and spring semesters to receive credit by exam for Theory 1, 2, and Aural Skills 1 and 2.&nbsp;<a href="http://music.unt.edu/mhte/theory/cbe" target="_blank">Click here</a>&nbsp;for more information.</p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="freshmen">
+				<div class="node" id="node-27">
+					<h2>
+						About Freshman Orientation</h2>
+
+					<p>
+						Congratulations on your acceptance to the University of North Texas, and welcome to the Class of 2020!</p>
+
+					<p>
+						We are proud that you have chosen to become a member of our growing UNT family! In order to assist you with your transition to UNT, all new students are required to attend an orientation session. Orientation is a 3-day experience designed to help students and families become acclimated to the university.</p>
+
+					<p>
+						During orientation, you will have the chance to meet with faculty and staff, meet your new classmates, connect with current students, learn about university resources, and receive academic advising in preparation for registering for classes. You will leave orientation understanding our university&#39;s spirit and traditions, as well as what to expect as you embark on your college experience.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Freshman Orientation Summer/Fall 2016</h2>
+
+					<h3>
+						Dates</h3>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 1</h4>
+								</td>
+								<td>
+									Sunday, June 12 - Tuesday, June 14, 2016 - <strong><em>session closed</em></strong></td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 2</h4>
+								</td>
+								<td>
+									Wednesday, June 15 - Friday, June 17, 2016 - <strong><em>session closed</em></strong></td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 3</h4>
+								</td>
+								<td>
+									Sunday, June 19 - Tuesday, June 21, 2016&nbsp;- <strong><em>session closed</em></strong></td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 4</h4>
+								</td>
+								<td>
+									Wednesday, June 22 - Friday, June 24, 2016 - <strong><em>session closed</em></strong></td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 5</h4>
+								</td>
+								<td>
+									Tuesday, June 28 - Thursday, June 30, 2016</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 6</h4>
+								</td>
+								<td>
+									Tuesday, July 12 - Thursday, July 14, 2016</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 7</h4>
+								</td>
+								<td>
+									Monday, July 25 - Wednesday, July 27, 2016</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Freshman Orientation 8*</h4>
+								</td>
+								<td>
+									Wednesday, August 17 - Friday, August 19, 2016</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						*This session is reserved for out-of-state students, however, out-of-state students still have the option to attend earlier orientation sessions.</p>
+
+					<h3>
+						Fee</h3>
+
+					<p>
+						The student orientation fee is non-refundable. This fee includes lodging, meals (dinner on Day 1 through lunch on Day 3), materials, t-shirt, staffing, administrative costs, and year-long orientation activities.</p>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									<h4>
+										Regular Orientation Registration Fee (after May 1)</h4>
+								</td>
+								<td>
+									<h4>
+										$208.00</h4>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						<strong>NOTE</strong><strong>: Orientation Fees are non-refundable.</strong>&nbsp; To view our policy, visit our&nbsp;<a href="http://studentaffairs.unt.edu/orientation#faq" target="_blank"><u><font color="#0066cc">Frequently Asked Questions page</font></u></a>.</p>
+
+					<h3>
+						Housing</h3>
+
+					<p>
+						Part of the orientation experience is staying in the residence halls. Orientation participants&nbsp;will reside in Kerr Hall. <strong>Students attending orientation are required to spend both&nbsp;nights in the residence hall. </strong></p>
+
+					<h4>
+						Freshman Orientation 8</h4>
+
+					<p>
+						Housing is not provided for session 8. Students living on-campus will move in to their fall residence hall home on the first day of orientation. Students who will be commuting to and from campus in the fall will be expected to commute (or make other arrangements) during orientation.</p>
+
+					<hr />
+					<h2>
+						How to Register for Orientation</h2>
+
+					<h4>
+						Online</h4>
+
+					<p>
+						To register for an orientation session, log in at&nbsp;<a href="http://my.unt.edu">my.unt.edu</a>&nbsp;with your&nbsp;EUID&nbsp;and password. Once logged in, click&nbsp;<b>Student Center</b>, then&nbsp;<b>Register for Orientation</b>.</p>
+
+					<h4>
+						In Office</h4>
+
+					<p>
+						You can also register for orientation by visiting the office of Orientation and Transition Programs in the University Union, Suite 377 (1155 Union Circle). <em>Unfortunately we are unable to register students for orientation over the phone.</em></p>
+
+					<p>
+						<strong>NOTE: Payment arrangements for the orientation fee must be made at the time of registering for the session to secure your spot.</strong></p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Schedule at a Glance</h2>
+
+					<p>
+						The schedule below is specific to Freshman Orientation. Exact session locations will be shared upon check-in for orientation.</p>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 650px;">
+						<tbody>
+							<tr>
+								<td>
+									<h4>
+										Day 1</h4>
+								</td>
+								<td>
+									<h4>
+										Day 2</h4>
+								</td>
+								<td>
+									<h4>
+										Day 3</h4>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Check-In (from 1:00pm - 3:00pm at Kerr Hall - 1413 Maple Street)</td>
+								<td>
+									Breakfast</td>
+								<td>
+									Breakfast</td>
+							</tr>
+							<tr>
+								<td>
+									Resource Fair</td>
+								<td>
+									Small Group Meeting 3</td>
+								<td>
+									Small Group Meeting 5</td>
+							</tr>
+							<tr>
+								<td>
+									Orientation Welcome</td>
+								<td>
+									College Success Sessions</td>
+								<td>
+									<p>
+										Placement Testing</p>
+
+									<p>
+										<em>Math Placement</em></p>
+
+									<p>
+										<em>Foreign Language Placement/ Credit Exam</em></p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Small Group Meeting 1</td>
+								<td>
+									Lunch</td>
+								<td>
+									Open Houses</td>
+							</tr>
+							<tr>
+								<td>
+									Dinner and Life on Campus presentation</td>
+								<td>
+									Introduction to Academic Planning</td>
+								<td>
+									<p>
+										Specialized Advising</p>
+
+									<p>
+										<em>Pre-Health</em></p>
+
+									<p>
+										<em>Pre-Law</em></p>
+
+									<p>
+										<em>Music Meeting</em></p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Small Group Meeting 2</td>
+								<td>
+									Small Group Meeting 4</td>
+								<td>
+									Lunch</td>
+							</tr>
+							<tr>
+								<td>
+									Playfair</td>
+								<td>
+									Dinner and Student Organization Fair</td>
+								<td>
+									Academic Advising</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Get Connected</td>
+								<td>
+									Course Registration</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Go Mean Green event</td>
+								<td>
+									Orientation Check Out (from 2:00pm - 5:00pm)</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Dean of Students After Dark</td>
+								<td>
+									optional Residence Hall Tours</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Parking &amp; Transportation</h2>
+
+					<p>
+						Individuals attending orientation sessions 1-7 should park in the<a href="http://www.unt.edu/transit/pdf/UNTCampusMapPARKING.pdf" target="_blank"> </a><a href="http://www.unt.edu/transit/maps.html" target="_blank">&quot;R&quot; lot #31 at the corner of Avenue&nbsp;A and Eagle</a><a href="http://www.unt.edu/transit/pdf/UNTCampusMapPARKING.pdf" target="_blank"> Drive</a>, behind Kerr Hall. We recommend that you place your orientation confirmation card in the dashboard of your car to show proof of orientation registration.&nbsp;If you have misplaced your confirmation card, please print the confirmation email that will be sent the week leading up to your orientation session.&nbsp;</p>
+
+					<p>
+						Students driving to campus should refer to the&nbsp;<a href="https://maps.google.com/maps?output=classic&amp;dg=brw" style="background-color: rgb(215, 225, 219);" target="_blank">Google Maps</a>&nbsp;for driving directions.&nbsp;The office of Orientation and Transition Programs does not provide shuttles to and from the airport. Students flying into either DFW or Love Field airport are encouraged to make alternative arrangements.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Disability Accommodations</h2>
+
+					<p>
+						Students who intend to register with the Office of Disability Accommodation (ODA) under the terms of ADA/504, or who request accommodations during their orientation session, should check the appropriate boxes on their orientation registration materials. In addition, please contact ODA two weeks prior to your orientation date by calling <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-4323<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-4323"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-4323" /></a></span>, TTY callers 1-800-RELAY TX. Visit the ODA website at <a href="http://www.unt.edu/oda" target="_blank">www.unt.edu/oda</a>.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Additional Resources</h2>
+
+					<ul>
+						<li>
+							Freshman Orientation Booklet&nbsp;- available&nbsp;fall 2015&nbsp;(pdf)</li>
+						<li>
+							<a href="#pre" target="_blank">Pre-Orientation Homework</a></li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/freshman_orientation_packing_list.pdf" target="_blank">Freshman Orientation Packing List</a>&nbsp;(pdf)</li>
+						<li>
+							<a href="/sites/default/files/otp/pdf/freshman_orientation_map_2016_revised.pdf" target="_blank">Orientation Map</a>&nbsp;(pdf)</li>
+						<li>
+							<a href="http://healthcenter.unt.edu/immunization-requirements" target="_blank">Immunization Requirements</a></li>
+						<li>
+							<a href="https://transition.unt.edu/orientation/engage" target="_blank">ENGAGE survey</a></li>
+						<li>
+							Advising Guidebook</li>
+						<li>
+							<a href="/sites/default/files/pdf/AccommodationRequestforOrientation_6.23.14.pdf" target="_blank"><span style="color: rgb(0, 133, 62);">Request</span> Accommodations (example - Sign Language Interpreters) During Orientation for a Disability</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="transfer">
+				<div class="node" id="node-28">
+					<h2>
+						About Transfer Orientation</h2>
+
+					<p>
+						In order to assist you with your transition to UNT, all new students are required to attend an orientation session. For transfer students, orientation is a 1-day experience. All students are required to participate in all orientation activities. Plan to be on campus until 5:00 PM.</p>
+
+					<p>
+						<img alt="" src="/sites/default/files/otp/images/to14_checkin2_web.jpg" style="width: 600px; height: 175px;" /></p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Orientation&nbsp;- Summer/Fall 2016</h2>
+
+					<h3>
+						Dates</h3>
+
+					<div id="e">
+						<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+							<tbody>
+								<tr>
+									<td>
+										<h4>
+											Early Eagle/ Summer 1</h4>
+									</td>
+									<td>
+										Friday, May 6, 2016 - <strong><em>session closed</em></strong></td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Transfer Drive-In 1/ Summer 2</h4>
+									</td>
+									<td>
+										Friday, June 3, 2016 - <strong><em>session closed</em></strong></td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Transfer Drive-In 2/ Summer 3</h4>
+									</td>
+									<td>
+										Thursday, July 7, 2016</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Transfer Drive-In 3*</h4>
+									</td>
+									<td>
+										Friday, July 22, 2016</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Transfer Drive-In 4</h4>
+									</td>
+									<td>
+										Friday, July 29, 2016</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Transfer Drive-In 5</h4>
+									</td>
+									<td>
+										Friday, August 5, 2016</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Transfer Drive-In 6</h4>
+									</td>
+									<td>
+										Tuesday, August 16, 2016</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Late Orientation</h4>
+									</td>
+									<td>
+										Friday, August 26, 2016</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>
+							*No Advising for College of Music</p>
+
+						<h3>
+							Fee</h3>
+
+						<p>
+							The student orientation fee is non-refundable. This fee includes meals (light breakfast and lunch), materials, t-shirt, staffing, administrative costs, and year-long orientation activities.</p>
+
+						<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+							<tbody>
+								<tr>
+									<td>
+										<h4>
+											Early Orientation Registration Fee (before July 1)</h4>
+									</td>
+									<td>
+										<h4>
+											$63.00</h4>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h4>
+											Regular Orientation Registration Fee (after&nbsp;July 1)</h4>
+									</td>
+									<td>
+										<h4>
+											$80.00</h4>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p>
+							<strong>NOTE: Orientation Fees are non-refundable.</strong>&nbsp; To view our policy, visit our&nbsp;<a href="https://transition.unt.edu/orientation/faqs#b" target="_blank"><u><font color="#0066cc">Frequently Asked Questions page</font></u></a>.</p>
+					</div>
+
+					<div id="h">
+						<h2>
+							Schedule at a Glance</h2>
+
+						<div>
+							<p>
+								Room locations below are specific to summer/fall orientation:</p>
+
+							<div>
+								<table border="0" cellpadding="5" class="table">
+									<tbody>
+										<tr>
+											<td>
+												<strong>Time</strong></td>
+											<td>
+												<strong>Event</strong></td>
+											<td>
+												<strong>Location</strong></td>
+										</tr>
+										<tr>
+											<td>
+												8:00 AM - 9:00 AM</td>
+											<td>
+												Orientation Check-In</td>
+											<td>
+												University Union</td>
+										</tr>
+										<tr>
+											<td>
+												9:00 AM</td>
+											<td>
+												Orientation Welcome</td>
+											<td>
+												University Union</td>
+										</tr>
+										<tr>
+											<td>
+												10:00&nbsp;AM</td>
+											<td>
+												College and School Meetings</td>
+											<td>
+												various campus locations</td>
+										</tr>
+										<tr>
+											<td>
+												12:00 PM - 1:30 PM</td>
+											<td>
+												Lunch</td>
+											<td>
+												University Union</td>
+										</tr>
+										<tr>
+											<td>
+												12:00 PM - 1:00 PM</td>
+											<td>
+												<p>
+													College Success Sessions</p>
+											</td>
+											<td>
+												<p>
+													University Union, various rooms</p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												1:30 PM</td>
+											<td>
+												College and School Meetings continued</td>
+											<td>
+												various campus locations</td>
+										</tr>
+										<tr>
+											<td>
+												2:00 PM - 5:00 PM</td>
+											<td>
+												Course Registration</td>
+											<td>
+												computer lab locations (see flip chart)</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						How to Register for Orientation</h2>
+
+					<h4>
+						Online</h4>
+
+					<p>
+						To register for an orientation session, log in at&nbsp;<a href="http://my.unt.edu/"><u><font color="#0066cc">my.unt.edu</font></u></a>&nbsp;with your&nbsp;EUID&nbsp;and password. Once logged in, click&nbsp;<b>Student Center</b>, then&nbsp;<b>Register for Orientation</b>.</p>
+
+					<h4>
+						In Office</h4>
+
+					<p>
+						You can also register for orientation by visiting the office of Orientation and Transition Programs in the University Union, Suite 377 (1155 Union Circle). <em>Unfortunately we are unable to register students for orientation over the phone.</em></p>
+
+					<p>
+						<strong>NOTE: Payment arrangements for the orientation fee must be made at the time of registering for the session to secure your spot.</strong></p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Parking &amp; Transportation</h2>
+
+					<p>
+						<strong>Individuals attending transfer orientation should park in P-lots #38, 39, 40, 54 or 55. Do not park in reserved or metered parking. </strong>We recommend that you place your orientation confirmation card in the dashboard of your car to show proof of orientation registration.&nbsp;If you have misplaced your confirmation card, please print the confirmation email that will be sent the week leading up to your orientation session.&nbsp;</p>
+
+					<p>
+						Students driving to campus should refer to the&nbsp;<a href="https://maps.google.com/maps?output=classic&amp;dg=brw" style="background-color: rgb(215, 225, 219);" target="_blank"><u><font color="#0066cc">Google Maps</font></u></a>&nbsp;for driving directions.&nbsp;The office of Orientation and Transition Programs does not provide shuttles to and from the airport. Students flying into either DFW or Love Field airport are encouraged to make alternative arrangements.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Disability Accommodations</h2>
+
+					<p>
+						Students who intend to register with the Office of Disability Accommodation (ODA) under the terms of ADA/504, or who request accommodations during their orientation session, should check the appropriate boxes on their orientation registration materials. In addition, please contact ODA two weeks prior to your orientation date by calling <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-4323<a href="http://studentaffairs.unt.edu/orientation#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-4323"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-4323" /></a></span>, TTY callers 1-800-RELAY TX. Visit the ODA website at <a href="http://www.unt.edu/oda" target="_blank"><u><font color="#0066cc">www.unt.edu/oda</font></u></a>.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Resources</h2>
+
+					<div>
+						<ul>
+							<li>
+								Transfer Orientation Brochure -&nbsp;available October 2015&nbsp;(pdf)</li>
+							<li>
+								Summer Orientation Brochure -&nbsp;available October 2015&nbsp;(pdf)</li>
+							<li>
+								<a href="http://essc.unt.edu/registrar/articulation/" target="_blank">Transfer Guide</a></li>
+							<li>
+								<a href="/sites/default/files/otp/pdf/transfer_orientation_map_2016.pdf" target="_blank">Orientation Map</a>&nbsp;(pdf)</li>
+							<li>
+								<a href="http://healthcenter.unt.edu/immunization-requirements" target="_blank">Immunization Requirements</a></li>
+							<li>
+								Advising Guidebook</li>
+							<li>
+								<a href="/sites/default/files/pdf/AccommodationRequestforOrientation_6.23.14.pdf" target="_blank"><span style="color: rgb(0, 133, 62);">Request</span> Accommodations (Example - Sign Language Interpreters) During Orientation for a Disability</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--The Graduate Student TAB-->
+
+			<div class="tab-pane" id="graduate">
+				<div class="node" id="node-29">
+					<h1>
+						Graduate Student Orientation</h1>
+
+					<p>
+						Congratulations on your acceptance to graduate school at the University of North Texas (UNT)!</p>
+
+					<p>
+						After being accepted, you&rsquo;ll want to attend a graduate student orientation.&nbsp; Although not required, you&rsquo;ll learn about UNT, your program and resources available to you, among other things.&nbsp; You&rsquo;ll also need to check with your department, as they usually have a required departmental orientation.&nbsp; Check back for information on future orientation sessions as they become available.</p>
+
+					<p>
+						If you&#39;re a new Teaching Assistant or Teaching Fellow, you should attend the <a href="http://clear.unt.edu/tes" target="_blank">Teaching Excellence Seminar</a>.</p>
+
+					<p>
+						In addition, international students are required to attend orientation through UNT-International.&nbsp; Review items that will be covered by the <a href="http://international.unt.edu/content/international-student-orientation-process" target="_blank">UNT-International Welcome Center</a>.</p>
+				</div>
+			</div>
+			<!--The PARENT TAB-->
+
+			<div class="tab-pane" id="parent">
+				<div class="node" id="node-29">
+					<h2>
+						About Parent &amp; Family Orientation</h2>
+
+					<p>
+						Parent Orientation is a special program that runs concurrently with&nbsp;<a href="http://transition.unt.edu/orientation/freshman" target="_blank">Freshman Orientation</a>&nbsp;and&nbsp;<a href="http://transition.unt.edu/orientation/transfer" target="_blank">Transfer Orientation</a>. The program is optional, but highly encouraged. Through this program, parents have the opportunity to learn about the many offices, services, academic programs UNT has to offer.</p>
+
+					<p>
+						While you and your student will have separate itineraries, you will be together several times throughout the experience. Due to the nature of our programs, parents will not be able to attend college meetings, advising sessions, and actual registration. Parents will, however, be able to join their student after registration to help take care of payment if necessary.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2 class="inlet">
+						Register for Parent &amp; Family Orientation</h2>
+
+					<p class="inlet">
+						Registration for Freshman and Transfer Parent and Family Orientation is available now! Please choose your session type and complete the appropriate form. Please note that your orientation reservation is not final until payment has been made.</p>
+
+					<h4 class="inlet">
+						Online Registration Forms:</h4>
+
+					<p class="inlet">
+						<a class="button" href="https://studentaffairs.unt.edu/form/parent-orientation-freshmen-summer-registration" target="_blank">Freshman Parent and Family Orientation</a>&nbsp; <a class="button" href="https://studentaffairs.unt.edu/form/parent-orientation-summer-transfer-registration" target="_blank">Transfer Parent and Family Orientation</a></p>
+
+					<h4 class="inlet">
+						&nbsp;</h4>
+
+					<h4 class="inlet">
+						Paper Registration Forms:</h4>
+
+					<p class="inlet">
+						<a href="/sites/default/files/otp/pdf/2016_freshman_parent_orientation_registration_form.pdf" target="_blank">Freshman Parent and Family Orientation</a> (pdf)</p>
+
+					<p class="inlet">
+						&nbsp;</p>
+
+					<h2>
+						Orientation Fee</h2>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									<h4>
+										Freshman Parent &amp; Family Orientation</h4>
+								</td>
+								<td>
+									<h4>
+										Transfer Parent &amp; Family Orientation</h4>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										First Parent or Family Member</h4>
+								</td>
+								<td>
+									$115.00</td>
+								<td>
+									$45.00</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Second Parent or Family Member</h4>
+								</td>
+								<td>
+									$85.00</td>
+								<td>
+									$45.00</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Children (17 years old and younger)</h4>
+								</td>
+								<td>
+									$60.00</td>
+								<td>
+									$45.00</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Alumni Discount Available</h4>
+								</td>
+								<td>
+									-$5.00</td>
+								<td>
+									-$5.00</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										What&#39;s included in the cost?</h4>
+								</td>
+								<td>
+									Fee includes meals (dinner on day 1 through lunch on day 3), materials, t-shirt, staffing, administrative costs, and year-long parent programs activities.</td>
+								<td>
+									Fee includes meals (light breakfast and a boxed lunch), materials, t-shirt, staffing, administrative costs, and year-long parent programs activities.</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>
+						&nbsp;</h4>
+
+					<p>
+						<strong>NOTE: Orientation Fees are non-refundable.</strong>&nbsp; To view our policy, visit our&nbsp;<a href="https://transition.unt.edu/orientation/faqs#b" target="_blank">Frequently Asked Questions page</a>.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Orientation Housing</h2>
+
+					<p>
+						<strong>On-campus Housing is available during Freshman Parent and Family Orientation sessions 1-7 only.</strong> Guests can choose to stay in Honors Hall, the official residence hall for Parent and Family Orientation, for a small fee. <em>On-campus housing options are not available during session 8.</em></p>
+
+					<h4>
+						Prices and Options Include:</h4>
+
+					<ul>
+						<li>
+							<strong>Parent Orientation - Housing - One Night - Double, Price: $30.00</strong>
+
+							<ul>
+								<li>
+									This option provides <u>one guest</u> a private room with a shared common living space and bathroom for <u>one night</u></li>
+							</ul>
+						</li>
+						<li>
+							<strong>Parent Orientation - Housing - One Night - Private, Price: $60.00</strong>
+							<ul>
+								<li>
+									This option provides <u>one guest</u> a private room and private bathroom for <u>one night</u></li>
+							</ul>
+						</li>
+						<li>
+							<strong>Parent Orientation - Housing - Two Nights - Double, Price: $60.00</strong>
+							<ul>
+								<li>
+									This option provides <u>one guest</u> a private room with a shared common living space and bathroom for <u>two nights.</u> Guests will be assigned a suitemate at random</li>
+							</ul>
+						</li>
+						<li>
+							<strong>Parent Orientation - Housing - Two Nights - Private, Price: $120.00</strong>
+							<ul>
+								<li>
+									This option is for <u>parties of 2</u> who would like to share a suite for <u>two nights</u>. The suite includes two individual rooms, a bathroom and a common space.</li>
+							</ul>
+						</li>
+					</ul>
+
+					<p>
+						<em>Note: Parties large than 2 are encouraged to contact the Orientation and Transition Programs office at 940-565-4198 for assistance making on-campus housing reservations.</em></p>
+
+					<p>
+						&nbsp;</p>
+
+					<h4>
+						Off Campus Housing Option for Parents &amp; Families</h4>
+
+					<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+						<tbody>
+							<tr>
+								<td>
+									<strong>Hotel</strong></td>
+								<td>
+									<strong>Location</strong></td>
+								<td>
+									<strong>Discount</strong></td>
+							</tr>
+							<tr>
+								<td>
+									<span style="background-color: rgb(241, 241, 241);">Denton Hampton Inn &amp; Suites</span></td>
+								<td>
+									<span style="background-color: rgb(241, 241, 241);">1</span><span style="background-color: rgb(241, 241, 241);">513 Centre Place Drive, Denton TX</span></td>
+								<td>
+									<span style="background-color: rgb(241, 241, 241);">UNT Friends and Family Rate ($89 for standard ro</span><span style="background-color: rgb(241, 241, 241);">om; $99 fo</span><span style="background-color: rgb(241, 241, 241);">r s</span><span style="background-color: rgb(241, 241, 241);">uite)</span></td>
+							</tr>
+							<tr>
+								<td>
+									Comfort Inn Denton</td>
+								<td>
+									<p>
+										450 Mesa Dr, Denton, TX</p>
+								</td>
+								<td>
+									<a href="http://www.choicehotels.com/texas/denton/comfort-inn-hotels/txa96/rates?ratePlanCode=LRUNT" target="_blank">UNT Friends and Family Rate (Starting at $65 + Tax)</a></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Schedule at a Glance</h2>
+
+					<h4>
+						Freshman Parent &amp; Family Orientation</h4>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									<h4>
+										Day 1</h4>
+								</td>
+								<td>
+									<h4>
+										Day 2</h4>
+								</td>
+								<td>
+									<h4>
+										Day 3</h4>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Check-In (from 1:00pm - 3:00pm at the Coliseum, Gate A - 600 Avenue D)</td>
+								<td>
+									Breakfast and Morning Announcements</td>
+								<td>
+									Breakfast and Morning Announcements</td>
+							</tr>
+							<tr>
+								<td>
+									Resource Fair</td>
+								<td>
+									Academic Expectations at UNT</td>
+								<td>
+									Tips for Adjusting to Life With a College Student</td>
+							</tr>
+							<tr>
+								<td>
+									Orientation Welcome</td>
+								<td>
+									College Success Sessions</td>
+								<td>
+									Real Talk: A Student Panel</td>
+							</tr>
+							<tr>
+								<td>
+									Dinner and Life on Campus presentation</td>
+								<td>
+									Lunch</td>
+								<td>
+									Parent Breakout Sessions</td>
+							</tr>
+							<tr>
+								<td>
+									<p>
+										Musical Performance</p>
+								</td>
+								<td>
+									Academic Deans Session</td>
+								<td>
+									Lunch</td>
+							</tr>
+							<tr>
+								<td>
+									optional Walking Tour</td>
+								<td>
+									Student Services Presentations and Coffee Break</td>
+								<td>
+									optional Residence Hall Tours</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Regional Parent Meet &amp; Greet</td>
+								<td>
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Dinner and Student Organization Fair</td>
+								<td>
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Parent Reception at Apogee Stadium</td>
+								<td>
+									&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>
+						&nbsp;</h4>
+
+					<h4>
+						Transfer&nbsp;Parent &amp; Family Orientation</h4>
+
+					<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+						<tbody>
+							<tr>
+								<td>
+									8:00am - 9:00am - Check In at the&nbsp;University Union&nbsp;(1155 Union Circle)</td>
+							</tr>
+							<tr>
+								<td>
+									Orientation Welcome</td>
+							</tr>
+							<tr>
+								<td>
+									Parent Orientation Welcome</td>
+							</tr>
+							<tr>
+								<td>
+									Student Services Presentations</td>
+							</tr>
+							<tr>
+								<td>
+									Lunch</td>
+							</tr>
+							<tr>
+								<td>
+									College Success Sessions</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Parking &amp; Transportation</h2>
+
+					<h4>
+						Freshman Parent &amp; Family Orientation</h4>
+
+					<p>
+						Parking&nbsp;during freshman orientation&nbsp;will be available on campus in&nbsp;R-lot 27 at the corner of Highland Street and Avenue D.&nbsp;&nbsp;Please make sure&nbsp;not to&nbsp;park in reserved or metered parking. <a href="http://www.unt.edu/transit/pdf/UNTCampusMapPARKINGSpring.pdf" target="_blank">Click here to view the UNT campus parking map</a> (pdf).</p>
+
+					<h4>
+						&nbsp;</h4>
+
+					<h4>
+						Transfer&nbsp;Parent &amp; Family Orientation</h4>
+
+					<p>
+						Parking&nbsp;during transfer&nbsp;orientation&nbsp;will be available on campus in&nbsp;P-lots&nbsp;40, 54, and 55.&nbsp;&nbsp;Please make sure&nbsp;not to&nbsp;park in reserved or metered parking.&nbsp;<a href="http://www.unt.edu/transit/pdf/UNTCampusMapPARKINGSpring.pdf" target="_blank">Click here to view the UNT campus parking map</a>&nbsp;(pdf).</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h3>
+						What Parents &amp; Families are Saying about the Program</h3>
+
+					<p>
+						&quot;We thoroughly enjoyed the parent orientation last week; your team did an excellent job. It was informative and we feel a part of UNT now. Our son, had a great time also, he was ready to come &#39;yesterday&#39;. The weekend validated his decision to attend UNT.&quot;</p>
+
+					<p>
+						Parents listening to presentation on the first day of Parent Orientation.</p>
+
+					<p>
+						&quot;I was impressed with the &#39;care&#39; factor from all of the faculty and staff we met. We feel as though we are leaving our daughter in excellent hands. Everyone seemed interested in the success of my student and your support of her is impressive! Go Mean Green! We are so thrilled with the large available resources for the students.&quot;</p>
+
+					<p>
+						&quot;Having all of the information readily available was wonderful, but more importantly, I so appreciate how EVERYONE working on the orientation was so helpful and willing to find answers to my questions.&quot;</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h3>
+						Frequently Asked Questions</h3>
+
+					<div>
+						<p>
+							See&nbsp;<a href="/sites/default/files/pdf/PO%20FAQs_5-30-14.pdf" target="_blank">Parent Orientation FAQ</a>&nbsp;(pdf).</p>
+					</div>
+				</div>
+			</div>
+			<!--The SPRING ORIENTATION TAB-->
+
+			<div class="tab-pane" id="spring">
+				<div class="node" id="node-40">
+					<h1>
+						Spring 2016 Orientation</h1>
+
+					<p>
+						In order to assist you with your transition to UNT, all new students are required to attend an orientation session. For students admitted for the spring semester, orientation is a 1-day experience. All students are required to participate in all orientation activities. Plan to be on campus until 5:00 PM.</p>
+
+					<h4>
+						Transient/Visiting Students</h4>
+
+					<p>
+						Transient/visiting students are students attending UNT for a semester with plans to transfer those credits back to their home institution. All new transient/visiting students are expected to complete an online orientation module through <a href="https://learn.unt.edu/" target="_blank">Blackboard Learn</a>. The module for spring transient/visiting students will open the morning of Early Eagle (Friday, December 4).&nbsp;Transient/visiting students should&nbsp;log on to <a href="https://learn.unt.edu/" target="_blank">learn.unt.edu</a> with their campus EUID and password to access the online orientation module. Course registration will not be available for transient/visiting students until 6:00pm on Friday, December 4.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Orientation Dates</h2>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									Early Eagle</td>
+								<td>
+									Friday, December 4, 2015 - session closed</td>
+								<td>
+									Auditorium Building (1401 W. Hickory Street)</td>
+							</tr>
+							<tr>
+								<td>
+									Drive-In 1</td>
+								<td>
+									Friday, January 8, 2016 - session closed</td>
+								<td>
+									University Union (1155 Union Circle)</td>
+							</tr>
+							<tr>
+								<td>
+									Drive-In 2</td>
+								<td>
+									Tuesday, January 12, 2016</td>
+								<td>
+									University Union (1155 Union Circle)</td>
+							</tr>
+							<tr>
+								<td>
+									Late Orientation</td>
+								<td>
+									Friday, January 15, 2016</td>
+								<td>
+									University Union (1155 Union Circle)</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Orientation Fee</h2>
+
+					<p>
+						The fee for Spring Orientation is $58.</p>
+
+					<p>
+						This fee includes all materials, meals, a t-shirt, staffing, administrative costs, and year-long orientation activities.</p>
+
+					<p>
+						<strong>NOTE:</strong> Orientation Fees are <u>non-refundable.</u>&nbsp; To view our policy, visit our&nbsp;<a href="https://transition.unt.edu/orientation/faqs#b" target="_blank"><u><font color="#0066cc">Frequently Asked Questions page</font></u></a>.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						How to Register for Orientation</h2>
+
+					<div>
+						To register for an orientation session, log in at <a href="http://my.unt.edu" target="_blank"><u><font color="#0066cc">http://my.unt.edu</font></u></a> with your EUID and password. Once logged in, click <strong>Student Center</strong>, then <strong>Register for Orientation</strong>. Register early as sessions fill up quickly.</div>
+
+					<div>
+						&nbsp;</div>
+
+					<div>
+						<h2>
+							Schedule at a Glance</h2>
+
+						<p>
+							Room locations below are specific to Spring Orientation.</p>
+
+						<table border="1" cellpadding="1" cellspacing="1" style="width: 750px;">
+							<tbody>
+								<tr>
+									<td>
+										<h4>
+											<strong style="line-height: 18.57px;">Time</strong></h4>
+									</td>
+									<td>
+										<h4>
+											<strong style="line-height: 18.57px;">Event</strong></h4>
+									</td>
+									<td>
+										<h4>
+											<strong style="line-height: 18.57px;">Location</strong></h4>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">8:00 AM - 9:00 AM</span></td>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">O</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">ri</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">entation Check-In</span></td>
+									<td>
+										<p>
+											<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">University Union (1155 Union Cir.), 2nd floor</span></p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span style="line-height: 18.57px;">9:00 AM</span></td>
+									<td>
+										<span style="line-height: 18.57px;">Or</span><span style="line-height: 18.57px;">ie</span><span style="line-height: 18.57px;">ntation Welcome</span></td>
+									<td>
+										<p>
+											University Union, Ballroom 314</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">10:00&nbsp;AM</span></td>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">College and School Meetings</span></td>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">various campus locations</span></td>
+								</tr>
+								<tr>
+									<td>
+										<span style="line-height: 18.57px;">12:00 PM - 1:30 PM</span></td>
+									<td>
+										<span style="line-height: 18.57px;">Lunch</span></td>
+									<td>
+										<p>
+											<span style="line-height: 18.57px;">University Union, 2nd floor</span></p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">12:00 PM - 1:00 P</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">M</span></td>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">Colle</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">ge S</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">uccess Sessions</span></td>
+									<td>
+										<p>
+											<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">University Union, 3rd floor (various rooms)</span></p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<span style="line-height: 18.57px;">1:30 P</span><span style="line-height: 18.57px;">M</span></td>
+									<td>
+										<span style="line-height: 18.57px;">C</span><span style="line-height: 18.57px;">ollege and School Meetings continued</span></td>
+									<td>
+										<span style="line-height: 18.57px;">v</span><span style="line-height: 18.57px;">arious campus locations</span></td>
+								</tr>
+								<tr>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">2:00 PM - 5:00 PM</span></td>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">C</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">o</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">urse Registration</span></td>
+									<td>
+										<span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">c</span><span style="line-height: 18.57px; background-color: rgb(241, 241, 241);">omputer lab locations (see flip chart)</span></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div>
+							&nbsp;</div>
+					</div>
+
+					<div id="h">
+						<h2>
+							Parking&nbsp;During Orientation</h2>
+
+						<div>
+							Parking&nbsp;during orientation&nbsp;will be available on campus in&nbsp;P-lots&nbsp;40, 54, and 55.&nbsp;&nbsp;Please make sure&nbsp;not to&nbsp;park in reserved or metered parking.<a href="/sites/default/files/otp/pdf/transfer_orientation_map_sp16_january.pdf"> </a><a href="/sites/default/files/otp/pdf/transfer_orientation_map_sp16_january.pdf" target="_blank"><u><font color="#0066cc">Click here for the orientation map</font></u></a> (pdf).</div>
+					</div>
+				</div>
+			</div>
+			<!--Spanish Parent Orientation content-->
+
+			<div class="tab-pane" id="espanol">
+				<div class="node" id="node-40">
+					<h1>
+						Informaci&oacute;n Sobre la Orientaci&oacute;n de Familia y Padres</h1>
+
+					<p>
+						La orientaci&oacute;n de padres y familias en espa&ntilde;ol es un programa especial que pasa al mismo tiempo que las orientaciones de Freshmen y Transfer. La mayor&iacute;a de este programa estera siendo traducida por miembros de la universidad. Esta orientaci&oacute;n de padres y familia es opcional, y no es requerida. En el programa, los papas van a tener la oportunidad de aprender de muchas de las oficinas, departamentos, y programas acad&eacute;micos que la Universidad de North Texas ofrece. Aunque usted y el estudiante tendr&aacute;n diferentes itinerarios por la mayor&iacute;a de la orientaci&oacute;n, si podr&aacute;n estar juntos en varios momentos durante esta experiencia. Desafortunadamente, por las reglas de nuestro departamento, los padres no podr&aacute;n atender a las sesiones de asesoramiento ni registraci&oacute;n de clases del estudiante. Sin embargo, si podr&aacute;n estar presentes para dar el pago de la matr&iacute;cula, si es necesario.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Registraci&oacute;n de Orientaci&oacute;n para Padres y Familia en Espa&ntilde;ol</h2>
+
+					<p>
+						Padres y familiares del habla espa&ntilde;ol son alentados a que se inscriban a una de las orientaciones de padres. Durante estas sesiones, la mayor&iacute;a del programa ser&aacute; traducida por trabajadores de la universidad. Si su estudiante es un estudiante Freshmen (saliendo de la preparatoria) entonces considere registrarse para el &ldquo;Freshmen Orientation 6&rdquo; (Martes, Julio 12- Jueves Julio 14). Si su estudiante est&aacute; transfiriendo de otro colegio o universidad considere registrarse al &ldquo;Transfer Orientation 4&rdquo; (viernes, Julio 29).<br />
+						Si ningunas de estas sesiones trabajan para usted, puede tambi&eacute;n registrarse a otras de nuestras orientaciones de padres v&iacute;a nuestra p&aacute;gina web. Tocante a estas orientaciones, si necesita un int&eacute;rprete en espa&ntilde;ol, por favor ind&iacute;quelo en la p&aacute;gina de su registraci&oacute;n y un int&eacute;rprete se le har&aacute; disponible.</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Tarifas de Orientacion</h2>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									<h4>
+										La estructura de las orientaciones &ldquo;Freshmen&rdquo; para padres y familiares es la siguiente:</h4>
+								</td>
+								<td>
+									<h4>
+										La estructura de las orientaciones &ldquo;Transfer&rdquo; para padres y familiares es la siguiente:</h4>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Primer padre o familiar en registrarse</h4>
+								</td>
+								<td>
+									$115.00</td>
+								<td>
+									$45.00</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Opcional Segundo padre o familiar en registrarse (l&iacute;mite de 1 por familia)</h4>
+								</td>
+								<td>
+									$85.00</td>
+								<td>
+									$45.00</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>
+										Ni&ntilde;o/as*</h4>
+								</td>
+								<td>
+									<div>
+										$60.00</div>
+								</td>
+								<td>
+									<div>
+										$45.00</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h4 style="line-height: 18pt;">
+										<span lang="ES-MX" style="color: rgb(58, 71, 64); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10pt; mso-bidi-font-family: Helvetica; mso-ansi-language: ES-MX;">Un descuento adicional de $5 ser&aacute; disponible para alumni de UNT</span></h4>
+								</td>
+								<td>
+									-$5.00</td>
+								<td>
+									-$5.00</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									La tarifa de la orientaci&oacute;n incluye comidas (comenzando con la cena en d&iacute;a 1 hasta el lonche en d&iacute;a 3), eventos sociales, materiales, camiseta, personal de la universidad, costos administrativos, y actividades para padres durante el a&ntilde;o.</td>
+								<td>
+									La tarifa de la orientaci&oacute;n incluye comidas (un desayuno peque&ntilde;o y lonche), eventos sociales, materiales, camiseta, personal de la universidad, costos administrativos, y actividades para padres durante el a&ntilde;o.</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						*Por favor tomen en cuenta que no habr&aacute; actividades espec&iacute;ficas para ni&ntilde;o/as</p>
+
+					<p style="line-height: 18pt;">
+						<strong><span lang="ES-MX" style="color: rgb(58, 71, 64); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10pt; mso-bidi-font-family: Helvetica; mso-ansi-language: ES-MX;">Atenci&oacute;n: La cuota de la orientaci&oacute;n no es rembolsable. </span></strong><span lang="ES-MX" style="color: rgb(58, 71, 64); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10pt; mso-bidi-font-family: Helvetica; mso-ansi-language: ES-MX;">&nbsp;Para ver nuestra p&oacute;liza, visite nuestra p&aacute;gina de </span><a href="https://transition.unt.edu/orientation/faqs#b" target="_blank"><span lang="ES-MX" style="font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10pt; mso-bidi-font-family: Helvetica; mso-ansi-language: ES-MX;">Frequently Asked Questions page</span></a><span lang="ES-MX" style="color: rgb(58, 71, 64); font-family: &quot;Helvetica&quot;,sans-serif; font-size: 10pt; mso-bidi-font-family: Helvetica; mso-ansi-language: ES-MX;">. </span></p>
+
+					<p style="line-height: 18pt;">
+						&nbsp;</p>
+
+					<h2 style="line-height: 18pt;">
+						Programa en Vista</h2>
+
+					<h4>
+						Orientacion para Padres y Familia- Freshmen</h4>
+
+					<table border="1" cellpadding="5" cellspacing="1" style="width: 750px;">
+						<tbody>
+							<tr>
+								<td>
+									<h4>
+										D&iacute;a 1</h4>
+								</td>
+								<td>
+									<h4>
+										D&iacute;a 2</h4>
+								</td>
+								<td>
+									<h4>
+										D&iacute;a 3</h4>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									1:00pm &ndash; 3:00pm &ndash; Registraci&oacute;n en el Coliseo compuerta A (600 Avenue D)</td>
+								<td>
+									Anuncios y almuerzo en la ma&ntilde;ana</td>
+								<td>
+									Anuncios en la ma&ntilde;ana</td>
+							</tr>
+							<tr>
+								<td>
+									Feria de Recursos</td>
+								<td>
+									Expectaciones Acad&eacute;micas</td>
+								<td>
+									Transici&oacute;n familiar al colegio</td>
+							</tr>
+							<tr>
+								<td>
+									Bienvenida a la Orientacion</td>
+								<td>
+									Sesiones de &eacute;xito colegiales</td>
+								<td>
+									Panal estudiantil</td>
+							</tr>
+							<tr>
+								<td>
+									Bienvenida a la Orientacion de Padres &amp; Familiares</td>
+								<td>
+									Lonche</td>
+								<td>
+									Sesiones de Padres</td>
+							</tr>
+							<tr>
+								<td>
+									La vida en la universidad/ Rotaci&oacute;n para la cena</td>
+								<td>
+									Sesi&oacute;n Acad&eacute;mica del Decano</td>
+								<td>
+									Lonche</td>
+							</tr>
+							<tr>
+								<td>
+									Recepci&oacute;n Musical</td>
+								<td>
+									Presentaciones de servicios estudiantiles</td>
+								<td>
+									Tours de residencias estudiantiles</td>
+							</tr>
+							<tr>
+								<td>
+									Tour Opcional de la Universidad caminando</td>
+								<td>
+									Descanso para el caf&eacute;</td>
+								<td>
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Juntas Regionales para Padres</td>
+								<td>
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Feria de organizaciones estudiantiles y cena&nbsp;</td>
+								<td>
+									&nbsp;</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;</td>
+								<td>
+									Recepci&oacute;n de noche en el estadio Apogee</td>
+								<td>
+									&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>
+						&nbsp;</h4>
+
+					<h4>
+						Orientacion para Padres y Familia- Transfer</h4>
+
+					<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+						<tbody>
+							<tr>
+								<td>
+									8:00am - 9:00am &ndash; La Registraci&oacute;n ser&aacute; en la Uni&oacute;n de la Universidad&nbsp; (1155 Union Circle)</td>
+							</tr>
+							<tr>
+								<td>
+									Bienvenida a la Orientacion</td>
+							</tr>
+							<tr>
+								<td>
+									Bienvenida a la Orientacion de Padres</td>
+							</tr>
+							<tr>
+								<td>
+									Presentaciones de Servicios Estudiantiles</td>
+							</tr>
+							<tr>
+								<td>
+									Lonche</td>
+							</tr>
+							<tr>
+								<td>
+									Lonche</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Estacionamiento y Transportaci&oacute;n</h2>
+
+					<h4>
+						Orientacion de Padres y Familia-Freshmen</h4>
+
+					<p>
+						Estacionamiento durante la Orientacion de Freshmen va ser disponible en la universidad estaci&oacute;n R27 enfrente del Coliseo. Estudiantes podr&aacute;n tambi&eacute;n estacionarse en R-Lot 31 detr&aacute;s de Kerr Hall. Por favor aseg&uacute;rese de no estacionarse en estacionamiento reservado o de tiempo medido.</p>
+
+					<h4>
+						Orientacion de Padres y Familia- Transfer</h4>
+
+					<p>
+						Estacionamiento durante la Orientacion Transfer ser&aacute; disponible en P-lots 40, 54, y 55 en la nuestro campus. Por favor aseg&uacute;rese de no estacionarse en un estacionamiento reservado o de tiempo medido.&nbsp;</p>
+
+					<p>
+						<a href="http://www.unt.edu/transit/pdf/UNTCampusMapPARKINGSpring.pdf" target="_blank">Mapa de Campus</a> (pdf)</p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Lo que est&aacute;n diciendo los Padres &amp; Familiares de Nuestro Programa</h2>
+
+					<p>
+						&quot;Disfrutamos mucho la orientaci&oacute;n de padres la semana pasada; su equipo hizo un excelente trabajo. Fue muy informativo y me sent&iacute; como parte te UNT ahora. Nuestro hijo, tambi&eacute;n se la pas&oacute; muy bien, y est&aacute; listo para venir &lsquo;ayer&rsquo;. Ese fin de semana se valid&oacute; su decisi&oacute;n en atender a UNT. &ldquo;</p>
+
+					<p>
+						&quot;Me impresione mucho con el factor &lsquo;cuidado&rsquo; de todo el personal y facultad que conocimos. Me sent&iacute; como si estuvi&eacute;ramos dejando a nuestra hija en excelentes manos. &iexcl;Todos parec&iacute;an estar interesados en el &eacute;xito de mi estudiante y su soporte a ella fue impresionante! Go Mean Green! Estamos encantados con los muchos recursos disponibles para los estudiantes.&rdquo;</p>
+
+					<p>
+						&quot;Poder tener toda la informaci&oacute;n disponible f&aacute;cilmente fue grandioso, pero m&aacute;s importante, aprecio como TODOS trabajando en la orientaci&oacute;n fueron muy serviciales y complacientes para encontrar respuestas a mis preguntas.&rdquo;<br />
+						&nbsp;</p>
+
+					<p>
+						&nbsp;</p>
+				</div>
+			</div>
+			<!--The FAQ TAB-->
+
+			<div class="tab-pane" id="faq">
+				<div class="node" id="node-30">
+					<p>
+						Browse our list of Frequently Asked Questions or select a category below.</p>
+
+					<ul>
+						<li>
+							<a href="#a">Orientation Details</a></li>
+						<li>
+							<a href="#b">Cost &amp; Payment Options</a></li>
+						<li>
+							<a href="#c">How to Register for Orientation</a></li>
+						<li>
+							<a href="#d">Academic Advising and Course&nbsp;Registration</a></li>
+						<li>
+							<a href="#e">Accommodations</a></li>
+						<li>
+							<a href="#f">Transfer Students</a></li>
+						<li>
+							<a href="#g">Summer Students</a></li>
+						<li>
+							<a href="#h">International Students</a></li>
+						<li>
+							<a href="#i">Parent Orientation</a></li>
+						<li>
+							<a href="#j">University of North Texas at Dallas Orientation</a></li>
+					</ul>
+
+					<h2>
+						Orientation Details</h2>
+
+					<p id="a">
+						<strong>What is orientation and why is it mandatory?</strong></p>
+
+					<p>
+						Orientation is a program all undergraduate students must attend prior to enrolling in classes at the University of North Texas. Orientation is the first step to a successful experience at UNT. You will become familiar with academic and other important resources, while receiving academic advising and registering for classes. Orientation is also an opportunity to build relationships with Orientation Leaders, other new students, and various faculty and administrators.</p>
+
+					<p>
+						<strong>When is orientation?</strong></p>
+
+					<p>
+						Orientation for students beginning classes in the fall occurs throughout the summer, from May to August. For students starting school in the spring, orientation occurs in December and January. Students beginning classes in the summer will attend orientation during the summer. Please refer to the <a href="http://studentaffairs.unt.edu/orientation#about">Orientation&nbsp;homepage</a> and Orientation brochures for exact dates. If you cannot attend any of the orientations listed, please contact the Office of&nbsp;Orientation and Transition Programs&nbsp;at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-4198<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198" /></a></span>.</p>
+
+					<p>
+						<strong>Are there vaccinations I must turn in prior to orientation?</strong></p>
+
+					<p>
+						No, but if you are taking classes on campus and are under the age of 22, you must provide proof of evidence for the meningitis vaccination:</p>
+
+					<blockquote>
+						All new students, including transfer students, under the age of 22 must show evidence of receipt of an initial bacterial meningitis vaccination (meningococcal meningitis vaccine) dose or booster in the last five years and at least ten days prior to the start of the semester in which the student initially enrolls. For more information on this vaccination, how to submit proof of evidence, and the exemptions, go to <a href="http://healthcenter.unt.edu/immunization-requirements" target="_blank">healthcenter.unt.edu/immunization-requirements</a>.</blockquote>
+
+					<p>
+						<strong>Do I need to attend all the Orientation activities?</strong></p>
+
+					<p>
+						Yes, students are required to attend all activities and presentations at Orientation. Attendance is crucial in ensuring a successful orientation and to ensure a good start at UNT.</p>
+
+					<p>
+						<strong>When do I get my UNT ID card?</strong></p>
+
+					<p>
+						You will have your UNT ID card made during orientation. Specific times in the orientation schedule have been created for you to have your ID made. Your first ID card is included in your university fees. Lost cards can be replaced for an additional $10.</p>
+
+					<p>
+						<strong>What do I do after orientation, before I come to school?</strong></p>
+
+					<p>
+						After attending orientation, you will want to make sure you have completed your housing and financial aid processes. You will also want to consider purchasing your textbooks.</p>
+
+					<p>
+						<strong>I am a second Bachelors student; do I need to attend orientation?</strong></p>
+
+					<p>
+						Students seeking a second Bachelors degree (post-bacc students)&nbsp;are not required to attend orientation, unless their college/school requires it. Please call the office of Orientation and Transition Programs at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-4198<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-4198"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: 940-565-4198" /></a></span> to see if your college/school requires orientation. The fee for orientation will be waived for post-bacc students.&nbsp;&nbsp;</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						Cost &amp; Payment Options</h2>
+
+					<p id="b">
+						<strong>When do I pay for orientation?</strong></p>
+
+					<p>
+						You must provide payment with your reservation in order to secure a spot in an orientation session. Payment can be received in the form of an e-check or credit card. Your space will not be reserved until payment is received.</p>
+
+					<p>
+						<strong>What does my Orientation fee cover?</strong></p>
+
+					<p>
+						Your fee is used for program implementation and staffing, orientation publications, room &amp; board (for freshman), and facilities used during orientation. The fee also provides for year-round orientation programming for all new students.</p>
+
+					<p>
+						<strong>What if I cannot pay for my orientation?</strong></p>
+
+					<p>
+						Financial constraints will not prohibit you from attending orientation. The office of Orientation and Transition Programs offers fee deferments to students who have applied for financial aid and have met certain eligibility requirements. To request a Fee Deferment Form, contact&nbsp;<a href="mailto:freshman@unt.edu" target="_blank">freshman@unt.edu</a></p>
+
+					<p>
+						<strong>If I have paid and registered for my orientation session and decide not to attend UNT, is my fee refundable?</strong></p>
+
+					<p>
+						All orientation fees are non-refundable, including Parent Orientation fees. If you have an extenuating circumstance, you may complete the <strong>Orientation Refund Request Form</strong> below. Please note that requests are not automatic and are reviewed by a staff member within 7-10 business days of the request. The decision to attend another college or university is NOT an extenuating circumstance.</p>
+
+					<p>
+						<a class="button" href="https://unt.az1.qualtrics.com/SE/?SID=SV_djbLyWaeF1zkUkd" target="_blank">Orientation Refund Request Form</a></p>
+
+					<p>
+						&nbsp;</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						How to Register for Orientation</h2>
+
+					<p id="c">
+						<strong>When will I receive materials and be able to register for orientation?</strong></p>
+
+					<p>
+						Brochures with specific information regarding orientation are mailed to all ACCEPTED students on the following schedule: Fall admission &mdash; brochures will begin to be mailed in February; Spring admission &mdash; brochures will begin to be mailed in October; and Summer admission &mdash; brochures will be available in February.</p>
+
+					<p>
+						<strong>When should I register for orientation?</strong></p>
+
+					<p>
+						Because all orientation sessions are capped and space is awarded on a first come, first served basis, we strongly encourage you to register for orientation as soon as it becomes available to you.</p>
+
+					<p>
+						<strong>How do I register for orientation?</strong></p>
+
+					<p>
+						Students are required to register for orientation online. To register for an orientation session, logon to&nbsp;<a href="https://my.unt.edu" target="_blank">M</a><a href="https://my.unt.edu" target="_blank">yUNT</a>&nbsp;with your EUID and password and click, &quot;register for orientation.&quot; If you do not have access to a computer, please contact the office of Orientation and Transition Programs at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-4198<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198" /></a></span> for assistance.</p>
+
+					<p>
+						<strong>Will I get confirmation once I have registered for orientation?</strong></p>
+
+					<p>
+						Yes, confirmation cards, with your assigned orientation date, are mailed out on a regular basis. Students should receive a confirmation card a week after registering online. If you do not receive a confirmation card and your orientation date is approaching please call us at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-4198<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198" /></a></span> to confirm your registration.</p>
+
+					<p>
+						Confirmation emails are also sent to a student&nbsp;UNT accounts prior to their orientation session.</p>
+
+					<p>
+						<strong>Can I change my orientation session?</strong></p>
+
+					<p>
+						Yes, if space is available.&nbsp;Please call the office of Orientation and Transition Programs at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-4198<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4198" /></a></span>.</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						Academic Advising &amp; Course Registration</h2>
+
+					<p id="d">
+						<strong>Will I be academically advised during orientation?</strong></p>
+
+					<p>
+						Yes. Academic advisors help all students evaluate previous coursework and plan for their major course of study in order to meet their educational goals. Family members are not allowed to sit in on this session due to facility constraints. However, students are encouraged to consult with family members, if necessary, before registering for classes.</p>
+
+					<p>
+						<strong>Will I learn how to register for classes and when do I register for my classes?</strong></p>
+
+					<p>
+						Yes, you will learn how to register online for classes and will have the opportunity to do so with the help of the Orientation Leader staff at the conclusion of your orientation session.</p>
+
+					<p>
+						<strong>How and when will I pay for classes?</strong></p>
+
+					<p>
+						Your bill will then be available to view and pay in your student center on <a href="https://my.unt.edu/psp/papd01/EMPLOYEE/EMPL/h/?tab=NTPA_GUEST" target="_blank">MyUNT</a> after you have registered for classes.</p>
+
+					<p>
+						For more information on tuition and fees, please visit the <a href="http://essc.unt.edu/saucs/tuition-and-fees.html" target="_blank">Student Accounting and Cashiering Services </a>website.</p>
+
+					<p>
+						<strong>Can I see my class schedule any time?</strong></p>
+
+					<p>
+						Yes, you can view your class schedule on <a href="https://my.unt.edu/psp/papd01/EMPLOYEE/EMPL/h/?tab=NTPA_GUEST" target="_blank">MyUNT</a>. To login to&nbsp;<a href="https://my.unt.edu/psp/papd01/EMPLOYEE/EMPL/h/?tab=NTPA_GUEST" target="_blank">M</a><a href="https://my.unt.edu">yUNT</a> you will need your EUID and password. If you don&#39;t know your EUID or password just click on &quot;What is my EUID?&quot; and it will just take a few minutes to get it all set up before you can log in.</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						Accommodations</h2>
+
+					<p id="e">
+						<strong>Where should I call to arrange accommodations for a disability?</strong></p>
+
+					<p>
+						Please contact the Office of Disability Accommodation at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-4323<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4323"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-4323" /></a></span> or TTY <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 369-8652<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 369-8652"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 369-8652" /></a></span> at least TWO WEEKS prior to your orientation session.&nbsp; In addition, please complete the <a href="http://studentaffairs.unt.edu/sites/default/files/pdf/AccommodationRequestforOrientation_6.23.14.pdf" target="_blank">Orientation Accommodation Request Form</a> (pdf).</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						Transfer Students</h2>
+
+					<p id="f">
+						<strong>I am a transfer student and already attended a 4-year institution before. Why do I need to attend orientation?</strong></p>
+
+					<p>
+						We respect your college experience and understand that you are likely able to navigate a university catalog and schedule of classes. Orientation is designed to acquaint you with UNT&#39;s approach to academic success as well as the resources unique to this university.</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						Summer Students</h2>
+
+					<p id="g">
+						<strong>If I started school in the summer, do I need to attend another orientation for the fall?</strong></p>
+
+					<p>
+						No. You will be considered a continuing student and will follow the regular registration schedule to register for fall classes.</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						International Students</h2>
+
+					<p id="h">
+						<strong>I am an international student; do I need to attend orientation?</strong></p>
+
+					<p>
+						Yes, international students will attend an international student orientation AND a university orientation. For more information regarding international student orientation, contact the International Office at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2197<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-2197"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABcklEQVR4XpXTPUvDUBTH4aR2c2hBQXGpTiIORhBcBOvgYKf0Awi+4Ggr1MVPIIrYdnEpShddHIyLi6AVXVxsRRDRwbi4KNgu4lCIv8i/i6QRDzycy+09555LqOl5nhEUptPoJe1iDHU8oYlrlDw79m4QEbSLPexzsIc8hDRm8YBjLpj4q8EgxQdab+MNd4ghhQ2adIc1+ORAFEnWWfTDRp7GDfImlsIavKALLuqoqMGUCs4wHtagiQ5uc8kDyCOBKlP1k78QNTOZnMXCQRxWsbjl6iuskV41SQG2Gj9rikvcR1WcgKFDBa1LOEUK56hqv8BUFV3SGWkVS9JQ6Dsv4wQ1DKMPORUvkm78BhdQMI1CTa5I0yrcwSFqFD+SZ7DQesIkCG5S/JpkHYERQRmuNsrZ7Grc+Ef8/Bcoslkfae8Wc7CUHZ++TuAEBj86pHntjaDKXllPy6PW/gkKFaThwp/K87N8hDcQTTKKFTioSxqB8Q2BNX5JtAljwgAAAABJRU5ErkJggg==" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; white-space: nowrap; position: static !important;" title="Call: (940) 565-2197" /></a></span> or <a href="http://www.international.unt.edu/" target="_blank">www.international.unt.edu/</a>.</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						Parent Orientation</h2>
+
+					<p id="i">
+						<strong>Can family members attend Orientation?</strong></p>
+
+					<p>
+						Yes. Parents and family members are encouraged to attend the Parent Orientation program that runs concurrently with new student or transfer orientation. Parent Orientation is designed specifically for parents, guardians, and spouses of new students. No programming exists for children; however, they are allowed to attend with you if necessary. Parent and family member registration materials are included in the freshman orientation booklet and the transfer orientation brochure. A nominal fee is assessed for parent orientation programming.</p>
+
+					<p>
+						<em>To register, <a href="http://studentaffairs.unt.edu/orientation#parent" target="_blank">click here</a></em></p>
+
+					<p>
+						<a href="#">back to top</a></p>
+
+					<h2>
+						University of North Texas at Dallas Orientation</h2>
+
+					<p id="j">
+						<strong>I will be attending the Dallas campus. Where do I go for orientation?</strong></p>
+
+					<p>
+						Students attending the Dallas campus will be attending orientation at that location. For information on orientation registration for the Dallas campus, please visit the <a href="http://www.unt.edu/unt-dallas/orientation.htm" target="_blank">Dallas Campus Orientation website</a>.</p>
+
+					<p>
+						<a href="#">back to top</a></p>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="leaders">
+				<div class="node" id="node-75">
+					<h2>
+						What is an Orientation Leader?</h2>
+
+					<p>
+						Orientation Leaders are peer mentors who are selected and trained by the University of North Texas to assist with new student transition to UNT.&nbsp; Orientation Leaders are hired during the spring semester and go through intensive training during the spring and summer.&nbsp; This unique leadership experience is a great way for students to challenge themselves and evolve into well-rounded student leaders.</p>
+
+					<h2>
+						Parent Orientation Leaders</h2>
+
+					<div>
+						<p>
+							Parent Orientation Leaders are student leaders who assist with the Parent &amp; Family Orientation program. Parent Orientation Leaders are hired during the spring semester and go through intensive training during the spring and summer. &nbsp;They are specifically trained to help parents and families ease concerns, answer questions, and be a resource as their student transitions into college life. &nbsp;This unique leadership experience is a great way for students to challenge themselves and evolve into well rounded student leaders.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+						<h3>
+							Orientation Team</h3>
+
+						<p>
+							Positions for the 2016 Orientation Team have been filled. Applications&nbsp;for the 2017 team will be available&nbsp;spring 2017.&nbsp;For questions&nbsp;about the positions, email Josh Walton (<a href="mailto:joshua.walton@unt.edu">joshua.walton@unt.edu</a>) or Justin Barker (<a href="mailto:justin.barker@unt.edu">justin.barker@unt.edu</a>).</p>
+
+						<h4>
+							&nbsp;</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<p>
+	&nbsp;</p>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/orientation_0.jpg');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/orientation": true }, "og": { "group_context": { "nid": "691", "title": "Orientation and Transition Programs", "type": "departments_services" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

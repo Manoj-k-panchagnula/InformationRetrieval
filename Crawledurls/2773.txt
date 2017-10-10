@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> <!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]> <!--> <html class="no-js" lang="en"><!-- InstanceBegin template="/Templates/Catalog Master Template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<head>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/features.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>UNT Libraries: Catalog</title>
+<!-- InstanceEndEditable -->
+<script type="text/javascript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+</script>
+<!-- InstanceParam name="Body Class" type="text" value="catalog" -->
+<!-- InstanceParam name="BodyID" type="text" value="search-screen" -->
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/">
+</noscript>
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" media="all">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/screens/template.css">
+<link rel="stylesheet" type="text/css" href="/screens/unt.css?v=20">
+<link rel="stylesheet" href="/screens/fancybox214/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css?v=4" media="print">
+<script src="/screens/respond.min.js"></script>
+<!-- HTML5 element support for IE6-8 -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="headJavaScript" -->
+
+<!-- InstanceEndEditable -->
+<script type="text/javascript" src="//books.google.com/books/previewlib.js"></script>
+<script type="text/javascript" src="//www.google.com/jsapi?key=ABQIAAAAiMxCv9HXrrInCAfSSpXWKRS4VKaM75tmZ4wb9-H0O7KcTd3lvhQLPHVYN2ZwWVF49EC3OQ0UAulV_w"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/screens/jquery-ui.min.js?v=1815"></script>
+<script src="/screens/jquery-local.js?v=32"></script>
+<script type="text/javascript" src="/screens/bootstrap.min.js"></script>
+<script type="text/javascript" src="/screens/fancybox214/jquery.fancybox.pack.js"></script>
+<!-- InstanceBeginEditable name="headCSS" -->
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="headOther" -->
+
+<!-- InstanceEndEditable -->
+</head>
+
+<body class="catalog" id="search-screen">
+<!-- InstanceBeginEditable name="top" -->
+
+<!-- begin toplogo.html file -->
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div id="main-wrapper">  
+	<div id="main-heading" class="hidden-print">
+    <div id="top-navigation" class="hidden-xs" role="navigation">
+      <div class="container">
+        <div id="unt-navbar" class="col-sm-12">
+          <ul class="nav navbar-nav">
+            <li class="dropdown nav-item"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> UNT Links <span class="caret"></span> </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://my.unt.edu/" id="unt-sites-myunt">MyUNT</a></li>
+                <li><a href="http://eagleconnect.unt.edu/" id="unt-sites-eagle-connect">EagleConnect</a></li>
+                <li><a href="http://webctvista.unt.edu/" id="unt-sites-blackboard">Blackboard</a></li>
+                <li><a href="http://www.unt.edu/find-people-department.htm" id="unt-sites-directory">People &amp; Departments</a></li>
+                <li><a href="http://maps.unt.edu/" id="unt-sites-maps">Maps</a></li>
+                <li><a href="http://www.unt.edu/calendars-events.htm" id="unt-sites-calendars">Calendars</a></li>
+                <li><a href="http://www.unt.edu/giving-unt.htm" id="unt-sites-giving">Giving to UNT</a></li>
+              </ul>
+            </li>
+            <li class="dropdown nav-item"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Other Library Sites <span class="caret"></span> </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="http://www.untdallas.edu/library" id="other-sites-unt-dallas-library">UNT Dallas Library</a></li>
+                <li><a href="http://library.hsc.unt.edu/" id="other-sites-unt-health-science-center-library">UNT Health Science Library</a></li>
+                <li><a href="http://lawschool.untsystem.edu/law-library" id="other-sites-unt-law-library">UNT Dallas Law Library</a></li>   
+                <li><a href="http://www.library.unt.edu/node/2468/" id="other-sites-other-libraries">Other Libraries</a></li>             
+                <li class="divider"></li>
+                <li><a href="http://iii.library.unt.edu/" id="other-sites-catalog">Library Catalog</a></li>
+                <li><a href="https://unt.illiad.oclc.org/illiad/logon.html" id="other-sites-illiad">Interlibrary Loan &amp; Document Delivery (Illiad)</a></li>
+                <li><a href="http://guides.library.unt.edu/" id="other-sites-libguides">Subject &amp; Course Guides</a></li>
+                <li class="divider"></li>
+                <li><a href="http://digital.library.unt.edu/" id="other-sites-digital-libraries">UNT Digital Libraries</a></li>
+                <li><a href="http://texashistory.unt.edu/" id="other-sites-portal">The Portal to Texas History</a></li>
+                <li class="divider"></li>
+                <li><a href="http://findingaids.library.unt.edu" id="other-sites-finding-aids">Finding Aids</a></li>
+                <li><a href="http://exhibits.library.unt.edu/" id="other-sites-exhibits">Exhibits</a></li>
+                <li class="divider"></li>
+                <li><a href="https://reservations.library.unt.edu/Web/" id="other-sites-study-room-reservations">Student Study Rooms Reservations</a></li>
+                <li><a href="https://www.library.unt.edu/forms/room-reservations" id="other-sites-faculty-room-reservations">Faculty/Staff Room Reservations</a></li>
+                <li><a href="http://iii.library.unt.edu/search/r" id="other-sites-course-reserves">Course Reserves</a></li>
+                <li><a href="https://audioreserves.library.unt.edu/" id="other-sites-audio-reserves">Digital Audio Reserves</a></li>
+                <li><a href="https://vod.library.unt.edu/" id="other-sites-video-on-demand">Video On Demand</a></li>
+                <li class="divider">&nbsp;</li>
+                <li><a href="http://untpress.unt.edu/" id="other-sites-unt-press">UNT Press</a></li>
+                <li><a href="http://openaccess.unt.edu/" id="other-sites-open-access">Open Access @ UNT</a></li>
+                <li><a href="http://blogs.library.unt.edu" id="other-sites-blogs">University Libraries' Scholarly Blogs</a></li>
+                <li><a href="http://dean.library.unt.edu/Main_Page" id="other-sites-deans-website">Dean's Website</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="branding" class="header-main container hidden-xs" role="banner">
+      <h1 class="logo col-sm-8" id="site-name"> 
+        <a id="primary-library-logo" href="http://www.library.unt.edu" title="University Libraries: Home">University Libraries</a> 
+      </h1>
+      <div id="unt" class="info col-sm-4"> 
+        <a id="primary-unt-logo" class="pull-right" href="http://www.unt.edu" title="UNT | A Green Light to Greatness"> 
+          <img src="http://www.library.unt.edu/sites/all/themes/untl_bootstrap/logo.png" alt="UNT Logo" class="unt-lettermark img-responsive"> 
+        </a>
+      </div>
+    </div>
+  </div>
+  <nav id="main-nav" role="navigation" class="hidden-print">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="navbar-text navbar-brand-centered visible-xs-block"> <a id="site-name-mobile" class="btn btn-link" href="http://www.library.unt.edu/" title="Home">UNT Libraries</a> </div>
+        <div id="small-screen-search-toggle" class="btn-group visible-xs navbar-right"> <a class="dropdown-toggle btn btn-link" data-toggle="dropdown" href="#"> <i class="fa fa-search"></i> </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a id="mobile-search-dropdown-bento" href="http://www.library.unt.edu/search">Search All</a></li>
+            <li><a id="mobile-search-dropdown-summon" href="http://untexas.summon.serialssolutions.com/search/advanced">Online Articles</a></li>
+            <li><a id="mobile-search-dropdown-catalog" href="http://iii.library.unt.edu">Books &amp; More</a></li>
+            <li><a id="mobile-search-dropdown-databases" href="http://iii.library.unt.edu/search/y">Databases</a></li>
+            <li><a id="mobile-search-dropdown-ejournals" href="http://iii.library.unt.edu/search/y#ejournals">e-Journals</a></li>
+            <li><a id="mobile-search-dropdown-digital-collections" href="http://www.library.unt.edu/digital-collections">UNT Digital Collections</a></li>
+            <li><a id="mobile-search-dropdown-libguides" href="http://guides.library.unt.edu/">Subject Guides</a></li>
+            <li><a id="mobile-search-dropdown-this-site" href="http://www.library.unt.edu/search/google">This Website</a></li>
+          </ul>
+        </div>
+        <button id="main-nav-toggle" class="navbar-toggle btn btn-success btn-sm navbar-left" type="button" data-toggle="collapse" data-target="#unt-primary-site-menu">MENU</button>
+      </div>
+      <div style="clear:both;"></div>
+      <div class="navbar-collapse collapse" id="unt-primary-site-menu" role="navigation">
+                <div class="navbar-left">
+        <ul class="menu nav navbar-nav"><li class="first leaf"><a href="http://www.library.unt.edu">Home</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/research" title="">Research</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/services" title="">Services</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/about" title="">About</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/help" title="">Help</a></li>
+          <li class="last leaf"><a href="http://www.library.unt.edu/news-events" title="">News &amp; Events</a></li>
+          </ul>    </div>
+                <div class="navbar-right">
+                    <ul class="menu nav navbar-nav secondary"><li class="first leaf"><a href="http://www.library.unt.edu/ask-us" title="">Ask Us</a></li>
+<li class="last leaf"><a href="http://www.library.unt.edu/accounts-login" title="">Accounts Login</a></li>
+</ul>                  </div>
+        
+        <!--//nav--> 
+      </div>
+      <!--//navabr-collapse--> 
+    </div>
+    <!--//container--> 
+  </nav>
+  <!--//main-nav-->
+
+<div class="topNavContainer">
+<div class="topNavigation">
+<h2 class="catalogSubHead"><a href="/">Library Catalog</a></h2>
+<ul id="topNavigationLinks" class="sf-menu">
+<li><a href="/"><span class="ss_sprite ss_zoom">&nbsp;</span> New Search</a>
+	<ul id="sectionSearch">
+    	<li><a href="/">Books &amp; Media</a></li>
+      <li><a href="/search/y">Databases &amp; e-Journals</a></li>
+      <li><a href="/search~S6/X">Media Catalog</a></li>
+      <li><a href="/search~S7/X">Music Catalog</a></li>
+      <li><a href="/search/r">Course Reserves</a></li>
+      <li class="last-child"><a href="/search/X">Advanced Search</a></li>
+  </ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="pageContent"><!-- content container -->
+<!--<span class="sysAnnounce"><p class="downtimeAnnouncement"><span class="highlight">Alert!</span> Network maintenance is scheduled to occur between 7:00PM and 11:00PM on January 5th and January 7th. <strong>Expect intermittent availability of all online library services during these two time periods.</strong></p></span>
+<style>
+	.navigationRow select, .bibSearchHistory {margin-top: -100px !important;}
+</style>-->
+<div style="display:none;">
+<div id="ecl-docs-msg">
+    <p>The Government Documents collections have recently moved from Willis Library to <a href="http://www.library.unt.edu/eagle-commons-library" target="_blank">the Eagle Commons Library</a>. We are currently in the process of updating the ECL floor maps. Please bear with us! Thank you.</p>
+</div>
+</div>
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="content" -->
+
+<div class="pageContentInner mainSearch">
+
+
+
+<div id="mainSearchSection">
+
+<h1>Search the UNT Library Catalog</h1>
+
+<p class="help">Use this system to locate items owned or subscribed to by the UNT Libraries.</p>
+
+<div id="navcontainer">
+
+<ul id="navlist">
+
+<li id="active"><a href="/" id="current">Basic Search</a></li>
+
+<li><a href="/search/X">Advanced Search</a></li>
+
+<li><a href="/search/v">Journal Title</a></li>
+
+<li><a href="/search/q">Author &amp; Title</a></li>
+
+<li><a href="/search/c">Number Search</a></li>
+
+</ul>
+
+</div>
+
+
+
+<div id="subnavcontainer">
+
+<ul id="subnavlist">
+
+<li><strong>Searching: </strong></li>
+
+<li class="current"><a href="/">Keyword</a></li>
+
+<li><a id="titleSearch" class="subSectionSearch" href="/search/t">Title</a></li>
+
+<li><a href="/search/a">Author</a></li>
+
+<li><a class="last" href="/search/d">Subject</a></li>
+
+
+
+</ul>
+
+</div>
+
+
+
+
+
+<div id="accessibleForm" class="form1Part">
+
+<div class="browseSearchtool" id="fillThisWithSearch">
+
+
+
+
+
+<form action="/search/X" method="get" name="search" id="search">
+
+<input type="hidden" id="iiiFormHandle_1">
+
+
+
+<div class="formEntryArea">
+
+
+
+<div class="formSection">
+
+<span class="unt_sprite us_first">&nbsp;</span>
+
+<span class="formElements">
+
+<label for="SEARCH">Type Your Search Term(s)<span class="required" title="Required Field">*</span></label>
+
+<input name="SEARCH" id="SEARCH" type="text" class="required" title="Required Field" >
+
+<a class="help" href="/screens/help-search-tips.html"><span class="ss_sprite ss_lightbulb">&nbsp;</span>Search Tips</a>
+
+</span>
+
+</div>
+
+
+
+<input type="hidden" name="SORT" id="SORT" value="D" />
+
+
+
+<div class="formSection">
+
+<span class="unt_sprite us_second">&nbsp;</span>
+
+<span class="formElements">
+
+<label for="m">Material (Recommended)</label>
+
+
+<select id="m" name="m">
+
+    <option value="" selected="selected">ANY</option>
+	<option value="r">3D Objects</option>
+	<option value="p">Archival Collections</option>
+	<option value="i">Audio Books</option>
+	<option value="a">Books</option>
+	<option value="m">Computer Files</option>
+  <option value="b">Databases</option>
+	<option value="g">DVDs, VHS Tapes, and Films</option>
+	<option value="n">E-Books</option>
+	<option value="y">E-Journals</option>
+	<option value="o">Educational Kits</option>
+	<option value="q">Journals</option>
+	<option value="t">Manuscripts</option>
+	<option value="e">Maps</option>
+	<option value="f">Maps, Unpublished</option>
+	<option value="j">Music Recordings and CDs</option>
+	<option value="c">Music Scores</option>
+	<option value="d">Music Scores, Unpublished</option>
+	<option value="s">Music Scores, Dissertations</option>
+	<option value="k">Print Graphics</option>
+	<option value="z">Theses and Dissertations</option>
+
+</select>
+
+
+
+
+
+</span>
+
+</div>
+
+<div class="clear"></div>
+
+
+
+
+
+<div class="formSection">
+
+<span class="unt_sprite us_third">&nbsp;</span>
+
+<span class="formElements">
+
+<label for="searchscope">Collection (Optional)</label>
+<label for="searchscope" style="display:none;">Search Scope</label><select name="searchscope" id="searchscope">
+<option value="12" selected="selected"> All Collections</option> <option value="6"> Media Library</option> <option value="7"> Music Library</option> <option value="2"> Electronic Resources</option> <option value="4"> Government Documents</option> <option value="8"> Special Collections</option> <option value="1"> The Factory (Makerspace)</option> <option value="10"> UNT Dallas</option> <option value="13"> Law Library</option> </select>
+
+
+</span>
+
+</div>
+
+<div class="clear"></div>
+
+
+
+<div class="nowrap formButtonArea">
+
+
+
+  <!--{submit}-->
+
+
+
+<input type="hidden" id="iiiFormHandle_1"/>
+
+<a id="formSubmit" class="submitLinkButton" href="#"><span class="ss_sprite ss_tick">&nbsp;</span> Submit</a>
+
+
+
+<input type="submit" class="submitHidden">
+
+
+
+</div>
+
+</div><!-- formEntryArea -->
+
+
+
+</form>
+
+
+</div><!-- browseSearchtool -->
+
+<div id="catalogNews">
+
+<h3>Catalog News and Announcements</h3>
+<div id="newsItems">
+	<div>
+		<h4>Online Holds Limit Increased</h4>
+		<p>Due to the high demand for online holds, we have increased the maximum number of holds that patrons may have from 10 to 25. Remember that holds are cleared when you pick up the requested item, when you cancel the hold, or when the hold expires.</p>
+		<p><a href="http://www.library.unt.edu/node/1822" target="_blank">For more information about holds, please see the Online Holds Service page.</a></p>
+	</div>
+  <div>
+    <h4>Your Feedback Is Important To Us!</h4>
+    <p>We want to continually improve our catalog and other resource discovery interfaces. Your opinions and suggestions are very important to us. <a target="_blank" href="http://www.library.unt.edu/ask-us?forward=ui.library@unt.edu#email">Tell us what you think about the catalog!</a></p>
+    <p><span style="color:#800000;">Display Problems?</span> Clear out any old catalog code by hitting CTRL + F5 (Windows) or CMD + SHIFT + R (Mac) in your browser.</p>
+	</div>
+</div>
+</div>
+<div style="clear:both;"></div>
+</div>
+
+<!-- form1Part -->
+
+
+
+</div><!-- #BeginLibraryItem "/Library/Main Sidebar.lbi" --><div class="mainMenuContent">
+
+<div class="mainMenuContentLeft">
+</div>
+<div class="mainMenuContentRight" id="mainSidebarLinks">
+    <h2>Other Catalog Searches</h2>
+    	<div id="mediaGroup" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="/search~S6/X">Media Library Catalog</a></h3>
+        	<p>Locate films, games, and other multimedia.</p>
+            </div>
+    	</div>
+    	<div id="musicGroup" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="/search~S7/X">Music Library Catalog</a></h3>
+        	<p>Find audio recordings, scores, books, and other music related items.</p>
+            </div>
+    	</div>
+
+    	<div id="reservesGroup" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="/search/r">Course Reserves</a></h3>
+        	<p>Find books, articles, music, and other items placed on reserves for a class.</p>
+            </div>
+    	</div>
+
+    <h2>Find Databases &amp; e-Journals</h2>
+        <div id="DBGroup" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="/search/y">Databases</a></h3>
+        	<p>Find research materials using one of our many specialized subscription-based online systems.</p>
+            </div>
+    	</div> 
+
+        <div id="EJGroup" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="/search/y#ejournals">e-Journals</a></h3>
+        	<p>Find a journal that is available online.</p>
+            </div>
+    	</div> 
+
+        <div id="eBooks" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="/#e-books">e-Books</a></h3>
+        	<p>Find a book that is available online.</p>
+            </div>
+    	</div>     
+
+    <h2>Suggestions &amp; Lists</h2>
+         <div id="acquireGroup" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="http://www.library.unt.edu/forms/new-purchase-requestrecommendation">Suggest a Purchase</a></h3>
+        	<p>Think we need to purchase something?  Make your suggestion here.</p>
+            </div>
+    	</div> 
+
+        <div id="recentGroup" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="ftlist">Recent Acquisitions Lists</a></h3>
+        	<p>View items added to our collection within the last three months.</p>
+            </div>
+    	</div> 
+</div>
+
+</div><!-- #EndLibraryItem --></div>
+
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="bottom" -->
+
+
+<div class="clear"></div>
+</div><!-- pageContent  -->
+</div><!-- main-wrapper -->
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<footer id="main-footer">   <div id="footer-content">
+    <div class="container">
+      <div class="row" itemscope="" itemtype="http://schema.org/EducationalOrganization">
+        <div class="footer-col col-md-3 col-sm-4">
+          <div class="footer-col-inner">
+            <h3 class="hidden-print">Locations &amp; Hours</h3>
+            <div class="btn-group hidden-print">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Select Location <span class="caret"></span> </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.library.unt.edu/location-hours/willis-library">Willis Library</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.library.unt.edu/location-hours/discovery-park-library">Discovery Park</a></li>
+                <li><a href="http://www.library.unt.edu/location-hours/eagle-commons-librarys">Eagle Commons</a></li>
+                <li><a href="http://www.library.unt.edu/location-hours/media-library">Media</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.library.unt.edu/location-hours/library-annex">Library Annex</a></li>
+              </ul>
+            </div>
+            <hr class="hidden-print">
+            <h3>Mail</h3>
+            <div class="box box-dark box-border"> <span itemprop="name">University Libraries</span><br>
+              <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"> <span itemprop="streetAddress">1155 Union Circle #305190</span><br>
+              <span itemprop="addressLocality">Denton</span> , <span itemprop="addressRegion">TX</span> <span itemprop="postalCode">76203-5017</span> </span> 
+            </div>
+      <div itemprop="location">
+                  <div itemscope itemtype="http://schema.org/Place">
+                    <span itemprop="geo">
+                      <span itemscope itemtype="http://schema.org/GeoCoordinates">
+                        <span property="latitude" content="33.210360"></span>
+                        <span property="longitude" content="-97.149009"></span>
+                      </span>
+                    </span>
+                  </div>
+      </div>
+          </div>
+          <!--//footer-col-inner--> 
+        </div>
+        <!--//foooter-col-->
+        <div id="government-logos" class="footer-col col-md-5 col-md-offset-1 col-sm-8 hidden-print">
+          <div class="footer-col-inner">
+            <h3>Partnerships</h3>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 col-xs-4"> <a id="footer-fdl" href="http://www.library.unt.edu/node/2065"><img src="/screens/images/utility/fdl-library-blue.png" alt="Federal Depository Logo"></a> </div>
+            <p class="col-sm-8 col-xs-8 col-md-7 col-md-push-1 col-lg-8"> The University Libraries are a designated <a href="http://www.library.unt.edu/node/2065">Federal Depository Library</a>. </p>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 col-xs-4"> <a id="footer-finl" href="http://guides.library.unt.edu/c.php?g=69972&p=452555"><img src="/screens/images/utility/foundation-center.png" alt="Funding Information Network Logo"></a> </div>
+            <p class="col-sm-8 col-xs-8 col-md-7 col-md-push-1 col-lg-8"> The University Libraries are a <a href="http://guides.library.unt.edu/c.php?g=69972&p=452555">Funding Information Network partner</a> of the Foundation Center. </p>
+          </div>
+          <!--//footer-col-inner--> 
+        </div>
+        <!--//foooter-col-->
+        <div class="footer-col col-md-3 col-sm-12 hidden-print">
+          <div class="footer-col-inner">
+            <h3>Contact</h3>
+            <p><i class="fa fa-phone"></i> <a id="footer-phone" itemprop="telephone" href="tel:+19405652413">940.565.2413</a></p>
+            <p><i class="fa fa-envelope"></i> <a id="asks-us" href="http://www.library.unt.edu/ask-us" title="Ask Us"> Research Questions</a></p>
+            <p><i class="fa fa-group"></i> <a id="footer-staff-directory" href="http://www.library.unt.edu/staff-directory"  title="Find Someone">Staff Directory</a></p>
+            <p><i class="fa fa-laptop"></i> <a id="footer-ask-tech" href="http://www.library.unt.edu/ask-us?forward=LibSupport@library.unt.edu#email" title="Computer &amp; problem">Computer &amp; Technology Problems</a></p>
+            <p><i class="fa fa-exclamation-triangle"></i> <a id="ask-building" href="http://www.library.unt.edu/ask-us?forward=Lib.Facilities@unt.edu#email" title="Facilities Problems">Facilities Problems</a></p>
+          </div>
+          <!--//footer-col-inner--> 
+        </div>
+        <!--//foooter-col--> 
+      </div>
+    </div>
+  </div>
+  <div id="bottom-bar" class="hidden-print">
+    <div class="container">
+      <div class="row">
+        <ul role="menu" id="required-links" class=" list-inline list-unstyled col-md-9 col-sm-12 hidden-xs">
+          <li><a id="footer-discalaimer" href="http://www.unt.edu/disclaimer.htm">Disclaimer</a></li>
+          <li><a id="footer-aaeoeada" href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a></li>
+          <li><a id="footer-privacy" href="http://www.unt.edu/unt_ps.html">Privacy </a></li>
+          <li><a id="footer-eapolicy" href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a></li>
+          <li><a id="footer-texasonline" href="http://www.unt.edu/state-texas.htm">State of Texas Online</a></li>
+          <li><a id="footer-emergencyprep" href="http://emergency.unt.edu/">Emergency Preparedness</a></li>
+          <li><a id="footer-sci" href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a></li>
+          <li><a id="footer-compliance" href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a></li>
+          <li><a id="footer-unt" href="http://www.unt.edu">UNT Home</a></li>
+        </ul>
+        <ul role="menu" id="footer-social" class="social list-inline list-unstyled pull-right col-md-3 col-sm-12">
+          <li><a id="footer-twitter" title="Follow the UNT Libraries on Twitter" href="https://twitter.com/UNT_Libraries" ><i class="fa fa-twitter"></i></a></li>
+          <li><a id="footer-facebook" title="UNT Libraries Facebook Page" href="https://www.facebook.com/pages/UNT-Libraries/189997581023527?sk=wall" ><i class="fa fa-facebook"></i></a></li>
+          <li><a id="footer-youtube" title="UNT Libraries YouTube Channel" href="http://www.youtube.com/channel/UCcbS9fXWKE1SpUTpl1sNB6Q/" ><i class="fa fa-youtube"></i></a></li>
+          <li><a id="footer-newsletter" title="Subscribe to the UNT Libraries Email Newsletter" href="http://eepurl.com/Qrv_r" ><i class="fa fa-envelope"></i></a></li>
+          <li class="row-end"><a id="footer-rss" title="UNT Libraries News RSS feed" href="http://www.library.unt.edu/news/rss" ><i class="fa fa-rss"></i></a></li>
+        </ul>
+        <!--//social--> 
+      </div>
+    </div>
+    <!--//container--> 
+  </div>
+</footer>
+
+<!-- end botlogo.html file -->
+
+
+
+<script type="text/javascript">
+/*
+ * jQuery Cycle Plugin (with Transition Definitions)
+ * Examples and documentation at: http://jquery.malsup.com/cycle/
+ * Copyright (c) 2007-2010 M. Alsup
+ * Version: 2.88 (08-JUN-2010)
+ * Dual licensed under the MIT and GPL licenses.
+ * http://jquery.malsup.com/license.html
+ * Requires: jQuery v1.2.6 or later
+ */
+(function($){var ver="2.88";if($.support==undefined){$.support={opacity:!($.browser.msie)};}function debug(s){if($.fn.cycle.debug){log(s);}}function log(){if(window.console&&window.console.log){window.console.log("[cycle] "+Array.prototype.join.call(arguments," "));}}$.fn.cycle=function(options,arg2){var o={s:this.selector,c:this.context};if(this.length===0&&options!="stop"){if(!$.isReady&&o.s){log("DOM not ready, queuing slideshow");$(function(){$(o.s,o.c).cycle(options,arg2);});return this;}log("terminating; zero elements found by selector"+($.isReady?"":" (DOM not ready)"));return this;}return this.each(function(){var opts=handleArguments(this,options,arg2);if(opts===false){return;}opts.updateActivePagerLink=opts.updateActivePagerLink||$.fn.cycle.updateActivePagerLink;if(this.cycleTimeout){clearTimeout(this.cycleTimeout);}this.cycleTimeout=this.cyclePause=0;var $cont=$(this);var $slides=opts.slideExpr?$(opts.slideExpr,this):$cont.children();var els=$slides.get();if(els.length<2){log("terminating; too few slides: "+els.length);return;}var opts2=buildOptions($cont,$slides,els,opts,o);if(opts2===false){return;}var startTime=opts2.continuous?10:getTimeout(els[opts2.currSlide],els[opts2.nextSlide],opts2,!opts2.rev);if(startTime){startTime+=(opts2.delay||0);if(startTime<10){startTime=10;}debug("first timeout: "+startTime);this.cycleTimeout=setTimeout(function(){go(els,opts2,0,(!opts2.rev&&!opts.backwards));},startTime);}});};function handleArguments(cont,options,arg2){if(cont.cycleStop==undefined){cont.cycleStop=0;}if(options===undefined||options===null){options={};}if(options.constructor==String){switch(options){case"destroy":case"stop":var opts=$(cont).data("cycle.opts");if(!opts){return false;}cont.cycleStop++;if(cont.cycleTimeout){clearTimeout(cont.cycleTimeout);}cont.cycleTimeout=0;$(cont).removeData("cycle.opts");if(options=="destroy"){destroy(opts);}return false;case"toggle":cont.cyclePause=(cont.cyclePause===1)?0:1;checkInstantResume(cont.cyclePause,arg2,cont);return false;case"pause":cont.cyclePause=1;return false;case"resume":cont.cyclePause=0;checkInstantResume(false,arg2,cont);return false;case"prev":case"next":var opts=$(cont).data("cycle.opts");if(!opts){log('options not found, "prev/next" ignored');return false;}$.fn.cycle[options](opts);return false;default:options={fx:options};}return options;}else{if(options.constructor==Number){var num=options;options=$(cont).data("cycle.opts");if(!options){log("options not found, can not advance slide");return false;}if(num<0||num>=options.elements.length){log("invalid slide index: "+num);return false;}options.nextSlide=num;if(cont.cycleTimeout){clearTimeout(cont.cycleTimeout);cont.cycleTimeout=0;}if(typeof arg2=="string"){options.oneTimeFx=arg2;}go(options.elements,options,1,num>=options.currSlide);return false;}}return options;function checkInstantResume(isPaused,arg2,cont){if(!isPaused&&arg2===true){var options=$(cont).data("cycle.opts");if(!options){log("options not found, can not resume");return false;}if(cont.cycleTimeout){clearTimeout(cont.cycleTimeout);cont.cycleTimeout=0;}go(options.elements,options,1,(!opts.rev&&!opts.backwards));}}}function removeFilter(el,opts){if(!$.support.opacity&&opts.cleartype&&el.style.filter){try{el.style.removeAttribute("filter");}catch(smother){}}}function destroy(opts){if(opts.next){$(opts.next).unbind(opts.prevNextEvent);}if(opts.prev){$(opts.prev).unbind(opts.prevNextEvent);}if(opts.pager||opts.pagerAnchorBuilder){$.each(opts.pagerAnchors||[],function(){this.unbind().remove();});}opts.pagerAnchors=null;if(opts.destroy){opts.destroy(opts);}}function buildOptions($cont,$slides,els,options,o){var opts=$.extend({},$.fn.cycle.defaults,options||{},$.metadata?$cont.metadata():$.meta?$cont.data():{});if(opts.autostop){opts.countdown=opts.autostopCount||els.length;}var cont=$cont[0];$cont.data("cycle.opts",opts);opts.$cont=$cont;opts.stopCount=cont.cycleStop;opts.elements=els;opts.before=opts.before?[opts.before]:[];opts.after=opts.after?[opts.after]:[];opts.after.unshift(function(){opts.busy=0;});if(!$.support.opacity&&opts.cleartype){opts.after.push(function(){removeFilter(this,opts);});}if(opts.continuous){opts.after.push(function(){go(els,opts,0,(!opts.rev&&!opts.backwards));});}saveOriginalOpts(opts);if(!$.support.opacity&&opts.cleartype&&!opts.cleartypeNoBg){clearTypeFix($slides);}if($cont.css("position")=="static"){$cont.css("position","relative");}if(opts.width){$cont.width(opts.width);}if(opts.height&&opts.height!="auto"){$cont.height(opts.height);}if(opts.startingSlide){opts.startingSlide=parseInt(opts.startingSlide);}else{if(opts.backwards){opts.startingSlide=els.length-1;}}if(opts.random){opts.randomMap=[];for(var i=0;i<els.length;i++){opts.randomMap.push(i);}opts.randomMap.sort(function(a,b){return Math.random()-0.5;});opts.randomIndex=1;opts.startingSlide=opts.randomMap[1];}else{if(opts.startingSlide>=els.length){opts.startingSlide=0;}}opts.currSlide=opts.startingSlide||0;var first=opts.startingSlide;$slides.css({position:"absolute",top:0,left:0}).hide().each(function(i){var z;if(opts.backwards){z=first?i<=first?els.length+(i-first):first-i:els.length-i;}else{z=first?i>=first?els.length-(i-first):first-i:els.length-i;}$(this).css("z-index",z);});$(els[first]).css("opacity",1).show();removeFilter(els[first],opts);if(opts.fit&&opts.width){$slides.width(opts.width);}if(opts.fit&&opts.height&&opts.height!="auto"){$slides.height(opts.height);}var reshape=opts.containerResize&&!$cont.innerHeight();if(reshape){var maxw=0,maxh=0;for(var j=0;j<els.length;j++){var $e=$(els[j]),e=$e[0],w=$e.outerWidth(),h=$e.outerHeight();if(!w){w=e.offsetWidth||e.width||$e.attr("width");}if(!h){h=e.offsetHeight||e.height||$e.attr("height");}maxw=w>maxw?w:maxw;maxh=h>maxh?h:maxh;}if(maxw>0&&maxh>0){$cont.css({width:maxw+"px",height:maxh+"px"});}}if(opts.pause){$cont.hover(function(){this.cyclePause++;},function(){this.cyclePause--;});}if(supportMultiTransitions(opts)===false){return false;}var requeue=false;options.requeueAttempts=options.requeueAttempts||0;$slides.each(function(){var $el=$(this);this.cycleH=(opts.fit&&opts.height)?opts.height:($el.height()||this.offsetHeight||this.height||$el.attr("height")||0);this.cycleW=(opts.fit&&opts.width)?opts.width:($el.width()||this.offsetWidth||this.width||$el.attr("width")||0);if($el.is("img")){var loadingIE=($.browser.msie&&this.cycleW==28&&this.cycleH==30&&!this.complete);var loadingFF=($.browser.mozilla&&this.cycleW==34&&this.cycleH==19&&!this.complete);var loadingOp=($.browser.opera&&((this.cycleW==42&&this.cycleH==19)||(this.cycleW==37&&this.cycleH==17))&&!this.complete);var loadingOther=(this.cycleH==0&&this.cycleW==0&&!this.complete);if(loadingIE||loadingFF||loadingOp||loadingOther){if(o.s&&opts.requeueOnImageNotLoaded&&++options.requeueAttempts<100){log(options.requeueAttempts," - img slide not loaded, requeuing slideshow: ",this.src,this.cycleW,this.cycleH);setTimeout(function(){$(o.s,o.c).cycle(options);},opts.requeueTimeout);requeue=true;return false;}else{log("could not determine size of image: "+this.src,this.cycleW,this.cycleH);}}}return true;});if(requeue){return false;}opts.cssBefore=opts.cssBefore||{};opts.animIn=opts.animIn||{};opts.animOut=opts.animOut||{};$slides.not(":eq("+first+")").css(opts.cssBefore);if(opts.cssFirst){$($slides[first]).css(opts.cssFirst);}if(opts.timeout){opts.timeout=parseInt(opts.timeout);if(opts.speed.constructor==String){opts.speed=$.fx.speeds[opts.speed]||parseInt(opts.speed);}if(!opts.sync){opts.speed=opts.speed/2;}var buffer=opts.fx=="shuffle"?500:250;while((opts.timeout-opts.speed)<buffer){opts.timeout+=opts.speed;}}if(opts.easing){opts.easeIn=opts.easeOut=opts.easing;}if(!opts.speedIn){opts.speedIn=opts.speed;}if(!opts.speedOut){opts.speedOut=opts.speed;}opts.slideCount=els.length;opts.currSlide=opts.lastSlide=first;if(opts.random){if(++opts.randomIndex==els.length){opts.randomIndex=0;}opts.nextSlide=opts.randomMap[opts.randomIndex];}else{if(opts.backwards){opts.nextSlide=opts.startingSlide==0?(els.length-1):opts.startingSlide-1;}else{opts.nextSlide=opts.startingSlide>=(els.length-1)?0:opts.startingSlide+1;}}if(!opts.multiFx){var init=$.fn.cycle.transitions[opts.fx];if($.isFunction(init)){init($cont,$slides,opts);}else{if(opts.fx!="custom"&&!opts.multiFx){log("unknown transition: "+opts.fx,"; slideshow terminating");return false;}}}var e0=$slides[first];if(opts.before.length){opts.before[0].apply(e0,[e0,e0,opts,true]);}if(opts.after.length>1){opts.after[1].apply(e0,[e0,e0,opts,true]);}if(opts.next){$(opts.next).bind(opts.prevNextEvent,function(){return advance(opts,opts.rev?-1:1);});}if(opts.prev){$(opts.prev).bind(opts.prevNextEvent,function(){return advance(opts,opts.rev?1:-1);});}if(opts.pager||opts.pagerAnchorBuilder){buildPager(els,opts);}exposeAddSlide(opts,els);return opts;}function saveOriginalOpts(opts){opts.original={before:[],after:[]};opts.original.cssBefore=$.extend({},opts.cssBefore);opts.original.cssAfter=$.extend({},opts.cssAfter);opts.original.animIn=$.extend({},opts.animIn);opts.original.animOut=$.extend({},opts.animOut);$.each(opts.before,function(){opts.original.before.push(this);});$.each(opts.after,function(){opts.original.after.push(this);});}function supportMultiTransitions(opts){var i,tx,txs=$.fn.cycle.transitions;if(opts.fx.indexOf(",")>0){opts.multiFx=true;opts.fxs=opts.fx.replace(/\s*/g,"").split(",");for(i=0;i<opts.fxs.length;i++){var fx=opts.fxs[i];tx=txs[fx];if(!tx||!txs.hasOwnProperty(fx)||!$.isFunction(tx)){log("discarding unknown transition: ",fx);opts.fxs.splice(i,1);i--;}}if(!opts.fxs.length){log("No valid transitions named; slideshow terminating.");return false;}}else{if(opts.fx=="all"){opts.multiFx=true;opts.fxs=[];for(p in txs){tx=txs[p];if(txs.hasOwnProperty(p)&&$.isFunction(tx)){opts.fxs.push(p);}}}}if(opts.multiFx&&opts.randomizeEffects){var r1=Math.floor(Math.random()*20)+30;for(i=0;i<r1;i++){var r2=Math.floor(Math.random()*opts.fxs.length);opts.fxs.push(opts.fxs.splice(r2,1)[0]);}debug("randomized fx sequence: ",opts.fxs);}return true;}function exposeAddSlide(opts,els){opts.addSlide=function(newSlide,prepend){var $s=$(newSlide),s=$s[0];if(!opts.autostopCount){opts.countdown++;}els[prepend?"unshift":"push"](s);if(opts.els){opts.els[prepend?"unshift":"push"](s);}opts.slideCount=els.length;$s.css("position","absolute");$s[prepend?"prependTo":"appendTo"](opts.$cont);if(prepend){opts.currSlide++;opts.nextSlide++;}if(!$.support.opacity&&opts.cleartype&&!opts.cleartypeNoBg){clearTypeFix($s);}if(opts.fit&&opts.width){$s.width(opts.width);}if(opts.fit&&opts.height&&opts.height!="auto"){$slides.height(opts.height);}s.cycleH=(opts.fit&&opts.height)?opts.height:$s.height();s.cycleW=(opts.fit&&opts.width)?opts.width:$s.width();$s.css(opts.cssBefore);if(opts.pager||opts.pagerAnchorBuilder){$.fn.cycle.createPagerAnchor(els.length-1,s,$(opts.pager),els,opts);}if($.isFunction(opts.onAddSlide)){opts.onAddSlide($s);}else{$s.hide();}};}$.fn.cycle.resetState=function(opts,fx){fx=fx||opts.fx;opts.before=[];opts.after=[];opts.cssBefore=$.extend({},opts.original.cssBefore);opts.cssAfter=$.extend({},opts.original.cssAfter);opts.animIn=$.extend({},opts.original.animIn);opts.animOut=$.extend({},opts.original.animOut);opts.fxFn=null;$.each(opts.original.before,function(){opts.before.push(this);});$.each(opts.original.after,function(){opts.after.push(this);});var init=$.fn.cycle.transitions[fx];if($.isFunction(init)){init(opts.$cont,$(opts.elements),opts);}};function go(els,opts,manual,fwd){if(manual&&opts.busy&&opts.manualTrump){debug("manualTrump in go(), stopping active transition");$(els).stop(true,true);opts.busy=false;}if(opts.busy){debug("transition active, ignoring new tx request");return;}var p=opts.$cont[0],curr=els[opts.currSlide],next=els[opts.nextSlide];if(p.cycleStop!=opts.stopCount||p.cycleTimeout===0&&!manual){return;}if(!manual&&!p.cyclePause&&!opts.bounce&&((opts.autostop&&(--opts.countdown<=0))||(opts.nowrap&&!opts.random&&opts.nextSlide<opts.currSlide))){if(opts.end){opts.end(opts);}return;}var changed=false;if((manual||!p.cyclePause)&&(opts.nextSlide!=opts.currSlide)){changed=true;var fx=opts.fx;curr.cycleH=curr.cycleH||$(curr).height();curr.cycleW=curr.cycleW||$(curr).width();next.cycleH=next.cycleH||$(next).height();next.cycleW=next.cycleW||$(next).width();if(opts.multiFx){if(opts.lastFx==undefined||++opts.lastFx>=opts.fxs.length){opts.lastFx=0;}fx=opts.fxs[opts.lastFx];opts.currFx=fx;}if(opts.oneTimeFx){fx=opts.oneTimeFx;opts.oneTimeFx=null;}$.fn.cycle.resetState(opts,fx);if(opts.before.length){$.each(opts.before,function(i,o){if(p.cycleStop!=opts.stopCount){return;}o.apply(next,[curr,next,opts,fwd]);});}var after=function(){$.each(opts.after,function(i,o){if(p.cycleStop!=opts.stopCount){return;}o.apply(next,[curr,next,opts,fwd]);});};debug("tx firing; currSlide: "+opts.currSlide+"; nextSlide: "+opts.nextSlide);opts.busy=1;if(opts.fxFn){opts.fxFn(curr,next,opts,after,fwd,manual&&opts.fastOnEvent);}else{if($.isFunction($.fn.cycle[opts.fx])){$.fn.cycle[opts.fx](curr,next,opts,after,fwd,manual&&opts.fastOnEvent);}else{$.fn.cycle.custom(curr,next,opts,after,fwd,manual&&opts.fastOnEvent);}}}if(changed||opts.nextSlide==opts.currSlide){opts.lastSlide=opts.currSlide;if(opts.random){opts.currSlide=opts.nextSlide;if(++opts.randomIndex==els.length){opts.randomIndex=0;}opts.nextSlide=opts.randomMap[opts.randomIndex];if(opts.nextSlide==opts.currSlide){opts.nextSlide=(opts.currSlide==opts.slideCount-1)?0:opts.currSlide+1;}}else{if(opts.backwards){var roll=(opts.nextSlide-1)<0;if(roll&&opts.bounce){opts.backwards=!opts.backwards;opts.nextSlide=1;opts.currSlide=0;}else{opts.nextSlide=roll?(els.length-1):opts.nextSlide-1;opts.currSlide=roll?0:opts.nextSlide+1;}}else{var roll=(opts.nextSlide+1)==els.length;if(roll&&opts.bounce){opts.backwards=!opts.backwards;opts.nextSlide=els.length-2;opts.currSlide=els.length-1;}else{opts.nextSlide=roll?0:opts.nextSlide+1;opts.currSlide=roll?els.length-1:opts.nextSlide-1;}}}}if(changed&&opts.pager){opts.updateActivePagerLink(opts.pager,opts.currSlide,opts.activePagerClass);}var ms=0;if(opts.timeout&&!opts.continuous){ms=getTimeout(els[opts.currSlide],els[opts.nextSlide],opts,fwd);}else{if(opts.continuous&&p.cyclePause){ms=10;}}if(ms>0){p.cycleTimeout=setTimeout(function(){go(els,opts,0,(!opts.rev&&!opts.backwards));},ms);}}$.fn.cycle.updateActivePagerLink=function(pager,currSlide,clsName){$(pager).each(function(){$(this).children().removeClass(clsName).eq(currSlide).addClass(clsName);});};function getTimeout(curr,next,opts,fwd){if(opts.timeoutFn){var t=opts.timeoutFn.call(curr,curr,next,opts,fwd);while((t-opts.speed)<250){t+=opts.speed;}debug("calculated timeout: "+t+"; speed: "+opts.speed);if(t!==false){return t;}}return opts.timeout;}$.fn.cycle.next=function(opts){advance(opts,opts.rev?-1:1);};$.fn.cycle.prev=function(opts){advance(opts,opts.rev?1:-1);};function advance(opts,val){var els=opts.elements;var p=opts.$cont[0],timeout=p.cycleTimeout;if(timeout){clearTimeout(timeout);p.cycleTimeout=0;}if(opts.random&&val<0){opts.randomIndex--;if(--opts.randomIndex==-2){opts.randomIndex=els.length-2;}else{if(opts.randomIndex==-1){opts.randomIndex=els.length-1;}}opts.nextSlide=opts.randomMap[opts.randomIndex];}else{if(opts.random){opts.nextSlide=opts.randomMap[opts.randomIndex];}else{opts.nextSlide=opts.currSlide+val;if(opts.nextSlide<0){if(opts.nowrap){return false;}opts.nextSlide=els.length-1;}else{if(opts.nextSlide>=els.length){if(opts.nowrap){return false;}opts.nextSlide=0;}}}}var cb=opts.onPrevNextEvent||opts.prevNextClick;if($.isFunction(cb)){cb(val>0,opts.nextSlide,els[opts.nextSlide]);}go(els,opts,1,val>=0);return false;}function buildPager(els,opts){var $p=$(opts.pager);$.each(els,function(i,o){$.fn.cycle.createPagerAnchor(i,o,$p,els,opts);});opts.updateActivePagerLink(opts.pager,opts.startingSlide,opts.activePagerClass);}$.fn.cycle.createPagerAnchor=function(i,el,$p,els,opts){var a;if($.isFunction(opts.pagerAnchorBuilder)){a=opts.pagerAnchorBuilder(i,el);debug("pagerAnchorBuilder("+i+", el) returned: "+a);}else{a='<a href="#">'+(i+1)+"</a>";}if(!a){return;}var $a=$(a);if($a.parents("body").length===0){var arr=[];if($p.length>1){$p.each(function(){var $clone=$a.clone(true);$(this).append($clone);arr.push($clone[0]);});$a=$(arr);}else{$a.appendTo($p);}}opts.pagerAnchors=opts.pagerAnchors||[];opts.pagerAnchors.push($a);$a.bind(opts.pagerEvent,function(e){e.preventDefault();opts.nextSlide=i;var p=opts.$cont[0],timeout=p.cycleTimeout;if(timeout){clearTimeout(timeout);p.cycleTimeout=0;}var cb=opts.onPagerEvent||opts.pagerClick;if($.isFunction(cb)){cb(opts.nextSlide,els[opts.nextSlide]);}go(els,opts,1,opts.currSlide<i);});if(!/^click/.test(opts.pagerEvent)&&!opts.allowPagerClickBubble){$a.bind("click.cycle",function(){return false;});}if(opts.pauseOnPagerHover){$a.hover(function(){opts.$cont[0].cyclePause++;},function(){opts.$cont[0].cyclePause--;});}};$.fn.cycle.hopsFromLast=function(opts,fwd){var hops,l=opts.lastSlide,c=opts.currSlide;if(fwd){hops=c>l?c-l:opts.slideCount-l;}else{hops=c<l?l-c:l+opts.slideCount-c;}return hops;};function clearTypeFix($slides){debug("applying clearType background-color hack");function hex(s){s=parseInt(s).toString(16);return s.length<2?"0"+s:s;}function getBg(e){for(;e&&e.nodeName.toLowerCase()!="html";e=e.parentNode){var v=$.css(e,"background-color");if(v.indexOf("rgb")>=0){var rgb=v.match(/\d+/g);return"#"+hex(rgb[0])+hex(rgb[1])+hex(rgb[2]);}if(v&&v!="transparent"){return v;}}return"#ffffff";}$slides.each(function(){$(this).css("background-color",getBg(this));});}$.fn.cycle.commonReset=function(curr,next,opts,w,h,rev){$(opts.elements).not(curr).hide();opts.cssBefore.opacity=1;opts.cssBefore.display="block";if(w!==false&&next.cycleW>0){opts.cssBefore.width=next.cycleW;}if(h!==false&&next.cycleH>0){opts.cssBefore.height=next.cycleH;}opts.cssAfter=opts.cssAfter||{};opts.cssAfter.display="none";$(curr).css("zIndex",opts.slideCount+(rev===true?1:0));$(next).css("zIndex",opts.slideCount+(rev===true?0:1));};$.fn.cycle.custom=function(curr,next,opts,cb,fwd,speedOverride){var $l=$(curr),$n=$(next);var speedIn=opts.speedIn,speedOut=opts.speedOut,easeIn=opts.easeIn,easeOut=opts.easeOut;$n.css(opts.cssBefore);if(speedOverride){if(typeof speedOverride=="number"){speedIn=speedOut=speedOverride;}else{speedIn=speedOut=1;}easeIn=easeOut=null;}var fn=function(){$n.animate(opts.animIn,speedIn,easeIn,cb);};$l.animate(opts.animOut,speedOut,easeOut,function(){if(opts.cssAfter){$l.css(opts.cssAfter);}if(!opts.sync){fn();}});if(opts.sync){fn();}};$.fn.cycle.transitions={fade:function($cont,$slides,opts){$slides.not(":eq("+opts.currSlide+")").css("opacity",0);opts.before.push(function(curr,next,opts){$.fn.cycle.commonReset(curr,next,opts);opts.cssBefore.opacity=0;});opts.animIn={opacity:1};opts.animOut={opacity:0};opts.cssBefore={top:0,left:0};}};$.fn.cycle.ver=function(){return ver;};$.fn.cycle.defaults={fx:"fade",timeout:4000,timeoutFn:null,continuous:0,speed:1000,speedIn:null,speedOut:null,next:null,prev:null,onPrevNextEvent:null,prevNextEvent:"click.cycle",pager:null,onPagerEvent:null,pagerEvent:"click.cycle",allowPagerClickBubble:false,pagerAnchorBuilder:null,before:null,after:null,end:null,easing:null,easeIn:null,easeOut:null,shuffle:null,animIn:null,animOut:null,cssBefore:null,cssAfter:null,fxFn:null,height:"auto",startingSlide:0,sync:1,random:0,fit:0,containerResize:1,pause:0,pauseOnPagerHover:0,autostop:0,autostopCount:0,delay:0,slideExpr:null,cleartype:!$.support.opacity,cleartypeNoBg:false,nowrap:0,fastOnEvent:0,randomizeEffects:1,rev:0,manualTrump:true,requeueOnImageNotLoaded:true,requeueTimeout:250,activePagerClass:"activeSlide",updateActivePagerLink:null,backwards:false};})(jQuery);
+
+
+		$(function(){
+				$("#newsItems").before('<div id="cycleNav">&nbsp;hover over an item to pause</div>').cycle({pause: 1, 'random': 0, timeout:7500, pager: '#cycleNav', containerResize: 0, fit: 1, width: 'auto'});
+		});
+
+
+</script>
+<!-- InstanceEndEditable -->
+<span style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; visibility: visible; font-size: 85%; text-align: center; display: block; ">Powered by Sierra</span>
+</body>
+<!-- InstanceEnd --></html>
+
+<!--this is customized <screens/mainmenu.html>-->

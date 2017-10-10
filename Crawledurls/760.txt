@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Super Pit Game-Day Parking Map</title>
+<meta name="description" content="Interactive map of the University of North Texas Mean Green Super Pit game-day parking">
+<meta name="keywords" content="North Texas, University of North Texas, UNT, NT, Mean Green, Mean Green Athletics, Mean Green Sports, North Texas basketball, Mean Green basketball, Super Pit, UNT Coliseum, Denton, Texas, Go Mean Greeen">
+<meta http-equiv="charset" content="ISO-8859-1">
+<meta http-equiv="content-language" content="English">
+<meta http-equiv="vw96.object type" content="Document">
+<meta name="rating" content="general">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="4 weeks">
+
+<link rel=stylesheet href="stadiumparking.css" type="text/css">
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<div id="pagetop">&nbsp;</div>
+
+<div id="container">
+
+<div id="title"><a href="http://www.meangreenmap.com/home.html"><img src="title.png" width="430" height="107" alt="Mean Green Interactive Athletics Map" border="0"/></a></div>
+
+<div id="unt"><img src="unt.png" width="600" height="85" onclick="MM_showHideLayers('superpitmgc','','hide','superpitgen','','hide','mgctext','','hide','gentext','','hide')" border="0"/></div>
+
+<div id="pagetoplinks">
+<h5><a href="http://www.meangreenmap.com/home.html#anchor" class="bannerlinks">Mean Green Village</a>
+ | <a href="http://www.meangreenmap.com/home.html" class="bannerlinks">Facilities North of 35E</a>
+ | <a href="http://www.meangreenmap.com/apogeeparking.html" class="bannerlinks">Apogee Stadium Parking</a>
+ | <a href="http://www.meangreenmap.com/superpitparking.html" class="bannerlinks">Super Pit Parking</a>
+ | <a href="http://www.unt.edu/transit/pdf/2011-2012%20ParkingMap.pdf" target="_new" class="bannerlinks">UNT Campus</a></h5>
+ </div>
+
+<div id="instructions">
+<h1>Super Pit<br />
+Game-Day Parking</h1>
+<p>Click on the color below<br />
+to see the lot’s location and the<br />
+game-day route to that lot:</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('superpitmgc','','show','superpitgen','','hide','mgctext','','show','gentext','','hide')"><img src="greenrollover.gif" alt="Mean Green Club Parking Lot" width="20" height="20" class="left-float" border="0" /></a>
+<p class="superpitparking"><strong>Mean Green Club Parking</strong></p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('superpitmgc','','hide','superpitgen','','show','mgctext','','hide','gentext','','show')"><img src="bluerollover.gif" alt="Super Pit General Parking" width="20" height="20" class="left-float" border="0" /></a>
+<p class="superpitparking"><strong>General Parking</strong></p>
+</div>
+
+<div id="map"><img src="superpitmap.jpg" width="960" height="700" border="0" /></div>
+  
+<div id="superpitmgc"><img src="mgclub.png" width="960" height="700" /></div>
+<div id="superpitgen"><img src="general.png" width="960" height="700" /></div>
+
+<div id="mgctext">
+<h2>Route to Mean Green Club Parking Lot</h2>
+<p class="route">Access is from North Texas Blvd. Mean Green Club members may park in spaces on Highland Street, in the top portion of the Fouts Field lot, or in the general section (shown in blue) of the Fouts Field lot.</p>
+<p class="route">From northbound 35W, take Exit 85A to 35E, then Exit 466B to North Texas Blvd. Left on North Texas Blvd.</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak. Left on West Oak and continue east on Hickory. Right on North Texas Blvd.</p>
+<p class="route">From northbound 35E, take Exit 4666B to North Texas Blvd. Right on North Texas Blvd.</p>
+<p class="route">From downtown Denton, go west on West Oak then left on North Texas Blvd/Ave E.</p>
+</div>
+<div id="gentext">
+<h2>Route to General Parking Lot</h2>
+<p class="route">Access is from North Texas Blvd. Parking is free.</p>
+<p class="route">From northbound 35W, take Exit 85A to 35E, then Exit 466B to North Texas Blvd. Left on North Texas Blvd.</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak. Left on West Oak and continue east on Hickory. Right on North Texas Blvd.</p>
+<p class="route">From northbound 35E, take Exit 4666B to North Texas Blvd. Right on North Texas Blvd.</p>
+<p class="route">From downtown Denton, go west on West Oak then left on North Texas Blvd/Ave E.</p>
+</div>
+
+<div id="index">
+<table width="960" border="0">
+  <tr>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/alumnipavilion.html">Alumni Pavilion</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/fouts.html">Fouts Field</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/sportsmedicine.html">Sports Medicine and Rehab</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/superpit.html">UNT Coliseum a/k/a The Super Pit</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/apogeestadium.html">Apogee Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/lovelacestadium.html">Lovelace Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/strength.html">Strength and Conditioning</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/trackfield.html">Track and Field offices</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/athleticcenter.html">Athletic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/soccer.html">Mean Green Soccer Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/academiccenter.html">Student-Athlete Academic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/victoryhall.html">Victory Hall student-athlete residences</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/snakepit.html">Bahnsen Gym (The Snake Pit)</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Mean Green Team Store</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/the-e.html">The "E" Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/volleyball.html">Volleyball Center and Office Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/champs.html">Champs Cafeteria</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/hallfame.html">North Texas Athletic Hall of Fame</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tailgating.html">The Hill tailgating area</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/waranch.html">Waranch Tennis Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/practice.html">Darrell Dickey Football Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/pohl.html">Pohl Recreation Center and PEB Natatorium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Ticket Office</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/turbines.html">Wind Turbines</a></h3></td>
+  </tr>
+</table>
+<br />
+<div id="siteby"><a href="http://www.meangreensports.com" target="_new"><img src="siteby.gif" width="318" height="59" border="0" alt="Site Designed By MeanGreenSports.com" /></a>
+<h4><a class="credits" href="http://www.meangreenmap.com/credits.html">credits</a></h4></div>
+</div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+  <meta name="robots" content="index, follow"/>
+  <meta name="keywords" content=""/>
+  <meta name="title" content="AURP Virtual Seminars"/>
+  <meta name="author" content=""/>
+  <meta name="description" content=""/>
+  <meta name="generator" content="MemberClicks Content Management System"/>
+  <title>AURP Virtual Seminars</title>
+  <link href="//mc/joomla/base/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <style type="text/css">
+    ::-webkit-input-placeholder {color:inherit; opacity: 0.6}
+    :-moz-placeholder {color:inherit;opacity:0.6}
+    ::-moz-placeholder {color:inherit;opacity:0.6}
+    :-ms-input-placeholder {color:inherit; opacity: 0.6}
+  </style>
+  <script type="text/javascript" src="http://www.aurp.net/includes/js/jquery-1.9.0.js"></script>
+  <script type="text/javascript">jQuery.noConflict();</script>
+  <script type="text/javascript" src="http://www.aurp.net/includes/js/jquery-ui-1.8.22.custom.min.js"></script>
+  <script type="text/javascript" src="http://www.aurp.net/includes/js/jQueryUIDialogInclude.js"></script>
+  <script type="text/javascript" src="http://www.aurp.net/includes/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" src="http://www.aurp.net/includes/js/jquery.tablednd-0.5.js"></script>
+  <script type="text/javascript" src="http://www.aurp.net/includes/js/json2.js"></script>
+  <link rel="stylesheet" href="http://www.aurp.net/includes/css/themes/base/ui.all.css" type="text/css"/>
+  <link rel="stylesheet" href="http://www.aurp.net/includes/css/jqueryui.css" type="text/css"/>
+  <link rel="stylesheet" href="http://www.aurp.net/includes/css/system-messages.css" type="text/css"/>
+  <script type="text/javascript" src="/plugins/system/mtupgrade/mootools.js"></script>
+  <script type="text/javascript" src="/includes/js/joomla.javascript.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type='text/javascript'>
+/*<![CDATA[*/
+	var jax_live_site = 'http://www.aurp.net/index.php';
+	var jax_site_type = '1.5';
+	var jax_token_var = '52e604e3682704f658ef7251a3969f1e';
+/*]]>*/
+</script><script type="text/javascript" src="http://www.aurp.net/plugins/system/pc_includes/ajax_1.3.js"></script>
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css"/>
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript">
+      window.addEvent("domready", function() {
+          SqueezeBox.initialize({});
+          $$("a.modal").each(function(el) {
+              el.addEvent("click", function(e) {
+                  new Event(e).stop();
+                  SqueezeBox.fromElement(el);
+              });
+          });
+      });
+  </script>
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+      var mcios = navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad)/);
+      var supportsTouch = 'ontouchstart' in window || window.navigator.msMaxTouchPoints || navigator.userAgent.toLowerCase().match(/(iemobile)/);
+      if (mcios) {
+        jQuery('#bkg').addClass('mc-touch mc-ios');
+      } else if (supportsTouch) {
+        jQuery('#bkg').addClass('mc-touch non-ios');
+      } else {
+        jQuery('#bkg').addClass('mc-no-touch');
+      }
+      jQuery('#cToolbarNavList li:has(li)').addClass('parent');
+    });
+  </script>
+
+<script type='text/javascript' src='/templates/aurp-jt/js/slider.js'></script>
+<script type='text/javascript' src='/templates/aurp-jt/js/hoverIntent.js'></script>
+<script type='text/javascript' src='/templates/aurp-jt/js/superfish.js'></script>
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css"/>
+<link rel="stylesheet" href="/templates/aurp-jt/css/editor.css" type="text/css"/>
+<script type="text/javascript">// <![CDATA[
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45138132-1', 'aurp.net');
+  ga('send', 'pageview');
+// ]]></script>
+<script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-66884658-1', 'auto');
+
+ga('send', 'pageview');
+
+</script>
+</head>
+<body id="bkg">
+    <div id="siteWrap">
+            <div id="header">
+                <div id="header-left">		<div class="moduletable">
+		            <div id="socNetBar">
+<p>Stay Connected With Us:</p>
+<a class="facebook" href="https://www.facebook.com/groups/102912435697/?fref=nf" target="_blank">Facebook</a> <a class="twitter" href="http://twitter.com/AURP" target="_blank">Twitter</a> <a class="linked-in" href="http://www.linkedin.com/groups?home=&amp;gid=2843279&amp;trk=groups_most_popular-h-logo" target="_blank">LinkedIn</a> <a class="newsletter" href="http://www.aurp.net/index.php?option=com_content&amp;view=article&amp;id=110&amp;Itemid=117">Subscribe to the <span>AURP</span> Newsletter</a></div>		</div>
+			<div class="moduletable">
+		            <div id="googleSearch"><form id="siteSearchForm" action="http://www.google.com/search" method="get" name="siteSearchForm"> <input style="display: none;" checked="checked" name="sitesearch" type="radio" value="www.aurp.net"/> <input id="gsInput" onclick="this.value='';" name="q" type="text" value="Search..."/> <a href="javascript:document.siteSearchForm.submit();"><span class="hiddenText">GO</span></a> </form></div>		</div>
+	</div>
+                <div id="header-right">		<div class="moduletable">
+		            <a id='mcSimpleLogin' href='login'>Login</a>		</div>
+			<div class="moduletable">
+		            <div id="hdrFlash">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="633" height="209" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0">
+<param name="align" value="middle"/>
+<param name="allowScriptAccess" value="always"/>
+<param name="quality" value="High"/>
+<param name="bgcolor" value="#ffffff"/>
+<param name="wmode" value="transparent"/>
+<param name="src" value="/templates/aurp-jt/images/mc_slideshow.swf?datafile=templates/aurp-jt/docs/hdr_data.xml"/>
+<param name="name" value="JCalendar"/><embed type="application/x-shockwave-flash" width="633" height="209" src="/templates/aurp-jt/images/mc_slideshow.swf?datafile=templates/aurp-jt/docs/hdr_data.xml" name="JCalendar" wmode="transparent" bgcolor="#ffffff" quality="High" allowscriptaccess="always" align="middle"></embed>
+</object>
+</div>		</div>
+	</div>
+                <div class="top-left"></div><div class="top-right"></div><div class="bot-right"></div><div class="bot-left"></div>
+                <div class="clarence"></div>
+            </div><!-- header -->
+            
+            <div id="middleSection">
+                                    <div id="topNavContainer">		<div class="moduletable_menu">
+		            <ul class="menu sf-menu"><li class="item134"><a href="http://www.aurp.net/"><span>Home</span></a></li><li class="parent item74"><span class="separator"><span>About AURP</span></span><ul><li class="item75"><a href="/mission"><span>Mission</span></a></li><li class="item76"><a href="/history"><span>History</span></a></li><li class="item77"><a href="/join"><span>Join</span></a></li><li class="item78"><a href="/contact"><span>Contact</span></a></li><li class="item80"><a href="/corporate-partners"><span>Corporate Partners</span></a></li><li class="item81"><a href="/sustaining-park-members"><span>Sustaining Park Members</span></a></li><li class="item79"><a href="/sustaining-associate-members"><span>Sustaining Associate Members</span></a></li><li class="item82"><a href="/leadership"><span>Leadership</span></a></li><li class="item84"><a href="/2015-outstanding-research-park"><span>2015 Outstanding Research Park</span></a></li><li class="item153"><a href="/outstanding-research-parks"><span>Outstanding Research Parks</span></a></li><li class="item85"><a href="/aurp-awards-of-excellence"><span>AURP Awards of Excellence</span></a></li><li class="item86"><a href="/related-associations"><span>Related Associations</span></a></li></ul></li><li class="parent item87"><span class="separator"><span>About Research Parks</span></span><ul><li class="item88"><a href="/what-is-a-research-park"><span>What is a Research Park?</span></a></li><li class="item90"><a href="/creating-communities-of-innovation-"><span>Creating Communities of Innovation</span></a></li><li class="item92"><a href="/battelle-report"><span>Battelle Report</span></a></li><li class="item93"><a href="/power-of-place"><span>Power of Place</span></a></li><li class="item94"><a href="http://www.businessweek.com/innovate/content/jun2009/id2009061_849934.htm"><span>BusinessWeek Special Report</span></a></li><li class="item95"><a href="/economic-impact-studies"><span>Economic Impact Studies</span></a></li><li class="item96"><a href="/nas-global-best-practices"><span>NAS Global Best Practices</span></a></li><li class="item140"><a href="http://www.google.com/publicdata/explore?ds=z6409butolt8la_&amp;ctype=b&amp;strail=false&amp;nselm=h&amp;met_x=gci&amp;scale_x=lin&amp;ind_x=false&amp;met_y=gci&amp;scale_y=lin&amp;ind_y=false&amp;idim=country:USA:CHN:CHE&amp;ifdim=country:world:WLD&amp;tunit=Y&amp;pit=1126076400000&amp;hl=en&amp;dl=en&amp;icfg&amp;uniSiz" target="_blank"><span>Global Competitiveness Index</span></a></li><li class="item150"><a href="https://aurp.memberclicks.net/assets/documents/triple%20helix.pdf"><span>Triple Helix</span></a></li><li class="item151"><a href="http://ucsc2014review.org/" target="_blank"><span>UCSC's 2014 Annual Review</span></a></li></ul></li><li class="parent item97"><span class="separator"><span>Events</span></span><ul><li class="item98"><a href="/calendar-of-events-"><span>Calendar of Events</span></a></li><li class="item104"><a href="/international-conference-2016"><span>International Conference 2016</span></a></li><li class="item101"><a href="http://springtraining.aurp.net"><span>Spring Training 2016</span></a></li><li class="item144"><a href="http://bioparks.aurp.net/" target="_blank"><span>AURP @ BIO2016</span></a></li><li class="item99"><a href="/sponsorship-opportunities"><span>Sponsorship Opportunities</span></a></li></ul></li><li class="parent item106"><span class="separator"><span>Professional Development</span></span><ul><li class="item107"><a href="/aurp-virtual-seminars"><span>AURP Virtual Seminars</span></a></li><li class="item109"><a href="/creating-communities-of-innovation"><span>Creating Communities of Innovation</span></a></li></ul></li><li class="parent item111"><span class="separator"><span>Newsroom</span></span><ul><li class="item112"><a href="/latest-research-park-news"><span>Latest Research Park News</span></a></li><li class="item115"><a href="/media-releases"><span>Media Releases</span></a></li><li class="item116"><a href="/publications"><span>Publications</span></a></li><li class="item117"><a href="/sign-up-for-aurp-newsletter"><span>Sign up for AURP Newsletter</span></a></li><li class="item149"><a href="/aurp-forum-newsletters"><span>AURP Forum Newsletters</span></a></li></ul></li><li class="parent item119"><span class="separator"><span>For Members</span></span><ul><li class="item120"><a href="/login"><span>Member Login</span></a></li><li class="item122"><a href="/membership-database"><span>Membership Database</span></a></li><li class="item141"><a href="/bookstore"><span>Bookstore</span></a></li><li class="item137"><a href="/aurp-member-e-list"><span>AURP Member E-List</span></a></li><li class="item125"><a href="/career-center"><span>Career Center</span></a></li><li class="item128"><a href="/rfps--rfqs"><span>RFPs &amp; RFQs</span></a></li><li class="item131"><a href="/not-a-member-join-aurp-today"><span>Not a Member? Join AURP Today!</span></a></li><li class="item132"><a href="/renew-your-membership"><span>Renew Your Membership</span></a></li></ul></li></ul>		</div>
+	</div><!-- navWrap -->
+                    <div class="clarence"></div>
+                                
+                <div id="breadCrumbBox"></div>
+                
+                                
+                                
+                                
+                                    <div id="contentWrap">
+                        <div id="contentPadding"> 
+
+
+
+
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<h1>AURP Innovation U Virtual Seminars</h1>
+<img src="/assets/Images/aurp-innovation-u-banner-final.jpg" alt="" width="750"/>
+<p>Creating university communities of innovation is AURP&rsquo;s core expertise. And as university innovation communities evolve, AURP announces university innovation community builders&rsquo; latest professional development opportunity &mdash; Innovation U Virtual Seminars. We&rsquo;ll be featuring information and knowledge about the latest trends in innovation and university districts &mdash; the why, the how-to and &ldquo;the who is doing it and where?&rdquo;</p>
+<div style="text-align: left;"><span class="regularText"><span class="regularText"></span></span>
+<h1 style="text-align: left;">Recent Virtual Seminars</h1>
+<p style="text-align: left;"><strong><span class="regularText"><span class="regularText"></span></span></strong></p>
+<p style="text-align: left;"><strong><strong><strong><span class="regularText"></span></strong></strong></strong></p>
+<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><span style="font-size: 10pt;"><strong><abbr>Innovation U: Retooling Your Park to Increase Relevance and Involvement</abbr></strong><em><abbr></abbr><strong><abbr><br/></abbr></strong></em></span></p>
+<p style="margin-top: 0px; margin-bottom: 0px; text-align: left;"><span style="text-decoration: underline;"><span style="font-size: 10pt;"><strong><abbr>Speakers:</abbr></strong></span></span></p>
+<span style="font-size: 10pt;"><strong><abbr>Mason Ailstock</abbr></strong><abbr>, Vice President of Business Development, Research Triangle Foundation</abbr><strong><abbr><br/>Sanjeev Patel</abbr></strong><abbr>, AIA, LEED Green Assoc., Associate Principal, Duda | Paine Architects</abbr><abbr><br/><br/></abbr></span>What&rsquo;s the best approach for increasing your park&rsquo;s relevance? Will it require realigning physical assets? How about enhancing tenant involvement and participation? Research Triangle Foundation&rsquo;s Mason Ailstock has studied these challenges and found solutions. He and architect Sanjeev Patel share their expertise with us in our Innovation U Virtual Seminar: Retooling Your Park to Increase Relevance and Involvement.</div>
+<div style="text-align: left;"><strong style="text-decoration: underline;"><br/><iframe frameborder="0" height="350" src="http://www.youtube.com/embed/WJEqZmzSRtQ" width="425"></iframe><br/></strong><span class="regularText"><span class="regularText"></span></span><span class="regularText"><span class="regularText"></span></span><hr/><span class="regularText"><strong>&nbsp;</strong> </span></div>
+<span class="regularText"><span class="regularText"></span></span> <img src="/assets/media/iParksbanner_final.jpg" alt=""/>
+<p>Dedicated to providing premier education and professional development opportunities, AURP presents iParks Webinars, a comprehensive, interactive community of innovation - online! iParks Webinars bring the world's innovation leaders straight to your desktop, covering a broad range of topics that Communities of Innovation around the world can implement in their parks. See below for our most recent iParks Webinar and for our iParks Archive for Webinars On Demand.</p>
+<h1>Recent iParks Webinars</h1>
+<span class="regularText"><span class="regularText"></span></span>
+<p><strong><strong><strong><span class="regularText"></span></strong></strong></strong></p>
+<p style="margin-top: 0px; margin-bottom: 0px;"><span style="font-size: 10pt;"><strong><abbr>iParks Webinar: How To Create An Innovation District<br/></abbr></strong></span></p>
+<p><span class="regularText"><span style="text-decoration: underline;">Featured Presenters:</span> <br/></span><strong><span class="regularText" style="font-size: 10pt;"><span class="regularText" style="font-size: 10pt;"></span></span></strong></p>
+<ul>
+<li><span style="font-size: 10pt;"><strong> Eric Tomlinson</strong>, DSc, PhD, Chief Innovation Officer, Wake Forest Baptist Medical Center; </span>President, Wake Forest Innovation Quarter</li>
+<li><strong>Patrick J. Whalen</strong>, Chief Operating Officer, Buffalo Niagara Medical Campus, Inc.</li>
+<li><span style="text-decoration: underline;"><em>Moderator:</em></span> <strong>Kevin T. Byrne</strong>, MBA, AURP President; President, The University Financing Foundation, Inc.</li>
+</ul>
+<p>It seems like everywhere you turn these days one hears the "innovation district" buzzword. We'll examine what makes up an innovation district and then open the floor for a lively discussion.</p>
+<p><iframe frameborder="0" height="350" src="http://www.youtube.com/embed/2Z6MmSMlpX4" width="425"></iframe></p>
+<p><strong>&nbsp;</strong></p>
+<span class="regularText"><span class="regularText"></span></span><hr/><span class="regularText"><span class="regularText"></span></span>
+<h1>iParks Webinar Archive</h1>
+<p>&nbsp;</p>
+<span class="regularText"><span class="regularText"></span></span><span class="regularText"><span class="regularText"></span></span>
+<p><span style="font-size: 18px;"><a href="/index.php?option=com_content&amp;view=article&amp;id=37"><strong>iParks Webinar: </strong><strong>Connecting with Creatives through Social Media and Mobile Phones</strong></a></span></p>
+<span class="regularText"><span class="regularText"></span></span>
+<p>Featured Presenters: Scott D. Meyer, Director of Outreach, 9 Clouds, Inc. <br/>Derek Johnson, Chief Executive Officer, Tatango</p>
+<span class="regularText"><span class="regularText"></span></span>
+<p><a href="http://www.regonline.com/Register/Checkin.aspx?EventID=903694"><input type="submit" name="mybutton" value="Now Available on Demand"/></a><span class="regularText"><br/>Fee: $79.00 AURP Members / $99.00 Non-Member </span></p>
+<span class="regularText"><span class="regularText"></span></span>
+<p>&nbsp;</p>
+<span class="regularText"><span class="regularText"></span></span><hr/><span class="regularText"><span class="regularText"></span></span>
+<h2><a href="/index.php?option=com_content&amp;view=article&amp;id=35">The Perfect Triangle: University, Public and Private Sector Research Parks</a></h2>
+<span class="regularText"><span class="regularText"></span></span>
+<p>Featured Presenters: J. Michael Bowman, Chairman &amp; President, Delaware Technology Park <br/>Gregory W. Deason, Vice President &amp; Executive Director, Purdue Research Park</p>
+<span class="regularText"><span class="regularText"></span></span><form action="http://www.regonline.com/iparksapril2010" method="post"><input type="submit" name="mybutton" value="Now Available on Demand"/></form><span class="regularText"><span class="regularText">Fee: $79.00 AURP Members / $99.00 Non-Member</span></span><hr/><span class="regularText"><span class="regularText"></span></span>
+<h2><a href="/index.php?option=com_content&amp;view=article&amp;id=36">Renewable Energy in Texas</a></h2>
+<span class="regularText"><span class="regularText"></span></span>
+<p>Featured Presenter: Mark Armentrout, President and COO of the Texas Institute for Sustainable Technology Research</p>
+<span class="regularText"><span class="regularText"></span></span><form action="http://www.regonline.com/Checkin.asp?EventId=827835" method="post"><input type="submit" name="mybutton" value="Now Available on Demand"/></form><span class="regularText"><span class="regularText">Fee: $79.00 AURP Members / $99.00 Non-Member <br/></span></span><hr/><span class="regularText"><span class="regularText"></span></span>
+<h2><a href="/index.php?option=com_content&amp;view=article&amp;id=33">Building Information Modeling: Saving Time and Money on Your Upcoming Project</a></h2>
+<span class="regularText"><span class="regularText"></span></span>
+<p>Featured Presenters: Steven Gurtel, Project Manager, Whiting-Turner and Tom Fortier, Principal, ZGF Architects LLP</p>
+<span class="regularText"><span class="regularText"></span></span><form action="http://www.regonline.com/iparkswebFeb2010" method="post"><input type="submit" name="mybutton" value="Now Available on Demand"/></form><span class="regularText"><span class="regularText">Fee: $79.00 AURP Members / $99.00 Non-Member<br/></span></span><hr/><span class="regularText"><span class="regularText"></span></span>
+<h2><a href="/index.php?option=com_content&amp;view=article&amp;id=38">The Sustainable Sites Initiative</a></h2>
+<span class="regularText"><span class="regularText"></span></span>
+<p>Featured Presenter: Gregory Napier RLA, LEED AP, Assistant Director of Real Estate and Physical Facilities, Purdue Research Foundation</p>
+<span class="regularText"><span class="regularText"></span></span><form action="http://www.regonline.com/iparkswebJan2010" method="post"><input type="submit" name="mybutton" value="Now Available on Demand"/></form><span class="regularText"><span class="regularText">Fee: $79.00 AURP Members / $99.00 Non-Member</span></span><hr/><span class="regularText"><span class="regularText"></span></span>
+<h2><a href="/index.php?option=com_content&amp;view=article&amp;id=34">Business Incubation: Taking Businesses From the Farm System to the Big Leagues</a></h2>
+<span class="regularText"><span class="regularText"></span></span>
+<p>Charles D'Agostino, M.B.A., Executive Director, Louisiana Business &amp; Technology Center</p>
+<span class="regularText"><span class="regularText"></span></span><form action="http://www.regonline.com/iparksweb111209" method="post"><input type="submit" name="mybutton" value="Now Available on Demand"/></form><span class="regularText"><span class="regularText">Fee: $79.00 AURP Members / $99.00 Non-Members</span></span><hr/></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</div><!-- contentPadding -->
+                    </div><!-- contentWrap -->
+                                
+                <div id="sponsors-bottom" class="clarence"></div>
+            </div><!-- middleSection -->
+            
+            <div id="footer">
+                <div id="footerPlate"><p id="ftrAddy"><strong>Association of University Research Parks</strong> <br/>6262 N. Swan Road, Suite 125&nbsp;<br/>Tucson, Arizona USA 85718 <br/>P: 520.529.2521 F: 520.529.2499 <a href="mailto:info@aurp.net">info@aurp.net</a> <br/><span>&copy; Copyright 2015 AURP</span></p>
+<p id="ftrNav"><a href="http://aurp.memberclicks.net/index.php?option=com_content&amp;view=article&amp;id=115">Terms and Conditions</a></p>
+<p id="ftrCredits"><a href="#">Photo Credits</a></p></div>
+                  <div class="top-left"></div><div class="top-right"></div><div class="bot-right"></div><div class="bot-left"></div>
+            </div><!-- footer -->            
+            <div id="pbmcWrap"><a id="pbmc" href="http://www.memberclicks.com/">powered by MemberClicks</a></div>            
+    </div><!-- siteWrap -->
+    
+    <!-- initialise Superfish -->
+<script type="text/javascript"> 
+ 
+    jQuery(document).ready(function() { 
+        jQuery('ul.sf-menu').superfish({ 
+            delay:       0,                            // one second delay on mouseout 
+            animation:   {opacity:'show'},  // fade-in and slide-down animation 
+            speed:       'fast',                          // faster animation speed 
+            autoArrows:  false,                           // disable generation of arrow mark-up 
+            dropShadows: false                            // disable drop shadows 
+        }); 
+    }); 
+ 
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4d1c8e5bf6","applicationID":"6429535","transactionName":"Nl1VMEQAV0AHWkBQWw8XdgdCCFZdSXpbV0AEVkMnWQ9NQQlVWFxGTlxeF0YNWEo=","queueTime":0,"applicationTime":330,"atts":"GhpWRgwaRE4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

@@ -1,0 +1,33 @@
+<pre>stdClass Object
+(
+    [apiVersion] => 2.1
+    [error] => stdClass Object
+        (
+            [code] => 410
+            [message] => No longer available
+            [errors] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [domain] => GData
+                            [code] => NoLongerAvailableException
+                            [internalReason] => No longer available
+                        )
+
+                )
+
+        )
+
+)
+</pre><div data-role="page">
+  <div data-role="header">
+    <h1>Youtube</h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" class="youtube">
+          </ul>
+  </div>
+  <div data-role="footer">
+    <h4>Youtube</h4>
+  </div>
+</div>

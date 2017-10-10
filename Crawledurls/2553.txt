@@ -1,0 +1,745 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="http://president.unt.edu/sites/all/themes/greenlight/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="/presidents-cabinet" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/13" />
+  <title>President&#039;s Cabinet | Office of the President</title>  
+  <link type="text/css" rel="stylesheet" href="http://president.unt.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://president.unt.edu/sites/default/files/css/css_OrfhP1m2Cba2h5I9IkJWVE4hei7wqEOjIF917V1XVE4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://president.unt.edu/sites/default/files/css/css_5jHA_36wunjU9m5ZE6_CknfNJJUChyI6EL1ealk3UHg.css" media="all" />
+
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="http://president.unt.edu/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="http://president.unt.edu/sites/default/files/css/css_Mnf4LyEdajCK9P5BaIHMJSvpphr546BHSYwyIqjr-p8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:700,regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://president.unt.edu/sites/default/files/css/css_W02fIc-g_FpiqeLDq0z-7NImNeCnjHuXZT1ipTOb2CE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://president.unt.edu/sites/default/files/css/css_Zz_IaFa7X57B8yT-7DGU60vUu46RazwJ32ENNLEIbP8.css" media="all" />
+  
+  <script type="text/javascript" src="http://president.unt.edu/sites/all/libraries/respondjs/respond.min.js?o5znun"></script>
+<script type="text/javascript" src="http://president.unt.edu/sites/default/files/js/js_uwhB3G1fP2vqbKe8CCv8E50VjeVV2JHal4KgjDvLhzs.js"></script>
+<script type="text/javascript" src="http://president.unt.edu/sites/default/files/js/js_rDWpddAlvD-j0qRXnoYJZRcLyJUKID5B9DXVBvfLA4E.js"></script>
+<script type="text/javascript" src="http://president.unt.edu/sites/default/files/js/js_dUo4VA_O57DKT-Yxz2q8nYmbFBRC5PVlpI5PbIIYsis.js"></script>
+<script type="text/javascript" src="http://president.unt.edu/sites/default/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight","theme_token":"dxXzR1CyjysaODj3H3GyuE-JLkRuxNuWaulUSZnEf8o","js":{"sites\/all\/libraries\/respondjs\/respond.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"sites\/all\/modules\/wdc_scripts\/wdc-drupal7.js":1,"sites\/all\/modules\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/ldap\/ldap_user\/ldap_user.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/caption_filter\/caption-filter.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/themes\/greenlight\/ds_layouts\/ds_2col_3_9\/ds_2col_3_9.css":1,"public:\/\/ctools\/css\/d41d8cd98f00b204e9800998ecf8427e.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Montserrat:700,regular\u0026subset=latin":1,"sites\/all\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight\/css\/title-1line-lockup.css":1,"sites\/all\/themes\/greenlight\/css\/wysiwyg-styles.css":1,"fluid::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/fluid\/alpha-default-fluid-12.css":1,"narrow::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight\/css\/greenlight-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"fitvids":{"custom_domains":[],"selectors":[".fitvid"],"simplifymarkup":1},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!-- Social media share icons -->
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "ur-7853a7cd-9139-462-ff9f-3cd83d1e8b55", shorten: false, doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
+
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-13 node-type-people-directory-order context-presidents-cabinet">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">
+			<p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="/sites/all/themes/greenlight/images/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+						<li id="li-mo-home" class="first"><a href="/"><span>Home</span></a></li>
+						
+						<li id="li-mo-main-menu" class="menu-toggler">Main menu &raquo;
+<ul class="mo-main-menu toggler-submenu mo-hide">
+<li><a href="http://president.unt.edu/">Home</a></li>
+<li id="" class="menu-toggler li-submenu-toggler">Meet President Smatresk&raquo;
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://president.unt.edu/meet-president-smatresk">Meet President Smatresk</a></li>
+<li><a href="http://president.unt.edu/president-smatresk-bio">Read President Smatresk's full bio</a></li>
+<li><a href="http://president.unt.edu/contact-president-smatresk">Contact President Smatresk</a></li>
+<li><a href="http://president.unt.edu/download-official-headshot-president-smatresk">Download an official headshot of President Smatresk</a></li>
+</ul>
+</li>
+<li id="" class="menu-toggler li-submenu-toggler">Initiatives & Priorities&raquo;
+<ul class="mo-submenu toggler-submenu mo-hide">
+<li><a href="http://president.unt.edu/initiatives-priorities">Initiatives & Priorities</a></li>
+<li><a href="http://president.unt.edu/road-national-prominence">The Road to National Prominence</a></li>
+<li><a href="http://president.unt.edu/planning-implementation">Planning Implementation</a></li>
+</ul>
+</li>
+<li><a href="http://president.unt.edu/speeches-communications">Speeches & Communications</a></li>
+<li><a href="http://president.unt.edu/university-resources">University Resources</a></li>
+<li><a href="http://president.unt.edu/presidents-cabinet">President's Cabinet</a></li>
+<li><a href="http://president.unt.edu/contact-president-smatresk">Contact President Smatresk</a></li>
+</ul>
+</li>
+				  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+					<form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+						<div><div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search the UNT web site:</label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+							
+							<input type="hidden" name="form_build_id" value="form-ujfG-ZSE5TR-xFGXg80zrwpNYknILBw1CChPMxUbnHI">
+							<input type="hidden" name="form_token" value="DKL_c2lnzzWVVOH3_nQL-VLa_l3dRsfj8UBY06q-AvY">
+							<input type="hidden" name="form_id" value="search_block_form">
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>
+<div id="mobile-site-info" class="mobile"><div class="inside">
+	<!--div class="mobile-dept-name"></div-->
+	<div class="mobile-site-title"><a href="/">Office of the President</a></div>
+</div></div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+	  <ul class="quicklinks">
+	  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+			<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+			<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+			<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+			<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+			<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+			<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+		</ul>
+      </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/presidents-cabinet" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-O_sFZn_VbKQCECqiI9c94U8-5mC5Drxs1zlh4aGb06E" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+  	<div id="unt">
+    	<a href="http://www.unt.edu">
+    		<img src="/sites/all/themes/greenlight/images/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark" />
+      </a>
+    </div>
+        <div class="branding-data clearfix">
+                        
+      <hgroup class="site-name-slogan">
+              
+        
+                	          
+          <h5 class="department-name">Office of the President</h5>
+	        				
+                                <h1 class="site-name"><a href="/" title="Home">Office of the President</a></h1>
+                      </hgroup>
+      
+          </div>
+          </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+    <section class="block block-system block-menu block-main-menu block-system-main-menu odd" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Main menu</h3>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/">Home</a></li>
+<li class="collapsed"><a href="/meet-president-smatresk">Meet President Smatresk</a></li>
+<li class="collapsed"><a href="/initiatives-priorities">Initiatives &amp; Priorities</a></li>
+<li class="leaf"><a href="/speeches-communications">Speeches &amp; Communications</a></li>
+<li class="leaf"><a href="/university-resources" class="university-resources">University Resources</a></li>
+<li class="leaf active-trail"><a href="/presidents-cabinet" class="active-trail active">President&#039;s Cabinet</a></li>
+<li class="last leaf"><a href="/contact-president-smatresk">Contact President Smatresk</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+        
+                <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div  about="/presidents-cabinet" typeof="sioc:Item foaf:Document" id="node-people-directory-order-13" class="ds-2col-3-9 node node-people-directory-order view-mode-full  node-not-sticky author-gaa0003 odd clearfix clearfix">
+
+  
+  <div class="group-right panel-panel grid-9 clearfix">
+    <div class="inside">
+	<h2>President&#039;s Cabinet</h2><p><!--[if gte mso 9]><p><xml><br />
+ <o:OfficeDocumentSettings><br />
+  <o:AllowPNG/><br />
+ </o:OfficeDocumentSettings><br />
+</xml><![endif]--> </p>
+<!--[if gte mso 9]><p><xml><br />
+ <w:WordDocument><br />
+  <w:View>Normal</w:View><br />
+  <w:Zoom>0</w:Zoom><br />
+  <w:TrackMoves/><br />
+  <w:TrackFormatting/><br />
+  <w:PunctuationKerning/><br />
+  <w:ValidateAgainstSchemas/><br />
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid><br />
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent><br />
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText><br />
+  <w:DoNotPromoteQF/><br />
+  <w:LidThemeOther>EN-US</w:LidThemeOther><br />
+  <w:LidThemeAsian>JA</w:LidThemeAsian><br />
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript><br />
+  <w:Compatibility><br />
+   <w:BreakWrappedTables/><br />
+   <w:SnapToGridInCell/><br />
+   <w:WrapTextWithPunct/><br />
+   <w:UseAsianBreakRules/><br />
+   <w:DontGrowAutofit/><br />
+   <w:SplitPgBreakAndParaMark/><br />
+   <w:EnableOpenTypeKerning/><br />
+   <w:DontFlipMirrorIndents/><br />
+   <w:OverrideTableStyleHps/><br />
+   <w:UseFELayout/><br />
+  </w:Compatibility><br />
+  <m:mathPr><br />
+   <m:mathFont m:val="Cambria Math"/><br />
+   <m:brkBin m:val="before"/><br />
+   <m:brkBinSub m:val="&#45;-"/><br />
+   <m:smallFrac m:val="off"/><br />
+   <m:dispDef/><br />
+   <m:lMargin m:val="0"/><br />
+   <m:rMargin m:val="0"/><br />
+   <m:defJc m:val="centerGroup"/><br />
+   <m:wrapIndent m:val="1440"/><br />
+   <m:intLim m:val="subSup"/><br />
+   <m:naryLim m:val="undOvr"/><br />
+  </m:mathPr></w:WordDocument><br />
+</xml><![endif]--></p>
+<!--[if gte mso 9]><p><xml><br />
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"<br />
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"<br />
+  LatentStyleCount="276"><br />
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/><br />
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/><br />
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/><br />
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/><br />
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/><br />
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/><br />
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/><br />
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/><br />
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/><br />
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/><br />
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Table Grid"/><br />
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/><br />
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/><br />
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Shading"/><br />
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light List"/><br />
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Grid"/><br />
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 1"/><br />
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 2"/><br />
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 1"/><br />
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 2"/><br />
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 1"/><br />
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 2"/><br />
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 3"/><br />
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Dark List"/><br />
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Shading"/><br />
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful List"/><br />
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Grid"/><br />
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light List Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/><br />
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/><br />
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/><br />
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/><br />
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/><br />
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/><br />
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light List Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/><br />
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light List Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/><br />
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light List Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/><br />
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light List Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/><br />
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light List Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"<br />
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/><br />
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/><br />
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/><br />
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/><br />
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/><br />
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"<br />
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/><br />
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/><br />
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/><br />
+ </w:LatentStyles><br />
+</xml><![endif]--> </p>
+<!--[if gte mso 10]><style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;}
+</style><p><![endif]--> </p>
+<!--StartFragment--><!--EndFragment--></p>
+<p>The President’s Cabinet, headed by President Neal Smatresk, leads the core functions of the university.</p>
+<div class="people-directory-wrapper"><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/15_461_Neal-Smatresk020-directory.jpg?itok=-QkuRzaH" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/neal-smatresk">Neal Smatresk (SMAH tresk) </a></h3><h4>President</h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Hurley Administration Bldg</div>Room 201<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Neal.Smatresk@unt.edu">Neal.Smatresk@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-2026">940-565-2026</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Ruby.Raines@unt.edu">Ruby Raines</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_President_OrgChart.final_.pdf" type="application/pdf; length=18221">2015-16_President_OrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/neal-smatresk#division-information">Division Information</a></div><div class="responsibilities"><a href="people/neal-smatresk#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/Graves_Finley.jpg?itok=Jba8QWFH" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/finley-graves">Finley  Graves </a></h3><h4>Provost and Vice President for Academic Affairs</h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Hurley Administration Bldg</div>Room 201<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Finley.Graves@unt.edu">Finley.Graves@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-3952">940-565-3952</a></div><div class="field-item"><div class="label-inline">Website:&nbsp;</div><a href="http://vpaa.unt.edu">Office of Provost and Academic Affairs</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Margaret.Vestal@unt.edu">Margaret Vestal</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_Provost_OrgChart_FINAL.pdf" type="application/pdf; length=30254">2015-16_Provost_OrgChart_FINAL.pdf</a></span></div><div class="division-information"><a href="people/finley-graves#division-information">Division Information</a></div><div class="responsibilities"><a href="people/finley-graves#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/McCoy_Tom.png?itok=nvUGpeB5" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/tom-mccoy">Tom McCoy </a></h3><h4>Vice President for Research and Economic Development</h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Hurley Administration Bldg</div>Room 210<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Tom.McCoy@unt.edu">Tom.McCoy@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-369-7487">940-369-7487</a></div><div class="field-item"><div class="label-inline">Website:&nbsp;</div><a href="http://research.unt.edu/">Office of Research and Economic Development</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Sandy.McKnight@unt.edu">Sandy McKnight</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_Research_OrgChart.final_.pdf" type="application/pdf; length=10658">2015-16_Research_OrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/tom-mccoy#division-information">Division Information</a></div><div class="responsibilities"><a href="people/tom-mccoy#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/Bob%20Brown%20headshot%20%28UNT%29%20-%202016.jpg?itok=-UxjO60q" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/bob-brown">Bob Brown </a></h3><h4>Vice President for Finance and Administration, CPA</h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Hurley Administration Bldg</div>Room 213<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Bob.Brown@unt.edu">Bob.Brown@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-2055">940-565-2055</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Charla.Friday@unt.edu">Charla Friday</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_FinanceAdministration_OrgChart.final_.pdf" type="application/pdf; length=71649">2015-16_FinanceAdministration_OrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/bob-brown#division-information">Division Information</a></div><div class="responsibilities"><a href="people/bob-brown#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/Shannon%20Goodman20150212_0021%20%282%29.jpg?itok=VuV-3UMo" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/shannon-goodman">Shannon Goodman </a></h3><h4>Vice President for Enrollment </h4>ESSC, Suite 202<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Shannon.Goodman@unt.edu">Shannon.Goodman@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-4560">940-565-4560</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto: Rhonda.Acker@unt.edu">Rhonda Acker</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_Enrollment_OrgChart.final__0.pdf" type="application/pdf; length=71218">2015-16_Enrollment_OrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/shannon-goodman#division-information">Division Information</a></div><div class="responsibilities"><a href="people/shannon-goodman#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/With_Elizabeth_1.png?itok=CQQ-ImMs" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/elizabeth">Elizabeth With </a></h3><h4>Vice President for Student Affairs</h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Hurley Administration Bldg</div>Room 207<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Elizabeth.With@unt.edu">Elizabeth.With@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-4909">940-565-4909</a></div><div class="field-item"><div class="label-inline">Website:&nbsp;</div><a href="http://studentaffairs.unt.edu">Division of Student Affairs</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Sandy.Howell@unt.edu">Sandy Howell</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_StudentAffairsOrgChart.final_.pdf" type="application/pdf; length=18642">2015-16_StudentAffairsOrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/elizabeth#division-information">Division Information</a></div><div class="responsibilities"><a href="people/elizabeth#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/2013_leliart-deborah-1.png?itok=INNid2G4" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/deborah-leliaert">Deborah Leliaert  </a></h3><h4>Vice President for University Relations and Planning</h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Hurley Administration Bldg</div>Room 202<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Deborah.Leliaert@unt.edu">Deborah.Leliaert@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-369-5158">940-369-5158</a></div><div class="field-item"><div class="label-inline">Website:&nbsp;</div><a href="http://urcm.unt.edu/">University Relations, Communications and Marketing</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Rick.Knight@unt.edu">Rick Knight</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_URCM_OrgChart.final__0.pdf" type="application/pdf; length=13743">2015-16_URCM_OrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/deborah-leliaert#division-information">Division Information</a></div><div class="responsibilities"><a href="people/deborah-leliaert#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/Joanne_Woodard%20-%20head%20shot%20only.jpg?itok=vqb5_NMw" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/joanne-woodard">Joanne Woodard </a></h3><h4>Vice President for Institutional Equity and Diversity </h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Hurley Administration Bldg</div>175<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Joanne.Woodard@unt.edu ">Joanne.Woodard@unt.edu </a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-2711">940-565-2711</a></div><div class="field-item"><div class="label-inline">Website:&nbsp;</div><a href="https://edo.unt.edu/">Division of Institutional Equity &amp; Diversity</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Christi.Hestand@unt.edu">Christi Hestand</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_EquityandDiversity_OrgChart.final__0.pdf" type="application/pdf; length=9449">2015-16_EquityandDiversity_OrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/joanne-woodard#division-information">Division Information</a></div><div class="responsibilities"><a href="people/joanne-woodard#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/15_477_DavidWolf005A.jpg?itok=b8CKAm1C" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/david-wolf">David  Wolf </a></h3><h4>Vice President for Advancement</h4>University Gateway Center, Tower Section, 3rd Floor<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:David.Wolf@unt.edu">David.Wolf@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-2010">940-565-2010</a></div><div class="field-item"><div class="label-inline">Website:&nbsp;</div><a href="https://giving.unt.edu/">Division of Advancement</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="http://Lisa.Hall@unt.edu">Lisa Hall</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_Advancement_OrgChart.final_.pdf" type="application/pdf; length=16658">2015-16_Advancement_OrgChart.final_.pdf</a></span></div><div class="division-information"><a href="people/david-wolf#division-information">Division Information</a></div><div class="responsibilities"><a href="people/david-wolf#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div><div class="field-name-field-people field-type-entityreference field-item clearfix"><div class="panel-display omega-grid omega-12-twocol-3-9" >
+  <div class="panel-panel grid-3">
+    <div class="inside"><div class="dir-photo"><div class="inside imagefit"><img typeof="foaf:Image" src="http://president.unt.edu/sites/default/files/styles/people_directory_headshot__170x220_/public/villarreal_rick.png?itok=2e7KVyjg" width="153" height="198" alt="" /></div></div></div>
+  </div>
+  <div class="panel-panel grid-9">
+    <div class="inside"><h3><a href="/people/rick-villarreal">Rick Villarreal </a></h3><h4>Director of Athletics </h4><div class="field-item"><div class="label-inline">Office Location:&nbsp;</div>Athletic Center</div>Room 207<div class="field-item"><div class="label-inline">Email:&nbsp;</div><a href="mailto:Rick.Villarreal@unt.edu">Rick.Villarreal@unt.edu</a></div><div class="field-item"><div class="label-inline">Phone:&nbsp;</div><a href="tel:940-565-2789">940-565-2789</a></div><div class="field-item"><div class="label-inline">Website:&nbsp;</div><a href="http://www.meangreensports.com">Mean Green Sports</a></div><div class="field-item"><div class="label-inline">Executive Assistant:&nbsp;</div><a href="mailto:Patty.Wells@unt.edu">Patty Wells</a></div><div class="field-item"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="http://president.unt.edu/sites/default/files/2015-16_Athletics_OrgChart_final_0.pdf" type="application/pdf; length=77232">2015-16_Athletics_OrgChart_final.pdf</a></span></div><div class="division-information"><a href="people/rick-villarreal#division-information">Division Information</a></div><div class="responsibilities"><a href="people/rick-villarreal#responsibilities">Responsibilities</a></div></div>
+  </div>
+</div>
+</div></div>    </div>
+  </div>
+  
+  <div class="group-left panel-panel grid-3">
+  	<div class="inside">
+    <p><a class="sidebar-green-cta" href="http://www.twitter.com/UNTPrez"> <img style="margin-right: 10px; margin-top: 5px;" src="/sites/default/files/u29/twitter-icon-16-wht.png" alt="Follow the President on Twitter" width="20" height="16" align="left" border="0" /> Follow @UNTPrez </a> <a class="sidebar-green-cta" href="/insider"> <img style="margin-right: 10px; margin-top: 5px;" src="/sites/default/files/u29/email-16-wht.png" alt="Subscribe to UNT Insider" width="20" height="16" align="left" border="0" /> UNT Insider</a> <a class="sidebar-green-cta" href="/subscribe-presidents-news-roundup"> <img style="margin-right: 10px; margin-top: 10px;" src="/sites/default/files/u29/email-16-wht.png" alt="Subscribe to the President's News Roundup" width="20" height="16" align="left" border="0" /> President's News Roundup</a> <a class="sidebar-green-cta" href="/learn-more-about-unt"> <img style="margin-right: 10px; margin-top: 5px;" src="/sites/default/files/u29/gradcap-16-wht.png" alt="Learn more about UNT" width="20" height="16" align="left" border="0" /> Learn more about UNT</a> <a class="sidebar-green-cta" href="/partner-unt"> <img style="margin-right: 10px; margin-top: 5px;" src="/sites/default/files/u29/handshake-24-wht.png" alt="Partner with UNT" width="20" height="16" align="left" border="0" /> Partner with UNT</a> <a class="sidebar-green-cta" href="http://awards.unt.edu/"> <img style="margin-right: 10px; margin-top: 5px;" src="/sites/default/files/u29/award-icon.png" alt="University Awards" width="20" height="18" align="left" border="0" /> University Awards</a> <a class="sidebar-green-cta" href="https://giving.unt.edu/content/giving-unt"> <img style="float: left; border: 0;" src="/sites/default/files/u29/gift-16-wht.png" alt="Give now" width="20" height="16" align="left" border="0" /> Give now</a></p>
+<!--<p><p><a class="sidebar-cta aqua" href="learn-more-about-unt"><span class="big">Learn more about UNT</span><br />
+  <span class="small">Explore our academic and research excellence »</span></a></p>
+<div class="sidebar-cta brown"><span class="big">Partner with UNT</span><br />
+  <a class="small" href="/partner-unt">Learn about our expertise and resources »</a><br />
+  <a class="small" href="https://giving.unt.edu/our-supporters/the-presidents-council">President's Council Donor Society »</a></div>
+<p><a class="sidebar-cta green" href="http://giving.unt.edu/content/giving-unt"><span class="big">Give now to UNT</span><br />
+  <span class="small">Make a difference for students »</span></a></p>
+<div class="sidebar-cta blue"><span class="big">Connect with President Smatresk</span><br />
+  <a class="small" href="/insider">UNT Insider »<br />
+  </a><a class="small" href="/subscribe-presidents-news-roundup">President's News Roundup »<br />
+  </a><a class="small" href="http://www.twitter.com/UNTPrez">@UNTPrez on Twitter » </a></div>
+<p>--></p>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-3 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block block-2 block-block-2 odd block-without-title" id="block-block-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="footer-logo unt-brand">
+<p><a href="http://www.unt.edu"><img src="/sites/default/files/u29/Office_of_the_President_WHT.png" alt="Division of University Relations, Communications and Marketing | UNT" width="240" height="142" /></a></p>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <div class="block block-block block-3 block-block-3 odd block-without-title" id="block-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3>
+<div id="collapse-footer-1" class="footer-block-content footer-toggler-content">
+<p><strong>Office of the President</strong><br /> Hurley Administration&nbsp;Building<br /> Room 201<br /> <a href="http://maps.unt.edu/places/1120/view">[map]</a></p>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-footer-third" id="region-footer-third">
+  <div class="region-inner region-footer-third-inner">
+    <div class="block block-block block-4 block-block-4 odd block-without-title" id="block-block-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+<p><strong>Office of the President</strong><br /> University of North Texas<br /> 1155 Union Circle #311425<br /> Denton, Texas 76203-5017</p>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+  <div class="region-inner region-footer-fourth-inner">
+    <div class="block block-block block-5 block-block-5 odd block-without-title" id="block-block-5">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+<p class="phone-lg"><a href="tel:+19405652108">940-565-2108</a></p>
+<p><a href="mailto:president@unt.edu">president@unt.edu</a></p>
+<p>&nbsp;</p>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+  <div id="zone-state" class="zone zone-state clearfix container-12">
+    <div class="grid-12 region region-state-links" id="region-state-links">
+  <div class="region-inner region-state-links-inner">
+    <div class="block block-block block-6 block-block-6 odd block-without-title" id="block-block-6">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p class="sate-links">
+<a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+<a href="http://www.unt.edu">UNT Home</a>
+</p>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://oralhistory.unt.edu/sites/default/files/favicon_3.ico" />
+<link rel="shortlink" href="/node/22" />
+<link rel="canonical" href="/unt-oral-history-program" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>The UNT Oral History Program | Oral History</title>
+  <link rel="stylesheet" href="http://oralhistory.unt.edu/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link rel="stylesheet" href="http://oralhistory.unt.edu/sites/default/files/css/css_9t69xtQ4TnX_Mbyj1hfuTz5sHsUbXP2fx-WJIBOvZTY.css" media="all" />
+<link rel="stylesheet" href="http://oralhistory.unt.edu/sites/default/files/css/css_atkFGFlvG6sSQcIj6Q73rpgsXhtr58AwITc2aQjVotk.css" media="all" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" media="all" />
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" media="all" />
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" media="all" />
+<link rel="stylesheet" href="http://oralhistory.unt.edu/sites/default/files/css/css_iCz5xWYuuiUnRmodVu_JoZLe_OdFWELiUBVoWyoyCPM.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="http://oralhistory.unt.edu/sites/default/files/js/js_jpJjaUC0z8JMIyav5oQrYykDRUb64rpaUDpB4Y9aklU.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="http://oralhistory.unt.edu/sites/default/files/js/js_I8yX6RYPZb7AtMcDUA3QKDZqVkvEn35ED11_1i7vVpc.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-45645158-3", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("require", "displayfeatures");ga("set", "anonymizeIp", true);ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight","theme_token":"ghgKg5EUJvr92oc1E06-UZbldcj5RLy92aLSugVLBBc","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/netdna.bootstrapcdn.com\/bootstrap\/3.0.2\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Montserrat:400,700":1,"\/\/netdna.bootstrapcdn.com\/font-awesome\/4.0.1\/css\/font-awesome.css":1,"\/\/netdna.bootstrapcdn.com\/bootstrap\/3.0.2\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/overrides.css":1,"sites\/all\/themes\/greenlight\/css\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackUrlFragments":1},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-22 node-type-page" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <header id="section-header" class="section section-header"> 
+  
+    
+    <!-- start golobal links and search -->
+    <div id="zone-user" class="zone-user container hidden-xs"> 
+     <div class="row">  
+      <!-- start global links -->
+      <div class="col-md-8 col-sm-8 user-first" id="user-first">
+      
+		 
+        <ul class="menu list-inline nav">
+          <li class="first leaf"><a href="https://my.unt.edu/" title="">MyUNT</a></li>
+          <li class="leaf"><a href="http://eagleconnect.unt.edu/" title="">EagleConnect</a></li>
+          <li class="leaf"><a href="http://webctvista.unt.edu/" title="">Blackboard</a></li>
+          <li class="leaf"><a href="http://www.unt.edu/find-people-department.htm" title="">People &amp; Departments</a></li>
+          <li class="leaf"><a href="http://www.unt.edu/pais/map/" title="">Maps</a></li>
+          <li class="leaf"><a href="http://www.unt.edu/calendars-events.htm" title="">Calendars</a></li>
+          <li class="last leaf"><a href="http://www.unt.edu/giving-unt.htm" title="">Giving to UNT</a></li>
+        </ul>
+              </div>
+      <!-- end global links --> 
+      
+      <!-- start global search -->
+      <div class="col-md-4 col-md-4 user-second" id="user-second">
+        <form class="form-inline" role="form" action="http://www.unt.edu/searchresults.htm" id="search-block-form">
+          <div class="form-group">
+              <label for="q" class="sr-only">Search UNT</label>
+              <input class="input input-xs" id="q" type="text" name="q" value="Search UNT" placeholder="Search UNT">
+              <button class="btn btn-default btn-xs" name="sa" type="submit" value="Search" id="sbutton">Seach</button>
+            <input name="cx" type="hidden" value="006162551747196560811:ueuk_ajzpuw">
+            <input name="cof" type="hidden" value="FORID:11">
+          </div>
+        </form>
+      </div>
+      <!-- end global search --> 
+      </div>
+    </div>
+    <!-- end global links and search -->
+
+     
+    <div id="zone-branding-wrapper">
+      <div id="zone-branding" class="container">
+        <!-- start division and UNT branding wrapper -->
+        <div class="branding row" id="branding">
+            
+            <!-- start local brand image and title -->
+            <div class="branding-data col-md-8 col-xs-9"> 
+                            <h1 id="site-name" class="pull-left without-slogan"> <a href="/" title="Home">Oral History</a> </h1>
+                                        </div>
+             <!-- end local brand image and title -->
+             
+             
+            <!-- start UNT Lettermark -->
+            <div id="unt" class="col-md-4 col-xs-3"> 
+				<a href="http://www.unt.edu"> 
+                	<img src="/sites/all/themes/greenlight/images/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark"> 
+				</a> 
+            </div>
+            <!-- end UNT Lettermark -->
+             
+             
+        </div>
+        <!-- end division and UNT branding wrapper -->
+        
+        
+      </div>
+    </div>
+   
+    
+
+  <div id="zone-primary-navigation" class="container">
+
+          <div class="navbar row">
+      <div class="navbar-header">
+      <div class="navbar-brand visible-xs col-xs-6">Browse</div>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#primary-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+        <div class="collapse navbar-collapse" role="navigation" id="primary-navigation">
+                      <ul class="menu nav navbar-nav"><li class="first leaf active"><a href="/" class="active">Home</a></li>
+<li class="leaf"><a href="/about">About</a></li>
+<li class="leaf"><a href="/collections" title="">Collection</a></li>
+<li class="leaf"><a href="/faq">FAQ</a></li>
+<li class="leaf"><a href="/forms/contact-us">Contact</a></li>
+<li class="last leaf"><a href="/ohp50">OHP@50</a></li>
+</ul>                            </div>
+      </div>
+      </div>
+
+
+  
+</header>
+
+
+
+
+
+<div class="main-container container">
+  <div class="row">
+  
+
+          <aside class="col-sm-3" role="complementary">
+          <div class="region region-sidebar-first well">
+    <section id="block-views-news-lists-block-1" class="block block-views clearfix">
+
+        <h2 class="block-title">Recent Announcements</h2>
+    
+  <div class="view view-news-lists view-id-news_lists view-display-id-block_1 view-dom-id-e28cf04a6305ce4f628de122bce8d865">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/please-join-us-ohp50-unt-oral-history-program-50th-anniversary-symposium">Please join us at OHP@50: The UNT Oral History Program 50th Anniversary Symposium</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Please join us in the Willis Library Forum on Nov. 13-14 for a wide-ranging symposium to commemorate the 50th anniversary of the UNT Oral History Program. Donald A. Ritchie, Historian Emeritus of... <a href="/articles/please-join-us-ohp50-unt-oral-history-program-50th-anniversary-symposium" class="views-more-link">more</a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/humanities-texas-highlights-pow-interviews-unt-oral-history-collection">Humanities Texas Highlights POW Interviews from the UNT Oral History Collection</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Among the many other things Humanities Texas, the state affiliate of the National Endowment for the Humanities, does for the people of Texas, it sponsors workshops and creates curriculum aids for... <a href="/articles/humanities-texas-highlights-pow-interviews-unt-oral-history-collection" class="views-more-link">more</a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/unt-oral-history-program-launches-50th-anniversary-commemoration">UNT Oral History Program launches 50th anniversary commemoration</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Throughout 2015 the UNT OHP will celebrate its 50th anniversary by showcasing interviews from its collection and by sponsoring special events. Please visit ... <a href="/articles/unt-oral-history-program-launches-50th-anniversary-commemoration" class="views-more-link">more</a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section> <!-- /.block -->
+  </div>
+      </aside>  <!-- /#sidebar-first -->
+      
+
+    <section class="col-sm-9">
+            <a id="main-content"></a>
+                    <h1 class="page-header">The UNT Oral History Program</h1>
+                                                          <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div id="node-22" class="node node-page node-promoted clearfix" about="/unt-oral-history-program" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="The UNT Oral History Program" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="row">
+<div class="col-xs-9">
+<p>The UNT Oral History Program is a longstanding research initiative of the <a href="http://www.unt.edu">University of North Texas</a>. Housed at Willis Library on <a href="https://www.google.com/maps/preview#!q=Willis+Library%2C+University+of+North+Texas%2C+Denton%2C+TX+76201&amp;data=!4m15!2m14!1m13!1s0x864dca4285c6bf8f%3A0xf518ae765de3c207!3m8!1m3!1d4855!2d-97.1489879!3d33.2101264!3m2!1i1226!2i1117!4f13.1!4m2!3d33.2101135!4d-97.1489931">UNT’s main campus in Denton, Texas</a>, the Program is affiliated with the <a href="http://history.unt.edu/">UNT Department of History</a> and supported by the <a href="http://cas.unt.edu/">UNT College of Arts and Sciences</a> and <a href="http://www.library.unt.edu">UNT Libraries</a>.</p>
+<p>The Program records, transcribes, and archives oral history interviews covering a wide variety of subject matter in order to preserve local, state, and U.S. history. The Program trains UNT students in the theory and methods of oral history and conducts workshops for members of the larger community who are interested in preserving their own histories. We also have ongoing partnerships with local history societies and historical museums, local, state and national agencies, fellow colleges and universities, and many other community organizations that share our mission.</p>
+<p>Nearly all interview recordings are transcribed. The transcripts are edited, bound, and archived in <a href="http://www.library.unt.edu/willis-library">Willis Library</a>, where they are available to scholarly researchers and members of the general public through <a href="http://www.library.unt.edu/special-collections">UNT Special Collections</a>. Please visit our <a href="http://oralhistory.unt.edu/collection">Collection</a> page for additional information on individual interviews, collections, and ways to access the collection.</p>
+<p>The strengths of the collection include (but are not limited to) World War II history, with a collection of over 1,000 interviews with WWII veterans; Texas political history; Texas business history; history of the New Deal in Texas; civil rights history; and immigration history.</p>
+<p><strong>Your <a href="https://one.unt.edu/giving/unt-general-donation-form?fid=qg9HX8JN5Jo%3d&amp;fdesc=jA3RauNDvhYl%2b1MK3loSXeVdFSsCwh%2f8rRzROujDKk0%3d" style="line-height: 20.7999992370605px;">donations</a> help to make our work possible.</strong></p>
+<p> </p>
+</div>
+<div class="col-xs-3">
+<p><img alt="Oral History Decorative Image" class="img-responsive img-thumbnail" src="/sites/default/files/content/oralhistory2.jpg" style="line-height:1.6em" /></p>
+<p> </p>
+</div>
+</div>
+</div></div></div>  </div>
+
+  
+  
+</div>
+
+</section> <!-- /.block -->
+  </div>
+    </section>
+
+    
+  </div>
+  
+
+</div>
+
+<!--start footer -->
+<footer id="section-footer" class="footer">
+
+  <!--start unt required links and elements in footer -->
+  <div id="unt-footer" class="container">
+
+    <div class="col-md-3 col-sm-4 col-xs-12 footer-first footer-box" id="region-footer-first">
+      <a id="hosting-division" href="http://library.unt.edu/">University Libraries</a>
+	</div>
+    
+	<div class="col-md-4 col-sm-4 footer-second footer-box" id="region-footer-second">
+		<h3>Contact Information</h3>
+    	<div class="content">
+            <address itemscope itemtype="http://schema.org/LocalBusiness">
+                <span itemprop="name">University of North Texas Libraries</span><br/>
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">1155 Union Circle #305190</span><br/>
+                <span itemprop="addressLocality">Denton</span> , 
+                <span itemprop="addressRegion">TX</span> 
+                <span itemprop="postalCode">76203-5017</span></span><br/>
+                <span itemprop="telephone">(940) 565-2411</span>
+            </address>
+            <p><a href="http://www.library.unt.edu/location-hours">Locations, Maps, and Hours</a></p>
+        </div>
+	</div>
+    
+	<div class="col-md-4 col-sm-4 col-md-offset-1 footer-third footer-box" id="region-footer-third">
+		<h3>Contact Us Online</h3>
+		<div class="content">
+      		<p><a href="http://www.library.unt.edu//node/78" title="Tell us how we are doing">Tell us how we are doing</a></p>
+			<p><a href="https://www.library.unt.edu/forms/report-problem" target="_blank" title="Report a problem">Report a problem</a></p>
+			<p><a href="https://ui.library.unt.edu/project-manager/node/add/ticket" target="_blank" title="Report a problem">Submit a help ticket</a></p>   
+		</div>
+	</div>
+    
+	
+  </div> 
+  <!--ends unt footer -->
+
+  <!--start state and other elements in footer -->
+  <div id="zone-state-wrapper">  
+	<div id="colophon" class="container">
+     
+        <!-- begin rendered footer region -->
+		  <div class="region region-footer">
+    <section id="block-system-powered-by" class="block block-system clearfix">
+
+      
+  <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>
+</section> <!-- /.block -->
+  </div>
+        <!-- end rendered footer region -->
+     
+		<div id="state-links">
+			<p><a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a>&nbsp; | &nbsp;<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a>&nbsp; | &nbsp;<a href="http://oralhistory.unt.edu/privacy-information">Privacy </a>&nbsp; | &nbsp; <a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a>&nbsp; | &nbsp;<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a>&nbsp; | &nbsp;<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a>&nbsp; <!--| &nbsp;<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a>--><br><a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a>&nbsp; | &nbsp;<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a>&nbsp; | &nbsp;<!--<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a>&nbsp; | &nbsp;<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a>--><a href="http://www.unt.edu">UNT Home</a></p>
+		</div>    
+	</div>
+  </div>
+  <!-- end state footer -->
+</footer>  <script src="http://oralhistory.unt.edu/sites/default/files/js/js_B2uv6dkjoYobfQVyuXdchgrpnnx4oM0TkP_bDVf8Qrg.js"></script>
+</body>
+</html>

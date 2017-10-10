@@ -1,0 +1,17 @@
+
+<html>
+<head>
+<title>UNT SYSTEM Compliance Report - Status</title>
+<META NAME='ROBOTS' CONTENT='NOINDEX, NOFOLLOW'>
+</head>
+<body>
+<p><img src='../images/UNT-system-wordmark-350px-wide.png' alt='UNT System Reporting' title='UNT System Reporting' /></p>
+<div style='width:650px'>
+<form action='status.php' method='post'>
+<font size='+1'><b>Please enter the tracking number that the system generated when you submitted the report</b></font>
+<input name='trackingid'></input><br />
+<input type='submit' name='submit' value='Submit Tracking Number'></input>
+</form>
+</div>
+</body>
+</html>

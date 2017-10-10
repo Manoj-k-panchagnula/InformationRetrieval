@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html id="HTML" xmlns="http://www.w3.org/1999/xhtml" lang="en-us">
+<head id="PageHead"><title>
+	Renew
+</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" /><link rel="stylesheet" href="/stylesheet99.635935613103430000.css?id=99&nodefaults=1&iuqt=1" type="text/css" />
+<link rel="stylesheet" href="/stylesheet72.635779470282630000.css?id=72&nodefaults=1&iuqt=1" type="text/css" />
+<link rel="stylesheet" href="/stylesheet94.635467399538730000.css?id=94&nodefaults=1&iuqt=1" type="text/css" />
+<link rel="stylesheet" href="/Client/Styles/IE8Menu.css?&iuqt=1" type="text/css" />
+<link rel='SHORTCUT ICON' href='images/FavIcon.ico' type='image/x-icon' /><link rel='ICON' href='images/FavIcon.ico' type='image/x-icon' /><base id="baseId" target="_self"></base><meta name="last-modified" content="9/23/2015 5:31:37 PM" /></head>
+<body id="BodyId" style="margin: 0px; padding: 0px; border: 0px">
+    <form method="post" action="/alumni/renew" id="form1">
+<input type="hidden" name="ScriptManager1_HiddenField" id="ScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExMjQ2NDE3ODAPFgQeCkNTUkZfVE9LRU4FIDAxNzU0YmY0Zjg2ZDQ3ZjI4ZmM2N2U3NjFhNjUwNjQxHgpNb2RhbExldmVsZhYCZg8WAh4EbGFuZwUFZW4tdXMWAgIDD2QWAgIBDxYCHgZhY3Rpb24FDS9hbHVtbmkvcmVuZXcWBAIDD2QWAmYPZBYEAgMPZBYCZg9kFgICAQ9kFgJmD2QWBAIBD2QWAgIBDw9kFgIeCW9ua2V5ZG93bgWRAWphdmFzY3JpcHQ6aWYgKGlzRW50ZXJQcmVzc2VkKGV2ZW50KSkge3RyeXtkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnUEMzMjQ0X2J0blF1aWNrU2VhcmNoJykuY2xpY2soKTtyZXR1cm4gZmFsc2U7fSBjYXRjaChlKSB7fX0gZWxzZSByZXR1cm4gdHJ1ZTtkAgIPZBYEAgEPD2QWAh4Fc3R5bGUFImRpc3BsYXk6IG5vbmU7IHZpc2liaWxpdHk6IGhpZGRlbjtkAgMPDxYCHgRUZXh0BQZTZWFyY2hkZAILD2QWAgIBDw8WBB4EU1RFUAsplQFCbGFja2JhdWQuV2ViLkNvbnRlbnQuUG9ydGFsLk1lbWJlcnNoaXBEaXNwbGF5K01lbWJlcnNoaXBTdGVwcywgQmxhY2tiYXVkLldlYi5Db250ZW50LlBvcnRhbCwgVmVyc2lvbj03LjAuMTQ0LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAEeCnJwQ29udHJvbHMUKY8BQmxhY2tiYXVkLldlYi5Db250ZW50LlBvcnRhbC5NZW1iZXJzaGlwRGlzcGxheStycENvbnRyb2wsIEJsYWNrYmF1ZC5XZWIuQ29udGVudC5Qb3J0YWwsIFZlcnNpb249Ny4wLjE0NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwHMvsBAAEAAAD/////AQAAAAAAAAAMAgAAAFVCbGFja2JhdWQuV2ViLkNvbnRlbnQuUG9ydGFsLCBWZXJzaW9uPTcuMC4xNDQuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAA4QmxhY2tiYXVkLldlYi5Db250ZW50LlBvcnRhbC5NZW1iZXJzaGlwRGlzcGxheStycENvbnRyb2wCAAAABmNoa0JveAZzdWJDbWIBAQIAAAAGAwAAACxQQzMzODIkcnBNZW1DYXRlZ29yeSRjdGwwMSRjaGtfV2FpdmVCZW5lZml0cwYEAAAAAAsy+wEAAQAAAP////8BAAAAAAAAAAwCAAAAVUJsYWNrYmF1ZC5XZWIuQ29udGVudC5Qb3J0YWwsIFZlcnNpb249Ny4wLjE0NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAADhCbGFja2JhdWQuV2ViLkNvbnRlbnQuUG9ydGFsLk1lbWJlcnNoaXBEaXNwbGF5K3JwQ29udHJvbAIAAAAGY2hrQm94BnN1YkNtYgEBAgAAAAYDAAAALFBDMzM4MiRycE1lbUNhdGVnb3J5JGN0bDAzJGNoa19XYWl2ZUJlbmVmaXRzBgQAAAAACzL7AQABAAAA/////wEAAAAAAAAADAIAAABVQmxhY2tiYXVkLldlYi5Db250ZW50LlBvcnRhbCwgVmVyc2lvbj03LjAuMTQ0LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAOEJsYWNrYmF1ZC5XZWIuQ29udGVudC5Qb3J0YWwuTWVtYmVyc2hpcERpc3BsYXkrcnBDb250cm9sAgAAAAZjaGtCb3gGc3ViQ21iAQECAAAABgMAAAAsUEMzMzgyJHJwTWVtQ2F0ZWdvcnkkY3RsMDUkY2hrX1dhaXZlQmVuZWZpdHMGBAAAAAALMvsBAAEAAAD/////AQAAAAAAAAAMAgAAAFVCbGFja2JhdWQuV2ViLkNvbnRlbnQuUG9ydGFsLCBWZXJzaW9uPTcuMC4xNDQuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAAA4QmxhY2tiYXVkLldlYi5Db250ZW50LlBvcnRhbC5NZW1iZXJzaGlwRGlzcGxheStycENvbnRyb2wCAAAABmNoa0JveAZzdWJDbWIBAQIAAAAGAwAAACxQQzMzODIkcnBNZW1DYXRlZ29yeSRjdGwwNyRjaGtfV2FpdmVCZW5lZml0cwYEAAAAAAsy+wEAAQAAAP////8BAAAAAAAAAAwCAAAAVUJsYWNrYmF1ZC5XZWIuQ29udGVudC5Qb3J0YWwsIFZlcnNpb249Ny4wLjE0NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAADhCbGFja2JhdWQuV2ViLkNvbnRlbnQuUG9ydGFsLk1lbWJlcnNoaXBEaXNwbGF5K3JwQ29udHJvbAIAAAAGY2hrQm94BnN1YkNtYgEBAgAAAAYDAAAALFBDMzM4MiRycE1lbUNhdGVnb3J5JGN0bDA5JGNoa19XYWl2ZUJlbmVmaXRzBgQAAAAACzL7AQABAAAA/////wEAAAAAAAAADAIAAABVQmxhY2tiYXVkLldlYi5Db250ZW50LlBvcnRhbCwgVmVyc2lvbj03LjAuMTQ0LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAOEJsYWNrYmF1ZC5XZWIuQ29udGVudC5Qb3J0YWwuTWVtYmVyc2hpcERpc3BsYXkrcnBDb250cm9sAgAAAAZjaGtCb3gGc3ViQ21iAQECAAAABgMAAAAsUEMzMzgyJHJwTWVtQ2F0ZWdvcnkkY3RsMTEkY2hrX1dhaXZlQmVuZWZpdHMGBAAAAAALZGQWBAIBDw8WAh4HVmlzaWJsZWhkZAIDD2QWCGYPZBYCZg8WAh4JaW5uZXJodG1sBSlVTlQgQWx1bW5pIEFzc29jaWF0aW9uIE1lbWJlcnNoaXAgUmVuZXdhbGQCAw9kFgJmD2QWAgIBDw8WAh8JZ2QWDgIBDxYCHwloFgJmDxYCHwplZAIFDxYCHwloFgICAQ9kFgICAQ8QDxYCHgtfIURhdGFCb3VuZGdkZBYAZAIHDxYCHwloFgJmD2QWAgIBDxAPFgIeB0NoZWNrZWRoZGRkZAIJD2QWAgIBD2QWAgIBDw8WAh8GZGRkAgsPZBYCZg9kFgQCAw8PFgIfBgUBJGRkAgYPDxYGHg5WYWx1ZVRvQ29tcGFyZQUBMB4EVHlwZQsqLFN5c3RlbS5XZWIuVUkuV2ViQ29udHJvbHMuVmFsaWRhdGlvbkRhdGFUeXBlAB4IT3BlcmF0b3ILKjNTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLlZhbGlkYXRpb25Db21wYXJlT3BlcmF0b3IBZGQCDQ8WAh8JaGQCDw8PFgIfCWgWAh4Hb25jbGljawU+amF2YXNjcmlwdDpfX2RvUG9zdEJhY2soJ1BDMzM4MicsJ2JhY2tfMScpO3JldHVybiBraWxsRXZlbnQoKTtkAgQPZBYCZg9kFgICAQ9kFgQCCw8QDxYCHwtnZGQWAGQCDQ9kFgJmD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAL/////D2QCBQ9kFgJmD2QWAgIBD2QWCAIND2QWAgIBD2QWAgIBDxAPFgIfC2dkZBYAZAIRD2QWAgIBD2QWAgIBD2QWAgIBDxYCHgZ2YWxpZ24FBmJvdHRvbRYEAgEPEA8WAh4MQXV0b1Bvc3RCYWNrZ2QQFQQGV2Vla2x5B01vbnRobHkJUXVhcnRlcmx5CEFubnVhbGx5FQQBMQEyATMBNBQrAwRnZ2dnFgFmZAIDDxYCHwlnFggCAQ8WAh8JZxYCZg9kFgICAw8QDxYCHwtnZBAVBwZTdW5kYXkGTW9uZGF5B1R1ZXNkYXkJV2VkbmVzZGF5CFRodXJzZGF5BkZyaWRheQhTYXR1cmRheRUHBlN1bmRheQZNb25kYXkHVHVlc2RheQlXZWRuZXNkYXkIVGh1cnNkYXkGRnJpZGF5CFNhdHVyZGF5FCsDB2dnZ2dnZ2cWAQIDZAIDDxYCHwloFgJmD2QWBAIDDxBkEBUMB0phbnVhcnkIRmVicnVhcnkFTWFyY2gFQXByaWwDTWF5BEp1bmUESnVseQZBdWd1c3QJU2VwdGVtYmVyB09jdG9iZXIITm92ZW1iZXIIRGVjZW1iZXIVDAExATIBMwE0ATUBNgE3ATgBOQIxMAIxMQIxMhQrAwxnZ2dnZ2dnZ2dnZ2cWAQIEZAIFDxBkEBUfATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyAjEzAjE0AjE1AjE2AjE3AjE4AjE5AjIwAjIxAjIyAjIzAjI0AjI1AjI2AjI3AjI4AjI5AjMwAjMxFR8BMQEyATMBNAE1ATYBNwE4ATkCMTACMTECMTICMTMCMTQCMTUCMTYCMTcCMTgCMTkCMjACMjECMjICMjMCMjQCMjUCMjYCMjcCMjgCMjkCMzACMzEUKwMfZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBAgpkAgUPFgIfCWgWAmYPZBYGAgMPEA9kFgQeBXZhbHVlBQExHxAFfnJlY3VyQnV0dG9uX09uQ2xpY2sodGhpcywnUEMzMzgyX1JlY3VycmVuY2VfZGRsRGF5TnVtYmVyMicsJ1BDMzM4Ml9SZWN1cnJlbmNlX2RkbFBvc2l0aW9uJywnUEMzMzgyX1JlY3VycmVuY2VfZGRsRGF5T2ZXZWVrMicpO2RkZAIFDxBkEBUfATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyAjEzAjE0AjE1AjE2AjE3AjE4AjE5AjIwAjIxAjIyAjIzAjI0AjI1AjI2AjI3AjI4AjI5AjMwAjMxFR8BMQEyATMBNAE1ATYBNwE4ATkCMTACMTECMTICMTMCMTQCMTUCMTYCMTcCMTgCMTkCMjACMjECMjICMjMCMjQCMjUCMjYCMjcCMjgCMjkCMzACMzEUKwMfZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBAgpkAgkPFgIfBQUJZGlzcGxheTo7FgQCAQ9kFgICAQ8QD2QWBB8UBQEyHxAFfnJlY3VyQnV0dG9uX09uQ2xpY2sodGhpcywnUEMzMzgyX1JlY3VycmVuY2VfZGRsRGF5TnVtYmVyMicsJ1BDMzM4Ml9SZWN1cnJlbmNlX2RkbFBvc2l0aW9uJywnUEMzMzgyX1JlY3VycmVuY2VfZGRsRGF5T2ZXZWVrMicpO2RkZAICD2QWBAIBDxBkEBUFBUZpcnN0BlNlY29uZAVUaGlyZAZGb3VydGgETGFzdBUFATEBMgEzATQBNRQrAwVnZ2dnZxYBAgFkAgMPEA8WAh8LZ2QQFQcGU3VuZGF5Bk1vbmRheQdUdWVzZGF5CVdlZG5lc2RheQhUaHVyc2RheQZGcmlkYXkIU2F0dXJkYXkVBwZTdW5kYXkGTW9uZGF5B1R1ZXNkYXkJV2VkbmVzZGF5CFRodXJzZGF5BkZyaWRheQhTYXR1cmRheRQrAwdnZ2dnZ2dnFgECA2QCBw8WAh8JZxYCZg9kFgICAw8PFgIfBgUJNS8xMS8yMDE2ZGQCHw9kFiBmD2QWAgIBD2QWBGYPFgIfCWgWBAIJDw8WAh8JaGRkAgsPDxYCHhRWYWxpZGF0aW9uRXhwcmVzc2lvbgUDXGQqZGQCAg8WAh8JaGQCCA8QDxYCHwtnZBAVMAAHMm5kIEx0LgRBZG0uBEFtYi4GQmlzaG9wCkJyaWcuIEdlbi4HQnJvdGhlcgVDYXB0LgpDaGFuY2VsbG9yBUNtZHIuBENvbC4MQ29tbWlzc2lvbmVyDUNvdW5jaWxwZXJzb24ERGVhbgNEci4HR2VuZXJhbARIZXJyBUp1ZGdlBExhZHkETG9yZANMdC4ITHQuIENvbC4LTHQuIEdlbmVyYWwGTWFkYW1lBU1ham9yDU1ham9yIEdlbmVyYWwFTWF5b3IDTXIuBE1ycy4DTXMuBU1TZ3QuBFAuQS4EUHJlcwlQcmVzaWRlbnQFUHJvZi4FUmFiYmkFUkFkbS4GUmVnZW50DlJlcHJlc2VudGF0aXZlBFJldi4HU2VuYXRvcgRTZ3QuBlNpc3RlcgRTc2cuDlN0dWRlbnQgUmVnZW50DVRoZSBIb25vcmFibGUMVGhlIFJldmVyZW5kCFJldi4gRHIuFTAAAzQ0OQM0NTAFMTExMzEFMTE1MDYDNDUxAjE0AjE2BTExNDczAjE4AjE5BTExNTE4BTExNzg1BTE3NjQzATQDNDU4AzQ1OQUxMTUyMAM0NjMDNDY1AjE1BDg4MTYDNDY0BTE4MTcxAzQ2OAM0NzADNDY5ATEBMwEyBTE3NjEwAzQ3NAUxMzQwNQM0NzUFMTc2MDkCMTADNDc3BTExNDg1AzQ3OAUxMTUxOQIyMwQ4ODE5AjEyBTE3NjExBTExNTYzATgCMTEFMTgzOTkUKwMwZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAIKDxYCHwloZAIODw8WAh8GZWRkAhIPFgIfCWgWBAIBD2QWAgIBDw8WAh8GZWRkAgIPFgIfCWhkAhQPDxYCHwYFCkxhc3QgTmFtZTpkZAIWDw8WAh8GZWRkAhgPFgIfCWgWAgIBD2QWAgIBDw8WAh8GZWRkAhoPDxYKHgphZGRyZm9ybWF0CymKAUJsYWNrYmF1ZC5XZWIuQ29udGVudC5Db3JlLlJFN1NlcnZpY2UuRUFkZHJlc3NGb3JtYXRzLCBCbGFja2JhdWQuV2ViLkNvbnRlbnQuQ29yZSwgVmVyc2lvbj03LjAuMTQ0LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAAeBmFkZHJWRwUGUEMzMzgyHhFWU19SRVFVSVJFQ09VTlRSWWceClZTX0NPVU5UUlkFDVVuaXRlZCBTdGF0ZXMeGVZTX0VOQUJMRUNMSUVOVFZBTElEQVRJT05oZBYYAgEPFgIeBWNsYXNzBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgMPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8QDxYGHwtnHghDc3NDbGFzcwUqQkJGb3JtU2VsZWN0TGlzdCBEb25hdGlvbkNhcHR1cmVTZWxlY3RMaXN0HgRfIVNCAgJkEBUFCUF1c3RyYWxpYQZDYW5hZGEFQ2hpbmEOVW5pdGVkIEtpbmdkb20NVW5pdGVkIFN0YXRlcxUFCUF1c3RyYWxpYQZDYW5hZGEFQ2hpbmEOVW5pdGVkIEtpbmdkb20NVW5pdGVkIFN0YXRlcxQrAwVnZ2dnZxYBAgRkAgMPDxYEHg9WYWxpZGF0aW9uR3JvdXAFBlBDMzM4Mh4SRW5hYmxlQ2xpZW50U2NyaXB0aGRkAgUPZBYCZg8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgcPZBYKAgEPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAICDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPDxYEHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIEDw9kFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAIFD2QWAmYPDxYCHwloZGQCBw9kFgJmD2QWAmYPZBYEZg8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgEPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgJmDxAPFgIfC2dkZBYAZAILDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCDQ8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBgIBDw8WBh8GZB8cBSZCQkZvcm1UZXh0QXJlYSBEb25hdGlvbkNhcHR1cmVUZXh0QXJlYR8dAgJkZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIEDw8WBh8eBQZQQzMzODIfH2gfFQUPXltcc1xTXXswLDE1MH0kZGQCDw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAhEPFgIfCWcWDgIBDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBAIBDw8WBh8GZR8cBSRCQkZvcm1UZXh0Ym94IERvbmF0aW9uQ2FwdHVyZVRleHRib3gfHQICZGQCAw8PFgQfHgUGUEMzMzgyHx9oZGQCAw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgUPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIGDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPEA8WBh8LZx8cBSpCQkZvcm1TZWxlY3RMaXN0IERvbmF0aW9uQ2FwdHVyZVNlbGVjdExpc3QfHQICZBAVYw88UGxlYXNlIFNlbGVjdD4CLS0CQUECQUICQUQCQUUCQUcCQUsCQUwCQVACQVICQVMCQVoCQkMCQkUCQlkCQ0ECQ08CQ1QCQ1oCREMCREUCRFICRkwCRk0CR0ECR1UCSEkCSUECSUQCSUwCSU4CS1MCS1kCTEECTUECTUICTUQCTUUCTUgCTUkCTU4CTU8CTVACTVMCTVQCTkICTkMCTkQCTkUCTkgCTkoCTkwCTk0CTlMDTlNXAk5UAk5WAk5ZAk9IAk9LAk9OAk9SAlBBAlBFAlBOAlBSAlBXAlFDA1FMRANRUk8CUkQCUkkCUkoDUk9TAlNDAlNEAlNLAlNMAlNPAlNQAk5VAlNUAlRBAlROAlRYAlVUAlZBAlZJA1ZJQwJWVAJXQQJXSQJXVgJXWQJZVAJCTgJUQwJUSBVjAi0xAi0tAkFBAkFCAkFEAkFFAkFHAkFLAkFMAkFQAkFSAkFTAkFaAkJDAkJFAkJZAkNBAkNPAkNUAkNaAkRDAkRFAkRSAkZMAkZNAkdBAkdVAkhJAklBAklEAklMAklOAktTAktZAkxBAk1BAk1CAk1EAk1FAk1IAk1JAk1OAk1PAk1QAk1TAk1UAk5CAk5DAk5EAk5FAk5IAk5KAk5MAk5NAk5TA05TVwJOVAJOVgJOWQJPSAJPSwJPTgJPUgJQQQJQRQJQTgJQUgJQVwJRQwNRTEQDUVJPAlJEAlJJAlJKA1JPUwJTQwJTRAJTSwJTTAJTTwJTUAJOVQJTVAJUQQJUTgJUWAJVVAJWQQJWSQNWSUMCVlQCV0ECV0kCV1YCV1kCWVQCQk4CVEMCVEgUKwNjZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIHD2QWAgIBDw9kFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAIJD2QWAmYPZBYCZg9kFgZmDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAQ8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBGYPDxYGHwZlHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIBDw8WBB8eBQZQQzMzODIfH2hkZAICDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCEw9kFgoCAQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgIPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8PFgQfHAUkQkJGb3JtVGV4dGJveCBEb25hdGlvbkNhcHR1cmVUZXh0Ym94Hx0CAmRkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgMPFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAIFDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCBg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWAgIBDxAPFgYfC2cfHAUqQkJGb3JtU2VsZWN0TGlzdCBEb25hdGlvbkNhcHR1cmVTZWxlY3RMaXN0Hx0CAmRkFgBkAhUPZBYSAgEPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAICDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPDxYEHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIDDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCBQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgYPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8QDxYGHwtnHxwFKkJCRm9ybVNlbGVjdExpc3QgRG9uYXRpb25DYXB0dXJlU2VsZWN0TGlzdB8dAgJkZBYAZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIHDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCCQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgoPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8PFgQfHAUkQkJGb3JtVGV4dGJveCBEb25hdGlvbkNhcHR1cmVUZXh0Ym94Hx0CAmRkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgsPFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAIXD2QWEgIBDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBAIBDw8WBB8cBSRCQkZvcm1UZXh0Ym94IERvbmF0aW9uQ2FwdHVyZVRleHRib3gfHQICZGQCAw8PFgQfHgUGUEMzMzgyHx9oZGQCAw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgUPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIGDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPEA8WBh8LZx8cBSpCQkZvcm1TZWxlY3RMaXN0IERvbmF0aW9uQ2FwdHVyZVNlbGVjdExpc3QfHQICZGQWAGQCAw8PFgQfHgUGUEMzMzgyHx9oZGQCBw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgkPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIKDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPDxYEHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIDDw8WBB8eBQZQQzMzODIfH2hkZAILDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCGQ9kFhACAQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgIPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgYCAQ8QDxYGHwtnHxwFKkJCRm9ybVNlbGVjdExpc3QgRG9uYXRpb25DYXB0dXJlU2VsZWN0TGlzdB8dAgJkZBYAZAIDDw8WBB8cBSRCQkZvcm1UZXh0Ym94IERvbmF0aW9uQ2FwdHVyZVRleHRib3gfHQICZGQCBQ8PFgQfHgUGUEMzMzgyHx9oZGQCAw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgUPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIGDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPEA8WBh8LZx8cBSpCQkZvcm1TZWxlY3RMaXN0IERvbmF0aW9uQ2FwdHVyZVNlbGVjdExpc3QfHQICZGQWAGQCAw8PFgQfHgUGUEMzMzgyHx9oZGQCBw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgkPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIKDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYCAgEPDxYEHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIcD2QWBGYPZBYCAgIPZBYCAgEPEA8WAh8LZ2RkFgBkAgQPZBYEZg9kFgICAg9kFgICAQ8QDxYCHwtnZGQWAGQCAQ9kFg4CAw9kFgICAQ8QDxYCHwtnZGQWAGQCBw9kFgICBw9kFgJmD2QWAmYPZBYCAgEPZBYCZg8QDxYCHwtnZGQWAGQCEQ9kFgICBg9kFgICAQ8QDxYCHwtnZGQWAGQCEw9kFgICBg9kFgICAQ8QDxYCHwtnZGQWAGQCFQ9kFgICBg9kFgICAQ8QDxYCHwtnZGQWAGQCFw9kFgICBg9kFgICAQ8QDxYCHwtnZGQWAGQCGQ9kFgQCAg9kFgICAQ8QDxYCHwtnZGQWAGQCBg9kFgICAQ8QDxYCHwtnZGQWAGQCJA8WAh8JZxYCAgEPZBYEAgEPDxYCHwZlZGQCAw8PFgIfFQWXAV5bIF0qW0EtWmEtejAtOVwtXydgISMkJSYqKy89P157fH1+XSsoXC5bQS1aYS16MC05XC1fJ2AhIyQlJiorLz0/Xnt8fX5dKykqQFtBLVphLXowLTldW0EtWmEtejAtOVwtXSooXC5bQS1aYS16MC05XVtBLVphLXowLTlcLV0qKSpcLltBLVphLXpdezIsMjJ9WyBdKiRkZAImD2QWBGYPZBYEAgEPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAICDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYCAgEPEA8WAh8LZxYCHxsFKkJCRm9ybVNlbGVjdExpc3QgRG9uYXRpb25DYXB0dXJlU2VsZWN0TGlzdGQWAGQCAg9kFghmD2QWBAIBDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWAgIBDxAPFgIfC2cWAh8bBSpCQkZvcm1TZWxlY3RMaXN0IERvbmF0aW9uQ2FwdHVyZVNlbGVjdExpc3RkFgBkAgIPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIDDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbGQCBA8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAigPFgIfCWhkAioPZBYKAgUPZBYCAgEPZBYCAgEPEA8WAh8LZ2QQFQAVABQrAwAWAGQCBw8WAh8JaBYCAgEPZBYCAgEPDxYCHwYFASRkZAIJD2QWFAIDDw8WAh8GZWRkAgsPEA8WAh8LZ2QQFQUABFZpc2EQQW1lcmljYW4gRXhwcmVzcwhEaXNjb3ZlcgpNYXN0ZXJDYXJkFQUAJDU5NjNhNzA4LWZjN2YtNDhhZi05NTJmLTE2ZDU3NGM0YjgzMyRjNGE1NjUxMy05ZmRiLTQ0YzUtOWIxOS1lNjE3ZjI1OTYxMDckYmYwZWQ4OTgtYWIwYy00Mzc0LTljZWYtMWU2NmIwOWU4MTZkJGIzNDgzMmY3LThhOTUtNDdmYS05YzQzLWJjODY4MjU2MmVhNRQrAwVnZ2dnZxYBZmQCDQ8WAh8JaBYCAgEPZBYEAgEPEA8WAh8LZ2RkFgBkAgMPEA8WAh8LZ2RkFgBkAg8PDxYCHwYFEENhcmQgRXhwaXJhdGlvbjpkZAIRDxAPFgIfC2dkEBUNAAIwMQIwMgIwMwIwNAIwNQIwNgIwNwIwOAIwOQIxMAIxMQIxMhUNAAExATIBMwE0ATUBNgE3ATgBOQIxMAIxMQIxMhQrAw1nZ2dnZ2dnZ2dnZ2dnFgFmZAIUDxAPFgIfC2dkEBUQAAQyMDE2BDIwMTcEMjAxOAQyMDE5BDIwMjAEMjAyMQQyMDIyBDIwMjMEMjAyNAQyMDI1BDIwMjYEMjAyNwQyMDI4BDIwMjkEMjAzMBUQAAQyMDE2BDIwMTcEMjAxOAQyMDE5BDIwMjAEMjAyMQQyMDIyBDIwMjMEMjAyNAQyMDI1BDIwMjYEMjAyNwQyMDI4BDIwMjkEMjAzMBQrAxBnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAIWDxYCHwloZAIbDw8WAh4LTmF2aWdhdGVVcmwFHGphdmFzY3JpcHQ6RG9uYXRpb25DU0NIZWxwKClkZAIdDxYCHwloZAIjDw8WAh8VBRFceDIwKlxkezMsNH1ceDIwKmRkAgsPFgIfCWgWCAINDw8WBh4MRXJyb3JNZXNzYWdlBTNSb3V0aW5nIE51bWJlcjogUGxlYXNlIGVudGVyIGEgdmFsaWQgcm91dGluZyBudW1iZXIfHgUGUEMzMzgyHgdEaXNwbGF5CyoqU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5WYWxpZGF0b3JEaXNwbGF5AGRkAhAPDxYCHyAFHWphdmFzY3JpcHQ6RG9uYXRpb25CYW5rSGVscCgpZGQCFg9kFgICBA8PFgIfFQUDXGQqZGQCGQ9kFgICAQ9kFgICAQ8QDxYCHwtnZBAVBAAIQ2hlY2tpbmcHU2F2aW5ncwVPdGhlchUEAAExATIBMxQrAwRnZ2dnFgFmZAINDxYCHwloFgYCAQ8PFgIfBgUNQ2hlY2sgTnVtYmVyOmRkAgUPDxYCHwYFC0NoZWNrIERhdGU6ZGQCCQ8PFgYfDgsrBgMfDwsrBwYfH2hkZAIsDxYCHwloFgQCBQ8QD2QWAh8QBRBTaG93TUdDb21wYW55KCk7ZGRkAgcPDxYCHyAFFWphdmFzY3JpcHQ6TUdTZWFyY2goKWRkAjMPDxYCHxUFVigoXChcZHszfVwpID8pfChcZHszfVstLyBdPykpXGR7M31bLSBcLixdP1xkezR9XHM/KCgoW3hYXXxbZUVdW3hYXVt0VF0pXC4/XHMqKFxkKykpKikkZGQCIQ9kFgJmD2QWEgIBDw8WAh8GBSxFbnRlciB0aGUgZ2lmdCByZWNpcGllbnQncyBpbmZvcm1hdGlvbiBiZWxvd2RkAgUPEA8WAh8LZ2QQFTAABzJuZCBMdC4EQWRtLgRBbWIuBkJpc2hvcApCcmlnLiBHZW4uB0Jyb3RoZXIFQ2FwdC4KQ2hhbmNlbGxvcgVDbWRyLgRDb2wuDENvbW1pc3Npb25lcg1Db3VuY2lscGVyc29uBERlYW4DRHIuB0dlbmVyYWwESGVycgVKdWRnZQRMYWR5BExvcmQDTHQuCEx0LiBDb2wuC0x0LiBHZW5lcmFsBk1hZGFtZQVNYWpvcg1NYWpvciBHZW5lcmFsBU1heW9yA01yLgRNcnMuA01zLgVNU2d0LgRQLkEuBFByZXMJUHJlc2lkZW50BVByb2YuBVJhYmJpBVJBZG0uBlJlZ2VudA5SZXByZXNlbnRhdGl2ZQRSZXYuB1NlbmF0b3IEU2d0LgZTaXN0ZXIEU3NnLg5TdHVkZW50IFJlZ2VudA1UaGUgSG9ub3JhYmxlDFRoZSBSZXZlcmVuZAhSZXYuIERyLhUwAAM0NDkDNDUwBTExMTMxBTExNTA2AzQ1MQIxNAIxNgUxMTQ3MwIxOAIxOQUxMTUxOAUxMTc4NQUxNzY0MwE0AzQ1OAM0NTkFMTE1MjADNDYzAzQ2NQIxNQQ4ODE2AzQ2NAUxODE3MQM0NjgDNDcwAzQ2OQExATMBMgUxNzYxMAM0NzQFMTM0MDUDNDc1BTE3NjA5AjEwAzQ3NwUxMTQ4NQM0NzgFMTE1MTkCMjMEODgxOQIxMgUxNzYxMQUxMTU2MwE4AjExBTE4Mzk5FCsDMGdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBZmQCCw8WAh8KBQpMYXN0IE5hbWU6ZAIPDxYCHwloZAIRDw8WCh8WCysIAB8XBQZQQzMzODIfGQUNVW5pdGVkIFN0YXRlcx8YaB8aaGQWGAIBDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAw8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWAgIBDxAPFgYfC2cfHAUqQkJGb3JtU2VsZWN0TGlzdCBEb25hdGlvbkNhcHR1cmVTZWxlY3RMaXN0Hx0CAmQQFQYACUF1c3RyYWxpYQZDYW5hZGEFQ2hpbmEOVW5pdGVkIEtpbmdkb20NVW5pdGVkIFN0YXRlcxUGAAlBdXN0cmFsaWEGQ2FuYWRhBUNoaW5hDlVuaXRlZCBLaW5nZG9tDVVuaXRlZCBTdGF0ZXMUKwMGZ2dnZ2dnFgECBWQCBQ8WAh8JaBYCZg8WAh8JaGQCBw9kFgoCAQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgIPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8PFgQfHAUkQkJGb3JtVGV4dGJveCBEb25hdGlvbkNhcHR1cmVUZXh0Ym94Hx0CAmRkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgQPD2QWAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgUPZBYCZg8PFgIfCWhkZAIHD2QWAmYPZBYCZg9kFgRmDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAQ8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWAmYPEA8WAh8LZ2RkFgBkAgsPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAINDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYGAgEPDxYGHwZkHxwFJkJCRm9ybVRleHRBcmVhIERvbmF0aW9uQ2FwdHVyZVRleHRBcmVhHx0CAmRkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgQPDxYGHx4FBlBDMzM4Mh8faB8VBQ9eW1xzXFNdezAsMTUwfSRkZAIPDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCEQ8WAh8JZxYOAgEPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAICDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPDxYGHwZkHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIDDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCBQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgYPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8QDxYGHwtnHxwFKkJCRm9ybVNlbGVjdExpc3QgRG9uYXRpb25DYXB0dXJlU2VsZWN0TGlzdB8dAgJkEBVjDzxQbGVhc2UgU2VsZWN0PgItLQJBQQJBQgJBRAJBRQJBRwJBSwJBTAJBUAJBUgJBUwJBWgJCQwJCRQJCWQJDQQJDTwJDVAJDWgJEQwJERQJEUgJGTAJGTQJHQQJHVQJISQJJQQJJRAJJTAJJTgJLUwJLWQJMQQJNQQJNQgJNRAJNRQJNSAJNSQJNTgJNTwJNUAJNUwJNVAJOQgJOQwJORAJORQJOSAJOSgJOTAJOTQJOUwNOU1cCTlQCTlYCTlkCT0gCT0sCT04CT1ICUEECUEUCUE4CUFICUFcCUUMDUUxEA1FSTwJSRAJSSQJSSgNST1MCU0MCU0QCU0sCU0wCU08CU1ACTlUCU1QCVEECVE4CVFgCVVQCVkECVkkDVklDAlZUAldBAldJAldWAldZAllUAkJOAlRDAlRIFWMCLTECLS0CQUECQUICQUQCQUUCQUcCQUsCQUwCQVACQVICQVMCQVoCQkMCQkUCQlkCQ0ECQ08CQ1QCQ1oCREMCREUCRFICRkwCRk0CR0ECR1UCSEkCSUECSUQCSUwCSU4CS1MCS1kCTEECTUECTUICTUQCTUUCTUgCTUkCTU4CTU8CTVACTVMCTVQCTkICTkMCTkQCTkUCTkgCTkoCTkwCTk0CTlMDTlNXAk5UAk5WAk5ZAk9IAk9LAk9OAk9SAlBBAlBFAlBOAlBSAlBXAlFDA1FMRANRUk8CUkQCUkkCUkoDUk9TAlNDAlNEAlNLAlNMAlNPAlNQAk5VAlNUAlRBAlROAlRYAlVUAlZBAlZJA1ZJQwJWVAJXQQJXSQJXVgJXWQJZVAJCTgJUQwJUSBQrA2NnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgcPZBYCAgEPD2QWAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgkPZBYCZg9kFgJmD2QWBmYPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIBDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEZg8PFgYfBmUfHAUkQkJGb3JtVGV4dGJveCBEb25hdGlvbkNhcHR1cmVUZXh0Ym94Hx0CAmRkAgEPDxYEHx4FBlBDMzM4Mh8faGRkAgIPFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAITD2QWCgIBDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBAIBDw8WBB8cBSRCQkZvcm1UZXh0Ym94IERvbmF0aW9uQ2FwdHVyZVRleHRib3gfHQICZGQCAw8PFgQfHgUGUEMzMzgyHx9oZGQCAw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAgUPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAIGDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYCAgEPEA8WBh8LZx8cBSpCQkZvcm1TZWxlY3RMaXN0IERvbmF0aW9uQ2FwdHVyZVNlbGVjdExpc3QfHQICZGQWAGQCFQ9kFhICAQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgIPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8PFgQfHAUkQkJGb3JtVGV4dGJveCBEb25hdGlvbkNhcHR1cmVUZXh0Ym94Hx0CAmRkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgMPFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAIFDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCBg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBAIBDxAPFgYfC2cfHAUqQkJGb3JtU2VsZWN0TGlzdCBEb25hdGlvbkNhcHR1cmVTZWxlY3RMaXN0Hx0CAmRkFgBkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgcPFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAIJDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCCg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBAIBDw8WBB8cBSRCQkZvcm1UZXh0Ym94IERvbmF0aW9uQ2FwdHVyZVRleHRib3gfHQICZGQCAw8PFgQfHgUGUEMzMzgyHx9oZGQCCw8WAh8bBTxCQkZvcm1SZXF1aXJlZEZpZWxkTWFya2VyIERvbmF0aW9uQ2FwdHVyZVJlcXVpcmVkRmllbGRNYXJrZXJkAhcPZBYSAgEPFgIfGwUqQkJGaWVsZENhcHRpb24gRG9uYXRpb25DYXB0dXJlRmllbGRDYXB0aW9uZAICDxYCHxsFOXRhTGVmdCBCQkZpZWxkQ29udHJvbENlbGwgRG9uYXRpb25DYXB0dXJlRmllbGRDb250cm9sQ2VsbBYEAgEPDxYEHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIDDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCBQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgYPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8QDxYGHwtnHxwFKkJCRm9ybVNlbGVjdExpc3QgRG9uYXRpb25DYXB0dXJlU2VsZWN0TGlzdB8dAgJkZBYAZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIHDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCCQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgoPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8PFgQfHAUkQkJGb3JtVGV4dGJveCBEb25hdGlvbkNhcHR1cmVUZXh0Ym94Hx0CAmRkAgMPDxYEHx4FBlBDMzM4Mh8faGRkAgsPFgIfGwU8QkJGb3JtUmVxdWlyZWRGaWVsZE1hcmtlciBEb25hdGlvbkNhcHR1cmVSZXF1aXJlZEZpZWxkTWFya2VyZAIZD2QWEAIBDxYCHxsFKkJCRmllbGRDYXB0aW9uIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ2FwdGlvbmQCAg8WAh8bBTl0YUxlZnQgQkJGaWVsZENvbnRyb2xDZWxsIERvbmF0aW9uQ2FwdHVyZUZpZWxkQ29udHJvbENlbGwWBgIBDxAPFgYfC2cfHAUqQkJGb3JtU2VsZWN0TGlzdCBEb25hdGlvbkNhcHR1cmVTZWxlY3RMaXN0Hx0CAmRkFgBkAgMPDxYEHxwFJEJCRm9ybVRleHRib3ggRG9uYXRpb25DYXB0dXJlVGV4dGJveB8dAgJkZAIFDw8WBB8eBQZQQzMzODIfH2hkZAIDDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCBQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgYPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgQCAQ8QDxYGHwtnHxwFKkJCRm9ybVNlbGVjdExpc3QgRG9uYXRpb25DYXB0dXJlU2VsZWN0TGlzdB8dAgJkZBYAZAIDDw8WBB8eBQZQQzMzODIfH2hkZAIHDxYCHxsFPEJCRm9ybVJlcXVpcmVkRmllbGRNYXJrZXIgRG9uYXRpb25DYXB0dXJlUmVxdWlyZWRGaWVsZE1hcmtlcmQCCQ8WAh8bBSpCQkZpZWxkQ2FwdGlvbiBEb25hdGlvbkNhcHR1cmVGaWVsZENhcHRpb25kAgoPFgIfGwU5dGFMZWZ0IEJCRmllbGRDb250cm9sQ2VsbCBEb25hdGlvbkNhcHR1cmVGaWVsZENvbnRyb2xDZWxsFgICAQ8PFgQfHAUkQkJGb3JtVGV4dGJveCBEb25hdGlvbkNhcHR1cmVUZXh0Ym94Hx0CAmRkAhsPZBYCAgEPZBYCAgEPEA8WAh8LZ2RkFgBkAh0PZBYCAgEPZBYCAgEPEA8WAh8LZ2RkFgBkAiEPDxYCHxUFVigoXChcZHszfVwpID8pfChcZHszfVstLyBdPykpXGR7M31bLSBcLixdP1xkezR9XHM/KCgoW3hYXXxbZUVdW3hYXVt0VF0pXC4/XHMqKFxkKykpKikkZGQCIg8PFgIfFQWXAV5bIF0qW0EtWmEtejAtOVwtXydgISMkJSYqKy89P157fH1+XSsoXC5bQS1aYS16MC05XC1fJ2AhIyQlJiorLz0/Xnt8fX5dKykqQFtBLVphLXowLTldW0EtWmEtejAtOVwtXSooXC5bQS1aYS16MC05XVtBLVphLXowLTlcLV0qKSpcLltBLVphLXpdezIsMjJ9WyBdKiRkZAIFD2QWAmYPFgIfCWhkZNAL/p4sgMAdG8AYF9PFTHDBE+wO" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+this.ddlFrequencyID = 'PC3382_Recurrence_ddlFrequency';
+this.ddlDayOfWeek1ID = 'PC3382_Recurrence_ddlDayOfWeek1';
+this.ddlMonthID = 'PC3382_Recurrence_ddlMonth';
+this.ddlDayNumber1ID = 'PC3382_Recurrence_ddlDayNumber1';
+this.rdoDayID = 'PC3382_Recurrence_rdoDay';
+this.ddlDayNumber2ID = 'PC3382_Recurrence_ddlDayNumber2';
+this.rdoTheID = 'PC3382_Recurrence_rdoThe';
+this.ddlPositionID = 'PC3382_Recurrence_ddlPosition';
+this.ddlDayOfWeek2ID = 'PC3382_Recurrence_ddlDayOfWeek2';
+this.EMonthlyQuarterlyMethod_ByDay = '1';
+this.EMonthlyQuarterlyMethod_ByPosition = '2';
+this.DatePickerStartID = 'PC3382_Recurrence_DatePickerStart';
+//]]>
+</script>
+
+<script src="/Client/Scripts/Recurrence.js" type="text/javascript"></script>
+<script src="/Client/Scripts/API/BBAPI-min.js" type="text/javascript"></script>
+<script src="/Client/Scripts/Bbnccore-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var LOGGEDIN = "";//]]>
+</script>
+
+<script src="/Client/Scripts/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="/Client/Scripts/jqueryui/1.8.19/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+BLACKBAUD.netcommunity.jQuery.setVersionReference();//]]>
+</script>
+
+<script src="/Client/Scripts/jquery/jquery.validate.js" type="text/javascript"></script>
+<script src="/Client/Scripts/jquery/additional-methods.js" type="text/javascript"></script>
+<script src="/Client/Scripts/jquery/jquery.maskedinput-1.1.4.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+ROOT_PATH = 'https://www.untalumni.com/'; BLACKBAUD.api.pageInformation.rootPath = 'https://www.untalumni.com/';BLACKBAUD.netcommunity.WebMethodsURL = 'https://www.untalumni.com/webservices/webmethods.asmx';BLACKBAUD.netcommunity.images = BLACKBAUD.netcommunity.images || {}; BLACKBAUD.netcommunity.images.imageUrlPrefix = 'https://www.untalumni.com/view.image?id=';modallvl = 0; ;var isIE = (window.ActiveXObject || "ActiveXObject" in window);;var DebugMode = false; ;var isAdminPage = false;;BLACKBAUD.netcommunity.bbAppFxRoot = '';;BLACKBAUD.netcommunity.bbAppFxDB = 'cf04ba63-9907-4967-8492-3f84e594f31e';;BLACKBAUD.netcommunity.PageID = 886; BLACKBAUD.api.pageInformation.pageId = 886;;//]]>
+</script>
+
+<script src="/Client/Scripts/MiscFunctions.js" type="text/javascript"></script>
+<script src="/Client/Scripts/MembershipEditor.js" type="text/javascript"></script>
+<script src="/Client/Scripts/MembershipDisplay.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+this.txtInstallmentsID = 'PC3382_txtInstallments';
+this.lblTruePledgeInstallmentsID = 'PC3382_lblTruePledgeInstallments';
+this.lbl_SummaryDuesID = 'PC3382_lbl_SummaryDues';
+this.webMethodsURL = 'https://www.untalumni.com/webservices/webmethods.asmx';
+this.currencySymbol = '$';
+this.lbl_SummaryExtraDonationID = 'PC3382_lbl_SummaryExtraDonation';
+this.datePickerFormat = 'm/d/yy';
+;//]]>
+</script>
+
+<script src="/Client/Scripts/ExtendedTextArea.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Q9V_dgpn_-RplXaU5A_D9uyhavRFL8clpgV48H5f6DHC2D4lq5AAUZ1as1Zl1ghptCar_TBd61cvPwxOx2UexZt1RrUtJPYC_foK-4FQkLrpWUKF0&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+<script src="/Client/Scripts/webkit.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8CAEDFE0" />
+        
+        
+        <div id="fillWrapper" class="row">
+<div id="fillLeft" class="large-6 columns"> </div>
+<div id="fillRight" class="large-6 columns"> </div>
+</div>
+<div id="fillCirclesWrapper" class="row">
+<div id="fillCircles" class="large-12 columns"> </div>
+</div>
+<div id="container" class="internal">
+<div id="headerTopWrapper" class="row">
+<div id="headerTopLeft" class="large-6 columns"><p><a href="http://www.untalumni.com/alumnihome"><img alt="University of North Texas" height="113" src="https://www.untalumni.com/image/alumni/logo.png" width="135" /></a></p>
+</div>
+<div id="headerTopRight" class="large-6 columns">
+<!--Start QuickSearch-->
+<table id="PC3244_tableMainAdd" class="QuickSearchFormTable" border="0">
+	<tr>
+		<td>
+            <label for="PC3244_txtQuickSearch" id="PC3244_lblTxtSearch" class="BBFieldCaption QuickSearchFieldCaption">Search:</label>
+        </td>
+		<td>
+            <input name="PC3244$txtQuickSearch" type="text" maxlength="255" id="PC3244_txtQuickSearch" class="QuickSearchTextbox" onkeydown="javascript:if (isEnterPressed(event)) {try{document.getElementById(&#39;PC3244_btnQuickSearch&#39;).click();return false;} catch(e) {}} else return true;" />
+        </td>
+		<td>
+            <label for="PC3244_btnQuickSearch" id="PC3244_lblQuickSearch" style="display: none; visibility: hidden;">Search</label>
+            <input type="submit" name="PC3244$btnQuickSearch" value="Search" id="PC3244_btnQuickSearch" class="BBFormSubmitButton QuickSearchButton" />
+        </td>
+	</tr>
+</table>
+
+
+<!--End QuickSearch-->
+</div>
+<div id="navigationWrapper" class="row">
+<div id="primaryNav" class="large-12 columns">
+
+<!--START MENU-->
+<ul class="primaryNav"><li class=" menuItem1 first"><a href="http://www.untalumni.com/alumnihome">Home</a></li><li class=" menuItem2 parent"><a href="http://www.untalumni.com/alumni/pages/about-us">About Us</a><ul class="nccUlMenuSub1"><li class=" menuItem1 first"><a href="http://www.untalumni.com/alumni/pages/about-us">About Us</a></li><li class=" menuItem2"><a href="http://www.untalumni.com/alumni/pages/alumni-center">Alumni Center</a></li><li class=" menuItem3"><a href="http://www.untalumni.com/alumni/pages/alumni-pavilion">Alumni Pavilion</a></li><li class=" menuItem4"><a href="http://www.untalumni.com/alumni/pages/board-of-directors">Board of Directors</a></li><li class=" menuItem5"><a href="http://www.untalumni.com/alumni/pages/faqs">FAQs</a></li><li class=" menuItem6"><a href="http://www.untalumni.com/alumni/pages/mission--vision">Mission &amp; Vision</a></li><li class=" menuItem7"><a href="http://www.untalumni.com/alumni/pages/staff-directory">Staff Directory</a></li><li class="menuItem8 last"><a href="http://www.untalumni.com/alumni/pages/update-information">Update Contact Information</a></li></ul></li><li class=" menuItem3 parent"><a href="http://www.untalumni.com/alumni/pages/join-now">Join</a><ul class="nccUlMenuSub1"><li class=" menuItem1 first"><a href="http://www.untalumni.com/alumni/pages/join-now">Join Now</a></li><li class=" menuItem2"><a href="http://www.untalumni.com/alumni/pages/benefits-of-membership">Benefits of Membership</a></li><li class="menuItem3 last"><a href="http://www.untalumni.com/alumni/pages/levels-of-membership">Levels of Membership</a></li></ul></li><li class=" menuItem4 parent"><a href="http://www.untalumni.com/alumni/pages/programs">Programs</a><ul class="nccUlMenuSub1"><li class=" menuItem1 first"><a href="http://www.untalumni.com/alumni/pages/affinity-partners">Affinity Partners</a></li><li class=" menuItem2"><a href="http://www.untalumni.com/alumni/pages/programs">Programs</a></li><li class=" menuItem3 parent"><a href="http://www.untalumni.com/alumni/pages/alumni-awards">Alumni Awards</a><ul class="nccUlMenuSub2"><li class="menuItem1 first last"><a href="http://www.untalumni.com/alumni/pages/alumni-awards---past-winners">Past Alumni Award Winners</a></li></ul></li><li class=" menuItem4"><a href="http://www.untalumni.com/alumni/pages/career-services">Career Services</a></li><li class=" menuItem5"><a href="http://www.untalumni.com/alumni/pages/scholarships">Scholarships</a></li><li class=" menuItem6"><a href="http://www.untalumni.com/student-alumni-association">Student Alumni Association</a></li><li class="menuItem7 last"><a href="http://www.untalumni.com/alumni/pages/unt-official-ring">UNT Class Ring</a></li></ul></li><li class="menuItem5 last parent"><a href="http://www.untalumni.com/alumni/pages/listofevents">Events</a><ul class="nccUlMenuSub1"><li class=" menuItem1 first"><a title="Alumni Events" href="http://www.untalumni.com/alumni/pages/listofevents">Alumni Events</a></li><li class=" menuItem2"><a href="http://www.untalumni.com/alumni/pages/alumni-travel">Alumni Travel</a></li><li class=" menuItem3"><a href="http://www.untalumni.com/alumni/pages/homecoming">Homecoming</a></li><li class=" menuItem4"><a href="http://www.untalumni.com/alumni/pages/alumni-event-regional-receptions-fall-2015">Regional Alumni Receptions</a></li><li class="menuItem5 last"><a href="http://www.untalumni.com/alumni/pages/nt-event---the-big-event-2016">The BIG Event - 2016</a></li></ul></li></ul>
+
+
+
+
+<!--END MENU--></div>
+<div id="mobilePrimaryNav"></div>
+</div>
+</div>
+<!-- END #headerTopWrapper --> <!-- END #wrapNavOuter -->
+<div id="breadcrumbWrapper" class="row">
+<div id="breadcrumb" class="large-12 columns"><ul id="ContentBreadCrumbs">
+<li id="bcFirst"><a href="http://one.unt.edu/alumni/alumni-center-home">Home</a></li>
+<li id="Join" class="navselected"><a href="http://one.unt.edu/alumni/pages/join">Join</a></li>
+</ul>
+</div>
+</div>
+<!-- END #mediaWrapper --></div>
+<div class="containerBody internal">
+<div id="contentWrapper" class="row">
+<div id="contentPrimaryWrapper" class="large-9 columns push-3">
+<div id="contentPrimary" class="row">
+<div class="singleCol large-12 columns"><h1 id="ContentPageName">Renew Now</h1>
+<div class="clearBoth">&#160;</div>
+
+
+
+<style type="text/css" >
+    #MembershipPayTable
+    {
+        width:100%;	
+    }
+    
+    #DonationCaptureTable
+    {
+    	width:100%;
+    }
+</style>
+
+
+<table id="PC3382_tblMain" class="w100p BBFormTable BBMembershipFormTable" border="0" cellspacing="0" cellpadding="0">
+	<tr id="PC3382_tr_MembershipTitleRow">
+		<td id="PC3382_td_MembershipTitleCell" class="BBFormTitle BBMembershipFormTitle">UNT Alumni Association Membership Renewal</td>
+	</tr>
+	<tr>
+		<td>
+            
+        </td>
+	</tr>
+	<tr>
+		<td>
+            
+        </td>
+	</tr>
+	<tr>
+		<td>
+            <div id="PC3382_pnlMembershipTransaction">
+			
+                <table class="w100p" border="0" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td>
+                            <hr class="BBMembershipCategoryListStart" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                                    <table border="0" cellpadding="0" cellspacing="0" class="w100p BBMembershipCategoryTable">
+                                
+                                    <tr>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Category_0"><input type=radio name='CategoryGroup1568458472' value='16' checked id='MemCat_0'><label for='MemCat_0'>Recent Grad Single</label></span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Price_0">$20.00 </span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                    </tr>
+                                    
+                                    <tr id="PC3382_rpMemCategory_tr_MemCatDesc_0">
+				<td colspan="4" class="BBMembershipCatDescription wsNowrap">
+                                            <span id="PC3382_rpMemCategory_lbl_MemCatDescription_0">An individual who graduated from UNT within last 2 years </span>
+                                        </td>
+			</tr>
+			
+                                
+                                    <tr>
+                                        <td colspan="4">
+                                            <hr class="BBMembershipCategorySeparator">
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Category_1"><input type=radio name='CategoryGroup1568458472' value='15'  id='MemCat_1'><label for='MemCat_1'>Recent Grad Joint</label></span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Price_1">$25.00 </span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                    </tr>
+                                    
+                                    <tr id="PC3382_rpMemCategory_tr_MemCatDesc_1">
+				<td colspan="4" class="BBMembershipCatDescription wsNowrap">
+                                            <span id="PC3382_rpMemCategory_lbl_MemCatDescription_1">Two individuals, one who graduated from UNT within last 2 years</span>
+                                        </td>
+			</tr>
+			
+                                
+                                    <tr>
+                                        <td colspan="4">
+                                            <hr class="BBMembershipCategorySeparator">
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Category_2"><input type=radio name='CategoryGroup1568458472' value='4'  id='MemCat_2'><label for='MemCat_2'>Annual Single</label></span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Price_2">$40.00 </span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                    </tr>
+                                    
+                                    <tr id="PC3382_rpMemCategory_tr_MemCatDesc_2">
+				<td colspan="4" class="BBMembershipCatDescription wsNowrap">
+                                            <span id="PC3382_rpMemCategory_lbl_MemCatDescription_2">Individual, single year membership </span>
+                                        </td>
+			</tr>
+			
+                                
+                                    <tr>
+                                        <td colspan="4">
+                                            <hr class="BBMembershipCategorySeparator">
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Category_3"><input type=radio name='CategoryGroup1568458472' value='3'  id='MemCat_3'><label for='MemCat_3'>Annual Joint</label></span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Price_3">$50.00 </span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                    </tr>
+                                    
+                                    <tr id="PC3382_rpMemCategory_tr_MemCatDesc_3">
+				<td colspan="4" class="BBMembershipCatDescription wsNowrap">
+                                            <span id="PC3382_rpMemCategory_lbl_MemCatDescription_3">Two Individuals living in same household, single year membership </span>
+                                        </td>
+			</tr>
+			
+                                
+                                    <tr>
+                                        <td colspan="4">
+                                            <hr class="BBMembershipCategorySeparator">
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Category_4"><input type=radio name='CategoryGroup1568458472' value='14'  id='MemCat_4'><label for='MemCat_4'>Life Single</label></span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Price_4">$500.00 </span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                    </tr>
+                                    
+                                    <tr id="PC3382_rpMemCategory_tr_MemCatDesc_4">
+				<td colspan="4" class="BBMembershipCatDescription wsNowrap">
+                                            <span id="PC3382_rpMemCategory_lbl_MemCatDescription_4">Individual membership for life </span>
+                                        </td>
+			</tr>
+			
+                                
+                                    <tr>
+                                        <td colspan="4">
+                                            <hr class="BBMembershipCategorySeparator">
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Category_5"><input type=radio name='CategoryGroup1568458472' value='13'  id='MemCat_5'><label for='MemCat_5'>Life Joint</label></span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            <span id="PC3382_rpMemCategory_lbl_Price_5">$600.00 </span></td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                        <td class="BBFieldControlCell BBMembershipControlCell">
+                                            </td>
+                                    </tr>
+                                    
+                                    <tr id="PC3382_rpMemCategory_tr_MemCatDesc_5">
+				<td colspan="4" class="BBMembershipCatDescription wsNowrap">
+                                            <span id="PC3382_rpMemCategory_lbl_MemCatDescription_5">Two individuals living in the same household membership for life</span>
+                                        </td>
+			</tr>
+			
+                                
+                                    </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr class="BBMembershipCategoryListEnd" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="w100p" border="0">
+                                
+                                
+                                <tr id="PC3382_tr_Comments">
+				<td class="BBFieldCaption BBMembershipFieldCaption vaTop">
+                                        <label for="PC3382_txt_Comments" id="PC3382_lblTxtComments">Comments:</label>
+                                    </td>
+				<td class="BBFieldControlCell BBMembershipControlCell">
+										<textarea name="PC3382$txt_Comments" rows="2" cols="20" id="PC3382_txt_Comments" class="BBFormTextArea BBMembershipTextArea">
+</textarea></td>
+			</tr>
+			
+                            </table>
+                            <table class="w100p" border="0">
+                                <tr id="PC3382_tr_AdditionalContrib">
+				<td class="vaMiddle BBFieldCaption BBMembershipFieldCaption" style="padding-left: 25px;
+                                        width: auto; text-align: left">
+                                        <span id="PC3382_lblTxtAdditionalContribution">I wish to give an additional contribution of: </span>
+                                        <span id="PC3382_lblSymbol">$</span>
+                                        <input name="PC3382$txt_AdditionalDonation" type="text" id="PC3382_txt_AdditionalDonation" class="BBFormTextbox BBMembershipTextBox" /></td>
+			</tr>
+			
+                            </table>
+							<table>
+								
+							</table>
+                        </td>						
+                    </tr>
+                    <tr class="BBFormButtonRow">
+                        <td class="taRight">
+                            
+                            <input type="button" name="PC3382$btn_Next" value="Next" onclick="(function(btn){var bDisableMe=true;if(typeof(Page_ClientValidate)==&#39;function&#39;){bDisableMe=Page_ClientValidate(&#39;PC3382&#39;);}if (bDisableMe) {__doPostBack(&#39;PC3382$btn_Next&#39;,&#39;&#39;);btn.disabled=bDisableMe;}})(this);return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;PC3382$btn_Next&quot;, &quot;&quot;, true, &quot;PC3382&quot;, &quot;&quot;, false, true))" id="PC3382_btn_Next" class="BBFormSubmitButton BBMembershipNextButton" />
+                        </td>
+                    </tr>
+                </table>
+            
+		</div>
+        </td>
+	</tr>
+	<tr>
+		<td>
+            
+        </td>
+	</tr>
+	<tr>
+		<td>
+            
+        </td>
+	</tr>
+</table>
+
+
+</div>
+<div class="leftCol large-6 columns">
+
+
+</div>
+<div class="rightCol large-6 columns"></div>
+</div>
+</div>
+<!--END #contentPrimaryWrapper -->
+<div id="contentSecondaryWrapper" class="large-3 columns pull-9">
+<div id="contentSecondary" class="row">
+<div class="singleCol large-12 columns">
+
+<!--START MENU-->
+<ul class="left_nav"><li class=" menuItem1 first"><a href="http://www.untalumni.com/alumni/pages/join-now">Join Now</a></li><li class=" menuItem2"><a href="http://www.untalumni.com/alumni/pages/benefits-of-membership">Benefits of Membership</a></li><li class="menuItem3 last"><a href="http://www.untalumni.com/alumni/pages/levels-of-membership">Levels of Membership</a></li></ul>
+
+
+
+
+<!--END MENU--></div>
+</div>
+</div>
+<!--END #contentSecondaryWrapper --></div>
+<!--END #contentWrapper --></div>
+<div class="containerFooter">
+<div id="footerOuterWrapper" class="row">
+<div id="footerOuter" class="large-12 columns"><div id="ContentFooterLogo">&#160;<img alt="UNT Alumni Logo" height="75" src="https://www.untalumni.com/image/untaa_logo-transparent.png" width="65" /></div>
+<div id="ContentFooter">
+<h1>University of North Texas Alumni Association</h1>
+1155 Union Circle #311220 | Denton, Texas 76203-5017<br />940-565-2834 | alumni@unt.edu</div>
+<div id="ContentFooterNav">
+<ul>
+<ul>
+<li><a href="http://www.untalumni.com/alumni/pages/staff-directory">Contact Us</a></li>
+</ul>
+</ul>
+<div class="column">
+<div id="ContentMiddleLayoutColATxt" class="copyArea">
+<ul class="social">
+<li><a class="facebook" href="http://www.facebook.com/UNTAlumniAssociation">Facebook</a></li>
+<li><a class="linkedin" href="http://www.linkedin.com/groups/University-North-Texas-Alumni-Association-36576/about">LinkedIn</a></li>
+<li><a class="twitter" title="Twitter" href="http://twitter.com/UNTAlumniAssoc">Twitter</a></li>
+<li><a class="flickr" title="Flickr" href="http://www.flickr.com/groups/northtexasalumni/">Flickr</a></li>
+</ul>
+</div>
+</div>
+<ul><!--<li><a href="#">Privacy Policy</a></li>--></ul>
+</div>
+</div>
+</div>
+</div>
+<!--END #footerOuterWrapper -->
+<script type="text/javascript" src="https://one.unt.edu/document.doc?id=7"></script>
+<script type="text/javascript" src="https://one.unt.edu/file/web-admin-documents/globalScripts.js"></script>
+        
+    <input type="hidden" name="hidBrowserDateTime" id="hidBrowserDateTime" /> <script type="text/javascript">
+
+// Purpose: Add print button on membership form (3rd step).
+// Author: Mark Hillard
+// Created: 10/23/14
+// Status: Tested and Released
+
+Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function () {
+    var submit = $('input[id$="SubmitPay"]');
+    var print = $('<input value="Print" type="button" class="BBFormSubmitButton printMe" onclick="window.print()">');
+    if (submit.length) {
+        print.insertBefore(submit);
+    }
+});
+
+</script>
+
+<style type="text/css">
+.printMe {
+position:absolute;
+right:110px;
+}
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+;BLACKBAUD.netcommunity.tempParameters = {};
+BLACKBAUD.netcommunity.tempParameters.maxLength = 255;
+BLACKBAUD.netcommunity.tempParameters.message = 'You have exceeded the maximum length allowed for the comment. Your message has been shortened to 255 characters.';
+BLACKBAUD.netcommunity.tempParameters.$Me = $('#PC3382_txt_Comments');
+if(BLACKBAUD.netcommunity.PC3382_txt_Comments_ExtendedTextArea && BLACKBAUD.netcommunity.PC3382_txt_Comments_ExtendedTextArea.Dispose){ BLACKBAUD.netcommunity.PC3382_txt_Comments_ExtendedTextArea.Dispose(); };BLACKBAUD.netcommunity.PC3382_txt_Comments_ExtendedTextArea = new BLACKBAUD.netcommunity.ExtendedTextArea(BLACKBAUD.netcommunity.tempParameters);BLACKBAUD.netcommunity.PC3382_txt_Comments_ExtendedTextArea.Init();var BBNCAnalyticsURL = BuildBBNCAnalyticsURL('https://www.untalumni.com/alumni/renew', 'MembershipStep_1835;pagename;pid', 'Transaction;Join+-+Renew;886');//]]>
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1434415-2', 'auto');
+  ga('send', 'pageview');
+
+</script></form>
+</body>
+</html>

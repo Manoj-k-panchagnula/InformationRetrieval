@@ -1,0 +1,285 @@
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+      <title>Department of Management « College of Business « UNT</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="Author" content="CoB Web Development Team" />
+      <meta name="Description" content="UNT College of Business " />
+      <meta name="Keywords" content="unt,cob,coba,college,business,adminstration" />
+      <meta http-equiv="expires" CONTENT="0">
+      
+      <meta property="og:url" content="http://www.cob.unt.edu/mgmt/bba_ent.php" /> 
+      <meta property="og:title" content="Department of Management « College of Business « UNT" />
+      <img src="http://www.cob.unt.edu/img/cob_logo.jpg" style="display:none;" /> 
+      <meta property="og:description" content="UNT College of Business" /> 
+    
+      <link rel="shortcut icon" type="image/x-icon" href="http://www.cob.unt.edu/favicon.ico" />
+      <link rel="stylesheet" type="text/css" href="/common/cobastyle_new.css" media="screen,projection,print" />
+      <link rel="stylesheet" type="text/css" href="/common/misbehaving.css" media="screen" />
+      <link rel="alternate stylesheet" type="text/css" href="/common/fluid.css" title="fluid" media="screen,projection" />
+      <link rel="alternate stylesheet" type="text/css" href="/common/ems.css" title="ems" media="screen,projection" />
+        <link rel="stylesheet" type="text/css" href="_dept.css" media="screen,projection,print" />
+
+    </head>
+    <body class="ms">
+    <div id="head">
+      <div id="global">
+        <div id="search">
+          <form id="searchBox" action="http://www.google.com/search" method="get">
+            <input type="text" name="q" id="searchbox" value="" size="30"/>
+            <input type="submit" id="sbutton" value="Search" />
+            <input type="hidden" name="sitesearch" id="sitesearch" value="cob.unt.edu" />
+          </form>
+        </div>
+        <ul id="globalLinks">
+          <li><a href="http://www.cob.unt.edu">College of Business</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://my.unt.edu">MyUNT</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://eagleconnect.unt.edu/">Eagle Connect</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://learn.unt.edu">Blackboard Learn</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://www.library.unt.edu/"> UNT Library</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://www.unt.edu/pais/map/"> UNT Maps</a></li>
+        </ul>
+      </div>
+  
+          <div id="banner">
+            <a id="unt" href="http://www.unt.edu"><span class="hide">UNT</span></a>
+            <a id="title_link" href="http://www.cob.unt.edu"><span class="hide">College of Business</span></a>
+          </div>
+    </div>    <div id="navbar" class="cf"></div>
+    <div id="wrap">
+      <div id="masthead">
+        <h2 class="hide">Departments</h2>
+        <ul class="departments" id="">
+  
+        <li><a href="/">Home</a></li>
+        <li style="z-index:1000"><a href="/college"> College</a>
+          <ul>
+            <li class="subtop"><a href="/about/mission/">About the College</a></li>
+            <li class="sub"><a href="/businessleadershipbuilding/">Business Leadership Building</a></li>
+            <li class="sub"><a href="/dean/">Office of the Dean</a></li>
+            <li class="sub"><a href="/directory/Faculty">CoB People Directory</a> </li>
+            <li class="sub"><a href="/dls">Distinguished Speaker Series</a></li>
+            <li class="sub"><a href="/centers/">Centers</a></li>
+            <li class="sub"><a href="/news_room">News Room</a></li>
+            <li class="sub"><a href="/ciltc/" title="Information and Learning Technologies Center">Technology @ CoB</a></li>
+            <li class="sub"><a href="/fsc">Faculty Support Center</a></li>
+            <li class="sub"><a href="/invest">Give to the College</a></li>
+            <li class="subbottom" ><a href="https://www.cob.unt.edu/db/portal">Faculty/Staff Login</a></li>
+          </ul>
+        </li>
+        <li><a href="/future-students">Future Students</a>
+          <ul>
+            <li class="subtop"><a href="/future-students/index.php">Why UNT College of Business?</a></li>
+            <li class="sub"><a href="/future-students/hands-on-experience.php">Hands on Experience</a></li>
+            <li class="sub"><a href="/future-students/the-unt-advantage.php">The UNT Advantage</a></li>
+            <li class="sub"><a href="/future-students/explore-degrees.php">Explore Degrees</a></li>
+            <li class="sub"><a href="/future-students/paying-for-college.php">Paying for College</a></li>
+            <li class="sub"><a href="/future-students/admissions.php">Admissions</a></li>
+            <li class="sub"><a href="/future-students/schedule-a-tour.php">Schedule a Tour</a></li>
+            <li class="subbottom"><a href="/future-students/request-more-information.php">Request More Information</a></li>
+          </ul>
+        </li>
+        <li><a href="/current_students">Current Students</a>
+          <ul>
+            <li class="subtop"><a href="/advising_services/">Advising Services</a></li>
+            <li class="sub"><a href="/lab">Computer Labs</a></li>
+            <li class="sub"><a href="/lab/tutor.php">Tutor Hours</a></li>
+            <li class="sub"><a href="/current_students/software/">Available Software</a></li>
+            <li class="sub"><a href="/careercenter">Career Center</a></li>
+            <li class="sub"><a href="/scholarships">Scholarships</a></li>
+            <li class="sub"><a href="/students/study-abroad">Study Abroad</a></li>
+            <li class="sub"><a href="/students/orgs">Student Orgs</a></li>
+            <li class="sub"><a href="/students/employment/">Student Employment</a></li>
+            <li class="sub"><a href="/students/studentambassadors.php">College of Business Student Ambassadors</a></li>
+            <li class="sub"><a href="/plp">Professional Leadership Program</a></li>
+            <li class="subbottom" ><a href="/case_competition">Fidelity Investments Integrated Business Case Competition</a></li>
+          </ul>
+        </li>
+        <li><a href="/academic_programs_and_departments">Academics</a>
+          <ul>
+            <li class="subtop"><div id="divider">Academic Programs</div></li>
+            <li class="sub"><a href="/programs/undergrad">Undergraduate Degree Programs</a></li>
+            <li class="sub"><a href="/programs/masters/">Master's Degree Programs</a></li>
+            <li class="sub"><a href="/programs/phd/">Ph.D. Degree Program</a></li>
+            <li class="sub"> <div id="divider">Academic Departments</div></li>
+            <li class="sub"><a href="/acct/">Accounting</a></li>
+            <li class="sub"><a href="/firel/" title="Finance, Real Estate, and Law">Finance, Insurance, Real Estate &amp; Law (FIREL)</a></li>
+            <li class="sub"><a href="/itds/" title="Information Technology &amp; Decision Sciences">Information Technology &amp; Decision Sciences (ITDS)</a></li>
+            <li class="sub"><a href="/mgmt/">Management</a></li>
+            <li class="subbottom" ><a href="/mktg/">Marketing &amp; Logistics</a></li>
+          </ul>
+        </li>
+        <li><a href="/people/">CoB People</a>
+          <ul>
+            <li class="subtop"><a href="/alumni/">CoB Alumni Associations</a></li>
+            <li class="sub"><a href="/directory/Admin">Administration Directory</a></li>
+            <li class="sub"><a href="/directory/Faculty">Faculty Directory</a></li>
+            <li class="sub"><a href="/directory/Staff">Staff Directory</a></li>
+            <li class="sub"><a href="/directory/PhD">PhD Directory</a></li>
+            <li class="subbottom"><a href="https://www.cob.unt.edu/db/portal">Faculty/Staff Login</a></li>
+          </ul>
+        </li> 
+        <li ><a href="/community">Community</a>
+          <ul>
+            <li class="subtop"><a href="/alumni">CoB Alumni</a></li>
+            <li class="sub"><a href="http://www.untalumni.com/">UNT Alumni  Association</a></li>
+            <li class="sub"><a href="/invest">Give to the  College</a></li>
+            <li class="sub"><a href="/centers">Centers</a></li>
+            <li class="subbottom"><a href="/rsvp">RSVP for College of Business Events</a></li>
+          </ul>
+        </li>
+        <li class="invest" style="">         <a href="/invest" ><strong>INVEST</strong></a>
+          <ul>
+            <li class="subtop"><a href="/invest/">How to Invest</a></li>
+            <li class="subbottom"><a href="/invest/campaigns">Capital Campaign Initiatives</a></li>
+          </ul>
+        </li>
+      </ul></div>  <div id="splash_picture_mgmt"></div><div id="sidebar">
+  <div id="info" class="mgmt">
+    <div id="quick">    
+      <ul>
+    <li><strong>University of North Texas</strong></li>
+    <li><strong>College of Business</strong></li>
+       <li><strong>Management</strong></li>
+        
+<li><a href="contact.php">Contact us</a></li>  
+      </ul>
+    </div>
+  </div>
+  <h2>In This Site</h2>
+  
+  
+    <ul class="nav">
+      <li><a href="index.php">MGMT Homepage</a></li>
+      <li><a href="welcome.php">Welcome from the Chair</a></li>
+      <li><a href="vision.php">Vision and Values</a></li>
+            <li><a href="advsboard.php">Advisory Board</a></li>
+                      <li><a href="distprof.php">Distinguished Scholar</a></li>
+      <li><a href="alumni.php">Outstanding Alumni</a></li>
+      <li><a href="contact.php">Contact Us</a></li>
+      <li><a href="ManagementConnection/2015/Fall/fall.php">Management Connection - Department Newsletter</a></li>
+    </ul>
+
+  <h2>Academics</h2>
+  <ul class="nav">
+    <li><a href="bba_ent.php">BBA in Entrepreneurship</a></li>
+    <li><a href="bba_obhrm.php">BBA in Organizational Behavior and Human Resources</a></li>
+    <li><a href="bba_oscm.php">BBA in Operations and Supply Chain Management</a></li>
+    <li><a href="mba.php">MBA Degrees</a></li>
+    <li><a href="phd_mgmt.php">Ph.D. in Management</a></li>
+        <li><a href="http://www.untecampus.com/default.cfm?keyword=&p=searchresult&COURSE_NUMBER=&COURSE_NAME=&SECTION_SEMESTER=&SECTION_YEAR=&dept=6&colg=&instructor=&CORE=&delivery=&campusvisits=&campusloc=&AWARD=&NGEN=&submit=Search">Online Classes<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>  
+    <li><a href="courses.php">Course Descriptions</a></li>
+  <li><a href="newcourses.php">New Courses</a></li>
+    <li><a href="/programs/courses/index.php?q2=mgmt+-acct+-bcis+-lscm+-fina+-insu+-mktg">Management Class Availability<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>    
+  </ul>
+  
+  <h2>For Students</h2>
+  <ul class="nav">
+  <li><a href="/case_competition">Fidelity Integrated Business Case Competition</a></li>
+  
+    <li><a href="/scholarships/">MGMT Scholarships<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+    <li><a href="/students/employment/employment_mgmt.php">Internships<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+    <li><a href="/students/study-abroad/">Study Abroad Program<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+    <li><a href="advising.php">Advising for MGMT</a></li>
+    
+ <li><a href="awards_spring_2014.php">Annual Awards Pictures</a></li>
+    <li><a href="/students/orgs/">Student Organizations<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+  
+   </ul>
+   
+  <h2>Our Team</h2>
+  <ul class="nav">    
+     <li><a href="/directory/Faculty/MGMT">Faculty</a></li>
+    <li><a href="/directory/Staff/MGMT">Staff</a></li>
+    <li><a href="/directory/PhD/MGMT">Ph.D. Students</a></li>
+  </ul>
+</div>
+<div id="title"><h1>BBA in Entrepreneurship</h1></div>
+<div id="main">
+  <div id="info_box">
+    <h3>Undergraduate Advisor</h3>
+    <ul>
+      <li>Room: BLB 215C</li>
+      <li>Phone: (940)565-4710</li>
+      <li>Email: <a href="mailto:mgmt.ugrdadv@unt.edu">mgmt.ugrdadv@unt.edu</a><a href="mailto:mgmtadv@unt.edu"></a></li>
+    </ul>
+  </div>
+  <p>As an Entrepreneurship major, you will spend most of your freshman and sophomore years taking general courses like English History, and Math. Your junior year will revolve around courses that provide an overall understanding of business such a basic Management, Marketing, Accounting and Finance, and Computer Information Systems. As a senior, you'll focus on courses in Entrepreneurship, Strategic Processes, Business Ethics, International Business Operations, Human Resource Management, Operations Management, Organizational Behavior, Complex Organizations, and Managing Team-Based Organizations, among others.</p>
+  <p>The Entrepreneurship faculty at UNT consists of highly qualified, full-time educators whose premier reputations are based on innovative teaching, outstanding research, and quality service to the profession and community. A one-on-one interaction with students is emphasized.</p>
+  <p>Students majoring in Entrepreneurship have numerous opportunities to participate in professional organizations. Among these are: the Strategic Management Society (SMS), <a href="/mgmt/sife">ENACTUS - Students in Entrepreneurial Action</a>, and the North Texas Entrepreneurs Council (NTEC).</p>
+  
+  <h2>Jobs in Entrepreneurship:</h2>
+  <p>There are about 25 million businesses in the United States. Some of these are very large enterprises having thousands of employees and billions of dollars in sales; most are small to medium-size businesses having fewer than 100 employees. Regardless of size, all businesses need managers who can plan, organize, direct, and control work in order to accomplish business objectives. The Entrepreneurship Professional Field is designed to assist you in developing the management skills and behaviors necessary to effectively manage an organization of any size in any management capacity.</p>
+  <p>The field of Entrepreneurship provides a broad exposure to skills necessary in managing a total organization. Entrepreneurship is the art and science of initiating new ventures or significantly growing existing firms through innovation and change. This field is necessary for suitable growth of businesses and the U.S. economy.</p>
+  <p>Many career options are available to students who choose the Entrepreneurship Professional Field: a management position at any level in any size firm; a position of responsibility if you are going back into your family-owned business; an ownership position should you decide to start your own business. You will have the flexibility to move from one management position to another in one company, or from company to company using your ability to creatively and innovatively solve business problems and continuously improve productivity. Entrepreneurship majors are currently in high demand by growth-oriented companies desiring re-structuring, re-engineering, and re-invention as well as those moving team-based, continuous quality improvement organizations. You will be prepared for self-employment as well... both now and in the future. You will acquire knowledge about how to start your own business...and succeed!</p>
+  <p>Should you decide to work for someone else upon graduation, UNT's Career Planning and Placement Service (CPPS) will help you prepare for finding a job. CPPS will provide you with information about prospective employers and about techniques for writing resumes, interviewing, and other employment strategies. You will also receive notification of available positions and information about companies which will be interviewing at UNT. Entrepreneurship majors who opt for self employment upon graduation can receive venture start-up assistance for UNT's Small Business Institute.</p>
+  
+  <h2>Internship Opportunities</h2>
+  <p>You are encouraged to make an internship part of your program during your senior year. Entrepreneurship cooperates with UNT's Center for Cooperative Education (CCE) to provide internship opportunities for all Entrepreneurship majors. CEE students are currently employed by more than 300 companies in the Dallas-Ft. Worth area. Many students take full-time positions with Intern Sponsoring Employers upon graduation.</p>
+  <h2>General Requirements</h2>
+   <p>Certain Core Requirements are necessary to complete the Bachelor of Business Administration degree in the professional field of Entrepreneurship. The following is a list of the total hours needed. By clicking on the following list, you will be taken to the Undergraduate Advising site where you can learn more about the degree plan.</p>
+  <ul>
+    <li><a href="../programs/undergrad/tracksheets/current/bbabifold.pdf">University Core Requirements</a></li>
+    <li><a href="../programs/undergrad/bba_ent.php">Professional Field and Supporting Courses</a></li>
+  </ul>
+</div>
+    </div>    <br style="clear:both;" />
+    <div id="footer">
+      <div class="holder">
+        <div id="map-footer" >
+          <h4>Physical Address:</h4>
+          <p>
+            University of North Texas<br>
+            College of Business<br>
+            1307 West Highland Street<br>
+            Denton, Texas<br>
+            76201<br>
+            <a href="/about/contact/">Contact the College of Business</a>
+          </p>
+        </div>
+        <div id="contact" >
+          <h4>Mailing Address:</h4>
+          <p>
+      University of North Texas<br>
+      College of Business<br>
+      1155 Union Circle #311160<br>
+      Denton, TX <br>
+      76203-5017<br>
+      <a href="/about/contact/">Contact the College of Business</a>
+    
+          </p>
+        </div>
+        <div id="contentProblems">
+          <h4>This Website:</h4>
+          <p>
+            &copy; 2016 UNT College of Business<br />
+            For issues or comments related to this website, please <a href="/about/contact/feedback.php?re=Website">contact us</a>.<br /><br />
+            <a href="http://www.facebook.com/pages/University-of-North-Texas-College-of-Business/116950807666"><img src="/common/img/facebook.gif" /></a>&nbsp; 
+            <a href="/rss"><img src="/common/img/rss.gif" /></a>
+          </p>
+        </div>
+        <div style="margin: 10px 0pt 0pt; padding: 20px 0pt 10px; clear: both; width: 920px; text-align: center;">
+          <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | 
+          <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | 
+          <a href="http://www.unt.edu/unt_ps.html">Privacy </a> | 
+          <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility</a> | 
+          <a href="http://www.unt.edu/state-texas.htm">State of Texas Online</a> | 
+          <a  href="http://emergency.unt.edu/">Emergency Preparedness</a> | 
+          <a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-6367514-1");
+        pageTracker._trackPageview();
+      }
+      catch(err) {}
+    </script>
+  </body></html>

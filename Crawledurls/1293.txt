@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="//edmastersonline.unt.edu/sites/all/themes/greenlight_sub/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Accelerated Online Programs</title>  
+  <link type="text/css" rel="stylesheet" href="//edmastersonline.unt.edu/sites/default/files/css/css_qu_-K05gYNKp0LWPb0jp3cQ8RN6H9aaEqMAeQmYcJyg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//edmastersonline.unt.edu/sites/default/files/css/css_AIAMSmzAur0elDuxwch9uC4ygCA2hikA6kcjpm8YT3A.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//edmastersonline.unt.edu/sites/default/files/css/css_C9Vk2sb39akVCbyuV0J7qhYEpVgXko4G6ryUqrnnXd0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//edmastersonline.unt.edu/sites/default/files/css/css_6TIn_A2wOsNfVygqSOTPeJ4YOcocmroo1U2UsyjHito.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//edmastersonline.unt.edu/sites/default/files/css/css__nmHG4kmSZjzLJDiSwTLODqSI7PsOi5CCTZZBziT1Io.css" media="all" />
+  
+  <script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/libraries/respondjs/respond.min.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/misc/drupal.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/js/caption-filter.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/libraries/colorbox/jquery.colorbox-min.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/modules/contrib/colorbox/js/colorbox.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/modules/contrib/colorbox/styles/default/colorbox_style.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/modules/contrib/webform/js/webform.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/themes/greenlight/js/wdc-drupal7.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/jquery.formalize.js?o4k94l"></script>
+<script type="text/javascript" src="//edmastersonline.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/omega-mediaqueries.js?o4k94l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight_sub","theme_token":"GbBbiLb3-2yPgEPu5kEPBtN0O8cRDgOnaMb-t-GPj84","js":{"profiles\/cws_d7\/libraries\/respondjs\/respond.min.js":1,"profiles\/cws_d7\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"profiles\/cws_d7\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/cws_d7\/modules\/contrib\/webform\/js\/webform.js":1,"profiles\/cws_d7\/themes\/greenlight\/js\/wdc-drupal7.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cws_d7\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/cws_d7\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cws_d7\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/cws_d7\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"profiles\/cws_d7\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/cws_d7\/modules\/contrib\/webform\/css\/webform.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-visuals.css":1,"profiles\/cws_d7\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight_sub\/css\/global-sub.css":1,"fluid::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"fluid::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/fluid\/alpha-default-fluid-12.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-narrow.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-narrow.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-wide.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-wide.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+  <!-- Facebook Conversion Code for Key Page Views - FTIC Tours -->
+<script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6027451596208', {'value':'0.00','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6027451596208&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+  
+</head>
+<body class="html front not-logged-in">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <span></span>
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">
+			<p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="https://webassets.unt.edu/theme/greenlight-d7/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+						<li id="li-mo-home" class="first"><a href="/"><span>Home</span></a></li>
+						
+						<li id="li-mo-quicklinks" class="menu-toggler"><span>Quicklinks »</span>
+						  <ul class="mo-quicklinks toggler-submenu mo-hide">
+						  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+								<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+								<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+								<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+								<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+								<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+								<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+							</ul>
+						</li>
+
+						<li id="li-mo-main-menu" class="menu-toggler active"><span>Main menu &raquo;</span>
+<ul class="mo-main-menu toggler-submenu mo-hide" style="display: block"><li><a href="http://edmastersonline.unt.edu/">Home</a></li>
+<li><a href="http://edmastersonline.unt.edu/content/how-apply">How to Apply</a></li>
+<li><a href="http://edmastersonline.unt.edu/content/courses">Courses</a></li>
+<li><a href="http://edmastersonline.unt.edu/content/faculty">Our Faculty</a></li>
+<li><a href="http://edmastersonline.unt.edu/content/cost">Cost</a></li>
+<li><a href="http://edmastersonline.unt.edu/content/contact-us">Contact Us</a></li>
+</ul>
+</li>
+				  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+										<!--<form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+						<div><div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search the UNT web site:</label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+							
+							<input type="hidden" name="form_build_id" value="form-ujfG-ZSE5TR-xFGXg80zrwpNYknILBw1CChPMxUbnHI">
+							<input type="hidden" name="form_token" value="DKL_c2lnzzWVVOH3_nQL-VLa_l3dRsfj8UBY06q-AvY">
+							<input type="hidden" name="form_id" value="search_block_form">
+							</div>
+						</div>
+					</form>-->
+
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>
+<div id="mobile-site-info" class="mobile"><div class="inside">
+	<!--div class="mobile-dept-name"></div-->
+	<div class="mobile-site-title"><a href="/">Accelerated Online Programs</a></div>
+</div></div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+	  <ul class="quicklinks">
+	  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+			<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+			<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+			<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+			<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+			<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+			<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+		</ul>
+
+      </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <section class="block block-block block-9 block-block-9 odd" id="block-block-9">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Facebook Pixel for Non-Confirmation Pages</h3>
+            
+    <div class="content clearfix">
+      <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '671168089658083');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=671168089658083&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+
+  	<div id="unt">
+    	<a href="http://www.unt.edu">
+    		<img src="https://webassets.unt.edu/theme/greenlight-d7/unt-lettermark.png" alt="UNT | A Green Light to Greatness" class="unt-lettermark" />
+      </a>
+    </div>
+    
+			    <hgroup 
+		    	    <div class="branding-data clearfix">
+	
+				      
+					<h5 class="department-link department-name"><a href="http://coe.unt.edu"> College of Education</a></h5>
+								
+				<h1 class="site-name stacked"><a href="/" title="Accelerated Online Programs" class="active">Accelerated Online Programs</a></h1>
+	
+	    </div>
+	    </hgroup>
+		
+    
+  </div>
+</div>  </div>
+</div>
+	<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix desktop">
+		<div id="zone-menu" class="zone zone-menu clearfix container-12">
+			<div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+    <section class="block block-system block-menu block-main-menu block-system-main-menu odd" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Main menu</h3>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/" title="Homepage" class="active">Home</a></li>
+<li class="leaf"><a href="/content/how-apply">How to Apply</a></li>
+<li class="leaf"><a href="/content/courses">Courses</a></li>
+<li class="leaf"><a href="/content/faculty">Our Faculty</a></li>
+<li class="leaf"><a href="/content/cost">Cost</a></li>
+<li class="last leaf"><a href="/content/contact-us">Contact Us</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>		</div>
+	</div>
+</header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display omega-grid omega-12-twocol-6-6-stacked" >
+  <div class="panel-panel grid-12">
+    <div class="inside"><div class="panel-pane pane-block pane-block-5"  id="homepage-feature-banner"  class="panel-pane pane-block pane-block-5">
+  
+      
+  
+  <div class="pane-content">
+    <div class="inner"><img alt="Student studying" class="desktop" src="../sites/all/themes/greenlight_sub/images/16_185_AOP_Eberhardt_0093_final-full.png" /><img alt="Student studying" class="mobile" src="../sites/all/themes/greenlight_sub/images/16_185_AOP_Eberhardt_0093_final-mobile.png" /></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-1"  id="homepage-feature-copy"  class="panel-pane pane-block pane-block-1">
+  
+      
+  
+  <div class="pane-content">
+    <div class="inner">
+<div class="header-copy-top">
+<p>Flexible.<br />
+Affordable.<br />
+Respected.<br />
+100% online.</p>
+</div>
+<div class="header-copy-bottom">
+<p>Get your master’s in Educational Leadership or Texas Principal Certification in as few as 12 months!</p>
+</div>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="panel-panel grid-6 alpha">
+    <div class="inside"><div class="panel-pane pane-block pane-block-2 grid-4"  id="intro-content"  class="panel-pane pane-block pane-block-2 grid-4">
+  
+        <h2 class="pane-title">
+      Accelerate Your Career    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="calls-item">
+<div class="inner">
+<p><a href="node/2" style="padding-top:80px;" target="_blank">The next session starts June 6. <u>Apply Now!</u></a></p>
+</div>
+</div>
+<p>You chose a career in education because you want to make a difference in the lives of students.</p>
+<p>The University of North Texas can help you take that commitment to excellence one step further. Our accelerated online master’s in Educational Leadership and accelerated online Texas Principal Certification programs<strong> </strong>will inspire you with new ideas and open doors to opportunities. The programs emphasize current theory and research to inform educational leaders as they make decisions regarding positive school culture, effective teaching practices, and student achievement.</p>
+<p>Our accelerated online Texas Principal Certification program focuses on the skills required for campus-level and central office administration. We help prepare candidates for the Texas Examination of Education Standards (TExES) for Principal Certification.</p>
+<p>Earn your Texas Principal Certification in less than one year!</p>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="panel-panel grid-6 omega">
+    <div class="inside"><div class="panel-pane pane-block pane-webform-client-block-7 grid-4"   class="panel-pane pane-block pane-webform-client-block-7 grid-4">
+  
+        <h2 class="pane-title">
+      Learn More    </h2>
+    
+  
+  <div class="pane-content">
+    <form class="webform-client-form webform-client-form-7" enctype="multipart/form-data" action="/" method="post" id="webform-client-form-7" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--first-name">
+  <label class="element-invisible" for="edit-submitted-first-name">First Name <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-submitted-first-name" name="submitted[first_name]" value="First Name" size="60" maxlength="128" class="form-text required" />
+</div>
+<div  class="form-item webform-component webform-component-textfield webform-component--last-name">
+  <label class="element-invisible" for="edit-submitted-last-name">Last Name <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-submitted-last-name" name="submitted[last_name]" value="Last Name" size="60" maxlength="128" class="form-text required" />
+</div>
+<div  class="form-item webform-component webform-component-email webform-component--email">
+  <label class="element-invisible" for="edit-submitted-email">Email <span class="form-required" title="This field is required.">*</span></label>
+ <input class="email form-text form-email required" type="email" id="edit-submitted-email" name="submitted[email]" value="Email" size="60" />
+</div>
+<div  class="form-item webform-component webform-component-select webform-component--state-province">
+  <label class="element-invisible" for="edit-submitted-state-province">State/Province </label>
+ <select id="edit-submitted-state-province" name="submitted[state_province]" class="form-select"><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AS">American Samoa</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="GU">Guam</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MH">Marshall Islands</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="MP">Northern Marianas Islands</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PW">Palau</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VI">Virgin Islands</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option></select>
+</div>
+<div  class="form-item webform-component webform-component-checkboxes webform-component--program-of-interest">
+  <label for="edit-submitted-program-of-interest">Program of interest </label>
+ <div id="edit-submitted-program-of-interest" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-submitted-program-of-interest-ME">
+ <input type="checkbox" id="edit-submitted-program-of-interest-1" name="submitted[program_of_interest][ME]" value="ME" class="form-checkbox" />  <label class="option" for="edit-submitted-program-of-interest-1">Master's in Educational Leadership </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-program-of-interest-TPC">
+ <input type="checkbox" id="edit-submitted-program-of-interest-2" name="submitted[program_of_interest][TPC]" value="TPC" class="form-checkbox" />  <label class="option" for="edit-submitted-program-of-interest-2">Texas Principal Certification </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-wYc518r280k40xvRiAx-rVFWeWPiXqY5wq2XyEYJigA" />
+<input type="hidden" name="form_id" value="webform_client_form_7" />
+<div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit" /></div></div></form>  </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="panel-panel grid-12">
+    <div class="inside"><div class="panel-pane pane-node"   class="panel-pane pane-node">
+  
+        <h2 class="pane-title">
+      Does your busy lifestyle prevent you from pursuing your career goals?    </h2>
+    
+  
+  <div class="pane-content">
+    <article about="/content/does-your-busy-lifestyle-prevent-you-pursuing-your-career-goals" typeof="sioc:Item foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-wdc odd clearfix" id="node-page-8">
+        <span property="dc:title" content="" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h3>Our accelerated online program is the solution.</h3>
+<div class="imagefit"><img alt="Student" src="/sites/all/themes/greenlight_sub/images/13_061_AcceleratedOnlineStudent0438AOP_0.jpg" style="height:266px; width:400px" /></div>
+<ul><li><strong>Convenient.</strong> Participate online. Anytime. Anywhere.</li>
+<li><strong>Flexible.</strong> 8-week courses with 5 available start dates.</li>
+<li><strong>Affordable. </strong>About $1,100 per course for Texas residents– an excellent value.</li>
+<li><strong>Manageable.</strong> You can take one or two courses at a time.</li>
+<li><strong>Respected. </strong>All Teacher Education programs in the College of Education are accredited by the <a href="http://www.ncate.org">National Council for Accreditation of Teacher Education (NCATE)</a>.</li>
+</ul><h3>How do these programs advance my career?</h3>
+<p><strong>M.Ed. in Educational Leadership is perfect for:</strong></p>
+<ul><li>Educators seeking advancement as administrators in schools, school districts or other educational institutions</li>
+<li>Classroom teachers who may not be seeking administrative positions but who want to assume other kinds of leadership roles</li>
+</ul><p><strong>Texas Principal Certification:</strong></p>
+<ul><li>Educators seeking advancement as principals in Texas schools</li>
+<li>Master's degree holders seeking Texas principal certification</li>
+</ul><h3>How does it work?</h3>
+<ul><li>The 30-hour M.Ed. program requires 10 Educational Leadership courses, all administered in a flexible online format.</li>
+<li>The 21-hour Principal Certification program requires seven Educational Leadership courses, all administered in a flexible online format.</li>
+<li>Our 8-week courses have five available start dates annually: January, March, June, August and October.</li>
+<li>Each program session is only eight weeks long, except for the internship.</li>
+<li>If you take two courses each session, you can earn your master’s in Educational Leadership or Principal Certification in12 months.</li>
+<li>If you already hold a master's degree, you can enroll in the seven-course Principal Certification track.</li>
+</ul><p> </p>
+</div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-3"  id="deadline-ribbon"  class="panel-pane pane-block pane-block-3">
+  
+      
+  
+  <div class="pane-content">
+    <p>Don’t delay! The next session starts June 6.</p>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-7"   class="panel-pane pane-block pane-block-7">
+  
+      
+  
+  <div class="pane-content">
+    <p><img alt="line" class="line" src="../sites/all/themes/greenlight_sub/images/faded-line.png" style="width:100%" /></p>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-6"   class="panel-pane pane-block pane-block-6">
+  
+        <h2 class="pane-title">
+      Give Your Career the Green Light: <em>The UNT Difference</em>     </h2>
+    
+  
+  <div class="pane-content">
+    <div class="brag first">
+<!--<p><p>UNT’s College of Education ranks 13th in the nation for Best Online Graduate Education Programs according to <em>U.S. News and World Report.</em></p>
+</div>
+<p>-->
+<p>UNT has been named a Best University by <em>Forbes</em> for six consecutive years.<br />
+ </p>
+</div>
+<div class="brag second">
+<p>UNT's College of Education has been ranked in the 50 Top Education Colleges in the nation by Council for Accreditation of Educator Preparation.</p>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+	  <div id="zone-footer" class="zone zone-footer mcconnell clearfix container-12">
+	  
+	    <div class="grid-3 region region-footer-first" id="region-footer-first">
+			  <div class="region-inner region-footer-first-inner">
+			  
+					<div class="footer-logo unt-brand">
+						<a href="http://coe.unt.edu"><img src="https://webassets.unt.edu/theme/greenlight-d7/unt-stacked-mcconnell.png" alt=" College of Education | UNT" /></a>
+					</div>
+					
+			  </div>
+			</div>
+			
+			<div class="grid-3 region region-footer-second" id="region-footer-second">
+			  <div class="region-inner region-footer-second-inner">
+			  
+					<h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3>
+					<div id="collapse-footer-1" class="footer-block-content footer-toggler-content">
+						<p><a href="http://maps.unt.edu/places/1011/view" target="_blank"><strong>Matthews Hall</strong></a><br />
+						Matthews Hall, Room 214<br />
+1300 West Highland Street<br />
+Denton, TX 76203</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="grid-3 region region-footer-third" id="region-footer-third">
+			  <div class="region-inner region-footer-third-inner">
+			
+					<h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+										<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+						<p><strong> College of Education</strong><br />
+						1155 Union Circle #310740<br />
+Denton, TX 76203-5017 USA</p>
+					</div>
+									</div>
+			</div>
+
+			<div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+			  <div class="region-inner region-footer-fourth-inner">
+			
+					<h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+					<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+						<p class="phone-lg"><a href="tel:+19405652942"> 940-565-2942</a></p>
+						<p><a href="mailto:Marilyn.Deuble@unt.edu">Marilyn.Deuble@unt.edu</a></p>
+					</div>
+					
+					<div class="footer-social"><div class="inside">
+													<div class="social-icon"><a href="https://www.facebook.com/northtexas" class="facebook" title="University of North Texas on facebook"><img src="https://webassets.unt.edu/theme/greenlight-d7/icon-facebook.png" height="40px" width="40px" alt="facebook" /></a></div>
+												
+												  <div class="social-icon"><a href="https://twitter.com/UNTsocial" class="twitter" title="University of North Texas on twitter"><img src="https://webassets.unt.edu/theme/greenlight-d7/icon-twitter.png" height="40px" width="40px" alt="twitter" /></a></div>
+														
+												  <div class="social-icon"><a href="https://www.youtube.com/user/universitynorthtexas" class="youtube" title="University of North Texas on YouTube"><img src="https://webassets.unt.edu/theme/greenlight-d7/icon-youtube.png" height="40px" width="40px" alt="YouTube" /></a></div>
+													
+												
+													
+													
+													
+													
+						<div class="social-icon"><a href="http://m.unt.edu/" class="togo" title="UNT ToGo"><img src="https://webassets.unt.edu/theme/greenlight-d7/icon-mobile.png" height="40px" width="40px" alt="UNT ToGo" /></a></div>
+						<div class="social-icon"><a href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory"><img src="https://webassets.unt.edu/theme/greenlight-d7/icon-directory.png" height="40px" width="40px" alt="UNT Social Media Directory" /></a></div>
+					</div></div>
+			
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+	  <div id="zone-state" class="zone zone-state clearfix container-12">
+	  
+	    <div class="grid-12 region region-footer-state desktop" id="region-footer-state">
+			  <div class="region-inner region-footer-state-inner">
+		
+					<p class="updated">Site last updated on <span class="footer-updated">February 25, 2016</span></p>
+					
+					<p class="sate-links">
+					<a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+					<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+					<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+					<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+					<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+					<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+					<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+					<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu">UNT Home</a>
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="grid-12 region region-footer-state mobile" id="region-footer-state-mobile"><div class"region-inner region-footer-state-inner-mobile">
+					<p class="updated">Site last updated on <span class="footer-updated">February 25, 2016</span> | <span class="mobile-state-links"><a href="/state-links-resources">Important Links</a></span></p>
+			</div></div>
+			
+		</div>
+	</div>
+</footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-368058-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

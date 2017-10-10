@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> <!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]> <!--> <html class="no-js" lang="en"><!-- InstanceBegin template="/Templates/Catalog Master Template.dwt" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+<head>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/features.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>UNT Libraries: Catalog</title>
+<!-- InstanceEndEditable -->
+<script type="text/javascript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+</script>
+<!-- InstanceParam name="Body Class" type="text" value="catalog" -->
+<!-- InstanceParam name="BodyID" type="text" value="catalog-screen" -->
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/">
+</noscript>
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" media="all">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/screens/template.css">
+<link rel="stylesheet" type="text/css" href="/screens/unt.css?v=20">
+<link rel="stylesheet" href="/screens/fancybox214/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css?v=4" media="print">
+<!-- InstanceBeginEditable name="headJavaScript" -->
+<!-- InstanceEndEditable -->
+<script type="text/javascript" src="//books.google.com/books/previewlib.js"></script>
+<script type="text/javascript" src="//www.google.com/jsapi?key=ABQIAAAAiMxCv9HXrrInCAfSSpXWKRS4VKaM75tmZ4wb9-H0O7KcTd3lvhQLPHVYN2ZwWVF49EC3OQ0UAulV_w"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/screens/jquery-ui.min.js?v=1815"></script>
+<script src="/screens/jquery-local.js?v=32"></script>
+<script type="text/javascript" src="/screens/bootstrap.min.js"></script>
+<script type="text/javascript" src="/screens/fancybox214/jquery.fancybox.pack.js"></script>
+<!-- HTML5 element support for IE6-8 -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="/screens/respond.min.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="headCSS" -->
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="headOther" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body class="catalog" id="catalog-screen">
+<!-- InstanceBeginEditable name="top" -->
+<!-- begin toplogo.html file -->
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div id="main-wrapper">  
+	<div id="main-heading" class="hidden-print">
+    <div id="top-navigation" class="hidden-xs" role="navigation">
+      <div class="container">
+        <div id="unt-navbar" class="col-sm-12">
+          <ul class="nav navbar-nav">
+            <li class="dropdown nav-item"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> UNT Links <span class="caret"></span> </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://my.unt.edu/" id="unt-sites-myunt">MyUNT</a></li>
+                <li><a href="http://eagleconnect.unt.edu/" id="unt-sites-eagle-connect">EagleConnect</a></li>
+                <li><a href="http://webctvista.unt.edu/" id="unt-sites-blackboard">Blackboard</a></li>
+                <li><a href="http://www.unt.edu/find-people-department.htm" id="unt-sites-directory">People &amp; Departments</a></li>
+                <li><a href="http://maps.unt.edu/" id="unt-sites-maps">Maps</a></li>
+                <li><a href="http://www.unt.edu/calendars-events.htm" id="unt-sites-calendars">Calendars</a></li>
+                <li><a href="http://www.unt.edu/giving-unt.htm" id="unt-sites-giving">Giving to UNT</a></li>
+              </ul>
+            </li>
+            <li class="dropdown nav-item"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Other Library Sites <span class="caret"></span> </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="http://www.untdallas.edu/library" id="other-sites-unt-dallas-library">UNT Dallas Library</a></li>
+                <li><a href="http://library.hsc.unt.edu/" id="other-sites-unt-health-science-center-library">UNT Health Science Library</a></li>
+                <li><a href="http://lawschool.untsystem.edu/law-library" id="other-sites-unt-law-library">UNT Dallas Law Library</a></li>   
+                <li><a href="http://www.library.unt.edu/node/2468/" id="other-sites-other-libraries">Other Libraries</a></li>             
+                <li class="divider"></li>
+                <li><a href="http://iii.library.unt.edu/" id="other-sites-catalog">Library Catalog</a></li>
+                <li><a href="https://unt.illiad.oclc.org/illiad/logon.html" id="other-sites-illiad">Interlibrary Loan &amp; Document Delivery (Illiad)</a></li>
+                <li><a href="http://guides.library.unt.edu/" id="other-sites-libguides">Subject &amp; Course Guides</a></li>
+                <li class="divider"></li>
+                <li><a href="http://digital.library.unt.edu/" id="other-sites-digital-libraries">UNT Digital Libraries</a></li>
+                <li><a href="http://texashistory.unt.edu/" id="other-sites-portal">The Portal to Texas History</a></li>
+                <li class="divider"></li>
+                <li><a href="http://findingaids.library.unt.edu" id="other-sites-finding-aids">Finding Aids</a></li>
+                <li><a href="http://exhibits.library.unt.edu/" id="other-sites-exhibits">Exhibits</a></li>
+                <li class="divider"></li>
+                <li><a href="https://reservations.library.unt.edu/Web/" id="other-sites-study-room-reservations">Student Study Rooms Reservations</a></li>
+                <li><a href="https://www.library.unt.edu/forms/room-reservations" id="other-sites-faculty-room-reservations">Faculty/Staff Room Reservations</a></li>
+                <li><a href="http://iii.library.unt.edu/search/r" id="other-sites-course-reserves">Course Reserves</a></li>
+                <li><a href="https://audioreserves.library.unt.edu/" id="other-sites-audio-reserves">Digital Audio Reserves</a></li>
+                <li><a href="https://vod.library.unt.edu/" id="other-sites-video-on-demand">Video On Demand</a></li>
+                <li class="divider">&nbsp;</li>
+                <li><a href="http://untpress.unt.edu/" id="other-sites-unt-press">UNT Press</a></li>
+                <li><a href="http://openaccess.unt.edu/" id="other-sites-open-access">Open Access @ UNT</a></li>
+                <li><a href="http://blogs.library.unt.edu" id="other-sites-blogs">University Libraries' Scholarly Blogs</a></li>
+                <li><a href="http://dean.library.unt.edu/Main_Page" id="other-sites-deans-website">Dean's Website</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="branding" class="header-main container hidden-xs" role="banner">
+      <h1 class="logo col-sm-8" id="site-name"> 
+        <a id="primary-library-logo" href="http://www.library.unt.edu" title="University Libraries: Home">University Libraries</a> 
+      </h1>
+      <div id="unt" class="info col-sm-4"> 
+        <a id="primary-unt-logo" class="pull-right" href="http://www.unt.edu" title="UNT | A Green Light to Greatness"> 
+          <img src="http://www.library.unt.edu/sites/all/themes/untl_bootstrap/logo.png" alt="UNT Logo" class="unt-lettermark img-responsive"> 
+        </a>
+      </div>
+    </div>
+  </div>
+  <nav id="main-nav" role="navigation" class="hidden-print">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="navbar-text navbar-brand-centered visible-xs-block"> <a id="site-name-mobile" class="btn btn-link" href="http://www.library.unt.edu/" title="Home">UNT Libraries</a> </div>
+        <div id="small-screen-search-toggle" class="btn-group visible-xs navbar-right"> <a class="dropdown-toggle btn btn-link" data-toggle="dropdown" href="#"> <i class="fa fa-search"></i> </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a id="mobile-search-dropdown-bento" href="http://www.library.unt.edu/search">Search All</a></li>
+            <li><a id="mobile-search-dropdown-summon" href="http://untexas.summon.serialssolutions.com/search/advanced">Online Articles</a></li>
+            <li><a id="mobile-search-dropdown-catalog" href="http://iii.library.unt.edu">Books &amp; More</a></li>
+            <li><a id="mobile-search-dropdown-databases" href="http://iii.library.unt.edu/search/y">Databases</a></li>
+            <li><a id="mobile-search-dropdown-ejournals" href="http://iii.library.unt.edu/search/y#ejournals">e-Journals</a></li>
+            <li><a id="mobile-search-dropdown-digital-collections" href="http://www.library.unt.edu/digital-collections">UNT Digital Collections</a></li>
+            <li><a id="mobile-search-dropdown-libguides" href="http://guides.library.unt.edu/">Subject Guides</a></li>
+            <li><a id="mobile-search-dropdown-this-site" href="http://www.library.unt.edu/search/google">This Website</a></li>
+          </ul>
+        </div>
+        <button id="main-nav-toggle" class="navbar-toggle btn btn-success btn-sm navbar-left" type="button" data-toggle="collapse" data-target="#unt-primary-site-menu">MENU</button>
+      </div>
+      <div style="clear:both;"></div>
+      <div class="navbar-collapse collapse" id="unt-primary-site-menu" role="navigation">
+                <div class="navbar-left">
+        <ul class="menu nav navbar-nav"><li class="first leaf"><a href="http://www.library.unt.edu">Home</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/research" title="">Research</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/services" title="">Services</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/about" title="">About</a></li>
+          <li class="leaf"><a href="http://www.library.unt.edu/help" title="">Help</a></li>
+          <li class="last leaf"><a href="http://www.library.unt.edu/news-events" title="">News &amp; Events</a></li>
+          </ul>    </div>
+                <div class="navbar-right">
+                    <ul class="menu nav navbar-nav secondary"><li class="first leaf"><a href="http://www.library.unt.edu/ask-us" title="">Ask Us</a></li>
+<li class="last leaf"><a href="http://www.library.unt.edu/accounts-login" title="">Accounts Login</a></li>
+</ul>                  </div>
+        
+        <!--//nav--> 
+      </div>
+      <!--//navabr-collapse--> 
+    </div>
+    <!--//container--> 
+  </nav>
+  <!--//main-nav-->
+
+<div class="topNavContainer">
+<div class="topNavigation">
+<h2 class="catalogSubHead"><a href="/">Library Catalog</a></h2>
+<ul id="topNavigationLinks" class="sf-menu">
+<li><a href="/"><span class="ss_sprite ss_zoom">&nbsp;</span> New Search</a>
+	<ul id="sectionSearch">
+    	<li><a href="/">Books &amp; Media</a></li>
+      <li><a href="/search/y">Databases &amp; e-Journals</a></li>
+      <li><a href="/search~S6/X">Media Catalog</a></li>
+      <li><a href="/search~S7/X">Music Catalog</a></li>
+      <li><a href="/search/r">Course Reserves</a></li>
+      <li class="last-child"><a href="/search/X">Advanced Search</a></li>
+  </ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="pageContent"><!-- content container -->
+<!--<span class="sysAnnounce"><p class="downtimeAnnouncement"><span class="highlight">Alert!</span> Network maintenance is scheduled to occur between 7:00PM and 11:00PM on January 5th and January 7th. <strong>Expect intermittent availability of all online library services during these two time periods.</strong></p></span>
+<style>
+	.navigationRow select, .bibSearchHistory {margin-top: -100px !important;}
+</style>-->
+<div style="display:none;">
+<div id="ecl-docs-msg">
+    <p>The Government Documents collections have recently moved from Willis Library to <a href="http://www.library.unt.edu/eagle-commons-library" target="_blank">the Eagle Commons Library</a>. We are currently in the process of updating the ECL floor maps. Please bear with us! Thank you.</p>
+</div>
+</div>
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="content" -->
+<div id="dbm-search-screen" class="pageContentInner mainSearch">
+<div id="mainSearchSection">
+<h1>Find Databases &amp; e-Journals</h1>
+<p class="help">Use this tool to find specific databases, e-journals, and other similar resources that may contain research (including full-text articles) relevant to your field.</p>
+
+<div id="navcontainer">
+<ul id="navlist">
+<li class="dbTab" id="active"><a href="#databases" id="current">Databases</a></li>
+<li class="ejTab"><a href="#ejournals">e-Journals</a></li>
+</ul>
+</div>
+
+<div id="accessibleForm">
+<div id="dbs">
+<div class="form1Part">
+<h2>Browse Databases by Title</h2>
+<div class="aToZ">
+<a href="/search/f?Database%20A">A</a> | <a href="/search/f?Database%20B">B</a> | <a href="/search/f?Database%20C">C</a> | <a href="/search/f?Database%20D">D</a> | <a href="/search/f?Database%20E">E</a> | <a href="/search/f?Database%20F">F</a> | <a href="/search/f?Database%20G">G</a> | <a href="/search/f?Database%20H">H</a> | <a href="/search/f?Database%20I">I</a> | <a href="/search/f?Database%20J">J</a> | <a href="/search/f?Database%20K">K</a> | <a href="/search/f?Database%20L">L</a> | <a href="/search/f?Database%20M">M</a> | <a href="/search/f?Database%20N">N</a> | <a href="/search/f?Database%20O">O</a> | <a href="/search/f?Database%20P">P</a> | <a href="/search/f?Database%20Q">Q</a> | <a href="/search/f?Database%20R">R</a> | <a href="/search/f?Database%20S">S</a> | <a href="/search/f?Database%20T">T</a> | <a href="/search/f?Database%20U">U</a> | <a href="/search/f?Database%20V">V</a> | <a href="/search/f?Database%20W">W</a> | <a href="/search/f?Database%20X">X</a> | <a href="/search/f?Database%20Y">Y</a> | <a href="/search/f?Database%20Z">Z</a>
+</div>
+</div>
+
+<div class="form1Part">
+<h2>Search Databases by Name</h2>
+<!-- FOR USE IN PHRASE SEARCH PAGES (e.g.: srchhelp_a.html) ONLY -->
+<!-- FOR ADVANCED SEARCH PAGES USE TOKEN: advancedsearchformbegin -->
+<form id='search' name='search' method='get'>
+<div class="formEntryArea">
+<label for="SEARCH" style="display:none;">Search:</label><input type="text" id="SEARCH" name="SEARCH" size="48" value="" />
+</div>
+<div class="formButtonArea">
+<a id="formSubmit" class="submitLinkButton" href="#">Submit</a>
+</div>
+</form>
+</div>
+
+<div class="form1Part">
+<h2>Browse Databases by Subject</h2>
+<form action="javascript:submitSubject('#subjectSearchSelect');" onSubmit="submitSubject('#subjectSearchSelect');" method="get" name="subjectSearch">
+<div class="formEntryArea">
+<select class="multiselect"  id="subjectSearchSelect" name="subjectSearchSelect" multiple="multiple">
+<option value="Accounting">Accounting</option>
+<option value="Agriculture and Veterinary Science">Agriculture and Veterinary Science</option>
+<option value="American Indian and International Indigenous Studies">American Indian and International Indigenous Studies</option>
+<option value="Anthropology">Anthropology</option>
+<option value="Archeology">Archeology</option>
+<option value="Architecture">Architecture</option>
+<option value="Art and Artists">Art and Artists</option>
+<option value="Art History">Art History</option>
+<option value="Art Iconography and Symbolism">Art Iconography and Symbolism</option>
+<option value="Astronomy">Astronomy</option>
+<option value="Autism">Autism</option>
+<option value="Behavior Analysis">Behavior Analysis</option>
+<option value="Biography">Biography</option>
+<option value="Biology">Biology</option>
+<option value="Business">Business</option>
+<option value="Chemical Engineering">Chemical Engineering</option>
+<option value="Chemistry">Chemistry</option>
+<option value="Communication Studies">Communication Studies</option>
+<option value="Company and Industry Research">Company and Industry Research</option>
+<option value="Computer Science and Engineering">Computer Science and Engineering</option>
+<option value="Construction Engineering Technology">Construction Engineering Technology</option>
+<option value="Creative Writing">Creative Writing</option>
+<option value="Criminal Justice">Criminal Justice</option>
+<option value="Current Events">Current Events</option>
+<option value="Dance">Dance</option>
+<option value="Data and Statistics">Data and Statistics</option>
+<option value="Dictionaries, Directories and Encyclopedias">Dictionaries, Directories and Encyclopedias</option>
+<option value="Economics">Economics</option>
+<option value="Education">Education</option>
+<option value="Educational Counseling">Educational Counseling</option>
+<option value="Electrical Engineering">Electrical Engineering</option>
+<option value="Emergency Administration and Planning">Emergency Administration and Planning</option>
+<option value="Engineering">Engineering</option>
+<option value="Engineering Technology">Engineering Technology</option>
+<option value="English Language and Literature">English Language and Literature</option>
+<option value="Environmental Sciences">Environmental Sciences</option>
+<option value="Ethnic studies">Ethnic studies</option>
+<option value="Fashion Design">Fashion Design</option>
+<option value="Finance">Finance</option>
+<option value="Forensic Science">Forensic Science</option>
+<option value="Genealogy">Genealogy</option>
+<option value="General and Interdisciplinary">General and Interdisciplinary</option>
+<option value="Geography (Human)">Geography (Human)</option>
+<option value="Geography (Physical)">Geography (Physical)</option>
+<option value="Geology">Geology</option>
+<option value="Gerontology">Gerontology</option>
+<option value="Government">Government</option>
+<option value="Grants">Grants</option>
+<option value="History">History</option>
+<option value="Hospitality and Tourism Management">Hospitality and Tourism Management</option>
+<option value="Human Resources Management">Human Resources Management</option>
+<option value="Humanities">Humanities</option>
+<option value="Information Technology and Decision Sciences">Information Technology and Decision Sciences</option>
+<option value="International Studies">International Studies</option>
+<option value="Interior Design">Interior Design</option>
+<option value="Jewish Studies">Jewish Studies</option>
+<option value="Journalism">Journalism</option>
+<option value="Kinesiology">Kinesiology</option>
+<option value="Latin American Studies">Latin American Studies</option>
+<option value="Latino Studies">Latino Studies</option>
+<option value="Law and Legislation">Law and Legislation</option>
+<option value="Learning Technologies">Learning Technologies</option>
+<option value="LGBT">LGBT</option>
+<option value="Library and Information Sciences">Library and Information Sciences</option>
+<option value="Linguistics">Linguistics</option>
+<option value="Marketing and Advertising">Marketing and Advertising</option>
+<option value="Materials Science and Engineering">Materials Science and Engineering</option>
+<option value="Mathematics and Statistical Methods">Mathematics and Statistical Methods</option>
+<option value="Mechanical and Energy Engineering">Mechanical and Energy Engineering</option>
+<option value="Medicine and Health">Medicine and Health</option>
+<option value="Merchandising and Digital Retailing">Merchandising and Digital Retailing</option>
+<option value="Military Studies">Military Studies</option>
+<option value="Music">Music</option>
+<option value="Newspapers">Newspapers</option>
+<option value="Philosophy">Philosophy</option>
+<option value="Photography">Photography</option>
+<option value="Physics">Physics</option>
+<option value="Political science">Political science</option>
+<option value="Psychology">Psychology</option>
+<option value="Public Administration">Public Administration</option>
+<option value="Radio, Television and Film">Radio, Television and Film</option>
+<option value="Recreation and Leisure Studies">Recreation and Leisure Studies</option>
+<option value="Reference">Reference</option>
+<option value="Rehabilitation Studies">Rehabilitation Studies</option>
+<option value="Religion">Religion</option>
+<option value="Sciences">Sciences</option>
+<option value="Social Sciences">Social Sciences</option>
+<option value="Social Work">Social Work</option>
+<option value="Sociology">Sociology</option>
+<option value="Speech-Language Pathology and Audiology">Speech-Language Pathology and Audiology</option>
+<option value="Studio Art">Studio Art</option>
+<option value="Technical Writing">Technical Writing</option>
+<option value="Theater">Theater</option>
+<option value="Transportation and Aviation Logistics">Transportation and Aviation Logistics</option>
+<option value="Women Studies Gender">Women Studies/Gender</option>
+<option value="World Languages Literatures and Cultures">World Languages, Literatures, &amp; Cultures</option>
+</select>
+</div>
+<div class="formButtonArea">
+<a id="formSubjectSubmit" class="submitLinkButton" href="#" onclick="submitSubject('#subjectSearchSelect');">Submit</a>
+</div>
+</form>
+</div>
+
+<div class="freqDatabases form1Part last-child">
+<span>Frequently Used Databases:</span> <a href="https://libproxy.library.unt.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=a9h">Academic Search Complete</a> | <a href="https://libproxy.library.unt.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost">EBSCOhost</a> | <a href="https://libproxy.library.unt.edu/login?url=http://www.jstor.org/">JSTOR</a> | <a href="https://libproxy.library.unt.edu/login?url=http://www.lexisnexis.com/hottopics/lnacademic">Lexis Nexis Academic</a> | <a href="https://libproxy.library.unt.edu/login?url=http://www.sciencedirect.com">ScienceDirect</a> | <a href="https://libproxy.library.unt.edu/login?url=http://apps.webofknowledge.com/WOS_GeneralSearch_input.do?last_prod=WOS&product=WOS&highlighted_tab=WOS&search_mode=GeneralSearch">Web of Knowledge</a> | <a class="testable" href="https://libproxy.library.unt.edu/login?url=http://infoweb.newsbank.com">Access World News (online newspapers)</a>
+</div>
+</div>
+
+<div id="ejs" style="display: none;">
+<div class="form1Part">
+<h2>Browse e-Journals by Title</h2>
+<div class="aToZ">
+<a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=0">0-9</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=A">A</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=B">B</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=C">C</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=D">D</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=E">E</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=F">F</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=G">G</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=H">H</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=I">I</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=J">J</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=K">K</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=L">L</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=M">M</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=N">N</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=O">O</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=P">P</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Q">Q</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=R">R</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=S">S</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=T">T</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=U">U</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=V">V</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=W">W</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=X">X</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Y">Y</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Z">Z</a> | <a href="http://dq4wu5nl3d.search.serialssolutions.com/?L=DQ4WU5NL3D&amp;V=1.0&amp;N=100&amp;S=T_AZ&amp;C=Other">Other</a>
+</div>
+</div>
+
+<div class="form1Part">
+<h2>Search e-Journals by Title or ISSN</h2>
+<form method="get" action="http://dq4wu5nl3d.search.serialssolutions.com/" name="SS_EJPSearchForm">
+<input value="1.0" name="V" type="hidden" />
+<input value="100" name="N" type="hidden" />
+<input type="hidden" name="L" value="DQ4WU5NL3D" />
+<div class="formEntryArea">
+<select id="select_searchTypes" name="S">
+<option value="AC_T_B" selected="selected">Title begins with</option>
+<option value="AC_T_M">Title equals</option>
+<option value="T_W_A">Title contains all words</option>
+<option value="I_M">ISSN equals</option>
+</select>
+<input id="SS_CFocusTag" name="C" />
+</div>
+<div class="formButtonArea">
+<a class="submitLinkButton" href="#ejournals" onclick="document.SS_EJPSearchForm.submit()">Submit</a>
+</div>
+</form>
+</div>
+
+<div class="form1Part last-child">
+<h2>Browse e-Journals by Subject</h2>
+<form action="http://dq4wu5nl3d.search.serialssolutions.com/" method="get" name="SS_subjectSearch">
+<input value="1.0" name="V" type="hidden" />
+<input value="DQ4WU5NL3D" name="L" type="hidden" />
+<input value="SC" name="S" type="hidden" />
+<div class="formEntryArea">
+<select class="multiselect" name="C" multiple="">
+  <option value="01">Art, Architecture &amp; Applied Arts</option>
+  <option value="BU">Business &amp; Economics</option>
+  <option value="11">Earth &amp; Environmental Sciences</option>
+  <option value="TE">Engineering &amp; Applied Sciences</option>
+  <option value="GI">General</option>
+  <option value="HE">Health &amp; Biological Sciences</option>
+  <option value="06">History &amp; Archaeology</option>
+  <option value="07">Journalism &amp; Communications</option>
+  <option value="08">Languages &amp; Literatures</option>
+  <option value="GO">Law, Politics &amp; Government</option>
+  <option value="10">Music, Dance, Drama &amp; Film</option>
+  <option value="RE">Philosophy &amp; Religion</option>
+  <option value="LS">Physical Sciences &amp; Mathematics</option>
+  <option value="SO">Social Sciences</option>
+</select>
+</div>
+<div class="formButtonArea">
+<a class="submitLinkButton" href="#ejournals" onclick="document.SS_subjectSearch.submit()">Submit</a>
+</div>
+</form>
+</div>
+</div>
+</div><!--#accessibleForm-->
+
+</div>
+<div class="mainMenuContent">
+<div class="mainMenuContentRight" id="mainSidebarLinks">
+    <h2>Looking for Full-Text Online?</h2>
+    	<div id="findArticles" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="http://www.library.unt.edu/node/2038">Find Online Articles</a></h3>
+        	<p>Search the full text of scholarly articles from 6,800+ publishers and 94,000+ journal and periodical titles!</p>
+            </div>
+    	</div>
+      <div id="eBooks" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="/#e-books">Find e-Books</a></h3>
+        	<p>Search the catalog to find e-books that you can access on-campus or off (with a valid EUID).</p>
+            </div>
+    	</div>
+    <h2>Help</h2>
+        <div id="onOffCampus" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="http://www.library.unt.edu/node/2043">On and Off Campus Access</a></h3>
+        	<p>Trouble accessing a database, e-journal, or e-book? Check here first!</p>
+            </div>
+    	</div> 
+
+        <div id="tipsTricks" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="http://www.library.unt.edu/node/2036">Tips and Tricks</a></h3>
+        	<p>Tips and tricks for accessing UNT Libraries' electronic databases.</p>
+            </div>
+    	</div>
+
+        <div id="reportProb" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="mailto:Lib.Support@unt.edu?subject=ER Problem Report">Report a Problem</a></h3>
+        	<p>Problems accessing databases and other online resources? Let us know!</p>
+            </div>
+    	</div>
+        <div id="moreHelp" class="linkGroup">
+        	<div class="type_sprite">&nbsp;</div>
+            <div class="linkElements">
+    		<h3><a href="http://www.library.unt.edu/node/2159">More Help</a></h3>
+        	<p>Check here for more help with databases, e-journals, and e-books.</p>
+            </div>
+    	</div>
+</div>
+</div>
+</div><!-- pageContentInner -->
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="bottom" -->
+
+<div class="clear"></div>
+</div><!-- pageContent  -->
+</div><!-- main-wrapper -->
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<footer id="main-footer">   <div id="footer-content">
+    <div class="container">
+      <div class="row" itemscope="" itemtype="http://schema.org/EducationalOrganization">
+        <div class="footer-col col-md-3 col-sm-4">
+          <div class="footer-col-inner">
+            <h3 class="hidden-print">Locations &amp; Hours</h3>
+            <div class="btn-group hidden-print">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Select Location <span class="caret"></span> </button>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.library.unt.edu/location-hours/willis-library">Willis Library</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.library.unt.edu/location-hours/discovery-park-library">Discovery Park</a></li>
+                <li><a href="http://www.library.unt.edu/location-hours/eagle-commons-librarys">Eagle Commons</a></li>
+                <li><a href="http://www.library.unt.edu/location-hours/media-library">Media</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.library.unt.edu/location-hours/library-annex">Library Annex</a></li>
+              </ul>
+            </div>
+            <hr class="hidden-print">
+            <h3>Mail</h3>
+            <div class="box box-dark box-border"> <span itemprop="name">University Libraries</span><br>
+              <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"> <span itemprop="streetAddress">1155 Union Circle #305190</span><br>
+              <span itemprop="addressLocality">Denton</span> , <span itemprop="addressRegion">TX</span> <span itemprop="postalCode">76203-5017</span> </span> 
+            </div>
+      <div itemprop="location">
+                  <div itemscope itemtype="http://schema.org/Place">
+                    <span itemprop="geo">
+                      <span itemscope itemtype="http://schema.org/GeoCoordinates">
+                        <span property="latitude" content="33.210360"></span>
+                        <span property="longitude" content="-97.149009"></span>
+                      </span>
+                    </span>
+                  </div>
+      </div>
+          </div>
+          <!--//footer-col-inner--> 
+        </div>
+        <!--//foooter-col-->
+        <div id="government-logos" class="footer-col col-md-5 col-md-offset-1 col-sm-8 hidden-print">
+          <div class="footer-col-inner">
+            <h3>Partnerships</h3>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 col-xs-4"> <a id="footer-fdl" href="http://www.library.unt.edu/node/2065"><img src="/screens/images/utility/fdl-library-blue.png" alt="Federal Depository Logo"></a> </div>
+            <p class="col-sm-8 col-xs-8 col-md-7 col-md-push-1 col-lg-8"> The University Libraries are a designated <a href="http://www.library.unt.edu/node/2065">Federal Depository Library</a>. </p>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 col-xs-4"> <a id="footer-finl" href="http://guides.library.unt.edu/c.php?g=69972&p=452555"><img src="/screens/images/utility/foundation-center.png" alt="Funding Information Network Logo"></a> </div>
+            <p class="col-sm-8 col-xs-8 col-md-7 col-md-push-1 col-lg-8"> The University Libraries are a <a href="http://guides.library.unt.edu/c.php?g=69972&p=452555">Funding Information Network partner</a> of the Foundation Center. </p>
+          </div>
+          <!--//footer-col-inner--> 
+        </div>
+        <!--//foooter-col-->
+        <div class="footer-col col-md-3 col-sm-12 hidden-print">
+          <div class="footer-col-inner">
+            <h3>Contact</h3>
+            <p><i class="fa fa-phone"></i> <a id="footer-phone" itemprop="telephone" href="tel:+19405652413">940.565.2413</a></p>
+            <p><i class="fa fa-envelope"></i> <a id="asks-us" href="http://www.library.unt.edu/ask-us" title="Ask Us"> Research Questions</a></p>
+            <p><i class="fa fa-group"></i> <a id="footer-staff-directory" href="http://www.library.unt.edu/staff-directory"  title="Find Someone">Staff Directory</a></p>
+            <p><i class="fa fa-laptop"></i> <a id="footer-ask-tech" href="http://www.library.unt.edu/ask-us?forward=LibSupport@library.unt.edu#email" title="Computer &amp; problem">Computer &amp; Technology Problems</a></p>
+            <p><i class="fa fa-exclamation-triangle"></i> <a id="ask-building" href="http://www.library.unt.edu/ask-us?forward=Lib.Facilities@unt.edu#email" title="Facilities Problems">Facilities Problems</a></p>
+          </div>
+          <!--//footer-col-inner--> 
+        </div>
+        <!--//foooter-col--> 
+      </div>
+    </div>
+  </div>
+  <div id="bottom-bar" class="hidden-print">
+    <div class="container">
+      <div class="row">
+        <ul role="menu" id="required-links" class=" list-inline list-unstyled col-md-9 col-sm-12 hidden-xs">
+          <li><a id="footer-discalaimer" href="http://www.unt.edu/disclaimer.htm">Disclaimer</a></li>
+          <li><a id="footer-aaeoeada" href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a></li>
+          <li><a id="footer-privacy" href="http://www.unt.edu/unt_ps.html">Privacy </a></li>
+          <li><a id="footer-eapolicy" href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a></li>
+          <li><a id="footer-texasonline" href="http://www.unt.edu/state-texas.htm">State of Texas Online</a></li>
+          <li><a id="footer-emergencyprep" href="http://emergency.unt.edu/">Emergency Preparedness</a></li>
+          <li><a id="footer-sci" href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a></li>
+          <li><a id="footer-compliance" href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a></li>
+          <li><a id="footer-unt" href="http://www.unt.edu">UNT Home</a></li>
+        </ul>
+        <ul role="menu" id="footer-social" class="social list-inline list-unstyled pull-right col-md-3 col-sm-12">
+          <li><a id="footer-twitter" title="Follow the UNT Libraries on Twitter" href="https://twitter.com/UNT_Libraries" ><i class="fa fa-twitter"></i></a></li>
+          <li><a id="footer-facebook" title="UNT Libraries Facebook Page" href="https://www.facebook.com/pages/UNT-Libraries/189997581023527?sk=wall" ><i class="fa fa-facebook"></i></a></li>
+          <li><a id="footer-youtube" title="UNT Libraries YouTube Channel" href="http://www.youtube.com/channel/UCcbS9fXWKE1SpUTpl1sNB6Q/" ><i class="fa fa-youtube"></i></a></li>
+          <li><a id="footer-newsletter" title="Subscribe to the UNT Libraries Email Newsletter" href="http://eepurl.com/Qrv_r" ><i class="fa fa-envelope"></i></a></li>
+          <li class="row-end"><a id="footer-rss" title="UNT Libraries News RSS feed" href="http://www.library.unt.edu/news/rss" ><i class="fa fa-rss"></i></a></li>
+        </ul>
+        <!--//social--> 
+      </div>
+    </div>
+    <!--//container--> 
+  </div>
+</footer>
+
+<!-- end botlogo.html file -->
+
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>
+<!--this is customized <screens/srchhelp_y.html>-->

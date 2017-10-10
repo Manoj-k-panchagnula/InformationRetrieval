@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Military Veteran Peer Network</title>
+
+		<link rel="stylesheet" type="text/css" href="/global_inc/site_templates/YM-FX-01/combined.css?_v=1.71.104.149&context=hp"/>
+		<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/container/assets/skins/sam/container.css">
+		<!--[if IE]><link rel="stylesheet" type="text/css" href="/global_inc/site_templates/YM-FX-01/ie.css"><![endif]-->
+
+		
+			<meta name="viewport" content="width=device-width" />
+
+			
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/dragdrop/dragdrop-min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/container/container-min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/json/json-min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>	
+		<script type="text/javascript" src="/combined.js?context=hp&_v=1.54"></script>
+		<script type='text/javascript'>
+			var _gaq = _gaq || [];_gaq.push(['YM._setAccount', 'UA-2449742-47'], ['YM._setDomainName', 'none'], ['YM._setAllowLinker', true], ['YM._trackPageview']);
+			(function() {
+		        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	            })();
+			</script>
+	
+		<script type="text/javascript">
+			var m_pulse = new Pulse('');
+			m_pulse.Start();
+		</script>
+	
+		
+			<script type="text/javascript">
+				YAHOO.util.Event.onDOMReady(getChats);
+				addEventHandler_OnUnload(function(){ if(m_ChatTID) clearTimeout(m_ChatTID) });
+			</script>
+		
+		<!-- SlickNav -->
+		<script type="text/javascript" src="/global_inc/js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				//Clone the current RadMenu
+				var $menu = $('ul.horizontal.rootGroup').clone();
+
+				//Clean up the html
+				$menu.removeAttr('class'); //.attr('id', 'mobileMenu');
+				cleanupHtmlForMobileMenu($($menu).find('li'));
+
+				//Create the mobile menu
+				$menu.slicknav({
+					prependTo: $('ul.horizontal.rootGroup').parent().parent(),
+					allowParentLinks: true
+				});
+			});
+		</script>
+		
+	</head>
+
+
+
+<body id="PageBody" onunload="try{if(m_blnDoBodyUnload) Body_OnUnload();}catch(e){}">
+
+	<div id="icontainer">
+		<div id="itoolbar-bg">
+			<div id="itoolbar-content"><!--YMPSTITLE=VABvAG8AbABiAGEAcgA=/YMPSTITLE--><a href="http://www.twitter.com" title="twitter" alt="twitter" target="_blank"><img src="/graphics/twitter.jpg"></a>
+<a href="http://www.facebook.com" title="facebook" alt="facebook" target="_blank"><img src="/graphics/fb.jpg"></a>
+<a href="http://www.instagram.com" title="instagram" alt="instagram" target="_blank"><img src="/graphics/instagram.jpg"></a>
+<a href="http://www.linkedin.com" title="linkedin" alt="linkedin" target="_blank"><img src="/graphics/linkedin.jpg"></a>
+<a href="/" title="rss" alt="rss" target="_blank"><img src="/graphics/rss.jpg"></a></div>
+			<div id="itoolbar">
+				<div id="itoolbar-inner"><a href='/general/?type=CONTACT'>Contact Us</a> &nbsp; | &nbsp; <a href='/login.aspx'>Sign In</a> &nbsp; | &nbsp; <a href='/general/register_start.asp'>Register</a></div>
+			</div>
+		</div>
+		<div id="mainmenu">
+			<div id="menu-left"><!-- header -->
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Fauna+One::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+  
+<div id="header">
+	<a href="/" target="_parent" id="logo" style="color:#000;"><img src="/graphics/logo.png" /></a><br />
+	<div id="subhead"> </div>
+</div>
+<style type="text/css">
+      #Head
+      {
+          background-image: url('/graphics/bg_top.gif');
+      }
+  </style></div>
+			<div id="menu-right"><div id="FrontendMainMenu" class="radmenu RadMenu_YMPublic ">
+	<!-- 4.3.2 --><script type="text/javascript" src="/global_inc/RadControls/Menu/Scripts/4_3_2/RadMenu.js"></script><span id="FrontendMainMenuStyleSheetHolder" style="display:none;"></span><script type="text/javascript">RadControlsNamespace.AppendStyleSheet(false, 'FrontendMainMenu', '/global_inc/RadControls/Menu/Scripts/4_3_2/menu.css');</script><script type="text/javascript">RadControlsNamespace.AppendStyleSheet(false, 'FrontendMainMenu', '/global_inc/RadControls/Menu/Skins/YMPublic/styles.css');</script><ul class="horizontal rootGroup">
+		<li class="item first"><a href="/" id="FrontendMainMenu_m0" class="link"><span class="text">HOME</span></a></li><li class="item"><a href="#" id="FrontendMainMenu_m1" class="link"><span class="text">CHAPTERS</span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first"><a href="#" id="FrontendMainMenu_m1_m0" class="link"><span class="text">Panhandle</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/Amarillo" id="FrontendMainMenu_m1_m0_m0" class="link"><span class="text">Amarillo</span></a></li><li class="item"><a href="/group/Lubbock" id="FrontendMainMenu_m1_m0_m1" class="link"><span class="text">Lubbock</span></a></li><li class="item last"><a href="/group/plainview" id="FrontendMainMenu_m1_m0_m2" class="link"><span class="text">Plainview</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m1_m1" class="link"><span class="text">North Texas</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/CFG" id="FrontendMainMenu_m1_m1_m0" class="link"><span class="text">Cooke-Fannin-Grayson</span></a></li><li class="item"><a href="/group/Dallas" id="FrontendMainMenu_m1_m1_m1" class="link"><span class="text">Dallas Area</span></a></li><li class="item"><a href="/group/Denton" id="FrontendMainMenu_m1_m1_m2" class="link"><span class="text">Denton County</span></a></li><li class="item"><a href="/group/FortWorth" id="FrontendMainMenu_m1_m1_m3" class="link"><span class="text">Fort Worth Area</span></a></li><li class="item"><a href="/group/PV" id="FrontendMainMenu_m1_m1_m4" class="link"><span class="text">Pecan Valley</span></a></li><li class="item last"><a href="/group/WichitaFalls" id="FrontendMainMenu_m1_m1_m5" class="link"><span class="text">Wichita Falls</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m1_m2" class="link"><span class="text">West Texas</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/Abilene" id="FrontendMainMenu_m1_m2_m0" class="link"><span class="text">Abilene Area</span></a></li><li class="item"><a href="/group/ConchValley" id="FrontendMainMenu_m1_m2_m1" class="link"><span class="text">Concho Valley</span></a></li><li class="item"><a href="/group/ElPaso" id="FrontendMainMenu_m1_m2_m2" class="link"><span class="text">El Paso</span></a></li><li class="item"><a href="/group/DMBB" id="FrontendMainMenu_m1_m2_m3" class="link"><span class="text">Davis Mtns/Big Bend</span></a></li><li class="item"><a href="/group/MidlandOdessa" id="FrontendMainMenu_m1_m2_m4" class="link"><span class="text">Midland and Odessa Area</span></a></li><li class="item last"><a href="/group/PB" id="FrontendMainMenu_m1_m2_m5" class="link"><span class="text">PermianBasin</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m1_m3" class="link"><span class="text">Hill Country</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/Kerrville" id="FrontendMainMenu_m1_m3_m0" class="link"><span class="text">Kerrville</span></a></li><li class="item last"><a href="/group/SanMarcos" id="FrontendMainMenu_m1_m3_m1" class="link"><span class="text">San Marcos</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m1_m4" class="link"><span class="text">Central Texas</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/BrazosValley" id="FrontendMainMenu_m1_m4_m0" class="link"><span class="text">BrazosValley</span></a></li><li class="item"><a href="/group/Bluebonnet" id="FrontendMainMenu_m1_m4_m1" class="link"><span class="text">Bluebonnet</span></a></li><li class="item"><a href="/group/Capital" id="FrontendMainMenu_m1_m4_m2" class="link"><span class="text">Capital Area</span></a></li><li class="item"><a href="/group/HOTB" id="FrontendMainMenu_m1_m4_m3" class="link"><span class="text">Heart of Texas/Brownwood Area</span></a></li><li class="item"><a href="/group/GFHA" id="FrontendMainMenu_m1_m4_m4" class="link"><span class="text">Greater Fort Hood Area</span></a></li><li class="item last"><a href="/group/waco" id="FrontendMainMenu_m1_m4_m5" class="link"><span class="text">Waco</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m1_m5" class="link"><span class="text">Pineywoods</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/AndersonCherokee" id="FrontendMainMenu_m1_m5_m0" class="link"><span class="text">East Texas</span></a></li><li class="item"><a href="/group/Lufkin" id="FrontendMainMenu_m1_m5_m1" class="link"><span class="text">Lufkin Area</span></a></li><li class="item"><a href="/group/NorthEastTexas" id="FrontendMainMenu_m1_m5_m2" class="link"><span class="text">North East Texas</span></a></li><li class="item last"><a href="/group/Tyler" id="FrontendMainMenu_m1_m5_m3" class="link"><span class="text">Tyler Area</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m1_m6" class="link"><span class="text">Gulf Coast</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/Beaumont" id="FrontendMainMenu_m1_m6_m0" class="link"><span class="text">Beaumont</span></a></li><li class="item"><a href="/group/conroe" id="FrontendMainMenu_m1_m6_m1" class="link"><span class="text">Conroe Area</span></a></li><li class="item"><a href="/group/Corpus" id="FrontendMainMenu_m1_m6_m2" class="link"><span class="text">Corpus Christi</span></a></li><li class="item"><a href="/group/Galveston" id="FrontendMainMenu_m1_m6_m3" class="link"><span class="text">Galveston</span></a></li><li class="item"><a href="/group/houston" id="FrontendMainMenu_m1_m6_m4" class="link"><span class="text">Houston</span></a></li><li class="item last"><a href="/group/Victoria" id="FrontendMainMenu_m1_m6_m5" class="link"><span class="text">Victoria</span></a></li>
+					</ul>
+				</div></li><li class="item last"><a href="#" id="FrontendMainMenu_m1_m7" class="link"><span class="text">South Texas</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/CBA" id="FrontendMainMenu_m1_m7_m0" class="link"><span class="text">Coastal Bend Area</span></a></li><li class="item"><a href="/group/Laredo" id="FrontendMainMenu_m1_m7_m1" class="link"><span class="text">Laredo</span></a></li><li class="item"><a href="/group/RGV" id="FrontendMainMenu_m1_m7_m2" class="link"><span class="text">Rio Grande Valley Area</span></a></li><li class="item"><a href="/group/SanAntonio" id="FrontendMainMenu_m1_m7_m3" class="link"><span class="text">San Antonio</span></a></li><li class="item last"><a href="/group/SCT" id="FrontendMainMenu_m1_m7_m4" class="link"><span class="text">South Central Texas</span></a></li>
+					</ul>
+				</div></li>
+			</ul>
+		</div></li><li class="item"><a href="#" id="FrontendMainMenu_m2" class="link"><span class="text">CONNECT</span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first"><a href="/page/MVPN_PSC" id="FrontendMainMenu_m2_m0" class="link"><span class="text">MVPN Peer Services Coordinator</span></a></li><li class="item"><a href="#" id="FrontendMainMenu_m2_m1" class="link"><span class="text">Local Coalitions</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/AmVSPCo" id="FrontendMainMenu_m2_m1_m0" class="link"><span class="text">Amarillo VSP Coalition</span></a></li><li class="item"><a href="/group/DCVC" id="FrontendMainMenu_m2_m1_m1" class="link"><span class="text">Denton County Veterans Coalition</span></a></li><li class="item"><a href="/group/RGVVC" id="FrontendMainMenu_m2_m1_m2" class="link"><span class="text">RGV Veterans Coalition</span></a></li><li class="item last"><a href="group/WFAVCAP" id="FrontendMainMenu_m2_m1_m3" class="link"><span class="text">Wichita Falls Area VCAP</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m2_m2" class="link"><span class="text">MVPN Communities</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/Combat" id="FrontendMainMenu_m2_m2_m0" class="link"><span class="text">Combat Vets</span></a></li><li class="item"><a href="/group/TexCo" id="FrontendMainMenu_m2_m2_m1" class="link"><span class="text">Texas Coordinators</span></a></li><li class="item last"><a href="/group/WomenVets" id="FrontendMainMenu_m2_m2_m2" class="link"><span class="text">Women Veterans</span></a></li>
+					</ul>
+				</div></li><li class="item"><a href="#" id="FrontendMainMenu_m2_m3" class="link"><span class="text">Vet Service Orgs</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="#" id="FrontendMainMenu_m2_m3_m0" class="link"><span class="text">Resource Centers</span></a><div class="slide">
+							<ul class="vertical group level3">
+								<li class="item first"><a href="/group/HNO" id="FrontendMainMenu_m2_m3_m0_m0" class="link"><span class="text">Cedar Park Peer Network Center</span></a></li><li class="item"><a href="/group/KVC" id="FrontendMainMenu_m2_m3_m0_m1" class="link"><span class="text">Kerrville Peer Network Center</span></a></li><li class="item"><a href="/group/LongviewOneStop" id="FrontendMainMenu_m2_m3_m0_m2" class="link"><span class="text">Longview Peer Network Center </span></a></li><li class="item"><a href="/group/VeteransComfortZone" id="FrontendMainMenu_m2_m3_m0_m3" class="link"><span class="text">Seguin Peer Network Center</span></a></li><li class="item"><a href="/group/SanAntonioOneStop" id="FrontendMainMenu_m2_m3_m0_m4" class="link"><span class="text">San Antonio Peer Network Center</span></a></li><li class="item last"><a href="/group/WacoVeteranOneStop" id="FrontendMainMenu_m2_m3_m0_m5" class="link"><span class="text">Waco Peer Network Center</span></a></li>
+							</ul>
+						</div></li><li class="item last"><a href="#" id="FrontendMainMenu_m2_m3_m1" class="link"><span class="text">VFW Posts</span></a><div class="slide">
+							<ul class="vertical group level3">
+								<li class="item first last"><a href="/group/VFW1480" id="FrontendMainMenu_m2_m3_m1_m0" class="link"><span class="text">VFW Post 1480 - Kerrville</span></a></li>
+							</ul>
+						</div></li>
+					</ul>
+				</div></li><li class="item last"><a href="#" id="FrontendMainMenu_m2_m4" class="link"><span class="text">MVPN Committees</span></a><div class="slide">
+					<ul class="vertical group level2">
+						<li class="item first"><a href="/group/TrainCom" id="FrontendMainMenu_m2_m4_m0" class="link"><span class="text">Peer Training</span></a></li><li class="item"><a href="/group/RuralCoord" id="FrontendMainMenu_m2_m4_m1" class="link"><span class="text">Rural Area Coordinators</span></a></li><li class="item last"><a href="/group/StratPlanCom" id="FrontendMainMenu_m2_m4_m2" class="link"><span class="text">Strategic Planning</span></a></li>
+					</ul>
+				</div></li>
+			</ul>
+		</div></li><li class="item"><a href="#" id="FrontendMainMenu_m3" class="link"><span class="text">MY PROFILE</span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first"><a href="/members" id="FrontendMainMenu_m3_m0" class="link"><span class="text">Profile Home</span></a></li><li class="item"><a href="/members/manage_profile.asp" id="FrontendMainMenu_m3_m1" class="link"><span class="text">Manage Profile</span></a></li><li class="item"><a href="/members/connections.asp" id="FrontendMainMenu_m3_m2" class="link"><span class="text">My Connections</span></a></li><li class="item"><a href="/members/my_groups.asp" id="FrontendMainMenu_m3_m3" class="link"><span class="text">My Groups</span></a></li><li class="item"><a href="/messaging" id="FrontendMainMenu_m3_m4" class="link"><span class="text">My Messages</span></a></li><li class="item"><a href="/members/my_networks.aspx" id="FrontendMainMenu_m3_m5" class="link"><span class="text">My Networks</span></a></li><li class="item last"><a href="/members/send.asp" id="FrontendMainMenu_m3_m6" class="link"><span class="text">Refer a Friend</span></a></li>
+			</ul>
+		</div></li><li class="item last"><a href="#" target="_blank" id="FrontendMainMenu_m4" class="link"><span class="text">RESOURCES</span></a><div class="slide">
+			<ul class="vertical group level1">
+				<li class="item first last"><a href="http://texvet.org/" target="_blank" id="FrontendMainMenu_m4_m0" class="link"><span class="text">Go to TexVet.org</span></a></li>
+			</ul>
+		</div></li>
+	</ul><input type="hidden" id="FrontendMainMenu_Hidden" name="FrontendMainMenu" /><script type="text/javascript">window["FrontendMainMenu"] = RadMenu.Create("FrontendMainMenu");window["FrontendMainMenu"].Initialize({"EnableAutoScroll":true,"Skin":"YMPublic","Enabled":true},{"FrontendMainMenu_m1":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m0":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m1":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m2":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m3":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m4":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m5":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m6":{"NavigateAfterClick":false},"FrontendMainMenu_m1_m7":{"NavigateAfterClick":false},"FrontendMainMenu_m2":{"NavigateAfterClick":false},"FrontendMainMenu_m2_m1":{"NavigateAfterClick":false},"FrontendMainMenu_m2_m2":{"NavigateAfterClick":false},"FrontendMainMenu_m2_m3":{"NavigateAfterClick":false},"FrontendMainMenu_m2_m3_m0":{"NavigateAfterClick":false},"FrontendMainMenu_m2_m3_m1":{"NavigateAfterClick":false},"FrontendMainMenu_m2_m4":{"NavigateAfterClick":false},"FrontendMainMenu_m3":{"NavigateAfterClick":false},"FrontendMainMenu_m4":{"NavigateAfterClick":false}});</script>
+</div></div>
+		</div>
+		<div id="islideshow"><div id="full-slider-wrapper" style='height:360px; width:1125px;'>
+<div id="full-slider">
+<div class="slide-panel active" id='slide1' duration='4' >
+<a href='https://milvetpeer.site-ym.com/general/register_member_type.asp?'> <img src='/resource/resmgr/homepage/Military_Veteran_Peer_Network_Home_Slide_1.jpg' border=0 /></a></div>
+</div>
+</div>
+</div>
+		<div id="hp-main">
+			
+			<div id="content-top"><!--YMPSTITLE=TgBBAA==/YMPSTITLE--><div class="boxes" id="box-left" style="padding: 1%; border: 2px solid rgb(146, 135, 127); box-shadow: inset 0px 0px 24px 2px #eae3cf;">The Military Veteran Peer Networks' mission is to establish camaraderie and trust with each other, identifying and vetting community resources and, collectively, contributing to the communities where&nbsp;we live.</div>
+<div class="boxes" id="box-right" style="padding: 1%; border: 2px solid rgb(146, 135, 127); box-shadow: inset 0px 0px 24px 2px #eae3cf;"><strong>For assistance in finding services and benefits, <a href="http://www.milvetpeer.net/?page=contactform" target="_blank" id="link_1439484205384">click </a><a href="http://www.milvetpeer.net/?page=contactform" target="_blank" id="link_1439484205384">here</a>.</strong></div></div>
+			<div id="snapshots">
+				<div id="hp-left">
+					
+					<div id="isearch">
+						<div id="QuickSearchHead">Community Search</div>
+						<form id="QuickSearchForm" name="QuickSearchForm" action="/search/all.asp">
+		<div id="QuickSearchFormInner1" class="ui-widget">
+			<input id="QuickSearchForm_bst" name="bst" maxlength='50' value='Enter search criteria...'@"onfocus='QuickSearchForm_OnFocus();'/>
+		</div>
+		<div id='QuickSearchFormInner2'><a href='#' id='QuickSearchSubmit' onclick='return QuickSearchForm_DoSubmit();'>Search&nbsp;&raquo;</a></div>
+</form><script type="text/javascript">
+function QuickSearchForm_DoSubmit()
+{
+		var QuickSearchForm = document.QuickSearchForm;
+     if(QuickSearchForm)
+     {
+			ClearDefaultValue(QuickSearchForm.bst);
+         QuickSearchForm.submit();
+     }
+		return false;
+}
+$(document).ready(function ()
+{
+		$("#QuickSearchForm_bst").click(function()
+		{
+			if ($("#QuickSearchForm_bst").val() == "Enter search criteria...")
+				$("#QuickSearchForm_bst").val('');
+			});
+			$("#QuickSearchForm_bst").blur(function ()
+			{
+				if ($("#QuickSearchForm_bst").val() == '')
+					$("#QuickSearchForm_bst").val('Enter search criteria...');
+				});
+				$("#QuickSearchForm_bst").autocomplete({
+					minLength: 3,
+					delay: 1000,
+					source: function (request, response)
+					{
+						$.ajax({
+						url: url = '/general/CategorySearchReciever.aspx?SearchTerm=' + $("#QuickSearchForm_bst").val() + "&cb=" + getCurrentTime(),
+						dataType: "json",
+						data: {
+						featureClass: "P",
+						style: "full",
+						maxRows: 20,
+						name_startsWith: request.term
+					},
+					success: function (data)
+					{
+						response($.map(data.CatalogSearchSuggestions, function (item)
+						{
+							return item;
+						}));
+					}
+				});
+			},
+			focus: function (event, ui)
+			{
+				return false;
+			},
+			select: function (event, ui)
+			{				document.location.href = ui.item.url;
+				return false;
+			},
+			open: function ()
+			{
+				$(this).removeClass("ui-corner-all").addClass("ui-corner-top");
+			},
+			close: function ()
+			{
+				$(this).removeClass("ui-corner-top").addClass("ui-corner-all");
+			}
+         }).data("autocomplete")._renderItem = function (ul, item)
+         {
+				var linkText = "";
+             var index = parseInt(item.index);
+				if (item.category != "")
+				{
+					linkText = item.category + ": ";
+				}
+				linkText += item.desc;
+             if (index > 0)
+             {
+					return $("<li>").data("item.autocomplete", item).append("<a href=" + item.url + ">" + linkText + "</a>").appendTo(ul);
+             }
+				else
+             {
+                 return $("<li class=\"FirstAutoCompleteItem\">").data("item.autocomplete", item).append(linkText).appendTo(ul)
+             }
+         }
+	});
+</script>
+					</div>
+					
+					<div id="hp-left-content"><!--YMPSTITLE=TgBBAA==/YMPSTITLE--><img alt="" title="" src="/resource/resmgr/images/suicideprevention.gif"><br></div>
+					
+				</div>
+				<div id="hp-right">
+					
+					<div class="zone" id="news">
+						<div class="irailhead">
+							<a href="/news/">more</a>
+							Latest News
+						</div>
+						<div class="irailcontent"><p id='NewsPnl_285792'><span class="LatestNewsItemDate">  4/22/2016</span><a href="/news/285792/Fox-7-Austin-highlights-the-Veteran-Reentry-Program.htm">Fox 7 Austin highlights the Veteran Reentry Program</a></p><p id='NewsPnl_254835'><span class="LatestNewsItemDate">  10/9/2015</span><a href="/news/254835/MVPN-Faith-based-Services-and-Veterans-Courts-highlighted-by-CBS-News.htm">MVPN Faith-based Services and Veterans' Courts highlighted by CBS News</a></p><p id='NewsPnl_243329'><span class="LatestNewsItemDate">  7/27/2015</span><a href="/news/243329/Read-about-MVPNs-collaborative-efforts-with-the-Texas-Department-of-Criminal-Justice-.htm">Read about MVPN's collaborative efforts with the Texas Department of Criminal Justice </a></p><p id='NewsPnl_228764'><span class="LatestNewsItemDate">  4/28/2015</span><a href="/news/228764/MVPN-receives-Governors-award-for-serving-incarcerated-Veterans.htm">MVPN receives Governor's award for serving incarcerated Veterans</a></p></div>
+					</div>
+					
+					<div class="zone" id="calendar">
+						<div class="irailhead">
+							<a href="/events/event_list.asp">more</a>
+							Calendar
+						</div>
+						<div class="irailcontent"><p>The upcoming calendar is currently empty.</p><p><a href='/events/event_list.asp?cid=&show=past'>Click here to view past events and photos &raquo;</a></p></div>
+					</div>
+					
+					<div class="zone" id="login">
+						<div class="irailhead">Sign In</div>
+						<div class="irailcontent"><script language="javascript" type="text/javascript" src="/global_inc/js/jquery.data.js"></script><script language="javascript" type="text/javascript" src="/global_inc/js/jquery.watermark.min.js"></script><script type="text/javascript">
+                             $(document).ready(function () {
+                             $('.loginuser').watermark('Username');
+                             $('.loginpass').watermark('Password');});</script><form id='LoginForm' action='https://milvetpeer.site-ym.com/Login.aspx?returl=' method='post'><INPUT TYPE='hidden' NAME='ERR_u' VALUE='u|Username|20|1||0'><INPUT TYPE='hidden' NAME='ERR_p' VALUE='p|Password|20|1||0'><p><div id="LoginUserName"><input class="small loginuser" type="text" name="u" size="20" maxlength="255" value=""/></div><div id="LoginPassword"> <br/>
+                        <input class="small loginpass" type="password" name="p" size="20" maxlength="64" autocomplete="off"></div></p>
+                        <p id="RememberMe"><input id="FrontendControls_RememberMe"
+                            type="checkbox" name="rememberme" value="true" checked><label
+                            for="FrontendControls_RememberMe">Remember Me</label></p>
+                        <p id="LoginSubmit"><input type="submit" name="btn_submitLogin" value="Sign In" class="formbutton">
+							<img class="securesubmit" src="/global_graphics/icons/securesubmit.png" title="Secured with SSL encryption." /></p></form><p id="LoginForgot"><a href='/general/email_pass.asp'>Forgot your password?</a></p><p id="LoginRegister"><a href='/general/register_start.asp'>Haven't registered yet?</a></p></div>
+					</div>
+					
+				</div>
+			</div>
+			<div id="content-bottom"><!--YMPSTITLE=TgBBAA==/YMPSTITLE--></div>
+			
+		</div>
+	</div>
+	<div id="FooterContentArea">
+		<!--YMPSTITLE=TgBBAA==/YMPSTITLE--><div class="col" id="address"><br></div>
+<div class="col2" id="foot-links">
+
+
+
+
+</div> 
+	</div>
+	<div id="icopyright">
+		<div id="icopyright-inner">Membership Management Software Powered by <a href='http://www.yourmembership.com/'>YourMembership.com<span style='font-size:11px'>&reg;</span></a> &nbsp;::&nbsp; <a href='/ams/legal-privacy.htm'>Legal</a><!-- Copyright (c) 1998-2016 YourMembership.com Inc. All Rights Reserved. Copyright: Certain elements of this website are: Copyright (c) 1998-2016, YourMembership.com, Incorporated. YourMembership.com, Incorporated provides a limited license to use its Copyrights to the entity from whose web page you are viewing. Certain elements of this website may also be copyrighted by that entity; please see its Terms of Use or contact the organization for more information. General information about copyright laws can be found at: http://www.copyright.gov/. For more specific information, please consult an attorney. --></div>
+	</div>
+	<div id="PageBase_RaiseAlert" class="yui-skin-sam"></div>
+
+	<!-- 
+	!!! DO NOT REMOVE !!!
+	QA-www.milvetpeer.net
+	!!! DO NOT REMOVE !!!
+	-->
+	
+
+</body>
+
+
+</html>
+
+</html>
+<!--END_OF_FILE-->

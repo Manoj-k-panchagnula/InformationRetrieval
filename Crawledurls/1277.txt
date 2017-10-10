@@ -1,0 +1,287 @@
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+      <title>Marketing &amp; Logistics Department « College of Business « UNT</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="Author" content="CoB Web Development Team" />
+      <meta name="Description" content="UNT College of Business " />
+      <meta name="Keywords" content="unt,cob,coba,college,business,adminstration" />
+      <meta http-equiv="expires" CONTENT="0">
+      
+      <meta property="og:url" content="http://www.cob.unt.edu/mktg/" /> 
+      <meta property="og:title" content="Marketing &amp; Logistics Department « College of Business « UNT" />
+      <img src="http://www.cob.unt.edu/img/cob_logo.jpg" style="display:none;" /> 
+      <meta property="og:description" content="UNT College of Business" /> 
+    
+      <link rel="shortcut icon" type="image/x-icon" href="http://www.cob.unt.edu/favicon.ico" />
+      <link rel="stylesheet" type="text/css" href="/common/cobastyle_new.css" media="screen,projection,print" />
+      <link rel="stylesheet" type="text/css" href="/common/misbehaving.css" media="screen" />
+      <link rel="alternate stylesheet" type="text/css" href="/common/fluid.css" title="fluid" media="screen,projection" />
+      <link rel="alternate stylesheet" type="text/css" href="/common/ems.css" title="ems" media="screen,projection" />
+        <link rel="stylesheet" type="text/css" href="_dept.css" media="screen,projection,print" />
+
+    </head>
+    <body class="ms">
+    <div id="head">
+      <div id="global">
+        <div id="search">
+          <form id="searchBox" action="http://www.google.com/search" method="get">
+            <input type="text" name="q" id="searchbox" value="" size="30"/>
+            <input type="submit" id="sbutton" value="Search" />
+            <input type="hidden" name="sitesearch" id="sitesearch" value="cob.unt.edu" />
+          </form>
+        </div>
+        <ul id="globalLinks">
+          <li><a href="http://www.cob.unt.edu">College of Business</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://my.unt.edu">MyUNT</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://eagleconnect.unt.edu/">Eagle Connect</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://learn.unt.edu">Blackboard Learn</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://www.library.unt.edu/"> UNT Library</a>&nbsp;&nbsp;&nbsp;</li>
+          <li><a href="http://www.unt.edu/pais/map/"> UNT Maps</a></li>
+        </ul>
+      </div>
+  
+          <div id="banner">
+            <a id="unt" href="http://www.unt.edu"><span class="hide">UNT</span></a>
+            <a id="title_link" href="http://www.cob.unt.edu"><span class="hide">College of Business</span></a>
+          </div>
+    </div>    <div id="navbar" class="cf"></div>
+    <div id="wrap">
+      <div id="masthead">
+        <h2 class="hide">Departments</h2>
+        <ul class="departments" id="">
+  
+        <li><a href="/">Home</a></li>
+        <li style="z-index:1000"><a href="/college"> College</a>
+          <ul>
+            <li class="subtop"><a href="/about/mission/">About the College</a></li>
+            <li class="sub"><a href="/businessleadershipbuilding/">Business Leadership Building</a></li>
+            <li class="sub"><a href="/dean/">Office of the Dean</a></li>
+            <li class="sub"><a href="/directory/Faculty">CoB People Directory</a> </li>
+            <li class="sub"><a href="/dls">Distinguished Speaker Series</a></li>
+            <li class="sub"><a href="/centers/">Centers</a></li>
+            <li class="sub"><a href="/news_room">News Room</a></li>
+            <li class="sub"><a href="/ciltc/" title="Information and Learning Technologies Center">Technology @ CoB</a></li>
+            <li class="sub"><a href="/fsc">Faculty Support Center</a></li>
+            <li class="sub"><a href="/invest">Give to the College</a></li>
+            <li class="subbottom" ><a href="https://www.cob.unt.edu/db/portal">Faculty/Staff Login</a></li>
+          </ul>
+        </li>
+        <li><a href="/future-students">Future Students</a>
+          <ul>
+            <li class="subtop"><a href="/future-students/index.php">Why UNT College of Business?</a></li>
+            <li class="sub"><a href="/future-students/hands-on-experience.php">Hands on Experience</a></li>
+            <li class="sub"><a href="/future-students/the-unt-advantage.php">The UNT Advantage</a></li>
+            <li class="sub"><a href="/future-students/explore-degrees.php">Explore Degrees</a></li>
+            <li class="sub"><a href="/future-students/paying-for-college.php">Paying for College</a></li>
+            <li class="sub"><a href="/future-students/admissions.php">Admissions</a></li>
+            <li class="sub"><a href="/future-students/schedule-a-tour.php">Schedule a Tour</a></li>
+            <li class="subbottom"><a href="/future-students/request-more-information.php">Request More Information</a></li>
+          </ul>
+        </li>
+        <li><a href="/current_students">Current Students</a>
+          <ul>
+            <li class="subtop"><a href="/advising_services/">Advising Services</a></li>
+            <li class="sub"><a href="/lab">Computer Labs</a></li>
+            <li class="sub"><a href="/lab/tutor.php">Tutor Hours</a></li>
+            <li class="sub"><a href="/current_students/software/">Available Software</a></li>
+            <li class="sub"><a href="/careercenter">Career Center</a></li>
+            <li class="sub"><a href="/scholarships">Scholarships</a></li>
+            <li class="sub"><a href="/students/study-abroad">Study Abroad</a></li>
+            <li class="sub"><a href="/students/orgs">Student Orgs</a></li>
+            <li class="sub"><a href="/students/employment/">Student Employment</a></li>
+            <li class="sub"><a href="/students/studentambassadors.php">College of Business Student Ambassadors</a></li>
+            <li class="sub"><a href="/plp">Professional Leadership Program</a></li>
+            <li class="subbottom" ><a href="/case_competition">Fidelity Investments Integrated Business Case Competition</a></li>
+          </ul>
+        </li>
+        <li><a href="/academic_programs_and_departments">Academics</a>
+          <ul>
+            <li class="subtop"><div id="divider">Academic Programs</div></li>
+            <li class="sub"><a href="/programs/undergrad">Undergraduate Degree Programs</a></li>
+            <li class="sub"><a href="/programs/masters/">Master's Degree Programs</a></li>
+            <li class="sub"><a href="/programs/phd/">Ph.D. Degree Program</a></li>
+            <li class="sub"> <div id="divider">Academic Departments</div></li>
+            <li class="sub"><a href="/acct/">Accounting</a></li>
+            <li class="sub"><a href="/firel/" title="Finance, Real Estate, and Law">Finance, Insurance, Real Estate &amp; Law (FIREL)</a></li>
+            <li class="sub"><a href="/itds/" title="Information Technology &amp; Decision Sciences">Information Technology &amp; Decision Sciences (ITDS)</a></li>
+            <li class="sub"><a href="/mgmt/">Management</a></li>
+            <li class="subbottom" ><a href="/mktg/">Marketing &amp; Logistics</a></li>
+          </ul>
+        </li>
+        <li><a href="/people/">CoB People</a>
+          <ul>
+            <li class="subtop"><a href="/alumni/">CoB Alumni Associations</a></li>
+            <li class="sub"><a href="/directory/Admin">Administration Directory</a></li>
+            <li class="sub"><a href="/directory/Faculty">Faculty Directory</a></li>
+            <li class="sub"><a href="/directory/Staff">Staff Directory</a></li>
+            <li class="sub"><a href="/directory/PhD">PhD Directory</a></li>
+            <li class="subbottom"><a href="https://www.cob.unt.edu/db/portal">Faculty/Staff Login</a></li>
+          </ul>
+        </li> 
+        <li ><a href="/community">Community</a>
+          <ul>
+            <li class="subtop"><a href="/alumni">CoB Alumni</a></li>
+            <li class="sub"><a href="http://www.untalumni.com/">UNT Alumni  Association</a></li>
+            <li class="sub"><a href="/invest">Give to the  College</a></li>
+            <li class="sub"><a href="/centers">Centers</a></li>
+            <li class="subbottom"><a href="/rsvp">RSVP for College of Business Events</a></li>
+          </ul>
+        </li>
+        <li class="invest" style="">         <a href="/invest" ><strong>INVEST</strong></a>
+          <ul>
+            <li class="subtop"><a href="/invest/">How to Invest</a></li>
+            <li class="subbottom"><a href="/invest/campaigns">Capital Campaign Initiatives</a></li>
+          </ul>
+        </li>
+      </ul></div>  <div id="splash_picture_mktg"></div>
+  <div id="sidebar">
+  
+
+    
+  
+  
+  <h2>In This Site</h2>
+  <ul class="nav">
+      <li><a href="index.php">MKTG Homepage</a></li>
+           <li><a href="vision.php">Our Vision</a></li>
+      <li><a href="whatis_mktg.php">What is Marketing?</a></li>
+      <li><a href="whatis_lgcts.php">What is Logistics?</a></li>
+    <li><a href="whatis_aviation_logistics.php">What is Aviation Logistics?</a></li>
+           <li><a href="contact.php">Contact Us</a></li>
+    <li><a href="http://www.logistics.unt.edu/">Center for Logistics Education and Research</a></li>
+  </ul>
+  <h2>Academics</h2>
+  <ul class="nav">
+      <li><a href="../programs/undergrad/bba_mktg.php">BBA in Marketing</a></li>
+      <li><a href="../programs/undergrad/bba_mktg_prof_selling.php">BBA in Marketing with concentration in professional selling</a></li>
+      <li><a href="../programs/undergrad/bs_requirements.php">BS in Logistics</a></li>
+    <li><a href="../programs/undergrad/bs_requirements.php">BS in Aviation Logistics</a></li>
+    
+      <li><a href="../programs/masters/tracksheets/mba mktg.pdf">MBA in Marketing</a></li>
+      <li><a href="../programs/masters/tracksheets/mba lscm.pdf">MBA Logistics &amp; Supply Chain Management</a></li>
+      
+    <li><a href="phd_mktg.php">Ph.D. in Marketing</a></li>
+     <li><a href="phdlog.php">Ph.D. in Logistics</a></li>
+      <li><a href="npd/index.php">New Product Development Scholars Program</a></li>
+      <li><a href="certificates.php">Certificate Programs</a></li>
+      <li><a href="http://www.untecampus.com/default.php?keyword=&p=searchresult&COURSE_NUMBER=&COURSE_NAME=&SECTION_SEMESTER=&SECTION_YEAR=&dept=3&colg=&instructor=&CORE=&delivery=&campusvisits=&campusloc=&AWARD=&NGEN=&submit=Search">Online Courses<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+      <li><a href="courses.php">Course Descriptions</a></li>
+      <li><a href="/programs/courses/index.php?q2=mktg">Marketing &amp; Logistics Classes<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+  </ul>
+  <h2>For Students</h2>
+  <ul class="nav">
+      <li><a href="/scholarships/">Scholarships<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+      <li><a href="/students/employment/employment_mktg.php">Internships<img src="/common/img/link_out.gif" title="Links to another &quot;site&quot; within CoB&apos;s website" alt="" /></a></li>
+      <li><a href="http://www.untworldclass.com">Study Abroad Program<img src="/common/img/link_out_red.gif" title="Links to a site outside of CoB&apos;s website" alt="" /></a></li>
+      <li><a href="advising.php">Advising for Marketing, Logistics and Aviation Logistics</a></li>
+  </ul>
+  <h2>Our Team</h2>
+  <ul class="nav">
+      <li><a href="/directory/Faculty/MKTG">Faculty</a></li>
+    <li><a href="/directory/Staff/MKTG">Staff</a></li>
+    <li><a href="/directory/PhD/MKTG">Ph.D. Students</a></li>
+  </ul>
+  </div>
+<div id="title"><h1>Department of Marketing &amp; Logistics</h1></div>
+<div id="main">
+  <p>The Department of Marketing &amp; Logistics at the University of North Texas is dedicated to providing its students with well-rounded, state-of-the-art education in the modern principles of marketing, logistics and allied disciplines.</p>
+  <p>We prepare our students for rewarding careers in marketing and logistics, as practitioners and academics, with the help of an innovative curriculum and dynamic programs.</p>
+  <p>Our faculty is characterized by excellence in teaching, outstanding basic and applied research, and leadership in professional organizations.</p>
+  <p> Faculty members include Honor Professors, recipients of the President's Council University Teaching Award and the J.H. Shelton Excellence in Teaching Award, and instructors who have been designated by Mortar Board, a senior honor society, as &quot;Top Profs.&quot;</p>
+  <p>Students generate valuable industry contacts by participating in our student chapters of:</p>
+  <ul>
+    <li><strong><a href="http://www.ama.unt.edu/">AMA - American Marketing Association</a></strong></li>
+    <li><strong><a href="http://unt.orgsync.com/org/ascend">ASCEND Pan Asian Leadership Student Chapter </a></strong></li>
+    <li><a href="http://cob.unt.edu/mktg/logsa/index.html"><strong>LogSA - Logistics Student Association</strong></a></li>
+    <li><strong><a href="https://orgsync.com/44114/chapter">Mu Kappa Tau</a></strong></li>
+  </ul>
+  <div style="margin-left: 12px;">
+    <div class="tabboxes" >
+      <div style="margin-top:0px;" >
+        <a href="advising.php"><img src="../img/homepage_boxes/prereqsnotmet.jpg" id="homepage_boxes" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="tabboxesmiddle" >
+      <div style="" >
+              </div>
+    </div>
+  <div style="clear: both;"></div>
+  <div style="margin-left: 12px;">
+            <div class="tabboxes" >
+      <div class="newsbox">
+        <a href="/news" style="color:white"><div class="newsboxtitle" ></div></a>
+        <div class="newsboxcontent" ></div>
+      </div>
+    </div>
+        <div class="tabboxesmiddle" >
+      <div class="newsbox" >
+        <a href="/news/calendar/?tag=mktg" ><div class="calendarboxtitle" ></div></a>
+        <div class="newsboxcontent" ></div>
+      </div>
+    </div>
+    <br style="clear: both" />
+  </div>
+</div>
+
+    </div>    <br style="clear:both;" />
+    <div id="footer">
+      <div class="holder">
+        <div id="map-footer" >
+          <h4>Physical Address:</h4>
+          <p>
+            University of North Texas<br>
+            College of Business<br>
+            1307 West Highland Street<br>
+            Denton, Texas<br>
+            76201<br>
+            <a href="/about/contact/">Contact the College of Business</a>
+          </p>
+        </div>
+        <div id="contact" >
+          <h4>Mailing Address:</h4>
+          <p>
+      University of North Texas<br>
+      College of Business<br>
+      1155 Union Circle #311160<br>
+      Denton, TX <br>
+      76203-5017<br>
+      <a href="/about/contact/">Contact the College of Business</a>
+    
+          </p>
+        </div>
+        <div id="contentProblems">
+          <h4>This Website:</h4>
+          <p>
+            &copy; 2016 UNT College of Business<br />
+            For issues or comments related to this website, please <a href="/about/contact/feedback.php?re=Website">contact us</a>.<br /><br />
+            <a href="http://www.facebook.com/pages/University-of-North-Texas-College-of-Business/116950807666"><img src="/common/img/facebook.gif" /></a>&nbsp; 
+            <a href="/rss"><img src="/common/img/rss.gif" /></a>
+          </p>
+        </div>
+        <div style="margin: 10px 0pt 0pt; padding: 20px 0pt 10px; clear: both; width: 920px; text-align: center;">
+          <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | 
+          <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | 
+          <a href="http://www.unt.edu/unt_ps.html">Privacy </a> | 
+          <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility</a> | 
+          <a href="http://www.unt.edu/state-texas.htm">State of Texas Online</a> | 
+          <a  href="http://emergency.unt.edu/">Emergency Preparedness</a> | 
+          <a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-6367514-1");
+        pageTracker._trackPageview();
+      }
+      catch(err) {}
+    </script>
+  </body></html>

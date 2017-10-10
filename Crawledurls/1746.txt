@@ -1,0 +1,2056 @@
+
+<!DOCTYPE HTML>
+
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US" class="no-js"><!--<![endif]-->
+<!--[if lt IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<style>
+	html.ie-force-pseudo-refresh :before,
+	html.ie-force-pseudo-refresh :after {
+		content : none !important;
+	}
+</style>
+<script>
+	if ( window.attachEvent && !window.addEventListener ) { // <-- Poor man's IE8 detection
+		window.attachEvent( "onload", function() {
+			var
+				html = document.documentElement,
+				clss = html.className;
+
+			html.className = clss + " ie-force-pseudo-refresh";
+			setTimeout( function(){ html.className = clss; }, 10 );
+		});
+	}
+</script>
+<![endif]-->
+	<head>
+		<meta name="google-site-verification" content="USNnmTwKGtu4TUOtfh8DQfkOmo83BCelmP3uDTOscjY" />
+		<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Texas.gov  | The Official Website of the State of Texas</title>
+
+				<meta title="Texas.gov | The Official Website of the State of Texas" />
+		<meta name="description" content="Access official, secure online government services and information for the State of Texas. Take it online, Texas!" />
+		<meta name="keywords" content="Texas, State of Texas, Texas website, Texas government, Texas driver license, Texas vehicle registration, Texas birth certificate, Texas driver record, Texas state agency, Texas information, Texas license, Texas permit, Texas business, Texas service, Texas record, Texas driver, Texas CHL, Texas CHIP, Texas professional, Texas occupation, Texas jobs, Texas employment, Texas open data, Texas veteran, Texas education, Texas assistance, Texas benefits, Texas recreation, Texas election, Texas voting" />
+
+		<title></title>
+
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/favicon-196x196.png" sizes="196x196" />
+		<link rel="icon" type="image/png" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/png" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/favicon-128.png" sizes="128x128" />
+		<meta name="msapplication-TileColor" content="#f01d4f" />
+		<meta name="msapplication-TileImage" content="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/mstile-144x144.png" />
+		<meta name="msapplication-square70x70logo" content="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/mstile-70x70.png" />
+		<meta name="msapplication-square150x150logo" content="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/mstile-150x150.png" />
+		<meta name="msapplication-wide310x150logo" content="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/mstile-310x150.png" />
+		<meta name="msapplication-square310x310logo" content="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/mstile-310x310.png" />
+		<!--[if IE]>
+			<link rel="shortcut icon" href="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/favicon/favicon.ico">
+		<![endif]-->
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="pingback" href="">
+
+
+				<link rel="alternate" type="application/rss+xml" title="Texas.gov &raquo; Home Comments Feed" href="http://www.texas.gov/index/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.texas.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=47ead4e9b64a50fd83d4ea45a7af0810"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='texasnic_style_switcher_styles-css'  href='http://www.texas.gov/wp-content/plugins/texasnic-style-switcher/library/css/style.css?ver=47ead4e9b64a50fd83d4ea45a7af0810' type='text/css' media='all' />
+<link rel='stylesheet' id='dcwss-css'  href='http://www.texas.gov/wp-content/plugins/wordpress-social-stream/css/dcwss.css?ver=47ead4e9b64a50fd83d4ea45a7af0810' type='text/css' media='all' />
+<link rel='stylesheet' id='txgov-dataTablecss-css'  href='http://www.texas.gov/wp-content/themes/portal-2015-theme/library/css/dataTables.min.css?ver=47ead4e9b64a50fd83d4ea45a7af0810' type='text/css' media='all' />
+<link rel='stylesheet' id='txgov-stylesheet-css'  href='http://www.texas.gov/wp-content/themes/portal-2015-theme/library/css/style.css?ver=1.2.1' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='txgov-ie-only-css'  href='http://www.texas.gov/wp-content/themes/portal-2015-theme/library/css/ie.css?ver=47ead4e9b64a50fd83d4ea45a7af0810' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.texas.gov/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-content/plugins/wordpress-social-stream/js/jquery.social.stream.wall.1.4.js?ver=47ead4e9b64a50fd83d4ea45a7af0810'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-content/plugins/wordpress-social-stream/js/jquery.social.stream.1.5.6.min.js?ver=47ead4e9b64a50fd83d4ea45a7af0810'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FlowFlowOpts = {"streams":{},"open_in_new":"nope","filter_all":"All","filter_search":"Search","expand_text":"Expand","collapse_text":"Collapse","posted_on":"Posted on","show_more":"Show more","date_style":"agoStyleDate","dates":{"Yesterday":"Yesterday","s":"s","m":"m","h":"h","ago":"ago","months":["Jan","Feb","March","April","May","June","July","Aug","Sept","Oct","Nov","Dec"]},"lightbox_navigate":"Navigate with arrow keys","server_time":"1462979108","forceHTTPS":"nope","isAdmin":"","ajaxurl":"http:\/\/www.texas.gov\/wp-admin\/admin-ajax.php","isLog":"","plugin_base":"http:\/\/www.texas.gov\/wp-content\/plugins\/flow-flow","plugin_ver":"2.6.4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.texas.gov/wp-content/plugins/flow-flow/js/require-utils.js?ver=2.6.4'></script>
+<link rel='https://api.w.org/' href='http://www.texas.gov/wp-json/' />
+<link rel="canonical" href="http://www.texas.gov/" />
+<link rel='shortlink' href='http://www.texas.gov/' />
+<link rel="alternate" href="http://www.texas.gov/" hreflang="en-US" />
+<link rel="alternate" href="http://www.texas.gov/es/" hreflang="es-MX" />
+		
+				
+
+	</head>
+
+	<body class="home page page-id-5 page-template page-template-page-main page-template-page-main-php" itemscope itemtype="http://schema.org/WebPage">
+			<div id="tools" class="toolbox fa fa-wrench" role="complementary" >
+		<label id="toolbox--toggle-label">Toggle toolbox</label>
+		<button id="toolbox--toggle" aria-labelledby="toolbox--toggle-label"></button>
+
+		<div id="polylang-2" class="widget widget_polylang clearfix"><label class="widgettitle" for="lang_choice">Select Language</label><select name="lang_choice_polylang-2"  id="lang_choice_polylang-2">
+	<option value="en" selected="selected">United States English</option>
+	<option value="es">Español de México</option>
+
+</select>
+
+				<script type="text/javascript">
+					//<![CDATA[
+					var urls_polylang2 = {"en":"http:\/\/www.texas.gov\/","es":"http:\/\/www.texas.gov\/es\/"};
+					document.getElementById( "lang_choice_polylang-2" ).onchange = function() {
+						location.href = urls_polylang2[this.value];
+					}
+					//]]>
+				</script></div><div id="style_switcher-3" class="widget style-switcher clearfix">  <label class="widgettitle" for="style-select">
+    <label class="widgettitle" for="lang_choice">Select Styles</label>  </label>
+  <select name="style-select" id="style-select">
+    <option selected="selected" value="americana">Texas Americana (Default)</option>
+    <option value="city-lights">Texas City Lights</option>
+    <option value="state-symbols">Texas State Symbols</option>
+  </select>
+</div>		<!--[if lt IE 9]>
+			<div style="display: block; clear: both; text-align: center; background-color: #555; padding: 0.2em; margin-top: 0.5em">
+				<p>This site is Progressivly Enhanced.<br />
+				For a better experience,<br />please upgrade your <a style="color: #FFF" href="//microsoft.com/ie" target="_blank">browser</a>.</p>
+			</div>
+		<![endif]-->
+	</div>
+		<div id="container">
+			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+				<div id="inner-header" class="wrap cf">
+										<h1 id="logo" itemscope itemtype="http://schema.org/Organization">
+						<a href="http://www.texas.gov" rel="nofollow">
+							<img src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/images/site-logo.png" alt="Texas.gov Home" />						</a>
+				  </h1>
+					<div class="mobileMenuButton">
+						<span>Menu</span>
+					</div>
+					<div class="navWrapper">
+						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+							<ul id="menu-top-left-menu" class="nav top-nav cf"><li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="There’s plenty of government business you can do online. Get ‘er done!" href="#services">Services</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a title="Whether you’re waltzing or driving across Texas, make sure you’re doing it right!" href="#drivers">Drivers</a></li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a title="Working hard to keep Texas working! If it’s business or job-related, you’ll find it here!" href="#work">Work</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a title="Not the vinyl kind, the public kind. Very official documents straight from the source!" href="#records">Records</a></li>
+</ul>
+						</nav>
+						<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+							<ul id="menu-top-right-menu" class="nav top-nav cf"><li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a title="A big ‘ole state calls for a whole lot of agencies. Find the one you need!" href="#agencies">Agencies</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a title="Something for everyone! This is our round-up of the most helpful stuff." href="#info">Info</a></li>
+<li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a title="Texas is big. Find what’s in your neck of the woods." href="#map">Map</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a title="You really can connect with your government, so pull up a chair and stay awhile!" href="#social">Social</a></li>
+</ul>						</nav>
+					</div>
+
+				</div>
+
+			</header>
+			<div id="tooltip_container">This is my tooltip
+			</div> <div class="overlay"></div>
+				<div id="sidebar-share" class="left-sidebar" role="complementary">
+
+					
+						
+					
+				</div>
+<div id="sidebar-find" class="findit" role="complementary">
+	<div class="tab vertical-text">
+		<a href="#findit" title="Information made simple! Find everything on Texas.gov neatly organized in one place. You're welcome." class="findit--link fa fa-chevron-circle-up">Find It</a>
+	</div>
+			
+		<div class="content">
+			<button class="close_link fa fa-close" title="Close Find It Section"></button>
+			<ul data-column="3" data-list="top_checklist" class="checklist top_checklist">
+				<li><input type="radio" name="r1" class="allBox" id="top_allBox" value="all"><label for="top_allBox">All</label>
+					<ul data-column="4" data-list="second_checklist" class="checklist second_checklist">
+						<li><input id="all_allBox" type="radio" name="r2" class="allBox" value="all_all"><label for="all_allBox">All</label></li>
+						<li><input id="all_new" type="radio" name="r2" class=""  value="all_new"><label for="all_new">New</label></li>
+						<li><input id="all_popular" type="radio" name="r2" class="" value="all_popular"><label for="all_popular">Popular</label></li>
+					</ul>
+				</li>
+				<li><input type="radio" name="r1" class="" value="service" id="top_serviceBox"><label for="top_serviceBox">Services</label>
+					<ul data-column="4" data-list="second_checklist" class="checklist second_checklist">
+						<li><input id="services_all" type="radio" name="r3" class="allBox" value="services_all"><label for="services_all">All</label></li>
+						<li><input id="services_drive" type="radio" name="r3" class=""  value="services_drive"><label for="services_drive">Driving</label></li>
+						<li><input id="services_license" type="radio" name="r3" class="" value="services_license"><label for="services_license">Licenses</label></li>
+						<li><input id="services_fee" type="radio" name="r3" class="" value="services_fee"><label for="services_fee">Payments</label></li>
+						<li><input id="services_record" type="radio" name="r3" class="" value="services_record"><label for="services_record">Records</label></li>
+						<li><input id="services_more" type="radio" name="r3" class="" value="services_more"><label for="services_more">More</label></li>
+					</ul>
+				</li>
+				<li><input type="radio" name="r1" class="" value="live" id="top_govBox"><label for="top_govBox">Government</label>
+					<ul data-column="4" data-list="second_checklist" class="checklist second_checklist">
+						<li><input id="gov_all" type="radio" name="r4" class="allBox" value="government_all"><label for="gov_all">All</label></li>
+						<li><input id="gov_agencies" type="radio" name="r4" class="" value="government_agencies"><label for="gov_agencies">Agencies</label></li>
+						<li><input id="gov_voting" type="radio" name="r4" class=""  value="government_voting"><label for="gov_voting">Voting</label></li>
+						<li><input id="gov_data" type="radio" name="r4" class="" value="government_data"><label for="gov_data">Open Data</label></li>
+						<li><input id="gov_social" type="radio" name="r4" class="" value="government_social"><label for="gov_social">Social Media</label></li>
+						<li><input id="gov_more" type="radio" name="r4" class="" value="government_more"><label for="gov_more">More</label></li>
+					</ul>
+				</li>
+				<li><input type="radio" name="r1" class="" value="work" id="top_liveBox"><label for="top_liveBox">Live</label>
+					<ul data-column="4" data-list="second_checklist" class="checklist second_checklist">
+						<li><input id="live_all" type="radio" name="r5" class="allBox" value="live_all"><label for="live_all">All</label></li>
+						<li><input id="live_benefits" type="radio" name="r5" class="" value="live_benefits"><label for="live_benefits">Assistance</label></li>
+						<li><input id="live_driving" type="radio" name="r5" class=""  value="live_driving"><label for="live_driving">Driving</label></li>
+						<li><input id="live_education" type="radio" name="r5" class="" value="live_education"><label for="live_education">Education</label></li>
+						<li><input id="live_health" type="radio" name="r5" class="" value="live_health"><label for="live_health">Health</label></li>
+						<li><input id="live_more" type="radio" name="r5" class="" value="live_more"><label for="live_more">More</label></li>
+					</ul>
+				</li>
+				<li><input type="radio" name="r1" class="" value="work" id="top_workBox"><label for="top_workBox">Work</label>
+					<ul data-column="4" data-list="second_checklist" class="checklist second_checklist">
+						<li><input id="work_all" type="radio" name="r5" class="allBox" value="work_all"><label for="work_all">All</label></li>
+						<li><input id="work_jobs" type="radio" name="r5" class="" value="work_jobs"><label for="work_jobs">Jobs</label></li>
+						<li><input id="work_license" type="radio" name="r5" class="" value="work_license"><label for="work_license">Licenses</label></li>
+						<li><input id="work_business" type="radio" name="r5" class=""  value="work_business"><label for="work_business">Business</label></li>
+						<li><input id="work_benefits" type="radio" name="r5" class="" value="work_benefits"><label for="work_benefits">Benefits</label></li>
+						<li><input id="work_more" type="radio" name="r5" class="" value="work_more"><label for="work_more">More</label></li>
+					</ul>
+				</li>
+				<li><input type="radio" name="r1" class="" value="explore" id="top_expBox"><label for="top_expBox">Explore</label>
+					<ul data-column="4" data-list="second_checklist" class="checklist second_checklist">
+						<li><input id="exp_all" type="radio" name="r6" class="allBox" value="explore_all"><label for="exp_all">All</label></li>
+						<li><input id="exp_travel" type="radio" name="r6" class=""  value="explore_travel"><label for="exp_travel">Travel</label></li>
+						<li><input id="exp_about" type="radio" name="r6" class="" value="explore_about"><label for="exp_about">About</label></li>
+						<li><input id="exp_moving" type="radio" name="r6" class="" value="explore_moving"><label for="exp_moving">Moving Here</label></li>
+						<li><input id="exp_business" type="radio" name="r6" class="" value="explore_business"><label for="exp_business">Doing Business</label></li>
+						<li><input id="exp_maps" type="radio" name="r6" class="" value="explore_maps"><label for="exp_maps">Maps</label></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="detached_filter_container"><label for="detached_filter" class="visuallyhidden">Filter: </label><input id="detached_filter" type="text" placeholder="Filter Results"></div>
+			<table id="example" class="display" cellspacing="0" width="100%">
+				<caption>Services - Popular</caption>
+				<thead>
+					<tr>
+						<th class="entity">Link</th>
+						<th class="entity">Link</th>
+						<th class="entity">Description</th>
+						<th class="entity">Description</th>
+						<th class="entity">Tags</th>
+						<th class="entity">Agency</th>
+						<th class="entity">Agency</th>
+					</tr>
+				</thead>
+			</table>
+		</div> <!-- /.content -->
+	</div>
+			<div id="content">
+
+				<div id="inner-content" class="">
+
+						<main id="main" class="m-all t-all d-all cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+
+							
+
+								<!-- header class="article-header">
+
+									<h1 class="page-title"></h1>
+
+									<p class="byline vcard">
+																			</p >
+
+
+								</header-->
+
+								<section class="entry-content cf" itemprop="articleBody">
+									<!-- 48 = Search - Take it Online, 38 = Welcome, 36 = Most Popular, 34 = Brand New! -->
+<section tabindex="-1" id="take-it-online" class="post-48 sections type-sections status-publish format-standard hentry language-en searchContent" here>
+    <h2 class="entry-title">Take it online, Texas!</h2>
+    <p class="centeredParagraph">We are the official website of the State of Texas.</p>
+				<form class="heroForm">
+					<!--<input type="search" name="googlesearch" placeholder="What can we help you with?">
+					<input type="button" name= "" class="searchButtonHero" value="Search">-->
+
+
+<div id='cse' style='width: 100%;'>Loading</div>
+<script src='//www.google.com/jsapi' type='text/javascript'></script>
+<script type='text/javascript'>
+google.load('search', '1', {language: 'en', style: google.loader.themes.DEFAULT});
+google.setOnLoadCallback(function() {
+  var customSearchOptions = {};
+  var orderByOptions = {};
+  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+  customSearchOptions['enableOrderBy'] = true;
+  customSearchOptions['orderByOptions'] = orderByOptions;
+  customSearchOptions['overlayResults'] = true;
+  var customSearchControl =   new google.search.CustomSearchControl('017244382631532736669:ubfwutv9yzs', customSearchOptions);
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse', options);
+}, true);
+</script>
+
+
+
+
+<table id="allResults">
+<tr>
+<td class="googleTD resultsColumn col1">
+<h3>Search Suggestions</h3>
+</td>
+<td class="agencyTD resultsColumn col2">
+<h3>Related Agencies</h3>
+<table id="agencies_table">
+<thead>
+<tr>
+
+<th>Link</th>
+<th>Spanish Link</th>
+<th>Description</th>
+<th>Spanish Description</th>
+<th>Tags</th>
+<th>Agency</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+</table>
+</td>
+<td class="serviceTD resultsColumn col3">
+<h3>Related Services</h3>
+<table id="services_table">
+<thead>
+<tr>
+
+<th>Link</th>
+<th>Spanish Link</th>
+<th>Description</th>
+<th>Spanish Description</th>
+<th>Tags</th>
+<th>Agency</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+</table>
+</td>
+
+</tr>
+</table>
+
+
+
+</form>
+
+<div class="photo-credits theme_americana">
+  <a title="'Abandoned restaraunt on route 66 road in USA' by Andrey Bayda" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_symbols">
+  <a title="'Bluebonnets in the Texas Hill Country' by Dean Fikar" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_city">
+  <a title="'City Lights of 2015 Austin Texas Skyline at night' by RoschetzkyIstockPhoto" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+</section><section tabindex="-1" id="welcome" class="post-38 sections type-sections status-publish format-standard hentry language-en white introText" here>
+    <h2 class="entry-title">Welcome to Texas.gov!</h2>
+    <div class="insideContent">
+<p>You&#8217;re at the right place to take care of government transactions, find information
+about our great state, engage with your government, or just get pointed in the right direction.</p>
+<div class="d-all t-all m-all centered socialIcons">
+<a href="http://www.facebook.com/Texas.gov" title="Texas.gov Facebook" data-linktype="outbound"><span class="fa fa-facebook-square"><span class="visuallyhidden">Facebook</span></span></a>
+<a href="http://www.flickr.com/groups/texasgov" title="Texas.gov Flickr" data-linktype="outbound"><span class="fa fa-flickr"><span class="visuallyhidden">Flickr</span></span></a>
+<a href="https://twitter.com/texasgov" title="Texas.gov Twitter" data-linktype="outbound"><span class="fa fa-twitter-square"><span class="visuallyhidden">Twitter</span></span></a>
+<a href="http://www.linkedin.com/company/texas-gov" title="Texas.gov LinkedIn" data-linktype="outbound"><span class="fa fa-linkedin-square"><span class="visuallyhidden">LinkedIn</span></span></a>
+<a href="http://www.youtube.com/user/TexasGov" title="Texas.gov Youtube" data-linktype="outbound"><span class="fa fa-youtube-square"><span class="visuallyhidden">Youtube</span></span></a>
+<a href="https://www.instagram.com/texasgov/" title="Texas.gov Instagram" data-linktype="outbound"><span class="fa fa-instagram"><span class="visuallyhidden">Instagram</span></span></a></div>
+</div></section><section tabindex="-1" id="services" class="post-36 sections type-sections status-publish format-standard hentry language-en popular" here>
+    <h2 class="entry-title">Our most popular services.</h2>
+    <div class="insideContent">
+<p class="centeredParagraph caption">These are a big hit with y’all!</p>
+<div class="popular--links">
+<ul class="grid-col d-1of3 t-all m-all">
+<li class="t-1of2"><a href="https://rts.texasonline.state.tx.us/NASApp/txdotrts/RegistrationRenewalServlet" data-linktype="outbound">Vehicle Registration Renewal</a></li>
+<li class="t-1of2"><a href="https://txapps.texas.gov/tolapp/txdl/?utm_source=texasgov&amp;utm_medium=popservices&amp;utm_campaign=2016" data-linktype="outbound">Driver License Renewal</a></li>
+</ul>
+<ul class="grid-col d-1of3 t-all m-all">
+<li class="t-1of2"><a href="https://txapps.texas.gov/tolapp/txldrcdr/TXDPSLicenseeManager?utm_source=texasgov&amp;utm_medium=popservices&amp;utm_campaign=2016" data-linktype="outbound">Driver Records</a></li>
+<li class="t-1of2"><a href="https://txapps.texas.gov/txapp/txdps/chl/?utm_source=texasgov&amp;utm_medium=popservices&amp;utm_campaign=2016" data-linktype="outbound">License to Carry a Handgun</a></li>
+</ul>
+<ul class="grid-col last-col d-1of3 t-all m-all">
+<li class="t-1of2"><a href="https://txapps.texas.gov/tolapp/ovra/index.htm" data-linktype="outbound">Vital Records</a></li>
+<li class="t-1of2"><a href="https://tdcj-ecommdirect.portal.texas.gov/" data-linktype="outbound">Commissary Purchase &amp; Deposit</a></li>
+</ul>
+</div>
+<h3>Even more government services</h3>
+<p class="centeredParagraph">Start here to take care of your government business online. It&#8217;s convenient, safe, and so much better than standing in line!</p>
+<button id="servicesButton" class="buttons" title="View more online services" name="Welcome" type="button">Online Services</button>
+</div></section><section tabindex="-1" id="new" class="post-34 sections type-sections status-publish format-standard hentry language-en white brandNew" here>
+    <h2 class="entry-title">It’s Voting Season!</h2>
+    <div class="insideContent">
+  <p class="centeredParagraphBlack">Know where you’re voting? What’s on the ballot? Check out VoteTexas.gov, a resource provided by the Texas Secretary of State, to answer these questions and more.</p>
+  <a data-linktype="outbound" class="button transButton wideButton" id="newButton" title="Voting Info" name="Welcome" target="_blank" href="http://www.votetexas.gov/?utm_source=texasgov&amp;utm_medium=brandnew&amp;utm_campaign=2016">Voting Info</a>
+</div></section> 
+<!-- 32 = Drivers -->
+<section tabindex="-1" id="drivers" class="post-32 sections type-sections status-publish format-standard has-post-thumbnail hentry language-en driverSection">
+  <div class="translucentBackground">
+    <h2 class="entry-title">Drivers</h2>
+            <p class="centeredParagraphBlack">Save your driving to see the more scenic attractions across Texas. Skip the office lines and take care of all your driving business online.</p>
+        <div class="translucentLinks col1">
+          <ul>
+            <li><a href="https://txapps.texas.gov/tolapp/txdl/welcome.dl?utm_source=texasgov&#038;utm_medium=drivers_DLR&#038;utm_campaign=driver_2016" data-linktype="outbound">Driver License/ID Renewal</a> <a href="https://www.youtube.com/watch?v=ndUEDItLDyo"><span class="fa fa-video-camera"></span><span class="visuallyhidden">Video instructions for driver license renewal</span></a></li>
+            <li><a href="https://txapps.texas.gov/tolapp/txdl/welcome.dl?utm_source=texasgov&#038;utm_medium=drivers_DLRCOA&#038;utm_campaign=driver_2016" data-linktype="outbound">Driver License/ID Address Change</a> <a href="https://www.youtube.com/watch?v=ndUEDItLDyo"><span class="fa fa-video-camera"></span><span class="visuallyhidden">Video instructions for driver license or ID change of address.</span></a></li>
+            <li><a href="https://txapps.texas.gov/txapp/txdps/dleligibility/login.do?utm_source=texasgov&#038;utm_medium=drivers_DLE&#038;utm_campaign=driver_2016" data-linktype="outbound">Driver License Reinstatement &amp; Status</a></li>
+            <li><a href="https://txapps.texas.gov/tolapp/txldrcdr/TXDPSLicenseeManager?utm_source=texasgov&#038;utm_medium=drivers_LDR&#038;utm_campaign=driver_2016" data-linktype="outbound">Driver Records</a> <a href="https://www.youtube.com/watch?v=cYiLpjy9w30"><span class="fa fa-video-camera"></span><span class="visuallyhidden">Video instructions for driver records</span></a></li>
+          </ul>
+        </div>
+        <div class="translucentLinks col2">
+          <ul>
+            <li><a href="https://rts.texasonline.state.tx.us/NASApp/txdotrts/RegistrationRenewalServlet" data-linktype="outbound">Vehicle Registration Renewal</a> <a href="https://www.youtube.com/watch?v=ZOGIrXqY3QQ"><span class="fa fa-video-camera"></span><span class="visuallyhidden">Video instructions for vehicle registration renewal</span></a></li>
+            <li><a href="https://rts.texasonline.state.tx.us/NASApp/txdotrts/AddressChangeServlet" data-linktype="outbound">Vehicle Registration Address Change</a></li>
+            <li><a href="http://www.txdmv.gov/motorists/buying-or-selling-a-vehicle" data-linktype="outbound">Titles, Transfers, &amp; Transit Permits</a></li>
+            <li><a href="http://txdmv.gov/motorists/new-to-texas" data-linktype="outbound">Requirements for New Texans</a></li>
+          </ul>
+        </div>
+        <div style="clear:both;">
+				</div>
+        <button type="button" name="Welcome" title="View more driver services" id="driverButton" class="transButton">More Driver Services</button>
+    		<div style="overflow:hidden;">
+  				<div class="videoContactSocial">
+            <a class="titleLink" href="https://www.dps.texas.gov/" data-linktype="outbound">Department of Public Safety</a>
+            <p>&#40;They handle driver license/IDs and driver records&#41;</p>
+            <div class="vcsSpan">
+              <span><a href="http://txdps.state.tx.us/DriverLicense/customer_service/default.aspx" data-linktype="outbound"><span class="visuallyhidden">Department of Public Safety </span>Customer Service</a> |</span>
+              <span><a href="http://www.txdps.state.tx.us/administration/driver_licensing_control/rolodex/search.asp" data-linktype="outbound"><span class="visuallyhidden">Department of Public Safety </span>Local Offices</a></span>
+            </div>
+          </div>
+          <div class="videoContactSocial secondContact">
+          	<a href="http://www.txdmv.gov/" class="titleLink">Department of Motor Vehicles</a>
+            <p>&#40;They handle vehicle registrations and titles&#41;</p>
+            <div class="vcsSpan">
+              <span><a href="http://www.txdmv.gov/contact-us" data-linktype="outbound"><span class="visuallyhidden">Department of Motor Vehicles </span>Customer Service</a> |</span>
+              <span><a href="http://www.txdmv.gov/contact-us" data-linktype="outbound"><span class="visuallyhidden">Department of Motor Vehicles </span>Local Offices</a></span>
+            </div>
+          </div>
+        </div>
+      <!--<button type="button" name="Welcome" title="more services button" id="driverButton" class="transButton">More Driver Services</button>  -->
+
+<div class="photo-credits theme_americana">
+  <a title="'Cadillac Ranch' by Waxhawian" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_symbols">
+  <a title="'Texas Longhorn' by Larry Smith" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_city">
+  <a title="'Dallas, 07:10AM' by Mihai Andritoiu" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>  </div>
+</section>
+
+<!-- 24 = State Agencies  -->
+<section tabindex="-1" id="agencies" class="post-24 sections type-sections status-publish format-standard hentry language-en middleBlue" here>
+    <h2 class="entry-title">State Agencies</h2>
+    <p class="centered p__centered p__important">Navigating government agencies can be tougher than dry brisket. Here you’ll find contact info and more for all the state agencies.</p>
+
+<div class="centered agencyFinder clearfix last-col">
+<div class="grid-col d-1of3 t-1of3 m-all">
+<ul class="agencySelect">
+	<li data-card="1"><a href="#agencies">Dept. of Public Safety</a></li>
+	<li data-card="2" class="selected"><a href="#agencies">Dept. of Motor Vehicles</a></li>
+	<li data-card="3"><a href="#agencies">Governor&#8217;s Office</a></li>
+	<li data-card="4"><a href="#agencies">Office of Comptroller</a></li>
+	<li data-card="5"><a href="#agencies">Texas Parks and Wildlife</a></li>
+</ul>
+</div>
+<!-- /d-1of3 -->
+<div class="grid-col d-2of3 t-2of3 m-all flip-container">
+
+	<!-- flipper -->
+	<div class="flipper">
+		<!-- DPS -->
+		<div class="agencyCard" id="agency-card-dps" tabindex="-1">
+
+			<h4>Public Safety, Dept. of</h4>
+
+			<div class="vcard">
+
+				<div class="adr"><!--didn't use clearfix here, because it put extra padding at bottom-->
+				<ul>
+					<li>5805 N Lamar<br>Austin, Texas 78752</li>
+					<li class="map">
+				<a href="https://www.google.com/maps/place/Bldg+G,+Annex,+5805+N+Lamar+Blvd,+Austin,+TX+78752" target="_blank" data-linktype="outbound">
+				<img class="agency_map_image" src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/images/map.jpg" alt="" />
+				</a></li>
+				</ul>
+				<ul>
+					<li class="tel clearfix">
+				    <span class="type">Phone:</span>
+				    <span class="value">512-424-2000</span>
+				  </li>
+					<li class="email clearfix">
+				    <span class="type">Email:</span>
+				    <a class="value" href="http://dps.texas.gov/contact.htm" data-linktype="outbound">http://dps.texas.gov/contact.htm</a>
+				  </li>
+					<li class="social-media clearfix"><span>Social Media:</span>
+				      <ul class="social-media">
+					       <li class="facebook">
+									<a href="http://www.facebook.com/TxDPS" title="Department of Public Safety Facebook" data-linktype="outbound">
+										<em class="fa fa-facebook-square fa-2x"></em>
+										<span class="visuallyhidden">Department of Public Safety Facebook</span>
+									</a>
+				         </li>
+				      	<li class="twitter">
+									<a href="https://twitter.com/txdps" title="Department of Public Safety Twitter" data-linktype="outbound">
+										<em class="fa fa-twitter-square fa-2x"></em>
+										<span class="visuallyhidden">Department of Public Safety Twitter</span>
+									</a>
+				        </li>
+				      	<li class="rss">
+									<a href="http://www.txdps.state.tx.us/rss/dpsnews.xml" title="Department of Public Safety RSS feed" data-linktype="outbound">
+										<em class="fa fa-rss fa-2x"></em>
+										<span class="visuallyhidden">Department of Public Safety RSS feed</span>
+									</a>
+				        </li>
+				      </ul>
+				  </li>
+					<li class="url clearfix">
+				    <span>Website:</span>
+				    <span class="value">
+				      <a href="http://www.txdps.state.tx.us/" data-linktype="outbound">http://www.txdps.state.tx.us</a>
+				    </span>
+				  </li>
+					<li class="url clearfix"><span>Directory:</span>
+				    <span class="value">
+				      <a href="http://dirpub.dir.texas.gov/agy405c.html" data-linktype="outbound"> http://dirpub.dir.texas.gov/agy405c.html</a>
+				    </span>
+				  </li>
+				</ul>
+				</div>
+				<!-- /adr -->
+
+			</div>
+			<!-- /vcard -->
+
+		</div>
+		<!-- /agencyCard DPS -->
+
+		<!-- DMV -->
+		<div class="agencyCard selected front" id="agency-card-dmv" tabindex="-1">
+
+			<h4>Motor Vehicles, Dept. of</h4>
+
+			<div class="vcard">
+
+				<div class="adr"><!--didn't use clearfix here, because it put extra padding at bottom-->
+				<ul>
+					<li>4000 Jackson Ave., Bldg. 1<br>Austin, Texas 78731</li>
+					<li class="map"><span></span>
+				<a href="http://maps.google.com?q=4000+Jackson+Ave.%2c+Bldg.+1+Austin+Texas+78731" target="_blank" data-linktype="outbound">
+				<img class="agency_map_image" src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/images/map.jpg" alt="" />
+				</a></li>
+				</ul>
+				<ul>
+					<li class="tel clearfix">
+				    <span class="type">Phone:</span>
+				    <span class="value">888-368-4689</span>
+				  </li>
+					<li class="email clearfix">
+				    <span class="type">Email:</span>
+				    <a class="value" href="mailto:askdmv@dmv.state.tx.us" data-linktype="outbound">askdmv@dmv.state.tx.us</a>
+				  </li>
+					<li class="social-media clearfix"><span>Social Media:</span>
+				      <ul class="social-media">
+					       <li class="facebook">
+									<a href="http://www.facebook.com/TxDMV" title="Department of Motor Vehicles Facebook" data-linktype="outbound">
+										<em class="fa fa-facebook-square fa-2x"></em>
+										<span class="visuallyhidden">Department of Motor Vehicles Facebook</span>
+									</a>
+				         </li>
+				      	<li class="twitter">
+									<a href="https://twitter.com/TxDMV" title="Department of Motor Vehicles Twitter" data-linktype="outbound">
+										<em class="fa fa-twitter-square fa-2x"></em>
+										<span class="visuallyhidden">Department of Motor Vehicles Twitter</span>
+									</a>
+				        </li>
+				      	<li class="youtube">
+									<a href="http://www.youtube.com/user/govperry" title="Department of Motor Vehicles YouTube" data-linktype="outbound">
+										<em class="fa fa-youtube-square fa-2x"></em>
+										<span class="visuallyhidden">Department of Motor Vehicles YouTube</span>
+									</a>
+				        </li>
+				      	<li class="pinterest">
+									<a href="http://pinterest.com/myplates/" title="Department of Motor Vehicles Pinterest" data-linktype="outbound">
+										<em class="fa fa-pinterest-square fa-2x"></em>
+										<span class="visuallyhidden">Department of Public Safety Pinterest</span>
+									</a>
+				        </li>
+				      </ul>
+				  </li>
+					<li class="url clearfix">
+				    <span>Website:</span>
+				    <span class="value">
+				      <a href="http://www.txdmv.gov" data-linktype="outbound">http://www.txdmv.gov</a>
+				    </span>
+				  </li>
+					<li class="url clearfix"><span>Directory:</span>
+				    <span class="value">
+				      <a href="http://dirpub.dir.texas.gov/agy608c.html" data-linktype="outbound">http://dirpub.dir.texas.gov/agy608c.html</a>
+				    </span>
+				  </li>
+				</ul>
+				</div>
+				<!-- /adr -->
+
+			</div>
+			<!-- /vcard -->
+
+		</div>
+		<!-- /agencyCard DMV-->
+
+		<!-- agencyCard Governor's -->
+		<div class="agencyCard" id="agency-card-gov-off" tabindex="-1">
+
+			<h4>Governor, Office of the</h4>
+
+			<div class="vcard">
+
+				<div class="adr"><!--didn't use clearfix here, because it put extra padding at bottom-->
+				<ul>
+					<li>1100 San Jacinto Blvd, Suite 151B <br>Austin, Texas 78701</li>
+					<li class="map"><span></span>
+				<a href="http://maps.google.com?q=1100+San+Jacinto+Blvd+Suite+151B+Austin+Texas+78701" target="_blank" data-linktype="outbound">
+				<img class="agency_map_image" src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/images/map.jpg" alt="" />
+				</a></li>
+				</ul>
+				<ul>
+					<li class="tel clearfix">
+				    <span class="type">Phone:</span>
+				    <span class="value">512-463-2000</span>
+				  </li>
+					<li class="social-media clearfix"><span>Social Media:</span>
+				      <ul class="social-media">
+					       <li class="facebook">
+									<a href="http://www.facebook.com/TexasGovernor" title="Governor's Office Facebook" data-linktype="outbound">
+										<em class="fa fa-facebook-square fa-2x"></em>
+										<span class="visuallyhidden">Governor&#8217;s Office Facebook</span>
+									</a>
+				         </li>
+				      	<li class="twitter">
+									<a href="https://twitter.com/GovAbbott" title="Governor's Office Twitter" data-linktype="outbound">
+										<em class="fa fa-twitter-square fa-2x"></em>
+										<span class="visuallyhidden">Governor&#8217;s Office Twitter</span>
+									</a>
+				        </li>
+				      	<li class="youtube">
+									<a href="https://www.youtube.com/user/TexansForGregAbbott" title="Governor's Office YouTube" data-linktype="outbound">
+										<em class="fa fa-youtube-square fa-2x"></em>
+										<span class="visuallyhidden">Governor&#8217;s Office YouTube</span>
+									</a>
+				        </li>
+				      	<li class="rss">
+									<a href="http://governor.state.tx.us/rss/" title="Governor's Office RSS feed" data-linktype="outbound">
+										<em class="fa fa-rss fa-2x"></em>
+										<span class="visuallyhidden">Governor&#8217;s Office RSS feed</span>
+									</a>
+				        </li>
+				      </ul>
+				  </li>
+					<li class="url clearfix">
+				    <span>Website:</span>
+				    <span class="value">
+				      <a href="http://www.governor.state.tx.us/" data-linktype="outbound">http://www.governor.state.tx.us/</a>
+				    </span>
+				  </li>
+					<li class="url clearfix"><span>Directory:</span>
+				    <span class="value">
+				      <a href="http://dirpub.dir.texas.gov/agy301c.html" data-linktype="outbound">http://dirpub.dir.texas.gov/agy301c.html</a>
+				    </span>
+				  </li>
+				</ul>
+				</div>
+				<!-- /adr -->
+
+			</div>
+			<!-- /vcard -->
+
+		</div>
+		<!-- /agencyCard Governor's -->
+
+		<!-- agencyCard Comptroller -->
+		<div class="agencyCard" id="agency-card-off-comp" tabindex="-1">
+
+			<h4>Comptroller, Office of</h4>
+
+			<div class="vcard">
+
+				<div class="adr"><!--didn't use clearfix here, because it put extra padding at bottom-->
+				<ul>
+					<li>LBJ Bldg, 111 E 17th St, First Floor<br>Austin, Texas 78774-0100</li>
+					<li class="map"><span></span>
+				<a href="http://maps.google.com/?q=LBJ+Bldg%2c+111+E+17th+St%2c+First+Floor+Austin+Texas+78774-0100" target="_blank" data-linktype="outbound">
+				<img class="agency_map_image" src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/images/map.jpg" alt="" />
+				</a></li>
+				</ul>
+				<ul>
+					<li class="tel clearfix">
+				    <span class="type">Phone:</span>
+				    <span class="value">512-463-4000</span>
+				  </li>
+					<li class="email clearfix">
+				    <span class="type">Email:</span>
+				    <a class="value" href="mailto:texas.comptroller@cpa.state.tx.us" data-linktype="outbound">texas.comptroller@cpa.state.tx.us</a>
+				  </li>
+					<li class="social-media clearfix"><span>Social Media:</span>
+				      <ul class="social-media">
+					       <li class="facebook">
+									<a href="http://www.facebook.com/txcomptroller" title="Office of Comptroller Facebook" data-linktype="outbound">
+										<em class="fa fa-facebook-square fa-2x"></em>
+										<span class="visuallyhidden">Office of Comptroller Facebook</span>
+									</a>
+				         </li>
+				      	<li class="twitter">
+									<a href="http://twitter.com/txcomptroller" title="Office of Comptroller Twitter" data-linktype="outbound">
+										<em class="fa fa-twitter-square fa-2x"></em>
+										<span class="visuallyhidden">Office of Comptroller Twitter</span>
+									</a>
+				        </li>
+								<li class="rss">
+									<a href="http://www.window.state.tx.us/rss/" title="Office of Comptroller RSS feed" data-linktype="outbound">
+										<em class="fa fa-rss fa-2x"></em>
+										<span class="visuallyhidden">Office of Comptroller RSS feed</span>
+									</a>
+								</li>
+				      	<li class="youtube">
+									<a href="https://www.youtube.com/channel/UC-wEu3WBwS08B60a-s3UHfw" title="Office of Comptroller YouTube" data-linktype="outbound">
+										<em class="fa fa-youtube-square fa-2x"></em>
+										<span class="visuallyhidden">Office of Comptroller YouTube</span>
+									</a>
+				        </li>
+				      </ul>
+				  </li>
+					<li class="url clearfix">
+				    <span>Website:</span>
+				    <span class="value">
+				      <a href="http://www.window.state.tx.us/" data-linktype="outbound">http://www.window.state.tx.us/</a>
+				    </span>
+				  </li>
+					<li class="url clearfix"><span>Directory:</span>
+				    <span class="value">
+				      <a href="http://dirpub.dir.texas.gov/agy304c.html" data-linktype="outbound">http://dirpub.dir.texas.gov/agy304c.html</a>
+				    </span>
+				  </li>
+				</ul>
+				</div>
+				<!-- /adr -->
+
+			</div>
+			<!-- /vcard -->
+
+		</div>
+		<!-- /agencyCard Comptroller -->
+
+		<!-- agencyCard Parks and Wildlife -->
+		<div class="agencyCard" id="agency-card-park-wild" tabindex="-1">
+
+			<h4>Texas Parks and Wildlife</h4>
+
+			<div class="vcard">
+
+				<div class="adr"><!--didn't use clearfix here, because it put extra padding at bottom-->
+				<ul>
+					<li>4200 Smith School Rd<br>Austin, Texas 78744</li>
+					<li class="map"><span></span>
+				<a href="http://maps.google.com/?q=4200+Smith+School+Rd+Austin+Texas+78744" target="_blank" data-linktype="outbound">
+				<img class="agency_map_image" src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/images/map.jpg" alt="" />
+				</a></li>
+				</ul>
+				<ul>
+					<li class="tel clearfix">
+						<span class="type">Phone:</span>
+						<span class="value">512-389-4800</span>
+					</li>
+					<li class="email clearfix">
+						<span class="type">Email:</span>
+						<a class="value" href="mailto:webcomments@tpwd.state.tx.us" data-linktype="outbound">webcomments@tpwd.state.tx.us</a>
+					</li>
+					<li class="social-media clearfix"><span>Social Media:</span>
+							<ul class="social-media">
+								<li class="facebook">
+								<a href="http://www.facebook.com/texasparksandwildlife" title="Parks and Wildlife Facebook" data-linktype="outbound">
+									<em class="fa fa-facebook-square fa-2x"></em>
+									<span class="visuallyhidden">Parks and Wildlife Facebook</span>
+								</a>
+								</li>
+								<li class="flickr">
+								  <a href="http://www.flickr.com/photos/texasparkswildlife" title="Parks and Wildlife Flickr" data-linktype="outbound">
+								    <em class="fa fa-flickr fa-2x"></em>
+								    <span class="visuallyhidden">Parks and Wildlife Flickr</span>
+								  </a>
+								</li>
+								<li class="twitter">
+									<a href="http://twitter.com/TPWDnews" title="Parks and Wildlife Twitter" data-linktype="outbound">
+										<em class="fa fa-twitter-square fa-2x"></em>
+										<span class="visuallyhidden">Office of Comptroller RSS feed</span>
+									</a>
+								</li>
+								<li class="youtube">
+									<a href="http://www.youtube.com/user/TexasParksWildlife" title="Parks and Wildlife YouTube" data-linktype="outbound">
+										<em class="fa fa-youtube-square fa-2x"></em>
+										<span class="visuallyhidden">Parks and Wildlife YouTube</span>
+									</a>
+								</li>
+								<li class="podcast">
+									<a href="http://itunes.apple.com/us/podcast/passport-to-texas/id218694442" title="Parks and Wildlife Podcast" data-linktype="outbound">
+										<em class="fa fa-headphones fa-2x"></em>
+										<span class="visuallyhidden">Parks and Wildlife Podcast</span>
+									</a>
+								</li>
+								<li class="pinterest">
+									<a href="https://www.pinterest.com/texasparks/" title="Parks and Wildlife Pinterest" data-linktype="outbound">
+										<em class="fa fa-pinterest-square fa-2x"></em>
+										<span class="visuallyhidden">Parks and Wildlife Pinterest</span>
+									</a>
+								</li>
+							</ul>
+					</li>
+					<li class="url clearfix">
+						<span>Website:</span>
+						<span class="value">
+							<a href="http://www.tpwd.state.tx.us/" data-linktype="outbound">http://www.tpwd.state.tx.us/</a>
+						</span>
+					</li>
+					<li class="url clearfix"><span>Directory:</span>
+						<span class="value">
+							<a href="http://dirpub.dir.texas.gov/agy802c.html" data-linktype="outbound">http://dirpub.dir.texas.gov/agy802c.html</a>
+						</span>
+					</li>
+				</ul>
+				</div>
+				<!-- /adr -->
+
+			</div>
+			<!-- /vcard -->
+
+		</div>
+		<!-- /agencyCard Parks and Wildlife -->
+	</div>
+	<!-- /flipper -->
+
+</div>
+<!-- /d-2of3 -->
+
+</div>
+<!-- /agencyFinder -->
+<button id="agencyButton" class="buttons" title="View more agencies" name="Pay It Online" type="button">View More</button></section>
+<!-- 22 = Work  -->
+<section tabindex="-1" id="work" class="post-22 sections type-sections status-publish format-standard has-post-thumbnail hentry language-en workSection">
+  <div class="translucentBackground">
+    <h2 class="entry-title">Work</h2>
+    <p class="centeredParagraphBlack">Apply for or renew a professional license. Easy. Now.</p>
+
+<div class="translucentLinks col1">
+<ul>
+	<li><a href="http://www.tsbpa.state.tx.us/macros/secentry.ndm/ENTRYLI" data-linktype="outbound">Accounting</a></li>
+	<li><a href="https://indreg.tbae.state.tx.us/" data-linktype="outbound">Architect</a></li>
+	<li><a href="https://www.tdlr.texas.gov/App_Online/default.asp?bcp=1" data-linktype="outbound">Cosmetology</a></li>
+	<li><a href="https://www.tdlr.texas.gov/App_Online/default.asp?LicenseType=ELE" data-linktype="outbound">Electrician</a></li>
+</ul>
+</div>
+<!-- /.translucentLinks.col1 -->
+<div class="translucentLinks col2">
+<ul>
+	<li><a href="https://engineers.texas.gov/echo_login.php" data-linktype="outbound">Engineering</a></li>
+	<li><a href="https://txapps.texas.gov/NASApp/tdi/TdiARManager?utm_source=texasgov&#038;utm_medium=work_TDI&#038;utm_campaign=work_2016" data-linktype="outbound">Insurance Agent</a></li>
+	<li><a href="https://txapps.texas.gov/NASApp/bnexam/BNExamManager?utm_source=texasgov&#038;utm_medium=work_BON&#038;utm_campaign=work_2016" data-linktype="outbound">Nurse</a></li>
+	<li><a href="https://www.dps.texas.gov/rsd/psb/licenseRegistration/licenses.htm">Private Security</a></li>
+</ul>
+</div>
+<!-- /.translucentLinks.col2 -->
+<button id="workButton" class="transButton" title="View more work services" name="Welcome" type="button">More Work Services</button>
+<h3 class="afterButtonHeading" style="font-size: 200%; margin-top: -1.5em;">Ready to go to work? Need to start a business?</h3>
+<div style="overflow: hidden;">
+<div class="videoContactSocial">
+
+<a class="titleLink" href="https://wit.twc.state.tx.us/WORKINTEXAS/wtx?pageid=APP_HOME&amp;cookiecheckflag=1" data-linktype="outbound">WorkinTexas.com</a>
+<br><strong>Looking for a job?</strong>
+<br><br><a href="https://wit.twc.state.tx.us/WORKINTEXAS/wtx?pageid=APP_HOME&#038;cookiecheckflag=1">WorkinTexas.com</a> is an online job search and matching system maintained by the Texas Workforce Commission and Texas Workforce Solutions.
+
+</div>
+<!-- /.videoContactSocial -->
+<div class="videoContactSocial secondContact">
+
+<a class="titleLink" href="http://comptroller.texas.gov/tba/" data-linktype="outbound">Texas Business Advisor</a>
+
+<br><strong>Starting a business in Texas?</strong>
+<br><br>Visit <a href="http://comptroller.texas.gov/tba/">Texas Business Advisor</a>, offered by the Texas Comptroller, to learn how to start a business in Texas.
+<!--<span><a href="#">Local Offices</a></span>-->
+
+<!-- /.vcsSpan -->
+
+</div>
+<!-- /.videoContactSocial.secondContact -->
+
+</div>
+<!-- overflow:hidden -->
+<div class="photo-credits theme_americana">
+  <a title="'Historical area in Downtown Tyler, Texas' by Bsheridan1959" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_symbols">
+  <a title="'Texas Flag' by Kimberly Vardeman" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_city">
+  <a title="'Late evening in El Paso and Juarez Mexico' by Denis Tangney Jr" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>  </div>
+</section>
+
+<!-- 43 = Map  -->
+<section tabindex="-1" id="map" class="post-43 sections type-sections status-publish format-standard hentry language-en inTheNeighborhood" here>
+    <h2 class="entry-title">In your neighborhood</h2>
+    <div class="insideContent">
+<p class="centeredParagraph">Dern it! Need to go to a government office? Let us help you find one. We can also help you locate fun stuff like parks and libraries.</p>
+<h3 style="color: black;">What are you looking for?</h3>
+</div>
+<div class="spinner map-spinner"></div>
+<iframe id="mapIframe" src="" title="The map loads in this frame after it is activated">Your browser does not support inline frames or is currently configured not to display inline frames</iframe>
+
+<div class="mapControls">
+<fieldset class="newset">
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="0" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_0" class="map_checkbox">All <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="8" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_8" class="map_checkbox">State Agency <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="7" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_7" class="map_checkbox">Rest Area <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="6" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_6" class="map_checkbox">Park <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="5" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_5" class="map_checkbox">Library <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="4" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_4" class="map_checkbox">Job Center <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="2" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_2" class="map_checkbox">Courthouse <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="1" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_1" class="map_checkbox">County Clerk <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="3" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_3" class="map_checkbox">Driver License <span class="visuallyhidden">on map.</span>
+</label>
+<label class="newlabel">
+	<span class="visuallyhidden">Select to show</span> <input type="checkbox" value="9" name="wpgmza_cat_checkbox" id="wpgmza_cat_checkbox_9" class="map_checkbox">Vehicle Registration <span class="visuallyhidden">on map.</span>
+</label>
+</fieldset>
+<button class="transButton" id="activateMap">Activate Map</button>
+</div>
+    
+
+</section>
+<!-- 28 = Info  -->
+<section tabindex="-1" id="info" class="post-28 sections type-sections status-publish format-standard has-post-thumbnail hentry language-en infoSection">
+  <div class="translucentBackground">
+    <h2 class="entry-title">Info</h2>
+    <p class="centeredParagraphBlack">
+  Here’s a bunch of really great general information.<br>
+  We’ve wrangled it together by subject for easy browsing.
+</p>
+<div class="translucentLinks">
+  <ul>
+    <li><a href="#" id="info_government">Government</a></li>
+    <li><a href="#" id="info_live">Live</a></li>
+    <li><a href="#" id="info_work">Work</a></li>
+    <li><a href="#" id="info_explore">Explore</a></li>
+  </ul>
+</div>
+<button type="button" name="Welcome" title="View more info" id="infoButton" class="transButton">More Info</button>
+
+<div class="photo-credits theme_americana">
+  <a title="'Tracking to Downtown' by Dan Huntley" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_symbols">
+  <a title="'Mockingbird on bush with red berries' by John Wijsman" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_city">
+  <a title="'San Antonio Riverwalk' by David Sucsy" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>  </div>
+</section>
+
+<!-- 40 = Socialize  -->
+<section tabindex="-1" id="social" class="post-40 sections type-sections status-publish format-standard hentry language-en socialize" here>
+    <h2 class="entry-title">Socialize</h2>
+    <p class="centered p__centered p__important">#GetEngaged<br>
+Connect with Texas government here – one tweet, post, video, pin, or picture at a time!</p>
+
+
+
+
+	<!-- Flow-Flow — Social streams plugin for Wordpress -->
+	<style type="text/css" id="ff-dynamic-styles-45">
+	#ff-stream-45 .ff-header h1,#ff-stream-45 .ff-controls-wrapper > span:hover { color: rgb(154, 78, 141); }
+	#ff-stream-45 .ff-controls-wrapper > span:hover { border-color: rgb(154, 78, 141) !important; }
+	#ff-stream-45 .ff-header h2 { color: rgb(114, 112, 114); }
+	#ff-stream-45 .ff-filter-holder .ff-filter,
+	#ff-stream-45 .ff-filter-holder:before,
+	#ff-stream-45 .ff-loadmore-wrapper .ff-btn:hover {
+		background-color: rgb(205, 205, 205);
+	}
+	#ff-stream-45 .ff-filter:hover,
+	#ff-stream-45 .ff-filter.ff-filter--active,
+	#ff-stream-45 .ff-moderation-button,
+	#ff-stream-45 .ff-loadmore-wrapper .ff-btn,
+	#ff-stream-45 .ff-square:nth-child(1) {
+		background-color: rgb(154, 78, 141);
+	}
+	#ff-stream-45 .ff-filter-holder .ff-search input {
+		border-color: rgb(205, 205, 205);
+	}
+	#ff-stream-45 .ff-filter-holder .ff-search:after {
+		color: rgb(205, 205, 205);
+	}
+	#ff-stream-45, #ff-stream-45 .ff-popup,
+	#ff-stream-45 .ff-search input,
+	#ff-stream-45.ff-layout-compact .picture-item__inner {
+		background-color: rgba(229, 229, 229, 0);
+	}
+        #ff-stream-45 .ff-search input {
+        background-color: rgb(205, 205, 205);
+    }
+    #ff-stream-45 .ff-search input,
+    #ff-stream-45 .ff-filter-holder .ff-search:after {
+        color: #FFF;
+    }
+                	#ff-stream-45 .ff-header h1, #ff-stream-45 .ff-header h2 {
+		text-align: center;
+	}
+	#ff-stream-45 .ff-controls-wrapper, #ff-stream-45 .ff-controls-wrapper > span {
+		border-color: rgb(205, 205, 205);
+	}
+	#ff-stream-45 .ff-controls-wrapper, #ff-stream-45 .ff-controls-wrapper > span {
+		color: rgb(205, 205, 205);
+	}
+		#ff-stream-45 .ff-item, #ff-stream-45 .shuffle__sizer{
+		width:  260px;
+	}
+	#ff-stream-45 .ff-item {
+		margin-bottom: 20px !important;
+	}
+	#ff-stream-45 .shuffle__sizer {
+		margin-left: 20px !important;
+	}
+			#ff-stream-45  .picture-item__inner {
+		background: rgb(255, 255, 255);
+		color: rgb(85, 85, 85);
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+	}
+	#ff-stream-45 .ff-share-wrapper a,
+	#ff-stream-45 .ff-mob-link,
+	#ff-stream-45-slideshow .ff-share-wrapper a {
+		background-color: rgb(85, 85, 85);
+	}
+	#ff-stream-45 .ff-share-wrapper a:after,
+	#ff-stream-45 .ff-mob-link:after,
+	#ff-stream-45-slideshow .ff-share-wrapper a:after {
+		color: rgb(255, 255, 255);
+	}
+	#ff-stream-45,
+	#ff-stream-45-slideshow {
+		color: rgb(85, 85, 85);
+	}
+	#ff-stream-45 li,
+	#ff-stream-45-slideshow li,
+	#ff-stream-45 .ff-square {
+		background: rgb(255, 255, 255);
+	}
+	#ff-stream-45 .ff-icon, #ff-stream-45-slideshow .ff-icon {
+		border-color: rgb(255, 255, 255);
+	}
+	#ff-stream-45 .ff-style-2 .ff-icon:after {
+		text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+	}
+	#ff-stream-45  a, #ff-stream-45-slideshow  a{
+		color: rgb(94, 159, 202);
+	}
+
+	#ff-stream-45 h4, #ff-stream-45-slideshow h4,
+	#ff-stream-45 .ff-name, #ff-stream-45-slideshow .ff-name {
+		color: rgb(154, 78, 141) !important;
+	}
+	#ff-stream-45 .ff-share-wrapper a:hover,
+	#ff-stream-45 .ff-mob-link:hover,
+	#ff-stream-45-slideshow .ff-share-wrapper a:hover {
+		background-color: rgb(154, 78, 141);
+	}
+	#ff-stream-45 .ff-nickname,
+	#ff-stream-45-slideshow .ff-nickname,
+	#ff-stream-45 .ff-timestamp,
+	#ff-stream-45-slideshow .ff-timestamp {
+		color: rgb(132, 118, 129) !important;
+	}
+	#ff-stream-45 .ff-item {
+		text-align: left;
+	}
+	#ff-stream-45 .ff-theme-classic.ff-style-1 .ff-item-meta:before,
+	#ff-stream-45 .ff-theme-classic.ff-style-2 .ff-item-meta:before,
+	#ff-stream-45 .ff-theme-classic.ff-style-6 .ff-item-meta:before,
+	#ff-stream-45 .ff-item-meta,
+	#ff-stream-45-slideshow .ff-item-meta {
+		border-color: rgba(240, 237, 231, 0.4);
+	}
+						</style>
+	<div class="ff-stream" id="ff-stream-45"><span class="ff-loader"><span class="ff-square" ></span><span class="ff-square"></span><span class="ff-square ff-last"></span><span class="ff-square ff-clear"></span><span class="ff-square"></span><span class="ff-square ff-last"></span><span class="ff-square ff-clear"></span><span class="ff-square"></span><span class="ff-square ff-last"></span></span></div>
+
+	<script type="text/javascript">
+
+		(function ( $ ) {
+			"use strict";
+			var hash = '1462894416.1cf3a91ed674aad2a19f2086290dd0e7487a3829eeabc6aace94f2d3765cf5b34daaf81598a6cec6c10485285c927670';
+			if (/MSIE 8/.test(navigator.userAgent)) return;
+			var opts = window.FlowFlowOpts;
+            var isLS = isLocalStorageNameSupported();
+			if (!opts) {
+				window.console && window.console.log('no Flow-Flow options');
+				return;
+			}
+			if (!window.FF_resource) {
+				window.console && window.console.log('no required script');
+				return
+			}
+			var data = {
+				'action': 'fetch_posts',
+				'stream-id': '45',
+				'disable-cache': '',
+				'hash': hash,
+				'page': '0',
+				'preview': '0'
+			};
+			var isMobile = /android|blackBerry|iphone|ipad|ipod|opera mini|iemobile/i.test(navigator.userAgent);
+			var streamOpts = {"id":"45","name":"Texas.gov Full Stream 5","moderation":"nope","order":"smartCompare","posts":"4","days":"","page-posts":"12","cache":"yep","cache-lifetime":"120","gallery":"yep","private":"nope","hide-on-desktop":"nope","hide-on-mobile":"yep","show-only-media-posts":"nope","titles":"nope","hidemeta":"nope","hidetext":"nope","heading":"","headingcolor":"rgb(154, 78, 141)","subheading":"","subheadingcolor":"rgb(114, 112, 114)","hhalign":"center","bgcolor":"rgba(229, 229, 229, 0)","filter":"nope","filtercolor":"rgb(205, 205, 205)","mobileslider":"nope","viewportin":"yep","layout":"grid","width":"260","margin":"20","theme":"classic","gc-style":"style-1","cardcolor":"rgb(255, 255, 255)","namecolor":"rgb(154, 78, 141)","textcolor":"rgb(85, 85, 85)","linkscolor":"rgb(94, 159, 202)","restcolor":"rgb(132, 118, 129)","shadow":"rgba(0, 0, 0, 0.05)","bcolor":"rgba(240, 237, 231, 0.4)","talign":"left","gf-style":"style-3","fcardcolor":"rgb(64, 68, 71)","fscardcolor":"rgb(44, 45, 46)","ftextcolor":"rgb(255, 255, 255)","fnamecolor":"rgb(94, 191, 255)","frestcolor":"rgb(175, 195, 208)","fbcolor":"rgba(255, 255, 255, 0.4)","mborder":"nope","ftalign":"center","compact-style":"c-style-1","cnamecolor":"rgb(154, 78, 141)","ctextcolor":"rgb(85, 85, 85)","clinkscolor":"rgb(94, 159, 202)","crestcolor":"rgb(132, 118, 129)","cbcolor":"rgb(226, 226, 226)","cmeta":"upic","calign":"left","cards-num":"3","scrolltop":"yep","css":"","feeds":"[{\"timeline-type\":\"page_timeline\",\"content\":\"TDLRLicense\",\"id\":\"hs94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TXVLB\",\"id\":\"hl94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"texasveteranscommission\",\"id\":\"nd94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TexasDSHS\",\"id\":\"dn94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"texasparksandwildlife\",\"id\":\"cv94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TexasAHC\",\"id\":\"bd94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"statefairoftx\",\"id\":\"sp94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TexasLottery\",\"id\":\"dd94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TexasEducationAgency\",\"id\":\"jn94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TxDOT\",\"id\":\"fv94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TexasDepartmentofAgriculture\",\"id\":\"gp94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TexasDFPS\",\"id\":\"vz94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"txsecretary\",\"id\":\"mo94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TexasHistoricalCommission\",\"id\":\"xj94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"Texas.gov\",\"id\":\"fd94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"txglo\",\"id\":\"cx94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"page_timeline\",\"content\":\"TxDPS\",\"id\":\"ym94253\",\"type\":\"facebook\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TXCommArts\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"de94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"BullockMuseum\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"iz94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"teainfo\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"jl94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TexasDFPS\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"bt94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TexasVLB\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"sh94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TSLAC\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"pt94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TDLRLicense\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"es94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TexasLottery\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"il94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"lcra\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"nz94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TxDMV\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"nc94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"Txdps\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"cb94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"TexasDIR\",\"list-name\":\"\",\"lang\":\"all\",\"retweets\":\"yep\",\"replies\":\"yep\",\"id\":\"dr94253\",\"type\":\"twitter\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"53320630@N07\",\"hide-text\":\"nope\",\"id\":\"dq94253\",\"type\":\"flickr\",\"filter-by-words\":\"\"},{\"timeline-type\":\"user_timeline\",\"content\":\"9998396@N02\",\"hide-text\":\"nope\",\"id\":\"dw94253\",\"type\":\"flickr\",\"filter-by-words\":\"\"},{\"content\":\"texasgov\",\"hide-text\":\"nope\",\"id\":\"ep94253\",\"type\":\"pinterest\",\"filter-by-words\":\"\"},{\"content\":\"myplates\",\"hide-text\":\"nope\",\"id\":\"cr94253\",\"type\":\"pinterest\",\"filter-by-words\":\"\"}]","preview":false};
+            opts.streams['stream' + streamOpts.id] = streamOpts;
+			var $cont = $("#ff-stream-"+data['stream-id']);
+			var ajaxDeferred;
+			var script, style;
+			if (FF_resource.scriptDeferred.state() === 'pending' && !FF_resource.scriptLoading) {
+				script = document.createElement('script');
+				script.src = "http://www.texas.gov/wp-content/plugins/flow-flow/js/public.js";
+				script.onload = function( script, textStatus ) {
+					FF_resource.scriptDeferred.resolve();
+				};
+				document.body.appendChild(script);
+				FF_resource.scriptLoading = true;
+			}
+			if (FF_resource.styleDeferred.state() === 'pending' && !FF_resource.styleLoading) {
+				style = document.createElement('link');
+				style.type = "text/css";
+                style.id = "ff_style";
+                style.rel = "stylesheet";
+				style.href = "http://www.texas.gov/wp-content/plugins/flow-flow/css/public.css";
+				style.media = "screen";
+				style.onload = function( script, textStatus ) {
+					FF_resource.styleDeferred.resolve();
+				};
+				document.getElementsByTagName("head")[0].appendChild(style);
+				FF_resource.styleLoading = true;
+			}
+			$cont.addClass('ff-layout-' + streamOpts.layout);
+			if (streamOpts.layout == 'grid' && !isMobile) $cont.css('minHeight', '1000px');
+			ajaxDeferred = isLS && sessionStorage.getItem(hash) ? {} : $.get(opts.ajaxurl, data)
+;
+			$.when( ajaxDeferred, FF_resource.scriptDeferred, FF_resource.styleDeferred ).done(function ( data ) {
+				var response, $errCont, err;
+                var moderation = 0;
+                var original = (isLS && sessionStorage.getItem(hash)) ? sessionStorage.getItem(hash) : data[0];
+				try {
+					response = JSON.parse(original);
+				} catch (e) {
+					window.console && window.console.log('Flow-Flow gets invalid data from server');
+					if (opts.isAdmin || opts.isLog) {
+						$errCont = $('<div class="ff-errors" id="ff-errors-invalid-response"><div class="ff-disclaim">If you see this message then you have administrator permissions and Flow-Flow got invalid data from server. Please provide error message below if you are doing support request.<\/div><div class="ff-err-info"><\/div><\/div>');
+						$cont.before($errCont);
+						$errCont.find('.ff-err-info').html(original == '' ? 'Empty response from server' : original)
+					}
+					return;
+				}
+                opts.streams['stream' + streamOpts.id]['items'] = response;
+                if (!FlowFlowOpts.dependencies) FlowFlowOpts.dependencies = {};
+				                var requests = [];
+                var request, extension, style;
+
+                for ( extension in FlowFlowOpts.dependencies ) {
+                    if ( FlowFlowOpts.dependencies[extension] && FlowFlowOpts.dependencies[extension] !== 'loaded') {
+                        request = $.getScript( opts.plugin_base + '-' + extension + '/js/ff_' + extension + '_public.js');
+                        requests.push(request);
+
+                        style = document.createElement('link');
+                        style.type = "text/css";
+                        style.rel = "stylesheet";
+                        style.id = "ff_ad_style";
+                        style.href = opts.plugin_base + '-' + extension + '/css/ff_' + extension + '_public.css';
+                        style.media = "screen";
+                        document.getElementsByTagName("head")[0].appendChild(style);
+
+                        FlowFlowOpts.dependencies[extension] = 'loaded';
+                    }
+                }
+
+                var resourcesLoaded = $.when.apply($, requests);
+
+                resourcesLoaded.done(function(){
+                    var $stream, width;
+                    $stream = FlowFlow.buildStreamWith(response, streamOpts, moderation, FlowFlowOpts.dependencies);
+                    if (isLS && response.items.length > 0 && response.hash.length > 0) sessionStorage.setItem(response.hash, original);
+                    var num = streamOpts.layout === 'compact' || (streamOpts.mobileslider === 'yep' && isMobile)? (streamOpts.mobileslider === 'yep' ? 3 : streamOpts['cards-num']) : false;
+                    if (streamOpts.layout === 'compact') {
+                        width = $cont.parent().width();
+                        FlowFlow.adjustImgHeight($stream, (width > 300 ? 300 : width) - 72);
+                    }
+                    $cont.append($stream);
+                    if (typeof $stream !== 'string') {
+                        FlowFlow.setupGrid($cont.find('.ff-stream-wrapper'), num, streamOpts.scrolltop === 'yep', streamOpts.gallery === 'yep', streamOpts, $cont);
+                    }
+                    setTimeout(function(){
+                        $cont.find('.ff-header').removeClass('ff-loading').end().find('.ff-loader').addClass('ff-squeezed');
+                    }, 0);
+
+	                
+                }).fail(function(){
+                    console.log('Flow-Flow: resource loading failed')
+                });
+
+                var isErr = response.status === "errors";
+                if ((opts.isAdmin || opts.isLog) && isErr) {
+					$errCont = $('<div class="ff-errors" id="ff-errors-'+response.id+'"><div class="ff-err-info">If you see this then you are administrator and Flow-Flow got errors from APIs while requesting data. Please go to plugin admin and after refreshing page check for error(s) on stream settings page. Please provide error message info if you are doing support request.<\/div><\/div>');
+					$cont.before($errCont);
+				}
+
+                if (opts.isAdmin && response.status === 'building') {
+                    window.console && window.console.log(response);
+                    $cont.prepend($('<div id="ff-admin-info">ADMIN INFO: Feeds cache is being built in background. Please wait for changes to apply. Page reload is required.<\/div>'));
+                }
+			});
+
+            function isLocalStorageNameSupported() {
+                var testKey = 'test', storage = window.sessionStorage;
+                try {
+                    storage.setItem(testKey, '1');
+                    storage.removeItem(testKey);
+                    return true;
+                } catch (error) {
+                    return false;
+                }
+            };
+
+			return false;
+		}(jQuery));
+	</script>
+	<!-- Flow-Flow — Social streams plugin for Wordpress -->
+
+
+
+<a class="visuallyhidden skiplink" href="#beforeSocialMedia" id="afterSocialMedia">Skip Before Social Media Section</a>
+<style>
+#socialButton {
+  display:block;
+}
+</style>
+<button type="button" name="More social media" title="More social media" id="socialButton" class="buttons">More Social Media</button></section>
+<!-- 20 = Records -->
+<section tabindex="-1" id="records" class="post-20 sections type-sections status-publish format-standard has-post-thumbnail hentry language-en recordsSection">
+  <div class="translucentBackground">
+    <h2 class="entry-title">Records</h2>
+    <p class="centeredParagraphBlack">Official state documents! Order vital records, print driver records, and more &#8211; straight from the horse’s mouth.</p>
+<div class="translucentLinks">
+  <ul>
+    <li><a href="https://txapps.texas.gov/tolapp/ovra/index.htm" data-linktype="outbound">Birth Certificate &amp; Verification</a></li>
+    <li><a href="https://txapps.texas.gov/tolapp/ovra/index.htm" data-linktype="outbound">Death Certificate &amp; Verification</a></li>
+    <li><a href="https://txapps.texas.gov/tolapp/txldrcdr/TXDPSLicenseeManager?utm_source=texasgov&#038;utm_medium=records_LDR&#038;utm_campaign=driver_2015" data-linktype="outbound">Personal Driver Records</a></li>
+    <li><a href="https://txapps.texas.gov/tolapp/txldrcdr/TXDPSContractorManager" data-linktype="outbound">Contractor Driver Records</a></li>
+  </ul>
+</div> <!-- /.translucentLinks -->
+<button type="button" name="Welcome" title="View more records" id="recordsButton" class="transButton">More Records</button>
+<div style="overflow:hidden;">
+  <div class="videoContactSocial">
+    <a href="https://www.dps.texas.gov/" class="titleLink" data-linktype="outbound">Department of Public Safety</a>
+    <p>(They handle driver records)</p>
+    <div class="vcsSpan">
+      <span><a href="http://txdps.state.tx.us/DriverLicense/customer_service/default.aspx" data-linktype="outbound"><span class="visuallyhidden">Department of Public Safety </span>Customer Service</a></span>
+    </div>
+  </div> <!-- /.videoContactSocial -->
+  <div class="videoContactSocial secondContact">
+    <a href="https://www.dshs.state.tx.us/" class="titleLink" data-linktype="outbound">Department of State Health Services</a>
+    <p>(They handle vital records)</p>
+    <div class="vcsSpan">
+      <span><a href="https://www.dshs.state.tx.us/contact.shtm" data-linktype="outbound"><span class="visuallyhidden">Department of State Health Services </span>Customer Service</a></span>
+    </div>
+  </div> <!-- /.videoContactSocial secondContact -->
+</div>
+
+<div class="photo-credits theme_americana">
+  <a title="'Roadhouse Relics' by Anthony Quintano" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_symbols">
+  <a title="'Plum Creek Bridge, Former Old US 90, Luling, Texas' by Patrick Feller" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>
+<div class="photo-credits theme_city">
+  <a title="'Houston' Katie Haugland" class="simple-tooltip">
+    <span class="fa fa-camera"></span>
+    <p>Photo Credits</p>
+  </a>
+</div>  </div>
+</section>
+								</section>
+
+							
+						</main>
+				</div>
+
+			</div>
+
+
+			<footer class="footer-container white">
+				<div class="insideContent">
+					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<ul id="menu-footer-menu-items-english" class="footer-nav cf  footerLinkBar clearfix"><li id="menu-item-322" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-322"><a title="Sometimes it’s just easier to ask. That’s okay, we’re Texas friendly!" href="#help">Help</a></li>
+<li id="menu-item-321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-321"><a title="Have a question? We might already have the answer!" href="#faq">FAQ</a></li>
+<li id="menu-item-9168" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9168"><a title="All the important legalese that ensures we’re doing right by you. " href="#policies">Policies</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-320"><a title="The story behind Texas.gov is a good one. Read on!" href="#about">About</a></li>
+<li id="menu-item-323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-323"><a title="Extra cool odds and ends can be found here. " href="#extras">Extras</a></li>
+<li id="menu-item-9606" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9606"><a title="We don’t just pay lip service to this topic. Open data starts here!" href="#opendata">Open Data</a></li>
+</ul>					</nav>
+
+					<div id="about" class="about--content footer--section" role="complementary">
+	<div id="text-4" class="text-4 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">So what exactly do we do?</h2>			<div class="textwidget"><p>Quite simply, we help make Texas a great place to live and work by offering easy access to government information and more than 1,000 convenient, secure online services. Take a <a href="https://www.youtube.com/watch?v=RhKO_ZWq7ik" data-linktype="outbound">tour</a> of our new one-page website!</p>
+<p>We also work with state and local governments to help them process online payments and put their services online.</p>
+<p>We operate without tax funds through a public-private partnership between the State of Texas and Texas NICUSA, LLC. Texas NICUSA is a subsidiary of <span><a href="http://www.egov.com" data-linktype="outbound">NIC</a></span>, the nation’s leading provider of official government portals, online services, and secure payment processing solutions. </p>
+</div>
+		</div><div id="text-9" class="text-9 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">It&#8217;s not bragging if it&#8217;s true</h2>			<div class="textwidget"><p>Since we were born in 2000, our Texas.gov program has securely processed 254 million+ online transactions worth $33 billion+ on behalf of our government partners. And, we’ve contributed $178 million in new revenue to the State’s General Revenue Fund.</p>
+<p>We’re also award-winning! Check out our impressive <a href="http://www.texas.gov/en/Solutions/Pages/Success-Stories.aspx" data-linktype="outbound">trophy case</a>.</p>
+</div>
+		</div><div id="text-10" class="text-10 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Want to hear more?</h2>			<div class="textwidget"><p>Learn more about how we help governments streamline business processes, create cost savings, and operate more efficiently at <span><a href="http://solutions.portal.texas.gov/" >Texas.gov/Solutions.</a></span></p>
+</div>
+		</div></div> 					<div id="faq" class="faq--content footer--section" role="complementary">
+	<div id="text-26" class="text-26 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Online Services</h2>			<div class="textwidget"><p>What online services does Texas.gov offer?</p>
+<p>
+Texas.gov lets you securely complete hundreds of government services online. We’ve organized these services by category in our awesome <a href="#/" id="servFindIt">FIND IT</a> area.
+</p>
+<p>
+<a href="#/" id="servBizPro">Business & Professional:</a>
+</p>
+<p>
+Pay business sales tax, find jobs, and maintain your Texas professional or occupational license. 
+</p>
+<p>
+<a href="#/" id="servDriTran">Driving & Transportation:</a>
+</p>
+<p>
+Renew your driver license or car registration, or driver records, and purchase specialty plates.
+</p>
+<p>
+<a href="#/" id="servLiPerm">Licenses & Permits:</a>
+</p>
+<p>
+Purchase, apply for, or renew various state licenses, registrations, and permits.
+</p>
+<p>
+<a href="#/" id="servPubRec">Public Records:</a>
+</p>
+<p>
+Order official documents like birth certificates, driver records, etc.
+</p>
+<p>
+<a href="#/" id="servMore">More:</a>
+</p>
+<p>
+Some of our online services don’t quite fit in the categories above. If you didn’t find what you need, look for it <a href="#/" id="servMoreHere">here</a>. 
+</p></div>
+		</div><div id="text-27" class="text-27 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Government</h2>			<div class="textwidget"><p>
+How can I get more information about a Texas state agency?
+</p>
+<p>
+Access general information about each state agency <a href="#/" id="govAgen">here</a>.   
+</p>
+<p>
+Where can I find voting information?
+</p>
+<p>
+Find your polling place and find out if you are registered by visiting the <a href="http://www.votetexas.gov/voting/where" data-linktype="outbound">VoteTexas.gov website</a> and entering your personal voter information. 
+</p>
+<p>
+Where can I find information about the Texas Legislature and Judiciary? 
+</p>
+<p>
+Visit the <a href="http://www.capitol.state.tx.us/" data-linktype="outbound">Texas Legislature website</a> and the <a href="http://www.txcourts.gov/">Texas Courts website</a> for information.
+</p>
+<p>
+<b><i>For more information about Texas Government, such as open data, social media profiles, cities and counties, and more, please visit <a href="#/" id="govFindIt">FIND IT</a>.</i></b></p></div>
+		</div><div id="text-28" class="text-28 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Living in Texas</h2>			<div class="textwidget"><p>
+How do I find a college or university in Texas?
+</p>
+<p>
+Find colleges and universities in Texas by visiting the <a href="http://www.collegeforalltexans.com/apps/CollegeLocator" data-linktype="outbound">College for all Texans website</a>. 
+</p>
+<p>
+How do I find out about the schools in my city/town?
+</p>
+<p>
+Visit the Texas Education Agency <a href="http://mansfield.tea.state.tx.us/tea.askted.web/Forms/Home.aspx" data-linktype="outbound">AskTED website</a> to learn more. 
+</p>
+<p>  
+Where can I get more information about health care insurance in Texas?
+</p>
+<p>
+Visit the <a href="http://www.texashealthoptions.com/" data-linktype="outbound">Texas Health Options website</a> for access to extensive information about Texas health care coverage and insurance options.
+</p>
+<p>
+Where can I get information about public health emergencies?
+</p>
+<p>
+Visit the Department of State Health Services <a href="http://www.dshs.state.tx.us/preparedness/default.shtm" data-linktype="outbound">Public Health Preparedness</a> page for information, resources, and tips to keep you and your family safe.
+</p>
+<p>
+<b><i>For more information about Living in Texas, such as assistance & benefits, education, health & wellness, and more, please visit <a href="#/" id="liveFindIt">FIND IT</a>.</i></b>
+</p></div>
+		</div><div id="text-29" class="text-29 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Working in Texas</h2>			<div class="textwidget"><p>
+How do I start a business in Texas? 
+</p>
+<p>
+Visit <a href="#work"> Texas.gov/Work</a> for information from multiple government resources related to starting a new business.
+</p>
+<p> 
+How do I find a job in Texas?
+</p>
+<p>
+Visit the <a href="#/" id="workJobs">Jobs section</a> in Find It for extensive job search information.
+</p>
+<p>
+Where can I get information about unemployment benefits?
+</p>
+<p>
+Visit the <a href="http://www.twc.state.tx.us/" data-linktype="outbound">Texas Workforce Commission website</a> to learn more about unemployment benefits in Texas, including how to apply online.
+</p>
+<p>
+How can I get workers compensation in Texas?
+</p>
+<p>
+Find links to information and resources on the <a href="http://www.tdi.texas.gov/wc/index.html" data-linktype="outbound">Texas Department of Insurance website</a>.
+</p>
+<p>
+<b><i>For more information about Working in Texas, such as assistance & benefits, training & resources, and more, please visit <a href="#" id="workFindIt">FIND IT</a>.</i></b>
+</p></div>
+		</div><div id="text-30" class="text-30 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Exploring Texas</h2>			<div class="textwidget"><p>
+How do I become a Texas resident?
+</p>
+<p>
+Visit the following links for information about residency requirements: <a href="http://www.txdps.state.tx.us/DriverLicense/residencyReqNonCDL.htm" data-linktype="outbound">Driver License</a>, <a href="http://txdmv.gov/motorists/new-to-texas">Vehicle Registration</a>, and <a href="http://www.sos.state.tx.us/elections/voter/reqvr.shtml" data-linktype="outbound">Voting</a>.
+</p>
+<p>
+How can I find information about traveling in Texas? 
+</p>
+<p>
+Visit the <a href="http://traveltex.com/" data-linktype="outbound">Travel Tex website</a> for more information about tourism and travel in Texas.  
+</p>
+<p>
+Where can I find information about Texas parks? 
+</p>
+<p>
+Visit the Texas Parks and Wildlife Department's <a href="http://tpwd.texas.gov/features/50years/" data-linktype="outbound">"Life's Better Outside" website</a> for information about Texas State parks and outdoor activities.  
+</p>
+<p>
+<b><i>For more information about Exploring Texas, including recreation and travel, moving to Texas, and doing business in Texas, please visit <a href="#/" id="expFindIt">FIND IT</a>.</i></b>
+</p></div>
+		</div><div id="text-31" class="text-31 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">About Texas.gov</h2>			<div class="textwidget"><p>
+What is the ‘Texas.gov price’?
+</p>
+<p>
+The price of the Texas.gov online services includes funds that support the ongoing operations and enhancements of Texas.gov.
+</p>
+<p> 
+How does the Texas.gov website protect personal data? 
+</p>
+<p>
+The State and participating agencies own the information collected by applications on the Texas.gov website. The owner of each application directs how that data is used and released to the public according to applicable laws. Texas.gov has a <a href="#" id="secPol">separate privacy and security policy</a> which details how information is collected and handled.
+</p>
+<p>
+Is the Texas.gov website secure? 
+</p>
+<p>
+Texas NICUSA, LLC maintains the security of Texas.gov to the highest standards of government, commercial, and financial institutions. Our current security standards comply with Payment Card Industry Data Security Standards (PCI-DSS), Texas Administrative Code (TAC) 202, and the Texas Public Information Act (Texas Government Code Chapter 552), as well as industry best practices that include the following organizations: The Information Technology Laboratory (ITL) of the National Institute of Standards and Technology (NIST) and The Software and Network Security Institute (SANS).
+</p>
+<p>
+Is the Texas.gov website accessible for people with disabilities?
+</p>
+<p>
+Texas.gov is compliant with the Americans for Disabilities Act and Section 508 of the Rehabilitation Act of 1973.
+</p>
+<p>
+<b><i>For more information about the Texas.gov program, please visit <a href="http://www.texas.gov/solutions" data-linktype="outbound">Texas.gov/Solutions</a>. </i></b>
+</p></div>
+		</div><div id="text-32" class="text-32 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Technical Support</h2>			<div class="textwidget"><p>
+The Texas.gov service that I'm trying to access is unavailable. Who should I contact?
+</p>
+<p>
+If you experience technical difficulties while accessing a Texas.gov service, call toll-free 1-877-452-9060, send an email to <a href="mailto:support@texasgovhelpdesk.com" data-linktype="outbound">support@texasgovhelpdesk.com</a>, or start a <a href="http://chat.texasgovhelpdesk.com:9090/webchat/start.html" target="_blank">Live Chat session</a>.
+</p></div>
+		</div></div>  					<div id="policies" class="policies--content footer--section" role="complementary" >
+	<div id="text-40" class="text-40 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Accessibility Policy</h2>			<div class="textwidget"><p>Texas.gov is committed to providing a web presence that enables full public access to Texas government information and services. As such, Texas.gov complies with high accessibility standards to meet the needs of users with disabilities. <a href="#" id="acc_policy_more" class="footer_more_link" data-link="extra_acc_content">More</a></p>
+
+<div class="extra_acc_content extra_footer_content">
+
+<h3>Disability Barriers</h3>
+<p>Disabilities come in many forms, including but not limited to hearing impairment, visual impairment, and cognitive disorders. Reasonable efforts will be made to accommodate all users who utilize standards compliant web browsers, enabling software, or assistive devices. </p>
+<h3>Standard for Compliance</h3>
+<p>To ensure the usability of Texas.gov for site visitors with access and functional needs, we stay up to date on current accessibility practices, including Texas Administrative Code, chapters <a href="http://info.sos.state.tx.us/pls/pub/readtac$ext.ViewTAC?tac_view=4&amp;ti=1&amp;pt=10&amp;ch=206" data-linktype="outbound">206</a> and <a href="http://info.sos.state.tx.us/pls/pub/readtac$ext.ViewTAC?tac_view=4&amp;ti=1&amp;pt=10&amp;ch=213" data-linktype="outbound">213</a>, and conduct testing throughout development of the website and when applying new technologies and advancements.&nbsp;We use various testing tools, such as <a href="http://www.freedomscientific.com/products/fs/jaws-product-page.asp" data-linktype="outbound">JAWS screen reader</a> and <a href="http://www.hisoftware.com/solutions/hisoftware-compliance-sheriff.aspx" data-linktype="outbound">Compliance Sheriff</a>, to verify that Texas.gov is in compliance with <a href="http://www.section508.gov/" data-linktype="outbound">Section 508</a>. Additional accessibility reviews are conducted by volunteers of independent organizations to supplement internal evaluations by Texas.gov.&nbsp;&nbsp; </p>
+<h3>Accessibility in Texas</h3>
+<p>Additional information about accessibility programs in Texas is available from the <a href="http://www.governor.state.tx.us/disabilities/" data-linktype="outbound">Governor's Committee on People with Disabilities</a>. </p>
+<h3>Contact Information</h3>
+<p>If you use assistive technology and the format of any material on our website interferes with your ability to access the information, please email <a href="mailto:txgov@dir.texas.gov" data-linktype="outbound">txgov@dir.texas.gov</a>. In your message, please indicate the nature of your accessibility problem, the preferred format in which to receive the requested material, the web address of the requested material, and your contact information so that we may best serve you.</p>
+<p>
+If you have any questions or concerns about the Texas.gov Accessibility Policy, please contact us at <a href="mailto:txgov@dir.texas.gov" data-linktype="outbound">txgov@dir.texas.gov</a>. For information about the accessibility of Texas.gov social media tools, refer to the Texas.gov Social Media Policies.</p>
+<p>
+Each state agency and local government has its own accessibility policy; refer to an individual agency’s policies for more information about its compliance with accessibility standards. 
+</p>
+<h3>Offline Communication with Texas.gov</h3>
+<p>If you need to contact us via a telecommunications device for the deaf (TDD), dial 7-1-1 and ask the Relay Texas agent to call the Texas.gov webmaster at (512) 475-4700. Relay Texas provides telephone-interpreting service between people who can hear and those who are deaf, hard-of-hearing, deaf-blind or speech-disabled. For additional information please visit the <a href="http://www.puc.texas.gov/relaytexas/relay/relay.aspx" data-linktype="outbound">Relay Texas web site</a>.</p>
+</div></div>
+		</div><div id="text-41" class="text-41 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Privacy and Security Policy</h2>			<div class="textwidget"><p>At Texas.gov, your privacy is one of our top priorities. This policy describes the privacy and security practices regarding information collected from Texas.gov site visitors. <a href="#" id="sec_policy_more" class="footer_more_link" data-link="extra_sec_content">More</a></p>
+
+<div class="extra_sec_content extra_footer_content">
+<p>The Texas.gov Privacy and Security Policy applies only to the Texas.gov site. This policy does not apply whenever visitors leave Texas.gov domains by clicking a link to an external site, including the sites of state agencies and local governments. The Texas.gov linking policy includes more information about links from Texas.gov to external sites.
+</p>
+<h3>Collection of Information</h3>
+<p>For online transactions conducted on Texas.gov, individuals will be requested to enter information about themselves and/or the organization with which they are affiliated. When personally identifiable information is requested, there will be an indication of whether the disclosure of such information is mandatory or optional to continue the transaction. The type of information requested will vary based upon the type of transaction and the state agency or local government involved in the transaction with the individual. Texas.gov will collect the same information as would be collected if the transaction was performed in person, over the telephone, or through the mail with the state agency or local government. Additional information may be requested if required by law, if such information is necessary to verify an individual’s identity and secure the transaction, or if the visitor voluntarily elects to receive information from state agencies, local governments, or Texas.gov. </p>
+<p>For general use or browsing of Texas.gov, visitors are not asked for personally identifiable information, and none will be collected. Texas.gov uses server logs and persistent cookies to collect information about the number and types of visitors to Texas.gov and how they use the website. This information includes the type of browser, operating system, and the Internet Protocol ("IP") address used by each visitor and similar information about the computer network used. It also includes information verifying when and how pages of the website were accessed. However, no attempt is made to match this information with the identity of the visitor, except as is required to comply with a law enforcement investigation. For more information regarding cookies, see below.</p>
+<h3>Children’s Online Privacy Protection Act</h3>
+<p>Children under the age of 13 are not eligible to use services that require submission of personal information and should not submit any personal information to us. This includes submitting personal information to the website as part of a user profile or personalization profile. If you are a child under the age of 13, you can use these services only if used together with your parents or guardians. Seek guidance from your parents or guardians if you are under the age of 13.</p>
+<p>If we decide to begin collecting personal information from children under the age of 13, we will notify parents that it is being requested, disclose the reasons for collecting it, and disclose our intended use of it. We will seek verifiable parental consent before collecting any personally identifiable information. If we do collect such information, parents may request information on the type of data being collected, view their child's information, and, if they choose, prohibit us from making further use of their child's information. We will not provide personal information about children to third parties.</p>
+<h3>Use of Information</h3>
+<p>Information collected during an online transaction is used for the following purposes:</p>
+<ul>
+    <li>To complete online transactions with the appropriate state agency or local government (such as the payment of sales tax or the renewal of a license or permit) and with the payment method selected during the transaction; </li>
+    <li>To send an email to or otherwise contact the individual using the online service confirming the transaction or identifying and resolving problems that may have resulted during the transaction, including in connection with the payment methods; or </li>
+    <li>To provide information about state agencies, local governments, or Texas.gov to visitors who elect to receive this notification service. </li>
+</ul>
+<p>Metrics from Texas.gov server logs and persistent cookies are used for the following purposes:</p>
+<ul>
+    <li>Assessing the usability of Texas.gov </li>
+    <li>Determining what information is of most interest to Texas.gov visitors </li>
+    <li>Establishing technical design specifications </li>
+    <li>Measuring Texas.gov system performance </li>
+    <li>Identifying potential issues associated with the interface or operation of Texas.gov. </li>
+</ul>
+<p>Texas.gov works with contractors to provide various products and services required for the operation of Texas.gov. Personally identifiable information may be shared with these contractors if necessary in connection with the transactions, in connection with maintenance and improvements to the Texas.gov site, and to support the services and applications offered on Texas.gov. Contractors and subcontractors of Texas.gov are prohibited by contract from selling information from or about the users of Texas.gov. Except as otherwise provided in this policy: (1) Texas.gov will not disclose the email addresses of members of the public who have communicated electronically with a governmental body without the affirmative consent of the affected individual; and (2) Personally identifiable information contained in a question or comment sent to Texas.gov in an email message or submitted in an online form is only used by Texas.gov to respond to the question or comment. Texas.gov may redirect the message to a specific state agency or local government if Texas.gov staff believes that the state agency or local government may be more qualified to respond.</p>
+<p>The Department of Information Resources may be required by law enforcement or judicial authorities or applicable law to provide personally identifiable information to the appropriate governmental authorities. Additionally, Texas.gov will cooperate with law enforcement agencies in identifying those who appear to be using our services for illegal activities. Texas.gov reserves the right to report any information to law enforcement agencies, including personally identifiable information, in connection with activities that it, in good faith, believes to be unlawful.</p>
+<p><strong>Texas.gov does not sell and does not generally release (other than as provided in this policy) personally identifiable information to third parties; however,</strong> information provided to any governmental body may be subject to disclosure pursuant to the Texas Public Information Act and applicable federal and state legislation. Information about the <a href="http://www.tsl.state.tx.us/agency/customer/pia.html" data-linktype="outbound">Texas Public Information Act</a> is available from the Office of the Attorney General and at <a href="http://www.statutes.legis.state.tx.us/Docs/GV/htm/GV.552.htm" data-linktype="outbound">Texas Government Code, Chapter 552</a>. Additionally, certain state agencies or local governments whose sites are accessible through Texas.gov may have different policies concerning the sale or release of personally identifiable information. Upon leaving Texas.gov and linking to an external site, the policies governing Texas.gov no longer apply and users are subject to the external site’s policies. Questions and concerns regarding the information or services provided by a linked site must be directed to the entity or individual responsible for that site, rather than to Texas.gov. In addition, postings from the public on Texas.gov social media sites become public records and may be posted on Texas.gov, and once posted, are available to be viewed and copied by other users. This information may be subject to public information requests. Neither Texas.gov, nor its licensors or contractors performing services in connection with the social media sites are responsible for any actions of third parties who access information posted on any Texas.gov social media site.</p>
+<p>For more information about public information requests, please refer to the Texas.gov Public Information Requests policy.</p>
+<h2>Security</h2>
+<p>To protect the security of its employees, Texas.gov users, and hosted applications and services, Texas.gov complies with the following standards and codes as applicable: </p>
+<table summary="Security standards and codes" class="data-table-a">
+    <thead>
+        <tr>
+            <th scope="col"><nobr>Government Agency</nobr></th>
+            <th scope="col">Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="http://www.iso.org/iso/catalogue_detail?csnumber=50297" data-linktype="outbound">ISO 27002</a></td>
+            <td valign="top">International Organization for Standardization </td>
+        </tr>
+        <tr>
+            <td><a href="http://www.isaca.org/Template.cfm?Section=COBIT6&amp;Template=/TaggedPage/TaggedPageDisplay.cfm&amp;TPLID=55&amp;ContentID=7981" data-linktype="outbound">COBIT 4.1</a></td>
+            <td valign="top">Control Objectives for Information and related Technology </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.pcisecuritystandards.org/security_standards/pci_dss.shtml" data-linktype="outbound">PCI DSS</a></td>
+            <td valign="top">Payment Card Industry Data Security Standards </td>
+        </tr>
+        <tr>
+            <td><a href="http://www.ffiec.gov/" data-linktype="outbound">FFIEC</a></td>
+            <td valign="top"><em>Federal Financial Institutions Examination Council</em><strong> </strong></td>
+        </tr>
+        <tr>
+            <td><a href="http://www.ftc.gov/privacy/privacyinitiatives/glbact.html" data-linktype="outbound">GLB</a></td>
+            <td valign="top"><em>Gramm-Leach-Bliley</em><strong> </strong>Act<strong></strong></td>
+        </tr>
+        <tr>
+            <td><a href="http://www.hhs.gov/ocr/privacy/" data-linktype="outbound">HIPAA</a></td>
+            <td valign="top"><em>Health Insurance Portability and Accountability Act</em><strong> </strong></td>
+        </tr>
+        <tr>
+            <td><a href="http://www.sec.gov/about/laws/soa2002.pdf" data-linktype="outbound">SOX 404</a> &nbsp; <a href="https://get.adobe.com/reader/" title="Download Adobe Reader"><i class="fa fa-file-pdf-o"></i></a></td>
+            <td valign="top">Sarbanes-Oxley Act Section 404 </td>
+        </tr>
+        <tr>
+            <td><a href="http://info.sos.state.tx.us/pls/pub/readtac$ext.ViewTAC?tac_view=4&amp;ti=1&amp;pt=10&amp;ch=202" data-linktype="outbound">TAC 202</a></td>
+            <td valign="top">Texas Administrative Code Title 1, Part 10, Chapter 202 </td>
+        </tr>
+        <tr>
+            <td><a href="http://ed.gov/policy/gen/reg/ferpa/index.html" data-linktype="outbound">FERPA</a></td>
+            <td valign="top">Family Education Rights and Privacy Act (34 Code of Federal Regulations Part 99) </td>
+        </tr>
+        <tr>
+            <td><a href="http://www.irs.gov/pub/irs-pdf/p1075.pdf" data-linktype="outbound">IRS 1075</a></td>
+            <td valign="top">Internal Revenue Service Publication 1075: “TAX INFORMATION SECURITY GUIDELINES FOR FEDERAL, STATE AND LOCAL AGENCIES AND ENTITIES” </td>
+        </tr>
+        <tr>
+            <td><a href="http://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project" data-linktype="outbound">OWASP Top 10</a></td>
+            <td valign="top">Open Web Application Security Project Top 10 Vulnerabilities </td>
+        </tr>
+    </tbody>
+</table>
+<p>In addition, Texas.gov uses Secure Sockets Layer (SSL) for secure transmissions, which are identified as such on the site. SSL applies encryption between two computers, in this case the individual’s personal computer and the Texas.gov server.Texas.gov utilizes 128-bit encryption, which is one of the stronger standard encryptions currently in the marketplace. At a minimum, the following information will be encrypted when transmitted to Texas.gov during a secure transmission:</p>
+<ul>
+    <li>Name </li>
+    <li>Social Security Number </li>
+    <li>All credit, debit, and charge card numbers </li>
+    <li>Bank account and electronic check information </li>
+    <li>Transaction payment information </li>
+    <li>Driver license number </li>
+    <li>Personal identification numbers (PIN) and passwords </li>
+    <li>Email addresses </li>
+</ul>
+<p>A web browser will automatically activate the appropriate security features when initiating a transaction on Texas.gov. On most browsers, an unbroken key or locked padlock icon at the bottom of the browser screen indicates that a secure connection is in place.</p>
+<h3>Cookies</h3>
+<p>Some of the services hosted on Texas.gov use cookies. A cookie is a small text file that a website stores on a visitor’s personal computer to track specific information about that visitor’s interaction with the website. The services hosted on Texas.gov use both session cookies and persistent cookies. A session cookie is temporary and only exists during a single session during which a visitor uses Texas.gov. Texas.gov session cookies are used to keep track of a particular online transaction and are destroyed after successful completion of a transaction, after a few minutes of inactivity, or when the browser is closed.</p>
+<p>Persistent cookies continue to exist after a few minutes of inactivity, after the browser is closed, or after a visitor completes a single session. Texas.gov uses persistent cookies to track visitor activity on the site to structure content and make the Texas.gov websites easy to use. All persistent cookies from Texas.gov will expire within twenty-five months.</p>
+<p><strong>Texas.gov cookies do not contain or collect personal identifiable information about visitors. Moreover, Texas.gov will not match visitor activities with personally identifiable information, unless required by law or by law enforcement agencies, or as necessary to enforce the terms of use of the site. </strong>If an individual's web browser does not accept cookies, he or she may not be able to conduct online transactions on Texas.gov. However, this will not hinder normal browsing of the website. Texas.gov does not currently utilize web bugs or any other technology to track user activity other than those stated in this policy. However, as technology evolves, Texas.gov may change the technology in use, and will post changes to this policy on the site from time to time to reflect any such changes.</p>
+<h3>Texas.gov Privacy and Security Contact Information</h3>
+<p>If you have any questions or concerns about the Texas.gov Privacy and Security Policy, please contact us at <a href="mailto:txgov@dir.texas.gov" data-linktype="outbound">txgov@dir.texas.gov</a>. If you have any questions or concerns about how state agencies and local governments handle personal information, please contact them directly.</p>
+</div></div>
+		</div><div id="text-42" class="text-42 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Linking Policy</h2>			<div class="textwidget"><p>Advance permission to link to Texas.gov is not necessary. Be aware that Texas.gov subpages may change or be deleted at any time without notice. Entities and individuals linking to Texas.gov are encouraged to verify link accuracy periodically. <a href="#" id="link_policy_more" class="footer_more_link" data-link="extra_link_content">More</a></p> 
+<div class="extra_link_content extra_footer_content">
+<h3>General Policy</h3>
+<p>
+Entities and individuals linking to Texas.gov shall not capture Texas.gov pages within frames, present Texas.gov content as its own, or otherwise misrepresent Texas.gov content. They shall not misinform users about the origin or ownership of Texas.gov content, or in any way attempt to modify the content and present it as the content of Texas.gov. Some information on Texas.gov may be protected by trademark and copyright laws and otherwise protected as intellectual property. Protected intellectual property must be used in accordance with state and federal laws and must reflect the proper ownership of the intellectual property.</p>
+<p>
+Any link to the Texas.gov site should be a full forward link that passes the client browser to Texas.gov without barriers. The "back" button should return the visitor to original site if the visitor wishes to back out.</p>
+
+<h3>Links from Texas.gov</h3>
+<p>
+This section outlines the criteria that external websites must meet to have a link from Texas.gov. Texas.gov reserves the right to link to external websites that would provide a service to the citizen.
+</p>
+
+<h3>External Web Sites</h3>
+<p>
+Upon leaving Texas.gov and linking to an external site, the policies governing Texas.gov no longer apply and users are subject to the external site’s policies.Questions and concerns regarding the information or services provided by a linked site must be directed to the entity or individual responsible for that site, rather than to Texas.gov.
+</p>
+
+<h3>Acceptance Criteria</h3>
+<p>
+Texas.gov links to federal, state, and local governments that provide information and services that benefit Texas citizens and businesses. At its discretion, Texas.gov will consider link requests to non-governmental websites that contain information and/or services that further the purpose of Texas.gov. Any link suggestion to Texas.gov must undergo review to determine its relevance and appropriateness with respect to Texas.gov. Links are approved for Texas.gov based on the following criteria:
+</p>
+<ul>
+    <li>The external website corresponds with the purpose of Texas.gov.</li>
+    <li>The site's content is appropriate with respect to the purpose of Texas.gov and the site is not a:
+<ul>
+        <li>Commercial site, which charges a fee for products or services online; (notices of the availability of publications by government entities that charge for the publications or notices of government sponsored conferences that charge a registration fee are not commercial sites and may be considered for linking.)</li>
+       <li> Site that exhibits hate, bias, discrimination, pornography, libelous or otherwise defamatory content;</li>
+        <li>Site that advocates or promotes the use of alcohol or tobacco;</li>
+        <li>Site that lobbies, advocates, or advances the policies and priorities of a particular industry, organization or enterprise. This includes sites of non-profit organizations;</li>
+        <li>Site belonging to or supporting a political affiliation; or</li>
+        <li>Site that furthers the agenda of a political organization or candidate running for office.</li>
+</ul>
+</li>
+</ul>
+<p>
+Link suggestions should be sent to <a class="email" href="mailto:txgov@dir.texas.gov" data-linktype="outbound">txgov@dir.texas.gov</a> . Each link suggestion should address how the site meets the two acceptance criteria outlined above.</p>
+
+<h3>Conditions for Link Maintenance on Texas.gov</h3>
+
+<p>We require that links to external websites onTexas.gov meet the following conditions in order to remain on the site:</p>
+<ul>
+    <li>The linked site must provide the user with access to an email address and/or a customer service telephone number on every page of the site, in order for users to contact the site if there are problems with format, accuracy, timeliness, or payment processing.</li>
+    <li>Linked sites should not excessively burden the Texas.gov customer support system. If the site excessively burdens the Texas.gov customer support system, Texas.gov has discretion to remove the link from Texas.gov. Any customer support resources required by Texas.gov as a result of an external link on Texas.gov may require a fee to maintain the link on Texas.gov.</li>
+    <li>When a Texas.gov site visitor clicks on the external website link, he/she must have easy access back to Texas.gov. One of two options can accomplish this:
+    <ul><li>A link to Texas.gov can be established on the external website's main page; or</li>
+    <li>The "Back" button returns the user to Texas.gov.</li>
+</ul></li>
+    <li>Linked sites must have a privacy and security policy accessible from their home page informing the user of what information is collected, how it is collected, how it is used, and how the user can review and correct the information.</li>
+    <li>Linked sites must notify Texas.gov through its site Administrator at the email address provided below if the site to which Texas.gov links becomes inaccurate or inactive.</li>
+    <li>Texas.gov reserves the right to remove approved links if they are inaccurate or inactive, or at any time violate any of these requirements.</li>
+</ul>
+
+<h3>Linking Policy Contact Information</h3>
+<p>
+For questions and concerns regarding the linking policy, email us at <a class="email" href="mailto:txgov@dir.texas.gov" data-linktype="outbound">txgov@dir.texas.gov</a></p>
+</div></div>
+		</div><div id="text-43" class="text-43 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Social Media Policy</h2>			<div class="textwidget"><p>Texas.gov will use the following policies to guide the use of social media sites in accordance with the Texas Department of Information Resources (DIR) Social Media Policy. <a href="#" id="social_policy_more" class="footer_more_link" data-link="extra_social_content">More</a></p>
+<div class="extra_social_content extra_footer_content">
+<h3>Linking</h3>
+<p>
+Texas.gov may make available social media applications, and may publish social media content to third party sites. These sites are not official Texas.gov web sites and therefore, the external sites’ policies apply. Please refer to the Texas.gov Linking Policy for more information.
+</p>
+
+<h3>Privacy</h3>
+
+<p>
+Only public information is permitted to be posted by Texas.gov or State employees on Texas.gov social media websites. If communication that takes place on Texas.gov involves or requires private information, communication will be redirected through other appropriate channels. Postings from the public on Texas.gov social media sites become public record and may be posted on Texas.gov. This information may be subject to public information requests. For more information about public information requests, please refer to the Texas.gov Public Information Requests policy.
+</p>
+<p>
+No personally identifiable information will be posted on Texas.gov social media sites by Texas.gov personnel. Texas.gov is not responsible for content posted by others to Texas.gov social media sites. Texas.gov users that enter personal information on Texas.gov social media sites do so at their own risk; Texas.gov is not responsible for the public display of such private information. Texas.gov may remove postings to its social media sites that contain personally identifiable information, but neither Texas.gov, nor its licensors or contractors are responsible for any damages caused by delays in such removal.</p>
+<h3>Public Information and Record Retention</h3>
+<p>
+Social media sites may contain communications sent to or received by state employees, and such communications are therefore public records subject to State Records Retention requirements. These retention requirements apply regardless of the form of the record (digital text, photos, audio, or video, for example).
+</p>
+<p>
+To the extent that the third party records retention policies are inconsistent with the Texas State Record Retention Schedule, Texas.gov will put forth reasonable efforts to archive copies of social media content in order to meet State records retention obligations.
+</p>
+
+<h3>Terms of Service</h3>
+<p>
+Texas.gov social media sites are third party sites and have terms of service and policies that are not governed by Texas.gov or the State of Texas. These third party sites are not official Texas.gov web sites and the third party’s website terms of service and policies apply. The terms of service for the social media sites used by Texas.gov can be found below:</p>
+<ul>
+    <li><a href="http://twitter.com/tos" data-linktype="outbound">Twitter</a> </li>
+    <li><a href="http://www.facebook.com/terms.php" data-linktype="outbound">Facebook</a> </li>
+    <li><a href="http://www.flickr.com/guidelines.gne" data-linktype="outbound">Flickr</a> </li>
+    <li><a href="http://www.youtube.com/t/terms" data-linktype="outbound">YouTube</a> </li>
+    <li><a href="http://about.pinterest.com/en/terms-service" data-linktype="outbound">Pinterest</a> </li>
+    <li><a href="http://instagram.com/about/legal/terms/" data-linktype="outbound">Instagram</a> </li>
+    <li><a href="https://www.linkedin.com/legal/user-agreement" data-linktype="outbound">LinkedIn</a> </li>
+</ul>
+
+<h3>Content of Social Media Posts</h3>
+<p>All published Texas.gov social media content is subject to monitoring. This content may take the form of digital text for Twitter and Facebook, photography images for Flickr, and videos for YouTube. </p>
+<p>User-generated posts will be rejected or removed if possible when the content of a post:</p>
+<ul>
+    <li>is off-subject or out of context </li>
+    <li>contains obscenity or material that appeals to the prurient interest </li>
+    <li>contains personal identifying information or sensitive personal information, as defined in Tex. Code Bus &amp; Com. Sec. 521.001 et. seq. </li>
+    <li>contains offensive terms that target protected classes </li>
+    <li>is threatening, harassing or discriminatory </li>
+    <li>incites or promotes violence or illegal activities </li>
+    <li>contains information that reasonably could compromise public safety </li>
+    <li>advertises or promotes a commercial product or service, or any entity or individual </li>
+    <li>promotes or endorses political campaigns or candidates </li>
+</ul>
+<h3>Twitter</h3>
+<p><strong>Accessibility:</strong> To accommodate Texas.gov users with disabilities, <a href="http://www.accessibletwitter.com" data-linktype="outbound">www.accessibletwitter.com</a> is the suggested alternative access to the Texas.gov Twitter profile. </p>
+<p><strong>Record Retention:</strong> Texas.gov Twitter content will be archived and retained for the required period of time in accordance with the DIR Records Retention Schedule. </p>
+<h3>Facebook</h3>
+<p><strong>Accessibility:</strong> To accommodate Texas.gov users with disabilities, there are two suggested alternatives to access the Texas.gov Facebook Fan page:</p>
+<ol>
+    <li>The Facebook mobile site <a href="http://m.facebook.com" data-linktype="outbound">http://m.facebook.com</a> is a suggested accessible alternative to the original Texas.gov Facebook page. </li>
+    <li>Texas.gov will post the same content to Twitter and Facebook. Therefore, <a href="http://www.accessibletwitter.com" data-linktype="outbound">http://www.accessibletwitter.com</a> will serve as an accessible alternative. </li>
+</ol>
+<p><strong>Record Retention:</strong> Texas.gov Facebook updates will be archived and retained for the required period of time in accordance with the DIR Records Retention Schedule.</p>
+<h3>Flickr</h3>
+<p><strong>Accessibility:</strong> To accommodate Texas.gov users with disabilities, the mobile version of Flickr <a href="http://m.flickr.com/" data-linktype="outbound">http://m.flickr.com/</a> is the suggested alternative to access the Texas.gov Flickr pool.</p>
+<p><strong>Record Retention:</strong> The following Texas.gov Flickr photos will be archived and retained for the required period of time in accordance with the DIR Records Retention Schedule:</p>
+<ol>
+    <li>Photos posted to Flickr by Texas.gov </li>
+    <li>Photos not accepted by Texas.gov due to noncompliance with submission guidelines </li>
+</ol>
+<p><strong>Content:</strong> By submitting a photo to the Texas.gov Flickr pool, you are giving Texas.gov permission to use your photo on the Texas.gov homepage, website, mobile site, and social media platforms. For more information about photo submission guidelines, visit the Texas.gov Flickr pool at <a href="http://www.flickr.com/groups/texasgov/" data-linktype="outbound">http://www.flickr.com/groups/texasgov/</a>.</p>
+<h3>YouTube</h3>
+<p><strong>Accessibility:</strong> Texas.gov will make an effort to link to and display videos on its YouTube channel that have closed captioning available for hearing impaired viewers. </p>
+<p>For more information about the closed captioning feature on YouTube, visit: <a href="http://www.youtube.com/t/captions_about" data-linktype="outbound">http://www.youtube.com/t/captions_about</a></p>
+<p><strong>Record Retention:</strong> The Texas.gov YouTube photos will be archived and retained for the required period of time in accordance with the DIR Records Retention Schedule.</p>
+<p><strong>Content:</strong> Videos displayed on the Texas.gov YouTube site will be related to Texas or Texas government. </p>
+
+
+</div></div>
+		</div><div id="text-44" class="text-44 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Public Information Requests</h2>			<div class="textwidget"><p>Public information requests will be handled in accordance with the <a href="http://www.tsl.state.tx.us/agency/customer/pia.html" data-linktype="outbound">Public Information Act</a>. <a href="#" id="info_policy_more" class="footer_more_link" data-link="extra_info_content">More</a></p>
+<div class="extra_info_content extra_footer_content">
+<h3>Access to Information</h3>
+<p>Unless a governmental body is authorized to withhold the information from an individual under Texas Government Code, Section 552.023, individuals are entitled to receive the information that state agencies and local governments collected through Texas.gov. Pursuant to Texas Government Code, Sections 552.021 and 552.023, individuals are entitled to receive and review that information. Pursuant to Texas Government Code, Section 559.004, individuals are entitled to have each governmental body correct inaccurate information. Individuals who discover through the use of Texas.gov that information relating to the individual is incorrect must contact each appropriate state agency or local government directly to request the information held about them and to correct any inaccurate information. Pursuant to Texas Government Code, Chapter 552, each governmental body may charge a fee to an individual who requests information about the data collected about him or her. However, the governmental body may not charge a fee to the individual to correct the information.</p>
+<h3>Public Information Act</h3>
+<p>Public information requests will be handled in accordance with the <a href="http://www.tsl.state.tx.us/agency/customer/pia.html" data-linktype="outbound">Public Information Act</a>.</p>
+</div></div>
+		</div><div id="text-45" class="text-45 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Legal Notices</h2>			<div class="textwidget"><p>Any trademarks that appear on this site are the property of their respective owners who may or may not be affiliated with, connected to, or sponsored by Texas.gov. <a href="#" id="legal_policy_more" class="footer_more_link" data-link="extra_legal_content">More</a></p>
+<div class="extra_legal_content extra_footer_content">
+<p>Any trademarks that appear on this site are the property of their respective owners who may or may not be affiliated with, connected to, or sponsored by Texas.gov. </p>
+<p>If you believe that any material contained on the Texas.gov site (the "Site") infringes your copyright or other intellectual property rights, you may notify Texas NICUSA, LLC of your copyright infringement claim in accordance with the following procedure. Texas NICUSA, LLC will process notices of alleged infringement which it receives, and may take action as authorized by the Digital Millennium Copyright Act (DMCA) and/or other applicable intellectual property laws if it has the ability to do so. The DMCA requires that notifications of claimed copyright infringement should be sent to this Site's Designated Agent:</p>
+<p>By mail:<br>
+Texas NICUSA, LLC DMCA Agent<br>
+c/o Stinson Leonard Street<br>
+Stinson IP Administrator, 1201 Walnut, Suite 2900, Kansas City, MO 64106<br>
+<br>
+By phone:<br>
+816-842-8600<br>
+<br>
+By fax:<br>
+816-691-3495<br>
+<br>
+By email:<br>
+<a href="mailto:DMCA@stinsonleonard.com" data-linktype="outbound">DMCA@stinsonleonard.com</a>
+</p>
+<p>
+To be effective, the notification must be in writing and contain the following information (DMCA, 17 U.S.C. 512(c)(3)):</p>
+<ul>
+    <li>Physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;</li>
+    <li>Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;</li>
+    <li>Identification of the material that is claimed to be infringing or claimed to be the subject of infringing activity and that is sought to be removed or access to which is sought to be disabled, and information reasonably sufficient to permit the location of the material;</li>
+    <li>Information reasonably sufficient to permit the service provider to contact the complaining party, such as an address, telephone number, and, if available, an electronic mail address at which the complaining party may be contacted;</li>
+    <li>A statement that the complaining party has a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and</li>
+    <li>A statement, made under penalty of perjury, that the information in the notification is accurate and that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</li>
+</ul>
+<p>
+E-mails sent to <a href="mailto:DMCA@stinsonleonard.com" data-linktype="outbound">DMCA@stinsonleonard.com</a> for purposes other than communication about copyright claims may not be acknowledged or responded to.</p>
+<p>Please note: The State of Texas (and its licensors and contractors) disclaims any express or implied warranty in providing its computer system and any materials, information, graphics, products, or processes contained therein for public use. Neither the State of Texas nor any of its licensors or contractors makes any warranty, express or implied, nor assumes any responsibility in the use of any service or content available on or through the site or its accuracy, completeness, currency, its use for any general or particular purpose, nor that such items or use of such items would not violate or infringe rights of others. The services and content are provided on a strictly "as is" basis.</p>
+<p>The State of Texas (and its licensors and contractors) specifically disclaims any and all liability for any claims or damages that may result from providing the Texas.gov web site or the information it contains, including any web sites maintained by third parties that link to the Texas.gov site. Texas.gov may provide links to external web sites if it is determined that they may be of interest to users. Texas.gov neither endorses the content, products, services, or viewpoints expressed by the linked sites, nor assumes any responsibility for the content of these linked web sites. Texas.gov makes no effort to independently verify, and does not exert editorial control over, information on pages outside of the Texas.gov domains.</p>
+<p>Reference herein to any specific commercial products, process or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement, recommendation, or favoring by the State of Texas, and shall not be used for advertising or product endorsement purposes.</p>
+<p>Texas.gov is provided for public use on computer systems located within the State of Texas and for the use and benefit of citizens of Texas. Any person choosing to use this system or seeking access to information or materials on this system is subject to Texas jurisdiction. Any dispute arising therefrom shall be decided under the laws and in the courts in Texas.</p>
+</div></div>
+		</div></div> 					<div id="help" class="help--content footer--section" role="complementary">
+	<div id="text-14" class="text-14 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Need some help?</h2>			<div class="textwidget"><p>We’ll try, or at least get you pointed in the right direction. And if you need to get your bearings with our new one-page website, feel free to take a little <a href="https://www.youtube.com/watch?v=RhKO_ZWq7ik" data-linktype="outbound">tour</a>.</p>
+</div>
+		</div><div id="text-15" class="text-15 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">First, the small print</h2>			<div class="textwidget"><p>Texas.gov can offer technical support for problems you may have with Texas.gov services, such as unexpected error messages or payment issues.</p>
+<p>However, we are not a government agency, and our support channels are not staffed by government employees. If you have agency-specific questions or concerns, please contact them directly.</p>
+</div>
+		</div><div id="text-16" class="text-16 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Technical Support</h2>			<div class="textwidget"><p>1.877.452.9060</p>
+<p><a href="mailto:support@texasgovhelpdesk.com" data-linktype="outbound">support@texasgovhelpdesk.com</a></p>
+<p><a href="http://chat.texasgovhelpdesk.com:9090/webchat/start.html" target="_blank">24/7 Live Chat</a></p>
+<p><b><i>Please do not provide personal or confidential information such as a credit card number, Social Security number, bank account number, etc. during your Live Chat session.</i></b></p>
+</div>
+		</div><div id="text-17" class="text-17 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Feedback</h2>			<div class="textwidget"><p>Take a few minutes to complete our 10 question <a href="https://vovici.com/wsb.dll/s/10a97g44a54" data-linktype="outbound">survey</a>. Your input helps us continue to improve Texas.gov.</p>
+</div>
+		</div><div id="text-18" class="text-18 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Media &#038; Business Development Inquiries</h2>			<div class="textwidget"><p>Media: <a href="mailto:Texas_Marketing@egov.com" data-linktype="outbound">Texas_Marketing@egov.com</a><br />
+Business Development: <a href="mailto:TexasBD@egov.com" data-linktype="outbound">TexasBD@egov.com</a></p>
+</div>
+		</div><div id="text-19" class="text-19 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Texas.gov Program</h2>			<div class="textwidget"><p>For questions: <a href="mailto:txgov@dir.texas.gov" data-linktype="outbound">txgov@dir.texas.gov</a><br />
+For more information, visit the <a href="http://dir.texas.gov/View-About-DIR/Texas-gov/Landing.aspx" data-linktype="outbound">DIR Website</a>.</p>
+</div>
+		</div></div>					<div id="extras" class="extras--content footer--section" role="complementary" >
+	<div id="text-7" class="text-7 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">More good (and important) stuff</h2>			<div class="textwidget"><p>Here are some more resources you might find helpful, plus some other important links that the state asks us to provide.</p>
+<div class="col1" style="float:left; width:50%;">
+<h2>Resources</h2>
+<p><span><a href="https://www.211texas.org/cms/" data-linktype="outbound">2-1-1 Texas</a></span><br />
+<span><a href="http://emergency.portal.texas.gov/en/Pages/Home.aspx" data-linktype="outbound">Emergency Preparedness Portal</a></span><br />
+<span><a href="https://data.texas.gov" data-linktype="outbound">State of Texas Open Data Portal</a></span><br />
+<span><a href="http://veterans.portal.texas.gov/en/Pages/default.aspx" data-linktype="outbound">Texas Veterans Portal</a></span><br />
+<span><a href="http://www.flickr.com/groups/texasgov" data-linktype="outbound">Texas.gov Photo Gallery</a></span>
+</div>
+<div class="col2" style="float:left; width:50%;">
+<h2>State Links</h2>
+<p><span><a href="https://sao.fraud.state.tx.us/hotline.aspx" data-linktype="outbound">SAO Fraud Reporting</a></span><br />
+<span><a href="http://gov.texas.gov/" data-linktype="outbound">Texas Homeland Security</a></span><br />
+<span><a href="https://www.tsl.texas.gov/trail/index.html" data-linktype="outbound">Texas Records and Information Locator (TRAIL)</a></span><br />
+<span><a href="http://www.texastransparency.org/" data-linktype="outbound">Texas Transparency</a></span>
+</div>
+</div>
+		</div></div> 					<div id="opendata" class="opendata--content footer--section" role="complementary" >
+	<div id="text-58" class="text-58 d-all t-all m-all footer--section widget widget_text"><h2 class="%1$s--widget-title">Open Data</h2>			<div class="textwidget"><p>We are firm believers in promoting government transparency, citizen participation, and efficient use of public resources through open data. Use the information and links below to access or submit open data. </p>
+
+<h3>Access Open Data</h3>
+<p><a href="https://data.texas.gov/">Data.texas.gov</a> is the State’s Open Data Portal. It features tools to search, filter, map, and visualize specific state agency data sets. Citizens can access and customize these data sets to meet their unique needs for research, collaboration, innovation, application development, and more. If you are an agency who is interested in putting data on <a href="https://data.texas.gov/">data.texas.gov</a>, please contact <a href="mailto:txgov@dir.texas.gov">txgov@dir.texas.gov</a>.
+</p>
+
+<p>All open data and high-value data sets submitted by state agencies per <a href="http://www.capitol.state.tx.us/tlodocs/83R/billtext/pdf/SB00279F.pdf#navpanes=0">Senate Bill 279 (83R)</a> are available on Texas.gov <a class="govOpenData" href="#/">here</a>.</p>
+<h3>Submit Open Data</h3>
+<p><a href="http://www.capitol.state.tx.us/tlodocs/83R/billtext/pdf/SB00279F.pdf#navpanes=0">Senate Bill 279 (83R)</a> requires agencies, including higher education, to provide the Texas Department of Information Resources (DIR) with a link and description for their open data set(s) to be <a class="govOpenData" href="#/">posted on Texas.gov</a>. Use the link below to submit your agency's open data for DIR review.</p>
+
+<p>Online form: <a href="https://prc.portal.texas.gov/Pages/OpenDataSubmission.aspx">Submit Open Data</a></p>
+
+<p>Alternative submission method: Instead of using the online form, you may send the information via email to DIR at <a href="mailto:txgov@dir.texas.gov">txgov@dir.texas.gov</a></p></div>
+		</div></div> 				</div> 				<div id="footer" class="footer">
+	<h2 class="centered entry-title">Thanks for taking it online!</h2>			<div class="textwidget"><p class="centeredParagraph caption">Please come see us again sometime.</p>
+
+<script>
+
+jQuery('a[data-linktype="outbound"]').click(function (event) { 
+	event.preventDefault();
+    var target = jQuery(this).attr('href');
+        
+    ga('send', 'event', 'outbound', 'click', target, {'hitCallback':
+     	function () {
+     		document.location = target;
+     	}
+   	});
+});
+
+jQuery('#example').on('click', 'a', function (event) { 
+	event.preventDefault();
+       var target = jQuery(this).attr('href');
+        ga('send', 'event', 'outbound-datatable', 'click', target, {'hitCallback':
+     	function () {
+     		document.location = target;
+     	}
+   	});
+});
+
+</script>
+
+<style>
+@keyframes openSelected {
+0% {
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+}
+100% {
+    max-height: 4000px;
+    opacity: 1;
+    padding: 1.5em 0;
+}
+}
+@keyframes closeSelected {
+0% {
+    margin: 5px 0;
+    max-height: 4000px;
+    padding: 1.5em 0;
+}
+50% {
+    margin: 5px 0;
+    opacity: 1;
+    padding: 0.75em 0;
+}
+100% {
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+}
+}
+</style>
+
+</div>
+					<div class="textwidget"><style>
+@keyframes glow-no-he-didnt {
+  from {
+    text-shadow: 0 0 0px #FF9900, 0 0 0px #d6d6d6;
+    color: #d6d6d6;
+  }
+  to {
+    text-shadow: 0 0 10px #d6d6d6, 0 0 20px #FF9900;
+    color: #FF9900;
+  }
+}
+@keyframes enya {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes over-n-out {
+  from{
+    left: -1em;
+  }
+  to {
+    left: 30em;
+  }
+}
+.toolbox::before{
+  animation: glow-no-he-didnt 1.5s ease-in-out 1s 12 alternate;
+}
+button#toolbox--toggle:before{
+  opacity: 1;
+  content: "New Features \02192";
+  position: relative;
+  margin-left: -9em;
+  text-align: right;
+  font-size: 1rem;
+  font-family: 'Courgette';
+  color: #ff6d05;
+  left: -1em;
+  top: -1em;
+  line-height: 3em;
+  animation: enya 1.5s ease-out 9.5s forwards, over-n-out 2s ease-out 10s forwards;
+  padding: .5em;
+  border-radius: 5px;
+  // background-color: rgba(250, 250, 250, .3);
+  box-shadow: inset 0 0 3em 0 rgba(250, 250, 250, .5);
+}
+@media only screen and (max-width: 1240px) {
+  @keyframes over-n-out {
+    from{
+      left: 1.5em;
+    }
+    to {
+      left: 30em;
+    }
+  }
+  button#toolbox--toggle:before{
+    content: "New Features \02191";
+    left: 1.5em;
+    top: 2.1em;
+  }
+}
+</style></div>
+			<p class="centeredParagraph">
+		<a href="http://www.texas.gov" rel="nofollow"><img src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/assets/images/bottom_logo_2.png" alt="" class="bottom_logo"></a>
+	</p>
+</div> 			</footer> 		</div>
+
+				<!--[if lt IE 9]><script src="http://www.texas.gov/wp-content/themes/portal-2015-theme/library/js/min/selectivizr.js"></script><![endif]-->
+		<script type='text/javascript' src='http://www.texas.gov/wp-content/plugins/texasnic-style-switcher/library/js/style-switcher.js?ver=0.0.1'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-includes/js/comment-reply.min.js?ver=47ead4e9b64a50fd83d4ea45a7af0810'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-content/themes/portal-2015-theme/library/js/jquery-ui.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-content/themes/portal-2015-theme/library/js/jquery.dataTables.min.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-content/themes/portal-2015-theme/library/js/modernizr.custom.min.js?ver=2.5.3'></script>
+<script type='text/javascript'async="async" src='http://www.texas.gov/wp-content/themes/portal-2015-theme/library/js/scripts.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.texas.gov/wp-includes/js/wp-embed.min.js?ver=47ead4e9b64a50fd83d4ea45a7af0810'></script>
+
+	</body>
+
+</html> 

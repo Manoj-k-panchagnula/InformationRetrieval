@@ -1,0 +1,276 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+  <HEAD>
+    <title>Camp Pros - North Texas Volleyball Camps Online Camp & Event Registration</title>
+    <meta name="description" content="Camp Pros, provides industry-leading camp management software and online camp registration software to camps throughout the United States">
+    <meta name="keywords" content="event registration, camp registration, basketball camps, football camps, tennis camps, baseball camps, 5k, road races, baseball camps">
+    <meta name="GENERATOR" Content="Microsoft Visual Studio .NET 7.1">
+    <meta name="CODE_LANGUAGE" Content="C#">
+    <meta name=vs_defaultClientScript content="JavaScript">
+    <meta name=vs_targetSchema content="http://schemas.microsoft.com/intellisense/ie5">
+    <link href="/_css/233/styleBody.css" rel="stylesheet" type="text/css" >
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17132530-1', 'camppros.com');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</HEAD>
+  <body onload="MM_preloadImages('/_img/_basic/btnSendOver.gif','/_img/_basic/btnViewOver.gif')">
+	
+    <form name="Form1" method="post" action="preview.aspx?&amp;DB_OEM_ID=1800&amp;OrgId=233" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw4NzkyNjgzMTt0PDtsPGk8MD47PjtsPHQ8O2w8aTwwPjs+O2w8dDw7bDxpPDE+Oz47bDx0PHA8bDxfIUl0ZW1Db3VudDs+O2w8aTwxPjs+PjtsPGk8MD47PjtsPHQ8O2w8aTwwPjtpPDE+Oz47bDx0PEA8Vm9sbGV5YmFsbDs+Ozs+O3Q8cDxsPF8hSXRlbUNvdW50Oz47bDxpPDE0Pjs+PjtsPGk8MD47aTwxPjtpPDI+O2k8Mz47aTw0PjtpPDU+O2k8Nj47aTw3PjtpPDg+O2k8OT47aTwxMD47aTwxMT47aTwxMj47aTwxMz47PjtsPHQ8O2w8aTwwPjs+O2w8dDxAPDA3LzA2LzIwMTY7MDcvMDcvMjAxNjs0NTQ0OzIzMzsyMDE2IE5vcnRoIFRleGFzIFlvdXRoIENhbXAgLSBHcmFkZXMgMm5kLTl0aDswNy8wNi8yMDE2OzA3LzA3LzIwMTY7NDU0NDsyMzM7MjAxNiBOb3J0aCBUZXhhcyBZb3V0aCBDYW1wIC0gR3JhZGVzIDJuZC05dGg7Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDwwNy8wNi8yMDE2OzA3LzA3LzIwMTY7NDU0NTsyMzM7MjAxNiBOb3J0aCBUZXhhcyBCZWdpbm5lciBTZXJ2aW5nIENhbXAgLSBHcmFkZXMgM3JkLTEydGg7MDcvMDYvMjAxNjswNy8wNy8yMDE2OzQ1NDU7MjMzOzIwMTYgTm9ydGggVGV4YXMgQmVnaW5uZXIgU2VydmluZyBDYW1wIC0gR3JhZGVzIDNyZC0xMnRoOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MDcvMDgvMjAxNjswNy8wOS8yMDE2OzQ1NDY7MjMzOzIwMTYgTm9ydGggVGV4YXMgU2V0dGVyIGFuZCBIaXR0ZXIgQ2FtcCAtIEdyYWRlcyA3dGgtMTJ0aDswNy8wOC8yMDE2OzA3LzA5LzIwMTY7NDU0NjsyMzM7MjAxNiBOb3J0aCBUZXhhcyBTZXR0ZXIgYW5kIEhpdHRlciBDYW1wIC0gR3JhZGVzIDd0aC0xMnRoOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MDcvMDgvMjAxNjswNy8wOS8yMDE2OzQ1NDc7MjMzOzIwMTYgTm9ydGggVGV4YXMgQWR2YW5jZWQgU2VydmluZyBDYW1wIC0gR3JhZGVzIDd0aC0xMnRoOzA3LzA4LzIwMTY7MDcvMDkvMjAxNjs0NTQ3OzIzMzsyMDE2IE5vcnRoIFRleGFzIEFkdmFuY2VkIFNlcnZpbmcgQ2FtcCAtIEdyYWRlcyA3dGgtMTJ0aDs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDA3LzExLzIwMTY7XGU7NDU0ODsyMzM7MjAxNiBOb3J0aCBUZXhhcyBEZWZlbnNlIGFuZCBMaWJlcm8gQ2FtcCAtIEdyYWRlcyA3dGgtMTJ0aDswNy8xMS8yMDE2O1xlOzQ1NDg7MjMzOzIwMTYgTm9ydGggVGV4YXMgRGVmZW5zZSBhbmQgTGliZXJvIENhbXAgLSBHcmFkZXMgN3RoLTEydGg7Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDwwNy8xMi8yMDE2O1xlOzQ1NDk7MjMzOzIwMTYgTm9ydGggVGV4YXMgQWxsIFNraWxscyBDYW1wIC0gR3JhZGVzIDd0aC0xMnRoOzA3LzEyLzIwMTY7XGU7NDU0OTsyMzM7MjAxNiBOb3J0aCBUZXhhcyBBbGwgU2tpbGxzIENhbXAgLSBHcmFkZXMgN3RoLTEydGg7Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDwwNy8xMy8yMDE2OzA3LzE0LzIwMTY7NDU1MDsyMzM7MjAxNiBOb3J0aCBUZXhhcyBZb3V0aCBDYW1wIC0gR3JhZGVzIDJuZC05dGg7MDcvMTMvMjAxNjswNy8xNC8yMDE2OzQ1NTA7MjMzOzIwMTYgTm9ydGggVGV4YXMgWW91dGggQ2FtcCAtIEdyYWRlcyAybmQtOXRoOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MDcvMTMvMjAxNjswNy8xNC8yMDE2OzQ1NTE7MjMzOzIwMTYgTm9ydGggVGV4YXMgQmVnaW5uZXIgU2VydmluZyBDYW1wIC0gR3JhZGVzIDNyZC0xMnRoOzA3LzEzLzIwMTY7MDcvMTQvMjAxNjs0NTUxOzIzMzsyMDE2IE5vcnRoIFRleGFzIEJlZ2lubmVyIFNlcnZpbmcgQ2FtcCAtIEdyYWRlcyAzcmQtMTJ0aDs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDA3LzE1LzIwMTY7MDcvMTYvMjAxNjs0NTUyOzIzMzsyMDE2IE5vcnRoIFRleGFzIFNldHRlciBhbmQgSGl0dGVyIENhbXAgLSBHcmFkZXMgN3RoLTEydGg7MDcvMTUvMjAxNjswNy8xNi8yMDE2OzQ1NTI7MjMzOzIwMTYgTm9ydGggVGV4YXMgU2V0dGVyIGFuZCBIaXR0ZXIgQ2FtcCAtIEdyYWRlcyA3dGgtMTJ0aDs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDA3LzE1LzIwMTY7MDcvMTYvMjAxNjs0NTUzOzIzMzsyMDE2IE5vcnRoIFRleGFzIEFkdmFuY2VkIFNlcnZpbmcgQ2FtcCAtIEdyYWRlcyA3dGgtMTJ0aDswNy8xNS8yMDE2OzA3LzE2LzIwMTY7NDU1MzsyMzM7MjAxNiBOb3J0aCBUZXhhcyBBZHZhbmNlZCBTZXJ2aW5nIENhbXAgLSBHcmFkZXMgN3RoLTEydGg7Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDwwNy8xOC8yMDE2O1xlOzQ1NTQ7MjMzOzIwMTYgTm9ydGggVGV4YXMgRGVmZW5zZSBhbmQgTGliZXJvIENhbXAgLSBHcmFkZXMgN3RoLTEydGg7MDcvMTgvMjAxNjtcZTs0NTU0OzIzMzsyMDE2IE5vcnRoIFRleGFzIERlZmVuc2UgYW5kIExpYmVybyBDYW1wIC0gR3JhZGVzIDd0aC0xMnRoOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MDcvMTkvMjAxNjtcZTs0NTU1OzIzMzsyMDE2IE5vcnRoIFRleGFzIEFsbCBTa2lsbHMgQ2FtcCAtIEdyYWRlcyA3dGgtMTJ0aDswNy8xOS8yMDE2O1xlOzQ1NTU7MjMzOzIwMTYgTm9ydGggVGV4YXMgQWxsIFNraWxscyBDYW1wIC0gR3JhZGVzIDd0aC0xMnRoOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MDcvMjAvMjAxNjtcZTs0NTU2OzIzMzsyMDE2IE5vcnRoIFRleGFzIEVsaXRlIENhbXAgLSBDb21tdXRlciAtIEdyYWRlcyA5dGgtMTJ0aDswNy8yMC8yMDE2O1xlOzQ1NTY7MjMzOzIwMTYgTm9ydGggVGV4YXMgRWxpdGUgQ2FtcCAtIENvbW11dGVyIC0gR3JhZGVzIDl0aC0xMnRoOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MDcvMjAvMjAxNjswNy8yMS8yMDE2OzQ1NTc7MjMzOzIwMTYgTm9ydGggVGV4YXMgRWxpdGUgQ2FtcCAtIE92ZXJuaWdodCAtIEdyYWRlcyA5dGgtMTJ0aDswNy8yMC8yMDE2OzA3LzIxLzIwMTY7NDU1NzsyMzM7MjAxNiBOb3J0aCBUZXhhcyBFbGl0ZSBDYW1wIC0gT3Zlcm5pZ2h0IC0gR3JhZGVzIDl0aC0xMnRoOz47Oz47Pj47Pj47Pj47Pj47Pj47Pj47Pj47PkJSVa6e67aoI6aknGMulklfrYMa" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" value="949CEA2D" />
+
+<table width="840" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="30" height="500" background="/_img/_basic/bgShadeLeft.png">&nbsp;</td>
+    <td width="780" valign="top" bgcolor="#ffffff"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr class="Custom">
+        <td width="30" height="80">&nbsp;</td>
+        <td align="left" valign="bottom" class="Custom"><img src="/_img/_basic/233/titleRegistration.gif" width="281" height="30" alt="Cam" ></td>
+        <td width="30">&nbsp;</td>
+      </tr>
+      <tr class="Custom">
+        <td width="30" height="20">&nbsp;</td>
+        <td class="Custom2">&nbsp;</td>
+        <td width="30">&nbsp;</td>
+      </tr>
+    </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <!--
+        <tr>
+          <td class="mainText" style="HEIGHT: 88px"> Organization about us located here.</td>
+        </tr>
+        -->
+        <tr>
+          <td height="30" background="/_img/_basic/tableShadeTop.jpg"></td>
+        </tr>
+        <tr>
+          <td>
+          
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="contentTable">
+	<tr>
+		<td height="20" colspan="3">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="140" valign="middle"><img src='/images/admin/listinglogo/North Texas-volleyball logo.jpg' width="140" alt="Camp Pros Organization Logo"></td>
+		<td width="20" align="left" valign="top">&nbsp;</td>
+		<td align="left" valign="top">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				
+						<tr>
+							<td colspan="3" valign="top" class="tableCampTitle">North Texas Volleyball Camps</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="infoTitlesBold">Contact Info</td>
+							<td width="160" rowspan="4" align="left" valign="top"><a href='mailto:Andrew.Palileo@unt.edu' onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btnSend','','/_img/_basic/btnSendOver.gif',1)"><img src="/_img/_basic/btnSend.gif" alt="send email" name="btnSend" width="132" height="32"
+										border="0" id="btnSend"></a><a href='http://www.meangreensports.com/sports/w-volley/ntex-w-volley-body.html' onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btnView','','/_img/_basic/btnViewOver.gif',1)"><img src="/_img/_basic/btnView.gif" alt="view website" name="btnView" width="132" height="32"
+										vspace="10" border="0" id="btnView"></a>
+								<br>
+								<!-- AddThis Button BEGIN -->
+								<div class="addthis_toolbox addthis_default_style ">
+									<a class="addthis_button_preferred_1"></a><a class="addthis_button_preferred_2"></a>
+									<a class="addthis_button_preferred_3"></a><a class="addthis_button_preferred_4"></a>
+									<a class="addthis_button_compact"></a>
+								</div>
+								<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ec19c16499244ad"></script>
+								<!-- AddThis Button END -->
+							</td>
+						</tr>
+						<tr>
+							<td width="100" class="infoTitlesBold" valign="top">Name<br>
+								Telephone</td>
+							<td width="197" class="infoTitles" valign="top">Andrew Palileo<br>
+								940-565-3610
+							</td>
+						</tr>
+					
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="20" colspan="3" valign="top">&nbsp;</td>
+	</tr>
+</table>
+<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td height="10" colspan="3">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			
+					<span class="eventsTitlesBold">
+						Volleyball
+						<br>
+					</span>
+					
+							<!--
+							<tr><td class="mainText" nowrap>(07/06/2016 - 07/07/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4544&OrgId=233'>2016 North Texas Youth Camp - Grades 2nd-9th</a></td></tr>
+							-->
+							<span class="mainText">07/06/2016 - 07/07/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4544&OrgId=233'>2016 North Texas Youth Camp - Grades 2nd-9th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/06/2016 - 07/07/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4545&OrgId=233'>2016 North Texas Beginner Serving Camp - Grades 3rd-12th</a></td></tr>
+							-->
+							<span class="mainText">07/06/2016 - 07/07/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4545&OrgId=233'>2016 North Texas Beginner Serving Camp - Grades 3rd-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/08/2016 - 07/09/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4546&OrgId=233'>2016 North Texas Setter and Hitter Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/08/2016 - 07/09/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4546&OrgId=233'>2016 North Texas Setter and Hitter Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/08/2016 - 07/09/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4547&OrgId=233'>2016 North Texas Advanced Serving Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/08/2016 - 07/09/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4547&OrgId=233'>2016 North Texas Advanced Serving Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/11/2016 - )</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4548&OrgId=233'>2016 North Texas Defense and Libero Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/11/2016 - </span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4548&OrgId=233'>2016 North Texas Defense and Libero Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/12/2016 - )</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4549&OrgId=233'>2016 North Texas All Skills Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/12/2016 - </span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4549&OrgId=233'>2016 North Texas All Skills Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/13/2016 - 07/14/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4550&OrgId=233'>2016 North Texas Youth Camp - Grades 2nd-9th</a></td></tr>
+							-->
+							<span class="mainText">07/13/2016 - 07/14/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4550&OrgId=233'>2016 North Texas Youth Camp - Grades 2nd-9th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/13/2016 - 07/14/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4551&OrgId=233'>2016 North Texas Beginner Serving Camp - Grades 3rd-12th</a></td></tr>
+							-->
+							<span class="mainText">07/13/2016 - 07/14/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4551&OrgId=233'>2016 North Texas Beginner Serving Camp - Grades 3rd-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/15/2016 - 07/16/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4552&OrgId=233'>2016 North Texas Setter and Hitter Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/15/2016 - 07/16/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4552&OrgId=233'>2016 North Texas Setter and Hitter Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/15/2016 - 07/16/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4553&OrgId=233'>2016 North Texas Advanced Serving Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/15/2016 - 07/16/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4553&OrgId=233'>2016 North Texas Advanced Serving Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/18/2016 - )</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4554&OrgId=233'>2016 North Texas Defense and Libero Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/18/2016 - </span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4554&OrgId=233'>2016 North Texas Defense and Libero Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/19/2016 - )</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4555&OrgId=233'>2016 North Texas All Skills Camp - Grades 7th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/19/2016 - </span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4555&OrgId=233'>2016 North Texas All Skills Camp - Grades 7th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/20/2016 - )</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4556&OrgId=233'>2016 North Texas Elite Camp - Commuter - Grades 9th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/20/2016 - </span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4556&OrgId=233'>2016 North Texas Elite Camp - Commuter - Grades 9th-12th</a></span><br>
+							
+						
+							<!--
+							<tr><td class="mainText" nowrap>(07/20/2016 - 07/21/2016)</td><td nowrap class="eventLinks"><a href='detail_new.aspx?ListingId=4557&OrgId=233'>2016 North Texas Elite Camp - Overnight - Grades 9th-12th</a></td></tr>
+							-->
+							<span class="mainText">07/20/2016 - 07/21/2016</span>&nbsp;<span class="eventLinks"><a href='detail_new.aspx?ListingId=4557&OrgId=233'>2016 North Texas Elite Camp - Overnight - Grades 9th-12th</a></span><br>
+							
+						
+				
+		</td>
+	</tr>
+	<tr>
+		<td height="10" colspan="3">&nbsp;</td>
+	</tr>
+	<tr>
+		<td height="10" colspan="3"><span class="eventsTitlesBold">Other Info</span></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="infoTitles">
+			<P>
+				
+			</P>
+		</td>
+	</tr>
+</table>
+
+          </td>
+        </tr>
+        <tr>
+        <td align="center">
+        <script type="text/javascript"><!--
+												google_ad_client = "ca-pub-0139985465971076";
+												/* Camp Pros Confirmation Page */
+												google_ad_slot = "7710856664";
+												google_ad_width = 468;
+												google_ad_height = 60;
+												//-->
+		</script>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+        </td>
+        </tr>
+        
+        <tr>
+        <td align="center">&nbsp;
+        </td>
+        </tr>
+        <tr>
+          <td height="30" background="/_img/_basic/tableShadeBottom.jpg"></td>
+        </tr>
+        <tr>
+          <td height="50" align="right" valign="bottom"><img src="/_img/_basic/cpLogo_new.gif" alt="CampPros" ></td>
+        </tr>
+    </table></td>
+    <td width="30" background="/_img/_basic/bgShadeRight.png">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="30" colspan="3" background="/_img/_basic/bgShadeBottom.png">&nbsp;</td>
+  </tr>
+</table>
+
+</form>
+	
+</body>
+</HTML>

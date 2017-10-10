@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Operation Stimulus - brought to you by The Denver Transportation Club</title>
+	<link href="StyleSheet.css" rel="stylesheet" type="text/css" /> 
+</head>
+
+<style>
+
+	.ticker-box {
+		border: solid 1px black;
+		font-family: verdana, helvetica, arial;
+		font-size: 8pt;
+		margin: 10px 0px;
+		padding: 5px 0px;
+	}/* ticker-box */
+
+	.bold-ticker {
+		font-size: 10pt; 
+		font-weight: bold;
+	}/* bold-ticker */
+
+	.ticker-header {
+		font-family: verdana, helvetica, arial;
+		font-size: 10pt;
+		font-weight: bold;
+	}/* ticker-header */
+
+    .style1
+    {
+        height: 132px;
+    }
+
+</style>
+
+<script language='javascript'>
+
+	var target_date = Date.UTC (2017, 1, 3, 26, 0);
+	var active_time = null;
+	var one_second = 1000;
+	var one_minute = 60 * one_second;
+	var one_hour = 60 * one_minute;
+	var one_day = 24 * one_hour;
+
+	/**********/
+
+	function plural (text, number) {
+		if ((number == 1) || (text == ":") || (text == "")) return text;
+		return text + "s";
+	}// plural;
+
+	/**********/
+
+	function padded_int (number) {
+		if (number == 0) return "00";
+		if (number < 10) return "0" + number.toString ();
+		return number.toString ();
+	}// padded_int;
+
+	/**********/
+
+	function date_text (time_span, time_text) {
+		var num_spans = Math.floor (active_time / time_span);
+		active_time = active_time % time_span;
+		if ((time_span == one_day) && (num_spans == 0)) return "";
+		switch (time_span != one_day) {
+			case true: return padded_int (num_spans.toString ()) + time_text; break;
+			case false: return num_spans.toString () + " " + plural (time_text, time_span) + " ";
+		}//switch;
+	}// date_text;
+
+	/**********/
+
+	function update_timer () {
+		var now = new Date ();
+		active_time = new Date (target_date - now.getTime ());
+		var output = date_text (one_day, "day").toUpperCase ();
+		switch (output == "") {
+			case true: document.getElementById ("time_counter").className = "bold-ticker"; break;
+			case false: document.getElementById ("day_counter").innerHTML = output;
+		}// switch;
+		output = date_text (one_hour, ":");
+		output += date_text (one_minute, ":");
+		output += date_text (one_second, "");
+		switch (output == "") {
+			case true: document.getElementById ("day_counter").innerHTML = "NOW!"; break;
+			case false: document.getElementById ("time_counter").innerHTML = output;
+		}// switch;
+		setTimeout (update_timer, 1000);
+	}// update_timer;
+
+</script>
+ <body onload='update_timer ();'>
+<table width="865" align=center>
+		<tr>
+			<td align='right' colspan=3><!--<img src='images/2013header.jpg' />--></td>
+		</tr>
+		<tr><td height=5 /></tr>
+		<tr>
+			<td align=center colspan='3'>
+				<object width='865px' height='180px' 
+					classid='clsid:D27CDB6E-AE6D-11CF-96B8-444553540000' 
+					codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0' 
+					background='black'>
+					<param name='movie' value='flash/transition.swf'>
+					<param name='quality' value='high'>
+					<param name='bgcolor' value='white'>
+					<embed src='flash/transition.swf' 
+						quality='high' pluginspage='http://www.macromedia.com/go/getflashplayer'	
+						type='application/x-shockwave-flash' transparent='False' bgcolor='white' 
+						width='865px' height='180px'>
+					</embed>
+				</object>
+			</td>
+		</tr>
+		<tr><td height=5 /></tr>
+		<tr>
+			<td valign="top">
+				<table width="170">
+					<tr><td><br />
+					 &nbsp&nbsp <a href="sponsors.html" class="menutext">
+					 Sponsor<br />
+					 &nbsp&nbsp Information</a></td></tr>
+					<tr><td><br />
+					 &nbsp&nbsp <a href="history.html" class="menutext">
+					 History</a></td></tr>
+					<tr><td><br />
+					 &nbsp&nbsp <a href="casestudies.html" class="menutext">
+                     Student Case<br />
+					 &nbsp&nbsp Competition<br /> 
+                     &nbsp&nbsp Information</a></td></tr>
+					<tr><td><br />
+					 &nbsp&nbsp <a href="winners.html" class="menutext">
+					 Terry L. Priest <br />
+					 &nbsp&nbsp Scholarship<br />
+					 &nbsp&nbsp Information</a></td></tr>
+					<tr><td><br />
+					 &nbsp&nbsp <a href="schedule.html" class="menutext">
+					 2016 Schedule &<br>
+                     &nbsp&nbsp Presentations</a></td></tr>
+                    <tr><td><br />
+					 &nbsp&nbsp <a href="speakers.html" class="menutext">
+					 2016 Speakers</a></td></tr>
+					<tr><td><br />
+					 &nbsp&nbsp <a href="travel.html" class="menutext">
+					 Travel &amp; Hotel<br />
+                     &nbsp&nbsp Information </a></td></tr>
+					<tr><td><br />
+					 &nbsp&nbsp <a href="http://denvertransportation.org/?page_id=700&album=30" class="menutext">
+					 Gallery</a></td></tr>
+					<tr><td><br />
+					 &nbsp&nbsp <a href="contact.html" class="menutext">
+					 Contact Us</a></td></tr>
+					 <tr><td class="style1"><hr />
+							<b>Sponsors:</b><br />
+
+                
+                <a href="https://www.10-4.com" target="_blank">
+                <img src="sponsors/104logo.jpg" width="125" vspace="10" border="0"><br />
+                <span class="maintext">Integrate. Automate.<br /> Move More Freight.</span></a><br /><br />
+                
+                <a href="http://www.5logistics.com/" target="_blank">
+                <img src="sponsors/5logistics.png" width="125" vspace="10" border="0"></a><br />
+                
+                <a href="http://www.cpr.ca/en" target="_blank">
+                <img src="sponsors/canadianpacific.png" vspace="10" border="0"></a><br />
+                
+               <a href="http://www.caplogistics.com/" target="_blank">
+                <img src="sponsors/CAP_logistics-blue.jpg" width="150" vspace="10" border="0"></a><br />
+                
+                <a href="http://www.whitewave.com/" target="_blank">
+                <img src="sponsors/whitewave.jpg" width="150" vspace="10" border="0"></a><br />
+                
+                <a href="https://www.spherewms.com/" target="_blank">
+                <img src="sponsors/SphereWMSLogo.png" width="150" vspace="10" border="0"></a><br />
+                                
+                <a href="http://www.mxpresstrans.com" target="_blank">
+                <img src="sponsors/mexpress.jpg" vspace="10" border="0"></a><br />
+                <br />
+                                                
+                <a href="http://www.unigrouplogistics.com" target="_blank">
+                <img src="sponsors/unigroup.gif" vspace="10" border="0"></a><br />
+                <br />
+					</td></tr>
+				</table>
+			</td>
+			<td width="550" valign="top" class="maintext">
+			
+            
+            
+            <br /><br />
+            <center>
+            <img src="images/universityofnorthtexas.jpg" align="left" width="200">
+            <p class="superlargetext">Congratulations to<br /> University of North Texas<br />our winner for 2016</p></center>
+
+                  <!--<a href="http://operationstimulus2016.ezregister.com/" target="_blank"><img src="images/registerbutton.png" align="right" border="0"></a>-->
+
+                    <center>
+        
+                    <p class="largetext">Save the Date:<br /><br />
+                   <b>February 2nd - 4th,  2017.</b><br>
+  					<br />Denver Renaissance Hotel</b><br />
+                    3801 Quebec St., Denver, CO  80207</p>
+
+           <hr />
+ 
+
+       <p class="largetext">Thanks to all of our 
+        Participating Schools<br /> for a great 2016 Operation Stimulus</p>
+		  
+		    <img src="images/collegesplash.jpg" usemap="#collegemap" border="0" width="350" />
+		    <map name="collegemap"><area shape="rect" coords="219,413,341,489" href="http://www.unt.edu" 
+                alt="University of North Texas" target="_blank" />
+		      <area shape="rect" coords="1,203,99,264" href="http://wayne.edu/" 
+                alt="Wayne State" target=_blank />
+		      <area shape="rect" coords="234,304,348,369" href="http://www.colostate.edu/" 
+                alt="Colorado State University" target=_blank />
+		      <area shape="rect" coords="216,-1,343,72" href="http://www.cyclones.com/" 
+                alt="Iowa State University" target=_blank />
+		      <area shape="rect" coords="177,240,353,297" href="http://www.jcu.edu" 
+                alt="John Carroll University" target=_blank />
+		      <area shape="rect" coords="-2,0,205,66" href="http://umanitoba.ca/" 
+                alt="University of Manitoba" target=_blank />
+		      <area shape="rect" coords="192,79,352,153" href="http://www.worldcampus.psu.edu" 
+                alt="Penn State World Campus" target=_blank />
+		      <area shape="rect" coords="178,338,265,417" href="http://uwf.edu/" 
+                alt="University of West Florida" target=_blank />
+		      <area shape="rect" coords="87,241,181,318" href="http://waltoncollege.uark.edu" 
+                alt="University of Arkansas" target=_blank />
+		      <area shape="rect" coords="-4,131,208,195" href="http://www.alamo.edu/pac/" 
+                alt="Palo Alto College" target=_blank />
+		      <area shape="rect" coords="117,409,205,493" href="http://www.uni.edu/" 
+                alt="University of Northern Iowa" target=_blank />
+		      <area shape="rect" coords="86,329,164,396" href="http://www.syr.edu/" 
+                alt="Syracuse" target=_blank />
+		      <area shape="rect" coords="-6,271,89,345" href="http://cwu.edu/" 
+                alt="Washington University" target=_blank />
+		      <area shape="rect" coords="2,72,180,130" href="http://www.miami.muohio.edu/" 
+                alt="Miami University" target=_blank />
+		      <area shape="rect" coords="168,181,351,238" href="http://www.dal.ca" 
+                alt="Dalhousie University" target=_blank />
+		      <area shape="rect" coords="-2,384,116,501" href="http://www.weber.edu/" 
+                alt="Weber State University" target=_blank />
+		    </map>
+</center>
+
+                        
+			 </td>	
+			<td class="menutext" valign="top" align="center">
+                Brought to you by:<br />
+                <img src="images/DTCLogo.jpg" width="100"><br />
+                The Denver<br />Transportation Club<br /><br />
+				Keep up Club News:
+                <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="http://operationstimulus.us3.list-manage1.com/subscribe/post?u=25cf884225ec52ebf953f543c&amp;id=b8da2d6944" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <label for="mce-EMAIL">Subscribe to our mailing list</label>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <div class="clear">
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+<hr />
+
+
+					<a href="http://www.facebook.com/pages/Operation-Stimulus/100524710004027" target="_blank">
+					<img src="images/facebook_32.jpg" border="0"></a>&nbsp&nbsp
+					<a href="http://www.linkedin.com/groups?home=&gid=1960898&trk=anet_ug_hm&goback=.gdr_1274805980675_1" target="_blank">
+					<img src="images/linkedin_32.jpg" border="0"></a><br /><br />
+                                    <hr />
+			<div class='ticker-header'>Operation Stimulus 2017 Starts In:</div>
+				<div id='ticker' class='ticker-box' align='center'>
+						<div id='time_counter'></div>
+				</div>
+				<div id='day_counter' class='bold-ticker'></div>
+                <hr />
+				Sponsors:<br />
+                <a href="http://www.sekologistics.com/" target="_blank">
+                <img src="sponsors/seko-logo.jpg" width="150" hspace="10" vspace="10" borcer="0" /></a><br />
+                <a href="http://www.gates.com/" target="_blank">
+                <img src="sponsors/GatesLogo.png" width="150" hspace="10" vspace="10" border="0"></a><br />
+                
+                <a href="http://www.craneww.com/" target="_blank">
+                <img src="sponsors/crane-logo.jpg" hspace="10" vspace="10" border="0"></a><br />
+          
+                <a href="http://www.acmedistribution.com" target="_blank">
+                <img src="sponsors/acme_distribution_logo.png" hspace="10" vspace="10" border="0"></a><br />
+                
+                <a href="http://www.bnsf.com/" target="_blank">
+                <img src="sponsors/bnsf.jpg" hspace="10" vspace="10" border="0"></a><br />
+                
+                <a href="http://www.millercoors.com" target="_blank">
+                <img src="sponsors/miller-coors-logo.jpg" hspace="10" vspace="10" border="0"></a><br />
+                
+				<a href="http://www.rmtransload.com/" target="_blank">
+                <img src="sponsors/rmtransload.jpg" hspace="10" vspace="10" border="0"></a><br />
+                
+            	<a href="http://www.milehigh.com/" target="_blank">
+                <img src="sponsors/D1_GrowD_pos.jpg" vspace="10" border="0" /></a><br />
+                
+               <a href="http://www.k2transportation.com/" target="_blank"><img src="http://www.k2transportation.com/images/logo.png" width="130" vspace="10" border="0"></a><br />
+               
+               <a href="http://www.networkfob.com/" target="blank"><img src="sponsors/nfob.jpg" vspace="10" border="0"></a><br />
+               
+
+                <br />
+        	
+
+					</td>
+		</tr>
+		<tr><td>
+        	<a href='http://www.widgetinc.com' style='font-family:verdana,arial,helvetica,sans-serif;font-size:9px;color:#999999' target="_blank">Website by Widget</a>
+			<a href='http://www.widgetinc.com' target="_blank"><img src='http://www.widgetinc.com/images/widget-icon.gif' border=0 align='absbottom'></a>
+        </td></tr>
+	
+	</table>
+</body>
+
+</html>

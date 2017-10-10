@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The university - University of North Texas - Acalog ACMS™</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/unt/img/favicon/favicon.ico" />
+<link href="//acalog-clients.s3.amazonaws.com/production/unt/css/gateway/user-styles.css" rel="stylesheet" type="text/css">
+<link href="css/public_custom.php" rel="stylesheet" type="text/css">
+<link href="global_styles.css" rel="stylesheet" type="text/css">
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+
+<script src="/js/prototype.js"></script>
+<script src="/js/scriptaculous.js" type="text/javascript"></script>
+<script src="/js/Tooltip.js"></script>
+<script src="/js/highlight.js" type="text/javascript"></script>
+<script src="javascripts.js" type="text/javascript" language="Javascript"></script>
+
+<script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = false; var gatewayFeatureBackToTopText = false;</script>
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/unt/css/gateway/gateway-styles.css" />
+<script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script>
+<!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]-->
+</head>
+<body>
+	<noscript><p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p></noscript>	<a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a><a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a><a name="accesskeys"></a><div class="accesskeys">
+	<p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p>
+	<dl>
+		<dt>Alt and the accesskey, for Internet Explorer on Windows</dt>
+		<dt>Shift and Alt and the accesskey, for Firefox on Windows</dt>
+		<dt>Shift and Esc and the accesskey, for Windows or Mac</dt>
+		<dt>Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.</dt>
+	</dl>
+	<p>We use the following access keys on our gateway</p>
+	<dl>
+		<dt>n Skip to Navigation</dt>
+		<dt>k Accesskeys description</dt>
+		<dt>h Help</dt>
+	</dl>
+</div><table cellspacing="0" class="toplevel">
+  <tr>
+	<td colspan="2" class="block_n2_and_content" id="acalog-header"><div id="acalog-client-javascript" class="acalog-custom">
+<script type="text/javascript">
+jQuery(document).ready( function($) { if ($('#gateway-page').length) {
+
+    }});
+</script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/jquery.equalheights.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/jquery.imagefit.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/scripts.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/menu.js"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/urchin.js" type="text/javascript"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/script-block-01.js"></script> 
+<!--[if IE 8]>
+<script type='text/javascript' src='http://www.unt.edu/js/respond.min.js'></script>
+<![endif]-->
+</div>
+<!-- End Client Javascript -->
+
+<!-- Start Client Header -->
+<div id="acalog-client-header" class="acalog-custom">
+    <div id="mobile-header" class="mobile">
+        <div class="inside-greenlight">
+            <div class="inside">
+                <p id="mobile-search" class="toggler-search" title="Toggle Search">
+                    &#160;
+                </p>
+                <div id="mobile-branding">
+                    <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90"></a>
+                </div>
+                <div id="mobile-nav-block" class="mo-hide">
+                    <div class="inside"></div>
+                </div>
+<!-- /MOBILE MENU -->
+                <div id="mobile-search-block" class="mo-hide">
+                    <div class="inside">
+                        <form method="get" action="http://www.google.com/u/unorthtexas" id="mobile-sform" name="mobile-sform">
+                            <label for="searchterms">Search the UNT web site:</label> <input id="mobile-searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()"><input name="sa" type="submit" value="Search" id="mobile-sbutton">
+                        </form>
+                    </div>
+                </div>
+<!-- /MOBILE SEARCH -->
+            </div>
+        </div>
+    </div>
+<!-- /MOBILE HEADER -->
+    <div id="header">
+        <div id="user">
+            <div id="user-wrapper">
+                <div class="grid-12">
+                    <button class="search-button">Search the UNT web site</button>
+                    <form method="get" action="http://www.google.com/u/unorthtexas" id="sform" name="sform">
+                        <label for="searchterms">Search the UNT web site:</label> <input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()"> <input name="sa" type="submit" value="Search" id="sbutton">
+                    </form>
+                    <ul id="quicklinks" class="mo-hide">
+                        <li>
+                            <a target="_blank" href="http://translate.google.com/translate?u=http%3A//www.unt.edu&amp;langpair=en|es&amp;hl=en&amp;ie=UTF8" onclick="javascript:urchinTracker('/outgoinghome/inspanish');">En Español</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://my.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/myunt');">MyUNT</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://eagleconnect.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/eagleconnect');">EagleConnect</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://webctvista.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/blackboard');">Blackboard</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.unt.edu/find-people-department.htm">People</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.unt.edu/calendars-events.htm">Calendars</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.applytexas.org/adappc/gen/c_start.WBX">Apply Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="branding">
+            <div id="branding-wrapper">
+                <div id="branding-std" class="mo-hide">
+                    <div class="grid-6" id="site-logo">
+                        <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-side-by-side.png" alt="UNT | University of North Texas"></a>
+                    </div>
+                    <div class="grid-6" id="tagline">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/greenlight-tagline.png" alt="A Green Light ot Greatness">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navigation">
+            <div id="nav-wrapper"></div>
+        </div>
+    </div>
+</div>
+<!-- End Client Header -->
+
+<!-- Start Client Footer -->
+<div id="acalog-client-footer" class="acalog-custom">
+    <div id="footer" itemscope="" itemtype="http://schema.org/Organization">
+        <div id="footer-wrapper">
+            <div class="grid-3" id="footer-logo">
+                <div class="content clearfix" itemprop="logo">
+                    <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" class="footer-logo" height="150px" width="245px"></a>
+                </div>
+            </div>
+            <div id="mobile-footer-branding">
+                <div id="mobile-footer-logo">
+                    <div class="inside">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" height="150px" width="245px">
+                    </div>
+                </div>
+                <div id="mobile-footer-tagline">
+                    <div class="inside">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/greenlight-tagline.png" alt="A Green Light ot Greatness" height="30px" width="268px">
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-visit">
+                <div class="content">
+                    <h3 id="footer-1" class="footer-toggler footer-title">
+                        Visit Us
+                    </h3>
+                    <div id="collapse-footer-1" class="footer-toggler-content footer-hide">
+                        <p class="footer-block-content">
+                            <span itemprop="name"><strong>University of North Texas</strong></span><br>
+                            <span itemprop="PostalAddress">1155 Union Circle #311277<br>
+                            Denton, Texas 76203-5017</span><br>
+                            <span class="map-link"><a target="_blank" href="https://goo.gl/maps/iIYM4">[map]</a> | <a target="_blank" href="http://www.unt.edu/visit-unt.htm">Tour Information</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-mail">
+                <div class="content">
+                    <h3 id="footer-2" class="footer-toggler footer-title">
+                        Email Us
+                    </h3>
+                    <div id="collapse-footer-2" class="footer-toggler-content footer-hide">
+                        <ul class="footer-block-content footer-emails">
+                            <li>
+                                <a href="mailto:unt.freshmen@unt.edu" itemprop="email">Freshmen admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:unt.transfer@unt.edu" itemprop="email">Transfer admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:graduateschool@unt.edu" itemprop="email">Graduate admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:international@unt.edu" itemprop="email">International admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:housinginfo@unt.edu" itemprop="email">Housing information</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-contact">
+                <div class="content">
+                    <h3 id="footer-3" class="footer-toggler footer-title">
+                        Contact Us
+                    </h3>
+                    <div id="collapse-footer-3" class="footer-block-content footer-toggler-content footer-hide">
+                        <p style="margin-bottom: 24px;" itemprop="telephone">
+                            <a href="tel:+19405652000"><span class="phone-lg">940-565-2000</span></a><br>
+                            <a target="_blank" href="http://www.unt.edu/find-people-department.htm">University Directory</a>
+                        </p>
+                        <p style="padding-top: 0 !important;">
+                            <a href="mailto:catalog@unt.edu">For questions about content in this web site, contact catalog@unt.edu.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="state-links">
+        <div id="state-wrapper">
+            <div class="grid-12 state-links">
+                <div class="content">
+                    <p class="sate-links-list mo-hide">
+                        <a target="_blank" href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a>&#160; | &#160; <a target="_blank" href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a>&#160; | &#160;<a target="_blank" href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a>&#160; | &#160;<a target="_blank" href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br>
+                        <a target="_blank" href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a>&#160; | &#160;<a target="_blank" href="http://compliance.untsystem.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a>&#160; | &#160;<a target="_blank" href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a>&#160; | &#160;<a target="_blank" href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu">UNT Home</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="social-icons" class="mo-hide">
+        <div class="social-icon">
+            <a target="_blank" href="https://www.facebook.com/northtexas" class="facebook" title="facebook" onclick="javascript:urchinTracker('/outgoinghome/facebook');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-facebook.png" alt="facebook"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="https://twitter.com/untnews" class="twitter" title="twitter" onclick="javascript:urchinTracker('/outgoinghome/twitter');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-twitter.png" alt="twitter"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://www.youtube.com/user/universitynorthtexas" class="youtube" title="YouTube" onclick="javascript:urchinTracker('/outgoinghome/youtube');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-youtube.png" alt="YouTube"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://m.unt.edu/" class="togo" title="UNT ToGo" onclick="javascript:urchinTracker('/outgoinghome/unttogo');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-mobile.png" alt="UNT ToGo"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory" onclick="javascript:urchinTracker('/outgoinghome/socialmediadirectory');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-directory.png" alt="UNT Social Media Directory"></a>
+        </div>
+    </div>
+</div>
+<!-- End Client Footer --></td>
+  </tr>
+  <tr class="acalog-block-n1">
+    <td class="block_n1_left">&#160;&#160;&#160;</td>
+	<td class="block_n1_right"><span class="n1_header">	University of North Texas</span>
+	</td>
+  </tr>
+  <tr>
+	<td class="block_border_left">&#160;&#160;&#160;</td>
+	<td class="block_n2_and_content">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content">
+			  <tr>
+				<!-- Begin N3 -->
+						<td class="block_date_outer_left" width="10">&#160;</td>
+		  <td class="block_date_inner" width="150">
+			<div align="center"><span class="date">&#160;
+May 11, 2016		</span></div>
+		  </td>
+		  <td class="block_date_outer_right" width="10">&#160;</td>
+		  <td valign="top" class="block_n2_and_content">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+
+				<td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Undergraduate Catalog</span>&#160;</span></td>
+				  <td class="block_n3_off block_n3_right" align="right">
+				<form name="select_catalog" method="post" action="/index.php" style="margin: 0px">
+					<table border="0" cellspacing="0" cellpadding="0">
+					  <tr valign="top">
+						<td>						  <select tabIndex="201" name="catalog" title="Select a Catalog">										<option value="13" selected>2015-2016 Undergraduate Catalog</option>
+																				<option value="14" >2015-2016 Graduate Catalog</option>
+																				<option value="11" >2014-2015 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="12" >2014-2015 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="9" >2013-2014 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="10" >2013-2014 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="5" >2012-2013 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="7" >2012-2013 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="3" >2011-2012 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="4" >2011-2012 Graduate Catalog [ARCHIVED CATALOG]</option>
+																  </select>
+						  </td>
+						  <td>&#160;&#160;
+				<input type="submit" title="Select a Catalog" name="sel_cat_submit" value="GO" tabIndex="202">
+				&#160;
+						  				</td>
+					  </tr>
+					</table>
+				</form>
+				  </td>
+			  </tr>
+			</table>
+		  </td>
+			<!-- End N3. -->
+			  </tr>
+				<tr>
+			<!-- N2 goes here. -->
+		  	<td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav">
+	<a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content">
+	<tr>
+		<td class="block_n2_search" >
+	  <form name="n2_search" method="get" action="/search_advanced.php" onSubmit="return validateSearchOptions()">
+		  <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="13">
+		  <input type="hidden" title="Search Database" name="search_database" value="Search">
+		  <input type="hidden" title="Search" name="search_db" value="Search">
+		  <input type="hidden" title="cpage" name="cpage" value="1">
+		  <input type="hidden" title="ecpage" name="ecpage" value="1">
+		  <input type="hidden" title="ppage" name="ppage" value="1">
+		  <input type="hidden" title="spage" name="spage" value="1">
+		  <input type="hidden" title="tpage" name="tpage" value="1">
+		  <span class="n2_search_header">Catalog Search</span>			<br>
+			<span style="display: auto;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location">
+					<option value="-1">Select an option</option>
+				<option value="3" selected>Courses</option>
+				<option value="1" selected>Programs</option>
+				<option value="28" selected>Academic Units</option>
+				<option value="30" selected>Other Content</option>
+				<option value="33" selected>Entire Catalog</option>
+			</select><br></span>
+			<span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onFocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabIndex="101">
+			<input type="submit" title="GO" value="GO" tabindex="103"><br></span>
+			<span style="display: none;"><br /><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1"  id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br /></span>
+		  <span class="n2_search"><a href="/search_advanced.php?catoid=13" class="navbar" tabIndex="104">Advanced Search</a></span><br>
+	  </form>
+		</td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td nowrap>
+		<table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links">
+		  <tr>
+			<td id="acalog-navigation">
+			  <div class="n2_links">&#160;&#160;<a href="/index.php?catoid=13" class="navbar" tabindex="105">Catalog Home</a></div>
+<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=989" class="navbar" tabIndex="106">Majors, minors, certificates</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=960" class="navbar" tabIndex="107">Course descriptions</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=973" class="navbar" tabIndex="108">The&#160;university</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=974" class="navbar" tabIndex="109">2015-2016 Academic calendar</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=975" class="navbar" tabIndex="110">Admission</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=972" class="navbar" tabIndex="111">Academics</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1002" class="navbar" tabIndex="112">University Core Curriculum</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=976" class="navbar" tabIndex="113">Enrollment</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=977" class="navbar" tabIndex="114">Financial information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=978" class="navbar" tabIndex="115">Campus resources</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=979" class="navbar" tabIndex="116">Policies</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=980" class="navbar" tabIndex="117">Contacts at UNT</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=990" class="navbar" tabIndex="118">Degree programs listed by academic unit</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=961" class="navbar" tabIndex="119">Honors College</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=962" class="navbar" tabIndex="120">College of Arts and Sciences</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=963" class="navbar" tabIndex="121">College of Business</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=964" class="navbar" tabIndex="122">College of Education</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=965" class="navbar" tabIndex="123">College of Engineering</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=966" class="navbar" tabIndex="124">College of Information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=967" class="navbar" tabIndex="125">Frank W. and Sue Mayborn School of Journalism</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1004" class="navbar" tabIndex="126">College of Merchandising, Hospitality and Tourism</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=968" class="navbar" tabIndex="127">College of Music</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=969" class="navbar" tabIndex="128">College of Public Affairs and Community Service</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=970" class="navbar" tabIndex="129">College of Visual Arts and Design</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=971" class="navbar" tabIndex="130">Toulouse Graduate School</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=982" class="navbar" tabIndex="131">Administration, faculty and librarians</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=981" class="navbar" tabIndex="132">Accrediting institutions</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=993" class="navbar" tabIndex="133">Campus maps</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=983" class="navbar" tabIndex="134">Request information or schedule a tour</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1003" class="navbar" tabIndex="135">Archived catalogs 1995-96 to 2010-11</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/mime/media/view/13/1009/2015-16_UNT_undergraduate_catalog.pdf" onclick="acalogPopup('/mime/media/view/13/1009/2015-16_UNT_undergraduate_catalog.pdf', 'media_file', 770, 530, 'yes');return false;" target="false" class="navbar" tabIndex="136">Catalog .pdf</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/mime/media/view/13/1007/2015-16_TCCNS.pdf" onclick="acalogPopup('/mime/media/view/13/1007/2015-16_TCCNS.pdf', 'media_file', 770, 530, 'yes');return false;" target="false" class="navbar" tabIndex="137">TCCNS chart</a>			</div>
+						</td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="block_n2_tools">
+		  <div class="n2_links"> &#160;&#160;<a href="/portfolio_nopop.php?catoid=13" class="navbar"><span class="acalog_term_backpack">My Catalog</span></a></div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+  </table>
+		</td>
+<!-- End of N2 -->
+				  <td valign="top" class="block_content_outer">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td class="block_content" colspan="2">
+						  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							<td>
+								<div class="help_block" style="float: right"><a href="help.php?catoid=13" onclick="javascript:acalogPopup('help.php?catoid=13', 'help', 770, 530, 'yes');return false;" class="help" tabIndex="203" accesskey="h" target="_blank"><b>HELP</b></a></div>
+								<span class="acalog_catalog_name">2015-2016 Undergraduate Catalog</span>							<h1 id="acalog-content">
+							  The&#160;university							  </h1>
+								<div style="float: right"><a rel="nofollow" href="/content.php?catoid=13&navoid=973&print" onclick="acalogPopup('/content.php?catoid=13&navoid=973&print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a></div><div class="acalog-social-media-links" style="float: right;"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D973&t=I am looking at the The university page at University of North Texas" border="0" target="_blank"><img src="acalogicons/facebook_16.png" border="0" alt="Facebook this Page"></a> <a href="http://twitter.com/intent/tweet?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D973&t=Check out this page at University of North Texas" border="0" target="_blank"><img src="/acalogicons/twitter_16.png" border="0" alt="Tweet this Page"></a></div><div align="left"><a href="portfolio_nopop.php?catoid=13&add=1&navoid=973#nav_links" onClick="acalogPopup('portfolio.php?catoid=13&add=1&navoid=973#nav_links', 'portfolio', 770, 530, 'yes');return false;" target="_blank" class="portfolio_link acalog-highlight-ignore" tabIndex="199">Add to <span class="acalog_term_backpack">My Catalog</span></a></div>							  </td>
+							</tr>
+							<tr>
+							  <td>
+								<hr>
+				  							  </td>
+							</tr>
+							<tr>
+							  <td>
+                                                              <table border="0" cellpadding="0" cellspacing="0" class="acalog-export-remove" style="width:100%">
+	<tbody>
+		<tr>
+			<td style="width:50%">
+			<ul>
+				<li><a href="#Location">Location</a></li>
+				<li><a href="#History_of_the_University">History of the university</a></li>
+				<li><a href="#The_University_s_Mission">The university's mission</a></li>
+				<li><a href="#The_Univeristy_s_Vision">The university's vision</a></li>
+				<li><a href="#Faculty">Faculty</a></li>
+			</ul>
+			</td>
+			<td style="vertical-align:top">
+			<ul>
+				<li><a href="#Student_Life">Student life</a></li>
+				<li><a href="#University_Libraries">University libraries</a></li>
+				<li><a href="#Computer_Services">Computer services</a></li>
+				<li><a href="#Accreditation">Accreditation</a></li>
+				<li><a href="#Administration__Faculty_and_Librarians">Administration, faculty and librarians</a></li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr />
+<p>The University of North Texas is a place where students transform their lives through education and opportunity.</p>
+
+<p>The flagship of the UNT System, UNT has a legacy of excellence in a broad range of academic areas. UNT is the most comprehensive university in the Dallas–Fort Worth area, offering 98 bachelor's, 82 master's and 36 doctoral degree programs — many nationally and internationally recognized. The choice of 36,000 students, it's the largest, most comprehensive university in the Dallas-Fort Worth area.</p>
+
+<p>UNT is a student-focused public research university. Named one of <em>America's 100 Best College Buys</em>® for 19 consecutive years, UNT offers the state's most affordable research university education. With 44 research centers, our faculty and students are discovering innovative solutions to real-world problems and serving the public good.</p>
+
+<h2><a name="Location"></a>Location</h2>
+
+<p>UNT is in Denton, a college town of about 122,000 people located 40 miles north of Dallas and Fort Worth. The 900-acre campus includes 173 buildings and Discovery Park, a 300-acre research facility. Discovery Park is accessible by shuttle buses, as are residence halls, athletic facilities and other areas of campus.</p>
+
+<p>The Dallas—Fort Worth area is one of the largest, most dynamic regions in the United States and home to many of the nation's fastest growing cities. UNT powers the North Texas region through innovation, education and research; forming partnerships with many business, industry, education, government and cultural organizations.</p>
+
+<h2><a name="The_University_s_Mission"></a>The university's mission</h2>
+
+<p>UNT is a major public research university deeply committed to advancing educational excellence and preparing students to become thoughtful, engaged citizens of the world.</p>
+
+<h2><a name="The_Univeristy_s_Vision"></a>The university's vision</h2>
+
+<p>As the most comprehensive public research university providing a top quality education in one of the nation's largest, most dynamic regions, UNT will be celebrated for its academics, arts and athletics. UNT will be a diverse and inclusive institution creating knowledge and innovations that will shape the future, while cultivating excellence in the next generation of scholars and leaders for the global community.</p>
+
+<h3>Achieving the vision</h3>
+
+<h4 style="margin-left:40px">UNT's promise</h4>
+
+<p style="margin-left:40px">The University of North Texas' ultimate responsibility is to provide students with the best education possible, so they may achieve their goals, succeed at the highest levels and improve their communities, the state of Texas, the nation and the world.</p>
+
+<p style="margin-left:40px">UNT promises to offer students a challenging, rigorous, high-quality education and provide a supportive environment to help them successfully learn and grow.</p>
+
+<p style="margin-left:40px">UNT promises to contribute to the greater good through scholarship, research, creative endeavors and public service.</p>
+
+<h4 style="margin-left:40px">UNT's four bold goals</h4>
+
+<p style="margin-left:40px">At the heart of the university's strategic plan are four cornerstone goals that drive UNT to provide the best education possible and rival the nation's best higher education institutions. The goals are ambitious, but the plan builds on UNT's strengths and momentum. We are reaching our destination by working together to meet the most ambitious goals. We hold ourselves accountable to the highest standards of quality, service and engagement, and measure our progress against clear and accepted standards.</p>
+
+<p style="margin-left:40px">Goal 1: Provide the best undergraduate educational experience in Texas.</p>
+
+<p style="margin-left:40px">Goal 2: Provide superior graduate education, scholarship and artistic endeavors and achieve status among the nation's tier-one research institutions.</p>
+
+<p style="margin-left:40px">Goal 3: Become a national leader among universities in student support, employee relations, operational effectiveness and service to constituencies.</p>
+
+<p style="margin-left:40px">Goal 4: Establish UNT as a nationally recognized, engaged university and regional leader by building and expanding mutually beneficial partnerships and resources.</p>
+
+<h2><a name="History_of_the_University"></a>History of the university</h2>
+
+<p>UNT was founded in 1890 as Texas Normal College and Teachers' Training Institute. Joshua C. Chilton, the founding president, leased facilities above a hardware store on Denton's square to establish a teacher training institute. His charge to the faculty at its first assembly remains an important part of UNT's value system: "It will be our aim to become leaders in the education of the young men and women of Texas, fitting them to creditably fill the most important positions in business and professional circles. We desire the cooperation of all who believe in higher education and who want to see our state in the very front of intellectual as well as material progress."</p>
+
+<p>The university has had seven names through the years:</p>
+
+<p style="margin-left:40px">1890 Texas Normal College and Teachers' Training Institute<br />
+1894 North Texas Normal College<br />
+1901 North Texas State Normal College<br />
+1923 North Texas State Teachers College<br />
+1949 North Texas State College<br />
+1961 North Texas State University<br />
+1988 University of North Texas</p>
+
+<p>Incoming students score well above the national and state averages on the SAT, and choose UNT for the quality of its programs, many of which are nationally and internationally recognized. UNT "firsts" through the years include:</p>
+
+<ul>
+	<li>First jazz studies program in the U.S.</li>
+	<li>First undergraduate emergency administration and planning program in the U.S.</li>
+	<li>First bachelor's degree in digital retailing in the U.S. and first master's degree in merchandising offered completely online</li>
+	<li>First school library certification program in the U.S. offered completely online</li>
+	<li>First accredited master's program in applied behavior analysis in the world</li>
+	<li>First master's program in international sustainable tourism in the U.S.</li>
+	<li>First four-year aviation logistics program at a university in Texas</li>
+	<li>First comprehensive training/research center for Spanish language media</li>
+	<li>First and only PhD program in art education in Texas</li>
+	<li>World's first graduate program in environmental philosophy and world's first field station in environmental philosophy, science and policy at Cape Horn, Chile</li>
+</ul>
+
+<h2><a name="Faculty"></a>Faculty</h2>
+
+<p>At the heart of the university's efforts to carry out its mission are the faculty. Individually, UNT faculty members have been singled out for contributions to their teaching and research fields through diverse national and international awards.</p>
+
+<p>Collectively, the faculty have contributed significantly to research and scholarship within various fields through numerous publications, presentations at scholarly conferences, concerts, recitals, exhibitions and performances.</p>
+
+<p>Faculty leadership in teaching, research, creative activities, performance and service activities has created national and international reputations for excellence for a number of academic programs within the university's 12 schools and colleges.</p>
+
+<h2><a name="Student_Life"></a>Student life</h2>
+
+<p>&#160;A wide array of student organizations gives UNT students the opportunity to build friendships with people of both similar and varied interests and provides avenues for organized and meaningful service. Student organizations represent many areas of interest, such as service professional, political, academic, spiritual, athletic, residential, and Greek. Being involved in a student organization promotes a sense of community and connection to the university, while serving to enhance the social, intellectual and developmental growth of students. For more information, see the Campus Resources section of this catalog, call the Student Activities Center at 940-565-3807 or visit <a href="http://studentactivities.unt.edu" target="_blank">studentactivities.unt.edu</a>.</p>
+
+<h2><a name="University_Libraries"></a>UNT libraries</h2>
+
+<p>A wide range of student- and faculty-centered services are the cornerstone of the Libraries' integral role in the UNT community. As an essential component of education and&#160;research at UNT, the Libraries offer access to more than seven million items (print and digital), along with expert personnel to assist patrons in achieving their academic and scholarly goals. Visit us online at <a href="http://www.library.unt.edu" target="_blank">www.library.unt.edu</a>.</p>
+
+<h3>Services</h3>
+
+<p>UNT Libraries' services include:</p>
+
+<ul>
+	<li>Willis Library open 24/7 during long semesters</li>
+	<li>Mac and PC laptop checkout</li>
+	<li>Free video games, movies, music and more</li>
+	<li>The Study cafe in Willis Library</li>
+	<li>Electronic resources, including journals, books and other research materials</li>
+	<li>Library instruction, subject guides and tutorials</li>
+	<li>Research assistance from subject experts</li>
+	<li>Accessible tables, study carrels, and computers in Willis, Eagle Commons, Media and Discovery Park libraries</li>
+</ul>
+
+<h3>Libraries and collections</h3>
+
+<p>UNT Libraries have many exceptional collections:</p>
+
+<ul>
+	<li>The Music Library is one of the country's largest music collections, with an extensive phonographic disc and tape collection, and the private jazz collections of Stan Kenton, Don Gillis,&#160;Whit Ozier and Leon Breeden.</li>
+	<li>Special Collections preserve and provide access to an incredible wealth of materials that document the history and legacy of Texas, as well as touch on numerous topics of national import. Collections include the history of the university, oral histories and Texas county records. Other important archival collections include those of Sarah T. Hughes, Enid Justin and Ruth Salmon. The holdings also feature an outstanding miniature book collection; the private library of Anson Jones, President of the Republic of Texas; Texas Society of Sons of the American Revolution; the Weaver Collection of Juvenile materials; and examples of important early publishing, printing and binding styles. Recently expanded collections include the Lesbian, Gay, Bisexual, and Transgender Archive; the Latino/Latina Archive; and the Photography and Visual Materials Collection, which includes the photographic archives of several prominent photographers.</li>
+	<li>The Government Documents Department contains U.S. and Texas government documents, including the Texas Register. The library has received national recognition for its efforts to preserve online government information through the CyberCemetery and participation in the 2008 End-of-Term Harvest of U.S. government web sites. The UNT Libraries have the distinction of being one of&#160;ten affiliated archives of the National Archives.</li>
+	<li>Through collaborative efforts such as the Portal to Texas History and&#160;the UNT Digital Library, the Libraries provide digital content to a worldwide audience. The Portal is a gateway to Texas history materials from more than 250 partners at libraries, museums and archives across Texas. The UNT Digital Library is ranked in the top 15 digital repositories in North America and is 19th best globally. Highlighted collections in the UNT Digital Library include UNT electronic theses and dissertations, the Federal Communications Commission Record,&#160;UNT Scholarly Works, a Virtual Music Rare Book Room and the World War poster collections.</li>
+</ul>
+
+<p>In addition to Willis Library, UNT Libraries include the following:</p>
+
+<ul>
+	<li>The Media Library in Chilton Hall, which&#160;houses a large collection of audiovisual materials, including videos, 16 mm - films and audio CDs. Video-on-demand service is provided for curriculum support.</li>
+	<li>The Discovery Park Library, which&#160;supports the College of Engineering and the College of Information.</li>
+	<li>The Eagle Commons Library in Sycamore Hall, which&#160;focuses on physics, chemistry, biology, art&#160;and psychology and includes an outstanding collection in mathematics. The Collaboration and Learning Commons offers the ideal place on campus to study in groups, create multimedia projects and record presentations.</li>
+	<li>The Library Annex and the Research Collection Library—both located off-campus—which&#160;provide storage for and house the preservation and technical services departments.</li>
+</ul>
+
+<h2><a name="Computer_Services"></a>Computer services</h2>
+
+<p>Centralized campus computing services that support instruction, research and student learning are provided through Academic Computing and User Services (ACUS). ACUS is a division of University Information Technology (UIT; <a href="http://it.unt.edu" target="_blank">it.unt.edu</a>) and is located in Suite 336-338 of Sage Hall. ACUS services include support for a wide range of research computing platforms, student messaging, training, consulting and the university computing help desk (<a href="http://helpdesk.unt.edu" target="_blank">helpdesk.unt.edu</a>).</p>
+
+<p>In addition to the services directly supported by ACUS, computer services are also available from the University Libraries and many college, school and departmental computer support centers. Computer networks are installed in all academic departments, providing Internet connectivity. Wireless networking (UNT secure network and Eaglenet) is available in most campus classroom buildings and in public buildings such as the University Union and UNT Libraries. Online courses are offered with support from the Center for Learning Enhancement, Assessment and Redesign (CLEAR; <a href="http://clear.unt.edu" target="_blank">clear.unt.edu</a>) using computing systems supported by the Information Technology Shared Services (ITSS; <a href="http://itss.untsystem.edu" target="_blank">itss.untsystem.edu</a>).</p>
+
+<h3>Student computing services</h3>
+
+<p>Thirteen general access microcomputer labs (<a href="http://computerlabs.unt.edu" target="_blank">computerlabs.unt.edu</a>), housing approximately 700 computers, are available to all students for use of both Windows and Macintosh personal computers. Laser printers are provided in all labs. Approximately 30 additional special-purpose labs serve students in particular disciplines or students living in university residence halls. In addition, all residence hall rooms have network connections, allowing students to have high-speed access to the Internet and the campus network on their own computers.</p>
+
+<p>Information Technology Shared Services (ITSS) provides electronic mail to all students via EagleConnect (<a href="http://eagleconnect.unt.edu" target="_blank">eagleconnect.unt.edu</a>), a web-based e-mail and calendar system. EagleConnect is used as an official communication medium between the university and students. Through the EagleConnect service, students can also download and install Microsoft Office to their personal computing devices free of charge.</p>
+
+<h3>Research computing support</h3>
+
+<p>Academic Computing and User Services (ACUS) supports multiple High Performance Computing (HPC) systems used for computationally intensive scientific research (<a href="http://hpc.unt.edu" target="_blank">hpc.unt.edu</a>).</p>
+
+<p>ACUS provides support for SPSS, SAS, R, Matlab, and other statistical analysis mathematics programming languages. SAS, SPSS, R, and Matlab are available for use in many of the general access computing labs. Documentation, training and consultation support are available for all supported statistical programming applications (<a href="http://www.unt.edu/rss" target="_blank">www.unt.edu/rss</a>).&#160;</p>
+
+<p>ACUS supports access to machine-readable data collections including the Inter-University Consortium for Political and Social Research (ICPSR) data archives, Standard and Poor's COMPUSTAT and the Center for Research in Security Prices' (CRSP) data sets. The University Libraries also maintain a number of databases and other research materials on CD-ROM servers that are accessible through the campus network.</p>
+
+<h3>Consulting, training and help desk services</h3>
+
+<p>Consulting and training are provided by Academic Computing and User Services (ACUS) to facilitate the use of research and instructional computing facilities. Short courses are offered on statistical packages and research techniques that are of particular interest to students involved in research activities.</p>
+
+<p>Computer-based training programs are accessible within general access computer labs or via the web (<a href="http://it.unt.edu/training" target="_blank">it.unt.edu/training</a>). Experienced consultants are available to assist students with computing problems.&#160;</p>
+
+<p>ACUS operates the university computing help desk service to provide students with information and help on a variety of computing problems (<a href="http://helpdesk.unt.edu" target="_blank">helpdesk.unt.edu</a>). The help desk is located in Sage Hall, Room 130. The phone number is 940-565-2324.</p>
+
+<p>Benchmarks Online (<a href="http://www.unt.edu/benchmarks" target="_blank">www.unt.edu/benchmarks</a>), University Information Technology's (UIT) newsletter, is published monthly and is an excellent source for news about computing and information technology resources in use at UNT.&#160;</p>
+
+<h2><a name="Accreditation"></a>Accreditation</h2>
+
+<p><em>The University of North Texas is accredited by the Southern Association of Colleges and Schools Commission on Colleges to award baccalaureate, masters and doctorate degrees.&#160; Contact the Commission on Colleges at 1866 Southern Lane, Decatur, Georgia 30033-4097 or call 404-679-4500 for questions about the accreditation of the University of North Texas.&#160;</em></p>
+
+<p><em>Note: The Commission should be contacted only if there is evidence that appears to support the institution's significant non-compliance with a requirement or standard.&#160; Normal inquiries about UNT, such as admission requirements, financial aid, and educational programs, should be addressed directly to UNT and not the Commission's office</em>.&#160;</p>
+
+<p>&#160;</p>
+
+<p>In addition, the University of North Texas offers programs accredited by the following organizations.<em> </em></p>
+
+<p>&#160;</p>
+
+<p><em>AACSB International — The Association to Advance Collegiate Schools of Business<br />
+ABET</em><br />
+<em>ABET-Computing Accreditation Commission</em><br />
+<em>ABET-Technology Accreditation Commission</em><br />
+<em>Accreditation Commission for Programs in Hospitality Administration<br />
+Accrediting Council on Education in Journalism and Mass Communications</em><br />
+<em>American Association of Forensic Science</em><br />
+<em>American Chemical Society</em><br />
+<em>American Council on the Teaching of Foreign Languages</em><br />
+<em>American Library Association<br />
+American Psychological Association<br />
+American Speech-Language-Hearing Association<br />
+Association for Behavior Analysis International</em><br />
+<em>Association for Childhood Education International</em><br />
+<em>Association for Middle Level Education</em><br />
+<em>Commission on English Language Program Accreditation<br />
+Council for Accreditation of Counseling and Related Educational Programs<br />
+Council for Interior Design Accreditation<br />
+Council on Rehabilitation Education<br />
+Council on Social Work Education<br />
+Development, Family Studies, and Early Childhood Education<br />
+National Accreditation Commission for Early Care and Education Programs<br />
+National Association of Schools of Art and Design<br />
+National Association of Schools of Music<br />
+National Association of Schools of Public Affairs and Administration<br />
+National Association for Sport and Physical Education<br />
+National Council for Accreditation of Teacher Education<br />
+National Council for the Social Studies<br />
+National Recreation and Park Association/American Association of Leisure and Recreation Council on Accreditation<br />
+Texas State Board for Educator Certification</em></p>
+
+<p>See <a href="content.php?catoid=13&navoid=981" onclick="acalogPopup('content.php?catoid=13&navoid=981'+((location.search.match(/&print/i)) ? '&print' : '')+'', '16', 770, 530, 'yes');return false;" target="_blank">Accrediting Institutions</a><span style="display: none !important">&#160;</span>&#160;for addresses of accrediting organizations.</p>
+
+<p>In addition, the University of North Texas offers programs that are approved or recognized by<em>:</em></p>
+
+<p><em>American Alliance for Health, Physical Education, Recreation and Dance<br />
+Council for Exceptional Children<br />
+Educational Leadership Constituent Council<br />
+International Society for Technology in Education<br />
+National Council of Teachers of English<br />
+National Council of Teachers of Mathematics</em> <em> </em></p>
+
+<h4>Institutional memberships</h4>
+
+<p>The University of North Texas holds the following memberships.</p>
+
+<p><em>American Association of Family and Consumer Sciences<br />
+American Association of State Colleges and Universities<br />
+American College Dance Festival Association<br />
+American Collegiate Retailing Association<br />
+American Council on Education<br />
+American Hotel and Lodging Association<br />
+American Mathematical Society<br />
+American Political Science Association<br />
+Association for Symbolic Logic<br />
+Association of Texas Colleges and Universities<br />
+Association of Texas Graduate Schools<br />
+Association of Women in Mathematics<br />
+Broadcast Education Association<br />
+Coalition of Urban and Metropolitan Universities</em><br />
+<em>Conference of Southern Graduate Schools<br />
+Council for Chemical Research<br />
+Council for Higher Education Accreditation<br />
+Council for Public University Presidents and Chancellors<br />
+Council of Graduate Schools<br />
+Council on Undergraduate Research<br />
+Dallas Dance Council<br />
+Federation of North Texas Area Universities<br />
+Greater Denton Arts Council<br />
+Hospitality Sales and Marketing Association International<br />
+International Council of Shopping Centers<br />
+International Council on Hotel, Restaurant and Institutional Education<br />
+International Textile and Apparel Association<br />
+Mathematical Association of America<br />
+National Association of State Universities and Land-Grant Colleges<br />
+National Collegiate Honors Council<br />
+National Restaurant Association<br />
+National Retail Federation<br />
+National Women's Studies Association<br />
+Oak Ridge Associated Universities<br />
+Society for Cinema and Media Studies<br />
+Texas Association of Broadcast Educators<br />
+Texas Educational Theatre Association<br />
+University Film and Video Association</em></p>
+
+<h2><a name="Administration__Faculty_and_Librarians"></a>Administration, faculty and librarians</h2>
+
+<p>See the <a href="content.php?catoid=13&navoid=982" target="_blank">Administration, faculty and librarians</a><span style="display: none !important">&#160;</span>&#160;section for lists of university officers, UNT System officers and academic deans.</p>
+
+<p>Information regarding individual faculty members and librarians is available from the Faculty Profile System (<a href="https://faculty.unt.edu/index.php" target="_blank">faculty.unt.edu/index.php</a>). Select "Faculty Profiles" from the Browse menu. To access faculty information from a specific department or from the Libraries, use the drop-down menu at the head of the faculty list.</p>
+
+<p>Graduate faculty of the Graduate School of Biomedical Sciences and the School of Public Health at the University of North Texas Health Science Center at Fort Worth (UNTHSC) also are members of the graduate faculty of the University of North Texas and thus can serve as mentors or committee members of UNT graduate students appropriate to their graduate appointment. See the <em>UNTHSC Graduate Catalog</em> for UNTHSC graduate faculty listings.</p>
+
+<hr />
+<h3>UNT presidents</h3>
+
+<p>Joshua C. Chilton (1890–1893)<br />
+John J. Crumley (1893–1894)<br />
+Menter B. Terrill (1894–1901)<br />
+J.S. Kendall (1901–1906)<br />
+W.H. Bruce (1906–1923)<br />
+Robert L. Marquis (1923–1934)<br />
+W.J. McConnell (1934–1951)<br />
+J.C. Matthews (1951–1968)<br />
+John J. Kamerick (1968–1970)<br />
+John L. Carter, Jr. (acting, 1970–1971)<br />
+C.C. Nolen (1971–1979)<br />
+John L. Carter, Jr. (acting, 1979–1980)<br />
+Frank E. Vandiver (1980–1981)<br />
+Howard W. Smith Jr. (ad interim, 1981–1982)<br />
+Alfred F. Hurley (1982–2000)<br />
+Norval F. Pohl (2000–2006)<br />
+Gretchen M. Bataille (2006–2010)<br />
+Phillip C. Diebel (ad interim, 2010)<br />
+V. Lane Rawlins (2010-2014)<br />
+Neal Smatresk (2014-present)</p>
+
+<p>From 1981 until 2000, the president also carried the responsibilities and title of Chancellor of the University and the University of North Texas Health Science Center at Fort Worth. Senate Bill 751 of the 76th Texas Legislature provided for the establishment of the University of North Texas System, and in July 1999, the Texas Higher Education Coordinating Board confirmed formal system status for UNT System Center (now in Dallas), including the Denton campus, UNTHSC at Fort Worth and the UNT Dallas Campus. In October 2000, the positions of president and chancellor were officially separated.</p>
+
+<h3>UNT chancellors</h3>
+
+<p>Frank E. Vandiver (1981)<br />
+Howard E. Smith (ad interim, 1981)<br />
+Alfred F. Hurley (1981–2002)<br />
+Lee Jackson (2002–present)</p>
+
+<p>On August 24, 2002, the UNT Board of Regents named Alfred F. Hurley Chancellor Emeritus of the UNT System and President Emeritus of the university.</p>
+							  </td>
+							</tr>
+						  </table>
+                                                  <br /><hr /><div style="float: right">&#160;<a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | <a rel="nofollow" href="/content.php?catoid=13&navoid=973&print" onclick="acalogPopup('/content.php?catoid=13&navoid=973&print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a></div><div class="acalog-social-media-links" style="float: right;"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D973&t=I am looking at the The university page at University of North Texas" border="0" target="_blank"><img src="acalogicons/facebook_16.png" border="0" alt="Facebook this Page"></a> <a href="http://twitter.com/intent/tweet?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D973&t=Check out this page at University of North Texas" border="0" target="_blank"><img src="/acalogicons/twitter_16.png" border="0" alt="Tweet this Page"></a></div><div align="left"><a href="portfolio_nopop.php?catoid=13&add=1&navoid=973#nav_links" onClick="acalogPopup('portfolio.php?catoid=13&add=1&navoid=973#nav_links', 'portfolio', 770, 530, 'yes');return false;" target="_blank" class="portfolio_link acalog-highlight-ignore" tabIndex="199">Add to <span class="acalog_term_backpack">My Catalog</span></a></div>
+					  </td>
+				</tr>
+			  </table>
+			</td>
+		  </tr>
+		</table>
+	</td>
+  </tr>
+	<tr>
+	<td class="block_footer_lb">&#160;&#160;&#160;</td>
+	<td class="block_footer_rb">
+<nobr>All <a href="/misc/catalog_list.php?catoid=13" class="footer"  tabIndex="300">catalogs</a> &#169; 2016 University of North Texas.</nobr> <nobr>Powered by the <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.</nobr>
+<br />
+	<script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script>
+	<nobr><a href="http://m.catalog.unt.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.</nobr><script type='text/javascript'>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-368058-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td>
+	</tr>
+</table>
+<script src="js/smlinks.js" type="text/javascript"></script>
+</body>
+</html>

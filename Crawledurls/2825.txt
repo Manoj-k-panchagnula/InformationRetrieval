@@ -1,0 +1,1205 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Off-Campus Student Services &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   off-campus-student-services">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/off-campus-student-services"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-2wlEq9UZ5d60UvcmPXTYkcO6lVuZgkwwzLFMBVl6ScY" value="form-2wlEq9UZ5d60UvcmPXTYkcO6lVuZgkwwzLFMBVl6ScY"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/off-campus-student-services"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-2wlEq9UZ5d60UvcmPXTYkcO6lVuZgkwwzLFMBVl6ScY" value="form-2wlEq9UZ5d60UvcmPXTYkcO6lVuZgkwwzLFMBVl6ScY"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-residencelife">Residence Life</div> </div> -->
+			<h1 id="dls">Off-Campus Student Services</h1>
+						<div id="sub" class="subtitle">Provided by <a href="student-activities-center">Student Activities Center</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="student-activities-center">Student Activities Center</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="row tabbable">
+	<div class="col-md-4">
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active">
+				<a href="#about">About</a></li>
+			<li>
+				<a href="#non-trad">Non-Traditional Students</a></li>
+			<li>
+				<a href="#guides">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guide</a></li>
+			<li>
+				<a href="#commuter">Commuter Students</a></li>
+			<li>
+				<a href="#events">Events</a></li>
+			<li>
+				<a href="#resources">Resources</a></li>
+			<li>
+				<a href="#academic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Academic</a></li>
+			<li>
+				<a href="#campus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campus</a></li>
+			<li>
+				<a href="#community">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Community</a></li>
+			<li>
+				<a href="#family">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Family</a></li>
+			<li>
+				<a href="#housing">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Housing</a></li>
+			<li>
+				<a href="#transportation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transportation</a></li>
+			<li class="active">
+				&nbsp;</li>
+		</ul>
+		<a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> <a class="button" href="https://studentaffairs.unt.edu/form/contact-us">Contact Us</a>
+
+		<h2>
+			Talk to Us Live</h2>
+
+		<div style="height: 400px;">
+			<iframe border="0" frameborder="0" src="http://chat.zoho.com/mychat.sas?u=88d76d1bbadf93225547739b0c0e4f1d&amp;chaturl=UNT%20OCSS&amp;V=FFFFFF-2E8B57-2E8B57-2E8B57-UNT%20OCSS" style="width: 100%; height: 100%; overflow: hidden;"></iframe></div>
+	</div>
+
+	<div class="tab-content col-md-8">
+		<div class="tab-pane" id="academic">
+			<div class="span15">
+				<div class="node" id="node-17">
+					<div class="node" id="node-17">
+						<h1>
+							Academic Resources</h1>
+
+						<h2>
+							Alpha Sigma Lambda (ASL)</h2>
+
+						<p style="color: rgb(119, 119, 119); line-height: 23.99px; font-family: &quot;Open Sans&quot;, Georgia, sans-serif; font-size: 14.44px; background-color: rgb(255, 255, 255);">
+							<img class="bordered" src="http://studentaffairs.unt.edu/sites/default/files/studentactivities/pdf/DSC00626.JPG" style="padding: 5px; border-radius: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 198px; height: 127px; margin-right: 10px; float: left; display: inline-block;" /></p>
+
+						<p>
+							Alpha Sigma Lambda National Honor Society is a non-profit organization devoted to the advancement of scholarship and to the recognition of non-traditional students continuing their higher education. Student members must have completed a minimum of twenty-four (24) graded semester hour credits and obtain a minimum 3.2 GPA.<strong> Eligible students will receive a letter of invitation to join the honor society with membership information.</strong> The University of North Texas chapter holds an induction ceremony each fall and spring semester to honor new members. More information about the organization can be found at&nbsp;<a href="http://www.alphasigmalambda.org/" target="_blank">www.alphasigmalambda.org</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="campus">
+			<div class="span15">
+				<div class="node" id="node-17">
+					<div class="node" id="node-17">
+						<h1>
+							Campus&nbsp;Resources</h1>
+
+						<h2>
+							UNT Dining</h2>
+
+						<p>
+							Off-campus students can also take advantage of great meal plans. Learn more about meal plans, summer time meal plans and the Food Advisory Committee <strong><a href="http://www.dining.unt.edu/commuter">here</a></strong>.</p>
+
+						<h2>
+							After-Hours Services</h2>
+
+						<p>
+							Several offices, including Student Financial Aid and Scholarships, Dean of Students, Student Activities, and the Registrar&#39;s Offices, have extended hours during the long semesters. An after-hours message line at&nbsp;<span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2648<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: (940) 565-2648"><img src="data:image/png;base64,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" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important;" title="Call: (940) 565-2648" /></a></span>&nbsp;is offered through the Dean of Students Office. All messages are forwarded the next day. Many campus&nbsp;offices also have voicemail</p>
+
+						<h2>
+							Employment</h2>
+
+						<p>
+							During the spring and fall semesters, about 3,800 UNT students, including teaching fellows and graduate assistants, have on-campus jobs. Most students work at least three to four hours in the morning or afternoon, for a total of 15 to 20 hours a week.</p>
+
+						<p>
+							The Career Center in Chestnut Hall posts available on-campus and off-campus jobs. The center has an online system where you can set up an account to view part-time openings. It is up to you to contact the potential employers for job interviews. First-time users will need to contact the Career Center in person or by e-mail to obtain a password. The center also offers job fairs each semester that are attended by more than 200 employers who are looking for employees. To contact the Career Center, call&nbsp;<span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2105<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: (940) 565-2105"><img src="data:image/png;base64,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" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important;" title="Call: (940) 565-2105" /></a></span>&nbsp;or email at&nbsp;<a href="mailto:careercenter@unt.edu">careercenter</a><a href="mailto:careercenter@unt.edu">@unt.edu</a>.</p>
+
+						<h2>
+							Health Insurance</h2>
+
+						<p>
+							UNT students, their spouses and their families can take advantage of a group health insurance plan through an independent insurance company. The forms can be picked up at the Health Center or&nbsp;<a href="http://studentaffairs.unt.edu/billing-insurance" target="_blank">online</a>.</p>
+
+						<h2>
+							Metro Phone Lines</h2>
+
+						<p>
+							Telephones with metro lines are available for toll-free long-distance phone calls from campus to any location in the Dallas-Fort Worth region. Located outside the University Programs Council Office on the second floor of the University Union, the phones are available during the fall and spring semesters 8 a.m. to 5 p.m., Monday through Friday.</p>
+
+						<p>
+							Toll free long-distance phone calls from any location in the Dallas-Fort Worth region area to UNT can be made by dialing the university&#39;s metro line at&nbsp;<span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">817-267-3731<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: 817-267-3731"><img src="data:image/png;base64,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" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important;" title="Call: 817-267-3731" /></a></span>.</p>
+
+						<h2>
+							Pohl&nbsp;Recreation Center</h2>
+
+						<p>
+							As a UNT student, you&nbsp;receive a membership to the&nbsp;Pohl&nbsp;Recreation Center through your student fees. Paid memberships are also available for purchase for a student&#39;s spouse and dependents, and for alumni. A continuing student membership is also offered. The rec center houses a 45-foot climbing wall, indoor swimming pools, an indoor running track, basketball courts and exercise equipment. Recreational sports programs include aquatics, fitness and group exercise, informal recreation, intramural sports, outdoor pursuits, and&nbsp;sport clubs. For more information, visit&nbsp;<a href="http://www.unt.edu/recsports">www.unt.edu/recsports</a>&nbsp;or call&nbsp;<span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2275<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: (940) 565-2275"><img src="data:image/png;base64,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" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important;" title="Call: (940) 565-2275" /></a></span>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="community">
+			<div class="span15">
+				<div class="node" id="node-17">
+					<div class="node" id="node-17">
+						<h1>
+							Community&nbsp;Resources</h1>
+
+						<p>
+							Helpful links for Denton &amp; the surrounding area.</p>
+
+						<ul>
+							<li>
+								<a href="http://www.cityofdenton.com/" target="_blank">City of Denton</a></li>
+							<li>
+								<a href="http://www.cityoflewisville.com/" target="_blank">City of Lewisville</a></li>
+							<li>
+								<a href="http://www.cityofcorinth.com/" target="_blank">City of Corinth</a></li>
+							<li>
+								<a href="http://www.weather.com/" target="_blank">Weather.com</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="family">
+			<div class="span15">
+				<div class="node" id="node-17">
+					<div class="node" id="node-17">
+						<div>
+							<h1>
+								Family Resources</h1>
+						</div>
+
+						<p>
+							Juggling the responsibilities of attending college can be an overwhelming task. Add in managing a family and you have a real challenge. Our new Family Services webpage is designed to make it a little easier. We offer support and information, which is often all you need. If you need more help, our resources and links can offer additional on- and off-campus assistance. The goal is to provide expertise, information, and services so you can best meet the needs of your family.&nbsp;</p>
+
+						<h2>
+							Child Care Resource and Referral Service</h2>
+
+						<ul>
+							<li>
+								Struggling to find child care near your home or UNT?</li>
+							<li>
+								Wondering if you&rsquo;re paying too much?</li>
+							<li>
+								Need a program for your school-age kids while you&rsquo;re in class?</li>
+						</ul>
+
+						<p>
+							UNT has formed a partnership - free of charge to UNT students, faculty, and staff&nbsp;- with Camp Fire First Texas&rsquo; Child Care Network (CCN) to provide customized child care solutions. A specialist will work with you to identify your child care needs and provide you with a list of licensed programs that have availability and meet criteria specific to your family. Camp Fire has a database of more than 2,000 regulated child care (infant &ndash; school-age) programs, day camps, summer camps and programs for children with special needs. Camp Fire also identifies resources to help address other life issues, including respite care, tutoring and summer care.</p>
+
+						<h3>
+							How does the CCN work?</h3>
+
+						<p>
+							To be contacted by the Resource and Referral Service please click the button below</p>
+
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://studentactivities.unt.edu/ocs/contact">Contact Form</a></p>
+
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OR</p>
+
+						<ol>
+							<li>
+								Call <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-3807<a href="http://studentaffairs.unt.edu/off-campus-student-services#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: 940-565-3807"><img src="data:image/png;base64,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" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important; border-image-source: none;" title="Call: 940-565-3807" /></a></span>. We will give you the contact information for UNT&rsquo;s Camp Fire&rsquo;s CCN representative.</li>
+							<li>
+								Call or email UNT&rsquo;s Camp Fire&rsquo;s CCN representative.</li>
+							<li>
+								Identify yourself as a UNT student by providing your UNT euid.</li>
+							<li>
+								Answer questions about your child care needs, including the type of program, hours needed, location, budget, and additional information about your family&rsquo;s needs.</li>
+						</ol>
+
+						<p>
+							Within 2 business days, you will receive profiles of 5-7 programs that match your criteria and have availability. You will also receive a referral packet with information about selecting a child care program. You will need to contact or visit the referred providers and select one that best meets your needs. You may contact the CCN representative by phone or email as many times as needed. The CCN specialist will contact you within 2 weeks to follow up and survey you about your experience.</p>
+
+						<p>
+							Watch for announcements about on-campus &lsquo;Lunch and Learn&rsquo; events on parenting topics.</p>
+
+						<p>
+							We look forward to working with Camp Fire to provide this new resource and hearing from you about the process and benefit of this program. If you have questions about the program, please contact us at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">940-565-3807<a href="http://studentaffairs.unt.edu/off-campus-student-services#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: 940-565-3807"><img src="data:image/png;base64,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" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important; border-image-source: none;" title="Call: 940-565-3807" /></a></span>.</p>
+
+						<h2>
+							Drop-In Care Options</h2>
+
+						<p>
+							These providers and the information concerning them are intended as referrals only. The specific information included in each child care referral has been submitted to us by the provider. We do not license, endorse or recommend any provider. Additionally, we do not ensure that any provider offers quality care. We encourage you to visit the providers to determine what is best for your family and your child care needs: click&nbsp;<a href="http://studentaffairs.unt.edu/sites/default/files/studentactivities/Drop%20In%20Care.pdf">here</a></p>
+
+						<h2>
+							Funding</h2>
+
+						<p>
+							These links direct you to programs and services to help you take full advantage of available child care financing.</p>
+
+						<p>
+							<a href="http://financialaid.unt.edu/">UNT Student Financial Aid and Scholarships</a>&nbsp;&ndash; Apply for grants, work study, loans, and scholarships.</p>
+
+						<p>
+							<a href="http://moneymanagement.unt.edu/index.html">Student Money Management Center</a>&nbsp;&ndash; Schedule a consultation to help you create a financial survival plan, including setting goals and establishing a budget.</p>
+
+						<p>
+							<a href="https://dfwjobs.com/">Workforce Solutions for North Central Texas</a>&nbsp;&ndash; Funding for child care services whose families are low income. UNT faculty, staff, and students are automatically enrolled in the program after verification.&nbsp;See the web site for specific eligibility information, which varies based on where you live.</p>
+
+						<p>
+							<a href="http://www.irs.gov/uac/Ten-Facts-about-the-Child-Tax-Credit">Child and Dependent Care Tax Credits</a>&nbsp;&ndash; Forms and information to help you apply for credits that can help you pay for child care.</p>
+
+						<p>
+							<a href="http://studentaffairs.unt.edu/student-veterans-services">Student Veteran Services</a>&nbsp;&ndash; Discounts and scholarships offered to those who have served our country.</p>
+
+						<h2>
+							Lactation Rooms</h2>
+
+						<p>
+							The federal Patient Protection and Affordable Care also calls for certain organizations with 50 or more employees to provide a private location and &ldquo;reasonable break time&rdquo; for an employee to express breast milk for her nursing child for one year after the child&rsquo;s birth. The lactation room cannot be a bathroom.</p>
+
+						<p>
+							Five rooms for breast feeding have been completed and furnished in the busiest buildings:</p>
+
+						<ul>
+							<li>
+								<strong>Union 431</strong></li>
+							<li>
+								<strong>Discovery Park&nbsp;B145</strong></li>
+							<li>
+								<strong>Willis Library&nbsp;155C</strong></li>
+							<li>
+								<strong>Gateway Center&nbsp;C058A</strong></li>
+							<li>
+								<strong>General Academic Building&nbsp;542A</strong></li>
+						</ul>
+
+						<p>
+							<img alt="International breast feeding symbol" height="155" src="http://inhouse.unt.edu/sites/default/files/u6/Lactation%20rooms_international%20breast%20feeding%20symbol_220wide.jpg" style="float: right;" title="International breast feeding symbol" width="160" />The private rooms are indicated by the universal breast feeding logo, right.</p>
+
+						<p>
+							Each room has a wood-look vinyl plank floor for ease of cleaning, includes a bariatric chair (rated to hold up to 1,000 pounds) covered in vinyl upholstery (also for ease of cleaning), a side table, and a table lamp so nursing mothers can turn off the overhead light if they so choose.</p>
+
+						<p>
+							Each room also includes an outlet for a breast pump, and a&nbsp;<a href="http://www.babychangingstations.com/" title="http://www.babychangingstations.com/">Koala brand</a>&nbsp;changing table. There are no sinks in the rooms, but wall-mounted hand sanitizer dispensers installed.</p>
+
+						<ul>
+							<li>
+								Find locations for the mother friendly rooms&nbsp;<a href="http://inhouse.unt.edu/sites/default/files/Project%20Fact%20Sheet_Lactation%20Spaces.pdf">here</a>.&nbsp;<em>(Photo by Gary Payne)</em></li>
+						</ul>
+
+						<p>
+							The Texas Health Code identifies organizations as &ldquo;mother friendly&rdquo; when they establish policies to support worksite breast feeding. The code also allows breast feeding in any location.</p>
+
+						<ul>
+							<li>
+								Find&nbsp;<a href="http://www.dol.gov/whd/nursingmothers/faqBTNM.htm" title="http://www.dol.gov/whd/nursingmothers/faqBTNM.htm">FAQs</a>&nbsp;about lactation rooms.</li>
+						</ul>
+
+						<h1>
+							<span style="line-height: 1.1;">Parenting Topics</span></h1>
+
+						<h3>
+							Lunch &amp; Learn</h3>
+
+						<p>
+							Did you miss our Lunch &amp; Learn series last semester? Here&#39;s a session you may find helpful:</p>
+
+						<ul>
+							<li>
+								<a href="https://www.youtube.com/watch?v=Lr-8TI4UHog&amp;feature=youtu.be">Choosing Quality Child Care</a></li>
+							<!--<li>
+								<a href="https://www.youtube.com/watch?v=bBjHtCDkb04">Bullying: How to Deal With It</a></li>--></ul>
+
+						<h3>
+							Child Care Network Videos</h3>
+
+						<p>
+							Bedtime Battles -&nbsp;&nbsp;<a href="http://youtu.be/Jm-3nn16S3k">http://youtu.be/Jm-3nn16S3k</a></p>
+
+						<p>
+							Tantrums -&nbsp;<a href="http://youtu.be/v2GBuxhPIrg">http://youtu.be/v2GBuxhPIrg</a></p>
+
+						<p>
+							Access to child care options (about CCN) -&nbsp;&nbsp;<a href="http://youtu.be/gg9LIo4QazM">http://youtu.be/gg9LIo4QazM</a></p>
+
+						<p>
+							Helping your child succeed in school -&nbsp;&nbsp;<a href="http://youtu.be/RZHC9AAUvvk">http://youtu.be/RZHC9AAUvvk</a></p>
+
+						<h5>
+							Brain Development</h5>
+
+						<p>
+							Just as good food and exercise can help our bodies grow, good early experiences can help our brains grow. There is even stronger evidence that there is a link between brain activity and brain growth.&nbsp;<a href="http://studentaffairs.unt.edu/sites/default/files/studentactivities/FINAL%20Brain%20Development.pdf">Learn more!</a></p>
+
+						<h3>
+							Is Your Child Ready to Stay Home Alone?</h3>
+
+						<p>
+							For many families with older children between the ages of nine and 12, the time comes when you must decide if your child is ready to care for himself.&nbsp;<a href="http://studentaffairs.unt.edu/sites/default/files/studentactivities/FINAL%20Child%20Ready%20to%20stay%20home%20alone.pdf">This article gives you tips and tools</a>&nbsp;to help evaluate if this is the right decision for your child.</p>
+
+						<h2>
+							UNT Programs for Children</h2>
+
+						<p>
+							<u><a href="http://music.unt.edu/musiced/ecmusic/">Early Childhood Music</a></u></p>
+
+						<p>
+							<u><a href="http://www.unt.edu/pediatric/">The Center for Cross-Cultural Pediatric Behavioral Health</a></u></p>
+
+						<p>
+							<u><a href="http://cpt.unt.edu/">Center for Play Therapy</a></u></p>
+
+						<p>
+							<u><a href="http://speechandhearing.unt.edu/SPHS-clinic">UNT Speech &amp; Hearing Center</a></u></p>
+
+						<p>
+							<u><a href="http://autism.unt.edu/">UNT Autism Center</a></u></p>
+
+						<p>
+							<u><a href="http://www.coe.unt.edu/child-and-family-resource-clinic">Child and Family Resource Clinic</a></u></p>
+
+						<h2>
+							Pre-School Options</h2>
+
+						<p>
+							You can choose to enroll your children in a laboratory pre-school that is available through the Child Development Laboratory at UNT. However, enrollment is limited. Administered through the College of Education, the pre-school enrolls children ages 3 to 5. The program runs throughout the academic year when classes are in session, and spaces are available for up to 55 children. Mornings, afternoons or full-day sessions are offered. For more information about the program, call&nbsp;<span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-2555<a href="#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: (940) 565-2555"><img src="data:image/png;base64,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" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important;" title="Call: (940) 565-2555" /></a></span>&nbsp;or visit&nbsp;<a href="http://childdevelopmentlab.unt.edu/">http://childdevelopmentlab.unt.edu/</a>.</p>
+
+						<h2>
+							Product Recalls</h2>
+
+						<p>
+							<u><a href="http://www.safekids.org/product-recalls">Safe Kids Product Recall List</a></u></p>
+
+						<h2>
+							Other Helpful Resources</h2>
+
+						<p>
+							<u><a href="http://parenteducation.unt.edu/" target="_blank">UNT Center for Parent Education</a></u></p>
+
+						<p>
+							<u><a href="http://coe.unt.edu/parent-and-educator-resources">Parent and Educator Resources</a></u></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="transportation">
+			<div class="span15">
+				<div class="node" id="node-17">
+					<div class="node" id="node-17">
+						<h1>
+							Transportation&nbsp;Resources</h1>
+
+						<h2>
+							Carpooling</h2>
+
+						<p>
+							If you are planning to carpool, you should know that the University of North Texas is one&nbsp;of the few universities nationwide to maintain an online carpooling system. UNT students, faculty, and&nbsp;staff can sign up for&nbsp;carpooling online using the&nbsp;Rideshare&nbsp;service. If you are interested in signing up for&nbsp;Rideshare, visit&nbsp;<a href="http://www.alternetrides.com/">www.alternetrides.com</a>.</p>
+
+						<h2>
+							Parking</h2>
+
+						<p>
+							You must have a permit to park on campus. Commuter parking permits are good through the end of the academic year (Fall through Summer II). The two types of permits are Premium Commuter and General Commuter. The Premium Commuter Parking Permit allows parking in lots designated &quot;P&quot; as well as &quot;G&quot;. The General Commuter Parking Permit is limited to&nbsp;Fouts&nbsp;Field, Village Church, the Highland/ North Texas Blvd. parking area, and the Eagle Drive/ Welch Street parking area. Permits can be purchased through the parking website. For more info, please visit the&nbsp;<a href="http://www.unt.edu/transit/permits.html" target="_blank" title="UNT Parking">UNT Parking</a>&nbsp;web site.</p>
+
+						<h2>
+							UNT Shuttles</h2>
+
+						<p>
+							The UNT Shuttle offers quick and dependable transportation throughout the campus as well as to surrounding apartment complexes at designated stops. The UNT Shuttle can be accessed Monday through Friday starting from 7:15 am to as late as 2 in the morning. For more information on specific bus routes and their schedules, visit&nbsp;<a href="http://www.unt.edu/transit">www.unt.edu/transit</a>.</p>
+
+						<h2>
+							Denton Transportation</h2>
+
+						<p>
+							The Denton County Transportation Services (DCTA) provides transportation services to the cities of Denton, Hickory Creek, and the Greater Lewisville areas. Students can ride buses traveling throughout the city free of charge by showing their UNT student ID. For bus routes and schedules, visit&nbsp;<a href="http://www.dcta.net/">www.dcta.net</a>.&nbsp;You can now purchase bus &amp; rail passes on your iPhone or Android phone with the&nbsp;GoPass&nbsp;app instead of buying a paper ticket. This app services&nbsp;DCTA, DART,&nbsp;TRE, and the T.&nbsp;Now you can save gas and trees! For more information go&nbsp;<a href="http://www.gopass.biz/gopass/index.html" style="background-color: rgb(207, 223, 208);">here</a>.</p>
+
+						<h2>
+							Helpful Links</h2>
+
+						<ul>
+							<li>
+								<a href="http://www.txdot.gov/inside-txdot/modes-of-travel/bicycle/faq.html">Bicycles, Pedestrians and the Law</a>&nbsp;(Texas)</li>
+							<li>
+								<a href="http://www.statutes.legis.state.tx.us/Docs/TN/htm/TN.552.htm">Pedestrians and the Law</a>&nbsp;(Texas)</li>
+							<li>
+								<a href="http://www.unt.edu/police/Ped_Veh_Safety.html">Pedestrian Safety</a>&nbsp;(UNT)</li>
+							<li>
+								<a href="http://www.unt.edu/police/bicycle_safety.html">Bicycle Safety</a>&nbsp;(UNT)</li>
+							<li>
+								<a href="https://tams.unt.edu/studentlife/bikeshare">Bike Share Program</a>&nbsp;(UNT)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="housing">
+			<div class="span15">
+				<div class="node" id="node-17">
+					<div class="node" id="node-17">
+						<h1>
+							Housing&nbsp;Resources</h1>
+
+						<h2>
+							Off-Campus Housing</h2>
+
+						<p>
+							If you are looking for off-campus housing,&nbsp;Off-Campus Student Services can assist you in getting the process started. Information can be provided on local apartments, apartment locators, as well as contact information for city utilities. Assistance in finding off-campus housing can&nbsp;be found at <a href="http://offcampushousing.unt.edu/" target="_blank">offcampushousing.unt.edu</a>, where you can find or post ads on apartments and homes for lease or rent. A &quot;Roommate Finder&quot; application is also available through this website. For additional assistance,&nbsp;contact&nbsp;Off-Campus Student Services at <span class="baec5a81-e4d6-4674-97f3-e9220f0136c1" style="white-space: nowrap;">(940) 565-3807<a href="http://studentaffairs.unt.edu/off-campus-student-services#" style="margin: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; vertical-align: middle; float: none; display: inline; position: static !important;" title="Call: (940) 565-3807"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAKLSURBVHjadJPfS5NhFMe/21xvuhXRyJAZroiSrJnbRdT7vrAf5HBaK5RABmEEwQIvkpZ/QRcWXdSFw5soKaF0F7qZeLO13mGBDpQsf5CoxVKHOt0Pctp2uvEdrzG/V+c553w/54HnPDIiQiGpPMETABoB2AAYd9MRAMMAvGmX+RcAyAoBVJ7gZQDtABworH4AHWmX+bOMZdkjCoXiUzabvcAwzPSsob5p/VTNY9GcdpnxdmYZ9wJThSCtCr1e/4XjuNPd3d1KjUZzaGbI27ysqzGQoggAsLa1A7ehArrDxfDNr0oBlQB+wmKxbJFEL968SxoamsjkHaPU9l9piUo6A0RE1DG2QCWdASrpDAzJM5kMI8XecdjVxfEl+K9dxFgsgUvvR6HyBKHyBAEATyKLeGSsENuNcqk5kUjEGm7fzcYqr0ClVODl99+YXEvl6+c1amjVe+ahiGGYaUEQKnmeh91uL43rqheixjpdmzCL11er0PcjhrTLvMfUJsyKYUSeyWQ6enp6tgCgrKxsfbP8bB8AdE1G89cOReMAgOv+Cag8QXRNRkXAsDwcDr+am5tLCYKA3t7eo2dG+1vVK/MfpRPtA+MIReMYaKj+/xm9MiICx3EmpVL5wefzFavValis1u1vvHMkdfykCQC0kSGUTo+Ajmnx1dSC7IGD+UUCEYGIwLKsyWazrSeTSSIiMpnNf7Ttz5+ec96fr7/VnE0mk+QfHMzV3WjcKH/4rEr05QGFIA6HY4llWRLPRER+v3/HYrFMFQSIkNra2tVQKJSlfcSyLO0LECFWq3XF6XRGA4HAptTsdrsXeZ6fEHtl+31nAOA4rkUulz/I5XL63dQGgHEAN8Ph8AYA/BsAt4ube4GblQIAAAAASUVORK5CYII=" style="border-color: currentColor; margin: 0px; left: 0px; top: 0px; width: 16px; height: 16px; right: 0px; bottom: 0px; overflow: hidden; float: none; display: inline; position: static !important; border-image-source: none;" title="Call: (940) 565-3807" /></a></span> or stop by our office Union 345.&nbsp;</p>
+
+						<h1>
+							&nbsp;</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane active" id="about">
+			<div class="span15">
+				<div class="node" id="node-16">
+					<h1 class="text-headline">
+						<strong>What is Off-Campus Student Services?</strong></h1>
+
+					<p>
+						Off-Campus Student Services, part of Student Activities, serves as a liaison between students and&nbsp;departments that provide services for off-campus students. Providing resources and services directed towards the commuter, off-campus, and non-traditional student population, as well as raising the awareness of these students, Off-Campus Student Services sponsors several programs and activities to assist students in their overall collegiate experience.&nbsp;Services include assistance on locating off-campus housing, information on commuter and transportation services (i.e. carpooling, bus schedules, etc.), as well as coordinating and co-sponsoring events such as Commuter Week and Housing&nbsp;Fairs.</p>
+
+					<h2>
+						OCSS Hotline</h2>
+
+					<p>
+						Want to keep up with&nbsp;all of our events? Well, now you can! Call the OCSS Hotline 24/7 and it&#39;s updated weekly!</p>
+
+					<p>
+						<strong>972-913-OCSS (6277)</strong></p>
+
+					<h2>
+						Coffee &amp;&nbsp;Convos</h2>
+
+					<p>
+						The purpose of this program is to grant Non-Traditional&nbsp;students the opportunity to engage their professors in conversations outside of the classroom and begin building relationships with professors. Students may pick up tickets, good at any UNT retail dining locations, from the Student Activities office (Union 345) for themselves and a professor after they have filled out the form and completed the pre-assessment.&nbsp;<strong>Complete the Pre-assessment <a href="https://unt.az1.qualtrics.com/SE/?SID=SV_ehOImJKwE1zd7eZ">HERE</a>&nbsp;until May 6. Tickets expire May 13th.</strong></p>
+
+					<h2>
+						Union of Non-Traditional Students</h2>
+
+					<p>
+						Union of Non-Trad Students (UNTS) is an organization devoted to the recognition of non-traditional students continuing their higher education, standing as an inspiration for scholastic growth, and a builder of pride through representation. <strong>If you&rsquo;re interested in getting involved in UNTS please click <a href="https://orgsync.com/71585/forms/159529">here</a>.</strong></p>
+
+					<h2>
+						Union Lockers</h2>
+
+					<p>
+						Too much stuff? Do you need a place to keep your belongings on campus during the day or daily/weekly throughout the semester? For 3<sup>rd</sup> Floor Lockers stop by the <a href="http://studentaffairs.unt.edu/transfer-center">Transfer Center</a> in Union 377 or call 940-565-4198. For 2<sup>nd</sup> Floor Lockers stop by the <a href="http://studentaffairs.unt.edu/university-union">Union</a> Info Desk or call 940-565-3805</p>
+
+					<h2>
+						Get Connected</h2>
+
+					<p>
+						Getting involved on campus is a great way for you to have a one-of-a-kind Mean Green experience, and Student Activities is here to help you create that&nbsp;experience, via a peer-to-peer service called Involvement Advising. The goal of Involvement Advising is to help you find a campus event, group,&nbsp;organization, and/or department, where you can connect with other students who have similar interests and find your fit here at UNT. During an Involvement Advising appointment, you&#39;ll meet with a Campus Life Ambassador. The CLA team is a group of 6 highly-involved students who will help you create a tailored list of opportunities. <strong>To&nbsp;request&nbsp;an appointment click&nbsp;<a href="https://orgsync.com/71585/forms/56867">here</a>.</strong></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="non-trad">
+			<div class="span15">
+				<div class="node" id="node-15">
+					<h2>
+						What is a Non-Traditional Student?</h2>
+
+					<p>
+						The University of North Texas considers a non-traditional student to be an undergraduate who has some or all of the following characteristics:</p>
+
+					<ul>
+						<li>
+							<div>
+								Is older than the perceived &ldquo;traditional&rdquo; college age</div>
+						</li>
+						<li>
+							<div>
+								Has returned to higher education after time away from initial enrollment</div>
+						</li>
+						<li>
+							<div>
+								Has enrolled in higher education after time away from secondary education</div>
+						</li>
+						<li>
+							<div>
+								Has dependents other than a spouse (usually children, family members, or others)</div>
+						</li>
+						<li>
+							<div>
+								Is a single parent (either not married, or married but separated and has dependents)</div>
+						</li>
+						<li>
+							<div>
+								Works at least 35 hours per week</div>
+						</li>
+						<li>
+							Commutes to campus</li>
+						<li>
+							Is enrolled in&nbsp;100% online or off-campus courses</li>
+					</ul>
+
+					<div>
+						&nbsp;The non-trad student population at UNT is as diverse as it gets. They are veterans, married couples, single parents, grandparents, distance learners, first time students and second chance opportunists. If you did not graduate high school in the last few years, chances are, you are a non-traditional student.</div>
+
+					<h2>
+						Non-Trad Listserv</h2>
+
+					<div>
+						I&#39;f you&#39;d&nbsp;like be alerted of upcoming events that benefit you&nbsp;as a non-traditional student.&nbsp;</div>
+
+					<ul>
+						<li>
+							Send an email to:<a href="mailto:listserv@unt.edu?body=subscribe%20unt-nontrad"> listserv@unt.edu</a></li>
+						<li>
+							Don&#39;t put a subject</li>
+						<li>
+							Your message should be:
+							<ul>
+								<li>
+									subscribe unt-nontrad&nbsp;YourFirstName YourLastName&nbsp;(be sure to put your actual name)</li>
+							</ul>
+						</li>
+						<li>
+							Delete any auto-signature</li>
+					</ul>
+
+					<p>
+						Once you are subscribed, you will get a confirmation message to which you must respond to activate your listserv membership.</p>
+
+					<h2>
+						​Union of Non-Trad Students</h2>
+
+					<p>
+						Union of Non-Trad&nbsp;Students&#39; members&nbsp;are non-traditional&nbsp;students who&nbsp;advocate for programs, resources, and access to services that&nbsp;can help all non-traditional students succeed academically, socially, and professionally. To become a part of this organization, sign up <a href="https://orgsync.com/71585/forms/159529">HERE</a>.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="commuter">
+			<div class="span15">
+				<div class="node" id="node-11">
+					<h1 class="text-headline">
+						<strong>If you commute&nbsp;to the University of North Texas, you&rsquo;re not alone...</strong></h1>
+
+					<p>
+						Our convenient location and online programming are some of the many reasons why more than 36,000 students choose to attend UNT on campus and online. Many of our students live near campus, but many are commuters who travel from the surrounding DFW area. Of these, over 8,000 fall into the category of &ldquo;non-traditional&rdquo; and over 3,000 are 100% online students.</p>
+
+					<p>
+						At UNT, Student Activities offers many options for off-campus, commuter, and non-traditional students, allowing you to balance your academic schedule around the distance, your job, and family responsibilities. Part of Student Activities,&nbsp;Off-Campus Student Services (OCSS), is here to help you connect to your educational and extracurricular goals.</p>
+
+					<h2>
+						What is a Commuter Student? An Off-Campus Student?</h2>
+
+					<p>
+						A commuter student is someone who lives at home, typically with their parents or other family members, and drives to school. An off-campus student is a student who has lived on-campus, but now lives in an apartment, or house, off-campus, either walking or a short&nbsp;driving distance from the university.</p>
+
+					<h1>
+						Off-Campus Connection</h1>
+
+					<p>
+						Off-Campus Student Services&nbsp;partners with students who live off-campus&nbsp;to support the creation of a community atmosphere, where residents can succeed academically, socially, and professionally. This organization, comprised of students, helps program Commuter Week as well as other events, both on-campus and at their apartments, specifically for off-campus students.</p>
+
+					<p>
+						&nbsp;</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="resources">
+			<div class="span15">
+				<div class="node" id="node-45">
+					<h1>
+						&nbsp;</h1>
+
+					<h1>
+						We offer support and information, which is often all you need. If you need more help, our resources and links can offer additional on- and off-campus assistance. The goal is to provide expertise, information, and services to best suit your needs.&nbsp;<em>Click on any sub-menu item to the left to view its specific resources.</em></h1>
+
+					<h5>
+						&nbsp;</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="events">
+			<div class="span15">
+				<div class="node" id="node-17">
+					<div class="node" id="node-17">
+						<div class="alert alert-success">
+							<iframe frameborder="0" height="300" scrolling="no" src="https://www.google.com/calendar/embed?title=UNT%20OCSS%20Events&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23006600&amp;src=unt.ocss%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border: 2px solid rgb(119, 119, 119); border-image: none;" width="720"></iframe></div>
+
+						<h1>
+							<span style="line-height: 1.1;">Event Descriptions</span></h1>
+					</div>
+
+					<h2>
+						<strong style="font-family: 'Open Sans', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18.57px;">​</strong><span style="line-height: 1.1; font-family: WebGotham, Georgia; font-size: 18px;">Summer&nbsp;Family Movie Night</span></h2>
+
+					<p>
+						<img alt="" src="/sites/default/files/loraxfmn_orgsyncpic.png" style="width: 175px; height: 175px; float: left; margin: 5px;" /></p>
+
+					<p>
+						&nbsp;</p>
+
+					<p>
+						The purpose of this event is to highlight non-traditional students, allow their family to see the university,&nbsp;and connect them with other non-traditional students on campus. Families can enjoy a family friendly movie with free snacks. This event is open to faculty and staff members who would like to bring their children as well.&nbsp;<strong style="line-height: 18.57px;">Come watch&nbsp;<u>The Lorax</u>&nbsp;with&nbsp;us at&nbsp;5:30&nbsp;pm&nbsp;on July 15 in BLB 155.</strong></p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						<span style="font-family: WebGotham, Georgia, 'Open Sans', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 20px; line-height: 1.1;">Snag&nbsp;&amp; Snack</span></h2>
+
+					<p style="line-height: 18.57px;">
+						<img class="bordered" src="/sites/default/files/studentactivities/pdf/IMG_0228.jpg" style="padding: 5px; border-radius: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 188px; height: 151px; margin-right: 10px; float: left; display: inline-block;" /></p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<p style="line-height: 18.57px;">
+						Snag&nbsp;&amp; Snack is a program that gives students the ability to acquire information about the many offices and services provided by our University. By setting up in various locations on campus, these events assist students, especially Non-Traditional ones, who are between classes, work, and other commitments in the evening.</p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<h2>
+						Grab &amp; Go</h2>
+
+					<p style="line-height: 18.57px;">
+						<img class="bordered" src="/sites/default/files/studentactivities/pdf/DSC00782.JPG" style="padding: 5px; border-radius: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 178px; height: 117px; margin-right: 10px; float: left; display: inline-block;" /></p>
+
+					<p style="line-height: 18.57px;">
+						Once a month in the morning,&nbsp;Off-Campus Student Services and Off-Campus Connection set up a table near different bus stops located around campus and give out free breakfast&nbsp;and snacks. Commuter students can grab free food and free information on their way to or from class.</p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<h2>
+						Off-Campus Eagle Extravaganza</h2>
+
+					<p>
+						Every year,&nbsp;OCSS&nbsp;hosts a welcome back event for off-campus and commuter students. The purpose of this event is to unite commuter students in the Denton and surrounding area. The event will display a variety of Denton vendors as well as UNT departments in order to provide off-campus students with the opportunity to learn about different services available to them.&nbsp;<strong>Coming Fall 2016</strong></p>
+
+					<h2>
+						<span style="line-height: 1.1;">O</span><span style="line-height: 1.1;">p</span><span style="line-height: 1.1;">en</span><span style="line-height: 1.1;">&nbsp;House</span></h2>
+
+					<p style="line-height: 18.57px;">
+						<img alt="" src="/sites/default/files/openhousefall2015_orgsynceventpic.png" style="margin: 5px; width: 175px; height: 175px; float: left;" /></p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<p style="line-height: 18.57px;">
+						Meet student service departments and get your questions answered. Swipe in to win a portable phone charger, visit departments for a chance to win parking passes, and snacks for all (while supplies last)&nbsp;.&nbsp;<strong>Coming Fall 2016</strong></p>
+
+					<p style="line-height: 18.57px;">
+						<strong>&nbsp;</strong></p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<h2>
+						<span style="line-height: 1.1;">UNT in Your Community</span></h2>
+
+					<p style="line-height: 18.57px;">
+						<img alt="" src="/sites/default/files/untinyourcommunityorgsync_event_pic.png" style="margin: 1px 5px; width: 160px; height: 160px; float: left;" /></p>
+
+					<p style="line-height: 18.57px;">
+						&nbsp;</p>
+
+					<p>
+						Non-traditional &amp; Graduate students, come meet representatives from key student service departments in one place to answer any questions you may have. This event is designed to be closer to home or work for students who can&#39;t always make it to Denton. This is a Come &amp; Go event with a drawing for prizes. <strong>Last time we were in the Lewisville Community</strong></p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Non-Trad&nbsp;Week</h2>
+					<img alt="Family Fun Night" class="bordered" src="/sites/default/files/studentactivities/pdf/IMG_0302.jpg" style="padding: 5px; border-radius: 3px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 200px; height: 133px; margin-right: 10px; float: left; display: inline-block;" />
+					<p>
+						&nbsp;</p>
+
+					<p>
+						National Non-Traditional Student Appreciation Week,&nbsp;is a full week of programming just for Non-Traditional Students and their supporters. During this week you can find events like Snag &amp; Snacks and Family Fun Night. <strong>Coming Fall 2016</strong></p>
+
+					<p>
+						&nbsp;</p>
+
+					<h2>
+						Family Fun Night</h2>
+
+					<address>
+						<p>
+							​The purpose of this event is to highlight non-traditional students, expose them to available on-campus resources, and connect them with other non-traditional students on campus. The event&nbsp;is full of games and prizes to create a relaxing atmosphere for students and their children to connect and build relationships. This event is open to faculty and staff members who would like to bring their children as well.&nbsp;<strong>Coming Fall 2016</strong></p>
+
+						<h2>
+							<span style="line-height: 1.1; font-family: WebGotham, Georgia; font-size: 18px;">Family Movie Night</span></h2>
+
+						<p>
+							The purpose of this event is to highlight non-traditional students, allow their family to see the university,&nbsp;and connect them with other non-traditional students on campus. Families can enjoy a family friendly movie with free snacks. This event is open to faculty and staff members who would like to bring their children as well.&nbsp;<strong style="line-height: 18.57px;">Coming Fall 2016&nbsp;</strong></p>
+
+						<h2>
+							<span style="font-size: 18px; line-height: 1.1; font-family: WebGotham, Georgia, 'Open Sans', 'Lucida Grande', Helvetica, Arial, sans-serif;">Building Blocks</span></h2>
+
+						<p>
+							<img alt="" src="/sites/default/files/building_blocksspring2016_orgsyncpic.png" style="border-style: solid; width: 175px; height: 175px; margin: 5px; float: left;" /></p>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							Off-Campus Student Services is proud to host a series of presentations for UNT&nbsp;Faculty/Staff/Students with children.&nbsp;&nbsp;Join&nbsp;OCSS&nbsp;and Camp Fire as we explore this fun and interactive way to connect with your child,&nbsp;<u>please be encouraged to bring your child, of any age,&nbsp;with you to this event!</u>&nbsp;<strong style="line-height: 18.57px;">Refreshments provided!&nbsp;Coming Fall 2016.&nbsp;</strong></p>
+
+						<div>
+							&nbsp;</div>
+
+						<div>
+							&nbsp;</div>
+
+						<div>
+							&nbsp;</div>
+
+						<div>
+							&nbsp;</div>
+
+						<div>
+							&nbsp;</div>
+
+						<h2>
+							Non-Traditional &amp; Graduate Student Networking Social</h2>
+					</address>
+
+					<p>
+						Calling all graduate and non-traditional students! Take a break after your day with refreshments and conversation at the Non-Traditional and Graduate Student Networking Social. Come network and socialize with other&nbsp;non-trad&nbsp;and graduate students. Free with current UNT Student ID. <strong>Coming Fall 2016</strong></p>
+
+					<h2>
+						Professional Picture Day</h2>
+
+					<address>
+						<div class="node" id="node-17">
+							<p style="line-height: 18.57px;">
+								<img alt="" src="/sites/default/files/pictureday2015_orgsyncpic-01.png" style="margin: 1px 5px; width: 175px; height: 175px; float: left;" /></p>
+
+							<p style="line-height: 18.57px;">
+								&nbsp;</p>
+
+							<p style="line-height: 18.57px;">
+								Be sure a potential employer sees you at your best! Come dressed professionally and&nbsp;get a FREE digital professional picture and have your resume&#39; reviewed by the&nbsp;<strong><a href="http://studentaffairs.unt.edu/career-center">Career Center</a>. Coming in Fall 2016</strong></p>
+
+							<p style="line-height: 18.57px;">
+								&nbsp;</p>
+
+							<p style="line-height: 18.57px;">
+								<strong>​</strong></p>
+
+							<p style="line-height: 18.57px;">
+								&nbsp;</p>
+
+							<p style="line-height: 18.57px;">
+								&nbsp;</p>
+						</div>
+					</address>
+
+					<h2>
+						Non-Trad/Graduate Student BBQ</h2>
+
+					<p>
+						<img alt="" src="/sites/default/files/nontradgradbbqfall2015_webfeature-01.png" style="margin: 5px; width: 160px; height: 135px; float: left;" /></p>
+
+					<p>
+						&nbsp;</p>
+
+					<p>
+						The purpose of this event is to connect non-traditional students with graduate students, and create networking opportunities for educational and social development. This event is open to all non-traditional &amp; graduate students and held at&nbsp;the Library Mall.&nbsp;<strong style="line-height: 18.57px;">Coming Fall 2016&nbsp;</strong></p>
+
+					<div>
+						&nbsp;</div>
+
+					<div>
+						&nbsp;</div>
+
+					<div>
+						<h2>
+							Commuter&nbsp;Week</h2>
+
+						<p>
+							Commuter&nbsp;Week,&nbsp;is a full week of programming just for Commuter Students. During this week you can find events like Grab &amp; Go&#39;s, Housing Fair, and more.&nbsp;<strong>Coming Spring 2017&nbsp;</strong></p>
+
+						<p>
+							&nbsp;</p>
+					</div>
+
+					<h2>
+						Child Care Fair</h2>
+
+					<p>
+						Held every&nbsp;Spring semester, the Child Care&nbsp;Fair invites child care centers and summer camps in the DFW area and other resources to campus to present first hand information to students with children.&nbsp;Child Care Fair helps students make contacts with child care options in the surrounding area while they are heading to, leaving, or in between classes.&nbsp;<strong style="line-height: 18.57px;">Coming Spring 2017&nbsp;</strong></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tab-pane" id="guides">
+			<h2>
+				Non-Trad Student Guide</h2>
+
+			<h5>
+				<strong><em>Please click on the headings below for more in depth information</em></strong></h5>
+
+			<h4>
+				<a href="http://studentaffairs.unt.edu/introduction">Introduction</a></h4>
+
+			<p>
+				A Welcome from your Non-Trad Student Rep</p>
+
+			<h4>
+				<a href="http://studentaffairs.unt.edu/you-should-know">You Should Know</a></h4>
+
+			<p>
+				UNT has over 4000 faculty and staff members, hundreds of departments, special facilities, services and events for you. As you get to know your campus, professors and academic advisors, you may also want to take advantage of the many benefits of being a UNT student.</p>
+
+			<h4>
+				<a href="http://studentaffairs.unt.edu/campus-student-services-0">Campus Student Services</a></h4>
+
+			<p>
+				UNT is a state-of-the art university system with two campuses in Denton. These campuses have all of the modern amenities that you would expect from a prestigious 21<sup>st</sup> century school. There are many computer access labs, complete library services, and student organizations including organizations and social groups specifically for non-traditional students.</p>
+
+			<h4>
+				<a href="http://studentaffairs.unt.edu/navigating-unt-online-system">Navigating the UNT System Online</a></h4>
+
+			<p>
+				As a modern university, UNT is fully integrated online with many classes taught exclusively via the internet, and others in a classroom with supplemental internet instruction. In addition to classwork, most of your student information, including financial information, schedule and registration, and grades are centrally located in an online database. To&nbsp;navigate the UNT online system, students need only general knowledge of the internet and understanding of the tools required to access the UNT online system.</p>
+
+			<h4>
+				<a href="http://studentaffairs.unt.edu/tips-tricks">Tips &amp; Tricks</a></h4>
+
+			<p>
+				All students entering college go through a period of adjustment. Non-traditional students may face even greater challenges as they strive to balance work and family with the new responsibilities of school. You may lack confidence or feel a certain degree of disorientation. You may have doubts about your own ability to do the work. There are many issues a non-trad may have to overcome to be successful in college but with a positive attitude and a dash of motivation you will accomplish your goals.</p>
+
+			<h4>
+				<a href="http://studentaffairs.unt.edu/how-videos">How To Videos</a></h4>
+
+			<p>
+				Helpful videos for our visual learners</p>
+
+			<h4>
+				<a href="http://studentaffairs.unt.edu/scholarship-information">Scholarship Information</a></h4>
+
+			<p>
+				There are many grants and scholarships specifically for non-traditional students. While the scholarships listed here are solely for non-traditional students, most scholarships are not restricted because of age, marital status, family situation or prior education. Non-traditional students are fully eligible for Pell Grants, Stafford Loans, and any other federal and state financial aid program. These grants are accessed by filing a Free Application for Federal Student Aid (FAFSA) at <a href="http://fafsa.ed.gov/">http://fafsa.ed.gov</a>. For more information about scholarships and financial aid, and for a full list of scholarships available, go to <a href="http://financialaid.unt.edu/scholarships">http://financialaid.unt.edu/scholarships.</a> Also, apply for the scholarships available within the College of your declared major, which are typically listed by each department online.&nbsp;</p>
+
+			<h4>
+				&nbsp;</h4>
+		</div>
+	</div>
+</div>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/osccbackground-01_10.png');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/off-campus-student-services": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

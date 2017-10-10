@@ -1,0 +1,96 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><link rel="stylesheet" type="text/css" href="templates/HotlineStyle.css" /><meta name="Description" content="Texas Fraud Hotline.  Report fraud, waste, or abuse to the Texas State Auditor&#39;s Office - Investigations and Audit Support." /><meta name="Keywords" content="Texas, fraud, waste, abuse, hotline, 321.022, fraudulent, report, reporting, investigation, audit, auditor" /><meta http-equiv="Content-Style-Type" content="text/css" /><title>
+	HOTLINE - Texas State Auditor's Office - Investigations and Audit Support
+</title></head>
+<body>
+    <form method="post" action="./Default.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjhkZJG+MfbBEiKSd95hAm8OtZOnt6gTEzRzyaqXnZiGCob/" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+
+    <div id="Header">
+        <table width="100%" border="0" cellpadding="0">
+            <tr>
+                <th width="145">
+                    <a href="Default.aspx"><img src="Images/logo.gif" alt="SAO Logo" style="width:75; height:75; border:0;" /></a>
+                </th>
+                <th style="height:55px"><h1>The Texas State Auditor's Office Hotline</h1></th>
+                <th style="width:200px">
+      	            <p class="thSmall"><a href="http://www.sao.texas.gov">Texas State Auditor's Office</a></p>
+      	        </th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="LeftNavigation">
+        <div class="LeftNavigationBackground"><a href="Default.aspx">Home</a></div>
+        <div class="LeftNavigationBackground"><a href="Hotline.aspx">Report Fraud</a></div>
+        <div class="LeftNavigationBackground"><a href="FAQ.aspx">FAQ</a></div>
+        <div class="LeftNavigationBackground"><a href="FliersBrochures.aspx">Fliers and Brochures</a></div>
+        <div class="LeftNavigationBackground"><a href="Statutes.aspx">Statutes</a></div>
+        <div class="LeftNavigationBackground"><a href="AboutUs.aspx">About Us</a></div>
+        <div class="LeftNavigationBackground"><a href="http://www.sao.texas.gov/reports/reportpost.aspx?category=siu">IAS Reports</a></div>
+    </div>
+
+    <div id="Content">
+        
+    
+    <div id="FraudReportButton"><a href="Hotline.aspx">Click Here To<br />Report Fraud</a></div>   
+    
+    <h1>Report Fraud, Waste, or Abuse in Texas</h1>
+    
+    <p>Fraud, waste, or abuse can be related to the expenditure of state funds for:</p>
+    
+    <ul>
+        <li>The General Appropriations Act-expenditures by state agencies, colleges, and universities or use of state grant money.</li>
+        <li>The federal stimulus or American Recovery and Reinvestment Act.</li>
+        <li>Hurricane Ike.</li>
+    </ul>
+    
+    <h3>Why report fraud?</h3>
+    
+    <p><strong>Anyone can report fraud, waste, or abuse.</strong></p>
+    
+    <p>In addition, state agencies, colleges, and universities are required by law (<a href="Statutes.aspx#321.022">Texas 
+    Government Code, Section 321.022</a>) to report suspected fraud or unlawful conduct to the State Auditor's Office 
+    if there are facts (not just mere suspicion) that point to fraud or unlawful conduct. Persons or entities reporting 
+    fraud to the State Auditor's Office (SAO) do not have to establish probable cause and/or have a suspect.</p>
+    
+    <p>The SAO investigates allegations of misuse and/or illegal acts involving state resources. 
+    <strong>This includes funds provided by the State of Texas to aid Hurricane Ike victims.</strong></p>
+
+    <p>To report fraud, waste, or abuse occurring at a Texas state agency, college, or university call the <strong>SAO Hotline at 
+    1-800-TX-AUDIT (892-8348)</strong>. In addition, a form to report fraud, waste, or abuse is available on the  
+    <a href="Hotline.aspx">Fraud Reporting page</a>. Reports of fraud, waste, or abuse may also be mailed to: <br /><br />
+    State Auditor's Office<br />
+    Attn: IAS<br />
+    P.O. Box 12067<br />
+    Austin, TX 78711-2067.</p>
+    
+    <p>Persons who report fraud may choose to remain anonymous.</p>
+
+    <h3>Information to Submit</h3>
+    
+    <p>Provide as much detail as necessary so that appropriate action can be taken.  This can include the following:</p>
+    
+    <ul>
+      <li>Your name (optional if you would like to remain anonymous).</li>
+      <li>Contact information, such as e-mail, telephone, or address (if PO box, please include a physical address).</li>
+      <li>Description of incident (<a href="FAQ.aspx">see FAQ for more details</a>).</li>
+    </ul>
+   
+
+    </div>
+    
+    <!--<div id="Footer">
+        Footer goes here
+    </div>-->
+        
+    </form>
+</body>
+</html>

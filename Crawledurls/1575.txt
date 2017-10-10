@@ -1,0 +1,1338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Archived feature stories &gt;&gt; University of North Texas</title>
+
+<link rel="stylesheet" type="text/css" href="../../assets/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../assets/css/layout-second.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../assets/css/nifty.css" media="screen" />
+
+<link rel="shortcut icon" href="../../favicon.ico" />
+
+<!-- awk: unt.js will contain all js needed for basic template views and includes jquery-1.2.6 -->
+<!-- awk: if you need additional functionality, include any extra libraries or files after this call -->
+<script type="text/javascript" src="../../assets/js/unt.js"></script>
+
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="assets/css/ie6.css" media="screen" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="assets/css/ie7.css" media="screen" />
+<![endif]-->
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="notification" class="off">
+	<!--h1>CAMPUS CLOSING:</h1>
+    <p>The University of North Texas' Denton, Dallas and Fort Worth campuses will be closing at noon.<br />
+    Classes will resume at 10am on Thursday, September 4, 2008.</p-->
+</div>
+
+<div id="head">
+<div id="global">
+  <div id="search">
+    <form method="get" action="http://www.google.com/u/unorthtexas" id="sform">
+      <label for="searchterms">Search the UNT web site:</label>
+      <input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()" />
+      <input name="sa" type="submit" value="Search" id="sbutton"/>
+    </form>
+  </div>
+  <div id="skip"> <a href="#content">Skip to content</a> </div>
+  <ul id="globalLinks">
+    <li><a href="http://translate.google.com/translate?u=http%3A//www.unt.edu&amp;langpair=en|es&amp;hl=en&amp;ie=UTF8">En Espa&ntilde;ol</a></li>
+    <li><a href="https://my.unt.edu/">MyUNT</a></li>
+    <li><a href="http://eagleconnect.unt.edu/">EagleConnect</a></li>
+    <li><a href="http://learn.unt.edu/">Blackboard</a></li>
+    <li><a href="../../find-people-department.htm">People &amp; Departments</a></li>
+    <li><a href="http://maps.unt.edu/">Maps</a></li>
+    <li><a href="../../calendars-events.htm">Calendars</a></li>
+    <li><a href="http://giving.unt.edu/">Giving to UNT</a></li>
+  </ul>
+</div>
+<div id="banner">
+        <div id="branding">
+            <a href="http://www.unt.edu/"><img src="../../assets/images/brand.jpg" alt="University of North Texas" /></a>
+            <h1>University of North Texas</h1>
+            <h2>Main Site Redesign v1.0</h2>
+        </div>
+  </div>
+	
+</div>
+
+<div id="bannerNav">
+    <ul id="bannerLinks" class="off">
+        <!--li><a href="#">FUTURE STUDENTS</a></li>
+        <li><a href="#">CURRENT STUDENTS</a></li>
+        <li class="selected">TESTING THE SELECTED STATE</li>
+        <li><a href="#">FACULTY &amp; STAFF</a></li>
+        <li><a href="#">PARENTS &amp; FAMILY</a></li>
+        <li><a href="#">ALUMNI &amp; FRIENDS</a></li-->
+    </ul>
+</div>
+<div id="wrapper" class="second">
+  <div id="navigation" class="equal">
+    <h3 class="indexLink"><a href="../../index.htm">UNT Home  &gt;&gt;</a></h3>
+    <h3><a href="../../admissions.htm">Admissions &gt;&gt;</a></h3>
+    <ul class="nav">
+      <li><a href="http://apply.unt.edu/">Freshmen</a></li>
+      <li><a href="http://transfernow.unt.edu/">Transfer</a></li>
+      <li><a href="http://tsgs.unt.edu/overview/">Graduate</a></li>
+      <li><a href="http://international.unt.edu/index.php?option=com_content&view=article&id=171&Itemid=49">International</a></li>
+      <li><a href="../../paying-for-college.htm">Paying for College </a></li>
+      <li><a href="http://www.applytexas.org">Apply Online</a></li>
+      <li class="view"><a href="../../admissions.htm">View more &gt;&gt;</a></li>
+    </ul>
+    <h3>Academics &gt;&gt;</h3>
+    <ul class="nav">
+      <li><a href="../../majors-catalogs.htm">Majors &amp; Catalogs</a></li>
+      <li><a href="../../colleges-schools.htm">Colleges &amp; Schools</a></li>
+      <li><a href="../../classes-registration.htm">Classes &amp; Registration</a></li>
+      <li><a href="../../aid-tuition.htm">Tuition &amp; Financial Aid</a></li>
+      <li><a href="../../library-technology.htm">Libraries &amp; Technology</a></li>
+      <li><a href="../../distance-learning.htm">Distance Learning</a></li>
+      <li class="view"><a href="../../academics.htm">View more &gt;&gt;</a></li>
+    </ul>
+    <h3><a href="../../campus-life.htm">Campus Life &gt;&gt;</a></h3>
+    <ul class="nav">
+      <li><a href="http://www.meangreensports.com/">Athletics, Mean Green</a></li>
+      <li><a href="../../arts-entertainment.htm">Arts &amp; Entertainment</a></li>
+      <li><a href="../../health-recreation.htm">Health &amp; Recreation</a></li>
+      <li><a href="../../housing-dining.htm">Housing &amp; Dining</a></li>
+      <li><a href="http://studentactivities.unt.edu/orgs">Student Orgs</a></li>
+      <li><a href="http://unt.bncollege.com/">Campus Bookstore</a></li>
+      <li class="view"><a href="../../campus-life.htm">View more &gt;&gt;</a></li>
+    </ul>
+    <h3><a href="../../about-unt.htm">About UNT</a></h3>
+    <ul class="nav">
+      <li><a href="../../about-unt.htm#admin">Administration </a></li>
+      <li><a href="http://research.unt.edu">Research</a></li>
+      <li><a href="../../about-unt.htm#facts">Facts &amp; Reports</a></li>
+      <li><a href="../../about-unt.htm#globalpartners">Global partnerships</a></li>
+      <li><a href="../../about-unt.htm#diversity">Diversity</a></li>
+      <li><a href="http://hr.unt.edu">Employment &amp; HR</a></li>
+      <li class="view"><a href="../../about-unt.htm">View more &gt;&gt;</a></li>
+    </ul>
+    <h3><a href="../../visit-unt.htm">Visit UNT</a></h3>
+    <ul class="nav">
+      <li><a href="http://maps.unt.edu/">Maps &amp; Directions</a></li>
+      <li><a href=" http://www.unt.edu/transit/maps.html">Parking</a></li>
+      <li><a href="../../calendars-events.htm">Events &amp; Calendars</a></li>
+      <li><a href="../../community-services.htm">Community Services</a></li>
+      <li><a href="http://untpreview.unt.edu/">UNT Preview</a></li>
+      <li><a href="http://www.unt.edu/commencement/">Graduation</a></li>
+      <li class="view"><a href="../../visit-unt.htm">View more &gt;&gt;</a></li>
+    </ul>
+    <h3><a href="../../alumni-friends.htm">Alumni</a></h3>
+    <ul class="nav">
+      <li><a href="http://www.untalumni.com/">Alumni Association</a></li>
+      <li><a href="http://registrar.unt.edu/transcripts-and-records/order-transcript">Transcripts</a></li>
+      <li><a href="http://careercenter.unt.edu/alumnil">Career Services</a></li>
+      <li><a href="../../alumni-magazine-newsletter.htm">Magazine &amp; Newsletter</a></li>
+      <li><a href="http://giving.unt.edu/">Giving to UNT</a></li>
+      <li class="view"><a href="../../alumni-friends.htm">View more &gt;&gt;</a></li>
+    </ul>
+  </div>
+  <div id="pageHeader">
+    <h3><strong>Archived feature stories</strong></h3>
+  </div>
+  <div id="content" class="equal">
+    <!--p>Named one of the nation's top 100 colleges for Hispanic students, and one of the top 100 colleges graduating the most African Americans</p-->
+    <h4>&nbsp;</h4>
+  <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_15_200_artsjazz_197.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+  <h5><a href="../../dentonjazzfest/index-2016.htm"><strong>Texas' coolest college town has the hottest jazz</strong></a></h5>
+  <p>If you are considering a trip to Denton, spring is a  great time to check us out. Denton Arts &amp; Jazz Festival, includes a  UNT-sponsored Showcase stage featuring our best jazz groups.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_15_182_university-day_219.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+  <h5><a href="../2016_wingspan/index.htm"><strong>UNT celebrates 125 years of continued excellence</strong></a></h5>
+  <p>Students have several opportunities to celebrate UNT's history and traditions during Wingspan Week.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_14_413_campustour_347.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+  <h5><a href="http://premiere.unt.edu/"><strong>Want to learn more about UNT? Check out Premiere</strong></a></h5>
+  <p>Premiere Weekend gives you an insider's view of college life on campus and in Denton. Go to hands-on workshops, make friends and experience events exclusively for the Class of 2020.</p>
+  <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_15_715_scrappy-billboard_015.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/untgreen"><strong>At UNT, we are Mean Green every day</strong></a></h5>
+    <p>On St. Patrick's Day, we love to see the whole world join us in our total embrace of greenness. Check out our photo page to see all the ways that we own green at UNT.</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_15_213_Spring-Campus205.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/registration.htm"><strong>Registration starting soon for Summer and Fall UNT classes</strong></a></h5>
+    <p>Schedule a meeting with your advisor to make sure you are on track to graduate on time. Registration starts March 11.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_11_308_grad_walking_062.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="https://northtexan.unt.edu/content/unt-career-connect-boosts-workforce-readiness/"><strong>UNT Career Connect boosts workforce readiness</strong></a></h5>
+    <p>Students gain learning experiences in the community while building skills that employers desire.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/Denton-Square-by-Stephen-Masker.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-graduates-take-film-world"><strong>UNT graduates take on film world</strong></a></h5>
+    <p>Alumni from the documentary graduate program are winning awards, changing lives through their innovative storytelling.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_683_advanced-materials198.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="https://research.unt.edu/carnegie-classification-lists-unt-among-tier-one-research-universities-latest-report/"><strong>UNT ranked among nation’s Tier One research universities</strong></a></h5>
+    <p>The latest Carnegie Classification of Institutions of Higher Education&#8482; ranks UNT among the nation's 115 top-tier research universities, marking a key milestone in UNT’s journey toward increasing national prominence.</p>
+    <p>&nbsp;</p>
+
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_049_super-bowl-watch_26.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2016_superbowl/index.htm"><strong>UNT Super Bowl fun on campus</strong></a></h5>
+    <p>Tips and tricks for hosting and watching the Super Bowl this year.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/15_175_Walking_Stock_0297.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/registration.htm"><strong>It's time to register for 2016 Summer and Fall UNT classes</strong></a></h5>
+    <p>Will you graduate on time? Schedule a meeting with your advisor to make sure you get the classes you need.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_11_277_bustling-campus-spring_080.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2016_spring-semester-tips/index.htm"><strong>Top 5 things you need to know for the spring semester</strong></a></h5>
+    <p>From the fantastic new Union (food!) to must-go-to events, here's a look at 5 things you need to know this spring.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2016_cybersecurity.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/cybersecurity"><strong>UNT alumni provide  cybersecurity expertise</strong></a></h5>
+    <p>Experiences and coursework gained at UNT prepared these cybersecurity experts for the work they do protecting data and users from harm.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_ros-photo-hfh-7nov15-1.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2015_giving/"><strong>UNT's culture of giving provides benefits locally and worldwide</strong></a></h5>
+    <p>The university's charitable values cultivate opportunities to change the world for alumni, students, faculty and staff.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/15_630_UNT-Frisco11.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/new-college-frisco"><strong>New College at Frisco</strong></a></h5>
+    <p>UNT's New College at Frisco represents a new kind of thinking, a new way of doing business and a new kind of education that will give students and professionals essential career skills.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/15_617_women-stem_083.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/women-find-stem-research-opportunities-leadership-roles-unt"><strong>Women find STEM research opportunities, leadership roles at UNT</strong></a></h5>
+    <p>Challenging courses, active student organizations, a variety of research topics set students for success.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_16-276_carnae-dillard_0039.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-volleyball-player-reaching-new-heights"><strong>UNT volleyball player is reaching new heights</strong></a></h5>
+    <p>Student athlete Carnae Dillard is ready to show the world what she's made of--on and off the court.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_suit-up-clothing-drive.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2015_suit-up/index.htm"><strong>UNT helps students suit up for careers</strong></a></h5>
+    <p>Campus donations allow UNT Career Center to give professional clothing to students.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_national-merit-scholars_0017.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/making-unt-top-choice-top-students"><strong>Making UNT a top choice for top students</strong></a></h5>
+    <p>Thirty National Merit Finalists experience first hand UNT's strong personal touch.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_587_homecoming-banners_076.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/node/5903/"><strong>UNT celebrates a Journey Through Time</strong></a></h5>
+    <p>Alumni, students and community celebrated UNT's 125th anniversary at this year's Homecoming</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_462_faculty-excellence_050.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/node/5980/"><strong>Faculty reputations draw students</strong></a></h5>
+    <p>UNT's students drive what top faculty members do.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_544_state-of-university_059.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/node/5901/"><strong>Creating bright futures for 125 years</strong></a></h5>
+    <p>UNT celebrated the day it was established in 1890; President Smatresk outlines a vision for UNT to become nationally prominent.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_founders-admin.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/node/5895/"><strong>Founder's Week: Celebrating 125 years of excellence</strong></a></h5>
+    <p>UNT's inaugural Founder's Week includes fun festivities on Library Mall.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_262_noel-jett_80.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/studying-gifted-young-people"><strong>Meet UNT’s 16-year-old Ph.D. student</strong></a></h5>
+    <p>Noel Jett is studying gifted and talented young people.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_13_565_students-mall_018.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/newstudents/"><strong>Resources for new UNT students</strong></a></h5>
+    <p>Welcome to UNT! These resources will help you make a smooth transition to life as a UNT student.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/10_346_twilight_tunes_083.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/denton-named-5th-best-college-town-nation"><strong>Denton named 5th best college town in the nation</strong></a></h5>
+    <p>How cool is Denton? We'll tell you. Denton is so, so, so cool.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_324_camps_030.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unts-summer-fun-and-learning-younger-students"><strong>UNT's summer fun and learning for younger students</strong></a></h5>
+    <p>UNT's twists on the summer traditions offer learning experiences to students young and old.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_211_mike-pistana_002.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/power-of-travel/"><strong>The Power of Travel</strong></a></h5>
+    <p>Taking a trip this summer? UNT alumni may be working behind the scenes to shape your travel experiences.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_new-student-orientation_15_304_freshmen-orientation_085.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2015_new-student-orientation/index.htm"><strong>Orientation transforms new students at UNT</strong></a></h5>
+    <p>Students, staff work together to make orientation invaluable for new freshmen.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_643_transfer-feature_0206.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/node/5802/"><strong>UNT helps smooth the way for new transfer students</strong></a></h5>
+    <p>Transfer counselors and the Transfer Center provide many resources for students new to the UNT campus.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_tdameritrade-winners_0043.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/investing-future"><strong>Investing in the future</strong></a></h5>
+    <p>Student Investment Group gets hands-on, business-world experience.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/15_206_diaz-quints_019.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/quints-find-first-year-unt-filled-changes"><strong>Quints find first year at UNT filled with changes</strong></a></h5>
+    <p>The Diaz siblings learned everything from study habits to friendships.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/15_138_commencement-regalia_073.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-adds-more-pomp-and-circumstance-commencement"><strong>UNT adds more pomp and circumstance to commencement</strong></a></h5>
+    <p>New University-wide Commencement and College Recognition Ceremonies give annual graduating class a celebratory, inspirational sendoff.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_179_darla-ray_034.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2015_darla-ray/"><strong>Mom moves into college dorm while fulfilling dream to earn UNT degree</strong></a></h5>
+    <p>Dual graduation with daughter is special for mom who did not expect to live to see it.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_identity-theft_15_071_id-theft-workshop_0069.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2015_identity-theft-workshop/"><strong>UNT officer teaches campus about identity theft</strong></a></h5>
+    <p>Workshops teach students how to protect their names.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_098_lesli-tobertson_038.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/node/5472/"><strong>UNT faculty member connects Bedouin culture and the classroom</strong></a></h5>
+    <p>Lesli Robertson weaves education with collaboration among students and Kuwaiti craftswomen.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_summer-registration_14_199_bevers-mcmahon_1086.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/node/5442/"><strong>Summer sessions offer UNT students more educational options</strong></a></h5>
+    <p>Students can take unique classes or catch up on classwork so they can graduate on time or early.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_050_lori-massey_29.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2015_powerful-alumnae/index.htm"><strong>UNT communication design alumnae are designing the brands</strong></a></h5>
+    <p>Designers make their mark at the nation's top retailers including Ann Taylor, Victoria's Secret and Fossil.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2015_009_food-pantry_238.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/feeding-eagles"><strong>Feeding the Eagles</strong></a></h5>
+    <p>New food pantry will help UNT students when they're hungry.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_giving_14_589_Campaign-celebration_332.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://giving.unt.edu/"><strong>Help UNT students succeed</strong></a></h5>
+    <p>36,000 students pursue their dreams at UNT. Support UNT scholarships with an end-of-year gift.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_our-daily-bread-soup-kitchen_007.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-helps-predict-how-many-are-hungry"><strong>UNT helps predict how many are hungry</strong></a></h5>
+    <p>Economics students partner with community soup kitchen to create meal forecasting system.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_joseph-oppong_590_037.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-medical-geographer-mapping-diseases"><strong>UNT medical geographer is mapping diseases</strong></a></h5>
+    <p>Joseph Oppong tracks the spread of Ebola and other infectious diseases.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/14_606_homecoming-game1204.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/homecoming-2014-share-your-photos-videos-and-stories-win-prizes"><strong>'Greatest Homecoming on Earth' has a high-flying victory</strong></a></h5>
+    <p>Share your photos, videos and memories of the storybook week for a chance to win UNT gear.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_367_irae_yoo_success_013.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://success.unt.edu/"><strong>How to succeed as a UNT student</strong></a></h5>
+    <p>College can be tough while you try to juggle so many things. But at UNT we have lots of resources and plenty of people to help you be successful.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_wanda-white_14-399_04.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_good-food/"><strong>UNT chefs prepare homemade meals for all tastes</strong></a></h5>
+    <p>Sustainable dining options cater to varying dietary needs.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_faculty-excellence.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/right-excellence"><strong>The right to excellence</strong></a></h5>
+    <p>Richard Rogers' Miranda research propelled him to the Eminent Faculty Award.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_diaz-quints_019.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unts-first-and-only-set-quintuplets-start-their-freshman-year"><strong>UNT's first quintuplets start their freshman year</strong></a></h5>
+    <p>The Diaz siblings settle in at UNT as they begin their college journey.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_382_move-in-day_smatresk.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-welcomes-class-2018-its-new-home"><strong>UNT welcomes the class of 2018</strong></a></h5>
+    <p>More than 4,000 students moved into UNT's residence halls on Sunday, signaling the start of the 2014 Fall Semester.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!--div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/11_308_grad_walking_024.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/newstudents/"><strong>Resources for new UNT students</strong></a></h5>
+    <p>Welcome to UNT! These resources will help you make a smooth transition to life as a UNT student.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p-->
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/14_364_derek_akunne_0015.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/continuing-winning-culture-unt"><strong>Continuing a winning culture at UNT</strong></a></h5>
+    <p>Mean Green linebacker Derek Akunne works for success in the classroom and on the football field.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_lisa-owen.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_lisa-owen/"><strong>UNT professor's research strives to reclassify Indian art</strong></a></h5>
+    <p>Lisa N. Owen focuses on understudied aspects of religious art and devotional spaces.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_military-bands.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/military-bands"><strong>UNT music alumni in elite U.S. Armed Forces bands</strong></a></h5>
+    <p>Several alumni are making careers performing for the public, veterans, the President and government dignitaries.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_clifford-morrison.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_clifford-morrison/"><strong>Scholarships, hours of research lead to UNT student's grad school fellowships</strong></a></h5>
+    <p>Clifford Morrison is the first UNT student to be in Emerald Eagle and Terry scholarship programs and is in the Honors College and McNair program.</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_cara-santa-maria.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/cara-santa-maria"><strong>UNT alumna brings science to life.</strong></a></h5>
+    <p>Cara Santa Maria, host of her own podcast, <em>Talk Nerdy</em>, promotes science literacy by making it a good story.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_hallie-sheade_45.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-doctoral-students-research-study-uses-horses-help-veterans-ptsd"><strong>UNT student's research uses horses to help veterans with PTSD</strong></a></h5>
+    <p>Hallie Sheade's study combines 18 weeks of counseling with interaction with the animals to reduce stress.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_managing-emergencies.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/managing-emergencies"><strong>Managing Emergencies</strong></a></h5>
+    <p>As first responders, community preparedness experts and emergency managers, UNT alumni create promise and hope from disaster and destruction.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_emily-hernandez_0046.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/walking-stage-offers-unt-student-more-degree"><strong>Walking the stage offers UNT student more than a degree</strong></a></h5>
+    <p>Emily Rose Hernandez graduates this May with support from fellow UNT students.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_summer-registration.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_summer-sessions/"><strong>Summer sessions offer UNT students more education options</strong></a></h5>
+    <p>Students can take unique classes, catch up on classwork and graduate on time or early.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_big_event.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_big-event/index.htm"><strong>UNT logs 10,000 hours of service in Denton County during The Big Event</strong></a></h5>
+    <p>Led by students, the event is part of a national movement to make a difference in communities across the country.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_child-development-lab.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_child-development-lab/index.htm"><strong>UNT's Child Development Lab molds pre-schoolers, future teachers</strong></a></h5>
+    <p>Alumni share fond memories of the longtime campus institution.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_astronomy.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_astronomy/index.htm"><strong>Study black holes, planets and stars in UNT's astronomy program</strong></a></h5>
+    <p>Classes and labs offer hands-on experiences for students.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_emerald-eagle-honors.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2014_emerald-eagle-honors/index.htm"><strong>UNT Emerald Eagle Honors recognizes outstanding alumni, students</strong></a></h5>
+    <p>Annual event honors students and alumni who are making a difference in the UNT community and the world.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_quinn-johnny.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/mean-green-goes-gold"><strong>Mean Green goes for gold</strong></a></h5>
+    <p>Johnny Quinn, former UNT football and track star, to compete on the Winter Olympics men's U.S.A. bobsled team.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2014_conservation-research.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2014_conservation-research/index.htm"><strong>UNT conservation research spans the globe</strong></a></h5>
+    <p>From Denton to Greenland, UNT researchers investigate endangered species and wildlife threats.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_wachira-david_1988.jpg" alt="" width="197" height="149" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/david-wachira"><strong>UNT experience inspires alumnus to give back</strong></a></h5>
+    <p>David Wachira ('13 Ph.D.) donates first paycheck to support scholarships.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_ian_campbell_1784.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/ian-campbell"><strong>For the love of the Mean Green</strong></a></h5>
+    <p>Dedicated UNT fan Ian Campbell will have attended more than 100 games before he begins his freshman year next year.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_will_miller_3868.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_will-miller/index.htm"><strong>Returning to UNT to achieve a dream</strong></a></h5>
+    <p>Following a successful professional career, trumpeter Will Miller returns to complete his degree.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_jfk.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/living-history"><strong>UNT alumni reflect on Kennedy assassination, 50 years later</strong></a></h5>
+    <p>As anniversary nears, a Secret Service agent, surgeon and journalists are preserving their memories.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_digital-retailing.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/digital-retailing"><strong>Digital Retailing gives students insights into shopping industry</strong></a></h5>
+    <p>UNT's program, the first of its kind, is blazing the trail to create state-of-the-art shopping options for consumers.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_homecoming-crowd.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/homecoming-2013-share-your-photos-videos-and-stories-win-prizes"><strong>'Mean Green on the Big Screen' concludes with a big win</strong></a></h5>
+    <p>Share your photos, videos and memories of the storybook week for a chance to win UNT gear.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_we-mean-green-fund.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_we-mean-green-fund/index.htm"><strong>UNT fund allows students to take an active role in preserving the environment</strong></a></h5>
+    <p>We Mean Green Fund takes students' ideas and makes them reality.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_alternative-spring-break.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_alternative-spring-break/index.htm"><strong>More than sunning and skiing for spring break</strong></a></h5>
+    <p>UNT students can sign up to volunteer on 15 Alternative Spring Break trips.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_kelsey-hodges.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_kelsey-hodges/index.htm"><strong>Kelsey Hodges is captain of her own destiny</strong></a></h5>
+    <p>UNT soccer team captain is setting goals in class and on the soccer field.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_faculty_excellence.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-faculty-members-shine-teachers-mentors-and-scholars"><strong>UNT faculty members shine as teachers, mentors and scholars</strong></a></h5>
+    <p>UNT's Salute to Faculty Excellence recognition program honors the best of the best.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_tams.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_tams/index.htm"><strong>Texas Academy of Mathematics and Science celebrates 25 years</strong></a></h5>
+    <p>The academy welcomed its first class in 1988, and thousands have graduated since.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_richard_dixon.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_rick-dixon/index.htm"><strong>Plant science research at UNT continues to grow</strong></a></h5>
+    <p>New researcher uses plants to help find health care, fossil fuel, agriculture solutions.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_student-success.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_student-success/index.htm"><strong>Helping UNT students succeed is our top priority</strong></a></h5>
+    <p>New campaign puts information and resources for success at students' fingertips.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_marisha-frazier.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_marisha-frazier/index.htm"><strong>Studying bugs gives UNT undergraduate researcher insight into water quality</strong></a></h5>
+    <p>From finding a mentor to providing funding, UNT has helped Marisha Frazier achieve her research goals.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_hot-jobs.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_hot-jobs/index.htm"><strong>Hot careers start at UNT</strong></a></h5>
+    <p>We provide training for some of the nation's fastest growing fields.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_pacific-island-commencement.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_pacific-island-commencement/index.htm"><strong>Students in U.S.-affiliated Pacific Islands receive UNT master's degrees</strong></a></h5>
+    <p>LEAP was the first long-distance program outside of the continental U.S. for the College of Information.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_creative-writing.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/creative-writing"><strong>Creative Writing</strong></a></h5>
+    <p>UNT's rich literary program offers a supportive community for aspiring wordsmiths as they develop into professional writers.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_thomas-pemberton.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_thomas-pemberton/"><strong>Transfer student finds support at UNT for success in business</strong></a></h5>
+    <p>Thomas Pemberton started a business, landed a job and won a marketer of the year award while a student.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_union-construction.jpg" alt="" width="200" height="133" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/new-university-union-open-fall-2015"><strong>New University Union to open Fall 2015</strong></a></h5>
+    <p>The new, sustainable building will provide more space and resources for the UNT community.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_xuegun-della-pan.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/improving-healthcare-through-information"><strong>Improving healthcare through information</strong></a></h5>
+    <p>UNT alumna uses knowledge and skills gained through UNT's top-ranked health informatics program to help researchers fight disease.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_melissa-finefrock_01.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_melissa-finefrock/index.htm"><strong>UNT student overcomes blindness challenges to earn English literature degree</strong></a></h5>
+    <p>Melissa Finefrock, who graduates this weekend, says UNT faculty and staff helped her succeed.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_community-service.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_community-service/"><strong>UNT students start new groups to give back to the community</strong></a></h5>
+    <p>Volunteers support former foster-care students, people with mental disabilities and others.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_jake-heggie.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_jake-heggie/"><strong>UNT presents <em>Ahab Symphony</em></strong></a></h5>
+    <p>World premiere of acclaimed composer Jake Heggie's symphony.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_emerald-eagle-honors.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-announces-comprehensive-fundraising-campaign"><strong>UNT announces comprehensive fundraising campaign</strong></a></h5>
+    <p>Gifts to UNT help students find their green light to greatness, support new initiatives.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_formula-one-car.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_formula-one-car/"><strong>UNT students build a Formula SAE series race car from scratch for national competition</strong></a></h5>
+    <p>From making their own tools to marketing Mean Green Racing to sponsors, students are gaining valuable experience.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_clay-cavender_0235.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/clay-cavender"><strong>UNT alumnus Clay Cavender on Cavender's Boot City</strong></a></h5>
+    <p>Pride in his family's business and knowledge learned at UNT helped him grow into multi-state retail chain.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_sage-hall.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_sage-hall/"><strong>UNT's Sage Hall puts undergraduate academic services under one roof</strong></a></h5>
+    <p>The model provides convenience for students and collaboration between service units.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_StudentTaxPrep0631.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_student-tax-prep/"><strong>UNT teaches skills that help students give back to the community</strong></a></h5>
+    <p>Phillip Hernandez and Danyelle Graves use the knowledge they gained at UNT to help others.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_eli-young-band.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/soaring-eagles-alumni-awards-2013"><strong>UNT honors outstanding alumni</strong></a></h5>
+    <p>2013 Alumni Award winners include current and legendary chart toppers.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_mcnair.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2013_mcnair/index.htm"><strong>Twenty years of UNT McNair Scholars</strong></a></h5>
+    <p>Program has provided career direction, research experiences for more than 200 students.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_unt-research.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/untresearch/2012-2013/sustainabililty.htm"><strong>Green is more than a color at UNT</strong></a></h5>
+    <p>Researchers are developing technologies, products designed by nature or with nature in mind.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2013_job-security.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2013_job-security/"><strong>UNT Logistics gives students the edge in job skills</strong></a></h5>
+    <p>Internships, industry connections help UNT logistics students get ahead.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_give-to-unt.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/thurman/"><strong>Philanthropic support helps Engineering students focus on academics</strong></a></h5>
+    <p>Makers of the Blackberry proud to fund scholarships, student research.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_james_thurman_457.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/thurman/"><strong>UNT professor trademarks a new material for art making</strong></a></h5>
+    <p>James Thurman turns ordinary paper into extraordinary art.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_allison-duquaine.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/2012_allison-duquaine/"><strong>Senior learns on-the-job skills at unique setting</strong></a></h5>
+    <p>A UNT Pre-Veterinary Club event led Allison Duquaine to her calling – and an interesting stint at the Dallas Zoo.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_thankful.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/thankful2012/"><strong>Tell us what you're thankful for</strong></a></h5>
+    <p>See what UNT community members are grateful for and share your thankful pics with us.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_soldier-of-the-year.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    
+    <h5><a href="http://northtexan.unt.edu/content/2012-army-times-soldier-year"><strong>2012 <em>Army Times</em> Soldier of the Year</strong></a></h5>
+    <p>UNT student veteran saves a fellow soldier's life, sets an example for others to follow.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_researchers-honored.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2012_researchers-honored/index.htm"><strong>Top researchers honored for scholarship, creative activities</strong></a></h5>
+    <p>Five faculty have been honored in areas from biology to engineering to film to public health.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_eli-young-band-video-shoot.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../2012_eli-young-band-video-at-unt/index.htm"><strong>Eli Young Band returns to alma mater to film music video</strong></a></h5>
+    <p>The American Country Awards nominees chose UNT as the setting for <em>Life at Best</em> title track.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_homecoming.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/homecoming-2012-share-your-photos-videos-and-stories"><strong>'Once Upon A Homecoming' draws to a close</strong></a></h5>
+    <p>Share your photos, videos and memories of the storybook week for a chance to win UNT gear.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_transfer-alumni_1.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../transfer-alumni/index.htm"><strong>UNT provides a turning point for transfers</strong></a></h5>
+    <p>Three alumni find new directions for their careers after transferring to UNT.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_faculty.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../faculty-excellence/index.htm"><strong>Honoring UNT's greatest teachers</strong></a></h5>
+    <p>Mary Harris, Bruce Bond and Arminta Jacobson are given top recognition during Faculty Excellence Week.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_ligon.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../ligon/index.htm"><strong>Meet the Ligons: Helping UNT feel more like home</strong></a></h5>
+    <p>Design professor and his family live in Honors Hall to help students adjust to life away from home.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_autism-center.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../autism-center/index.htm"><strong>Autism center opening brings together UNT's history of research, services</strong></a></h5>
+    <p>New facility will provide students hands on experience to prepare for careers in autism treatment, research and support.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <!--h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_new-student.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/newstudents/index.htm"><strong>Resources for new UNT students</strong></a></h5>
+    <p>Welcome to UNT! These resources will help you make a smooth transition to life as a UNT student.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p-->
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_zach_orr.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/zach_orr/"><strong>Mean Green linebacker plays with a purpose</strong></a></h5>
+    <p>Zach Orr says UNT football provides him with the opportunity to be his best on and off the field.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_doug_wren.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/olympic-direction"><strong>UNT alumnus Doug Wren provides Olympic direction</strong></a></h5>
+    <p>The RTVF grad directs the beach volleyball live world television feed from the Olympic Games in London.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_amy-tuley.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/tuley/index.htm"><strong>UNT dance alumna achieves her dream</strong></a></h5>
+    <p>Recent graduate Amy Tuley earns a 2-year contract with prestigious Los Angeles modern dance company.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_cultural-impact.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/cultural-impact"><strong>Cultural Impact</strong></a></h5>
+    <p>UNT alumni are powering the region with creative expertise, drawing visitors and urban development.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_david-mcentire2.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/david-mcentire/index.htm"><strong>Tips to prepare for the summer storm season</strong></a></h5>
+    <p>David McEntire, professor in UNT’s Department of Public Administration, shares what you need to know to be ready.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_mentors.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    
+    <h5><a href="http://northtexan.unt.edu/content/mentoring-excellence"><strong>UNT mentors help students strive for excellence</strong></a></h5>
+    <p>Faculty members invest in students' experience and knowledge to help them achieve their goals.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_windham_graduate.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/windham/"><strong>A fourth-generation UNT graduate</strong></a></h5>
+    <p>Student's commencement marks another milestone for UNT legacy family.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_jeopardy.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/jeopardy-winner-0"><strong>Jeopardy!</strong></a></h5>
+    <p>Monica Thieu was browsing the Internet when she noticed the game show <em>Jeopardy!</em> had open auditions online.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_eli-young-band.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-alumni-working-together"><strong>UNT alumni team up for business</strong></a></h5>
+    <p>The ACM award-winning Eli-Young Band is just one example of UNT alumni working together.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_water_1.jpg" alt="" width="192" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/untresearch/2011-2012/study-of-water.htm"><strong>UNT's water research legacy</strong></a></h5>
+    <p>Scientists' acute knowledge of water quality lets them lead Texas' restoration and conservation efforts.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_volunteering.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/volunteering/index.htm"><strong>UNT students make the world a better place by serving</strong></a></h5>
+    <p>Want to lend a hand? There are many ways to volunteer at UNT, like the annual CANstruction project.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_patrick_horn.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/untresearch/2011-2012/cellular-biology.htm"><strong>UNT student leads the way in micro-cellular research</strong></a></h5>
+    <p>Patrick Horn’s findings could help scientists improve human health and nutrition as well as agricultural productivity.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2012_medical-solutions.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/medicalsolutions"><strong>UNT alumni serving in the medical field</strong></a></h5>
+    <p>Whether caring for patients or researching in labs, UNT alumni are improving health around the world.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_sparks.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/five-sparks-fund-scholarship"><strong>‘Tis the season to give and give back</strong></a></h5>
+    <p>Five education alumnae spark opportunity with UNT scholarship gift. Learn how you can give to UNT.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_transfer_students_4107.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/transfer/"><strong>UNT is one of the top universities in the U.S. for transfer students</strong></a></h5>
+    <p>The Transfer Center provides services and resources that help transfer students succeed and thrive.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_jim-nicholson-silver-star.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/supporting-our-veterans/"><strong>Supporting our Veterans</strong></a></h5>
+    <p>Jim Nicholson is one of thousands of vets UNT has served -- and continues to serve -- over the years.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_veterans-day.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/veterans-day-2011/"><strong>UNT to observe Veterans Day with several campus events</strong></a></h5>
+    <p>Activities include a Veterans Day service on the Denton County Courthouse lawn.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_dining-services.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/dining_services/"><strong>UNT's Dining Services is fueled by innovation, student feedback</strong></a></h5>
+    <p>Greater variety, vegan menus and Southern comfort food are all available now, thanks to diner input.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_homecoming_promo_12.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/homecoming-2011/"><strong>UNT's Homecoming 2011 celebrates 'The Incredible Scrappy'</strong></a></h5>
+    <p>Join us for the fun and festivities, then share your Homecoming stories, photos and videos.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_flu-insomnia.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/flu-shot-insomnia/index.htm"><strong>UNT researchers examining insomnia and flu shot effectiveness</strong></a></h5>
+    <p>Students with insomnia can participate in the study; all students can get vaccine for free at health center.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_business-leadership-building.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/power-place-1"><strong>New UNT Business Leadership Building opened this fall</strong></a></h5>
+    <p>Equipped with the latest technology and designed to prepare students for a changing business world.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_eaglepan.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/experience-new-mean-green"><strong>Did you go to the first game at Apogee Stadium?</strong></a></h5>
+    <p>Use EaglePan to tag yourself and your friends in our panoramic photo, then share the experience.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/11_377_Dan_McCarney044.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/experience-new-mean-green"><strong>Experience the New Mean Green</strong></a></h5>
+    <p>Come see Head Coach Dan McCarney usher in an exciting era of UNT football at Apogee Stadium.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <!--div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_new-student.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/newstudents/index.htm"><strong>Resources for new UNT students</strong></a></h5>
+    <p>Welcome to UNT! These resources will help you make a smooth transition to life as a college student.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4-->
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_charn.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/major_gift/index.htm"><strong>UNT alumnus pledges largest gift in university history</strong></a></h5>
+    <p>Donation is latest in list of multimillion dollar announcements.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_apogee_stadium050.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/stadium_name/index.htm"><strong>UNT and Apogee unveil new Apogee Stadium</strong></a></h5>
+    <p>20-year, $20 million partnership to support UNT and Mean Green Athletics.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <p></p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_wayla_chambo.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/chambo/index.htm"><strong>UNT dancing flutist is moved by music</strong></a></h5>
+    <p>Doctoral student Wayla Chambo is selected to showcase her unique performance at national flute convention.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></p>
+     <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_making-dreams-come-true.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/making-dreams-come-true"><strong>UNT's first class of Emerald Eagle Scholars graduates</strong></a></h5>
+    <p>With help from mentors and student services, the scholars are now beginning to pursue their passions.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_billings_01.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/dino-land"><strong>UNT alumni bring robotic dinosaurs to life</strong></a></h5>
+    <p>Graduates use lessons, skills learned at UNT to create life-size ancient reptiles for zoos and theme parks.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/2011_rosa_aloisi.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/aloisi/index.htm"><strong>UNT doctoral student seeks justice for war crime victims</strong></a></h5>
+    <p>Rosa Aloisi hopes her research will help the international community improve conditions to protect human rights.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/burlyce-logan019.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/burlyce-logan"><strong>One of UNT's first African American students returns to graduate</strong></a></h5>
+    <p>More than 50 years after taking her first college classes, Burlyce Sherrell Logan earns a UNT degree.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/diiulio_stamps_017.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://inhouse.unt.edu/nasa%E2%80%99s-final-shuttle-launch-marks-end-collectors-era"><strong>NASA's final shuttle launch marks the end of collector's era</strong></a></h5>
+    <p>For decades UNT Astronomy Program director Ron DiIulio has gathered space program memorabilia.</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/denton-arts-jazz.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/denton-arts-jazz-festival/index.htm"><strong>Jazz legends honor Leon Breeden at Denton Arts and Jazz Festival</strong></a></h5>
+<p>UNT alumni Tom "Bones" Malone, Marvin Stamm, Lou Marini will perform a tribute for the late Jazz Studies director.</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/fashion.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/world-fashion"><strong>Fashion design program creates couture leaders</strong></a></h5>
+<p>Graduates of UNT's famously rigorous program pursue high-powered careers, start their own labels.</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/kenneth_brons_272.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/Brons/index.htm"><strong>Student veteran's goal is to be a teacher students remember</strong></a></h5>
+<p>Kenneth Brons says UNT faculty, staff helped him find the right road for his future.</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <h4>&nbsp;</h4>
+   <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/marian-brock.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/marian-brock"><strong>Film starring UNT alumna wins an Oscar</strong></a></h5>
+<p>Marian Brock plays a main character in the short film, <em>God of Love</em>.</p>
+    <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <h4>&nbsp;</h4>
+   <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/banowetz.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/banowetz/index.htm"><strong>UNT professor earns Grammy nod for concerto recording</strong></a></h5>
+<p>Pianist, UNT professor Joseph Banowetz brings to life a composer's music lost in the Holocaust.</p>
+    <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/bill-lively.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/bill-lively"><strong>UNT alumnus is president, CEO of Super Bowl XLV Host Committee</strong></a></h5>
+<p>Bill Lively helped make history as part of the first Super Bowl in North Texas.</p>
+    <p>&nbsp;</p>
+   <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+      <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/plant-signaling.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+      <h5><a href="http://www.unt.edu/untresearch/2010-2011/signaling-mechanisms-in-plants.htm"><strong>Studying the signaling mechanisms of plants</strong></a></h5>
+      <p>UNT faculty focus on groundbreaking plant research to  feed the planet and save the earth.</p>
+     <p>&nbsp;</p>
+    <p>&nbsp;</p>
+      <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/terry_scholars_044.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/terry-scholars/index.htm"><strong>Elite program supports high-achieving student leaders</strong></a><br />
+    </h5>
+<p>UNT's Terry Scholars learn how to be tomorrow's leaders while helping humanity today.</p>
+    <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/forensics.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/forensics/index.htm"><strong>Texas' only accredited undergrad forensic science program</strong></a><br />
+    </h5>
+<p>UNT program's hands-on, real world approach prepares students for forensics careers.</p>
+    <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <h4>&nbsp;</h4>
+    </p><div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/adrian-cadar.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/cadar/index.htm"><strong>UNT student is fascinated by the heart</strong></a><br />
+    </h5>
+<p>Adrian Cadar's research could lead to improved treatments for preemie babies with a heart defect.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/homecoming2010.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/homecoming2010"><strong>Homecoming 2010 Old School</strong></a><br />
+    </h5>
+<p>View Homecoming  videos and photos and read stories about Homecoming 2010 experiences.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+          <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/cinnamon-sheffield.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/cinnamon/"><strong>UNT student athletes are students first</strong></a><br />
+    </h5>
+<p> Sheffield, associate athletic director for student services, guides student athletes as they work toward degrees.<br />
+</p>
+      <p>&nbsp;</p>
+
+ <p>&nbsp;</p>
+     <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/rosalyn_reades.jpg" alt="" width="197" height="148" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/rosalyn-reades"><strong>UNT alumna stays calm and collected in the ER</strong></a><br />
+    </h5>
+  <p>Dr. Rosalyn Reades takes charge using lessons she learned as an honors student and athlete.</p> <p>&nbsp;</p>
+    <p>&nbsp;</p>
+      <!--h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/newstudents2.jpg" alt="" width="196" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/newstudents/index.htm"><strong>Resources for new UNT students</strong></a><br />
+    </h5>
+    <p>Welcome to UNT! These resources will help you make a smooth transition to life as a college student.</p>
+      <p>&nbsp;</p>
+    <p>&nbsp;</p-->
+     <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/sustainability.jpg" alt="" width="196" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/sustainability-and-green-living-power-unt"><strong>Sustainability and green living power UNT</strong></a><br />
+    </h5>
+    <p>UNT community uses seed planted by environmental legacy to grow leadership in sustainability issues.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/mohanty.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/mohanty/index.htm"><strong>Less time on the charger</strong></a><br />
+    </h5>
+    <p>UNT professor Saraju Mohanty's goal is to reduce the number of times your devices need recharging.</p>
+    <p>&nbsp;</p>
+ <p>&nbsp;</p>
+     <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/rosenbaum.jpg" alt="" width="196" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-graduates-business-lights-night"><strong>UNT graduate's business lights up the night</strong></a><br />
+    </h5>
+    <p>Alumnus David Rosenbaum started and grew a successful fireworks business while still a student.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/behind-the-scenes.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/behind-scenes"><strong>Behind the scenes</strong></a><br />
+    </h5>
+    <p>UNT alumni bring major motion pictures, television shows to the screen.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/grand_unv.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/grandparentsu/index.htm"><strong>Grandparents University</strong></a><br />
+    </h5>
+    <p>Program bonds grandparents and grandchildren through learning.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/sowell.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/sowell/index.htm"><strong>Student earns $120,000 National Science Foundation grant</strong></a><br />
+    </h5>
+    <p>Marsha Sowell credits Honors College, McNair Program and caring, helpful UNT faculty with her success.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/larc.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/gaming/"><strong>Gaming program readies students for top industry players</strong></a><br />
+    </h5>
+    <p>UNT's high-ranking game design program launches careers in booming entertainment field.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/mentor.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/focusing-students"><strong> UNT faculty mentors guide students one-on-one</strong></a><br />
+    </h5>
+    <p>Professors focus their experience to train future teachers, researchers, leaders and performers.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/waters.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/brian-waters"><strong>Walter Payton NFL Man of the Year and UNT alum Brian Waters</strong></a><br />
+    </h5>
+    <p>The Kansas City Chiefs' four-time NFL Pro Bowler is recognized for his generosity and support.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/ises.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/untresearch/2009-2010/studying-aircraft-fatigue.htm"><strong>UNT researchers are improving aircraft materials</strong></a><br />
+    </h5>
+    <p>New substances and components are designed to make military jets and commercial planes last longer.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/smartin.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/olympics/"><strong>UNT professor on the front lines at 2010 Winter games</strong></a><br />
+    </h5>
+    <p><strong>Sander Martin</strong>, School Psychology Program director, will serve as host in the Olympic Village.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/veteran.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/features/veterans/"><strong>Veterans Center helps growing student demographic</strong></a><br />
+    </h5>
+    <p>New program guides student veterans through educational options and resources.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/miller.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/lorraine-c-miller"><strong>UNT alumna  keeps the U.S. House of Representatives running</strong></a><br />
+    </h5>
+    <p>Perseverance and a healthy work ethic take <strong>Lorraine C. Miller</strong> all the way to Capitol Hill.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/success.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../success/index.htm"><strong>Program uses donations to give books to children</strong></a><br />
+    </h5>
+    <p>UNT's <strong>Success for  Life through Reading</strong> promotes early literacy for low income families.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/mccauley.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../studentlegal/index.htm"><strong>UNT students have a lawyer on their side</strong></a><br />
+    </h5>
+    <p><strong>Kathryn McCauley</strong> and <strong>Student Legal Services</strong> fight for students' rights.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/beck.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/unt-alumna-gets-naughty-kitchen"><strong>UNT alumna gets naughty in the kitchen</strong></a><br />
+    </h5>
+    <p>Hospitality management grad <strong>Blythe Beck</strong> is at the center of a hit Oxygen network reality series.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/walsh.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../walsh/index.htm"><strong>Form meets function in prize-winning design</strong></a><br />
+    </h5>
+    <p><em><strong>Mad Men</strong></em> inspires UNT  student <strong>Stephen Walsh</strong> to create office space.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/homecoming.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/homecoming-2009"><strong>Homecoming 2009: Share your experiences</strong></a><br />
+    </h5>
+    <p>Share your Homecoming stories, photos and videos.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/martin.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/family-tradition"><strong>A family tradition</strong></a><br />
+    </h5>
+    <p>With a rich lineage, UNT's family grows green pride as new generations of alumni write their own chapters in our story.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/helstad.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../helstad/index.htm"><strong>Heating up weapons research</strong></a><br />
+    </h5>
+    <p><strong>Jeff   Helstad</strong>, UNT senior, applies his National Guard experience to materials science research.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/bramblitt2.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/john-bramblitt"><strong>Bold vision</strong></a><br />
+    </h5>
+    <p><strong>John Bramblitt</strong>, UNT alumnus, views the world through his paintings after losing his sight.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <!--div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/students2.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../newstudents/index.htm"><strong>Everything you need to know</strong></a><br />
+    </h5>
+    <p>Welcome to campus!  
+      These  resources will help you make a smooth transition to life as a UNT student.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p-->
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/shirin.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/classroom-catwalk"><strong>Classroom to catwalk</strong></a><br />
+    </h5>
+    <p>UNT alumna<strong> Shirin Askari</strong> pits her designing skills against 15 others on hit show <em><strong>Project Runway</strong></em>.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/careercenter.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../career/index.htm"><strong>Career counseling</strong></a></h5>
+    <p><strong>UNT Career Center</strong> services can give you an advantage in troubled times.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/thurman.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../smokey/index.htm"><strong>Smokey goes to Hollywood</strong></a></h5>
+    <p>UNT  grad student's film about an <strong>Elvis impersonator</strong> gets screen time at <strong>L.A.  Film Festival</strong>.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/emily.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://northtexan.unt.edu/content/creative-success/">Creative success</a></h5>
+    <p>UNT alumni, including <strong>Emily Charette</strong>, power the creative design for the likes of <strong>Metallica, Nike and Fossil</strong>.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/irene2.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../irene/index.htm"><strong>Love in the fast lane</strong></a></h5>
+    <p>Matching active singles for low pressure lunch dates is the mission of UNT alumna <strong>Irene LaCota</strong>, president and chief marketing officer of <strong>It's Just Lunch</strong>.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/eri.jpg" alt="" width="194" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../eri/index.htm"><strong>Pain reduction</strong></a></h5>
+    <p>UNT student <strong>Eri Yoshimura</strong> looks for ways to lessen  pianists' hand and body injuries.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp; </p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/wolverine.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../popculture/index.htm"><strong>Pop culture academia</strong></a></h5>
+    <p>UNT classes where modern <strong>super heroes</strong>, American <strong>popular music</strong> and <strong>Bob Dylan</strong> are the study topics.</p>
+    <p>&nbsp;</p>
+    <p><br />
+      <br />
+    </p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/sonya2.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../sonya/index.htm"><strong>Sculpting Obama</strong></a></h5>
+    <p>Former UNT art student,<strong> Sonya Vasquez</strong>, creates wax figure of the 44th president.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp; </p>
+    <p><br />
+    </p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/cirzy.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../emeraldeagles/index.htm"><strong>Meet some of our Emerald Eagle Scholars </strong></a></h5>
+    <p><strong>Watch videos </strong>to hear the stories from<strong> Cirzy, Darryl and Sarah</strong> and learn how you can become one.</p>
+    <p>&nbsp; </p>
+    <p><br />
+    </p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/dantu2.jpg" alt="" width="197" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="http://www.unt.edu/untresearch/2008-2009/911.htm?home=1"><strong>Can 911 find you?</strong></a></h5>
+    <p><strong>Ram Dantu's</strong> research may make it easier for 911  to locate you if you call from an Internet-based phone.</p>
+    <p>&nbsp; </p>
+    <p><br />
+      <br />
+    </p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/eoc2.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><strong><a href="../emergencylab/index.htm">Ready for the worst</a></strong></h5>
+    <p>Simulated Emergency Operations Center prepares tomorrow's emergency managers and coordinators.</p>
+    <p>&nbsp; </p>
+    <p><br />
+      <br />
+    </p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/omary2.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><strong><a href="http://www.unt.edu/untresearch/2008-2009/future-of-lighting.htm">The future of lighting</a></strong></h5>
+    <p>Mohammad Omary leads UNT scientists creating white light that is eco-friendly and affordable.</p>
+    <p>&nbsp; </p>
+    <p><br />
+      <br />
+    </p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/jessie2.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><strong><a href="../diettribe/index.htm">Reality TV trainer</a></strong></h5>
+    <p><strong>Jessie Pavelka</strong>, Lifetime network's  healthy living expert on <strong><em>DietTribe</em></strong>, started his journey as a trainer while he was a UNT student. <em>(Photo Credit: Bradford Rogue)</em></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"><img src="images/condoa.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><strong><a href="http://www.unt.edu/northtexan/winter2008/from-ged-to-edd.htm">From G.E.D. to Ed.D.</a></strong></h5>
+    <p>Condoa Parrent overcomes a rough beginning to find her calling in counseling others.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"> <img src="images/wen3.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><strong><a href="../chyan/index.htm">Student's winning antibacterial creation may save lives</a></strong></h5>
+    <p>A UNT student's polymer creation that may one day save hospital  patients' lives, made him the 2008 Siemens Competition in Math, Science  and Technology winner.</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"> <img src="images/scottiesmith.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../frametech/index.htm">No place like home</a></h5>
+    <p>UNT senior helps low-income Denton  families fulfill the American dream of home ownership.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"> <img src="images/feature-moneymanagement2.jpg" alt="" width="200" height="150" class="imgLeft" style="float: none;"/></div>
+    <h5><strong><a href="../studentmoneymanagement/index.htm">Lessons for financial success </a></strong></h5>
+    <p>Learn how UNT's unique program teaches core money management skills,    get advice to help you get through these challenging economic times,  and read tips to avoid credit card fraud and save money this holiday  season.</p>
+    <p>&nbsp;</p>
+    <h4>&nbsp;</h4>
+    <div style="float: left; padding: 0 0 5px 0; margin: 0 15px -10px 0; width: 200px;"> <img src="images/globalrivers.jpg" alt="" width="200" height="151" class="imgLeft" style="float: none;"/></div>
+    <h5><a href="../globalrivers/index.htm">Global Rivers Project Premiere</a></h5>
+    <p>Welcome to UNT! These resources will help you make a smooth transition to life as a college student.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <div id="extras" class="equal">
+<div class="extraBlock">
+  <h3>Current feature</h3><div style="float: left; padding: 0 0 5px 5px; margin: 5px 5px 0 0; width: 78px;"><img src="images/16_292_katelynn-blasavage_51_thumb.jpg" alt="" width="78" height="104"/></div>
+  <p><a href="../2016_katelynn-blasavage/index.htm"><strong>Inspiration leads to UNT student's graduation</strong></a>
+    <br />
+   Faculty support helps Katelynn Blasavage overcome the odds to walk the commencement stage May 13.</p>
+  <p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+<div id="footer">
+  <div id="footerInner">
+    <div id="contact" class="equalFooter">
+      <h5>Contact Information:</h5>
+      <p>University of North Texas<br />
+        1155 Union Circle #311277 <br />
+        Denton, Texas<br />
+        76203-5017<br />
+        Phone: (940) 565-2000<br />
+        <a href="http://www.unt.edu/find-people-department.htm">People &amp; Departments</a></p>
+    </div>
+    <div id="technical" class="equalFooter">
+      <div id="contentProblems">
+        <h5>Email us:</h5>
+        <p>For questions about content in this web site, contact <a href="mailto:urcm@unt.edu">urcm@unt.edu</a>.</p>
+      </div>
+    </div>
+    <div id="feedback" class="equalFooter">
+      <h5>UNT System:</h5>
+      <ul>
+        <li><a href="http://untsystem.edu/">UNT System</a></li>
+        <li><a href="http://dallas.unt.edu/">UNT Dallas</a></li>
+        <li><a href="http://www.hsc.unt.edu/">UNT Health Science Center</a></li>
+      </ul>
+    </div>
+    <div style="clear: both; width: 920px; padding: 20px 0 10px 0; margin: 10px 0 0 0; text-align: center;">
+      <p><strong>Site last updated on
+        <!-- #BeginDate format:Am1 -->May 2, 2016<!-- #EndDate -->
+      </strong></p>
+      <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility Policy</a> | <a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> | <a href="http://emergency.unt.edu/">Emergency Preparedness</a></div>
+  </div>
+</div>
+<script src="../../assets/js/data/academics-feed.js" type="text/javascript"></script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+
+
+</body>
+</html>

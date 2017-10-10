@@ -1,0 +1,800 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>UNT Map | University of North Texas</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/themes/unt/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/typogrify/typogrify.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/node_import/node_import.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/unt_footer/css/block-footer.css?Q" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/unt/css/unt.css?Q" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/unt/css/jquery.colorbox.css?Q" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/unt/css/jquery.autocomplete.css?Q" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/unt/css/print.css?Q" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/unt/css/ie.css?Q" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/unt/css/ie6.css?Q" />
+<![endif]-->
+    <link rel="shortcut icon" href="http://www.unt.edu/favicon.ico" />
+    <script src="//maps.google.com/maps/api/js?&amp;sensor=true" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="/sites/all/themes/unt/js/jquery-1.5.2.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/jquery.placeholder.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/api.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/jquery.map.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/jquery.colorbox.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/gallery.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/maps.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/alphabetical.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/places.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/parking.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/map_controller.js?Q"></script>
+<script type="text/javascript" src="/sites/all/themes/unt/js/share.js?Q"></script>
+</head>
+
+<body class="page front not-logged-in no-sidebars page-places places-723 col-1 ">
+
+<div id="page-wrapper"><div id="page">
+
+	    <div id="masthead"><div class="mast-wrapper">
+        <div id="skip"><a href="#">skip</a></div>
+        <div id="unt-search"></div>
+        <div id="quick-links"><div class="region region-quick-links">
+    <ul class="menu"><li class="leaf first"><a href="https://my.unt.edu/" title="">MyUNT</a></li>
+<li class="leaf"><a href="http://eagleconnect.unt.edu/" title="">Eagle Connect</a></li>
+<li class="leaf"><a href="http://webctvista.unt.edu/" title="">Blackboard</a></li>
+<li class="leaf"><a href="http://www.unt.edu/find-people-department.htm" title="">People &amp; Departments</a></li>
+<li class="leaf"><a href="http://www.unt.edu/pais/map/" title="">Maps</a></li>
+<li class="leaf"><a href="http://www.unt.edu/calendars-events.htm" title="">Calendars</a></li>
+<li class="leaf last"><a href="http://www.unt.edu/giving-unt.htm" title="">Giving to UNT</a></li>
+</ul></div> <!-- /.region -->
+</div>
+    </div></div>
+	
+	<div id="header"><div class="section clearfix header-wrapper">
+
+     <div id="dept-logo">
+        	            <a href="/" title="Home" rel="home" id="logo"><img src="http://maps.unt.edu/sites/default/files/unt_logo.png" alt="Home" /></a>
+            			
+        </div>
+
+        <div id="unt-logo">
+            <a href="http://www.unt.edu/"><img src="/sites/all/themes/unt/images/unt-logo.png" alt="UNT | University of North Texas" /></a>
+        </div>
+        
+        
+    </div></div> <!-- /.section, /#header -->
+    
+        
+    <div id="top-nav">
+        <div class="nav-wrapper">
+        <ul id="nav"><li class="menu-10323 first"><a href="/places/tags/34?code=0312" title="">Visiting UNT?</a></li>
+<li class="menu-10324"><a href="/places/tags/31" title="">Student Life</a></li>
+<li class="menu-10325"><a href="/places/tags/26" title="">Athletics</a></li>
+<li class="menu-9962 last"><a href="http://maps.unt.edu/sites/default/files/UNTCampusMap.pdf" title="">Download PDF Map</a></li>
+</ul>        </div>
+    </div>    
+    
+    <div id="main-wrapper"><div id="main" class="clearfix with-navigation"><div id="theme-wrapper">
+        
+        <div id="content" class="column"><div class="section">
+
+			            
+                        
+                        
+                        
+                        
+                        
+                        
+            <div id="content-area">
+                
+            	<h2 class="title"></h2>
+				
+<div class="maps listing">  <div class="map-wrapper">
+  <div class="map">
+    <img src="http://maps.google.com/maps/api/staticmap?size=630x470&amp;type=roadmap&amp;sensor=true&amp;visible=33.19634,-97.162818|33.215658,-97.139375" alt="Map of UNT Denton campus and vicinity"/>  </div>  <div id="map_link">    <p>      <span style="font-weight: bold;">        Did you know?      </span>      You can      <a href="/?code=INTR" id="linked_map_url">        share this map      </a>        with friends and family?      <span class="help">        (click for more info)      </span>    </p>  </div>	
+  </div>  
+  <div class="places">
+    <div id="search">
+      <form action="/places/search" method="get" id="places_listing_search">
+        <input class="text" type="text" name="search_string" value=""></input>
+        <input class="submit" type="submit" value="Search" name="search"></input>
+      </form>
+    </div>
+    
+<h3>Show buildings by name or category...</h3>
+<p class="info">Click on a link below to reveal places</p>
+<ul class="filter alphabetical"><li class="letter"><span class="a">a</span></li> <li class="letter"><span class="b">b</span></li> <li class="letter"><span class="c">c</span></li> <li class="letter"><span class="d">d</span></li> <li class="letter"><span class="e">e</span></li> <li class="letter"><span class="f">f</span></li> <li class="letter"><span class="g">g</span></li> <li class="letter"><span class="h">h</span></li> <li class="letter"><span class="i">i</span></li> <li class="letter"><span class="j">j</span></li> <li class="letter"><span class="k">k</span></li> <li class="letter"><span class="l">l</span></li> <li class="letter"><span class="m">m</span></li> <li class="letter"><span class="n">n</span></li> <li class="letter"><span class="o">o</span></li> <li class="letter"><span class="p">p</span></li> <li class="letter"><span class="q">q</span></li> <li class="letter"><span class="r">r</span></li> <li class="letter"><span class="s">s</span></li> <li class="letter"><span class="t">t</span></li> <li class="letter"><span class="u">u</span></li> <li class="letter"><span class="v">v</span></li> <li class="letter"><span class="w">w</span></li> <li class="letter"><span class="x">x</span></li> <li class="letter"><span class="y">y</span></li> <li class="letter"><span class="z">z</span></li> <li class="selected"><a class="selected"><img src="/sites/all/themes/unt/images/selected.png" alt="" title="" width="16" height="16" /></a></li></ul>
+<ul class="filter tags"><li>Categories:</li> <li class="tag"><a href="/places/tags/28"><span class="tag-28">Food</span></a>, </li><li class="tag"><a href="/places/tags/26"><span class="tag-26">Athletics</span></a>, </li><li class="tag"><a href="/places/tags/29"><span class="tag-29">Performance</span></a>, </li><li class="tag"><a href="/places/tags/30"><span class="tag-30">Research</span></a>, </li><li class="tag"><a href="/places/tags/31"><span class="tag-31">Student Life</span></a>, </li><li class="tag"><a href="/places/tags/32"><span class="tag-32">Galleries</span></a>, </li><li class="tag"><a href="/places/tags/33"><span class="tag-33">Alumni</span></a>, </li><li class="tag"><a href="/places/tags/34"><span class="tag-34">Visitor</span></a></li></ul>
+<hr/>
+<ul data-role="listview" class="places listing" role="list-box">
+  
+
+
+<li role="option" class="place a">
+    <a href="http://maps.unt.edu/places/1086/view" title="Air Force ROTC (ATH1)" id="ATH1">Air Force ROTC <span class="caps">(ATH1)</span></a></li>
+
+
+<li role="option" class="place a">
+    <a href="http://maps.unt.edu/places/1187/view" title="Alumni Center (ALUM)" id="ALUM">Alumni Center <span class="caps">(ALUM)</span></a></li>
+
+
+<li role="option" class="place a tag-26">
+    <a href="http://maps.unt.edu/places/3794/view" title="Alumni Pavilion (APAV)" id="APAV">Alumni Pavilion <span class="caps">(APAV)</span></a></li>
+
+
+<li role="option" class="place a">
+    <a href="http://maps.unt.edu/places/3797/view" title="Apogee Stadium (APGS)" id="APGS">Apogee Stadium <span class="caps">(APGS)</span></a></li>
+
+
+<li role="option" class="place a tag-32">
+    <a href="http://maps.unt.edu/places/1044/view" title="Art Building (ART)" id="ART">Art Building <span class="caps">(ART)</span></a></li>
+
+
+<li role="option" class="place a">
+    <a href="http://maps.unt.edu/places/1154/view" title="Athletic Center (ATHC)" id="ATHC">Athletic Center <span class="caps">(ATHC)</span></a></li>
+
+
+<li role="option" class="place a">
+    <a href="http://maps.unt.edu/places/1008/view" title="Auditorium Building (AUDB)" id="AUDB">Auditorium Building <span class="caps">(AUDB)</span></a></li>
+
+
+
+
+<li role="option" class="place b tag-13 tag-27">
+    <a href="http://maps.unt.edu/places/1024/view" title="Bain Hall (BAIN)" id="BAIN">Bain Hall <span class="caps">(BAIN)</span></a></li>
+
+
+<li role="option" class="place b tag-28">
+    <a href="http://maps.unt.edu/places/1122/view" title="Bruce Hall (BRUC)" id="BRUC">Bruce Hall <span class="caps">(BRUC)</span></a></li>
+
+
+<li role="option" class="place b tag-24">
+    <a href="http://maps.unt.edu/places/1160/view" title="Building B (MGVB)" id="MGVB">Building B <span class="caps">(MGVB)</span></a></li>
+
+
+<li role="option" class="place b tag-24">
+    <a href="http://maps.unt.edu/places/1140/view" title="Building C (MGVC)" id="MGVC">Building C <span class="caps">(MGVC)</span></a></li>
+
+
+<li role="option" class="place b tag-24">
+    <a href="http://maps.unt.edu/places/1130/view" title="Building H (MGOH)" id="MGOH">Building H <span class="caps">(MGOH)</span></a></li>
+
+
+<li role="option" class="place b tag-24">
+    <a href="http://maps.unt.edu/places/1131/view" title="Building L (MGVL)" id="MGVL">Building L <span class="caps">(MGVL)</span></a></li>
+
+
+<li role="option" class="place b tag-24">
+    <a href="http://maps.unt.edu/places/1143/view" title="Building P (MGVP)" id="MGVP">Building P <span class="caps">(MGVP)</span></a></li>
+
+
+<li role="option" class="place b">
+    <a href="http://maps.unt.edu/places/3795/view" title="Business Leadership Building (BLB)" id="BLB">Business Leadership Building <span class="caps">(BLB)</span></a></li>
+
+
+
+
+<li role="option" class="place c">
+    <a href="http://maps.unt.edu/places/1180/view" title="Campus Greens  (CGRN)" id="CGRN">Campus Greens  <span class="caps">(CGRN)</span></a></li>
+
+
+<li role="option" class="place c tag-13">
+    <a href="http://maps.unt.edu/places/1152/view" title="Chemistry Building (CHEM)" id="CHEM">Chemistry Building <span class="caps">(CHEM)</span></a></li>
+
+
+<li role="option" class="place c tag-33 tag-31">
+    <a href="http://maps.unt.edu/places/1159/view" title="Chestnut Hall (CHNT)" id="CHNT">Chestnut Hall <span class="caps">(CHNT)</span></a></li>
+
+
+<li role="option" class="place c">
+    <a href="http://maps.unt.edu/places/1027/view" title="Chilton Hall (CHIL)" id="CHIL">Chilton Hall <span class="caps">(CHIL)</span></a></li>
+
+
+<li role="option" class="place c tag-29">
+    <a href="http://maps.unt.edu/places/1124/view" title="Clark Hall (CLAR)" id="CLAR">Clark Hall <span class="caps">(CLAR)</span></a></li>
+
+
+<li role="option" class="place c tag-26">
+    <a href="http://maps.unt.edu/places/1045/view" title="Coliseum (COL)" id="COL">Coliseum <span class="caps">(COL)</span></a></li>
+
+
+<li role="option" class="place c">
+    <a href="http://maps.unt.edu/places/1107/view" title="College Inn (CINN)" id="CINN">College Inn <span class="caps">(CINN)</span></a></li>
+
+
+<li role="option" class="place c">
+    <a href="http://maps.unt.edu/places/3829/view" title="Counseling &amp; Higher Education (CHET)" id="CHET">Counseling & Higher Education <span class="caps">(CHET)</span></a></li>
+
+
+<li role="option" class="place c tag-31">
+    <a href="http://maps.unt.edu/places/1125/view" title="Crumley Hall (CRUM)" id="CRUM">Crumley Hall <span class="caps">(CRUM)</span></a></li>
+
+
+<li role="option" class="place c">
+    <a href="http://maps.unt.edu/places/1012/view" title="Curry Hall (CURY)" id="CURY">Curry Hall <span class="caps">(CURY)</span></a></li>
+
+
+
+
+<li role="option" class="place d">
+    <a href="http://maps.unt.edu/places/3830/view" title="Dance &amp; Theater Arts (DTAT)" id="DTAT">Dance & Theater Arts <span class="caps">(DTAT)</span></a></li>
+
+
+<li role="option" class="place d tag-25 tag-28 tag-30">
+    <a href="http://maps.unt.edu/places/1111/view" title="Discovery Park (NTRP)" id="NTRP">Discovery Park <span class="caps">(NTRP)</span></a></li>
+
+
+<li role="option" class="place d">
+    <a href="http://maps.unt.edu/places/3815/view" title="Discovery Park Annex (NC-S)" id="NC-S">Discovery Park Annex <span class="caps">(NC-S)</span></a></li>
+
+
+
+
+<li role="option" class="place e">
+    <a href="http://maps.unt.edu/places/1170/view" title="Eagle Point Intramural Rec Sports Fields (EPRSF)" id="EPRSF">Eagle Point Intramural Rec Sports Fields <span class="caps">(EPRSF)</span></a></li>
+
+
+<li role="option" class="place e tag-31 tag-34">
+    <a href="http://maps.unt.edu/places/1017/view" title="Eagle Student Services Center (ESSC)" id="ESSC">Eagle Student Services Center <span class="caps">(ESSC)</span></a></li>
+
+
+<li role="option" class="place e">
+    <a href="http://maps.unt.edu/places/1148/view" title="East Classroom Building (ECB)" id="ECB">East Classroom Building <span class="caps">(ECB)</span></a></li>
+
+
+<li role="option" class="place e tag-13 tag-30">
+    <a href="http://maps.unt.edu/places/1047/view" title="Environmental Education, Science &amp; Technology Building (ENV)" id="ENV">Environmental Education, Science & Technology Building <span class="caps">(ENV)</span></a></li>
+
+
+<li role="option" class="place e">
+    <a href="http://maps.unt.edu/places/1054/view" title="Environmental Science Greenhouse (ESCG)" id="ESCG">Environmental Science Greenhouse <span class="caps">(ESCG)</span></a></li>
+
+
+<li role="option" class="place e tag-26 tag-24">
+    <a href="http://maps.unt.edu/places/1141/view" title="Ernie Kuehne Basketball Practice Facility (MGVG)" id="MGVG">Ernie Kuehne Basketball Practice Facility <span class="caps">(MGVG)</span></a></li>
+
+
+
+
+<li role="option" class="place f">
+    <a href="http://maps.unt.edu/places/1102/view" title="Facilities Complex (CARP)" id="CARP">Facilities Complex <span class="caps">(CARP)</span></a></li>
+
+
+<li role="option" class="place f">
+    <a href="http://maps.unt.edu/places/3827/view" title="Fashion Design &amp; Fibers (FDFT)" id="FDFT">Fashion Design & Fibers <span class="caps">(FDFT)</span></a></li>
+
+
+<li role="option" class="place f tag-28">
+    <a href="http://maps.unt.edu/places/3832/view" title="Food Services Pavilion (FSPT)" id="FSPT">Food Services Pavilion <span class="caps">(FSPT)</span></a></li>
+
+
+<li role="option" class="place f tag-26">
+    <a href="http://maps.unt.edu/places/1085/view" title="Fouts Field (STAD)" id="STAD">Fouts Field <span class="caps">(STAD)</span></a></li>
+
+
+<li role="option" class="place f">
+    <a href="http://maps.unt.edu/places/1171/view" title="Fraternity Row  (ROWF)" id="ROWF">Fraternity Row  <span class="caps">(ROWF)</span></a></li>
+
+
+<li role="option" class="place f">
+    <a href="http://maps.unt.edu/places/1172/view" title="Free Speech Area  (FRSA)" id="FRSA">Free Speech Area  <span class="caps">(FRSA)</span></a></li>
+
+
+
+
+<li role="option" class="place g tag-33 tag-29">
+    <a href="http://maps.unt.edu/places/1048/view" title="Gateway Center (GATE)" id="GATE">Gateway Center <span class="caps">(GATE)</span></a></li>
+
+
+<li role="option" class="place g tag-34">
+    <a href="http://maps.unt.edu/places/1090/view" title="Gateway Information Booth (0312)" id="0312">Gateway Information Booth <span class="caps">(0312)</span></a></li>
+
+
+<li role="option" class="place g">
+    <a href="http://maps.unt.edu/places/1013/view" title="General Academic Building (GAB)" id="GAB">General Academic Building <span class="caps">(GAB)</span></a></li>
+
+
+<li role="option" class="place g">
+    <a href="http://maps.unt.edu/places/1108/view" title="Goolsby Chapel (CHAP)" id="CHAP">Goolsby Chapel <span class="caps">(CHAP)</span></a></li>
+
+
+
+
+<li role="option" class="place h">
+    <a href="http://maps.unt.edu/places/1014/view" title="Hickory Hall (HKRY)" id="HKRY">Hickory Hall <span class="caps">(HKRY)</span></a></li>
+
+
+<li role="option" class="place h">
+    <a href="http://maps.unt.edu/places/3798/view" title="Highland Street Parking Garage (HIGH)" id="HIGH">Highland Street Parking Garage <span class="caps">(HIGH)</span></a></li>
+
+
+<li role="option" class="place h">
+    <a href="http://maps.unt.edu/places/1146/view" title="Honors Hall (HNRS)" id="HNRS">Honors Hall <span class="caps">(HNRS)</span></a></li>
+
+
+<li role="option" class="place h">
+    <a href="http://maps.unt.edu/places/1120/view" title="Hurley Administration Building (ADMN)" id="ADMN">Hurley Administration Building <span class="caps">(ADMN)</span></a></li>
+
+
+<li role="option" class="place h tag-23 tag-19">
+    <a href="http://maps.unt.edu/places/1067/view" title="Hurley Administration Information Booth (INFO)" id="INFO">Hurley Administration Information Booth <span class="caps">(INFO)</span></a></li>
+
+
+
+
+<li role="option" class="place i">
+    <a href="http://maps.unt.edu/places/3803/view" title="Intramural Fields (INTR)" id="INTR">Intramural Fields <span class="caps">(INTR)</span></a></li>
+
+
+
+
+<li role="option" class="place k">
+    <a href="http://maps.unt.edu/places/1019/view" title="Ken Bahnsen Gymnasium (MGYM)" id="MGYM">Ken Bahnsen Gymnasium <span class="caps">(MGYM)</span></a></li>
+
+
+<li role="option" class="place k tag-28">
+    <a href="http://maps.unt.edu/places/1126/view" title="Kerr Hall (KERR)" id="KERR">Kerr Hall <span class="caps">(KERR)</span></a></li>
+
+
+<li role="option" class="place k">
+    <a href="http://maps.unt.edu/places/3818/view" title="Kristin Farmer Autism Center (ACES)" id="ACES">Kristin Farmer Autism Center <span class="caps">(ACES)</span></a></li>
+
+
+<li role="option" class="place k">
+    <a href="http://maps.unt.edu/places/3822/view" title="Kush Rhoti Food Trailer (CCS1)" id="CCS1">Kush Rhoti Food Trailer <span class="caps">(CCS1)</span></a></li>
+
+
+
+
+<li role="option" class="place l">
+    <a href="http://maps.unt.edu/places/1064/view" title="Language Building (LANG)" id="LANG">Language Building <span class="caps">(LANG)</span></a></li>
+
+
+<li role="option" class="place l">
+    <a href="http://maps.unt.edu/places/1145/view" title="Legends Hall (LGNS)" id="LGNS">Legends Hall <span class="caps">(LGNS)</span></a></li>
+
+
+<li role="option" class="place l">
+    <a href="http://maps.unt.edu/places/1121/view" title="Library Annex (LANX)" id="LANX">Library Annex <span class="caps">(LANX)</span></a></li>
+
+
+<li role="option" class="place l">
+    <a href="http://maps.unt.edu/places/1164/view" title="Library Annex Recreational Sports Equipment (0850)" id="0850">Library Annex Recreational Sports Equipment <span class="caps">(0850)</span></a></li>
+
+
+<li role="option" class="place l tag-29">
+    <a href="http://maps.unt.edu/places/1173/view" title="Library Mall  (LMAL)" id="LMAL">Library Mall  <span class="caps">(LMAL)</span></a></li>
+
+
+<li role="option" class="place l">
+    <a href="http://maps.unt.edu/places/1062/view" title="Life Sciences Complex (LIFE)" id="LIFE">Life Sciences Complex <span class="caps">(LIFE)</span></a></li>
+
+
+<li role="option" class="place l tag-26">
+    <a href="http://maps.unt.edu/places/1030/view" title="Lovelace Stadium (WSOF)" id="WSOF">Lovelace Stadium <span class="caps">(WSOF)</span></a></li>
+
+
+<li role="option" class="place l">
+    <a href="http://maps.unt.edu/places/3799/view" title="Lyceum in the University Union (LYCM)" id="LYCM">Lyceum in the University Union <span class="caps">(LYCM)</span></a></li>
+
+
+<li role="option" class="place l">
+    <a href="http://maps.unt.edu/places/3800/view" title="Lyric Theatre in the Murchison Performing Arts Center (LYRC)" id="LYRC">Lyric Theatre in the Murchison Performing Arts Center <span class="caps">(LYRC)</span></a></li>
+
+
+
+
+<li role="option" class="place m tag-28">
+    <a href="http://maps.unt.edu/places/1106/view" title="Maple Hall (MAPL)" id="MAPL">Maple Hall <span class="caps">(MAPL)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1056/view" title="Marquis Hall (MARQ)" id="MARQ">Marquis Hall <span class="caps">(MARQ)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1011/view" title="Matthews Hall (MATT)" id="MATT">Matthews Hall <span class="caps">(MATT)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1060/view" title="Matthews Hall Annex (MHA)" id="MHA">Matthews Hall Annex <span class="caps">(MHA)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1123/view" title="McConnell Hall (MCON)" id="MCON">McConnell Hall <span class="caps">(MCON)</span></a></li>
+
+
+<li role="option" class="place m tag-26">
+    <a href="http://maps.unt.edu/places/1174/view" title="Mean Green Office Complex and Gym (MGOG)" id="MGOG">Mean Green Office Complex and Gym <span class="caps">(MGOG)</span></a></li>
+
+
+<li role="option" class="place m tag-26 tag-24">
+    <a href="http://maps.unt.edu/places/1053/view" title="Mean Green Soccer Stadium (WSOC)" id="WSOC">Mean Green Soccer Stadium <span class="caps">(WSOC)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/3804/view" title="Mean Green Village Soccer Stadium (SOCR)" id="SOCR">Mean Green Village Soccer Stadium <span class="caps">(SOCR)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1110/view" title="Mozart Square Hall (MOZA)" id="MOZA">Mozart Square Hall <span class="caps">(MOZA)</span></a></li>
+
+
+<li role="option" class="place m tag-29">
+    <a href="http://maps.unt.edu/places/1055/view" title="Murchison Performing Arts Center (PAC)" id="PAC">Murchison Performing Arts Center <span class="caps">(PAC)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1018/view" title="Music Annex  (MUSA)" id="MUSA">Music Annex  <span class="caps">(MUSA)</span></a></li>
+
+
+<li role="option" class="place m tag-29">
+    <a href="http://maps.unt.edu/places/1028/view" title="Music Building (MUSI)" id="MUSI">Music Building <span class="caps">(MUSI)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1025/view" title="Music Practice North (MPN)" id="MPN">Music Practice North <span class="caps">(MPN)</span></a></li>
+
+
+<li role="option" class="place m">
+    <a href="http://maps.unt.edu/places/1026/view" title="Music Practice South (MPS)" id="MPS">Music Practice South <span class="caps">(MPS)</span></a></li>
+
+
+
+
+<li role="option" class="place n">
+    <a href="http://maps.unt.edu/places/1186/view" title="New Alumni Pavilion 2011 (APAV)" id="APAV">New Alumni Pavilion 2011 <span class="caps">(APAV)</span></a></li>
+
+
+<li role="option" class="place n">
+    <a href="http://maps.unt.edu/places/1149/view" title="North Texas Lofts (RMOF)" id="RMOF">North Texas Lofts <span class="caps">(RMOF)</span></a></li>
+
+
+
+
+<li role="option" class="place o tag-32">
+    <a href="http://maps.unt.edu/places/1058/view" title="Oak Street Hall (OSH)" id="OSH">Oak Street Hall <span class="caps">(OSH)</span></a></li>
+
+
+<li role="option" class="place o">
+    <a href="http://maps.unt.edu/places/1059/view" title="Oak Street Hall Annex (OSHA)" id="OSHA">Oak Street Hall Annex <span class="caps">(OSHA)</span></a></li>
+
+
+
+
+<li role="option" class="place p">
+    <a href="http://maps.unt.edu/places/1087/view" title="Performing Arts Annex (PACX)" id="PACX">Performing Arts Annex <span class="caps">(PACX)</span></a></li>
+
+
+<li role="option" class="place p tag-26">
+    <a href="http://maps.unt.edu/places/1020/view" title="Physical Education Building (PEB)" id="PEB">Physical Education Building <span class="caps">(PEB)</span></a></li>
+
+
+<li role="option" class="place p">
+    <a href="http://maps.unt.edu/places/1175/view" title="Physical Education Building - Field (PEBF)" id="PEBF">Physical Education Building - Field <span class="caps">(PEBF)</span></a></li>
+
+
+<li role="option" class="place p tag-13 tag-30">
+    <a href="http://maps.unt.edu/places/1022/view" title="Physics Building (PHYS)" id="PHYS">Physics Building <span class="caps">(PHYS)</span></a></li>
+
+
+<li role="option" class="place p tag-26 tag-28 tag-31">
+    <a href="http://maps.unt.edu/places/1021/view" title="Pohl Recreation Center (RECS)" id="RECS">Pohl Recreation Center <span class="caps">(RECS)</span></a></li>
+
+
+<li role="option" class="place p">
+    <a href="http://maps.unt.edu/places/3801/view" title="Police Sub Station  (MGPS)" id="MGPS">Police Sub Station  <span class="caps">(MGPS)</span></a></li>
+
+
+<li role="option" class="place p">
+    <a href="http://maps.unt.edu/places/3808/view" title="Power Plant (PWRP)" id="PWRP">Power Plant <span class="caps">(PWRP)</span></a></li>
+
+
+
+
+<li role="option" class="place r tag-29">
+    <a href="http://maps.unt.edu/places/1061/view" title="Radio, TV, Film &amp; Performing Arts (RTFP)" id="RTFP">Radio, TV, Film & Performing Arts <span class="caps">(RTFP)</span></a></li>
+
+
+<li role="option" class="place r">
+    <a href="http://maps.unt.edu/places/3802/view" title="Recreational Sports Complex (RCSP)" id="RCSP">Recreational Sports Complex <span class="caps">(RCSP)</span></a></li>
+
+
+<li role="option" class="place r">
+    <a href="http://maps.unt.edu/places/3823/view" title="Research Collections Library (WTWH)" id="WTWH">Research Collections Library <span class="caps">(WTWH)</span></a></li>
+
+
+<li role="option" class="place r">
+    <a href="http://maps.unt.edu/places/3821/view" title="Research Greenhouse Complex (DPGC)" id="DPGC">Research Greenhouse Complex <span class="caps">(DPGC)</span></a></li>
+
+
+<li role="option" class="place r">
+    <a href="http://maps.unt.edu/places/1049/view" title="Residence Hall Association (EDU1)" id="EDU1">Residence Hall Association <span class="caps">(EDU1)</span></a></li>
+
+
+<li role="option" class="place r">
+    <a href="http://maps.unt.edu/places/1089/view" title="Risk Management Center (WGHT)" id="WGHT">Risk Management Center <span class="caps">(WGHT)</span></a></li>
+
+
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1010/view" title="Sage Hall (SAGE)" id="SAGE">Sage Hall <span class="caps">(SAGE)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1109/view" title="Santa Fe Square (SFE)" id="SFE">Santa Fe Square <span class="caps">(SFE)</span></a></li>
+
+
+<li role="option" class="place s tag-30">
+    <a href="http://maps.unt.edu/places/1009/view" title="Science Research Building (SRB)" id="SRB">Science Research Building <span class="caps">(SRB)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1015/view" title="Scoular Hall (SCOU)" id="SCOU">Scoular Hall <span class="caps">(SCOU)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1177/view" title="Shrader Pavilion (PAVF)" id="PAVF">Shrader Pavilion <span class="caps">(PAVF)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1183/view" title="Sorority Row (ROWS)" id="ROWS">Sorority Row <span class="caps">(ROWS)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1092/view" title="Speech &amp; Hearing Clinic (SPHS)" id="SPHS">Speech & Hearing Clinic <span class="caps">(SPHS)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1178/view" title="Sports Medicine/Fitness Facility (WGHT)" id="WGHT">Sports Medicine/Fitness Facility <span class="caps">(WGHT)</span></a></li>
+
+
+<li role="option" class="place s tag-29">
+    <a href="http://maps.unt.edu/places/1023/view" title="Stovall Hall (STOV)" id="STOV">Stovall Hall <span class="caps">(STOV)</span></a></li>
+
+
+<li role="option" class="place s tag-26 tag-24">
+    <a href="http://maps.unt.edu/places/3796/view" title="Student Athlete Academic Center (SAAC)" id="SAAC">Student Athlete Academic Center <span class="caps">(SAAC)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1091/view" title="Sullivant Public Safety Center (POLI)" id="POLI">Sullivant Public Safety Center <span class="caps">(POLI)</span></a></li>
+
+
+<li role="option" class="place s">
+    <a href="http://maps.unt.edu/places/1016/view" title="Sycamore Hall (SYMR)" id="SYMR">Sycamore Hall <span class="caps">(SYMR)</span></a></li>
+
+
+
+
+<li role="option" class="place t">
+    <a href="http://maps.unt.edu/places/1057/view" title="Terrill Hall (TH)" id="TH">Terrill Hall <span class="caps">(TH)</span></a></li>
+
+
+<li role="option" class="place t">
+    <a href="http://maps.unt.edu/places/3828/view" title="Texas Fashion Collection (TFCT)" id="TFCT">Texas Fashion Collection <span class="caps">(TFCT)</span></a></li>
+
+
+<li role="option" class="place t">
+    <a href="http://maps.unt.edu/places/1088/view" title="Track &amp; Field Building (ATH2)" id="ATH2">Track & Field Building <span class="caps">(ATH2)</span></a></li>
+
+
+<li role="option" class="place t">
+    <a href="http://maps.unt.edu/places/1181/view" title="Traditions Field (TRDF)" id="TRDF">Traditions Field <span class="caps">(TRDF)</span></a></li>
+
+
+<li role="option" class="place t">
+    <a href="http://maps.unt.edu/places/1150/view" title="Traditions Hall (TRAD)" id="TRAD">Traditions Hall <span class="caps">(TRAD)</span></a></li>
+
+
+
+
+<li role="option" class="place u">
+    <a href="http://maps.unt.edu/places/3836/view" title="UNT New College at Frisco (0000)" id="0000">UNT New College at Frisco <span class="caps">(0000)</span></a></li>
+
+
+<li role="option" class="place u">
+    <a href="http://maps.unt.edu/places/3819/view" title="UNT on the Square (UNTotS)" id="UNTotS">UNT on the Square <span class="caps">(UNTotS)</span></a></li>
+
+
+<li role="option" class="place u">
+    <a href="http://maps.unt.edu/places/1032/view" title="Union Circle Parking Garage (UCPG)" id="UCPG">Union Circle Parking Garage <span class="caps">(UCPG)</span></a></li>
+
+
+<li role="option" class="place u">
+    <a href="http://maps.unt.edu/places/3831/view" title="University Bookstore (UBST)" id="UBST">University Bookstore <span class="caps">(UBST)</span></a></li>
+
+
+<li role="option" class="place u">
+    <a href="http://maps.unt.edu/places/1080/view" title="University Services Building (USB)" id="USB">University Services Building <span class="caps">(USB)</span></a></li>
+
+
+<li role="option" class="place u tag-32 tag-28 tag-31 tag-29">
+    <a href="http://maps.unt.edu/places/1046/view" title="University Union  (UU)" id="UU">University Union  <span class="caps">(UU)</span></a></li>
+
+
+
+
+<li role="option" class="place v tag-28 tag-24">
+    <a href="http://maps.unt.edu/places/1136/view" title="Victory Hall (VICT)" id="VICT">Victory Hall <span class="caps">(VICT)</span></a></li>
+
+
+<li role="option" class="place v">
+    <a href="http://maps.unt.edu/places/3806/view" title="Volleyball Center and Office Complex (VBGM)" id="VBGM">Volleyball Center and Office Complex <span class="caps">(VBGM)</span></a></li>
+
+
+
+
+<li role="option" class="place w tag-26 tag-24">
+    <a href="http://maps.unt.edu/places/1132/view" title="Waranch Tennis Complex (TENN)" id="TENN">Waranch Tennis Complex <span class="caps">(TENN)</span></a></li>
+
+
+<li role="option" class="place w">
+    <a href="http://maps.unt.edu/places/3834/view" title="Welch Street Complex 2 (CSLM)" id="CSLM">Welch Street Complex 2 <span class="caps">(CSLM)</span></a></li>
+
+
+<li role="option" class="place w tag-28">
+    <a href="http://maps.unt.edu/places/1127/view" title="West Hall (WEST)" id="WEST">West Hall <span class="caps">(WEST)</span></a></li>
+
+
+<li role="option" class="place w">
+    <a href="http://maps.unt.edu/places/1182/view" title="West Tennis Courts (WSTN)" id="WSTN">West Tennis Courts <span class="caps">(WSTN)</span></a></li>
+
+
+<li role="option" class="place w tag-28 tag-31">
+    <a href="http://maps.unt.edu/places/1065/view" title="Willis Library (LIBR)" id="LIBR">Willis Library <span class="caps">(LIBR)</span></a></li>
+
+
+<li role="option" class="place w">
+    <a href="http://maps.unt.edu/places/3805/view" title="Winspear Hall in the Murchison Performing Arts Center (WNSP)" id="WNSP">Winspear Hall in the Murchison Performing Arts Center <span class="caps">(WNSP)</span></a></li>
+
+
+<li role="option" class="place w">
+    <a href="http://maps.unt.edu/places/3810/view" title="Woodhill Square (WHS)" id="WHS">Woodhill Square <span class="caps">(WHS)</span></a></li>
+
+
+<li role="option" class="place w tag-28">
+    <a href="http://maps.unt.edu/places/1066/view" title="Wooten Hall (WH)" id="WH">Wooten Hall <span class="caps">(WH)</span></a></li>
+
+
+
+
+<li role="option" class="place z">
+    <a href="http://maps.unt.edu/places/3816/view" title="Zero Energy Laboratory (DPZO)" id="DPZO">Zero Energy Laboratory <span class="caps">(DPZO)</span></a></li>
+</ul>
+
+<hr/><p style="width: 240px; margin: 10px auto;"><a href="http://policy.unt.edu/policydesc/smoke-free-campus-policy-10-17-effective-01-01-2013"><img src="/sites/all/themes/unt/images/2013_smoke-free.jpg"></a></p><hr/>
+<h3>Where can I park?</h3>
+<p>Select your permit type to see parking lots</p>
+<ul class="parking">
+  
+  
+    <li class="permit"><label for="permit_A"><input class="permit" type="checkbox" id="permit_A" value="A"/>A</label></li>
+  
+    <li class="permit"><label for="permit_AC"><input class="permit" type="checkbox" id="permit_AC" value="AC"/>AC</label></li>
+  
+    <li class="permit"><label for="permit_D"><input class="permit" type="checkbox" id="permit_D" value="D"/>D</label></li>
+  
+    <li class="permit"><label for="permit_DP"><input class="permit" type="checkbox" id="permit_DP" value="DP"/>DP</label></li>
+  
+    <li class="permit"><label for="permit_G"><input class="permit" type="checkbox" id="permit_G" value="G"/>G</label></li>
+  
+    <li class="permit"><label for="permit_HD"><input class="permit" type="checkbox" id="permit_HD" value="HD"/>HD</label></li>
+  
+    <li class="permit"><label for="permit_MC"><input class="permit" type="checkbox" id="permit_MC" value="MC"/>MC</label></li>
+  
+    <li class="permit"><label for="permit_P"><input class="permit" type="checkbox" id="permit_P" value="P"/>P</label></li>
+  
+    <li class="permit"><label for="permit_R"><input class="permit" type="checkbox" id="permit_R" value="R"/>R</label></li>
+  
+</ul>
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+(function($) {
+  $(document).ready( function(){
+    var map_options = { invisible: [{"nid":"1086","title":"Air Force ROTC","latitude":"33.2076","longitude":"-97.1565","type":"place","code":"ATH1","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1086\/view\">Air Force ROTC<\/a><\/h3>\n  \n    <address>\n    712 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=712%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1187","title":"Alumni Center","latitude":"33.2072","longitude":"-97.1534","type":"place","code":"ALUM","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1187\/view\">Alumni Center<\/a><\/h3>\n  \n    <address>\n    801 N Texas Boulevard<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=801%20N%20Texas%20Boulevard%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1044","title":"Art Building","latitude":"33.2134","longitude":"-97.1455","type":"place","code":"ART","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1044\/view\">Art Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/32?code=ART\">Art Galleries<\/a><\/p>\n  \n    <address>\n    1201 W. Mulberry St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1201%20W.%20Mulberry%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1154","title":"Athletic Center Building","latitude":"33.2028","longitude":"-97.1593","type":"place","code":"ATHC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1154\/view\">Athletic Center Building<\/a><\/h3>\n  \n    <address>\n    1301 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1301%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1008","title":"Auditorium English Building","latitude":"33.2139","longitude":"-97.1473","type":"place","code":"AUDB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1008\/view\">Auditorium English Building<\/a><\/h3>\n  \n    <address>\n    1401 W. Hickory St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1401%20W.%20Hickory%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1024","title":"Bain Hall","latitude":"33.2097","longitude":"-97.1525","type":"place","code":"BAIN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1024\/view\">Bain Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/13?code=BAIN\">Academic<\/a>, <a href=\"\/places\/tags\/27?code=BAIN\">Music<\/a><\/p>\n  \n    <address>\n    1820 W. Highland St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1820%20W.%20Highland%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1062","title":"Life Sciences Complex","latitude":"33.2119","longitude":"-97.149","type":"place","code":"LIFE","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1062\/view\">Life Sciences Complex<\/a><\/h3>\n  \n    <address>\n    1510 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1510%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1122","title":"Bruce Hall","latitude":"33.2121","longitude":"-97.1501","type":"place","code":"BRUC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1122\/view\">Bruce Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=BRUC\">Food<\/a><\/p>\n  \n    <address>\n    1624 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1624%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1010","title":"Sage Hall","latitude":"33.2121","longitude":"-97.1468","type":"place","code":"SAGE","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1010\/view\">Sage Hall<\/a><\/h3>\n  \n    <address>\n    1167 Union Circle<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1167%20Union%20Circle%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1180","title":"Campus Greens","latitude":"33.2115","longitude":"-97.148","type":"place","code":"CGRN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1180\/view\">Campus Greens<\/a><\/h3>\n  \n    <address>\n    1501 W. Chestnut Street<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1501%20W.%20Chestnut%20Street%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1152","title":"Chemistry Building","latitude":"33.2141","longitude":"-97.1498","type":"place","code":"CHEM","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1152\/view\">Chemistry Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/13?code=CHEM\">Academic<\/a><\/p>\n  \n    <address>\n    1508 W. Mulberry St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1508%20W.%20Mulberry%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1159","title":"Chestnut Hall","latitude":"33.2122","longitude":"-97.1525","type":"place","code":"CHNT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1159\/view\">Chestnut Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/33?code=CHNT\">Alumni Resources<\/a>, <a href=\"\/places\/tags\/31?code=CHNT\">Student Life<\/a><\/p>\n  \n    <address>\n    1800 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1800%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1027","title":"Chilton Hall","latitude":"33.2111","longitude":"-97.1512","type":"place","code":"CHIL","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1027\/view\">Chilton Hall<\/a><\/h3>\n  \n    <address>\n    410 S. Avenue C<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=410%20S.%20Avenue%20C%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1124","title":"Clark Hall","latitude":"33.2078","longitude":"-97.1514","type":"place","code":"CLAR","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1124\/view\">Clark Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/29?code=CLAR\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n    <address>\n    1717 Maple St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1717%20Maple%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1045","title":"Coliseum","latitude":"33.2086","longitude":"-97.1542","type":"place","code":"COL","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1045\/view\">Coliseum<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=COL\">Athletics<\/a><\/p>\n  \n    <address>\n    600 Avenue D<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=600%20Avenue%20D%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1107","title":"College Inn Hall","latitude":"33.2139","longitude":"-97.154","type":"place","code":"CINN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1107\/view\">College Inn Hall<\/a><\/h3>\n  \n    <address>\n    200 Avenue D<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=200%20Avenue%20D%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1125","title":"Crumley Hall","latitude":"33.2091","longitude":"-97.1494","type":"place","code":"CRUM","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1125\/view\">Crumley Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/31?code=CRUM\">Student Life<\/a><\/p>\n  \n    <address>\n    1621 W. Highland St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1621%20W.%20Highland%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1012","title":"Curry Hall","latitude":"33.2135","longitude":"-97.1467","type":"place","code":"CURY","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1012\/view\">Curry Hall<\/a><\/h3>\n  \n    <address>\n    200 Avenue A<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=200%20Avenue%20A%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1111","title":"Discovery Park Building","latitude":"33.254","longitude":"-97.1526","type":"place","code":"NTRP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1111\/view\">Discovery Park Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/25?code=NTRP\">Discovery Park<\/a>, <a href=\"\/places\/tags\/28?code=NTRP\">Food<\/a>, <a href=\"\/places\/tags\/30?code=NTRP\">Science and Research Venues<\/a><\/p>\n  \n    <address>\n    3940 N. Elm St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=3940%20N.%20Elm%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1170","title":"Eagle Point Intramural Rec Sports Fields","latitude":"33.2004","longitude":"-97.1599","type":"place","code":"EPRSF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1170\/view\">Eagle Point Intramural Rec Sports Fields<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"1017","title":"Eagle Student Services Center","latitude":"33.2103","longitude":"-97.148","type":"place","code":"ESSC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1017\/view\">Eagle Student Services Center<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/31?code=ESSC\">Student Life<\/a>, <a href=\"\/places\/tags\/34?code=ESSC\">Visitor<\/a><\/p>\n  \n    <address>\n    1147 Union Circle<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1147%20Union%20Circle%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1148","title":"East Classroom Building","latitude":"33.2114","longitude":"-97.142","type":"place","code":"ECB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1148\/view\">East Classroom Building<\/a><\/h3>\n  \n    <address>\n    912 West Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=912%20West%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1047","title":"Environmental Education, Science & Technology Bldg","latitude":"33.2141","longitude":"-97.1513","type":"place","code":"ENV","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1047\/view\">Environmental Education, Science &amp; Technology Bldg<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/13?code=ENV\">Academic<\/a>, <a href=\"\/places\/tags\/30?code=ENV\">Science and Research Venues<\/a><\/p>\n  \n    <address>\n    1704 W. Mulberry St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1704%20W.%20Mulberry%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1054","title":"Environmental Science Greenhouse","latitude":"33.2145","longitude":"-97.1518","type":"place","code":"ESCG","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1054\/view\">Environmental Science Greenhouse<\/a><\/h3>\n  \n    <address>\n    1709 W. Hickory<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1709%20W.%20Hickory%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1102","title":"Facilities Complex","latitude":"33.2119","longitude":"-97.1568","type":"place","code":"CARP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1102\/view\">Facilities Complex<\/a><\/h3>\n  \n    <address>\n    2204 W. Prairie St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2204%20W.%20Prairie%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1085","title":"Fouts Field Stadium","latitude":"33.2083","longitude":"-97.1578","type":"place","code":"STAD","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1085\/view\">Fouts Field Stadium<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=STAD\">Athletics<\/a><\/p>\n  \n    <address>\n    2300 N. I-35E<br\/>\n    Denton, TX 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2300%20N.%20I-35E%20Denton%20TX%2076205\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1171","title":"Fraternity Row","latitude":"33.2073","longitude":"-97.1428","type":"place","code":"ROWF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1171\/view\">Fraternity Row<\/a><\/h3>\n  \n    <address>\n    1006 Maple<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1006%20Maple%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1172","title":"Free Speech Area","latitude":"33.2117","longitude":"-97.1472","type":"place","code":"FRSA","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1172\/view\">Free Speech Area<\/a><\/h3>\n  \n    <address>\n    1155 Union Circle<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1155%20Union%20Circle%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1048","title":"Gateway Center","latitude":"33.2077","longitude":"-97.154","type":"place","code":"GATE","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1048\/view\">Gateway Center<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/33?code=GATE\">Alumni Resources<\/a>, <a href=\"\/places\/tags\/29?code=GATE\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n    <address>\n    801 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=801%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1090","title":"Gateway Information Booth","latitude":"33.2069","longitude":"-97.1536","type":"place","code":"0312","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1090\/view\">Gateway Information Booth<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/34?code=0312\">Visitor<\/a><\/p>\n  \n    <address>\n    801 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=801%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1013","title":"General Academic Building","latitude":"33.2132","longitude":"-97.1481","type":"place","code":"GAB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1013\/view\">General Academic Building<\/a><\/h3>\n  \n    <address>\n    225 S. Avenue B<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=225%20S.%20Avenue%20B%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1108","title":"Goolsby Chapel","latitude":"33.2085","longitude":"-97.1497","type":"place","code":"CHAP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1108\/view\">Goolsby Chapel<\/a><\/h3>\n  \n    <address>\n    1622 Maple St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1622%20Maple%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1014","title":"Hickory Hall","latitude":"33.2142","longitude":"-97.148","type":"place","code":"HKRY","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1014\/view\">Hickory Hall<\/a><\/h3>\n  \n    <address>\n    1417 W. Hickory St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1417%20W.%20Hickory%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1146","title":"Honors Hall","latitude":"33.207","longitude":"-97.1518","type":"place","code":"HNRS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1146\/view\">Honors Hall<\/a><\/h3>\n  \n    <address>\n    1716 Eagle Drive<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1716%20Eagle%20Drive%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1120","title":"Hurley Administration Building","latitude":"33.2111","longitude":"-97.1484","type":"place","code":"ADMN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1120\/view\">Hurley Administration Building<\/a><\/h3>\n  \n    <address>\n    1501 W. Chestnut Street<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1501%20W.%20Chestnut%20Street%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1067","title":"Hurley Administration Information Booth","latitude":"33.2116","longitude":"-97.1504","type":"place","code":"INFO","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1067\/view\">Hurley Administration Information Booth<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/23?code=INFO\">Information<\/a>, <a href=\"\/places\/tags\/19?code=INFO\">Visitor<\/a><\/p>\n  \n    <address>\n    1629 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1629%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1016","title":"Sycamore Hall","latitude":"33.212","longitude":"-97.1479","type":"place","code":"SYMR","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1016\/view\">Sycamore Hall<\/a><\/h3>\n  \n    <address>\n    307 S. Avenue B<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=307%20S.%20Avenue%20B%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1019","title":"Ken Bahnsen Gymnasium","latitude":"33.21","longitude":"-97.1534","type":"place","code":"MGYM","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1019\/view\">Ken Bahnsen Gymnasium<\/a><\/h3>\n  \n    <address>\n    1908 W. Highland St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1908%20W.%20Highland%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1126","title":"Kerr Hall","latitude":"33.2077","longitude":"-97.1475","type":"place","code":"KERR","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1126\/view\">Kerr Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=KERR\">Food<\/a><\/p>\n  \n    <address>\n    1413 Maple St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1413%20Maple%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1064","title":"Language Building","latitude":"33.214","longitude":"-97.1466","type":"place","code":"LANG","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1064\/view\">Language Building<\/a><\/h3>\n  \n    <address>\n    108 Avenue A<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=108%20Avenue%20A%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1145","title":"Legends Hall","latitude":"33.2133","longitude":"-97.1541","type":"place","code":"LGNS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1145\/view\">Legends Hall<\/a><\/h3>\n  \n    <address>\n    221 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=221%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1121","title":"Library Annex Building","latitude":"33.2069","longitude":"-97.1735","type":"place","code":"LANX","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1121\/view\">Library Annex Building<\/a><\/h3>\n  \n    <address>\n    941 Precision Dr.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=941%20Precision%20Dr.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1164","title":"Library Annex Recreational Sports Equipment","latitude":"33.2064","longitude":"-97.1735","type":"place","code":"0850","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1164\/view\">Library Annex Recreational Sports Equipment<\/a><\/h3>\n  \n    <address>\n    1001 Precision Dr.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1001%20Precision%20Dr.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1173","title":"Library Mall","latitude":"33.2103","longitude":"-97.1485","type":"place","code":"LMAL","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1173\/view\">Library Mall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/29?code=LMAL\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n  <\/div>\n"},{"nid":"1106","title":"Maple Hall","latitude":"33.2078","longitude":"-97.15","type":"place","code":"MAPL","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1106\/view\">Maple Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=MAPL\">Food<\/a><\/p>\n  \n    <address>\n    1621 Maple St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1621%20Maple%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1056","title":"Marquis Hall","latitude":"33.2132","longitude":"-97.149","type":"place","code":"MARQ","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1056\/view\">Marquis Hall<\/a><\/h3>\n  \n    <address>\n    1511 W. Mulberry St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1511%20W.%20Mulberry%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1011","title":"Matthews Hall","latitude":"33.2098","longitude":"-97.1466","type":"place","code":"MATT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1011\/view\">Matthews Hall<\/a><\/h3>\n  \n    <address>\n    1300 W. Highland St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1300%20W.%20Highland%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1060","title":"Matthews Hall Annex","latitude":"33.2112","longitude":"-97.1452","type":"place","code":"MHA","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1060\/view\">Matthews Hall Annex<\/a><\/h3>\n  \n    <address>\n    1180 Union Circle<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1180%20Union%20Circle%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1123","title":"McConnell Hall","latitude":"33.2124","longitude":"-97.1515","type":"place","code":"MCON","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1123\/view\">McConnell Hall<\/a><\/h3>\n  \n    <address>\n    1705 W. Sycamore St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1705%20W.%20Sycamore%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1140","title":"Mean Green Village Building C","latitude":"33.199","longitude":"-97.1618","type":"place","code":"MGVC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1140\/view\">Mean Green Village Building C<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/24?code=MGVC\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1528 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1528%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1174","title":"Mean Green Office Complex and Gym","latitude":"33.1988","longitude":"-97.1628","type":"place","code":"MGOG","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1174\/view\">Mean Green Office Complex and Gym<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=MGOG\">Athletics<\/a><\/p>\n  \n    <address>\n    1536 S. Bonnie Brae St., Building H<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1536%20S.%20Bonnie%20Brae%20St.%2C%20Building%20H%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1160","title":"Mean Green Village Building B","latitude":"33.1997","longitude":"-97.1623","type":"place","code":"MGVB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1160\/view\">Mean Green Village Building B<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/24?code=MGVB\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1508 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1508%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1141","title":"Ernie Kuehne Basketball Practice Facility","latitude":"33.199","longitude":"-97.1624","type":"place","code":"MGVG","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1141\/view\">Ernie Kuehne Basketball Practice Facility<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=MGVG\">Athletics<\/a>, <a href=\"\/places\/tags\/24?code=MGVG\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1532 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1532%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1130","title":"Mean Green Village Building H","latitude":"33.1997","longitude":"-97.163","type":"place","code":"MGOH","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1130\/view\">Mean Green Village Building H<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/24?code=MGOH\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1536 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1536%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1131","title":"Mean Green Village Building L","latitude":"33.1999","longitude":"-97.1628","type":"place","code":"MGVL","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1131\/view\">Mean Green Village Building L<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/24?code=MGVL\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1520 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1520%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1143","title":"Mean Green Village Building P","latitude":"33.2012","longitude":"-97.162","type":"place","code":"MGVP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1143\/view\">Mean Green Village Building P<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/24?code=MGVP\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1500 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1500%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1053","title":"Mean Green Soccer Stadium","latitude":"33.2003","longitude":"-97.1626","type":"place","code":"WSOC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1053\/view\">Mean Green Soccer Stadium<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=WSOC\">Athletics<\/a>, <a href=\"\/places\/tags\/24?code=WSOC\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1500 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1500%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1030","title":"Lovelace Stadium","latitude":"33.201","longitude":"-97.1628","type":"place","code":"WSOF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1030\/view\">Lovelace Stadium<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=WSOF\">Athletics<\/a><\/p>\n  \n    <address>\n    1500 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1500%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1110","title":"Mozart Square Hall","latitude":"33.2065","longitude":"-97.1528","type":"place","code":"MOZA","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1110\/view\">Mozart Square Hall<\/a><\/h3>\n  \n    <address>\n    911 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=911%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1018","title":"Music Annex Building","latitude":"33.2097","longitude":"-97.1504","type":"place","code":"MUSA","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1018\/view\">Music Annex Building<\/a><\/h3>\n  \n    <address>\n    1630 W. Highland St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1630%20W.%20Highland%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1028","title":"Music Building","latitude":"33.2107","longitude":"-97.1501","type":"place","code":"MUSI","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1028\/view\">Music Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/29?code=MUSI\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n    <address>\n    415 S. Avenue C<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=415%20S.%20Avenue%20C%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1025","title":"Music Practice North","latitude":"33.2102","longitude":"-97.1513","type":"place","code":"MPN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1025\/view\">Music Practice North<\/a><\/h3>\n  \n    <address>\n    502 S. Avenue C<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=502%20S.%20Avenue%20C%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1026","title":"Music Practice South","latitude":"33.2097","longitude":"-97.1513","type":"place","code":"MPS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1026\/view\">Music Practice South<\/a><\/h3>\n  \n    <address>\n    510 S. Avenue C<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=510%20S.%20Avenue%20C%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1186","title":"New Alumni Pavilion 2011","latitude":"33.2059","longitude":"-97.159","type":"place","code":"APAV","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1186\/view\">New Alumni Pavilion 2011<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"1149","title":"North Texas Lofts","latitude":"33.2131","longitude":"-97.1548","type":"place","code":"RMOF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1149\/view\">North Texas Lofts<\/a><\/h3>\n  \n    <address>\n    217 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=217%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1058","title":"Oak Street Hall","latitude":"33.2159","longitude":"-97.1454","type":"place","code":"OSH","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1058\/view\">Oak Street Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/32?code=OSH\">Art Galleries<\/a><\/p>\n  \n    <address>\n    1120 W. Oak St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1120%20W.%20Oak%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1059","title":"Oak Street Hall Annex","latitude":"33.216","longitude":"-97.145","type":"place","code":"OSHA","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1059\/view\">Oak Street Hall Annex<\/a><\/h3>\n  \n    <address>\n    1110 W. Oak St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1110%20W.%20Oak%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1087","title":"Performing Arts Annex","latitude":"33.2065","longitude":"-97.1558","type":"place","code":"PACX","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1087\/view\">Performing Arts Annex<\/a><\/h3>\n  \n    <address>\n    2210 N. I-35E<br\/>\n    Denton, TX 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2210%20N.%20I-35E%20Denton%20TX%2076205\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1055","title":"Murchison Performing Arts Center","latitude":"33.2062","longitude":"-97.155","type":"place","code":"PAC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1055\/view\">Murchison Performing Arts Center<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/29?code=PAC\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n    <address>\n    2100 N. I-35E<br\/>\n    Denton, TX 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2100%20N.%20I-35E%20Denton%20TX%2076205\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1020","title":"Physical Education Building","latitude":"33.2109","longitude":"-97.1529","type":"place","code":"PEB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1020\/view\">Physical Education Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=PEB\">Athletics<\/a><\/p>\n  \n    <address>\n    1921 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1921%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1175","title":"Physical Education Building - Field","latitude":"33.2109","longitude":"-97.1543","type":"place","code":"PEBF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1175\/view\">Physical Education Building - Field<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"1022","title":"Physics Building","latitude":"33.213","longitude":"-97.1466","type":"place","code":"PHYS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1022\/view\">Physics Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/13?code=PHYS\">Academic<\/a>, <a href=\"\/places\/tags\/30?code=PHYS\">Science and Research Venues<\/a><\/p>\n  \n    <address>\n    210 Avenue A<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=210%20Avenue%20A%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1021","title":"Pohl Recreation Center","latitude":"33.212","longitude":"-97.1542","type":"place","code":"RECS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1021\/view\">Pohl Recreation Center<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=RECS\">Athletics<\/a>, <a href=\"\/places\/tags\/28?code=RECS\">Food<\/a>, <a href=\"\/places\/tags\/31?code=RECS\">Student Life<\/a><\/p>\n  \n    <address>\n    1900 Chestnut St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1900%20Chestnut%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1061","title":"Radio, TV, Film & Performing Arts","latitude":"33.2121","longitude":"-97.1458","type":"place","code":"RTFP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1061\/view\">Radio, TV, Film &amp; Performing Arts<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/29?code=RTFP\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n    <address>\n    1179 Union Circle<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1179%20Union%20Circle%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1049","title":"Residence Hall Association","latitude":"33.2086","longitude":"-97.1491","type":"place","code":"EDU1","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1049\/view\">Residence Hall Association<\/a><\/h3>\n  \n    <address>\n    1510 Maple St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1510%20Maple%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1109","title":"Santa Fe Square Hall","latitude":"33.2104","longitude":"-97.1569","type":"place","code":"SFE","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1109\/view\">Santa Fe Square Hall<\/a><\/h3>\n  \n    <address>\n    2201 W. Prairie St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2201%20W.%20Prairie%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1009","title":"Science Research Building","latitude":"33.2141","longitude":"-97.1489","type":"place","code":"SRB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1009\/view\">Science Research Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/30?code=SRB\">Science and Research Venues<\/a><\/p>\n  \n    <address>\n    1504 W. Mulberry St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1504%20W.%20Mulberry%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1015","title":"Scoular Hall","latitude":"33.2101","longitude":"-97.1472","type":"place","code":"SCOU","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1015\/view\">Scoular Hall<\/a><\/h3>\n  \n    <address>\n    1143 Union Circle<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1143%20Union%20Circle%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1177","title":"Shrader Pavilion","latitude":"33.2108","longitude":"-97.1485","type":"place","code":"PAVF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1177\/view\">Shrader Pavilion<\/a><\/h3>\n  \n    <address>\n    1501 W. Chestnut Street<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1501%20W.%20Chestnut%20Street%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1183","title":"Sorority Row","latitude":"33.2101","longitude":"-97.1422","type":"place","code":"ROWS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1183\/view\">Sorority Row<\/a><\/h3>\n  \n    <address>\n    930 W. Prairie<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=930%20W.%20Prairie%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1092","title":"Speech & Hearing Clinic","latitude":"33.2122","longitude":"-97.1419","type":"place","code":"SPHS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1092\/view\">Speech &amp; Hearing Clinic<\/a><\/h3>\n  \n    <address>\n    907 W. Sycamore St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=907%20W.%20Sycamore%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1178","title":"Sports Medicine\/Fitness Facility","latitude":"33.2028","longitude":"-97.1593","type":"place","code":"WGHT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1178\/view\">Sports Medicine\/Fitness Facility<\/a><\/h3>\n  \n    <address>\n    1301 S. Bonnie Brae St.<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1301%20S.%20Bonnie%20Brae%20St.%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1023","title":"Stovall Hall","latitude":"33.2097","longitude":"-97.1477","type":"place","code":"STOV","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1023\/view\">Stovall Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/29?code=STOV\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n    <address>\n    1400 W. Highland St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1400%20W.%20Highland%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1091","title":"Sullivant Public Safety Center","latitude":"33.2061","longitude":"-97.1515","type":"place","code":"POLI","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1091\/view\">Sullivant Public Safety Center<\/a><\/h3>\n  \n    <address>\n    1700 Wilshire St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1700%20Wilshire%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1057","title":"Terrill Hall","latitude":"33.2132","longitude":"-97.1496","type":"place","code":"TH","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1057\/view\">Terrill Hall<\/a><\/h3>\n  \n    <address>\n    1611 W. Mulberry St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1611%20W.%20Mulberry%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1088","title":"Track and Field Building","latitude":"33.208","longitude":"-97.1566","type":"place","code":"ATH2","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1088\/view\">Track and Field Building<\/a><\/h3>\n  \n    <address>\n    704 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=704%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1181","title":"Traditions Field","latitude":"33.2101","longitude":"-97.156","type":"place","code":"TRDF","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1181\/view\">Traditions Field<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"1150","title":"Traditions Hall","latitude":"33.2105","longitude":"-97.1558","type":"place","code":"TRAD","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1150\/view\">Traditions Hall<\/a><\/h3>\n  \n    <address>\n    502 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=502%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1032","title":"Union Circle Parking Garage","latitude":"33.2111","longitude":"-97.1449","type":"place","code":"UCPG","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1032\/view\">Union Circle Parking Garage<\/a><\/h3>\n  \n    <address>\n    350 Welch<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=350%20Welch%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1080","title":"University Services Building","latitude":"33.2098","longitude":"-97.1591","type":"place","code":"USB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1080\/view\">University Services Building<\/a><\/h3>\n  \n    <address>\n    2310 N. I-35E<br\/>\n    Denton, TX 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=33.2098%2C-97.1591\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1046","title":"University Union Building","latitude":"33.2109","longitude":"-97.1472","type":"place","code":"UU","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1046\/view\">University Union Building<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/32?code=UU\">Art Galleries<\/a>, <a href=\"\/places\/tags\/28?code=UU\">Food<\/a>, <a href=\"\/places\/tags\/31?code=UU\">Student Life<\/a>, <a href=\"\/places\/tags\/29?code=UU\">\u2028Live Performance and Event Venues<\/a><\/p>\n  \n    <address>\n    1155 Union Circle<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1155%20Union%20Circle%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1136","title":"Victory Hall","latitude":"33.2025","longitude":"-97.158","type":"place","code":"VICT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1136\/view\">Victory Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=VICT\">Food<\/a>, <a href=\"\/places\/tags\/24?code=VICT\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1379 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1379%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1132","title":"Waranch Tennis Complex","latitude":"33.1991","longitude":"-97.1604","type":"place","code":"TENN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1132\/view\">Waranch Tennis Complex<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=TENN\">Athletics<\/a>, <a href=\"\/places\/tags\/24?code=TENN\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1499 S. Bonnie Brae St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1499%20S.%20Bonnie%20Brae%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1127","title":"West Hall","latitude":"33.2118","longitude":"-97.1558","type":"place","code":"WEST","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1127\/view\">West Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=WEST\">Food<\/a><\/p>\n  \n    <address>\n    320 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=320%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1182","title":"West Tennis Courts","latitude":"33.2099","longitude":"-97.1543","type":"place","code":"WSTN","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1182\/view\">West Tennis Courts<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"1065","title":"Willis Library","latitude":"33.2101","longitude":"-97.149","type":"place","code":"LIBR","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1065\/view\">Willis Library<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=LIBR\">Food<\/a>, <a href=\"\/places\/tags\/31?code=LIBR\">Student Life<\/a><\/p>\n  \n    <address>\n    1506 W. Highland St.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1506%20W.%20Highland%20St.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1066","title":"Wooten Hall","latitude":"33.2099","longitude":"-97.1457","type":"place","code":"WH","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1066\/view\">Wooten Hall<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=WH\">Food<\/a><\/p>\n  \n    <address>\n    1121 Union Circle<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1121%20Union%20Circle%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3794","title":"Alumni Pavilion","latitude":"33.2054","longitude":"-97.1585","type":"place","code":"APAV","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3794\/view\">Alumni Pavilion<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=APAV\">Athletics<\/a><\/p>\n  \n    <address>\n    2323 N I35E<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2323%20N%20I35E%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3795","title":"Business Leadership Building","latitude":"33.209","longitude":"-97.1478","type":"place","code":"BLB","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3795\/view\">Business Leadership Building<\/a><\/h3>\n  \n    <address>\n    1307 W. Highland<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1307%20W.%20Highland%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3796","title":"Student Athlete Academic Center","latitude":"33.1999","longitude":"-97.1628","type":"place","code":"SAAC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3796\/view\">Student Athlete Academic Center<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/26?code=SAAC\">Athletics<\/a>, <a href=\"\/places\/tags\/24?code=SAAC\">Mean Green Village<\/a><\/p>\n  \n    <address>\n    1524 S. Bonnie Brae St., Building K<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1524%20S.%20Bonnie%20Brae%20St.%2C%20Building%20K%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3797","title":"Apogee Stadium","latitude":"33.2032","longitude":"-97.1601","type":"place","code":"APGS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3797\/view\">Apogee Stadium<\/a><\/h3>\n  \n    <address>\n    1251 S. Bonnie Brae<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1251%20S.%20Bonnie%20Brae%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3798","title":"Highland Street Parking Garage","latitude":"33.2091","longitude":"-97.1458","type":"place","code":"HIGH","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3798\/view\">Highland Street Parking Garage<\/a><\/h3>\n  \n    <address>\n    620 Central Ave.<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=620%20Central%20Ave.%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3799","title":"Lyceum in the University Union","latitude":"33.2108","longitude":"-97.1478","type":"place","code":"LYCM","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3799\/view\">Lyceum in the University Union<\/a><\/h3>\n  \n    <address>\n    1155 Union Circle<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1155%20Union%20Circle%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3800","title":"Lyric Theatre in the Murchison Performing Arts Center","latitude":"33.2063","longitude":"-97.155","type":"place","code":"LYRC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3800\/view\">Lyric Theatre in the Murchison Performing Arts Center<\/a><\/h3>\n  \n    <address>\n    2100 N. I-35E<br\/>\n    Denton, Texas 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2100%20N.%20I-35E%20Denton%20Texas%2076205\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3801","title":"Police Sub Station","latitude":"33.1997","longitude":"-97.1627","type":"place","code":"MGPS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3801\/view\">Police Sub Station<\/a><\/h3>\n  \n    <address>\n    1520 S. Bonnie Brae, Building L<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1520%20S.%20Bonnie%20Brae%2C%20Building%20L%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3802","title":"Recreational Sports Complex","latitude":"33.2054","longitude":"-97.1726","type":"place","code":"RCSP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3802\/view\">Recreational Sports Complex<\/a><\/h3>\n  \n    <address>\n    1900 Chestnut Drive    <br\/>\n    Denton, Texas 76203<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1900%20Chestnut%20Drive%20%20%20%20%20Denton%20Texas%2076203\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3803","title":"Intramural Fields","latitude":"33.2097","longitude":"-97.1604","type":"place","code":"INTR","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3803\/view\">Intramural Fields<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3804","title":"Mean Green Village Soccer Stadium","latitude":"33.2002","longitude":"-97.1626","type":"place","code":"SOCR","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3804\/view\">Mean Green Village Soccer Stadium<\/a><\/h3>\n  \n    <address>\n    1500 S. Bonnie Brae Street<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1500%20S.%20Bonnie%20Brae%20Street%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3805","title":"Winspear Hall in the Murchison Performing Arts Center","latitude":"33.2063","longitude":"-97.155","type":"place","code":"WNSP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3805\/view\">Winspear Hall in the Murchison Performing Arts Center<\/a><\/h3>\n  \n    <address>\n    2100 N. I-35E<br\/>\n    Denton, Texas 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2100%20N.%20I-35E%20Denton%20Texas%2076205\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3806","title":"Volleyball Center and Office Complex","latitude":"33.1997","longitude":"-97.163","type":"place","code":"VBGM","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3806\/view\">Volleyball Center and Office Complex<\/a><\/h3>\n  \n    <address>\n    1536 S. Bonnie Brae St., Building H<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1536%20S.%20Bonnie%20Brae%20St.%2C%20Building%20H%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3808","title":"Power Plant","latitude":"33.213","longitude":"-97.155","type":"place","code":"PWRP","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3808\/view\">Power Plant<\/a><\/h3>\n  \n    <address>\n    1320 W. Sycamore St.<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1320%20W.%20Sycamore%20St.%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3815","title":"Discovery Park Annex","latitude":"33.2563","longitude":"-97.1491","type":"place","code":"NC-S","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3815\/view\">Discovery Park Annex<\/a><\/h3>\n  \n    <address>\n    3970 N. Elm St.<br\/>\n    Denton, Texas 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=3970%20N.%20Elm%20St.%20Denton%20Texas%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3816","title":"Zero Energy Laboratory","latitude":"33.2536","longitude":"-97.1486","type":"place","code":"DPZO","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3816\/view\">Zero Energy Laboratory<\/a><\/h3>\n  \n    <address>\n    3920 N. Elm St.<br\/>\n    Denton, TX 76207<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=3920%20N.%20Elm%20St.%20Denton%20TX%2076207\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3818","title":"Kristin Farmer Autism Center","latitude":"33.194","longitude":"-97.1278","type":"place","code":"ACES","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3818\/view\">Kristin Farmer Autism Center<\/a><\/h3>\n  \n    <address>\n    490 South I-35E<br\/>\n    Denton, TX 76205<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=490%20South%20I-35E%20Denton%20TX%2076205\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3819","title":"UNT on the Square","latitude":"33.215","longitude":"-97.134","type":"place","code":"UNTotS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3819\/view\">UNT on the Square<\/a><\/h3>\n  \n    <address>\n    109 N. Elm St.<br\/>\n    Denton, Texas 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=109%20N.%20Elm%20St.%20Denton%20Texas%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"1089","title":"Risk Management Center","latitude":"33.2083","longitude":"-97.1565","type":"place","code":"WGHT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/1089\/view\">Risk Management Center<\/a><\/h3>\n  \n    <address>\n    700 North Texas Blvd.<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=700%20North%20Texas%20Blvd.%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3810","title":"Woodhill Square","latitude":"33.1976","longitude":"-97.1226","type":"place","code":"WHS","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3810\/view\">Woodhill Square<\/a><\/h3>\n  \n    <address>\n    1112 Dallas Drive<br\/>\n    Denton, TX 76201<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=1112%20Dallas%20Drive%20Denton%20TX%2076201\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3821","title":"Research Greenhouse Complex","latitude":"33.2556","longitude":"-97.1496","type":"place","code":"DPGC","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3821\/view\">Research Greenhouse Complex<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3822","title":"Kush Rhoti Food Trailer","latitude":"33.2129","longitude":"-97.1475","type":"place","code":"CCS1","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3822\/view\">Kush Rhoti Food Trailer<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3823","title":"Research Collections Library","latitude":"33.2127","longitude":"-97.1651","type":"place","code":"WTWH","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3823\/view\">Research Collections Library<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3827","title":"Fashion Design & Fibers","latitude":"33.2113","longitude":"-97.144","type":"place","code":"FDFT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3827\/view\">Fashion Design &amp; Fibers<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3828","title":"Texas Fashion Collection","latitude":"33.2113","longitude":"-97.144","type":"place","code":"TFCT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3828\/view\">Texas Fashion Collection<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3829","title":"Counseling & Higher Education","latitude":"33.2105","longitude":"-97.144","type":"place","code":"CHET","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3829\/view\">Counseling &amp; Higher Education<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3830","title":"Dance & Theater Arts","latitude":"33.2122","longitude":"-97.1416","type":"place","code":"DTAT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3830\/view\">Dance &amp; Theater Arts<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3831","title":"University Bookstore","latitude":"33.2119","longitude":"-97.1511","type":"place","code":"UBST","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3831\/view\">University Bookstore<\/a><\/h3>\n  \n  <\/div>\n"},{"nid":"3832","title":"Food Services Pavilion","latitude":"33.2124","longitude":"-97.1473","type":"place","code":"FSPT","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3832\/view\">Food Services Pavilion<\/a><\/h3>\n    <p class=\"tags\">View others: <a href=\"\/places\/tags\/28?code=FSPT\">Food<\/a><\/p>\n  \n  <\/div>\n"},{"nid":"3834","title":"Welch Street Complex 2","latitude":"33.2105","longitude":"-97.1441","type":"place","code":"CSLM","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3834\/view\">Welch Street Complex 2<\/a><\/h3>\n  \n    <address>\n    425 S. Welch Street<br\/>\n    Denton, TX 76203<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=425%20S.%20Welch%20Street%20Denton%20TX%2076203\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"},{"nid":"3836","title":"UNT New College at Frisco","latitude":"33.1028","longitude":"-96.8302","type":"place","code":"0000","content":"<div class=\"place infowindow\">\n  <h3><a href=\"\/places\/3836\/view\">UNT New College at Frisco<\/a><\/h3>\n  \n    <address>\n    2811 Internet Blvd<br\/>\n    Frisco, TX 75034<br\/>\n    <a href=\"http:\/\/maps.google.com\/maps?f=d&amp;source=s_d&amp;daddr=2811%20Internet%20Blvd%20Frisco%20TX%2075034\" class=\"directions\">Get Directions<\/a>  <\/address>\n  <\/div>\n"}] };
+    $('body.page-places').map_controller(map_options);
+    var parking_options = { locations: [{"nid":"3725","type":"parking_lot","changed":"1308068043","title":"01","body":"Reserved Lot","code":"01","latitude":"33.2113","longitude":"-97.149","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3726","type":"parking_lot","changed":"1307979359","title":"02","body":"Reserved Lot","code":"02","latitude":"33.2116","longitude":"-97.149","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3727","type":"parking_lot","changed":"1307979360","title":"03","body":"Reserved & Visitor","code":"03","latitude":"33.2116","longitude":"-97.1499","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3728","type":"parking_lot","changed":"1359059179","title":"04","body":"Faculty\/Staff with Reserved","code":"04","latitude":"33.2109","longitude":"-97.1519","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3729","type":"parking_lot","changed":"1370614799","title":"05","body":"Reserved & Career Ctr & SHWC.<br\/><br\/>\r\nThis lot is currently impacted by construction activities.<br\/>\r\nNo D parking available until July 15th.","code":"05","latitude":"33.2119","longitude":"-97.1517","construction":"1","taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3731","type":"parking_lot","changed":"1307979360","title":"07","body":"Residence Hall Lot","code":"07","latitude":"33.2132","longitude":"-97.1515","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3732","type":"parking_lot","changed":"1348848470","title":"09","body":"","code":"09","latitude":"33.2132","longitude":"-97.1502","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3733","type":"parking_lot","changed":"1359058246","title":"10","body":"Faculty\/Staff with Reserved","code":"10","latitude":"33.2144","longitude":"-97.1498","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3734","type":"parking_lot","changed":"1307979361","title":"11","body":"Faculty\/Staff","code":"11","latitude":"33.2142","longitude":"-97.1523","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3735","type":"parking_lot","changed":"1307979361","title":"12","body":"Residence Hall Lot","code":"12","latitude":"33.2136","longitude":"-97.1541","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3736","type":"parking_lot","changed":"1359058299","title":"13","body":"State\/Service &  Reserved","code":"13","latitude":"33.2141","longitude":"-97.1546","construction":null,"taxonomy":{"39":{"tid":"39","vid":"6","name":"Service","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3737","type":"parking_lot","changed":"1307979361","title":"14","body":"Residence Hall\/ Staff","code":"14","latitude":"33.2143","longitude":"-97.1555","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3738","type":"parking_lot","changed":"1307979362","title":"15","body":"Residence Hall Lot","code":"15","latitude":"33.2135","longitude":"-97.1554","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3739","type":"parking_lot","changed":"1307979362","title":"17","body":"Residence Hall Lot","code":"17","latitude":"33.2114","longitude":"-97.1555","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"},"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3740","type":"parking_lot","changed":"1307979362","title":"18","body":"Faculty\/Staff","code":"18","latitude":"33.2117","longitude":"-97.1563","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3741","type":"parking_lot","changed":"1307979362","title":"19","body":"Residence Hall Lot","code":"19","latitude":"33.2102","longitude":"-97.1564","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3742","type":"parking_lot","changed":"1307979363","title":"20","body":"General Parking","code":"20","latitude":"33.2085","longitude":"-97.156","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3743","type":"parking_lot","changed":"1359058207","title":"22","body":"Honors E. side lot","code":"22","latitude":"33.2071","longitude":"-97.1511","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3744","type":"parking_lot","changed":"1307979363","title":"23","body":"Residence Hall Lot","code":"23","latitude":"33.2071","longitude":"-97.1495","construction":null,"taxonomy":{"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"},"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3745","type":"parking_lot","changed":"1348856910","title":"24","body":"Reserved & Visitor","code":"24","latitude":"33.2088","longitude":"-97.1488","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3746","type":"parking_lot","changed":"1307979364","title":"25","body":"Residence Hall Lot","code":"25","latitude":"33.2091","longitude":"-97.1502","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3747","type":"parking_lot","changed":"1307979364","title":"26","body":"Faculty\/Staff","code":"26","latitude":"33.21","longitude":"-97.1519","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3748","type":"parking_lot","changed":"1307979364","title":"27","body":"Resident Hall Lot","code":"27","latitude":"33.2088","longitude":"-97.152","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3749","type":"parking_lot","changed":"1307979365","title":"28","body":"Faculty\/Staff & Reserved","code":"28","latitude":"33.2064","longitude":"-97.1516","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"},"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3750","type":"parking_lot","changed":"1307979366","title":"29","body":"Residence Hall Lot","code":"29","latitude":"33.2062","longitude":"-97.1522","construction":null,"taxonomy":{"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"},"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3751","type":"parking_lot","changed":"1307979366","title":"31","body":"Residence Hall Lot","code":"31","latitude":"33.2071","longitude":"-97.1472","construction":null,"taxonomy":{"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"},"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3752","type":"parking_lot","changed":"1307979366","title":"32","body":"Residence Hall Lot","code":"32","latitude":"33.2069","longitude":"-97.1457","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3753","type":"parking_lot","changed":"1307979366","title":"33","body":"Residence Hall Lot","code":"33","latitude":"33.2079","longitude":"-97.1457","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3754","type":"parking_lot","changed":"1315506586","title":"36","body":"Faculty\/Staff","code":"36","latitude":"33.2088","longitude":"-97.1449","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3755","type":"parking_lot","changed":"1307979367","title":"37","body":"Faculty\/Staff & Reserved","code":"37","latitude":"33.2099","longitude":"-97.145","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"},"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3757","type":"parking_lot","changed":"1307979368","title":"39","body":"Premium Commuter","code":"39","latitude":"33.2098","longitude":"-97.1432","construction":null,"taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3758","type":"parking_lot","changed":"1307979368","title":"40","body":"Premium Commuter","code":"40","latitude":"33.2087","longitude":"-97.1431","construction":null,"taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3759","type":"parking_lot","changed":"1307979368","title":"41","body":"General Parking","code":"41","latitude":"33.2073","longitude":"-97.1433","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3760","type":"parking_lot","changed":"1315506393","title":"42","body":"Premium Commuter","code":"42","latitude":"33.208","longitude":"-97.1448","construction":null,"taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3761","type":"parking_lot","changed":"1367939116","title":"47","body":"Church of Christ Lot<br\/><br\/>\r\nCLOSED DUE TO CONSTRUCTION","code":"47","latitude":"33.2107","longitude":"-97.1439","construction":"2","taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3762","type":"parking_lot","changed":"1369411637","title":"48","body":"This lot will be CLOSED for construction starting Tuesday May 28th, 2013.","code":"48","latitude":"33.21","longitude":"-97.1471","construction":"2","taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3763","type":"parking_lot","changed":"1307979368","title":"50","body":"Faculty\/Staff & Reserved","code":"50","latitude":"33.2124","longitude":"-97.1448","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"},"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3764","type":"parking_lot","changed":"1307979369","title":"51","body":"Metered Lot","code":"51","latitude":"33.2121","longitude":"-97.1441","construction":null,"taxonomy":{"43":{"tid":"43","vid":"6","name":"Meters","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3765","type":"parking_lot","changed":"1307979369","title":"52","body":"Metered Lot","code":"52","latitude":"33.2131","longitude":"-97.144","construction":null,"taxonomy":{"43":{"tid":"43","vid":"6","name":"Meters","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3766","type":"parking_lot","changed":"1367939109","title":"53","body":"Premium Commuter<br\/><br\/>\r\nCLOSED DUE TO CONSTRUCTION","code":"53","latitude":"33.2115","longitude":"-97.1417","construction":"2","taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3767","type":"parking_lot","changed":"1307979369","title":"54","body":"Premium Commuter","code":"54","latitude":"33.212","longitude":"-97.1432","construction":null,"taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3768","type":"parking_lot","changed":"1307979369","title":"55","body":"Premium Commuter","code":"55","latitude":"33.2131","longitude":"-97.1435","construction":null,"taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3769","type":"parking_lot","changed":"1367939089","title":"56","body":"Visitor & Reserved<br\/><br\/>\r\nCLOSED DUE TO CONSTRUCTION","code":"56","latitude":"33.212","longitude":"-97.1419","construction":"2","taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"},"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3770","type":"parking_lot","changed":"1307979370","title":"57","body":"Premium Commuter","code":"57","latitude":"33.2129","longitude":"-97.1422","construction":null,"taxonomy":{"42":{"tid":"42","vid":"6","name":"P","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3771","type":"parking_lot","changed":"1307979370","title":"59","body":"Faculty\/Staff","code":"59","latitude":"33.2162","longitude":"-97.1456","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3773","type":"parking_lot","changed":"1307979371","title":"71","body":"MGV 'G'","code":"71","latitude":"33.1995","longitude":"-97.1632","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3774","type":"parking_lot","changed":"1307979371","title":"72","body":"MGV staff\/faculty","code":"72","latitude":"33.1998","longitude":"-97.1619","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3775","type":"parking_lot","changed":"1307979371","title":"73","body":"MGV 'G'","code":"73","latitude":"33.2004","longitude":"-97.1633","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3776","type":"parking_lot","changed":"1307979371","title":"74","body":"MGV 'G' lot","code":"74","latitude":"33.2004","longitude":"-97.1618","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3777","type":"parking_lot","changed":"1307979372","title":"76","body":"MGV 'D' lot","code":"76","latitude":"33.2011","longitude":"-97.1618","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3778","type":"parking_lot","changed":"1307979372","title":"77","body":"MGV 'G'","code":"77","latitude":"33.2007","longitude":"-97.1625","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3779","type":"parking_lot","changed":"1307979372","title":"80","body":"Victory - S. section","code":"80","latitude":"33.2011","longitude":"-97.1573","construction":null,"taxonomy":{"44":{"tid":"44","vid":"6","name":"AC","description":"","weight":"0","v_weight_unused":"0"},"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3780","type":"parking_lot","changed":"1307979372","title":"81","body":"Victory - front of bldg","code":"81","latitude":"33.2023","longitude":"-97.1572","construction":null,"taxonomy":{"37":{"tid":"37","vid":"6","name":"R","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3781","type":"parking_lot","changed":"1307979373","title":"82","body":"Victory - Dock area","code":"82","latitude":"33.2031","longitude":"-97.1582","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3782","type":"parking_lot","changed":"1307979373","title":"83","body":"Athletic Center","code":"83","latitude":"33.2027","longitude":"-97.1604","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"},"44":{"tid":"44","vid":"6","name":"AC","description":"","weight":"0","v_weight_unused":"0"},"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3783","type":"parking_lot","changed":"1307979374","title":"84","body":"Waranch Tennis Pavilion","code":"84","latitude":"33.1991","longitude":"-97.1592","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3784","type":"parking_lot","changed":"1307979374","title":"DP1","body":"Discovery Park","code":"DP1","latitude":"33.2531","longitude":"-97.1541","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3785","type":"parking_lot","changed":"1307979374","title":"DP10","body":"Discovery Park","code":"DP10","latitude":"33.2562","longitude":"-97.153","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3786","type":"parking_lot","changed":"1307979374","title":"DP2","body":"Discovery Park","code":"DP2","latitude":"33.2522","longitude":"-97.1531","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"},"43":{"tid":"43","vid":"6","name":"Meters","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3787","type":"parking_lot","changed":"1315506518","title":"DP3","body":"Discovery Park","code":"DP3","latitude":"33.2538","longitude":"-97.15","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3788","type":"parking_lot","changed":"1315506634","title":"DP4","body":"Discovery Park","code":"DP4","latitude":"33.2546","longitude":"-97.1497","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3789","type":"parking_lot","changed":"1307979374","title":"DP5","body":"Discovery Park","code":"DP5","latitude":"33.2537","longitude":"-97.1483","construction":null,"taxonomy":{"39":{"tid":"39","vid":"6","name":"Service","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3790","type":"parking_lot","changed":"1359063695","title":"DP6","body":"Discovery Park","code":"DP6","latitude":"33.2555","longitude":"-97.1491","construction":null,"taxonomy":{"40":{"tid":"40","vid":"6","name":"G","description":"","weight":"0","v_weight_unused":"0"},"39":{"tid":"39","vid":"6","name":"Service","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3791","type":"parking_lot","changed":"1307979375","title":"DP7","body":"Discovery Park","code":"DP7","latitude":"33.2542","longitude":"-97.1516","construction":null,"taxonomy":{"39":{"tid":"39","vid":"6","name":"Service","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3792","type":"parking_lot","changed":"1307979375","title":"DP8","body":"Discovery Park","code":"DP8","latitude":"33.2551","longitude":"-97.1525","construction":null,"taxonomy":{"39":{"tid":"39","vid":"6","name":"Service","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3793","type":"parking_lot","changed":"1307979439","title":"DP9","body":"Discovery Park","code":"DP9","latitude":"33.256","longitude":"-97.1526","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"},"38":{"tid":"38","vid":"6","name":"MC","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3817","type":"parking_lot","changed":"1359056211","title":"08","body":"","code":"08","latitude":"33.2126","longitude":"-97.1498","construction":null,"taxonomy":{"35":{"tid":"35","vid":"6","name":"A","description":"","weight":"0","v_weight_unused":"0"}}},{"nid":"3825","type":"parking_lot","changed":"1359064298","title":"20","body":"Faculty\/Staff","code":"20b","latitude":"33.2101","longitude":"-97.159","construction":null,"taxonomy":{"36":{"tid":"36","vid":"6","name":"D","description":"","weight":"0","v_weight_unused":"0"}}}] };
+    $('body.page-places').parking_controller(parking_options);
+  });
+})(jQuery);
+//]]>
+</script>
+
+  </div>
+</div>
+            </div>
+            
+                        
+            
+        </div></div> <!-- /.section, /#content -->
+        
+        
+    </div></div></div> <!-- /#main, /#main-wrapper, /#slashes -->
+
+	        <div id="footer"><div class="section wrapper">
+
+            <div class="region region-footer">
+    <!-- unt_footer module version 1.3 -->
+	<div id="footerInner">
+	  
+		<div id="contact" class="equalFooter">
+			<h5>Contact Us:</h5>
+			<div class="vcard">
+	<span class="fn org">
+	University Relations, Communications &amp; Marketing</span> <br/><span class="tel"><span class="type">Voice</span>: 940-565-2000</span><br/>
+<br/>
+<h5>Visit Us:</h5> 
+<span><a href="/places/723?code=MGVP,HURL,USB,CHIL">On Campus</a></span>
+	<a href="http://maps.unt.edu/" class="url">http://maps.unt.edu/</a> 
+</div>		</div>
+		
+		<div id="technical" class="equalFooter">
+			<div id="contentProblems">
+	<h5>Email us:</h5>
+	<p>Have questions on content or technical issues?
+	  Please contact us.
+		<a href="mailto:michelle.hale@unt.edu">
+      michelle.hale@unt.edu 
+		</a>
+	</p>
+</div>
+		</div>
+
+		<div id="feedback" class="equalFooter">
+			<h5>UNT System:</h5>
+<ul>
+	<li><a href="http://www.unt.edu/">UNT Home</a></li>
+	<li><a href="http://untsystem.unt.edu/">UNT System</a></li>
+	<li><a href="http://www.unt.edu/unt-dallas/">UNT Dallas</a></li>
+	<li><a href="http://www.hsc.unt.edu/">UNT Health Science Center</a></li>
+</ul>
+		</div>
+		
+		<div style="clear: both; width: 920px; padding: 20px 0 10px 0; margin: 10px 0 0 0; text-align: center;">
+			<p>
+  <strong>
+    Site last updated on  June 14, 2011	</strong>
+</p>
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility Policy</a> | <a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> | <a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a>
+		</div>
+	</div>
+</div> <!-- /.region -->
+
+        </div></div> <!-- /.section, /#footer -->
+    
+</div></div> <!-- /#page, /#page-wrapper -->
+
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-368058-1"]);_gaq.push(["_setDomainName", ".maps.unt.edu"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+</body>
+</html>

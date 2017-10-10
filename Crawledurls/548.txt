@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>center for plant lipid research</title>
+<link href="Assets/CSS/cplr2011.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* this 1px negative margin can be placed on any of the columns in this layout with the same corrective effect. */
+ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
+</style>
+<![endif]-->
+<script src="Assets/SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<script src="Assets/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="Assets/SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style1 {font-size: x-large}
+.style2 {font-size: large; }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<link href="Assets/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body link="#006699" vlink="#990000">
+
+<div class="container">
+  <div class="header"><!-- end .header -->
+    <p><img src="images/logolong.jpg" width="579" height="164" alt="cplrlogo" /></p>
+<p>&nbsp;</p>
+  </div>
+  <div align="center"> 
+    <ul id="indexmenu" class="MenuBarHorizontal">
+      <li><a href="http://www.unt.edu/">UNT</a></li>
+      <li><a href="http://www.unt.edu/library-technology.htm">UNT Libraries</a></li>
+      <li><a href="http://www.cas.unt.edu/">UNT College of Arts and Sciences</a></li>
+      <li><a href="http://www.biol.unt.edu/" target="_new">Biological Sciences</a></li>
+      <li><a href="http://www.eyefoundationkc.org/vision_research_center.htm" target="_new">UKMC-Vision Center</a></li>
+      <li><a href="http://www.noble.org/" target="_new">Noble Foundation</a></li>
+    </ul>
+  </div>
+  <p>&nbsp;</p>
+  <div class="sidebar1">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="Accordion1" class="Accordion" tabindex="0">
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Investigators</div>
+        <div class="AccordionPanelContent"> <a href="investigators/investigatorframes/invtestframe.html">Chapman<br />
+          Pirtle<br />
+          Gross<br />
+          Venables<br />
+          Dickstein<br />
+          Shah<br />
+          Verbeck<br />
+          Koulen - UKMC<br />
+          Blancaflor - Noble Foundation </a></div>
+      </div>
+<div class="AccordionPanel">
+        <div class="AccordionPanelTab">Projects</div>
+        <div class="AccordionPanelContent"><a href="investigators/chapman/Projects/projects_frames/projectframeset.html" target="_parent">Cotton<br />
+          Lipid Droplet<br />
+          N-Acylethanolamine (NAE) </a></div>
+      </div>
+<div class="AccordionPanel">
+        <div class="AccordionPanelTab">Events Calendar</div>
+        <div class="AccordionPanelContent"><a href="calendar/calendarframes/calendarFrameset.html">2010 Calendar<br />
+          2011 Calendar<br />
+          2012 Calendar</a><br />
+        </div>
+      </div>
+<div class="AccordionPanel">
+        <div class="AccordionPanelTab">Opportunities</div>
+        <div class="AccordionPanelContent"></div>
+      </div>
+<div class="AccordionPanel">
+        <div class="AccordionPanelTab">Interesting Links</div>
+        <div class="AccordionPanelContent"><a href="interesting links.html">Symposia<br />
+          Web Pages<br />
+        Databases</a></div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Facilities</div>
+        <div class="AccordionPanelContent"><a href="facilities/facilities frames/facilities framset.html" target="_parent">Equipment<br />
+          Location<br />
+          New Building Video<br />
+        New Building Construction</a></div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Protocols and downloads</div>
+    <div class="AccordionPanelContent"><a href="pdffiles/Arabidopsis manual web secure.pdf" target="_parent">Arabidopsis Manual</a><br />
+      <a href="pdffiles/NAElibrary.pdf" target="_parent">NAE PDF Library</a></div>
+</div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Signaling Research Cluster</div>
+        <div class="AccordionPanelContent"><a href="http://plantsignaling.unt.edu/">Home</a><br />
+          <a href="http://plantsignaling.unt.edu/participants">Participants</a><br />
+          <a href="http://plantsignaling.unt.edu/facilities-resources">Equipment and Facilities</a><br />
+          <a href="http://research.unt.edu/clusters/">Clusters Info</a></div>
+      </div>
+</div>
+<p>&nbsp;</p><!-- #BeginLibraryItem "/Assets/library/webcontact.lbi" -->
+<div align="center" class="small">For questions about this web site, contact <strong><a href="mailto:charlenecase@unt.edu">charlenecase@unt.edu</a></strong><strong><br />
+  <!-- #BeginDate format:En2 -->23-Aug-2011<!-- #EndDate -->
+</strong></div>
+<!-- #EndLibraryItem --><p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center"><!-- #BeginLibraryItem "/Assets/library/untbrand.lbi" --><a href="http://www.unt.edu/" target="_new"><img src="images/untbrandingbl.gif" width="158" height="99" alt="unt" /></a><!-- #EndLibraryItem --></p>
+  </div>
+  <div class="content">
+    <h1>Welcome to the  Center for Plant Lipid Research!</h1>
+    <p class="style2">The Center for Plant Lipid Research is a group of laboratories. <a href="investigators/chapman/chapmanmain.htm">Dr. Kent Chapman</a> serves as center director and helps to coordinate these diverse research activities focusing on basic and applied aspects of research in the regulation of plant lipid metabolism. <br />
+      <br />
+    Center scientists are seeking to understand through contemporary cellular, biochemical, and molecular genetic approaches how lipids influence the growth and development of plants. Efforts also contribute to the discovery of new products and uses for plant derived lipids and their potential public benefit. </p>
+    <p class="style2"> The center  provides training opportunities for undergraduates and graduate students in molecular biology, biology, and biochemistry. Please follow the link on this page to opportunities.</p>
+    <p>&nbsp;</p>
+    <h2><img src="images/cplrresearch.jpg" alt="cplr research" width="478" height="240" align="absmiddle" /></h2>
+  <!-- end .content --></div>
+  <!-- end .container --></div>
+<div align="center"> </div>
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+var MenuBar1 = new Spry.Widget.MenuBar("indexmenu", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

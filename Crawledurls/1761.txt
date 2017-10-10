@@ -1,0 +1,1396 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js "> <!--<![endif]-->
+	<head>
+		<title>Weather Forecast - Gambia, GB - Local & Long Range | Weather Underground</title>
+		<link href="//icons.wxug.com/" rel="dns-prefetch" />
+		<link href="//api-ak.wunderground.com/" rel="dns-prefetch" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Weather in Gambia - Check out the latest Weather Forecast, channels & reports for GB on Weather Underground." />
+	<meta name="keywords" content="weather forecast GB, local weather forecast GB, weather report GB, weather Gambia" />
+<meta name="fb-app-id" content="325331260891611" />
+<meta name="fb-channel-url" content="//www.wunderground.com/php/lib/fb_sdk/channel.php" />
+<meta name="wui-member-logged-in" content="false" />
+		<meta http-equiv="Refresh" content="360;URL=/cgi-bin/findweather/getForecast?query=Denton,&MR=1" />
+	<link rel="canonical" href="https://www.wunderground.com" />
+	<link rel="apple-touch-icon" href="//icons.wxug.com/favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="//icons.wxug.com/favicon.png"/>
+	<link rel="stylesheet" href="//icons.wxug.com/css/wu4/core.css?v=2016042501">
+	<link rel="stylesheet" href="//icons.wxug.com/css/wu4/omnibus.css?v=2016042501">
+	<script src="//js-sec.indexww.com/ht/ls-wunderground.js" async></script>
+	<script src="//icons.wxug.com/scripts/modernizr/2.8.2/modernizr.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="//icons.wxug.com/scripts/wui-js/1.9.6/wui.min.js"></script>
+		<script src="//icons.wxug.com/scripts/wui.login.min.js?v=1.3.18"></script>
+	</head>
+	<body class="standard CityList-CityList not-set  ">
+		<div id="content-wrap" class="relative right-side-nav">
+		<nav id="feature-menu-mobile" class="sidebar">
+  <div class="sidebar-wrapper">
+  <ul class="side-main-nav nav-bar">
+  <li class="">
+  <a href="/member/registration">
+  <i class="fi-torso sidebar-icon"></i> Sign Up / Sign In
+  </a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);"></a></li>
+  <li class="sidebar-heading no-link"></li>
+<li>
+  <a href="/community/mail.asp" id="wuMailGot">
+  WU Mail
+  </a>
+</li>
+<li><a href="/member/membersettings.html">Member Settings</a></li>
+<li><a href="/email/mainmenu.php">My Email &amp; Text Alerts</a></li>
+<li><a href="/webcams/signup.html" class="brBot3">My Webcams</a></li>
+<li><a href="/email/logout.php">Sign Out</a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="#">
+  <i class="fi-widget sidebar-icon"></i> Settings
+  </a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Settings</a></li>
+  <ul class="button-group toggle radius">
+  <li><a onclick="wui.SetUnitToEnglish()" title="Switch to English" class="button selected">&deg;F</a></li>
+  <li><a onclick="wui.SetUnitToMetric()" title="Switch to Metric" class="button ">&deg;C</a></li>
+</ul>
+<ul class="button-group radius toggle compact forecast-type">
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=1&referer=%2fcgi%2dbin%2ffindweather%2fgetForecast%3fquery%3dDenton%2c" title="Use BestForecast" class="button selected" onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'BestForecast']);">BestForecast</a></li>
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=0&referer=%2fcgi%2dbin%2ffindweather%2fgetForecast%3fquery%3dDenton%2c" title="Use NWS" class="button " onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'NWS']);">NWS</a></li>
+</ul>
+<p><a href="/about/data.asp#differences">What's the difference?</a></p>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="maps">Maps & Radar</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Maps & Radar</a></li>
+  <li><a href="/weather-radar/" title="Radar Maps">Radar Maps</a></li>
+  <li><a href="/wundermap/?units=english&rad=1&rad.num=1&rad.spd=25&rad.opa=81&rad.type=00Q&rad.type2=&rad.smo=1&rad.stm=0&sat=0&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" title="Interactive Radar">Interactive Radar</a></li>
+  <li><a href="/wundermap/?zoom=5&type=&tl.play=0&tl.spd=2&extremes=0&fault=0&femaflood=0&fire=0&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=0&lightning=0&livesurge=0&mm=0&ndfd=0&rad=0&dir=1&dir.mode=driving&sst=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&seismicrisk=0&svr=0&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=0&cams=0&pix=0" title="Interactive Satellite">Interactive Satellite</a></li>
+  <li><a href="/wundermap/" title="WunderMap">WunderMap</a></li>
+  <li><a href="/maps/" title="Current Conditions Maps">Current Conditions Maps</a></li>
+  <li><a href="/ndfdimage/viewimage/" title="Forecast Maps">Forecast Maps</a></li>
+  <li><a href="/maps/catalog/" title="All Maps Catalog">Maps Catalog</a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="severe">Severe Weather</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Severe Weather</a></li>
+  <li><a href="/severe.asp" title="U.S. Severe Weather Map">U.S. Severe Weather Map</a></li>
+  <li><a href="/severe/europe.asp" title="Europe Severe Weather Map">Europe Severe Weather Map</a></li>
+  <li><a href="/hurricane/" title="Hurricane &amp; Tropical Cyclones">Hurricane &amp; Tropical Cyclones</a></li>
+  <li><a href="/severeconvective.asp" title="Convective Outlook">Convective Outlook</a></li>
+  <li class="hide"><a href="/tornado/" title="Tornadoes">Tornadoes</a></li>
+  <li class="hide"><a href="/winter-storm/" title="Winter Storms">Winter Storms</a></li>
+  <li><a href="/fire/" title="Wildfires">Wildfires</a></li>
+  <li><a href="/prepare/" title="Preparedness">Preparedness</a></li>
+  <li><a href="/email/emailsettings.asp" title="Weather Alerts">Weather Alerts</a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="news">News &amp; Blogs<span class="new-badge-text-only live twiw">LIVE!</span></a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">News &amp; Blogs</a></li>
+  <li><a href="/blog/JeffMasters/show.html" title="Dr. Jeff Masters">Dr. Jeff Masters</a></li>
+  <li><a href="/blog/" title="WunderBlog&reg; Directory">WunderBlog&reg; Directory</a></li>
+  <li><a href="/news/" title="Recent News Stories">Recent News Stories</a></li>
+		<li><a href="https://wunderground.atavist.com/el-nino-forecast" title="El Niño Forecast">El Niño Forecast</a></li>
+  <li><a href="/weather-infographics/" title="Weather Infographics">Weather Infographics</a></li>
+  <li><a href="/weather-posters/" title="Weather Posters">Weather Posters</a></li>
+		<li><a href="/live-forecasts" title="This Week in Weather">This Week in Weather<span class="new-badge-text-only live twiw">LIVE!</span></a></li>
+  </ul>
+  </li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="photos">Photos &amp; Video</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Photos &amp; Video</a></li>
+  <li><a href="/wximage/" title="WunderPhotos">WunderPhotos</a></li>
+  <li><a href="/webcams/" title="Webcams">Webcams</a></li>
+  <li><a href="/video/" title="Videos">Videos</a></li>
+  <li><a href="/wutv/" title="WUTV">WUTV</a></li>
+  </ul>
+  </li>
+  <li><a href="/history/" class="history" title="Historical Weather">Historical Weather</a></li>
+  <li class="gotMore">
+  <a href="javascript:void(0);" class="activities">Activities</a>
+  <ul class="sideSubNav">
+  <li class="sideGoBack"><a href="javascript:void(0);">Activities</a></li>
+  <li><a href="/ski/" title="Ski &amp; Snow Reports">Ski &amp; Snow Reports</a></li>
+  <li><a href="/marine-weather/" title="Marine Weather">Marine Weather</a></li>
+  <li><a href="/Aviation_Maps/" title="Aviation">Aviation</a></li>
+  <!--li><a href="/sailing-weather/" title="Sailing Weather">Sailing Weather</a></li-->
+  </ul>
+  </li>
+  <li>
+  <a href="/sitemap/" class="browse">Site Map</a>
+  </li>
+  </ul>
+  <ul class="sidebar-footer">
+		<li><a href="/weatherstation/about.asp" title="Personal Weather Station Network">Personal Weather Station Network</a></li>
+		<li><a href="/download/index.asp" title="Weather Underground Mobile Apps">Mobile Apps</a></li>
+		<li><a href="/printer/cityforecast.asp" title="Daily Forecast Flyer">Daily Forecast Flyer</a></li>
+		<li><a href="/weather/api/" title="Weather API for Developers">Weather API for Developers</a></li>
+  </ul>
+  </div>
+</nav>
+		<div class="header-ad-wrap">
+	<center class="clearfix">
+		<div id="WX_WindowShade">
+		<div id="div-gpt-ad-615639597871654305-top" class="ad-box window-shade no-well">
+		</div>
+		<div class="ad-nav">
+		<div class="pubnation ad-link" data-target="div-gpt-ad-615639597871654305-top" style="visibility: hidden;">report this ad</div>
+		<div class="ad-link window-shade no-well"> | </div>
+		<div class="ad-link window-shade no-well" data-reveal-id="why-ads-modal">why ads?</div>
+		</div>
+		</div>
+	</center>
+		</div>
+		<nav class="topbar">
+	<div id="global-header" class="new-wu">
+		<a href="javascript:void(0);" id="sidebarButton" class="right-off-canvas-toggle"><span class="fi-list-wrap"><i class="fi-list"></i></span></a>
+		<a href="/" id="header-logo" class="logo" title="Weather Underground (365-t2)"></a>
+		<nav id="feature-menu" class="feature-menu">
+  <ul class="menu-list">
+	 <li>
+		<label class="maps">Maps & Radar</label>
+		<ul class="menu-list">
+		<li><a href="/weather-radar/" title="Radar Maps">Radar Maps</a></li>
+		<li><a href="/wundermap/?units=english&rad=1&rad.num=1&rad.spd=25&rad.opa=81&rad.type=00Q&rad.type2=&rad.smo=1&rad.stm=0&sat=0&stormreports=0&svr=0&pix=0&cams=0&tor=0&riv=0&wxsn=0&ski=0&tfk=0&mm=0&ndfd=0&fire=0&firewfas=0&extremes=0&hurrevac=0&sst=0&livesurge=0&femaflood=0&tsunami=0&seismicrisk=0&fault=0&fissures=0&fronts=0&dir=1&dir.mode=driving&hur=0" title="Interactive Radar">Interactive Radar</a></li>
+		<li><a href="/wundermap/?zoom=5&type=&tl.play=0&tl.spd=2&extremes=0&fault=0&femaflood=0&fire=0&firewfas=0&fissures=0&fronts=0&hurrevac=0&hur=0&lightning=0&livesurge=0&mm=0&ndfd=0&rad=0&dir=1&dir.mode=driving&sst=0&sat=1&sat.num=1&sat.spd=25&sat.opa=87&sat.gtt1=108&sat.gtt2=108&sat.type=IR4&seismicrisk=0&svr=0&ski=0&snowfall=0&stormreports=0&tor=0&tfk=0&tsunami=0&riv=0&wxsn=0&cams=0&pix=0" title="Interactive Satellite">Interactive Satellite</a></li>
+		<li><a href="/wundermap/" title="WunderMap">WunderMap</a></li>
+		<li><a href="/maps/" title="Current Conditions Maps">Current Conditions Maps</a></li>
+		<li><a href="/ndfdimage/viewimage/" title="Forecast Maps">Forecast Maps</a></li>
+		<li><a href="/maps/catalog/" title="All Maps Catalog">Maps Catalog</a></li>
+		</ul>
+	 </li>
+	 <li>
+		<label class="severe">Severe Weather</label>
+		<ul class="menu-list">
+		<li><a href="/severe.asp" title="U.S. Severe Weather Map">U.S. Severe Weather Map</a></li>
+		<li><a href="/severe/europe.asp" title="Europe Severe Weather Map">Europe Severe Weather Map</a></li>
+		<li><a href="/hurricane/" title="Hurricane &amp; Tropical Cyclones">Hurricane &amp; Tropical Cyclones</a></li>
+		<li><a href="/severeconvective.asp" title="Convective Outlook">Convective Outlook</a></li>
+		<li class="hide"><a href="/tornado/" title="Tornadoes">Tornadoes</a></li>
+		<li class="hide"><a href="/winter-storm/" title="Winter Storms">Winter Storms</a></li>
+		<li><a href="/fire/" title="Wildfires">Wildfires</a></li>
+		<li><a href="/prepare/" title="Preparedness">Preparedness</a></li>
+		<li><a href="/weather-alerts/" title="Weather Alerts">Text/Email Alerts</a></li>
+		</ul>
+	 </li>
+	 <li>
+		<label class="news">News &amp; Blogs<span class="new-badge-text-only live twiw">LIVE!</span></label>
+		<ul class="menu-list">
+		<li><a href="/blog/JeffMasters/show.html" title="Dr. Jeff Masters">Dr. Jeff Masters</a></li>
+		<li><a href="/blog/" title="WunderBlog&reg; Directory">WunderBlog&reg; Directory</a></li>
+		<li><a href="/news/" title="Recent News Stories">Recent News Stories</a></li>
+		<li><a href="https://wunderground.atavist.com/el-nino-forecast" title="El Niño Forecast">El Niño Forecast</a></li>
+		<li><a href="/weather-infographics/" title="Weather Infographics">Weather Infographics</a></li>
+		<li><a href="/weather-posters/" title="Weather Posters">Weather Posters</a></li>
+		<li><a href="/live-forecasts" title="This Week in Weather">This Week in Weather<span class="new-badge-text-only live twiw">LIVE!</span></a></li>
+		</ul>
+	 </li>
+	 <li>
+		<label class="photos">Photos &amp; Video</label>
+		<ul class="menu-list">
+		<li><a href="/wximage/" title="WunderPhotos">WunderPhotos</a></li>
+		<li><a href="/webcams/" title="Webcams">Webcams</a></li>
+		<li><a href="/video/" title="Videos">Videos</a></li>
+		<li><a href="/wutv/" title="WUTV">WUTV</a></li>
+		</ul>
+	 </li>
+	 <li>
+		<label class="activities">Activities</label>
+		<ul class="menu-list">
+		<li><a href="/ski/" title="Ski &amp; Snow Reports">Ski &amp; Snow Reports</a></li>
+		<li><a href="/marine-weather/" title="Marine Weather">Marine Weather</a></li>
+		<li><a href="/Aviation_Maps/" title="Aviation">Aviation</a></li>
+		</ul>
+	 </li>
+	 <li><a href="/history/">Historical Weather</a></li>
+	 <li><a href="/weatherstation/about.asp" title="Personal Weather Station Network">Personal Weather Station Network</a></li>
+	 <li><a href="/personal-weather-station/signup" title="Register Your Personal Weather Station">Register Your PWS</a></li>
+  <li><a href="http://wundergroundstore.com" title="Weather Underground Store">WU Store</a></li>
+	 <li><a href="/download/index.asp" title="Weather Underground Mobile Apps">Mobile Apps</a></li>
+  <li><a href="/printer/cityforecast.asp" title="Daily Forecast Flyer">Daily Forecast Flyer</a></li>
+	 <li><a href="/weather/api/" title="Weather API for Developers">Weather API for Developers</a></li>
+	 <li><a href="/sitemap/" title="Site Map">Site Map</a></li>
+  </ul>
+</nav>
+		<div id="wuForm-contain" class="wu-form-contain">
+		<form action="/cgi-bin/findweather/getForecast" name="wxsearch" id="wuForm" class="wu-form ui-front">
+		<div id="wuSearch-contain" class="wu-search-contain">
+		<input type="search" name="query" value="" id="wuSearch" class="wu-search" placeholder="Search Locations" data-autoinitialize="true" />
+		<span class="close-search">
+		<i class="fi-x-circle"></i>
+		</span>
+		<span class="geolocate-wrap">
+		<i class="fi-target-two"></i>
+		</span>
+		</div>
+		</form>
+		</div>
+		<div class="hide-for-small">
+		<a href="/member/registration" class="show-for-small" id="wuAnon">
+		<i class="fi-torso"></i>
+		</a>
+		<a href="#" class="wu-account hide-for-small" data-reveal-id="wu-registration" id="wuAccount">
+		<i class="fi-torso"></i>
+		</a>
+		<a href="#" data-dropdown="wuSettings-quick" id="wuSettings" class="wu-settings">
+		<i class="fi-widget"></i>
+		</a>
+		</div>
+		<div id="wu-registration" class="reveal-modal" data-reveal>
+	<div class="row">
+		<div class="columns">
+		<div id="membership-wrap" class="membership-form row">
+		<div class="small-12 large-6 large-push-6 columns sign-in">
+		<h2>Member Sign In</h2>
+		<form id="sign-in-form" action="/member/signin" name="login" method="post">
+		<input type="hidden" name="redirect_url" value="" id="redirect_url"></input>
+		<div class="input-wrap">
+		<label for="sign-in-email">Email <small class="error status-message"></small></label>
+		<input id="sign-in-email" type="email" name="email">
+		<span class="input-status"></span>
+		</div>
+		<div class="input-wrap">
+		<label for="sign-in-password">Password <small class="error status-message"></small></label>
+		<input id="sign-in-password" type="password" name="password" >
+		<span class="input-status"></span>
+		</div>
+		<p><a href="/login.asp">Forgot your password?</a></p>
+		<input id="sign-in-btn" type="submit" value="Sign In" class="button radius" data-alt-action="Signing In..." />
+		<ul class="fb-signin accordion" data-accordion>
+		<li class="accordion-navigation">
+		<a href="#message" class="hook">Looking for Facebook?</a>
+		<div id="message" class="content">
+		<strong>Welcome Back!</strong>
+		<div>We are no longer supporting signing in with Facebook. You can use the same email address but will need to <a href="/login.asp">set a password for your account</a>.</div>
+		</div>
+		</li>
+		</ul>
+		</form>
+		</div>
+		<div class="small-12 large-6 large-pull-6 columns sign-up">
+		<h2>Create an Account</h2>
+		<form id="sign-up-form" action="/member/create" method="post">
+		<input id="membership-type" type="hidden" name="membership-type">
+		<div class="input-wrap check-valid">
+		<label for="register-email">Email <small class="error status-message"></small></label>
+		<input id="register-email" type="email" name="email">
+		<span class="input-status"></span>
+		</div>
+		<div class="input-wrap check-valid">
+		<label for="register-handle">Username <small>(numbers and letters only)</small> <small class="error status-message"></small></label>
+		<input id="register-handle" type="text" name="handle" maxlength="20">
+		<span class="input-status"></span>
+		</div>
+		<div class="input-wrap">
+		<label for="register-password">Password <small>(5-30 characters)</small> <small class="error status-message"></small><input id="show-password" type="checkbox" class="hide">
+		<label for="show-password" class="show-password-label"><span class="password-state">Show</span></label></label>
+		<input id="register-password" type="password" name="password" class="password-box">
+		<input id="register-password-text" name="password" class="password-box" type="text" >
+		<span class="input-status"></span>
+		</div>
+		<div class="tos">
+		<input id="terms" type="checkbox" name="tos">
+		<label for="terms" class="checkbox">I agree to the <a href="/members/tos.asp" target="_blank">Terms of Service</a> <small class="error status-message"></small></label>
+		</div>
+		<div class="gift-code-wrap">
+		<input id="gift-code" type="checkbox" class="flipper-item">
+		<label for="gift-code" class="checkbox gift-label-wrap"><!-- 
+									--><input id="register-gift" class="hide flipper-input" type="text" name="giftcode" placeholder="Enter your gift code"><span id="gift-label" class="flipper-label">I have a gift code</span>
+		<span id="gift-success" class="gift-code-duration" class="hide">
+		Gift code applied. Enjoy <span class="duration"></span> <span class="gift-code-mobile hide"><strong>AD FREE</strong> on WU mobile apps</span><span class="gift-code-premium hide">of premium free</span>!
+		</span>
+		<span class="input-status gift-input-status"></span>
+		<small class="error status-message gift-status-message"></small>
+		</label>
+		</div>
+		<div class="row register-buttons">
+		<div class="small-6 medium-4 large-4 columns register-button">
+		<input id="basic-submit" type="submit" class="button medium radius submit-button" name="free" value="Basic - Free" data-alt-action="Signing Up...">
+		<span class="submit-status"></span>
+		<ul>
+		<li>Upload Photos</li>
+		<li>Post Blogs</li>
+		<li>Post Comments</li>
+		</ul>
+		</div>
+		<div class="small-6 medium-8 large-8 columns register-button">
+		<input id="noads-submit" type="submit" class="premium-button button medium radius submit-button" name="noads" value="Premium - $10/yr" data-alt-action="Signing Up..." data-cost="Free">
+		<span class="submit-status"></span>
+		<ul id="premium-list">
+		<li><strong>AD FREE</strong> Websites</li>
+		<li><strong>AD FREE</strong> Mobile Apps</li>
+		<li><strong>AD FREE</strong> Emails</li>
+		<li>Longer Radar Loops</li>
+		</ul>
+		</div>
+		</div>
+		</form>
+<form class="payment-form hide" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="SFBMKVYNMKFL4">
+  <input type="hidden" name="os0" value="">
+  <input type="hidden" name="on0" value="Email">
+  <input type="hidden" name="return" value="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=Denton,&newmember=1&paymentsuccess=1">
+  <input type="hidden" name="cancel_return" value="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=Denton,&newmember=1&paymentsuccess=0">
+  <input type="hidden" name="notify_url" value="http://www.wunderground.com/member/payment/ipnlisten">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+		</div>
+		</div>
+		</div>
+	</div>
+		<a class="close-reveal-modal">&#215;</a>
+		</div>
+		<div id="wuSettings-quick" data-dropdown-content class="wu-settings-quick f-dropdown content" >
+		<ul class="button-group toggle radius">
+  <li><a onclick="wui.SetUnitToEnglish()" title="Switch to English" class="button selected">&deg;F</a></li>
+  <li><a onclick="wui.SetUnitToMetric()" title="Switch to Metric" class="button ">&deg;C</a></li>
+</ul>
+<ul class="button-group radius toggle compact forecast-type">
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=1&referer=%2fcgi%2dbin%2ffindweather%2fgetForecast%3fquery%3dDenton%2c" title="Use BestForecast" class="button selected" onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'BestForecast']);">BestForecast</a></li>
+  <li><a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&value=0&referer=%2fcgi%2dbin%2ffindweather%2fgetForecast%3fquery%3dDenton%2c" title="Use NWS" class="button " onclick="_gaq.push(['_trackEvent', 'Forecast Toggle', 'Click', 'NWS']);">NWS</a></li>
+</ul>
+<p><a href="/about/data.asp#differences">What's the difference?</a></p>
+		<a href="/member/membersettings.html?page=prefs" id="wuSettings-more" class="wu-settings-more">More Settings</a>
+		</div>
+	</div>
+</nav>
+<script type="text/template" id="autocomplete_item_template">
+	<% var defcon = (item.condition && item.condition.defcon) || 0; %>
+	<% if (item.task=='geolocate') { %>
+		<li class="geolocate-button"><div class="mimic-a"><span class="location-icon"><i class="fi-target-two"></i></span><%= item.name %></div></li>
+	<% } else if (item.task=='headerGeolocate') { %>
+		<li class="ui-autocomplete-geolocate"><div class="mimic-a menu-geolocate"><i class="fi-target-two"></i><%= item.name %></div></li>
+	<% } else { %>
+		<li class="needsclick needsfocus <% if (isCity) { %>is-city<% } %><% if (isFav) { %> is-fav<% } %><% if (hasConds && item.condition.severe) { %> is-severe defcon-<%= defcon %><% } %><% if (hasConds) { %> has-conds<% } %>">
+		<a class="needsclick needsfocus">
+		<% if (item.label) { %><span class="needsclick needsfocus city-name"><%= item.label %> <i class="needsclick needsfocus fi-<% if (defcon > 4) { %>info<% } else { %>alert<% } %>"></i></span><% } %>
+		<% if (hasConds) { %>
+		<span class="needsclick needsfocus city-conds">
+		<%= item.condition.temperature %> &deg;F <%= item.condition.condition %>
+		</span>
+		<span class="needsclick needsfocus cond-icon-touch cond-set-<%= item.condition.iconPref %> cond-<%= item.condition.icon %>"></span>
+		<% } %>
+		<% if (isCity) { %><span class="needsclick needsfocus city-star" title="<% if (isFav) { %>Remove From<% } else { %>Add To<% } %> Favorite Cities"></span><% } %>
+		</a>
+		</li>
+	<% } %>
+</script>
+		<div id="inner-wrap">
+		<div id="header-alert-bar" class="loading-bar"></div>
+		<div class="favs-wrapper">
+	<div id="favorites" class="favorites ">
+		<div class="favorites-bar"></div>
+		<input type="button" class="favorites-list-toggle" value="&#x25BC;" data-dropdown="favorites-list" />
+		<div class="favorites-list f-dropdown" data-dropdown-content id="favorites-list"></div>
+	</div>
+</div>
+<script type="text/template" id="favorites-city-template">
+	<%
+		var options = options || {};
+		var isCity = true;
+		var isFav = wui.favorites.is(city.zmw);
+		var isHome = ''==city.zmw?true:false;
+		//hasConds: (options.showConditions && !!(item.condition))
+		var hasConds = !!(city.condition);
+		var defcon = hasConds && city.condition.defcon ? city.condition.defcon : 5;
+	%>
+	<li class="<% if (isCity) { %>is-city<% } %><% if (isFav) { %> is-fav<% } %><% if (hasConds && city.condition.severe) { %> is-severe defcon-<%= defcon %><% } %><% if (hasConds) { %> has-conds<% } %>" <% if (isCity) { %>data-zmw="<%= city.zmw %>" data-cityName="<%= city.name %>" <% } %>>
+		<% if (options.label) { %><label><%= options.label %></label><% } %>
+		<a href="<%= city.url %>/zmw:<%= city.zmw %>">
+		<span class="city-name"><%= city.name %> <i class="fi-<% if (defcon > 4) { %>info<% } else { %>alert<% } %>"></i></span>
+		<% if (hasConds) { %>
+		<span class="city-conds">
+		<%= city.condition.temperature %> &deg;F <%= city.condition.condition %>
+		</span>
+		<span class="cond-icon-touch cond-set-<%= city.condition.iconPref %> cond-<%= city.condition.icon %>"></span>
+		<% } %>
+		<% if (isCity) { %><span class="city-star" title="<% if (isFav) { %>Remove From<% } else { %>Add To<% } %> Favorite Cities"></span><% } %>
+		<% 
+				//removing home button from list now that we have location management on the page - dxf
+				if (isCity && 0) { 	
+			%><span class="city-home <% if (isHome) { %> active <% }  %>" title="Set this as your Home City"</span><% } %>
+  </a>
+	</li>
+</script>
+<script type="text/template" id="favorites-bar-template">
+	<ul class="no-bullet">
+		<li><a href="/member/membersettings.html?page=favorites" title="Manage Favorites"><i class="fi-star"></i></a></li>
+		<%
+		if(favorites.length > 0) {
+		_.each(favorites, function(city) {
+		print(templateCity({
+		city: city
+		}));
+		});
+		} else {
+		try {
+		if(favCityList) {
+		%>
+		<li><a>Loading favorites...</a></li>
+		<%
+			}} catch(e) {}
+		} %>
+		<% _.each(recents, function(city, i) {
+			print(templateCity({
+				city: city,
+				options: {
+					label: (i === 0) ? 'Recent Cities' : ''
+				}
+			}));
+		}); %>
+		<% 
+		 if (favorites.length==0 && recents.length==0) {
+		%>
+		<li class="popularCities-label">Popular <br/>Cities</li>
+		<%
+		_.each(popular, function(city, i) {
+			print(templateCity({
+				city: city,
+			}));
+		}); 
+		}
+		%>
+	</ul>
+</script>
+<script type="text/template" id="favorites-list-template">
+	<% if (favorites.length) {
+	  $("#favorites-edit-list").addClass("favorites-list");
+	%>
+		<label>Favorites</label>
+		<ul class="list-favorites">
+		<% _.each(favorites, function(city) {
+				print(templateCity({
+					city: city
+				}));
+			}); %>
+		</ul>
+	 <% } %>
+	<% if (recents.length) { %>
+		<label>Recent Cities</label>
+		<ul class="list-recents">
+		<% _.each(recents, function(city) {
+				print(templateCity({
+					city: city
+				}));
+			}); %>
+		</ul>
+	<% } %>
+	<% if (favorites.length==0 && recents.length==0) { %>
+		<label>Popular Cities</label>
+		<ul class="list-recents">
+		<% _.each(popular, function(city) {
+				print(templateCity({
+					city: city
+				}));
+			}); %>
+		</ul>
+	<% } %>
+</script>
+		<section id="inner-content" class="inner-content" role="main">
+<div class="row">
+	<div class="columns">
+		<h1><span class="trim-small">Weather for</span> Denton,</h1>
+	</div>
+</div>
+<div class="row city-list">
+	<div class="small-12 large-8 columns">
+	<table class="tablesaw tablesaw-swipe tablesaw-sortable data-table" data-tablesaw-mode="swipe" data-tablesaw-sortable data-tablesaw-minimap>
+		<thead>
+		<tr>
+		<th scope="col" data-tablesaw-sortable-col data-tablesaw-sortable-default-col data-tablesaw-priority="persist">Place</th>
+		<th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="2">Alerts</th>
+		<th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="1">Temp.</th>
+		<th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="1">Conditions</th>
+		<th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="3">Humidity</th>
+		<th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="4">Pressure</th>
+		<th scope="col" data-tablesaw-sortable-col data-tablesaw-priority="5">Wind</th>
+		<th scope="col" data-tablesaw-priority="6">Updated</span></th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td><a href="/global/stations/61721.html" title="Weather Forecast for Denton">Denton, Gambia</a></td>
+		<td class="alert-notice">
+		<span class="hide">0</span>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">99</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td>
+		Clear
+		</td>
+		<td>30%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">29.89</span><span class="wx-unit">&nbsp;in</span></span>
+</td>
+		<td>ENE at
+  <span class="wx-data"><span class="wx-value">7</span><span class="wx-unit">&nbsp;mph</span></span>
+</td>
+		<td class="nobr">12:00 PM GMT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/GA/Denton.html" title="Weather Forecast for Denton, Georgia">Denton, Georgia</a></td>
+		<td class="alert-notice">
+		<span class="hide">0</span>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">82.9</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Clear">Clear</dfn></td>
+		<td>51%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">30.18</span><span class="wx-unit">&nbsp;in</span></span>
+		(Rising)
+		</td>
+		<td>Calm</td>
+		<td class="nobr">10:52 AM EDT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/KS/Denton.html" title="Weather Forecast for Denton, Kansas">Denton, Kansas</a></td>
+		<td class="alert-notice">
+		<span class="hide">1</span><a href="/US/KS/Denton.html#FLO"><img src="//icons.wxug.com/graphics/FLO.gif" alt="Flood Warning" height="17" width="17" /></a>
+		<span class="hide">1</span><a href="/US/KS/Denton.html#WAT"><img src="//icons.wxug.com/graphics/WAT.gif" alt="Flood Watch / Flood Statement" height="17" width="17" /></a>
+		<span class="hide">1</span><a href="/US/KS/Denton.html#PUB"><img src="//icons.wxug.com/graphics/PUB.gif" alt="Public Information Statement" height="17" width="17" /></a>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">65.6</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Light Rain">Light Rain</dfn></td>
+		<td>89%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">29.91</span><span class="wx-unit">&nbsp;in</span></span>
+		(Rising)
+		</td>
+		<td>South at
+  <span class="wx-data"><span class="wx-value">4.0</span><span class="wx-unit">&nbsp;mph</span></span>
+</td>
+		<td class="nobr">10:01 AM CDT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/KY/Denton.html" title="Weather Forecast for Denton, Kentucky">Denton, Kentucky</a></td>
+		<td class="alert-notice">
+		<span class="hide">1</span><a href="/US/KY/Denton.html#REP"><img src="//icons.wxug.com/graphics/REP.gif" alt="Local Storm Report" height="17" width="17" /></a>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">69</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Mostly Cloudy">Mostly Cloudy</dfn></td>
+		<td>78%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">30.07</span><span class="wx-unit">&nbsp;in</span></span>
+		(Falling)
+		</td>
+		<td>SSW at
+  <span class="wx-data"><span class="wx-value">5</span><span class="wx-unit">&nbsp;mph</span></span>
+</td>
+		<td class="nobr">10:51 AM EDT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/MD/Denton.html" title="Weather Forecast for Denton, Maryland">Denton, Maryland</a></td>
+		<td class="alert-notice">
+		<span class="hide">0</span>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">59</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Overcast">Overcast</dfn></td>
+		<td>77%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">30.19</span><span class="wx-unit">&nbsp;in</span></span>
+		(Steady)
+		</td>
+		<td>Calm</td>
+		<td class="nobr">10:49 AM EDT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/MT/Denton.html" title="Weather Forecast for Denton, Montana">Denton, Montana</a></td>
+		<td class="alert-notice">
+		<span class="hide">1</span><a href="/US/MT/Denton.html#PUB"><img src="//icons.wxug.com/graphics/PUB.gif" alt="Public Information Statement" height="17" width="17" /></a>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">44.9</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Clear">Clear</dfn></td>
+		<td>68%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">30.26</span><span class="wx-unit">&nbsp;in</span></span>
+		(Steady)
+		</td>
+		<td>WNW at
+  <span class="wx-data"><span class="wx-value">19.1</span><span class="wx-unit">&nbsp;mph</span></span>
+</td>
+		<td class="nobr">9:05 AM MDT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/NE/Denton.html" title="Weather Forecast for Denton, Nebraska">Denton, Nebraska</a></td>
+		<td class="alert-notice">
+		<span class="hide">1</span><a href="/US/NE/Denton.html#REP"><img src="//icons.wxug.com/graphics/REP.gif" alt="Local Storm Report" height="17" width="17" /></a>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">58.5</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Overcast">Overcast</dfn></td>
+		<td>89%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">29.99</span><span class="wx-unit">&nbsp;in</span></span>
+		(Steady)
+		</td>
+		<td>Calm</td>
+		<td class="nobr">10:05 AM CDT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/NC/Denton.html" title="Weather Forecast for Denton, North Carolina">Denton, North Carolina</a></td>
+		<td class="alert-notice">
+		<span class="hide">0</span>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">73.6</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Mostly Cloudy">Mostly Cloudy</dfn></td>
+		<td>78%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">30.18</span><span class="wx-unit">&nbsp;in</span></span>
+		(Rising)
+		</td>
+		<td>SE at
+  <span class="wx-data"><span class="wx-value">2.7</span><span class="wx-unit">&nbsp;mph</span></span>
+</td>
+		<td class="nobr">11:05 AM EDT</td>
+		</tr>
+		<tr>
+		<td tablesaw-cell-persist><a href="/US/TX/Denton.html" title="Weather Forecast for Denton, Texas">Denton, Texas</a></td>
+		<td class="alert-notice">
+		<span class="hide">1</span><a href="/US/TX/Denton.html#REP"><img src="//icons.wxug.com/graphics/REP.gif" alt="Local Storm Report" height="17" width="17" /></a>
+		<span class="hide">1</span><a href="/US/TX/Denton.html#PUB"><img src="//icons.wxug.com/graphics/PUB.gif" alt="Public Information Statement" height="17" width="17" /></a>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">77.9</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td><dfn data-term="Clear">Clear</dfn></td>
+		<td>59%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">29.92</span><span class="wx-unit">&nbsp;in</span></span>
+		(Steady)
+		</td>
+		<td>SW at
+  <span class="wx-data"><span class="wx-value">2.2</span><span class="wx-unit">&nbsp;mph</span></span>
+</td>
+		<td class="nobr">10:04 AM CDT</td>
+		</tr>
+		<tr>
+		<td><a href="/global/stations/03334.html" title="Weather Forecast for Denton">Denton, United Kingdom</a></td>
+		<td class="alert-notice">
+		<span class="hide">0</span>
+</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">66</span><span class="wx-unit">&nbsp;&deg;F</span></span>
+</td>
+		<td>
+		Partly Cloudy
+		</td>
+		<td>64%</td>
+		<td>
+  <span class="wx-data"><span class="wx-value">29.68</span><span class="wx-unit">&nbsp;in</span></span>
+</td>
+		<td>NE at
+  <span class="wx-data"><span class="wx-value">16</span><span class="wx-unit">&nbsp;mph</span></span>
+</td>
+		<td class="nobr">3:50 PM BST</td>
+		</tr>
+		</tbody>
+	</table>
+	<div class="city-list-severe-key">
+		<h3>Alerts Legend</h3>
+	<div class="row city-list-severe-legend">
+		<div class="column large-3 medium-6 small-12">
+		<div>
+		<img src="//icons.wxug.com/graphics/TOR.gif" width="17" height="17" alt="Tornado Warning" />
+		<dfn data-term="Tornado Warning">Tornado Warning</dfn>
+		</div>
+		<img src="//icons.wxug.com/graphics/TOW.gif" width="17" height="17" alt="Tornado Watch" />
+		<dfn>Tornado Watch</dfn>
+		<div>
+		<img src="//icons.wxug.com/graphics/WRN.gif" width="17" height="17" alt="Severe Thunderstorm Warning" />
+		<dfn>Severe Thunderstorm Warning</dfn>
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/SEW.gif" width="17" height="17" alt="Severe Thunderstorm Watch" />
+		<dfn>Severe Thunderstorm Watch</dfn>
+		</div>
+		</div>
+		<div class="column large-3 medium-6 small-12">
+		<div>
+		<img src="//icons.wxug.com/graphics/WND.gif" width="17" height="17" alt="High Wind Advisory" />
+		<dfn>High Wind Advisory</dfn>
+		</div>
+		<img src="//icons.wxug.com/graphics/FLO.gif" width="17" height="17" alt="Flood Warning" />
+		<dfn>Flood Warning</dfn>
+		<div>
+		<img src="//icons.wxug.com/graphics/WAT.gif" width="17" height="17" alt="Flood Watch / Flood Statement" />
+		<dfn>Flood Watch / Flood Statement</dfn>
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/HUR.gif" width="17" height="17" alt="Hurricane Local Statement" />
+		<dfn>Hurricane Local Statement</dfn>
+		</div>
+		</div>
+		<div class="column large-3 medium-6 small-12">
+		<div>
+		<img src="//icons.wxug.com/graphics/WIN.gif" width="17" height="17" alt="Winter Weather Statement" />
+		<dfn>Winter Weather Statement</dfn>
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/HEA.gif" width="17" height="17" alt="Heat Advisory" />
+		<dfn>Heat Advisory</dfn>
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/FOG.gif" width="17" height="17" alt="Dense Fog Advisory" />
+		<dfn>Dense Fog Advisory</dfn>
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/FIR.gif" width="17" height="17" alt="Fire Weather Advisory" />
+		<dfn>Fire Weather Advisory</dfn>
+		</div>
+		</div>
+		<div class="column large-3 medium-6 small-12">
+		<div>
+		<img src="//icons.wxug.com/graphics/SPE.gif" width="17" height="17" alt="Hurricane Watch" />
+		Special Weather Statement
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/REC.gif" width="17" height="17" alt="Hurricane Warning" />
+		Record Set
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/REP.gif" width="17" height="17" alt="Tropical Storm Watch" />
+		Public Report
+		</div>
+		<div>
+		<img src="//icons.wxug.com/graphics/PUB.gif" width="17" height="17" alt="Tropical Storm Warning" />
+		Public Statement
+		</div>
+		</div>
+	</div>
+	</div>
+	</div>
+		<div class="small-12 large-4 columns">
+	<center class="clearfix">
+		<div id="div-gpt-ad-615639597871654305-1" class="ad-box compact-large align-top">
+		</div>
+		<a href="/member/registration" class="ads-blocked hide">
+		<img class="blocker-banner" data-src="//icons.wxug.com/i/o/adsblocked" alt="Ad Blocker Enabled">
+		</a>
+		<div class="ad-nav">
+		<div class="pubnation ad-link" data-target="div-gpt-ad-615639597871654305-1" style="visibility: hidden;">report this ad</div>
+		<div class="ad-link compact-large align-top"> | </div>
+		<div class="ad-link compact-large align-top" data-reveal-id="why-ads-modal">why ads?</div>
+		</div>
+	</center>
+		</div>
+</div>
+	<center class="clearfix">
+		<div id="div-gpt-ad-615639597871654305-bot" class="ad-box compact-leader">
+		</div>
+		<div class="ad-nav">
+		<div class="pubnation ad-link" data-target="div-gpt-ad-615639597871654305-bot" style="visibility: hidden;">report this ad</div>
+		<div class="ad-link compact-leader"> | </div>
+		<div class="ad-link compact-leader" data-reveal-id="why-ads-modal">why ads?</div>
+		</div>
+	</center>
+		</section>
+		<footer class="primary">
+	<div class="row">
+		<div class="small-12 large-6 large-centered columns">
+		<div class="row">
+		<div class="small-12 medium-4 columns">
+		<ul class="no-bullet">
+		<li><a href="/about/background.asp" title="About Weather Underground">About</a></li>
+		<li><a href="/about/contact.asp" title="Contact Weather Underground">Contact</a></li>
+		<li><a href="http://careers.weather.com/search/?q=&locationsearch=san+francsico?utm_source=careersite&utm_campaign=wunderground" target="_blank" title="Weather Underground Employment Opportunities">Jobs</a></li>
+		<li><a href="http://www.theweathercompany.com/newsroom" target="_blank" title="Weather Underground In The News">News</a></li>
+		</ul>
+		</div>
+		<div class="small-12 medium-4 columns">
+		<ul class="no-bullet">
+		<li><a href="/download/index.asp" title="Weather Underground Mobile Apps">Our Apps</a></li>
+		<li><a href="/weather/api" title="The Weather API">Weather API</a></li>
+		<li><a href="/auto/wxmap" title="Experience Full Screen Weather">Full Screen Weather</a></li>
+		<li><a href="/weatherstation/" title="Personal Weather Station Network">Personal Weather Stations</a></li>
+		</ul>
+		</div>
+		<div class="small-12 medium-4 columns">
+		<ul class="no-bullet">
+		<li><a href="/sitemap/" title="Weather Underground Site Map">Site Map</a></li>
+		<li><a href="http://help.wunderground.com/" target="_blank" title="Customer Feedback for Weather Underground">Feedback</a></li>
+		<li><a href="/members/tos.asp" title="Privacy Statement">Terms of Use / Privacy</a></li>
+		<li><a href="/adchoices.asp" class="ad-choices">AdChoices</a></li>
+		</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="columns copyright-wrap">
+		<p class="copyright">
+		&copy; Copyright 2016 The Weather Company, LLC
+		</p>
+		</div>
+	</div>
+</footer>
+<a class="exit-off-canvas"></a>
+		</div>
+		<div id="why-ads-modal" class="reveal-modal small-modal" data-reveal aria-hidden="true" role="dialog">
+  <p>Ads help us bring you the weather for free. We want to be able to continue building great weather products for everyone.</p>
+  <p>
+  For less than a dollar a month ($10/yr) you can sign up for a premium membership and remove ads.
+  </p>
+  <p class="text-center">
+  <a href="/member/registration" class="button medium radius">Remove Ads</a>
+  </p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+		</div>
+<script>
+	wui.bootstrapped = {
+		iconPath: "i/c/v4",
+		"localtime": {
+  "epoch": null,
+  "pretty": null,
+  "rfc822": null,
+  "iso8601": null,
+  "year": null,
+  "month": null,
+  "day": null,
+  "yday": null,
+  "hour": null,
+  "min": null,
+  "sec": null,
+  "monthname": null,
+  "monthname_short": null,
+  "weekday": null,
+  "weekday_short": null,
+  "ampm": null,
+  "tz_short": null,
+  "tz_long": null,
+  "tz_offset_text": null,
+  "tz_offset_hours": null
+},
+		"usertime": {
+  "epoch": 1462979116,
+  "pretty": "3:05 PM GMT on May 11, 2016",
+  "rfc822": "Wed, 11 May 2016 15:05:16 +0000",
+  "iso8601": "2016-05-11T15:05:16+0000",
+  "year": 2016,
+  "month": 5,
+  "day": 11,
+  "yday": 131,
+  "hour": 15,
+  "min": "05",
+  "sec": 16,
+  "monthname": "May",
+  "monthname_short": "May",
+  "weekday": "Wednesday",
+  "weekday_short": "Wed",
+  "ampm": "PM",
+  "tz_short": "GMT",
+  "tz_long": "UTC",
+  "tz_offset_text": "+0000",
+  "tz_offset_hours": 0.00
+},
+		search: "", //Used for Wundermap autocomplete initialization
+		async: false,
+		https: false,
+		smurfs: false,
+		showUstreamTDU: false,
+		showDailyDownpourTDU: false,
+		showSurveyBanner: false,
+  showPrivacyBanner: false,
+		dailyDownpourText: '',
+		showBOM: false,
+		//These scripts are interacted with via scriptUsher.js, located in wui-js
+		scripts: {
+		amazon_bid: {
+		url: "//aax.amazon-adsystem.com/e/dtb/bid?src=1004&u="+encodeURIComponent(document.location)+"&cb="+Math.round(1e7 * Math.random()),
+		promise: null,
+		timeout: 500
+		},
+		lotame_ads: {
+		url :"//ad.crwdcntrl.net/5/c=2215/pe=y/callback=?",
+		dataType : "jsonp",
+		promise: null,
+		timeout: 500
+		},
+		wfxtriggers: {
+		url:"//triggers1.wfxtriggers.com/json/?resp_type=json&acctid=" + (window.innerWidth > 990 ? "B1CC73" : "5B3739") + "&current=true&df=1,2,3&zcs=&nzcs=00000",
+		dataType : "jsonp",
+		promise: null,
+		timeout: 500
+		},
+		'amp.premier': {
+		url: '/amp.premier/amp.premier.min.js',
+		done: function() {
+		akamai.amp.AMP.loadDefaults('/amp.premier/amp.premier.xml');
+		}
+		},
+		googlemaps: {
+		url: "//maps.googleapis.com/maps/api/js?sensor=false&client=gme-theweatherchannel&channel=CityPage&libraries=geometry&" +
+		"callback=wui.bootstrapped.scripts.googlemaps.callback",
+		promise: null,
+		callback: function() {
+		wui.bootstrapped.scripts.googlemaps.promise.resolve();
+		}
+		},
+		mapbox: {
+		url: "//api.mapbox.com/mapbox.js/v2.2.2/mapbox.js?",
+		promise: null
+		},
+		mosaicmap: {
+		//url: "//icons.wxug.com/wxmapsdk/1.1.2/wx.js?apiKey=abcdefghijklmnopqrstuvwxyz0123456789&",
+		url: "//icons.wxug.com/scripts/wxmapsdk/1.5.0/wx.js",
+		promise: null
+		},
+		mosaicwundermap: {
+  url: "//icons.wxug.com/scripts/mosaicmap/1.1.5/wui.mosaicmap.min.js",
+		promise: null
+		},
+		infobox: {
+		url: "/scripts/wundermap/src/wu4/stable/gmap_util_lib/infobox_packed.js?v=3.5.20",
+		promise: null
+		},
+		'jquery-cookie': {
+		url: "//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js",
+		promise: null
+		},
+		tealium: {
+		url: "//tags.tiqcdn.com/utag/weather/wunderground/prod/utag.js",
+		promise: null
+		},
+		wundermap: {
+		// SHH TODO: Update SERVERCONFIG, then reference SERVERCONFIG.WunderMap.Version.release
+		url: "//icons.wxug.com/scripts/wundermap/release/8.1.2/wundermap.min.js?v=1.3",
+		promise: null
+		},
+		angularStationselect: {
+		url: '//icons.wxug.com/scripts/angular/1.3.1/angular.min.js',
+  promise: null,
+		done: function() {
+  var stationselect_promise = null;
+  stationselect_promise = wui.usher.loadScript('stationselect');
+		}
+		},
+		stationselect: {
+		url: "//icons.wxug.com/scripts/wui-station-select/0.0.1/wui.ngstationselect.min.js",
+		promise: null,
+  done: function() {
+  var temp = angular.bootstrap(document, ["wu_station_select"]);
+  var count = 0;
+  var timeout = setInterval(function() {
+  count++;
+  if(count>10){
+  clearInterval(timeout);
+  }
+  else if (temp) {
+  angular.element('#station-select-button-ng').triggerHandler('click');
+  clearInterval(timeout);
+  }
+  }, 1000);
+  }
+		},
+		}
+	};
+</script>
+<script>
+	wui.bootstrapped.scripts.wundermap.promise = jQuery.Deferred().resolve();
+	wui.bootstrapped.scripts.googlemaps.promise = jQuery.Deferred().resolve();
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.time.min.js"></script>
+<script src="//icons.wxug.com/scripts/backbone-nested/1.1.2/backbone-nested.min.js"></script>
+<script src="//icons.wxug.com/scripts/foundation/5.2.2-patch/foundation.equalizer.min.js"></script>
+<script src="//icons.wxug.com/scripts/responsive-tables.js?v=2"></script>
+	<script src="//icons.wxug.com/scripts/tablesaw/1.0.4/tablesaw.min.js"></script>
+	<script src="//icons.wxug.com/scripts/pubnation.js"></script>
+	<script src="//icons.wxug.com/scripts/wui-whyads/advert.js?0.0.3"></script>
+	<script src="//icons.wxug.com/scripts/wui-sitewide/2.1.1/wui.sitewide.min.js"></script>
+	<script src="//icons.wxug.com/scripts/wui-backbone/1.3.4/wui.backbone.min.js"></script>
+<script>
+wui.bootstrapped.prefs = {
+	'selected_pws': "",
+	'CP_FCTTAB': null,
+	'CP_VAR_dp': null,
+	'CP_VAR_fl': null,
+	'CP_VAR_temp': null,
+	'CP_VAR_cc': null,
+	'CP_VAR_pop': null,
+	'CP_VAR_h': null,
+	'CP_VAR_p': null,
+	'CP_VAR_wspd': null,
+	'CP_VAR_qpf': null,
+	'CP_VAR_precip': null,
+	'EXPFCT': "1",
+	'RADARBOX': null,
+	'RADARBOX_WEBCAM': null,
+	'GMAPTYPE': '',
+	'GMAPUNITS': '',
+	'iconset': '',
+	'LangCode': 'EN',
+	'BrowserCode': 'en_US',
+	'Units': 'english',
+	'raw_string': '',
+  'fodqa' : false,
+	'rapidfire': '10'
+};
+</script>
+<script>
+wui.bootstrapped.ajax_favorites = true; //added for wundermap favorites layer loading
+wui.bootstrapped.citylist = "";
+//wui.bootstrapped.citylist = "";
+</script>
+<script>
+wui.bootstrapped.recents = [];
+</script>
+<script>
+wui.bootstrapped.popular=[
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "New York, NY",
+	"type": "popular",
+	"zmw": "10001.5.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "London, UK",
+	"type": "popular",
+	"zmw": "00000.1.03772"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "Chicago, IL",
+	"type": "popular",
+	"zmw": "60290.1.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "Boston, MA",
+	"type": "popular",
+	"zmw": "02101.1.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "Houston, TX",
+	"type": "popular",
+	"zmw": "77001.1.99999"
+		},
+	{
+	url: "///",
+	"lat": null,
+	"lon": null,
+	"name": "San Francisco, CA",
+	"type": "popular",
+	"zmw": "94101.1.99999"
+		},
+	];
+if(!wui.bootstrapped.favorites && wui.bootstrapped.recents.length===0 && wui.bootstrapped.citylist=="") {
+wui.bootstrapped.popularcities = ["10001.5.99999","00000.1.03772","60290.1.99999","02101.1.99999","77001.1.99999","94101.1.99999"];
+}
+</script>
+<script>
+wui.bootstrapped.ads = {
+	interval: 120000,
+	enableAdRefresh: 1,
+	ugc: false
+};
+</script>
+	<script>
+	var pwidget_config = {
+  copypaste: false,
+  shareQuote: false,
+		defaults: {
+		afterShare: false,
+  afterShareText: false,
+  shareAgain: false
+		}
+  };
+</script>
+		<script>
+		var crtg_nid="1458";
+		var crtg_cookiename="cto_wun";
+		var crtg_varname="crtg_content";
+		function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';}
+				var crtg_content = crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);
+				var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&cookieName='+escape(crtg_cookiename);crtg_url+='&rnd='+crtg_rnd;crtg_url+='&varName=' + escape(crtg_varname);
+				var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+				if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+		</script>
+		<script src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script>try{amznads.getAds('1004');}catch(e){}</script>
+	<script src="//tags.crwdcntrl.net/c/2216/cc.js?ns=_cc2216" id="LOTCC_2216"></script>
+<script>
+	if(window.innerWidth > 1025) {
+		var ad_unit = "web_wunderground_us";
+		var ad_plat = "wund";
+		var pos_top = "wx_ws";
+		var pos_top_sizes = [[728,91],[970,90],[970,250]];
+		var pos_big = "wx_300var";
+		var pos_big_sizes = [[300,600],[300,251]];
+		var pos_hsd_sizes = [[728,91]];
+		var pos_box = "wx_300sm";
+		var pos_mid = "wx_mid300";
+		var pos_low = "wx_bot300";
+		var pos_low_1 = "wx_bot300_1";
+		var pos_mil = "wx_midldr";
+		var pos_bot = "wx_botldr";
+		var pos_bot_sizes = [[728,91]];
+		var pos_ss = "wx_ss";
+		var pos_ss2 = "wx_ss2";
+		var pos_pds = "wx_pds";
+		var pos_tdu = "wx_hsd";
+		var wfx_id = "B1CC73";
+	}
+	else {
+		var ad_unit = "mobile_smart_wunderground_us";
+		var ad_plat = "wund_mw";
+		var pos_top = "mw_top";
+		var pos_top_sizes = [[320,51]];
+		var pos_big = "mw_mid1";
+		var pos_big_sizes = [[300,251],[320,51]];
+		var pos_hsd_sizes = [[300,251]];
+		var pos_box = "mw_mid1";
+		var pos_mid = "null";
+		var pos_low = "mw_mid2";
+		var pos_mil = "null";
+		var pos_bot = "mw_bot";
+		var pos_bot_1 = "null";
+		var pos_bot_sizes = [[300,251]];
+		var pos_ss = "null";
+		var pos_ss2 = "null";
+		var pos_pds = "null";
+		var pos_tdu = "wx_hmd";
+		var wfx_id = "5B3739";
+	}
+		var criteo_array = (window['crtg_content']) ? crtg_content.split("|") : null;
+		var criteo_list = [];
+		window.combined_hash = {};
+		for(var i in criteo_array){
+		var kv = criteo_array[i].split("=");
+		if(kv[1] == 1) {
+		criteo_list.push(kv[0]);
+		}
+		}
+		window.combined_hash['cig'] = criteo_list.join(',');
+		var amz_keys = (window['amznads']) ? amznads.getKeys() : null;
+		if(amz_keys){
+		var amz_string = '';
+  for (var i = 0; i < amz_keys.length; i++) {
+           if(i > 0) {
+  amz_string = amz_string + ",";
+  }
+  amz_string = amz_string + amz_keys[i];
+  }
+  window.combined_hash['amznslots'] = amz_string;
+		}
+		var wundermap_layers = "";
+		if("" == "on") {
+		wundermap_layers = "trop";
+		}
+	var isEdge = navigator.userAgent.indexOf('Edge') >=0;
+	var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+	var isFirefox = typeof InstallTrigger !== 'undefined';
+	var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+	var isChrome = !!window.chrome && !isOpera && !isEdge;
+	var isIE = /*@cc_on!@*/false || !!document.documentMode;
+	var browser_type = null;
+	if (isFirefox) {
+		browser_type = 'wuff';
+	} else if (isSafari) {
+		browser_type = 'wusafari';
+	} else if (isChrome) {
+		browser_type = 'wuchrome'
+	} else if (isIE) {
+		browser_type = 'wuie';
+	} else if (isEdge) {
+		browser_type = 'wuedge';
+	}
+	var utag_data = {
+		ad_placements :[
+		["/7646/"+ad_unit+"/local_forecasts", pos_top_sizes, "div-gpt-ad-615639597871654305-top", {"pos": pos_top, "atf": "1"}],
+		["/7646/"+ad_unit+"/local_forecasts", pos_big_sizes, "div-gpt-ad-615639597871654305-1", {"pos": pos_big, "atf": "1",}],
+		["/7646/"+ad_unit+"/local_forecasts", [[160,600]], "div-gpt-ad-615639597871654305-2", {"pos": pos_ss, "atf": "1",}],
+		["/7646/"+ad_unit+"/local_forecasts", pos_bot_sizes, "div-gpt-ad-615639597871654305-bot", {"pos": pos_bot, "atf": "0"}],
+		],
+		ad_unit : "/7646/"+ad_unit+"/local_forecasts",
+		preempt : "y",
+		platform : ad_plat,
+		site : "www",
+		exclude : "wund",
+		page_view : "-1",
+		weather_fx : "",
+		weather_fx_zcs : "",
+		weather_fx_nzcs : "",
+		ad_bidding : combined_hash,
+		page_name : "CityList: /local_forecasts",
+		channel : "CityList",
+		content_type : "Other Content",
+		sub_section : "CityList > CityList",
+		events : "",
+		search_term : "Denton%2C",
+		search_type : "other",
+		page : "CityList",
+		category : "CityList",
+		browser_type : browser_type,
+		sharing : "post",
+		display_ads : "yes",
+		ssl_page : "no",
+		member_pws : "0",
+		member_webcam : "0",
+		member_translator : "0",
+		member_approver : "0",
+		member_zealot : "0",
+		member_moderator : "0",
+		member_favorites : "0",
+		ad_blocker : window.noAdBlocker ? "no" : "yes",
+		member_type : "non-member"
+	}
+</script>
+	<script>
+		(function($) {
+		var wfx_url = '//triggers1.wfxtriggers.com/json/?resp_type=json&acctid=' + wfx_id + '&current=true&df=1,2,3&zcs=&nzcs=00000';
+		$.ajax({
+		url: wfx_url,
+		dataType: 'jsonp',
+		cache: true,
+		type: 'GET',
+		timeout: 5000,
+		success: function(data) {
+		if (data && data.wfxtg) {
+		var types = ['zcs', 'hzcs', 'nzcs'];
+		if (data.wfxtg.current) {
+		utag_data.weather_fx = data.wfxtg.current.join(',');
+		}
+		if (data.wfxtg.scatterSegs) {
+		for (var i = 0, len = data.wfxtg.scatterSegs.length; i < len; i++) {
+								var seg = data.wfxtg.scatterSegs[i];
+								var type;
+								for (var key in seg) {
+									if (seg.hasOwnProperty(key)) {
+						                type = key;
+						            }
+								}
+
+								if (type.length && seg[type].length && $.inArray(type, types) > -1) {
+		var segments = seg[type][0].segments;
+		if (segments && segments.length) {
+		utag_data['weather_fx_' + type] = segments.join(',');
+		}
+		}
+		}
+		}
+		}
+		},
+		error: function(){
+		console.log('wfxtriggers failed');
+		}
+		});
+		var url2 = '//ad.crwdcntrl.net/5/c=2215/pe=y/callback=?';
+		$.ajax({
+		url: url2,
+		dataType: 'jsonp',
+		cache: true,
+		type: 'GET',
+		timeout: 5000,
+		success: function(data) {
+		utag_data['lotame_audience'] = '';
+		if(data && data.Profile && data.Profile.Audiences && data.Profile.Audiences.Audience) {
+		for(var i = 0; i < data.Profile.Audiences.Audience.length; i++) {
+							if(i > 0) {
+		utag_data['lotame_audience'] = utag_data['lotame_audience'] + ',';
+		}
+		utag_data['lotame_audience'] = utag_data['lotame_audience'] + data.Profile.Audiences.Audience[i].id;
+		}
+		}
+		utag_data['tpid'] = data && data.Profile && data.Profile.tpid || '';
+		if (window._cc2216) {
+		if(utag_data.dma) { _cc2216.add("seg", "dma_" + utag_data.dma); }
+		if(utag_data.state) { _cc2216.add("seg", "state_" + utag_data.state); }
+		if(utag_data.country_code) { _cc2216.add("seg", "country_" + utag_data.country_code); }
+		if(utag_data.language) { _cc2216.add("seg", "lang_" + utag_data.language); }
+		if(utag_data.temperature) { _cc2216.add("seg", "temp_" + utag_data.temperature); }
+		if(utag_data.temperature_range) { _cc2216.add("seg", "tempR_" + utag_data.temperature_range); }
+		if(utag_data.pollen) { _cc2216.add("seg", "pollen_" + utag_data.pollen); }
+		if(utag_data.humidity) { _cc2216.add("seg", "hum_" + utag_data.humidity); }
+		if(utag_data.condition) { _cc2216.add("seg", "cond_" + utag_data.condition); }
+		if(utag_data.forecast_high_imcrement) { _cc2216.add("seg", "tempH_" + utag_data.forecast_high_imcrement); }
+		if(utag_data.forecast_high_range) { _cc2216.add("seg", "tempHR_" + utag_data.forecast_high_range); }
+		if(utag_data.forecast_low_increment) { _cc2216.add("seg", "tempL_" + utag_data.forecast_low_increment); }
+		if(utag_data.forecast_low_range) { _cc2216.add("seg", "tempLR_" + utag_data.forecast_low_range); }
+		if(utag_data.forecast_day_1) { _cc2216.add("seg", "fc1_" + utag_data.forecast_day_1); }
+		if(utag_data.forecast_day_2) { _cc2216.add("seg", "fc2_" + utag_data.forecast_day_2); }
+		if(utag_data.forecast_day_3) { _cc2216.add("seg", "fc3_" + utag_data.forecast_day_3); }
+		if(utag_data.barometer) { _cc2216.add("seg", "baroTendency_" + utag_data.barometer); }
+		_cc2216.bcp();
+		}
+		},
+		error: function(){
+		console.log('lotame adcontrol failed');
+		}
+		});
+		})(jQuery);
+	</script>
+	<script>
+		(function(a,b,c,d){
+		a='//tags.tiqcdn.com/utag/weather/wunderground/prod/utag.js';
+		b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+		a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+		})();
+	</script>
+		<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+		FB.init({
+		appId : wui.facebook.app_id,
+		channelUrl : wui.facebook.channel_url,
+		status : true,
+		cookie : true,
+		xfbml : true,
+		version : 'v2.0'
+		});
+		wui.facebook.on_load_trigger();
+		};
+		(function(d){
+		var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement('script'); js.id = id; js.async = true;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		ref.parentNode.insertBefore(js, ref);
+		}(document));
+	</script>
+	</body>
+</html>

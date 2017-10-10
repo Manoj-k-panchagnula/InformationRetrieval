@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Policies - University of North Texas - Acalog ACMS™</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="//acalog-clients.s3.amazonaws.com/production/unt/img/favicon/favicon.ico" />
+<link href="//acalog-clients.s3.amazonaws.com/production/unt/css/gateway/user-styles.css" rel="stylesheet" type="text/css">
+<link href="css/public_custom.php" rel="stylesheet" type="text/css">
+<link href="global_styles.css" rel="stylesheet" type="text/css">
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+
+<script src="/js/prototype.js"></script>
+<script src="/js/scriptaculous.js" type="text/javascript"></script>
+<script src="/js/Tooltip.js"></script>
+<script src="/js/highlight.js" type="text/javascript"></script>
+<script src="javascripts.js" type="text/javascript" language="Javascript"></script>
+
+<script type="text/javascript">var gatewayFeatureSearchBar = true; var gatewayFeatureToolbarText = false; var gatewayFeatureBackToTopText = false;</script>
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-reset.css" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/global/css/gateway-styles-nojs.css" id="gateway-styles-nojs" />
+<link type="text/css" rel="stylesheet" href="//acalog-clients.s3.amazonaws.com/production/unt/css/gateway/gateway-styles.css" />
+<script type="text/javascript">document.getElementById("gateway-styles-nojs").parentNode.removeChild(document.getElementById("gateway-styles-nojs"));</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/jquery.browser.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/gateway-javascript.js"></script>
+<!--[if lte IE 8]><script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/global/js/select-fix.js"></script><![endif]-->
+</head>
+<body>
+	<noscript><p><span class="error">Javascript is currently not supported, or is disabled by this browser. Please enable Javascript for full functionality.</span></p></noscript>	<a href="#accesskeys" accesskey="k"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="The page uses Browser Access Keys to help with keyboard navigation. Click to learn more" style="height: 0px"></a><a href="#acalog-nav" accesskey="n"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip to Navigation" style="height: 0px"></a><a name="accesskeys"></a><div class="accesskeys">
+	<p>Different browsers use different keystrokes to activate accesskey shortcuts. Please reference the following list to use access keys on your system.</p>
+	<dl>
+		<dt>Alt and the accesskey, for Internet Explorer on Windows</dt>
+		<dt>Shift and Alt and the accesskey, for Firefox on Windows</dt>
+		<dt>Shift and Esc and the accesskey, for Windows or Mac</dt>
+		<dt>Ctrl and the accesskey, for the following browsers on a Mac: Internet Explorer 5.2, Safari 1.2, Firefox, Mozilla, Netscape 6+.</dt>
+	</dl>
+	<p>We use the following access keys on our gateway</p>
+	<dl>
+		<dt>n Skip to Navigation</dt>
+		<dt>k Accesskeys description</dt>
+		<dt>h Help</dt>
+	</dl>
+</div><table cellspacing="0" class="toplevel">
+  <tr>
+	<td colspan="2" class="block_n2_and_content" id="acalog-header"><div id="acalog-client-javascript" class="acalog-custom">
+<script type="text/javascript">
+jQuery(document).ready( function($) { if ($('#gateway-page').length) {
+
+    }});
+</script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/jquery.equalheights.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/jquery.imagefit.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/scripts.js"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/menu.js"></script>
+<script src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/urchin.js" type="text/javascript"></script>
+<script type="text/javascript" src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/script-block-01.js"></script> 
+<!--[if IE 8]>
+<script type='text/javascript' src='http://www.unt.edu/js/respond.min.js'></script>
+<![endif]-->
+</div>
+<!-- End Client Javascript -->
+
+<!-- Start Client Header -->
+<div id="acalog-client-header" class="acalog-custom">
+    <div id="mobile-header" class="mobile">
+        <div class="inside-greenlight">
+            <div class="inside">
+                <p id="mobile-search" class="toggler-search" title="Toggle Search">
+                    &#160;
+                </p>
+                <div id="mobile-branding">
+                    <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90"></a>
+                </div>
+                <div id="mobile-nav-block" class="mo-hide">
+                    <div class="inside"></div>
+                </div>
+<!-- /MOBILE MENU -->
+                <div id="mobile-search-block" class="mo-hide">
+                    <div class="inside">
+                        <form method="get" action="http://www.google.com/u/unorthtexas" id="mobile-sform" name="mobile-sform">
+                            <label for="searchterms">Search the UNT web site:</label> <input id="mobile-searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()"><input name="sa" type="submit" value="Search" id="mobile-sbutton">
+                        </form>
+                    </div>
+                </div>
+<!-- /MOBILE SEARCH -->
+            </div>
+        </div>
+    </div>
+<!-- /MOBILE HEADER -->
+    <div id="header">
+        <div id="user">
+            <div id="user-wrapper">
+                <div class="grid-12">
+                    <button class="search-button">Search the UNT web site</button>
+                    <form method="get" action="http://www.google.com/u/unorthtexas" id="sform" name="sform">
+                        <label for="searchterms">Search the UNT web site:</label> <input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()"> <input name="sa" type="submit" value="Search" id="sbutton">
+                    </form>
+                    <ul id="quicklinks" class="mo-hide">
+                        <li>
+                            <a target="_blank" href="http://translate.google.com/translate?u=http%3A//www.unt.edu&amp;langpair=en|es&amp;hl=en&amp;ie=UTF8" onclick="javascript:urchinTracker('/outgoinghome/inspanish');">En Español</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://my.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/myunt');">MyUNT</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://eagleconnect.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/eagleconnect');">EagleConnect</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://webctvista.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/blackboard');">Blackboard</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.unt.edu/find-people-department.htm">People</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.unt.edu/calendars-events.htm">Calendars</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.applytexas.org/adappc/gen/c_start.WBX">Apply Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="branding">
+            <div id="branding-wrapper">
+                <div id="branding-std" class="mo-hide">
+                    <div class="grid-6" id="site-logo">
+                        <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-side-by-side.png" alt="UNT | University of North Texas"></a>
+                    </div>
+                    <div class="grid-6" id="tagline">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/greenlight-tagline.png" alt="A Green Light ot Greatness">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navigation">
+            <div id="nav-wrapper"></div>
+        </div>
+    </div>
+</div>
+<!-- End Client Header -->
+
+<!-- Start Client Footer -->
+<div id="acalog-client-footer" class="acalog-custom">
+    <div id="footer" itemscope="" itemtype="http://schema.org/Organization">
+        <div id="footer-wrapper">
+            <div class="grid-3" id="footer-logo">
+                <div class="content clearfix" itemprop="logo">
+                    <a target="_blank" href="http://www.unt.edu/"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" class="footer-logo" height="150px" width="245px"></a>
+                </div>
+            </div>
+            <div id="mobile-footer-branding">
+                <div id="mobile-footer-logo">
+                    <div class="inside">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" height="150px" width="245px">
+                    </div>
+                </div>
+                <div id="mobile-footer-tagline">
+                    <div class="inside">
+                        <img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/greenlight-tagline.png" alt="A Green Light ot Greatness" height="30px" width="268px">
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-visit">
+                <div class="content">
+                    <h3 id="footer-1" class="footer-toggler footer-title">
+                        Visit Us
+                    </h3>
+                    <div id="collapse-footer-1" class="footer-toggler-content footer-hide">
+                        <p class="footer-block-content">
+                            <span itemprop="name"><strong>University of North Texas</strong></span><br>
+                            <span itemprop="PostalAddress">1155 Union Circle #311277<br>
+                            Denton, Texas 76203-5017</span><br>
+                            <span class="map-link"><a target="_blank" href="https://goo.gl/maps/iIYM4">[map]</a> | <a target="_blank" href="http://www.unt.edu/visit-unt.htm">Tour Information</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-mail">
+                <div class="content">
+                    <h3 id="footer-2" class="footer-toggler footer-title">
+                        Email Us
+                    </h3>
+                    <div id="collapse-footer-2" class="footer-toggler-content footer-hide">
+                        <ul class="footer-block-content footer-emails">
+                            <li>
+                                <a href="mailto:unt.freshmen@unt.edu" itemprop="email">Freshmen admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:unt.transfer@unt.edu" itemprop="email">Transfer admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:graduateschool@unt.edu" itemprop="email">Graduate admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:international@unt.edu" itemprop="email">International admissions</a>
+                            </li>
+                            <li>
+                                <a href="mailto:housinginfo@unt.edu" itemprop="email">Housing information</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-3" id="footer-contact">
+                <div class="content">
+                    <h3 id="footer-3" class="footer-toggler footer-title">
+                        Contact Us
+                    </h3>
+                    <div id="collapse-footer-3" class="footer-block-content footer-toggler-content footer-hide">
+                        <p style="margin-bottom: 24px;" itemprop="telephone">
+                            <a href="tel:+19405652000"><span class="phone-lg">940-565-2000</span></a><br>
+                            <a target="_blank" href="http://www.unt.edu/find-people-department.htm">University Directory</a>
+                        </p>
+                        <p style="padding-top: 0 !important;">
+                            <a href="mailto:catalog@unt.edu">For questions about content in this web site, contact catalog@unt.edu.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="state-links">
+        <div id="state-wrapper">
+            <div class="grid-12 state-links">
+                <div class="content">
+                    <p class="sate-links-list mo-hide">
+                        <a target="_blank" href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a>&#160; | &#160; <a target="_blank" href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a>&#160; | &#160;<a target="_blank" href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a>&#160; | &#160;<a target="_blank" href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br>
+                        <a target="_blank" href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a>&#160; | &#160;<a target="_blank" href="http://compliance.untsystem.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a>&#160; | &#160;<a target="_blank" href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a>&#160; | &#160;<a target="_blank" href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a>&#160; | &#160;<a target="_blank" href="http://www.unt.edu">UNT Home</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="social-icons" class="mo-hide">
+        <div class="social-icon">
+            <a target="_blank" href="https://www.facebook.com/northtexas" class="facebook" title="facebook" onclick="javascript:urchinTracker('/outgoinghome/facebook');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-facebook.png" alt="facebook"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="https://twitter.com/untnews" class="twitter" title="twitter" onclick="javascript:urchinTracker('/outgoinghome/twitter');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-twitter.png" alt="twitter"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://www.youtube.com/user/universitynorthtexas" class="youtube" title="YouTube" onclick="javascript:urchinTracker('/outgoinghome/youtube');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-youtube.png" alt="YouTube"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://m.unt.edu/" class="togo" title="UNT ToGo" onclick="javascript:urchinTracker('/outgoinghome/unttogo');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-mobile.png" alt="UNT ToGo"></a>
+        </div>
+        <div class="social-icon">
+            <a target="_blank" href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory" onclick="javascript:urchinTracker('/outgoinghome/socialmediadirectory');"><img src="//acalog-clients.s3.amazonaws.com/production/unt/img/gateway/icon-directory.png" alt="UNT Social Media Directory"></a>
+        </div>
+    </div>
+</div>
+<!-- End Client Footer --></td>
+  </tr>
+  <tr class="acalog-block-n1">
+    <td class="block_n1_left">&#160;&#160;&#160;</td>
+	<td class="block_n1_right"><span class="n1_header">	University of North Texas</span>
+	</td>
+  </tr>
+  <tr>
+	<td class="block_border_left">&#160;&#160;&#160;</td>
+	<td class="block_n2_and_content">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_and_content">
+			  <tr>
+				<!-- Begin N3 -->
+						<td class="block_date_outer_left" width="10">&#160;</td>
+		  <td class="block_date_inner" width="150">
+			<div align="center"><span class="date">&#160;
+May 11, 2016		</span></div>
+		  </td>
+		  <td class="block_date_outer_right" width="10">&#160;</td>
+		  <td valign="top" class="block_n2_and_content">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+
+				<td class="block_n3_off block_n3_left"><span class="n3_header"><span id="acalog-catalog-name" style="display: none">2015-2016 Undergraduate Catalog</span>&#160;</span></td>
+				  <td class="block_n3_off block_n3_right" align="right">
+				<form name="select_catalog" method="post" action="/index.php" style="margin: 0px">
+					<table border="0" cellspacing="0" cellpadding="0">
+					  <tr valign="top">
+						<td>						  <select tabIndex="201" name="catalog" title="Select a Catalog">										<option value="13" selected>2015-2016 Undergraduate Catalog</option>
+																				<option value="14" >2015-2016 Graduate Catalog</option>
+																				<option value="11" >2014-2015 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="12" >2014-2015 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="9" >2013-2014 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="10" >2013-2014 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="5" >2012-2013 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="7" >2012-2013 Graduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="3" >2011-2012 Undergraduate Catalog [ARCHIVED CATALOG]</option>
+																				<option value="4" >2011-2012 Graduate Catalog [ARCHIVED CATALOG]</option>
+																  </select>
+						  </td>
+						  <td>&#160;&#160;
+				<input type="submit" title="Select a Catalog" name="sel_cat_submit" value="GO" tabIndex="202">
+				&#160;
+						  				</td>
+					  </tr>
+					</table>
+				</form>
+				  </td>
+			  </tr>
+			</table>
+		  </td>
+			<!-- End N3. -->
+			  </tr>
+				<tr>
+			<!-- N2 goes here. -->
+		  	<td class="block_n2" style="font-size:0px; clear: both;" width="150" valign="top" colspan="3" id="acalog-nav">
+	<a href="#acalog-content"><img src="/img/spacer.gif" width="0" height="0" border="0" alt="Skip Navigation"></a>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="block_n2_content">
+	<tr>
+		<td class="block_n2_search" >
+	  <form name="n2_search" method="get" action="/search_advanced.php" onSubmit="return validateSearchOptions()">
+		  <input type="hidden" title="Cur Cat OID" name="cur_cat_oid" value="13">
+		  <input type="hidden" title="Search Database" name="search_database" value="Search">
+		  <input type="hidden" title="Search" name="search_db" value="Search">
+		  <input type="hidden" title="cpage" name="cpage" value="1">
+		  <input type="hidden" title="ecpage" name="ecpage" value="1">
+		  <input type="hidden" title="ppage" name="ppage" value="1">
+		  <input type="hidden" title="spage" name="spage" value="1">
+		  <input type="hidden" title="tpage" name="tpage" value="1">
+		  <span class="n2_search_header">Catalog Search</span>			<br>
+			<span style="display: auto;"><select name="location" id="location" style="width: 120px;" tabindex="100" title="Choose Search Location">
+					<option value="-1">Select an option</option>
+				<option value="3" selected>Courses</option>
+				<option value="1" selected>Programs</option>
+				<option value="28" selected>Academic Units</option>
+				<option value="30" selected>Other Content</option>
+				<option value="33" selected>Entire Catalog</option>
+			</select><br></span>
+			<span style="display: auto;"><input type="text" title="Keyword" name="filter[keyword]" value="Enter Keyword  " size="15" maxlength="150" id="keyword" onFocus="if (this.value == 'Enter Keyword  ') { this.value=''; }" style="width: 120px; padding-left: 0.4em;" tabIndex="101">
+			<input type="submit" title="GO" value="GO" tabindex="103"><br></span>
+			<span style="display: none;"><br /><input type="checkbox" title="Exact Match" name="filter[exact_match]" tabindex="102" value="1"  id="exact_match_n2"> <label for="exact_match_n2" class="n2_search">Whole Word/Phrase</label><br /></span>
+		  <span class="n2_search"><a href="/search_advanced.php?catoid=13" class="navbar" tabIndex="104">Advanced Search</a></span><br>
+	  </form>
+		</td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td nowrap>
+		<table width="170" border="0" cellspacing="0" cellpadding="0" class="block_n2_links">
+		  <tr>
+			<td id="acalog-navigation">
+			  <div class="n2_links">&#160;&#160;<a href="/index.php?catoid=13" class="navbar" tabindex="105">Catalog Home</a></div>
+<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=989" class="navbar" tabIndex="106">Majors, minors, certificates</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=960" class="navbar" tabIndex="107">Course descriptions</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=973" class="navbar" tabIndex="108">The&#160;university</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=974" class="navbar" tabIndex="109">2015-2016 Academic calendar</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=975" class="navbar" tabIndex="110">Admission</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=972" class="navbar" tabIndex="111">Academics</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1002" class="navbar" tabIndex="112">University Core Curriculum</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=976" class="navbar" tabIndex="113">Enrollment</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=977" class="navbar" tabIndex="114">Financial information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=978" class="navbar" tabIndex="115">Campus resources</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=979" class="navbar" tabIndex="116">Policies</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=980" class="navbar" tabIndex="117">Contacts at UNT</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=990" class="navbar" tabIndex="118">Degree programs listed by academic unit</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=961" class="navbar" tabIndex="119">Honors College</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=962" class="navbar" tabIndex="120">College of Arts and Sciences</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=963" class="navbar" tabIndex="121">College of Business</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=964" class="navbar" tabIndex="122">College of Education</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=965" class="navbar" tabIndex="123">College of Engineering</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=966" class="navbar" tabIndex="124">College of Information</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=967" class="navbar" tabIndex="125">Frank W. and Sue Mayborn School of Journalism</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1004" class="navbar" tabIndex="126">College of Merchandising, Hospitality and Tourism</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=968" class="navbar" tabIndex="127">College of Music</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=969" class="navbar" tabIndex="128">College of Public Affairs and Community Service</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=970" class="navbar" tabIndex="129">College of Visual Arts and Design</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=971" class="navbar" tabIndex="130">Toulouse Graduate School</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=982" class="navbar" tabIndex="131">Administration, faculty and librarians</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=981" class="navbar" tabIndex="132">Accrediting institutions</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=993" class="navbar" tabIndex="133">Campus maps</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=983" class="navbar" tabIndex="134">Request information or schedule a tour</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/content.php?catoid=13&navoid=1003" class="navbar" tabIndex="135">Archived catalogs 1995-96 to 2010-11</a>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/mime/media/view/13/1009/2015-16_UNT_undergraduate_catalog.pdf" onclick="acalogPopup('/mime/media/view/13/1009/2015-16_UNT_undergraduate_catalog.pdf', 'media_file', 770, 530, 'yes');return false;" target="false" class="navbar" tabIndex="136">Catalog .pdf</a>			</div>
+			<hr class="navbar">			</div>
+			<br>			</div>
+							<div class="n2_links">&#160;&#160;<a href="/mime/media/view/13/1007/2015-16_TCCNS.pdf" onclick="acalogPopup('/mime/media/view/13/1007/2015-16_TCCNS.pdf', 'media_file', 770, 530, 'yes');return false;" target="false" class="navbar" tabIndex="137">TCCNS chart</a>			</div>
+						</td>
+		  </tr>
+		</table>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+	<tr>
+	  <td class="block_n2_tools">
+		  <div class="n2_links"> &#160;&#160;<a href="/portfolio_nopop.php?catoid=13" class="navbar"><span class="acalog_term_backpack">My Catalog</span></a></div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+		<hr class="navbar">
+	  </td>
+	</tr>
+  </table>
+		</td>
+<!-- End of N2 -->
+				  <td valign="top" class="block_content_outer">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td class="block_content" colspan="2">
+						  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							<td>
+								<div class="help_block" style="float: right"><a href="help.php?catoid=13" onclick="javascript:acalogPopup('help.php?catoid=13', 'help', 770, 530, 'yes');return false;" class="help" tabIndex="203" accesskey="h" target="_blank"><b>HELP</b></a></div>
+								<span class="acalog_catalog_name">2015-2016 Undergraduate Catalog</span>							<h1 id="acalog-content">
+							  Policies							  </h1>
+								<div style="float: right"><a rel="nofollow" href="/content.php?catoid=13&navoid=979&print" onclick="acalogPopup('/content.php?catoid=13&navoid=979&print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a></div><div class="acalog-social-media-links" style="float: right;"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D979&t=I am looking at the Policies page at University of North Texas" border="0" target="_blank"><img src="acalogicons/facebook_16.png" border="0" alt="Facebook this Page"></a> <a href="http://twitter.com/intent/tweet?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D979&t=Check out this page at University of North Texas" border="0" target="_blank"><img src="/acalogicons/twitter_16.png" border="0" alt="Tweet this Page"></a></div><div align="left"><a href="portfolio_nopop.php?catoid=13&add=1&navoid=979#nav_links" onClick="acalogPopup('portfolio.php?catoid=13&add=1&navoid=979#nav_links', 'portfolio', 770, 530, 'yes');return false;" target="_blank" class="portfolio_link acalog-highlight-ignore" tabIndex="199">Add to <span class="acalog_term_backpack">My Catalog</span></a></div>							  </td>
+							</tr>
+							<tr>
+							  <td>
+								<hr>
+				  							  </td>
+							</tr>
+							<tr>
+							  <td>
+                                                              <table border="0" cellpadding="0" cellspacing="0" class="acalog-export-remove" style="width:100%">
+	<tbody>
+		<tr>
+			<td>
+			<ul>
+				<li><a href="#University_Diversity_Statement">University diversity statement</a></li>
+				<li><a href="#Americans_with_Disabilities_Act">Americans with Disabilities Act</a></li>
+				<li><a href="#Student_Standards_of_Academic_Integrity">Student Standards of Academic Integrity</a></li>
+				<li><a href="#Changes_of_Address">Changes of address</a></li>
+				<li><a href="#Identification_Card_Regulations">Identification card regulations</a></li>
+				<li><a href="#Liability_for_Personal_Loss">Liability for personal loss</a></li>
+				<li><a href="#Motor_Vehicle_Regulations">Motor vehicle regulations</a></li>
+				<li><a href="#Paying_Bills">Paying bills</a></li>
+			</ul>
+			</td>
+			<td style="vertical-align:top">
+			<ul>
+				<li><a href="#Severe_Weather_Dismissals">Severe weather dismissals</a></li>
+				<li><a href="#Student_Handbook">Student Handbook</a></li>
+				<li><a href="#Transportation_Services">Transportation services</a></li>
+				<li><a href="#Other_Policies">Other policies</a></li>
+				<li><a href="#Notice_of_Complaint">Notice of complaint</a></li>
+				<li><a href="#Code_of_Student_Conduct">Code of Student Conduct</a></li>
+				<li><a href="#University_of_North_Texas_Drug-Free_Schools_and_Communities_Act">University of North Texas Drug-Free Schools and Communities Act</a></li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr />
+<h2><a name="University_Diversity_Statement"></a>University diversity statement</h2>
+
+<p>The University of North Texas has a history of seeking to preserve an atmosphere of openness and tolerance. It is committed to maintaining an unpretentious and accepting atmosphere welcoming to anyone who strives to achieve his or her personal best. UNT possesses and values an increasing diversity among the individuals who make up its community. This is one of UNT's greatest strengths.</p>
+
+<p>Individuals within the UNT community are unified by a primary purpose: learning. With that primary purpose in mind, UNT works to advance ideals of human worth and dignity by facilitating open discussion, supporting rational resolution of conflict and encouraging examination of values.</p>
+
+<p>Harassment based on individual differences is inconsistent with UNT's mission and educational goals. Every member of the UNT community enjoys certain human and constitutional rights, including the right to free speech. At the same time, individuals who work, study, live and teach within this community are expected to refrain from behavior that threatens the freedom, safety and respect deserved by every community member in good standing.</p>
+
+<p>Every member of the UNT community must comply with federal and state equal opportunity laws and regulations. Such compliance is not only a given standard, but is, in fact, a baseline from which our community works to assure fairness and equity to all who pursue their educational and professional goals here.</p>
+
+<p>Students, faculty or staff who have concerns or questions should contact the appropriate office. Students should call the Dean of Students at 940-565-2648. Faculty and staff should call the Division of Institutional Equity and Diversity at 940-565-2711. TTY access: 940-369-8652 or 800-735-2989.</p>
+
+<h2><a name="Americans_with_Disabilities_Act"></a>Americans with Disabilities Act</h2>
+
+<p>The University of North Texas does not discriminate on the basis of an individual's disability and complies with Section 504 of the Rehabilitation Act and the Americans with Disabilities Act as Amended in its admissions, accessibility, treatment and employment of individuals in its programs and activities.</p>
+
+<p>The university provides academic adjustments and auxiliary aids to individuals with disabilities, as defined under the law, who are otherwise qualified to meet the institution's academic and employment requirements. For information, call the Office of Disability Accommodation at 940-565-4323, TDD access: 940-565-2958 or 940-369-8652; the Office of Equal Opportunity at 940-565-2737; or Institutional Equity and Diversity at 940-565-2711. TDD access is available through Relay Texas: 800-735-2989 or 940-369-8652.</p>
+
+<h2><a name="Student_Standards_of_Academic_Integrity"></a>Student Standards of Academic Integrity</h2>
+
+<p><br />
+A strong university is built upon the academic integrity of its members. As an intellectual enterprise, it is dependent upon trust, honesty, and the exchange of ideas in a manner that gives full credit and context to the sources of those ideas. UNT's policy on the Student Standards of Academic Integrity is designed to uphold these principles of academic integrity. It protects the rights of all participants in the educational process and validates the legitimacy of degrees awarded by the university.</p>
+
+<p>The policy covers categories of academic dishonesty such as cheating, plagiarism, forgery, fabrication, facilitating academic dishonesty and sabotage. It includes descriptions of infractions, penalties and procedures. In the investigation and resolution of all allegations of student academic dishonesty, the university's actions are intended to be corrective, educationally sound, fundamentally fair, and based on reliable evidence. The full policy (18.1.16) is available online at <a href="http://policy.unt.edu" target="_blank">policy.unt.edu</a>, where it can be located by searching for either title or number.</p>
+
+<h2><a name="Changes_of_Address"></a>Changes of address</h2>
+
+<p>It is the responsibility of the student to provide correct permanent and local mailing address information at all times and on all documents at the university. Students who change their mailing address must notify the Registrar's Office immediately by calling 940-565-2111 or update their address at <a href="http://my.unt.edu" target="_blank">my.unt.edu</a>.</p>
+
+<h2><a name="Identification_Card_Regulations"></a>Identification card regulations</h2>
+
+<p>The identification card is distributed during registration after all fees have been paid. The card entitles the bearer to student admission to athletic events, University Program Council entertainment, Fine Arts Series programs, dances, movies, general access computer laboratories and the Student Health and Wellness Center. It provides identification at the libraries for checking out materials, and at Recreational Sports and the Health and Wellness Center for use of these facilities. The ID card also serves as the meal card for those students with meal plans. As the student's official university identification, it must be presented to any UNT official upon request.</p>
+
+<p>Lost ID cards may be replaced for a $10 charge in the ID Systems Office of Student Accounting and University Cashiering Services in the Eagle Student Services Center, first floor. Misplaced ID cards that have been turned in are held in the ID Systems Office.</p>
+
+<p>The card is void upon termination or interruption of enrollment. Students are asked to retain their ID cards, even though they may not be enrolled. The cards are reactivated upon subsequent enrollment.</p>
+
+<p>Fraudulent use of the ID card subjects the user to a fine not to exceed $2,000, confinement not to exceed one year, or both (Class A Misdemeanor). Anyone who uses the ID card to give false information to a police officer is subject to a fine of not more than $200 (Class C Misdemeanor).</p>
+
+<h2><a name="Liability_for_Personal_Loss"></a>Liability for personal loss</h2>
+
+<p>The university is not responsible for and does not assume any liability for loss of or damage to personal property, including vehicles. Students are encouraged to obtain personal insurance coverage for loss or damage to possessions on campus, including possessions in dormitories and vehicles.</p>
+
+<h2><a name="Motor_Vehicle_Regulations"></a>Motor vehicle regulations</h2>
+
+<p>Persons who operate motor vehicles and bicycles on the UNT campus must comply with the Texas Transportation Code and published university regulations regarding vehicle and bicycle use, parking, display of decals and penalties for violation. The regulations are available online at <a href="http://www.unt.edu/transit/parking_regs.html" target="_blank">www.unt.edu/transit/parking_regs.html</a>.</p>
+
+<h2><a name="Paying_Bills"></a>Paying bills</h2>
+
+<p>State law does not permit the university to extend credit; bills must be paid when due. Check and credit card payments are accepted online at <a href="http://my.unt.edu" target="_blank">my.unt.edu</a>. Checks paid in person must be made payable to the University of North Texas for the exact amount to be paid. Checks on which money must be advanced and postdated checks are not accepted.</p>
+
+<h2><a name="Severe_Weather_Dismissals"></a>Severe weather dismissals</h2>
+
+<p>Weather conditions may temporarily disrupt university operations. The university policy regarding severe weather disruption pertains to all university classes.</p>
+
+<p>Courses taught online via Web CT are unaffected by severe weather closings unless instructors inform students otherwise. Those students should continue course work as regularly scheduled.</p>
+
+<p>The current policy may be found in the online schedule of classes at <a href="http://www.unt.edu/registrar" target="_blank">www.unt.edu/registrar</a>.</p>
+
+<p>Closings due to severe weather are posted on the UNT web site (<a href="http://www.unt.edu" target="_blank">www.unt.edu</a>), are released to the Dallas–Fort Worth news media, and are sent to registered students, faculty and staff via Eagle Alert system when appropriate.</p>
+
+<h2><a name="Student_Handbook"></a>Student Handbook</h2>
+
+<p>Policies and regulations governing students are explained or recorded in full in the <em>Student Handbook</em>, which freshmen and transfer students receive at orientation. The handbook also deals with other applicable state, local and university policies, student services and programs. The student is responsible for knowing and abiding by these policies. The handbook is also available online at <a href="http://studentaffairs.unt.edu" target="_blank">studentaffairs.unt.edu</a>.</p>
+
+<h2><a name="Transportation_Services"></a>Transportation services</h2>
+
+<p>The Denton County Transportation Authority operates the UNT Shuttle through an agreement with UNT. The UNT Shuttle serves the main campus, the Discovery Park campus and the Eagle Point campus, as well as off-campus student-oriented housing. Additionally, students can access the Denton local bus service fare free by presenting a valid UNT ID.</p>
+
+<p>During the fall and spring semesters, between 9 p.m. and 2 a.m., 7 days a week, late-night transportation is provided by the e-ride service, which provides transportation to and from all three Denton campuses.</p>
+
+<p>Alternative transportation options, including car sharing, bicycling and ridesharing, are supported by Transportation Services as well.</p>
+
+<p>For information regarding hours of operation, route schedules and alternative transportation options, visit the web site at <a href="http://www.unt.edu/transit" target="_blank">www.unt.edu/transit</a>.</p>
+
+<h2><a name="Other_Policies">Other policies</a></h2>
+
+<p>Additional policies and guidelines pertaining to particular subjects or for specific publics are listed in other publications, such as the <em>Housing Handbook</em>, available in the Housing and Residence Life Office; the Code of Student Conduct brochure, available from the Center for Student Rights and Responsibilities; <em>Parking Regulations</em>, available from the Parking Office and the UNT Bookstore in the University Union. International students should consult the International Admissions and Advising Center for information regarding policies and procedures required by federal regulation agencies.</p>
+
+<p>All university policies are subject to change throughout the year.</p>
+
+<h2><a name="Notice_of_Complaint"></a>Notice of complaint</h2>
+
+<p>The university may issue an official request or notice of complaint to a student to appear before a university administrator when a student's conduct or behavior is reasonably believed to be in violation of a published university policy or rule. A student who receives a notice of complaint should always consider it important and respond immediately. Failure to answer a notice of complaint can result in disciplinary action up to and including administrative withdrawal from the university and a block on enrollment.</p>
+
+<h2><a name="Code_of_Student_Conduct"></a>Code of Student Conduct</h2>
+
+<h3>Purpose of the Code of Student Conduct</h3>
+
+<p>As a student-focused public research university, the University of North Texas has established standards of conduct to foster a safe environment conducive to learning and development. Students and university student groups are expected to conduct themselves in a manner that demonstrates respect for the rights and property of others and upholds the integrity of the university community. The standards of conduct outlined in the Code of Student Conduct were developed in consultation with students, faculty, administrators and staff with specific consideration for the well-being, honor and dignity of all who live, learn and work in our educational community.</p>
+
+<p>The most up-to-date <a href="http://conduct.unt.edu/student_conduct" target="Code of Student Conduct">Code of Student Conduct</a> is available online at <a href="http://deanofstudents.unt.edu" target="_blank">deanofstudents.unt.edu</a>.</p>
+
+<h2><a name="University_of_North_Texas_Drug-Free_Schools_and_Communities_Act"></a>University of North Texas Drug-Free Schools and Communities Act</h2>
+
+<p>Pursuant to the Drug-Free Schools and Communities Act Amendments of 1989, the University of North Texas is required to establish a drug and alcohol prevention program for its students and employees. UNT is also required to provide this information to students, faculty, and staff upon entry and annually. Following is a description of UNT's program. A biennial review of this program is done to determine its effectiveness, to implement changes to the program if they are needed and to ensure that the university's disciplinary sanctions described are consistently enforced. The DFSCA report can be found at <a href="http://deanofstudents.unt.edu" target="_blank">deanofstudents.unt.edu</a>.</p>
+
+<h3>Standards of conduct</h3>
+
+<p>University of North Texas regulations prohibit the unlawful possession, use, distribution and sale of alcohol and illicit drugs by university students and their guests and for employees on university-owned or controlled property and at university-sponsored or supervised activities.</p>
+
+<h3>University discipline</h3>
+
+<p>Violation of these university regulations can result in disciplinary action up to and including expulsion for students and discharge for employees.</p>
+
+<h3>Legal sanctions</h3>
+
+<p>Local, state and federal laws also prohibit the unlawful possession, use, distribution and sale of alcohol and illicit drugs. Criminal penalties for violation of such laws range from fines up to $20,000 to imprisonment for terms up to and including life.</p>
+
+<h3>Health risks</h3>
+
+<p>Specific serious health risks are associated with the use of alcohol and illicit drugs. Some of the major risks are listed below. For more information contact the Substance Abuse Resource Center at 1800 Chestnut, Chestnut Hall, Suite 301, or by calling 940-565-2787.</p>
+
+<ul>
+	<li><strong>Alcohol and other depressants (barbiturates, sedatives, and tranquilizers)</strong> – addiction, accidents as a result of impaired ability and judgment, alcohol poisoning, overdose when used with other depressants, damage to a developing fetus, heart and liver damage and death.</li>
+	<li><strong>Marijuana </strong>– impairs short-term memory, thinking, and physical coordination. Can cause panic reaction and increase the risk of lung cancer and emphysema. Can interfere with judgment, attention span, concentration, and overall intellectual performance. Impairs driving ability. May cause psychological dependence and compromise the immune system.</li>
+	<li><strong>Cocaine</strong> – addiction, cardiovascular system damage including heart attack, brain damage, seizures, lung damage, severe depression, paranoia, psychosis. Similar risks are associated with other stimulants, such as speed and uppers.</li>
+	<li><strong>Nicotine </strong>– tobacco smoke contains thousands of chemical compounds, many of which are known to cause cancer. Nicotine, which is a central nervous system stimulant, produces an increase in heart and respiration rates, blood pressure, adrenaline production and metabolism. People can rapidly become physically and psychologically dependent on tobacco. Compromises the immune system.</li>
+	<li><strong>Inhalants </strong>– inhalants are a diverse group of chemicals that easily evaporate and can cause intoxication when their vapors are inhaled. Most inhalants are central nervous system depressants. Use of these drugs slows down many body functions. High doses can cause severe breathing failure and sudden death. Chronic abuse of some of these chemicals can lead to irreversible liver damage and other health problems.</li>
+	<li><strong>Prescription drug abuse</strong> – adverse reactions, dependency, withdrawal, and overdose.</li>
+</ul>
+
+<h3>Resources</h3>
+
+<p>A variety of resources exist for alcohol and other drug prevention education, counseling and referral. For detailed information concerning these resources available from the university and community agencies, students may contact the Meadows Center for Health Resources and the Substance Abuse Resource Center, 1800 Chestnut, Chestnut Hall, Suite 301, 940-565-2787. Faculty and staff members may contact the Employee Assistance Program at 800-343-3822 or Human Resources at 940-565-4817.</p>
+							  </td>
+							</tr>
+						  </table>
+                                                  <br /><hr /><div style="float: right">&#160;<a href="#" class="acalog_top_link acalog-highlight-ignore">Back to Top</a> | <a rel="nofollow" href="/content.php?catoid=13&navoid=979&print" onclick="acalogPopup('/content.php?catoid=13&navoid=979&print', 'print_preview', 770, 530, 'yes');return false;" target="_blank" class="print_link acalog-highlight-ignore" alt="Text Version"><img src="img/print.gif" width="10" height="14" border="0" hspace="5" align="absmiddle" alt="Print-Friendly Page.">Print-Friendly Page</a></div><div class="acalog-social-media-links" style="float: right;"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D979&t=I am looking at the Policies page at University of North Texas" border="0" target="_blank"><img src="acalogicons/facebook_16.png" border="0" alt="Facebook this Page"></a> <a href="http://twitter.com/intent/tweet?u=http%3A%2F%2Fcatalog.unt.edu%2Fcontent.php%3Fcatoid%3D13%26navoid%3D979&t=Check out this page at University of North Texas" border="0" target="_blank"><img src="/acalogicons/twitter_16.png" border="0" alt="Tweet this Page"></a></div><div align="left"><a href="portfolio_nopop.php?catoid=13&add=1&navoid=979#nav_links" onClick="acalogPopup('portfolio.php?catoid=13&add=1&navoid=979#nav_links', 'portfolio', 770, 530, 'yes');return false;" target="_blank" class="portfolio_link acalog-highlight-ignore" tabIndex="199">Add to <span class="acalog_term_backpack">My Catalog</span></a></div>
+					  </td>
+				</tr>
+			  </table>
+			</td>
+		  </tr>
+		</table>
+	</td>
+  </tr>
+	<tr>
+	<td class="block_footer_lb">&#160;&#160;&#160;</td>
+	<td class="block_footer_rb">
+<nobr>All <a href="/misc/catalog_list.php?catoid=13" class="footer"  tabIndex="300">catalogs</a> &#169; 2016 University of North Texas.</nobr> <nobr>Powered by the <a href="http://www.acalog.com" target="_blank" class="footer">Acalog™ Academic Catalog Management System™ (ACMS™)</a>.</nobr>
+<br />
+	<script type="text/javascript">
+		function showMobile(){
+			var name = 'acalogMobileApp';
+			var value = 'mobile';
+	
+			var date = new Date();
+			date.setTime(date.getTime()+(365*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
+	</script>
+	<nobr><a href="http://m.catalog.unt.edu/index.php?theme" onclick="showMobile();" class="footer">Mobile Site</a>.</nobr><script type='text/javascript'>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-368058-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script></td>
+	</tr>
+</table>
+<script src="js/smlinks.js" type="text/javascript"></script>
+</body>
+</html>

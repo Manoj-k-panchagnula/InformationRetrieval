@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+                    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+            <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+                <title>Mean Green Account</title>
+
+        <script type="text/javascript">
+            var base_url            = '/aps/';
+            var client_url          = '/aps/unt/EN/';
+            var is_authenticated    = false;
+            var team_name           = 'University of North Texas';
+            var merge_game          = 'Game';
+            var current_flow        = 'buy';
+            var privacy_policy_link = '';
+        </script>
+
+                <link type="text/css" href="https://ossmedia.ticketm.net/aps/css/vendor/concat_amgr_desktop_vendor_styles_1461865990706.css?_=bd9a49b" rel="stylesheet" media="all" />
+            <link type="text/css" href="https://ossmedia.ticketm.net/aps/css/ui-lightness/jquery-ui-1.10.3.custom.css?_=bd9a49b" rel="stylesheet" media="all" />
+    
+            <link type="text/css" href="https://ossmedia.ticketm.net/aps/css/concat_amgr_desktop_old_styles_1461865990706.min.css?_=bd9a49b" rel="stylesheet" media="all" />
+    
+                <link type="text/css" href="https://ossmedia.ticketm.net/aps/css/concat_amgr_buy_browse_styles_1461865990706.min.css?_=bd9a49b" rel="stylesheet" media="all" />
+    
+                <script type="text/javascript" src="https://ossmedia.ticketm.net/aps/js/amgr_desktop_vendor_1461865990706.js?_=bd9a49b"></script>
+    
+            <script type="text/javascript" src="https://ossmedia.ticketm.net/aps/js/amgr_desktop_old_1461865990706.min.js?_=bd9a49b"></script>
+    
+                <!--[if lt IE 9]><script type="text/javascript" src="https://ossmedia.ticketm.net/aps/js/amgr_ie_1461865990706.js?_=bd9a49b"></script><![endif]-->
+    
+    <script type="text/javascript">
+        AccountManager.DocumentMessageBus.set_postal_suffix('.buy.browse');
+    </script>
+
+    <script type="text/javascript">
+// used for deeplinks
+var deeplink_item_set_groups = [18136];
+var deeplink_item_sets       = [];
+var seeMore                  = 'See More';
+var seeLess                  = 'See Less';
+var showEvents               = 'Show Events';
+var hideEvents               = 'Hide Events';
+var defaultSwapValue         = 'search (e.g. basketball)';
+</script>
+
+
+    
+<style type="text/css">
+    /* primary color */
+    a,
+    .link-color,
+    a:link,
+    a:visited,
+    td.evtCalBoxEvt a,
+    td.evtCalBoxEvt a:link,
+    td.evtCalBoxMge a,
+    td.evtCalBoxMge a:link { color: #000000; }
+    .teamBorder5Box { border: 5px solid #000000; }
+    .teamBorder3Box { border: 3px solid #000000; }
+
+    .lid-primary-old,
+    .lid-primary,
+    .invoiceLid,
+    .lid-expand-closed,
+    .lid-expand-open,
+    .button,
+    .buttonalt,
+    .buttonalt2,
+    .mainTeamColorBg,
+    a.helpList,
+    a:link.helpList,
+    input#searchSubmit,
+    .helpArrow {background-color: #000000; }
+
+    .mainTeamColor { color: #000000; }
+
+    /* secondary color */
+    .altTeamColor { color:#038748; }
+    .lid-secondary,
+    .altTeamBg { background-color: #038748; }
+    .teamCalColor { background-color: #038748; }
+    .lid-primaryText { color: #FFFFFF}
+    .lid-primaryText a{ color: #FFFFFF}
+    .lid-secondaryText { color: #FFFFFF}
+    .lid-secondaryText a{ color: #FFFFFF}
+    .logoLidText, .logoLidText span { color: #FFFFFF }
+
+    .invDeLink:link a { color: #FFFFFF }
+    .invDeLink:visited a { color: #FFFFFF }
+    .invDeLink a { color: #FFFFFF }
+
+        body { background: url("https://ossmedia.ticketm.net/teamimages/unt/41851.jpg") repeat scroll 0 0 transparent; }
+    
+    .ui-state-default a,
+    .ui-state-default a:link,
+    .ui-state-default a:visited,
+    .quick-links-list,
+    .quick-link-select dd ul li.list { color: #000000; }
+
+    .primary-background-color {
+      background-color: #000000 !important; }
+
+    .primary-border-color {
+      border-color: #000000 !important; }
+
+    .primary-border-left-color {
+      border-left-color: #000000 !important; }
+
+    .primary-shows-background-color {
+      background-color: #9fde06 !important; }
+
+    .secondary-shows-background-color {
+      background-color: #ff9702 !important; }
+
+    .tertiary-shows-background-color {
+      background-color: #03a9ff !important; }
+
+    .primary-shows-border-color {
+      border-color: #9fde06 !important; }
+
+    .secondary-shows-border-color {
+      border-color: #ff9702 !important; }
+
+    .tertiary-shows-border-color {
+      border-color: #03a9ff !important; }
+
+    .primary-color-alpha {
+        color: #b3b3b3 !important; /*fallback lighten IE8 */
+        color: rgba(0, 0, 0 , 0.3) !important;
+    }
+
+    .secondary-color-alpha {
+        color: #b4dcc9 !important; /*fallback lighten IE8 */
+        color: rgba(3, 135, 72 , 0.3) !important;
+    }
+
+    .primary-background-color-alpha {
+        background-color: #b3b3b3 !important; /*fallback lighten IE8 */
+        background-color: rgba(0, 0, 0 , 0.3) !important;
+    }
+
+    .secondary-background-color-alpha {
+        background-color: #b4dcc9 !important; /*fallback lighten IE8 */
+        background-color: rgba(3, 135, 72 , 0.3) !important;
+    }
+
+    .nav a:link , .nav a:active , .nav a:visited {
+        color: #000000 !important;
+    }
+    .primary-color , input[type="radio"]:checked + span:before , input[type="checkbox"]:checked + span:before , .droplist:before , .usd:before , .copy:before , .select:before {
+        color: #000000 !important;
+    }
+    .primary-gradient-color , .chosen-container .chosen-results li.highlighted {
+        background: -webkit-linear-gradient(#525252, #000000) !important; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#525252, #000000) !important; /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#525252, #000000) !important; /* For Firefox 3.6 to 15 */
+        background-image: linear-gradient( rgba(0, 0, 0, 0.75), #000000) !important;
+    }
+    .secondary-color {
+        color: #038748 !important;
+    }
+    .secondary-background-color {
+        background-color: #038748 !important;
+    }
+    .secondary-border-color {
+        border-color: #038748 !important;
+    }
+    .secondary-border-left-color {
+        border-left-color: #038748 !important;
+    }
+    .no-cssgradients .primary-gradient-color , .no-cssgradients  .chosen-container .chosen-results li.highlighted {
+        background-color: rgba(0, 0, 0 , 0.6); /* rgb of primary color  with 0.6 alpha */
+        box-shadow: inset 0 -40px 40px -20px #000000; /* hex of primary*/
+    }
+    .no-rgba.no-cssgradients .primary-gradient-color ,.no-rgba.no-cssgradients .chosen-container .chosen-results li.highlighted {
+        background-color: #000000;
+        filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#525252', endColorstr='#000000');  /* first color is HEX of primary color with 60% alpha */
+    }
+    .secondary-gradient-color
+    { background: -webkit-linear-gradient(#b4dcc9, #038748);
+      background: -o-linear-gradient(#b4dcc9, #038748);
+      background: -moz-linear-gradient(#b4dcc9, #038748);
+      background-image: linear-gradient( rgba(3, 135, 72, 0.45) /* #c4bbac*/, #038748 ); }
+
+    .no-cssgradients .secondary-gradient-color {
+       background-color: rgba(3, 135, 72,0.6); /* rgb of secondary color  with 60% alpha */
+       box-shadow: inset 0 -40px 40px -20px #038748;
+    }
+
+
+    .no-rgba.no-cssgradients .secondary-gradient-color
+    { background-color: #038748;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4dcc9', endColorstr='#038748'); /* first color is HEX of secondary color with 45% alpha */ }
+
+</style>
+
+                <script type="text/javascript" src="//assets.adobedtm.com/bbc5bbf56a4c9cda1271b6b9cb3e94744124c05b/satelliteLib-34ef875a9b625fc2497227e265ff081e9c879b72.js"></script>
+    </head>
+    <body>
+
+
+    
+
+<div class='lang-bar'>
+    <div class="lang">
+   &nbsp;
+    </div>
+</div>
+
+    <div id="mainWrapper">
+            <div id="header-image">
+                                    <style>
+body {
+background-color: #008642; 
+background-position: center top; 
+background-repeat: no-repeat; 
+background-attachment: scroll;
+}
+.sidebar {
+background-color: #FFFFFF;
+}
+.topbar {
+background-color: #008642;
+}
+</style>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>page-header</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--Fireworks CS5 Dreamweaver CS5 target.  Created Tue Apr 01 14:47:31 GMT-0700 (PDT) 2014-->
+</head>
+<body bgcolor="#ffffff">
+<img name="pageheader" src="https://ossmedia.ticketm.net/teamimages/unt/47508.jpg" width="1000" height="125" border="0" id="pageheader" usemap="#m_pageheader" alt="" /><map name="m_pageheader" id="m_pageheader">
+<area shape="rect" coords="754,0,969,32" href="http://www.meangreensports.com" target="_blank" title="Back To MeanGreenSports" alt="Back To MeanGreenSports" />
+<area shape="rect" coords="596,0,754,26" href="http://www.meangreenmap.com/apogeeparking.html" target="_blank" title="Apogee Parking Map" alt="Apogee Parking Map" />
+<area shape="rect" coords="394,0,596,26" href="http://www.meangreenmap.com" target="_blank" title="Interactive Athletics Map" alt="Interactive Athletics Map" />
+<area shape="rect" coords="223,0,394,26" href="http://www.northtexasfanguide.com" target="_blank" title="North Texas Fan Guide" alt="North Texas Fan Guide" />
+<area shape="rect" coords="108,0,223,26" href="http://www.meangreensports.com/scoreboard" target="_blank" title="Schedules" alt="Schedules" />
+</map>
+</body>
+</html>
+
+                        </div>
+
+        <div id="contentWrapper">
+            <div class="content-header">
+               <h1 class="client-title primary-color">
+                    <strong class="title-name primary-color">University of North Texas AccountManager</strong>
+                                                                <div class="branding">
+            <img src="https://ossmedia.ticketm.net/aps/img/ticketmaster-logo-bw.jpg" alt="powered by: Ticketmaster" />
+        </div>
+
+               </h1>
+               <hr class="secondary-background-color" />
+                
+
+                                
+    
+
+                            
+                    
+
+    
+    
+<nav class="nav" >
+    <a target="_blank" id="menu_faq" href="/aps/unt/EN/faq/am/buy">faq</a> | <a id="menu-contact" href="javascript:" class="contact_team">contact us</a> | <a id="menu-login" href="#" class="no-link" onclick="javascript: show_login_lightbox();">log in</a>
+</nav>
+                    <div class="clear"></div>
+        </div>
+
+            <div class="clear"></div>
+
+    <div id="leftCol">
+        
+        
+<div class="pfInfoBox">
+            <div class="pad12">
+
+                            
+        <div class="text18px alt_fontface">Hello, Guest</div>
+
+        
+        </div>
+    </div>
+
+        
+<div class="border3Box">
+            <div class="lid-secondary">
+        <p class="lid-secondaryText">Select an event type</p>
+    </div>
+        <div id="viewtickets" style="display: none;">
+        <div id='all-items-list'>
+            <div class="padTop10 padL10 padBm3">
+                <input class="global-filter" type="checkbox" id="all-filter" /> <label for="all-filter">Select All</label>
+            </div>
+                                                                
+    <div class="divider1px"></div><div class="grayBg set-group mgnV1"><div class="padTop10 padL10 bld"><input id="item-set-groups-18136" type="checkbox" class="global-filter item-set-groups-filter" /><label for="item-set-groups-18136">
+                2016 Football Season
+            </label></div><br /></div>
+
+                                            
+                    
+    <div class="ticketsSub">
+        <input type="hidden" id="id-set-group" value="18136">
+        <input type="hidden" id="id-set" value="320">
+                    <input id="is-18136-320" type="checkbox" class="parent-18136 global-filter item-sets-filter item-sets-320"/>&nbsp;
+        
+                    <label for="item-sets-18136-320">2016 Football Season</label>
+            </div>
+
+                                                                                                    
+    <div class="divider1px"></div><div class="grayBg set-group mgnV1"><div class="padTop10 padL10 bld"><input id="item-set-groups-18523" type="checkbox" class="global-filter item-set-groups-filter" /><label for="item-set-groups-18523">
+                2016 Don January
+            </label></div><br /></div>
+
+                                            
+                    
+    <div class="ticketsSub">
+        <input type="hidden" id="id-set-group" value="18523">
+        <input type="hidden" id="id-set" value="295">
+                    <input id="is-18523-295" type="checkbox" class="parent-18523 global-filter item-sets-filter item-sets-295"/>&nbsp;
+        
+                    <a href="#" title="Annual Don January Golf Outing" class="hover-underline ticketLink no-link"><label for="item-sets-18523-295">Don January</label></a>
+            </div>
+
+                                                                                                    
+    <div class="divider1px"></div><div class="grayBg set-group mgnV1"><div class="padTop10 padL10 bld"><input id="item-set-groups-18524" type="checkbox" class="global-filter item-set-groups-filter" /><label for="item-set-groups-18524">
+                2016 Hall of Fame
+            </label></div><br /></div>
+
+                                            
+                    
+    <div class="ticketsSub">
+        <input type="hidden" id="id-set-group" value="18524">
+        <input type="hidden" id="id-set" value="299">
+                    <input id="is-18524-299" type="checkbox" class="parent-18524 global-filter item-sets-filter item-sets-299"/>&nbsp;
+        
+                    <a href="#" title="Hall of Fame" class="hover-underline ticketLink no-link"><label for="item-sets-18524-299">Hall of Fame</label></a>
+            </div>
+
+                                                                                                    
+    <div class="divider1px"></div><div class="grayBg set-group mgnV1"><div class="padTop10 padL10 bld"><input id="item-set-groups-19475" type="checkbox" class="global-filter item-set-groups-filter" /><label for="item-set-groups-19475">
+                2016 Coaches Caravan
+            </label></div><br /></div>
+
+                                            
+                    
+    <div class="ticketsSub">
+        <input type="hidden" id="id-set-group" value="19475">
+        <input type="hidden" id="id-set" value="323">
+                    <input id="is-19475-323" type="checkbox" class="parent-19475 global-filter item-sets-filter item-sets-323"/>&nbsp;
+        
+                    <a href="#" title="The Mean Green coaches are coming to a location near you!" class="hover-underline ticketLink no-link"><label for="item-sets-19475-323">2016 Coaches Caravan</label></a>
+            </div>
+
+                                                        </div>
+    </div>
+</div>
+
+    
+        
+    
+                
+
+
+        
+    
+                
+
+
+    </div>
+
+    <div id="rightCol">
+        
+                
+            <div class="padBm15">
+            <div class="promptMod">
+                <span class="block floatLeft" style='margin-top: 0px;'><strong>You may have access to additional tickets and special events, <a href="javascript:" class="no-link" onclick="show_login_lightbox();">log-in</a> or <a href="javascript:" class="no-link" onclick="show_login_lightbox('guest', true);">create an account</a> to view these items</strong></span>
+                <div class="clear"></div>
+            </div>
+        </div>
+    
+            <div style="clear:both"></div>
+    <div id="items-table-tbody"></div>
+    
+    </div>
+
+    <div class="clear"></div>
+
+        </div>  <!-- END contentWrapper -->
+    </div>  <!-- END mainWrapper -->
+
+    <div id="footer" class='footer-bar'>
+    <div id="footer" class="footer-bar-content">
+        <div class="right copyright">&copy; 2016 Ticketmaster. All rights reserved.</div>
+        <a href="javascript:" class="termsofuse no-link">Terms of Use</a>&nbsp; &nbsp;
+        <a href="javascript:" class="privacy_policy no-link">Privacy Policy</a>&nbsp; &nbsp;
+            </div>
+</div>
+<script type="text/javascript">
+
+$(document)
+    .ready(function(){
+        $('a[id="mobile_site_footer"]')
+            .on('click', function(){
+                $.ajax({
+                    url: client_url + 'account/home/redirect',
+                    type: 'POST',
+                    success: function(data){
+                        window.location = data.command1.data.url;
+                    }
+                });
+            });
+    });
+</script>
+
+    <script type="text/javascript">
+
+    $(document)
+        .ready(function(){
+
+            $.get(client_url + 'buy/itemslist', function(data) {
+                $('div#items-table-tbody').html(data);
+                var html_ssg = '<table cellpadding="0" cellspacing="0" border="0" width="100%" class="continueTable1"><tr><td class="team-logo"><img src="https://ossmedia.ticketm.net/aps/img/no_team_image.jpg" border="0" alt="" /></td><td><span class="bld" id="item-name">Item Name</span><br /><span id="item-date-time">Item date time</span></td></tr></table><div class="padTop15 padBm10">Select a ticket option (discounts may be available for large groups):</div><table id="ssg-list" cellpadding="0" cellspacing="0" border="0" width="100%" class="continueTable2 padBm10"></table>';
+                init_buy_browse(html_ssg);
+                        });
+
+                    });
+
+    //If item is available in Cart.
+    
+var Constants_Promotion = {"COUNTING_STRATEGY_UNLIMITED":1,"COUNTING_STRATEGY_ALL_EVENTS":2,"COUNTING_STRATEGY_PER_EVENT":3,"OFFER_FOUND":"offer_found","OFFER_RESET":"offer_reset","OFFER_NOT_FOUND":"offer_not_found","OFFER_EXPIRED":"offer_expired","OFFER_NOT_STARTED":"offer_not_started","OFFER_ITEM_LIMIT_REACHED":"offer_item_limit_reached","OFFER_TRANSACTION_LIMIT_REACHED":"offer_transaction_limit_reached","OFFER_NOT_APPLICABLE":"offer_not_applicable","REMAINING_ITEMS_MINIMUM_ERROR":"remaining_items_minimum_error","AVAILABILITY_STANDARD":"STANDARD","AVAILABILITY_PROMO":"PROMO"};
+
+AccountManager.add_tu({
+    INVALID_PROMO_CODE  : 'Invalid Promo Code',
+    PROMO_CODE_NA       : '<0> is not applicable for this event',
+    STANDARD_LIM_REACHED: 'Based on your previous purchases you have met the purchase limits for <0>. You may be eligible to purchase more tickets by entering a promo code.',
+    EXPIRED_PROMO_CODE  : 'Expired Promo Code',
+    ROFR_MIN_TICKET     : 'Minimum of <0> Tickets',
+    REGULAR_ADMISSION   : 'Regular Admission',
+    NEXT                : 'Next',
+    PREV                : 'Prev',
+    OF                  : 'of'
+});
+
+</script>
+
+
+<span id="overlay-processing" class="overlay" style="display: inline; top: 0px;"></span>
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-verbose">
+    <span class="ui-icon-loading"></span>
+    <h1 id="ui-loader-message">Your request is being processed...</h1>
+    <h1 id="ui-loader-enqueue-messages" style="display: none"></h1>
+</div>
+
+    <div id="error-seat"></div>
+
+    <script type="text/javascript">
+        AccountManager.add_tu({
+            LOGIN_LBOX_WELCOME_MSG:    'Hello! Welcome to the University of North Texas AccountManager.',
+            CLOSE:                     'Close',
+            COPY_URL_INSTRUCTION:      'Copy URL to clipboard: Ctrl + C',
+            LOGIN_LBOX_SPECIAL_OFFERS: 'Please log in below to see if you have access to any special offers.',
+            ISM_HOME_TITLE:            'Are you sure you wish to leave?',
+            ISM_HOME_BODY_TEXT:        'All your selected seats will be removed.',
+            ISM_HOME_CONT_BTN:         'Continue',
+            ISM_HOME_CANCEL_BTN:       'Cancel',
+            LOGOUT_TITLE:              'Are you sure you wish to log out?',
+            LOGOUT_BODY_TEXT:          'Items within the Shopping Cart will be released and no longer held.',
+            LOGOUT_BUTTON:             'log out',
+            LOGOUT_CANCEL_BUTTON:      'Cancel',
+            TU_ACCOUNTSET_0183:        'Close',
+            TU_ACCOUNTSET_0268:        'Your changes have not been saved.',
+            CANCEL:                    'Cancel',
+            CONTINUE:                  'continue',
+            SAVE:                      'Save',
+            ERR_PAYMENT_CVV:           'Note: There are items requiring your attention!',
+            EDIT_CART_ITEMS_MSG:       'By leaving the secure checkout process you may lose all unsaved payment information.',
+            CHECKOUT_UPDATE_MSG:       'Please click \'update\' to reflect your new today\'s total payment and installment amounts before proceeding.',
+            CC_DT_LESS_LAST_INST_DT:   'The credit card you have selected as a method of payment will expire before the last date within your selected payment plan. Please select a new credit card.',
+            FNL_PAYMENT_DATE:          'Final payment date:',
+            ITEM_NO_LONGER_AVAILABLE:  'Item you are looking for is no longer available. Click \"continue\" to see all Items for sale.',
+            VIEW_CART_TEXT:            'By leaving the secure checkout process you may lose all unsaved payment information.',
+            HOME_CONTINUE_BUTTON:      'Continue',
+            CHANGE_TAB_MSG:            'Please note: You will lose all saved payment information if you proceed.',
+            HOME_CANCEL_BUTTON:        'Cancel',
+            TU_SHOW_EVENTS:            'Show Events',
+            TU_HIDE_EVENTS:            'Hide Events',
+            TU_SHOW_EVENTS_SEATS:      'Show Events and Seats',
+            TU_HIDE_EVENTS_SEATS:      'Hide Events and Seats',
+            YES:                       'yes',
+            NO:                        'no',
+            BROWSER_ID_TITLE:          'Your browser isn\'t compatible with this site.',
+            TU_ACCOUNTSET_0184:        'Your changes have been saved.',
+            BROWSER_ID_HEAD_TEXT:      'To use all features of University of North Texas [AccountManager Site Name], please download one of these supported browsers:',
+            HOME_BODY_TEXT:            'Are you sure you wish to leave this page? Items within the Shopping Cart will be released and no longer held.',
+            PAY_HOME_TITLE:            'Are you sure you wish to leave?',
+            TERMS_OF_USE:              'Terms of Use',
+            PRIVACY_POLICY:            'Privacy Policies',
+            PRIVACY_TITLE:             'Privacy Policy',
+            TERMS_LINK:                'University of North Texas Advanced Services Terms of Use',
+            SEND_EMAIL:                'Send Email',
+            CONTACT_TITLE:             'Contact',
+            CONTACT_TOP:               'Please e-mail us with your questions or comments.',
+            CONTACT_REP:               'Contact Us',
+            TIMER_EXPIRED_MESSAGE:     'You have exceeded the time limit and the items in your Shopping Cart have been released. In order to ensure that tickets are available to as many people as possible, we\'ve placed a timer once seats have been placed on hold. If you don\'t finish within the time displayed, the tickets will be released for others to buy.',
+            TR_TIMER_EXPIRED_MSG:      'You have exceeded the time limit and the ticket results based on your search have been released. In order to insure that tickets are available to as many people as possible, we\'ve placed a timer once seats have been placed on hold. If you don\'t finish within the time displayed, the tickets will be released for others to buy.',
+            VALIDATION_NOT_EMPTY:      'Invalid %1$s; please enter your %1$s.',
+            QUICK_LINKS_LABEL:         'view all quick links',
+            ACCEPT:                    'accept',
+            DECLINE:                   'decline',
+            MONTHS_SHORT:              ',Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec',
+            MONTHS_LONG:               ',January,February,March,April,May,June,July,August,September,October,November,December',
+            ABBR_DAYS:                 'Sun,Mon,Tue,Wed,Thu,Fri,Sat',
+            LONG_DAYS:                 'Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday',
+            OK_BUTTON:                 'Ok',
+            OVERRIDE_DATE:             'date',
+            TBD:                       'tbd',
+            MY_REMINDER_TEXT:          'My Reminder',
+            TIME_OVERRIDE_TEXT:        'Event Time',
+            DATE_OVERRIDE_TEXT:        'Event Date',
+            DID_YOU_KNOW:              'Did you know?',
+            TLS_WARNING:               'You can increase the safety of your internet communications by making a few simple changes.',
+            TLS_LINK:                  'https://www.digicert.com/ssl-support/disabling-browser-support-ssl-v3.htm#internet_explorer',
+            LEARN_MORE:                'Learn more'
+        });
+
+        var minutes = 0;
+        var seconds = 0;
+        function decrement_timers() {
+
+            seconds--;
+
+            if(seconds < 0) {
+                seconds = 59;
+                minutes--;
+            }
+
+            var string = (seconds < 10) ? minutes + ':0' + seconds : minutes + ':' + seconds;
+
+            $('.cart-timer').html(string);
+
+            if(!(minutes === 0 && seconds === 0)) {
+                setTimeout("decrement_timers()", 1000);
+            }
+            else {
+                timer_expired();
+            }
+        }
+
+        function timer_expired() {
+            AccountManager.DialogManager.release_all_dialogs();
+            $.ajax({ url: client_url + "cart/reset",
+                success: function(data){
+
+                                            message = AccountManager.tu('TR_TIMER_EXPIRED_MSG');
+                    
+                    var options = {
+                        init: {
+                            title        : "Timer Has Expired",
+                            content      : message,
+                            closeOnEscape: false,
+                            hideClose    : true,
+                            height       : 200,
+                            buttons      : {
+                                confirm: {
+                                    text : "start over",
+                                    click: { redirect: 'buy/browse' }
+                                }
+                            }
+                        }
+                    };
+                    AccountManager.DialogManager.message_dialog(options);
+                }
+            });
+        }
+
+        function init_timers() {
+            $.ajax({
+                url: client_url + "timer/remaining_time",
+                type: 'get',
+                dataType: 'json',
+                success: function(data){
+                    var code = data.command1.control.result.code;
+
+                    if (code == 0) {
+                        var time = data.command1.data.remaining_time.split(':');
+                        minutes = parseInt(time[0]);
+                        seconds = parseInt(time[1]);
+                    }
+
+                    if(!(minutes === 0 && seconds === 0)) {
+                        setTimeout("decrement_timers()", 1000);
+                    }
+                    else {
+                        timer_expired();
+                    }
+                }
+            });
+        }
+
+                var omni = []
+
+        $(document)
+            .ready(function() {
+                
+                AccountManager.Utils.TLS.checkTLSVersion();
+
+                            });
+
+                function handle_general_ajax_response_code(code, message)
+{
+    var url = null;
+
+    switch (code)
+    {
+        case 'FATAL_ERROR':
+        case 'ENTITY_MANAGER':
+        case 'ENTITY_MANAGER_RESOLVER':
+        case 'PROXY_LAZY_LOAD_MISSING_INFO':
+        case 'BROKEN_ICE':
+        case "SECURITY_TOKEN_INVALID":
+            url = 'error/104';
+            break;
+        case 'ACL_DENIED':
+        case 'ACCES_DENIED':
+            url = 'account/logout/ACCESS_DENIED';
+            break;
+        case 'SESSION_EXPIRED':
+        case 'SESSION_ERROR':
+            url = 'account/logout/SESSION_EXPIRED';
+            break;
+        case 'BACKEND_ERROR':
+        case 'BACKEND_DOWN':
+        case "PAYMENT_PENDING":
+        case "DUPLICATE_PAYMENT":
+        case "BACKEND_VALIDATION_ERROR":
+        case "SYSTEM_ACCEPT_NO_ONLINE_CC_PAYMENT":
+        case "ACCOUNT_NOT_FOUND":
+        case "NO_TERMINAL_ID_AVAILABLE_ONLINE":
+        case "ACCOUNT_GROUP_LIMIT_ERROR":
+        case "MEMBERSHIP_ERROR":
+        case "TRANSACTION_TIMEDOUT":
+            url = 'error/103';
+            break;
+        case 'CLIENT_NOT_FOUND':
+            url = 'error/404';
+            break;
+        case 'BACKEND_MAINTENANCE':
+            url = 'account/logout/MAINTENANCE';
+            break;
+    }
+
+    if (url !== null)
+    {
+        window.location = client_url + url;
+    }
+}
+
+        var Constants_Flow = {"BUY":"buy","FLEXPLAN":"flexplan","CHECKOUT":"checkout","CLAIM_DONATION":"claimdonation","DONATE_ITEMS":"donateitems","DONATE_MONEY":"donatemoney","EXCHANGE":"exchange","FORWARD_ACCEPT":"accept","FORWARD_CANCEL":"cancel","FORWARD_DECLINE":"decline","FORWARD_SEND":"send","JOIN_CLUB_GROUP":"joinclubgroup","MANAGE_INVENTORY":"manage","PRINTING":"print","RESALE":"resale","RESALE_POST":"resalepost","RESALE_UPDATE":"resaleupdate","RESALE_CANCEL":"resalecancel","ROFR":"rofr","STORE_ON_PID":"storeonpid","SUITE_ADDITIONAL":"suite","UPGRADE":"upgrade","BARCODE":"barcode","ONLINE_RETURNS":"online_returns","DETAILS_ACTION":"details","CONFIRMATION_ACTION":"confirmation","REVIEW_ACTION":"review","VALIDATE_ACTION":"validate","PROCESS_REQUEST_ACTION":"process_request","LIST_ACTION":"list"};
+        AccountManager.Config.Client.set({"name":"unt","language":"en-us","currency_symbol":"$","url":"\/aps\/unt\/EN\/","img_url":"https:\/\/ossmedia.ticketm.net\/aps\/img\/","css_url":"https:\/\/ossmedia.ticketm.net\/aps\/css\/","js_url":"https:\/\/ossmedia.ticketm.net\/aps\/js\/","api_url":"\/api\/v1","api_key":"da52d07c-2b23-11e5-b956-f04da208b6d2","api_session_id":"5733479bc5e977-83348304","api_cluster_id":"phx3","time_format":"g:i A","date_long_format":"D, M j, Y"});
+        AccountManager.Config.Browser.set({"is_tablet":false,"is_ie":false,"is_ie8":false,"is_ie9_or_ie10":false,"is_unsupported_browser_dialog_dismissable":true});
+        AccountManager.Global.Dialogs.set_redirect_103_content('<h3>Oops...</h3><hr class=\"secondary-background-color\" /><p>Unfortunately we\'re experiencing some technical issues and could not complete the requested transaction. Please come back in a few minutes and try again. We apologize for this inconvenience.</p>');
+
+    
+    </script>
+        
+    <!-- ui-dialog -->
+    <div id="dialogs-container" style="display: none;"></div>
+
+        <script type="text/javascript">
+        var digitalData = {"page":{"attributes":{"clientID":"unt"},"pageInfo":{"pageName":"AM_US: unt: Buy: Item Listing","pageType":"Item Listing"}}};
+    </script>
+    <script type="text/javascript">_satellite.pageBottom();</script><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PZPMXW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PZPMXW');</script><!-- End Google Tag Manager -->
+</body>
+</html>

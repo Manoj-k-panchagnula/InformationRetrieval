@@ -1,0 +1,125 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+<meta name="keywords" content="Applytexas, applytexas, ApplyTexas, apply texas, myapplytexas, applytexas.org, texas college, texas junior college" />
+<meta name="description" content="Admissions and scholarships applications for Texas institutions of higher education." />
+
+
+<title>ApplyTexas
+
+</title>
+
+<link rel="stylesheet" type="text/css" href="/at-security/logon.css" />
+<link rel="shortcut icon" href="/at-security/favicon.ico" />
+<script language="javascript" type="text/javascript">
+  function removeSpaces(string) {
+    return string.split(' ').join('');
+  }
+</script>
+
+</head>
+
+<body id="home">
+  <div id="top">
+    <div id="header">
+      <div class="width">
+        <h1><a href="/adappc/adm_search.WBX" id="logo">ApplyTexas</a></h1>
+      </div> <!-- / .width -->
+    </div> <!-- / #header -->
+    <div id="main" class="width">
+      <div class="inner clearfix">
+        <h2>ApplyTexas Administrative & Counselor Reporting Suite</h2>
+      </div><!-- #.inner -->
+    </div><!-- #main -->
+
+  </div> <!-- #top -->
+
+
+ <div id="panels-top" class="width">
+    <!--
+    <h2 id="get-started"><span>First time here? No problem.</span> Get started</h2>
+    <h2 id="login"><span>Already have an account?</span> Log in now</h2>
+    -->
+  </div> <!-- / #panels-top -->
+
+
+
+  <div id="bottom" class="width">
+    <div id="panels-bottom" class="clearfix">
+      <div id="panel-start">
+        <h2 id="get-started"><span>ApplyTexas Administrators</span>Welcome!</h2>
+        
+        
+          
+            <p>You must have a user-id and password to proceed</p>
+           <a href="https://www.applytexas.org/adappc/html/counselor_auth_info.html" target="_blank">Counselor Authorization Information &raquo;</a> 
+          
+        
+      </div> <!--/ #panel-start -->
+      <div id="panel-login">
+        <h2 id="login"><span>You are entering a secure service</span>Log in now</h2>
+        
+          
+           <form name="adm_log" id="login-form" method="post" action="/at-security/success_page.logonform">
+            <label for="username">User-ID:</label>
+            <input type="text" name="userid" id="username" size="26" maxlength="80" onblur="this.value=removeSpaces(this.value);"/>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" size="26" maxlength="20" />
+            <input type="hidden" name="cdt" id="cdt" value="20160511095129"/>
+            <input type="hidden" name="secret" id="secret" value="thesecret" />
+            <button type="submit" id="login-btn">Log in</button>
+          </form>
+          
+        
+      </div> <!--/ #panel-login -->
+    </div> <!-- / #panels-bottom -->
+  </div> <!-- / #bottom -->
+
+<div id="footer">
+  <div id="appstar">
+    <p>Web page last updated: 22 January 2016</p><br />
+
+    <ul><li><a href="https://www.applytexas.org/adappc/html/counselor_faq.html" title="Frequently Asked Questions" target="_adminfaq">FAQ</a></li></ul>
+
+  </div><!-- #appstar -->
+  <div class="space"></div>
+  <div id="thecb" class="width">
+   <div id="gentx" class="triptych"> 
+       <p class="cfat">
+       <a href="http://gentx.org/" target="_blank">Inspiration<br /><br />
+       <img src="gentx.png" width="200" height="75" alt="Generation TX" /></a><br /><br />
+       </p>
+       <p class="info">
+       I am strong.  I am independent.  I am ready for my career.  I support my family.  I want to go to college.  I am a leader of tomorrow.  I am Generation TX.  Learn more at <a href="http://gentx.org">gentx.org</a>
+       </p>
+    </div>
+    
+     <div id = "cfat" class="triptych">
+      <p class="cfat">
+      <a href="http://www.collegeforalltexans.com/" target="_blank">Information<br /><br />
+      <img src="collegeforalltexanslogo.png" width="200" height="75" alt="College For All Texans" /></a><br /><br />
+      </p>
+      <p class="info">
+      What tests do I need to take to go to college?  How will I pay for tuition?  How do I apply for financial aid?  Get answers to these and other questions about preparing for the college application process at <a href="http://collegeforalltexans.com">collegeforalltexans.com.</a>
+      </p>
+     </div> 
+    <div id = "cctx" class="triptych">
+       <p class="cfat">
+      <a href="http://comparecollegetx.com/" target="_blank">Exploration<br /><br />
+      <img src="colcompTX.png" width="200" height="75" alt="Compare College TX" /></a><br /><br />
+      </p>
+      <p class="info">
+      There are so many colleges, how do I know which is best fit for me?  Compare colleges side-by-side on key measures such as tuition &amp; fees, completion rates, and average salaries after college.  Start exploring now at <a href="http://comparecollegetx.com">comparecollegetx.com</a><br /><br />
+      </p>
+    </div> 
+  </div> <!-- / #thecb -->
+</div> <!-- / #footer -->
+<div class="space"></div>
+</body>
+</html>
+
+

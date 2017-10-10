@@ -1,0 +1,703 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Buildings &amp; Locations &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-buildings no-sidebars   buildings">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/buildings"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-B0LYQDESLUmj08yI8nyetBPE97tNurdxPhth5bGUUH0" value="form-B0LYQDESLUmj08yI8nyetBPE97tNurdxPhth5bGUUH0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/buildings"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-B0LYQDESLUmj08yI8nyetBPE97tNurdxPhth5bGUUH0" value="form-B0LYQDESLUmj08yI8nyetBPE97tNurdxPhth5bGUUH0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+ 
+<div class="hero">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"></div>
+			<h1>Buildings &amp; Locations</h1>
+		</div>
+	</div>
+</div>
+
+
+
+
+<main class="view view-Buildings view-id-Buildings view-display-id-page_1 container view-dom-id-1">
+
+
+    
+  
+  
+      <div class="view-content">
+      <h2>Residence Hall</h2>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/bruce-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0209.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Bruce Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1624 Chestnut St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/clark-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0232.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Clark Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1717 Maple St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/college-inn">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0212.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>College Inn</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		200 Ave. D	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/crumley-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/crumley.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Crumley Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1621 W. Highland St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/honors-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0225.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Honors Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1716 Eagle Drive	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/kerr-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0239.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Kerr Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1413 Maple St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/legends-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/legends.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Legends Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		221 North Texas Blvd.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/maple-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/maple.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Maple Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1621 Maple St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/mozart-square">
+	<header style="background: url('sites/default/files/imagecache/cards/mozart.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Mozart Square Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		911 North Texas Blvd.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/santa-fe-square">
+	<header style="background: url('sites/default/files/imagecache/cards/santa_fe.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Santa Fe Square Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		2201 W. Prairie St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/traditions-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0224.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Traditions Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		502 North Texas Blvd.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/victory-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0588.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>Victory Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1379 S. Bonnie Brae St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/west-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/west.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<h1>West Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		320 North Texas Blvd.	</div>
+	
+</div>
+</div>
+<h2>Student Service Building</h2>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/chestnut-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/chestnut-hall.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-na">Call for Hours</span>						<h1>Chestnut Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1800 Chestnut St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/eagle-student-services-center">
+	<header style="background: url('sites/default/files/imagecache/cards/essc.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 7:00pm.</span>						<h1>Eagle Student Services Center</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1147 Union Circle	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/greek-life-center">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0260.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 5:00pm.</span>						<h1>Greek Life Center</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		621 S. Welch St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/hurley-administration-building">
+	<header style="background: url('sites/default/files/imagecache/cards/10_376_admin_green_night_153.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 6:00pm.</span>						<h1>Hurley Administration Building</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1501 W. Chestnut St.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/pohl-recreation-center">
+	<header style="background: url('sites/default/files/imagecache/cards/reccenter.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 10:00pm.</span>						<h1>Pohl Recreation Center</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1900 Chestnut Dr.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/the-union">
+	<header style="background: url('sites/default/files/imagecache/cards/union.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til midnight.</span>						<h1>The Union</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1155 Union Cir	</div>
+	
+</div>
+</div>
+<h2>Stadium/Arena</h2>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/coliseum">
+	<header style="background: url('sites/default/files/imagecache/cards/picture_009.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 5:00pm.</span>						<h1>Coliseum (&quot;Super Pit&quot;)</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		600 Ave. D	</div>
+	
+</div>
+</div>
+<h2>Academic Building</h2>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/discovery-park">
+	<header style="background: url('sites/default/files/imagecache/cards/discovery_park.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 11:45pm.</span>						<h1>Discovery Park</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		3940 North Elm	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/sage-hall">
+	<header style="background: url('sites/default/files/imagecache/cards/dsc_0016-2_0.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til midnight.</span>						<h1>Sage Hall</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1167 Union Circle	</div>
+	
+</div>
+</div>
+<h2>Performance/Event Venue</h2>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/gateway-center">
+	<header style="background: url('sites/default/files/imagecache/cards/gateway.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 6:00pm.</span>						<h1>Gateway Center</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		801 North Texas Blvd.	</div>
+	
+</div>
+</div>
+    	
+<div class="card-container col-md-4 col-sm-6 col-xs-8">
+<div class="well location ">
+	<a href="/goolsby-chapel">
+	<header style="background: url('sites/default/files/imagecache/cards/goolsby_chapel0005.jpg') no-repeat center;">
+		<div class="meta with-photo">
+						<span class="oh-current-open">Open 'til 6:00pm.</span>						<h1>Goolsby Chapel</h1>
+					</div>
+	</header>
+	</a>
+	
+		
+	<div class="description">
+		1622 Maple St.	</div>
+	
+</div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</main>
+	
+
+  
+</main>
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/buildings": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

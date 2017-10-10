@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Apogee Stadium Game-Day Parking Map</title>
+<meta name="description" content="Interactive map of the University of North Texas Mean Green Apogee Stadium game-day parking">
+<meta name="keywords" content="North Texas, University of North Texas, UNT, NT, Mean Green, Mean Green Athletics, Mean Green Sports, North Texas football,  Mean Green football, Apogee Stadium, Denton, Texas, Go Mean Greeen">
+<meta http-equiv="charset" content="ISO-8859-1">
+<meta http-equiv="content-language" content="English">
+<meta http-equiv="vw96.object type" content="Document">
+<meta name="rating" content="general">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="4 weeks">
+
+<link rel=stylesheet href="stadiumparking.css" type="text/css">
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+<body>
+
+<div id="pagetop">&nbsp;</div>
+
+<div id="container">
+
+<div id="title"><a href="http://www.meangreenmap.com/home.html"><img src="title.png" width="430" height="107" alt="Mean Green Interactive Athletics Map" border="0"/></a></div>
+
+<div id="unt"><img src="unt.png" width="600" height="85" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','hide','blue','','hide','orange','','hide','yellow','','hide','ada','','hide','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','hide')" border="0"/></div>
+
+<div id="pagetoplinks">
+<h5><a href="http://www.meangreenmap.com/home.html#anchor" class="bannerlinks">Mean Green Village</a>
+ | <a href="http://www.meangreenmap.com/home.html" class="bannerlinks">Facilities North of 35E</a>
+ | <a href="http://www.meangreenmap.com/apogeeparking.html" class="bannerlinks">Apogee Stadium Parking</a>
+ | <a href="http://www.meangreenmap.com/superpitparking.html" class="bannerlinks">Super Pit Parking</a>
+ | <a href="http://www.unt.edu/transit/pdf/2011-2012%20ParkingMap.pdf" target="_blank" class="bannerlinks">UNT Campus</a></h5>
+ </div>
+
+<div id="instructions">
+<h1>Apogee Stadium<br />
+Game-Day Parking</h1>
+<p>Click on the color below<br />
+to see the lot’s location and the<br />
+game-day route to that lot:</p>
+<a href="javascript:;" onclick="MM_showHideLayers('green','','show','black','','hide','white','','hide','red','','hide','blue','','hide','orange','','hide','yellow','','hide','ada','','hide','closings','','hide','greentext','','show','blacktext','','hide','whitetext','','hide',
+'redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img class="left-float" src="greenrollover.gif" alt="Green Lot" width="20" height="20" border="0"/></a>
+<p class="apogeeparkingmap"><b>Green Lot</b> - MG Club with green pass</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','show','white','','hide','red','','hide','blue','','hide','orange','','hide','yellow','','hide','ada','','hide','closings','','hide','greentext','','hide','blacktext','','show','whitetext','','hide',
+'redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img class="left-float" src="blackrollover.gif" alt="Black Lot" width="20" height="20" border="0"/></a>
+<p class="apogeeparkingmap"><b>Black Lot</b> - MG Club with black pass</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','show','red','','hide','blue','','hide','orange','','hide','yellow','','hide','ada','','hide','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','show',
+'redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img class="left-float" src="whiterollover.gif" alt="White Lot" width="20" height="20" border="0"/></a>
+<p class="apogeeparkingmap"><b>White Lot</b> - MG Club with white pass</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','show','blue','','hide','orange','','hide','yellow','','hide','ada','','hide','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','show','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img class="left-float" src="redrollover.gif" alt="Red Lot" width="20" height="20" border="0" /></a>
+<p class="apogeeparkingmap"><b>Red Lot</b> - MG Club with red pass</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','hide','blue','','show','orange','','hide','yellow','','hide','ada','','hide','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','hide','bluetext','','show','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img src="bluerollover.gif" alt="Blue Lot" width="20" height="20" class="left-float" border="0" /></a>
+<p class="apogeeparkingmap"><b>Blue Lot</b> - MG Club with blue pass</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','hide','blue','','hide','orange','','show','yellow','','hide','ada','','hide','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','hide','bluetext','','hide','orangetext','','show','yellowtext','','hide','adatext','','hide','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img src="orangerollover.gif" alt="Orange Lot" width="20" height="20" class="left-float" border="0" /></a>
+<p class="apogeeparkingmap"><b>Orange Lot</b> - cash</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','hide','blue','','hide','orange','','hide','yellow','','hide','ada','','show','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','show','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img src="adarollover.gif" alt="ADA Parking and Shuttle Service" width="20" height="20" class="left-float" border="0" /></a>
+<p class="apogeeparkingmap"><b>ADA Lot</b> - cash with ADA parking permit</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','hide','blue','','hide','orange','','hide','yellow','','show','ada','','hide','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','show','adatext','','hide','closingstext','','hide','shuttle','','hide','shuttletext','','hide')"><img src="yellowrollover.gif" alt="Yellow Lot" width="20" height="20" class="left-float" border="0" /></a>
+<p class="apogeeparkingmap"><b>Yellow Lot</b> - event staff with yellow pass</p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','hide','blue','','hide','orange','','hide','yellow','','hide','ada','','hide','closings','','show','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','show','shuttle','','hide','shuttletext','','hide')"><img src="xrollover.gif" alt="Game-Day Road Closings" width="20" height="20" class="left-float" border="0" /></a>
+<p class="apogeeparkingmap"><b>Pre-Game Road Closings</b></p>
+
+<a href="javascript:;" onclick="MM_showHideLayers('green','','hide','black','','hide','white','','hide','red','','hide','blue','','hide','orange','','hide','yellow','','hide','ada','','hide','closings','','hide','greentext','','hide','blacktext','','hide','whitetext','','hide','redtext','','hide','bluetext','','hide','orangetext','','hide','yellowtext','','hide','adatext','','hide','closingstext','','hide','shuttle','','show','shuttletext','','show')"><img src="shuttlestoprollover.gif" alt="Eagle Ambassador Shuttle Stops" width="20" height="20" class="left-float" border="0" /></a>
+<p class="apogeeparkingmap"><b>Eagle Ambassador Shuttle Stops</b></p>
+
+</div>
+
+<div id="map"><img src="apogeemap.jpg" width="960" height="700" border="0" alt="Apogee Stadium Game-Day Parking Map" /></div>
+  
+<div id="green"><img src="green.png" width="960" height="700" alt="Apogee Stadium Game-Day Green Parking Route" /></div>
+<div id="black"><img src="black.png" width="960" height="700" alt="Apogee Stadium Game-Day Black Parking Route" /></div>
+<div id="white"><img src="white.png" width="960" height="700" alt="Apogee Stadium Game-Day White Parking Route" /></div>
+<div id="red"><img src="red.png" width="960" height="700" alt="Apogee Stadium Game-Day Red Parking Route" /></div>
+<div id="blue"><img src="blue.png" width="960" height="700" alt="Apogee Stadium Game-Day Blue Parking Route" /></div>
+<div id="orange"><img src="orange.png" width="960" height="700" alt="Apogee Stadium Game-Day Orange Parking Route" /></div>
+<div id="ada"><img src="adaparking.png" width="960" height="700" alt="Apogee Stadium Game-Day ADA Parking Route" /></div>
+<div id="yellow"><img src="yellow.png" width="960" height="700" alt="Apogee Stadium Game-Day Yellow Parking Route" /></div>
+<div id="closings"><img src="closings.png" width="960" height="700" alt="Apogee Stadium Game-Day Road Closings" /></div>
+<div id="shuttle"><img src="shuttlestops.png" width="960" height="700" alt="Apogee Stadium Eagle Ambassador Shuttle Stops" /></div>
+
+<div id="greentext">
+<h2>Route to Green Parking Lot</h2>
+<p class="route">Access is from the 35E frontage road or Bonnie Brae.</p>
+<p class="route">From northbound 35W, take Exit 85B to West Oak. Right on West Oak, right on Bonnie Brae, then cross under 35E (see below).</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak. Left on West Oak, right on Bonnie Brae, then cross under 35E (see below).</p>
+<p class="route">From northbound 35E, take Exit 467 to Bonnie Brae and stay right when the exit ramp splits. Left on Bonnie Brae, then cross under 35E (see below).</p>
+<p class="route">From downtown Denton, go west on West Oak, left on Bonnie Brae, then cross under 35E (see below).</p>
+<p class="route"><b>AFTER CROSSING UNDER 35E</b>, two routes are available: 1. left onto the 35E frontage road, right at the parking-lot entrance, and proceed through the Black Lot to the Green lot; or 2. continue south on Bonnie Brae, turn left at the parking-lot entrance, and left again into the Green Lot.</p>
+</div>
+<div id="blacktext">
+<h2>Route to Black Parking Lot</h2>
+<p class="route">Access is from the 35E frontage road.
+<p class="route">From northbound 35W, take Exit 85B to West Oak. Right on West Oak then right on Bonnie Brae. After crossing under 35E, left onto the 35E frontage road then right into the Black Lot.</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak. Left on West Oak, right on Bonnie Brae, left onto the 35E frontage road then right into the Black Lot.</p>
+<p class="route">From northbound 35E, take Exit 467 to Bonnie Brae and stay right when the exit ramp splits. Left on Bonnie Brae, left onto the 35E frontage road then right into the Black Lot.</p>
+<p class="route">From downtown Denton, go west on West Oak then left on Bonnie Brae. Left onto the 35E frontage road and then right into the Black Lot.</p>
+</div>
+<div id="whitetext">
+<h2>Route to White Parking Lot</h2>
+<p class="route">Access is from Bonnie Brae.
+<p class="route">From northbound 35W, take Exit 85B to West Oak. Right on West Oak, then right on Bonnie Brae. Cross under 35E, turn left at the split to Airport Road to continue south on Bonnie Brae, then turn left into the White Lot.</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak. Left on West Oak, then right on Bonnie Brae. Cross under 35E, turn left at the split to Airport Road to continue south on Bonnie Brae, then turn left into the White Lot.</p>
+<p class="route">From northbound 35E, take Exit 467 to Bonnie Brae and stay right when the exit ramp splits. Turn left on Bonnie Brae. Cross under 35E, turn left at the split to Airport Road to continue south on Bonnie Brae, then turn left into the White Lot.</p>
+<p class="route">From downtown Denton, go west on West Oak then left on Bonnie Brae.  Cross under 35E, turn left at the split to Airport Road to continue south on Bonnie Brae, then turn left into the White Lot.</p>
+</div>
+<div id="redtext">
+<h2>Route to Red Parking Lot</h2>
+<p class="route">Access is from North Texas Blvd. The lots next to Victory Hall are for red and blue parking passes.</p>
+<p class="route">From northbound 35W, take Exit 85A to southbound 35E. From southbound 35E, take Exit 466B to North Texas Blvd. Right on North Texas Blvd., then an immediate right into the Red Lot.</p>
+<p class="route">From southbound 35, take Exit 466B to North Texas Blvd. Right on North Texas Blvd., then an immediate right into the Red Lot.</p>
+<p class="route">From northbound 35E, take Exit 467 to Bonnie Brae and stay right when the exit ramp splits. Left on Bonnie Brae, then left the 35E frontage road to North Texas Blvd. Right on North Texas Blvd., then an immediate right into the Red Lot.</p>
+<p class="route">From downtown Denton, take West Oak to Bonnie Brae. South on Bonnie Brae under 35E, then left on the 35E frontage road. Right on North Texas Blvd., then an immediate right into the Red Lot.</p>
+</div>
+<div id="bluetext">
+<h2>Route to Blue Parking Lot</h2>
+<p class="route">Access is from Bonnie Brae via Walt Parker Drive. The lots next to Victory Hall are for blue and red parking passes.</p>
+<p class="route">From northbound 35W, take Exit 85B to West Oak. Right on West Oak then right on Bonnie Brae. Left on Walt Parker to the Blue Lot.</p>
+<p class="route">From southbound 35, take Exit 468 to West Oak. Left on West Oak then right on Bonnie Brae. Left on Walt Parker to the Blue Lot.</p>
+<p class="route">From northbound 35E, take Exit 467 to Bonnie Brae and stay right when the exit ramp splits. Left on Bonnie Brae, then left on Walt Parker to the Blue Lot.</p>
+<p class="route">From downtown Denton, go west on West Oak, left on Bonnie Brae, then left on Walt Parker to the Blue Lot.</p>
+</div>
+<div id="orangetext">
+<h2>Route to Orange Parking Lot</h2>
+<p class="route">Access is from North Texas Blvd. or the 35E Northbound frontage road.</p>
+<p class="route">From northbound 35W, take Exit 85B to West Oak. Right on West Oak then continue east on West Hickory. Right on North Texas Blvd. and right into the Orange Lot.</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak, left on West Oak, then continue east on West Hickory. Right on North Texas Blvd. and right into the Orange Lot.</p>
+<p class="route">From northbound 35E, take Exit 466B to North Texas Blvd. Stay on the 35E frontage road past North Texas Blvd. Go under the Pedestrian Bridge, then turn right into the Orange Lot.</p>
+<p class="route">From downtown Denton, go west on West Oak, left on North Texas Blvd., and right into the Orange Lot.</p>
+</div>
+<div id="adatext">
+<h2>Route to ADA Parking Lot</h2>
+<p class="route">Access is from North Texas Blvd. or the 35E Northbound frontage road, and the ADA-dedicated area is in the southwest portion of the lot.</p>
+<p class="route">From northbound 35W, take Exit 85B to West Oak. Right on West Oak then continue east on West Hickory. Right on North Texas Blvd. and right into the Orange Lot.</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak, left on West Oak, then continue east on West Hickory. Right on North Texas Blvd. and right into the Orange Lot.</p>
+<p class="route">From northbound 35E, take Exit 466B to North Texas Blvd. Stay on the 35E frontage road past North Texas Blvd. Go under the Pedestrian Bridge, then turn right into the Orange Lot.</p>
+<p class="route">From downtown Denton, go west on West Oak, left on North Texas Blvd., and right into the Orange Lot.</p>
+<p class="route"><img class="left-float" src="adalogo.jpg" width="32" height="33" />This logo marks pick-up and drop-off points for the shuttle service between the ADA lot and Apogee Stadium.</p>
+</div>
+<div id="yellowtext">
+<h2>Route to Yellow Parking Lot</h2>
+<p class="route">Access is from Bonnie Brae. </p>
+<p class="route">From northbound 35W, take Exit 85B to West Oak. Right on West Oak, right on Bonnie Brae and right into the Yellow Lot.</p>
+<p class="route">From southbound 35, take Exit 468 (not shown on this map) to West Oak, left on West Oak then right on Bonnie Brae. Turn right into the Yellow Lot.</p>
+<p class="route">From northbound 35E, take Exit 467 to Bonnie Brae and stay right when the exit ramp splits. Turn left on Bonnie Brae, then right into the Yellow Lot.</p>
+<p class="route">From downtown Denton, go west on West Oak, left on Bonnie Brae and right into the Yellow Lot.</p>
+</div>
+<div id="closingstext">
+<h2>Pre-Game Road and Exit Closings</h2>
+<p class="route">Three to four hours prior to North Texas home football games, one exit off I-35 will be closed: Exit 84 to Bonnie Brae from northbound 35W.</p>
+<p class="route">A stretch of Airport Road will also be closed, as will the North Texas Blvd. bridge over 35E and a short portion of North Texas Blvd. south of the Red Lot entrance immediately north of Underwood Street.</p>
+<p class="route">The following I-35 exits involved in Apogee Stadium game-day traffic flow will remain open:
+<ul><li>468 to West Oak from southbound 35</li>
+<li>85A to 35E from northbound 35W</li>
+<li>85B to West Oak from northbound 35W</li>
+<li>466B to North Texas Blvd. from northbound 35E</li>
+<li>466B to North Texas Blvd. from southbound 35E</li>
+<li>467 to Bonnie Brae from northbound 35E</li></ul></p>
+</div>
+<div id="shuttletext">
+<h2>Eagle Ambassador Shuttle Stops</h2>
+<p class="route">A shuttle runs between Apogee Stadium Gate 2, Gate 3, the Victory Hall entrance and the Victory Hall bus stop on home game days. The shuttle begins two hours prior to kickoff and runs approximately every 15 minutes until the end of the first quarter, then resumes at the beginning of the fourth quarter until approximately 30 minutes after the end of the game.</p>
+</div>
+
+<div id="index">
+<table width="960" border="0">
+  <tr>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/alumnipavilion.html">Alumni Pavilion</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/fouts.html">Fouts Field</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/sportsmedicine.html">Sports Medicine and Rehab</a></h3></td>
+    <td width="240"><h3><a class="index" href="http://www.meangreenmap.com/superpit.html">UNT Coliseum a/k/a The Super Pit</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/apogeestadium.html">Apogee Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/lovelacestadium.html">Lovelace Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/strength.html">Strength and Conditioning</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/trackfield.html">Track and Field offices</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/athleticcenter.html">Athletic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/soccer.html">Mean Green Soccer Stadium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/academiccenter.html">Student-Athlete Academic Center</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/victoryhall.html">Victory Hall student-athlete residences</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/snakepit.html">Bahnsen Gym (The Snake Pit)</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Mean Green Team Store</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/the-e.html">The "E" Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/volleyball.html">Volleyball Center and Office Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/champs.html">Champs Cafeteria</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/hallfame.html">North Texas Athletic Hall of Fame</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tailgating.html">The Hill tailgating area</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/waranch.html">Waranch Tennis Complex</a></h3></td>
+  </tr>
+  <tr>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/practice.html">Darrell Dickey Football Practice Facility</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/pohl.html">Pohl Recreation Center and PEB Natatorium</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/tickets-store.html">Ticket Office</a></h3></td>
+    <td><h3><a class="index" href="http://www.meangreenmap.com/turbines.html">Wind Turbines</a></h3></td>
+  </tr>
+</table>
+<br />
+<div id="siteby"><a href="http://www.meangreensports.com" target="_new"><img src="siteby.gif" width="318" height="59" border="0" alt="Site Designed By MeanGreenSports.com" /></a>
+<h4><a class="credits" href="http://www.meangreenmap.com/credits.html">credits</a></h4></div>
+</div>
+
+
+</div>
+</body>
+</html>

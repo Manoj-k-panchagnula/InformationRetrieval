@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+<!-- head -->
+<head>
+
+<!-- meta -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title itemprop="name">GenTx</title>
+
+<meta name="description" content="Just another WordPress site" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34555016-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<link rel="shortcut icon" href="http://gentx.org/wp-content/uploads/2015/08/favicon.gif" type="image/x-icon" />	
+
+<!-- wp_head() -->
+<script>
+//<![CDATA[
+window.mfn_ajax = "http://gentx.org/wp-admin/admin-ajax.php";
+window.mfn_nicescroll = 40;
+window.mfn_prettyphoto = {style:"pp_default", width:0, height:0};
+window.mfn_sliders = {blog:0, clients:0, offer:0, portfolio:0, shop:0, slider:0, testimonials:0};
+window.mfn_retina_disable = 0;
+//]]>
+</script>
+<link rel="alternate" type="application/rss+xml" title="GenTx &raquo; Feed" href="http://gentx.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="GenTx &raquo; Comments Feed" href="http://gentx.org/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="GenTx &raquo; iCal Feed" href="http://gentx.org/events-cal/?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="GenTx &raquo; Home Comments Feed" href="http://gentx.org/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/gentx.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.2"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layerslider-css'  href='http://gentx.org/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://gentx.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='http://gentx.org/wp-content/plugins/recent-tweets-widget/tp_twitter_plugin.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://gentx.org/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.93' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='wpa-style-css'  href='http://gentx.org/wp-content/plugins/wp-accessibility/css/wpa-style.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ui-font.css-css'  href='http://gentx.org/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y-toolbar.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ui-a11y.css-css'  href='http://gentx.org/wp-content/plugins/wp-accessibility/toolbar/css/a11y.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ui-fontsize.css-css'  href='http://gentx.org/wp-content/plugins/wp-accessibility/toolbar/css/a11y-fontsize.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://gentx.org/wp-content/themes/betheme/style.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-base-css'  href='http://gentx.org/wp-content/themes/betheme/css/base.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-btn-css'  href='http://gentx.org/wp-content/themes/betheme/css/buttons.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-icons-css'  href='http://gentx.org/wp-content/themes/betheme/fonts/mfn-icons.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-grid-css'  href='http://gentx.org/wp-content/themes/betheme/css/grid.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-layout-css'  href='http://gentx.org/wp-content/themes/betheme/css/layout.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-shortcodes-css'  href='http://gentx.org/wp-content/themes/betheme/css/shortcodes.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-variables-css'  href='http://gentx.org/wp-content/themes/betheme/css/variables.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-style-simple-css'  href='http://gentx.org/wp-content/themes/betheme/css/style-simple.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-animations-css'  href='http://gentx.org/wp-content/themes/betheme/js/animations/animations.min.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-colorpicker-css'  href='http://gentx.org/wp-content/themes/betheme/js/colorpicker/css/colorpicker.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-jquery-ui-css'  href='http://gentx.org/wp-content/themes/betheme/css/ui/jquery.ui.all.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-jplayer-css'  href='http://gentx.org/wp-content/themes/betheme/css/jplayer/jplayer.blue.monday.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-prettyPhoto-css'  href='http://gentx.org/wp-content/themes/betheme/css/prettyPhoto.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-responsive-1240-css'  href='http://gentx.org/wp-content/themes/betheme/css/responsive-1240.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-responsive-css'  href='http://gentx.org/wp-content/themes/betheme/css/responsive.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-style-colors-php-css'  href='http://gentx.org/wp-content/themes/betheme/style-colors.php?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-style-php-css'  href='http://gentx.org/wp-content/themes/betheme/style.php?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='Roboto-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C400italic%2C700&#038;ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='Patua+One-css'  href='http://fonts.googleapis.com/css?family=Patua+One%3A100%2C300%2C400%2C400italic%2C700&#038;ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-custom-css'  href='http://gentx.org/wp-content/themes/betheme/css/custom.css?ver=8.7' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='http://gentx.org/wp-content/plugins/js_composer/assets/css/js_composer.css?ver=4.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/LayerSlider/static/js/greensock.js?ver=1.11.8'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/jquery.js?ver=1.12.3'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=4.5.2'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js?ver=4.5.2'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.93'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.93'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/wp-accessibility/js/skiplinks.webkit.js?ver=4.5.2'></script>
+<link rel='https://api.w.org/' href='http://gentx.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://gentx.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://gentx.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.2" />
+<link rel="canonical" href="http://gentx.org/" />
+<link rel='shortlink' href='http://gentx.org/' />
+<link rel="alternate" type="application/json+oembed" href="http://gentx.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgentx.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://gentx.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fgentx.org%2F&#038;format=xml" />
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = 'f3af048bba';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://gentx.org/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+		
+<style type='text/css'>
+	
+		#skiplinks a,  #skiplinks a:visited {  }
+		#skiplinks a:active, #skiplinks a:hover, #skiplinks a:focus { left: 1em; top: 1em; background: #f6f3fa; color: #00c; padding: 5px; border: 1px solid #357; box-shadow: 2px 2px 2px #777; border-radius: 5px; font-size: 1.4em  }
+		
+		:focus { outline: 1px solid!important; }
+		
+</style><style>
+#Subheader {padding:5px 0;}
+#Subheader h1.title {display:none;}
+#Subheader ul.breadcrumbs {font-size:.8em !important;}
+.fancy_heading .inside {color: rgb(98, 98, 98) !important;}
+.page-id-2389 .wpb_video_heading, .page-id-2370 .wpb_video_heading {font-size: 23px !important; line-height: 21px !important;}
+.page-id-2358 .icon_box { padding:0 30px; margin-bottom:20px !important; }
+.trailer_box .desc h2 { color:#ffffff;font-size: 20px;
+    background-color: #00aa9c;
+    padding: 5px;line-height: 18px; }
+.page-id-2405 .wpb_video_widget {margin-bottom:20px !important;}
+.page-id-2405 .wpb_video_widget .wpb_video_wrapper {margin-bottom:0 !important;}
+.page-id-2405 .wpb_video_widget h2 {font-size:20px;line-height: 18px;}
+input[type="submit"] { background-color:#8a1b57 !important; font-size:16px !important; }
+.vc_btn3.vc_btn3-color-purple.vc_btn3-style-modern { font-size:16px !important; border-color:#8a1b57 !important; background-color:#8a1b57 !important; }
+#Top_bar .search_wrapper {
+    background: #eeeeee;
+}
+#Top_bar .search_wrapper .icon_close {color:rgba(0,0,0,.5);}
+
+.vcalendar tr:hover td.tribe-events-thismonth h3 a {color:#000000 !important;}
+.home_social {    background-color: #ebebeb;
+    padding: 10px 0;
+}
+
+.ecs-event-list {margin-left:0 !important;}
+.ecs-event-list li.ecs-event {
+list-style:none !important;
+margin-bottom: 20px;
+}
+.ecs-event-list li.ecs-event .entry-title {margin-bottom:5px;}
+
+.post-excerpt big {font-size:100% !important;line-height: 100%;}
+
+h2.entry-title {font-size:25px !important;}
+.post-desc {padding-left:0 !important;}
+.post-photo-wrapper {display:none !important;}
+.post-desc-wrapper {width:100% !important;}
+
+.page-id-2336 .vc_col-xs-1, .page-id-2336 .vc_col-sm-1, .page-id-2336 .vc_col-md-1, .page-id-2336 .vc_col-lg-1, .page-id-2336 .vc_col-xs-2, .page-id-2336 .vc_col-sm-2, .page-id-2336 .vc_col-md-2, .page-id-2336 .vc_col-lg-2, .page-id-2336 .vc_col-xs-3, .page-id-2336 .vc_col-sm-3, .page-id-2336 .vc_col-md-3, .page-id-2336 .vc_col-lg-3, .page-id-2336 .vc_col-xs-4, .page-id-2336 .vc_col-sm-4, .page-id-2336 .vc_col-md-4, .page-id-2336 .vc_col-lg-4, .page-id-2336 .vc_col-xs-5, .page-id-2336 .vc_col-sm-5, .page-id-2336 .vc_col-md-5, .page-id-2336 .vc_col-lg-5, .page-id-2336 .vc_col-xs-6, .page-id-2336 .vc_col-sm-6, .page-id-2336 .vc_col-md-6, .page-id-2336 .vc_col-lg-6, .page-id-2336 .vc_col-xs-7, .page-id-2336 .vc_col-sm-7, .page-id-2336 .vc_col-md-7, .page-id-2336 .vc_col-lg-7, .page-id-2336 .vc_col-xs-8, .page-id-2336 .vc_col-sm-8, .page-id-2336 .vc_col-md-8, .page-id-2336 .vc_col-lg-8, .page-id-2336 .vc_col-xs-9, .page-id-2336 .vc_col-sm-9, .page-id-2336 .vc_col-md-9, .page-id-2336 .vc_col-lg-9, .page-id-2336 .vc_col-xs-10, .page-id-2336 .vc_col-sm-10, .page-id-2336 .vc_col-md-10, .page-id-2336 .vc_col-lg-10, .page-id-2336 .vc_col-xs-11, .page-id-2336 .vc_col-sm-11, .page-id-2336 .vc_col-md-11, .page-id-2336 .vc_col-lg-11, .page-id-2336 .vc_col-xs-12, .page-id-2336 .vc_col-sm-12, .page-id-2336 .vc_col-md-12, .page-id-2336 .vc_col-lg-12 {
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.page-id-2336 .wpb_heading.wpb_video_heading {
+font-size:25px;
+line-height:23px;
+}
+
+.page-id-2336 .icon_box h4, .page-id-2336 .sliding_box h4 {
+font-size: 30px;
+line-height: 32px;
+}
+
+.vc_slide.vc_images_carousel.vc_build {
+border-bottom:1px solid #ebebeb !important;
+margin-bottom:5px !important;
+}
+
+.page-id-2336 .blog_wrapper a, .page-id-2336 .ecs-event-list a {
+color: #842059 !important;
+}
+
+.vc_general.vc_cta3 h2, .vc_general.vc_cta3 h4 {
+color:#13bfb1;
+}
+.trailer_box .desc {
+padding: 0;
+}
+.next-prev-nav .prev a, .next-prev-nav .next a {
+background-color:#13bfb1 !important;
+color:#ffffff !important;
+}
+
+.next-prev-nav .prev a.button .button_icon i, .next-prev-nav .next a.button .button_icon i {
+color:#ffffff !important;
+}
+
+.wpb_video_heading {display:none !important;}
+.infobox ul li {line-height: 24px !important;}
+header .icon-facebook:before, header .icon-twitter:before, header .icon-play:before {
+	font-size:30px !important;
+color:#ffffff !important;
+}
+#Action_bar .social {
+padding: 13px 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.page-id-2385 .list_left.list_icon, .page-id-2396 .list_left.list_icon { display: block;float: none;margin: 0 auto; }
+	.page-id-2385 .list_right, .page-id-2396 .list_right { margin:20px 0 0; }
+	.page-id-2385 .list_right h4, .page-id-2396 .list_right h4 {text-align:center;}
+	#Header a.responsive-menu-toggle {right:0 !important;}
+
+}
+
+.home #Subheader {display:none !important;}
+#Top_bar .search_wrapper input[type="text"] {color:#000000 !important;}
+
+.page-id-2385 .icon_box {margin-bottom:5px !important;}
+
+.page-id-2385 .vc_tta-accordion h4 {font-size: 1.3em;}
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script>
+//<![CDATA[
+jQuery(window).load(function(){
+var retina = window.devicePixelRatio > 1 ? true : false;if( retina ){var retinaEl = jQuery("#logo img.logo-main");var retinaLogoW = retinaEl.width();var retinaLogoH = retinaEl.height();retinaEl.attr( "src", "http://gentx.org/wp-content/uploads/2015/07/sub-logo.gif" ).width( retinaLogoW ).height( retinaLogoH );var stickyEl = jQuery("#logo img.logo-sticky");var stickyLogoW = stickyEl.width();var stickyLogoH = stickyEl.height();stickyEl.attr( "src", "http://gentx.org/wp-content/uploads/2015/07/sub-logo.gif" ).width( stickyLogoW ).height( stickyLogoH );}});
+//]]>
+</script>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://gentx.org/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<!-- body -->
+<body class="home page page-id-2336 page-template-default  color-custom style-simple layout-full-width nice-scroll-on mobile-tb-left hide-love header-modern minimalist-header sticky-header sticky-white ab-show subheader-both-left footer-copy-center wpb-js-composer js-comp-ver-4.6 vc_responsive">
+	
+	<!-- mfn_hook_top --><!-- mfn_hook_top -->	
+		
+		
+	<!-- #Wrapper -->
+	<div id="Wrapper">
+	
+				
+			
+		<!-- #Header_bg -->
+		<div id="Header_wrapper" >
+	
+			<!-- #Header -->
+			<header id="Header">
+				
+	<div id="Action_bar">
+		<div class="container">
+			<div class="column one">
+			
+				<ul class="contact_details">
+									</ul>
+				
+				<ul class="social"></ul>
+			</div>
+		</div>
+	</div>
+
+
+<!-- .header_placeholder 4sticky  -->
+<div class="header_placeholder"></div>
+
+<div id="Top_bar">
+
+	<div class="container">
+		<div class="column one">
+		
+			<div class="top_bar_left clearfix loading">
+			
+				<!-- .logo -->
+				<div class="logo">
+					<h1><a id="logo" href="http://gentx.org" title="GenTx"><img class="logo-main   scale-with-grid" src="http://gentx.org/wp-content/uploads/2015/07/sub-logo.gif" 	alt="GenTx" /><img class="logo-sticky scale-with-grid" src="http://gentx.org/wp-content/uploads/2015/07/sub-logo.gif" alt="" /></a></h1>				</div>
+			
+				<div class="menu_wrapper">
+					<nav id="menu" class="menu-top-nav-container"><ul id="menu-top-nav" class="menu"><li id="menu-item-2378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://gentx.org/about/"><span>About</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2394" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/about/news/"><span>News</span></a></li>
+	<li id="menu-item-2395" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/about/videos/"><span>Videos</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://gentx.org/resources/"><span>Resources</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2393" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/resources/downloads/"><span>Downloads</span></a></li>
+	<li id="menu-item-2392" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/resources/make-it-happen/"><span>Make It Happen</span></a></li>
+	<li id="menu-item-2391" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/resources/gentx-way-to-pay/"><span>GenTX Way To Pay</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://gentx.org/events/"><span>Events</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2410" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/events/rock-your-future/"><span>Rock Your Future</span></a></li>
+	<li id="menu-item-2409" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/events/gentx-day/"><span>GenTX Day</span></a></li>
+	<li id="menu-item-2408" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/events/gentx-week/"><span>GenTX Week</span></a></li>
+	<li id="menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/events/fafsa-month/"><span>FAFSA Month</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://gentx.org/get-inspired/"><span>Get Inspired</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2411" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/get-inspired/stories/"><span>Stories</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2369" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/contact/"><span>Contact</span></a></li>
+<li id="menu-item-2371" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://gentx.org/spanish/"><span>Bienvenido a GenTX en Español</span></a></li>
+</ul></nav><a class="responsive-menu-toggle " href="#"><span>Menu</span></a>					
+				</div>			
+				
+				<div class="secondary_menu_wrapper">
+					<!-- #secondary-menu -->
+									</div>
+				
+				<div class="banner_wrapper">
+									</div>
+				
+				<div class="search_wrapper">
+					<!-- #searchform -->
+										<form method="get" id="searchform" action="http://gentx.org/">
+												<i class="icon_search icon-search"></i>
+						<a href="#" class="icon_close"><i class="icon-cancel"></i></a>
+						<input type="text" class="field" name="s" id="s" placeholder="Enter your search" />			
+						<input type="submit" class="submit" value="" style="display:none;" />
+					</form>
+				</div>				
+				
+			</div>
+			
+			<div class="top_bar_right"><div class="top_bar_right_wrapper"><a id="search_button" href="#"><i class="icon-search"></i></a></div></div>			
+		</div>
+	</div>
+</div>	
+							</header>
+				
+			<div id="Subheader"><div class="container"><div class="column one"><h1 class="title">Home</h1><ul class="breadcrumbs has-link"><li><a href="http://gentx.org">Home</a></li></ul></div></div></div>		
+		</div>
+		
+		<!-- mfn_hook_content_before --><!-- mfn_hook_content_before -->	
+<!-- #Content -->
+<div id="Content">
+	<div class="content_wrapper clearfix">
+
+		<!-- .sections_group -->
+		<div class="sections_group">
+		
+			<div class="entry-content" itemprop="mainContentOfPage">
+				<div class="section the_content has_content"><div class="section_wrapper"><div class="the_content_wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="wpb_wrapper"> <div class="wpb_layerslider_element wpb_content_element"><script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script><script data-cfasync="false" type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_1_1462915471_1_1','jquery'); } else { lsjQuery("#layerslider_1_1462915471_1_1").layerSlider({navStartStop: false, showCircleTimer: false, thumbnailNavigation: 'disabled', skinsPath: 'http://gentx.org/wp-content/plugins/LayerSlider/static/skins/'}) } }); </script><div id="layerslider_1_1462915471_1_1" class="ls-wp-container" style="width:100%;height:428px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls="transition2d:5;"><img src="http://gentx.org/wp-content/uploads/2015/08/gentx_homepage_banner.jpg" class="ls-bg" alt="GenTX Decision Day" /><a href="events/gentx-day/" target="_self" class="ls-link"></a></div><div class="ls-slide" data-ls="transition2d:5;"><img src="http://gentx.org/wp-content/uploads/2016/05/GenTX-Store-banner2.jpg" class="ls-bg" alt="Click to enter GenTX Online Store" /><a href="http://gentxstore.com/" target="_self" class="ls-link"></a></div><div class="ls-slide" data-ls="transition2d:5;"><img src="http://gentx.org/wp-content/uploads/2015/03/WeAreGenTX1.jpg" class="ls-bg" alt="We Are Generation TX" /><a href="/about/" target="_self" class="ls-link"></a></div><div class="ls-slide" data-ls="transition2d:5;"><img src="http://gentx.org/wp-content/uploads/2015/03/RockYourFuture-1.jpg" class="ls-bg" alt="GenTX Rock Your Future" /><a href="/events/rock-your-future/" target="_self" class="ls-link"></a></div><div class="ls-slide" data-ls="transition2d:5;"><img src="http://gentx.org/wp-content/uploads/2015/03/GoCenter1.jpg" class="ls-bg" alt="GenTX Go Center" /><a href="/resources/downloads/" target="_self" class="ls-link"></a></div></div></div>
+</div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="wpb_wrapper"><div class="sliding_box"><a href="/resources/" ><div class="photo_wrapper"><img class="scale-with-grid" src="http://gentx.org/wp-content/uploads/2015/08/GenTX-Skateboard-guy2.jpg" alt="Check Out Our Resources" width="850" height="567"/></div><div class="desc_wrapper"><h4>Check Out Our Resources</h4></div></a></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>Whether you need a person or a website, there are many resources available as you consider going to college: your college support team, colleges you are considering, the federal government, your state government, or our list of resources.</p>
+
+		</div> 
+	</div> </div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="wpb_wrapper"><div class="sliding_box"><a href="/get-inspired/stories/" ><div class="photo_wrapper"><img class="scale-with-grid" src="http://gentx.org/wp-content/uploads/2015/08/GenTX-Student-group2.jpg" alt="Hear Our Stories" width="700" height="467"/></div><div class="desc_wrapper"><h4>Hear Our Stories</h4></div></a></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>Hear personal stories from students and their families about their journeys toward college and career education.</p>
+
+		</div> 
+	</div> </div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="wpb_wrapper">
+	<div class="wpb_raw_code twitter-widget wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/GenerationTexas" data-widget-id="634383107181817856">Tweets by @GenerationTexas</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div> 
+	</div> </div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="wpb_wrapper"><div class="sliding_box"><a href="/events/gentx-day/" ><div class="photo_wrapper"><img class="scale-with-grid" src="http://gentx.org/wp-content/uploads/2015/08/GenTX-Texas.jpg" alt="GenTX Day!" width="912" height="608"/></div><div class="desc_wrapper"><h4>GenTX Day!</h4></div></a></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>GenTX Decision Day celebrations will be happening on <b>May 6, 2016</b> at high schools across Texas. We hope that you join in by celebrating seniors and their postsecondary plans!</p>
+
+		</div> 
+	</div> </div></div></div><div class="vc_row wpb_row vc_row-fluid home_social"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="wpb_wrapper"><div class="icon_box icon_position_top no_border"><a class="" href="https://www.facebook.com/GenerationTX" target="_blank" ><div class="icon_wrapper"><div class="icon"><i class="icon-facebook"></i></div></div><div class="desc_wrapper"><h4>Facebook</h4><div class="desc"><br />
+</div></div></a></div>
+</div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="wpb_wrapper"><div class="icon_box icon_position_top no_border"><a class="" href="https://twitter.com/generationtexas" target="_blank" ><div class="icon_wrapper"><div class="icon"><i class="icon-twitter"></i></div></div><div class="desc_wrapper"><h4>Twitter</h4><div class="desc"><br />
+</div></div></a></div>
+</div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="wpb_wrapper"><div class="icon_box icon_position_top no_border"><a class="" href="https://www.youtube.com/channel/UCgQ4Th7NkAIUTa4l-pELETg" target="_blank" ><div class="icon_wrapper"><div class="icon"><i class="icon-play"></i></div></div><div class="desc_wrapper"><h4>YouTube</h4><div class="desc"><br />
+</div></div></a></div>
+</div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading">Latest News</h2><div class="blog_wrapper isotope_wrapper clearfix"><div class="posts_group lm_wrapper classic"><div class="post-item isotope-item clearfix no-img author-Insite post-2463 post type-post status-publish format-standard hentry category-gentx-day"><div class="date_label">July 17, 2015</div><div class="image_frame post-photo-wrapper scale-with-grid"><div class="image_wrapper"></div></div><div class="post-desc-wrapper"><div class="post-desc"><div class="post-head"></div><div class="post-title"><h2 class="entry-title" itemprop="headline"><a href="http://gentx.org/2015/07/gentx-day-2015-was-a-huge-success/">GenTX Day 2015 Was a Huge Success!</a></h2></div><div class="post-excerpt">Thanks to you May 1, 2015 was the biggest GenTX Day yet! Communities all across Texas came together to show their united support for the students of Generation&hellip; <a class="continue" href="http://gentx.org/2015/07/gentx-day-2015-was-a-huge-success/">Continue Reading<span> GenTX Day 2015 Was a Huge Success!</span></a></div><div class="post-footer"><div class="button-love"><span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2463"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">4</span></a></div><div class="post-links"><i class="icon-comment-empty-fa"></i> <a href="http://gentx.org/2015/07/gentx-day-2015-was-a-huge-success/#respond" class="post-comments">0</a><i class="icon-doc-text"></i> <a href="http://gentx.org/2015/07/gentx-day-2015-was-a-huge-success/" class="post-more">Read more</a></div></div></div></div></div></div></div>
+</div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="wpb_wrapper"><div class="sliding_box"><a href="/events" ><div class="photo_wrapper"><img class="scale-with-grid" src="http://gentx.org/wp-content/uploads/2015/08/GenTX-group1.jpg" alt="Upcoming Events" width="600" height="248"/></div><div class="desc_wrapper"><h4>Upcoming Events</h4></div></a></div>
+</div></div></div>
+</div></div></div>			</div>
+			
+				
+		</div>
+		
+		<!-- .four-columns - sidebar -->
+		
+	</div>
+</div>
+
+
+<!-- mfn_hook_content_after --><!-- mfn_hook_content_after -->
+<!-- #Footer -->		
+<footer id="Footer" class="clearfix">
+	
+		
+		
+		<div class="footer_copy">
+		<div class="container">
+			<div class="column one">
+			
+								<a id="back_to_top" class="button button_left button_js hide" href=""><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
+				
+				<!-- Copyrights -->
+				<div class="copyright">
+					© 2016 Texas Higher Education Coordinating Board. All rights reserved.				</div>
+				
+				<nav id="social-menu" class="menu-footer-nav-container"><ul id="menu-footer-nav" class="social-menu"><li id="menu-item-2379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2379"><a title="Bienvenido a GenTX en Español" href="http://gentx.org/spanish/">Bienvenido a GenTX en Español</a></li>
+<li id="menu-item-2384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2384"><a title="About" href="http://gentx.org/about/">About</a></li>
+<li id="menu-item-2412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2412"><a title="News" href="http://gentx.org/about/news/">News</a></li>
+<li id="menu-item-2383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2383"><a title="Resources" href="http://gentx.org/resources/">Resources</a></li>
+<li id="menu-item-2413" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2413"><a title="Downloads" href="http://gentx.org/resources/downloads/">Downloads</a></li>
+<li id="menu-item-2382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2382"><a title="Events" href="http://gentx.org/events/">Events</a></li>
+<li id="menu-item-2381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2381"><a title="Get Inspired" href="http://gentx.org/get-inspired/">Get Inspired</a></li>
+<li id="menu-item-2414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2414"><a title="Make It Happen" href="http://gentx.org/resources/make-it-happen/">Make It Happen</a></li>
+<li id="menu-item-2380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2380"><a title="Contact" href="http://gentx.org/contact/">Contact</a></li>
+</ul></nav>						
+			</div>
+		</div>
+	</div>
+		
+</footer>
+
+</div><!-- #Wrapper -->
+
+
+<!-- mfn_hook_bottom --><!-- mfn_hook_bottom -->	
+<!-- wp_footer() -->
+
+<script type='text/javascript'>
+//<![CDATA[
+(function( $ ) { 'use strict';
+	var insert_a11y_toolbar = '<!-- a11y toolbar -->';
+	insert_a11y_toolbar += '<div class="a11y-toolbar ltr">';
+	insert_a11y_toolbar += '<ul>';
+	insert_a11y_toolbar += '<li><a href="#" role="button" class="a11y-toggle-contrast toggle-contrast" id="is_normal_contrast" title="Toggle High Contrast"><span class="offscreen">Toggle High Contrast</span><span class="aticon aticon-adjust" aria-hidden="true"></span></a></li>';insert_a11y_toolbar += '<li><a href="#" role="button" class="a11y-toggle-grayscale toggle-grayscale" id="is_normal_color" title="Toggle Grayscale"><span class="offscreen">Toggle Grayscale</span><span class="aticon aticon-tint" aria-hidden="true"></span></a></li>';
+	insert_a11y_toolbar += '<li><a href="#" role="button" class="a11y-toggle-fontsize toggle-fontsize" id="is_normal_fontsize" title="Toggle Font size"><span class="offscreen">Toggle Font size</span><span class="aticon aticon-font" aria-hidden="true"></span></a></li>';
+	insert_a11y_toolbar += '</ul>';
+	insert_a11y_toolbar += '</div>';
+	insert_a11y_toolbar += '<!-- // a11y toolbar -->';
+	$( document ).find( 'body' ).prepend( insert_a11y_toolbar );
+}(jQuery));
+//]]>
+</script><link rel='stylesheet' id='vc_google_fonts_abril_fatfaceregular-css'  href='//fonts.googleapis.com/css?family=Abril+Fatface%3Aregular&#038;ver=4.5.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/gentx.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2.1'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/wp-accessibility/toolbar/js/jquery.scrollto.min.js?ver=1.4.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var a11y_stylesheet_path = "http:\/\/gentx.org\/wp-content\/plugins\/wp-accessibility\/toolbar\/css\/a11y-contrast.css";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/wp-accessibility/toolbar/js/a11y.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpaComplementary = [""];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/wp-accessibility/js/roles.jquery.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpalabels = {"s":"Search","author":"Name","email":"Email","url":"Website","comment":"Comment"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/wp-accessibility/js/wpa.labels.js?ver=1.0'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/wp-accessibility/js/longdesc.button.js?ver=1.0'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/themes/betheme/js/jquery.plugins.js?ver=8.7'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/themes/betheme/js/animations/animations.min.js?ver=8.7'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/themes/betheme/js/jquery.jplayer.min.js?ver=8.7'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/themes/betheme/js/colorpicker/js/colorpicker.js?ver=8.7'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/themes/betheme/js/mfn.menu.js?ver=8.7'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/themes/betheme/js/scripts.js?ver=8.7'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/comment-reply.min.js?ver=4.5.2'></script>
+<script type='text/javascript' src='http://gentx.org/wp-includes/js/wp-embed.min.js?ver=4.5.2'></script>
+<script type='text/javascript' src='http://gentx.org/wp-content/plugins/js_composer/assets/js/js_composer_front.js?ver=4.6'></script>
+
+<script type='text/javascript'>
+//<![CDATA[
+(function( $ ) { 'use strict';
+	
+	$('a').removeAttr('target');
+	$('html').attr( 'lang','en-US' ); $('html').attr( 'dir','ltr' )
+	$('input,a,select,textarea,button').removeAttr('tabindex');
+	$('a').css( 'text-decoration','underline' );$('a').on( 'focusin mouseenter', function() { $(this).css( 'text-decoration','none' ); });$('a').on( 'focusout mouseleave', function() { $(this).css( 'text-decoration','underline' ); } );
+}(jQuery));
+//]]>
+</script><script>
+//<![CDATA[
+jQuery(function($){
+	$( "<h1 style='display:none;'>.</h1><h2 style='display:none;'>.</h2>" ).insertBefore( "h3" );	
+	$( "<h1 style='display:none;'>.</h1><h2 style='display:none;'>.</h2><h3 style='display:none;'>.</h3>" ).insertBefore( "h4" );
+	$("iframe").each(function(index) {
+		$(this).prop('title', 'video');
+	});
+	// add titles to iframes
+	var count1 = 0;
+	var iFrames = ["rufous-sandbox","stSegmentFrame","pxcelframe","stLframe"];
+	var iFrameCheck = function() {
+		$.each(iFrames, function(index, value) {
+			var i = $("#"+value);
+			if(i.length && i.attr('title') == undefined){
+				i.prop('title', value);
+				console.log(i.attr('title'));
+			} else {
+				console.log("Not yet...");
+			}
+			if(count1 == 100){
+				clearInterval(iFrameChecker);			
+			}
+			count1++;
+		});
+	};
+	var iFrameChecker = setInterval(iFrameCheck, 250);
+	// add spans to anchors
+	var count2 = 0;
+	var anchorCheck = function() {
+		$("a").each(function(index) {
+			var a = $(this);
+			if(a.has('span.a').length == 0) {
+				a.append("<span class='a' style='display:none;'>.</span>");
+				console.log("Added a!");
+			} else {
+				console.log("Not yet...");
+			}
+			if(count2 == 1000){
+				clearInterval(anchorChecker);			
+			}
+			count2++;
+		});
+	};
+	var anchorChecker = setInterval(anchorCheck, 250);
+});
+//]]>
+</script>
+
+</body>
+</html>

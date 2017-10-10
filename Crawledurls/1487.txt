@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>We Mean Green Fund Committee Application &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/webform/css/webform.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-webform no-sidebars   form">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/form/we-mean-green-fund-committee-application"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-Q-lOa9jz9h0k3Jl-Dkv1cm8s8oL7wbbyrO3Xnaehhj0" value="form-Q-lOa9jz9h0k3Jl-Dkv1cm8s8oL7wbbyrO3Xnaehhj0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/form/we-mean-green-fund-committee-application"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-Q-lOa9jz9h0k3Jl-Dkv1cm8s8oL7wbbyrO3Xnaehhj0" value="form-Q-lOa9jz9h0k3Jl-Dkv1cm8s8oL7wbbyrO3Xnaehhj0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+
+<div class="hero">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"><div class="label channel channel-reset">Form</div> </div>
+			<h1 >We Mean Green Fund Committee Application</h1>
+		</div>
+	</div>
+</div>
+
+
+
+<main class="container well">
+<div class="row">
+
+    <div class="col-md-12">
+
+	<div class="main_title">
+	We Mean Green Fund Committee Application</div>
+
+<style type="text/css">.main_title {
+  text-align: center;
+  font-size: 30px;
+  color: #00853E;
+  margin: 20px 0;
+}
+  .text_content{
+    margin: 0 10%;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .closed {
+    color: red;
+    font-weight: bold;
+  }
+</style>
+<form action="/form/we-mean-green-fund-committee-application"  accept-charset="UTF-8" method="post" id="webform-client-form-175389" class="webform_client_form_175389">
+<div><div class="webform-component webform-component-textfield" id="webform-component-first-name"><div class="form-item" id="edit-submitted-first-name-wrapper">
+ <label for="edit-submitted-first-name">First Name: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="submitted[first_name]" id="edit-submitted-first-name" size="60" value="" class="form-text required" />
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-middle-initial"><div class="form-item" id="edit-submitted-middle-initial-wrapper">
+ <label for="edit-submitted-middle-initial">Middle Initial: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="submitted[middle_initial]" id="edit-submitted-middle-initial" size="60" value="" class="form-text required" />
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-last-name"><div class="form-item" id="edit-submitted-last-name-wrapper">
+ <label for="edit-submitted-last-name">Last Name: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="submitted[last_name]" id="edit-submitted-last-name" size="60" value="" class="form-text required" />
+</div>
+</div><div class="webform-component webform-component-email" id="webform-component-email-address"><div class="form-item" id="edit-submitted-email-address-wrapper">
+ <label for="edit-submitted-email-address">Email Address: <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-text form-email required email" type="email" id="edit-submitted-email-address" name="submitted[email_address]" size="60" />
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-phone-number"><div class="form-item" id="edit-submitted-phone-number-wrapper">
+ <label for="edit-submitted-phone-number">Phone Number: </label>
+ <input type="text" maxlength="128" name="submitted[phone_number]" id="edit-submitted-phone-number" size="60" value="" class="form-text" />
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-address"><div class="form-item" id="edit-submitted-address-wrapper">
+ <label for="edit-submitted-address">Address: </label>
+ <input type="text" maxlength="128" name="submitted[address]" id="edit-submitted-address" size="60" value="" class="form-text" />
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-city"><div class="form-item" id="edit-submitted-city-wrapper">
+ <label for="edit-submitted-city">City: </label>
+ <input type="text" maxlength="128" name="submitted[city]" id="edit-submitted-city" size="60" value="" class="form-text" />
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-state"><div class="form-item" id="edit-submitted-state-wrapper">
+ <label for="edit-submitted-state">State: </label>
+ <input type="text" maxlength="2" name="submitted[state]" id="edit-submitted-state" size="60" value="" class="form-text" />
+</div>
+</div><div class="webform-component webform-component-number" id="webform-component-zip"><div class="form-item" id="edit-submitted-zip-wrapper">
+ <label for="edit-submitted-zip">Zip: </label>
+ <input type="number" id="edit-submitted-zip" name="submitted[zip]" size="6" min="0" max="99999" step="1" class="form-text form-number" />
+</div>
+</div><div class="webform-component webform-component-radios" id="webform-component-unt-affiliation"><div class="form-item">
+ <label>UNT Affiliation: <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-radios"><div class="form-item" id="edit-submitted-unt-affiliation-1-wrapper">
+ <label class="option" for="edit-submitted-unt-affiliation-1"><input type="radio" id="edit-submitted-unt-affiliation-1" name="submitted[unt_affiliation]" value="undergraduate_student"   class="form-radio" /> Undergraduate Student</label>
+</div>
+<div class="form-item" id="edit-submitted-unt-affiliation-2-wrapper">
+ <label class="option" for="edit-submitted-unt-affiliation-2"><input type="radio" id="edit-submitted-unt-affiliation-2" name="submitted[unt_affiliation]" value="graduate_student"   class="form-radio" /> Graduate Student</label>
+</div>
+<div class="form-item" id="edit-submitted-unt-affiliation-3-wrapper">
+ <label class="option" for="edit-submitted-unt-affiliation-3"><input type="radio" id="edit-submitted-unt-affiliation-3" name="submitted[unt_affiliation]" value="faculty_staff"   class="form-radio" /> Faculty/Staff</label>
+</div>
+</div>
+</div>
+</div><div class="webform-component webform-component-textfield" id="webform-component-major-if-applicable"><div class="form-item" id="edit-submitted-major-if-applicable-wrapper">
+ <label for="edit-submitted-major-if-applicable">Major (If Applicable): </label>
+ <input type="text" maxlength="128" name="submitted[major_if_applicable]" id="edit-submitted-major-if-applicable" size="60" value="" class="form-text" />
+</div>
+</div><div class="webform-component webform-component-textarea" id="webform-component-personal-statement"><div class="form-item" id="edit-submitted-personal-statement-wrapper">
+ <label for="edit-submitted-personal-statement">Personal Statement: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="submitted[personal_statement]" id="edit-submitted-personal-statement"  class="form-textarea resizable required ckeditor-mod filterxss2"></textarea>
+ <div class="description"><p>
+	Please provide a personal statement outlining what sustainability means to you and how you feel a member of the UNT community can affect change for sustainability-related issues. Please also discuss why you are interested in serving on the committee. (500 words maximum)</p>
+</div>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-personal-statement','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-personal-statement">Switch to plain text editor</a><div class="webform-component webform-component-textarea" id="webform-component-please-discuss-sustainability-related-activities-that-you-are-involved-in"><div class="form-item" id="edit-submitted-please-discuss-sustainability-related-activities-that-you-are-involved-in-wrapper">
+ <label for="edit-submitted-please-discuss-sustainability-related-activities-that-you-are-involved-in">Please discuss sustainability-related activities that you are involved in: </label>
+ <textarea cols="60" rows="5" name="submitted[please_discuss_sustainability_related_activities_that_you_are_involved_in]" id="edit-submitted-please-discuss-sustainability-related-activities-that-you-are-involved-in"  class="form-textarea resizable ckeditor-mod filterxss2"></textarea>
+ <div class="description"><p>
+	Please include any coursework, organizations, volunteer work, or personal practices, or any other relevant activities</p>
+</div>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-please-discuss-sustainability-related-activities-that-you-are-involved-in','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-please-discuss-sustainability-related-activities-that-you-are-involved-in">Switch to plain text editor</a><div class="webform-component webform-component-textarea" id="webform-component-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making"><div class="form-item" id="edit-submitted-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making-wrapper">
+ <label for="edit-submitted-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making">Please discuss any experience you have with project evaluation or decision making: </label>
+ <textarea cols="60" rows="5" name="submitted[please_discuss_any_experience_you_have_with_project_evaluation_or_decision_making]" id="edit-submitted-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making"  class="form-textarea resizable ckeditor-mod filterxss2"></textarea>
+ <div class="description"><p>
+	Provide any relevant experience where you served on a committee or served as leader responsible for making decisions that affect others.&nbsp; Provide insight on how you have approached this responsibility in the past or how you will handle this responsibility if chosen as a WMGF Committee member.</p>
+</div>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making">Switch to plain text editor</a><fieldset class="webform-component-fieldset" id="webform-component-supplemental-information"><legend>Supplemental Information</legend><div class="webform-component webform-component-file" id="webform-component-supplemental-information--attach-resume-only-for-faculty-and-staff"><div class="form-item" id="edit-supplemental-information-attach-resume-only-for-faculty-and-staff-wrapper">
+ <label for="edit-supplemental-information-attach-resume-only-for-faculty-and-staff">Attach Resume (ONLY for faculty and staff): </label>
+ <input type="file" name="files[supplemental_information_attach_resume_only_for_faculty_and_staff]"  class="form-file" id="edit-supplemental-information-attach-resume-only-for-faculty-and-staff" size="60" />
+
+</div>
+<input type="hidden" name="submitted[supplemental_information][attach_resume_only_for_faculty_and_staff][_fid]" id="edit-submitted-supplemental-information-attach-resume-only-for-faculty-and-staff--fid" value=""  />
+<input type="hidden" name="submitted[supplemental_information][attach_resume_only_for_faculty_and_staff][_old]" id="edit-submitted-supplemental-information-attach-resume-only-for-faculty-and-staff--old" value=""  />
+</div><div class="webform-component webform-component-file" id="webform-component-supplemental-information--attach-copy-of-official-or-unofficial-transcript-only-for-students"><div class="form-item" id="edit-supplemental-information-attach-copy-of-official-or-unofficial-transcript-only-for-students-wrapper">
+ <label for="edit-supplemental-information-attach-copy-of-official-or-unofficial-transcript-only-for-students">Attach copy of official or unofficial transcript (ONLY for students): </label>
+ <input type="file" name="files[supplemental_information_attach_copy_of_official_or_unofficial_transcript_only_for_students]"  class="form-file" id="edit-supplemental-information-attach-copy-of-official-or-unofficial-transcript-only-for-students" size="60" />
+
+</div>
+<input type="hidden" name="submitted[supplemental_information][attach_copy_of_official_or_unofficial_transcript_only_for_students][_fid]" id="edit-submitted-supplemental-information-attach-copy-of-official-or-unofficial-transcript-only-for-students--fid" value=""  />
+<input type="hidden" name="submitted[supplemental_information][attach_copy_of_official_or_unofficial_transcript_only_for_students][_old]" id="edit-submitted-supplemental-information-attach-copy-of-official-or-unofficial-transcript-only-for-students--old" value=""  />
+</div><div class="webform-component webform-component-file" id="webform-component-supplemental-information--attach-at-least-1-letter-of-recommendation-only-for-students"><div class="form-item" id="edit-supplemental-information-attach-at-least-1-letter-of-recommendation-only-for-students-wrapper">
+ <label for="edit-supplemental-information-attach-at-least-1-letter-of-recommendation-only-for-students">Attach at least 1 letter of recommendation (ONLY for students): </label>
+ <input type="file" name="files[supplemental_information_attach_at_least_1_letter_of_recommendation_only_for_students]"  class="form-file" id="edit-supplemental-information-attach-at-least-1-letter-of-recommendation-only-for-students" size="60" />
+
+</div>
+<input type="hidden" name="submitted[supplemental_information][attach_at_least_1_letter_of_recommendation_only_for_students][_fid]" id="edit-submitted-supplemental-information-attach-at-least-1-letter-of-recommendation-only-for-students--fid" value=""  />
+<input type="hidden" name="submitted[supplemental_information][attach_at_least_1_letter_of_recommendation_only_for_students][_old]" id="edit-submitted-supplemental-information-attach-at-least-1-letter-of-recommendation-only-for-students--old" value=""  />
+</div></fieldset>
+<div class="webform-component webform-component-markup" id="webform-component-style"><style type="text/css">form {    
+    margin: 5% 15% 0 15%;
+  }
+  legend {
+    font-style: italic;
+    color: #00853E;
+  }
+  .form-item {
+    font-size: 16px;
+    color: #00853E;
+    margin-bottom: 35px;
+  }
+ .form-item input[type="text"],
+ .form-item input[type="number"],
+ .form-item input[type="email"] {
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #00853E;
+  }
+  #webform-component-first-name,
+  #webform-component-last-name {
+    display: inline-block;
+    width: 36%;
+  }
+  #webform-component-middle-initial,
+  #webform-component-state,
+  #webform-component-zip {
+    display: inline-block;
+    width: 15%;
+  }
+  #webform-component-city {
+    display: inline-block;
+    width: 56%;
+  }
+  #webform-component-first-name,
+  #webform-component-middle-initial,
+  #webform-component-city, 
+  #webform-component-state {
+    margin-right: 6%
+  }
+  #webform-component-last-name, 
+  #webform-component-zip {
+    float: right;
+  }
+  .webform-component-textarea label,
+  .webform-component-textarea .description p {
+    max-width: 90%;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 125px;
+    height: 40px;
+    margin: 0 auto 5% auto;
+    background: #00853E;
+    -webkit-border-radius: 50;
+    -moz-border-radius: 50;
+    border-radius: 50px;
+    border: solid #00853E 1px;
+    color: #F9F9F9;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  input[type="submit"]:hover {
+    background: #f9f9f9;
+    color: #00853E;
+    text-decoration: none;
+  }
+</style>
+<p>
+	&nbsp;</p>
+</div><div class="webform-component webform-component-markup" id="webform-component-js"><script type='text/javascript'>
+  document.getElementById("webform-client-form-175389").setAttribute("enctype","multipart/form-data");
+</script>
+<p>
+	&nbsp;</p>
+</div><input type="hidden" name="details[sid]" id="edit-details-sid" value=""  />
+<input type="hidden" name="details[page_num]" id="edit-details-page-num" value="1"  />
+<input type="hidden" name="details[page_count]" id="edit-details-page-count" value="1"  />
+<input type="hidden" name="details[finished]" id="edit-details-finished" value="0"  />
+<input type="hidden" name="form_build_id" id="form-mTNe1D1bmfP_r9BuvScquS4GpeFVk_YkgJf5Hlxc1MM" value="form-mTNe1D1bmfP_r9BuvScquS4GpeFVk_YkgJf5Hlxc1MM"  />
+<input type="hidden" name="form_id" id="edit-webform-client-form-175389" value="webform_client_form_175389"  />
+<div id="edit-actions" class="form-actions form-wrapper"><input type="submit" name="op" id="edit-submit" value="Submit"  class="form-submit" />
+</div>
+</div></form>
+	
+	</div>
+    
+</div>
+</main>
+
+<style>
+
+	.hero{
+
+		background-image:url('');
+
+	}
+
+</style>
+
+
+	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ckeditor/ckeditor/ckeditor.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/webform/js/webform.js?s"></script>
+<script type="text/javascript" src="/misc/textarea.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "ckeditor": { "module_path": "/sites/all/modules/ckeditor", "editor_path": "/sites/all/modules/ckeditor/ckeditor", "ajaxToken": "1808188dca8539732ccf88ac76e90a4e", "xss_url": "/ckeditor/xss", "query": "node/175389", "default_input_format": "3", "theme": [ "Apollo3", "Apollo3", "Apollo3" ], "settings": { "edit-submitted-personal-statement": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] }, "edit-submitted-please-discuss-sustainability-related-activities-that-you-are-involved-in": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] }, "edit-submitted-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] } }, "autostart": { "edit-submitted-personal-statement": true, "edit-submitted-please-discuss-sustainability-related-activities-that-you-are-involved-in": true, "edit-submitted-please-discuss-any-experience-you-have-with-project-evaluation-or-decision-making": true } }, "CToolsUrlIsAjaxTrusted": { "/form/we-mean-green-fund-committee-application": [ true, true ] }, "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+<script type="text/javascript" src="/sites/all/modules/ckeditor/includes/ckeditor.utils.js?s"></script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>35Express Project</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/text.css">
+    <link rel="stylesheet" type="text/css" href="css/1020_12.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.vticker.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-44742241-1', '35express.org');
+        ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $('.scroll_body').vTicker({
+                speed: 1000,
+                pause: 12000,
+                showItems: 3,
+                animation: 'fade',
+                mousePause: false,
+                height: 0,
+                margin: 15,
+                direction: 'up'
+            });
+        });
+    </script>
+    <meta name="google-translate-customization" content="4fd11bd0293517ba-f7d537be51c00872-g7db53b4b651f0e2c-11"></meta>
+</head>
+<body>
+<div class="page_wrapper">
+<div class="home_wrapper">
+        <div id="global_nav">
+    <ul class="nav-menu clearfix">
+        <li class="">
+            <a href="about_us.php" class="" >About Us</a>
+            <!--<ul id="submenu_about" class="submenu">
+                <li class="last "><a href="community_involvement.php" class="">Community Involvement</a></li>
+            </ul>-->
+        </li>
+        <li class="">
+            <a href="traffic.php" class="" >Traffic</a>
+            <ul id="submenu_traffic" class="submenu">
+                <li class="last "><a href="30_day_outlook.php" class="">30-Day Outlook</a></li>			
+		<li class="last "><a href="business_access.php" class="">Business Access</a></li>
+            </ul>
+        </li>
+        <li class="">
+            <a href="project_info.php" class="" >Project Information</a>
+            <ul id="submenu_project_info" class="submenu">
+                <li class=""><a href="maps.php" class="">Maps</a></li>
+                <li class=""><a href="photos.php" class="">Photos</a></li>
+				<li class=""><a href="renderings.php" class="">Renderings</a></li>
+                <li class="last "><a href="schematics-and-ROW-maps.php" class="">Schematics &amp; ROW Maps</a></li>
+            </ul>
+        </li>
+        <li class="">
+            <a href="news.php" class="" >News &amp; Resources</a>
+            <ul id="submenu_news" class="submenu">
+                <li class=""><a href="faqs.php" class="">FAQs</a></li>
+                <li class=""><a href="news_releases.php" class="">News Releases</a></li>
+                <li class=""><a href="upcoming_meetings.php" class="">Upcoming Meetings</a></li>
+                <li class=""><a href="media_kit.php" class="">Media Kit</a></li>
+                <li class="last "><a href="newsletter.php" class="">Newsletter</a></li>
+            </ul>
+        </li>
+        <li class=""><a href="related_links.php" class="" >Related Links</a>
+        <li class=""><a href="opportunities.php" class="" >Opportunities</a>
+        	<ul id="submenu_opportunities" class="submenu">
+                <li class=""><a href="employment-opportunities.php" class="">Employment</a></li>
+            </ul>
+        </li>
+        <li class="">
+            <a href="contact_us.php" class="" >Contact Us</a>
+            <ul id="submenu_contact_us" class="submenu">
+                <li class="last "><a href="speaker_request.php" class="">Speaker Request</a></li>
+            </ul>
+        </li>
+        <li id="li_google_translate">
+            <div id="google_translate">
+                <div id="google_translate_element"></div><script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                    }
+                </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </div>
+        </li>
+
+    </ul>
+</div>
+    <div class="home container_12 clearfix">
+
+        <div class="logo_bar grid_6"><a href="index.php"><img src="images/35eXpressLogo.png" alt="" /></a></div>
+        <div class="social_ico_inter_header_wrapper">
+    <div class="social_ico_inter_header clearfix">
+        <a class="social_ico_inter_header_img facebook" href="http://facebook.com/I35express" target="_blank"></a>
+        <a class="social_ico_inter_header_img twitter" href="http://twitter.com/35express" target="_blank"></a>
+        <a class="social_ico_inter_header_img mail" href="http://eepurl.com/EOuBb" target="_blank"></a>
+        <a class="social_ico_inter_header_img instagram" href="http://instagram.com/35express" target="_blank"></a>
+        <a class="social_ico_inter_header_img sms" href="sms_signup.php"></a>
+    </div>
+</div>
+        <div class="home_right_wrapper grid_6">
+            <div class="home_right">
+                <p class="title">About the 35Express</p>
+                <p class="slogan">The 35Express project extends approximately 30 miles, through eight cities and two counties, from US 380 in Denton County to I-635 in Dallas County. The Design-Build project is expected to relieve traffic congestion in one of the most heavily traveled corridors in the North Texas region.</p>
+                <p class="link"><a href="project_info.php">Learn more</a> </p>
+            </div>
+        </div>
+        <div class="content_wrapper grid_12">
+            <div class="content_arc">
+                <div class="middle_shadow">
+                    <h2>Getting Around on the 35Express</h2>
+                    <div class="map_link clearfix">
+                        <div class="map_link_wrapper"><a href="north-segment.php"><img src="images/north_segment_map.jpg" alt="" width="152" height="186" /></a></div>
+                        <div class="map_link_wrapper"><a href="middle-segment.php"><img src="images/middle_segment_map.jpg" alt="" width="152" height="186" /></a></div>
+                        <div class="map_link_wrapper"><a href="south-segment.php"><img src="images/south_segment_map.jpg" alt="" width="152" height="186" /></a></div>
+                    </div>
+					<!--<div class="survey" style="z-index:100; margin: -25px 60px 0 75px; font-size:11pt; line-height:125%">Let us know how we're doing! In an effort to ensure we're providing the necessary information about the 35Express Project, please take our 35Express Communications Survey and provide your feedback.  <a style="color:#0f62ab;" href="https://adobeformscentral.com/?f=kG9yhVs7v5nJei16VDbEYA" target="_blank">Take Survey Now</a></div>-->
+
+                </div>
+            </div>
+            <div class="content clearfix">
+                <div class="alert scroll_text">
+                    <div class="scroll_header">Traffic alerts</div>
+                    <div class="scroll_body_wrapper">
+                        <div class="scroll_body">
+                            <ul>
+                                                                    <li>
+                                        <div class="warn">
+                                            The northbound I-35E exit ramp to Belt Line Road closed for approximately 9 months                                        </div>
+                                        <div class="text">
+                                            The northbound I-35E exit to Belt Line Road is closed for approximately 9 months. Traffic must use the Crosby Rod exit to access Belt Line and Historic Downtown Carrollton.                                         </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="warn">
+                                            Post Oak Drive Bridge Closed!                                        </div>
+                                        <div class="text">
+                                            The Post Oak Drive bridge over I-35E has been demolished.  Motorists will take Mayhill or the newly opened Corinth Parkway to access east and westbound Post Oak Drive.                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="warn">
+                                            Download full size renderings!                                        </div>
+                                        <div class="text">
+                                            Visit the News and Resources page and click on the Media Kit to view and download the full size renderings.                                         </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="warn">
+                                            New Traffic Pattern on Northbound I-35E Near FM 407 in Lewisville                                        </div>
+                                        <div class="text">
+                                            Due to the traffic shift at FM 407, motorists will use the FM 407 exit to access the DCTA Highland Village Station and Garden Ridge Boulevard. See the traffic page for more details.                                         </div>
+                                    </li>
+                                                                    <li>
+                                        <div class="warn">
+                                            We Are Hiring!                                        </div>
+                                        <div class="text">
+                                            Visit the Opportunities Page or call 214-483-7720.                                        </div>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="padding_left">
+                    <h2 class="second">Know Before You Go</h2>
+                    <div class="clearfix center three_ico_wrapper" style="white-space:nowrap; display:inline;">
+                        <div class="float_left live_traffic">
+                            <a href="http://dfwtraffic.dot.state.tx.us/MyCameras.htm" target="_blank"><img src="images/video_start_icon.png" alt=""></a><br />
+                            Live Traffic Feed
+                        </div>
+                        <div class="float_left lane_closures">
+                            <a href="traffic.php"><img src="images/alert_icon.png" alt=""></a><br />
+                            Lane Closures
+                        </div>
+                        <div class="float_left">
+                            <a href="30_day_outlook.php"><img src="images/calendar_icon.png" alt=""></a><br />
+                            30-Day Outlook
+                        </div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div class="">
+                        <p class="">Follow the project on social media and sign up for our e-newsletter and text alerts below.</p>
+                        <p class="social_ico clearfix">
+                            <a class="home_social_ico facebook" href="http://facebook.com/I35express" target="_blank" title="Facebook"></a>
+                            <a class="home_social_ico twitter" href="http://twitter.com/35express" target="_blank" title="Twitter"></a>
+                            <a class="home_social_ico instagram" href="http://instagram.com/35express" target="_blank" title="Instagram"></a>
+                            <a class="home_social_ico mail" href="http://eepurl.com/EOuBb" target="_blank" title="Newsletter signup"></a>
+                            <a class="home_social_ico sms" href="http://35express.org/sms_signup.php" title="Text alert signup"></a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="gray_bar padding_left">
+                    Have a question or concern? Let us know <a href="contact_us.php">here</a>.
+                </div>
+            </div>
+            <div class="footer index">
+    <div class="footer_menu clearfix">
+    <div class="col1">
+        <p><a href="about_us.php" class="" >About Us</a></p>
+        <!--<p class="sub"><a href="community_involvement.php" class="">Community Involvement</a></p>-->
+        <p><a href="traffic.php" class="" >Traffic</a></p>
+        <p class="sub"><a href="30_day_outlook.php" class="">30-Day Outlook</a></p>
+        <p><a href="project_info.php" class="" >Project Information</a></p>
+        <p class="sub"><a href="maps.php" class="">Maps</a></p>
+        <p class="sub"><a href="photos.php" class="">Photos</a></p>
+		<p class="sub"><a href="renderings.php" class="">Renderings</a></p>
+
+	    <p class="sub"><a href="schematics-and-ROW-maps.php" class="">Schematics &amp; ROW Maps</a></p>
+
+    </div>
+    <div class="col2">
+        <p><a href="news.php" class="" >News &amp; Resources</a></p>
+        <p class="sub"><a href="faqs.php" class="">FAQs</a></p>
+        <p class="sub"><a href="news_releases.php" class="">News Releases</a></p>
+        <p class="sub"><a href="upcoming_meetings.php" class="">Upcoming Meetings</a></p>
+        <p class="sub"><a href="media_kit.php" class="">Media Kit</a></p>
+        <p class="sub"><a href="newsletter.php" class="">Newsletter</a></p>
+    </div>
+    <div class="col3">
+        <p><a href="related_links.php" class="" >Related Links</a></p>
+        <p><a href="opportunities.php" class="" >Opportunities</a></p>
+        <p class="sub"><a href="employment-opportunities.php" class="">Employment</a></p>
+        <p><a href="contact_us.php" class="" >Contact Information</a></p>
+        <p class="sub"><a href="speaker_request.php" class="">Speaker Request</a></p>
+        <!--<p class="sub"><a href="sms_signup.php" class="">SMS Signup</a></p>-->
+    </div>
+</div>    <div class="footer_logo"></div>
+    <p>&nbsp;</p>
+    <hr><br />
+    <p style="font-size:11px; font-weight:bold; font-color:#4d4d4d; padding-left:65px;">Copyright &copy; 2016 AGL Constructors. All rights reserved.</p>
+    <p>&nbsp;</p>
+</div>
+        </div>
+
+    </div>
+</div>
+</div>
+</body>
+</html>

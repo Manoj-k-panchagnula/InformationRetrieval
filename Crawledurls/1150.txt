@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>
+Mean Green Workshops</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style/default.css" rel="stylesheet" type="text/css" />
+<link href="style/cms.css" rel="stylesheet" type="text/css" />
+
+<!-- flexslider CSS -->
+<link rel="stylesheet" href="style/flexslider.css" type="text/css" media="screen" />
+
+<link href="/shared-style/calendar-win2k-cold-1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/shared-js/calendar_stripped.js"></script>
+<script type="text/javascript" src="/shared-js/calendar-en.js"></script>
+<script type="text/javascript" src="/shared-js/calendar-setup_stripped.js"></script>
+<script type="text/javascript">
+		<!--
+		window.onload=montre;
+		function montre(id) {
+		var d = document.getElementById(id);
+			for (var i = 1; i<=10; i++) {
+				if (document.getElementById('smenu'+i)) {document.getElementById('smenu'+i).style.display='none';}
+			}
+		if (d) {d.style.display='block';}
+		}
+		//-->
+	</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/flexslider/jquery.flexslider-min.js"></script>
+<!-- Modernizr -->
+<script type="text/javascript"  src="js/flexslider/modernizr.js"></script>
+  
+</head>
+<body> 
+ 
+<!--	<div id="li"><span class="wt">Welcome back <strong></strong>!</span><br /> 
+<span class="op">[ <a href="user.logout.php">Logout</a> / <a href="user.modify.php">Your Account</a> ] </span> 
+</div> 
+--> 
+ 
+<!-- login form --> 
+<!--  <form id="lg" name="lg" method="post" action="user.login.php"> 
+        <table colspan="2"> 
+            <tr> 
+                <th>Username:</th> 
+                <td><input type="text" name="email"></td> 
+            </tr> 
+            <tr> 
+                <th>Password:</td> 
+                <td><input type="password" name="password"></td> 
+            </tr> 
+            <tr> 
+                <td colspan="2" nowrap="nowrap"> <input type="submit" value="Login"/><br />
+                 New Participant? - <a style="font-weight:bold" href="workshops.php">Register Here</a>
+                </td> 
+            </tr> 
+        </table> 
+    </form> --> 
+ 
+<table width="790px"  border="0" cellspacing="0" cellpadding="0" align="center"> 
+  <tr> 
+		<td colspan="3" style="text-align:center;"><img src="images/unt-logo-banner.png" width="762" height="77" /></td> 
+  </tr> 
+<tr>
+    <td colspan="2" style="text-align: right;margin-right: 40px;padding-top: 5px;">
+    <p class="social-icons"><a href="https://www.facebook.com/meangreenworkshops" target="_blank"><img src="images/facebook.png" width="25" height="25"></a></p><p class="social-icons"><a href="https://twitter.com/UNTMGW" target="_blank"><img src="images/twitter.png" width="25" height="25"></a></p>
+    </td>
+  </tr>
+  <tr> 
+		<td colspan="3"> 
+
+			<div class="flexslider">
+			  <ul class="slides">
+				 <li>
+				  <img src="images/banners/meangreen-banner.jpg" width="761" height="196" />
+				</li>
+				<li>
+				  <img src="images/banners/green-banner.jpg" width="761" height="196" />
+				</li>
+				<li>
+				  <img src="images/banners/ideas-banner.jpg" width="761" height="196" />
+				</li>
+			
+				<li>
+				  <img src="images/banners/logobanner.jpg" width="761" height="196" />
+				</li>
+			  </ul>
+			</div>
+		</td>
+	</tr>
+  <tr> 
+    <td width="27"><img src="images/navBorderLeft.jpg" /></td> 
+    <td width="736" class="nav" align="center"><a href="index.php">home</a>|<a href="workshops.php">workshops</a>|<a href="page.php?s=important_information">general information</a>|<a href="page.php?s=contact-us">contact</a>|<a href="page.php?s=about-us">about us</a></td> 
+    <td width="27"><img src="images/navBorderRight.jpg" /></td> 
+  </tr> 
+  <tr> 
+    <td colspan="3"><img src="images/topBar.jpg" /></td> 
+  </tr> 
+  <tr> 
+    <td rowspan="3" background="images/bodyBorderLeft.jpg">&nbsp;</td> 
+    <td bgcolor="#FFFFFF">  
+      <table width="736" border="0" cellspacing="0" cellpadding="0" bgcolor="#ECF6EB"> 
+        <tr> 
+          <td width="175" bgcolor="#ECF6EB" style="padding-left:15px; padding-top:15px; padding-bottom:15px; height:170px;">
+            
+                      <form name="f1" id="f1" method="post" action="user.login.php"> 
+              <table border="0" cellspacing="0" cellpadding="0" > 
+                <tr> 
+                  <td style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#7C827C; font-weight:bold; ">E-Mail Address</td> 
+                </tr> 
+                <tr> 
+                  <td><input name="email" type="text" style="width:140px;" /></td> 
+                </tr> 
+                <tr> 
+                  <td valign="bottom" height="25px" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#7C827C; font-weight:bold; ">Password</td> 
+                </tr> 
+                <tr> 
+                  <td><input name="pwd" type="password" style="width:140px;"/></td> 
+                </tr> 
+                <tr> 
+                  <td valign="bottom" height="25px" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#7C827C;"><a href="user.pwd_reset.php">Forgot Password</a></td> 
+                </tr> 
+                <tr> 
+                  <td align="right" valign="bottom" height="40px"> <input type="submit" name="login" value="Login" /></td> 
+                </tr> 
+              </table> 
+            </form>
+                    </td> 
+          <td rowspan="2" width="736px" valign="top" bgcolor="#FFFFFF"> <table border="0" cellspacing="0" cellpadding="15"> 
+              <tr> 
+                <td><SPAN style="FONT-SIZE: 12pt; BACKGROUND: white; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><SPAN>
+<p class=MsoNormal style="MARGIN: 0in 0in 8pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"><B><SPAN style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Helvetica','sans-serif'; BACKGROUND: white; COLOR: #00651e; mso-fareast-font-family: 'Times New Roman'">Updates</SPAN></B></p>
+<p class=MsoNormal style="MARGIN: 0in 0in 8pt; LINE-HEIGHT: normal; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto"><SPAN style="FONT-SIZE: 10.5pt; FONT-FAMILY: 'Helvetica','sans-serif'; BACKGROUND: white; COLOR: #00651e; mso-fareast-font-family: 'Times New Roman'">
+<p class=MsoNormal style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal"><SPAN style="FONT-SIZE: 12pt; BACKGROUND: white; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><FONT face=Calibri><B>Registration is now open! Sign up or request information at <a href="http://mgw.campmanagement.com">mgw.campmanagement.com</a></B></FONT></SPAN></p>
+<p class=MsoNormal style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal"><SPAN style="FONT-SIZE: 12pt; BACKGROUND: white; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><FONT face=Calibri><B>Follow us on Facebook and Twitter for staff and program updates!</B></FONT></SPAN></p>
+<p><B>
+<HR>
+</B></SPAN>
+<p></p>
+<p></p>
+<p class=MsoNormal style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal"><SPAN style="FONT-SIZE: 12pt; BACKGROUND: white; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><FONT face=Calibri><SPAN style="FONT-FAMILY: Calibri, sans-serif; BACKGROUND: white; COLOR: black"><SPAN style="FONT-SIZE: 12pt; BACKGROUND: white; COLOR: black; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><FONT face=Calibri></FONT></SPAN>&nbsp;</p></SPAN></FONT></SPAN></SPAN></SPAN></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+        <tr valign="top"> 
+          <td valign="top"> <table width="190"  border="0" cellspacing="0" cellpadding="15"> 
+              <tr valign="top"> 
+                <td valign="top" bgcolor="#ECF6EB"></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+      </table> 
+       </td> 
+    <td rowspan="3" background="images/bodyBorderRight.jpg">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td bgcolor="#D1E9D1" align="center" height="10px">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td bgcolor="#D1E9D1" align="center"><p align=center><SPAN class=footerText><SPAN class=footerText target="_blank"><SPAN class=footerText><a class=footerText href="page.php?s=workshops-directors">Workshop Administrators</a></SPAN>&nbsp; |&nbsp; <a class=footerText href="page.php?s=teachers">Teacher/Coach Workshops</a>&nbsp;&nbsp;|&nbsp; <a class=footerText href="page.php?s=important_information" target=_blank>Important Information</a>&nbsp; | <a class=footerText href="page.php?s=contact-us">Contact Us</a></SPAN></SPAN></p>
+<p align=center><SPAN class=footerText><SPAN class=footerText><SPAN class=footerText></SPAN></SPAN></SPAN><SPAN class=footerText></p></SPAN><SPAN class=footerText></SPAN>
+<p align=center><SPAN class=footerText>Policies&nbsp;found on this website&nbsp;are the&nbsp;most current and take precedence over any other previously published material.</SPAN></p>
+<p align=center><SPAN class=footerText><FONT color=#000000 size=3 face="Times New Roman">
+<table cellspacing=0 width=10 align=center border=0>
+<tbody>
+<tr>
+<td align=center><SPAN id=siteseal>
+<SCRIPT type=text/javascript src="https://seal.godaddy.com/getSeal?sealID=doztMsxEc89dduSCwJrEOFRwt1MMYh1kp80kV0pYoAK2e67tL037yY"></SCRIPT>
+</SPAN></td></tr></tbody></table></FONT></SPAN></p></td> 
+  </tr> 
+  <tr> 
+    <td colspan="3"><img src="images/footer.jpg" /></td> 
+  </tr> 
+</table> 
+
+ <!-- jQuery -->
+  
+    <script type="text/javascript">
+    jQuery(window).load(function() {
+    var n=1;
+  jQuery('.flexslider').flexslider({
+    animation: "slide",
+    slideshowSpeed: 5500, 
+    startAt: 1,
+   	start: function(slider){
+            jQuery('body').removeClass('loading');
+        },
+        after: function (slider) {
+            if (slider.currentSlide == 0) { // is last slide
+          n--;
+          if(n==0) {
+            slider.pause();
+          }
+       }
+        }
+        
+  });
+});
+  </script>
+  
+  
+</body>
+</html>

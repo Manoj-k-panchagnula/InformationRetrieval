@@ -1,0 +1,1125 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Center for Student Affairs at Discovery Park &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Center for Student Affairs at Discovery Park" href="/node/681/feed" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-departments-services no-sidebars og-context og-context-681   center-student-affairs-discovery-park">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/center-student-affairs-discovery-park"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-PzIUUP7zXSoFtRF5re-DnmyWdiI3pHVQjkA1KdJWaQM" value="form-PzIUUP7zXSoFtRF5re-DnmyWdiI3pHVQjkA1KdJWaQM"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/center-student-affairs-discovery-park"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-PzIUUP7zXSoFtRF5re-DnmyWdiI3pHVQjkA1KdJWaQM" value="form-PzIUUP7zXSoFtRF5re-DnmyWdiI3pHVQjkA1KdJWaQM"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+
+
+
+
+<div class="hero">
+	<div class="container">
+    	<h1 id="hero_title_background" class="title">Center for Student Affairs at Discovery Park</h1>
+        <div class="breadcrumbs">
+        	<a class="breadcrumb" href="/explore">Explore</a>
+            <a class="breadcrumb child" href="/departments">Departments</a>
+        </div>
+    </div>
+	<div class='slides'><div class='slide' style='background:url("/sites/default/files/dp_life.jpg") center center no-repeat;background-size:cover;'>
+					</div></div></div>
+<!-- this is a tempary hack so the we can have custome hero element here -->
+<main class="container well">
+
+<div class="row">
+<div class="meta col-md-12">
+		<div class="location meta-item col-md-2" data-toggle="tooltip" data-placement="top" data-title="View Building & Parking Info">
+		<span>Find us at</span>
+		<a href="discovery-park">Discovery Park - G140</a>
+	</div>
+		
+	<div class="hours meta-item col-md-2">
+		<span>Our Hours</span>
+		<a href="#hours" data-toggle="tab">Go to our Hours.</a>
+	</div>
+	
+		<div class="phone meta-item col-md-2">
+		<span>Call us</span>
+		(940) 369-5847	</div>
+			<div class="email meta-item col-md-2">
+		<span>Email us</span>
+		<a href="mailto:dplife@unt.edu">dplife@unt.edu</a>
+	</div>
+		<div class="social meta-item col-md-2">
+		<span>Connect with Us</span>
+		<a href="https://www.facebook.com/untdplife" target="_blank" class="facebook">Facebook</a>
+		<a href="https://twitter.com/DPLife_UNT" target="_blank" class="twitter">Twitter</a>
+				                		
+	</div>
+</div>
+</div>
+<div class="row tabbable">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a data-toggle="tab" href="#about">About</a></li>
+                        <li><a data-toggle="tab" href="#staff">Staff</a></li>            <!--<li><a data-toggle="tab" href="#hours">Hours</a></li>-->
+            <li><a data-toggle="tab" href="#posts">Posts</a></li>            <li><a data-toggle=tab href="#programs">Programs &amp; Services</a></li>            <li><a href="#orgs">Organizations</a></li>        </ul>
+        
+                
+    </div>
+    <div class="col-md-10">
+        <div class="tab-content">
+            <div class="tab-pane fadeIn animated active" id="about">
+                <div class="col-md-8">
+                	<h2>
+	Our Mission</h2>
+
+<div>
+	<div>
+		<div>
+			The Center for Student Affairs at Discovery Park, as part of the University Union, enhances the educational process and builds community by providing an inclusive environment where individuals are valued through quality programs and support services.</div>
+
+		<div>
+			<p>
+				The Center for Student Affairs values:</p>
+
+			<ul>
+				<li>
+					Being Community-Oriented: We value university traditions by creating a campus spirit and engaging students in student activities and organizations on both campuses.</li>
+				<li>
+					Being Service-Driven: We value providing student services to the Discovery Park Campus and collaborating with other offices in the Division of Student Affairs and other university entities.</li>
+				<li>
+					Being Leadership-Oriented: We value providing opportunities for leadership development of students through programs and hands-on experience; and</li>
+				<li>
+					Being Student-Centered: We value creating, implementing and facilitating the use of policies aimed at creating a safer and more inclusive environment for the growth and development of all students.</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div>
+	<div>
+		<div>
+			<p>
+				<strong><a href="http://issuu.com/untdplife/docs/ceo_ereaderoutlines_copy">Electronic CEO Brochure</a></strong></p>
+
+			<ul>
+				<li>
+					<a href="http://studentaffairs.unt.edu/sites/default/files/webform/DP%20Corps13-14.pdf">Corp of Engineers</a></li>
+			</ul>
+
+			<h2>
+				Services</h2>
+
+			<p>
+				The Center for Student Affairs (CSA) strives to make daily life easier for students while on the Discovery Park campus. The Discovery Park campus is open 7 days a week from 6am &ndash; midnight. Here is a quick list of services to help students adjust to life at DP.</p>
+
+			<div>
+				<div>
+					<h2>
+						Career Center</h2>
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<p>
+						The UNT Career Center has a satellite office on the Discovery Park campus. Students needing assistance with internships or career advice can make an appointment to speak with a counselor.</p>
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<h2>
+						Learning Center</h2>
+
+					<p>
+						Learning Center. The Learning Center has several programs to enhance learning and facilitate academic excellence for students. E2&nbsp;is a tutoring program specifically for engineers.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+                </div>
+                
+                <div class="col-md-4">
+                	
+                                         
+
+                                            <div class="col-md-12">
+                            <h1>Upcoming Events</h1>
+                            
+
+<div class="view view-Events view-id-Events view-display-id-block_1 view-dom-id-10">
+
+
+    
+  
+  
+      <div class="view-empty">
+      <div class="card-container col-md-12"><div class="well event ghost no-events">There are currently no events scheduled.</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>
+<div class="card-container col-md-12"><div class="well event ghost">&nbsp;</div></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+                        </div>
+                                        
+                    
+                    
+                </div>
+                
+            </div>
+            <div class="tab-pane fadeIn animated" id="staff">
+                
+
+<div class="view view-Staff view-id-Staff view-display-id-block_1 view-dom-id-2">
+
+
+    
+  
+  
+      <div class="view-content">
+          
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Sergio Renovato</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Assistant Director</p>
+        </div>
+</div>
+
+    
+
+<div class="card-container col-md-4">
+<div class="profile well">
+		<div class="photo">
+		<img src="/sites/default/files/images/photo-placeholder.png" alt="Photo of " />
+	</div>
+    	<h4 class="name">Tracy Frier</h4>
+        	<!--<a href="mailto:" title="">Email</a-->
+		<p class="title">Graduate Assistant</p>
+        </div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+            </div>
+            
+                        
+            <div class="tab-pane fadeIn animated" id="posts">
+                <div class="view view-posts view-id-posts view-display-id-block_2 view-dom-id-6">
+    
+      <div class="view-filters col-md-3">
+      <form action="/posts-manage"  accept-charset="UTF-8" method="get" id="views-exposed-form-posts-block-2" class="views_exposed_form">
+<div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Search          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-title-wrapper">
+ <input type="text" maxlength="128" name="title" id="edit-title" size="30" value="" class="form-text" />
+</div>
+        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-field_tags_value">
+                  <label for="edit-field-tags-value">
+            Tags          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-field-tags-value-wrapper">
+ <select name="field_tags_value" class="form-select" id="edit-field-tags-value" ><option value="All" selected="selected">&lt;Any&gt;</option></select>
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-posts" value="Apply"  class="form-submit" />
+    </div>
+  </div>
+</div>
+
+</div></form>
+    </div>
+  
+  
+    	        <div class="view-content">
+              
+
+<div class="card-container col-lg-6 col-md-6 col-sm-12">
+<article class="well post  " id="post-8553">
+		<h1><a href="http://studentaffairs.unt.edu/blog/services-discovery-park"><a href="/blog/services-discovery-park">Services at Discovery Park</a></a></h1>
+	
+	<p>
+	The Center for Student Affairs (CSA) strives to make daily life easier for students while on the Discovery Park campus. The Discovery Park campus is open 7 days a week from 6am &ndash; midnight. Here is a quick list of services to help students...</p>
+	<div class="meta">
+		<div class="profile inline">
+			<div class="photo"><img src="/sites/default/files/images/photo-placeholder.png" /></div>
+			Center for Student Affairs at Discovery Park		</div>
+		<a href="http://studentaffairs.unt.edu/blog/services-discovery-park" class="comments">04/17/2014 - 16:04</a>
+	</div>
+</article>
+</div>
+
+         </div>
+      
+  
+  
+  
+  
+  
+</div>             </div>
+            <div class="tab-pane fadeIn animated" id="hours">
+                
+            </div>
+            
+            <div class="tab-pane fadeIn animated" id="programs">
+				
+
+<div class="view view-programs view-id-programs view-display-id-block_1 view-dom-id-3">
+
+
+        <div class="view-header">
+      <style>
+.bef-select-as-radios .form-item{
+  display:inline-block;
+}
+#edit-field-tags-value-217-wrapper {
+  display:none;
+  visibility:hidden;
+  height:0px;
+}
+</style>
+
+<div class="dropdown filter filter-title" data-filter="views-widget-filter-title" data-filter-type="text">
+	<input type="text" data-filter-id="edit-title" placeholder="Refine by Title" />
+</div>
+
+<div class="dropdown filter filter-channel" data-filter="views-widget-filter-field_program_category_value" data-filter-type="list">
+<a href="#" class="button button-filter button-caret" data-toggle="dropdown">Channels</a>
+<ul class="dropdown-menu">
+</ul>
+</div>
+
+<div class="filter filter-channel-secondary" data-filter="views-widget-filter-field_tags_value" data-filter-type="list">
+<ul class="tags">
+</ul>
+</div>    </div>
+  
+      <div class="view-filters">
+      <form action="/programs-dev"  accept-charset="UTF-8" method="get" id="views-exposed-form-programs-block-1" class="views_exposed_form">
+<div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget views-widget-filter-field_tags_value">
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"></div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-field_program_category_value">
+                  <label for="edit-channel">
+            Channel          </label>
+                        <div class="views-widget">
+          <div class="form-checkboxes bef-select-as-checkboxes"><div class="bef-checkboxes"><div class="form-item" id="edit-channel-29-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-29" value="29"  /> <label class='option' for='edit-channel-29'>Arts &amp; Entertainment</label>
+</div>
+<div class="form-item" id="edit-channel-30-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-30" value="30"  /> <label class='option' for='edit-channel-30'>Career</label>
+</div>
+<div class="form-item" id="edit-channel-39-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-39" value="39"  /> <label class='option' for='edit-channel-39'>Community Service</label>
+</div>
+<div class="form-item" id="edit-channel-32-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-32" value="32"  /> <label class='option' for='edit-channel-32'>Education</label>
+</div>
+<div class="form-item" id="edit-channel-34-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-34" value="34"  /> <label class='option' for='edit-channel-34'>Health &amp; Wellness</label>
+</div>
+<div class="form-item" id="edit-channel-35-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-35" value="35"  /> <label class='option' for='edit-channel-35'>Leadership</label>
+</div>
+<div class="form-item" id="edit-channel-33-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-33" value="33"  /> <label class='option' for='edit-channel-33'>Money Management</label>
+</div>
+<div class="form-item" id="edit-channel-253-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-253" value="253"  /> <label class='option' for='edit-channel-253'>Orientation &amp; Transitioning</label>
+</div>
+<div class="form-item" id="edit-channel-252-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-252" value="252"  /> <label class='option' for='edit-channel-252'>Pride &amp; Traditions</label>
+</div>
+<div class="form-item" id="edit-channel-59-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-59" value="59"  /> <label class='option' for='edit-channel-59'>Residence Life</label>
+</div>
+<div class="form-item" id="edit-channel-36-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-36" value="36"  /> <label class='option' for='edit-channel-36'>Retail &amp; Dining</label>
+</div>
+<div class="form-item" id="edit-channel-41-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-41" value="41"  /> <label class='option' for='edit-channel-41'>Rights &amp; Conduct</label>
+</div>
+<div class="form-item" id="edit-channel-201-wrapper">
+ <input type="checkbox" name="channel[]" id="edit-channel-201" value="201"  /> <label class='option' for='edit-channel-201'>UNT</label>
+</div>
+</div></div>        </div>
+      </div>
+          <div class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Title          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-title-wrapper">
+ <input type="text" maxlength="128" name="title" id="edit-title" size="30" value="" class="form-text" />
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-programs" value="Apply"  class="form-submit" />
+<input type="hidden" name="views_exposed_form_focused_field" id="edit-views-exposed-form-focused-field" value=""  />
+    </div>
+  </div>
+</div>
+
+</div></form>
+    </div>
+  
+  
+      <div class="view-content">
+          
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/coffee-culture">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/coffee_culture.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-education">Education</div> </div>
+			<h1>Coffee &amp; Culture</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	Every April we host a weekly series in support of Great Global Citizens Month.	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/discovery-park-student-advisory-board">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/Discovery%20Park%20Student%20Advisory%20Board.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-leadership">Leadership</div> </div>
+			<h1>Discovery Park Student Advisory Board</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Purpose
+
+	
+		
+			To provide advice and input for planning and executing of events and services to students at Discovery Park
+		
+			To...	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/eagle-refuge">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/eagle-refuge-massage.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-education">Education</div> </div>
+			<h1>Eagle Refuge</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		At the end of each semester we host our own version of this event to help students de-stress and prepare for finals.
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/geek-week">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/geek_week.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-education">Education</div> </div>
+			<h1>Geek Week</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Every September we host a week-long series of events to welcome new engineering students to UNT.
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/national-engineers-week">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/design_day_formula_car.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-education">Education</div> </div>
+			<h1>National Engineers Week</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Every February we host a week-long series of events to celebrate and educate others about the field of engineering.
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/national-library-week">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/programs/National%20Library%20Week.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-education">Education</div> </div>
+			<h1>National Library Week</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Each April we host an event in celebration and recognition of the library and information science students at Discovery Park.
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-4 col-sm-6 col-xs-6">
+<div class="well program">
+	<a href="/tea-tradition">
+	<header style="background: url('http://studentaffairs.unt.edu/sites/default/files/tea_traditions.jpg') no-repeat center;">
+		<div class="meta with-photo">
+			<div class="channels"><div class="label channel channel-education">Education</div> </div>
+			<h1>Tea &amp; Tradition</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+	
+	
+	
+		Every November we host three events in celebration of International Education Week.
+	</div>
+	
+</div>
+</div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+				<div class="clear"></div>
+				
+
+<div class="view view-DepartmentsServices view-id-DepartmentsServices view-display-id-block_2 view-dom-id-9">
+
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+            </div>
+            
+            
+            <div  class="tab-pane" id="orgs">
+               <h1>Student Organizations</h1>
+                
+
+<div class="view view-Organization view-id-Organization view-display-id-block_1 view-dom-id-5">
+
+
+    
+  
+  
+      <div class="view-content">
+          
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/american-society-heating-refrigerating-and-air-conditioning-engineers">
+	<header >
+		<div class="meta ">
+						<h1>American Society of Heating, Refrigerating and Air Conditioning Engineers</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/american-society-mechanical-engineers">
+	<header >
+		<div class="meta ">
+						<h1>American Society of Mechanical Engineers</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/association-computing-machinery">
+	<header >
+		<div class="meta ">
+						<h1>Association for Computing Machinery</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/association-computing-machinerys-women-computing">
+	<header >
+		<div class="meta ">
+						<h1>Association for Computing Machinery&#039;s Women in Computing</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/association-information-science-and-technology">
+	<header >
+		<div class="meta ">
+						<h1>Association for Information Science and Technology</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/association-constructing-engineering-and-technology">
+	<header >
+		<div class="meta ">
+						<h1>Association of Constructing Engineering and Technology</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/association-energy-engineers">
+	<header >
+		<div class="meta ">
+						<h1>Association of Energy Engineers</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/computer-society-ieee-computer-society">
+	<header >
+		<div class="meta ">
+						<h1>Computer Society (IEEE Computer Society)</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/council-engineering-organizations">
+	<header >
+		<div class="meta ">
+						<h1>Council of Engineering Organizations</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/engineers-unlimited">
+	<header >
+		<div class="meta ">
+						<h1>Engineers Unlimited</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/eta-kappa-nu">
+	<header >
+		<div class="meta ">
+						<h1>Eta Kappa Nu</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    
+<div class="card-container col-md-6 col-sm-6 col-xs-8">
+<div class="well organization">
+	<a href="/org/institute-electrical-and-electronics-engineers">
+	<header >
+		<div class="meta ">
+						<h1>Institute of Electrical and Electronics Engineers</h1>
+		</div>
+	</header>
+	</a>
+	
+	<div class="description">
+		<div class="social-buttons small">
+			<ul class="button-group">
+											</ul>
+		</div>
+	</div>
+	
+</div>
+</div>
+
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/center-student-affairs-discovery-park?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-next"><a href="/center-student-affairs-discovery-park?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/center-student-affairs-discovery-park?page=1" title="Go to last page" class="active">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>
+            </div>
+
+                       
+        </div>
+    </div>   
+</div><!-- end of row -->
+<style>
+
+</style>
+</main>
+	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/base.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/ajax_view.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/views/js/dependent.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/views_hacks/views_filters_autosubmit/views_filters_autosubmit.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/better_exposed_filters/better_exposed_filters.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.form.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": [ 0, 0, 0, 0, 0, 0, 0, 0 ], "roles": { "1": "anonymous user", "2": "anonymous user", "3": "anonymous user", "4": "anonymous user", "5": "anonymous user", "6": "anonymous user", "7": "anonymous user", "8": "anonymous user" } } }, "CToolsUrlIsAjaxTrusted": { "/center-student-affairs-discovery-park": [ true, true ], "/programs-dev": [ true, true ], "/posts-manage": [ true, true ] }, "views": { "ajax_path": [ "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax", "/views/ajax" ], "ajaxViews": [ { "view_name": "Staff", "view_display_id": "block_1", "view_args": "681", "view_path": "node/681", "view_base_path": "people", "view_dom_id": 2, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_1", "view_args": "681", "view_path": "node/681", "view_base_path": "programs-dev", "view_dom_id": 3, "pager_element": 0 }, { "view_name": "programs", "view_display_id": "block_3", "view_args": "681", "view_path": "node/681", "view_base_path": "programs-dev", "view_dom_id": 4, "pager_element": 0 }, { "view_name": "Organization", "view_display_id": "block_1", "view_args": "681", "view_path": "node/681", "view_base_path": "explore-orgs-admin", "view_dom_id": 5, "pager_element": 0 }, { "view_name": "posts", "view_display_id": "block_2", "view_args": "681", "view_path": "node/681", "view_base_path": "posts-manage", "view_dom_id": 6, "pager_element": 0 }, { "view_name": "posts", "view_display_id": "block_10", "view_args": "681", "view_path": "node/681", "view_base_path": "posts-manage", "view_dom_id": 7, "pager_element": 0 }, { "view_name": "posts", "view_display_id": "block_7", "view_args": "681", "view_path": "node/681", "view_base_path": "posts-manage", "view_dom_id": 8, "pager_element": 0 }, { "view_name": "Events", "view_display_id": "block_1", "view_args": "681", "view_path": "node/681", "view_base_path": "read/events", "view_dom_id": 10, "pager_element": 0 } ] }, "vfas": { "views-exposed-form-programs-block-1": { "exceptions": "" } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "og": { "group_context": { "nid": "681", "title": "Center for Student Affairs at Discovery Park", "type": "departments_services" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

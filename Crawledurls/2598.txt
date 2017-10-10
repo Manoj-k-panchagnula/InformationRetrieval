@@ -1,0 +1,813 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="//apply.unt.edu/sites/all/themes/greenlight_sub/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://apply.unt.edu/next-steps" />
+<link rel="shortlink" href="http://apply.unt.edu/node/6" />
+  <title>Next Steps | Freshman Overview</title>  
+  
+  <!--[if lt IE 9]>
+  	<link rel="stylesheet" type="text/css" href="/sites/all/themes/greenlight_sub/css/ie-apply.css" />
+  <![endif]-->
+
+  <!--[if gte IE 9]>
+  	<style type="text/css" media="all">
+@import url("//apply.unt.edu/modules/system/system.base.css?o69clj");
+@import url("//apply.unt.edu/modules/system/system.menus.css?o69clj");
+@import url("//apply.unt.edu/modules/system/system.messages.css?o69clj");
+@import url("//apply.unt.edu/modules/system/system.theme.css?o69clj");
+</style>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_user/ldap_user.css?o69clj");
+@import url("//apply.unt.edu/modules/comment/comment.css?o69clj");
+@import url("//apply.unt.edu/sites/all/modules/date/date_api/date.css?o69clj");
+@import url("//apply.unt.edu/modules/field/theme/field.css?o69clj");
+@import url("//apply.unt.edu/sites/all/modules/fitvids/fitvids.css?o69clj");
+@import url("//apply.unt.edu/modules/node/node.css?o69clj");
+@import url("//apply.unt.edu/modules/search/search.css?o69clj");
+@import url("//apply.unt.edu/modules/user/user.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/views/css/views.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/caption-filter.css?o69clj");
+</style>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/ctools/css/ctools.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_servers/ldap_servers.admin.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/panels/css/panels.css?o69clj");
+</style>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-reset.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-mobile.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-alpha.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/formalize.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-text.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-branding.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-menu.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-forms.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-visuals.css?o69clj");
+@import url("//apply.unt.edu/sites/default/files/fontyourface/font.css?o69clj");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:regular|Open+Sans:300,700&amp;subset=latin" media="all" />
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/global.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/global-sub.css?o69clj");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o69clj");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/fluid/alpha-default-fluid-12.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-narrow.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-narrow.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?o69clj");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o69clj");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-wide.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-wide.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?o69clj");
+</style>
+<!--<![endif]-->
+	<![endif] --> 
+  
+  <!--[if !IE]><!-->
+  	<style type="text/css" media="all">
+@import url("//apply.unt.edu/modules/system/system.base.css?o69clj");
+@import url("//apply.unt.edu/modules/system/system.menus.css?o69clj");
+@import url("//apply.unt.edu/modules/system/system.messages.css?o69clj");
+@import url("//apply.unt.edu/modules/system/system.theme.css?o69clj");
+</style>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_user/ldap_user.css?o69clj");
+@import url("//apply.unt.edu/modules/comment/comment.css?o69clj");
+@import url("//apply.unt.edu/sites/all/modules/date/date_api/date.css?o69clj");
+@import url("//apply.unt.edu/modules/field/theme/field.css?o69clj");
+@import url("//apply.unt.edu/sites/all/modules/fitvids/fitvids.css?o69clj");
+@import url("//apply.unt.edu/modules/node/node.css?o69clj");
+@import url("//apply.unt.edu/modules/search/search.css?o69clj");
+@import url("//apply.unt.edu/modules/user/user.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/views/css/views.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/caption-filter.css?o69clj");
+</style>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/ctools/css/ctools.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/ldap/ldap_servers/ldap_servers.admin.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/modules/contrib/panels/css/panels.css?o69clj");
+</style>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-reset.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-mobile.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/alpha-alpha.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/formalize.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-text.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-branding.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-menu.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-forms.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/css/omega-visuals.css?o69clj");
+@import url("//apply.unt.edu/sites/default/files/fontyourface/font.css?o69clj");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:regular|Open+Sans:300,700&amp;subset=latin" media="all" />
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/global.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/global-sub.css?o69clj");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o69clj");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/fluid/alpha-default-fluid-12.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-narrow.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-narrow.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?o69clj");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-normal.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?o69clj");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/greenlight/css/greenlight-alpha-default-wide.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default.css?o69clj");
+@import url("//apply.unt.edu/sites/all/themes/greenlight_sub/css/greenlight-sub-alpha-default-wide.css?o69clj");
+@import url("//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?o69clj");
+</style>
+<!--<![endif]-->
+  <!--<![endif] -->
+  
+	
+    
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="//apply.unt.edu/profiles/cws_d7/libraries/respondjs/respond.min.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/profiles/cws_d7/modules/contrib/jquery_update/replace/jquery/1.10/jquery.js?v=1.10.2"></script>
+<script type="text/javascript" src="//apply.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="//apply.unt.edu/misc/drupal.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/sites/all/libraries/fitvids/jquery.fitvids.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/profiles/cws_d7/modules/contrib/jquery_update/replace/ui/ui/jquery.ui.effect.js?v=1.10.2"></script>
+<script type="text/javascript" src="//apply.unt.edu/sites/all/modules/equalheights/equalheights.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/sites/all/modules/fitvids/fitvids.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/profiles/cws_d7/modules/contrib/caption_filter/js/caption-filter.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/sites/all/modules/google_analytics/googleanalytics.js?o69clj"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-368058-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="//apply.unt.edu/profiles/cws_d7/themes/greenlight/js/wdc-drupal7.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/jquery.formalize.js?o69clj"></script>
+<script type="text/javascript" src="//apply.unt.edu/profiles/cws_d7/themes/contrib/omega/omega/js/omega-mediaqueries.js?o69clj"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"greenlight_sub","theme_token":"XJps172GOB6nrqHE-coc0RuD2XZ2O1G9fKTAdhNuw-Q","js":{"profiles\/cws_d7\/libraries\/respondjs\/respond.min.js":1,"profiles\/cws_d7\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"profiles\/cws_d7\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/jquery.ui.effect.js":1,"sites\/all\/modules\/equalheights\/equalheights.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/cws_d7\/themes\/greenlight\/js\/wdc-drupal7.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cws_d7\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cws_d7\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/cws_d7\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cws_d7\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"profiles\/cws_d7\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Montserrat:regular|Open+Sans:300,700\u0026subset=latin":1,"profiles\/cws_d7\/themes\/greenlight\/css\/global.css":1,"sites\/all\/themes\/greenlight_sub\/css\/global-sub.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"ie::normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"ie::normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"ie::normal::profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"fluid::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"fluid::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/fluid\/alpha-default-fluid-12.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"narrow::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-narrow.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"narrow::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-narrow.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"normal::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-normal.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"normal::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-normal.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default.css":1,"wide::profiles\/cws_d7\/themes\/greenlight\/css\/greenlight-alpha-default-wide.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default.css":1,"wide::sites\/all\/themes\/greenlight_sub\/css\/greenlight-sub-alpha-default-wide.css":1,"profiles\/cws_d7\/themes\/contrib\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"fitvids":{"custom_domains":[],"selectors":["body\r","fitvid"],"simplifymarkup":1},"wdcImagefitClasses":[".imagefit",".imagefit2",".footer-logo",".footer-tagline"],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)","narrow":"all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+
+	<link rel="stylesheet" type="text/css" href="/sites/all/themes/greenlight_sub/css/lightcase.css">
+<script type="text/javascript" src="/sites/all/themes/greenlight_sub/js/lightcase.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('a[data-rel^=lightcase]').lightcase({
+                    onStart: {
+                        pauseBackgroundVid: function(){ 
+                            document.getElementById('bgvid').pause(); 
+                        }},
+                    onClose: { 
+                        startBackgroundVid: function(){
+                            document.getElementById('bgvid').play();    
+                    }},
+                    video: {
+                        width: 800,
+                        height: 450
+                    }
+                });
+	});
+</script>
+<!-- Hotjar Tracking Code for apply.unt.edu -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:56635,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','apply_ga');
+
+  apply_ga('create', 'UA-33873688-1', 'auto');
+  apply_ga('send', 'pageview');
+
+</script>
+	
+  <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-6 node-type-page context-next-steps">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <span></span>
+<div id="mobile-header-wrapper" class="mobile"><!-- #mobile-header on www.unt.edu -->
+	<div class="mobile-header"> <!-- #inside-greenlight on www.unt.edu -->
+		<div class="inside">
+			<p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+			<p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+			<div id="mobile-branding"><a href="http://www.unt.edu/"><img src="https://webassets.unt.edu/theme/greenlight-d7/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+			<div id="mobile-nav-block" class="mo-hide">
+				<div class="inside">
+					<ul id="collapse-mobile-nav">
+						<li id="li-mo-home" class="first"><a href="/"><span>Home</span></a></li>
+						
+						<!--<li id="li-mo-quicklinks" class="menu-toggler"><span>Quicklinks »</span>
+						  <ul class="mo-quicklinks toggler-submenu mo-hide">
+						  	<li class="quicklink first myunt"><a href="https://my.unt.edu/" title="Your digital profile at UNT">MyUNT</a></li>
+								<li class="quicklink eagleconnect"><a href="http://eagleconnect.unt.edu/" title="EagleConnect is the UNT Email system for students and alumni.">EagleConnect</a></li>
+								<li class="quicklink blackboard"><a href="http://webctvista.unt.edu/" title="Online learning portal.">Blackboard</a></li>
+								<li class="quicklink people"><a href="http://www.unt.edu/find-people-department.htm" title="Search People and Departments at UNT.">People</a></li>
+								<li class="quicklink maps"><a href="http://maps.unt.edu/" title="Find where you want to go at UNT.">Maps</a></li>
+								<li class="quicklink calendars"><a href="http://www.unt.edu/calendars-events.htm" title="Academic and other calendars at UNT.">Calendars</a></li>
+								<li class="quicklink last applynow"><a href="http://www.unt.edu/admissions.htm" title="Learn more about admissions at UNT.">Apply Now</a></li>
+							</ul>
+						</li>-->
+
+						<li id="li-mo-main-menu" class="menu-toggler active"><span>Main menu &raquo;</span>
+<ul class="mo-main-menu toggler-submenu mo-hide" style="display: block"><li><a href="http://apply.unt.edu/unt">Home</a></li>
+<li><a href="http://apply.unt.edu/academics">Academics</a></li>
+<li><a href="http://apply.unt.edu/campus-life">Campus Life</a></li>
+<li><a href="http://apply.unt.edu/location">Location</a></li>
+<li><a href="http://apply.unt.edu/costs">Costs</a></li>
+<li><a href="http://apply.unt.edu/career">Career</a></li>
+<li><a href="http://apply.unt.edu/next-steps">Next Steps</a></li>
+</ul>
+</li>
+				  </ul>
+				</div>
+			</div><!-- /MOBILE MENU -->
+          
+			<div id="mobile-search-block" class="mo-hide">
+				<div class="inside">
+					<!-- inside here, we simply need to put Drupal's search form, or whatever form we're using -->
+					<form action="/next-steps" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-inkpSQKX0LNZ_Dnu4tLyxaSBkIC3BDrW0eUXroFPMBE" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>					<!--<form action="/" method="post" id="search-block-form" accept-charset="UTF-8">
+						<div><div class="container-inline">
+							<h2 class="element-invisible">Search form</h2>
+							
+							<div class="form-item form-type-textfield form-item-search-block-form">
+								<label class="element-invisible" for="edit-search-block-form--2">Search the UNT web site:</label>
+								<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+							</div>
+							
+							<div class="form-actions form-wrapper" id="edit-actions">
+								<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+							</div>
+							
+							<input type="hidden" name="form_build_id" value="form-ujfG-ZSE5TR-xFGXg80zrwpNYknILBw1CChPMxUbnHI">
+							<input type="hidden" name="form_token" value="DKL_c2lnzzWVVOH3_nQL-VLa_l3dRsfj8UBY06q-AvY">
+							<input type="hidden" name="form_id" value="search_block_form">
+							</div>
+						</div>
+					</form>-->
+
+				</div>
+			</div><!-- /MOBILE SEARCH -->
+		</div>
+	</div>
+</div>
+<div id="mobile-site-info" class="mobile"><div class="inside">
+	<!--div class="mobile-dept-name"></div-->
+	<div class="mobile-site-title"><a href="/">Freshman Overview</a></div>
+</div></div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="zone zone-user clearfix container-12">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-block block-20 block-block-20 odd block-without-title" id="block-block-20">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="quicklinks">
+	<li class="quicklink apply-now first"><a href="http://admissions.unt.edu/freshman" target="_blank" title="UNT Freshman Admissions website (opens in new window)" onclick="ga('send', 'event', 'cta', 'click', 'cta-global-top-ApplyNow');">Apply Now</a>
+</li>
+	<li class="quicklink take-tour"><a href="http://tours.unt.edu" target="_blank" title="Schedule a UNT Campus Tour (opens in new window)"  onclick="ga('send', 'event', 'cta', 'click', 'cta-global-top-TakeATour');">Take a Tour</a</li>
+	<li class="quicklink get-info"><a href="http://pages.unt.edu/undergradinfo" target="_blank" title="Request customized information about UNT (opens in new window)"  onclick="ga('send', 'event', 'cta', 'click', 'cta-global-top-GetMoreInfo');">Get More Info</a></li>
+	<li class="quicklink talk"><a href="http://admissions.unt.edu/contact-us/freshman-counselors" target="_blank" title="Talk with your UNT Admissions Counselor (opens in new window)"  onclick="ga('send', 'event', 'cta', 'click', 'cta-global-top-TalkWithUs');">Talk with Us</a></li>
+	<li class="quicklink parents last"><a href="http://social.unt.edu/?utm_source=FticVwbk_Cta_GetSocial&utm_medium=web&utm_campaign=FTICViewbook" target="_blank" title="UNT Social Media (opens in new window)"  onclick="ga('send', 'event', 'cta', 'click', 'cta-global-top-GetSocial');">Get Social</a></li>
+	<li class="quicklink parents last"><a href="http://parentsguide.unt.edu" target="_blank" title="UNT Parent's Guide website (opens in new window)"  onclick="ga('send', 'event', 'cta', 'click', 'cta-global-top-ForParents');">For Parents</a></li>
+
+</ul>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-block block-23 block-block-23 odd block-without-title" id="block-block-23">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form method="get" action="/search-results" id="sform">
+<input id="searchBox" type="text" name="search" value="">
+<input name="sa" type="submit" value="Search" id="sbutton">
+<input name="cx" type="hidden" value="006162551747196560811:ueuk_ajzpuw"><input name="cof" type="hidden" value="FORID:11">
+</form>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+	  <div class="logo"><a href="//www.unt.edu"><img src="https://webassets.unt.edu/theme/greenlight-d7/unt-lettermark.png" alt="UNT" /></a></div>
+    <section class="block block-system block-menu block-main-menu block-system-main-menu odd" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+              <h3 class="block-title">Main menu</h3>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/unt" title="Homepage">Home</a></li>
+<li class="leaf menu-green"><a href="/academics" id="academics" class="academics menu-green">Academics</a></li>
+<li class="leaf menu-green"><a href="/campus-life" id="college-life" class="college-life menu-green">Campus Life</a></li>
+<li class="leaf"><a href="/location" id="location" class="location menu-green">Location</a></li>
+<li class="leaf menu-green"><a href="/costs" id="costs" name="Costs" class="costs menu-green">Costs</a></li>
+<li class="leaf menu-green"><a href="/career" id="career" class="career menu-green">Career</a></li>
+<li class="last leaf active-trail menu-lime"><a href="/next-steps" id="next-steps" class="next-steps menu-lime active-trail active">Next Steps</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div>
+	<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix desktop">
+		<div id="zone-menu" class="zone zone-menu clearfix container-12">
+			<div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <nav class="navigation">
+      <h2 class="element-invisible">Main menu</h2><ul id="main-menu" class="links inline clearfix main-menu"><li class="menu-417 first"><a href="/unt" title="Homepage">Home</a></li><li class="menu-545"><a href="/academics" id="academics" class="academics menu-green">Academics</a></li><li class="menu-546"><a href="/campus-life" id="college-life" class="college-life menu-green">Campus Life</a></li><li class="menu-574"><a href="/location" id="location" class="location menu-green">Location</a></li><li class="menu-544"><a href="/costs" id="costs" name="Costs" class="costs menu-green">Costs</a></li><li class="menu-547"><a href="/career" id="career" class="career menu-green">Career</a></li><li class="menu-548 active-trail last active"><a href="/next-steps" id="next-steps" class="next-steps menu-lime active-trail active">Next Steps</a></li></ul>    </nav>
+        <div class="block block-block block-5 block-block-5 odd block-without-title" id="block-block-5">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <span class="menu-spacer">&nbsp;</span>    </div>
+  </div>
+</div>  </div>
+</div>
+		</div>
+	</div>
+</header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div  about="/next-steps" typeof="sioc:Item foaf:Document" id="node-page-6" class="ds-1col node node-page view-mode-default node-not-promoted node-not-sticky author-gaa0003 odd clearfix clearfix">
+
+  
+  <section id="section1" class="next-steps">
+	
+	<div class="inside">
+		<div id="paneloverlay">
+			<h2 class="title">Your Future<br />Starts Now</h2>
+			<p>Now that you know how awesome UNT is, it’s time to take the next step to join us.</p>
+
+		</div>
+		<a href="#section2" class="scroll-down icon-angle-down"></a>
+	</div>	
+
+	<div class="jumps jump-next-steps boxer-full">
+		<div class="inside">
+
+			<div class="boxer grid-12">
+				<ul class="jump-menu">
+					<li><a href="#admissions-apply">Apply to UNT</a></li>
+					<li><a href="#tour">Tour</a></li>
+					<li><a href="#sign-up-for-info">Sign Up for Info</a></li>
+					<li><a href="#talk-to-us">Talk to Us</a></li>
+					<li><a href="#admissions-events">Admissions Events</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	
+</section><a id="admissions-apply" class="anchor"></a>
+<section id="section2" class="second box-full admissions-apply">
+	<div class="inside">
+
+		<div class="box">
+			<div class="row">
+				<div class="col large-12">
+					<h2 class="title">Apply to UNT</h2>
+					<p>Join our incredible community and discover why we’ve been leading the North Texas region for 125 years.</p>
+					
+					<p>March 1 is the admissions priority application deadline for freshmen. Most students apply between August and December of their senior year. It's best to apply as early as possible so that more scholarships are available and you have more options for orientation dates and housing preferences.</p>
+				</div>
+				
+				<div class="col large-4 mobile-12">
+					<div class="center">
+						
+						<div class="btn btn2 green">
+							<a href="http://www.applytexas.org" title="Apply to UNT Online at ApplyTexas.org (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-ApplyNow');">Apply Online Now at ApplyTexas.org »</a>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="col large-4 mobile-12">
+					<div class="center">
+
+						<div class="btn btn2 lime">
+							<a href="http://admissions.unt.edu/freshman" title="UNT Freshman Admissions Website (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-AdmissionsProcess');">Learn more about the admissions process »</a>
+						</div>
+						
+					</div>
+				</div>
+				
+				<!--<div class="col large-12 center">
+					<p style="font-size:.8em;font-style:italic;">Applying from out of state? You can apply using <a href="http://www.commonapp.org/">The Common Application</a>.</p>
+				</div>-->
+                <div class="col large-4 mobile-12">
+					<div class="center">
+
+						<div class="btn btn2 green">
+							<a href="http://www.commonapp.org" title="UNT Freshman Admissions Website (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-CommonApp');">Out of state students can apply using The Common Application »</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section><a id="tour" class="anchor"></a>
+<section id="section3" class="third box-full tour">
+	<div class="inside">
+
+		<div class="box">
+			<div class="row">
+				
+				<div class="col large-12">
+					<h2 class="title">Tour</h2>
+					<p>Our campus tours are led by current students who can share insider tips and answer your questions.</p>
+					<p>Take a tram ride around campus, walk through campus to see student life in action, check out residence halls and get an overview of academic areas, student services, the Pohl Recreation Center and Willis Library.</p> 
+					<p>We also offer many specialty tours and even evening tours to fit your busy schedule.</p>
+					<p>Call 940-565-4104 or <a href="http://tours.unt.edu" title="UNT Campus Tours (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-TakeATour');">schedule your campus tour online</a>.</p>
+					
+					<div class="btn btn3 green">
+						<a href="http://tours.unt.edu" title="UNT Campus Tours (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-TakeATour');">Sign up for a Tour »</a>
+					</div>
+				</div>
+				
+				<!--div class="col large-3 small-4 mobile-12 cta-circle">
+					<div class="btn-group">
+						<div class="btn-circle green">
+							<a href="http://tours.unt.edu" title="UNT Campus Tours (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-TakeATour');">Sign up for a Tour »</a>
+						</div>
+					</div>
+				</div-->
+			</div>
+		</div>
+
+	</div>
+</section><a id="sign-up-for-info" class="anchor"></a>
+<section id="section4" class="fourth box-full sign-up-for-info">
+	<div class="box">
+		
+		<div class="row">
+			<div class="col large-12 mobile-12 center">
+				<h2 class="title">Sign Up for Info</h2>
+				<p>Want to know more about what UNT has to offer? Sign up to get digital or print information about UNT and academic programs customized around your personal interests.</p>
+				
+				<div class="btn-group center">
+					<div class="btn btn2 lime">
+						<a href="http://pages.unt.edu/undergradinfo" title="UNT Information Request (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-GetMoreInfo');">Get customized information about UNT »</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+</section><a id="talk-to-us" class="anchor"></a>
+<section id="section5" class="fourth box-full talk-to-us">
+	<div class="inside">
+
+		<div class="box">
+			<div class="row">
+				
+				<div class="col large-6">
+					<div>
+						<h2 class="title mixedfont allcaps">Talk to Us<br /><span>We're here to help you</span></h2>
+						<p>Our Admissions Counselors can guide you through the admissions process and answer any questions you may have. <a href="http://admissions.unt.edu/contact-us/freshman-counselors" target="_blank" title="Talk with your UNT Admissions Counselor (opens in new window)"  onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-TalkWithUs');">Find your UNT Admissions Counselor.</a></p>
+						
+						<p>Want to know more about what it's like to be a student at UNT? <a href="http://tours.unt.edu#ambassadors" title="Chat online with a UNT student Eagle Ambassador (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-ChatOnline');">Chat online</a> or <a href="mailto:ambassador@unt.edu">send an email</a> to one of our student Eagle Ambassadors.</a></p>
+
+						<div class="btn btn3 lime">
+							<a href="http://admissions.unt.edu/contact-us/freshman-counselors" target="_blank" title="Talk with your UNT Admissions Counselor (opens in new window)"  onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-TalkWithUs');">Contact an Admissions Counselor »</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col large-6 small-center">
+					<div class="imagefit">
+						<img src="/sites/all/themes/greenlight_sub/images/13_410_FreshmenAdvisorStudent072.jpg" alt="" />
+					</div>
+				</div>
+				
+			</div>
+			
+
+		</div>
+
+	</div>
+</section><a id="admissions-events" class="anchor"></a>
+<section id="section6" class="fourth box-full admissions-events">
+	<div class="inside">
+
+		<div class="box">
+			<div class="row">
+				
+				<div class="col large-8 small-12 right">
+					<h2 class="title">Admissions Events</h2>
+					<p><a href="http://untpreview.unt.edu" title="UNT Preview (opens in new window)" target="_blank">UNT Preview</a> events, held each fall and spring, allow you to experience campus, meet faculty and even get help with the application process.</p>
+					<p>Once you're accepted to UNT, <a href="http://premiere.unt.edu" title="UNT Premiere (opens in new window)" target="_blank">UNT Premiere</a> is your opportunity to find out what it’s like to be a UNT student. You can participate in mock classes, meet with staff in your academic department, take a campus tour, and join in the fun of UNT’s University Day celebrations.</p>
+					<p><a href="http://admissions.unt.edu/events" title="UNT Admissions Events (opens in new window)" target="_blank" onclick="ga('send', 'event', 'cta', 'click', 'cta-NextSteps-AdmissionsEvents');">See more UNT Admissions events and find out when UNT Admissions Counselors will be in your area.</a></p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section></div>
+
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-3 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-block block-18 block-block-18 odd block-without-title" id="block-block-18">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="jump-to-top"><a href="#skip-link"><!--i class="fa fa-arrow-circle-o-up"></i-->Top</a></div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+	  <div id="zone-footer" class="zone zone-footer mcconnell clearfix container-12">
+	  
+	    <div class="grid-3 region region-footer-first" id="region-footer-first">
+			  <div class="region-inner region-footer-first-inner">
+			  
+					<div class="footer-logo unt-brand">
+						<a href="http://www.unt.edu"><img src="https://webassets.unt.edu/theme/greenlight-d7/unt-stacked-mcconnell.png" alt="University of North Texas | UNT" /></a>
+					</div>
+					
+			  </div>
+			</div>
+			
+			<div class="grid-3 region region-footer-second" id="region-footer-second">
+			  <div class="region-inner region-footer-second-inner">
+			  
+					<div class="footer-header header-1">
+						<h3 id="footer-1" class="footer-toggler block-title">Visit Us</h3>
+						<div id="collapse-footer-1" class="footer-block-content footer-toggler-content">
+							<p><a href="http://maps.unt.edu/places/1017/view" target="_blank"><strong>Eagle Student Services Center</strong></a><br />
+							University of North Texas<br />
+1155 Union Circle<br />
+Denton, Texas 76203<br />
+							<a href="http://maps.unt.edu/places/1017/view" target="_blank" title="Map to Eagle Student Services Center"><img src="https://webassets.unt.edu/theme/greenlight-d7/map-icon.png" alt="map icon" class="map-icon" /></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 region region-footer-third" id="region-footer-third">
+			  <div class="region-inner region-footer-third-inner">
+			
+					<div class="footer-header header-2">
+						<h3 id="footer-2" class="footer-toggler block-title">Mail Us</h3>
+					</div>
+										<div id="collapse-footer-2" class="footer-block-content footer-toggler-content">
+						<p><strong>University of North Texas</strong><br />
+						1155 Union Circle #311070<br />
+ Denton, TX 76203-5017</p>
+					</div>
+									</div>
+			</div>
+
+			<div class="grid-3 region region-footer-fourth" id="region-footer-fourth">
+			  <div class="region-inner region-footer-fourth-inner">
+			
+					<div class="footer-header header-3">
+						<h3 id="footer-3" class="footer-toggler block-title">Contact Us</h3>
+					</div>
+					<div id="collapse-footer-3" class="footer-block-content footer-toggler-content">
+													<p class="phone-lg"><a href="tel:+19405652681">940-565-2681</a></p>
+																			<p class="contact-email"><a href="mailto:unt.freshmen@unt.edu">unt.freshmen@unt.edu</a></p>
+																			<p class="tech-email"><a href="mailto:urcm@unt.edu">Technical issues?</a></p>
+											</div>
+					
+					<div class="footer-social"><div class="inside">
+													<div class="social-icon facebook"><a href="https://www.facebook.com/northtexas" class="facebook" title="University of North Texas on Facebook"><i class="fa fa-facebook"></i></a></div>
+												
+												  <div class="social-icon twitter"><a href="https://twitter.com/UNTsocial" class="twitter" title="University of North Texas on Twitter"><i class="fa fa-twitter"></i></a></div>
+														
+												  <div class="social-icon youtube"><a href="https://www.youtube.com/user/universitynorthtexas" class="youtube" title="University of North Texas on YouTube"><i class="fa fa-youtube"></i></a></div>
+													
+												
+													
+													
+													
+													
+						<div class="social-icon mobile-icon"><a href="http://m.unt.edu/" class="togo" title="UNT ToGo"><i class="fa fa-mobile"></i></a></div>
+						<div class="social-icon directory-icon"><a href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory"><i class="fa fa-list"></i></a></div>
+					</div></div>
+			
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="zone-state-wrapper" class="zone-wrapper zone-state-wrapper clearfix">  
+	  <div id="zone-state" class="zone zone-state clearfix container-12">
+	  
+	    <div class="grid-12 region region-footer-state desktop" id="region-footer-state">
+			  <div class="region-inner region-footer-state-inner">
+		
+					<p class="updated">Site last updated on <span class="footer-updated">May 05, 2016</span></p>
+					
+					<p class="sate-links">
+					<a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a><span class="footer-sep">|</span>
+					<a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a><span class="footer-sep">|</span>
+					<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a><span class="footer-sep">|</span>
+					<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+					<a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a><span class="footer-sep">|</span>
+					<a href="http://compliance.unt.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a><span class="footer-sep">|</span>
+					<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a><span class="footer-sep">|</span>
+					<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a><span class="footer-sep">|</span>
+					<a href="http://www.unt.edu">UNT Home</a>
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="grid-12 region region-footer-state mobile" id="region-footer-state-mobile"><div class"region-inner region-footer-state-inner-mobile">
+					<p class="updated">Site last updated on <span class="footer-updated">May 05, 2016</span> | <span class="mobile-state-links"><a href="http://www.unt.edu/important-links.htm">Important Links</a></span></p>
+			</div></div>
+			
+		</div>
+	</div>
+</footer>  </div>  
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+<script type="text/javascript">
+
+    jQuery(window).scroll(function() {
+        // read scroll from top
+        var scroll = jQuery(window).scrollTop();
+
+       // handle header collapse
+       if (scroll >= 31) {
+           // jQuery(".section-header").addClass("scrolled");
+            jQuery("body").addClass("scrolled");
+        } else {
+            //jQuery(".section-header").removeClass("scrolled");
+            jQuery("body").removeClass("scrolled");
+       }
+
+        // handle jump nav
+        if(jQuery('.jumps').length > 0){
+           if(window.jumpOff > 0){
+                if(scroll < window.jumpOff){
+                    window.jumpOff = 0;
+                    jQuery("body").removeClass('jump-scrolled');
+                }
+           } else {
+               var jumpOff = jQuery('.jumps').offset().top - 70
+               var jumpIf = jumpOff
+               if(scroll > jumpIf){
+                   jQuery("body").addClass('jump-scrolled');
+                   window.jumpOff = jumpOff
+               }
+           }  
+        }       
+});
+</script>
+<script type="text/javascript">
+	jQuery(function() {
+	  jQuery('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = jQuery(this.hash);
+	      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+                  var offset = 115;
+                  if(!jQuery('body').hasClass('scrolled')){
+                        offset = 227;
+                  }
+	        jQuery('html,body').animate({
+	          scrollTop: target.offset().top - offset
+	        }, 1000, 'easeOutQuad');
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+<script type="text/javascript">
+	jQuery('.col').has('.col').addClass('parent')
+</script>
+
+
+</body>
+</html>

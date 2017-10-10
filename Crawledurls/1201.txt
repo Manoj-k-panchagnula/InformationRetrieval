@@ -1,0 +1,835 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Alternative Service Breaks &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-program no-sidebars   alternative-service-breaks">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/alternative-service-breaks"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-OgZAkoujrta_hbyyM0mg9eHfxpXVYtMwOeEwfTUW9UA" value="form-OgZAkoujrta_hbyyM0mg9eHfxpXVYtMwOeEwfTUW9UA"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/alternative-service-breaks"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-OgZAkoujrta_hbyyM0mg9eHfxpXVYtMwOeEwfTUW9UA" value="form-OgZAkoujrta_hbyyM0mg9eHfxpXVYtMwOeEwfTUW9UA"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+<div class="hero with-photo">
+	<div class="meta">
+		<div class="container">
+			<!--<div class="channels"><div class="label channel channel-communityservice">Community Service</div> </div> -->
+			<h1 id="dls">Alternative Service Breaks</h1>
+						<div id="sub" class="subtitle">Provided by <a href="center-leadership-and-service">Center for Leadership and Service</a></div>
+					</div>
+	</div> 
+</div>
+
+<main class="container well">
+<div class="row">
+	<!--div class="meta">
+				
+				<div class="sponsor meta-item" data-tooltip="true" data-title="Sponsored by" data-placement="top" data-trigger="hover">
+			<span>Sponsored By</span>
+			<a href="center-leadership-and-service">Center for Leadership and Service</a>		</div>
+				
+				
+				
+	</div-->
+
+	<div class="col-md-12">
+
+	<div class="col-md-8">
+	<p class="text-headline">
+		The mission of the University of North Texas&#39;&nbsp;Alternative Breaks Program is to raise awareness of social issues and injustices through education and intensive service learning experiences. With the goal of promoting service on the local and national, students are immersed in communities that will bring to the forefront social awareness and inspire lifelong action and friendships.</p>
+
+	<p>
+		Alternative Breaks provide a variety of low cost, week long and weekend service opportunities. There is no more powerful service experience than when students are fully immersed in new communities and social issues. These opportunities not only contribute to a deeper understanding of social issues, service and community, but are often the sparks which ignite people to get involved in community service.</p>
+	<a class="button-action button-block" href="https://unt.az1.qualtrics.com/jfe/form/SV_0vU9qkzVOL7YAcJ" target="_blank">Apply for Alternative&nbsp;Spring Break</a>
+
+	<p>
+		<br />
+		&nbsp;</p>
+</div>
+
+<div class="col-md-4">
+	<iframe allowfullscreen="" frameborder="0" height="240" src="//www.youtube.com/embed/C8A5wvI1K_M" width="100%"></iframe></div>
+
+<div class="col-md-12" style="width: 100.15%; height: 2396px;">
+	<div class="tabbable tabs-left">
+		<hr />
+		<ul class="nav nav-pills nav-stacked col-md-3">
+			<li>
+				<a data-toggle="tab" href="#participants">Participants</a></li>
+			<li>
+				<a data-toggle="tab" href="#dates">Important Dates</a></li>
+			<li class="active">
+				<a data-toggle="tab" href="#spring">Alternative Spring Break</a></li>
+			<li>
+				<a data-toggle="tab" href="#winter">Alternative Winter Break</a></li>
+			<li>
+				<a data-toggle="tab" href="#weekends">Alternative Weekends</a></li>
+			<li>
+				<a data-toggle="tab" href="#siteleaders">Site Leaders</a></li>
+			<li>
+				<a data-toggle="tab" href="#advisors">Advisors</a></li>
+		</ul>
+
+		<div class="tab-content col-md-9">
+			<div class="tab-pane" id="participants">
+				<h2>
+					<strong>About ASB</strong></h2>
+
+				<p>
+					The Alternative Service Breaks (ASB) program is designed to promote and encourage group community service projects among UNT students. For the 2015-2016 school year, ASB will be recruiting participants for 12 spring break service projects, March 12-18, 2016.</p>
+
+				<h3>
+					What is Alternative Service Breaks?</h3>
+
+				<p>
+					Sponsored by the Center for Leadership &amp; Service, the Alternative Service Breaks program consist of substance-free, community service-learning trips during select weekends in the Fall and Spring semesters and during the university&#39;s winter and spring break. ASB participants travel in teams to different cities, engage in active service, and have the opportunity to gain new perspectives on social issues while meeting community needs, and learning about and building upon community assets.</p>
+
+				<p>
+					The Alternative Service Breaks are <strong>life changing</strong>!&nbsp; Many participants return year after year with Alternative Breaks and get involved in local leadership and service initiatives. Each service break connects students with learning about and engaging in a specific social issue, volunteering and connecting with a small team of UNT students and staff. Students travel to different communities to work with issues of disaster relief, environmental restoration, education, homelessness, healthcare, poverty and immigration. ASB&#39;s main goal is to educate participants about the root causes of these issues, while also making an immediate difference in the community.</p>
+
+				<p>
+					As a member of the ASB team, students can expect the following:</p>
+
+				<ul>
+					<li>
+						<strong>Strong Direct Service:</strong> Each ASB trip is focused on a targeted social issue working with trusted community partners on service projects determined by the community need. All participants engage in direct service hours during their trips.</li>
+					<li>
+						<strong>Orientation:</strong> ASB participants are welcomed into a family upon application. Participants will meet prior to the trip to engage in discussions about the ASB program and to learn about the trip topic, become acquainted with the activities on the trip, engage in service and begin team-building.</li>
+					<li>
+						<strong>Education:</strong> Each ASB trip focuses on targeted social issues and trip leaders arrange educational activities to supplement the direct service conducted during the trip.</li>
+					<li>
+						<strong>Reflection:</strong> During the trips, students will participate in facilitated reflection discussions on the day&rsquo;s activities exploring how the topics more in depth.</li>
+					<li>
+						<strong>Diversity:</strong> The ASB program participants are representative of the diversity UNT. We seek to make the trips inclusive and accessible for all students through providing a range of trip options.</li>
+					<li>
+						<strong>Alcohol and Other Drug Free:</strong> All participants agree to adhere to the ASB substance-free policy.</li>
+				</ul>
+
+				<h2>
+					Who can participate in Alternative Service Breaks?</h2>
+
+				<ul>
+					<li>
+						Participants must be UNT students during the time of the Alternative Service Break.</li>
+					<li>
+						ASB participants must be in good conduct standing with the University of North Texas and have a minimum of a 2.5 GPA.</li>
+					<li>
+						Participants commit to abiding by the alcohol and drug free Alternative Service Breaks policy.</li>
+				</ul>
+
+				<h2>
+					More Information</h2>
+
+				<p>
+					<strong>Information Sessions</strong></p>
+
+				<p>
+					Applicants are encouraged to attend an information session to learn more about Alternative Spring Break.</p>
+
+				<ul>
+					<li>
+						Thursday, October 1 @ 5pm - TBD</li>
+					<li>
+						Wednesday, October 7 @ 6pm - TBD</li>
+					<li>
+						Tuesday, October 13 @ 5pm - TBD</li>
+				</ul>
+
+				<p>
+					<strong>Interviews &amp; Selection</strong></p>
+
+				<p>
+					All participants will be contacted for an interview by site leaders. Interviews will be held 10/26-11/5.</p>
+
+				<p>
+					All applicants will be notified of their status by November 10, 2015</p>
+
+				<p>
+					<strong>Payment Deadlines</strong></p>
+
+				<p>
+					The fees for alternative breaks cover transportation, lodging, and a food budget for each trip. Trips cost $100-$250 for the week.</p>
+
+				<ul>
+					<li>
+						December 4, 2015 - $100 non-refundable deposit due.</li>
+					<li>
+						February 5, 2016 - Spring Break - non-refundable remainder payment due.</li>
+				</ul>
+
+				<p>
+					&nbsp;</p>
+				<!-- End of participants Pane --></div>
+
+			<div class="tab-pane" id="dates">
+				<p>
+					&nbsp;</p>
+
+				<h1>
+					<strong>Important Dates</strong></h1>
+
+				<h3>
+					<strong>September</strong></h3>
+
+				<ul>
+					<li>
+						<strong>September 4: Site Leader Applications </strong></li>
+					<li>
+						September 7-11: Site Leader Interviews</li>
+					<li>
+						September 18: Advisor Applications Due</li>
+					<li>
+						September 18-20: Site Leader Retreat</li>
+				</ul>
+
+				<h3>
+					<strong>October</strong></h3>
+
+				<ul>
+					<li>
+						October 1: ASB Information Session @ 5pm STUB Lounge*</li>
+					<li>
+						October 7: ASB Information Session @ 6pm Willis 340</li>
+					<li>
+						October 9: Site Leader Training&nbsp;</li>
+					<li>
+						October 13: ASB Information Session @ Willis 340</li>
+					<li>
+						<strong>October 22: ASB Participant Applications due online </strong></li>
+					<li>
+						October 23: Site Leader Training&nbsp;</li>
+					<li>
+						<strong>October 26-5: ASB Interviews</strong></li>
+				</ul>
+
+				<h3>
+					<strong>November</strong></h3>
+
+				<ul>
+					<li>
+						November 10: Participants Notified</li>
+					<li>
+						November 13: Site Leader training session</li>
+					<li>
+						<strong>November 17: ASB Kick Off 5:30-7:00pm</strong></li>
+				</ul>
+
+				<h3>
+					<strong>December</strong></h3>
+
+				<ul>
+					<li>
+						<strong>December 4: $100 non-refundable deposit due</strong></li>
+				</ul>
+
+				<h3>
+					<strong>January</strong></h3>
+
+				<ul>
+					<li>
+						<strong>January: ASB Kick-Off</strong></li>
+				</ul>
+
+				<h3>
+					<strong>February</strong></h3>
+
+				<ul>
+					<li>
+						<strong>February 5: ASB non-refundable payment due</strong></li>
+					<li>
+						February 5: All Participant Trip Prep Meeting, 3:00pm&nbsp;</li>
+					<li>
+						February 19: All Participant Trip Prep Meeting, 3:00pm</li>
+				</ul>
+
+				<h3>
+					<strong>March</strong></h3>
+
+				<ul>
+					<li>
+						March&nbsp;4: All Participant Trip Prep Meeting, 3:00pm</li>
+					<li>
+						<strong>March 12-18: Alternative Spring Break</strong></li>
+					<li>
+						<strong>March 22: ASB Reflection Ceremony</strong></li>
+				</ul>
+
+				<p>
+					*Applicants are encouraged to attend an information session to learn more about Alternative Spring Break.</p>
+				<!-- End of dates Pane --></div>
+
+			<div class="tab-pane active" id="spring">
+				<h2>
+					The 2015-2016 Alternative Spring Break trips are:</h2>
+
+				<div class="box">
+					<div class="col-md-8">
+						<p>
+							<strong><u>Health &amp; Disabilities:</u></strong></p>
+
+						<p>
+							<strong>Camp Summit &ndash; Argyle, TX </strong></p>
+
+						<p>
+							<em>Camp Summit is a great get-away for special needs children and adults to help grow independence and enhance skills for life. Be a counselor and work one-on-one building unforgettable relationships with some great campers! Lodging will be provided at the camp. Cost:&nbsp; $35&nbsp; &nbsp;&nbsp;<a href="http://www.campsummittx.org/">http://www.campsummittx.org/</a></em></p>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							<strong><u>Disaster Relief:</u></strong></p>
+
+						<p>
+							<strong>St. Bernard&rsquo;s Project &ndash; New Orleans, LA</strong> (Greek Life Trip)</p>
+
+						<p>
+							<em>Help repave the way for families who were devastated by Hurricane Katrina. Not only will you be helping to rebuild homes, but you will help rebuild lives. Lodging will be provided at a church. Cost: $200 <a href="http://www.stbernardproject.org/">http://www.stbernardproject.org/</a></em></p>
+					</div>
+					<img class="col-md-4" src="/sites/default/files/images/B0Hg1XVCEAADfjz.jpg" style="width: 200px; height: 260px;" />
+					<div class="col-md-12">
+						<p>
+							<strong>Common Ground &ndash; New Orleans, LA&nbsp;</strong></p>
+
+						<p>
+							<em>Come help rebuild the heart of Louisiana after the destruction from Hurricane Katrina. This trip will include rebuilding homes and a greater sense of hope in this once vibrant city. Looking for hard working students ready to make some change! Lodging will be provided by the organization. Cost: $250 <a href="http://www.commongroundrelief.org/">http://www.commongroundrelief.org/</a> </em></p>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							<strong><u>Poverty and Homelessness:</u></strong></p>
+
+						<p>
+							<strong>Memphis Food Bank &ndash; Memphis, TN</strong></p>
+
+						<p>
+							<em>Take a bite into this great trip centered on fighting hunger in America. Volunteer with the Memphis Food Bank in this swinging city overflowing with music and culture. You will join as an advocate in this fight by helping distribute food to families in Tennessee. Lodging will be provided at a church. Cost: $250 <a href="http://www.midsouthfoodbank.org/">http://www.midsouthfoodbank.org/</a></em></p>
+
+						<p>
+							<strong>SAMMinistries &ndash; San Antonio, TX&nbsp; </strong></p>
+
+						<p>
+							<em>Give hope back to the homeless citizens of San Antonio. When you volunteer with SAMMinistries, you are helping give a fresh start to individuals and families. On this trip you will help combat poverty and homelessness. Lodging will be provided at a church. Cost: $200 <a href="http://www.samm.org/">http://www.samm.org/</a> </em></p>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							<strong><u>Animals &amp; Environment:</u></strong></p>
+
+						<p>
+							<strong>Collierville Animal Shelter&ndash; Memphis, TN</strong></p>
+
+						<p>
+							<em>Calling all animal lovers! Help this Safe Haven rescue the homeless animals that live within Memphis. Bathe, walk, brush, and show care for animals that were saved from abuse, abandonment, or death. Your dedication and attention to these animals will start them on a new path to hopefully becoming a future pet! Lodging will be provided at a church. Cost: $250 <a href="http://www.petfinder.com/shelters/TN167.html">http://www.petfinder.com/shelters/TN167.html</a></em></p>
+
+						<p>
+							<strong>Turpentine Creek Wildlife Refuge- Eureka Springs, AR</strong></p>
+
+						<p>
+							<em>Come to the beautiful Ozark Mountains to help protect rescued exotic animals at a Wildlife Refuge. On this trip, you will help build and habitats for tigers, lions, panthers, and other large cats that need homes. These cats will purrrrrr with excitement at the homes you create for them! Lodging will be provided at a retreat center. Please note that although you will see the big cats, there is not direct interaction. Cost: $250 <a href="http://www.turpentinecreek.org/">http://www.turpentinecreek.org/</a></em></p>
+
+						<p>
+							<strong>&nbsp;Galveston Bay Foundation &ndash; Galveston, TX</strong></p>
+
+						<p>
+							<em>Jump into this great trip to help restore the Galveston Bay. You will work on restoring the natural habitat, protect shorelines, and improve the overall water quality for animals. Requires a hard-working student ready to get to work on a big problem that certainly needs attention! Lodging will be provided at a church. Cost: $200 <a href="http://www.galvbay.org/">http://www.galvbay.org/</a></em></p>
+
+						<p>
+							<strong>Hike for KaTREEna &ndash; New Orleans, LA</strong></p>
+
+						<p>
+							<em>Jump into this great trip to help restore the environment damaged by Hurricane Katrina.&nbsp; Over 100,000 trees were lost due to damage done by the hurricane. You will work on restoring the natural habitat. Lodging will be provided at a church. Cost: $250 <a href="http://www.hikeforkatreena.com/">http://www.hikeforkatreena.com/</a> </em></p>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							<strong><u>Youth &amp; Children:</u></strong></p>
+
+						<p>
+							<strong>Ouachita Children&rsquo;s Center - Hot Springs, Arkansas</strong></p>
+
+						<p>
+							<em>Ouachita Children&rsquo;s Center is looking for compassionate volunteers to help homeless, at-risk youth. With open doors and open hearts, you can help Ouachita build a bridge from homelessness to opportunity. Lodging will be provided at a church. Cost: $250 - </em><a href="http://www.occnet.org/">http://www.occnet.org/</a></p>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							<strong>Cherokee Nation &ndash; Tahlequah, OK </strong></p>
+
+						<p>
+							<em>Follow the trail to Oklahoma to work alongside the Head-start program and perform volunteer service with kids. You will be engaging in a rich and historic culture that will be worth your while! Lodging will be provided at a church. Cost: $200 <a href="http://www.cherokee.org/">http://www.cherokee.org/</a> </em></p>
+
+						<p>
+							&nbsp;</p>
+
+						<p>
+							<strong><u>Education and Culture:</u></strong></p>
+
+						<p>
+							<strong>Freedom Foundation &ndash; Selma, Alabama </strong>(Sponsored with the Multicultural Center- Open to any students)</p>
+
+						<p>
+							<em>Learn about the history of the Freedom Ride and the Civil Rights movement, and experience the impact today through service and education.&nbsp; The Freedom Foundation&rsquo;s mission is to CULTIVATE (develop, enlighten, educate, train, refine, advocate for, encourage, help, aid, and assist) THE NEXT GENERATION through programs and services that inspire and equip them to reach their full potential. Lodging will be provided at a church Cost:&nbsp; $200 <a href="http://freedomfoundation.org/">http://freedomfoundation.org/</a></em></p>
+
+						<h2>
+							Payment Deadlines</h2>
+
+						<p>
+							The fees for Alternative Spring Break trips range from $25-$250.&nbsp; Payments are in installments December 4, 2015 and February 5, 2016.</p>
+
+						<h2>
+							Applications</h2>
+
+						<ul>
+							<li>
+								Applications for Spring Break are due on October 22, 2015.</li>
+						</ul>
+						<a class="button-action button-block" href="https://unt.az1.qualtrics.com/jfe/form/SV_0vU9qkzVOL7YAcJ" target="_blank">Apply for Alternative&nbsp;Spring Break</a>
+
+						<p>
+							<strong>For more information about Alternative Spring Break, Contact the Center for Leadership &amp; Service at <a href="http://www.leadandserve.unt.edu/">www.leadandserve.unt.edu</a> or 940-565-3021 or email leadandserve@unt.edu.&nbsp;</strong></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane" id="winter">
+				<div class="alert alert-warning">
+					Thank you for your interest in Alternative Winter Break. Currently there are no upcoming Winter Break trips. Please check back for upcoming dates.</div>
+			</div>
+
+			<div class="tab-pane" id="weekends">
+				<div class="alert alert-warning">
+					Thank you for your interest in Alternative Weekend Breaks. Currently there are no upcoming Weekend Break trips. Please check back for upcoming dates.</div>
+			</div>
+
+			<div class="tab-pane" id="siteleaders">
+				<h2>
+					Site Leader Information</h2>
+
+				<p>
+					For the 2015-2016 school year, ASB will be recruiting site leaders for 12 spring break service projects on March 12-18, 2016.</p>
+
+				<p>
+					The issues we will be working with include: health and disabilities, disaster relief, poverty and homelessness, animals, environment, education and culture, and youth.</p>
+
+				<p>
+					We are seeking 20 dedicated site leaders that can help organize and construct a spring break trip that makes a difference! Site Leaders must commit to attending site leader training and building a strong community amongst their participants.</p>
+
+				<h2>
+					The Role of a Site Leader</h2>
+
+				<p>
+					This is a great leadership experience for students who would like to gain more skills working with groups. Before the trip, Site Leaders are responsible for helping to select participants, conducting pre-trip meetings, organizing itineraries and travel logistics, and keeping participants informed. During the trip, Site Leaders work with their Trip Advisors to collaborate with the host site coordinators, mobilize participants, plan meals, trouble-shoot any problems, and facilitate reflection activities each day of service.</p>
+
+				<p>
+					Ideal candidates are passionate about service, effective at motivating and organizing teams, are very organized and have a positive attitude. If you see yourself in this role, please apply! Two site leaders will be selected and work as partners on each trip, with one staff advisor.</p>
+
+				<h2>
+					The Rules</h2>
+
+				<p>
+					Site Leaders are strongly encouraged to select a diverse group of participants. This ASB experience is not meant to be a trip of all of your friends. Your significant other is not allowed to participate in the same trip as you. The $100 - non-refundable deposit due December 4. The remaining non-refundable funds are due February 5, 2016. Site Leader fees are the same as participant fees for all trips. Only Site Leaders who pass the driver authorization process will be hired to drive vans during spring break. Site Leader trainings and participant events are <strong> mandatory</strong>. Site Leaders who miss more than 1 meeting may be terminated from their position. ASB participants must be in good conduct standing with the University of North Texas and have a minimum of a 2.5 GPA.</p>
+
+				<p>
+					&nbsp;</p>
+
+				<h2>
+					Mandatory Site Leader Dates:</h2>
+
+				<p>
+					Site Leaders hold a very important role. As a result it is important that ALL site leaders be able to attend the following dates for training:</p>
+
+				<p>
+					<strong>Site Leader Application Due</strong></p>
+
+				<ul>
+					<li>
+						September 4: Site Leader Application Due</li>
+				</ul>
+
+				<p>
+					<strong>Site Leader Interviews</strong></p>
+
+				<ul>
+					<li>
+						September 7-11: Site Leader Interview</li>
+				</ul>
+
+				<p>
+					<strong>Site Leader Retreat</strong></p>
+
+				<ul>
+					<li>
+						September 18-20: Site Leader Retreat</li>
+				</ul>
+
+				<p>
+					<strong>Site Leader Training</strong></p>
+
+				<ul>
+					<li>
+						October 1 - 5pm - 6pm or October 2- 12pm - 1pm</li>
+					<li>
+						October 15 - 5pm - 6pm or October 16 - 12pm - 1pm</li>
+					<li>
+						October 29 - 5pm - 6pm or October 30 1 - 12pm - 1pm</li>
+					<li>
+						November 12 - 5pm - 6pm or November 13 - 12pm - 1pm</li>
+					<li>
+						February 5- Van Training</li>
+					<li>
+						February 11 - 5pm - 6pm or February 12 - 12pm - 1pm</li>
+					<li>
+						February 18 - 5pm - 6pm or February 19 - 12pm - 1pm</li>
+				</ul>
+
+				<p>
+					You must attend one of the trainings listed for each bi-weekly spot <underline>with</underline> your co-site leader.</p>
+
+				<p>
+					<strong>ASB Events</strong></p>
+
+				<ul>
+					<li>
+						November 17 - ASB Pep Rally</li>
+					<li>
+						January 26 - ASB Kick Off</li>
+					<li>
+						March 30 - ASB Reflection Ceremony</li>
+				</ul>
+
+				<p>
+					<a class="button-action button-block" href="https://unt.az1.qualtrics.com/SE/?SID=SV_eyTt0A3iM17cZ9z" target="_blank">Apply to be a Site Leader</a></p>
+
+				<div class="text-small text-center">
+					Applications due September 4, 2015</div>
+			</div>
+			<!-- End of Site Leaders Pane -->
+
+			<div class="tab-pane" id="advisors">
+				<h2>
+					Advisor Information</h2>
+
+				<p>
+					Do you want a chance to make a difference with a group of college students? Are you eager to build relationships with students while impacting the community?</p>
+
+				<p>
+					We are seeking 12 UNT staff members to serve as advisors in the Alternative Spring Break Program. Alternative Spring Break is a unique opportunity for students to spend their spring break (March 12-18, 2016) volunteering together in a community outside the local area. These amazing, immersive experiences allow students, staff, and community members to truly work together, as well as, make an incredible difference in a week and build relationships that last a life time!</p>
+
+				<h2>
+					About ASB</h2>
+
+				<p>
+					Last year, the Center for Leadership &amp; Service offered 13 spring break trips and 1 alternative winter break trip serving in Texas, Oklahoma, Tennessee, Missouri, Arkansas, Alabama, and Louisiana volunteering with various topics.</p>
+
+				<h2>
+					The Role of an Advisor</h2>
+
+				<p>
+					The role of the advisor is to empower the student Site Leaders and team to create an incredible experience. Students apply and are selected in October, and meet until spring break. Training is provided and there is no cost to participate.</p>
+
+				<p>
+					If you want to spend a week with an amazing group of students! Please consider joining us for Alternative Spring Break. There is a brief application to complete so we can match advisors with trips.</p>
+				<a class="button-action button-block" href="https://unt.az1.qualtrics.com/SE/?SID=SV_82nBG7Fn2XV3qQt" target="_blank">Apply to serve as an Advisor</a>
+
+				<div class="text-small text-center">
+					Applications due Friday, September 25, 2015</div>
+			</div>
+			<!-- End of Advisors Pane --></div>
+	</div>
+</div>
+	
+	</div>
+
+</div>
+</main>
+
+<style>
+
+.hero {
+	background-image:url('sites/default/files/programs/ASB Website Banner.jpg');
+}
+
+#sub {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+#sub a {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0);
+}
+
+#dls {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	color: #f9f9f9;
+	background-color: rgba(0,0,0,0.6);
+	padding: .20%;
+}
+
+
+		
+</style>	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/alternative-service-breaks": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

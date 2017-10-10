@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="robots" content="all" />
+<meta name="keywords" content="Trinity Railway Express, TRE, Dallas/Ft. Worth Commuter Rail" />
+<meta name="description" content="Trinity Railway Express is a cooperative service provided by the Fort Worth Transportation Authority (The T) and Dallas Area Rapid Transit (DART). Scheduled train service is provided Monday through Saturday. No scheduled service is available on Sunday." />
+<title>Home - Trinity Railway Express (TRE)</title>
+
+<link href="/css/C_public.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/public.js"></script>
+
+<script type="text/javascript" src="/js/jquery.skinned-select.js"></script>
+
+<link href="/css/C_landing.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  
+    // billboard image swaps
+    $('#billboards div.slide:not(:first)').hide();
+    $('#billboards').cycle({ 
+        fx:     'fade', 
+        speed:  '500', 
+        timeout: '8000',
+        pager:  '#navbillboard span.navitems',
+	pagerAnchorBuilder: function(idx, slide) { 
+            // return selector string for existing anchor 
+            return '#navbillboard span.navitems a:eq(' + idx + ')'; 
+        }
+    });
+
+});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26803451-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="home">
+<div id="pagewrap">
+  <div id="page">
+    <div id="header">
+      <ul class="navsupplementary">
+<li class="first"><a href="aboutTRE.html">About</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+      <div id="headercallout"> <span>TRE is a cooperative service provided by:</span> <a href="http://www.fwta.org/" class="links thet" target="_blank">FWTA.ORG</a> <a href="http://www.dart.org/" class="links dart" target="_blank">DART.ORG</a> </div>
+			<h1>Trinity Railway Express - Commuter Rail Service Between Fort Worth and Dallas</h1>
+<ul class="navprimary">
+	<li class="home current"><a href="/index.html">Home</a></li>
+	<li class="stations"><a href="/stations.html">Stations</a></li>
+	<li class="schedules"><a href="/eastboundweekday.html">Schedules</a></li>
+	<li class="farespasses"><a href="/howtoride.html">Fares &amp; Passes</a></li>
+	<li class="events"><a href="/events.html">Events &amp; Destinations</a></li>
+	<li class="dfw"><a href="/dfw.html">DFW Airport</a></li>
+	<li class="aa"><a href="/aacenter.html">American Airlines Center</a></li>
+</ul>
+    </div>
+    <div id="main">
+      <div id="content">
+				<div id="billboardcontainer">
+<div id="billboards">
+<div class="slide" id="billboard4">
+  <div class="details">
+    <h2>Close the Deal</h2>
+    <p>When you ride TRE, you can do work while we get you to work. You've never been so productive.</p>
+    <p class="linkbillboard"><a href="/stations.html">Find a Station</a></p>
+  </div>
+  <a href="/stations.html" class="linkimage"><img src="/images/billboards_home/billboard_deal_1300710578_3276.jpg" width="480" height="315" alt="Close the Deal" /></a>
+</div>
+<div class="slide" id="billboard5">
+  <div class="details">
+    <h2>Show Your Colors</h2>
+    <p>It's ok to be a crazed fan when you live in a big sports town like ours. And TRE's direct service to the American Airlines Center puts you right in the middle of the action. Catch a game with us!</p>
+    <p class="linkbillboard"><a href="/aacenter.html">AAC Events</a></p>
+  </div>
+  <a href="/aacenter.html" class="linkimage"><img src="/images/billboards_home/billboard_stars_1300710578_9273.jpg" width="480" height="315" alt="Show Your Colors" /></a>
+</div>
+<div class="slide" id="billboard3">
+  <div class="details">
+    <h2>It's About the Journey</h2>
+    <p>TRE works hard to run on time, every time--day in and day out&hellip; We help you maximize your family time.</p>
+    <p class="linkbillboard"><a href="/eastboundweekday.html">View Schedules</a></p>
+  </div>
+  <a href="/eastboundweekday.html" class="linkimage"><img src="/images/billboards_home/billboard_dad_1300710578_1505.jpg" width="480" height="315" alt="It's About the Journey" /></a>
+</div>
+<div class="slide" id="billboard2">
+  <div class="details">
+    <h2>Catch a Game</h2>
+    <p>TRE takes you right to the front steps of the famed American Airlines Center. So grab a buddy, hop aboard--you won't want to miss a minute of the action!</p>
+    <p class="linkbillboard"><a href="/aacenter.html">AAC Events</a></p>
+  </div>
+  <a href="/aacenter.html" class="linkimage"><img src="/images/billboards_home/billboard_mavs_1300710578_6359.jpg" width="480" height="315" alt="Catch a Game" /></a>
+</div>
+<div class="slide" id="billboard1">
+  <div class="details">
+    <h2>Adventure's Out There</h2>
+    <p>The TRE links downtown Fort Worth, downtown Dallas, DFW Airport, and many other stops. Schedule a day trip to the Dallas or Ft. Worth Zoo, it&rsquo;s quite an adventure!</p>
+    <p class="linkbillboard"><a href="/events.html">View Destinations</a></p>
+  </div>
+  <a href="/events.html" class="linkimage"><img src="/images/billboards_home/billboards_zoo_1300710578_5110.jpg" width="480" height="315" alt="Adventure's Out There" /></a>
+</div>
+</div>
+<div id="navbillboard">
+<span class="navitems">
+<a href="#billboard4">1</a>
+<a href="#billboard5">2</a>
+<a href="#billboard3">3</a>
+<a href="#billboard2">4</a>
+<a href="#billboard1">5</a>
+</span>
+</div>
+</div>
+<h2>Why Limit Life To Only One Town?</h2>
+<h3>TRE offers premier commuter rail service between Fort Worth and Dallas.</h3>
+<p>Jump aboard the Trinity Railway Express as we connect these two great cities and all points in between. Each city has its own unique attractions and events - all easily accessible. <em>TRE is provided by the Fort Worth Transportation Authority (The T) and Dallas Area Rapid Transit (DART). Trains operate&nbsp;Monday through Saturday. No scheduled service&nbsp;on Sunday.</em></p>
+<div class="contentblock">
+<div class="promos">
+<a href="/contact.html" class="first" style="background-image: url(/images/promobadges/travelagent_1329319810_3397.gif);"><span>Contact a TRE Travel Agent for Assistance</span></a><a href="/aacenter.html" style="background-image: url(/images/promobadges/americanairlines_1329319810_7899.gif);"><span>See all American Airlines Center Events</span></a><a href="/dfw.html" class="first" style="background-image: url(/images/promobadges/dfwairport_1329319810_7386.gif);"><span>TRE is the easiest way to get to DFW Airport</span></a></div>
+
+						<div class="calloutcontent">
+							<img src="/imgD/landing_trainpic.jpg" alt="Trinity Railway Express" width="340" height="160" />
+							<h2>TRE Can Take YOU There.</h2>
+							<div style="float: left; width: 160px;">
+								<h3>What to do in Ft. Worth</h3>
+								<ul class="special">
+								  <li><a href="http://www.fwta.org/" target="_blank">Event Calendar</a></li>
+								  <li><a href="http://www.fwta.org/BusService/PopularDestinations/tabid/77/Default.aspx" target="_blank">Popular Destinations</a></li>
+								  <li><a href="http://www.fwta.org/MapsSchedules/SystemMap/tabid/204/Default.aspx" target="_blank">Connection Maps</a></li>
+								  <li><a href="http://www.fwta.org/MapsSchedules/BusRoutesSchedules/tabid/63/Default.aspx" target="_blank">Area Stations</a></li>
+								  <li><a href="http://www.tarrantcounty.com/ejury/cwp/view.asp?A=728&Q=426583" target="_blank">Jury Duty</a></li
+							  </ul>
+              </div>
+							<div style="float: left; width: 160px; margin-left: 20px;">
+								<h3>What to do in Dallas</h3>
+								<ul class="special">
+								  <li><a href="http://www.dart.org/about/darttospecialevents.asp" target="_blank">Event Calendar</a></li>
+								  <li><a href="http://www.dart.org/travelagent/darttravelagent.asp" target="_blank">Popular Destinations</a></li>
+								  <li><a href="http://www.dart.org/maps/downtowndallasmap.htm" target="_blank">Connection Maps</a></li>
+								  <li><a href="http://www.dart.org/maps/locationslist.asp" target="_blank">Area Stations</a></li>
+								  <li><a href="http://www.dart.org/juryduty" target="_blank">Jury Duty</a></li>
+							  </ul>
+              </div>
+						</div>
+					</div>
+      </div> 
+      <!-- /#content -->
+      <div id="column">
+        <div id="googletransit" class="promo"> 
+          <h2>TRE Trip Planner</h2>
+          <div class="blockcontent">
+            <form action="http://www.google.com/maps" method="get" name="transitForm" id="transitForm">
+              <input type="hidden" name="ie" value="UTF8" />
+              <input type="hidden" name="f" value="d" />
+              <input type="hidden" name="dirflg" value="r" />
+              <input type="hidden" name="hl" value="en" />
+              <div class="indent xxsmall serif italic">&nbsp;</div>
+              <div class="text">
+                <label for="saddr" class="fullwidth">Start:</label>
+                <div class="my-skinnable-select">
+                  <select name="saddr" id="saddr" class="fieldhint">
+                    <option value="221 W Lancaster Ave, Fort Worth TX">Ft. Worth T&amp;P</option>
+                    <option value="1000 Jones St, Fort Worth TX">Ft. Worth ITC</option>
+                    <option value="7225 Burns St, Richland Hills TX">Richland Hills</option>
+                    <option value="3232 Bell Spur Dr, Hurst TX">Bell</option>
+                    <option value="14470 Statler Blvd, Fort Worth TX">CentrePort/DFW Airport</option>
+                    <option value="4200 Jackson St, Irving TX">West Irving</option>
+                    <option value="201 Rock Island Rd, Irving TX">Dwntn Irving/Heritage Crossing</option>
+                    <option value="1419 Medical District Dr, Dallas TX">Medical/Market Center</option>
+                    <option value="2500 Victory Ave, Dallas TX">Victory</option>
+                    <option value="400 S Houston St, Dallas TX">Union Station</option>
+                  </select>
+                </div>
+              </div>
+              <div class="text">
+                <label for="daddr" class="fullwidth">End:</label>
+                <div class="my-skinnable-select">
+                  <select name="daddr" id="daddr" class="fieldhint">
+                    <option value="221 W Lancaster Ave, Fort Worth TX">Ft. Worth T&amp;P</option>
+                    <option value="1000 Jones St, Fort Worth TX">Ft. Worth ITC</option>
+                    <option value="7225 Burns St, Richland Hills TX">Richland Hills</option>
+                    <option value="3232 Bell Spur Dr, Hurst TX">Bell</option>
+                    <option value="14470 Statler Blvd, Fort Worth TX">CentrePort/DFW Airport</option>
+                    <option value="4200 Jackson St, Irving TX">West Irving</option>
+                    <option value="201 Rock Island Rd, Irving TX">Dwntn Irving/Heritage Crossing</option>
+                    <option value="1419 Medical District Dr, Dallas TX">Medical/Market Center</option>
+                    <option value="2500 Victory Ave, Dallas TX">Victory</option>
+                    <option value="400 S Houston St, Dallas TX">Union Station</option>
+                  </select>
+                </div>
+              </div>
+              <div class="radio indent">
+                <input type="radio" name="ttype" id="ttypedep" value="dep" checked />
+                <label for="ttypedep">Depart</label>
+                &nbsp;
+                <input type="radio" name="ttype" id="ttypearr" value="arr" />
+                <label for="ttypearr">Arrive</label>
+              </div>
+              <div class="text">
+                <label for="fdate">Date:</label>
+                <input type="text" name="date" id="fdate" value="05/11/2016" class="formfield" />
+              </div>
+              <div class="text">
+                <label for="ftime">Time:</label>
+                <input type="text" name="time" id="ftime" value="10:20 AM" class="formfield" />
+              </div>
+              <div class="button xxlarge"><a href="javascript:void(document.transitForm.submit());" class="buttonlink" onClick="javascript: pageTracker._trackPageview ('/googletripplanner');">Show Me My Trip</a></div>
+              <p class="textcenter xsmall serif italic">To plan trips using DART and The T and
+                other advanced options, visit <a href="http://maps.google.com/maps?saddr=Fort+Worth,+TX&hl=en&sll=32.802955,-96.769923&sspn=0.842633,1.229095&geocode=FaFZ8wEdbgAz-imtB8gtEm5OhjG9rGnd-IuvpA&vpsrc=0&dirflg=r&ttype=dep&noexp=0&noal=0&sort=def&z=11&start=0" onClick="javascript: pageTracker._trackPageview ('/googletripplanner');">Google Transit</a>.</p>
+            </form>
+          </div>
+        </div> <!-- /#googletransit.promo -->
+        
+         <div class="promo" id="tresafety">
+          <h2>Safety on TRE</h2>
+          <div class="blockcontent">
+          <p class="textcenter xsmall serif italic">“Safety is the outcome of a
+            well trained and well educated work force and riding public” - <a href="/safety.html" title="Ride safely on TRE">read more</a></p>
+        </div><!-- /#tresafety.promo -->
+
+        <div class="promo" id="commuteralerts">
+          <h2>Commuter Alerts</h2>
+          <div class="blockcontent">
+						<p class="note alert">Last updated: 04/29/16 4:21pm CDT.</p><p><a href="/commuteralertsdetail.html?item_id=59">Stars Playoffs</a></p>
+<p><a href="/commuteralertsdetail.html?item_id=3">Holiday Service</a></p>
+<p><a href="/commuteralertsdetail.html?item_id=5">Inclement Weather Policy</a></p>
+<p><a href="/commuteralertsdetail.html?item_id=35">Welcome to WiFi on the TRE</a></p>
+<p><a href="/commuteralertsdetail.html?item_id=1">TRE Security</a></p>
+          </div>
+        </div><!-- /#commuteralerts.promo -->
+
+        <div class="promo" id="dartupdates">
+            <div id="mydartupdates" class="blockcontent">
+              <h3>Stay In Touch</h3>
+              <p>Get updates to TRE service, schedules, delays and event info
+              sent to your mobile device or email!</p>
+			
+              <form action="https://public.govdelivery.com/accounts/TXDART/subscribers/qualify">
+              <fieldset>
+                <p style="padding-bottom: .5em;">
+                  <label for="email">Enter Your Email Address</label>
+                  <input id="email" name="email" type="text" class="long xsmall fieldhint verticalmiddle formfield" />
+                </p>
+                <p>
+                  <input name="commit" type="submit" class="xsmall verticalmiddle buttonlink" value="Subscribe" />
+                </p>
+                
+              </fieldset>
+              </form>
+			
+          </div><!-- /#mydartupdates -->
+        </div><!-- /#dartupdates.promo -->
+
+      </div> <!-- /#column -->
+    </div> <!-- /#main -->
+  </div> <!-- /#page -->
+  <div id="footerwrap">
+    <div id="footer">
+      <div class="column tre">
+        <h3>Trinity Railway Express</h3>
+        <ul class="supplementary">
+<li><a href="aboutTRE.html">About</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<ul class="primary">
+<li><a href="howtoride.html">How to Ride</a></li>
+<li><a href="farezones.html">Fare Zones</a></li>
+<li><a href="wheretobuy.html">Where to Buy Tickets or Passes</a></li>
+</ul>
+        <a href="events.html" class="linkbutton">View All DFW Events &amp; Destinations</a>
+      </div>
+      <div class="column thet">
+        <h3>THE T and Ft. Worth</h3>
+        <ul>
+          <li><a href="http://www.fwta.org" target="_blank">Events Calendar</a></li>
+          <li><a href="http://www.fwta.org/BusService/PopularDestinations/tabid/77/Default.aspx" target="_blank">Popular Attractions</a></li>
+          <li><a href="http://www.fwta.org/BusService/PopularDestinations/tabid/77/Default.aspx" target="_blank">Links of Interest</a></li>
+          <li><a href="http://www.fwta.org/BusService/HowtoRide/tabid/75/Default.aspx" target="_blank">Travel Info</a></li>
+          <li><a href="http://www.fwta.org/MapsSchedules/SystemMap/tabid/204/Default.aspx" target="_blank">Map of Connections</a></li>
+          <li><a href="http://www.fwta.org">www.FWTA.org</a></li>
+          <li><a href="#"></a></li>
+        </ul>
+        <a href="dfw.html" class="linkbutton">Dallas/Fort Worth Airport Info</a>
+			</div>
+      <div class="column dart">
+        <h3>DART and Dallas Area</h3>
+        <ul>
+          <li><a href="http://www.dart.org/about/darttospecialevents.asp" target="_blank">Events Calendar</a></li>
+          <li><a href="http://www.dart.org/travelagent/darttravelagent.asp" target="_blank">Popular Attractions</a></li>
+          <li><a href="http://www.dart.org/riding/destinationinformation.asp" target="_blank">Links of Interest</a></li>
+          <li><a href="http://www.dart.org/riding/riding.asp" target="_blank">Travel Info</a></li>
+          <li><a href="http://www.dart.org/maps/downtowndallasmap.htm" target="_blank">Map of Connections</a></li>
+          <li><a href="http://www.dart.org/">www.DART.org</a></li>
+        </ul>
+        <a href="aacenter.html" class="linkbutton">American Airlines Center Info</a>
+			</div>
+    </div> <!-- /#footer -->
+  </div> <!-- /#footerwrap -->
+  <div id="postfooter">
+    <p class="legal">&copy; Copyright 2016 Trinity Railway Express. All rights reserved.&nbsp;&nbsp;&nbsp;<a href="/legal.html">Legal
+      Notices</a></p>
+    <p class="credits">Site Design by <a href="http://www.valiantmedia.com/" target="_blank">Valiant Media</a>. Powered by <a href="http://www.dialogs.com/poweredby/trinityrailwayexpress.org">Dialogs</a>.</p>
+  </div> <!-- /#postfooter -->
+</div> <!-- /#pagewrap -->
+</body>
+</html>

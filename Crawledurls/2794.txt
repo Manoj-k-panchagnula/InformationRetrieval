@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-placeholder-focus="false" data-placeholder-live="false">
+
+<head lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.25" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>University of North Texas System - Account Management System</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/ams.css" type="text/css" />
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+</head>
+
+<body>
+
+
+<!-- branding -->
+<div class="row hidden-xs hidden-sm" id="itss-banner">
+  <div class="container">
+    <img id="unt-system-logo" src="img/system-brand-sm.png" alt="UNT System Logo" />
+  </div>
+</div>
+
+
+<!-- Navigation -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+
+    <!-- menu header -->
+    <div class="navbar-header">
+
+      <!-- menu branding -->
+      <div class="navbar-brand">
+        <img  id="unt-system-logo-small" src="img/untsystem-logo-small.png" />
+        <span id="ams-large">Account Management System</span><span id="ams-small">AMS</span>
+      </div>
+
+      <!-- menu toggle button -->
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <!-- menu collapseable section -->
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="password.php">Activate</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<!-- End Navigation -->
+
+
+
+
+<!-- main content -->
+<!--[if lt IE 9]><div class="alert alert-warning">Site not supported on older browsers.</div><![endif]-->
+<div id="content">
+  <div class="container">
+              <div class="row">
+
+                <div class="col-md-4">
+                  <div class="panel panel-success">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Sign In</h3>
+                    </div>
+                    <div class="panel-body">
+                      <form method="post" action="/index.php" autocomplete="off" autocorrect="off" autocapitalize="none" onsubmit="return require_all_fields(this);">
+                          <div class="form-group">
+                            <label for="euid" class="sr-only">EUID</label>
+                            <input type="text" id="euid" name="euid" placeholder="EUID" class="form-control" size="10" maxlength="15" tabindex="1" />
+                          </div>
+                          <div class="form-group">
+                            <label for="password" class="sr-only">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Password" class="form-control" size="10" maxlength="30" tabindex="2" />
+                          </div>
+                          <button type="submit" value="Login" class="btn btn-lg btn-success btn-block" tabindex="3">Login</button>
+                          <p class="large-text">Forgot your <a href="whatsmyeuid.php" title="Forgot your EUID?">EUID</a> or <a href="password.php" title="Forgot your password?">password</a>?</p>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-8">
+                  <div class="well well-default">
+                    <p>Use this Account Management System (AMS) to change your password and manage your account. If your account is new or inactive, you may <a href="password.php">activate your account</a>.</p>
+                  </div>
+                </div>
+
+              </div>
+  </div>
+</div>
+<!-- end main content -->
+
+
+<!-- footer -->
+<div id="footer">
+<div class="container">
+
+
+<!-- contact information -->
+<div class="row">
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="http://www.unt.edu/helpdesk/" rel="external">UNT Helpdesk</a></h3>
+        </div>
+        <div class="panel-body">
+          <span class="glyphicon glyphicon-earphone"></span> <a href="tel:+1-940-565-2324">940-565-2324</a><br />
+          <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:helpdesk@unt.edu">helpdesk@unt.edu</a><br />
+          Monday - Thursday 8:00 am - midnight<br />
+          Friday 8:00 am - 8:00 pm<br />
+          Saturday 9:00 am - 5:00 pm<br />
+          Sunday 1:00 pm - midnight
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="http://helpdesk.hsc.unt.edu/" rel="external">UNTHSC Helpdesk</a></h3>
+        </div>
+        <div class="panel-body">
+          <span class="glyphicon glyphicon-earphone"></span> <a href="tel:+1-817-735-2192">817-735-2192</a><br />
+          <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:hschelpdesk@unthsc.edu">hschelpdesk@unthsc.edu</a><br />
+          Monday - Friday 8:00 am - 5:00 pm
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><a href="http://dallas.unt.edu/itss/itss-help-desk/" rel="external">UNT Dallas Helpdesk</a></h3>
+        </div>
+        <div class="panel-body">
+          <span class="glyphicon glyphicon-earphone"></span> <a href="tel:+1-972-780-3626">972-780-3626</a><br />
+          <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:untdhelpdesk@unt.edu">untdhelpdesk@unt.edu</a><br />
+          Monday - Thursday 7:30 am - 8:00 pm<br />
+          Friday 8:00 am - 5:00 pm<br />
+          Saturday 8:00 am - 4:00 pm
+        </div>
+      </div>
+    </div>
+
+</div>
+<!-- end contact information -->
+
+
+<!-- branding and legal -->
+<div class="row">
+
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><a href="https://itss.untsystem.edu/unts-service-desk" rel="external">UNT System Service Desk</a></h3>
+      </div>
+      <div class="panel-body">
+        <span class="glyphicon glyphicon-earphone"></span> <a href="tel:+1-940-565-4357">940-565-HELP (4357)</a><br />
+        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:ITHelp@untsystem.edu">ITHelp@untsystem.edu</a><br />
+        Monday - Friday 8:00 am - 5:00 pm
+      </div>
+    </div>
+  </div>
+
+  <!-- Legal Text -->
+  <div class="col-md-8">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">User Agreement</h3>
+      </div>
+      <div class="panel-body">
+        This system is the property of the University of North Texas System and your use of this resource 
+        constitutes an agreement to abide by relevant federal and state laws and institutional policies. 
+        Unauthorized use of this system is prohibited. 
+        Violations can result in penalties and criminal prosecution. 
+        Usage may be subject to security testing and monitoring. 
+        Users have no expectation of privacy except as otherwise provided by applicable privacy laws.
+      </div>
+    </div>
+  </div>
+
+  <!-- ITSS Logo -->
+  <!--
+  <div class="col-md-4 hidden-xs hidden-sm">
+    <div id="itss-logo-container">
+      <a href="https://itss.untsystem.edu/" ref="external"><img alt="UNT System | IT Shared Services" src="img/itss-logo.png" /></a>
+    </div>
+  </div>
+  -->
+
+</div>
+<!-- end branding and legal -->
+
+<div id="server-id" class="text-center">GABAMS2</div>
+
+</div>
+<!-- end footer -->
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- html5-like placeholder support for IE lt 10 -->
+<script src="js/placeholders.jquery.min.js"></script>
+<script src="js/ams.js"></script>
+</div><!-- bootstrap container -->
+</body>
+</html>

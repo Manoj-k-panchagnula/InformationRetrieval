@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://endow.unt.edu/sites/all/themes/untfoundation/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/rss+xml" title="UNT Foundation RSS" href="http://endow.unt.edu/rss.xml" />
+  <title>UNT Foundation</title>
+    <meta name="keywords" content="The University of North Texas Foundation, Inc. supports and enhances the educational mission of the University of North Texas by accepting, investing, and/or managing private gifts, endowed funds, and other assets for the benefit of the University and its students; and by supporting and encouraging philanthropic gifts to the University." />
+    <meta name="Title" content="UNT Foundation" />
+    <meta name="Description" content="UNT Foundation Website" />
+    <meta name="Author" content="University of North Texas Foundation" />
+    <meta name="Language" content="English" /> 
+  <style type="text/css" media="all">
+@import url("http://endow.unt.edu/modules/system/system.base.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/system/system.menus.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/system/system.messages.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/system/system.theme.css?nuj8t3");
+</style>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/modules/comment/comment.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/field/theme/field.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/node/node.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/search/search.css?nuj8t3");
+@import url("http://endow.unt.edu/modules/user/user.css?nuj8t3");
+</style>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/style.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/wireframes.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/layout-fixed.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/page-backgrounds.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/tabs.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/pages.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/blocks.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/navigation.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/views-styles.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/nodes.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/comments.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/forms.css?nuj8t3");
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/fields.css?nuj8t3");
+</style>
+<style type="text/css" media="print">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/print.css?nuj8t3");
+</style>
+
+<!--[if lte IE 7]>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/ie7.css?nuj8t3");
+</style>
+<![endif]-->
+
+<!--[if lte IE 6]>
+<style type="text/css" media="all">
+@import url("http://endow.unt.edu/sites/all/themes/untfoundation/css/ie6.css?nuj8t3");
+</style>
+<![endif]-->
+  <style type="text/css">
+	.video { /* Line 812 */ }
+  </style>
+         
+  <script type="text/javascript" src="http://endow.unt.edu/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://endow.unt.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://endow.unt.edu/misc/drupal.js?nuj8t3"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js?nuj8t3"></script>
+<script type="text/javascript" src="http://endow.unt.edu/sites/all/themes/untfoundation/js/initiate.js?nuj8t3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"untfoundation","theme_token":"6yATQKA8C6LQcSbHZE66ghoref3qqKDLHpu15fVHT2U","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.6.1\/jquery.min.js":1,"sites\/all\/themes\/untfoundation\/js\/initiate.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/themes\/untfoundation\/css\/style.css":1,"sites\/all\/themes\/untfoundation\/css\/wireframes.css":1,"sites\/all\/themes\/untfoundation\/css\/layout-fixed.css":1,"sites\/all\/themes\/untfoundation\/css\/page-backgrounds.css":1,"sites\/all\/themes\/untfoundation\/css\/tabs.css":1,"sites\/all\/themes\/untfoundation\/css\/pages.css":1,"sites\/all\/themes\/untfoundation\/css\/blocks.css":1,"sites\/all\/themes\/untfoundation\/css\/navigation.css":1,"sites\/all\/themes\/untfoundation\/css\/views-styles.css":1,"sites\/all\/themes\/untfoundation\/css\/nodes.css":1,"sites\/all\/themes\/untfoundation\/css\/comments.css":1,"sites\/all\/themes\/untfoundation\/css\/forms.css":1,"sites\/all\/themes\/untfoundation\/css\/fields.css":1,"sites\/all\/themes\/untfoundation\/css\/print.css":1,"sites\/all\/themes\/untfoundation\/css\/ie7.css":1,"sites\/all\/themes\/untfoundation\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-node" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<!-- Header Container display the large background image on the home page -->
+<div id="webContainer">
+     <!-- this section contain the top portion of the web -->
+    	<div id="headerContainer">
+        	
+            <div id="header">
+            	
+                                  <div id="logo"><a href="/"><img src="http://endow.unt.edu/sites/all/themes/untfoundation/logo.png" alt="Home" /></a></div>
+                                 
+                
+                <div id="fieldContainer">
+                    <div id="btnHome"><a href="/"><img src="/sites/all/themes/untfoundation/images/btn-home.gif" alt="" /></a></div><!-- btn home -->
+                    <div id="search">
+                         
+    
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div>
+
+ 
+<div class="form-item form-type-textfield form-item-search-block-form">
+   <input title="Enter the terms you wish to search for." onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" alt="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="Search" size="40" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="image" id="edit-submit" name="submit" src="/sites/all/themes/untfoundation/images/btn-go.gif" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-77gU36YAPiF9f6kv-IOBOmxotTBZePQpQLTS2FsTjlw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div></form> 
+  
+                    </div><!-- search -->
+                    <div id="website">
+                         
+    
+    <ul><li><a href="#">UNT Websites</a>
+<ul><li class="first"><a href="http://untsystem.unt.edu/" target="_blank">UNT System</a></li>
+<li><a href="http://www.unt.edu/" target="_blank">UNT Denton</a></li>
+<li><a href="http://www.unt.edu/unt-dallas/" target="_blank">UNT Dallas</a></li>
+<li><a href="http://www.hsc.unt.edu/" target="_blank">UNT Health Science Center</a></li>
+<li><a href=" http://www.ucddowntown.org/" target="_blank">Universities Center at Dallas</a></li>
+<li><a href="http://www.unt.edu/alumni-friends.htm" target="_blank">UNT Alumni Association</a></li>
+<li><a href="http://www.meangreensports.com/" target="_blank">UNT Athletics</a></li>
+<li class="last"><a href="https://giving.unt.edu/content/giving-unt" target="_blank">UNT Division of Advancement</a></li>
+</ul></li>
+</ul> 
+  
+                    </div><!-- website -->
+                    
+              
+                 
+            </div><!-- fieldContainer -->
+             <div id="headerButtonSet">
+               
+    
+    <ul><li>
+		<a class="contactus" href="contact-us">Contact Us</a></li>
+<li>
+		<a class="donatenow" href="https://giving.unt.edu/content/giving-unt" target="_blank">Donate Now</a></li>
+</ul> 
+  
+             </div><!-- header Button Set -->
+             
+             
+            
+             
+            </div> <!-- /#header -->
+            
+			
+		            <div id="nav">
+    
+             
+    
+    <ul><li class="first expanded"><a href="/about-unt-foundation" title="Mission &amp;amp; Leadership">About UNTF<em>Mission &amp; Leadership</em></a><ul><li class="first leaf"><a href="/history-mission" title="&amp;nbsp;">History &amp; Mission<em>&nbsp;</em></a></li>
+<li class="leaf"><a href="/board-directors">Board of Directors</a></li>
+<li class="leaf"><a href="/executive-staff">Executive Staff</a></li>
+<li class="leaf"><a href="/overview-unt-foundation">An Overview of UNT Foundation</a></li>
+<li class="leaf"><a href="/unt-office-development">UNT Division of Advancement</a></li>
+<li class="last leaf"><a href="/affiliations">Affiliations</a></li>
+</ul></li>
+<li class="expanded"><a href="/resources" title="and Accountability">Structure<em>and Accountability</em></a><ul><li class="first leaf"><a href="/foundation-structure">Foundation Structure</a></li>
+<li class="leaf"><a href="/foundation-accountability">Foundation Accountability</a></li>
+<li class="leaf"><a href="/foundation-policies-procedures">Foundation Policies &amp; Procedures</a></li>
+<li class="last leaf"><a href="/how-establish-endowment">Foundation Endowments</a></li>
+</ul></li>
+<li class="expanded"><a href="/investing" title="Strategy &amp;amp; Performance">Investing<em>Strategy &amp; Performance</em></a><ul><li class="first leaf"><a href="/strategy-performance">Strategy &amp; Performance</a></li>
+<li class="last leaf"><a href="/about-our-fund-managers">About Our Fund Managers</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/70" title="News &amp; Events">Focus<em>News & Events</em></a></li>
+<li class="expanded"><a href="/giving-options" title="Methods &amp;amp; Designations">Giving Options<em>Methods &amp; Designations</em></a><ul><li class="first leaf"><a href="/why-give-untf">Why Give to UNTF?</a></li>
+<li class="leaf"><a href="/ways-give">Ways to Give</a></li>
+<li class="last leaf"><a href="/designating-your-gift">Designating Your Gift</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/73" title="Emerald Eagle Honors">EEH<em>Emerald Eagle Honors</em></a></li>
+<li class="last leaf"><a href="https://untranet.unt.edu/foundation/SitePages/Home.aspx" title="Login">Board<em>Login</em></a></li>
+</ul> 
+  
+    
+          </div>
+		            
+          
+			
+        
+        </div><!-- headerContainer --> 
+        
+        
+       <div id="homeBackground"></div> <!-- background only appear on home page -->
+       <div id="backgroundContainer"></div><!-- background Container -->   
+ 
+ 
+<!-- this section container the mid section of the home page -->
+  <div id="midSection">
+  
+  
+  		<div id="selector">
+        	<ul>
+            				 
+    
+    	<li><a href="#" class='active' landing_image="http://endow.unt.edu/sites/default/files/UNT1.jpg"></a></li>
+	<li><a href="#"  landing_image="http://endow.unt.edu/sites/default/files/bg-image3_0.jpg"></a></li>
+	<li><a href="#"  landing_image="http://endow.unt.edu/sites/default/files/bg-image4_0.jpg"></a></li>
+	<li><a href="#"  landing_image="http://endow.unt.edu/sites/default/files/Business%20Leadership%20Bldg%20-%202.jpg"></a></li>
+	<li><a href="#"  landing_image="http://endow.unt.edu/sites/default/files/Eagle%20claw%20-%202.jpg"></a></li>
+<!--    
+    <li><a href="#" landing_image="/sites/all/themes/untfoundation/images/bg-image2.jpg"></a></li>
+    <li><a href="#" landing_image="/sites/all/themes/untfoundation/images/bg-image3.jpg"></a></li>
+    <li><a href="#" landing_image="/sites/all/themes/untfoundation/images/bg-image4.jpg"></a></li>-->
+   
+   
+   
+   
+  
+              
+            </ul>
+            </div><!-- selector -->
+            
+            <!-- mid navigation section -->
+            
+            
+                        <div id="midNav">
+				 
+    
+    <ul><li>
+		<a href="/strategy-performance"><span class="performance"> </span>Performance Excellence</a></li>
+<li>
+		<a href="accountability"><span class="accountability"> </span>Accountability you can trust</a></li>
+<li class="last">
+		<a href="about-our-fund-managers"><span class="personal"> </span>Your personal representative</a></li>
+</ul> 
+  
+            </div><!-- connect -->
+            
+            
+            <div class="extendContent">
+            	<div class="left"></div>
+                <div id="contentArea">
+                	<div id="newsletter">
+                    	                            <span>Stay Connected: Sign up for the UNTF eNewsletter</span>
+                                                                        </div><!-- newsletter -->
+                    <div id="contentContainer">
+                    	
+                                                                                                
+    
+    
+   <div class="homepageContent">
+        <div class="media" >
+                        <img src="http://endow.unt.edu/sites/default/files/Wingspan%202016%20-%20small.JPG" alt="Wingspan Gala - April 16" />
+            
+                    </div>
+       
+		        <h1>Wingspan Gala - April 16</h1>
+                
+                    <h3>Celebrating 125 years of UNT Excellence!</h3>
+        
+        
+        
+        
+
+          <p>Join us for a UNT signature green tie formal event&nbsp;honoring excellence in teaching, student success, notable alumni and generous donors.</p>
+<p><a href="http://125.unt.edu/wingspan-gala">For more information <strong>click here.</strong></a></p>    
+
+ 
+        
+        
+
+   </div>
+   
+   
+   
+   
+  
+   <div class="homepageContent">
+        <div class="media" >
+                        <img src="http://endow.unt.edu/sites/default/files/2015%20-%20Wilson%2C%20Angela%20-%20Eminent%20Faculty%20Award%20Winner%20%283%29.jpg" alt="2015 Salute to Faculty Excellence Awards" />
+            
+                    </div>
+       
+		        <h1>2015 Salute to Faculty Excellence Awards</h1>
+                
+        
+        
+        
+        
+
+          <p>Angela Wilson, Regents Professor of Chemistry and the Director for the Center for Advanced Scientific Computing and Modeling (CASCaM), is the 2015 recipient of the UNT Foundation Eminent Faculty Award.</p>
+<p>For more information, <a href="http://endow.unt.edu/unt-faculty-awards" target="_blank" class="button"><span>Click Here.</span></a></p>
+    
+
+ 
+        
+        
+
+   </div>
+   
+   
+   
+   
+  
+   <div class="homepageContent">
+        <div class="media" >
+                        <img src="http://endow.unt.edu/sites/default/files/Alumni-Award-%20photo%202015%20%283%29.jpg" alt="2015 Distinguished Alumni Achievement Awards" />
+            
+                    </div>
+       
+		        <h1>2015 Distinguished Alumni Achievement Awards</h1>
+                
+                    <h3>50th Anniversary</h3>
+        
+        
+        
+        
+
+          <p>This year the UNT Alumni Association will celebrate its 50th anniversary of the Distinguished Alumni Acievement Awards.  Find out who our award winners are for 2015 by <a href="https://endow.unt.edu/2015-alumni-awards" target="_blank">clicking here</a>.</p>
+    
+
+ 
+        
+        
+
+   </div>
+   
+   
+   
+   
+  
+   <div class="homepageContent">
+        <div class="media" >
+                        <img src="http://endow.unt.edu/sites/default/files/Wining%20design%20-%20A.JPG" alt="UNT Tartan" />
+            
+                    </div>
+       
+		        <h1>UNT Tartan</h1>
+                
+                    <h3>125th Anniversary Tartan</h3>
+        
+        
+        
+        
+
+          <p>UNT has an official "Scottish Registered" Tartan.  The tartan was designed by Casey Heidt, a metalsmithing and fibers double major from Arlington, TX.</p>
+<p>Read more about her inspiration by <a href="https://endow.unt.edu/tartan#overlay-context=node/76" target="_blank">clicking here.</a></p>
+<p> </p>
+    
+
+ 
+        
+        
+
+   </div>
+   
+   
+   
+   
+   
+  
+					
+                    	<ul id="homePagination">
+                        
+                        </ul>                       
+                    	
+                  </div><!-- content -->
+                </div><!-- content Area -->
+                <div class="right"></div>
+            </div><!-- mid Content -->
+            
+            
+            
+            
+  </div><!-- midSection -->         
+
+ <div id="footerWrap">
+	
+          <div id="footer">
+          	            <div id="connect">
+				 
+    
+    <ul><li>
+		<a class="facebook" href="https://www.facebook.com/UniversityOfNorthTexasFoundation" target="_blank">Facebook</a></li>
+<li>
+		<a class="twitter" href="http://twitter.com/#!/untnews">Twitter</a></li>
+<li>
+		<a class="linkedin" href="http://social.unt.edu/">Linkedin</a></li>
+</ul> 
+  
+            </div><!-- connect -->
+                        <div id="contactInfo">
+            	 
+    
+    <ul><li>
+		Office
+<ul><li>
+				Gateway Center</li>
+<li>
+				Room 149</li>
+<li>
+				801 North Texas Blvd.</li>
+</ul></li>
+<li>
+		Mailing Address
+<ul><li>
+				1155 Union Circle #311250</li>
+<li>
+				Denton, Texas 76203-5017</li>
+</ul></li>
+<li>
+		Phone
+<ul><li>
+				Office: (940) 565-4555</li>
+<li>
+				Fax: (940) 369-7111</li>
+</ul></li>
+</ul> 
+  
+            </div><!-- contactInfo -->
+                        <div id="footerButtonSet">
+            	 
+     
+    
+    <ul><li>
+		<a class="contactus" href="contact-us">Contact Us</a></li>
+<li>
+		<a class="donatenow" href="https://giving.unt.edu/content/giving-unt" target="_blank">Donate Now</a></li>
+</ul> 
+  
+  
+                
+                
+                
+            </div><!-- contactInfo -->
+                        
+            
+            
+          </div> <!-- /#footer -->
+    
+             <div class="extendContent">
+                        <div class="left"></div>
+                        <div id="footerInfo">
+                           							 
+     
+    
+    <ul><li class="first expanded"><a href="/about-unt-foundation" title="Mission &amp;amp; Leadership">About UNTF<em>Mission &amp; Leadership</em></a><ul><li class="first leaf"><a href="/history-mission" title="&amp;nbsp;">History &amp; Mission<em>&nbsp;</em></a></li>
+<li class="leaf"><a href="/board-directors">Board of Directors</a></li>
+<li class="leaf"><a href="/executive-staff">Executive Staff</a></li>
+<li class="leaf"><a href="/overview-unt-foundation">An Overview of UNT Foundation</a></li>
+<li class="leaf"><a href="/unt-office-development">UNT Division of Advancement</a></li>
+<li class="last leaf"><a href="/affiliations">Affiliations</a></li>
+</ul></li>
+<li class="expanded"><a href="/resources" title="and Accountability">Structure<em>and Accountability</em></a><ul><li class="first leaf"><a href="/foundation-structure">Foundation Structure</a></li>
+<li class="leaf"><a href="/foundation-accountability">Foundation Accountability</a></li>
+<li class="leaf"><a href="/foundation-policies-procedures">Foundation Policies &amp; Procedures</a></li>
+<li class="last leaf"><a href="/how-establish-endowment">Foundation Endowments</a></li>
+</ul></li>
+<li class="expanded"><a href="/investing" title="Strategy &amp;amp; Performance">Investing<em>Strategy &amp; Performance</em></a><ul><li class="first leaf"><a href="/strategy-performance">Strategy &amp; Performance</a></li>
+<li class="last leaf"><a href="/about-our-fund-managers">About Our Fund Managers</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/70" title="News &amp; Events">Focus<em>News & Events</em></a></li>
+<li class="expanded"><a href="/giving-options" title="Methods &amp;amp; Designations">Giving Options<em>Methods &amp; Designations</em></a><ul><li class="first leaf"><a href="/why-give-untf">Why Give to UNTF?</a></li>
+<li class="leaf"><a href="/ways-give">Ways to Give</a></li>
+<li class="last leaf"><a href="/designating-your-gift">Designating Your Gift</a></li>
+</ul></li>
+<li class="leaf"><a href="/node/73" title="Emerald Eagle Honors">EEH<em>Emerald Eagle Honors</em></a></li>
+<li class="last leaf"><a href="https://untranet.unt.edu/foundation/SitePages/Home.aspx" title="Login">Board<em>Login</em></a></li>
+</ul> 
+  
+  
+                                                  
+                        </div><!-- footer Area -->
+                        <div class="right"></div>
+                    </div><!-- mid Content -->
+					                    <div id="policy">
+                     
+    
+    <p>
+	© Copyright 2011 - UNT Foundation - All Rights Reserved, <a href="privacy-statement">Privacy Policy</a></p>
+ 
+  
+                    </div>
+                    
+                         
+         </div><!-- footerWrapSection -->
+               
+ 
+</div><!-- webContainer -->  </body>
+</html>

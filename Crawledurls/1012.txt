@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+<HTML>
+<TITLE>Loading Content</TITLE>
+<HEAD>
+<LINK rel=stylesheet 
+      href="/applicants/static/shared/styles.css" 
+      type="text/css">
+<SCRIPT type="text/javascript">
+   function forwardAsReplace(){
+
+        location.replace('/applicants/jsp/shared/frameset/Frameset.jsp?time=1462978648277');
+   }
+</SCRIPT>
+</HEAD>
+<BODY onLoad="javascript:forwardAsReplace()">
+
+    <H3>
+        Loading Page.&nbsp;&nbsp;Please Wait.
+    </H3>
+
+<!-- PAGE CONTENT LOADED OK -->
+</BODY>
+</HTML>

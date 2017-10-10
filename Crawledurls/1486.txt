@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>We Mean Green Fund Expression of Interest Form &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<script type="text/javascript">window.CKEDITOR_BASEPATH = "/sites/all/modules/ckeditor/ckeditor/";</script>
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/webform/css/webform.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-webform no-sidebars   form">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/form/we-mean-green-fund-expression-interest-form"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-BVf3njwK-gzQFdhOlpS3aPwhIH4anIyckbLJ4mNpC-E" value="form-BVf3njwK-gzQFdhOlpS3aPwhIH4anIyckbLJ4mNpC-E"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/form/we-mean-green-fund-expression-interest-form"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-BVf3njwK-gzQFdhOlpS3aPwhIH4anIyckbLJ4mNpC-E" value="form-BVf3njwK-gzQFdhOlpS3aPwhIH4anIyckbLJ4mNpC-E"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+
+
+<div class="hero">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"><div class="label channel channel-reset">Form</div> </div>
+			<h1 >We Mean Green Fund Expression of Interest Form</h1>
+		</div>
+	</div>
+</div>
+
+
+
+<main class="container well">
+<div class="row">
+
+    <div class="col-md-12">
+
+	<div class="main_title">
+	We Mean Green Fund Expression of Interest Form</div>
+<style type="text/css">.main_title {
+  text-align: center;
+  font-size: 30px;
+  color: #00853E;
+  margin: 20px 0;
+}
+  .text_content{
+    margin: 0 10%;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .closed {
+    color: red;
+    font-weight: bold;
+  }
+</style>
+<form action="/form/we-mean-green-fund-expression-interest-form"  accept-charset="UTF-8" method="post" id="webform-client-form-175378" class="webform_client_form_175378">
+<div><fieldset class="webform-component-fieldset" id="webform-component-project-details"><legend>Project Details</legend><div class="webform-component webform-component-textarea" id="webform-component-project-details--detailed-project-idea"><div class="form-item" id="edit-submitted-project-details-detailed-project-idea-wrapper">
+ <label for="edit-submitted-project-details-detailed-project-idea">Detailed Project Idea: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="submitted[project_details][detailed_project_idea]" id="edit-submitted-project-details-detailed-project-idea"  class="form-textarea resizable required ckeditor-mod filterxss2"></textarea>
+ <div class="description"><p>
+	Please describe your project idea as completely as possible in 500 words or less.</p>
+</div>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-project-details-detailed-project-idea','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-project-details-detailed-project-idea">Switch to plain text editor</a><fieldset class="webform-component-fieldset" id="webform-component-project-details--proposal-classification"><legend>Proposal Classification</legend><div class="description"><p>
+	Education and outreach: a project that will educate and engage the UNT community to adopt sustainable behaviors. Education projects should demonstrate a need for improvement in an area of sustainability, target specific behaviors to change towards sustainability, and should identify metrics for success of education.</p>
+
+<p>
+	Operations: a project that will directly deal with the impact that the UNT community has on the environment. Operations projects should reduce waste, conserve resources, increase efficiency, or facilitate sustainable behaviors at UNT.</p>
+</div><div class="webform-component webform-component-radios" id="webform-component-project-details--proposal-classification--select-classification"><div class="form-item">
+ <label>Select Classification: <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-radios"><div class="form-item" id="edit-submitted-project-details-proposal-classification-select-classification-1-wrapper">
+ <label class="option" for="edit-submitted-project-details-proposal-classification-select-classification-1"><input type="radio" id="edit-submitted-project-details-proposal-classification-select-classification-1" name="submitted[project_details][proposal_classification][select_classification]" value="education_and_outreach"   class="form-radio" /> Education and Outreach</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-proposal-classification-select-classification-2-wrapper">
+ <label class="option" for="edit-submitted-project-details-proposal-classification-select-classification-2"><input type="radio" id="edit-submitted-project-details-proposal-classification-select-classification-2" name="submitted[project_details][proposal_classification][select_classification]" value="operations"   class="form-radio" /> Operations</label>
+</div>
+</div>
+</div>
+</div></fieldset>
+<div class="webform-component webform-component-radios" id="webform-component-project-details--area-of-focus"><div class="form-item">
+ <label>Area of Focus: <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-radios"><div class="form-item" id="edit-submitted-project-details-area-of-focus-1-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-1"><input type="radio" id="edit-submitted-project-details-area-of-focus-1" name="submitted[project_details][area_of_focus]" value="recycling"   class="form-radio" /> Recycling</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-2-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-2"><input type="radio" id="edit-submitted-project-details-area-of-focus-2" name="submitted[project_details][area_of_focus]" value="waste_reduction"   class="form-radio" /> Waste Reduction</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-3-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-3"><input type="radio" id="edit-submitted-project-details-area-of-focus-3" name="submitted[project_details][area_of_focus]" value="energy_efficienty"   class="form-radio" /> Energy Efficiency</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-4-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-4"><input type="radio" id="edit-submitted-project-details-area-of-focus-4" name="submitted[project_details][area_of_focus]" value="transportation"   class="form-radio" /> Transportation</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-5-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-5"><input type="radio" id="edit-submitted-project-details-area-of-focus-5" name="submitted[project_details][area_of_focus]" value="product_purchasing"   class="form-radio" /> Product Purchasing</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-6-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-6"><input type="radio" id="edit-submitted-project-details-area-of-focus-6" name="submitted[project_details][area_of_focus]" value="planning_and_maintenance"   class="form-radio" /> Planning and Maintenance</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-7-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-7"><input type="radio" id="edit-submitted-project-details-area-of-focus-7" name="submitted[project_details][area_of_focus]" value="water_conservation"   class="form-radio" /> Water Conservation</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-8-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-8"><input type="radio" id="edit-submitted-project-details-area-of-focus-8" name="submitted[project_details][area_of_focus]" value="irrigation"   class="form-radio" /> Irrigation</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-9-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-9"><input type="radio" id="edit-submitted-project-details-area-of-focus-9" name="submitted[project_details][area_of_focus]" value="landscaping"   class="form-radio" /> Landscaping</label>
+</div>
+<div class="form-item" id="edit-submitted-project-details-area-of-focus-10-wrapper">
+ <label class="option" for="edit-submitted-project-details-area-of-focus-10"><input type="radio" id="edit-submitted-project-details-area-of-focus-10" name="submitted[project_details][area_of_focus]" value="other"   class="form-radio" /> Other</label>
+</div>
+</div>
+ <div class="description"><p>
+	Please select the area of focus that best describes your project.</p>
+</div>
+</div>
+</div><div class="webform-component webform-component-textarea" id="webform-component-project-details--if-you-selected-other-please-specify-what-that-area-of-focus-is"><div class="form-item" id="edit-submitted-project-details-if-you-selected-other-please-specify-what-that-area-of-focus-is-wrapper">
+ <label for="edit-submitted-project-details-if-you-selected-other-please-specify-what-that-area-of-focus-is">If you selected "Other", please specify what that area of focus is: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="submitted[project_details][if_you_selected_other_please_specify_what_that_area_of_focus_is]" id="edit-submitted-project-details-if-you-selected-other-please-specify-what-that-area-of-focus-is"  class="form-textarea resizable required ckeditor-mod filterxss2"></textarea>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-project-details-if-you-selected-other-please-specify-what-that-area-of-focus-is','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-project-details-if-you-selected-other-please-specify-what-that-area-of-focus-is">Switch to plain text editor</a></fieldset>
+<div class="webform-component webform-component-textarea" id="webform-component-have-you-begun-working-on-your-idea"><div class="form-item" id="edit-submitted-have-you-begun-working-on-your-idea-wrapper">
+ <label for="edit-submitted-have-you-begun-working-on-your-idea">Have you begun working on your idea?: </label>
+ <textarea cols="60" rows="5" name="submitted[have_you_begun_working_on_your_idea]" id="edit-submitted-have-you-begun-working-on-your-idea"  class="form-textarea resizable ckeditor-mod filterxss2"></textarea>
+ <div class="description"><p>
+	Please use the space to outline the work that has been done towards your idea, and provide the current status or you idea.</p>
+</div>
+</div>
+</div><a class="ckeditor_links" style="display:none" href="javascript:void(0);" onclick="javascript:Drupal.ckeditorToggle('edit-submitted-have-you-begun-working-on-your-idea','Switch to plain text editor','Switch to rich text editor',1);" id="switch_edit-submitted-have-you-begun-working-on-your-idea">Switch to plain text editor</a><div class="webform-component webform-component-markup" id="webform-component-style"><style type="text/css">form {    
+    margin: 5% 10% 0 15%;
+  }
+  legend {
+    font-style: italic;
+    color: #00853E;
+  }
+  .form-item {
+    font-size: 16px;
+    color: #00853E;
+    margin-bottom: 35px;
+  }
+ .form-item input[type="text"],
+ .form-item input[type="number"]{
+    height: 45px;
+    width: 95%;
+    font-size: 20px;
+    border: 1px solid #00853E;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 125px;
+    height: 40px;
+    margin: 0 auto 5% auto;
+    background: #00853E;
+    -webkit-border-radius: 50;
+    -moz-border-radius: 50;
+    border-radius: 50px;
+    border: solid #00853E 1px;
+    color: #F9F9F9;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  input[type="submit"]:hover {
+    background: #f9f9f9;
+    color: #00853E;
+    text-decoration: none;
+  }
+</style>
+<p>
+	&nbsp;</p>
+</div><input type="hidden" name="details[sid]" id="edit-details-sid" value=""  />
+<input type="hidden" name="details[page_num]" id="edit-details-page-num" value="1"  />
+<input type="hidden" name="details[page_count]" id="edit-details-page-count" value="1"  />
+<input type="hidden" name="details[finished]" id="edit-details-finished" value="0"  />
+<input type="hidden" name="form_build_id" id="form-HPqkXhAwmi4S9YnxZNnI98jHhlG3nPi4eJQ3xycaCYE" value="form-HPqkXhAwmi4S9YnxZNnI98jHhlG3nPi4eJQ3xycaCYE"  />
+<input type="hidden" name="form_id" id="edit-webform-client-form-175378" value="webform_client_form_175378"  />
+<div id="edit-actions" class="form-actions form-wrapper"><input type="submit" name="op" id="edit-submit" value="Submit"  class="form-submit" />
+</div>
+</div></form>
+	
+	</div>
+    
+</div>
+</main>
+
+<style>
+
+	.hero{
+
+		background-image:url('');
+
+	}
+
+</style>
+
+
+	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ckeditor/ckeditor/ckeditor.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/webform_conditional/webform_conditional.js?s"></script>
+<script type="text/javascript" src="/profiles/cws_d6/modules/webform/js/webform.js?s"></script>
+<script type="text/javascript" src="/misc/textarea.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "ckeditor": { "module_path": "/sites/all/modules/ckeditor", "editor_path": "/sites/all/modules/ckeditor/ckeditor", "ajaxToken": "faf58993e7bfb7ab5bd2728fd705a1c9", "xss_url": "/ckeditor/xss", "query": "node/175378", "default_input_format": "3", "theme": [ "Apollo3", "Apollo3", "Apollo3" ], "settings": { "edit-submitted-project-details-detailed-project-idea": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] }, "edit-submitted-project-details-if-you-selected-other-please-specify-what-that-area-of-focus-is": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] }, "edit-submitted-have-you-begun-working-on-your-idea": { "customConfig": "/sites/all/modules/ckeditor/ckeditor.config.js?1413309583", "defaultLanguage": "en", "toolbar": "[\r\n    [ \'Format\', \'Bold\', \'Italic\', \'-\', \'NumberedList\',\'BulletedList\', \'-\', \'Link\', \'Unlink\', \'Image\' ]\r\n]\r\n      ", "enterMode": 1, "shiftEnterMode": 2, "toolbarStartupExpanded": true, "width": "100%", "height": 210, "skin": "moono", "format_tags": "p;div;pre;address;h1;h2;h3;h4;h5;h6", "loadPlugins": { "drupalbreaks": { "name": "drupalbreaks", "desc": "Plugin for inserting Drupal teaser and page breaks.", "path": "/sites/all/modules/ckeditor/plugins/drupalbreaks/", "buttons": { "DrupalBreak": { "label": "DrupalBreak", "icon": "images/drupalbreak.png" } }, "default": "t" } }, "scayt_autoStartup": false, "stylesCombo_stylesSet": "drupal:/sites/all/modules/ckeditor/ckeditor.styles.js", "contentsCss": [ "/sites/all/themes/apollo3/assets/css/bootstrap.css?s", "/sites/all/themes/apollo3/assets/css/style.css?s", "/sites/all/themes/apollo3/assets/css/components/apollo.css?s", "/sites/all/themes/apollo3/assets/css/components/admin.css?s", "/sites/all/themes/apollo3/assets/css/magnific.css?s", "/sites/all/themes/apollo3/assets/css/animate.css?s", "/sites/all/themes/apollo3/assets/css/owl.carousel.css?s", "/sites/all/modules/ckeditor/ckeditor.css?s" ], "filters": [ "filter/0/1" ] } }, "autostart": { "edit-submitted-project-details-detailed-project-idea": true, "edit-submitted-project-details-if-you-selected-other-please-specify-what-that-area-of-focus-is": true, "edit-submitted-have-you-begun-working-on-your-idea": true } }, "CToolsUrlIsAjaxTrusted": { "/form/we-mean-green-fund-expression-interest-form": [ true, true ] }, "webform_conditional": { "fields": { "area_of_focus": { "cid": "8", "dependent_fields": { "if_you_selected_other_please_specify_what_that_area_of_focus_is": { "type": "textarea", "cid": "9", "monitor_cid": "8", "monitor_field_key": "area_of_focus", "monitor_field_value": [ "other" ], "monitor_field_trigger": "", "operator": "=", "default_value": "", "css_id": "webform-component-project-details--if-you-selected-other-please-specify-what-that-area-of-focus-is" } }, "css_id": "webform-component-project-details--area-of-focus" } }, "nid": "175378", "showSpeed": null }, "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+<script type="text/javascript" src="/sites/all/modules/ckeditor/includes/ckeditor.utils.js?s"></script>
+
+</div>
+</body>
+</html>

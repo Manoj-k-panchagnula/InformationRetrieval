@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="/Templates/UNT-FERPA-Training-Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>FERPA Training - Home</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="State of Texas, University of North Texas, Registrar's Office, URCM" />
+<meta name="description" content="UNT FERPA Training Website" />
+<meta name="keywords" content="FERPA, FERPA training, SIMS access" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="What is FERPA" type="text" value="link" -->
+<!-- InstanceParam name="Directory info" type="text" value="link" -->
+<!-- InstanceParam name="Directory info at UNT" type="text" value="link" -->
+<!-- InstanceParam name="Education Records" type="text" value="link" -->
+<!-- InstanceParam name="Withhold directory info" type="text" value="link" -->
+<!-- InstanceParam name="Parental rights" type="text" value="link" -->
+<!-- InstanceParam name="Release without consent" type="text" value="link" -->
+<!-- InstanceParam name="Info student can not see" type="text" value="link" -->
+<!-- InstanceParam name="Compliance with the law" type="text" value="link" -->
+<!-- InstanceParam name="Questions on FERPA" type="text" value="link" -->
+<!-- InstanceParam name="Policy and notification" type="text" value="link" -->
+<!-- InstanceParam name="Failure to follow the law" type="text" value="link" -->
+<!-- InstanceParam name="Acknowledgment Form" type="text" value="link" -->
+<style type="text/css">
+@import url("css/ferpa-training-screen.css");
+</style>
+</head>
+<body>
+<!--// Wrapper //-->
+<div id="wrapper">
+
+  <div id="container"> 
+    <!--// Header //-->
+    <div id="header"> 
+      
+      <!--// Global Links + Skip + Search //-->
+      <div id="global"> 
+        
+        <!--// UNT Search //-->
+        <div id="search">
+          <form id="sform" action="http://www.unt.edu/searchresults.htm" method="get">
+            <label for="searchterms">Search UNT:</label>
+            <input id="searchBox" name="q" type="text" value="Search UNT" />
+            <input id="sbutton" name="sa" type="submit" value="Search" class="form-submit" />
+            <input name="cx" type="hidden" value="006162551747196560811:ueuk_ajzpuw" />
+            <input name="cof" type="hidden" value="FORID:11" />
+          </form>
+        </div>
+        <!--// END UNT Search //--> 
+        
+        <!--// Skip //-->
+        <div id="skip"> <a href="#content">Skip to content</a> </div>
+        <!--// END Skip //--> 
+        
+        <!--// Global Links //-->
+        <ul id="globalLinks">
+          <li><a href="https://my.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/myunt');">MyUNT</a></li>
+          <li><a href="http://eagleconnect.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/eagleconnect');">EagleConnect</a></li>
+          <li><a href="http://webctvista.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/blackboard');">Blackboard</a></li>
+          <li><a href="http://www.unt.edu/find-people-department.htm">People &amp; Departments</a></li>
+          <li><a href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps</a></li>
+          <li><a href="http://www.unt.edu/calendars-events.htm">Calendars</a></li>
+          <li><a href="http://www.unt.edu/giving-unt.htm">Giving to UNT</a></li>
+        </ul>
+        <!--// END Global Links //--> 
+        
+      </div>
+      <!--// END Global Links + Skip + Search //--> 
+      
+      <!--// UNT Branding //-->
+      <div id="branding">
+        <div id="unt-brand"> <a href="http://www.unt.edu/"> <img src="http://www.unt.edu/assets/images/greenlight/unt-lettermark.png" alt="UNT" /> </a> </div>
+        <div id="logo" class="unbranded" >
+          <h1 class="site-name"> <a href="index.html" title="Home" rel="home">FERPA Training</a></h1>
+        </div>
+      </div>
+      <!--// END UNT Branding //--> 
+      
+    </div>
+    <!--// END Header //--> 
+    
+    <!--// Main Body //-->
+    <div id="main-body"> 
+      
+      <!--// Navigation //-->
+      <div id="navigation" class="col"> 
+        
+        <!--// FERPA //-->
+        <div id="ferpa">
+          <p>FERPA:</p>
+          <ul>
+            <li class="link"><a href="what-is-ferpa.html" class="link">What is FERPA?</a></li>
+            <li class="link"><a href="directory-info.html" class="link">Directory info </a></li>
+            <li class="link"><a href="directory-info-at-unt.html" class="link">Directory info at UNT </a></li>
+            <li class="link"><a href="education-records.html" class="link">Education records</a></li>
+          </ul>
+        </div>
+        <!--// END FERPA //--> 
+        
+        <!--// Student Information //-->
+        <div id="student-information">
+          <p>Student Information:</p>
+          <ul>
+            <li class="link"><a href="withhold-directory-info.html" class="link">Withhold directory info</a></li>
+          </ul>
+        </div>
+        <!--// END Student Information //--> 
+        
+        <!--// Parent Information //-->
+        <div id="parent-information">
+          <p>Parent Information:</p>
+          <ul>
+            <li class="link"><a href="parental-rights.html" class="link">Parental rights</a></li>
+          </ul>
+        </div>
+        <!--// END Parent Information //--> 
+        
+        <!--// Faculty/Staff Information //-->
+        <div id="faculty-staff-information">
+          <p> Faculty/ Staff Information:</p>
+          <ul>
+            <li class="link"><a href="release-without-consent.html" class="link">Release without Consent</a></li>
+            <li class="link"><a href="info-student-cannot-see.html" class="link">Information Student Cannot See</a></li>
+            <li class="link"><a href="compliance-with-the-law.html" class="link">Compliance with the Law</a></li>
+            <li class="link"><a href="questions-on-ferpa.html" class="link">Questions on FERPA</a></li>
+            <li class="link"><a href="policy-and-notification.html" class="link">Policy and Notification</a></li>
+            <li class="link"><a href="failure-to-follow-the-law.html" class="link">Failure to follow the Law</a></li>
+            <li class="link"><a href="acknowledgement-form.html" class="link">Acknowledgment Form </a></li>
+          </ul>
+        </div>
+        <!--// END Faculty/Staff Information //--> 
+        
+      </div>
+      <!--// END Navigation //--> 
+      
+      <!--// Content //-->
+      <div id="content" class="col"> 
+			<!-- InstanceBeginEditable name="UNT-FERPA-Training-Content" -->
+	
+  <h2>Begin</h2>
+  <p><strong>All employees requesting access to EIS (Enterprise Information System) are required to have training in the Family Educational Rights and Privacy Act of 1974, as Amended (FERPA).  Please review the following information and complete the acknowledgement form.</strong></p>
+  <ul>
+    <li><a href="what-is-ferpa.html">What is FERPA</a>? </li>
+    <li><a href="education-records.html">What are and are not education records</a>? </li>
+    <li><a href="parental-rights.html">What are parental rights under FERPA</a>? </li>
+    <li><a href="directory-info.html">What is directory or public information</a>? </li>
+    <li><a href="directory-info-at-unt.html">What is directory information at UNT</a>? </li>
+    <li><a href="withhold-directory-info.html">How can a student withhold directory information</a>? </li>
+    <li><a href="release-without-consent.html">What information can  we release without student consent</a>? </li>
+    <li><a href="compliance-with-the-law.html">What are 2 basic steps to comply with the law</a>? </li>
+    <li><a href="info-student-cannot-see.html">What documents does a student not have a right to see</a>? </li>
+    <li><a href="policy-and-notification.html">What are institutional policy and notification requirements</a>? </li>
+    <li><a href="failure-to-follow-the-law.html">What can happen if we fail to follow the law</a>? </li>
+    <li><a href="questions-on-ferpa.html">What if I have a question on what can or cannot be released under FERPA</a>? </li>
+    <li><a href="acknowledgement-form.html">What additional paperwork is necessary for access to EIS</a>?</li>
+    </ul>
+  <div id="navigator"><span class="button"><a href="what-is-ferpa.html">next</a> &gt;</span></div> 
+  <!-- InstanceEndEditable --> 
+      </div>
+      <!--// END Content //--> 
+    </div>
+    <!--// END Main Body //--> 
+  </div>
+  <!--// END Container //-->
+</div>
+<!--// END section wrapper //--> 
+
+<!--// UNT-footer //-->
+<div id="footer">
+  <div class="section wrapper"> 
+    <!--// Contact //-->
+    <div id="contact" class="equal">
+      <div id="inner-contact">
+        <div class="region region-footer-contact">
+          <div class="content">
+            <h5 class="title">Contact Us:</h5>
+            <div class="vcard"> <span class="fn org">Ferpa Training</span> <br/>
+              <span class="tel"><span class="type">Voice</span>: 940-565-2111</span><br/>
+              <span class="tel"><span class="type">Fax</span>: 940-565-4463</span><br/>
+              <br/>
+              <h5>Visit Us:</h5>
+              <span>Eagle Student Services Building Registrar's Office</span> <a href="http://pacs.unt.edu/baas/" class="url">http://www.unt.edu/ferpa/</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// END Contact //--> 
+    
+    <!--// Technical //-->
+    <div id="technical" class="equal">
+      <div id="inner-tech">
+        <div class="region region-footer-tech">
+          <div class="content">
+            <div id="contentProblems">
+              <h5 class="title">Email us:</h5>
+              <p>Have questions on content? Please contact us. <a href="mailto:registrar@unt.edu">registrar@unt.edu</a></p>
+            </div>
+            <div id="techProblems">
+              <h5 class="title">Technical problems:</h5>
+              <p>Have questions concerning how the site runs? <a href="mailto:urcm@unt.edu">urcm@unt.edu</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// END Technical //--> 
+    
+    <!--// Feedback //-->
+    <div id="feedback" class="equal">
+      <div id="inner-feedback">
+        <div class="inner-feedback">
+          <div class="region region-footer-online">
+            <div class="content">
+              <h5 class="title">UNT System:</h5>
+              <ul>
+                <li><a href="http://www.unt.edu/">UNT Home</a></li>
+                <li><a href="http://untsystem.unt.edu/">UNT System</a></li>
+                <li><a href="http://www.unt.edu/unt-dallas/">UNT Dallas</a></li>
+                <li><a href="http://www.hsc.unt.edu/">UNT Health Science Center</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// END Feedback //--> 
+    
+    <!--// State Information //-->
+    <div id="stateInfo">
+      <div id="inner-stateInfo">
+        <div class="region region-state-info">
+          <div class="content">
+            <p><strong>Site last updated on <!-- #BeginDate format:Am1 -->May 21, 2013<!-- #EndDate --></strong></p>
+            <a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://policy.unt.edu/policy/5-1">Web Accessibility Policy</a> | <a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> | <a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> </div>
+        </div>
+      </div>
+    </div>
+    <!--// END State Information //--> 
+    
+  </div>
+</div>
+<!--// END UNT-footer //--> 
+
+<script type="text/javascript" src="scripts/jquery.1.2.6.js"></script> 
+<script type="text/javascript" src="scripts/jquery.searchbox.js"></script>
+<script type="text/javascript" src="scripts/jquery.equalheight.js"></script>
+<script type="text/javascript" src="scripts/jquery.untskin.js"></script>
+</body>
+<!-- InstanceEnd --></html>

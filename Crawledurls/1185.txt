@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html  ng-app="phonecatApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+	<title>Research &bull;  UNT Division of Student Affairs</title>
+	
+    <meta charset="utf-8">
+    <!-- This should be changed for IE 8; We should add it to the .conf file I beleive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="sites/all/themes/apollo3/favicon.ico" type="image/x-icon" />
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/http://unt.edu/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/og/theme/og.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/shipping/uc_quote/uc_quote.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_attribute/uc_attribute.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_order/uc_order.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_product/uc_product.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ubercart/uc_store/uc_store.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/cck/modules/fieldgroup/fieldgroup.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/profiles/cws_d6/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/calendar.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/preska2/css/earlyAlert.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/bootstrap.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/style.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/apollo.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/components/admin.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/magnific.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/animate.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/apollo3/assets/css/owl.carousel.css?s" />
+    <!--[if IE]>
+    <link rel="stylesheet" href="/sites/all/themes/apollo3/assets/css/ie.css" />
+    <![endif]-->
+    
+    <!--  HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries  -->
+    <!--[if IE]>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/html5shiv.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/respond.js"></script>
+     <![endif]-->    
+</head>
+<body class="not-front not-logged-in page-node node-type-page no-sidebars   research">
+<div id="page-wrapper">
+<header class="main">
+	<div class="container">
+	<a href="/" title="Home" id="site-name"><span>Division of</span>Student Affairs <!--div class="label label-beta">Beta</div--></a>
+		<div class="branding col-md-6">
+        	            <a href="http://unt.edu" class="logo-unt" >
+            	            </a>             
+        </div>
+	</div>
+   
+</header>
+
+<nav class="main">
+	<div class="container">
+		<div class="explore dropdown">
+			<a href="#" data-toggle="dropdown" title="Explore events, services, guides, and more">Explore</a>
+			<div class="mfp-bg"></div>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Choose a channel for services, guides, events, and more.</li>		
+				<!--li><a href="/explore?category=" class="channel channel-academicsupport">Academic Support &amp; Orientation</a></li-->
+				<li><a href="/explore?category=29" class="channel channel-artsentertainment">Arts &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30" class="channel channel-careerdevelopment">Career Development</a></li>
+				<li><a href="/explore?category=39" class="channel channel-communityservice">Community Service</a></li>
+				<li><a href="/explore?category=34" class="channel channel-healthwellnessrecreation">Health, Wellness &amp; Recreation</a></li>
+				<li><a href="/explore?category=35" class="channel channel-leadership">Leadership</a></li>
+				<li><a href="/explore?category=33" class="channel channel-moneymanagement">Money Management</a></li>
+				<li><a href="/explore?category=32" class="channel channel-orientationtransitioning">Education</a></li>
+				<!--li><a href="/explore?category=" class="channel channel-pridetraditions">Pride &amp; Traditions</a></li-->
+				<li><a href="/explore?category=59" class="channel channel-residencelife">Residence Life</a></li>
+				<li><a href="/explore?category=36" class="channel channel-retaildining">Retail &amp; Dining</a></li>
+				<li><a href="/explore?category=41" class="channel channel-rightsconduct">Rights &amp; Conduct</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Get connected with our campus</li>
+				<li><a href="/departments">Departments &amp; Offices</a></li>
+				<li><a href="/buildings">Buildings &amp; Locations</a></li>
+				<li><a href="/people">People</a></li>
+				<li><a href="/research">Research</a></li>
+				<!--li class="divider"></li>
+				<li class="dropdown-header">Get involved and join a student organization.</li>
+				<li><a href="/organizations">Explore Organizations</a></li>
+				<li><a href="/organizations/learn">or start your own</a></li-->
+			</ul>	
+		</div>
+		
+		<div class="search hidden-sm hidden-xs">
+			<form action="/research"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-2UiByq5N0W281xF0sKNVfyRozjxLjB8ksIVS7_Ek9J0" value="form-2UiByq5N0W281xF0sKNVfyRozjxLjB8ksIVS7_Ek9J0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+		</div>
+		
+		<!--div class="search dropdown visible-sm-inline-block visible-xs-inline-block">
+			<a href="#" class="button-search" data-toggle="dropdown" title="Search for events, services, guides and more">Search</a>
+			<div class="dropdown-menu">
+				<form action="/research"  accept-charset="UTF-8" method="post" id="search-theme-form" class="search_theme_form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" placeholder="Search for events, services, guides, and more" class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-2UiByq5N0W281xF0sKNVfyRozjxLjB8ksIVS7_Ek9J0" value="form-2UiByq5N0W281xF0sKNVfyRozjxLjB8ksIVS7_Ek9J0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+			</div>
+		</div-->
+		
+				
+		<ul>
+			<li class="dropdown">
+				<a href="#" title="About the Division" class="about button-caret" data-toggle="dropdown">About</a>
+				<ul class="dropdown-menu">
+					<li><a href="/about-us">The Division</a></li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/departments">Departments</a></li>
+					<li><a href="/buildings">Buildings & Locations</a></li>
+					<li><a href="/research">Research</a></li>
+				</ul>
+			</li>
+			<li><a href="/contact" title="Contact the Division">Contact</a></li>
+		</ul>
+		  
+				<div class="login">
+		<a href="/user" class="user sign-in" data-popup="inline" title="Login to the Hub">Log In</a>
+		</div>
+				
+				
+				
+				<!--div class="cart dropdown">
+			<a href="#" data-toggle="dropdown" title="Cart">Cart <div class="badge"></div></a>
+			<div class="dropdown-menu dropdown-menu-right">
+								<a href="/cart" class="button button-block">Review Cart &amp; Checkout</a>
+			</div>
+		</div-->
+				
+				
+    <div class="clear"></div>       
+	</div><!-- End of Nav Container List -->
+</nav>
+
+
+
+<div class="hero">
+	<div class="meta">
+		<div class="container">
+			<div class="channels"></div>
+			<h1 >Research</h1>
+		</div>
+	</div>
+</div>
+
+<main id="node-34" class="container well">
+	<div class="span15 col-md-12">
+	<div class="infoBox well float-right">
+		<div class="inlet">
+			<span class="title">Downloadable Resources</span><br />
+			<a href="/sites/default/files/pdf/rap/Hype%20of%20Swipe%20V2.pdf" title="Hype of Swipe">Hype of Swipe - ID Card Swiping Training</a><br />
+			<a href="/sites/default/files/pdf/rap/Card%20Swipe%20Configurator%20Training%20-%20Updated%201-11-11.pdf" title="Card Swipe Front-End User Training">Card Swipe Front-End User&nbsp;Self-Training </a><br />
+			<a href="/sites/default/files/pdf/rap/CAS%20Made%20Easy%21%20Presentation%20TACUSPA2.pdf" title="CAS Made Easy">CAS Made Easy</a>&nbsp;- TACUSPA presentation</div>
+
+		<p class="inlet">
+			<b>Mailing Address:</b><br />
+			Office of Institutional Research &amp; Effectiveness<br />
+			1155 Union Circle #311306<br />
+			Denton, TX 76203-5017</p>
+
+		<p class="inlet">
+			<b>Telephone:</b> (940) 565-2085<br />
+			<b>Email:</b> <a href="mailto:pasd@unt.edu">irdept@unt.edu</a></p>
+	</div>
+
+	<h2>
+		Institutional Assessment</h2>
+
+	<p>
+		Institutional Assessment assists the university in conducting assessment for the enhancement of services, programs, and operations.</p>
+
+	<p>
+		Assessment activities are an integral component of the mission of Institutional Assessment. We assist departments to include continuous assessment as part of their planning, budgeting, and overall effectiveness. Departments work together through Assessment Teams to develop, critique and share their various assessment activities. As a function of the Office of Institutional Research and Effectiveness, we collaborate with other UNT departments on research projects. In addition, we collaborate with researchers from other institutions by participating in their studies. The net impact of our work is to continually improve services and to understand the needs of students at the University of North Texas. Our efforts are instrumental in translating theory into practice and ensuring the resources, time and talents of UNT are being utilized in the most professional, efficient and high-quality manner possible.</p>
+
+	<h2>
+		Division Data</h2>
+
+	<div>
+		<div>
+			<ul>
+				<li>
+					<a href="https://studentaffairs.unt.edu/research/data/students">Understanding Our Students</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<p>
+		Understanding members of the UNT community is fundamental to the mission of the Division of Student Affairs in delivering exemplary programs and services to address the needs of a diverse student body as well as collaborate effectively across and beyond campus. RAP partners with Institutional Research and Effectiveness and Division departments to gain insight into the characteristics, experiences and perceptions of various campus populations using a wide range of instruments and data collection techniques.</p>
+
+	<h3>
+		Engagement-Retention Index (ERI)</h3>
+
+	<p>
+		The University of North Texas, with participation from the Divisions of Student Affairs, Equity and Diversity, and Academic Affairs, is in the process of building out a statistical model to assess and predict undergraduate student retention and academic performance.&nbsp; This model, the Engagement-Retention Index, will utilize card-swipe data from&nbsp;departments as the primary dataset for analysis.&nbsp; The research questions driving this ongoing study are:</p>
+
+	<ol>
+		<li>
+			What effect does program participation have on undergraduate student retention?</li>
+		<li>
+			What effect does program participation have on undergraduate student GPA?</li>
+		<li>
+			What effect does office contact have on undergraduate student retention?</li>
+		<li>
+			What effect does office contact have on undergraduate student GPA?</li>
+		<li>
+			Is there a relationship between student status and program participation?</li>
+		<li>
+			Is there a relationship between student status and office contacts?</li>
+	</ol>
+
+	<p>
+		More information on this study will be made available as it progresses.&nbsp; Please contact&nbsp;<a href="mailto:stella.antic@unt.edu" title="E-mail Stella Antic">Stella Mulberry Antic</a>&nbsp;with any questions you have about the ERI.</p>
+
+	<p>
+		&nbsp;</p>
+
+	<h3>
+		Card Swiping</h3>
+
+	<p>
+		The ID card swiping initiative is a true institutional collaboration, utilizing much time and dedicated attention on the part of several units on campus, including the Division of Student Affairs, Institutional Research and Effectiveness, CITC, Decision Support and Human Resources Information Systems.</p>
+
+	<p>
+		While UNT has incredibly robust data with regard to student enrollment patterns, demographic variables and academic degree progress, there is a dearth of data on student co-curricular/out-of-class habits. UNT is in a position of strength to serve as a leader in better understanding these engagement patterns through the Eagle Access system.&nbsp;Eagle Access enables campus departments, units and divisions to assess exactly where students take advantage of critical services, attend important campus events or engage with academic or student service providers through one-on-one contact.</p>
+
+	<p>
+		On a primary level, data is utilized by front-line staff in aggregate form to determine program effectiveness, fiscal responsibility, marketing success and patterns of student usage. On a second and more critical level, data garnered from this system will be utilized to predict and assess patterns of overall student engagement, success and retention through statistical modeling and higher order quantitative methods.&nbsp;Tracking engagement factors that predict student retention should ultimately improve student graduation rates.</p>
+
+	<p>
+		For more information about card swiping, please refer to the&nbsp;<a href="https://studentaffairs.unt.edu/sites/default/files/pdf/rap/Hype%20of%20Swipe%20V2.pdf" title="Hype of Swipe Materials">Hype of Swipe materials</a>&nbsp;presented during staff training sessions.&nbsp; For more information about setting up swipe stations for offices and events, please refer to the&nbsp;<a href="https://studentaffairs.unt.edu/sites/default/files/pdf/rap/Card%20Swipe%20Configurator%20Training%20-%20Updated%201-11-11.pdf" title="Card Swipe Configurator Training Materials">Card Swipe Configurator Training materials</a>&nbsp;used for self-training purposes.</p>
+
+	<p>
+		Card swipe configurators may use the system by&nbsp;<a href="https://myls.unt.edu/psc/lspd01/EMPLOYEE/HRMS/s/WEBLIB_GBGB_UTL.WEBLIB_FUNCTION.FieldFormula.IScript_AutoLogin?KEY=GBCD_EAGACC" title="Link to Card Swipe Setup">clicking here</a>.</p>
+
+	<p>
+		&nbsp;</p>
+
+	<h3>
+		Executive Summaries</h3>
+
+	<p>
+		RAP assists Division departments with assessment projects, including the development of methodology, instruments, and executive summaries.&nbsp; As executive summaries are made available, they will be posted on this site for reference.&nbsp; The following executive summaries are available for download:</p>
+
+	<ul>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/2010_2011%20SLS%20Executive%20Summary.pdf">Student Legal Services Walk-In Appointments Assessment</a>&nbsp;(2010-2011)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/Outline%20for%20Executive%20Summary%202010.pdf">UNT Dining Services NACUFS Study</a>&nbsp;(Spring-Summer 2011)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/Analysis%20of%20LeaderShape%202011%20-%20Final.pdf">Leadershape 2011</a>&nbsp;(Summer 2011)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/Career%20Center%20Student%20Employment%20GPA%20FY2010.pdf">Career Center Student Employment GPA Study</a>&nbsp;(FY2010)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/CSD%20Needs%20Assessment%20Executive%20Highlighted.pdf">Center for Student Affairs at Discovery Park Needs Assessment</a>&nbsp;(Fall 2010)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/pdf/rap/Greek%20101%20Fall%202010%20Executive%20Summary.pdf" title="Link to Greek 101 Executive Summary">Greek 101 Program Assessment</a>&nbsp;(Fall 2010)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/pdf/rap/Housing%20QOL%202009-2010%20Executive%20Summary.pdf" title="Link to Housing QOL Executive Summary">Housing Quality of Life Survey</a>&nbsp;(2009-2010)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/pdf/rap/SLS%20Walk-In%20Appointments%20Fall%202009-Spring%202010%20Executive%20Summary.pdf" title="Link to SLS Executive Summary">Student Legal Services Walk-In Appointments Assessment</a>&nbsp;(2009-2010)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/pdf/rap/CLS%20Leadership%20Certificate%20Series%20Spring%202010%20Executive%20Summary.pdf" title="Link to CLS Executive Summary">Center for Leadership and Service Leadership Certificate Series Assessment</a>&nbsp;(Spring 2010)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/pdf/rap/Eagle%20EDGE%20Spring%202010%20Executive%20Summary.pdf" title="Link to Eagle EDGE Executive Summary">Eagle E.D.G.E. Program Assessment</a>&nbsp;(Spring 2010)</li>
+		<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/CLS%20Leadership%20Certificate%20Series%20Spring%202010%20Executive%20Summary.pdf">Leadership Certificate Series</a>&nbsp;(Spring 2010)</li>
+		<!--<li>
+			<a href="https://studentaffairs.unt.edu/sites/default/files/Analysis%202010%20Freshman%20PO.pdf" title="Freshman Parent Orientation Assessment Executive Summary">Freshman Parent Orientation Assessment</a>&nbsp;(Summer/Fall 2010)</li>-->
+	</ul>
+
+	<h4>
+		2014</h4>
+
+	<ul>
+		<li>
+			<a href="/sites/default/files/pdf/nt40_leadership_dinner_series-executive_summary.pdf">NT40 Leadership Dinner Series (2014)</a></li>
+		<li>
+			<a href="/sites/default/files/pdf/dls/choi_executive_summary.pdf">Distinquished Lecture Series - Dan Choi </a>(Spring 2014)</li>
+		<li>
+			<a href="/sites/default/files/pdf/dls/brock_executive_summary.pdf">Distinquished Lecture Series - Roslyn Brock</a> (Spring 2014)</li>
+		<li>
+			<a href="/sites/default/files/doc/Executive%20Summary%202013-2014.docx">Coffee and Coversations </a>(Spring 2014)</li>
+	</ul>
+
+	<div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow: hidden;">
+		<span class="fn org" style="margin: 0px; padding: 0px; border: 0px; font-weight: normal; font-style: normal; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; vertical-align: baseline; color: #666666; font-variant: normal; letter-spacing: normal; line-height: 16px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff;">Office of Institutional Research &amp; Effectiveness</span><span style="color: #666666; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 16px; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"><span class="Apple-converted-space"> </span></span></div>
+</div>
+	</main>
+	
+
+	
+	
+<footer>
+	<div class="container">
+		<div class="row">
+		<!--div class="col-md-2 col-sm-4 branding">
+			<a href="#" class="logo-unt">UNT Division of Student Affairs</a>
+		</div-->
+		
+		<div class="col-md-2 mcconnell-tower">
+		
+		</div>
+		
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>About</h6>
+			<ul>
+				<li><a href="/about-us">The Division</a></li>
+				<li><a href="/buildings">Buildings</a></li>
+				<li><a href="/departments">Departments</a></li>
+			</ul>
+		</div>
+
+		<div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Connect</h6>
+			<ul>
+				<li><a href="http://facebook.com/untstudentaffairs">Facebook</a></li>
+				<li><a href="http://twitter.com/unt_dsa">Twitter</a></li>
+                <li><a href="http://instagr.am/unt_dsa">Instagram</a></li>
+				<!--li><a href="#">View Directory</a></li-->
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Explore</h6>
+			<ul>
+				<li><a href="/explore?category=29">Arts  &amp; Entertainment</a></li>
+				<li><a href="/explore?category=30">Career</a></li>
+				<li><a href="/explore?category=34">Health &amp; Wellness</a></li>
+				<li><a href="/explore?category=35">Leadership</a></li>
+				<li><a href="/explore?category=41">Rights &amp; Conduct</a></li>
+                <li><a href="/explore">Explore more</a></li>
+			</ul>
+		</div>
+        
+        <div class="col-xs-6 col-sm-3 col-md-2">
+			<h6>Contact</h6>
+			<ul>
+                <li><a href="/contact">Contact the Division</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 col-xs-10 col-xs-offset-1 unt-links">
+			<a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> &bull; 
+			<a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> &bull; 
+			<a href="http://www.unt.edu/unt_ps.html">Privacy </a> &bull; 
+			<a href="http://policy.unt.edu/policy-by-number/5">Electronic Accessibility</a> &bull; 
+			<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a> &bull; 
+			<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a> &bull;
+			<a href="http://www.unt.edu/consumer-info.htm">Student Consumer Information</a> &bull; 
+			<a href="http://compliance.unt.edu/hotline">UNT Compliance Hotline</a><!-- &bull; 
+			<a href="http://www.unt.edu">UNT Home</a>-->
+		</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?s"></script>
+<script type="text/javascript" src="/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/og/og.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/ezLibrary.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/underscore.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/liveChat.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/app.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/preska2/js/earlyAlert.js?s"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/polyfills.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/bootstrap.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/salvattore.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/glide.min.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/wow.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/apollo.js?s"></script>
+<script type="text/javascript" src="/sites/all/themes/apollo3/assets/js/global.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "preska2": { "user": { "id": 0, "roles": { "1": "anonymous user" } } }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip" }, "CToolsUrlIsAjaxTrusted": { "/research": true } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4987257-31", { "cookieDomain": "auto" });ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,210 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Welcome |  License to Carry a Handgun | Texas.gov</title>			<meta name="description" content="Apply for, renew, or check the status of a handgun license or instructor certification online with the Texas Department of Public Safety." />
+		<meta name="keywords" content="Texas License to Carry, Texas Handgun License, Texas CHL, Texas LTC, Texas Concealed Handgun License, Renew Texas Concealed Handgun License, Apply Texas Concealed Handgun License, Texas handgun license, Apply Texas handgun license, Renew Texas handgun license, Texas concealed handgun instructor, Texas handgun instructor certification, Apply Texas concealed handgun instructor, Renew Texas concealed handgun certification, Check status Texas handgun license, Resume Texas handgun license application, Change Address Texas concealed handgun license" />
+
+		<link rel="stylesheet" href="/apps/dps/chl/css/reset.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/apps/dps/chl/css/screen.css" type="text/css" media="screen" />
+		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" media="screen" href="/apps/dps/chl/css/ie7.css"><![endif]-->
+		<link rel="stylesheet" href="/apps/dps/chl/css/print.css" type="text/css" media="print" />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write("<script src='/apps/dps/chl/js/jquery-1.6.2.min.js'>\x3C/script>")</script>
+		<script src="/apps/dps/chl/js/jquery.bgiframe.js"></script>
+		<script src="/apps/dps/chl/js/jquery.autocomplete.js"></script>
+		<script src="/apps/dps/chl/js/jquery.zip2County.js"></script>
+		<script src="/apps/dps/chl/js/jquery.country2State.js"></script>
+		<script src="/apps/dps/chl/js/jquery.killQ.js"></script>
+		<script src="/apps/dps/chl/js/jquery.move2Toolbar.js"></script>
+		<script src="/apps/dps/chl/js/jquery.tooltip.js"></script>
+		<script src="/apps/dps/chl/js/jquery.ieSelectFix.js"></script>
+		<script src="/apps/dps/chl/js/localdata.js"></script>
+		<script src="/apps/dps/chl/js/global.js"></script>
+
+	
+
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				
+				/* Hide this JS section when validation error occurs */
+				$('#renew-form').hide();
+				$('#renew-trigger')
+				.show()
+				.click(function() {
+					$(this).fadeOut('fast', function(){
+						$('#renew-form').fadeIn('fast');
+					});
+					return false;
+				});
+				/* End of JS function */
+				
+
+				$('.box-sitetools').hide(); // Hide sidebar here since it's blank
+
+				$('#typeDL, #typeID').each( function() {
+					$(this).killQ( {targetClass :'inputID', killVal :'DRIVER_LICENSE', animate: false});
+				});
+
+				$('#typeDL, #typeID').each( function() {
+					$(this).killQ( {targetClass :'inputDL', killVal :'STATE_ID', animate: false});
+				});
+			});
+		</script>
+	</head>
+	<body id="login" class="login">
+		
+	
+	
+
+
+
+
+
+
+
+
+<div class="wrapper">
+
+<div class="body-header">
+	<div class="body-header-content no-print">
+    	<a href="http://www.texas.gov"><img src="/apps/dps/chl/img/body_header_logo.png" alt="The Official Website of State of Texas"></a>
+    </div>
+</div>
+<div class="body-center">
+<div class="content-header">
+	<!--<div class="service"></div>-->
+	<h1 class="app-chl"><span>Texas Department of Public Safety - Regulatory Services Division </span>License To Carry A Handgun</h1>
+</div>
+<div class="content-center clearfix">
+
+    <div class="rightside no-print">
+        <div class="box-c box-sitetools">
+            <div class="box-c-header"><h2>Site Tools</h2></div>
+            <div class="box-c-content">
+            	<ul id="apptools">
+            		
+	
+            	</ul>
+            </div>
+            <div class="box-c-footer"></div>
+        </div>
+
+        
+    </div>
+
+    <div class="leftside">
+
+	<h1>Welcome</h1>	
+	
+
+
+
+
+	
+	<p>The License to Carry a Handgun service allows you to apply for, renew, or check the status of a handgun license or instructor certification online with the Texas Department of Public Safety. Before you begin, please read the <a target="_blank" href="http://www.txdps.state.tx.us/InternetForms/Forms/CHL-16.pdf" class="pdf-icon">Texas Handgun Licensing Laws and Selected Statutes</a> (<a href="http://get.adobe.com/reader/">download Adobe Reader</a>). For detailed eligibility requirements, please refer to Texas GC &sect;411.172.</p>
+		<div class="p">
+            <h1>What You Need</h1>
+			<ul class="default">
+				<li>Valid driver license or identification card,</li>	<li>Current demographic, address, contact, and employment information,</li>	<li>Residential and employment information for the last five years (new users only),</li>	<li>Information regarding any psychiatric, drug, alcohol, or criminal history (new users only),</li> <li>Valid email address, and</li>	<li>Valid credit card (Visa, Mastercard, Discover, or American Express)<br/>ALL FEES ARE NON-REFUNDABLE</li>	</ul>	</div>	<p>This online service is provided by Texas.gov, the official website of Texas. The price of this service includes funds that support the ongoing operations and enhancements of Texas.gov, which is provided by a third party in partnership with the State.</p>
+
+		<div class="column-50">
+			<div id="new">
+					<h2>New Users</h2>
+					<div class="p">Apply for:
+						<ul class="default">
+							<li>A new License to Carry a Handgun (LTC)</li>	<li>A new Instructor Certification (for those who want to teach LTC training courses)</li>	</ul> NOTE: Please carefully review the checklist for any additional documentation which may be required to complete your application.
+					</div>
+					<p id="newButton"><a href="loginTexas.do" class="button primary">Apply</a></p>
+				</div>
+
+		</div>
+
+		<div class="column-50">
+			<div id="renew">
+				<h2>Returning Users</h2>
+				<div class="p">Can:
+					<ul class="default">
+						<li>Retrieve a saved application</li>	<li>Renew your License or Instructor Certification</li>	<li>Change your address</li>	<li>Report a lost or stolen license</li>	<li>Check the status of a current application</li>	<li>Reprint a receipt</li>
+					</ul>
+				</div>
+				<a id="renew-trigger" class="button primary hidden" href="#">Login</a>
+
+				<form id="loginForm" class="default" action="login.do" method="post">
+					<div id="renew-form">
+						<ul class="clearfix">
+							<li class="conditional">
+								<label>Identification Type<span class="required">*</span></label>	<ul>	<li><input id="typeDL" name="loginIdType" type="radio" value="DRIVER_LICENSE" checked="checked"/> <label for="typeDL">Driver License</label></li>
+									<li><input id="typeID" name="loginIdType" type="radio" value="STATE_ID"/> <label for="typeID">State ID Card</label></li>
+								</ul>
+							</li>
+							<li class="inputDL">
+								<label for="DL">DL Number<span class="required">*</span></label>	<input id="DL" name="dlId" class="required numbers type-text" type="text" value="" size="24" maxlength="24" autocomplete="off"/> <span class="splain"><img src="/apps/dps/chl/img/txdl_sample.jpg" alt="Texas DL Example" width="300" height="250" /></span>
+							</li>
+							<li class="inputID">
+								<label for="ID">ID Card Number<span class="required">*</span></label>	<input id="ID" name="stateId" class="required numbers type-text" type="text" value="" size="24" maxlength="24" autocomplete="off"/> <span class="splain"><img src="/apps/dps/chl/img/txdl_sample.jpg" alt="Texas DL Example" width="300" height="250" /></span>
+							</li>
+							<li>
+								<label for="dob">Date of Birth<span class="required">*</span></label>	<input id="dob" name="dob" class="required date type-text" type="text" value="" size="10" maxlength="10" autocomplete="off"/> <span class="hint">mm/dd/yyyy (Include slashes)</span>
+							</li>
+						</ul>
+						<ul class="buttonContainer clearfix">
+							<li><input type="submit" class="button primary" value="Continue" id="continue" /></li>
+						</ul>
+					</div>
+				</form>
+	</div>	</div>
+    </div>
+    
+</div>
+<div class="content-footer"></div>
+</div>
+
+<div class="push"></div>
+</div>
+
+<div class="footer">
+	<div class="footer-content clearfix">
+        <div class="footer-column" id="support">
+			<H4>Help</H4> For questions about your application with the Texas Department of Public Safety, please submit a secure email through the <a target="_blank" href="http://www.txdps.state.tx.us/RSD/contact/default.aspx">Regulatory Services Division</a> website or contact by phone at <a href="tel:512-424-7293">(512) 424-7293</a>.
+		</div>
+        <div class="footer-column" id="agencylinks">
+            <H4>Resources</H4>
+            	<ul><li><a target="_blank" href="http://www.dps.texas.gov/InternetForms/Forms/CHL-16.pdf" class="pdf-icon">Texas Handgun License Handbook</a></li><li><a target="_blank" href="http://www.dps.texas.gov/RSD/CHL/faqs/index.htm">Frequently Asked Questions</a></li><li><a target="_blank" href="http://www.txdps.state.tx.us/RSD/">Regulatory Services Division</a></li></ul>
+        </div>
+        <div class="footer-column" id="txgov">
+            <H4>Texas.gov</H4> <a target="_blank" href="http://www.texas.gov/en/about/Pages/policies.aspx">Texas.gov Policies</a> </br> &copy; 2015 Texas.gov
+            <a href="http://www.texas.gov" title="Texas.gov" target="_blank">
+                <img src="/apps/dps/chl/img/TexasGovTaglineLogo.png" alt="Texas.gov" id="TexasGovTaglineLogo"/>
+            </a>
+        </div>
+	</div><!--End footer-content-->
+</div><!--End footer-->
+
+<!-- Urchin tracking -->
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){
+	i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)
+  	},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5014953-48', 'texas.gov');
+  ga('send', 'pageview');
+</script>
+	</body>
+</html>

@@ -1,0 +1,821 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Psychology Clinic | Department of Psychology</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/psychology.unt.edu/themes/unt_psychology/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/panels/css/panels.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/extlink/extlink.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/jquery_ui/jquery.ui/themes/default/ui.all.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/psychology.unt.edu/themes/unt_psychology/html-elements.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/tabs.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/messages.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/block-editing.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/wireframes.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/psychology.unt.edu/themes/unt_psychology/layout.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/psychology.unt.edu/themes/unt_psychology/unt-psychology.css?r" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/psychology.unt.edu/themes/unt_psychology/unt-psychology-subpage.css?r" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/psychology.unt.edu/themes/unt_psychology/print.css?r" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/zen/zen/ie.css?r" />
+<![endif]-->
+<!--[if IE 7]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/psychology.unt.edu/themes/unt_psychology/IE7.css?r" />
+<![endif]-->
+  <script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.min.js?r"></script>
+<script type="text/javascript" src="/misc/drupal.js?r"></script>
+<script type="text/javascript" src="/sites/all/modules/ajax_load/ajax_load.js?r"></script>
+<script type="text/javascript" src="/sites/all/modules/panels/js/panels.js?r"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/views_slideshow.js?r"></script>
+<script type="text/javascript" src="/sites/all/modules/extlink/extlink.js?r"></script>
+<script type="text/javascript" src="/sites/all/libraries/jquery.ui/ui/minified/ui.core.min.js?r"></script>
+<script type="text/javascript" src="/sites/all/libraries/jquery.ui/ui/minified/ui.slider.min.js?r"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?r"></script>
+<script type="text/javascript" src="/sites/all/modules/views_accordion/views-accordion.js?r"></script>
+<script type="text/javascript" src="/sites/psychology.unt.edu/themes/unt_psychology/webform_mods.js?r"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "extlink": { "extTarget": 0, "extClass": 0, "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "views_accordion": { "views-accordion-accordion-block_1": { "keeponeopen": 1, "startopen": 1, "rowstartopen": "0", "speed": 550, "disablecloseothers": 0, "grouping": 0, "togglelinks": 0, "autocycle": 0, "autocyclespeed": 5000, "display": "views-accordion-accordion-block_1", "usegroupheader": 0, "enableheaderlinks": 0, "header": "views-field-title" } } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+// bootstrap
+Drupal.behaviors.jstimer = function (context) {
+  Drupal.jstimer.countdown_auto_attach(
+    new Array(
+      new Drupal.jstimer.jst_clock(),
+      new Drupal.jstimer.jst_timer()
+    )
+  );
+}
+
+// Namespace for most of the javascript functions.
+Drupal.jstimer = {};
+
+// Array that holds all elements that need to be updated.
+Drupal.jstimer.timer_stack = new Array();
+
+// Attach all active widgets to their respective dom objects.
+Drupal.jstimer.countdown_auto_attach = function (jstimer_active_widgets) {
+
+  // Call .attach() on the active widget items.
+  for (var i in jstimer_active_widgets) {
+  	// IE bug where twitter javascript adds functions into this array.
+    if ( typeof(jstimer_active_widgets[i]) != 'function' ) {
+      jstimer_active_widgets[i].attach();
+    }
+  }
+
+  // If you have any widget items, start the timing loop.
+  if ( Drupal.jstimer.timer_stack.length > 0 ) {
+    Drupal.jstimer.timer_loop();
+  }
+
+}
+
+// The timing loop.
+Drupal.jstimer.timer_loop = function() {
+  // run backwards so we can remove items and not messup the loop data.
+  for (var i = Drupal.jstimer.timer_stack.length - 1; i >= 0; i--) {
+    if ( Drupal.jstimer.timer_stack[i].update() == false ) {
+      Drupal.jstimer.timer_stack.splice(i, 1);
+    }
+  }
+
+  // Stop the timer if there are not more timer items.
+  if ( Drupal.jstimer.timer_stack.length > 0 ) {
+    setTimeout('Drupal.jstimer.timer_loop()',999);
+  }
+}
+
+
+/*
+ * Clock widget
+ */
+Drupal.jstimer.jst_clock = function() {
+  this.selector = ".jst_clock";
+  this.attach = function() {
+    $(this.selector).each(
+      function(i) {
+        var t = new Drupal.jstimer.jst_clock_item($(this));
+        Drupal.jstimer.timer_stack[Drupal.jstimer.timer_stack.length] = t;
+      }
+    );
+  }
+}
+
+Drupal.jstimer.jst_clock_item = function(ele) {
+
+  // class methods first so you can use them in the constructor.
+  this.loadProps = function() {
+    for (var prop in this.props) {
+      var prop_selector = "span[class="+prop+"]";
+      if ( this.element.children(prop_selector).length > 0 ) {
+        this.props[prop] = this.element.children(prop_selector).html();
+      }
+    }
+
+    // If browser doesn't support the html canvas element, default to 12-hour clock.
+    if ( !supports_canvas() &&  this.props['clock_type'] == 2 ) {
+      this.props['clock_type'] = 0;
+    }
+  }
+
+  this.update = function() {
+    var timenow = new Date();
+    var hr = timenow.getHours();
+    var min = timenow.getMinutes();
+    var sec = timenow.getSeconds();
+    if ( this.props['clock_type'] == 0 ) {
+      var am_pm = ""
+      if ( hr <= 12 ) {
+        am_pm = "am";
+      } else {
+        am_pm = "pm";
+        hr = hr - 12;
+      }
+      this.element.html(hr + ":" + LZ(min) + ":" + LZ(sec) + am_pm);
+    } else if ( this.props['clock_type'] == 1 ) {
+      this.element.html(hr + ":" + LZ(min) + ":" + LZ(sec));
+    } else if ( this.props['clock_type'] == 2 ) {
+      if ( this.canvas ) {
+        var ctx = this.canvas[0].getContext("2d");
+
+        // save original context
+        ctx.save(); // 1
+
+        // clear and set defaults.
+        ctx.clearRect(0,0,this.props['size'],this.props['size']);
+        ctx.translate((this.props['size']/2),(this.props['size']/2));
+        ctx.scale(0.4,0.4);
+        ctx.rotate(-Math.PI/2);
+        ctx.strokeStyle = "black";
+        ctx.fillStyle = "white";
+        ctx.lineWidth = 8;
+        ctx.lineCap = "round";
+        ctx.save(); // 2
+
+        // render hour tick marks
+        for (var i=0;i<12;i++){
+         ctx.beginPath();
+         ctx.rotate(Math.PI/6);
+         ctx.moveTo(this.props['size']-20,0);
+         ctx.lineTo(this.props['size'],0);
+         ctx.stroke();
+        }
+        ctx.restore();  // 1
+
+        ctx.fillStyle = "black";
+
+        // render hour hand
+        ctx.save(); // 3
+        var hr_hand_size = 0.4 * this.props['size'];
+        ctx.rotate( hr*(Math.PI/6) + (Math.PI/360)*min + (Math.PI/21600)*sec )
+        ctx.lineWidth = 14;
+        ctx.beginPath();
+        ctx.moveTo(-20,0);
+        ctx.lineTo(hr_hand_size, 0);
+        ctx.stroke();
+        ctx.restore();   // 2
+
+        // render minute hand
+        var min_hand_size = 0.85 * this.props['size'];
+        ctx.save(); // 4
+        ctx.rotate( (Math.PI/30)*min + (Math.PI/1800)*sec )
+        ctx.lineWidth = 10;
+        ctx.beginPath();
+        ctx.moveTo(-28,0);
+        ctx.lineTo(min_hand_size, 0);
+        ctx.stroke();
+        ctx.restore();  // 3
+
+        // render second hand
+        ctx.save(); // 5
+        var sec_hand_size = 0.85 * this.props['size'];
+        ctx.rotate(sec * Math.PI/30);
+        ctx.strokeStyle = "#D40000";
+        ctx.fillStyle = "#D40000";
+        ctx.lineWidth = 6;
+        ctx.beginPath();
+        ctx.moveTo(-30,0);
+        ctx.lineTo(sec_hand_size, 0);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(0,0,10,0,Math.PI*2,true);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(sec_hand_size, 0, 10, 0, Math.PI*2, true);
+        ctx.stroke();
+        ctx.fillStyle = "#555";
+        ctx.arc(0,0,3,0,Math.PI*2,true);
+        ctx.fill();
+        ctx.restore();  // 4
+
+        // render clock face circle
+        ctx.save(); // 6
+        ctx.beginPath();
+        ctx.lineWidth = 14;
+        ctx.strokeStyle = '#325FA2';
+        ctx.arc(0,0,this.props['size'],0,Math.PI*2,true);
+        ctx.stroke();
+        ctx.restore(); // 5
+
+        // Days box
+        //ctx.save(); // 7
+        //ctx.rotate(90 * Math.PI / 180);
+        //ctx.fillStyle    = '#FFFFFF';
+        //ctx.fillRect(0, this.props['size']/3, 100, 60);
+        //ctx.strokeStyle = '#325FA2';
+        //ctx.strokeRect(0, this.props['size']/3, 100, 60);
+        //ctx.restore(); // 6
+
+        // days text
+        //ctx.rotate(90 * Math.PI / 180);
+        //ctx.fillStyle    = '#0000FF';
+        //ctx.font         = 'courier-new 30px';
+        //ctx.fillText  ('Days', 110, (this.props['size']/3)+50);
+        ctx.restore();  // 7
+      }
+    }
+
+    return true;
+  }
+
+  // begin constructor
+  this.element = ele; // jquery ele
+  this.props = {clock_type:'0', size:200};
+  this.loadProps();
+
+  // add canvas if analog.
+  if ( this.props['clock_type'] == 2 ) {
+    this.canvas = $('<canvas class="ct_clock_canvas"><p>Your browser doesn\'t support canvas.</p></canvas>');
+    this.canvas.attr("width",this.props['size']);
+    this.canvas.attr("height",this.props['size']);
+    this.element.append(this.canvas);
+  }
+
+
+}
+
+function supports_canvas() {
+  return !!document.createElement('canvas').getContext;
+}
+
+
+// End of clock widget.
+
+/*
+ * Timer widget
+ */
+Drupal.jstimer.formats = ['<em>(%dow% %moy%%day%)</em><br/>%days% days + %hours%:%mins%:%secs%','Only %days% days, %hours% hours, %mins% minutes and %secs% seconds left', '%days% shopping days left', '<em>(%dow% %moy%%day%)</em><br/>%days% days + %hours%:%mins%:%secs%'];
+
+Drupal.jstimer.jst_timer = function() {
+  this.selector = ".jst_timer";
+  this.attach = function() {
+    $(this.selector).each(
+      function(i) {  // i is the position in the each fieldset
+        var t = new Drupal.jstimer.jst_timer_item($(this));
+        if ( t.parse_microformat_success == 1 ) {
+          Drupal.jstimer.timer_stack[Drupal.jstimer.timer_stack.length] = t;
+        }
+      }
+    );
+  }
+}
+
+Drupal.jstimer.jst_timer_item = function(ele) {
+
+  // class methods first so you can use them in the constructor.
+  this.loadProps = function() {
+    for (var prop in this.props) {
+      var prop_selector = "span[class="+prop+"]";
+      if ( this.element.children(prop_selector).length > 0 ) {
+        this.props[prop] = this.element.children(prop_selector).html();
+      }
+    }
+
+    if ( String(this.props['format_txt']).match("'") ) {
+      this.props['format_txt'] = "<span style=\"color:red;\">Format may not contain single quotes(').</span>";
+    }
+
+    // format_txt overrides format_num.
+    if ( this.props['format_txt'] != "" ) {
+      this.outformat = this.props['format_txt'];
+    } else {
+      this.outformat = Drupal.jstimer.formats[this.props['format_num']];
+    }
+
+  }
+
+  this.parse_microformat = function() {
+    var timer_span = $(this.element);
+
+    // ajax calls re-run autoattach, make sure the selector is gone.
+    if ( timer_span.hasClass("jst_timer") ) {
+      timer_span.removeClass("jst_timer")
+    }
+
+    // If there is an interval, always use it.
+    if ( this.props['interval'] != "" ) {
+      var interval_val = parseInt(this.props['interval']);
+      var date = new Date();
+      this.to_date = date;
+      this.to_date.setTime(date.getTime() + (interval_val*1000));
+    } else {
+      if ( this.props['datetime'] == "" ) {
+        this.parse_microformat_success = 0;
+        throw new Object({name:"NoDate",message:"CountdownTimer: Span with class=datetime not found within the timer span."});
+      }
+      var date = new Date();
+      try {
+        date.jstimer_set_iso8601_date(this.props['datetime']);
+      }
+      catch(e) {
+        throw(e);
+      }
+      this.to_date = date;
+      if ( this.props['current_server_time'] != "" ) {
+        // this is a feedback time from the server to correct for small server-client time differences.
+        // not used for normal block and node timers.
+        var date_server = new Date();
+        date_server.jstimer_set_iso8601_date(this.props['current_server_time']);
+        var date_client = new Date();
+        var adj = date_client.getTime() - date_server.getTime();
+        // adjust target date to clients domain
+        this.to_date.setTime(this.to_date.getTime() + adj);
+      }
+    }
+
+    this.parse_microformat_success = 1;
+  }
+
+
+
+  this.update = function() {
+    var timer_span = $(this.element);
+    var now_date = new Date();
+    var duration = this.get_duration(now_date, this.to_date);
+
+    // If counting down and timer is completed, set timer complete statement, check for redirect, and end.
+    if ( this.props['dir'] == "down" && duration.sign > 0 ) {
+
+      // Set the timer complete statement.
+      timer_span.html(this.props['timer_complete'].valueOf());
+
+      // If there is a complete message, alert it.
+      if ( this.props['tc_msg'] != '' ) {
+        alert(this.props['tc_msg']);
+      }
+
+      // If there is a redirect url, redirect.
+      if ( this.props['tc_redir'] != '' ) {
+        window.location = this.props['tc_redir'];
+      }
+
+      // Timer is completed, return false to remove from timing loop.
+      return false;
+    }
+
+    // Timer is not done, continue updating.
+    var outhtml = new String(this.outformat);
+
+    // try to handle counts with units first, use a try block because Drupal.formatPlural breaks javascript sometimes
+    try {
+      outhtml = outhtml.replace(/%years% years/,  Drupal.formatPlural(duration.years, "1 year", "@count years"));
+      outhtml = outhtml.replace(/%ydays% days/,   Drupal.formatPlural(duration.days, "1 day", "@count days"));
+      outhtml = outhtml.replace(/%days% days/,    Drupal.formatPlural(duration.tot_days, "1 day", "@count days"));
+      outhtml = outhtml.replace(/%hours% hours/,  Drupal.formatPlural(duration.hours, "1 hour", "@count hours"));
+      outhtml = outhtml.replace(/%mins% minutes/, Drupal.formatPlural(duration.minutes, "1 minute", "@count minutes"));
+      outhtml = outhtml.replace(/%secs% seconds/, Drupal.formatPlural(duration.seconds, "1 second", "@count seconds"));
+      outhtml = outhtml.replace(/%months% months/, Drupal.formatPlural(duration.months, "1 month", "@count months"));
+      outhtml = outhtml.replace(/%tot_months% months/, Drupal.formatPlural(duration.tot_months, "1 month", "@count months"));
+    }
+    catch(e){
+      // suppress errors
+    }
+
+    //handle counts without units
+    outhtml = outhtml.replace(/%years%/, duration.years);
+    outhtml = outhtml.replace(/%ydays%/, duration.days);
+    outhtml = outhtml.replace(/%days%/, duration.tot_days);
+    outhtml = outhtml.replace(/%hours%/, LZ(duration.hours));
+    outhtml = outhtml.replace(/%mins%/, LZ(duration.minutes));
+    outhtml = outhtml.replace(/%secs%/, LZ(duration.seconds));
+    outhtml = outhtml.replace(/%hours_nopad%/, duration.hours);
+    outhtml = outhtml.replace(/%mins_nopad%/, duration.minutes);
+    outhtml = outhtml.replace(/%secs_nopad%/, duration.seconds);
+    outhtml = outhtml.replace(/%sign%/, duration.sign < 0 ? '-' : '+');
+    outhtml = outhtml.replace(/%months%/, duration.months);
+    outhtml = outhtml.replace(/%tot_months%/, duration.tot_months);
+
+    // Apply highlight when nearing countdown completion.
+    if ( this.props['dir'] == "down" && (duration.diff <= (this.props['threshold'] * 60)) ) {
+      timer_span.html('<span ' + this.props['highlight'][0] + '=' + this.props['highlight'][1] + '>' +  outhtml + '</span>');
+    } else {
+      timer_span.html(outhtml);
+    }
+
+    return true;
+  }
+
+  this.get_duration = function(now, target) {
+    var dur = {diff:0, sign:0, years:0, months:0, days:0, hours:0, minutes:0, seconds:0, tot_months:0, tot_days:0};
+    dur.diff = Math.floor((now.getTime() - target.getTime()) / 1000);
+    if ( dur.diff < 0 ) {
+      dur.sign = -1;
+      dur.diff = Math.abs(dur.diff);
+    } else {
+      dur.sign = 1;
+    }
+
+    dur.years = Math.floor(dur.diff / 60 / 60 / 24 / 365.25);
+
+    // Use calendar months, using months based on seconds is problematic.
+    if(now.getFullYear() == target.getFullYear()) {
+       dur.tot_months = Math.abs(target.getMonth() - now.getMonth());
+       dur.months = dur.tot_months;
+    } else {
+      dur.tot_months = 11 - now.getMonth();
+      dur.tot_months += target.getMonth() + 1;
+      dur.tot_months += (target.getFullYear() - now.getFullYear() - 1) * 12;
+      dur.months = dur.tot_months - (dur.years * 12);
+    }
+
+    dur.tot_days = Math.floor(dur.diff / 60 / 60 / 24);
+    dur.days = Math.ceil(dur.tot_days - (dur.years * 365.25));
+    dur.hours = Math.floor(dur.diff / 60 / 60) - (dur.tot_days * 24);
+    dur.minutes = Math.floor(dur.diff / 60) - (dur.hours * 60) - (dur.tot_days * 24 * 60);
+    dur.seconds = dur.diff - (dur.minutes * 60) - (dur.hours * 60 * 60) - (dur.tot_days * 24 * 60 * 60);
+    return dur;
+  }
+
+
+
+  // begin constructor
+  this.element = ele;
+  this.props = {
+    datetime: '',
+    dir: "down",
+    format_num: 0,
+    format_txt: "",
+    timer_complete: new String('You have been logged out. You will now be taken back to the graduate applications portal.'),
+    highlight: new String('class="logout_timer"').split(/=/),
+    threshold: new Number('15'),
+    tc_redir: "",
+    tc_msg: "",
+    interval: "",
+    current_server_time: ""
+
+  };
+  this.loadProps();
+
+
+  /* bootstrap, parse microformat, load object */
+  try {
+    this.parse_microformat();
+  }
+  catch(e) {
+    alert(e.message);
+    alert($(ele).html());
+    this.parse_microformat_success = 0;
+    return;
+  }
+
+  // replace the static stuff in the format string
+  // this only needs to be done once, so here is a good spot.
+  this.outformat = this.outformat.replace(/%day%/,   this.to_date.getDate());
+  this.outformat = this.outformat.replace(/%month%/, this.to_date.getMonth() + 1);
+  this.outformat = this.outformat.replace(/%year%/,  this.to_date.getFullYear());
+  this.outformat = this.outformat.replace(/%moy%/,   this.to_date.jstimer_get_moy());
+  this.outformat = this.outformat.replace(/%dow%/,   this.to_date.jstimer_get_dow());
+}
+// End of timer widget.
+
+
+
+
+
+// Util functions
+function LZ(x) {
+  return (x >= 10 || x < 0 ? "" : "0") + x;
+}
+
+// iso8601 date parsing routines.  Extends the built-in javascript date object.
+Date.prototype.jstimer_set_iso8601_date = function (string) {
+  var iso8601_re = /^(?:(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?)?(?:[T ](\d{2}):(\d{2})(?::(\d{2})(.\d+)?)?((?:[+-](\d{2}):(\d{2}))|Z)?)?$/;
+  var date_bits = iso8601_re.exec(string);
+  var date_obj = null;
+  if ( date_bits ) {
+    date_bits.shift();
+    date_bits[1] && date_bits[1]--; // normalize month
+    date_bits[6] && (date_bits[6] *= 1000); // convert mils
+    date_obj = new Date(date_bits[0]||1970, date_bits[1]||0, date_bits[2]||0, date_bits[3]||0, date_bits[4]||0, date_bits[5]||0, date_bits[6]||0);
+
+    //timezone handling
+    var zone_offset = 0;  // in minutes
+    var zone_plus_minus = date_bits[7] && date_bits[7].charAt(0);
+    // get offset from isostring time to Z time
+    if ( zone_plus_minus != 'Z' ) {
+      zone_offset = ((date_bits[8] || 0) * 60) + (Number(date_bits[9]) || 0);
+      if ( zone_plus_minus != '-' ) {
+        zone_offset *= -1;
+      }
+    }
+    // convert offset to localtime offset, will include daylight savings
+    if ( zone_plus_minus ) {
+      zone_offset -= date_obj.getTimezoneOffset();
+    }
+    if ( zone_offset ) {
+      date_obj.setTime(date_obj.getTime() + zone_offset * 60000);
+    }
+  }
+
+  // set this object to current localtime representation
+  try {
+    this.setTime(date_obj.getTime());
+  }
+  catch(e) {
+    throw new Object({name:"DatePatternFail",message:"jstimer: Date does not have proper format (ISO8601, see readme.txt)."});
+  }
+}
+Date.prototype.jstimer_get_moy = function () {
+  var myMonths=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+  return myMonths[this.getMonth()];
+}
+Date.prototype.jstimer_get_dow = function () {
+  var myDays=["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+  return myDays[this.getDay()];
+}
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10811100-47", "auto");ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+  <script type="text/JavaScript">
+	  window.onload = function() {
+	      settings = {
+	          tl: { radius: 10 },
+	          tr: { radius: 10 },
+	          bl: { radius: 10 },
+	          br: { radius: 10 },
+	          antiAlias: true,
+	          autoPad: true
+	      }
+	      var myBoxObject = new curvyCorners(settings, "rounded");
+	      myBoxObject.applyCornersToAll();
+	  }
+	</script>
+    <style type="text/css">
+	#title .content {
+		background-image: url('/sites/psychology.unt.edu/themes/unt_psychology/images/headers/clinics-psychology-clinic-.jpg');
+	}
+	</style>
+</head>
+<body class="not-front not-logged-in node-type-page no-sidebars page-clinics-and-centers-psychology-clinic section-clinics-and-centers" id="subpage"> 
+
+<div id="global-container">
+
+
+<!-- ###### BEGIN basic header code ###### -->
+
+        <div id="top-navigation-container">
+            <div id="top-navigation">
+            	<div id="top-navigation-links">
+                <ul>
+                    <li><a href="http://my.unt.edu" title="MyUNT" >MyUNT</a></li>
+                    <li><a href="http://webmail.unt.edu" title="UNT Webmail">Webmail</a></li>
+                    <li><a href="http://webctvista.unt.edu/" title="Blackboard" >Blackboard</a></li>
+                    <li><a href="http://eagleconnect.unt.edu/" title="EagleConnect" >EagleConnect</a></li>
+                    <li><a href="http://untranet.unt.edu" title="UNTranet" >UNTranet</a></li>
+                    <li><a href="http://www.unt.edu/pais/map/" title="Maps" >Maps</a></li>
+                    <li><a href="http://www.unt.edu/giving-unt.htm" title="Giving to UNT" >Giving to UNT</a></li>
+                                       
+                </ul>                  
+                </div>
+              
+			<div id="search">
+                	<span id="skip-nav-link"><a href="#skip-to-content" tabindex="1">Skip to content</a></span>
+               		<div class="search-form">
+                    	<form method="get" action="http://www.google.com/search">
+                    	<input type="text" class="search-bar" name="q"
+ maxlength="255" value="Search all UNT sites..." onfocus="if
+(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" />
+						<input type="image" src="/sites/psychology.unt.edu/themes/unt_psychology/images/searchbutton.png" name="sitesearch" value="unt.edu" />
+                        <input type="hidden" name="domains" value="unt.edu" />
+						<input style="display:none;" type="radio" name="sitesearch" value="unt.edu" checked="checked" />
+
+						</form>
+                    </div>
+				</div>
+          
+            </div> <!-- /#top-navigation -->
+        </div> <!-- /#top-navigation-container -->
+    
+        <div id="header-title-container">
+            <div id="header-title">
+                <div id="title-image">
+                    <a href="/" title="Department of Psychology" ><span id="title-link"></span></a>
+                </div> <!-- /#title-image -->
+				<a href="http://www.unt.edu" title="University of North Texas">
+                <img src="/sites/psychology.unt.edu/themes/unt_psychology/images/unt-mark.png" style="margin-right:20px; margin-top:5px; float:right; border:0; margin-bottom:0; padding-bottom:0;" alt="University of North Texas lettermark." /></a><div class="clear"></div>
+            <a href="http://www.cas.unt.edu" title="College of Arts &amp; Sciences">
+            <img style="margin-right:20px; float:right; border:0; position:relative; bottom:20px;" src="/sites/psychology.unt.edu/themes/unt_psychology/images/cas-mark.png" alt="College of Arts &amp; Sciences wordmark." /></a>
+            </div> <!-- /#header-title -->
+        </div> <!-- /#header-title-container -->
+
+<div class="clear"></div>
+
+<div id="main-navigation-container">
+	<div id="main-navigation">
+                	<ul class="links primary-links"><li class="menu-679 first"><a href="/undergraduate-program" title="Undergraduate Programs">Undergraduate</a></li>
+<li class="menu-1267"><a href="/graduate-programs" title="Graduate Programs">Graduate Programs</a></li>
+<li class="menu-14476"><a href="/scholarships-awards" title="Scholarships &amp; Awards">Scholarships &amp; Awards</a></li>
+<li class="menu-921"><a href="/faculty" title="">Faculty &amp; Staff</a></li>
+<li class="menu-1299"><a href="/alumni" title="Alumni">Alumni</a></li>
+<li class="menu-1393 active-trail"><a href="/clinics-and-centers" title="Clinics and Centers">Clinics &amp; Centers</a></li>
+<li class="menu-1508 last"><a href="/scholarship-funds" title="Scholarship Funds">Donate</a></li>
+</ul>                
+    </div>
+</div>
+
+<div id="color-bar-container">
+</div>
+
+<!-- ###### END basic header code ###### -->
+
+<!-- ###### BEGIN body code ###### -->
+
+<div id="body-container">
+        <div id="page-body">
+    	<div id="page-body-container">
+<!-- ###### BEGIN sub page code ###### -->
+<div id="subpage" class="content">
+
+					
+                        	            		<div id="sub-left-2column" class="sidebar">
+                    
+
+<div id="block-menu_block-1" class="clear-block block block-menu_block">
+
+  <h2 class="block-title"><a href="/clinics-and-centers" title="Clinics and Centers" class="active-trail">Clinics &amp; Centers</a></h2>
+
+  <div class="content"><div class="menu-block-1 menu-name-primary-links parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="expanded first last menu-mlid-12314 active active-trail"><a href="/clinics-and-centers/psychology-clinic" title="Psychology Clinic" class="active-trail active">Psychology Clinic</a><ul class="menu"><li class="leaf first menu-mlid-14354"><a href="/clinics-and-centers/psychology-clinic/clinic-diversity-statement" title="Clinic Diversity Statement">Clinic Diversity Statement</a></li>
+<li class="leaf menu-mlid-12315"><a href="/clinics-and-centers/psychology-clinic/about-clinic" title="About the Clinic">About the Clinic</a></li>
+<li class="collapsed menu-mlid-12326"><a href="/clinics-and-centers/psychology-clinic/confidentiality" title="Confidentiality">Confidentiality</a></li>
+<li class="collapsed menu-mlid-12327"><a href="/clinics-and-centers/psychology-clinic/services-provided" title="Services Provided">Services Provided</a></li>
+<li class="leaf menu-mlid-12328"><a href="/clinics-and-centers/psychology-clinic/scheduling-and-fees" title="Scheduling and Fees">Scheduling and Fees</a></li>
+<li class="leaf menu-mlid-12329"><a href="/clinics-and-centers/psychology-clinic/hours" title="Hours">Hours</a></li>
+<li class="leaf menu-mlid-12330"><a href="/clinics-and-centers/psychology-clinic/directionsparking" title="Directions/Parking">Directions/Parking</a></li>
+<li class="leaf menu-mlid-12331"><a href="/clinics-and-centers/psychology-clinic/faq" title="FAQ">FAQ</a></li>
+<li class="leaf menu-mlid-12589"><a href="/clinics-and-centers/psychology-clinic/contact" title="Contact Psychology Clinic">Contact</a></li>
+<li class="leaf menu-mlid-12333"><a href="/clinics-and-centers/psychology-clinic/resources" title="Resources">Resources</a></li>
+<li class="leaf last menu-mlid-12334"><a href="/clinics-and-centers/psychology-clinic/research" title="Research">Research</a></li>
+</ul></li>
+</ul></div>
+  
+</div>
+</div> <!-- /block-inner, /block -->
+					</div>
+                    
+                   	<div id="sub-middle-2column">
+                	
+                      		<div id="title">
+				
+
+<div id="block-block-42" class="clear-block block block-block">
+
+
+  <div class="content"><h1>Psychology Clinic</h1>
+  
+</div>
+</div> <!-- /block-inner, /block -->
+                </div>
+                        
+            <div id="breadcrumbs">
+        		<div class="breadcrumb"><a href="http://www.unt.edu">UNT</a> &raquo; <a href="http://www.unt.edu/colleges-schools.htm">Colleges &amp; Schools</a> &raquo; <a href="http://www.cas.unt.edu">CAS</a> &raquo; <a href="/" >Department of Psychology</a> &raquo; <a href="/clinics-and-centers" title="Clinics and Centers">Clinics &amp; Centers</a> &raquo; </div>            </div>
+
+        	            
+                      <div id="content-header">
+                        	<h1 class="title">Psychology Clinic</h1>
+                                              </div> <!-- /#content-header -->
+                
+                    <a name="skip-to-content" id="skip-to-content"></a><div id="node-2284" class="node node-type-page"><div class="node-inner">
+
+  
+  
+  
+  
+  <div class="content">
+    <p>The Psychology Clinic at the University of North Texas was originally founded in 1972 with the purpose of providing professional services and referrals to clients who request them. The UNT Psychology clinic also provides professional and competent training to graduate students in the applied programs of the Department of Psychology.</p>
+  </div>
+
+  
+</div></div> <!-- /node-inner, /node -->
+                    
+					</div>
+                                
+                                
+                                
+                                        
+                        
+                         
+        	<div class="clear"></div>
+        
+	                    
+</div>
+<!-- ###### END sub page code ###### --> 
+</div>
+<div id="body-bottom"></div>    </div>
+  
+      <div class="clear"></div>
+      
+   <div id="footer-container">
+  	<div id="full-footer">
+    	<div id="footer-left">
+        	<div id="contact-info"><h1>Contact Information</h1>
+                	
+
+<div id="block-block-1" class="clear-block block block-block">
+
+
+  <div class="content"><p><strong>Department of Psychology</strong><br />
+1155 Union Circle #311280<br />
+Denton, TX 76203-5017</p>
+<p>Phone:  (940) 565-2671<br />
+Fax: (940) 565-4682</p>
+  
+</div>
+</div> <!-- /block-inner, /block -->
+        			</div>
+        </div>
+        
+        <div id="footer-middle">
+        	<div id="contact-us">
+            	<h1>Contact Us</h1>
+				For questions about the content on this website, <a href="mailto:PsychologyDepartment@unt.edu">contact us</a>.
+			</div> <!-- /#contact-us -->
+            
+			<div id="technical-problems">
+            	<h1>Technical Problems</h1>
+				For technical problems with this website, contact our <a href="mailto:webmaster@mail.cas.unt.edu">web designer</a>.
+			</div> <!-- /#technical-problems -->
+		</div> <!-- /#footer-middle -->
+        
+        <div id="footer-right">
+        	<div id="unt-system"><h1>University of North Texas System</h1>
+        <a href="http://www.unt.edu">UNT Home</a>
+<br /><a href="http://untsystem.unt.edu/">UNT System</a>
+<br /><a href="http://www.unt.edu/unt-dallas/">UNT Dallas Campus</a>
+<br /><a href="http://www.hsc.unt.edu/">UNT Health Science Center</a>
+			</div>
+        	<div id="cas-system"><h1>College of Arts &amp; Sciences at UNT</h1>
+        <a href="http://www.cas.unt.edu">CAS Home</a>
+<br /><a href="http://www.cas.unt.edu/departments/">CAS Departments &amp; Programs</a>
+<br /><a href="http://www.cas.unt.edu/advising/">CAS Student Advising</a>
+			</div>
+        </div>
+        <br class="clear" />
+    <div id="disclaimers">
+	    Site last updated on April 28, 2016.
+	        <br />
+    <br /><a href="http://www.unt.edu/disclaimer.htm">Disclaimer</a> | <a href="http://www.unt.edu/ada.htm">AA/EOE/ADA</a> | <a href="http://www.unt.edu/unt_ps.html">Privacy Statement</a> | <a href="http://www.unt.edu/policy/UNT_Policy/volume2/5_1.html">Web Accessibility Policy</a> | <a href="http://www.unt.edu/state-texas.htm">State of Texas Online</a> | <a href="http://emergency.unt.edu/">Emergency Preparedness</a>
+    </div>
+ </div>
+ 
+ </div>
+ 
+      
+   </div>
+
+</body>
+</html>

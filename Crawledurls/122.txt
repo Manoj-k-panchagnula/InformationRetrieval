@@ -1,0 +1,854 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Events and Calendars | UNT | University of North Texas</title> 
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="description" content="UNT campus and local events, academic calendars, holiday schedule, summer camps for kids, community programs, faculty and staff happenings and more." />
+	<meta name="Keywords" content="University of North Texas, UNT" />
+	<meta name="Author" content="State of Texas, University of North Texas, University Relations, Communications and Marketing" />
+
+	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'/>
+	<!--link rel='stylesheet' type='text/css' href='css/jquery.fancybox.css' media='all' /-->
+	<!--link rel='stylesheet' type='text/css' href='css/print.css' media='print.css' /-->
+
+	<!-- Load these scripts for all browsers -->
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script type='text/javascript' src='js/jquery.equalheights.js'></script>
+	<!-- Load these scripts only for IE7 and below-->
+
+	<!--[if lt IE 8]>
+		<script type='text/javascript' src='js/scripts-ie7.js'></script>
+		<link rel='stylesheet' type='text/css' href='css/greenlight-ie7.css'/>
+    <![endif]-->
+
+	<!-- Load these scripts for IE8+ & all other browsers -->
+	<!--[if gte IE 8]><!-->
+	<link rel='stylesheet' type='text/css' href='css/greenlight.css' media='all' />
+	<!--<script type='text/javascript' src='js/jquery.fittext.js'></script>
+	<script type='text/javascript' src='js/jquery.fitvids.js'></script>-->
+	<script type='text/javascript' src='js/jquery.imagefit.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	<!--<![endif]-->
+
+	<!-- Load these scripts for IE9+ & all other browsers -->
+	<!--[if gte IE 9]><!-->
+	<script type='text/javascript' src='js/menu.js'></script>
+	<link rel='stylesheet' type='text/css' href='css/menu.css'/>
+	<!--<![endif]-->
+
+	<!-- Load these scripts only for IE8 -->
+	<!--[if IE 8]>
+		<script type='text/javascript' src='js/respond.min.js'></script>
+		<link rel='stylesheet' type='text/css' href='css/menu_ie8.css' />
+ 	<![endif]-->
+	<!-- Hotjar Tracking Code for www.unt.edu -->
+	<script>
+		(function(f,b){
+			var c;
+			f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+			f._hjSettings={hjid:39430, hjsv:4};
+			c=b.createElement("script");c.async=1;
+			c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
+			b.getElementsByTagName("head")[0].appendChild(c); 
+		})(window,document);
+	</script>
+</head>
+
+<body class="third">  
+
+<div id="skip-link">
+	<a href="#main-content">Skip to main content</a>
+</div>
+
+<div id="mobile-header" class="mobile">
+  <div class="inside-greenlight">
+    <div class="inside">
+      <p id="mobile-nav" class="toggler-nav" title="Toggle Navigation">&nbsp;</p>
+      <p id="mobile-search" class="toggler-search" title="Toggle Search">&nbsp;</p>
+          
+		  <div id="mobile-branding"><a href="http://www.unt.edu/"><img src="images/mobile-unt-lettermark.png" alt="UNT | University of North Texas" class="mobile-unt-lettermark" height="30" width="90" /></a></div>
+		  
+      <div id="mobile-nav-block" class="mo-hide">
+        <div class="inside">
+          <ul id="collapse-mobile-nav">
+            <li id="li-mo-home" class="first"><a href="index.htm">Home</a></li>
+            
+            <li id="li-mo-quicklinks" class="menu-toggler">Quicklinks »
+              <ul class="quicklinks toggler-submenu mo-hide">
+                <li><a href="http://translate.google.com/translate?u=http%3A//www.unt.edu&amp;langpair=en|es&amp;hl=en&amp;ie=UTF8" onclick="javascript:urchinTracker('/outgoinghome/inspanish');">En Español</a></li>
+                <li><a href="https://my.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/myunt');">MyUNT</a></li>
+                <li><a href="http://eagleconnect.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/eagleconnect');">EagleConnect</a></li>
+                <li><a href="http://learn.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/blackboard');">Blackboard</a></li>
+                <li><a href="find-people-department.htm">People</a></li>
+                <li><a href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps</a></li>
+                <li><a href="calendars-events.htm">Calendars</a></li>
+                <li><a href="admissions.htm" onclick="javascript:urchinTracker('/outgoinghome/applyonline');">Apply Now</a></li>
+              </ul>
+            </li>
+            
+            <li id="li-mo-audience" class="menu-toggler">Specifically for »
+              <ul class="audience-nav toggler-submenu mo-hide">
+                <li><a href="future-students.htm">Future Students</a></li>
+                <li><a href="academics.htm">Current Students</a></li>
+                <li><a href="faculty-staff.htm">Faculty &amp; Staff</a></li>
+                <li><a href="parents-family.htm">Parents &amp; Family</a></li>
+                <li><a href="alumni-friends.htm">Alumni &amp; Friends</a></li>
+              </ul>
+            </li>
+            
+            <li id="li-mo-admissions" class="menu-toggler">Admissions »
+              <ul class="toggler-submenu mo-hide">
+                <li><a href="admissions.htm">Admissions Overview</a></li>
+                <li><a href="http://apply.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/vwbkfreshman');">Freshman</a></li>
+                <li><a href="http://transfernow.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/vwbktransfer');">Transfer</a></li>
+                <li><a href="http://tsgs.unt.edu/overview" onclick="javascript:urchinTracker('/outgoinghome/vwbkgraduate');">Graduate</a></li>
+                <li><a href="http://international.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/international');">International</a></li>
+                <li><a href="paying-for-college.htm">Paying for College</a></li>
+                <li><a href="https://www.applytexas.org/adappc/gen/c_start.WBX" onclick="javascript:urchinTracker('/outgoinghome/applyonline');">Apply Online</a></li>
+              </ul>
+            </li>
+                
+            <li id="li-mo-academics" class="menu-toggler">Academics »
+              <ul class="toggler-submenu mo-hide">
+                <li><a href="academics.htm">Academics Overview</a></li>
+                <li><a href="majors-catalogs.htm">Majors &amp; Catalogs</a></li>
+                <li><a href="colleges-schools.htm">Colleges &amp; Schools</a></li>
+                <li><a href="classes-registration.htm" onclick="javascript:urchinTracker('/outgoinghome/classes-registration');">Classes &amp; Registration</a></li>
+                <li><a href="aid-tuition.htm">Tuition &amp; Financial Aid</a></li>
+                <li><a href="library-technology.htm">Libraries &amp; Technology</a></li>
+                <li><a href="distance-learning.htm">Distance Learning</a></li>
+              </ul>
+            </li>
+                
+            <li id="li-mo-research" class="menu-toggler">Research »
+              <ul class="toggler-submenu mo-hide">
+              	<li><a href="http://research.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/research');">Research Home</a></li>
+                <li><a href="http://vpaa.unt.edu/centers-institutes.htm" onclick="javascript:urchinTracker('/outgoinghome/vpaacentersinstitutes');">Centers &amp; Institutes</a></li>
+                <li><a href="http://research.unt.edu/global-impact" onclick="javascript:urchinTracker('/outgoinghome/researchglobalimpact');">Global Impact</a></li>
+                <!--li><a href="http://research.unt.edu/clusters/" onclick="javascript:urchinTracker('/outgoinghome/researchclusters');">Research Clusters</a></li-->
+                <li><a href="http://discoverypark.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/discoverypark');">Discovery Park</a></li>
+                <li><a href="http://research.unt.edu/faculty-resources" onclick="javascript:urchinTracker('/outgoinghome/researchfacultyresources');">Faculty Resources</a></li>
+              </ul>
+            </li>
+            
+            <li id="li-mo-athletics" class="menu-toggler">Athletics »
+              <ul class="toggler-submenu mo-hide">
+                <li><a href="http://www.meangreensports.com/" onclick="javascript:urchinTracker('/outgoinghome/athletics');">Mean Green Sports</a></li>
+                <li><a href="http://www.meangreensports.com/tickets/" onclick="javascript:urchinTracker('/outgoinghome/athleticstickets');">Mean Green Tickets</a></li>
+                <li><a href="http://www.meangreenmap.com/index-t.html" onclick="javascript:urchinTracker('/outgoinghome/athleticsmap');">Maps &amp; Parking</a></li>
+                <li><a href="http://shop.meangreensports.com" onclick="javascript:urchinTracker('/outgoinghome/athleticsstore');">Mean Green Store</a></li>
+                <li><a href="http://www.meangreensports.com/academics/" onclick="javascript:urchinTracker('/outgoinghome/athleticsacademics');">Student-Athletes Support Services</a></li>
+                <li><a href="http://www.meangreensports.com/recruits/" onclick="javascript:urchinTracker('/outgoinghome/athleticsrecruits');">Recruits</a></li>
+                <li><a href="http://www.meangreensports.com/sports/mg-club/ntex-mg-club-body.html" onclick="javascript:urchinTracker('/outgoinghome/athleticsmeangreenclub');">Mean Green Club</a></li>
+              </ul>
+            </li>
+            
+            <li id="li-mo-campus" class="menu-toggler">Campus Life »
+              <ul class="toggler-submenu mo-hide">
+                <li><a href="campus-life.htm">Campus Life Overview</a></li>
+                <li><a href="arts-entertainment.htm">Arts &amp; Entertainment</a></li>
+                <li><a href="health-recreation.htm">Health &amp; Recreation</a></li>
+                <li><a href="housing-dining.htm">Housing &amp; Dining</a></li>
+                <li><a href="http://studentactivities.unt.edu/orgs" onclick="javascript:urchinTracker('/outgoinghome/studentorgs');">Student Orgs</a></li>
+                <li><a href="http://unt.bncollege.com/" onclick="javascript:urchinTracker('/outgoinghome/campusbookstore');">Campus Bookstore</a></li>
+              </ul>
+            </li>
+            
+            <li id="li-mo-about" class="menu-toggler">About UNT »
+              <ul class="toggler-submenu mo-hide">
+                <li><a href="about-unt.htm">All About UNT</a></li>
+                <li><a href="about-unt.htm#admin">Administration</a></li>
+                <li><a href="about-unt.htm#facts">Facts &amp; Reports</a></li>
+                <li><a href="about-unt.htm#globalpartners">Global Partnerships</a></li>
+                <li><a href="about-unt.htm#diversity">Diversity</a></li>
+                <li><a href="http://hr.untsystem.edu/" onclick="javascript:urchinTracker('/outgoinghome/employmenthr');">Employment &amp; HR</a></li>
+              </ul>
+            </li>
+            
+            <li id="li-mo-visit" class="menu-toggler">Visit UNT »
+              <ul class="toggler-submenu mo-hide">
+                <li><a href="visit-unt.htm">Visitors Overview</a></li>
+                <li><a href="http://tours.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/tours');">Take a Tour</a></li>
+                <li><a href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps &amp; Directions</a></li>
+                <li><a href="transit/maps.html" onclick="javascript:urchinTracker('/outgoinghome/parking');">Parking</a></li>
+                <li><a href="calendars-events.htm">Events &amp; Calendars</a></li>
+                <li><a href="community-services.htm">Community Services</a></li>
+                <li><a href="http://untpreview.unt.edu/?homepage=1" onclick="javascript:urchinTracker('/outgoinghome/untpreview');">UNT Preview</a></li>
+                <li><a href="commencement/">Graduation</a></li>
+              </ul>
+            </li>
+            
+            <li id="li-mo-giving" class="menu-toggler">Giving Back »
+              <ul class="toggler-submenu mo-hide">
+                <li><a href="https://giving.unt.edu/?homepage=1" onclick="javascript:urchinTracker('/outgoinghome/giving');">Giving to UNT</a></li>
+                
+                <li><a href="http://www.untalumni.com/" onclick="javascript:urchinTracker('/outgoinghome/alumniassociation');">Alumni Association</a></li>
+                <li><a href="http://communityengagement.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/communityengagement');">Community Engagement</a></li>
+                <li><a href="http://studentaffairs.unt.edu/center-leadership-and-service" onclick="javascript:urchinTracker('/outgoinghome/leadandserve');">Center for Leadership and Service</a></li>
+                <li><a href="https://orgsync.com/browse_orgs/214" onclick="javascript:urchinTracker('/outgoinghome/orgsync');">Student Service Organizations</a></li>
+                <li><a href="giving-back.htm">Other Ways to Give</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </div><!-- /MOBILE MENU -->
+          
+      <div id="mobile-search-block" class="mo-hide">
+        <div class="inside">
+          <form method="get" action="http://www.google.com/u/unorthtexas" id="mobile-sform">
+            <label for="searchterms">Search the UNT web site:</label>
+            <input id="mobile-searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()" />
+            <input name="sa" type="submit" value="Search" id="mobile-sbutton"/>
+          </form>
+        </div>
+      </div><!-- /MOBILE SEARCH -->           
+      
+    </div>
+  </div>
+</div>
+<!-- /MOBILE HEADER -->
+
+<div id="header">
+
+	<div id="user"><div id="user-wrapper">
+
+		<div class="grid-12">
+			<button class="search-button">Search the UNT web site</button>
+
+			<form method="get" action="http://www.google.com/u/unorthtexas" id="sform">        
+				<label for="searchterms">Search the UNT web site:</label>
+				<input id="searchBox" type="text" name="q" value="Search the UNT site" onfocus="document.forms[0].q.select()" />
+				<input name="sa" type="submit" value="Search" id="sbutton"/>
+			</form>
+
+			<ul id="quicklinks" class="mo-hide">
+				<li><a href="http://translate.google.com/translate?u=http%3A//www.unt.edu&langpair=en|es&hl=en&ie=UTF8" onclick="javascript:urchinTracker('/outgoinghome/inspanish');">En Español</a></li>
+				<li><a href="https://my.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/myunt');">MyUNT</a></li>
+				<li><a href="http://eagleconnect.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/eagleconnect');">EagleConnect</a></li>
+				<li><a href="http://learn.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/blackboard');">Blackboard</a></li>
+				<li><a href="http://www.unt.edu/find-people-department.htm">People</a></li>
+				<li><a href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps</a></li>
+				<li><a href="http://www.unt.edu/calendars-events.htm">Calendars</a></li>
+				<li><a href="https://www.applytexas.org/adappc/gen/c_start.WBX">Apply Now</a></li>
+			</ul>
+		</div>
+	</div></div>
+
+	<div id="branding"><div id="branding-wrapper">
+		<div id="branding-std" class="mo-hide">
+			<div class="grid-6" id="site-logo"><a href="http://www.unt.edu/"><img src="images/unt-side-by-side.png" alt="UNT | University of North Texas" /></a></div>
+			<div class="grid-6" id="tagline"><img src="images/greenlight-tagline.png" alt="A Green Light ot Greatness" /></div>
+		</div>
+	</div></div>
+
+<div id="navigation"><div id="nav-wrapper">
+  	<ul id="primary-nav">
+    	<li id="li-home" class="first submenu dropable"><a href="index.htm">Home</a></li>
+    	<li id="li-admissions" class="submenu dropable"><a href="admissions.htm">Admissions</a>
+        <ul>
+					<li><a href="admissions.htm">Admissions Overview</a></li>
+					<li><a href="http://apply.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/vwbkfreshman');">Freshman</a></li>
+					<li><a href="http://transfernow.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/vwbktransfer');">Transfer</a></li>
+					<li><a href="http://tsgs.unt.edu/overview" onclick="javascript:urchinTracker('/outgoinghome/vwbkgraduate');">Graduate</a></li>
+					<li><a href="http://international.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/international');">International</a></li>
+					<li><a href="paying-for-college.htm">Paying for College</a></li>
+					<li><a href="https://www.applytexas.org/adappc/gen/c_start.WBX" onclick="javascript:urchinTracker('/outgoinghome/applyonline');">Apply Online</a></li>
+        </ul>
+      </li>
+      
+      <li id="li-academics" class="submenu dropable"><a href="academics.htm">Academics</a>
+      	<ul>
+					<li><a href="academics.htm">Academics Overview</a></li>
+					<li><a href="majors-catalogs.htm">Majors &amp; Catalogs</a></li>
+					<li><a href="colleges-schools.htm">Colleges &amp; Schools</a></li>
+					<li><a href="classes-registration.htm" onclick="javascript:urchinTracker('/outgoinghome/classes-registration');">Classes &amp; Registration</a></li>
+					<li><a href="aid-tuition.htm">Tuition &amp; Financial Aid</a></li>
+					<li><a href="library-technology.htm">Libraries &amp; Technology</a></li>
+					<li><a href="distance-learning.htm">Distance Learning</a></li>
+        </ul>
+			</li>
+      
+      <li id="li-research" class="submenu dropable"><a href="http://research.unt.edu/">Research</a>
+      <ul>
+                    <li><a href="http://research.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/research');">Research Home</a></li>
+                  <li><a href="http://vpaa.unt.edu/centers-institutes.htm" onclick="javascript:urchinTracker('/outgoinghome/vpaacentersinstitutes');">Centers &amp; Institutes</a></li>
+                  <li><a href="http://research.unt.edu/global-impact" onclick="javascript:urchinTracker('/outgoinghome/researchglobalimpact');">Global Impact</a></li>
+                  <!--li><a href="http://research.unt.edu/clusters/" onclick="javascript:urchinTracker('/outgoinghome/researchclusters');">Research Clusters</a></li-->
+                  <li><a href="http://discoverypark.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/discoverypark');">Discovery Park</a></li>
+                  <li><a href="http://research.unt.edu/faculty-resources" onclick="javascript:urchinTracker('/outgoinghome/researchfacultyresources');">Faculty Resources</a></li>
+      </ul>
+      </li>
+
+      <li id="li-athletics" class="submenu dropable"><a href="http://www.meangreensports.com/">Athletics</a>
+        <ul>
+                    <li><a href="http://www.meangreensports.com/" onclick="javascript:urchinTracker('/outgoinghome/athletics');">Mean Green Sports</a></li>
+                    <li><a href="http://www.meangreensports.com/tickets/" onclick="javascript:urchinTracker('/outgoinghome/athleticstickets');">Mean Green Tickets</a></li>
+                    <li><a href="http://www.meangreenmap.com/index-t.html" onclick="javascript:urchinTracker('/outgoinghome/athleticsmap');">Maps &amp; Parking</a></li>
+                    <li><a href="http://shop.meangreensports.com" onclick="javascript:urchinTracker('/outgoinghome/athleticsstore');">Mean Green Store</a></li>
+                    <li><a href="http://www.meangreensports.com/academics/" onclick="javascript:urchinTracker('/outgoinghome/athleticsacademics');">Student-Athletes Support Services</a></li>
+                    <li><a href="http://www.meangreensports.com/recruits/" onclick="javascript:urchinTracker('/outgoinghome/athleticsrecruits');">Recruits</a></li>
+                    <li><a href="http://www.meangreensports.com/sports/mg-club/ntex-mg-club-body.html" onclick="javascript:urchinTracker('/outgoinghome/athleticsmeangreenclub');">Mean Green Club</a></li>
+        </ul>
+      </li>
+
+      <li id="li-campus" class="submenu dropable"><a href="campus-life.htm">Campus Life</a>
+        <ul>
+					<li><a href="campus-life.htm">Campus Life Overview</a></li>
+					<li><a href="arts-entertainment.htm">Arts &amp; Entertainment</a></li>
+					<li><a href="health-recreation.htm">Health &amp; Recreation</a></li>
+					<li><a href="housing-dining.htm">Housing &amp; Dining</a></li>
+					<li><a href="http://studentactivities.unt.edu/orgs" onclick="javascript:urchinTracker('/outgoinghome/studentorgs');">Student Orgs</a></li>
+					<li><a href="http://unt.bncollege.com/" onclick="javascript:urchinTracker('/outgoinghome/campusbookstore');">Campus Bookstore</a></li>
+        </ul>
+      </li>
+
+      <li id="li-about" class="submenu dropable"><a href="about-unt.htm">About UNT</a>
+        <ul>
+					<li><a href="about-unt.htm">All About UNT</a></li>
+                    <li><a href="about-unt.htm#admin">Administration</a></li>
+                    <li><a href="about-unt.htm#facts">Facts &amp; Reports</a></li>
+                    <li><a href="about-unt.htm#globalpartners">Global Partnerships</a></li>
+                    <li><a href="about-unt.htm#diversity">Diversity</a></li>
+                    <li><a href="http://hr.untsystem.edu/" onclick="javascript:urchinTracker('/outgoinghome/employmenthr');">Employment &amp; HR</a></li>
+        </ul>
+      </li>
+
+      <li id="li-visit" class="submenu dropable"><a href="visit-unt.htm">Visit UNT</a>
+        <ul>
+        			<li><a href="visit-unt.htm">Visitors Overview</a></li>
+					<li><a href="http://tours.unt.edu" onclick="javascript:urchinTracker('/outgoinghome/tours');">Take a Tour</a></li>
+                    <li><a href="http://maps.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/maps');">Maps &amp; Directions</a></li>
+                    <li><a href="transit/maps.html" onclick="javascript:urchinTracker('/outgoinghome/parking');">Parking</a></li>
+                    <li><a href="calendars-events.htm">Events &amp; Calendars</a></li>
+                    <li><a href="community-services.htm">Community Services</a></li>
+                    <li><a href="http://untpreview.unt.edu/?homepage=1" onclick="javascript:urchinTracker('/outgoinghome/untpreview');">UNT Preview</a></li>
+                    <li><a href="commencement/">Graduation</a></li>
+        </ul>
+      </li>
+
+      <li id="li-giving" class="last submenu dropable"><a href="https://giving.unt.edu" class="">Giving Back</a>
+        <ul>
+					<li><a href="https://giving.unt.edu/?homepage=1" onclick="javascript:urchinTracker('/outgoinghome/giving');">Giving to UNT</a></li>
+					<li><a href="http://www.untalumni.com/" onclick="javascript:urchinTracker('/outgoinghome/alumniassociation');">Alumni Association</a></li>
+					<li><a href="http://communityengagement.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/communityengagement');">Community Engagement</a></li>
+					<li><a href="http://studentaffairs.unt.edu/center-leadership-and-service" onclick="javascript:urchinTracker('/outgoinghome/leadandserve');">Center for Leadership and Service</a></li>
+					<li><a href="https://orgsync.com/browse_orgs/214" onclick="javascript:urchinTracker('/outgoinghome/orgsync');">Student Service Organizations</a></li>
+                    <li><a href="giving-back.htm">Other Ways to Give</a></li>
+        </ul>
+      </li>
+    </ul>
+	
+	</div></div>
+
+</div><!-- /DESKTOP VIEWPORT HEADER -->
+
+<!--------------------------------------------------------------------------------------------------------------------------
+----------------------- DO NOT TOUCH ANYTHING ABOVE THIS LINE, EXCEPT THE <title> IN THE HEAD ------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+----------------------- ALL PAGE CONTENT STARTS BELOW ----------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+<!-- PAGE TITLE -->
+
+
+<div id="page-title"><div class="inside">
+
+
+	<h2>Events &amp; Calendars</h2>
+
+
+</div></div>
+
+
+
+
+
+<!-- FEATURE AREA -->
+
+
+<div id="feature">
+
+
+		<div class="slide">
+
+		<div id="desktop-feature-img-container" class="mobile-hide"><div id="desktop-feature-img-wrapper"><div class="fitimg">
+
+			<img src="images/features/calendars-events.jpg" alt="feature img" width="1400" height="420" class="fitimg"/>
+
+		</div></div></div>
+
+		<div id="mobile-feature-img-container" class="desktop-hide"><div id="mobile-feature-img-wrapper"><div class="fitimg">
+
+			<img src="images/features/calendars-events.jpg" alt="feature img" width="675" height="387" class="fitimg"/>
+
+		</div></div></div>
+        
+		<div id="feature-copy" class="copy right-top bg-dark-unt-green-tr"><div class="inside">
+
+
+			<h5 class="feature-shortdeck">More than 1000 musical concerts, art exhibitions and theater productions are offered by students and faculty annually.</h5>
+
+
+		</div></div>
+
+
+		
+
+
+	</div>
+
+
+</div>
+
+
+
+
+
+<!-- CONTENT AREA -->
+
+
+<div id="content"><div id="content-wrapper">
+
+
+	
+
+
+	<div class="grid-9 main-content"><div class="inside"><!-- BEGIN CONTENT AREA -->
+
+
+	
+
+
+<!----------------------------------------------------
+
+
+---------- START HERE WITH YOUR MAIN CONTENT ---------
+
+
+----------------------------------------------------->
+
+
+   	
+
+
+		<h3 id="item-1" class="toggler">UNT event calendars</h3>
+
+
+		<div id="collapse-item-1" class="toggler-content mo-hide">
+
+
+			<ul>
+
+
+				<li><a href="http://calendar.unt.edu/">UNT event calendar</a></li>
+
+
+				<li><a href="http://music.unt.edu/calendar/">Music events calendar</a></li>
+
+
+				<li><a href="http://onlyfans.cstv.com/schools/ntex/scoreboard">Athletics events</a></li>
+
+
+				<li><a href="http://union.unt.edu/fas">Fine Arts Series calendar</a></li>
+
+
+			</ul>
+
+
+			
+
+
+			<p class="vert-spacer">&nbsp;</p>
+
+
+		</div>
+
+        <a name="academiccalendars" id="academiccalendars"></a>
+        
+<h3 id="item-2" class="toggler">UNT academic calendars</h3>
+
+
+        <div id="collapse-item-2" class="toggler-content mo-hide">
+
+
+            <ul>
+
+
+                <li><a href="http://www.unt.edu/catalogs/2015-16/calendar.htm">Academic calendar 2015-2016</a> Fall 2015 - Summer 2016</li>
+                <li><a href="http://www.unt.edu/catalogs/2016-17/calendar.htm">Academic calendar 2016-2017</a> Fall 2016 - Summer 2017</li>
+                <li><a href="http://calendar.unt.edu/event-calendar/Academics">Academic calendar</a></li>
+                <!--li><a href="http://catalog.unt.edu/content.php?catoid=5&amp;navoid=239">Academic calendar</a></li-->
+                <li><a href="http://hr.untsystem.edu/employees/holidays">Dates UNT is closed</a></li>
+
+
+                </ul>
+
+
+            
+
+
+            <p class="vert-spacer">&nbsp;</p>
+
+
+        </div>
+
+
+        <h3 id="item-3" class="toggler">Denton area event calendars</h3>
+
+
+        <div id="collapse-item-3" class="toggler-content mo-hide">
+
+
+            <ul>
+
+
+            	<li><a href="http://www.discoverdenton.com/calendar/">Denton Convention and Visitor Bureau event calendar</a></li>
+
+
+            </ul>
+
+
+            
+
+
+            <p class="vert-spacer">&nbsp;</p>
+
+
+        </div>
+
+
+        <h3 id="item-4" class="toggler">Featured upcoming, current and past events</h3>
+
+
+        <div id="collapse-item-4" class="toggler-content mo-hide">
+
+
+            <ul>
+                 <li><a href="http://registrar.unt.edu/exams/final-exam-schedule/spring">Spring 2016 Final Exam schedule</a></li>
+                 <li><a href="http://calendar.unt.edu/eagles-refuge-3">Eagles Refuge</a></li>
+                 <li><a href="http://commencement.unt.edu/">Commencement</a></li>
+                 <li><a href="http://registrar.unt.edu/registration/summer-3w1-8w1-and-sum-sessions">Summer 2016 3W1, 8W1 and SUM classes begin</a></li>
+            </ul>
+
+
+            <p class="vert-spacer">&nbsp;</p>
+
+
+        </div>
+
+
+        <h3 id="item-5" class="toggler">Faculty and staff events</h3>
+         
+
+
+        <div id="collapse-item-5" class="toggler-content mo-hide">
+            <ul>           
+               <li><a href="http://registrar.unt.edu/exams/final-exam-schedule/spring">Spring 2016 Final Exam schedule</a></li>
+                 <li><a href="http://commencement.unt.edu/">Commencement</a></li>
+                 <li><a href="http://registrar.unt.edu/registration/summer-3w1-8w1-and-sum-sessions">Summer 2016 3W1, 8W1 and SUM classes begin</a></li>
+                 <li><a href="http://calendar.unt.edu/2016-memorial-day-university-closed">2016 Memorial Day - University closed</a></li>
+            </ul>
+
+
+            
+
+
+            <p class="vert-spacer">&nbsp;</p>
+
+
+        </div>
+
+
+        <h3 id="item-6" class="toggler">Summer camps</h3>
+
+
+        <div id="collapse-item-6" class="toggler-content mo-hide">
+
+
+            <ul>
+
+
+             
+
+
+                <li><a href="http://efec.unt.edu/">Elm Fork Explorer's camp</a></li>
+
+
+                <li><a href="http://capstone.cse.unt.edu/robocamp">UNT Robocamp</a></li>
+
+
+                <li><a href="http://music.unt.edu/about/workshops">Music camps</a></li>
+
+
+                <!--li><a href="http://www.meangreenworkshops.com">Debate camp</a></li-->
+
+
+                <li><a href="http://www.meangreensports.com/camps/camps-clinics.html">Athletic camps</a></li>
+
+
+            </ul>
+
+
+            
+
+
+            <p class="vert-spacer">&nbsp;</p>
+
+
+        </div>
+
+
+        <h3 id="item-7" class="toggler">Directions to UNT</h3>
+
+
+        <div id="collapse-item-7" class="toggler-content mo-hide">
+
+
+            <ul>
+
+
+                <li><a href="http://maps.unt.edu/">Campus map</a></li>
+
+
+                <li><a href="http://maps.unt.edu/">Directions to campus</a></li>
+
+
+            </ul>
+
+
+            <p class="vert-spacer">&nbsp;</p>
+
+
+        </div>
+
+
+	    
+
+
+
+
+
+    		
+
+
+<!----------------------------------------------------
+
+
+------------ STOP HERE WITH YOUR CONTENT ------------
+
+
+----------------------------------------------------->
+
+
+
+
+
+	</div></div><!-- /CONTENT AREA -->
+
+
+
+
+
+	<div class="grid-3 sidebar"><div class="inside">
+
+
+
+
+
+<!----------------------------------------------------
+
+
+-------- START HERE WITH YOUR SIDEBAR CONTENT --------
+
+
+----------------------------------------------------->
+
+
+	
+
+
+  	<div class="color-box bg-light-blue">
+
+
+    	<h4 class="boxed">Coming to campus for the first time?</h4>
+
+
+      <p>The university is located in Denton, a town of  about 100,000 people only 36 miles north of Dallas-Fort Worth, the  country's fourth-largest metropolitan area.</p>
+
+
+      <ul class="not-centered">
+
+
+      <li><a href="http://maps.unt.edu/">Campus map</a></li>
+
+
+    <li><a href="http://www.unt.edu/transit/parking_faq.html">Visitor parking on campus</a></li>
+
+
+    <li><a href="http://www.unt.edu/transit/maps.html">UNT Parking maps</a></li>
+
+
+    </ul>
+
+
+    </div>
+
+
+    <p class="vert-spacer">&nbsp;</p>
+	
+<div class="mo-hide">
+
+	<p class="green-header">Campus events</p>
+
+	<table id="calendar"></table>
+
+	<p><a href="http://calendar.unt.edu">(view all events)</a></p>
+
+</div>
+	    <p class="vert-spacer">&nbsp;</p>
+
+
+
+
+<!----------------------------------------------------
+
+
+-------- STOP HERE WITH YOUR SIDEBAR CONTENT ---------
+
+
+----------------------------------------------------->
+
+
+	
+
+
+	</div></div><!-- /SIDEBAR AREA -->
+
+
+
+
+
+</div></div><!-- /MAIN CONTENT -->
+
+<!--------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+------------------------- DO NOT TOUCH ANYTHING BELOW THIS LINE, BUT FOR THE "last updated" DATE ---------------------------
+----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------->
+
+<div id="footer" itemscope itemtype="http://schema.org/Organization"><div id="footer-wrapper">
+
+		<div class="grid-3" id="footer-logo">
+			<div class="content clearfix" itemprop="logo">
+				<a href="http://www.unt.edu/"><img src="images/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" class="footer-logo" height="150px" width="245px" /></a>
+			</div>
+		</div>
+
+		<div id="mobile-footer-branding">
+			<div id="mobile-footer-logo"><div class="inside">
+				<img src="images/unt-stacked-mcconnell.png" alt="UNT | University of North Texas" height="150px" width="245px" />
+			</div></div>
+
+			<div id="mobile-footer-tagline"><div class="inside">
+				<img src="images/greenlight-tagline.png" alt="A Green Light ot Greatness" height="30px" width="268px" />
+			</div></div>
+			
+		</div>
+
+		<div class="grid-3" id="footer-visit">
+			<div class="content">
+        <h3 id="footer-1" class="footer-toggler footer-title">Visit Us</h3>
+
+				<div id="collapse-footer-1" class="footer-toggler-content footer-hide">
+	      	<p class="footer-block-content"><span itemprop="name"><strong>University of North Texas</strong></span><br />
+	      	<span itemprop="PostalAddress">1155 Union Circle #311277<br />
+	      	Denton, Texas 76203-5017</span><br />
+	      	<span class="map-link"><a href="https://goo.gl/maps/iIYM4">[map]</a> | <a href="visit-unt.htm">Tour Information</a></span></p>
+				</div>
+      </div>
+    </div>
+
+    <div class="grid-3" id="footer-mail">
+    	<div class="content">
+        <h3 id="footer-2" class="footer-toggler footer-title">Email Us</h3>
+
+				<div id="collapse-footer-2" class="footer-toggler-content footer-hide">
+	      	<ul class="footer-block-content footer-emails">
+						<li><a href="mailto:unt.freshmen@unt.edu" itemprop="email">Freshmen admissions</a></li>
+						<li><a href="mailto:unt.transfer@unt.edu" itemprop="email">Transfer admissions</a></li>
+						<li><a href="mailto:graduateschool@unt.edu" itemprop="email">Graduate admissions</a></li>
+						<li><a href="mailto:international@unt.edu" itemprop="email">International admissions</a></li>
+						<li><a href="mailto:housinginfo@unt.edu" itemprop="email">Housing information</a></li>
+	      	</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid-3" id="footer-contact">
+			<div class="content">
+        <h3 id="footer-3" class="footer-toggler footer-title">Contact Us</h3>
+
+				<div id="collapse-footer-3" class="footer-block-content footer-toggler-content footer-hide">
+	      	<p style="margin-bottom: 24px;" itemprop="telephone"><a href="tel:+19405652000"><span class="phone-lg">940-565-2000</span></a><br />
+					<a href="find-people-department.htm">University Directory</a></p>
+
+					<p style="padding-top: 0 !important;"><a href="mailto:urcm@unt.edu">Technical problems?</a></p>
+				</div>
+
+			</div>
+		</div>
+
+</div></div><!-- /FOOTER -->
+
+<div id="state-links">
+	<div id="state-wrapper">
+
+		<div class="grid-12 state-links">
+	    <div class="content">
+
+<!--************************************************************************************************************************
+*************************************** LAST UPDATED DATE GOES IN THE LINE BELOW *******************************************
+*************************************************************************************************************************-->
+
+	      <p class="updated">Last updated <span><strong>May 2, 2016</strong></span><span class="mobile">&nbsp;&nbsp;|&nbsp;&nbsp;<a href="important-links.htm">Important Links</a></span></p>
+
+	      <p class="sate-links-list mo-hide"><a href="http://www.unt.edu/disclaimer.htm" onclick="javascript:urchinTracker('/outgoinghome/disclaimer');">Disclaimer</a>&nbsp; | &nbsp;<a href="http://www.unt.edu/ada.htm" onclick="javascript:urchinTracker('/outgoinghome/aaeeada');">AA/EOE/ADA</a>&nbsp; | &nbsp;<a href="http://www.unt.edu/unt_ps.html" onclick="javascript:urchinTracker('/outgoinghome/privacy');">Privacy</a>&nbsp; | &nbsp; <a href="http://policy.unt.edu/policy-by-number/5" onclick="javascript:urchinTracker('/outgoinghome/electronicaccessibility');">Electronic Accessibility</a>&nbsp; | &nbsp;<a href="http://www.unt.edu/state-texas.htm" onclick="javascript:urchinTracker('/outgoinghome/statetxlink');">State of Texas Online</a>&nbsp; | &nbsp;<a href="http://emergency.unt.edu/" onclick="javascript:urchinTracker('/outgoinghome/emergencyprepare');">Emergency Preparedness</a>&nbsp; | &nbsp;<a href="http://www.txhighereddata.org/approot/resumes/ir_launch.htm">THECB Online Resume System</a><br />
+
+	      <a href="http://www.unt.edu/consumer-info.htm" onclick="javascript:urchinTracker('/outgoinghome/studentconsumerinfo');">Student Consumer Information</a>&nbsp; | &nbsp;<a href="http://compliance.untsystem.edu/hotline" onclick="javascript:urchinTracker('/outgoinghome/compliancehotline');">UNT Compliance Hotline</a>&nbsp; | &nbsp;<a href="http://governor.state.tx.us/disabilities/">Governors Committee on People with Disabilities</a>&nbsp; | &nbsp;<a href="http://veterans.portal.texas.gov/en/Pages/default.aspx">Texas Veterans Portal</a>&nbsp; | &nbsp;<a href="http://www.unt.edu">UNT Home</a></p>
+
+	    </div>
+		</div>
+
+	</div>
+</div>
+
+<div id="social-icons" class="mo-hide">
+	<div class="social-icon"><a href="https://www.facebook.com/northtexas" class="facebook" title="facebook" onclick="javascript:urchinTracker('/outgoinghome/facebook');"><img src="images/icon-facebook.png" alt="facebook" /></a></div>
+	<div class="social-icon"><a href="https://twitter.com/untnews" class="twitter" title="twitter" onclick="javascript:urchinTracker('/outgoinghome/twitter');"><img src="images/icon-twitter.png" alt="twitter" /></a></div>
+	<div class="social-icon"><a href="http://www.youtube.com/user/universitynorthtexas" class="youtube" title="YouTube" onclick="javascript:urchinTracker('/outgoinghome/youtube');"><img src="images/icon-youtube.png" alt="YouTube" /></a></div>
+	<div class="social-icon"><a href="http://m.unt.edu/" class="togo" title="UNT ToGo" onclick="javascript:urchinTracker('/outgoinghome/unttogo');"><img src="images/icon-mobile.png" alt="UNT ToGo" /></a></div>
+	<div class="social-icon"><a href="http://social.unt.edu/?homepage=1" class="social-directory" title="UNT Social Media Directory" onclick="javascript:urchinTracker('/outgoinghome/socialmediadirectory');"><img src="images/icon-directory.png" alt="UNT Social Media Directory" /></a></div>
+</div>
+
+<script src="/assets/js/data/studentlife-feed.js" type="text/javascript"></script>
+<script type="text/javascript">
+	calendar_widget.render();
+</script>
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+	_uacct = "UA-368058-1";
+	urchinTracker();
+</script>
+
+</body>
+
+</html>
